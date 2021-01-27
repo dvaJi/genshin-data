@@ -22,7 +22,7 @@ describe('Materials Spanish', () => {
   it('should return all materials', async () => {
     const genshinData = new GenshinData({ language: 'spanish' });
     const materials = await genshinData.materials();
-    expect(materials.length).toEqual(85);
+    expect(materials.length).toEqual(116);
   });
 
   it('should contains all mandatory fields', async () => {
