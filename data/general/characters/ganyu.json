@@ -1,0 +1,196 @@
+{
+  "id": "ganyu",
+  "name": "Ganyu",
+  "description": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+  "weapon_type": "Bow",
+  "element": "Cryo",
+  "gender": "Female",
+  "region": "Liyue",
+  "rarity": 5,
+  "location": "Wish",
+  "titles": ["Plenilune Gaze", "Little Miss Ganyu  (by Uncle Tian)"],
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "Liutian Archery",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Perform up to 6 consecutive shots with a bow.<br><p><b>Charged Attack:</b> Perform a more precise <b>Aimed Shot</b> with increased DMG. While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:<br></p><ul><li>Charge Level 1: Fires off an icy arrow that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span>.</li><li>Charge Level 2: Fires off a Frostflake Arrow that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span>.</li></ul><p>The Frostflake Arrow blooms after hitting its target, dealing <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span>.<br><b>Plunging Attack:</b> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "Trail of the Qilin",
+      "type": "Elemental Skill",
+      "description": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span>.<br><p><b>Ice Lotus: </b></p><ul><li>Continuously taunts surrounding opponents, attracting them to attack it.</li><li>Endurance scales based on Ganyu's Max HP.</li><li>Blooms profusely when destroyed or once its duration ends, dealing <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span>.<br></li></ul><p>Generates <b>2</b> elemental particles when the creation hits at least 1 target, and <b>2</b> elemental particles when the explosion hits at least 1 target</p>",
+      "modifiers": []
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Celestial Shower",
+      "type": "Elemental Burst",
+      "description": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.<br><p>During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing <span style=\"color:#4878a8\"><b>Cryo DMG</b></span>.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "undivided_heart",
+      "name": "Undivided Heart",
+      "description": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "harmony_between_heaven_and_earth",
+      "name": "Harmony between Heaven and Earth",
+      "description": "Celestial Shower grants a 20% <span style=\"color:#4878a8\"><b>Cryo DMG Bonus</b></span> to active members in the AoE.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "preserved_for_the_hunt",
+      "name": "Preserved for the Hunt",
+      "description": "Refunds 15% of the ores used when Bow-type weapons.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "dewdrinker",
+      "name": "Dew-Drinker",
+      "description": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' Cryo RES by 15% for 6s.\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
+      "level": 1
+    },
+    {
+      "id": "the_auspicious",
+      "name": "The Auspicious",
+      "description": "Trail of the Qilin gains 1 additional charge.",
+      "level": 2
+    },
+    {
+      "id": "cloudstrider",
+      "name": "Cloud-Strider",
+      "description": "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "westward_sojourn",
+      "name": "Westward Sojourn",
+      "description": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time. Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE.",
+      "level": 4
+    },
+    {
+      "id": "the_merciful",
+      "name": "The Merciful",
+      "description": "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "the_clement",
+      "name": "The Clement",
+      "description": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 3 },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 10 },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 20 },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 30 },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12
+      },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 45 },
+      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20
+      },
+      "mat3": { "id": "qingxin", "name": "Qingxin", "amount": 60 },
+      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 24 }
+    }
+  ]
+}

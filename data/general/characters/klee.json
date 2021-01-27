@@ -1,0 +1,220 @@
+{
+  "id": "klee",
+  "name": "Klee",
+  "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
+  "weapon_type": "Catalyst",
+  "element": "Pyro",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "location": "Wish",
+  "titles": ["Fleeing Sunlight", "Spark Knight", "Red Burny Girl (by Razor)"],
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Kaboom!",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina and deals <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> to opponents after a short casting time.<br><b>Plunging Attack:</b> Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> upon impact with the ground.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Jumpy Dumpty",
+      "type": "Elemental Skill",
+      "description": "Jumpy Dumpty is tons of boom-bang-fun!<br><p>When thrown, Jumpy Dumpty bounces thrice, igniting and dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> with every bounce.<br>On the third bounce, the bomb splits into <b>8</b> mines. The mines will explode upon contact with opponents, or after a short period of time, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.<br>Starts with 2 charges.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Sparks 'n' Splash",
+      "type": "Elemental Burst",
+      "description": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 Sparks 'n' Splash to attack nearby opponents, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise",
+      "description": "When Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "sparkling_burst",
+      "name": "Sparkling Burst",
+      "description": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "all_of_my_treasures",
+      "name": "All Of My Treasures!",
+      "description": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "chained_reactions",
+      "name": "Chained Reactions",
+      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+      "level": 1
+    },
+    {
+      "id": "explosive_frags",
+      "name": "Explosive Frags",
+      "description": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.",
+      "level": 2
+    },
+    {
+      "id": "exquisite_compound",
+      "name": "Exquisite Compound",
+      "description": "Increases the level of Jumpy Dumpty by 3. Maximum level is 15.",
+      "level": 3
+    },
+    {
+      "id": "sparkly_explosion",
+      "name": "Sparkly Explosion",
+      "description": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+      "level": 4
+    },
+    {
+      "id": "nova_burst",
+      "name": "Nova Burst",
+      "description": "Increases the level of Sparks 'n' Splash by 3. Maximum level is 15.",
+      "level": 5
+    },
+    {
+      "id": "blazing_delight",
+      "name": "Blazing Delight",
+      "description": "While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy.\nWhen Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Divining Scroll",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 20
+      },
+      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 12 }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 30
+      },
+      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 18 }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Forbidden Curse Scroll",
+        "amount": 24
+      }
+    }
+  ]
+}

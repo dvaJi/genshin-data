@@ -1,0 +1,239 @@
+{
+  "id": "mona",
+  "name": "Mona",
+  "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+  "weapon_type": "Catalyst",
+  "element": "Hydro",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "location": "Wish",
+  "titles": ["Astral Reflection", "Enigmatic Astrologer"],
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Ripple of Fate",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Perform up to 4 water splash attacks that deal <span style=\"color:#0b4dda\"><b>Hydro DMG</b></span>.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to deal <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> after a short casting time.<br><b>Plunging Attack:</b> Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> upon impact with the ground.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Mirror Reflection of Doom",
+      "type": "Elemental Skill",
+      "description": "Creates an illusory Phantom of fate from coalesced waterspouts.<br><p>The <b>Phantom</b> has the following special properties:</p><ul><li>Continuously taunts nearby opponents, attracting their fire.</li><li>Each second, 4 times, deals <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span>.</li><li>When its duration expires, the Phantom explodes, dealing <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span>.</li></ul><p><b>Hold:</b> Utilizes water currents to move backwards swiftly before conjuring a Phantom<br>Only one Phantom created by Mirror Reflection of Doom can exist at any time.<br>When the Phantom explodes and hits at least one opponent, it generates <b>3</b> elemental particles.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Illusory Torrent",
+      "type": "Alternate Sprint",
+      "description": "<b>Alternate Sprint:</b> Mona cloaks herself within the water's flow, consuming stamina to move rapidly.<br><p>When under the effect of Illusory Torrent, Mona can move at high speed on water.<br>Applies the <span style=\"color:#0b4dda\"><b>Wet</b></span> status to nearby opponents when she reappears.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Stellaris Phantasm",
+      "type": "Elemental Burst",
+      "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to the opponents in a large AoE.<br><p><b>Illusory Bubble:</b> Traps opponents inside a pocket of destiny and also makes them <span style=\"color:#0b4dda\"><b>Wet</b></span>. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:</p><ul><li>Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.</li><li>Removes the Illusory Bubble, dealing <span style=\"color:#0b4dda\"><b>Hydro</b></span> DMG in the process.</li></ul><p><b>Omen:</b> During its duration, increases DMG taken by opponents.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "come_n_get_me_hag",
+      "name": "Come 'n' Get Me, Hag!",
+      "description": "After she has used <b>Illusory Torrent</b> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.<br><p>A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.</p>",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "waterborne_destiny",
+      "name": "Waterborne Destiny",
+      "description": "Increases Mona's <span style=\"color:#0b4dda\"><b>Hydro DMG Bonus</b></span> by a degree equivalent to 20% of her Energy Recharge rate.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "principium_of_astrology",
+      "name": "Principium of Astrology",
+      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund one count of one material out of all the crafting materials used.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion",
+      "description": "The effects of Hydro-related Elemental Reactions are enhanced for 8s after any of your characters in the party hit an opponent affected by an Omen:\nElectro-Charged DMG is increased by 15%.\nVaporize DMG is increased by 15%.\nHydro Swirl DMG is increased by 15%.\nThe duration for which enemies are Frozen is increased by 15%.",
+      "level": 1
+    },
+    {
+      "id": "lunar_chain",
+      "name": "Lunar Chain",
+      "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s.",
+      "level": 2
+    },
+    {
+      "id": "restless_revolution",
+      "name": "Restless Revolution",
+      "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "prophecy_of_oblivion",
+      "name": "Prophecy of Oblivion",
+      "description": "When any character in the party attacks an opponent affected by the Omen status effect, their CRIT Rate is increased by 15%.",
+      "level": 4
+    },
+    {
+      "id": "mockery_of_fortuna",
+      "name": "Mockery of Fortuna",
+      "description": "Increase the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "rhetorics_of_calamitas",
+      "name": "Rhetorics of Calamitas",
+      "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG her next Charged Attack per second of movement. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 45
+      },
+      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 60
+      },
+      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 24 }
+    }
+  ]
+}

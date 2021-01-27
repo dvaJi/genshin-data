@@ -1,0 +1,63 @@
+{
+  "tier": {
+    "maindps": {
+      "c": 0,
+      "tier": 0
+    },
+    "subdps": {
+      "c": 0,
+      "tier": 0
+    }
+  },
+  "builds": [
+    {
+      "id": "ice_rocket_launcher",
+      "name": "Ice Rocket Launcher",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Amos' Bow", "order": 1 },
+        { "name": "Sacrificial Bow", "order": 2 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Wanderer's Troupe" }, "order": 1 },
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Celestial Shower",
+      "description": "",
+      "role": "Sub DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "Sacrificial Bow", "order": 2 },
+        { "name": "The Stringless", "order": 3 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 2
+        },
+        { "set_1": { "name": "Gladiator's Finale" }, "order": 1 },
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+    }
+  ]
+}

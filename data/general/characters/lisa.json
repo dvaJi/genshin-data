@@ -1,0 +1,216 @@
+{
+  "id": "lisa",
+  "name": "Lisa",
+  "description": "The languid but knowledgeable Librarian of the Knights of Favonius who was deemed by Sumeru Academia to be their most distinguished graduate in the past two centuries.",
+  "weapon_type": "Catalyst",
+  "element": "Electro",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "location": "Wish",
+  "titles": ["Witch of Purple Rose", "The Librarian"],
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Lightning Touch",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 4 Electro attacks, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span>.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to deal <span style=\"color:#9336b0\"><b>Electro DMG</b></span> after a short casting time.<br><b>Plunging Attack:</b> Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#9336b0\"><b>AoE Electro DMG</b></span> upon impact with the ground.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "violet_arc",
+      "name": "Violet Arc",
+      "type": "Elemental Skill",
+      "description": "Channels the power of lightning to sweep bothersome matters away<br><p><b>Press:</b> Releases a homing lightning orb. On hit, it deals <span style=\"color:#9336b0\"><b>Electro DMG</b></span>, and applies a stack of the Conductive status (Max 3 stacks) to opponents in a small AoE.<br><b>Hold:</b> After an extended casting time, calls down lightning from the heavens, dealing massive <span style=\"color:#9336b0\"><b>Electro DMG</b></span> to all nearby opponents.<br>Deals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them and clears their Conductive status.<br>Hold generate <b>5</b> elemental particles when it hit at least 1 target.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Lightning Rose",
+      "type": "Elemental Burst",
+      "description": "Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span>.<br><p>The Lightning Rose will continuously emit lightning to knock back opponents and deal <span style=\"color:#9336b0\"><b>Electro DMG</b></span> for so long as it persists.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "induced_aftershock",
+      "name": "Induced Aftershock",
+      "description": "Hits by Violet Arc's Conductive status to opponents.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "static_electricity_field",
+      "name": "Static Electricity Field",
+      "description": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "general_pharmaceutics",
+      "name": "General Pharmaceutics",
+      "description": "When Lisa crafts a potion, she has a 20% chance to refund one count of one material out of all the crafting materials used.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "infinite_circuit",
+      "name": "Infinite Circuit",
+      "description": "Lisa recovers 2 Energy for every opponent hit while holding Violet Arc. A maximum of 10 Energy can be regenerated in this manner at any one time.",
+      "level": 1
+    },
+    {
+      "id": "electromagnetic_field",
+      "name": "Electromagnetic Field",
+      "description": "Holding Violet Arc has the following effects:\nIncreases DEF by 25%.\nIncreases Lisa's resistance to interruption.",
+      "level": 2
+    },
+    {
+      "id": "resonant_thunder",
+      "name": "Resonant Thunder",
+      "description": "Increases the level of Lightning Rose by 3. Maximum level upgrade is 15.",
+      "level": 3
+    },
+    {
+      "id": "plasma_eruption",
+      "name": "Plasma Eruption",
+      "description": "Increases the number of lightning bolts released by Lightning Rose by 1-3.",
+      "level": 4
+    },
+    {
+      "id": "electrocute",
+      "name": "Electrocute",
+      "description": "Increases the level of Violet Arc by 3. Maximum level upgrade is 15.",
+      "level": 5
+    },
+    {
+      "id": "pulsating_witch",
+      "name": "Pulsating Witch",
+      "description": "When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.This effect can only occur once every 5s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 3 },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 2
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 10 },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 4
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 20 },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 8
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 30 },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 12
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 45 },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 20
+      },
+      "mat3": { "id": "valberry", "name": "Valberry", "amount": 60 },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24
+      }
+    }
+  ]
+}

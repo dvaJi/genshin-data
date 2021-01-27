@@ -1,0 +1,115 @@
+{
+  "id": "ganyu",
+  "name": "Ganyu",
+  "description": "La secretaria del pabellón Yuehai. La sangre de los Qilin, una bestia iluminada, fluye por sus venas .",
+  "titles": ["La Vigía del Plenilunio"],
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "Técnica de tiro Liutian",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Ejecuta hasta 6 disparos consecutivos.</p><p><b>Ataque Cargado:</b> Ejecuta un Disparo Preciso. Mientras apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de cuánto tiempo se ha cargado: </p><ul><li>Carga 1: Dispara una flecha congelada que inflige Daño Cryo.</li><li>Carga 2: Dispara una flecha helada que inflige Daño Cryo. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo Daño Cryo en el AdE.</li></ul>",
+      "modifiers": []
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "Senda de Chilin",
+      "type": "Habilidad elemental",
+      "description": "<p>Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e inflingiendo Daño Cryo en el AdE.El loto de hielo provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen. La resistencia del loto es proporcional a la Vida Max. de Ganyu. Explota cuando es destruido o una vez terminada su duración, infligiendo Daño Cryo en el AdE.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Diluvio celestial",
+      "type": "Impulso elemental",
+      "description": "<p>Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.</p><pre>Mientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen Daño Cryo.</pre>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "undivided_heart",
+      "name": "Corazón indiviso",
+      "description": "<p>Tras lanzar una flecha helada, aumenta en un 20% la Prob.CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.</p>"
+    },
+    {
+      "id": "harmony_between_heaven_and_earth",
+      "name": "Armonía entre el Cielo y la Tierra",
+      "description": "<p>Los personajes del equipo dentro del área de Diluvio celestial obtienen un 20% de <b>Bono de Daño Cryo</b>.</p>"
+    },
+    {
+      "id": "preserved_for_the_hunt",
+      "name": "Arco de repuesto",
+      "description": "<p>Recupera el 15% de los minerales utilizados en la fabricación de arcos.</p>"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Bebedora de rocío",
+      "description": "Reduce en un 15% la RES Cryo de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s. Además, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
+      "level": 1
+    },
+    {
+      "name": "La auspiciosa",
+      "description": "Aumenta en 1 las cargas de Senda de Chilin.",
+      "level": 2
+    },
+    {
+      "name": "Jinete de las nubes",
+      "description": "Aumenta el nivel de habilidad de Diluvio celestial +3.\nPuede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "name": "Viaje al Oeste",
+      "description": "Los enemigos une estén en el AdE de Diluvio celestial reciben daño adicional. Este efecto se fortalece con el tiempo.\nEl daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.\n\nEste efecto persiste durante 3 s después de que el enémigo se aleje del AdE de la habilidad.",
+      "level": 4
+    },
+    {
+      "name": "La misericordiosa",
+      "description": "Aumenta el nivel de habilidad de Senda de Chilin +3.\nPuede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "name": "La clemente",
+      "description": "Utilizar Senda de Chilin hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "mat1": { "name": "Pedacito de jade shivada" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar de Megaflora" }
+    },
+    {
+      "mat1": { "name": "Fragmento de jade shivada" },
+      "mat2": { "name": "Núcleo de escarcha" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar de Megaflora" }
+    },
+    {
+      "mat1": { "name": "Fragmento de jade shivada" },
+      "mat2": { "name": "Núcleo de escarcha" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar brillante" }
+    },
+    {
+      "mat1": { "name": "Trozo de jade shivada" },
+      "mat2": { "name": "Núcleo de escarcha" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar brillante" }
+    },
+    {
+      "mat1": { "name": "Trozo de jade shivada" },
+      "mat2": { "name": "Núcleo de escarcha" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar energético" }
+    },
+    {
+      "mat1": { "name": "Jade shivada" },
+      "mat2": { "name": "Núcleo de escarcha" },
+      "mat3": { "name": "Flor chingxin" },
+      "mat4": { "name": "Néctar energético" }
+    }
+  ]
+}

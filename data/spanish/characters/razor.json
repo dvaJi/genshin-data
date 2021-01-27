@@ -1,0 +1,115 @@
+{
+  "id": "razor",
+  "name": "Razor",
+  "description": "Algunos dicen que es un huérfano criado por lobos. Otros dicen que es un espíritu lobo en forma humana. Se siente más a gusto en la naturaleza, luchando con garras y truenos. Se puede encontrar al niño lobo merodeando por el bosque, donde él y su manada cazan para sobrevivir usando nada más que sus instintos animales.",
+  "titles": [""],
+  "skills": [
+    {
+      "id": "steel_fang",
+      "name": "Colmillo de acero",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 tajos rápidos.</p><p><b>Ataque Cargado:</b> Sigue consumiendo Aguante para realizar golpes de espada giratorios contra los enemigos cercanos.Al final del Ataque Cargado, realizará un golpe de espada más poderoso.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "claw_and_thunder",
+      "name": "Garra y trueno",
+      "type": "Habilidad elemental",
+      "description": "<p>Caza su presa usando las técnicas que le enseñó su maestro y su Lupical.</p><p>Pulsar una vezMueve la Garra del lobo del trueno, infligiendo Daño Electro a los enemigos frente a Razor.Al golpear a un enemigo, Razor ganará una Insignia Electro, que aumentará su Recarga de Energía.Razor puede tener hasta 3 Insignias Electro simultáneamente. Ganar una nueva Insignia Electro refrescará su duración.</p><p>Mantener pulsadoReúne energía eléctrica para desatar una tormenta de rayos sobre una pequeña área, infligiendo una gran cantidad de Daño Electro, y elimina todas las Insignias Electro de Razor.Cada Insignia Electro eliminada de esta manera se convertirá en Energía Elemental de Razor.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "lightning_fang",
+      "name": "Colmillo de relámpago",
+      "type": "Impulso elemental",
+      "description": "<p>Invoca al Lobo interior, infligiendo Daño Electro a todos los oponentes cercanos. Esto elimina todas las Insignias Electro de Razor, que se convertirán en energía elemental.El Lobo interior luchará junto a Razor mientras dure la habilidad.</p><p>Lobo interior</p><ul><li>Golpea junto con los Ataques Normales de Razor, infligiendo Daño Electro.</li><li>Aumenta la Vel. ATQ de Razor y su RES Electro.</li><li>Hace que Razor sea inmune al Daño infligido por el estado Electrocargado.</li><li>Desactiva los ataques cargados de Razor.</li><li>Aumenta la RES a interrupción de Razor.</li></ul><p>Estos efectos terminan cuando Razor abandona el campo de batalla.Al hacerlo, obtendrá de vuelta 10 pts. de Energía de acuerdo con la duración restante de la habilidad.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "awakening",
+      "name": "Despertar",
+      "description": "<p>Reduce el TdE en Garra y trueno un 18%.Al lanzar Colmillo de relámpago reiniciará automáticamente el TdE de Garra y trueno.</p>"
+    },
+    {
+      "id": "hunger",
+      "name": "Hambre",
+      "description": "<p>Cuando la Energía Elemental de Razor es inferior al 50%, la Recarga de Energía aumenta un 30%.</p>"
+    },
+    {
+      "id": "wolvensprint",
+      "name": "Velocidad de lobo",
+      "description": "<p>Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 20%.</p>"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Naturaleza del Lobo",
+      "description": "Recoger un Orbe o Partícula Elemental incrementa el daño de Razor un 10% durante 8 segundos.",
+      "level": 1
+    },
+    {
+      "name": "Supresión",
+      "description": "Incrementa la tasa crítica contra enemigos con menos del 30% de su PS en un 10%.",
+      "level": 2
+    },
+    {
+      "name": "Compañía del Alma",
+      "description": "Incrementa el nivel de Colmillo de relámpago por 3. El nivel máximo es 15.",
+      "level": 3
+    },
+    {
+      "name": "Mordisco",
+      "description": "Al invocar Garra y trueno, los enemigos golpeados verán su defensa disminuida un 15% durante 7 segundos.",
+      "level": 4
+    },
+    {
+      "name": "Garras afiladas",
+      "description": "Incrementa el nivel de Garra y trueno por 3. El nivel máximo es 15.",
+      "level": 5
+    },
+    {
+      "name": "Lupus Fulguris",
+      "description": "Cada 10 segundos, el ataque de espada de Razor se carga, causando que el siguiente ataque normal libere un relámpago que inflige 100% del ataque de Razor como daño Electro. Cuando Razor no está usando Colmillo de relámpago, un golpe de rayo sobre un enemigo hará que Razor gane Sigilo Electro para Garra y trueno.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "mat1": { "name": "Pedacito de amatista vajrada" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara dañada" }
+    },
+    {
+      "mat1": { "name": "Fragmento de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara dañada" }
+    },
+    {
+      "mat1": { "name": "Fragmento de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara sucia" }
+    },
+    {
+      "mat1": { "name": "Trozo de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara sucia" }
+    },
+    {
+      "mat1": { "name": "Trozo de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara amenazante" }
+    },
+    {
+      "mat1": { "name": "Amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Gancho de lobo" },
+      "mat4": { "name": "Máscara amenazante" }
+    }
+  ]
+}

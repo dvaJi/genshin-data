@@ -1,0 +1,196 @@
+{
+  "id": "zhongli",
+  "name": "Zhongli",
+  "description": "A mysterious guest invited by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "weapon_type": "Polearm",
+  "element": "Geo",
+  "gender": "Male",
+  "region": "Liyue",
+  "rarity": 5,
+  "location": "Wish",
+  "titles": ["Vago Mundo"],
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Rain of Stone",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 6 rapid strikes.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.<br><b>Plunging Attack:</b> Plunges from mid-air to strike the gronud below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Dominus Lapidis",
+      "type": "Elemental Skill",
+      "description": "Every mountain, rock, and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<br><p><b>Press:</b> Commands the omnipresent power of the earth to solidify into a Stone Stele, standing 30 seconds, dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span> at the creation.<br>Once per 2 seconds, the Stone Stele will resonate with the nearby <span style=\"color:#b67607\"><b>Geo Constructs</b></span>, dealing <span style=\"color:#b67607\"><b>Geo DMG</b></span> to surrounding opponents.<br>The Stone Stele is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and can both be climbed and used to block attacks. Only one Stele may exist at any one time.<br><b>Hold:</b> Causes nearby Geo energy to explode, causing the following effects:</p><ul><li>Creates a shield of jade. The shield's DMG absorption scales based on Zhongli's Max HP, and absorbs <span style=\"color:#b67607\"><b>Geo DMG</b></span> 250% more effectively.</li><li>Causes <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.</li><li>If there are nearby targets with the <span style=\"color:#b67607\"><b>Geo</b></span> element, it will drain a large amount of <span style=\"color:#b67607\"><b>Geo element</b></span> from a maximum of 2 such targets. This effect does not cause DMG.</li></ul><p>When hit at least one opponent, the Stone Stele creation and the Resonance generate <b>0.5</b> elemental particles.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "planet_befall",
+      "name": "Planet Befall",
+      "type": "Elemental Burst",
+      "description": "Brings a falling meteor down to earth, dealing massive <span style=\"color:#b67607\"><b>Geo DMG</b></span> to opponents caught in its AoE and applying the <span style=\"color:#b67607\"><b>Petrification</b></span> status to them.<br><p><b>Petrification:</b> Opponents affected by the <span style=\"color:#b67607\"><b>Petrification</b></span> status cannot move.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "resonant_waves",
+      "name": "Resonant Waves",
+      "description": "When the Jade Shield takes DMG, it will Fortify:<ul><li>Fortified characters have 5% increased Shield Strength.<br>Can stack up to 5 times, and lasts until the Jade Shield disappears.</li></ul>",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth",
+      "description": "Planet Befall deals additional DMG equal to 33% of Zhongli's Max HP.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "arcanum_of_crystal",
+      "name": "Arcanum of Crystal",
+      "description": "Refunds 15% of the ores used when Polearm-type weapons.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "rock_the_backbone_of_earth",
+      "name": "Rock, the Backbone of Earth",
+      "description": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously to 2.",
+      "level": 1
+    },
+    {
+      "id": "stone_the_cradle_of_jade",
+      "name": "Stone, the Cradle of Jade",
+      "description": "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
+      "level": 2
+    },
+    {
+      "id": "jade_shimmering_through_darkness",
+      "name": "Jade, Shimmering through Darkness",
+      "description": "Increases the Level of Dominus Lapidis by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "topaz_unbreakable_and_fearless",
+      "name": "Topaz, Unbreakable and Fearless",
+      "description": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+      "level": 4
+    },
+    {
+      "id": "lazuli_herald_of_the_order",
+      "name": "Lazuli, Herald of the Order",
+      "description": "Increases the Level of Planet Befall by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "chrysos_bounty_of_dominator",
+      "name": "Chrysos, Bounty of Dominator",
+      "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character. A single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 3 },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 2 },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 10 },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Slime Condensate",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 4 },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 20 },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 8 },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 30 },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Slime Secretions",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6
+      },
+      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 12 },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 45 },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6
+      },
+      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 20 },
+      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 60 },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Slime Concentrate",
+        "amount": 24
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "lisa",
+  "name": "Lisa",
+  "description": "Ella es una bruja intelectual que nunca puede dormir suficientes siestas. Como Bibliotecaria de los Caballeros de Favonius, Lisa es inteligente porque siempre sabe exactamente qué hacer con lo que sea que le preocupe. Por mucho que le guste dormir, todavía se las arregla para mantener todo bajo control de una manera tranquila y serena.",
+  "titles": ["Rose Witch", "The Librarian"],
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Toque de relámpago",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 ataques relámpago que infligen Daño Electro.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para infligir Daño Electro de Área después de un corto tiempo de lanzamiento.</p><p><b>Ataque descendiente:</b> El poder Electro se concentra y desciende hacia el suelo, dañando a todos los enemigos en su camino. A su vez, inflige Daño de Área Electro.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "violet_arc",
+      "name": "Arco violeta",
+      "type": "Habilidad elemental",
+      "description": "<p>Canaliza el poder del rayo para eliminar las cosas molestas.</p><p><b>Un clic:</b> Lanza un Orbe del rayo con destino a la Tierra. En el momento del impacto, inflige Daño Electro y acumula una pila de estado conductor (Máx. 3 pilas) a los enemigos en una área pequeña.</p><p><b>Mantener pulsado:</b> Después de un largo tiempo de lanzamiento, llama a la luz de los cielos, infligiendo una gran cantidad de Daño Electro a los enemigos cercanos. Inflige grandes cantidades de daño extra a los enemigos basado en el número de pilas conductoras acumuladas sobre ellos, y elimina el efecto de Conductor.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Rayo de la rosa",
+      "type": "Impulso elemental",
+      "description": "<p>Invoca una Rosa devastadora que libera un inmenso poder de relámpago y golpea a los oponentes cercanos mientras inflige Daño Electro. Durante su efecto, Rosa devastadora chispea periódicamente relámpagos para atacar a los oponentes cercanos infligiendo Daño Electro.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "induced_aftershock",
+      "name": "Réplica eléctrica",
+      "description": "<p>Al hacer un ATQ cargado, Arco violeta aplica Conductor sobre los enemigos.</p>"
+    },
+    {
+      "id": "static_electricity_field",
+      "name": "Campo de electricidad estática",
+      "description": "<p>Rayo de la rosa reduce la DEF del enemigo en un 15% durante 10 s.</p>"
+    },
+    {
+      "id": "general_pharmaceutics",
+      "name": "Conocimientos farmacéuticos",
+      "description": "<p>Al fabricar una Poción, hay un 20% de probabilidad de recuperar los materiales usados.</p>"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Circuito Infinito",
+      "description": "Al mantener pulsado Arco violeta, Lisa recupera 2 puntos de Energía por cada enemigo golpeado. Se puede regenerar un máximo de 10 pts. de energía de esta manera a la vez.",
+      "level": 1
+    },
+    {
+      "name": "Campo Electromagnético",
+      "description": "Al mantener pulsado, Arco violeta tiene los siguiente efectos:\nAumenta la DEF en 25%.\nAumenta la RES a interrupción de Lisa.",
+      "level": 2
+    },
+    {
+      "name": "Trueno Resonante",
+      "description": "Aumenta el nivel de habilidad de Rayo de la rosa +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "name": "Erupción de Plasma",
+      "description": "Aumenta el número de rayos lanzados por Rayo de la rosa de 1 a 3.",
+      "level": 4
+    },
+    {
+      "name": "Electrocución",
+      "description": "Aumenta el nivel de habilidad de Arco violeta +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "name": "Bruja Palpitante",
+      "description": "Al cambiar a Lisa, los enemigos cercanos acumulan 3 cargas de Conductor de Arco violeta. El efecto ocurre una vez cada 5 s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "mat1": { "name": "Pedacito de amatista vajrada" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Condensado de Slime" }
+    },
+    {
+      "mat1": { "name": "Fragmento de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Condensado de Slime" }
+    },
+    {
+      "mat1": { "name": "Fragmento de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Babas de Slime" }
+    },
+    {
+      "mat1": { "name": "Trozo de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Babas de Slime" }
+    },
+    {
+      "mat1": { "name": "Trozo de amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Esencia de Slime" }
+    },
+    {
+      "mat1": { "name": "Amatista vajrada" },
+      "mat2": { "name": "Prisma de Relámpago" },
+      "mat3": { "name": "Valbaya" },
+      "mat4": { "name": "Esencia de Slime" }
+    }
+  ]
+}

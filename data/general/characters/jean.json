@@ -1,0 +1,200 @@
+{
+  "id": "jean",
+  "name": "Jean",
+  "description": "The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.",
+  "weapon_type": "Sword",
+  "element": "Anemo",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "location": "Wish",
+  "titles": ["Acting Grand Master", "Dandelion Knight", "Lionfang Knight"],
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Favonius Bladework",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 5 consecutive strikes.<br><p><b>Charged Attack:</b> Consumes a certain amount of stamina to launch an opponent using the power of wind. Launched opponents will slowly fall to the ground.<br><b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "gale_blade",
+      "name": "Gale Blade",
+      "type": "Elemental Skill",
+      "description": "Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive <span style=\"color:#26a684\"><b>Anemo DMG</b></span>.<br><p><b>Hold:</b> At the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.<br>Direction can be adjusted.<br>Character is immobile during skill duration.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Dandelion Breeze",
+      "type": "Elemental Burst",
+      "description": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding opponents and causing <span style=\"color:#26a684\"><b>Anemo DMG</b></span>. At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.<br><p><b>Dandelion Field:</b><br></p><ul><li>Continuously regenerates HP of characters within the AoE and continuously imbues them with <span style=\"color:#26a684\"><b>Anemo</b></span>.</li><li>Deals <span style=\"color:#26a684\"><b>Anemo DMG</b></span> to opponents entering or exiting the Dandelion Field.</li></ul>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "wind_companion",
+      "name": "Wind Companion",
+      "description": "Hits by Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "let_the_wind_lead",
+      "name": "Let the Wind Lead",
+      "description": "Using Dandelion Breeze will regenerate 20% of its Energy.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "guiding_breeze",
+      "name": "Guiding Breeze",
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, Jean has a 12% chance to obtain double the product.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "spiraling_tempest",
+      "name": "Spiraling Tempest",
+      "description": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
+      "level": 1
+    },
+    {
+      "id": "peoples_aegis",
+      "name": "People's Aegis",
+      "description": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
+      "level": 2
+    },
+    {
+      "id": "when_the_west_wind_arises",
+      "name": "When the West Wind Arises",
+      "description": "Increases the level of Dandelion Breeze by 3. The maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion",
+      "description": "Within the Field created by Dandelion Breeze, all opponents have their Anemo RES decreased by 40%.",
+      "level": 4
+    },
+    {
+      "id": "outbursting_gust",
+      "name": "Outbursting Gust",
+      "description": "Increases the level of Gale Blade by 3. The maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "lions_fang_fair_protector_of_mondstadt",
+      "name": "Lion's Fang, Fair Protector of Mondstadt",
+      "description": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "dandelion_seed", "name": "Dandelion Seed", "amount": 3 },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "hurricane_seed", "name": "Hurricane Seed", "amount": 2 },
+      "mat3": {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 10
+      },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "hurricane_seed", "name": "Hurricane Seed", "amount": 4 },
+      "mat3": {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 20
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "hurricane_seed", "name": "Hurricane Seed", "amount": 8 },
+      "mat3": {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 30
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 45
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Hurricane Seed",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 60
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+    }
+  ]
+}

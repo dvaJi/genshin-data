@@ -1,0 +1,196 @@
+{
+  "id": "diona",
+  "name": "Diona",
+  "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+  "weapon_type": "Bow",
+  "element": "Cryo",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "location": "Wish",
+  "titles": ["Kätzlein Cocktail", "Wine Industry Slayer (Self-proclaimed)"],
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Kätzlein Style",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Perform up to 5 consecutive shots with a bow.<br><p><b>Charged Attack:</b> Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span style=\"color:#4878a8\"><b>Cryo Damage</b></span>.<br><b>Plunging Attack:</b> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "icy_paws",
+      "name": "Icy Paws",
+      "type": "Elemental Skill",
+      "description": "Fires an Icy Paw that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.<br><p><b>Press:</b> Rapidly fires off <b>2</b> Icy Paws.<br><b>Hold:</b> Dashes back quickly before firing <b>5</b> Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.<br>The shield has a 250% <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> Absorption Bonus, and will infuse Diona with <span style=\"color:#4878a8\"><b>Cryo</b></span> at the point of formation for a short duration.<br>Each Icy Paw which hits an opponent generates approximately <b>0.8</b> elemental particles.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "signature_mix",
+      "name": "Signature Mix",
+      "type": "Elemental Burst",
+      "description": "Tosses out a special cold brew that deals <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span> and creates a Drunken Mist in an AoE.<br><p>Every 2 seconds, for 12 seconds, <b>Drunken Mist:</b></p><ul><li>Deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents within the field.</li><li>Regenerates the HP of characters within the field.</li></ul>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "cats_tail_secret_menu",
+      "name": "Cat's Tail Secret Menu",
+      "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "drunkards_farce",
+      "name": "Drunkards' Farce",
+      "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "complimentary_bar_food",
+      "name": "Complimentary Bar Food",
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "a_lingering_flavor",
+      "name": "A Lingering Flavor",
+      "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+      "level": 1
+    },
+    {
+      "id": "shaken_not_purred",
+      "name": "Shaken, Not Purred",
+      "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+      "level": 2
+    },
+    {
+      "id": "aanother_round",
+      "name": "A-Another Round?",
+      "description": "Increases the Level of Signature Mix by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "wine_industry_slayer",
+      "name": "Wine Industry Slayer",
+      "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%.",
+      "level": 4
+    },
+    {
+      "id": "double_shot_on_the_rocks",
+      "name": "Double Shot, On The Rocks",
+      "description": "Increases the Level of Icy Paws by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "cats_tail_closing_time",
+      "name": "Cat's Tail Closing Time",
+      "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\nIncreases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\nElemental Mastery increased by 200 when HP is above 50%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "shivada_jade_sliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 3 },
+      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 10 },
+      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 20 },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 30 },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 12
+      },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 45 },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "shivada_jade_gemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 20
+      },
+      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 60 },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 24
+      }
+    }
+  ]
+}

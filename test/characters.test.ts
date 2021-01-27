@@ -1,0 +1,37 @@
+import GenshinData from '../src';
+
+describe('Characters English', () => {
+  it('should return all characters', async () => {
+    const genshinData = new GenshinData({ language: 'english' });
+    const characters = await genshinData.characters();
+    expect(characters.length).toEqual(29);
+  });
+
+  it('should contains all mandatory fields', async () => {
+    const genshinData = new GenshinData({ language: 'english' });
+    const characters = await genshinData.characters();
+
+    for (const character of characters) {
+      expect(character.id).toBeDefined();
+      expect(character.name).toBeDefined();
+    }
+  });
+});
+
+describe('Characters Spanish', () => {
+  it('should return all characters', async () => {
+    const genshinData = new GenshinData({ language: 'spanish' });
+    const characters = await genshinData.characters();
+    expect(characters.length).toEqual(29);
+  });
+
+  it('should contains all mandatory fields', async () => {
+    const genshinData = new GenshinData({ language: 'spanish' });
+    const characters = await genshinData.characters();
+
+    for (const character of characters) {
+      expect(character.id).toBeDefined();
+      expect(character.name).toBeDefined();
+    }
+  });
+});

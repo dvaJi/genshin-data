@@ -1,0 +1,55 @@
+{
+  "tier": {
+    "maindps": {
+      "c": 1,
+      "tier": 3
+    },
+    "subdps": {
+      "c": 0,
+      "tier": 2
+    }
+  },
+  "builds": [
+    {
+      "id": "cavalry_captain",
+      "name": "Cavalry Captain",
+      "description": "",
+      "role": "Support",
+      "weapons": [
+        { "name": "Skyward Blade", "order": 1 },
+        { "name": "Harbinger of Dawn", "order": 2 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 1
+        },
+        { "set_1": { "name": "Noblesse Oblige" }, "order": 2 }
+      ],
+      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+    },
+    {
+      "id": "fake_harlock",
+      "name": "Fake Harlock",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Aquila Favonia", "order": 1 },
+        { "name": "The Black Sword", "order": 2 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "order": 1
+        },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        }
+      ],
+      "stats": ["CRIT DMG", "ATK%", "Mastery"]
+    }
+  ]
+}

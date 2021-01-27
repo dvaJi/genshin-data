@@ -1,0 +1,60 @@
+{
+  "tier": {
+    "maindps": {
+      "c": 6,
+      "tier": 2
+    },
+    "subdps": {
+      "c": 0,
+      "tier": 3
+    },
+    "support": {
+      "c": 4,
+      "tier": 2
+    }
+  },
+  "builds": [
+    {
+      "id": "rockn_roll",
+      "name": "Rock'n Roll",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Wolf's Gravestone", "order": 1 },
+        { "name": "The Unforged", "order": 2 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 1
+        },
+        { "set_1": { "name": "Gladiator's Finale" }, "order": 2 }
+      ],
+      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+    },
+    {
+      "id": "screaming_for_encore",
+      "name": "Screaming for Encore",
+      "description": "",
+      "role": "Support",
+      "weapons": [
+        { "name": "Wolf's Gravestone", "order": 1 },
+        { "name": "The Unforged", "order": 2 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 1
+        },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        }
+      ],
+      "stats": ["CRIT DMG", "CRIT Rate", "DEF%"]
+    }
+  ]
+}

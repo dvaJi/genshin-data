@@ -1,0 +1,115 @@
+{
+  "id": "zhongli",
+  "name": "Zhongli",
+  "description": "Un misterioso hombre invitado por la Funeraria Wangsheng. Un gran conocedor de todos los saberes. Zhongli no parpadea al pagar (o pedir a otros que paguen). Con gusto paga el precio, sin importar cuán irrazonable sea, y pagará incluso más por las cosas que le gustan. La parte divertida es que Zhongli siempre olvida llevar su dinero con él.",
+  "titles": ["El Vagabundo del Mundo Mortal", "Rex Lapis (en Liyue)"],
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Lluvia pétrea",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Realiza hasta 6 ataques rápidos con lanza.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Dominus lapidis",
+      "type": "Habilidad elemental",
+      "description": "<p>Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.</p><p><b>Un clic:</b> Controla el poder omnipresente de la tierra para solidificarlo en una Cresta de piedra que inflige Daño Geo en el AdE. La Cresta de piedra resonará con los objetos Geo cercanos, infligiendo Daño Geo a los enemigos de alrededor. La Cresta de piedra es considerada una creación Geo, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.</p><p><b>Mantener pulsado:</b>Hace que los elementos Geo cercanos exploten, provocando los siguientes efectos: </p><ul><li>Crea un escudo de jade. La cantidad de absorción de daño del escudo se basa en la Vida Máx. de Zhongli, y dicho escudo tiene un 250% de absorción de Daño Geo.</li><li>Inflige Daño Geo en el AdE.</li><li>Si hay enemigos cercanos afectados por el Elemento Geo, absorberá una gran cantidad de Elemento Geo de un máximo de dos objetivos afectados por dicho elemento. Este efecto no causa daño.</li></ul>",
+      "modifiers": []
+    },
+    {
+      "id": "planet_befall",
+      "name": "Lluvia estelar",
+      "type": "Impulso elemental",
+      "description": "<p>Atrae un meteorito a la tierra, causando Daño Geo masivo a los enemigos dentro de su AdE y aplicando el efecto de Petrificación.</p><p><b>Petrificación</b> Los enemigos bajo el efecto de Petrificación no pueden moverse.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "resonant_waves",
+      "name": "Ondas resonantes",
+      "description": "<p>Cuando el Escudo de Jade recibe daño, genera un efecto de fortalecimiento. </p><ul><li>Los personajes con Escudo de Jade aumentan su Protección de Escudo en un 5%.</li><li>Este efecto puede acumularse hasta 5 veces y dura hasta que desaparezca el Escudo de Jade.</li></ul>"
+    },
+    {
+      "id": "dominance_of_earth",
+      "name": "Dominio de la Tierra",
+      "description": "<p>Lluvia estelar inflige daño adicional equivalente al 33% de la Vida Máx. de Zhongli.</p>"
+    },
+    {
+      "id": "arcanum_of_crystal",
+      "name": "Cristal del destino",
+      "description": "<p>Recupera el 15% de los minerales utilizados en la fabricación de lanzas.</p>"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Roca, el núcleo de la Tierra",
+      "description": "Dominus lapidis puede crear un máximo de 2 Crestas de piedra al mismo tiempo.",
+      "level": 1
+    },
+    {
+      "name": "Piedra, el origen del jade",
+      "description": "Al caer Lluvia estelar, otorga un Escudo de jade a los personajes cercanos que están en combate.",
+      "level": 2
+    },
+    {
+      "name": "Jade, el brillo del crepúsculo",
+      "description": "Aumenta el nivel de habilidad de Dominus lapidis +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "name": "Topacio, indestructible e intrépido",
+      "description": "Aumenta el AdE de Lluvia estelar en un 20%. Además, aumenta en 2 s la duración de Petrificación de Lluvia estelar.",
+      "level": 4
+    },
+    {
+      "name": "Lapislázuli, el heraldo del orden",
+      "description": "Aumenta el nivel de habilidad de Lluvia estelar +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "name": "Chrysos, la generosidad del dominador",
+      "description": "Cuando Escudo de Jade recibe daño, el 40% del daño recibido se convierte en Vida para el personaje actual. No se puede recuperar más del 8% de la Vida Máx. del personaje cada vez que se activa el efecto.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "mat1": { "name": "Pedacito de topacio prithiva" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Condensado de Slime" }
+    },
+    {
+      "mat1": { "name": "Fragmento de topacio prithiva" },
+      "mat2": { "name": "Pilar de basalto" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Condensado de Slime" }
+    },
+    {
+      "mat1": { "name": "Fragmento de topacio prithiva" },
+      "mat2": { "name": "Pilar de basalto" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Babas de Slime" }
+    },
+    {
+      "mat1": { "name": "Trozo de topacio prithiva" },
+      "mat2": { "name": "Pilar de basalto" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Babas de Slime" }
+    },
+    {
+      "mat1": { "name": "Trozo de topacio prithiva" },
+      "mat2": { "name": "Pilar de basalto" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Esencia de Slime" }
+    },
+    {
+      "mat1": { "name": "Topacio prithiva" },
+      "mat2": { "name": "Pilar de basalto" },
+      "mat3": { "name": "Cor lapis" },
+      "mat4": { "name": "Esencia de Slime" }
+    }
+  ]
+}

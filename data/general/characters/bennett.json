@@ -1,0 +1,228 @@
+{
+  "id": "bennett",
+  "name": "Bennett",
+  "description": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+  "weapon_type": "Sword",
+  "element": "Pyro",
+  "gender": "Male",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "location": "Wish",
+  "titles": ["Trial by Fire", "Leader of Benny's Adventure Team"],
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Strike of Fortune",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword swings.<br><b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "passion_overload",
+      "name": "Passion Overload",
+      "type": "Elemental Skill",
+      "description": "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.<br><p><b>Tap:</b> A single, swift flame strike that deals <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>.<br><b>Hold (Short):</b> Charges up, resulting in different effects when unleashed based on the Charge Level<br></p><ul><li>Level 1: Strikes twice, dealing <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> and launching opponents.<br></li><li>Level 2: Unleashes 3 consecutive attacks that deal impressive <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>, but the last attack triggers an explosion that launches both Bennett and the enemy.<br>Bennett takes no damage from being launched.</li></ul>",
+      "modifiers": []
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Fantastic Voyage",
+      "type": "Elemental Burst",
+      "description": "Bennett performs a jumping attack that deals <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>, creating an Inspiration Field for 12 seconds.<br><p><b>Inspiration Field:</b></p><ul><li>If the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.</li><li>If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.</li><li>Imbues characters within the AoE with <span style=\"color:#bf2818\"><b>Pyro</b></span>.</li></ul>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "rekindle",
+      "name": "Rekindle",
+      "description": "Decreases Passion Overload's CD by 20%.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "fearnaught",
+      "name": "Fearnaught",
+      "description": "When inside Passion Overload's CD is decreased by 50% and Bennett cannot be launched by this skill's explosion.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "it_should_be_safe",
+      "name": "It Should Be Safe...",
+      "description": "When dispatched on an Mondstadt, time consumed is reduced by 25%.",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "grand_expectation",
+      "name": "Grand Expectation",
+      "description": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK. (Additive increase)",
+      "level": 1
+    },
+    {
+      "id": "impasse_conqueror",
+      "name": "Impasse Conqueror",
+      "description": "When HP falls below 70%, increases Energy Recharge by 30%.",
+      "level": 2
+    },
+    {
+      "id": "unstoppable_fervor",
+      "name": "Unstoppable Fervor",
+      "description": "Increases Passion Overload's skill level by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "unexpected_odyssey",
+      "name": "Unexpected Odyssey",
+      "description": "Short hold to release Passion Overload as a two-stage attack. Press the attack button to perform an additional falling attack.",
+      "level": 4
+    },
+    {
+      "id": "true_explorer",
+      "name": "True Explorer",
+      "description": "Increases Fantastic Voyage's skill level by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "fire_ventures_with_me",
+      "name": "Fire Ventures with Me",
+      "description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Treasure Hoarder Insignia",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Silver Raven Insignia",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Golden Raven Insignia",
+        "amount": 24
+      }
+    }
+  ]
+}

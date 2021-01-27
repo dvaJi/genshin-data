@@ -1,0 +1,220 @@
+{
+  "id": "amber",
+  "name": "Amber",
+  "description": "Always energetic and full of life, Amber's the best - albeit only - Outrider of the Knights of Favonius.",
+  "weapon_type": "Bow",
+  "element": "Pyro",
+  "gender": "Female",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "location": "Wish",
+  "titles": ["Outrider", "Gliding Champion"],
+  "skills": [
+    {
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Perform up to 5 consecutive shots with a bow.<br><p><b>Charged Attack:</b> Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>.<br><b>Plunging Attack:</b> Fires off a shower of arrows in mid-air before falling an striking the ground, dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "explosive_puppet",
+      "name": "Explosive Puppet",
+      "type": "Elemental Skill",
+      "description": "The ever-reliable Baron Bunny takes the stage. <br><p><b>Baron Bunny:</b></p><ul><li>Continuously taunts the enemy, drawing their fire.</li><li>Baron Bunny's HP scales with Amber's Max HP.</li><li>When destroyed or when its timer expires, Baron Bunny explodes, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.</li><li>Generate 4 elemental particles when it hit at least 1 target.<br></li></ul><p><b>Hold:</b> Adjusts the throwing direction of Baron Bunny. The longer the button is held, the further the throw.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "fiery_rain",
+      "name": "Fiery Rain",
+      "type": "Elemental Burst",
+      "description": "Fires off a shower of arrows, dealing continuous <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "every_arrow_finds_its_target",
+      "name": "Every Arrow Finds Its Target",
+      "description": "Increases the CRIT Rate of Fiery Rain by 10% and widens its AoE by 30%.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "precise_shot",
+      "name": "Precise Shot",
+      "description": "Aimed Shot hits on weak spots increase ATK by 15% for 10s.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "gliding_champion",
+      "name": "Gliding Champion",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.<br><p>Not stackable with Passive Talents that provide the exact same effects.</p>",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "one_arrow_to_rule_them_all",
+      "name": "One Arrow to Rule Them All",
+      "description": "Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's DMG.\nThe second arrow is fired 10 degrees vertically below actual aiming, has separate critical, and also makes the primary shot travel further before it starts dropping down.",
+      "level": 1
+    },
+    {
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered",
+      "description": "Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.\nExplosion via manual detonation deals 200% additional DMG.",
+      "level": 2
+    },
+    {
+      "id": "it_burns",
+      "name": "It Burns!",
+      "description": "Increases the level of Fiery Rain by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "its_not_just_any_doll",
+      "name": "It's Not Just Any Doll...",
+      "description": "Decreases Explosive Puppet's CD by 20%. Adds 1 additional charge.",
+      "level": 4
+    },
+    {
+      "id": "its_baron_bunny",
+      "name": "It's Baron Bunny!",
+      "description": "Increases the level of Explosive Puppet by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "wildfire",
+      "name": "Wildfire",
+      "description": "Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 3
+      },
+      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 10
+      },
+      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3
+      },
+      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Sharp Arrowhead",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Small Lamp Grass",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Weathered Arrowhead",
+        "amount": 24
+      }
+    }
+  ]
+}

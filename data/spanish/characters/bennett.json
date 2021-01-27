@@ -1,0 +1,119 @@
+{
+  "id": "bennett",
+  "name": "Bennett",
+  "description": "Los pocos jóvenes aventureros del Gremio de Aventureros de Mondstadt han sufrido desgracias insospechadas al salir de aventura con Bennett.",
+  "titles": [
+    "Prueba de fuego",
+    "Líder del Equipo de Aventura de Benny",
+    "Tentador del Destino"
+  ],
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Espada de la suerte",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "passion_overload",
+      "name": "Sobrecarga de pasión",
+      "type": "Habilidad elemental",
+      "description": "<p>Bennett concentra el espíritu aventurero y la energía Pyro en su espada. Dependiendo del tiempo de carga, se producen diferentes efectos.</p><p><b>Un clic:</b> Realiza un rápido y ardiente movimiento con su espada, infligiendo Daño Pyro.</p><p><b>Mantener pulsado:</b> Dependiendo de la duración, lanza una habilidad distinta basada en en nivel de carga.</p><ul><li>Nivel 1: Golpea dos veces, infligiendo Daño Pyro y lanzando a los enemigos por los aires.</li><li>Nivel 2: Lanza 3 ataques consecutivos que infligen una cantidad significativa de Daño Pyro. El último ataque causa una explosión que lanza tanto a los enemigos como a Bennett por los aires. Sin embargo, Bennett no resulta herido por esta explosión.</li></ul>",
+      "modifiers": []
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Aventura maravillosa",
+      "type": "Impulso elemental",
+      "description": "<p>Bennett salta hacia el enemigo y ataca, infligiendo Daño Pyro y creando un círculo de apoyo moral.</p><p><b>Círculo de apoyo moral:</b></p><ul><li>Si la Vida de un personaje dentro del círculo es igual o inferior al 70%, su vida se regenerará continuamente.</li><li>Si al vida de un personaje dentro del círculo es mayor a 70%, obtendrán un Bono de ATQ igual a un porcentaje del ATQ Básico de Bennett.</li><li>Los personajes dentro del círculo obtendrán el efecto Pyro.</li></ul>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "rekindle",
+      "name": "Resurgimiento de la pasión",
+      "description": "<p>Reduce el TdE de Sobrecarga de pasión en 20%.</p>"
+    },
+    {
+      "id": "fearnaught",
+      "name": "Fervor intrépido",
+      "description": "<p>Dentro del área de Sobrecarga de pasión tiene los siguientes efectos:</p><ul><li>Su TdE se reduce en un 50%.</li><li>Bennett no será lanzado por los aires con la Carga 2.</li></ul>"
+    },
+    {
+      "id": "it_should_be_safe",
+      "name": "Supuestamente seguro",
+      "description": "<p>Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.</p>"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Visión de aventura",
+      "description": "El efecto de aumento de ATQ de Aventura maravillosa ya no tiene restricción de Vida, y el personaje gana un 20% adicional de ATQ Básico.",
+      "level": 1
+    },
+    {
+      "name": "Huida desesperada",
+      "description": "Aumenta la Recarga de Energía de Bennett en un 30% cuando la Vida es menor al 70%.",
+      "level": 2
+    },
+    {
+      "name": "Pasión ardiente",
+      "description": "Aumenta el nivel de habilidad de Sobrecarga de pasión +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "name": "Calidez inagotable",
+      "description": "Usar un ATQ Normal al ejecutar el segundo ataque del nivel 1 de carga de Sobrecarga de pasión permite realizar un ataque adicional. Este ataque adicional es equivalente al 135% del Daño del segundo ataque.",
+      "level": 4
+    },
+    {
+      "name": "Explorador verdadero",
+      "description": "Aumenta el nivel de habilidad de Aventura maravillosa +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "name": "Fuego y coraje",
+      "description": "Si los personaje en uso utilizan espada ligera, mandoble o lanza y se encuentran en el AdE de Aventura maravillosa, dichos personajes obtendrán un 15% de Bono de Daño Pyro. Además, serán imbuidos del Elemento Pyro.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "mat1": { "name": "Pedacito de ágata agnidus" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo novato" }
+    },
+    {
+      "mat1": { "name": "Fragmento de ágata agnidus" },
+      "mat2": { "name": "Semilla de fuego eterno" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo novato" }
+    },
+    {
+      "mat1": { "name": "Fragmento de ágata agnidus" },
+      "mat2": { "name": "Semilla de fuego eterno" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo plateada" }
+    },
+    {
+      "mat1": { "name": "Trozo de ágata agnidus" },
+      "mat2": { "name": "Semilla de fuego eterno" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo plateada" }
+    },
+    {
+      "mat1": { "name": "Trozo de ágata agnidus" },
+      "mat2": { "name": "Semilla de fuego eterno" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo dorada" }
+    },
+    {
+      "mat1": { "name": "Ágata agnidus" },
+      "mat2": { "name": "Semilla de fuego eterno" },
+      "mat3": { "name": "Margarita voladora" },
+      "mat4": { "name": "Insignia de cuervo dorada" }
+    }
+  ]
+}

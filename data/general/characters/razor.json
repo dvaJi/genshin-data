@@ -1,0 +1,192 @@
+{
+  "id": "razor",
+  "name": "Razor",
+  "description": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+  "weapon_type": "Claymore",
+  "element": "Electro",
+  "gender": "Male",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "location": "Wish",
+  "titles": ["Legend of Wolvendom", "Wolf Boy"],
+  "skills": [
+    {
+      "id": "steel_fang",
+      "name": "Steel Fang",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Perform up to 4 consecutive strikes.<br><p><b>Charged Attack:</b> Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At end of the sequence, perform a more powerful slash.<br><b>Plunging Aattack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "claw_and_thunder",
+      "name": "Claw and Thunder",
+      "type": "Elemental Skill",
+      "description": "Hunts his prey using the techniques taught to him by his master and his Lupical.<br><p><b>Press:</b> Swings the Thunder Wolf Claw, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span> to opponents in front of Razor.<br>Upon striking an opponent, Razor gains an Electro Sigil, which increases his Energy Recharge rate.<br>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.<br><b>Hold:</b> Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive <span style=\"color:#9336b0\"><b>Electro DMG</b></span>, and clears all of Razor's Electro Sigils. Each Electro Sigil cleared in this manner will be converted into Energy for Razor.<br>Generate <b>3</b> elemental particles when press and <b>4</b> when hold, if it hit at least 1 target.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "lightning_fang",
+      "name": "Lightning Fang",
+      "type": "Elemental Burst",
+      "description": "Summons the Wolf Within which deals <span style=\"color:#9336b0\"><b>Electro DMG</b></span> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into elemental energy for him.<br>The Wolf Within will fight alongside Razor for the skill's duration.<br><p><b>The Wolf Within:</b><br></p><ul><li>Strikes alongside Razor's normal attacks, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span>.</li><li>Raises Razor's ATK SPD and <span style=\"color:#9336b0\"><b>Electro RES</b></span>.</li><li>Causes Razor to be immune to DMG inflicted by the <span style=\"color:#9336b0\"><b>Electro-Charged status</b></span>.</li><li>Disables Razor's Charged Attacks.</li><li>Increases Razor's resistance to interruption</li></ul>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "awakening",
+      "name": "Awakening",
+      "description": "Decreases Lightning Fang resets the CD of Claw and Thunder.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "hunger",
+      "name": "Hunger",
+      "description": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+      "unlock": "Ascension 4"
+    },
+    {
+      "id": "wolvensprint",
+      "name": "Wolvensprint",
+      "description": "Decreases sprinting Stamina consumption of your characters in the party by 20%.<p>Not stackable with Passive Talents that provide the exact same effects.</p>",
+      "unlock": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": "wolfs_instinct",
+      "name": "Wolf's Instinct",
+      "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+      "level": 1
+    },
+    {
+      "id": "suppression",
+      "name": "Suppression",
+      "description": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+      "level": 2
+    },
+    {
+      "id": "soul_companion",
+      "name": "Soul Companion",
+      "description": "Increases the level of Lightning Fang by 3. Maximum level is 15.",
+      "level": 3
+    },
+    {
+      "id": "bite",
+      "name": "Bite",
+      "description": "When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s.",
+      "level": 4
+    },
+    {
+      "id": "sharpened_claws",
+      "name": "Sharpened Claws",
+      "description": "Increases the level of Claw and Thunder by 3. Maximum level is 15.",
+      "level": 5
+    },
+    {
+      "id": "lupus_fulguris",
+      "name": "Lupus Fulguris",
+      "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG. When Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "amount": 1
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 3 },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 2
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 10 },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 4
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 20 },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 8
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 30 },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 12
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 45 },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Lightning Prism",
+        "amount": 20
+      },
+      "mat3": { "id": "wolfhook", "name": "Wolfhook", "amount": 60 },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "traveler_anemo",
+  "name": "Traveler (Anemo)",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "weapon_type": "Sword",
+  "element": "Anemo",
+  "gender": "Player's Choice",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "location": "Quest",
+  "titles": [
+    "Outlander",
+    "Honorary Knight",
+    "Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
+    "Comrade (by Tartaglia)"
+  ],
+  "skills": [
+    {
+      "id": "foreign_ironwind",
+      "name": "Foreign Ironwind",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br><b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "palm_vortex",
+      "name": "Palm Vortex",
+      "type": "Elemental Skill",
+      "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing <span style=\"color:#26a684\"><b>Anemo DMG</b></span> 6 times in 1.5 seconds to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.<br><p><b>Hold:</b> DMG and AoE will gradually increase.<br><b>Elemental Absorption:</b> If the vortex comes into contact with <span style=\"color:#0b4dda\"><b>Hydro</b></span>/<span style=\"color:#bf2818\"><b>Pyro</b></span>/<span style=\"color:#4878a8\"><b>Cryo</b></span>/<span style=\"color:#9336b0\"><b>Electro</b></span> elements, it will deal 23% additional elemental DMG of that type. Elemental Absorption may only occur once per use.<br>Generate <b>2</b> elemental particles when press and <b>3.5</b> when hold, if it hit at least 1 target.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "gust_surge",
+      "name": "Gust Surge",
+      "type": "Elemental Burst",
+      "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing <span style=\"color:#26a684\"><b>Anemo DMG</b></span> each 0.5 seconds, 9 times.<br><p><b>Elemental Absorption:</b> If the vortex comes into contact with <span style=\"color:#0b4dda\"><b>Hydro</b></span>/<span style=\"color:#bf2818\"><b>Pyro</b></span>/<span style=\"color:#4878a8\"><b>Cryo</b></span>/<span style=\"color:#9336b0\"><b>Electro</b></span> elements, it will deal 30.7% additional elemental DMG of that type. Elemental Absorption may only occur once per use.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "slitting_wind",
+      "name": "Slitting Wind",
+      "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "second_wind",
+      "name": "Second Wind",
+      "description": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+      "unlock": "Ascension 4"
+    }
+  ],
+  "constellations": [
+    {
+      "id": "raging_vortex",
+      "name": "Raging Vortex",
+      "description": "Palm Vortex pulls in enemies within a 5m radius.",
+      "level": 1
+    },
+    {
+      "id": "uprising_whirlwind",
+      "name": "Uprising Whirlwind",
+      "description": "Increases Energy Recharge by 16%.",
+      "level": 2
+    },
+    {
+      "id": "sweeping_gust",
+      "name": "Sweeping Gust",
+      "description": "Increases the level of Gust Surge by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "cherishing_breezes",
+      "name": "Cherishing Breezes",
+      "description": "Reduces DMG taken while casting Palm Vortex by 10%.",
+      "level": 4
+    },
+    {
+      "id": "vortex_stellaris",
+      "name": "Vortex Stellaris",
+      "description": "Increases the level of Palm Vortex by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "intertwined_winds",
+      "name": "Intertwined Winds",
+      "description": "Targets who take DMG from Gust Surge have their <b>Anemo RES</b> decreased by 20%.<br><p>If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.</p>",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "brilliant_diamond_sliver",
+        "name": "Brilliant Diamond Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3
+      },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10
+      },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "brilliant_diamond_gemstone",
+        "name": "Brilliant Diamond Gemstone",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+    }
+  ]
+}

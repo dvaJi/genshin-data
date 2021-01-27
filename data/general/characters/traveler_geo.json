@@ -1,0 +1,190 @@
+{
+  "id": "traveler_geo",
+  "name": "Traveler (Geo)",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "weapon_type": "Sword",
+  "element": "Geo",
+  "gender": "Player's Choice",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "location": "Quest",
+  "titles": [
+    "Outlander",
+    "Honorary Knight",
+    "Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
+    "Comrade (by Tartaglia)"
+  ],
+  "skills": [
+    {
+      "id": "foreign_rockblade",
+      "name": "Foreign Rockblade",
+      "type": "Normal/Charged Attack",
+      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<br><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br><b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "starfell_sword",
+      "name": "Starfell Sword",
+      "type": "Elemental Skill",
+      "description": "You disgorge a meteorite from the depths of the earth, dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>. The meteorite is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and can be climbed or used to block attacks.<br><p><b>Hold:</b> This skill's positioning may be adjusted.</p>",
+      "modifiers": []
+    },
+    {
+      "id": "wake_of_earth",
+      "name": "Wake of Earth",
+      "type": "Elemental Burst",
+      "description": "Energizing the Geo elements deep underground, you set off expanding shockwaves.<br><p>Launches surrounding opponents back and deals <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.<br>A stone wall is erected at the edges of the shockwave.<br>The stone wall is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and may be used to block attacks.</p>",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "id": "shattered_darkrock",
+      "name": "Shattered Darkrock",
+      "description": "Reduces Starfell Sword's CD by 2s.",
+      "unlock": "Ascension 1"
+    },
+    {
+      "id": "frenzied_rockslide",
+      "name": "Frenzied Rockslide",
+      "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.",
+      "unlock": "Ascension 4"
+    }
+  ],
+  "constellations": [
+    {
+      "id": "invincible_stonewall",
+      "name": "Invincible Stonewall",
+      "description": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.",
+      "level": 1
+    },
+    {
+      "id": "rockcore_meltdown",
+      "name": "Rockcore Meltdown",
+      "description": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.",
+      "level": 2
+    },
+    {
+      "id": "will_of_the_rock",
+      "name": "Will of the Rock",
+      "description": "Increases the level of Wake of Earth by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "reaction_force",
+      "name": "Reaction Force",
+      "description": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every enemy hit. A maximum of 25 Energy can be recovered in this manner.",
+      "level": 4
+    },
+    {
+      "id": "meteorite_impact",
+      "name": "Meteorite Impact",
+      "description": "Increases the level of Starfell Sword by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "everlasting_boulder",
+      "name": "Everlasting Boulder",
+      "description": "The barrier created by Wake of Earth lasts 5s longer. The meteorite created by Starfell Sword lasts 10s longer.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": 20,
+      "cost": 20000,
+      "mat1": {
+        "id": "brilliant_diamond_sliver",
+        "name": "Brilliant Diamond Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3
+      },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+    },
+    {
+      "ascension": 2,
+      "level": 40,
+      "cost": 40000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10
+      },
+      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+    },
+    {
+      "ascension": 3,
+      "level": 50,
+      "cost": 60000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+    },
+    {
+      "ascension": 4,
+      "level": 60,
+      "cost": 80000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30
+      },
+      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+    },
+    {
+      "ascension": 5,
+      "level": 70,
+      "cost": 100000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+    },
+    {
+      "ascension": 6,
+      "level": 80,
+      "cost": 120000,
+      "mat1": {
+        "id": "brilliant_diamond_gemstone",
+        "name": "Brilliant Diamond Gemstone",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60
+      },
+      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+    }
+  ]
+}
