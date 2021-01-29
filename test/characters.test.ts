@@ -14,6 +14,9 @@ describe('Characters English', () => {
     for (const character of characters) {
       expect(character.id).toBeDefined();
       expect(character.name).toBeDefined();
+      expect(character.description).toBeDefined();
+      expect(character.skills.length).toBeGreaterThan(0);
+      expect(character.passives.length).toBeGreaterThan(0);
     }
   });
 });
