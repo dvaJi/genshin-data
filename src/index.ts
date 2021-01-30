@@ -1,6 +1,9 @@
 import { Artifact } from './types/artifact';
 import { Character } from './types/character';
+import { Material } from './types/material';
 import { Weapon } from './types/weapon';
+
+export { Artifact, Character, Weapon, Material };
 
 export interface Options {
   language: 'english' | 'spanish' | 'japanese';
@@ -55,7 +58,7 @@ export default class GenshinData {
     }
   }
 
-  async materials(): Promise<any[]> {
+  async materials(): Promise<Material[]> {
     if (this.options.language === 'spanish') {
       return (await import(`./generated/spanish/materials.json`)).default;
     } else if (this.options.language === 'japanese') {
