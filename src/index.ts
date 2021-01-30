@@ -3,7 +3,7 @@ import { Character } from './types/character';
 import { Weapon } from './types/weapon';
 
 export interface Options {
-  language: 'english' | 'spanish';
+  language: 'english' | 'spanish' | 'japanese';
 }
 
 export default class GenshinData {
@@ -28,6 +28,8 @@ export default class GenshinData {
   async characters(): Promise<Character[]> {
     if (this.options.language === 'spanish') {
       return (await import(`./generated/spanish/characters.json`)).default;
+    } else if (this.options.language === 'japanese') {
+      return (await import(`./generated/japanese/characters.json`)).default;
     } else {
       return (await import(`./generated/english/characters.json`)).default;
     }
@@ -36,6 +38,8 @@ export default class GenshinData {
   async weapons(): Promise<Weapon[]> {
     if (this.options.language === 'spanish') {
       return (await import(`./generated/spanish/weapons.json`)).default;
+    } else if (this.options.language === 'japanese') {
+      return (await import(`./generated/japanese/weapons.json`)).default;
     } else {
       return (await import(`./generated/english/weapons.json`)).default;
     }
@@ -44,6 +48,8 @@ export default class GenshinData {
   async artifacts(): Promise<Artifact[]> {
     if (this.options.language === 'spanish') {
       return (await import(`./generated/spanish/artifacts.json`)).default;
+    } else if (this.options.language === 'japanese') {
+      return (await import(`./generated/japanese/artifacts.json`)).default;
     } else {
       return (await import(`./generated/english/artifacts.json`)).default;
     }
@@ -52,6 +58,8 @@ export default class GenshinData {
   async materials(): Promise<any[]> {
     if (this.options.language === 'spanish') {
       return (await import(`./generated/spanish/materials.json`)).default;
+    } else if (this.options.language === 'japanese') {
+      return (await import(`./generated/japanese/materials.json`)).default;
     } else {
       return (await import(`./generated/english/materials.json`)).default;
     }
