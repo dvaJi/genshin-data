@@ -1,6 +1,7 @@
 import { Artifact } from './types/artifact';
 import { Character } from './types/character';
 import { Material } from './types/material';
+import { Tierlist } from './types/tierlist';
 import { Weapon } from './types/weapon';
 
 export { Artifact, Character, Weapon, Material };
@@ -65,6 +66,16 @@ export default class GenshinData {
       return (await import(`./generated/japanese/materials.json`)).default;
     } else {
       return (await import(`./generated/english/materials.json`)).default;
+    }
+  }
+
+  async tierlist(): Promise<Tierlist> {
+    if (this.options.language === 'spanish') {
+      return (await import(`./generated/spanish/tierlist.json`)).default;
+    } else if (this.options.language === 'japanese') {
+      return (await import(`./generated/japanese/tierlist.json`)).default;
+    } else {
+      return (await import(`./generated/english/tierlist.json`)).default;
     }
   }
 }

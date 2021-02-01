@@ -243,24 +243,21 @@ function generateBuildAndTier(lang: string) {
     subdps: {},
     support: {},
   };
-  const buildsPath = path.join(
-    DATA_PATH,
-    lang === 'english' ? 'general' : lang,
-    'builds_and_tier'
-  );
-  fs.readdirSync(buildsPath).forEach((filename: string) => {
+
+  const buildsPath = getFolder(lang, 'builds_and_tier');
+  const originalBuildsPath = getFolder('general', 'builds_and_tier');
+  fs.readdirSync(originalBuildsPath).forEach((filename: string) => {
     if (!filename.endsWith('.json')) return;
 
     const id = filename.replace('.json', '');
-    const data = require(path.join(buildsPath, filename));
-    const originalData = require(path.join(
-      DATA_PATH,
-      'general',
-      'builds_and_tier',
-      filename
-    ));
+    const originalData = require(path.join(originalBuildsPath, filename));
 
-    const fmtData = deepMerge(originalData, data);
+    let fmtData = originalData;
+
+    if (fs.existsSync(path.join(buildsPath, filename))) {
+      const data = require(path.join(buildsPath, filename));
+      fmtData = deepMerge(originalData, data);
+    }
 
     if (fmtData.tier) {
       const roles = ['maindps', 'subdps', 'support'];
@@ -321,6 +318,10 @@ function generateBuildAndTier(lang: string) {
   );
 
   log(chalk.green(`[✓] tierlist.json created`));
+}
+
+function getFolder(lang: string, folder: string): string {
+  return path.join(DATA_PATH, lang === 'english' ? 'general' : lang, folder);
 }
 
 function slugify(value: string) {
