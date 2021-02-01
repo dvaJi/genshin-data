@@ -41,4 +41,4 @@ Builds and tierlist: [Gobelyn builds](https://docs.google.com/document/d/1trRf3t
 
 
 # [License](LICENSE)
-RuneBook isn’t endorsed by MiHoyo and doesn’t reflect the views or opinions of MiHoyo or anyone officially involved in producing or managing Genshin Impact. Genshin Impact and MiHoyo are trademarks or registered trademarks of MiHoyo,
+"Genshin Data" isn’t endorsed by MiHoyo and doesn’t reflect the views or opinions of MiHoyo or anyone officially involved in producing or managing Genshin Impact. Genshin Impact and MiHoyo are trademarks or registered trademarks of MiHoyo,
