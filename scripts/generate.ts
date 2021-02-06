@@ -15,6 +15,7 @@ const materialsMap = new Map();
 const weaponsMap = new Map();
 const buildsMap = new Map();
 const charactersMapLite = new Map();
+const commonMap = new Map();
 
 async function main() {
   log('Init script...');
@@ -24,6 +25,7 @@ async function main() {
     log(chalk.yellow(`Creating files for [${lang}] content:`));
 
     // Get materials|artifacts|weapons
+    getCommon(lang);
     generateMaterials(lang);
     generateArtifacts(lang);
     generateWeapons(lang);
@@ -70,6 +72,21 @@ async function main() {
       }
     }
   }
+}
+
+function getCommon(lang: string): void {
+  const filename = 'common.json';
+  const buildsPath = getFolder(lang, '');
+
+  const data = require(path.join(buildsPath, filename));
+  for (const key in data) {
+    if (Object.prototype.hasOwnProperty.call(data, key)) {
+      const element = data[key];
+      commonMap.set(key, element);
+    }
+  }
+
+  log(chalk.green(`[✓] common.json loaded`));
 }
 
 function generateCharacters(originalData: any, newData: any) {
@@ -302,6 +319,23 @@ function generateBuildAndTier(lang: string) {
             };
           }
         });
+
+        const commonStats = commonMap.get('stats');
+        build.stats_priority = build.stats_priority.map(
+          (stat: string) => commonStats[stat] || stat
+        );
+        const artifactsTypes = [
+          'flower',
+          'plume',
+          'sands',
+          'goblet',
+          'circlet',
+        ];
+        for (const type of artifactsTypes) {
+          build.stats[type] = build.stats[type].map(
+            (stat: string) => commonStats[stat] || stat
+          );
+        }
 
         return build;
       });

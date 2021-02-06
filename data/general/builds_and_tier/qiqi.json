@@ -23,7 +23,14 @@
           "order": 2
         }
       ],
-      "stats": ["ATK%", "Energy", "ATK Flat"]
+      "stats_priority": ["ATK%", "Energy Recharge%", "ATK", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["Energy Recharge%", "ATK%"],
+        "goblet": ["ATK%"],
+        "circlet": ["ATK%", "Healing Bonus%"]
+      }
     }
   ]
 }

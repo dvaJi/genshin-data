@@ -27,7 +27,14 @@
         },
         { "set_1": { "name": "Noblesse Oblige" }, "order": 1 }
       ],
-      "stats": ["ATK%", "Geo DMG", "CRIT DMG"]
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "DEF%", "ATK%", "DEF"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%", "DEF%"],
+        "goblet": ["Geo DMG"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
     }
   ]
 }

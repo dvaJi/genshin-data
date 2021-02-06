@@ -32,7 +32,14 @@
           "order": 3
         }
       ],
-      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "ATK%", "Energy Recharge%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Cryo DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
     },
     {
       "id": "celestial_shower",
@@ -57,7 +64,14 @@
           "order": 3
         }
       ],
-      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "Energy Recharge%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%", "Energy Recharge%"],
+        "goblet": ["Cryo DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
     }
   ]
 }

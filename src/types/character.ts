@@ -16,6 +16,14 @@ interface BuildWeapon {
   order: number;
 }
 
+interface SetsStats {
+  flower: string[];
+  plume: string[];
+  sands: string[];
+  goblet: string[];
+  circlet: string[];
+}
+
 interface Build {
   id: string;
   name: string;
@@ -23,7 +31,8 @@ interface Build {
   role: string;
   weapons: BuildWeapon[];
   sets: BuildSet[];
-  stats: string[];
+  stats_priority: string[];
+  stats: SetsStats;
 }
 
 export interface SkillModifier {

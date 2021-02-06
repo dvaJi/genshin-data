@@ -31,7 +31,14 @@
         },
         { "set_1": { "name": "Gladiator's Finale" }, "order": 2 }
       ],
-      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "ATK%", "DEF%", "Energy Recharge%"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%", "DEF%"],
+        "goblet": ["Physical DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
     },
     {
       "id": "screaming_for_encore",
@@ -54,7 +61,14 @@
           "order": 2
         }
       ],
-      "stats": ["CRIT DMG", "CRIT Rate", "DEF%"]
+      "stats_priority": ["CRIT DMG", "CRIT Rate", "DEF%", "ATK%", "Energy Recharge%"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["DEF%", "ATK%"],
+        "goblet": ["Physical DMG", "DEF%", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
     }
   ]
 }

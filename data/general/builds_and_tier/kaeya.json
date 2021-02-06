@@ -27,7 +27,14 @@
         },
         { "set_1": { "name": "Noblesse Oblige" }, "order": 2 }
       ],
-      "stats": ["CRIT Rate", "CRIT DMG", "ATK%"]
+      "stats_priority": ["CRIT RATE", "CRIT DMG", "ATK%", "ENERGY", "MASTERY"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Physical DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "ATK%"]
+      }
     },
     {
       "id": "fake_harlock",
@@ -49,7 +56,14 @@
           "order": 2
         }
       ],
-      "stats": ["CRIT DMG", "ATK%", "Mastery"]
+      "stats_priority": ["CRIT DMG", "ATK%", "Elemental Mastery", "Energy Recharge%", "CRIT Rate"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Physical DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "ATK%"]
+      }
     }
   ]
 }
