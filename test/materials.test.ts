@@ -4,7 +4,7 @@ describe('Materials English', () => {
   it('should return all materials', async () => {
     const genshinData = new GenshinData({ language: 'english' });
     const materials = await genshinData.materials();
-    expect(materials.length).toEqual(117);
+    expect(materials.length).toEqual(118);
   });
 
   it('should contains all mandatory fields', async () => {
@@ -22,7 +22,7 @@ describe('Materials Spanish', () => {
   it('should return all materials', async () => {
     const genshinData = new GenshinData({ language: 'spanish' });
     const materials = await genshinData.materials();
-    expect(materials.length).toEqual(116);
+    expect(materials.length).toEqual(118);
   });
 
   it('should contains all mandatory fields', async () => {

@@ -91,9 +91,9 @@ function generateCharacters(originalData: any, newData: any) {
     const mat2 = s.mat2
       ? {
           mat2: {
-            ...s.mat1,
-            id: slugify(s.mat1.name),
-            name: materialsMap.get(slugify(s.mat1?.name)),
+            ...s.mat2,
+            id: slugify(s.mat2.name),
+            name: materialsMap.get(slugify(s.mat2?.name)),
           },
         }
       : {};
