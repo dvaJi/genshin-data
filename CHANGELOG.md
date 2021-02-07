@@ -1,3 +1,28 @@
+## [0.2.0](https://github.com/dvaJi/genshin-data/compare/0.1.1...0.2.0) (2021-02-06)
+
+
+### Features
+
+* **weapons:** remove unreleased weapons ([e27248c](https://github.com/dvaJi/genshin-data/commit/e27248cdeefbaf28a415b1349ae7ea8fe8cc4695))
+
+* implement tierlist() method to return current tierlist ([765d620](https://github.com/dvaJi/genshin-data/commit/765d620242a153c89c36a8c33273efd8ec818b01))
+
+* update data to v1.3 ([e9f0e9d](https://github.com/dvaJi/genshin-data/commit/e9f0e9d6ef9eb0960ec5e2cd8435dca328746a63))
+
+* improve builds by adding all recommended stats ([b99828d](https://github.com/dvaJi/genshin-data/commit/b99828d98ea3f51be284332227f6afd6ede9120d))
+
+
+### Japanese
+
+* **common:** add common.json in japanese ([c8c6a45](https://github.com/dvaJi/genshin-data/commit/c8c6a45742fd56c23ae7cb3ddbe946307b5813b6))
+
+
+### Spanish
+
+* **weapons:** remove quote character in weapons ([20b26a3](https://github.com/dvaJi/genshin-data/commit/20b26a32c6ec55de5f8f66f26c8bcadcbed2500d))
+
+
+
 ## [0.1.1](https://github.com/dvaJi/genshin-data/compare/0.1.0...0.1.1) (2021-01-30)
 
 
