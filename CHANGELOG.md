@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/dvaJi/genshin-data/compare/0.2.0...0.2.1) (2021-02-06)
+
+
+### Fixes
+
+* **characters:** remove null value on Xiao data ([75d4232](https://github.com/dvaJi/genshin-data/commit/75d42329697b7f453a591176ee844792a05debd6))
+
+
+
 ## [0.2.0](https://github.com/dvaJi/genshin-data/compare/0.1.1...0.2.0) (2021-02-06)
 
 
