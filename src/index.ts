@@ -4,7 +4,7 @@ import { Material } from './types/material';
 import { Tierlist } from './types/tierlist';
 import { Weapon } from './types/weapon';
 
-export { Artifact, Character, Weapon, Material };
+export { Artifact, Character, Weapon, Material, Tierlist };
 
 export interface Options {
   language: 'english' | 'spanish' | 'japanese';
