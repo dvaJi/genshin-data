@@ -5,7 +5,6 @@ const chalk = require('chalk');
 const DATA_PATH = path.join(__dirname, '..', 'data');
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'generated');
 
-const FOLDERS = ['characters'];
 const LANGUAGES = ['english', 'spanish', 'japanese'];
 
 const log = console.log;
@@ -24,53 +23,12 @@ async function main() {
   for await (const lang of LANGUAGES) {
     log(chalk.yellow(`Creating files for [${lang}] content:`));
 
-    // Get materials|artifacts|weapons
     getCommon(lang);
     generateMaterials(lang);
     generateArtifacts(lang);
     generateWeapons(lang);
     generateBuildAndTier(lang);
-
-    // Iterate through each folder
-    for await (const folder of FOLDERS) {
-      let index: any[] = [];
-      try {
-        const folderPath = path.join(
-          DATA_PATH,
-          lang === 'english' ? 'general' : lang,
-          folder
-        );
-        fs.readdirSync(folderPath).forEach((filename: string) => {
-          if (!filename.endsWith('.json')) return;
-          const data = require(path.join(folderPath, filename));
-          const originalData = require(path.join(
-            DATA_PATH,
-            'general',
-            folder,
-            filename
-          ));
-
-          let fmtData = null;
-
-          if (folder === 'characters') {
-            fmtData = generateCharacters(originalData, data);
-          } else {
-            fmtData = { ...originalData, ...data };
-          }
-
-          index.push(fmtData);
-        });
-
-        fs.writeFileSync(
-          path.join(GENERATED_PATH, lang, `${folder}.json`),
-          JSON.stringify(index, null, '\t')
-        );
-
-        log(chalk.green(`[✓] ${folder}.json created`));
-      } catch (err) {
-        console.error(err);
-      }
-    }
+    generateCharacters(lang);
   }
 }
 
@@ -81,61 +39,84 @@ function getCommon(lang: string): void {
   const data = require(path.join(buildsPath, filename));
   for (const key in data) {
     if (Object.prototype.hasOwnProperty.call(data, key)) {
-      const element = data[key];
-      commonMap.set(key, element);
+      commonMap.set(key, data[key]);
     }
   }
 
   log(chalk.green(`[✓] common.json loaded`));
 }
 
-function generateCharacters(originalData: any, newData: any) {
-  // log(chalk.blue(`>> generating character [${originalData.name}]`));
-  let fmtData = deepMerge(originalData, newData);
+function generateCharacters(lang: string) {
+  const folder = 'characters';
+  let index: any[] = [];
+  try {
+    const folderPath = getFolder(lang, folder);
+    fs.readdirSync(folderPath).forEach((filename: string) => {
+      if (!filename.endsWith('.json')) return;
+      const data = require(path.join(folderPath, filename));
+      const originalData = require(path.join(
+        DATA_PATH,
+        'general',
+        folder,
+        filename
+      ));
 
-  charactersMapLite.set(fmtData.id, {
-    id: fmtData.id,
-    name: fmtData.name,
-    description: fmtData.description,
-  });
+      let fmtData = deepMerge(originalData, data);
 
-  // append builds and tier
-  if (buildsMap.has(fmtData.id)) {
-    fmtData = { ...fmtData, ...renameBuilds(buildsMap.get(fmtData.id)) };
-  }
+      charactersMapLite.set(fmtData.id, {
+        id: fmtData.id,
+        name: fmtData.name,
+        description: fmtData.description,
+      });
 
-  fmtData.ascension = originalData.ascension.map((s: any) => {
-    const mat2 = s.mat2
-      ? {
-          mat2: {
-            ...s.mat2,
-            id: slugify(s.mat2.name),
-            name: materialsMap.get(slugify(s.mat2?.name)),
+      // append builds and tier
+      if (buildsMap.has(fmtData.id)) {
+        fmtData = { ...fmtData, ...renameBuilds(buildsMap.get(fmtData.id)) };
+      }
+
+      fmtData.ascension = originalData.ascension.map((s: any) => {
+        const mat2 = s.mat2
+          ? {
+              mat2: {
+                ...s.mat2,
+                id: slugify(s.mat2.name),
+                name: materialsMap.get(slugify(s.mat2?.name)),
+              },
+            }
+          : {};
+        return {
+          ...s,
+          mat1: {
+            ...s.mat1,
+            id: slugify(s.mat1.name),
+            name: materialsMap.get(slugify(s.mat1?.name)),
           },
-        }
-      : {};
-    return {
-      ...s,
-      mat1: {
-        ...s.mat1,
-        id: slugify(s.mat1.name),
-        name: materialsMap.get(slugify(s.mat1?.name)),
-      },
-      ...mat2,
-      mat3: {
-        ...s.mat3,
-        id: slugify(s.mat3.name),
-        name: materialsMap.get(slugify(s.mat3?.name)),
-      },
-      mat4: {
-        ...s.mat4,
-        id: slugify(s.mat4?.name),
-        name: materialsMap.get(slugify(s.mat4?.name)),
-      },
-    };
-  });
+          ...mat2,
+          mat3: {
+            ...s.mat3,
+            id: slugify(s.mat3.name),
+            name: materialsMap.get(slugify(s.mat3?.name)),
+          },
+          mat4: {
+            ...s.mat4,
+            id: slugify(s.mat4?.name),
+            name: materialsMap.get(slugify(s.mat4?.name)),
+          },
+        };
+      });
 
-  return fmtData;
+      index.push(fmtData);
+    });
+
+    fs.writeFileSync(
+      path.join(GENERATED_PATH, lang, `${folder}.json`),
+      JSON.stringify(index, null, '\t')
+    );
+
+    log(chalk.green(`[✓] ${folder}.json created`));
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 function generateMaterials(lang: string) {
