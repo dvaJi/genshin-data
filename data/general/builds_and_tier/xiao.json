@@ -1,0 +1,37 @@
+{
+  "tier": {
+    "maindps": {
+      "c": 0,
+      "tier": 0
+    }
+  },
+  "builds": [
+    {
+      "id": "demon_slayer",
+      "name": "Demon Slayer",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Primordial Jade Winged-Spear", "order": 1 },
+        { "name": "Skyward Spine", "order": 2 },
+        { "name": "Lithic Spear", "order": 3 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Viridescent Venerer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 1
+        },
+        { "set_1": { "name": "Viridescent Venerer" }, "order": 2 }
+      ],
+      "stats_priority": ["CRIT DMG", "CRIT Rate", "ATK%", "Energy Recharge%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%", "Energy Recharge%"],
+        "goblet": ["Anemo DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    }
+  ]
+}

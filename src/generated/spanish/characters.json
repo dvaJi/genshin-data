@@ -562,9 +562,13 @@
 			}
 		],
 		"tier": {
+			"maindps": {
+				"c": 1,
+				"tier": 3
+			},
 			"subdps": {
 				"c": 0,
-				"tier": 3
+				"tier": 4
 			}
 		}
 	},
@@ -813,7 +817,7 @@
 		"tier": {
 			"support": {
 				"c": 0,
-				"tier": 1
+				"tier": 2
 			}
 		}
 	},
@@ -1573,7 +1577,7 @@
 			},
 			"subdps": {
 				"c": 2,
-				"tier": 1
+				"tier": 2
 			},
 			"support": {
 				"c": 2,
@@ -2579,7 +2583,7 @@
 			},
 			"subdps": {
 				"c": 0,
-				"tier": 0
+				"tier": 1
 			}
 		},
 		"builds": [
@@ -2984,17 +2988,13 @@
 			}
 		],
 		"tier": {
-			"maindps": {
-				"c": 1,
-				"tier": 2
-			},
 			"subdps": {
 				"c": 0,
-				"tier": 1
+				"tier": 2
 			},
 			"support": {
 				"c": 0,
-				"tier": 0
+				"tier": 1
 			}
 		}
 	},
@@ -3241,7 +3241,7 @@
 		],
 		"tier": {
 			"maindps": {
-				"c": 1,
+				"c": 2,
 				"tier": 3
 			},
 			"subdps": {
@@ -4128,11 +4128,11 @@
 		"tier": {
 			"maindps": {
 				"c": 0,
-				"tier": 3
+				"tier": 4
 			},
 			"subdps": {
 				"c": 0,
-				"tier": 2
+				"tier": 3
 			}
 		}
 	},
@@ -4337,7 +4337,15 @@
 			}
 		],
 		"tier": {
+			"maindps": {
+				"c": 2,
+				"tier": 2
+			},
 			"subdps": {
+				"c": 0,
+				"tier": 0
+			},
+			"support": {
 				"c": 0,
 				"tier": 0
 			}
@@ -4592,7 +4600,7 @@
 			},
 			"support": {
 				"c": 1,
-				"tier": 3
+				"tier": 4
 			}
 		}
 	},
@@ -4845,7 +4853,7 @@
 			},
 			"support": {
 				"c": 0,
-				"tier": 2
+				"tier": 4
 			}
 		}
 	},
@@ -5659,8 +5667,8 @@
 				"tier": 2
 			},
 			"support": {
-				"c": 6,
-				"tier": 0
+				"c": 1,
+				"tier": 1
 			}
 		}
 	},
@@ -5910,6 +5918,10 @@
 			"maindps": {
 				"c": 6,
 				"tier": 0
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 1
 			}
 		}
 	},
@@ -6127,7 +6139,7 @@
 		"tier": {
 			"subdps": {
 				"c": 6,
-				"tier": 3
+				"tier": 4
 			}
 		}
 	},
@@ -6343,9 +6355,13 @@
 			}
 		],
 		"tier": {
+			"subdps": {
+				"c": 6,
+				"tier": 3
+			},
 			"support": {
-				"c": 1,
-				"tier": 2
+				"c": 6,
+				"tier": 3
 			}
 		}
 	},
@@ -6592,16 +6608,12 @@
 			}
 		],
 		"tier": {
-			"maindps": {
-				"c": 4,
-				"tier": 1
-			},
 			"subdps": {
 				"c": 0,
 				"tier": 0
 			},
 			"support": {
-				"c": 2,
+				"c": 0,
 				"tier": 0
 			}
 		}
@@ -7061,6 +7073,79 @@
 					"amount": 24
 				}
 			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 0
+			}
+		},
+		"builds": [
+			{
+				"id": "demon_slayer",
+				"name": "Demon Slayer",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Lápida del Lobo",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Espada de la Desidia",
+						"order": 2,
+						"id": "the_unforged"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"DEF%",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"DEF%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
 		]
 	},
 	{
@@ -7311,8 +7396,8 @@
 				"tier": 0
 			},
 			"support": {
-				"c": 0,
-				"tier": 2
+				"c": 2,
+				"tier": 1
 			}
 		}
 	},
@@ -7560,7 +7645,7 @@
 		"tier": {
 			"maindps": {
 				"c": 6,
-				"tier": 2
+				"tier": 3
 			},
 			"subdps": {
 				"c": 0,
@@ -7568,7 +7653,7 @@
 			},
 			"support": {
 				"c": 4,
-				"tier": 2
+				"tier": 3
 			}
 		},
 		"builds": [
@@ -7954,11 +8039,11 @@
 		"tier": {
 			"subdps": {
 				"c": 0,
-				"tier": 2
+				"tier": 1
 			},
 			"support": {
-				"c": 2,
-				"tier": 1
+				"c": 0,
+				"tier": 0
 			}
 		}
 	}

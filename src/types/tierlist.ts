@@ -8,6 +8,7 @@ interface Tier {
   '1': CharacterTier[];
   '2': CharacterTier[];
   '3': CharacterTier[];
+  '4': CharacterTier[];
 }
 
 export interface Tierlist {
