@@ -38,3 +38,21 @@ describe('Weapons Spanish', () => {
     }
   });
 });
+
+describe('Weapons Japanese', () => {
+  it('should return all weapons', async () => {
+    const genshinData = new GenshinData({ language: 'japanese' });
+    const weapons = await genshinData.weapons();
+    expect(weapons.length).toEqual(currentWeapons);
+  });
+
+  it('should contains all mandatory fields', async () => {
+    const genshinData = new GenshinData({ language: 'japanese' });
+    const weapons = await genshinData.weapons();
+
+    for (const weapon of weapons) {
+      expect(weapon.id).toBeDefined();
+      expect(weapon.name).toBeDefined();
+    }
+  });
+});
