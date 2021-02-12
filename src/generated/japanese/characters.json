@@ -1,1 +1,8034 @@
-[]
+[
+	{
+		"id": "albedo",
+		"name": "アルベド",
+		"description": "モンドに住む錬金術師であり、西風騎士団に属している。",
+		"weapon_type": "Sword",
+		"element": "Geo",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Kreideprinz",
+			"The Chalk Prince",
+			"Chief Alchemist",
+			"Captain of the Investigation Team"
+		],
+		"skills": [
+			{
+				"id": "favonius_bladework_weiss",
+				"name": "西風剣術・白",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃を行う。</p><p><b>重撃:</b>一定のスタミナを消費し、前方に斬撃を2回放つ。</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "abiogenesis_solar_isotoma",
+				"name": "創生術・疑似陽華",
+				"type": "元素スキル",
+				"description": "<p>陽華を錬成し、岩元素範囲ダメージを与える。</p><p><b>陽華:</b>以下の特性を持つ・陽華を中心とするエリア内にいる敵がダメージを受けた時、陽華は刹那の華を生成し、敵に岩元素範囲ダメージを与える。ダメージ量はアルベドの防御力によって決まる。・刹那の花は2秒毎に1回のみ生成できる・キャラクターが陽華の上にいる時、陽華は岩元素の力を凝結し、キャラクターを一定の高さまで持ち上げる晶台を生成する。晶台は同時に最大1つまで存在可能。・アルベドによって創造された陽華は同時に最大1つまで存在可能。また、陽華は岩元素創造物とみなされる。</p><p><b>長押し:</b>スキルの発動位置を調節できる</p>",
+				"modifiers": []
+			},
+			{
+				"id": "rite_of_progeniture_tectonic_tide",
+				"name": "誕生式・大地の潮",
+				"type": "元素爆発",
+				"description": "<p>アルベドの指示の下、岩晶が激しく爆発しアルベドの前方に岩元素範囲ダメージを与える。フィールド上にアルベドが創造した陽華が存在している場合、陽華のエリア内に7本の生滅の花を生成し、岩元素ダメージを与える。爆発と生滅の花によるダメージによって刹那の花が作られることはない。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "calcite_might",
+				"name": "白亜色の気迫",
+				"description": "創生術・疑似陽華の刹那の花がHP50％以下の的にダメージを与えた場合、ダメージ量+25%。",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "homuncular_nature",
+				"name": "ホムンクルスの天智",
+				"description": "誕生式・大地の潮を発動した時、付近のチーム内キャラクターの元素熟知を+125、継続時間10秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "flash_of_genius_albedo",
+				"name": "天才の気付き",
+				"description": "武器突破素材を合成する時、10%の確率でアイテムを2倍獲得する。",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "flower_of_eden",
+				"name": "エデンの花【1凸で解放】",
+				"description": "アルベドの創生術・疑似陽華の刹那の花が放たれた時、アルベド自身の元素エネルギーが1.2回復する。",
+				"level": 1
+			},
+			{
+				"id": "opening_of_phanerozoic",
+				"name": "顕生の宇宙【2凸で解放】",
+				"description": "創生術・疑似陽花の刹那の花が放たれた時、アルベドに生滅カウントを付与する。継続時間30秒。・誕生式・大地の潮を発動する時、全ての生滅カウントを取り除く。取り除かれた数によって誕生式・大地の潮の爆発ダメージと生滅の花のダメージが上昇する。・生滅カウント1つにつき、アルベドの防御力30%分のダメージが上昇する。生滅カウントは最大4重まで。",
+				"level": 2
+			},
+			{
+				"id": "grace_of_helios",
+				"name": "太陽の華【3凸で解放】",
+				"description": "創生術・疑似陽華のスキルLv+3。最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "descent_of_divinity",
+				"name": "聖なる堕落【4凸で解放】",
+				"description": "陽華のエリア内にいるキャラクターの落下攻撃のダメージ+30%",
+				"level": 4
+			},
+			{
+				"id": "tide_of_hadaen",
+				"name": "太古の潮【5凸で解放】",
+				"description": "誕生式・大地の潮のスキルLv+3。最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "dust_of_purification",
+				"name": "無垢なる土【6凸で解放】",
+				"description": "陽華のエリア内にいるフィールド上のキャラクターが、結晶反応で生成されたシールド状態にある時、与えるダメージ+17%",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "prithiva_topaz_sliver",
+					"name": "堅牢なトパーズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "prithiva_topaz_gemstone",
+					"name": "堅牢なトパーズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 0,
+				"tier": 1
+			},
+			"support": {
+				"c": 0,
+				"tier": 2
+			}
+		},
+		"builds": [
+			{
+				"id": "geo_support",
+				"name": "Geo Support",
+				"description": "Thanks to his low cooldowns and high energy generation, Albedo excels at the secondary DPS role, swapping in and out as his skills become available.",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "天空の刃",
+						"order": 1,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "腐植の剣",
+						"order": 2,
+						"id": "festering_desire"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "archaic_petra",
+							"name": "悠久の磐岩"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"防御力%",
+					"攻撃力%",
+					"防御力"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"防御力%"
+					],
+					"goblet": [
+						"Bono de Daño Geo"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "amber",
+		"name": "アンバー",
+		"description": "活発でまっすぐな少女、モンドで唯一の偵察騎士である。「風の翼」で飛ぶのが一番得意で、その実力は3年連続でモンドの「飛行チャンピオン」に輝くほど。西風騎士団の新星として、今日もアンバーは第一線で活躍している。",
+		"weapon_type": "Bow",
+		"element": "Pyro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Outrider",
+			"Gliding Champion"
+		],
+		"skills": [
+			{
+				"id": "sharpshooter",
+				"name": "一流射手",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>ダメージがより高く、より正確な狙い撃ちを発動する。照準時、烈炎を矢先に凝集させ、烈炎に満ちた矢は敵に炎ダメージを与える。</p><p><b>重撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "explosive_puppet",
+				"name": "爆弾人形",
+				"type": "元素スキル",
+				"description": "<p>頼もしいうさぎ伯爵の出番</p><p><b>ウサギ伯爵:</b>周囲の敵を嘲笑い続け、攻撃を吸い寄せる。耐久度はアンバーのHPを一定の比例で受け継ぐ。破壊された時または継続時間が終了した時に爆発し、炎範囲ダメージを与える。</p><p><b>長押し:</b>投擲方向を調整できる。投擲距離は長押しの時間によって増加する</p>",
+				"modifiers": []
+			},
+			{
+				"id": "fiery_rain",
+				"name": "矢の雨",
+				"type": "元素爆発",
+				"description": "<p>前方に炎の矢の雨を出し、炎範囲ダメージを与え続ける</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "every_arrow_finds_its_target",
+				"name": "百発百中！",
+				"description": "矢の雨の会心率+10%、影響範囲+30%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "precise_shot",
+				"name": "制圧射撃",
+				"description": "狙い撃ちが弱点に命中すると、基礎攻撃力+10%、継続時間10秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "gliding_champion",
+				"name": "飛行チャンピオン",
+				"description": "チーム全員が滑翔に消費するスタミナ-20%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "one_arrow_to_rule_them_all",
+				"name": "一挙双擒！【1凸で解放】",
+				"description": "狙い撃ちする時、矢を連続2本放つ。2本目の矢は元の矢の20%のダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "bunny_triggered",
+				"name": "一触即発【2凸で解放】",
+				"description": "ウサギ伯爵が改良された！フルチャージの狙い撃ちがウサギ伯爵の足に命中するとウサギ伯爵を直接起爆させられる。この形で自らウサギ伯爵を起爆させると、追加で200%のダメージを与える。",
+				"level": 2
+			},
+			{
+				"id": "it_burns",
+				"name": "燃やせ！【3凸で解放】",
+				"description": "矢の雨のスキルLv+3。最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "its_not_just_any_doll",
+				"name": "ただの人形じゃない【4凸で解放】",
+				"description": "爆弾人形のクールタイム-20%。使用可能回数が1回増える。",
+				"level": 4
+			},
+			{
+				"id": "its_baron_bunny",
+				"name": "ウサギ伯爵だよ！【5凸で解放】",
+				"description": "爆弾人形のスキルLv+3。最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "wildfire",
+				"name": "野火の如く【6凸で解放】",
+				"description": "矢の雨を発動した10秒間、チーム全員の移動速度+15%、基礎攻撃力+15%。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 1,
+				"tier": 3
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 4
+			}
+		}
+	},
+	{
+		"id": "barbara",
+		"name": "バーバラ",
+		"description": "西風教会の牧師であり、モンドのアイドルでもある。吟遊詩人の風習があるモンドで「アイドル」はまだ新しい文化だが、モンドの人々はバーバラのことが大好きだ。これが自由の都の精神よ――みんなの好意に対して、彼女は感謝しながらそう答えた。",
+		"weapon_type": "Catalyst",
+		"element": "Hydro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Shining Idol",
+			"Deaconess"
+		],
+		"skills": [
+			{
+				"id": "whisper_of_water",
+				"name": "水の囁き",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃、水ダメージを与える</p><p><b>重撃:</b>一定のスタミナを消費し、短い詠唱した後、敵に水範囲ダメージを与える</p><p><b>落下攻撃:</b>水元素の力を凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に水範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "let_the_show_begin",
+				"name": "公演、開始",
+				"type": "元素スキル",
+				"description": "<p>躍動の歌声のような水の玉を召喚し、歌声の輪を作って周囲の的に水元素ダメージを与え、さらに湿潤状態を付与する</p><p><b>歌声の輪:</b>4.00%hp上限+385</p>",
+				"modifiers": []
+			},
+			{
+				"id": "shining_miracle",
+				"name": "シャイニングミラクル",
+				"type": "元素爆発",
+				"description": "<p>周囲にいる味方とチーム全員のHPを大幅に回復する。回復量はバーバラのHP上限を基準とする</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "glorious_season",
+				"name": "輝く季節",
+				"description": "スキル「公演、開始♪」で歌声の輪が継続している間、スタミナ消費-12%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "encore",
+				"name": "アンコール",
+				"description": "元素オーブまたは元素粒子を獲得時に、「公演、開始♪」の歌声の輪の継続時間+1秒。この方法で最大5秒ｍで延長可能",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "with_my_whole_heart",
+				"name": "気持ち♪注入",
+				"description": "回復類料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "gleeful_songs",
+				"name": "虹色の歌【1凸で解放】",
+				"description": "10秒毎に元素エネルギーを1回復する。",
+				"level": 1
+			},
+			{
+				"id": "vitality_burst",
+				"name": "元気溌剌【2凸で解放】",
+				"description": "公演、開始♪のクールタイム-15%、スキル継続中、キャラの与える水ダメージ+15%",
+				"level": 2
+			},
+			{
+				"id": "star_of_tomorrow",
+				"name": "明日の星【3凸で解放】",
+				"description": "シャイニングミラクル♪のスキルLv+3、最大Lv15まで",
+				"level": 3
+			},
+			{
+				"id": "attentiveness_be_my_power",
+				"name": "努力が魔法なの【4凸で解放】",
+				"description": "重撃が敵に目一中する度に、バーバラの元素エネルギーが1回復する。1回で最大元素エネルギーが5まで回復できる。",
+				"level": 4
+			},
+			{
+				"id": "the_purest_companionship",
+				"name": "純真な絆【5凸で解放】",
+				"description": "公演、開始♪のスキルLv+3、最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "dedicating_everything_to_you",
+				"name": "美しいものをあなたに【6凸で解放】",
+				"description": "バーバラ待機中に出場中のキャラクターが死亡すると、下記効果が発動される。・死亡したキャラを復活させる・該当キャラのHPが100%回復される。この効果は15分毎に1回のみ発動可能。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "varunada_lazurite_sliver",
+					"name": "澄明なラピスラズリ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "varunada_lazurite_gemstone",
+					"name": "澄明なラピスラズリ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"support": {
+				"c": 0,
+				"tier": 2
+			}
+		}
+	},
+	{
+		"id": "beidou",
+		"name": "北斗",
+		"description": "「南十字」武装艦隊の頭領で、璃月ではかなりの人望を持つ存在。噂によると、彼女は山や海を割ることができ、剣を掲げることで雷をも召喚するという。冥海の巨獣ですら彼女の相手ではないとか。",
+		"weapon_type": "Claymore",
+		"element": "Electro",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Uncrowned Lord of Ocean",
+			"Queen of the Crux Fleet"
+		],
+		"skills": [
+			{
+				"id": "oceanborne",
+				"name": "征浪",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>継続的にスタミナを消費し、素早く連続攻撃を発動する。重撃が終了した時に、更に強力な攻撃を1回放つ</p><p><b>重撃:</b>空中から落下し地面に衝撃を与える、経路上の敵を攻撃し、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "tidecaller",
+				"name": "浪追い",
+				"type": "元素スキル",
+				"description": "<p><b>一回押し:</b>雷の力を凝集させ、前方に大剣を振り、雷ダメージを与える</p><p><b>長押し:</b>武器をシールドとして使う。ダメージ吸収量は北斗のHP上限で決まる。手放すまたはスキル継続時間終了時、大剣を振り回し攻撃を行い、雷ダメージを与える。スキル時間中に受けた攻撃の回数により、与えるダメージを最大2回までアップする。シールドには、雷ダメージに対して250%の吸収効果と、スキル発動時に北斗に雷元素付着効果を付与する効果がある</p>",
+				"modifiers": []
+			},
+			{
+				"id": "stormbreaker",
+				"name": "雷斫り",
+				"type": "元素爆発",
+				"description": "<p>北斗が巨獣海山との戦いを思い出し、巨獣と雷電の力を召喚し、雷獣の盾を作り、周囲の敵に雷ダメージを与える</p><p><b>雷獣の盾:</b>通常攻撃と重撃が近距離の敵に命中すると、雷の力を放ち、敵の前で跳躍する稲妻を発生させ、敵に雷ダメージを与える。キャラクターの中断耐性をアップし、受けるダメージを軽減する。毎秒稲妻を1本発生可能</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "retribution",
+				"name": "完全なる霊光",
+				"description": "攻撃された時に発動した浪追い反撃は最大ダメージ上昇効果がある",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "lightning_storm",
+				"name": "満天の霹靂",
+				"description": "最大ダメージ上昇効果のある浪追いを発動した10秒内、下記の効果が発動される。・通常攻撃と重撃の攻撃速度、ダメージ+15%■重撃に必要な時間が大幅に減少",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "conqueror_of_tides",
+				"name": "怒濤踏み",
+				"description": "チーム全員が泳ぐときに消費するスタミナ-20%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "sea_beasts_scourge",
+				"name": "四方に沈む魚龍【1凸で解放】",
+				"description": "雷斫り発動時：HP上限16％相当のシールドを生成し、継続時間15秒。該当シールドは雷ダメージに対して250％の吸収効果がある。",
+				"level": 1
+			},
+			{
+				"id": "upon_the_turbulent_sea_the_thunder_arises",
+				"name": "湧き上がる雷【2凸で解放】",
+				"description": "雷斫りの稲妻は2体の敵を追加で攻撃可能。",
+				"level": 2
+			},
+			{
+				"id": "summoner_of_storm",
+				"name": "雷引きの潮【3凸で解放】",
+				"description": "浪追いのスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "stunning_revenge",
+				"name": "星に導かれた岸線【4凸で解放】",
+				"description": "攻撃を受けた10秒内、北斗の通常攻撃は20%の雷ダメージが付与される。",
+				"level": 4
+			},
+			{
+				"id": "crimson_tidewalker",
+				"name": "白波に映る霞光【5凸で解放】",
+				"description": "雷斫りのスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "bane_of_the_evil",
+				"name": "北斗の祓い【6凸で解放】",
+				"description": "雷斫り継続中、周囲の敵の雷耐性-15％。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vajrada_amethyst_sliver",
+					"name": "最勝のアメシスト砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vajrada_amethyst_gemstone",
+					"name": "最勝のアメシスト",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "noctilucous_jade",
+					"name": "夜泊石",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 4,
+				"tier": 2
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 2
+			}
+		}
+	},
+	{
+		"id": "bennett",
+		"name": "ベネット",
+		"description": "冒険者協会モンド支部の数少ない若い冒険者、常に「不運」にまとわりつかれている。彼が作った「ベニー冒険団」は「不運」の影響でメンバーが減り続け、現在は団長一人のみ在籍し解散すん残。ベネットにお願いされて、冒険者強化モンド支部の看板娘キャサリンは「ベニー冒険団」の登録を消さずに、団員たちがとうに辞めたという事実も口外しないようにした。",
+		"weapon_type": "Sword",
+		"element": "Pyro",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Trial by Fire",
+			"Leader of Benny's Adventure Team"
+		],
+		"skills": [
+			{
+				"id": "strike_of_fortune",
+				"name": "好運の剣",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最高5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "passion_overload",
+				"name": "溢れる情熱",
+				"type": "元素スキル",
+				"description": "<p>ベネットが炎元素と冒険への情熱を剣に込めて…込めた情熱の多さによって、違う効果が現れる可能性がある</p><p><b>一回押し:</b>前方に素早く炎の一撃を仕掛け、炎ダメージを与える</p><p><b>長押し:</b>三段攻撃を発動し、大量の炎ダメージを与え、最後の一撃に爆発が発生し、自身と敵を同時にノックバックする。ベネットがこのせいでノックバックされた時、ダメージを受けることはない。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "fantastic_voyage",
+				"name": "素晴らしい旅",
+				"type": "元素爆発",
+				"description": "<p>ベネットが敵のほうにジャンプし、落下攻撃を仕掛け、炎ダメージを与え、鼓舞エリアを生成する</p><p><b>鼓舞エリア:</b>エリア内のキャラのHPが最大値の70%を下回ると、HPが継続回復する。回復量はベネットのHP上限によって決まる。・エリア内のキャラのHPが最大値の70%以上の場合、ベネットの基礎攻撃力を基準に、一定比例の攻撃力がアップする。エリア内のキャラに炎元素付着効果を付与する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "rekindle",
+				"name": "情熱復活",
+				"description": "溢れる情熱のクールタイムー20%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "fearnaught",
+				"name": "恐れなき熱血",
+				"description": "素晴らしい旅エリア内にいると、溢れる情熱が以下の効果を持つ・クールタイム-50%・2段チャージによるベネット自身のノックバックは発生しない。",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "it_should_be_safe",
+				"name": "多分安全",
+				"description": "モンドの探索任務の所要時間-25%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "grand_expectation",
+				"name": "冒険の憧れ【1凸で解放】",
+				"description": "素晴らしい旅の攻撃力アップ効果はHPによる制限がなくなり、さらに基礎攻撃力+20%。",
+				"level": 1
+			},
+			{
+				"id": "impasse_conqueror",
+				"name": "絶境踏破【2凸で解放】",
+				"description": "HPが70%以下になると、元素チャージ効率+30%。",
+				"level": 2
+			},
+			{
+				"id": "unstoppable_fervor",
+				"name": "炎のような情熱【3凸で解放】",
+				"description": "溢れる情熱のスキルLv+3%。最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "unexpected_odyssey",
+				"name": "消えない情熱【4凸で解放】",
+				"description": "1段チャージ溢れる情熱を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。二段目攻撃の135%の追加ダメージを与える。",
+				"level": 4
+			},
+			{
+				"id": "true_explorer",
+				"name": "開拓の心意気【5凸で解放】",
+				"description": "素晴らしい旅のスキルLv+3。最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "fire_ventures_with_me",
+				"name": "烈火と勇気【6凸で解放】",
+				"description": "素晴らしい旅エリア内の片手剣、両手剣、長柄武器キャラの炎ダメージ+15%、通常攻撃と重撃ダメージを炎ダメージに変換する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 1,
+				"tier": 2
+			},
+			"support": {
+				"c": 1,
+				"tier": 0
+			}
+		}
+	},
+	{
+		"id": "chongyun",
+		"name": "重雲(ちょううん)",
+		"description": "璃月を中心に、各地で妖魔退治を行っている放浪方士。妖魔退治の一族の後継者として、彼は幼い頃から並外れた技を会得していた。だが、この技は師匠から学んだものではなく、生まれ持っての異能――「純陽の体」によるものであった。",
+		"weapon_type": "Claymore",
+		"element": "Cryo",
+		"gender": "Male",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Frozen Ardor",
+			"Banisher of Evil and Rumors Thereof"
+		],
+		"skills": [
+			{
+				"id": "demonbane",
+				"name": "滅邪四式",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>継続的にスタミナを消費し、大剣を振り回し周囲の敵を攻撃する。斬撃が終了した時に、更に強力な攻撃を1回放つ</p><p><b>重撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "spirit_blade_chonghuas_layered_frost",
+				"name": "霊刃・重華積霜",
+				"type": "元素スキル",
+				"description": "<p>重雲が居内な剣を振って地面を叩き、前方の円形範囲内に氷爆を発動し、敵に氷元素ダメージを与える。その後、氷爆による寒気が重華積霜エリアになり、エリア内の片手剣、両手剣、長柄武器キャラクターの通常攻撃と重撃は氷元素ダメージになる</p>",
+				"modifiers": []
+			},
+			{
+				"id": "spirit_blade_cloudparting_star",
+				"name": "霊刃・雲開星落",
+				"type": "元素爆発",
+				"description": "<p>重雲が印を結び、前方の空中に3本の巨大霊刃を召喚する。霊刃は短時間内に1本ずつ地面に落ちて爆裂する。霊刃が爆裂時、氷元素範囲ダメージを与え、敵を吹き飛ばす</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "steady_breathing",
+				"name": "吐納真定",
+				"description": "霊刃・重華積霜エリア内、片手剣、両手剣、長柄武器キャラの通常攻撃と攻撃速度+8%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "rimechaser_blade",
+				"name": "追氷剣訣",
+				"description": "霊刃・重華積霜エリアが消えた時、自動的に付近の敵を攻撃する霊刃を召喚し、霊刃・重華積霜のスキルダメージ100%の氷範囲ダメージを与える。命中された敵の氷耐性-10%、継続時間8秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "gallant_journey",
+				"name": "雲遊山海",
+				"description": "瑠月の探索任務の所要時間-25%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "ice_unleashed",
+				"name": "釈凌詠水【1凸で解放】",
+				"description": "通常攻撃の最後の一撃が全員に3つの氷の刃を放ち、氷の刃は途中の敵に重雲の50%攻撃力の氷ダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "atmospheric_revolution",
+				"name": "周天の回転【2凸で解放】",
+				"description": "霊刃・重華積霜エリア内、元素スキルと元素爆発のクールタイム-15%。",
+				"level": 2
+			},
+			{
+				"id": "cloudburst",
+				"name": "雲の果てに光あり【3凸で解放】",
+				"description": "霊刃・雲開星落のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "frozen_skies",
+				"name": "浮雲霜天【4凸で解放】",
+				"description": "重雲の全ての攻撃が氷元素の影響を受けた敵に命中した時、自身の元素エネルギーを1回復。この効果は2秒毎に1回のみ発動可能。",
+				"level": 4
+			},
+			{
+				"id": "the_true_path",
+				"name": "真道の正理【5凸で解放】",
+				"description": "霊刃・重華積霜のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "rally_of_four_blades",
+				"name": "四霊の捧げ【6凸で解放】",
+				"description": "霊刃・雲開星落がHPの百分率が重雲より低い敵に命中した時、ダメージ+15%。その他、使用する時にさらに追加で霊刃を1本召喚する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "shivada_jade_sliver",
+					"name": "哀切なアイスクリスタル砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "shivada_jade_gemstone",
+					"name": "哀切なアイスクリスタル",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 6,
+				"tier": 2
+			},
+			"subdps": {
+				"c": 2,
+				"tier": 2
+			},
+			"support": {
+				"c": 2,
+				"tier": 2
+			}
+		}
+	},
+	{
+		"id": "diluc",
+		"name": "ディルック",
+		"description": "モンドの大富豪として、ディルックは常に完璧な貴公子のイメージは保っている。しかし、本当の彼は強い信念を持つ戦士で、その「何があってもモンドを守る」意志は炎のように熱く、彼に迷いなく敵を潰す強さを与える。",
+		"weapon_type": "Claymore",
+		"element": "Pyro",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"The Dark Side of Dawn",
+			"Darknight Hero",
+			"The Uncrowned King of Mondstadt",
+			"Captain Pyro  (by Paimon)"
+		],
+		"skills": [
+			{
+				"id": "tempered_sword",
+				"name": "百煉の剣",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃/td></p><p><b>重撃:</b>継続的にスタミナを消費し、素早く連続斬撃を発動する。重撃が終了した時に、更に強力な攻撃を1回放つ</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "searing_onslaught",
+				"name": "逆焔の刃",
+				"type": "元素スキル",
+				"description": "<p>前方に向かって大剣を振りかざし、炎ダメージを与える。最大連続で3回使用可能。短時間内に継続使用しない場合、クールタイムに入る</p>",
+				"modifiers": []
+			},
+			{
+				"id": "dawn",
+				"name": "黎明",
+				"type": "元素爆発",
+				"description": "<p>烈焔の力を爆発し、周囲の敵をノックバックし、炎ダメージを与える。その後、烈焔を大剣に集め、前方に飛行する炎の鳥を出し、経路上の敵に大量の炎ダメージを与える。さらに炎の鳥は進行経路の終点で爆破し、大量の炎範囲ダメージを与える。武器に凝集した烈焔により、一定時間内にディルックの通常攻撃と重撃ダメージは炎ダメージに変わる</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "relentless",
+				"name": "ノンストップ",
+				"description": "重撃のスタミナ消費-50%、最大継続時間+3秒",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "blessing_of_phoenix",
+				"name": "溶融の翼",
+				"description": "黎明による炎元素バフの継続時間+4秒；さらに効果継続中にディルックの与える炎ダメージ+20%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "tradition_of_the_dawn_knight",
+				"name": "アカツキの伝統",
+				"description": "両手類武器を製造する時、消費した鉱石の15%が返還される",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "conviction",
+				"name": "罪の裁断【1凸で解放】",
+				"description": "HPが50%より上回る敵に対して、ディルックの与えるダメージ+15%。",
+				"level": 1
+			},
+			{
+				"id": "searing_ember",
+				"name": "灼熱余燼【2凸で解放】",
+				"description": "ディルックがダメージを受けると、基礎攻撃力+10%、攻撃速度+5%、継続時間10秒。該当効果は最大3種まで、1.5秒に1回のみ発動可能。",
+				"level": 2
+			},
+			{
+				"id": "fire_and_steel",
+				"name": "鋼鉄の熾焔【3凸で解放】",
+				"description": "逆焔の刃のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "flowing_flame",
+				"name": "流火暁灼【4凸で解放】",
+				"description": "リズム的に逆焔の刃を発動させることで、ダメージを大幅に上げることができる。逆焔の刃発動2秒後、次の逆焔の刃のダメージ+40%、継続時間2秒。",
+				"level": 4
+			},
+			{
+				"id": "phoenix_harbinger_of_dawn",
+				"name": "朝を告げる炎の鳥【5凸で解放】",
+				"description": "黎明のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "flaming_sword_nemesis_of_dark",
+				"name": "闇を清算する炎の剣【6凸で解放】",
+				"description": "逆焔の刃発動後、6秒以内の通常攻撃の攻撃速度+30%、2回まで。逆焔の刃によって通常攻撃のコンボ数がリセットされることはなくなる。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 0
+			}
+		}
+	},
+	{
+		"id": "diona",
+		"name": "ディオナ",
+		"description": "稀な「非人」の血統を引いている少女、「キャッツテール」の超人気バーテンダー。",
+		"weapon_type": "Bow",
+		"element": "Cryo",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Kätzlein Cocktail",
+			"Wine Industry Slayer (Self-proclaimed)"
+		],
+		"skills": [
+			{
+				"id": "ktzlein_style",
+				"name": "狩人の射術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高5段の連続射撃を行う</p><p><b>重撃:</b>ダメージがより高く、より精確的な狙い撃ちが発動する。照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に氷ダメージを与える。</p><p><b>落下攻撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "icy_paws",
+				"name": "フリーズキャッツクロー",
+				"type": "元素スキル",
+				"description": "<p>フリーズキャッツクローを放ち、的に氷ダメージを与え、さらに命中した場合シールドを生成する。┗シールドのダメージ吸収量はディオナのHP上限┗継続時間は命中したフリーズキャッツクローの数で決まる</p><p><b>1回押し:</b>7.2%hp上限+693168%</p><p><b>長押し:</b>7.2%hp上限+693168%</p>",
+				"modifiers": []
+			},
+			{
+				"id": "signature_mix",
+				"name": "特製スピリッツ",
+				"type": "元素爆発",
+				"description": "<p>特製の氷入りスピリッツを投げ出し、氷範囲ダメージを与え、氷気の酒霧アリアを生成する。</p><p><b>氷気の酒霧エリア:</b>・エリアにいる敵に継続して氷ダメージを与える・エリアにいるキャラクターのHPを継続して回復する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "cats_tail_secret_menu",
+				"name": "キャッツテールの裏メニュー",
+				"description": "フリーズキャットクローのシールドが存在する時、キャラクターの移動速度+10%、スタミナ消費-10%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "drunkards_farce",
+				"name": "滑稽な酔態",
+				"description": "特製スピリッツのエリアに入った敵の攻撃力が15秒間-10%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "complimentary_bar_food",
+				"name": "おまけのおつまみ",
+				"description": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "a_lingering_flavor",
+				"name": "特製の余韻【1凸で解放】",
+				"description": "特製スピリッツの効果終了時、ディオナの元素エネルギーを15回復する",
+				"level": 1
+			},
+			{
+				"id": "shaken_not_purred",
+				"name": "クールキャッツクロー【2凸で解放】",
+				"description": "フリーズキャッツクローによるダメージ+15%、シールドのダメージ吸収量+15%。命中時、近くに出現している他のキャラクターにフリーズキャットクローの50%のダメージを吸収するシールドを付与する、継続時間5秒。",
+				"level": 2
+			},
+			{
+				"id": "aanother_round",
+				"name": "お、おかわり？【3凸で解放】",
+				"description": "特製スピリッツのスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "wine_industry_slayer",
+				"name": "「酒造業キラー」【4凸で解放】",
+				"description": "特製スピリッツのエリアに居る時、デュオなの狙い撃ちのチャージ時間が60%減少する。",
+				"level": 4
+			},
+			{
+				"id": "double_shot_on_the_rocks",
+				"name": "エクストラアイス【5凸で解放】",
+				"description": "フリーズキャッツクローのスキルLv.+3、最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "cats_tail_closing_time",
+				"name": "キャッツテールが閉店の時【6凸で解放】",
+				"description": "特製スピリッツのエリアにいるキャラクターは自身の現在HPにより以下の効果を獲得する。・HPが50％またはその以下の時、非回復量が30％上昇・HPが50％以上の時、元素熟知が200上昇",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "shivada_jade_sliver",
+					"name": "哀切なアイスクリスタル砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "shivada_jade_gemstone",
+					"name": "哀切なアイスクリスタル",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"support": {
+				"c": 1,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "fischl",
+		"name": "フィッシュル",
+		"description": "自称「断罪の皇女」、オズという漆黒の鴉とともに行動する謎の少女。現在、フィッシュルは調査員として冒険者協会に籍を置いている。特殊能力に加え不思議なキャラ、そして本人は認めていないがその努力によって、フィッシュルは冒険者調査員の新星として皆に認められている。",
+		"weapon_type": "Bow",
+		"element": "Electro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Prinzessin der Verurteilung",
+			"Sovereign of Immernachtreich",
+			"Ruler of the Ashen Darkness"
+		],
+		"skills": [
+			{
+				"id": "bolts_of_downfall",
+				"name": "罪滅ぼしの射術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>ダメージがより高く、より正確的な狙い撃ちが発動する。照準時、幽夜浄土の雷精霊は皇女の命令に従い、その矢に憑依する。断罪の雷に満ちた矢は敵に高いダメージを与える</p><p><b>重撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "nightrider",
+				"name": "夜巡りの翼",
+				"type": "元素スキル",
+				"description": "<p>オズを召喚する。暗影と雷電によって構成された鴉が降臨する時、狭範囲の雷ダメージを与える。オズ存在時、雷の魔弾を発射し、付近の敵を自動攻撃する。長押しでスキル発動位置を調整可能。オズが存在する間は再び一回押すとオズを自身の傍に呼び寄せる。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "midnight_phantasmagoria",
+				"name": "夜の幻想",
+				"type": "元素爆発",
+				"description": "<p>オズを召喚して、純粋なる夜色の翼でフィッシュルを守る。期間中、下記効果がある。・フィッシュルはオズ形態で高速移動・付近の敵に落雷を落下させる・オズは戦場に留まり敵を攻撃する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "stellar_predator",
+				"name": "星喰いの鴉",
+				"description": "フィッシュルのチャージした狙い撃ち射撃がオズに命中すると、オズは周囲の敵に聖裁の雷を放ち、射撃ダメージ152.7％相当の雷範囲ダメージを与える",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "undone_be_thy_sinful_hex",
+				"name": "断罪の雷影",
+				"description": "オズが出場時、敵への攻撃が雷元素の関連反応を起こすと、敵に聖裁の雷を下し、フィッシュルの攻撃力80%の雷ダメージを与える",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "mein_hausgarten",
+				"name": "吾の裏庭",
+				"description": "モンドの探索任務の所要時間-25%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "gaze_of_the_deep",
+				"name": "幽邃な鴉の目【1凸で解放】",
+				"description": "オズが戦場にいない時も、鴉の目を透してフィッシュルを守る。フィッシュつが敵を攻撃する時、オズは鴉の目を通して攻撃し、攻撃力の22%のダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "devourer_of_all_sins",
+				"name": "聖裁の羽根【2凸で解放】",
+				"description": "夜巡りの翼発動時、攻撃力の200%の追加ダメージを与える、影響範囲+50%。",
+				"level": 2
+			},
+			{
+				"id": "wings_of_nightmare",
+				"name": "黒き翼【3凸で解放】",
+				"description": "夜巡りの翼のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "her_pilgrimage_of_bleak",
+				"name": "皇女綺譚集【4凸で解放】",
+				"description": "夜の幻現発動時、周囲の敵に攻撃力の222％の雷ダメージを与える。スキル終了時、フィッシュルのHPを20％回復する。",
+				"level": 4
+			},
+			{
+				"id": "against_the_fleeing_light",
+				"name": "夜の黙示録【5凸で解放】",
+				"description": "夜の幻現実のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "evernight_raven",
+				"name": "永夜の禽【6凸で解放】",
+				"description": "オズの存在時間+2秒。オズは出場キャラと共に攻撃し、攻撃力の30%の雷ダメージを与える。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vajrada_amethyst_sliver",
+					"name": "最勝のアメシスト砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "firm_arrowhead",
+					"name": "牢固な矢先",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sharp_arrowhead",
+					"name": "鋭利な矢先",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vajrada_amethyst_gemstone",
+					"name": "最勝のアメシスト",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "small_lamp_grass",
+					"name": "イグサ",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "weathered_arrowhead",
+					"name": "歴戦の矢先",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 6,
+				"tier": 1
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "ganyu",
+		"name": "甘雨(かんう)",
+		"description": "",
+		"weapon_type": "Bow",
+		"element": "Cryo",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Plenilune Gaze",
+			"Little Miss Ganyu  (by Uncle Tian)"
+		],
+		"skills": [
+			{
+				"id": "liutian_archery",
+				"name": "流天射術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最大6段の連続射撃を行う</p><p><b>重撃:</b>ダメージがより高く、より精確的な狙い撃ちが発動する。照準時、氷霜の気が矢先に集まり、攻撃と共に発射される。チャージの時間により、異なる効果を発動する。・1段チャージ：氷寒の気が集まった矢を放ち、氷元素ダメージを与える。・2段チャージ：霜華の矢を放ち、氷元素ダメージを与える。命中後、霜華満開が発生し、さらに氷元素範囲ダメージを与える。</p><p><b>落下攻撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "trail_of_the_qilin",
+				"name": "山沢麟跡",
+				"type": "元素スキル",
+				"description": "<p>一輪の氷蓮を残して後退し、全ての魑魅魍魎から離れ、氷元素範囲ダメージを与える。氷蓮・持続的に周囲の敵を挑発し、攻撃を引きつける。・耐久度は甘雨のHP上限によって決まる。・破壊されたときまたは継続時間終了後に激しく開花し、氷元素範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "celestial_shower",
+				"name": "降衆天華",
+				"type": "元素爆発",
+				"description": "<p>大気中の霜雪を集め、退魔の氷霊珠を召喚する。氷霊珠が存在している間、持続的に氷柱を降らし、範囲内の敵に氷元素ダメージを与える。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "undivided_heart",
+				"name": "唯一の心",
+				"description": "霜華の矢を放った後の5秒以内に放たれた霜華の矢と霜華満開の会心率+20%。",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "harmony_between_heaven_and_earth",
+				"name": "天地安泰",
+				"description": "降衆天華のエリア内のキャラクターの氷元素ダメージ+20%。",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "preserved_for_the_hunt",
+				"name": "弓藏持命",
+				"description": "弓を鍛造する時、消費した鉱石の15%が返還される。",
+				"unlock": ""
+			}
+		],
+		"constellations": [],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "shivada_jade_sliver",
+					"name": "哀切なアイスクリスタル砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "shivada_jade_gemstone",
+					"name": "哀切なアイスクリスタル",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 0
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 1
+			}
+		},
+		"builds": [
+			{
+				"id": "ice_rocket_launcher",
+				"name": "Ice Rocket Launcher",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "arco_de_amos"
+					},
+					{
+						"order": 2,
+						"id": "arco_del_sacrificio"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "orquesta_del_errante"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"set_2": {
+							"id": "ritual_antiguo_de_la_nobleza"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Recarga de Energía%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Cryo",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			},
+			{
+				"id": "celestial_shower",
+				"name": "Celestial Shower",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "alas_celestiales"
+					},
+					{
+						"order": 2,
+						"id": "arco_del_sacrificio"
+					},
+					{
+						"order": 3,
+						"id": "ltimo_acorde"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"set_2": {
+							"id": "ritual_antiguo_de_la_nobleza"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "final_del_gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"Recarga de Energía%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Bono de Daño Cryo",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "jean",
+		"name": "ジン",
+		"description": "西風騎士団の代理団長。人々の生活を守るため、日夜職務に励んでいる。特別な才能はないが、鍛錬を重ね続けてきた彼女は優れた騎士である。風魔龍の驚異が近づいている中、この頼もしき代理団長はモンドを守るため、その準備を着々と進めている。",
+		"weapon_type": "Sword",
+		"element": "Anemo",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Acting Grand Master",
+			"Dandelion Knight",
+			"Lionfang Knight"
+		],
+		"skills": [
+			{
+				"id": "favonius_bladework",
+				"name": "西風剣術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、風の力に満ちた切り上げ行動を発動される。切り上げられた敵はゆっくりと降下する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "gale_blade",
+				"name": "風圧剣",
+				"type": "元素スキル",
+				"description": "<p>形のない風を剣に集中させ、小型の嵐を放ち、敵を狙った方向にノックバックし、大量の風ダメージを与える</p><p><b>長押し:</b>スタミナを消費する代わりに、周囲の敵を目の前に吸い寄せることができる。方向の調整は可能。長押し中は移動できない</p>",
+				"modifiers": []
+			},
+			{
+				"id": "dandelion_breeze",
+				"name": "蒲公英の風",
+				"type": "元素爆発",
+				"description": "<p>風の加護を呼び、千風が流れる蒲公英エリアを作り出し、周囲の敵に風ダメージを与え、ノックバックする。ジンの攻撃力を基準にチームメンバーのHPを大量に回復する</p><p><b>蒲公英エリア:</b>エリア内にいるキャラクターのHPを継続回復する。エリア内にいるキャラクターは継続的に風元素の影響をうける。エリアを出入りする敵に風ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "wind_companion",
+				"name": "追い風が吹く",
+				"description": "通常攻撃が命中すると、50％の確率でチーム全員のHPが回復する。回復量はジンの攻撃力の15％",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "let_the_wind_lead",
+				"name": "風の導くままに",
+				"description": "蒲公英の風発動後、元素エネルギーが20％回復する",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "guiding_breeze",
+				"name": "導きの風",
+				"description": "回復類料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "spiraling_tempest",
+				"name": "剣脊に流れる暴風【1凸で解放】",
+				"description": "風圧剣の長押しが1秒以上の時、吸い寄せる速度がアップし、与えるダメージ+40％。",
+				"level": 1
+			},
+			{
+				"id": "peoples_aegis",
+				"name": "人々を守る盾【2凸で解放】",
+				"description": "元素オーブまたは元素粒子を獲得時、チームにいる全てのキャラの行動速度、攻撃速度+15％、継続時間15秒。",
+				"level": 2
+			},
+			{
+				"id": "when_the_west_wind_arises",
+				"name": "西風が吹く時【3凸で解放】",
+				"description": "蒲公英の風のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "lands_of_dandelion",
+				"name": "蒲公英の国土【4凸で解放】",
+				"description": "蒲公英の風エリア内、全ての敵の風元素耐性-40%",
+				"level": 4
+			},
+			{
+				"id": "outbursting_gust",
+				"name": "しばしの烈風【5凸で解放】",
+				"description": "風圧剣のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "lions_fang_fair_protector_of_mondstadt",
+				"name": "民を眷顧する獅子の牙【6凸で解放】",
+				"description": "蒲公英の風エリア内、キャラの受けるダメージ-35%。エリアを出た後、この効果は3階攻撃を受けた後、または10秒後に消える。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vayuda_turquoise_sliver",
+					"name": "自由のターコイズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vayuda_turquoise_gemstone",
+					"name": "自由のターコイズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "dandelion_seed",
+					"name": "蒲公英の種",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 0,
+				"tier": 2
+			},
+			"support": {
+				"c": 0,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "kaeya",
+		"name": "ガイア",
+		"description": "西風騎士団において、代理団長が最も信頼を置いている右腕的存在。彼が任務を請け負うことで、その解決が約束されるほどの実力者。ユーモア溢れるガイアは、モンドの人々に好かれている。しかし、この騎士には人知れぬ秘密があるようだ。",
+		"weapon_type": "Sword",
+		"element": "Cryo",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Cavalry Captain",
+			"Quartermaster",
+			"Frostblade"
+		],
+		"skills": [
+			{
+				"id": "ceremonial_bladework",
+				"name": "儀典の剣術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "frostgnaw",
+				"name": "霜の襲撃",
+				"type": "元素スキル",
+				"description": "<p>急速に凍結する換気を放ち、前方の敵に氷ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "glacial_waltz",
+				"name": "凛冽なる輪舞",
+				"type": "元素爆発",
+				"description": "<p>空気中の寒霜を凝集させ、自身を囲む寒氷の柱を3本召喚する。スキル継続中、寒氷の柱はキャラとともに動き、経路上の敵に氷ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "coldblooded_strike",
+				"name": "冷血の剣",
+				"description": "霜の襲撃が敵1体に命中するたびに、攻撃力の15％相当のHPを回復する",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "glacial_heart",
+				"name": "氷淵の心",
+				"description": "霜の襲撃が敵を凍結状態にした場合、凍結された敵から追加の元素粒子が落ちる。1回の霜襲は2つの現素粒子が追加で発生する",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "hidden_strength",
+				"name": "秘められた実力",
+				"description": "チーム全員がダッシュに消費するスタミナ-20％",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "excellent_blood",
+				"name": "優れた血筋【1凸で解放】",
+				"description": "氷元素の影響を受けた敵に対して、ガイアの通常攻撃と重撃の会心率+15%",
+				"level": 1
+			},
+			{
+				"id": "neverending_performance",
+				"name": "無尽なる霜舞【2凸で解放】",
+				"description": "凛冽なる輪舞継続中に敵を撃破した時、継続時間+2.5秒、最大15秒まで",
+				"level": 2
+			},
+			{
+				"id": "dance_of_frost",
+				"name": "凛冽なる戯れ【3凸で解放】",
+				"description": "霜の襲撃のスキルLv+3。最大Lv15まで",
+				"level": 3
+			},
+			{
+				"id": "frozen_kiss",
+				"name": "極寒の口付け【4凸で解放】",
+				"description": "ガイアのHPが20%の時に自動発動される。HP上限30%相当のシールドを吸収するシールドを生成し、継続時間20秒。シールドは氷ダメージに対して250%の吸収効果がある。60秒毎に1回のみ発動可能。",
+				"level": 4
+			},
+			{
+				"id": "frostbiting_embrace",
+				"name": "冷たい抱擁【5凸で解放】",
+				"description": "凛冽なる輪舞のスキルLv+3、最大Lv15まで",
+				"level": 5
+			},
+			{
+				"id": "glacial_whirlwind",
+				"name": "輪旋の氷【6凸で解放】",
+				"description": "凛冽なる輪舞の寒氷の柱が1本追加され、発動する時は元素エネルギーが15回復する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "shivada_jade_sliver",
+					"name": "哀切なアイスクリスタル砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "shivada_jade_gemstone",
+					"name": "哀切なアイスクリスタル",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "calla_lily",
+					"name": "ドドリアン",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 2,
+				"tier": 3
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 2
+			}
+		},
+		"builds": [
+			{
+				"id": "cavalry_captain",
+				"name": "Cavalry Captain",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "hoja_afilada_celestial"
+					},
+					{
+						"order": 2,
+						"id": "espada_del_alba"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"set_2": {
+							"id": "ritual_antiguo_de_la_nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "ritual_antiguo_de_la_nobleza"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"CRIT RATE",
+					"Daño CRIT",
+					"ATQ%",
+					"ENERGY",
+					"MASTERY"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"ATQ%"
+					]
+				}
+			},
+			{
+				"id": "fake_harlock",
+				"name": "Fake Harlock",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "風鷹剣",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"order": 2,
+						"id": "espada_negra"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "nmada_del_invierno"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "caballera_sanguinaria"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental",
+					"Recarga de Energía%",
+					"Prob. CRIT"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"ATQ%"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "keqing",
+		"name": "刻晴(こくせい)",
+		"description": "璃月七星の一人、玉衛星。「帝君の一言で決まる璃月」に不満を持っている。――だが実際は、彼女のような者を神は気に入っている。人間に関することは人間がするべき、そしてより良くすることができるはずだと彼女は信じている。",
+		"weapon_type": "Sword",
+		"element": "Electro",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Driving Thunder",
+			"Yuheng of the Liyue Qixing"
+		],
+		"skills": [
+			{
+				"id": "yunlai_swordsmanship",
+				"name": "雲来剣法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5弾の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "stellar_restoration",
+				"name": "星辰帰位",
+				"type": "元素スキル",
+				"description": "<p>雷禊を素早く投げ出し、疾雷の勢いで敵を殲滅。雷禊が命中時に狭範囲の敵に雷ダメージを与え、命中した位置に雷禊マークを残す</p><p><b>長押し:</b>長押しで雷禊マークを投げる方向を調整する。長押しで投げ出した雷禊は空中に浮遊できる。刻晴が再び星辰帰位を発動する時は地形を無視できる</p><p><b>雷禊:</b>雷禊継続中、刻晴が再び星辰帰位また重撃を発動すると、雷禊マークは消され、異なる効果を発動できる。再び星辰帰位を発動すると、マークした位置に瞬間移動し斬撃を1回仕掛け、雷範囲ダメージを与える。長押しで投げ出した雷禊の位置に瞬間移動する場合は地形を無視する。重撃すると、マークした位置に暴雷連斬を引きおこし、数回の雷範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "starward_sword",
+				"name": "天街巡遊",
+				"type": "元素爆発",
+				"description": "<p>雷電の力を爆発し、雷範囲ダメージを与える。その後、剣影に隠れ、敵に稲妻の如き高速連斬を発動し、多段雷ダメージを与える。最後の一撃は大量の雷範囲ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "thundering_penance",
+				"name": "抵天の雷罰",
+				"description": "雷禊継続中に再び星辰帰位置発動すると、5秒間に刻晴の通常攻撃と重撃のダメージは雷ダメージに変える",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "aristocratic_dignity",
+				"name": "玉衝の貴",
+				"description": "天街巡遊継続中、刻晴の会心率+15％、元素チャージ効率+15％、継続時間8秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "lands_overseer",
+				"name": "総務土地",
+				"description": "瑠月の探索任務の所要時間-25%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "thundering_might",
+				"name": "迅雷【1凸で解放】",
+				"description": "雷禊継続中に再び星辰帰位を発動すると、刻晴は消失と出現位置に攻撃力の50%の雷範囲ダメージを与える",
+				"level": 1
+			},
+			{
+				"id": "keen_extraction",
+				"name": "苛捐【2凸で解放】",
+				"description": "刻晴の通常攻撃と重撃が雷元素の影響を受けた敵に命中した時、50％の確率で現素粒子を1個生成する。5秒毎に1回のみ発動可能。",
+				"level": 2
+			},
+			{
+				"id": "foreseen_reformation",
+				"name": "登桜【3凸で解放】",
+				"description": "天街巡遊のスキルLv.＋3。",
+				"level": 3
+			},
+			{
+				"id": "attunement",
+				"name": "調律【4凸で解放】",
+				"description": "刻晴が雷元素の関連反応を起こした10秒間、攻撃力プラsう25％。",
+				"level": 4
+			},
+			{
+				"id": "beckoning_stars",
+				"name": "移燈【5凸で解放】",
+				"description": "星辰帰位のスキルLv.＋3。",
+				"level": 5
+			},
+			{
+				"id": "tenacious_star",
+				"name": "廉貞【6凸で解放】",
+				"description": "通常攻撃、重撃、元素スキルまたは元素爆発を発動する時、刻晴の与える雷ダメージ＋6％、継続時間8秒。通常攻撃、重撃、元素スキルまたは元素爆発の発動による効果はそれぞれ別々でカウントされる。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vajrada_amethyst_sliver",
+					"name": "最勝のアメシスト砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vajrada_amethyst_gemstone",
+					"name": "最勝のアメシスト",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "klee",
+		"name": "クレー",
+		"description": "西風騎士団、火花騎士！いつだって閃光と爆発とともに登場っ！そして、ジン団長の厳しい視線の中で静かに消えていく。新しい爆薬の配合のほとんどは、思いついたものなんだけど……閉じ込められるようなことがなくなったら、もっといいのになぁ。",
+		"weapon_type": "Catalyst",
+		"element": "Pyro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Fleeing Sunlight",
+			"Spark Knight",
+			"Red Burny Girl (by Razor)"
+		],
+		"skills": [
+			{
+				"id": "kaboom",
+				"name": "バンバン",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>ぶつかると爆発するものを投げ出す！最大3段の爆弾攻撃、炎範囲ダメージを与える</p><p><b>重撃:</b>一定のスタミナを消費し、短い詠唱後、敵に炎範囲ダメージを与える</p><p><b>落下攻撃:</b>烈焔の力を凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に炎範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "jumpy_dumpty",
+				"name": "ボンボン爆弾",
+				"type": "元素スキル",
+				"description": "<p>巨大な威力を持つボンボン爆弾を投げ出すボンボン爆弾が連続で3回跳ね、1回毎に爆発を起こし、炎範囲ダメージを与える。3回跳ねた後、爆弾は数個のブービートラップに分裂する。ブービートラップは敵に触れるか、または一定時間後に爆発し、炎範囲ダメージを与える。【初期使用可能回数：2回】</p>",
+				"modifiers": []
+			},
+			{
+				"id": "sparks_n_splash",
+				"name": "ドッカン花火",
+				"type": "元素爆発",
+				"description": "<p>クレー火力全開！スキル継続中、ドッカン花火を召喚し続けて周囲の敵に攻撃し、炎範囲ダメージを与える。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "pounding_surprise",
+				"name": "こんこんプレゼント",
+				"description": "ボンボン爆弾と通常攻撃が敵にダメージを与える時、50%の確率でクレーが爆裂花火を獲得する。重撃を発動する時はスタミナの代わりに爆裂花火を優先的に消費し、更に与えるダメージ+50%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "sparkling_burst",
+				"name": "無限花火",
+				"description": "クレーの重撃に会心が発生した後、チーム全員の元素エネルギー2回復する",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "all_of_my_treasures",
+				"name": "宝物揃い",
+				"description": "ミニマップで周囲のモンド地域の特産の位置を表示する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "chained_reactions",
+				"name": "ゴロゴロコンボ【1凸で解放】",
+				"description": "攻撃やスキル発動の際に、一定の確率で花火を召喚し敵を攻撃、ドッカン花火攻撃力の120%ダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "explosive_frags",
+				"name": "弾丸の破片【2凸で解放】",
+				"description": "ボンボン爆弾ビートラップのダメージを受けた敵の防御力-23％、継続時間10秒。",
+				"level": 2
+			},
+			{
+				"id": "exquisite_compound",
+				"name": "クレー特製【3凸で解放】",
+				"description": "ボンボン爆弾のスキルLv+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "sparkly_explosion",
+				"name": "一触即発【4凸で解放】",
+				"description": "ドッカン花火継続中にキャラを切り替えると爆発が発生し、攻撃力555%の炎範囲ダメージを与える。",
+				"level": 4
+			},
+			{
+				"id": "nova_burst",
+				"name": "轟撃の星【5凸で解放】",
+				"description": "ドッカン花火のスキルLv+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "blazing_delight",
+				"name": "火力全開【6凸で解放】",
+				"description": "ドッカン花火状態中、チーム全員の元素エネルギーを継続的に回復。ドッカン花火発動後25秒間、チーム全員の炎ダメージ+10％。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 0
+			},
+			"subdps": {
+				"c": 4,
+				"tier": 0
+			}
+		}
+	},
+	{
+		"id": "lisa",
+		"name": "リサ",
+		"description": "知的で眠ることが大好きな魔女。西風騎士団の図書館の司書であり、常に効率を重視して行動し、問題を解決する。無気力であり、何事にも動じないのは、どのような局面であろうとも自らの力で制御できるという自身の現れであろう。",
+		"weapon_type": "Catalyst",
+		"element": "Electro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Witch of Purple Rose",
+			"The Librarian"
+		],
+		"skills": [
+			{
+				"id": "lightning_touch",
+				"name": "指先の雷",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>雷電による最大4段の連続攻撃、雷ダメージを与える</p><p><b>重撃:</b>一定のスタミナを消費し、短い詠唱した後、雷範囲ダメージを与える</p><p><b>落下攻撃:</b>雷電の力を凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に雷範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "violet_arc",
+				"name": "蒼雷",
+				"type": "元素スキル",
+				"description": "<p><b>一回押し:</b>雷の力で面倒なものを全て綺麗に片付ける</p><p><b>長押し:</b>自動的に索敵する球場の稲妻を放つ。命中後、標的に雷ダメージを与え、狭範囲の敵に誘雷降下を付与し、最大3重まで</p>",
+				"modifiers": []
+			},
+			{
+				"id": "lightning_rose",
+				"name": "薔薇の閃光",
+				"type": "元素爆発",
+				"description": "<p>薔薇の雷光を召喚し、強い雷の力を放ち、周囲の的に雷ダメージを与え、ノックバックする。継続時間中、薔薇の雷光は周囲の敵を攻撃し、雷ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "induced_aftershock",
+				"name": "感電余震",
+				"description": "重撃が命中した時、敵に蒼雷の誘雷効果を付与する",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "static_electricity_field",
+				"name": "静電気フィールド",
+				"description": "薔薇の雷光攻撃を受けた敵の防御力-15%、継続時間10秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "general_pharmaceutics",
+				"name": "薬剤の知識",
+				"description": "薬剤を合成する時、20％の確率で材料が返還される",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "infinite_circuit",
+				"name": "無限の電気回路【1凸で解放】",
+				"description": "蒼雷を長押しで発動した後、敵に命中する度にリサの元素エネルギー+2。1回で最大10まで回復可能。",
+				"level": 1
+			},
+			{
+				"id": "electromagnetic_field",
+				"name": "空間電位の結界【2凸で解放】",
+				"description": "蒼雷長押し時に下記の効果がある。・防御力+20%・リサの中断耐性をアップする",
+				"level": 2
+			},
+			{
+				"id": "resonant_thunder",
+				"name": "共振の雷光【3凸で解放】",
+				"description": "薔薇の雷光のスキルLv+3、最大Lv15まで",
+				"level": 3
+			},
+			{
+				"id": "plasma_eruption",
+				"name": "雨の如くプラズマ【4凸で解放】",
+				"description": "薔薇の雷光が攻撃する時、放つ稲妻が1〜3本に増加する。",
+				"level": 4
+			},
+			{
+				"id": "electrocute",
+				"name": "プラズマ落雷【5凸で解放】",
+				"description": "蒼雷のスキルLv+3、最大Lv15まで",
+				"level": 5
+			},
+			{
+				"id": "pulsating_witch",
+				"name": "パルスの魔女【6凸で解放】",
+				"description": "登場時、周囲の敵に蒼雷の誘雷効果を3重付与する。この効果は5秒毎に1回のみ発動する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vajrada_amethyst_sliver",
+					"name": "最勝のアメシスト砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vajrada_amethyst_gemstone",
+					"name": "最勝のアメシスト",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 4
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 3
+			}
+		}
+	},
+	{
+		"id": "mona",
+		"name": "モナ",
+		"description": "謎の占星術師の少女。自分のことを「偉大なる占星術師モナ」と言い、その肩書きに相応しい実力を持っている。博学であり高慢。貧困生活を送っているが、彼女が占いをお金稼ぎの道具として使うことは決してない...",
+		"weapon_type": "Catalyst",
+		"element": "Hydro",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Astral Reflection",
+			"Enigmatic Astrologer"
+		],
+		"skills": [
+			{
+				"id": "ripple_of_fate",
+				"name": "因果点破",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃、水ダメージを与える</p><p><b>重撃:</b>一定のスタミナを消費し、短い詠唱した後、敵に水範囲ダメージを与える</p><p><b>落下攻撃:</b>水元素の力を凝縮し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に水範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "mirror_reflection_of_doom",
+				"name": "水中幻願",
+				"type": "元素スキル",
+				"description": "<p>水しぶきを集め、運命の虚影となる</p><p><b>虚影:</b>以下の特性をもつ・継続して敵を嘲笑、攻撃を引き寄せる・継続して付近の敵に水範囲ダメージ・継続時間終了時、虚影が破裂し、水範囲ダメージ</p><p><b>長押し:</b>水流の勢いを利用し、素早く後退する。水中幻願によって作られた虚影は同時に1つしか存在できない</p>",
+				"modifiers": []
+			},
+			{
+				"id": "illusory_torrent",
+				"name": "虚実流動",
+				"type": "移動スキル",
+				"description": "<p><b>ダッシュの変わりに発動:</b>水流に隠れてスタミナを消費して激流となり素早く移動。虚実流動は水面上も移動できる。虚実流動状態が終了し、姿を現した時に、周囲の敵に湿潤状態を与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "stellaris_phantasm",
+				"name": "星命定軌",
+				"type": "元素爆発",
+				"description": "<p>清らかなさざなみを集め、虚幻の星空を映し、広範囲の敵に泡影状態を与える</p><p><b>泡影:</b>星の泡で敵を拘束し、湿潤状態を付与する。比較的に弱い敵がダメージを受けると、以下効果を受ける。・次に受けるダメージをアップ・泡影の効果解除。解除時、敵に水ダメージ</p><p><b>星異:</b>スキル継続中、受けるダメージをアップする</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "come_n_get_me_hag",
+				"name": "おばば私を捕まえられますか",
+				"description": "虚無流動状態に入った2秒後、周囲に敵がいる場合は自動的に虚影を1つ生成する。虚影は2秒間存在し破裂する。破裂ダメージは水中幻願のダメージの50%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "waterborne_destiny",
+				"name": "運命の流れに任せましょう",
+				"description": "モナの与える水ダメージが増加する。増加量はモナの元素チャージ効率の20%に相当する",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "principium_of_astrology",
+				"name": "運行原理",
+				"description": "武器突破素材を合成する時、25%の確率で一部の材料が返還される",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "prophecy_of_submersion",
+				"name": "沈没の預言【1凸で解放】",
+				"description": "キャラクターの攻撃が星異状態の敵に命中した8秒間、水元素の関連反応の効果が上昇する",
+				"level": 1
+			},
+			{
+				"id": "lunar_chain",
+				"name": "星月の連珠【2凸で解放】",
+				"description": "通常攻撃が命中した時、20%の確率で自動的に重撃を発動する。5秒毎に1回のみ発動可能",
+				"level": 2
+			},
+			{
+				"id": "restless_revolution",
+				"name": "果てしない天像【3凸で解放】",
+				"description": "星命定軌のスキルLv+3",
+				"level": 3
+			},
+			{
+				"id": "prophecy_of_oblivion",
+				"name": "絶滅の預言【4凸で解放】",
+				"description": "キャラクターが星異状態の敵を攻撃する時、会心率+15%",
+				"level": 4
+			},
+			{
+				"id": "mockery_of_fortuna",
+				"name": "運命の愚弄【5凸で解放】",
+				"description": "水中幻願のスキルLv+3",
+				"level": 5
+			},
+			{
+				"id": "rhetorics_of_calamitas",
+				"name": "災厄の修辞【6凸で解放】",
+				"description": "モナが虚実流動状態に入った後、1秒移動する毎に、次の重撃ダメージ+60%、最大180%まで、継続時間8秒",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "varunada_lazurite_sliver",
+					"name": "澄明なラピスラズリ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "varunada_lazurite_gemstone",
+					"name": "澄明なラピスラズリ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "philanemo_mushroom",
+					"name": "慕風のマッシュルームm",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 2,
+				"tier": 2
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 0
+			},
+			"support": {
+				"c": 0,
+				"tier": 0
+			}
+		}
+	},
+	{
+		"id": "ningguang",
+		"name": "凝光(ぎょうこう)",
+		"description": "空中宮殿を有し、噂の中心にいながらいつも優雅な微笑みを浮かべる璃月の権力者。「璃月七星」の天権として、彼女は権力と法の象徴だけでなく、富と知恵の表れでもある。",
+		"weapon_type": "Catalyst",
+		"element": "Geo",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Eclipsing Star",
+			"Lady of the Jade Chamber",
+			"Tianquan of the Liyue Qixing",
+			"Tailor of Liyue[1]"
+		],
+		"skills": [
+			{
+				"id": "sparkling_scatter",
+				"name": "千金擲",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>宝石を発射し、岩ダメージを与える。命中した時、凝光に星璇を一枚付与する</p><p><b>重撃:</b>スタミナを消費し、巨大な宝石を発射し、岩ダメージを与える。凝光に星璇が付いている状態下で重撃をすると、全ての星璇を一斉発射し、さらにダメージを与える</p><p><b>落下攻撃:</b>晶岩のちからを凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に岩範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "jade_screen",
+				"name": "璇璣屏",
+				"type": "元素スキル",
+				"description": "<p>黄金、黒曜岩と猛者の余裕で璇璣屏を作って、岩元素範囲ダメージを与える。璇璣屏は敵の投擲攻撃を防御し、耐久度は凝光のHPによる。璇璣屏は岩元素創造物と見なされ、一部の攻撃を防御できるが、璇璣屏に登ることは不可。最大同時に1つまで存在可能</p>",
+				"modifiers": []
+			},
+			{
+				"id": "starshatter",
+				"name": "天権崩玉",
+				"type": "元素爆発",
+				"description": "<p>凝光が自身の周りに宝石を凝聚させてから一気に散らし、自動索敵する宝石は周りの敵に攻撃し、大量の岩ダメージを与える。周りに璇璣屏が存在する時に天権崩玉を発動すると、璇璣屏は宝石を追加で放ち攻撃する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "backup_plan",
+				"name": "物換星移",
+				"description": "星璇がついている間に、凝光の重撃はスタミナを消費しない",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "strategic_reserve",
+				"name": "備えあれば憂いなし",
+				"description": "璇璣屏を突き抜けたキャラの岩ダメージ+12%、永続時間10秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "trove_of_marvelous_treasures",
+				"name": "奇石宝物録",
+				"description": "ミニマップで周囲の鉱脈(鉄鋼、白鉄鋼、推奨鉱、魔晶鉱)の位置を表示する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "piercing_fragments",
+				"name": "散る星の破片【1凸で解放】",
+				"description": "通常攻撃が命中すると範囲ダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "shock_effect",
+				"name": "璇璣、崑崙を鎮める【2凸で解放】",
+				"description": "璇璣屏が破裂した時、クールタイムがリセットする。6秒ごとに1回のみ発動可能。",
+				"level": 2
+			},
+			{
+				"id": "majesty_be_the_array_of_stars",
+				"name": "森羅星列の囲い【3凸で解放】",
+				"description": "天権崩玉のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "exquisite_be_the_jade_outshining_all_beneath",
+				"name": "神機妙道の陣組み【4凸で解放】",
+				"description": "璇璣屏付近のキャラクターの全元素耐性+10%。",
+				"level": 4
+			},
+			{
+				"id": "invincible_be_the_jade_screen",
+				"name": "瓊屏と千扇の守り【5凸で解放】",
+				"description": "璇璣屏のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "grandeur_be_the_seven_stars",
+				"name": "燦々たる七星【6凸で解放】",
+				"description": "天権崩玉を放つ時、凝光は七枚の星璇を生成する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "prithiva_topaz_sliver",
+					"name": "堅牢なトパーズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "prithiva_topaz_gemstone",
+					"name": "堅牢なトパーズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "glaze_lily",
+					"name": "琉璃百合",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 1,
+				"tier": 1
+			},
+			"support": {
+				"c": 1,
+				"tier": 4
+			}
+		}
+	},
+	{
+		"id": "noelle",
+		"name": "ノエル",
+		"description": "モンドの多くの若者と同じで、ノエルは西風騎士になることを夢見る少女だ。まだ騎士の資格を得ていないが、彼女はメイドとして騎士団で働きながら、騎士にあるべき言動と礼儀を必死に勉強している。努力すればいつか、あの栄誉を象徴する鎧を身にまとうことが出来ると、彼女は信じている。",
+		"weapon_type": "Claymore",
+		"element": "Geo",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Chivalric Blossom",
+			"Maid of Favonius"
+		],
+		"skills": [
+			{
+				"id": "favonius_bladework_maid",
+				"name": "西風剣術・メイド",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>継続的にスタミナを消費し、大剣を振り回し周囲の敵を攻撃する。斬撃が終了したときに、更に強力な攻撃を1回放つ</p><p><b>重撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "breastplate",
+				"name": "護心鎧",
+				"type": "元素スキル",
+				"description": "<p>護身の岩鎧を召喚し、自身の敵に岩ダメージを与え、シールドを生成する。ダメージ吸収量はノエルの防御力による。シールドは下記効果が発動する。・通常か重撃が命中時、確率で全体HP回復・岩ダメージに対して、250%の吸収効果・治療を発動する場合、治療量は自身の防御力</p>",
+				"modifiers": []
+			},
+			{
+				"id": "sweeping_time",
+				"name": "大掃除",
+				"type": "元素爆発",
+				"description": "<p>盤石の力を集め、周囲の敵に衝撃を与え、広範囲攻撃を1回行い、岩ダメージを与える。その後、下記の効果が発動される。・攻撃範囲が大幅にアップ・攻撃ダメージは岩ダメージに変化・防御力を基準に攻撃力がアップ</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "devotion",
+				"name": "誠心誠意",
+				"description": "ノエルが待機時、出場中のキャラのHPが30%以下になると自動発動する。出場キャラにノエルの防御力400%相当のダメージを吸収シールドを付与する。継続時間20秒、該当効果は60秒に1回のみ発動",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "nice_and_clean",
+				"name": "きれいさっぱり",
+				"description": "通常攻撃または重撃が4回命中する度に、「護心鎧」のクールタイムが-1秒。攻撃が同時に複数の敵に命中した場合は1回としてカウントされる",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "maids_knighthood",
+				"name": "メイドの仕草",
+				"description": "防御類料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "i_got_your_back",
+				"name": "支援はお任せください【1凸で解放】",
+				"description": "同時に大掃除と護心鎧状態にいる時、護心鎧のHP回復効果の発動率は100%になる。",
+				"level": 1
+			},
+			{
+				"id": "combat_maid",
+				"name": "旋風のメイド【2凸で解放】",
+				"description": "ノエルの重撃によるスタミナ消費-20%、与えるダメージ+15%",
+				"level": 2
+			},
+			{
+				"id": "invulnerable_maid",
+				"name": "怪我はしません【3凸で解放】",
+				"description": "護心鎧のスキルLv+3、最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "to_be_cleaned",
+				"name": "綺麗にしますから【4凸で解放】",
+				"description": "護心鎧効果終了時、またはダメージによって破壊された時、周囲の敵に攻撃力の400%の岩ダメージを与える。",
+				"level": 4
+			},
+			{
+				"id": "favonius_sweeper_master",
+				"name": "騎士団の掃除達人【5凸で解放】",
+				"description": "大掃除のスキルLv+3、最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "must_be_spotless",
+				"name": "埃は許しません【6凸で解放】",
+				"description": "大掃除発動で、ノエルの防御力50%相当の攻撃力を追加でアップする。スキル継続中、敵1体倒す度に、継続時間+1秒、最大10秒まで。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "prithiva_topaz_sliver",
+					"name": "堅牢なトパーズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "prithiva_topaz_gemstone",
+					"name": "堅牢なトパーズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "valberry",
+					"name": "ヴァルベリー",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 6,
+				"tier": 1
+			},
+			"support": {
+				"c": 0,
+				"tier": 4
+			}
+		}
+	},
+	{
+		"id": "qiqi",
+		"name": "七七(なな)",
+		"description": "薬舗「不卜盧」の薬採り兼弟子。「仙人との縁」がきっかけで不死身になり、行動する時は自身に勅令を下す。七七は記憶力がかなり悪く、日常生活をスムーズに送るため、彼女は様々な注意事項を書いたノートを持ち歩いている。",
+		"weapon_type": "Sword",
+		"element": "Cryo",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Pharmacist",
+			"Icy Resurrection"
+		],
+		"skills": [
+			{
+				"id": "ancient_sword_art",
+				"name": "料理技法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "adeptus_art_herald_of_frost",
+				"name": "仙法・寒病鬼差",
+				"type": "元素スキル",
+				"description": "<p>氷血がお札となり、寒病鬼差を召喚し、周囲の敵に氷ダメージを与える</p><p><b>寒病鬼差:</b>七七の通常攻撃と重撃が命中した時、チーム全員または付近の味方のHPを回復する。回復量は七七の攻撃力による。一定時間の間隔で、キャラクターのHPを回復。キャラクターと共に行動し、経路上の敵に氷元素ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "adeptus_art_preserver_of_fortune",
+				"name": "仙法・救苦度厄",
+				"type": "元素爆発",
+				"description": "<p>七七が体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、さらに氷元素ダメージを与える</p><p><b>度厄のお札:</b>度厄のお札に影響された敵にダメージを与えた時、キャラクター自身のHPが回復する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "lifeprolonging_methods",
+				"name": "延命妙法",
+				"description": "仙法・寒病鬼差状態時のキャラクターが元素反応を起こした時、被回復量+20%、継続時間8秒",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "a_glimpse_into_arcanum",
+				"name": "玉籖偶開",
+				"description": "七七の通常攻撃と重撃が敵に命中する時、50%の確率で敵に度厄のお札を1枚付与する。継続時間6秒、30秒毎に一回発動可能",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "former_life_memories",
+				"name": "往事記憶",
+				"description": "ミニマップで周囲の瑠月地域の特産の位置を表示する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "ascetics_of_frost",
+				"name": "寒苦回向【1凸で解放】",
+				"description": "寒病鬼差が度厄のお札マークのついた敵に命中した時、七七の元素エネルギーを2回復する。",
+				"level": 1
+			},
+			{
+				"id": "frozen_to_the_bone",
+				"name": "氷寒蝕骨【2凸で解放】",
+				"description": "氷元素の影響を受けた敵に、七七の通常攻撃と重撃の与えるダメージ+15%。",
+				"level": 2
+			},
+			{
+				"id": "ascendant_praise",
+				"name": "昇天宝誥【3凸で解放】",
+				"description": "仙法・救苦度厄のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "divine_suppression",
+				"name": "天威圧衆【4凸で解放】",
+				"description": "度厄のお札マークのついた敵の攻撃力-20%。",
+				"level": 4
+			},
+			{
+				"id": "crimson_lotus_bloom",
+				"name": "紅蓮開花【5凸で解放】",
+				"description": "仙法・寒病鬼差のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "rite_of_resurrection",
+				"name": "起死回骸【6凸で解放】",
+				"description": "仙法・救苦度厄を発動する時、近くにいる全ての戦闘不能状態のキャラクターを復活させ、HPの50%を回復する。この効果は15分毎に1回のみ発動可能。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "shivada_jade_sliver",
+					"name": "哀切なアイスクリスタル砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "divining_scroll",
+					"name": "占いの絵巻",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "shivada_jade_fragment",
+					"name": "哀切なアイスクリスタル欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sealed_scroll",
+					"name": "封魔の絵巻",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "shivada_jade_chunk",
+					"name": "哀切なアイスクリスタル塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "shivada_jade_gemstone",
+					"name": "哀切なアイスクリスタル",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hoarfrost_core",
+					"name": "極寒のコア",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "forbidden_curse_scroll",
+					"name": "禁呪の絵巻",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"support": {
+				"c": 0,
+				"tier": 1
+			}
+		},
+		"builds": [
+			{
+				"id": "cocogoat_milk",
+				"name": "Cocogoat Milk",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "espada_de_sacrificio"
+					},
+					{
+						"order": 2,
+						"id": "hoja_afilada_celestial"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "doncella_amada"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "doncella_amada"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"ATQ%",
+					"Recarga de Energía%",
+					"ATQ",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"Recarga de Energía%",
+						"ATQ%"
+					],
+					"goblet": [
+						"ATQ%"
+					],
+					"circlet": [
+						"ATQ%",
+						"Bonificación de Curación"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "razor",
+		"name": "レザー",
+		"description": "狼に育てられた捨て子だとか、オオカミ神の化身だとか…モンドのちまたでは彼に関する噂が絶えない。鋭利な爪と蒼雷が飛び交い、狼は荒野と永遠にともにある。今でも狼少年の彼はその野獣のような鋭い直感力を駆使し、狼の群れと狩りをしに森を駆け回っている。",
+		"weapon_type": "Claymore",
+		"element": "Electro",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Legend of Wolvendom",
+			"Wolf Boy"
+		],
+		"skills": [
+			{
+				"id": "steel_fang",
+				"name": "鋼の脊",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>継続的にスタミナを消費し、大剣を振り回し周囲の敵を攻撃する。振り回しが終了すると、力を込めた斬撃を1回仕掛ける</p><p><b>重撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "claw_and_thunder",
+				"name": "鋭い牙と蒼雷",
+				"type": "元素スキル",
+				"description": "<p><b>1回押し:</b>師匠と「家族」に教わった方法で、獲物を片付ける</p><p><b>長押し:</b>雷狼の爪を振り、前方の敵に雷ダメージを与える。敵に命中すると、レザーが雷の印を1つ累積し、元素エネルギー回復効率をアップする。雷の印は最大3つまで同時存在可能、新しい雷印を獲得すると全ての雷の印の継続時間がリスタートする</p><p><b>雷の印:</b>雷の力を集めて狭範囲の雷爆発を起こし、大量の雷ダメージを与え、雷の印をクリアにする。クリアされた雷の印は全てレザーの元素エネルギーに変換される</p>",
+				"modifiers": []
+			},
+			{
+				"id": "lightning_fang",
+				"name": "雷牙",
+				"type": "元素爆発",
+				"description": "<p>無形の雷狼を召喚して自身を守り、周囲の敵に雷ダメージを与え、雷の印をクリアして、自身の元素エネルギーを回復する。雷狼が存在している間はレザーと共に戦闘する</p><p><b>雷狼:</b>通常攻撃ダメージ24.0%</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "awakening",
+				"name": "覚醒",
+				"description": "鋭い牙と蒼雷のクールタイム-18%。雷牙を放つ時、鋭い牙と蒼雷のクールタイムをリセットする",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "hunger",
+				"name": "飢餓",
+				"description": "レザーの元素エネルギーが50%以下になると、元素エネルギー回復率+30%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "wolvensprint",
+				"name": "雷狼",
+				"description": "レザーが退場する時、効果が解除される。退場時、残り時間を基準に元素エネルギーを最大10回復する。・追加の雷ダメージを与える・攻撃速度と雷耐性をアップ・感電反応によるダメージを無効化・重撃の発動が不可・中断耐性をアップ",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "wolfs_instinct",
+				"name": "狼の性【1凸で解放】",
+				"description": "レザーが元素オーブまたは元素粒子を獲得した8秒以内、与えるダメージ+10%。",
+				"level": 1
+			},
+			{
+				"id": "suppression",
+				"name": "制圧【2凸で解放】",
+				"description": "HPが30%以下の敵を攻撃する時、会心率+10%",
+				"level": 2
+			},
+			{
+				"id": "soul_companion",
+				"name": "獣の魂【3凸で解放】",
+				"description": "雷牙のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "bite",
+				"name": "噛みつく【4凸で解放】",
+				"description": "鋭い牙と蒼雷の一回押しで攻撃時、命中された敵の防御力-15%、継続時間7秒。",
+				"level": 4
+			},
+			{
+				"id": "sharpened_claws",
+				"name": "鋭い爪【5凸で解放】",
+				"description": "鋭い爪と蒼雷のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "lupus_fulguris",
+				"name": "天狼【6凸で解放】",
+				"description": "10秒毎に、レザーの大剣が自動的にエネルギーを溜め、次の通常攻撃に落雷を引き起こし、攻撃力の100%の雷ダメージを与える。雷牙状態でない時、落雷が敵に命中すると、レザーに鋭い牙と蒼雷の雷の印を1重付与する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vajrada_amethyst_sliver",
+					"name": "最勝のアメシスト砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vajrada_amethyst_fragment",
+					"name": "最勝のアメシスト欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vajrada_amethyst_chunk",
+					"name": "最勝のアメシスト塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vajrada_amethyst_gemstone",
+					"name": "最勝のアメシスト",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "lightning_prism",
+					"name": "雷光のプリズム",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "wolfhook",
+					"name": "ググプラム",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 4,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "sucrose",
+		"name": "スクロース",
+		"description": "この世界のありとあらゆるものに強い好奇心を抱く錬金術師。西風騎士団に所属しており、アルベドの助手。研究分野は「生物錬金」を担当している。錬金術によって既知の生命形態を改良し、この世界をより豊かにすることが彼女の目標である。",
+		"weapon_type": "Catalyst",
+		"element": "Anemo",
+		"gender": "Female",
+		"region": "Mondstadt",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Harmless Sweetie",
+			"Knights of Favonius Alchemist"
+		],
+		"skills": [
+			{
+				"id": "wind_spirit_creation",
+				"name": "簡式風霊作成",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃、風ダメージを与える</p><p><b>重撃:</b>一定のスタミナを消費し、短い詠唱をした後、敵に風範囲ダメージを与える</p><p><b>落下攻撃:</b>風霊の力を凝集し、空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に風範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "astable_anemohypostasis_creation_6308",
+				"name": "風霊作成・六三0八",
+				"type": "元素スキル",
+				"description": "<p>小型風霊を召喚し、範囲内の敵に風ダメージを与え、風霊の位置に吸い寄せ、ノックバックする</p>",
+				"modifiers": []
+			},
+			{
+				"id": "forbidden_creation_isomer_75_type_ii",
+				"name": "禁・風霊作成・七五同構弐型",
+				"type": "元素爆発",
+				"description": "<p>スクロースが不安定なフラスコを投げ出し、大型風霊を生成する。風霊が存在している間に、継続的に敵を吸い寄せ、ノックバックし、風範囲ダメージを与え続ける。</p><p><b>元素変化:</b>風霊がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素属性を獲得し、該当元素の付加ダメージを追加で与える。元素変換はスキル継続中に1回のみ発生する。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "catalyst_conversion",
+				"name": "触媒置換術",
+				"description": "スクロースが拡散反応を起こした時、該当元素のリームメンバーの元素熟知+50、継続時間8秒",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "mollis_favonius",
+				"name": "小さな恵風",
+				"description": "風霊作成・六三0八または禁・風霊作成・七五同構弐型が敵に命中した時、スクロースの元素熟知の20%を基準に、他のキャラクターの元素熟知を強化、継続時間8秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "astable_invention",
+				"name": "不安定な発見",
+				"description": "キャラクターと武器の育成素材を合成する時、10%の確率でアイテムを2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "clustered_vacuum_field",
+				"name": "積み上げ真空域【1凸で解放】",
+				"description": "風霊作成・六三0八の発動可能回数+1。",
+				"level": 1
+			},
+			{
+				"id": "beth_unbound_form",
+				"name": "不羈型ベト【2凸で解放】",
+				"description": "禁・風霊作成・七五同構弐型のスキル継続時間+2秒。",
+				"level": 2
+			},
+			{
+				"id": "flawless_alchemistress",
+				"name": "ゼロミス少女【3凸で解放】",
+				"description": "風霊作成・六三0八のスキルLv.+3。",
+				"level": 3
+			},
+			{
+				"id": "alchemania",
+				"name": "錬金の偏執【4凸で解放】",
+				"description": "スクロースが通常攻撃または重撃を7発動すると、風霊作成・六三0八のクールタイムはランダムに1〜7秒減少する。",
+				"level": 4
+			},
+			{
+				"id": "caution_standard_flask",
+				"name": "真面目な普通瓶【5凸で解放】",
+				"description": "禁・風霊作成・七五同構弐型のスキルLv.+3。",
+				"level": 5
+			},
+			{
+				"id": "chaotic_entropy",
+				"name": "混合熵増論【6凸で解放】",
+				"description": "禁・風霊作成・七五同構弐型に元素変化があった場合、スキル継続中にチーム全員の該当元素ダメージ+20%。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vayuda_turquoise_sliver",
+					"name": "自由のターコイズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vayuda_turquoise_gemstone",
+					"name": "自由のターコイズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 1,
+				"tier": 2
+			},
+			"support": {
+				"c": 1,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "tartaglia",
+		"name": "タルタリヤ",
+		"description": "ファトゥス第十一位、「公子」、その戦績や名前は広く知られている。",
+		"weapon_type": "Bow",
+		"element": "Hydro",
+		"gender": "Male",
+		"region": "Snezhnaya",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Childe",
+			"11th of the Eleven Fatui Harbingers"
+		],
+		"skills": [
+			{
+				"id": "cutting_torrent",
+				"name": "断雨",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>最高6段の連続射撃を行う</p><p><b>重撃:</b>ダメージがより高く、より精確的な狙い撃ちが発動する。照準時、水元素の力が矢先に集まる。激流を込めた矢が敵に命中する時に水ダメージを与え、断流効果を付与する。</p><p><b>断流:</b>断流の敵がタルタリヤの攻撃を受けると、水範囲ダメージが発生する。これらの効果によるダメージは通常攻撃ダメージと見なされる。・断流・閃：フルチャージの狙い撃ち攻撃が断流状態の敵に命中した場合、連続範囲ダメージが発生する。断流・閃は0.7秒毎に1回のみ発動可能。・断流・破：断流効果の敵を倒した時にウォーターブルームを放ち、近くの敵に断流効果を付与する。</p><p><b>落下攻撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。魔王の武装・荒波の近接モード時、落下攻撃をすることはできない。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "foul_legacy_raging_tide",
+				"name": "魔王の武装・荒波",
+				"type": "元素スキル",
+				"description": "<p>水で構成された武装を開放し、周囲の敵に水ダメージを与え、近接モードに入る。この状態の時、タルタリヤの通常攻撃と重撃は下記のように変化する。</p><p><b>通常攻撃:</b>最大6段の水元素斬撃を発動する。</p><p><b>重撃:</b>スタミナを消費して、前方に2回斬撃し、水ダメージを与える。</p><p><b>断流・斬:</b>近接攻撃が断流状態の敵に命中すると断流・斬を1回発動し、水範囲ダメージを与える。断流・斬が与えたダメージは元素スキルダメージと見なされ、1.5秒毎に1回のみ発動可能。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "havoc_obliteration",
+				"name": "極悪技・尽滅閃",
+				"type": "元素爆発",
+				"description": "<p>タルタリヤの戦闘モードによって、異なる攻撃を発動する</p><p><b>遠隔モード・魔弾一閃:</b>前方に素早く水元素を込めた魔矢を放ち、水範囲ダメージを与え、敵に断流効果を付与する。発動後、元素エネルギーが一部返還される。</p><p><b>近接モード・尽滅の水光:</b>広範囲の斬撃を1回仕掛け、周囲全ての敵に大量の水ダメージを与え、断流・爆を発動する。</p><p><b>断流・爆ダメージ:</b>尽滅の水光が断流状態野的に命中した場合、断流効果が消耗され、スチームバーストを発生させ、水範囲ダメージを与える。断流・爆が与えたダメージは元素爆発ダメージと見なされる。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "never_ending",
+				"name": "無尽蔵",
+				"description": "断流効果の継続時間が8秒延長する",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "sword_of_torrents",
+				"name": "水形剣",
+				"description": "魔王の武装・荒波の近接モード時、通常攻撃と重撃が会心発生すると、命中した敵に断流効果を付与する。",
+				"unlock": "Ascension 4"
+			}
+		],
+		"constellations": [
+			{
+				"id": "foul_legacy_tide_withholder",
+				"name": "魔王の武装・押波【1凸で解放】",
+				"description": "魔王の武装・荒波のクールタイムが20%減少する",
+				"level": 1
+			},
+			{
+				"id": "foul_legacy_understream",
+				"name": "魔王の武装・暗流【2凸で解放】",
+				"description": "断流効果の影響を受けた敵が倒されると、タルタリヤの元素エネルギーが4回復する",
+				"level": 2
+			},
+			{
+				"id": "abyssal_mayhem_vortex_of_turmoil",
+				"name": "淵の災い・紛争の源【3凸で解放】",
+				"description": "魔王の武装・荒波のスキルLv.+3、最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "abyssal_mayhem_hydrosprout",
+				"name": "淵の災い・復水放流【4凸で解放】",
+				"description": "4秒毎に、タルタリヤによって発動された断流効果がフィールドに存在する時、タルタリヤが魔王の武装・荒波の近接モードの場合、断流・斬を発動する。それ以外の場合、断流・閃は、この2つのスキル本来の発動時間制限を受けない。また、本来のスキルへの発動時間制限にも影響を与えない。",
+				"level": 4
+			},
+			{
+				"id": "havoc_formless_blade",
+				"name": "極悪技・雨斬り【5凸で解放】",
+				"description": "極悪技・尽滅閃のスキルLv.+3、最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "havoc_annihilation",
+				"name": "極悪技・天使の滅び【6凸で解放】",
+				"description": "極悪技・尽滅閃発動時、魔王の武装・荒波のクールタイムをリセットする。この効果は遠隔モードに戻った後に発動する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "varunada_lazurite_sliver",
+					"name": "澄明なラピスラズリ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "recruits_insignia",
+					"name": "新兵の記章",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "sergeants_insignia",
+					"name": "士官の記章",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "varunada_lazurite_gemstone",
+					"name": "澄明なラピスラズリ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "starconch",
+					"name": "星螺",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "lieutenants_insignia",
+					"name": "尉官の記章",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 6,
+				"tier": 0
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "traveler_anemo",
+		"name": "主人公(風)",
+		"description": "レア度元素風プロフィール調停者が市に、創造主の訪れぬ世界。だが世界は二度と燃えぬ、あなたが「神」の座に就くから。",
+		"weapon_type": "Sword",
+		"element": "Anemo",
+		"gender": "Player's Choice",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Quest",
+		"titles": [
+			"Outlander",
+			"Honorary Knight",
+			"Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
+			"Comrade (by Tartaglia)"
+		],
+		"skills": [
+			{
+				"id": "foreign_ironwind",
+				"name": "異邦の鉄風",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "palm_vortex",
+				"name": "旋風の剣",
+				"type": "元素スキル",
+				"description": "<p>風の力を握りしめ、手のひらに真空の渦を集中させ、前方の敵に風ダメージを与え続ける。スキル終了時、真空の渦は爆裂し、より広範囲で強力な風ダメージを与える</p><p><b>長押し:</b>ダメージと影響範囲が徐々に上がる</p><p><b>元素変化:</b>真空の渦がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素属性を獲得し、該当元素の付加ダメージを追加で与える。元素変化はスキル継続中に1回のみ発生する</p>",
+				"modifiers": []
+			},
+			{
+				"id": "gust_surge",
+				"name": "激風の息",
+				"type": "元素爆発",
+				"description": "<p>風の進む先を導き、前方に継続全身する竜巻を召喚し、途中の物体と敵を巻き込み、風ダメージを与え続ける</p><p><b>元素変化:</b>竜巻がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素属性を獲得し、該当元素の付加ダメージを追加で与える。元素変化はスキル継続中に1回のみ発生する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "slitting_wind",
+				"name": "空を裂く風",
+				"description": "通常攻撃の最後の一撃が風の刃を放ち、風の刃は途中の敵に60％攻撃力の風ダメージを与える",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "second_wind",
+				"name": "蘇生の風",
+				"description": "旋風の剣で敵を倒した後、1秒毎にHPを2%回復する、継続時間5秒。5秒に1回のみ発動可能",
+				"unlock": "Ascension 4"
+			}
+		],
+		"constellations": [
+			{
+				"id": "raging_vortex",
+				"name": "回転する怒風",
+				"description": "旋風の剣は周囲5メートル以内の敵をゆっくりと自分の前に吸い寄せることができる。",
+				"level": 1
+			},
+			{
+				"id": "uprising_whirlwind",
+				"name": "革新の旋風",
+				"description": "元素エネルギー回復効率+16%",
+				"level": 2
+			},
+			{
+				"id": "sweeping_gust",
+				"name": "天地の剛風",
+				"description": "激風の息のスキルLv+3。最大Lv15まで",
+				"level": 3
+			},
+			{
+				"id": "cherishing_breezes",
+				"name": "恩誉の和風",
+				"description": "旋風の剣継続中、自身の受けるダメージ-10%。",
+				"level": 4
+			},
+			{
+				"id": "vortex_stellaris",
+				"name": "群星の渦風",
+				"description": "旋風の剣のスキルLv+3。最大Lv15まで",
+				"level": 5
+			},
+			{
+				"id": "intertwined_winds",
+				"name": "もつれる信風",
+				"description": "激風の息によるダメージを受けた目標の風耐性-20%。元素変化があった場合、該当の元素耐性-20%。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "brilliant_diamond_sliver",
+					"name": "輝くダイヤ・砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "brilliant_diamond_fragment",
+					"name": "輝くダイヤ・欠片",
+					"amount": 3
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "brilliant_diamond_fragment",
+					"name": "輝くダイヤ・欠片",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "brilliant_diamond_chunk",
+					"name": "輝くダイヤ・塊",
+					"amount": 3
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "brilliant_diamond_chunk",
+					"name": "輝くダイヤ・塊",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "brilliant_diamond_gemstone",
+					"name": "輝くダイヤ",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 6,
+				"tier": 4
+			}
+		}
+	},
+	{
+		"id": "traveler_geo",
+		"name": "主人公(岩)",
+		"description": "レア度元素岩プロフィール調停者が市に、創造主の訪れぬ世界。だが世界は二度と燃えぬ、あなたが「神」の座に就くから。",
+		"weapon_type": "Sword",
+		"element": "Geo",
+		"gender": "Player's Choice",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Quest",
+		"titles": [
+			"Outlander",
+			"Honorary Knight",
+			"Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
+			"Comrade (by Tartaglia)"
+		],
+		"skills": [
+			{
+				"id": "foreign_rockblade",
+				"name": "異邦の岩峰",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "starfell_sword",
+				"name": "星落としの剣",
+				"type": "元素スキル",
+				"description": "<p>大地の奥から荒星を上げ、爆発を起こし、岩範囲ダメージを与える。荒星は岩元素創造物と見なされ、攻撃を防ぐことができ、上ることもできる</p><p><b>長押し:</b>スキル発動位置を調整可能</p>",
+				"modifiers": []
+			},
+			{
+				"id": "wake_of_earth",
+				"name": "岩潮幾重",
+				"type": "元素爆発",
+				"description": "<p>大地の奥にある岩元素を活性化させ、拡散する振動波を引き起こす。周囲の敵をノックバックし、岩範囲ダメージを与える。振動波の外側に突出した環状の岩の山を生成する。岩の山は岩元素創造物と見なされ、攻撃を防ぐことができる</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "shattered_darkrock",
+				"name": "破れた断崖",
+				"description": "星落としの剣のクールタイム-2秒",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "frenzied_rockslide",
+				"name": "狂乱の岩崩れ",
+				"description": "通常攻撃の最後1撃は岩崩れを発生させ、範囲内の敵に攻撃力の60%の岩ダメージを与える",
+				"unlock": "Ascension 4"
+			}
+		],
+		"constellations": [
+			{
+				"id": "invincible_stonewall",
+				"name": "巍然たる青岩",
+				"description": "味方が岩潮幾重岩の山に包囲される時、会心率+10%、中断耐性がアップする。",
+				"level": 1
+			},
+			{
+				"id": "rockcore_meltdown",
+				"name": "不穏な溶岩",
+				"description": "星落としの剣の荒星が破壊される時に爆破が再び発生し、周囲の敵に星落としの剣のダメージ相当の岩範囲ダメージを与える。",
+				"level": 2
+			},
+			{
+				"id": "will_of_the_rock",
+				"name": "八方の岩",
+				"description": "岩潮幾重のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "reaction_force",
+				"name": "険しい重岩",
+				"description": "岩潮幾重が引き起こす振動波が敵に命中する度に、元素エネルギーが5回復する。この方法で1回で最大25まで回復可能。",
+				"level": 4
+			},
+			{
+				"id": "meteorite_impact",
+				"name": "天墜の岩",
+				"description": "星落としの剣のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "everlasting_boulder",
+				"name": "永世の磐岩",
+				"description": "岩潮幾重の岩の山の継続時間+5秒、星落としの剣荒星の継続時間+10秒。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "brilliant_diamond_sliver",
+					"name": "輝くダイヤ・砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "brilliant_diamond_fragment",
+					"name": "輝くダイヤ・欠片",
+					"amount": 3
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "brilliant_diamond_fragment",
+					"name": "輝くダイヤ・欠片",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "brilliant_diamond_chunk",
+					"name": "輝くダイヤ・塊",
+					"amount": 3
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "brilliant_diamond_chunk",
+					"name": "輝くダイヤ・塊",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "brilliant_diamond_gemstone",
+					"name": "輝くダイヤ",
+					"amount": 6
+				},
+				"mat3": {
+					"id": "windwheel_aster",
+					"name": "風車アスター",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 6,
+				"tier": 3
+			},
+			"support": {
+				"c": 6,
+				"tier": 3
+			}
+		}
+	},
+	{
+		"id": "venti",
+		"name": "ウェンティ",
+		"description": "正体不明の吟遊詩人。古い詩を歌う時もあれば、誰も聞いたことのない新しい歌を口ずさむ時もある。りんごと賑やかな雰囲気が大好きで、チーズとベタベタするものが大嫌い。「風」元素を導く時、元素が羽の形になることが多いのは彼がふわふわしているものを気に入っているから。",
+		"weapon_type": "Bow",
+		"element": "Anemo",
+		"gender": "Male",
+		"region": "Mondstadt",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Windborne Bard",
+			"Tone-Deaf Bard  (by Paimon)"
+		],
+		"skills": [
+			{
+				"id": "divine_marksmanship",
+				"name": "神代の射術",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>ダメージがより高く、より正確的な狙い撃ちが発動する。照準時、天地の風を矢先に凝集させ、風の力に満ちた矢は敵に風ダメージを与える。</p><p><b>重撃:</b>空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "skyward_sonnet",
+				"name": "高天の歌",
+				"type": "元素スキル",
+				"description": "<p>時を奏でる風を呼び、泥まみれの相手を高い空に送り上げる</p><p><b>1回押し:</b>標的のいるところに風域を召喚し、風範囲ダメージを与え、敵をノックバックする</p><p><b>長押し:</b>自身を中心に更に大きい風域を召喚し、風範囲ダメージを与え、敵をノックバックする。長押しで発動した後、ウェンティは風に乗り空中へ飛ぶ。好天の歌にノックバックされた敵はゆっくりと落下する</p>",
+				"modifiers": []
+			},
+			{
+				"id": "winds_grand_ode",
+				"name": "風神の詩",
+				"type": "元素爆発",
+				"description": "<p>千の風を集めた矢を放ち、前方に巨大の暴風の目を作り、経路上の物体と敵を巻き込み、風ダメージを与え続ける</p><p><b>元素変化:</b>暴風の目がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素属性を獲得し、該当元素の付加ダメージを追加で与える。元素変化はスキル継続中に1回のみ発生する</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "embrace_of_winds",
+				"name": "余風の抱擁",
+				"description": "高天の歌を長押しした後、上昇気流が発生する。継続時間20秒",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "stormeye",
+				"name": "暴風の目",
+				"description": "風神の詩効果終了後、ウェンティの元素エネルギーを15回復する。元素変化があった場合、該当元素のチームメンバーの元素エネルギーを15回復する",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "windrider",
+				"name": "恒風と共に",
+				"description": "チーム全員が滑翔に消費するスタミナ-20%",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "splitting_gales",
+				"name": "矢先の蒼風【1凸で解放】",
+				"description": "狙い撃ちする時、分裂した矢を追加で2本放つ。それぞれ元の矢の33％のダメージを与える。",
+				"level": 1
+			},
+			{
+				"id": "breeze_of_reminiscence",
+				"name": "恋い焦がれるそよ風【2凸で解放】",
+				"description": "高天の歌発動後、敵の風耐性と物理耐性-12%、継続時間10秒。高天の歌によってノックバックされた敵は着地する前に、更に風耐性と物理耐性-12％。",
+				"level": 2
+			},
+			{
+				"id": "ode_to_thousand_winds",
+				"name": "千の風の詩【3凸で解放】",
+				"description": "風神の詩のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "hurricane_of_freedom",
+				"name": "自由の凛風【4凸で解放】",
+				"description": "元素オーブまたは元素粒子を獲得した後、風ダメージ+25%、継続時間10秒。",
+				"level": 4
+			},
+			{
+				"id": "concerto_dal_cielo",
+				"name": "高天の協奏【5凸で解放】",
+				"description": "高天の歌のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "storm_of_defiance",
+				"name": "抗争の暴風【6凸で解放】",
+				"description": "風神の詩の影響を受ける敵の風耐性-20%。元素変化があった場合、変化した元素の耐性-20%。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "vayuda_turquoise_sliver",
+					"name": "自由のターコイズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "vayuda_turquoise_gemstone",
+					"name": "自由のターコイズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "hurricane_seed",
+					"name": "暴風の種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "cecilia",
+					"name": "セシリアの花",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 0,
+				"tier": 0
+			},
+			"support": {
+				"c": 0,
+				"tier": 0
+			}
+		}
+	},
+	{
+		"id": "xiangling",
+		"name": "香菱(しゃんりん)",
+		"description": "",
+		"weapon_type": "Polearm",
+		"element": "Pyro",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Exquisite Delicacy",
+			"Chef de Cuisine"
+		],
+		"skills": [
+			{
+				"id": "doughfu",
+				"name": "料理技法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>槍による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に突進し、経路上の敵にダメージを与える</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "guoba_attack",
+				"name": "グゥオパァー出撃",
+				"type": "元素スキル",
+				"description": "<p>火を噴くパンダグゥオパァーを召喚し、継続期間中が敵に火を吹き続け、炎範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "pyronado",
+				"name": "旋火輪",
+				"type": "元素爆発",
+				"description": "<p>炎とやりをコントロールするコツで自分を中心に素早く回転する線かりん旋火輪を投げ出す。旋火輪はキャラと共に移動し、経路上の敵に炎ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "crossfire",
+				"name": "交差する炎",
+				"description": "グゥオパァーの噴火距離+20%",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "beware_its_super_hot",
+				"name": "激辛唐辛子",
+				"description": "グゥオパァー出撃効果終了時、グゥオパァーは消える位置に唐辛子を残す。唐辛子を拾うと、攻撃力+10%、継続時間10秒",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "chef_de_cuisine",
+				"name": "万民堂のシェフ",
+				"description": "攻撃類料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "crispy_outside_tender_inside",
+				"name": "外カリ中フワ【1凸で解放】",
+				"description": "グゥオパァーに攻撃された敵の炎耐性-15%、継続時間6秒。",
+				"level": 1
+			},
+			{
+				"id": "oil_meets_fire",
+				"name": "強火と油【2凸で解放】",
+				"description": "通常攻撃の最後の一撃で敵に2秒継続する爆縮効果を与える。効果終了時に爆発し、敵に75%の炎範囲ダメージを与える。",
+				"level": 2
+			},
+			{
+				"id": "deepfry",
+				"name": "武火調理【3凸で解放】",
+				"description": "旋火輪のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "slowbake",
+				"name": "弱火でじっくり【4凸で解放】",
+				"description": "旋火輪の継続時間+40%。",
+				"level": 4
+			},
+			{
+				"id": "guoba_mad",
+				"name": "凶猛なグゥオパァー【5凸で解放】",
+				"description": "グゥオパァー出撃のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "condensed_pyronado",
+				"name": "竜巻旋火輪【6凸で解放】",
+				"description": "旋火輪継続中、チーム全員の炎ダメージ+15%。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "jueyun_chili",
+					"name": "絶雲の唐辛子",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 4,
+				"tier": 2
+			},
+			"subdps": {
+				"c": 1,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "xiao",
+		"name": "魈(しょう)",
+		"description": "",
+		"weapon_type": "Polearm",
+		"element": "Anemo",
+		"gender": "Male",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Vigilant Yaksha",
+			"Guardian Yaksha",
+			"Nuo Dance of Evil Conquering",
+			"Alatus, the Golden-Winged King",
+			"Conqueror of Demons"
+		],
+		"skills": [
+			{
+				"id": "whirlwind_thrust",
+				"name": "古華剣法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>槍による最大6段の連続攻撃を行う</p><p><b>重撃:</b>一定のスタミナを消費し、切り上げ攻撃を発動する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "lemniscatic_wind_cycling",
+				"name": "風輪両立",
+				"type": "元素スキル",
+				"description": "<p>疾速突進し、経路上の敵に風元素ダメージを与える。空中での発動が可能。初期使用可能回数2回。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "bane_of_all_evil",
+				"name": "靖妖儺舞",
+				"type": "元素爆発",
+				"description": "<p>数千年前に妖魔たちに恐れられた夜叉の側面を見せる。</p><p><b>夜叉の側面:</b><ul><li>魈のジャンプ力が大幅にアップする。</li><li>攻撃範囲が広がり、与えるダメージが上昇する。</li><li>攻撃ダメージは風元素ダメージとなり、元素付与によって他の元素に変化することはない。</li><li>この状態の魈は、HPが持続的に減少する。</li><li>この効果は魈が退場する時に解除される。</li></ul></p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "evil_conqueror_tamer_of_demons",
+				"name": "降魔・平妖大聖",
+				"description": "靖妖儺舞状態の時、魈の与える全ダメージ+5%。またスキル継続中、3秒ごとに与える全ダメージが更に+5%。最大25%まで。",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "dissolution_eon_heaven_fall",
+				"name": "壊劫・国土砕き",
+				"description": "風輪両立発動後の7秒間、風輪両立によるダメージ+15%。継続時間7秒、最大3重まで、重複で発動すると継続時間がリセットされる。",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "transcension_gravity_defier",
+				"name": "神通・空中自在法",
+				"description": "チーム内の自身のキャラクター全員が登りに消費するスタミナ-20%。同じ効果を持つ固有天賦との重ね掛け不可。"
+			}
+		],
+		"constellations": [
+			{
+				"id": "dissolution_eon_destroyer_of_worlds",
+				"name": "壊劫・三界破壊",
+				"description": "風輪両立の使用回数+1",
+				"level": 1
+			},
+			{
+				"id": "annihilation_eon_blossom_of_kaleidos",
+				"name": "空劫・虚空開敷の変",
+				"description": "フィールド上にいない時、魈自身の元素チャージ効率+25%",
+				"level": 2
+			},
+			{
+				"id": "conqueror_of_evil_wrath_deity",
+				"name": "降魔・憤怒の相",
+				"description": "風輪両立のスキルLv+3。最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "transcension_extinction_of_suffering",
+				"name": "神通・諸苦滅尽",
+				"description": "魈のHPが50%未満の時、防御力+100%。",
+				"level": 4
+			},
+			{
+				"id": "evolution_eon_origin_of_ignorance",
+				"name": "成劫・無明増長",
+				"description": "靖妖儺舞のスキルLv+3。最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "conqueror_of_evil_guardian_yaksha",
+				"name": "降魔・護法夜叉",
+				"description": "靖妖儺舞状態の時、落下攻撃が2体以上の敵に命中すると、風輪両立の使用回数+1。その後の1秒間以内は、クールタイム関係なく風輪両立を発動できる。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 2040,
+				"cost": 20000,
+				"mat1": {
+					"id": "vayuda_turquoise_sliver",
+					"name": "自由のターコイズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 4050,
+				"cost": 40000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 5060,
+				"cost": 60000,
+				"mat1": {
+					"id": "vayuda_turquoise_fragment",
+					"name": "自由のターコイズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 6070,
+				"cost": 80000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 7080,
+				"cost": 100000,
+				"mat1": {
+					"id": "vayuda_turquoise_chunk",
+					"name": "自由のターコイズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 8090,
+				"cost": 120000,
+				"mat1": {
+					"id": "vayuda_turquoise_gemstone",
+					"name": "自由のターコイズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "qingxin",
+					"name": "清心",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 0,
+				"tier": 0
+			}
+		},
+		"builds": [
+			{
+				"id": "demon_slayer",
+				"name": "Demon Slayer",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "halcn_de_jade"
+					},
+					{
+						"order": 2,
+						"id": "pa_celestial"
+					},
+					{
+						"order": 3,
+						"id": "lanza_ltica"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "sombra_verde_esmeralda"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "sombra_verde_esmeralda"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Daño CRIT",
+					"Prob. CRIT",
+					"ATQ%",
+					"Recarga de Energía%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Bono de Daño Anemo",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "xingqiu",
+		"name": "行秋(ゆくあき)",
+		"description": "璃月港飛雲商会・会長の次男。幼い頃から穏やかで礼儀正しい上に、勉強熱心な子で有名である。しかし、この物静かな少年でも活発な一面を持っている。",
+		"weapon_type": "Sword",
+		"element": "Hydro",
+		"gender": "Male",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Juvenile Galant",
+			"Guhua Guru of Feiyun Fame",
+			"Guhua Geek (by Paimon)"
+		],
+		"skills": [
+			{
+				"id": "guhua_style",
+				"name": "古華剣法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>剣による最大5段の連続攻撃</p><p><b>重撃:</b>一定のスタミナを消費し、前方に剣2本を出し攻撃する</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"modifiers": []
+			},
+			{
+				"id": "guhua_sword_fatal_rainscreen",
+				"name": "古華剣・画雨籠山",
+				"type": "元素スキル",
+				"description": "<p>連続2段の攻撃を仕掛け、前方の敵に水ダメージを与え、同時に自身の周りに最大本数の「雨すだれの剣」を生成する</p><p><b>雨すだれの剣:</b>最大24%のダメージ軽減効果を得られる。「雨すだれの剣」初期最大本数は3本。発動した瞬間、キャラに湿潤状態を付与する・被ダメで「雨すだれの剣」は壊れ、受けるダメージを減少・キャラの中断耐性をアップ・行秋の水ダメージアップは「雨すだれの剣」のダメージ軽減に転換</p>",
+				"modifiers": []
+			},
+			{
+				"id": "guhua_sword_raincutter",
+				"name": "古華剣・裁雨留虹",
+				"type": "元素爆発",
+				"description": "<p>虹剣勢を展開し、幻影の剣雨を使い、キャラの最大数の雨すだれの剣を付与する</p><p><b>虹剣勢:</b>他のキャラにも有効する・通常攻撃は剣雨攻撃を発動し水ダメージ・雨すだれの剣の数は終始最大数をキープ</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "hydropathic",
+				"name": "水生みの要訣",
+				"description": "雨すだれの剣が破壊、または継続時間が終了した時、行秋のHP上限の6%を基準に出場キャラのHPを回復する",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "blades_amidst_raindrops",
+				"name": "虚実の筆",
+				"description": "行秋の水ダメージ+20%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "flash_of_genius",
+				"name": "靈光突如",
+				"description": "キャラクター天賦素材を合成する時、25%の確率で一部の材料が変換される",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "the_scent_remained",
+				"name": "すだれの残香【1凸で解放】",
+				"description": "雨すだれの剣の最大本数+1",
+				"level": 1
+			},
+			{
+				"id": "rainbow_upon_the_azure_sky",
+				"name": "青空の虹【2凸で解放】",
+				"description": "古華剣・裁雨留虹の継続時間+3秒。その他、剣雨攻撃を受けた敵の水耐性-15%、継続時間4秒。",
+				"level": 2
+			},
+			{
+				"id": "weaver_of_verses",
+				"name": "詩の錦【3凸で解放】",
+				"description": "古華剣・裁雨留虹のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "evilsoother",
+				"name": "孤舟斬蛟【4凸で解放】",
+				"description": "古華剣・裁雨留虹継続中、古花剣・画雨籠山の与えるダメージ+50%",
+				"level": 4
+			},
+			{
+				"id": "embrace_of_rain",
+				"name": "雨深閉門【5凸で解放】",
+				"description": "古花剣・画雨籠山のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "hence_call_them_my_own_verses",
+				"name": "万文ここにあり【6凸で解放】",
+				"description": "古花剣・裁雨留虹が剣雨攻撃を2回発動するたびに、次の剣雨攻撃が大幅に強化され、敵に命中する時行秋の元素エネルギーを3回復する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "varunada_lazurite_sliver",
+					"name": "澄明なラピスラズリ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "damaged_mask",
+					"name": "破損した仮面",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "varunada_lazurite_fragment",
+					"name": "澄明なラピスラズリ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "stained_mask",
+					"name": "汚れた仮面",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "varunada_lazurite_chunk",
+					"name": "澄明なラピスラズリ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "varunada_lazurite_gemstone",
+					"name": "澄明なラピスラズリ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "cleansing_heart",
+					"name": "浄水の心",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "ominous_mask",
+					"name": "不吉な仮面",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 6,
+				"tier": 0
+			},
+			"support": {
+				"c": 2,
+				"tier": 1
+			}
+		}
+	},
+	{
+		"id": "xinyan",
+		"name": "辛炎(しんえん)",
+		"description": "",
+		"weapon_type": "Claymore",
+		"element": "Pyro",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 4,
+		"location": "Wish",
+		"titles": [
+			"Blazing Riff",
+			"Rock 'n' Roll Musician"
+		],
+		"skills": [
+			{
+				"id": "dance_on_fire",
+				"name": "炎舞",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>継続的にスタミナを消費し、大剣を振り回し、周囲の敵を攻撃する。振り回しが終了すると、力を込めた斬撃を1回仕掛ける。</p><p><b>重撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p><p><b>落下攻撃:</b>undefined</p>",
+				"modifiers": []
+			},
+			{
+				"id": "sweeping_fervor",
+				"name": "情熱の薙ぎ払い",
+				"type": "元素スキル",
+				"description": "<p>辛炎が楽器を振り回し、周囲の敵に炎ダメージを与え、さらに「観客」の「情熱」でシールドを生成する。シールドのダメージ吸収量は辛炎の防御力による、さらにシールドのレベルは命中した敵の数により変わる。・敵に命中しなかった又は1名の敵に命中した場合：Lv1シールド・イントロのリズム・2名の敵に命中した場合：Lv2シールド・指揮のリズム・3名またはそれ以上の敵に命中した場合：Lv3シールド・舞のリズムを生成する。シールドはダメージを吸収するほか、一定時間の感覚で周囲の敵に炎ダメージを与える。シールドは以下の特性を持つ：・発動する時、辛炎に炎元素付着を与える。・炎ダメージに対して、250%の吸収効果がある。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "riff_revolution",
+				"name": "黎明",
+				"type": "元素爆発",
+				"description": "<p>弦を素早く弾き、音波を放出し敵を撃退する。周囲の敵に物理ダメージを与え、「舞台」の雰囲気を盛り上げる。雰囲気が熱すぎて烈焔を引き起こし、周囲の敵に継続して炎ダメージを与える</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "the_show_goes_on_even_without_an_audience",
+				"name": "観客いなくても演奏するのが…",
+				"description": "情熱の薙ぎ払いのシールド発動に必要な命中数を減少する・Lv2シールド・指揮のリズム：1名の敵に命中する・Lv3シールド・舞のリズム：2名の敵に命中する",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "now_thats_rock_n_roll",
+				"name": "…これこそがロックだ！",
+				"description": "情熱の薙ぎ払いのシールドが存在する時、キャラクターが与える物理ダメージが15％上昇する。",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "a_rad_recipe",
+				"name": "タフレシピ",
+				"description": "防御類料理を完璧調理した時、12%の確率で料理を2倍獲得する",
+				"unlock": ""
+			}
+		],
+		"constellations": [
+			{
+				"id": "fatal_acceleration",
+				"name": "絶命の加速【1凸で解放】",
+				"description": "会心攻撃が発生した5秒間、通常攻撃と重撃の攻撃速度が12％上昇する。5秒ごとに1回のみ発動可能。",
+				"level": 1
+			},
+			{
+				"id": "impromptu_opening",
+				"name": "オープニング演出【2凸で解放】",
+				"description": "反逆の弾きによる物理ダメージの会心率を100％上昇させる。さらに発動する時にLv3シールド・舞のリズムを生成する。",
+				"level": 2
+			},
+			{
+				"id": "doublestop",
+				"name": "摭分の運指【3凸で解放】",
+				"description": "情熱の薙ぎ払いのスキルLv+3。最大Lv15まで。",
+				"level": 3
+			},
+			{
+				"id": "wildfire_rhythm",
+				"name": "リズムの伝染【4凸で解放】",
+				"description": "情熱の薙ぎ払いの振り回しダメージを受けた敵の物理耐性が15％減少する、継続時間12秒。",
+				"level": 4
+			},
+			{
+				"id": "screamin_for_an_encore",
+				"name": "アンコールの叫び【5凸で解放】",
+				"description": "反逆の弾きのスキルLv+3。最大Lv15まで。",
+				"level": 5
+			},
+			{
+				"id": "rockin_in_a_flaming_world",
+				"name": "地獄のシェーク【6凸で解放】",
+				"description": "辛炎の重撃によるスタミナ消費-30%。重撃を発動する時、辛炎の防御力50%分の攻撃力が増加する。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "treasure_hoarder_insignia",
+					"name": "宝探しの鴉マーク",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "silver_raven_insignia",
+					"name": "シルバーの鴉マーク",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "everflame_seed",
+					"name": "常燃の火種",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "violetgrass",
+					"name": "琉璃袋",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "golden_raven_insignia",
+					"name": "ゴールドの鴉マーク",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"maindps": {
+				"c": 6,
+				"tier": 3
+			},
+			"subdps": {
+				"c": 0,
+				"tier": 3
+			},
+			"support": {
+				"c": 4,
+				"tier": 3
+			}
+		},
+		"builds": [
+			{
+				"id": "rockn_roll",
+				"name": "Rock'n Roll",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "lpida_del_lobo"
+					},
+					{
+						"order": 2,
+						"id": "espada_de_la_desidia"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "caballera_sanguinaria"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "final_del_gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"防御力%",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"防御力%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			},
+			{
+				"id": "screaming_for_encore",
+				"name": "Screaming for Encore",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"order": 1,
+						"id": "lpida_del_lobo"
+					},
+					{
+						"order": 2,
+						"id": "espada_de_la_desidia"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "caballera_sanguinaria"
+						},
+						"set_2": {
+							"id": "ritual_antiguo_de_la_nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "caballera_sanguinaria"
+						},
+						"set_2": {
+							"id": "final_del_gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Daño CRIT",
+					"Prob. CRIT",
+					"防御力%",
+					"ATQ%",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"防御力%",
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"防御力%",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "zhongli",
+		"name": "鍾離(しょうり)",
+		"description": "",
+		"weapon_type": "Polearm",
+		"element": "Geo",
+		"gender": "Male",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Vago Mundo"
+		],
+		"skills": [
+			{
+				"id": "rain_of_stone",
+				"name": "岩雨",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>槍による最高6段の連続攻撃を行う</p><p><b>重撃:</b>一定のスタミナを消費し、前方に疾行し、行動経路上と終点に雨のような岩槍を投下する。</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "dominus_lapidis",
+				"name": "地心",
+				"type": "元素スキル",
+				"description": "<p><b>一回押し:</b>大地のいたる所にある岩元素を積み上げ、岩柱を生成し、岩元素範囲ダメージを与える。さらに、岩柱が存在している間に、周囲の他の岩元素創造物と一定時間の間隔で原岩共鳴をし、継続的に周囲の敵に岩ダメージを与える。岩柱は岩元素創造物とみなされ、一部の攻撃を防御でき、登ることもできる。</p><p><b>長押し:</b>付近の岩元素を爆発させ、下記の効果が発動される。・上限数に達していない場合、岩柱を生成する。・玉璋シールドを生成する。シールドのダメージ吸収量は鍾離のHP上限と関係し、全元素ダメージと物理ダメージに150%の吸収効果がある。さらに、玉璋シールドに守られたキャラは付近範囲内の敵の全元素耐性と物理耐性-20%。(重ねがけ不可)・岩元素範囲ダメージを与える。・周りに岩元素が付与されたターゲットがいる場合、最大2つのターゲットの岩元素を大量消費させる。この効果によるダメージは発生しない。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "planet_befall",
+				"name": "天星",
+				"type": "元素爆発",
+				"description": "<p>巨大な星岩を落下させ、落下範囲内の敵に大きな岩元素ダメージを与え、石化にする。</p><p><b>石化:</b>石化状態の敵は行動不能になる。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "resonant_waves",
+				"name": "岩の宸断",
+				"description": "玉璋シールドはダメージを受けた際に防御効果を発動する。玉璋シールドに守られたキャラクターのシールド強化+5%。シールドが消えるまで、最大5回強度をあげることができる。",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "dominance_of_earth",
+				"name": "贅沢な食饌",
+				"description": "HP上限を基に、鍾離の下記攻撃のダメージが増加する。・通常攻撃、重撃と落下攻撃のダメージ増加量：HP上限の1.39%・地心の岩柱、共鳴と長押しダメージ増加量：HP上限の1.9%・天星のダメージ増加量：HP上限の33%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "arcanum_of_crystal",
+				"name": "結晶推命",
+				"description": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。",
+				"unlock": ""
+			}
+		],
+		"constellations": [],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 20,
+				"cost": 20000,
+				"mat1": {
+					"id": "prithiva_topaz_sliver",
+					"name": "堅牢なトパーズ砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"cost": 40000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "slime_condensate",
+					"name": "スライムの液体",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"cost": 60000,
+				"mat1": {
+					"id": "prithiva_topaz_fragment",
+					"name": "堅牢なトパーズ欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"cost": 80000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "slime_secretions",
+					"name": "スライムの分泌物",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"cost": 100000,
+				"mat1": {
+					"id": "prithiva_topaz_chunk",
+					"name": "堅牢なトパーズ塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"cost": 120000,
+				"mat1": {
+					"id": "prithiva_topaz_gemstone",
+					"name": "堅牢なトパーズ",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "basalt_pillar",
+					"name": "玄岩の塔",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "cor_lapis",
+					"name": "石珀",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "slime_concentrate",
+					"name": "スライムのピュレ",
+					"amount": 24
+				}
+			}
+		],
+		"tier": {
+			"subdps": {
+				"c": 0,
+				"tier": 1
+			},
+			"support": {
+				"c": 0,
+				"tier": 0
+			}
+		}
+	}
+]

@@ -3,8 +3,46 @@
   "name": "Mona",
   "description": "Una misteriosa joven astróloga que se auto proclama \"Astróloga Mona Megistus\". Erudita y orgullosa, está convencida de que posee las habilidades necesarias para estar a la altura de su propio título. Aunque siempre tiene dificultades financieras y vive una vida frugal, Mona se niega a lucrarse con la astrología. Sin embargo, es esta misma determinación la que le ha traído problemas financieros...",
   "titles": ["Astróloga Mona Megistus"],
-  "skills": [],
-  "passives": [],
+  "skills": [
+    {
+      "name": "Destino revelado",
+      "type": "Ataque normal",
+      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 salpicaduras de agua que infligen Daño Hydro.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para inflgir Daño Hydro en el AdE después de un corto tiempo de lanzamiento.</p><p><b>Ataque descendiente:</b> Concentra el poder Hydro y desciende hacia el suelo, dañando a todos los enemigos cercanos e infligiendo Daño Hydro en el AdE en el momento del impacto.</p>",
+      "modifiers": []
+    },
+    {
+      "name": "Espejismo del agua",
+      "type": "Habilidad elemental",
+      "description": "Invoca unos chorros de agua para crear una ilusión del destino. La Ilusión tiene las siguientes características:<ul><li>Provoca a los enemigos cercanos, atrayendo la atención de sus ataques.</li><li>Inflige intermitentemete Daño Hydro a los enemigos cercanos.</li></ul><p>Al terminar su efecto, la ilusión explota e inflige Daño Hydro en el AdE.</p><p><b>Mantener pulsado:</b> Utiliza una corriente de agua para impulsarse hacia atrás rápidamente y conjurar una Ilusión.</p>Solo puede existir una Ilusión creada por Espejismo del agua a la vez.",
+      "modifiers": []
+    },
+    {
+      "name": "Órbita divina",
+      "type": "Impulso elemental",
+      "description": "Mona invoca unas olas cristalinas para crear un reflejo del cielo estrellado, aplicando el estado de burbuja ilusoria sobre los enemigos en una gran AdE<p>Burbuja ilusoria: Invoca una burbuja estrellada que envuelve a sus enemigos, aplicadndo el efecto de Mojado sobre ellos. La burbuja inmoviliza a los enemigos más débiles, los cuales, no podrán moverse. Cuando un enemigo que está bajo los efectos de la burbuja ilusoria recibe daño, se producen los siguientes efectos:</p><ul><li>Coloca un presagio sobre el enemigo, lo que otorga un bono de daño y también aumenta el daño del ataque que los causa.</li><li>Elimina la burbuja ilusoria infligiendo Daño Hydro adicional.</li></ul>Presagio: Mientras dura la habilidad, aumenta el daño que reciben los enemigos.",
+      "modifiers": []
+    },
+    {
+      "name": "Torrente ilusorio",
+      "type": "Esprintar alternativo",
+      "description": "Mona se oculta bajo un flujo de agua, consumiendo su Aguante para moverse rápidamente. Cuando está bajo el efecto del Torrente ilusorio, Mona puede moverse a gran velocidad sobre el agua. Al reaparecer, aplica el estado Mojado sobre los enemigos cercanos.",
+      "modifiers": []
+    }
+  ],
+  "passives": [
+    {
+      "name": "¡Atrápame si puedes!",
+      "description": "Tras haber usado Torrente ilusorio durante 2 s, si hay algún enemigo cerca, Mona creará automáticamente un fantasma. Un fantasma creado de esta manera durará 2 s, y su daño de explosión será igual al 50% del daño de Espejismo del agua."
+    },
+    {
+      "name": "¡Que el destino decida!",
+      "description": "Mona obtiene un Bono de Daño Hydro de Mona adicional equivalente al 20% de su Recarga de Energía"
+    },
+    {
+      "name": "Principio de astrología",
+      "description": "Al fabricar materiales de ascensión de arma, hay una probabilidad del 25% de recuperar los materiales usados."
+    }
+  ],
   "constellations": [
     {
       "name": "Profecía de sumersión",
