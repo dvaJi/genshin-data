@@ -1,3 +1,26 @@
+## [0.3.0](https://github.com/dvaJi/genshin-data/compare/0.2.1...0.3.0) (2021-02-13)
+
+
+### Fixes
+
+* **builds:** improve generate script to avoid data mutation ([0773aeb](https://github.com/dvaJi/genshin-data/commit/0773aeb421db2294ddcecc160a28d62083f0fc80))
+
+
+### Japanese
+
+* **weapons:** add all weapons in japanese ([ef836fb](https://github.com/dvaJi/genshin-data/commit/ef836fb22eaf0a013f3a00909c39cbf9e7a3f4b2))
+
+* **materials:** add all current materials in japanese ([4f4cf22](https://github.com/dvaJi/genshin-data/commit/4f4cf2207ad1aedef209a6bb8512ea4086fd2329))
+
+* **characters:** add current characters in japanese ([7598765](https://github.com/dvaJi/genshin-data/commit/7598765fe7005933ef023e67d79a6b5bfae9b403))
+
+
+### Spanish
+
+* **characters:** fix mona skills and passives ([7fc4482](https://github.com/dvaJi/genshin-data/commit/7fc44826d4b9ad0946bd595b22e2f32a918d5e14))
+
+
+
 ## [0.2.1](https://github.com/dvaJi/genshin-data/compare/0.2.0...0.2.1) (2021-02-06)
 
 
