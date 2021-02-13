@@ -2,6 +2,8 @@ const path = require('path');
 const fs = require('fs');
 const chalk = require('chalk');
 
+const Datastore = require('./data-store').default;
+
 const DATA_PATH = path.join(__dirname, '..', 'data');
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'generated');
 
@@ -9,12 +11,9 @@ const LANGUAGES = ['english', 'spanish', 'japanese'];
 
 const log = console.log;
 
-const artifactsMap = new Map();
-const materialsMap = new Map();
-const weaponsMap = new Map();
-const buildsMap = new Map();
-const charactersMapLite = new Map();
-const commonMap = new Map();
+const store = new Datastore();
+
+// TODO: generate a map for original adn then for the other languages.-...
 
 async function main() {
   log('Init script...');
@@ -23,30 +22,32 @@ async function main() {
   for await (const lang of LANGUAGES) {
     log(chalk.yellow(`Creating files for [${lang}] content:`));
 
-    getCommon(lang);
-    generateMaterials(lang);
-    generateArtifacts(lang);
-    generateWeapons(lang);
-    generateBuildAndTier(lang);
-    generateCharacters(lang);
+    store.setCurrentData(getCommon(lang), 'common', lang);
+    store.setCurrentData(generateMaterials(lang), 'materials', lang);
+    store.setCurrentData(generateArtifacts(lang), 'artifacts', lang);
+    store.setCurrentData(generateWeapons(lang), 'weapons', lang);
+    store.setCurrentData(generateBuildAndTier(lang), 'builds', lang);
+    store.setCurrentData(generateCharacters(lang), 'characters', lang);
   }
 }
 
-function getCommon(lang: string): void {
+function getCommon(lang: string): Map<string, unknown> {
   const filename = 'common.json';
-  const buildsPath = getFolder(lang, '');
-
-  const data = require(path.join(buildsPath, filename));
+  const commonPath = getFolder(lang, '');
+  const map = new Map();
+  const data = require(path.join(commonPath, filename));
   for (const key in data) {
     if (Object.prototype.hasOwnProperty.call(data, key)) {
-      commonMap.set(key, data[key]);
+      map.set(key, data[key]);
     }
   }
 
   log(chalk.green(`[✓] common.json loaded`));
+  return map;
 }
 
 function generateCharacters(lang: string) {
+  const charactersMapLite = new Map();
   const folder = 'characters';
   let index: any[] = [];
   try {
@@ -70,8 +71,8 @@ function generateCharacters(lang: string) {
       });
 
       // append builds and tier
-      if (buildsMap.has(fmtData.id)) {
-        fmtData = { ...fmtData, ...renameBuilds(buildsMap.get(fmtData.id)) };
+      if (store.hasBuild(fmtData.id)) {
+        fmtData = { ...fmtData, ...renameBuilds(store.getBuild(fmtData.id)) };
       }
 
       fmtData.ascension = originalData.ascension.map((s: any) => {
@@ -80,7 +81,7 @@ function generateCharacters(lang: string) {
               mat2: {
                 ...s.mat2,
                 id: slugify(s.mat2.name),
-                name: materialsMap.get(slugify(s.mat2?.name)),
+                name: store.getMaterial(slugify(s.mat2?.name)),
               },
             }
           : {};
@@ -89,18 +90,18 @@ function generateCharacters(lang: string) {
           mat1: {
             ...s.mat1,
             id: slugify(s.mat1.name),
-            name: materialsMap.get(slugify(s.mat1?.name)),
+            name: store.getMaterial(slugify(s.mat1?.name)),
           },
           ...mat2,
           mat3: {
             ...s.mat3,
             id: slugify(s.mat3.name),
-            name: materialsMap.get(slugify(s.mat3?.name)),
+            name: store.getMaterial(slugify(s.mat3?.name)),
           },
           mat4: {
             ...s.mat4,
             id: slugify(s.mat4?.name),
-            name: materialsMap.get(slugify(s.mat4?.name)),
+            name: store.getMaterial(slugify(s.mat4?.name)),
           },
         };
       });
@@ -117,10 +118,13 @@ function generateCharacters(lang: string) {
   } catch (err) {
     console.error(err);
   }
+
+  return charactersMapLite;
 }
 
-function generateMaterials(lang: string) {
-  let materials: any[] = [];
+function generateMaterials(lang: string): Map<string, unknown> {
+  const materialsMap = new Map();
+  const materials: any[] = [];
   const materialsPath = path.join(
     DATA_PATH,
     lang === 'english' ? 'general' : lang,
@@ -150,7 +154,6 @@ function generateMaterials(lang: string) {
         };
 
         materialsMap.set(material.id, material.name);
-
         materials.push(material);
       });
     } else {
@@ -166,11 +169,12 @@ function generateMaterials(lang: string) {
 
   log(chalk.green(`[✓] materials.json created`));
 
-  return materials;
+  return materialsMap;
 }
 
-function generateArtifacts(lang: string) {
-  let artifacts: any[] = [];
+function generateArtifacts(lang: string): Map<string, unknown> {
+  const artifactsMap = new Map();
+  const artifacts: any[] = [];
   const artifactsPath = path.join(
     DATA_PATH,
     lang === 'english' ? 'general' : lang,
@@ -199,11 +203,12 @@ function generateArtifacts(lang: string) {
 
   log(chalk.green(`[✓] artifacts.json created`));
 
-  return artifacts;
+  return artifactsMap;
 }
 
-function generateWeapons(lang: string) {
-  let weapons: any[] = [];
+function generateWeapons(lang: string): Map<string, unknown> {
+  const weaponsMap = new Map();
+  const weapons: any[] = [];
   const weaponsPath = path.join(
     DATA_PATH,
     lang === 'english' ? 'general' : lang,
@@ -232,10 +237,11 @@ function generateWeapons(lang: string) {
 
   log(chalk.green(`[✓] weapons.json created`));
 
-  return weapons;
+  return weaponsMap;
 }
 
-function generateBuildAndTier(lang: string) {
+function generateBuildAndTier(lang: string): Map<string, unknown> {
+  const builds = new Map();
   const tierlist: any = {
     maindps: {},
     subdps: {},
@@ -250,7 +256,7 @@ function generateBuildAndTier(lang: string) {
     const id = filename.replace('.json', '');
     const originalData = require(path.join(originalBuildsPath, filename));
 
-    let fmtData = originalData;
+    let fmtData = { ...originalData };
 
     if (fs.existsSync(path.join(buildsPath, filename))) {
       const data = require(path.join(buildsPath, filename));
@@ -270,24 +276,24 @@ function generateBuildAndTier(lang: string) {
     }
 
     if (fmtData.builds) {
-      fmtData.builds = fmtData.builds.map((build: any) => {
-        build.weapons = build.weapons.map((w: any) => ({
+      const builds = fmtData.builds.map((build: any) => {
+        const weapons = build.weapons.map((w: any) => ({
           ...w,
           id: slugify(w.name),
-          name: weaponsMap.get(slugify(w.name)),
+          name: store.getWeapon(slugify(w.name)),
         }));
 
-        build.sets = build.sets.map((s: any) => {
+        const sets = build.sets.map((s: any) => {
           if (s.set_2) {
             return {
               ...s,
               set_1: {
                 id: slugify(s.set_1.name),
-                name: artifactsMap.get(slugify(s.set_1.name)),
+                name: store.getArtifact(slugify(s.set_1.name)),
               },
               set_2: {
                 id: slugify(s.set_2.name),
-                name: artifactsMap.get(slugify(s.set_2.name)),
+                name: store.getArtifact(slugify(s.set_2.name)),
               },
             };
           } else {
@@ -295,14 +301,14 @@ function generateBuildAndTier(lang: string) {
               ...s,
               set_1: {
                 id: slugify(s.set_1.name),
-                name: artifactsMap.get(slugify(s.set_1.name)),
+                name: store.getArtifact(slugify(s.set_1.name)),
               },
             };
           }
         });
 
-        const commonStats = commonMap.get('stats');
-        build.stats_priority = build.stats_priority.map(
+        const commonStats = store.getCommon('stats');
+        const stats_priority = build.stats_priority.map(
           (stat: string) => commonStats[stat] || stat
         );
         const artifactsTypes = [
@@ -312,17 +318,20 @@ function generateBuildAndTier(lang: string) {
           'goblet',
           'circlet',
         ];
+        const stats: any = {};
         for (const type of artifactsTypes) {
-          build.stats[type] = build.stats[type].map(
+          stats[type] = build.stats[type].map(
             (stat: string) => commonStats[stat] || stat
           );
         }
 
-        return build;
+        return { ...build, weapons, sets, stats_priority, stats };
       });
+
+      fmtData.builds = [...builds];
     }
 
-    buildsMap.set(id, fmtData);
+    builds.set(id, fmtData);
   });
 
   log(chalk.green(`[✓] builds loaded`));
@@ -333,6 +342,7 @@ function generateBuildAndTier(lang: string) {
   );
 
   log(chalk.green(`[✓] tierlist.json created`));
+  return builds;
 }
 
 function getFolder(lang: string, folder: string): string {
@@ -352,53 +362,53 @@ function slugify(value: string) {
 function renameBuilds(data: any) {
   if (!data.builds) return data;
 
-  data.builds = data.builds.map((build: any) => {
-    build.weapons = build.weapons.map((w: any) => {
-      if (weaponsMap.has(slugify(w.name))) {
+  const builds = data.builds.map((build: any) => {
+    const weapons = build.weapons.map((w: any) => {
+      if (store.hasWeapon(slugify(w.name))) {
         return {
           ...w,
           id: slugify(w.name),
-          name: weaponsMap.get(slugify(w.name)),
+          name: store.getWeapon(slugify(w.name)),
         };
       }
 
       return w;
     });
 
-    build.sets = build.sets.map((s: any) => {
+    const sets = build.sets.map((s: any) => {
       if (s.set_2) {
         return {
           ...s,
-          set_1: artifactsMap.has(slugify(s.set_1.name))
+          set_1: store.hasArtifact(slugify(s.set_1.name))
             ? {
                 id: slugify(s.set_1.name),
-                name: artifactsMap.get(slugify(s.set_1.name)),
+                name: store.getArtifact(slugify(s.set_1.name)),
               }
             : s.set_1,
-          set_2: artifactsMap.has(slugify(s.set_2.name))
+          set_2: store.hasArtifact(slugify(s.set_2.name))
             ? {
                 id: slugify(s.set_2.name),
-                name: artifactsMap.get(slugify(s.set_2.name)),
+                name: store.getArtifact(slugify(s.set_2.name)),
               }
             : s.set_2,
         };
       } else {
         return {
           ...s,
-          set_1: artifactsMap.has(slugify(s.set_1.name))
+          set_1: store.hasArtifact(slugify(s.set_1.name))
             ? {
                 id: slugify(s.set_1.name),
-                name: artifactsMap.get(slugify(s.set_1.name)),
+                name: store.getArtifact(slugify(s.set_1.name)),
               }
             : s.set_1,
         };
       }
     });
 
-    return build;
+    return { ...build, weapons, sets };
   });
 
-  return data;
+  return { ...data, builds };
 }
 
 function deepMerge(a: any, b: any) {

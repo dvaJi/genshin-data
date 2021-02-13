@@ -300,21 +300,21 @@
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%",
+						"攻撃力%",
 						"防御力%"
 					],
 					"goblet": [
-						"Bono de Daño Geo"
+						"岩ダメージ"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			}
@@ -2562,64 +2562,71 @@
 				"role": "Main DPS",
 				"weapons": [
 					{
+						"name": "アモスの弓",
 						"order": 1,
-						"id": "arco_de_amos"
+						"id": "amos_bow"
 					},
 					{
+						"name": "祭礼の弓",
 						"order": 2,
-						"id": "arco_del_sacrificio"
+						"id": "sacrificial_bow"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "orquesta_del_errante"
+							"id": "wanderers_troupe",
+							"name": "大地を流浪する楽団"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"set_2": {
-							"id": "ritual_antiguo_de_la_nobleza"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 2
 					},
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 3
 					}
 				],
 				"stats_priority": [
-					"Prob. CRIT",
-					"Daño CRIT",
-					"ATQ%",
-					"Recarga de Energía%",
-					"Maestría Elemental"
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素チャージ効率%",
+					"元素熟知"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%"
+						"攻撃力%"
 					],
 					"goblet": [
-						"Bono de Daño Cryo",
-						"ATQ%"
+						"氷元素ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			},
@@ -2630,68 +2637,76 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
+						"name": "天空の翼",
 						"order": 1,
-						"id": "alas_celestiales"
+						"id": "skyward_harp"
 					},
 					{
+						"name": "祭礼の弓",
 						"order": 2,
-						"id": "arco_del_sacrificio"
+						"id": "sacrificial_bow"
 					},
 					{
+						"name": "絶弦",
 						"order": 3,
-						"id": "ltimo_acorde"
+						"id": "the_stringless"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"set_2": {
-							"id": "ritual_antiguo_de_la_nobleza"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 2
 					},
 					{
 						"set_1": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 3
 					}
 				],
 				"stats_priority": [
-					"Prob. CRIT",
-					"Daño CRIT",
-					"Recarga de Energía%",
-					"Maestría Elemental"
+					"会心率",
+					"会心ダメージ",
+					"元素チャージ効率%",
+					"元素熟知"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%",
-						"Recarga de Energía%"
+						"攻撃力%",
+						"元素チャージ効率%"
 					],
 					"goblet": [
-						"Bono de Daño Cryo",
-						"ATQ%"
+						"氷元素ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			}
@@ -3212,55 +3227,60 @@
 				"role": "Support",
 				"weapons": [
 					{
+						"name": "天空の刃",
 						"order": 1,
-						"id": "hoja_afilada_celestial"
+						"id": "skyward_blade"
 					},
 					{
+						"name": "黎明の神剣",
 						"order": 2,
-						"id": "espada_del_alba"
+						"id": "harbinger_of_dawn"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"set_2": {
-							"id": "ritual_antiguo_de_la_nobleza"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "ritual_antiguo_de_la_nobleza"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
 					"CRIT RATE",
-					"Daño CRIT",
-					"ATQ%",
+					"会心ダメージ",
+					"攻撃力%",
 					"ENERGY",
 					"MASTERY"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%"
+						"攻撃力%"
 					],
 					"goblet": [
-						"Bono de Daño Físico",
-						"ATQ%"
+						"物理ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"ATQ%"
+						"会心ダメージ",
+						"攻撃力%"
 					]
 				}
 			},
@@ -3276,51 +3296,55 @@
 						"id": "aquila_favonia"
 					},
 					{
+						"name": "黒剣",
 						"order": 2,
-						"id": "espada_negra"
+						"id": "the_black_sword"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "nmada_del_invierno"
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "caballera_sanguinaria"
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
-					"Daño CRIT",
-					"ATQ%",
-					"Maestría Elemental",
-					"Recarga de Energía%",
-					"Prob. CRIT"
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知",
+					"元素チャージ効率%",
+					"会心率"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%"
+						"攻撃力%"
 					],
 					"goblet": [
-						"Bono de Daño Físico",
-						"ATQ%"
+						"物理ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"ATQ%"
+						"会心ダメージ",
+						"攻撃力%"
 					]
 				}
 			}
@@ -5110,54 +5134,59 @@
 				"role": "Support",
 				"weapons": [
 					{
+						"name": "祭礼の剣",
 						"order": 1,
-						"id": "espada_de_sacrificio"
+						"id": "sacrificial_sword"
 					},
 					{
+						"name": "天空の刃",
 						"order": 2,
-						"id": "hoja_afilada_celestial"
+						"id": "skyward_blade"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "doncella_amada"
+							"id": "maiden_beloved",
+							"name": "愛される少女"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "doncella_amada"
+							"id": "maiden_beloved",
+							"name": "愛される少女"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
-					"ATQ%",
-					"Recarga de Energía%",
-					"ATQ",
-					"Maestría Elemental"
+					"攻撃力%",
+					"元素チャージ効率%",
+					"攻撃力",
+					"元素熟知"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"Recarga de Energía%",
-						"ATQ%"
+						"元素チャージ効率%",
+						"攻撃力%"
 					],
 					"goblet": [
-						"ATQ%"
+						"攻撃力%"
 					],
 					"circlet": [
-						"ATQ%",
-						"Bonificación de Curación"
+						"攻撃力%",
+						"治癒効果バフ%"
 					]
 				}
 			}
@@ -7120,60 +7149,66 @@
 				"role": "Main DPS",
 				"weapons": [
 					{
+						"name": "和璞鳶",
 						"order": 1,
-						"id": "halcn_de_jade"
+						"id": "primordial_jade_wingedspear"
 					},
 					{
+						"name": "天空の脊",
 						"order": 2,
-						"id": "pa_celestial"
+						"id": "skyward_spine"
 					},
 					{
+						"name": "千岩長槍",
 						"order": 3,
-						"id": "lanza_ltica"
+						"id": "lithic_spear"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "sombra_verde_esmeralda"
+							"id": "viridescent_venerer",
+							"name": "翠緑の影"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "sombra_verde_esmeralda"
+							"id": "viridescent_venerer",
+							"name": "翠緑の影"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
-					"Daño CRIT",
-					"Prob. CRIT",
-					"ATQ%",
-					"Recarga de Energía%",
-					"Maestría Elemental"
+					"会心ダメージ",
+					"会心率",
+					"攻撃力%",
+					"元素チャージ効率%",
+					"元素熟知"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%",
-						"Recarga de Energía%"
+						"攻撃力%",
+						"元素チャージ効率%"
 					],
 					"goblet": [
-						"Bono de Daño Anemo",
-						"ATQ%"
+						"風元素ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			}
@@ -7697,56 +7732,61 @@
 				"role": "Main DPS",
 				"weapons": [
 					{
+						"name": "狼の末路",
 						"order": 1,
-						"id": "lpida_del_lobo"
+						"id": "wolfs_gravestone"
 					},
 					{
+						"name": "無工の剣",
 						"order": 2,
-						"id": "espada_de_la_desidia"
+						"id": "the_unforged"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "caballera_sanguinaria"
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
-					"Prob. CRIT",
-					"Daño CRIT",
-					"ATQ%",
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
 					"防御力%",
-					"Recarga de Energía%"
+					"元素チャージ効率%"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
-						"ATQ%",
+						"攻撃力%",
 						"防御力%"
 					],
 					"goblet": [
-						"Bono de Daño Físico",
-						"ATQ%"
+						"物理ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			},
@@ -7757,60 +7797,66 @@
 				"role": "Support",
 				"weapons": [
 					{
+						"name": "狼の末路",
 						"order": 1,
-						"id": "lpida_del_lobo"
+						"id": "wolfs_gravestone"
 					},
 					{
+						"name": "無工の剣",
 						"order": 2,
-						"id": "espada_de_la_desidia"
+						"id": "the_unforged"
 					}
 				],
 				"sets": [
 					{
 						"set_1": {
-							"id": "caballera_sanguinaria"
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
 						},
 						"set_2": {
-							"id": "ritual_antiguo_de_la_nobleza"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "caballera_sanguinaria"
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
 						},
 						"set_2": {
-							"id": "final_del_gladiador"
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
 					}
 				],
 				"stats_priority": [
-					"Daño CRIT",
-					"Prob. CRIT",
+					"会心ダメージ",
+					"会心率",
 					"防御力%",
-					"ATQ%",
-					"Recarga de Energía%"
+					"攻撃力%",
+					"元素チャージ効率%"
 				],
 				"stats": {
 					"flower": [
-						"Vida"
+						"HP"
 					],
 					"plume": [
-						"ATQ"
+						"攻撃力"
 					],
 					"sands": [
 						"防御力%",
-						"ATQ%"
+						"攻撃力%"
 					],
 					"goblet": [
-						"Bono de Daño Físico",
+						"物理ダメージ",
 						"防御力%",
-						"ATQ%"
+						"攻撃力%"
 					],
 					"circlet": [
-						"Daño CRIT",
-						"Prob. CRIT"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			}
