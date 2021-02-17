@@ -34,14 +34,9 @@ export default class GenshinData {
   }
 
   async characters(query?: QueryOpts<Character>): Promise<Character[]> {
-    let results = [];
-    if (this.options.language === 'spanish') {
-      results = (await import(`./generated/spanish/characters.json`)).default;
-    } else if (this.options.language === 'japanese') {
-      results = (await import(`./generated/japanese/characters.json`)).default;
-    } else {
-      results = (await import(`./generated/english/characters.json`)).default;
-    }
+    let results = (
+      await import(`./generated/${this.options.language}/characters.json`)
+    ).default;
 
     if (query) {
       results = this.selectProps(results, query);
@@ -51,14 +46,9 @@ export default class GenshinData {
   }
 
   async weapons(query?: QueryOpts<Weapon>): Promise<Weapon[]> {
-    let results = [];
-    if (this.options.language === 'spanish') {
-      results = (await import(`./generated/spanish/weapons.json`)).default;
-    } else if (this.options.language === 'japanese') {
-      results = (await import(`./generated/japanese/weapons.json`)).default;
-    } else {
-      results = (await import(`./generated/english/weapons.json`)).default;
-    }
+    let results = (
+      await import(`./generated/${this.options.language}/weapons.json`)
+    ).default;
 
     if (query) {
       results = this.selectProps(results, query);
@@ -68,14 +58,9 @@ export default class GenshinData {
   }
 
   async artifacts(query?: QueryOpts<Artifact>): Promise<Artifact[]> {
-    let results = [];
-    if (this.options.language === 'spanish') {
-      results = (await import(`./generated/spanish/artifacts.json`)).default;
-    } else if (this.options.language === 'japanese') {
-      results = (await import(`./generated/japanese/artifacts.json`)).default;
-    } else {
-      results = (await import(`./generated/english/artifacts.json`)).default;
-    }
+    let results = (
+      await import(`./generated/${this.options.language}/artifacts.json`)
+    ).default;
 
     if (query) {
       results = this.selectProps(results, query);
@@ -85,14 +70,9 @@ export default class GenshinData {
   }
 
   async materials(query?: QueryOpts<Material>): Promise<Material[]> {
-    let results = [];
-    if (this.options.language === 'spanish') {
-      results = (await import(`./generated/spanish/materials.json`)).default;
-    } else if (this.options.language === 'japanese') {
-      results = (await import(`./generated/japanese/materials.json`)).default;
-    } else {
-      results = (await import(`./generated/english/materials.json`)).default;
-    }
+    let results = (
+      await import(`./generated/${this.options.language}/materials.json`)
+    ).default;
 
     if (query) {
       results = this.selectProps(results, query);
@@ -102,13 +82,8 @@ export default class GenshinData {
   }
 
   async tierlist(): Promise<Tierlist> {
-    if (this.options.language === 'spanish') {
-      return (await import(`./generated/spanish/tierlist.json`)).default;
-    } else if (this.options.language === 'japanese') {
-      return (await import(`./generated/japanese/tierlist.json`)).default;
-    } else {
-      return (await import(`./generated/english/tierlist.json`)).default;
-    }
+    return (await import(`./generated/${this.options.language}/tierlist.json`))
+      .default;
   }
 
   selectProps<T>(results: T[], query: QueryOpts<T>): T[] {

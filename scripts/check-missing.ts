@@ -15,6 +15,7 @@ async function main() {
   const missingJPCharacters = charactersEN.filter(
     (c: any) => !charactersJP.includes(c)
   );
+  console.log('[EN] Total characters:', charactersEN.length);
   console.log('[ES] Missing characters:', missingESCharacters);
   console.log('[JP] Missing characters:', missingJPCharacters);
 
@@ -24,6 +25,7 @@ async function main() {
   const weaponsEN = (await dataEN.weapons()).map((c: any) => c.id);
   const missingESWeapons = weaponsEN.filter((c: any) => !weaponsES.includes(c));
   const missingJPWeapons = weaponsEN.filter((c: any) => !weaponsJP.includes(c));
+  console.log('[EN] Total weapons:', weaponsEN.length);
   console.log('[ES] Missing weapons:', missingESWeapons);
   console.log('[JP] Missing weapons:', missingJPWeapons);
 
@@ -37,6 +39,7 @@ async function main() {
   const missingJPArtifacts = artifactsEN.filter(
     (c: any) => !artifactsJP.includes(c)
   );
+  console.log('[EN] Total artifacts:', artifactsEN.length);
   console.log('[ES] Missing artifacts:', missingESArtifacts);
   console.log('[JP] Missing artifacts:', missingJPArtifacts);
 
@@ -50,6 +53,7 @@ async function main() {
   const missingJPMaterials = materialsEN.filter(
     (c: any) => !materialsJP.includes(c)
   );
+  console.log('[EN] Total materials:', materialsEN.length);
   console.log('[ES] Missing materials:', missingESMaterials);
   console.log('[JP] Missing materials:', missingJPMaterials);
 }
