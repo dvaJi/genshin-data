@@ -19,9 +19,7 @@
     "test": "tsdx test",
     "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",
-    "prepare": "npm run generate && tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "prepare": "npm run generate && tsdx build"
   },
   "peerDependencies": {},
   "husky": {
@@ -50,12 +48,10 @@
   ],
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
-    "@size-limit/preset-small-lib": "^4.9.2",
     "chalk": "^4.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^5.0.9",
     "rollup-plugin-dynamic-import-variables": "^1.1.0",
-    "size-limit": "^4.9.2",
     "ts-node": "^9.1.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",
