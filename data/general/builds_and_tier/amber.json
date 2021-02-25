@@ -8,5 +8,73 @@
       "c": 0,
       "tier": 4
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "explosive_idoll",
+      "name": "Explosive I-Doll",
+      "description": "",
+      "role": "Sub DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "The Stringless", "order": 2 },
+        { "name": "Prototype Crescent", "order": 3 },
+        { "name": "Slingshot", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Noblesse Oblige" }, "order": 1 },
+        {
+          "set_1": { "name": "Crimson Witch of Flames" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "Crimson Witch of Flames" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "ATK%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Pyro DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    },
+    {
+      "id": "wildfire",
+      "name": "Wildfire",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Amos' Bow", "order": 1 },
+        { "name": "The Viridescent Hunt", "order": 2 },
+        { "name": "Prototype Crescent", "order": 3 },
+        { "name": "Messenger", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Wanderer's Troupe" }, "order": 1 },
+        {
+          "set_1": { "name": "Crimson Witch of Flames" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "Crimson Witch of Flames" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 3
+        }
+      ],
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "ATK%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Pyro DMG", "ATK%"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    }
+  ]
 }

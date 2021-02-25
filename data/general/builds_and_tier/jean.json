@@ -8,5 +8,86 @@
       "c": 0,
       "tier": 1
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "grand_master",
+      "name": "Grand Master",
+      "description": "",
+      "role": "Support",
+      "weapons": [
+        { "name": "Aquila Favonia", "order": 1 },
+        { "name": "Skyward Blade", "order": 2 },
+        { "name": "The Flute", "order": 3 },
+        { "name": "Favonius Sword", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Viridescent Venerer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 1
+        },
+        { "set_1": { "name": "Viridescent Venerer" }, "order": 2 },
+        { "set_1": { "name": "Noblesse Oblige" }, "order": 3 },
+        {
+          "set_1": { "name": "Maiden Beloved" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "ATK%",
+        "Energy Recharge%",
+        "Elemental Mastery",
+        "CRIT Rate",
+        "CRIT DMG"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Anemo DMG", "ATK%"],
+        "circlet": ["ATK%", "Elemental Mastery"]
+      }
+    },
+    {
+      "id": "dandelion_knight",
+      "name": "Dandelion Knight",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Aquila Favonia", "order": 1 },
+        { "name": "Skyward Blade", "order": 2 },
+        { "name": "The Flute", "order": 3 },
+        { "name": "The Black Sword", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Viridescent Venerer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 1
+        },
+        { "set_1": { "name": "Gladiator's Finale" }, "order": 2 },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge%",
+        "Elemental Mastery"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Anemo DMG"],
+        "circlet": ["CRIT Rate", "CRIT DMG"]
+      }
+    }
+  ]
 }

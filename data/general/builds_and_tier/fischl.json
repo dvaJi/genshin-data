@@ -8,5 +8,80 @@
       "c": 0,
       "tier": 1
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "kaiser_und_kaiserin",
+      "name": "Kaiser Und Kaiserin",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "Amos' Bow", "order": 2 },
+        { "name": "Rust", "order": 3 },
+        { "name": "Compound Bow", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Thundersoother" }, "order": 1 },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Thundering Fury" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge%"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Electro DMG"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    },
+    {
+      "id": "wizard_of_oz",
+      "name": "Wizard of OZ",
+      "description": "",
+      "role": "Sub DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "Amos' Bow", "order": 2 },
+        { "name": "The Stringless", "order": 3 },
+        { "name": "Favonius Warbow", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Gambler" },
+          "set_2": { "name": "Thundering Fury" },
+          "order": 1
+        },
+        { "set_1": { "name": "Thundersoother" }, "order": 2 },
+        { "set_1": { "name": "Thundering Fury" }, "order": 3 }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "Elemental Mastery",
+        "Energy Recharge%"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Electro DMG"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    }
+  ]
 }

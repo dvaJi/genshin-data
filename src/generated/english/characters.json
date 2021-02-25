@@ -261,17 +261,56 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "Skyward Blade",
+						"name": "Harbinger of Dawn",
 						"order": 1,
-						"id": "skyward_blade"
+						"id": "harbinger_of_dawn"
 					},
 					{
 						"name": "Festering Desire",
 						"order": 2,
 						"id": "festering_desire"
+					},
+					{
+						"name": "Aquila Favonia",
+						"order": 3,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "The Black Sword",
+						"order": 4,
+						"id": "the_black_sword"
 					}
 				],
 				"sets": [
+					{
+						"set_1": {
+							"id": "defenders_will",
+							"name": "Defender's Will"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "Archaic Petra"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "archaic_petra",
+							"name": "Archaic Petra"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Gambler"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "Archaic Petra"
+						},
+						"order": 3
+					},
 					{
 						"set_1": {
 							"id": "archaic_petra",
@@ -281,14 +320,7 @@
 							"id": "noblesse_oblige",
 							"name": "Noblesse Oblige"
 						},
-						"order": 1
-					},
-					{
-						"set_1": {
-							"id": "noblesse_oblige",
-							"name": "Noblesse Oblige"
-						},
-						"order": 1
+						"order": 4
 					}
 				],
 				"stats_priority": [
@@ -571,7 +603,177 @@
 				"c": 0,
 				"tier": 4
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "explosive_idoll",
+				"name": "Explosive I-Doll",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Skyward Harp",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "The Stringless",
+						"order": 2,
+						"id": "the_stringless"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Slingshot",
+						"order": 4,
+						"id": "slingshot"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Pyro DMG",
+						"ATK%"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			},
+			{
+				"id": "wildfire",
+				"name": "Wildfire",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Amos' Bow",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "The Viridescent Hunt",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Messenger",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "Wanderer's Troupe"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Pyro DMG",
+						"ATK%"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "barbara",
@@ -820,7 +1022,157 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "blessed_magical_girl",
+				"name": "Blessed Magical Girl",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Thrilling Tales of Dragon Slayers",
+						"order": 1,
+						"id": "thrilling_tales_of_dragon_slayers"
+					},
+					{
+						"name": "Prototype Amber",
+						"order": 2,
+						"id": "prototype_amber"
+					},
+					{
+						"name": "The Widsith",
+						"order": 3,
+						"id": "the_widsith"
+					},
+					{
+						"name": "Favonius Codex",
+						"order": 4,
+						"id": "favonius_codex"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "scholar",
+							"name": "Scholar"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "The Exile"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Maiden Beloved"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"HP%",
+					"ATK",
+					"Energy Recharge%",
+					"CRIT Rate"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"HP%",
+						"Energy Recharge%"
+					],
+					"goblet": [
+						"HP%"
+					],
+					"circlet": [
+						"Healing Bonus%",
+						"HP%"
+					]
+				}
+			},
+			{
+				"id": "magikarp_idol",
+				"name": "Magikarp Idol",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Lost Prayer to the Sacred Winds",
+						"order": 1,
+						"id": "lost_prayer_to_the_sacred_winds"
+					},
+					{
+						"name": "The Widsith",
+						"order": 2,
+						"id": "the_widsith"
+					},
+					{
+						"name": "Eye of Perception",
+						"order": 3,
+						"id": "eye_of_perception"
+					},
+					{
+						"name": "Frostbearer",
+						"order": 4,
+						"id": "frostbearer"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "heart_of_depth",
+							"name": "Heart of Depth"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "Heart of Depth"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Hydro DMG"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "beidou",
@@ -1073,7 +1425,179 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "conqueror_of_the_sea",
+				"name": "Conqueror of the Sea",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Wolf's Gravestone",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Serpent Spine",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototype Archaic",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Rainslasher",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Energy Recharge%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Physical DMG",
+						"ATK%"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			},
+			{
+				"id": "full_counter",
+				"name": "Full Counter",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Wolf's Gravestone",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Serpent Spine",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototype Archaic",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Rainslasher",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "Wanderer's Troupe"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery",
+					"Energy Recharge%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Electro DMG",
+						"ATK%"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "bennett",
@@ -1326,7 +1850,169 @@
 				"c": 1,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "best_friend_forever",
+				"name": "Best Friend Forever",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Festering Desire",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Skyward Blade",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Favonius Sword",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "Lion's Roar",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Maiden Beloved"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"HP",
+					"Energy Recharge%",
+					"CRIT Rate",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"Energy Recharge%"
+					],
+					"goblet": [
+						"HP%"
+					],
+					"circlet": [
+						"Healing Bonus%",
+						"HP%"
+					]
+				}
+			},
+			{
+				"id": "burning_pasion",
+				"name": "Burning Passion",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Festering Desire",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Skyward Blade",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Favonius Sword",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "Lion's Roar",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Gambler"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"Energy Recharge%",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%",
+						"Energy Recharge%"
+					],
+					"goblet": [
+						"Pyro DMG"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "chongyun",
@@ -1583,7 +2269,160 @@
 				"c": 2,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "ice_maker",
+				"name": "Ice Maker",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Wolf's Gravestone",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Prototype Archaic",
+						"order": 2,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Serpent Spine",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Debate Club",
+						"order": 4,
+						"id": "debate_club"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "Blizzard Strayer"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Cryo DMG"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			},
+			{
+				"id": "sub_zero_king",
+				"name": "Sub Zero King",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Amos' Bow",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "The Viridescent Hunt",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Messenger",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "Blizzard Strayer"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Cryo DMG"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diluc",
@@ -1834,7 +2673,89 @@
 				"c": 0,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "rising_phoenix",
+				"name": "Rising Phoenix",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Wolf's Gravestone",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Skyward Pride",
+						"order": 2,
+						"id": "skyward_pride"
+					},
+					{
+						"name": "Serpent Spine",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototype Archaic",
+						"order": 4,
+						"id": "prototype_archaic"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery",
+					"Energy Recharge%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Pyro DMG"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diona",
@@ -2083,7 +3004,171 @@
 				"c": 1,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "cutest_bartender",
+				"name": "Cutest Bartender",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Sacrificial Bow",
+						"order": 1,
+						"id": "sacrificial_bow"
+					},
+					{
+						"name": "Favonius Warbow",
+						"order": 2,
+						"id": "favonius_warbow"
+					},
+					{
+						"name": "Skyward Harp",
+						"order": 3,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "The Viridescent Hunt",
+						"order": 4,
+						"id": "the_viridescent_hunt"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "The Exile"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Maiden Beloved"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Energy Recharge%",
+					"HP%",
+					"ATK%",
+					"CRIT Rate"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"Energy Recharge%"
+					],
+					"goblet": [
+						"HP%",
+						"Cryo DMG"
+					],
+					"circlet": [
+						"HP%",
+						"Healing Bonus%"
+					]
+				}
+			},
+			{
+				"id": "frozen_queen",
+				"name": "Frozen Queen",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Amos' Bow",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "The Viridescent Hunt",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Messenger",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Energy Recharge%",
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Cryo DMG"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "fischl",
@@ -2337,7 +3422,172 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "kaiser_und_kaiserin",
+				"name": "Kaiser Und Kaiserin",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Skyward Harp",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Amos' Bow",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Rust",
+						"order": 3,
+						"id": "rust"
+					},
+					{
+						"name": "Compound Bow",
+						"order": 4,
+						"id": "compound_bow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Thundersoother"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery",
+					"Energy Recharge%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Electro DMG"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			},
+			{
+				"id": "wizard_of_oz",
+				"name": "Wizard of OZ",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Skyward Harp",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Amos' Bow",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "The Stringless",
+						"order": 3,
+						"id": "the_stringless"
+					},
+					{
+						"name": "Favonius Warbow",
+						"order": 4,
+						"id": "favonius_warbow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Gambler"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Thundersoother"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"Elemental Mastery",
+					"Energy Recharge%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Electro DMG"
+					],
+					"circlet": [
+						"CRIT DMG",
+						"CRIT Rate"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "ganyu",
@@ -2607,6 +3857,16 @@
 						"name": "Sacrificial Bow",
 						"order": 2,
 						"id": "sacrificial_bow"
+					},
+					{
+						"name": "The Viridescent Hunt",
+						"order": 3,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -2687,6 +3947,11 @@
 						"name": "The Stringless",
 						"order": 3,
 						"id": "the_stringless"
+					},
+					{
+						"name": "Prototype Crescent",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -3001,7 +4266,185 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "grand_master",
+				"name": "Grand Master",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Skyward Blade",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "The Flute",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "Favonius Sword",
+						"order": 4,
+						"id": "favonius_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Viridescent Venerer"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Viridescent Venerer"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Maiden Beloved"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"ATK%",
+					"Energy Recharge%",
+					"Elemental Mastery",
+					"CRIT Rate",
+					"CRIT DMG"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Anemo DMG",
+						"ATK%"
+					],
+					"circlet": [
+						"ATK%",
+						"Elemental Mastery"
+					]
+				}
+			},
+			{
+				"id": "dandelion_knight",
+				"name": "Dandelion Knight",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Skyward Blade",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "The Flute",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "The Black Sword",
+						"order": 4,
+						"id": "the_black_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Viridescent Venerer"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Energy Recharge%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Anemo DMG"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "kaeya",
@@ -3261,7 +4704,7 @@
 				"id": "cavalry_captain",
 				"name": "Cavalry Captain",
 				"description": "",
-				"role": "Support",
+				"role": "Sub DPS",
 				"weapons": [
 					{
 						"name": "Skyward Blade",
@@ -3272,6 +4715,16 @@
 						"name": "Harbinger of Dawn",
 						"order": 2,
 						"id": "harbinger_of_dawn"
+					},
+					{
+						"name": "Festering Desire",
+						"order": 3,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Sacrificial Sword",
+						"order": 4,
+						"id": "sacrificial_sword"
 					}
 				],
 				"sets": [
@@ -3292,6 +4745,17 @@
 							"name": "Noblesse Oblige"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "Blizzard Strayer"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3336,6 +4800,16 @@
 						"name": "The Black Sword",
 						"order": 2,
 						"id": "the_black_sword"
+					},
+					{
+						"name": "The Flute",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "Prototype Rancour",
+						"order": 4,
+						"id": "prototype_rancour"
 					}
 				],
 				"sets": [
@@ -3356,6 +4830,17 @@
 							"name": "Gladiator's Finale"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "Blizzard Strayer"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3634,7 +5119,165 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "electro_queen",
+				"name": "Electro Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "The Black Sword",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "Lion's Roar",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "The Flute",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Thundersoother"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Thundering Fury"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"Elemental Mastery"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Electro DMG"
+					],
+					"circlet": [
+						"CRIT DMG"
+					]
+				}
+			},
+			{
+				"id": "physical_queen",
+				"name": "Physical Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "The Black Sword",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "Lion's Roar",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "The Flute",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Gladiator's Finale"
+						},
+						"set_2": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Thundersoother"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Bloodstained Chivalry"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"ATK%",
+					"ATK"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"ATK%"
+					],
+					"goblet": [
+						"Physical DMG"
+					],
+					"circlet": [
+						"CRIT DMG"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "klee",

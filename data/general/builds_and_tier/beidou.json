@@ -8,5 +8,85 @@
       "c": 0,
       "tier": 2
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "conqueror_of_the_sea",
+      "name": "Conqueror of the Sea",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Wolf's Gravestone", "order": 1 },
+        { "name": "Serpent Spine", "order": 2 },
+        { "name": "Prototype Archaic", "order": 3 },
+        { "name": "Rainslasher", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Gladiator's Finale" },
+          "set_2": { "name": "Thundering Fury" },
+          "order": 1
+        },
+        { "set_1": { "name": "Gladiator's Finale" }, "order": 2 },
+        {
+          "set_1": { "name": "Bloodstained Chivalry" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge%",
+        "Elemental Mastery"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Physical DMG", "ATK%"],
+        "circlet": ["CRIT Rate", "CRIT DMG"]
+      }
+    },
+    {
+      "id": "full_counter",
+      "name": "Full Counter",
+      "description": "",
+      "role": "Sub DPS",
+      "weapons": [
+        { "name": "Wolf's Gravestone", "order": 1 },
+        { "name": "Serpent Spine", "order": 2 },
+        { "name": "Prototype Archaic", "order": 3 },
+        { "name": "Rainslasher", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Gladiator's Finale" },
+          "set_2": { "name": "Thundering Fury" },
+          "order": 1
+        },
+        { "set_1": { "name": "Thundering Fury" }, "order": 2 },
+        {
+          "set_1": { "name": "Wanderer's Troupe" },
+          "set_2": { "name": "Thundering Fury" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge%"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Electro DMG", "ATK%"],
+        "circlet": ["CRIT Rate", "CRIT DMG"]
+      }
+    }
+  ]
 }

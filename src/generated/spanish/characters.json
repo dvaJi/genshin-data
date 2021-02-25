@@ -261,17 +261,56 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "Hoja Afilada Celestial",
+						"name": "Espada del Alba",
 						"order": 1,
-						"id": "skyward_blade"
+						"id": "harbinger_of_dawn"
 					},
 					{
 						"name": "Deseo Ponzoñoso",
 						"order": 2,
 						"id": "festering_desire"
+					},
+					{
+						"name": "Aquila Favonia",
+						"order": 3,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Espada Negra",
+						"order": 4,
+						"id": "the_black_sword"
 					}
 				],
 				"sets": [
+					{
+						"set_1": {
+							"id": "defenders_will",
+							"name": "Corazón del Guardián"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "Petra Arcaica"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "archaic_petra",
+							"name": "Petra Arcaica"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Jugadora"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "Petra Arcaica"
+						},
+						"order": 3
+					},
 					{
 						"set_1": {
 							"id": "archaic_petra",
@@ -281,14 +320,7 @@
 							"id": "noblesse_oblige",
 							"name": "Ritual Antiguo de la Nobleza"
 						},
-						"order": 1
-					},
-					{
-						"set_1": {
-							"id": "noblesse_oblige",
-							"name": "Ritual Antiguo de la Nobleza"
-						},
-						"order": 1
+						"order": 4
 					}
 				],
 				"stats_priority": [
@@ -570,7 +602,177 @@
 				"c": 0,
 				"tier": 4
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "explosive_idoll",
+				"name": "Explosive I-Doll",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Alas Celestiales",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Último Acorde",
+						"order": 2,
+						"id": "the_stringless"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Tirachinas",
+						"order": 4,
+						"id": "slingshot"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Pyro",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			},
+			{
+				"id": "wildfire",
+				"name": "Wildfire",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Arco de Amos",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Arco Esmeralda de la Cazadora",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Mensajero",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "Orquesta del Errante"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Pyro",
+						"ATQ%"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "barbara",
@@ -819,7 +1021,157 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "blessed_magical_girl",
+				"name": "Blessed Magical Girl",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Cuentos de Cazadores de Dragones",
+						"order": 1,
+						"id": "thrilling_tales_of_dragon_slayers"
+					},
+					{
+						"name": "Prototipo Malicia",
+						"order": 2,
+						"id": "prototype_amber"
+					},
+					{
+						"name": "Sinfonía de los Merodeadores",
+						"order": 3,
+						"id": "the_widsith"
+					},
+					{
+						"name": "Códice de Favonius",
+						"order": 4,
+						"id": "favonius_codex"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "scholar",
+							"name": "Erudita"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "Legado"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Doncella Amada"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Vida%",
+					"ATQ",
+					"Recarga de Energía%",
+					"Prob. CRIT"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"Vida%",
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Vida%"
+					],
+					"circlet": [
+						"Bonificación de Curación",
+						"Vida%"
+					]
+				}
+			},
+			{
+				"id": "magikarp_idol",
+				"name": "Magikarp Idol",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Oración Perdida a los Vientos Sagrados",
+						"order": 1,
+						"id": "lost_prayer_to_the_sacred_winds"
+					},
+					{
+						"name": "Sinfonía de los Merodeadores",
+						"order": 2,
+						"id": "the_widsith"
+					},
+					{
+						"name": "Ojo de la Perspicacia",
+						"order": 3,
+						"id": "eye_of_perception"
+					},
+					{
+						"name": "Frío Eterno",
+						"order": 4,
+						"id": "frostbearer"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "heart_of_depth",
+							"name": "Corazón de las Profundidades"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "Corazón de las Profundidades"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Hydro"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "beidou",
@@ -1072,7 +1424,179 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "conqueror_of_the_sea",
+				"name": "Conqueror of the Sea",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Lápida del Lobo",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Médula de la Serpiente Marina",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototipo Aminus",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Segadora de la Lluvia",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Recarga de Energía%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Físico",
+						"ATQ%"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			},
+			{
+				"id": "full_counter",
+				"name": "Full Counter",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Lápida del Lobo",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Médula de la Serpiente Marina",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototipo Aminus",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Segadora de la Lluvia",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "Orquesta del Errante"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Electro",
+						"ATQ%"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "bennett",
@@ -1326,7 +1850,169 @@
 				"c": 1,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "best_friend_forever",
+				"name": "Best Friend Forever",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Deseo Ponzoñoso",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Hoja Afilada Celestial",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Espada de Favonius",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "Rugido del León",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Doncella Amada"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Vida",
+					"Recarga de Energía%",
+					"Prob. CRIT",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Vida%"
+					],
+					"circlet": [
+						"Bonificación de Curación",
+						"Vida%"
+					]
+				}
+			},
+			{
+				"id": "burning_pasion",
+				"name": "Burning Passion",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Deseo Ponzoñoso",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Hoja Afilada Celestial",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Espada de Favonius",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "Rugido del León",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Jugadora"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"Recarga de Energía%",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%",
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Bono de Daño Pyro"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "chongyun",
@@ -1583,7 +2269,160 @@
 				"c": 2,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "ice_maker",
+				"name": "Ice Maker",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Lápida del Lobo",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Prototipo Aminus",
+						"order": 2,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "Médula de la Serpiente Marina",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Garrote del Debate",
+						"order": 4,
+						"id": "debate_club"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "Nómada del Invierno"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Cryo"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			},
+			{
+				"id": "sub_zero_king",
+				"name": "Sub Zero King",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Arco de Amos",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Arco Esmeralda de la Cazadora",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Mensajero",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "Nómada del Invierno"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Cryo"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diluc",
@@ -1833,7 +2672,89 @@
 				"c": 0,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "rising_phoenix",
+				"name": "Rising Phoenix",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Lápida del Lobo",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "Orgullo Celestial",
+						"order": 2,
+						"id": "skyward_pride"
+					},
+					{
+						"name": "Médula de la Serpiente Marina",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "Prototipo Aminus",
+						"order": 4,
+						"id": "prototype_archaic"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Pyro"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diona",
@@ -2081,7 +3002,171 @@
 				"c": 1,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "cutest_bartender",
+				"name": "Cutest Bartender",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Arco del Sacrificio",
+						"order": 1,
+						"id": "sacrificial_bow"
+					},
+					{
+						"name": "Arco de Favonius",
+						"order": 2,
+						"id": "favonius_warbow"
+					},
+					{
+						"name": "Alas Celestiales",
+						"order": 3,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Arco Esmeralda de la Cazadora",
+						"order": 4,
+						"id": "the_viridescent_hunt"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "Legado"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Doncella Amada"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Recarga de Energía%",
+					"Vida%",
+					"ATQ%",
+					"Prob. CRIT"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"Recarga de Energía%"
+					],
+					"goblet": [
+						"Vida%",
+						"Bono de Daño Cryo"
+					],
+					"circlet": [
+						"Vida%",
+						"Bonificación de Curación"
+					]
+				}
+			},
+			{
+				"id": "frozen_queen",
+				"name": "Frozen Queen",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Arco de Amos",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Arco Esmeralda de la Cazadora",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "Mensajero",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "Instructor"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Recarga de Energía%",
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Cryo"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "fischl",
@@ -2333,7 +3418,172 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "kaiser_und_kaiserin",
+				"name": "Kaiser Und Kaiserin",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Alas Celestiales",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Arco de Amos",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Herrumbre",
+						"order": 3,
+						"id": "rust"
+					},
+					{
+						"name": "Arco Compuesto",
+						"order": 4,
+						"id": "compound_bow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Domador de Truenos"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Electro"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			},
+			{
+				"id": "wizard_of_oz",
+				"name": "Wizard of OZ",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "Alas Celestiales",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "Arco de Amos",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "Último Acorde",
+						"order": 3,
+						"id": "the_stringless"
+					},
+					{
+						"name": "Arco de Favonius",
+						"order": 4,
+						"id": "favonius_warbow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "Jugadora"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Domador de Truenos"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"Maestría Elemental",
+					"Recarga de Energía%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Electro"
+					],
+					"circlet": [
+						"Daño CRIT",
+						"Prob. CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "ganyu",
@@ -2602,6 +3852,16 @@
 						"name": "Arco del Sacrificio",
 						"order": 2,
 						"id": "sacrificial_bow"
+					},
+					{
+						"name": "Arco Esmeralda de la Cazadora",
+						"order": 3,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -2682,6 +3942,11 @@
 						"name": "Último Acorde",
 						"order": 3,
 						"id": "the_stringless"
+					},
+					{
+						"name": "Prototipo Luz de Luna",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -2996,7 +4261,185 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "grand_master",
+				"name": "Grand Master",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Hoja Afilada Celestial",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Flauta",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "Espada de Favonius",
+						"order": 4,
+						"id": "favonius_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Sombra Verde Esmeralda"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Sombra Verde Esmeralda"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "Doncella Amada"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"ATQ%",
+					"Recarga de Energía%",
+					"Maestría Elemental",
+					"Prob. CRIT",
+					"Daño CRIT"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Anemo",
+						"ATQ%"
+					],
+					"circlet": [
+						"ATQ%",
+						"Maestría Elemental"
+					]
+				}
+			},
+			{
+				"id": "dandelion_knight",
+				"name": "Dandelion Knight",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Hoja Afilada Celestial",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "Flauta",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "Espada Negra",
+						"order": 4,
+						"id": "the_black_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "Sombra Verde Esmeralda"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Recarga de Energía%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Anemo"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "kaeya",
@@ -3254,7 +4697,7 @@
 				"id": "cavalry_captain",
 				"name": "Cavalry Captain",
 				"description": "",
-				"role": "Support",
+				"role": "Sub DPS",
 				"weapons": [
 					{
 						"name": "Hoja Afilada Celestial",
@@ -3265,6 +4708,16 @@
 						"name": "Espada del Alba",
 						"order": 2,
 						"id": "harbinger_of_dawn"
+					},
+					{
+						"name": "Deseo Ponzoñoso",
+						"order": 3,
+						"id": "festering_desire"
+					},
+					{
+						"name": "Espada de Sacrificio",
+						"order": 4,
+						"id": "sacrificial_sword"
 					}
 				],
 				"sets": [
@@ -3285,6 +4738,17 @@
 							"name": "Ritual Antiguo de la Nobleza"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "Nómada del Invierno"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3329,6 +4793,16 @@
 						"name": "Espada Negra",
 						"order": 2,
 						"id": "the_black_sword"
+					},
+					{
+						"name": "Flauta",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "Prototipo Rencor",
+						"order": 4,
+						"id": "prototype_rancour"
 					}
 				],
 				"sets": [
@@ -3349,6 +4823,17 @@
 							"name": "Final del Gladiador"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "Nómada del Invierno"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3627,7 +5112,165 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "electro_queen",
+				"name": "Electro Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Espada Negra",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "Rugido del León",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "Flauta",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Domador de Truenos"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "Furia del Trueno"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"Maestría Elemental"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Electro"
+					],
+					"circlet": [
+						"Daño CRIT"
+					]
+				}
+			},
+			{
+				"id": "physical_queen",
+				"name": "Physical Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Aquila Favonia",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "Espada Negra",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "Rugido del León",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "Flauta",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "Final del Gladiador"
+						},
+						"set_2": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "Domador de Truenos"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "Caballería Sanguinaria"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"ATQ%",
+					"ATQ"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"ATQ%"
+					],
+					"goblet": [
+						"Bono de Daño Físico"
+					],
+					"circlet": [
+						"Daño CRIT"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "klee",

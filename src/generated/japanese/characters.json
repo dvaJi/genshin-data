@@ -261,17 +261,56 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "天空の刃",
+						"name": "黎明の神剣",
 						"order": 1,
-						"id": "skyward_blade"
+						"id": "harbinger_of_dawn"
 					},
 					{
 						"name": "腐植の剣",
 						"order": 2,
 						"id": "festering_desire"
+					},
+					{
+						"name": "風鷹剣",
+						"order": 3,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "黒剣",
+						"order": 4,
+						"id": "the_black_sword"
 					}
 				],
 				"sets": [
+					{
+						"set_1": {
+							"id": "defenders_will",
+							"name": "守護の心"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "悠久の磐岩"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "archaic_petra",
+							"name": "悠久の磐岩"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "博徒"
+						},
+						"set_2": {
+							"id": "archaic_petra",
+							"name": "悠久の磐岩"
+						},
+						"order": 3
+					},
 					{
 						"set_1": {
 							"id": "archaic_petra",
@@ -281,14 +320,7 @@
 							"id": "noblesse_oblige",
 							"name": "旧貴族のしつけ"
 						},
-						"order": 1
-					},
-					{
-						"set_1": {
-							"id": "noblesse_oblige",
-							"name": "旧貴族のしつけ"
-						},
-						"order": 1
+						"order": 4
 					}
 				],
 				"stats_priority": [
@@ -571,7 +603,177 @@
 				"c": 0,
 				"tier": 4
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "explosive_idoll",
+				"name": "Explosive I-Doll",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "天空の翼",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "絶弦",
+						"order": 2,
+						"id": "the_stringless"
+					},
+					{
+						"name": "澹月試作",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "弾弓",
+						"order": 4,
+						"id": "slingshot"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"炎元素ダメージ",
+						"攻撃力%"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			},
+			{
+				"id": "wildfire",
+				"name": "Wildfire",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "アモスの弓",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "蒼翠の狩猟弓",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "澹月試作",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "文使い",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "大地を流浪する楽団"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"炎元素ダメージ",
+						"攻撃力%"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "barbara",
@@ -820,7 +1022,157 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "blessed_magical_girl",
+				"name": "Blessed Magical Girl",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "龍殺しの英傑譚",
+						"order": 1,
+						"id": "thrilling_tales_of_dragon_slayers"
+					},
+					{
+						"name": "金珀試作",
+						"order": 2,
+						"id": "prototype_amber"
+					},
+					{
+						"name": "流浪楽章",
+						"order": 3,
+						"id": "the_widsith"
+					},
+					{
+						"name": "西風秘典",
+						"order": 4,
+						"id": "favonius_codex"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "scholar",
+							"name": "学者"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "亡命者"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "愛される少女"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"HP%",
+					"攻撃力",
+					"元素チャージ効率%",
+					"会心率"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"HP%",
+						"元素チャージ効率%"
+					],
+					"goblet": [
+						"HP%"
+					],
+					"circlet": [
+						"治癒効果バフ%",
+						"HP%"
+					]
+				}
+			},
+			{
+				"id": "magikarp_idol",
+				"name": "Magikarp Idol",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "四風原典",
+						"order": 1,
+						"id": "lost_prayer_to_the_sacred_winds"
+					},
+					{
+						"name": "流浪楽章",
+						"order": 2,
+						"id": "the_widsith"
+					},
+					{
+						"name": "昭心",
+						"order": 3,
+						"id": "eye_of_perception"
+					},
+					{
+						"name": "冬忍びの実",
+						"order": 4,
+						"id": "frostbearer"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "heart_of_depth",
+							"name": "沈淪の心"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "沈淪の心"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"水元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "beidou",
@@ -1073,7 +1425,179 @@
 				"c": 0,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "conqueror_of_the_sea",
+				"name": "Conqueror of the Sea",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "狼の末路",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "螭龍の剣",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "古華試作",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "雨裁",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素チャージ効率%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"物理ダメージ",
+						"攻撃力%"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			},
+			{
+				"id": "full_counter",
+				"name": "Full Counter",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "狼の末路",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "螭龍の剣",
+						"order": 2,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "古華試作",
+						"order": 3,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "雨裁",
+						"order": 4,
+						"id": "rainslasher"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "wanderers_troupe",
+							"name": "大地を流浪する楽団"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知",
+					"元素チャージ効率%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"雷元素ダメージ",
+						"攻撃力%"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "bennett",
@@ -1326,7 +1850,169 @@
 				"c": 1,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "best_friend_forever",
+				"name": "Best Friend Forever",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "腐植の剣",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "天空の刃",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "西風剣",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "匣中龍吟",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "愛される少女"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "教官"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"HP",
+					"元素チャージ効率%",
+					"会心率",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"元素チャージ効率%"
+					],
+					"goblet": [
+						"HP%"
+					],
+					"circlet": [
+						"治癒効果バフ%",
+						"HP%"
+					]
+				}
+			},
+			{
+				"id": "burning_pasion",
+				"name": "Burning Passion",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "腐植の剣",
+						"order": 1,
+						"id": "festering_desire"
+					},
+					{
+						"name": "天空の刃",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "西風剣",
+						"order": 3,
+						"id": "favonius_sword"
+					},
+					{
+						"name": "匣中龍吟",
+						"order": 4,
+						"id": "lions_roar"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "博徒"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"元素チャージ効率%",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%",
+						"元素チャージ効率%"
+					],
+					"goblet": [
+						"炎元素ダメージ"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "chongyun",
@@ -1583,7 +2269,160 @@
 				"c": 2,
 				"tier": 2
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "ice_maker",
+				"name": "Ice Maker",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "狼の末路",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "古華試作",
+						"order": 2,
+						"id": "prototype_archaic"
+					},
+					{
+						"name": "螭龍の剣",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "理屈責め",
+						"order": 4,
+						"id": "debate_club"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
+						},
+						"order": 2
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"氷元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			},
+			{
+				"id": "sub_zero_king",
+				"name": "Sub Zero King",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "アモスの弓",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "蒼翠の狩猟弓",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "澹月試作",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "文使い",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "教官"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"氷元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diluc",
@@ -1834,7 +2673,89 @@
 				"c": 0,
 				"tier": 0
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "rising_phoenix",
+				"name": "Rising Phoenix",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "狼の末路",
+						"order": 1,
+						"id": "wolfs_gravestone"
+					},
+					{
+						"name": "天空の傲",
+						"order": 2,
+						"id": "skyward_pride"
+					},
+					{
+						"name": "螭龍の剣",
+						"order": 3,
+						"id": "serpent_spine"
+					},
+					{
+						"name": "古華試作",
+						"order": 4,
+						"id": "prototype_archaic"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知",
+					"元素チャージ効率%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"炎元素ダメージ"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "diona",
@@ -2083,7 +3004,171 @@
 				"c": 1,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "cutest_bartender",
+				"name": "Cutest Bartender",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "祭礼の弓",
+						"order": 1,
+						"id": "sacrificial_bow"
+					},
+					{
+						"name": "西風猟弓",
+						"order": 2,
+						"id": "favonius_warbow"
+					},
+					{
+						"name": "天空の翼",
+						"order": 3,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "蒼翠の狩猟弓",
+						"order": 4,
+						"id": "the_viridescent_hunt"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "教官"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "the_exile",
+							"name": "亡命者"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "愛される少女"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"元素チャージ効率%",
+					"HP%",
+					"攻撃力%",
+					"会心率"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"元素チャージ効率%"
+					],
+					"goblet": [
+						"HP%",
+						"氷元素ダメージ"
+					],
+					"circlet": [
+						"HP%",
+						"治癒効果バフ%"
+					]
+				}
+			},
+			{
+				"id": "frozen_queen",
+				"name": "Frozen Queen",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "アモスの弓",
+						"order": 1,
+						"id": "amos_bow"
+					},
+					{
+						"name": "蒼翠の狩猟弓",
+						"order": 2,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "澹月試作",
+						"order": 3,
+						"id": "prototype_crescent"
+					},
+					{
+						"name": "文使い",
+						"order": 4,
+						"id": "messenger"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "instructor",
+							"name": "教官"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"元素チャージ効率%",
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"氷元素ダメージ"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "fischl",
@@ -2337,7 +3422,172 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "kaiser_und_kaiserin",
+				"name": "Kaiser Und Kaiserin",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "天空の翼",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "アモスの弓",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "弓蔵",
+						"order": 3,
+						"id": "rust"
+					},
+					{
+						"name": "リングボウ",
+						"order": 4,
+						"id": "compound_bow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "雷を鎮める尊者"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知",
+					"元素チャージ効率%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"雷元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			},
+			{
+				"id": "wizard_of_oz",
+				"name": "Wizard of OZ",
+				"description": "",
+				"role": "Sub DPS",
+				"weapons": [
+					{
+						"name": "天空の翼",
+						"order": 1,
+						"id": "skyward_harp"
+					},
+					{
+						"name": "アモスの弓",
+						"order": 2,
+						"id": "amos_bow"
+					},
+					{
+						"name": "絶弦",
+						"order": 3,
+						"id": "the_stringless"
+					},
+					{
+						"name": "西風猟弓",
+						"order": 4,
+						"id": "favonius_warbow"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gambler",
+							"name": "博徒"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "雷を鎮める尊者"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"元素熟知",
+					"元素チャージ効率%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"雷元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ",
+						"会心率"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "ganyu",
@@ -2570,6 +3820,16 @@
 						"name": "祭礼の弓",
 						"order": 2,
 						"id": "sacrificial_bow"
+					},
+					{
+						"name": "蒼翠の狩猟弓",
+						"order": 3,
+						"id": "the_viridescent_hunt"
+					},
+					{
+						"name": "澹月試作",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -2650,6 +3910,11 @@
 						"name": "絶弦",
 						"order": 3,
 						"id": "the_stringless"
+					},
+					{
+						"name": "澹月試作",
+						"order": 4,
+						"id": "prototype_crescent"
 					}
 				],
 				"sets": [
@@ -2964,7 +4229,185 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "grand_master",
+				"name": "Grand Master",
+				"description": "",
+				"role": "Support",
+				"weapons": [
+					{
+						"name": "風鷹剣",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "天空の刃",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "笛の剣",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "西風剣",
+						"order": 4,
+						"id": "favonius_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "翠緑の影"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "翠緑の影"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"order": 3
+					},
+					{
+						"set_1": {
+							"id": "maiden_beloved",
+							"name": "愛される少女"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"攻撃力%",
+					"元素チャージ効率%",
+					"元素熟知",
+					"会心率",
+					"会心ダメージ"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"風元素ダメージ",
+						"攻撃力%"
+					],
+					"circlet": [
+						"攻撃力%",
+						"元素熟知"
+					]
+				}
+			},
+			{
+				"id": "dandelion_knight",
+				"name": "Dandelion Knight",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "風鷹剣",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "天空の刃",
+						"order": 2,
+						"id": "skyward_blade"
+					},
+					{
+						"name": "笛の剣",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "黒剣",
+						"order": 4,
+						"id": "the_black_sword"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "viridescent_venerer",
+							"name": "翠緑の影"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素チャージ効率%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"風元素ダメージ"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "kaeya",
@@ -3224,7 +4667,7 @@
 				"id": "cavalry_captain",
 				"name": "Cavalry Captain",
 				"description": "",
-				"role": "Support",
+				"role": "Sub DPS",
 				"weapons": [
 					{
 						"name": "天空の刃",
@@ -3235,6 +4678,16 @@
 						"name": "黎明の神剣",
 						"order": 2,
 						"id": "harbinger_of_dawn"
+					},
+					{
+						"name": "腐植の剣",
+						"order": 3,
+						"id": "festering_desire"
+					},
+					{
+						"name": "祭礼の剣",
+						"order": 4,
+						"id": "sacrificial_sword"
 					}
 				],
 				"sets": [
@@ -3255,6 +4708,17 @@
 							"name": "旧貴族のしつけ"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3299,6 +4763,16 @@
 						"name": "黒剣",
 						"order": 2,
 						"id": "the_black_sword"
+					},
+					{
+						"name": "笛の剣",
+						"order": 3,
+						"id": "the_flute"
+					},
+					{
+						"name": "斬岩試作",
+						"order": 4,
+						"id": "prototype_rancour"
 					}
 				],
 				"sets": [
@@ -3319,6 +4793,17 @@
 							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "blizzard_strayer",
+							"name": "氷風を彷徨う勇士"
+						},
+						"set_2": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"order": 3
 					}
 				],
 				"stats_priority": [
@@ -3597,7 +5082,165 @@
 				"c": 0,
 				"tier": 1
 			}
-		}
+		},
+		"builds": [
+			{
+				"id": "electro_queen",
+				"name": "Electro Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "風鷹剣",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "黒剣",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "匣中龍吟",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "笛の剣",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "雷を鎮める尊者"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "thundering_fury",
+							"name": "雷のような怒り"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"元素熟知"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"雷元素ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ"
+					]
+				}
+			},
+			{
+				"id": "physical_queen",
+				"name": "Physical Queen",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "風鷹剣",
+						"order": 1,
+						"id": "aquila_favonia"
+					},
+					{
+						"name": "黒剣",
+						"order": 2,
+						"id": "the_black_sword"
+					},
+					{
+						"name": "匣中龍吟",
+						"order": 3,
+						"id": "lions_roar"
+					},
+					{
+						"name": "笛の剣",
+						"order": 4,
+						"id": "the_flute"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "gladiators_finale",
+							"name": "剣闘士のフィナーレ"
+						},
+						"set_2": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "thundersoother",
+							"name": "雷を鎮める尊者"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "bloodstained_chivalry",
+							"name": "血染めの騎士道"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"攻撃力%",
+					"攻撃力"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"攻撃力%"
+					],
+					"goblet": [
+						"物理ダメージ"
+					],
+					"circlet": [
+						"会心ダメージ"
+					]
+				}
+			}
+		]
 	},
 	{
 		"id": "klee",

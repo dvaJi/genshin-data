@@ -4,5 +4,60 @@
       "c": 0,
       "tier": 2
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "blessed_magical_girl",
+      "name": "Blessed Magical Girl",
+      "description": "",
+      "role": "Support",
+      "weapons": [
+        { "name": "Thrilling Tales of Dragon Slayers", "order": 1 },
+        { "name": "Prototype Amber", "order": 2 },
+        { "name": "The Widsith", "order": 3 },
+        { "name": "Favonius Codex", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Scholar" }, "order": 1 },
+        { "set_1": { "name": "The Exile" }, "order": 2 },
+        { "set_1": { "name": "Maiden Beloved" }, "order": 3 }
+      ],
+      "stats_priority": ["HP%", "ATK", "Energy Recharge%", "CRIT Rate"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["HP%", "Energy Recharge%"],
+        "goblet": ["HP%"],
+        "circlet": ["Healing Bonus%", "HP%"]
+      }
+    },
+    {
+      "id": "magikarp_idol",
+      "name": "Magikarp Idol",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Lost Prayer to the Sacred Winds", "order": 1 },
+        { "name": "The Widsith", "order": 2 },
+        { "name": "Eye of Perception", "order": 3 },
+        { "name": "Frostbearer", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Heart of Depth" }, "order": 1 },
+        {
+          "set_1": { "name": "Gladiator's Finale" },
+          "set_2": { "name": "Heart of Depth" },
+          "order": 2
+        }
+      ],
+      "stats_priority": ["CRIT Rate", "CRIT DMG", "ATK%", "Elemental Mastery"],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Hydro DMG"],
+        "circlet": ["CRIT DMG", "CRIT Rate"]
+      }
+    }
+  ]
 }

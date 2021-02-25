@@ -14,10 +14,12 @@
       "id": "cavalry_captain",
       "name": "Cavalry Captain",
       "description": "",
-      "role": "Support",
+      "role": "Sub DPS",
       "weapons": [
         { "name": "Skyward Blade", "order": 1 },
-        { "name": "Harbinger of Dawn", "order": 2 }
+        { "name": "Harbinger of Dawn", "order": 2 },
+        { "name": "Festering Desire", "order": 3 },
+        { "name": "Sacrificial Sword", "order": 4 }
       ],
       "sets": [
         {
@@ -25,7 +27,12 @@
           "set_2": { "name": "Noblesse Oblige" },
           "order": 1
         },
-        { "set_1": { "name": "Noblesse Oblige" }, "order": 2 }
+        { "set_1": { "name": "Noblesse Oblige" }, "order": 2 },
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
       ],
       "stats_priority": ["CRIT RATE", "CRIT DMG", "ATK%", "ENERGY", "MASTERY"],
       "stats": {
@@ -43,7 +50,9 @@
       "role": "Main DPS",
       "weapons": [
         { "name": "Aquila Favonia", "order": 1 },
-        { "name": "The Black Sword", "order": 2 }
+        { "name": "The Black Sword", "order": 2 },
+        { "name": "The Flute", "order": 3 },
+        { "name": "Prototype Rancour", "order": 4 }
       ],
       "sets": [
         {
@@ -54,9 +63,20 @@
           "set_1": { "name": "Bloodstained Chivalry" },
           "set_2": { "name": "Gladiator's Finale" },
           "order": 2
+        },
+        {
+          "set_1": { "name": "Blizzard Strayer" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
         }
       ],
-      "stats_priority": ["CRIT DMG", "ATK%", "Elemental Mastery", "Energy Recharge%", "CRIT Rate"],
+      "stats_priority": [
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery",
+        "Energy Recharge%",
+        "CRIT Rate"
+      ],
       "stats": {
         "flower": ["HP"],
         "plume": ["ATK"],
