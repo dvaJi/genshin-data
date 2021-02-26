@@ -8,5 +8,47 @@
       "c": 2,
       "tier": 1
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "god_of_support",
+      "name": "Gof of Support",
+      "description": "",
+      "role": "Support",
+      "weapons": [
+        { "name": "Sacrificial Sword", "order": 1 },
+        { "name": "Skyward Blade", "order": 2 },
+        { "name": "Favonius Sword", "order": 3 },
+        { "name": "Harbinger of Dawn", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Noblesse Oblige" }, "order": 1 },
+        { "set_1": { "name": "Instructor" }, "order": 2 },
+        {
+          "set_1": { "name": "Noblesse Oblige" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "The Exile" },
+          "set_2": { "name": "Scholar" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "Energy Recharge%",
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Elemental Mastery"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["Energy Recharge%"],
+        "goblet": ["Hydro DMG"],
+        "circlet": ["CRIT DMG"]
+      }
+    }
+  ]
 }

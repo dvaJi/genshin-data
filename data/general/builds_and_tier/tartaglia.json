@@ -8,5 +8,85 @@
       "c": 0,
       "tier": 1
     }
-  }
+  },
+  "builds": [
+    {
+      "id": "the_harbinger",
+      "name": "The Harbinger",
+      "description": "",
+      "role": "Sub DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "Rust", "order": 2 },
+        { "name": "Amos' Bow", "order": 3 },
+        { "name": "The Viridescent Hunt", "order": 4 }
+      ],
+      "sets": [
+        {
+          "set_1": { "name": "Heart of Depth" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 1
+        },
+        { "set_1": { "name": "Heart of Depth" }, "order": 2 },
+        {
+          "set_1": { "name": "Heart of Depth" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge%",
+        "Elemental Mastery"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["Elemental Mastery"],
+        "goblet": ["Hydro DMG"],
+        "circlet": ["CRIT Rate", "CRIT DMG"]
+      }
+    },
+    {
+      "id": "the_way_of_the_whale",
+      "name": "The Way of the Whale",
+      "description": "",
+      "role": "Main DPS",
+      "weapons": [
+        { "name": "Skyward Harp", "order": 1 },
+        { "name": "Rust", "order": 2 },
+        { "name": "Amos' Bow", "order": 3 },
+        { "name": "The Viridescent Hunt", "order": 4 }
+      ],
+      "sets": [
+        { "set_1": { "name": "Heart of Depth" }, "order": 1 },
+        {
+          "set_1": { "name": "Heart of Depth" },
+          "set_2": { "name": "Noblesse Oblige" },
+          "order": 2
+        },
+        {
+          "set_1": { "name": "Heart of Depth" },
+          "set_2": { "name": "Gladiator's Finale" },
+          "order": 3
+        }
+      ],
+      "stats_priority": [
+        "CRIT Rate",
+        "CRIT DMG",
+        "ATK%",
+        "Energy Recharge%",
+        "Elemental Mastery"
+      ],
+      "stats": {
+        "flower": ["HP"],
+        "plume": ["ATK"],
+        "sands": ["ATK%"],
+        "goblet": ["Hydro DMG"],
+        "circlet": ["CRIT Rate", "CRIT DMG"]
+      }
+    }
+  ]
 }
