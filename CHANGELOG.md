@@ -1,3 +1,25 @@
+## [0.4.0](https://github.com/dvaJi/genshin-data/compare/0.3.0...0.4.0) (2021-02-27)
+
+
+### Features
+
+* implement query argument for characters, materials, artifacts and weapons, it will accept 'select' property to return only the specified props ([a914452](https://github.com/dvaJi/genshin-data/commit/a91445203544d1fac37d1c11c8622d1f9f5d3274))
+
+* implement rollup-plugin-dynamic-import-variables to support variables in dynamic imports ([02682b9](https://github.com/dvaJi/genshin-data/commit/02682b944986bc5d70750cda2a36c43180f8aae6))
+
+* **characters:** added builds for albedo, amber, barbara, beidou, bennet, chongyun, diluc, diona, fischl, ganyu, jean, kaeya and keqing ([6afcdc3](https://github.com/dvaJi/genshin-data/commit/6afcdc3eb7bc88bc9c5accb498ebfa3bae130dd9))
+
+* **characters:** add builds for klee, lisa, mona, ningguang, noelle, qiqi, razor, sucrose, tartaglia, venti, xiangling, xiao, xingqiu, xinyan and zhongli ([0ad5f75](https://github.com/dvaJi/genshin-data/commit/0ad5f75ea4f081058dafce2560362744412a16a3))
+
+* **weapons:** update all weapons to v1.3 (added: staff of homa) ([7067dd7](https://github.com/dvaJi/genshin-data/commit/7067dd7b63c0cfba9a6a5e9adeced6f10bc49ae8))
+
+
+### Fixes
+
+* resolve 'Cannot read property 'options' of undefined' error ([7444934](https://github.com/dvaJi/genshin-data/commit/74449342eb6c39d8969eba76d21c04c86a3dfc63))
+
+
+
 ## [0.3.0](https://github.com/dvaJi/genshin-data/compare/0.2.1...0.3.0) (2021-02-13)
 
 
