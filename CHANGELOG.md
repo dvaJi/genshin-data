@@ -1,3 +1,22 @@
+## [0.5.0](https://github.com/dvaJi/genshin-data/compare/0.4.0...0.5.0) (2021-03-04)
+
+
+### Features
+
+* update to v1.3 part 2 (Hu Tao) ([e20d3a6](https://github.com/dvaJi/genshin-data/commit/e20d3a6d648c898478b2e328e01c3f019e938007))
+
+* **builds** add Hu Tao build ([261c187](https://github.com/dvaJi/genshin-data/commit/261c1873ef35dc059826c431187042162bbe4110))
+
+
+### Fixes
+
+* **builds** fix weapons for chongyun and update xingqiu build ([f310135](https://github.com/dvaJi/genshin-data/commit/f31013541bff9973ab355b2092c8f66efc6fe469))
+
+### Japanese
+
+* **characters** remove useless text on all constellations name ([9313850](https://github.com/dvaJi/genshin-data/commit/931385070c839ddd5853c5703803e9d3ee917121))
+
+
 ## [0.4.0](https://github.com/dvaJi/genshin-data/compare/0.3.0...0.4.0) (2021-02-27)
 
 
