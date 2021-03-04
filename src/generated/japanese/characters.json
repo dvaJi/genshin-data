@@ -2350,24 +2350,24 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "アモスの弓",
+						"name": "狼の末路",
 						"order": 1,
-						"id": "amos_bow"
+						"id": "wolfs_gravestone"
 					},
 					{
-						"name": "蒼翠の狩猟弓",
+						"name": "古華試作",
 						"order": 2,
-						"id": "the_viridescent_hunt"
+						"id": "prototype_archaic"
 					},
 					{
-						"name": "澹月試作",
+						"name": "螭龍の剣",
 						"order": 3,
-						"id": "prototype_crescent"
+						"id": "serpent_spine"
 					},
 					{
-						"name": "文使い",
+						"name": "理屈責め",
 						"order": 4,
-						"id": "messenger"
+						"id": "debate_club"
 					}
 				],
 				"sets": [
@@ -4254,6 +4254,93 @@
 					"id": "energy_nectar",
 					"name": "原素花の蜜",
 					"amount": 24
+				}
+			}
+		],
+		"tier": {},
+		"builds": [
+			{
+				"id": "director_hu",
+				"name": "Director Hu",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "護摩の杖",
+						"order": 1,
+						"id": "staff_of_homa"
+					},
+					{
+						"name": "和璞鳶",
+						"order": 2,
+						"id": "primordial_jade_wingedspear"
+					},
+					{
+						"name": "匣中滅龍",
+						"order": 3,
+						"id": "dragons_bane"
+					},
+					{
+						"name": "死闘の槍",
+						"order": 4,
+						"id": "deathmatch"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"set_2": {
+							"id": "wanderers_troupe",
+							"name": "大地を流浪する楽団"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "燃え盛る炎の魔女"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"会心率",
+					"会心ダメージ",
+					"HP%",
+					"元素熟知",
+					"攻撃力%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"攻撃力"
+					],
+					"sands": [
+						"HP%"
+					],
+					"goblet": [
+						"炎元素ダメージ"
+					],
+					"circlet": [
+						"会心率",
+						"会心ダメージ"
+					]
 				}
 			}
 		]
@@ -10824,8 +10911,8 @@
 		},
 		"builds": [
 			{
-				"id": "god_of_support",
-				"name": "Gof of Support",
+				"id": "fatal_rainscreen",
+				"name": "Fatal Rainscreen",
 				"description": "",
 				"role": "Support",
 				"weapons": [
@@ -10835,14 +10922,14 @@
 						"id": "sacrificial_sword"
 					},
 					{
-						"name": "天空の刃",
+						"name": "磐岩結緑",
 						"order": 2,
-						"id": "skyward_blade"
+						"id": "primordial_jade_cutter"
 					},
 					{
-						"name": "西風剣",
+						"name": "腐植の剣",
 						"order": 3,
-						"id": "favonius_sword"
+						"id": "festering_desire"
 					},
 					{
 						"name": "黎明の神剣",
@@ -10856,12 +10943,16 @@
 							"id": "noblesse_oblige",
 							"name": "旧貴族のしつけ"
 						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "沈淪の心"
+						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "instructor",
-							"name": "教官"
+							"id": "noblesse_oblige",
+							"name": "旧貴族のしつけ"
 						},
 						"order": 2
 					},
@@ -10875,25 +10966,13 @@
 							"name": "剣闘士のフィナーレ"
 						},
 						"order": 2
-					},
-					{
-						"set_1": {
-							"id": "the_exile",
-							"name": "亡命者"
-						},
-						"set_2": {
-							"id": "scholar",
-							"name": "学者"
-						},
-						"order": 3
 					}
 				],
 				"stats_priority": [
 					"元素チャージ効率%",
 					"会心率",
 					"会心ダメージ",
-					"攻撃力%",
-					"元素熟知"
+					"攻撃力%"
 				],
 				"stats": {
 					"flower": [
@@ -10903,13 +10982,16 @@
 						"攻撃力"
 					],
 					"sands": [
-						"元素チャージ効率%"
+						"元素チャージ効率%",
+						"攻撃力%"
 					],
 					"goblet": [
-						"水元素ダメージ"
+						"水元素ダメージ",
+						"攻撃力%"
 					],
 					"circlet": [
-						"会心ダメージ"
+						"会心ダメージ",
+						"会心率"
 					]
 				}
 			}

@@ -2350,24 +2350,24 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "Arco de Amos",
+						"name": "Lápida del Lobo",
 						"order": 1,
-						"id": "amos_bow"
+						"id": "wolfs_gravestone"
 					},
 					{
-						"name": "Arco Esmeralda de la Cazadora",
+						"name": "Prototipo Arcaico",
 						"order": 2,
-						"id": "the_viridescent_hunt"
+						"id": "prototype_archaic"
 					},
 					{
-						"name": "Prototipo Luz de Luna",
+						"name": "Médula de la Serpiente Marina",
 						"order": 3,
-						"id": "prototype_crescent"
+						"id": "serpent_spine"
 					},
 					{
-						"name": "Mensajero",
+						"name": "Garrote del Debate",
 						"order": 4,
-						"id": "messenger"
+						"id": "debate_club"
 					}
 				],
 				"sets": [
@@ -4246,6 +4246,93 @@
 					"id": "energy_nectar",
 					"name": "Néctar energético",
 					"amount": 24
+				}
+			}
+		],
+		"tier": {},
+		"builds": [
+			{
+				"id": "director_hu",
+				"name": "Director Hu",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Báculo de Homa",
+						"order": 1,
+						"id": "staff_of_homa"
+					},
+					{
+						"name": "Halcón de Jade",
+						"order": 2,
+						"id": "primordial_jade_wingedspear"
+					},
+					{
+						"name": "Perdición del Dragón",
+						"order": 3,
+						"id": "dragons_bane"
+					},
+					{
+						"name": "Lanza del Duelo",
+						"order": 4,
+						"id": "deathmatch"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"set_2": {
+							"id": "wanderers_troupe",
+							"name": "Orquesta del Errante"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Bruja Carmesí en Llamas"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"Prob. CRIT",
+					"Daño CRIT",
+					"Vida%",
+					"Maestría Elemental",
+					"ATQ%"
+				],
+				"stats": {
+					"flower": [
+						"Vida"
+					],
+					"plume": [
+						"ATQ"
+					],
+					"sands": [
+						"Vida%"
+					],
+					"goblet": [
+						"Bono de Daño Pyro"
+					],
+					"circlet": [
+						"Prob. CRIT",
+						"Daño CRIT"
+					]
 				}
 			}
 		]
@@ -10807,8 +10894,8 @@
 		},
 		"builds": [
 			{
-				"id": "god_of_support",
-				"name": "Gof of Support",
+				"id": "fatal_rainscreen",
+				"name": "Fatal Rainscreen",
 				"description": "",
 				"role": "Support",
 				"weapons": [
@@ -10818,14 +10905,14 @@
 						"id": "sacrificial_sword"
 					},
 					{
-						"name": "Hoja Afilada Celestial",
+						"name": "Cortador de Jade Primordial",
 						"order": 2,
-						"id": "skyward_blade"
+						"id": "primordial_jade_cutter"
 					},
 					{
-						"name": "Espada de Favonius",
+						"name": "Deseo Ponzoñoso",
 						"order": 3,
-						"id": "favonius_sword"
+						"id": "festering_desire"
 					},
 					{
 						"name": "Espada del Alba",
@@ -10839,12 +10926,16 @@
 							"id": "noblesse_oblige",
 							"name": "Ritual Antiguo de la Nobleza"
 						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "Corazón de las Profundidades"
+						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "instructor",
-							"name": "Instructor"
+							"id": "noblesse_oblige",
+							"name": "Ritual Antiguo de la Nobleza"
 						},
 						"order": 2
 					},
@@ -10858,25 +10949,13 @@
 							"name": "Final del Gladiador"
 						},
 						"order": 2
-					},
-					{
-						"set_1": {
-							"id": "the_exile",
-							"name": "Legado"
-						},
-						"set_2": {
-							"id": "scholar",
-							"name": "Erudita"
-						},
-						"order": 3
 					}
 				],
 				"stats_priority": [
 					"Recarga de Energía%",
 					"Prob. CRIT",
 					"Daño CRIT",
-					"ATQ%",
-					"Maestría Elemental"
+					"ATQ%"
 				],
 				"stats": {
 					"flower": [
@@ -10886,13 +10965,16 @@
 						"ATQ"
 					],
 					"sands": [
-						"Recarga de Energía%"
+						"Recarga de Energía%",
+						"ATQ%"
 					],
 					"goblet": [
-						"Bono de Daño Hydro"
+						"Bono de Daño Hydro",
+						"ATQ%"
 					],
 					"circlet": [
-						"Daño CRIT"
+						"Daño CRIT",
+						"Prob. CRIT"
 					]
 				}
 			}

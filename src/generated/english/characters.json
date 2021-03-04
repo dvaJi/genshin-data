@@ -2350,24 +2350,24 @@
 				"role": "Sub DPS",
 				"weapons": [
 					{
-						"name": "Amos' Bow",
+						"name": "Wolf's Gravestone",
 						"order": 1,
-						"id": "amos_bow"
+						"id": "wolfs_gravestone"
 					},
 					{
-						"name": "The Viridescent Hunt",
+						"name": "Prototype Archaic",
 						"order": 2,
-						"id": "the_viridescent_hunt"
+						"id": "prototype_archaic"
 					},
 					{
-						"name": "Prototype Crescent",
+						"name": "Serpent Spine",
 						"order": 3,
-						"id": "prototype_crescent"
+						"id": "serpent_spine"
 					},
 					{
-						"name": "Messenger",
+						"name": "Debate Club",
 						"order": 4,
-						"id": "messenger"
+						"id": "debate_club"
 					}
 				],
 				"sets": [
@@ -4254,6 +4254,93 @@
 					"id": "energy_nectar",
 					"name": "Energy Nectar",
 					"amount": 24
+				}
+			}
+		],
+		"tier": {},
+		"builds": [
+			{
+				"id": "director_hu",
+				"name": "Director Hu",
+				"description": "",
+				"role": "Main DPS",
+				"weapons": [
+					{
+						"name": "Staff of Homa",
+						"order": 1,
+						"id": "staff_of_homa"
+					},
+					{
+						"name": "Primordial Jade Winged-Spear",
+						"order": 2,
+						"id": "primordial_jade_wingedspear"
+					},
+					{
+						"name": "Dragon's Bane",
+						"order": 3,
+						"id": "dragons_bane"
+					},
+					{
+						"name": "Deathmatch",
+						"order": 4,
+						"id": "deathmatch"
+					}
+				],
+				"sets": [
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 1
+					},
+					{
+						"set_1": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"set_2": {
+							"id": "wanderers_troupe",
+							"name": "Wanderer's Troupe"
+						},
+						"order": 2
+					},
+					{
+						"set_1": {
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
+						},
+						"set_2": {
+							"id": "crimson_witch_of_flames",
+							"name": "Crimson Witch of Flames"
+						},
+						"order": 3
+					}
+				],
+				"stats_priority": [
+					"CRIT Rate",
+					"CRIT DMG",
+					"HP%",
+					"Elemental Mastery",
+					"ATK%"
+				],
+				"stats": {
+					"flower": [
+						"HP"
+					],
+					"plume": [
+						"ATK"
+					],
+					"sands": [
+						"HP%"
+					],
+					"goblet": [
+						"Pyro DMG"
+					],
+					"circlet": [
+						"CRIT Rate",
+						"CRIT DMG"
+					]
 				}
 			}
 		]
@@ -10830,8 +10917,8 @@
 		},
 		"builds": [
 			{
-				"id": "god_of_support",
-				"name": "Gof of Support",
+				"id": "fatal_rainscreen",
+				"name": "Fatal Rainscreen",
 				"description": "",
 				"role": "Support",
 				"weapons": [
@@ -10841,14 +10928,14 @@
 						"id": "sacrificial_sword"
 					},
 					{
-						"name": "Skyward Blade",
+						"name": "Primordial Jade Cutter",
 						"order": 2,
-						"id": "skyward_blade"
+						"id": "primordial_jade_cutter"
 					},
 					{
-						"name": "Favonius Sword",
+						"name": "Festering Desire",
 						"order": 3,
-						"id": "favonius_sword"
+						"id": "festering_desire"
 					},
 					{
 						"name": "Harbinger of Dawn",
@@ -10862,12 +10949,16 @@
 							"id": "noblesse_oblige",
 							"name": "Noblesse Oblige"
 						},
+						"set_2": {
+							"id": "heart_of_depth",
+							"name": "Heart of Depth"
+						},
 						"order": 1
 					},
 					{
 						"set_1": {
-							"id": "instructor",
-							"name": "Instructor"
+							"id": "noblesse_oblige",
+							"name": "Noblesse Oblige"
 						},
 						"order": 2
 					},
@@ -10881,25 +10972,13 @@
 							"name": "Gladiator's Finale"
 						},
 						"order": 2
-					},
-					{
-						"set_1": {
-							"id": "the_exile",
-							"name": "The Exile"
-						},
-						"set_2": {
-							"id": "scholar",
-							"name": "Scholar"
-						},
-						"order": 3
 					}
 				],
 				"stats_priority": [
 					"Energy Recharge%",
 					"CRIT Rate",
 					"CRIT DMG",
-					"ATK%",
-					"Elemental Mastery"
+					"ATK%"
 				],
 				"stats": {
 					"flower": [
@@ -10909,13 +10988,16 @@
 						"ATK"
 					],
 					"sands": [
-						"Energy Recharge%"
+						"Energy Recharge%",
+						"ATK%"
 					],
 					"goblet": [
-						"Hydro DMG"
+						"Hydro DMG",
+						"ATK%"
 					],
 					"circlet": [
-						"CRIT DMG"
+						"CRIT DMG",
+						"CRIT Rate"
 					]
 				}
 			}
