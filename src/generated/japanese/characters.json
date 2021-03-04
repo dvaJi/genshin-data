@@ -2445,7 +2445,7 @@
 				"id": "tempered_sword",
 				"name": "百煉の剣",
 				"type": "通常攻撃",
-				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃/td></p><p><b>重撃:</b>継続的にスタミナを消費し、素早く連続斬撃を発動する。重撃が終了した時に、更に強力な攻撃を1回放つ</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
+				"description": "<p><b>通常攻撃:</b>最高4段の連続攻撃</p><p><b>重撃:</b>継続的にスタミナを消費し、素早く連続斬撃を発動する。重撃が終了した時に、更に強力な攻撃を1回放つ</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える</p>",
 				"modifiers": []
 			},
 			{
@@ -3646,7 +3646,44 @@
 				"unlock": ""
 			}
 		],
-		"constellations": [],
+		"constellations": [
+			{
+				"id": "dewdrinker",
+				"name": "飲露",
+				"description": "二段チャージ重撃の霜華の矢または霜華満開が命中した時、敵の氷元素耐性-15%、継続時間6秒。命中時に甘雨の元素エネルギーを2回復。二段チャージの重撃による元素エネルギーの回復効果は、1回の重撃で1度のみ発動可能。",
+				"level": 1
+			},
+			{
+				"id": "the_auspicious",
+				"name": "獲麟",
+				"description": "山沢麟跡の発動可能回数+1",
+				"level": 2
+			},
+			{
+				"id": "cloudstrider",
+				"name": "雲行",
+				"description": "降衆天華のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "westward_sojourn",
+				"name": "西狩",
+				"description": "降衆天華エリア内、敵の受けるダメージが増加する。受けるダメージの増加量は初期が5%、3秒毎に5%上昇し、最大25%まで上昇する。エリアを出た後、継続時間3秒。",
+				"level": 4
+			},
+			{
+				"id": "the_merciful",
+				"name": "折草",
+				"description": "山沢麟跡のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "the_clement",
+				"name": "履虫",
+				"description": "山沢麟跡を発動すると、30秒以内に放つ最初の霜華の矢が、チャージせず発動可能になる。",
+				"level": 6
+			}
+		],
 		"ascension": [
 			{
 				"ascension": 1,
@@ -3973,6 +4010,250 @@
 						"会心ダメージ",
 						"会心率"
 					]
+				}
+			}
+		]
+	},
+	{
+		"id": "hu_tao",
+		"name": "フータオ(胡桃)",
+		"description": "若くして璃月の葬儀を仕切り、責任を持って執り行っている。",
+		"weapon_type": "Polearm",
+		"element": "Pyro",
+		"gender": "Female",
+		"region": "Liyue",
+		"rarity": 5,
+		"location": "Wish",
+		"titles": [
+			"Fragrance in Thaw",
+			"77th-Generation Director of the Wangsheng Funeral Parlor",
+			"Director Hu",
+			"Liyue Harbor's \"Versemonger of the Darkest Alleys\""
+		],
+		"skills": [
+			{
+				"id": "secret_spear_of_wangsheng",
+				"name": "往生秘伝槍法",
+				"type": "通常攻撃",
+				"description": "<p><b>通常攻撃:</b>槍による最大6段の通常攻撃を行なう。</p><p><b>重撃:</b>一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。</p><p><b>落下攻撃:</b>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。</p>",
+				"modifiers": []
+			},
+			{
+				"id": "guide_to_afterlife",
+				"name": "蝶導来世",
+				"type": "元素スキル",
+				"description": "一定のHPを消費して、周囲の敵をノックバックし、冥蝶の舞状態に入る。<br />【冥蝶の舞】<br />・胡桃のHP上限を基準に攻撃力が上昇する。この効果で得られる攻撃力上昇の最大値は、胡蝶の基礎攻撃力の400%まで。<br />・攻撃ダメージは炎元素ダメージとなり、元素付与によって他の元素に変化することはない。<br />・重撃は敵に血梅香効果を与える。<br />・胡桃の中断耐性が上昇する。<br />【血梅香】<br />血梅香状態の敵は、4秒毎に1度、炎元素ダメージを受ける。このダメージは元素スキルダメージとみなされる。<br />同一ターゲットに付与される血梅香効果は同時に最大1つまで。また、血梅香効果の継続時間は胡桃自身にのみリセットされることが可能。<br />冥蝶の舞は継続時間終了時、または胡桃の退場や戦闘不能時に解除される。",
+				"modifiers": []
+			},
+			{
+				"id": "spirit_soother",
+				"name": "安神秘法",
+				"type": "元素爆発",
+				"description": "<p>灼熱の魂を振り回し、広範囲の炎元素ダメージを与える。<br />敵に命中した時、胡桃のHP上限を基準にHPを回復する。この効果は、1体の敵に命中するごとに発動され、最大5体まで効果が発動される。胡桃のHPが50%以下の時、より高いダメージと回復効果を持つ。</p>",
+				"modifiers": []
+			}
+		],
+		"passives": [
+			{
+				"id": "flutter_by",
+				"name": "蝶隠の時",
+				"description": "蝶導来世による冥蝶の舞状態終了時、チーム全員(胡桃自身を除く)の会心率+12%、継続時間8秒。",
+				"unlock": "Ascension 1"
+			},
+			{
+				"id": "sanguine_rouge",
+				"name": "血のかまど",
+				"description": "胡桃のHPが50%以下の時、炎元素ダメージ+33%",
+				"unlock": "Ascension 4"
+			},
+			{
+				"id": "the_more_the_merrier",
+				"name": "多々益善",
+				"description": "料理を完璧調理した時、18%の確率で「微妙な」品質の同一料理を獲得する。"
+			}
+		],
+		"constellations": [
+			{
+				"id": "crimson_bouquet",
+				"name": "朱色の花束",
+				"description": "蝶導来世による冥蝶の舞状態の時、胡桃の重撃はスタミナを消費しない。",
+				"level": 1
+			},
+			{
+				"id": "ominous_rainfall",
+				"name": "晴れのち雨",
+				"description": "血梅香のダメージ量が胡桃のHP上限のHP10%分上昇する。また、安神秘法を命中した敵に血梅香効果を与える。",
+				"level": 2
+			},
+			{
+				"id": "lingering_carmine",
+				"name": "血色の儀",
+				"description": "蝶導来世のスキルLv.3（最大Lv.15まで）。",
+				"level": 3
+			},
+			{
+				"id": "garden_of_eternal_rest",
+				"name": "花室の添い寝",
+				"description": "胡桃自ら与えた血梅香状態の敵が倒されると、周囲のチーム全員（胡桃自身を除く）の会心率+12%、継続時間15秒。",
+				"level": 4
+			},
+			{
+				"id": "floral_incense",
+				"name": "漂う花の香り",
+				"description": "安神秘法のスキルLv.3（最大Lv.15まで）。",
+				"level": 5
+			},
+			{
+				"id": "butterflys_embrace",
+				"name": "冥蝶の抱擁",
+				"description": "胡桃のHPが25%以下、または戦闘不能に至るダメージを受けた時に発動:このダメージで胡桃が戦闘不能になることはない。また、次の10秒間、胡桃の全元素耐性及び物理耐性+200%、会心率+100%、中断耐性大幅アップ。この効果は胡桃のHPが1の時に自動で発動される。60秒毎に1回のみ発動可能。",
+				"level": 6
+			}
+		],
+		"ascension": [
+			{
+				"ascension": 1,
+				"level": 2040,
+				"cost": 20000,
+				"mat1": {
+					"id": "agnidus_agate_sliver",
+					"name": "炎願のアゲート砕屑",
+					"amount": 1
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 3
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 3
+				}
+			},
+			{
+				"ascension": 2,
+				"level": 4050,
+				"cost": 40000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 2
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 10
+				},
+				"mat4": {
+					"id": "whopperflower_nectar",
+					"name": "トリックフラワーの蜜",
+					"amount": 15
+				}
+			},
+			{
+				"ascension": 3,
+				"level": 5060,
+				"cost": 60000,
+				"mat1": {
+					"id": "agnidus_agate_fragment",
+					"name": "炎願のアゲート欠片",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 4
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 20
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": 4,
+				"level": 6070,
+				"cost": 80000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 3
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 8
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 30
+				},
+				"mat4": {
+					"id": "shimmering_nectar",
+					"name": "微光花の蜜",
+					"amount": 18
+				}
+			},
+			{
+				"ascension": 5,
+				"level": 7080,
+				"cost": 100000,
+				"mat1": {
+					"id": "agnidus_agate_chunk",
+					"name": "炎願のアゲート塊",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 12
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 45
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 12
+				}
+			},
+			{
+				"ascension": null,
+				"level": 8090,
+				"cost": 120000,
+				"mat1": {
+					"id": "agnidus_agate_gemstone",
+					"name": "炎願のアゲート",
+					"amount": 6
+				},
+				"mat2": {
+					"id": "juvenile_jade",
+					"name": "未熟の玉石",
+					"amount": 20
+				},
+				"mat3": {
+					"id": "silk_flower",
+					"name": "霓裳花",
+					"amount": 60
+				},
+				"mat4": {
+					"id": "energy_nectar",
+					"name": "原素花の蜜",
+					"amount": 24
 				}
 			}
 		]
@@ -6447,7 +6728,7 @@
 			"Eclipsing Star",
 			"Lady of the Jade Chamber",
 			"Tianquan of the Liyue Qixing",
-			"Tailor of Liyue[1]"
+			"Tailor of Liyue"
 		],
 		"skills": [
 			{
@@ -11069,7 +11350,7 @@
 	{
 		"id": "zhongli",
 		"name": "鍾離(しょうり)",
-		"description": "",
+		"description": "物知りで様々な知識を持っている。",
 		"weapon_type": "Polearm",
 		"element": "Geo",
 		"gender": "Male",
@@ -11122,7 +11403,44 @@
 				"unlock": ""
 			}
 		],
-		"constellations": [],
+		"constellations": [
+			{
+				"id": "rock_the_backbone_of_earth",
+				"name": "岩、天下の骨なり",
+				"description": "地心の岩柱は最大2個同時に存在できる。",
+				"level": 1
+			},
+			{
+				"id": "stone_the_cradle_of_jade",
+				"name": "岩、玉の揺りかご",
+				"description": "天星落下時、近くにいる出場中のキャラクターに玉璋シールドを付与する。",
+				"level": 2
+			},
+			{
+				"id": "jade_shimmering_through_darkness",
+				"name": "圭璋、闇の中で輝く",
+				"description": "地心のスキルLv.+3。最大Lv.15まで。",
+				"level": 3
+			},
+			{
+				"id": "topaz_unbreakable_and_fearless",
+				"name": "黄玉、破れぬ堅さ",
+				"description": "天星の影響範囲が20%拡大する。さらに天星の石化効果の継続時間2秒延長する。",
+				"level": 4
+			},
+			{
+				"id": "lazuli_herald_of_the_order",
+				"name": "璧、天理を守る",
+				"description": "天星のスキルLv.+3。最大Lv.15まで。",
+				"level": 5
+			},
+			{
+				"id": "chrysos_bounty_of_dominator",
+				"name": "金、天地の恵み",
+				"description": "玉璋シールドがダメージを受けた時、そのダメージ量の40%分のHPを回復させる。一回の回復上限はキャラクターのHP上限の8%。",
+				"level": 6
+			}
+		],
 		"ascension": [
 			{
 				"ascension": 1,
