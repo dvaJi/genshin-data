@@ -1,17 +1,10 @@
-type DataMaps = {
-  artifacts: Map<string, unknown>;
-  materials: Map<string, unknown>;
-  weapons: Map<string, unknown>;
-  builds: Map<string, unknown>;
-  common: Map<string, unknown>;
-  characters: Map<string, unknown>;
-};
+const keyv = require('keyv');
 
-type MapsKeys = keyof DataMaps;
+const dataCache = new keyv();
 
 class DataStore {
-  originalData: DataMaps;
-  currentData: DataMaps;
+  originalData;
+  currentData;
 
   constructor() {
     this.originalData = {
@@ -33,7 +26,7 @@ class DataStore {
     };
   }
 
-  setCurrentData(data: Map<string, unknown>, map: MapsKeys, lang: string) {
+  setCurrentData(data, map, lang) {
     if (lang === 'english') {
       this.originalData[map] = data;
     }
@@ -42,47 +35,47 @@ class DataStore {
     this.currentData[map] = data;
   }
 
-  getArtifact(id: string) {
+  getArtifact(id) {
     return this.getValueFromMap('artifacts', id);
   }
 
-  hasArtifact(id: string) {
+  hasArtifact(id) {
     return this.hasValue('artifacts', id);
   }
 
-  getMaterial(id: string) {
+  getMaterial(id) {
     return this.getValueFromMap('materials', id);
   }
 
-  hasMaterial(id: string) {
+  hasMaterial(id) {
     return this.hasValue('materials', id);
   }
 
-  getWeapon(id: string) {
+  getWeapon(id) {
     return this.getValueFromMap('weapons', id);
   }
 
-  hasWeapon(id: string) {
+  hasWeapon(id) {
     return this.hasValue('weapons', id);
   }
 
-  getBuild(id: string) {
+  getBuild(id) {
     return this.getValueFromMap('builds', id);
   }
 
-  hasBuild(id: string) {
+  hasBuild(id) {
     return this.hasValue('builds', id);
   }
 
-  getCommon(id: string) {
+  getCommon(id) {
     return this.getValueFromMap('common', id);
   }
 
-  hasCommon(id: string) {
+  hasCommon(id) {
     return this.hasValue('common', id);
   }
 
-  getValueFromMap(map: MapsKeys, id: string) {
+  getValueFromMap(map, id) {
     if (this.currentData[map].has(id)) {
       return this.currentData[map].get(id);
     }
@@ -90,9 +83,11 @@ class DataStore {
     return this.originalData[map].get(id);
   }
 
-  hasValue(map: MapsKeys, id: string): boolean {
+  hasValue(map, id) {
     return this.currentData[map].has(id) || this.originalData[map].has(id);
   }
 }
 
 exports.default = DataStore;
+
+exports.dataCache = dataCache;

@@ -13,8 +13,8 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "generate": "ts-node ./scripts/generate.ts",
-    "check-missing": "ts-node ./scripts/check-missing.ts",
+    "generate": "node ./scripts/generate.js",
+    "check-missing": "node ./scripts/check-missing.js",
     "format-data": "prettier --write \"data/**/*.json\"",
     "test": "tsdx test",
     "test:coverage": "tsdx test --coverage",
@@ -51,6 +51,7 @@
     "chalk": "^4.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^5.0.9",
+    "keyv": "^4.0.3",
     "rollup-plugin-dynamic-import-variables": "^1.1.0",
     "ts-node": "^9.1.1",
     "tsdx": "^0.14.1",

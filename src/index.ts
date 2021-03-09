@@ -1,10 +1,9 @@
 import { Artifact } from './types/artifact';
 import { Character } from './types/character';
 import { Material } from './types/material';
-import { Tierlist } from './types/tierlist';
 import { Weapon } from './types/weapon';
 
-export { Artifact, Character, Weapon, Material, Tierlist };
+export { Artifact, Character, Weapon, Material };
 
 type Languages = 'english' | 'spanish' | 'japanese';
 
@@ -81,11 +80,6 @@ export default class GenshinData {
     }
 
     return results;
-  }
-
-  async tierlist(): Promise<Tierlist> {
-    const lang = this.getLang();
-    return (await import(`./generated/${lang}/tierlist.json`)).default;
   }
 
   selectProps<T>(results: T[], query: QueryOpts<T>): T[] {
