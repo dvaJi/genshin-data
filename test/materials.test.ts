@@ -1,11 +1,11 @@
 import GenshinData from '../src';
 
-let currentMaterials = 0;
-
 describe('Materials Method', () => {
   const genshinData = new GenshinData({ language: 'english' });
   it('should return only fields specified on "select"', async () => {
-    const materials = await genshinData.materials({ select: ['name', 'id'] });
+    const materials = await genshinData.commonMaterials({
+      select: ['name', 'id'],
+    });
 
     expect(materials[0].id).toBeDefined();
     expect(materials[0].name).toBeDefined();
@@ -18,15 +18,88 @@ describe('Materials Method', () => {
 describe('Materials English', () => {
   const genshinData = new GenshinData({ language: 'english' });
 
-  it('should return all materials', async () => {
-    const materials = await genshinData.materials();
-    expect(materials.length).toBeGreaterThan(0);
-    currentMaterials = materials.length;
+  it('should return all common materials', async () => {
+    const materials = await genshinData.commonMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
   });
 
-  it('should contains all mandatory fields', async () => {
-    const materials = await genshinData.materials();
+  it('should return all elemental stone materials', async () => {
+    const materials = await genshinData.elementalStoneMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
 
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all ingredients', async () => {
+    const materials = await genshinData.ingredients();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all jewels materials', async () => {
+    const materials = await genshinData.jewelsMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all local materials', async () => {
+    const materials = await genshinData.localMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all potions', async () => {
+    const materials = await genshinData.potions();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all talent lvl-up materials', async () => {
+    const materials = await genshinData.talentLvlUpMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon primary materials', async () => {
+    const materials = await genshinData.weaponPrimaryMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon secondary materials', async () => {
+    const materials = await genshinData.weaponSecondaryMaterials();
     for (const material of materials) {
       expect(material.id).toBeDefined();
       expect(material.name).toBeDefined();
@@ -37,14 +110,88 @@ describe('Materials English', () => {
 describe('Materials Spanish', () => {
   const genshinData = new GenshinData({ language: 'spanish' });
 
-  it('should return all materials', async () => {
-    const materials = await genshinData.materials();
-    expect(materials.length).toEqual(currentMaterials);
+  it('should return all common materials', async () => {
+    const materials = await genshinData.commonMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
   });
 
-  it('should contains all mandatory fields', async () => {
-    const materials = await genshinData.materials();
+  it('should return all elemental stone materials', async () => {
+    const materials = await genshinData.elementalStoneMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
 
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all ingredients', async () => {
+    const materials = await genshinData.ingredients();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all jewels materials', async () => {
+    const materials = await genshinData.jewelsMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all local materials', async () => {
+    const materials = await genshinData.localMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all potions', async () => {
+    const materials = await genshinData.potions();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all talent lvl-up materials', async () => {
+    const materials = await genshinData.talentLvlUpMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon primary materials', async () => {
+    const materials = await genshinData.weaponPrimaryMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon secondary materials', async () => {
+    const materials = await genshinData.weaponSecondaryMaterials();
     for (const material of materials) {
       expect(material.id).toBeDefined();
       expect(material.name).toBeDefined();
@@ -55,14 +202,88 @@ describe('Materials Spanish', () => {
 describe('Materials Japanese', () => {
   const genshinData = new GenshinData({ language: 'japanese' });
 
-  it('should return all materials', async () => {
-    const materials = await genshinData.materials();
-    expect(materials.length).toEqual(currentMaterials);
+  it('should return all common materials', async () => {
+    const materials = await genshinData.commonMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
   });
 
-  it('should contains all mandatory fields', async () => {
-    const materials = await genshinData.materials();
+  it('should return all elemental stone materials', async () => {
+    const materials = await genshinData.elementalStoneMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
 
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all food', async () => {
+    const materials = await genshinData.food();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all ingredients', async () => {
+    const materials = await genshinData.ingredients();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all jewels materials', async () => {
+    const materials = await genshinData.jewelsMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all local materials', async () => {
+    const materials = await genshinData.localMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all potions', async () => {
+    const materials = await genshinData.potions();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all talent lvl-up materials', async () => {
+    const materials = await genshinData.talentLvlUpMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon primary materials', async () => {
+    const materials = await genshinData.weaponPrimaryMaterials();
+    for (const material of materials) {
+      expect(material.id).toBeDefined();
+      expect(material.name).toBeDefined();
+    }
+  });
+
+  it('should return all weapon secondary materials', async () => {
+    const materials = await genshinData.weaponSecondaryMaterials();
     for (const material of materials) {
       expect(material.id).toBeDefined();
       expect(material.name).toBeDefined();

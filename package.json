@@ -14,7 +14,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "generate": "node ./scripts/generate.js",
-    "check-missing": "node ./scripts/check-missing.js",
+    "check-missing": "npm run generate && npm run build && node ./scripts/check-missing.js",
     "format-data": "prettier --write \"data/**/*.json\"",
     "test": "tsdx test",
     "test:coverage": "tsdx test --coverage",
