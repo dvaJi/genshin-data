@@ -1,3 +1,19 @@
+## [0.6.0](https://github.com/dvaJi/genshin-data/compare/0.5.0...0.6.0) (2021-03-13)
+
+
+### Features
+
+* **core** refactor generate script and remove tierlist and builds ([49304ce](https://github.com/dvaJi/genshin-data/commit/49304ce18e1048ee5b0fd69dda229787a6fef52d))
+
+* **materials** implement missing materials ([8077708](https://github.com/dvaJi/genshin-data/commit/8077708e843b5c7b81605ef39b06dd88219717b6))
+
+
+### Fixes
+
+* **ci** support nodejs v13 and v14 ([1e78196](https://github.com/dvaJi/genshin-data/commit/1e781963cbe6f1d4e9e2f0d2f00187c5bc4b7bbd))
+
+
+
 ## [0.5.0](https://github.com/dvaJi/genshin-data/compare/0.4.0...0.5.0) (2021-03-04)
 
 
