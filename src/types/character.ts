@@ -1,40 +1,3 @@
-interface BuildSet {
-  set_1: {
-    id: string;
-    name: string;
-  };
-  set_2?: {
-    id: string;
-    name: string;
-  };
-  order: number;
-}
-
-interface BuildWeapon {
-  id: string;
-  name: string;
-  order: number;
-}
-
-interface SetsStats {
-  flower: string[];
-  plume: string[];
-  sands: string[];
-  goblet: string[];
-  circlet: string[];
-}
-
-interface Build {
-  id: string;
-  name: string;
-  description: string;
-  role: string;
-  weapons: BuildWeapon[];
-  sets: BuildSet[];
-  stats_priority: string[];
-  stats: SetsStats;
-}
-
 export interface SkillModifier {
   stat: string;
   value: string;
@@ -89,12 +52,7 @@ export interface CharacterTier {
   support?: Tier;
 }
 
-export interface BuildsAndTier {
-  tier?: CharacterTier;
-  builds?: Build[];
-}
-
-export interface Character extends BuildsAndTier {
+export interface Character {
   id: string;
   name: string;
   region: string;
