@@ -1,13 +1,189 @@
 {
   "id": "compound_bow",
   "name": "Compound Bow",
-  "description": "",
-  "location": "Forging",
-  "type": "Bow",
+  "description": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
   "rarity": 4,
-  "base": 41,
-  "passive": "Infusion Arrow",
-  "bonus": "Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
-  "secondary": "Physical DMG Bonus",
-  "series": "Infusion Series"
+  "type": "Bow",
+  "primary": {
+    "name": "Base ATK",
+    "value": 41.067
+  },
+  "secondary": {
+    "name": "Physical DMG Bonus",
+    "value": 0.15
+  },
+  "ascensions": [
+    {
+      "ascensionLevel": 0,
+      "maxLevel": 20,
+      "primary": 99,
+      "secondary": 0.265,
+      "materials": []
+    },
+    {
+      "ascensionLevel": 1,
+      "maxLevel": 40,
+      "primary": 184,
+      "secondary": 0.387,
+      "materials": [
+        {
+          "id": "grain_of_aerosiderite",
+          "name": "Grain of Aerosiderite",
+          "amount": 3
+        },
+        {
+          "id": "fragile_bone_shard",
+          "name": "Fragile Bone Shard",
+          "amount": 3
+        },
+        {
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 2,
+      "maxLevel": 50,
+      "primary": 238,
+      "secondary": 0.447,
+      "materials": [
+        {
+          "id": "piece_of_aerosiderite",
+          "name": "Piece of Aerosiderite",
+          "amount": 3
+        },
+        {
+          "id": "fragile_bone_shard",
+          "name": "Fragile Bone Shard",
+          "amount": 12
+        },
+        {
+          "id": "recruits_insignia",
+          "name": "Recruit's Insignia",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 3,
+      "maxLevel": 60,
+      "primary": 293,
+      "secondary": 0.508,
+      "materials": [
+        {
+          "id": "piece_of_aerosiderite",
+          "name": "Piece of Aerosiderite",
+          "amount": 6
+        },
+        {
+          "id": "sturdy_bone_shard",
+          "name": "Sturdy Bone Shard",
+          "amount": 6
+        },
+        {
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 4,
+      "maxLevel": 70,
+      "primary": 347,
+      "secondary": 0.568,
+      "materials": [
+        {
+          "id": "bit_of_aerosiderite",
+          "name": "Bit of Aerosiderite",
+          "amount": 3
+        },
+        {
+          "id": "sturdy_bone_shard",
+          "name": "Sturdy Bone Shard",
+          "amount": 12
+        },
+        {
+          "id": "sergeants_insignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 5,
+      "maxLevel": 80,
+      "primary": 401,
+      "secondary": 0.629,
+      "materials": [
+        {
+          "id": "bit_of_aerosiderite",
+          "name": "Bit of Aerosiderite",
+          "amount": 6
+        },
+        {
+          "id": "fossilized_bone_shard",
+          "name": "Fossilized Bone Shard",
+          "amount": 9
+        },
+        {
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 6,
+      "maxLevel": 90,
+      "primary": 454,
+      "secondary": 0.69,
+      "materials": [
+        {
+          "id": "chunk_of_aerosiderite",
+          "name": "Chunk of Aerosiderite",
+          "amount": 4
+        },
+        {
+          "id": "fossilized_bone_shard",
+          "name": "Fossilized Bone Shard",
+          "amount": 18
+        },
+        {
+          "id": "lieutenants_insignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "name": "Infusion Arrow",
+      "desc": "Normal Attack and Charged Attack hits increase ATK by <span>4%</span> and Normal ATK SPD by <span>1.2%</span> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+    },
+    {
+      "refinement": 2,
+      "name": "Infusion Arrow",
+      "desc": "Normal Attack and Charged Attack hits increase ATK by <span>5%</span> and Normal ATK SPD by <span>1.5%</span> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+    },
+    {
+      "refinement": 3,
+      "name": "Infusion Arrow",
+      "desc": "Normal Attack and Charged Attack hits increase ATK by <span>6%</span> and Normal ATK SPD by <span>1.8%</span> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+    },
+    {
+      "refinement": 4,
+      "name": "Infusion Arrow",
+      "desc": "Normal Attack and Charged Attack hits increase ATK by <span>7%</span> and Normal ATK SPD by <span>2.1%</span> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+    },
+    {
+      "refinement": 5,
+      "name": "Infusion Arrow",
+      "desc": "Normal Attack and Charged Attack hits increase ATK by <span>8%</span> and Normal ATK SPD by <span>2.4%</span> for 6s. Max 4 stacks. Can only occur once every 0.3s."
+    }
+  ]
 }

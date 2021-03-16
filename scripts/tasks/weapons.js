@@ -19,15 +19,15 @@ async function generateWeapons(lang) {
     if (!filename.endsWith('.json')) return;
 
     const data = require(path.join(weaponsPath, filename));
-    const originalData = require(path.join(
-      DATA_PATH,
-      'general',
-      'weapons',
-      filename
-    ));
+    // const originalData = require(path.join(
+    //   DATA_PATH,
+    //   'general',
+    //   'weapons',
+    //   filename
+    // ));
 
-    const fmtData = deepMerge(originalData, data);
-    weapons.push(fmtData);
+    // const fmtData = deepMerge(originalData, data);
+    weapons.push(data);
   });
 
   fs.writeFileSync(

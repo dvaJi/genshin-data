@@ -1,13 +1,36 @@
+type WeaponStat = {
+  name: string;
+  value: number;
+};
+
+type AscensionMaterial = {
+  id: string;
+  name: string;
+  amount: number;
+};
+
+type WeaponAscension = {
+  ascensionLevel: number;
+  maxLevel: number;
+  primary: number;
+  secondary: number;
+  materials: AscensionMaterial[];
+};
+
+type WeaponRefinement = {
+  refinement: number;
+  name: string;
+  desc: string;
+};
+
 export interface Weapon {
   id: string;
   name: string;
   description: string;
-  location: string;
-  type: string;
   rarity: number;
-  base: number;
-  secondary?: string;
-  passive: string;
-  bonus?: string;
-  series?: string;
+  type: string;
+  primary: WeaponStat;
+  secondary?: WeaponStat;
+  ascensions: WeaponAscension[];
+  refinements: WeaponRefinement[];
 }
