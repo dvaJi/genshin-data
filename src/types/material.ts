@@ -1,10 +1,3 @@
-type CraftMora = {
-  id: string;
-  name: string;
-  amount: number;
-  cost: number;
-};
-
 type Craft = {
   id: string;
   name: string;

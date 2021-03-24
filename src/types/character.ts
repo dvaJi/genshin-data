@@ -1,10 +1,8 @@
-type SkillAttributes = [string, string[]];
-
 export interface Skill {
   id: string;
   name: string;
   description: string;
-  attributes: SkillAttributes[];
+  attributes: Array<[string, string[]]>;
 }
 
 export interface Passive {
