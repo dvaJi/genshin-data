@@ -1,36 +1,41 @@
 {
   "id": "fried_radish_balls",
   "name": "Fried Radish Balls",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Fried Radish Balls. Fragrant and crispy. Make sure to eat them while they're hot! Said to be a recipe from Liyue.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Flour"
+      "id": "flour",
+      "name": "Flour",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Radish"
+      "id": "radish",
+      "name": "Radish",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Pepper"
+      "id": "pepper",
+      "name": "Pepper",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "Lantern Rite Special Fried Radish Balls",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Fried Radish Balls",
+      "description": "Fried Radish Balls. Way too oily, and leaves you looking for something to drink to cut through the grease.",
+      "effect": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Fried Radish Balls",
       "description": "Fried Radish Balls. Fragrant and crispy. Make sure to eat them while they're hot! Said to be a recipe from Liyue.",
-      "effect": "Increases all party members' ATK by 81 for 300s."
+      "effect": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Fried Radish Balls",
       "description": "Fried Radish Balls. It's insane that something so delicious comes from plain old radishes! All who eat them will truly understand Liyue's culinary reputation.",
-      "effect": "Increases all party members' ATK by 95 for 300s."
-    },
-    "suspicious": {
-      "description": "Fried Radish Balls. Way too oily, and leaves you looking for something to drink to cut through the grease.",
-      "effect": "Increases all party members' ATK by 66 for 300s."
+      "effect": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

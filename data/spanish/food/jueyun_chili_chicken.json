@@ -1,24 +1,50 @@
 {
   "id": "jueyun_chili_chicken",
   "name": "Pollo al chile Jueyun",
-  "description": "Un plato de pollo frío. La carne es tan tierna que casi se puede deshacer con el viento. Con solo mordisquearlo desprende su jugo. Es como una frontera entre lo real y lo fantástico: una experiencia astral.",
-  "craft": [
+  "description": "Un plato de pollo frío. Su forma de elaboración permite que el sabor y el jugo del pollo se conserven a la perfección. Bajo su dorada piel se esconde un sabor ligeramente picante.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "fowl",
       "name": "Carne de ave",
       "amount": 2
     },
     {
+      "id": "jueyun_chili",
       "name": "Chile de Jueyun",
       "amount": 1
     },
     {
+      "id": "pepper",
       "name": "Pimienta",
-      "amount": 1
-    },
-    {
-      "name": "Pollo al chile de Jueyun",
       "amount": 1
     }
   ],
-  "effect": "Aumenta la Probabilidad Crítica de todos los miembros del equipo un 6/9/12% durante 300s."
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Pollo al chile Jueyun extraño",
+      "description": "Un plato de pollo frío. Tal vez la carne no se marinó adecuadamente, ya que es salada por fuera e insípida por dentro. Su sabor parece más bien el de un pollo hervido.",
+      "effect": "Aumenta en un 6% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Pollo al chile Jueyun",
+      "description": "Un plato de pollo frío. Su forma de elaboración permite que el sabor y el jugo del pollo se conserven a la perfección. Bajo su dorada piel se esconde un sabor ligeramente picante.",
+      "effect": "Aumenta en un 9% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Pollo al chile Jueyun delicioso",
+      "description": "Un plato de pollo frío. La carne es tan tierna que casi se puede deshacer con un soplo de viento. Al darle el primer bocado, la carne desprende su jugo y el comensal se transporta a un lugar entre lo real y lo fantástico. Una auténtica experiencia astral.",
+      "effect": "Aumenta en un 12% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "special": {
+      "name": "Pollo rockero",
+      "description": "La especialidad de Xinyan. Tras su aspecto infernal, se esconde un nivel de picante igual de infernal. Se te caerán las lágrimas mientras lo comes, pero no podrás parar. ¡Solo alguien como Xinyan podría cocinar algo así!",
+      "effect": "Aumenta la Prob. CRIT de todos los miembros del equipo un 16% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios miembros.",
+      "character": {
+        "id": "xinyan",
+        "name": "Xinyan"
+      }
+    }
+  }
 }

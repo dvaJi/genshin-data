@@ -1,24 +1,45 @@
 {
   "id": "lotus_flower_crisp",
-  "name": "Pastelillo de loto",
-  "description": "Uno de los pastelillos típicos de Liyue. Inspira con cuidado y observa cómo los pétalos se mueven ligeramente, como si tuvieran vida propia. Al cerrar los ojos y morder un pedazo, el dulce sabor inunda tu paladar. Es como si soplara el viento, las flores se abrieran y los pajaros se lanzaran al vuelo.",
-  "craft": [
+  "name": "Estrellitas de loto",
+  "description": "Uno de los dulces típicos de Liyue. Su relleno dulce está recubierto de una masa de harina, agua y aceite que se fríe hasta que queda crujiente. Los pétalos se abren de uno en uno cuando se sostiene en la palma de la mano.",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "almond",
       "name": "Almendra",
       "amount": 4
     },
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 2
     },
     {
+      "id": "butter",
       "name": "Mantequilla",
       "amount": 2
     },
     {
+      "id": "sugar",
       "name": "Azúcar",
       "amount": 1
     }
   ],
-  "effect": "Aumenta la defensa de los miembros del equipo en 165/200/235 durante 300s."
+  "results": {
+    "suspicious": {
+      "name": "Estrellitas de loto extrañas",
+      "description": "Uno de los dulces típicos de Liyue. Los pétalos han perdido su color y se han vuelto amarillos debido a la temperatura demasiado alta del aceite.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 165 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Estrellitas de loto",
+      "description": "Uno de los dulces típicos de Liyue. Su relleno dulce está recubierto de una masa de harina, agua y aceite que se fríe hasta que queda crujiente. Los pétalos se abren de uno en uno cuando se sostiene en la palma de la mano.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 200 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Estrellitas de loto deliciosas",
+      "description": "Uno de los dulces típicos de Liyue. Espira con cuidado y observa cómo los pétalos se mueven ligeramente, como si tuvieran vida propia. Al cerrar los ojos y probarlo, un dulce sabor inundará tu paladar. Es como si soplara el viento, las flores se abrieran y los pájaros alzaran el vuelo.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 235 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

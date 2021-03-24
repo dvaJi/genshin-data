@@ -1,21 +1,50 @@
 {
   "id": "tea_break_pancake",
-  "name": "Panqueque",
-  "description": "Un montón de panqueques. De forma, la textura y su sabor es inmejorable. La esponjosidad de su masa se parece al de las nubes celestiales.",
-  "craft": [
+  "name": "Panqueques",
+  "description": "Un montón de panqueques. Un dulce imprescindible para las mejores meriendas. La esponjosa masa y las bayas dulces convierten una tarde cualquiera en una muy alegre.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "berry",
       "name": "Baya",
       "amount": 3
     },
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 2
     },
     {
+      "id": "bird_egg",
       "name": "Huevo de pájaro",
       "amount": 1
     }
   ],
-  "effect": "Revive a un personaje y restaura 250/400/550 puntos de vida.",
-  "variant": "Panqueques esponjosos"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Panqueques extraños",
+      "description": "Un montón de panqueques. El olor a quemado se fusiona con el intenso olor a dulce que desprenden. Las bayas son lo único que salvan este plato.",
+      "effect": "Revive a un personaje y restaura 250 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Panqueques",
+      "description": "Un montón de panqueques. Un dulce imprescindible para las mejores meriendas. La esponjosa masa y las bayas dulces convierten una tarde cualquiera en una muy alegre.",
+      "effect": "Revive a un personaje y restaura 400 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Panqueques deliciosos",
+      "description": "Un montón de panqueques. Su esponjosa textura trasladará a tus papilas gustativas a un lugar entre las nubes.",
+      "effect": "Revive a un personaje y restaura 550 pts. de su Vida."
+    },
+    "special": {
+      "name": "Panqueques esponjosos",
+      "description": "La especialidad de Noelle. Estos gruesos panqueques son el mejor dulce para la hora del té de los Caballeros de Favonius. Dan una sensación de haber caído sobre una capa de nubes esponjosas. ¡Y ver la sonrisa de Noelle hace que la sensación sea aún más dulce!",
+      "effect": "Restaura un 15% de la Vida Máx. y 550 pts. de Vida adicionales al personaje seleccionado.",
+      "character": {
+        "id": "noelle",
+        "name": "Noelle"
+      }
+    }
+  }
 }

@@ -1,25 +1,55 @@
 {
   "id": "cold_cut_platter",
   "name": "Plato de carnes frías",
-  "description": "Un plato de carne fría adobada. Las extrañas especias utilizadas en la combinación de tres tipos de carne ofrecen el mejor sabor, incluso haciendo que la gente olvide sus problemas.",
-  "craft": [
+  "description": "Un plato de carne fría adobada. Una combinación de tocino, jamón y salchichas hace feliz a cualquiera.",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "ham",
       "name": "Jamón",
       "amount": 1
     },
     {
+      "id": "bacon",
       "name": "Tocino",
       "amount": 1
     },
     {
+      "id": "sausage",
       "name": "Salchicha",
       "amount": 1
     },
     {
+      "id": "mint",
       "name": "Menta",
       "amount": 1
     }
   ],
-  "effect": "Aumenta el daño físico de todos los miembros del equipo un 20/30/40% durante 300s.",
-  "variant": "Sinfonía bendita"
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Plato de carnes frías extraño",
+      "description": "Un plato de carnes frías adobadas. Los ingredientes parecen demasiado fríos. No debe ser muy bueno para aquellos con unos dientes y un estómago sensibles.",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 20% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Plato de carnes frías",
+      "description": "Un plato de carnes frías adobadas. Esta combinación de tocino, jamón y salchichas puede hacer feliz a cualquiera.",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 30% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Plato de carnes frías delicioso",
+      "description": "Un plato de carnes frías adobadas. El sabor de estos tres tipos de carne es potenciado mediante una magnífica condimentación que lo hace absolutamente irresistible, hasta el punto de que olvidarás tus problemas mientras comes.",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 40% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "special": {
+      "name": "Sinfonía bendita",
+      "description": "La especialidad de Fischl. Su exquisita presentación parece tratar de comunicar un enigma incomprensible. Al comerlo, si uno mirara a Fischl, podría notar su mirada expectante asomarse a través de los huecos de sus dedos que cubren la mitad de su rostro... ¿Esto también es parte del misterio?",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 55% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes.",
+      "character": {
+        "id": "fischl",
+        "name": "Fischl"
+      }
+    }
+  }
 }

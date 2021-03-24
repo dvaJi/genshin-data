@@ -29,17 +29,21 @@ async function generateMaterials(lang, folder, cache) {
       filename
     ));
 
-    let fmtData = deepMerge(originalData, data);
+    if (folder === 'food') {
+      materials.push(data);
+    } else {
+      let fmtData = deepMerge(originalData, data);
 
-    if (fmtData.day) {
-      fmtData.day = fmtData.day.map(d => days[d]);
+      if (fmtData.day) {
+        fmtData.day = fmtData.day.map(d => days[d]);
+      }
+
+      if (fmtData.region) {
+        fmtData.region = regions[fmtData.region];
+      }
+
+      materials.push(fmtData);
     }
-
-    if (fmtData.region) {
-      fmtData.region = regions[fmtData.region];
-    }
-
-    materials.push(fmtData);
   });
 
   fs.writeFileSync(

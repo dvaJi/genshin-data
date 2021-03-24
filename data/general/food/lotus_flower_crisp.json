@@ -1,39 +1,45 @@
 {
   "id": "lotus_flower_crisp",
   "name": "Lotus Flower Crisp",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "One of Liyue's traditional snacks. Sweet stuffed lotus wrapped in a crispy, deep-fried crust. Its layers of flower petals unravel perfectly in the palm of your hand.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 4,
-      "name": "Almond"
+      "id": "almond",
+      "name": "Almond",
+      "amount": 4
     },
     {
-      "amount": 2,
-      "name": "Flour"
+      "id": "flour",
+      "name": "Flour",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Butter"
+      "id": "butter",
+      "name": "Butter",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Sugar"
+      "id": "sugar",
+      "name": "Sugar",
+      "amount": 1
     }
   ],
-  "dish_type": ["Sage's Dish"],
   "results": {
+    "suspicious": {
+      "name": "Suspicious Lotus Flower Crisp",
+      "description": "One of Liyue's traditional snacks. The lotus petals have lost their original color, turning brown and wilted under the merciless heat of hot oil.",
+      "effect": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Lotus Flower Crisp",
       "description": "One of Liyue's traditional snacks. Sweet stuffed lotus wrapped in a crispy, deep-fried crust. Its layers of flower petals unravel perfectly in the palm of your hand.",
-      "effect": "Increases all party members' DEF by 200 for 300s."
+      "effect": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Lotus Flower Crisp",
       "description": "One of Liyue's traditional snacks. The flower petals waver to life if you gently blow on them. As you close your eyes and take a bite, a luscious flavor covers your tastebuds like a sweet harmony of blooming flowers and fluttering birds in the breeze.",
-      "effect": "Increases all party members' DEF by 235 for 300s."
-    },
-    "suspicious": {
-      "description": "One of Liyue's traditional snacks. The lotus petals have lost their original color, turning brown and wilted under the merciless heat of hot oil.",
-      "effect": "Increases all party members' DEF by 165 for 300s."
+      "effect": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

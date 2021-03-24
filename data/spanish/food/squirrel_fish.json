@@ -1,24 +1,46 @@
 {
   "id": "squirrel_fish",
   "name": "Pescado mandarín agridulce",
-  "description": "Un intrincado plato de pescado. De textura regular y forma elegante, tiene la dulzura adecuada como el toque final. En muchos sentidos refleja la habilidad exquisita de un reconocido chef de Liyue.",
-  "craft": [
+  "description": "Un plato de pescado muy complicado de elaborar. Se extraen las espinas del pescado y se hacen cortes en forma de rombo. Luego, se fríe hasta que adquiere un aspecto dorado. A veces se le conoce como “pescado cola de ardilla” por su emplatado, y tiene una textura crujiente tanto por dentro como por fuera.",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "fish",
       "name": "Pescado",
       "amount": 4
     },
     {
+      "id": "tomato",
       "name": "Tomate",
       "amount": 2
     },
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 2
     },
     {
+      "id": "sugar",
       "name": "Azúcar",
       "amount": 1
     }
   ],
-  "effect": "Restaura 30/32/34% de la Vida máxima y 600/1250/1900 pts. de Vida adicionales."
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Pescado mandarín agridulce extraño",
+      "description": "Un plato de pescado muy complicado de elaborar. Apenas se distingue la forma de pez y, aunque este plato es también conocido como “pescado cola de ardilla”, tampoco se puede ver dicha forma. Debido a su compleja técnica de elaboración, es muy difícil conseguir la forma del pescado deseada.",
+      "effect": "Restaura un 30% de la Vida Máx. y 600 pts. de Vida al personaje seleccionado."
+    },
+    "normal": {
+      "name": "Pescado mandarín agridulce",
+      "description": "Un plato de pescado muy complicado de elaborar. Se extraen las espinas del pescado y se hacen cortes en forma de rombo. Luego, se fríe hasta que adquiere un aspecto dorado. A veces se le conoce como “pescado cola de ardilla” por su emplatado, y tiene una textura crujiente tanto por dentro como por fuera.",
+      "effect": "Restaura un 32% de la Vida Máx. y 1250 pts. de Vida al personaje seleccionado."
+    },
+    "delicious": {
+      "name": "Pescado mandarín agridulce delicioso",
+      "description": "Un plato de pescado muy complicado de elaborar. Además de una textura uniforme y un aspecto elegante, también tiene la acidez y dulzura adecuadas. Es el reflejo de las exquisitas habilidades de los mejores chefs de Liyue.",
+      "effect": "Restaura un 34% de la Vida Máx. y 1900 pts. de Vida adicional al personaje seleccionado."
+    }
+  }
 }

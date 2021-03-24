@@ -1,17 +1,45 @@
 {
   "id": "vegetarian_abalone",
   "name": "Abulón vegetariano",
-  "description": "Una comida vegetariana de sabor intenso. El matsutake se corta en láminas, se saltea hasta que esté dorado y se mete en la salsa. Debido a su carnosa textura, comer matsutake es como comer un abulón muy fresco. Asi, al menos, podrás engañar un poco al estómago....",
-  "craft": [
+  "description": "Una comida vegetariana de sabor intenso. El matsutake se corta en láminas, se saltea hasta que esté dorado y se mete en la salsa. Debido a su carnosa textura, comer matsutake es como comer un abulón muy fresco. Así, al menos, podrás engañar un poco al estómago...",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "matsutake",
       "name": "Matsutake",
       "amount": 2
     },
     {
+      "id": "snapdragon",
       "name": "Flor dorada",
       "amount": 2
     }
   ],
-  "effect": "Revive a un personaje y restaura 250/400/550 pts. de Vida.",
-  "variant": "Marcha Solemne"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Abulón vegetariano extraño",
+      "description": "Una comida vegetariana de sabor intenso. La salsa es demasiado espesa y enmascara la frescura que deberían aportar los ingredientes. Te dejará la boca tan seca que no conseguirás hidratarla por mucho que bebas.",
+      "effect": "Revive a un personaje y restaura 250 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Abulón vegetariano",
+      "description": "Una comida vegetariana de sabor intenso. El matsutake se corta en láminas, se saltea hasta que esté dorado y se mete en la salsa. Debido a su carnosa textura, comer matsutake es como comer un abulón muy fresco. Así, al menos, podrás engañar un poco al estómago...",
+      "effect": "Revive a un personaje y restaura 400 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Abulón vegetariano delicioso",
+      "description": "Una comida vegetariana con un sabor intenso. Colocado sobre la salsa, el matsutake presenta un sabor excelente, tierno como una ostra y fresco como un abulón. Si alguien lo prueba y, después, le revelas de qué está hecho, obtendrás sus alabanzas más entusiastas.",
+      "effect": "Revive a un personaje y restaura 550 pts. de su Vida."
+    },
+    "special": {
+      "name": "Marcha solemne",
+      "description": "El plato especial de Hu Tao. Las cabecitas redondas de los espíritus, apiñados juntos, le dan una apariencia muy cómica. Sin embargo, si te puede la curiosidad y pruebas uno, te arrepentirás durante mucho tiempo... Al fin y al cabo, los ingredientes de este plato proceden de un plano fronterizo y su sabor bombardea tus papilas gustativas con... Puaj, ¿qué demonios es esto?",
+      "effect": "Restaura un 15% de la Vida Máx. y 550 pts. de Vida adicionales al personaje seleccionado.",
+      "character": {
+        "id": "hu_tao",
+        "name": "Hu Tao"
+      }
+    }
+  }
 }

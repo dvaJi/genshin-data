@@ -1,17 +1,45 @@
 {
   "id": "chickenmushroom_skewer",
   "name": "Brocheta de champiñones y pollo",
-  "description": "Una brocheta de champiñones y pollo. Todo lo mejor que la naturaleza tiene para ofrecer unido en una misma brocheta.",
-  "craft": [
+  "description": "#Una brocheta de champiñones y pollo. La fresca carne de ave se complementa con unos exquisitos champiñones. Vamos, ¡no seas quisquillos{F#a}{M#o} y come!",
+  "rarity": 1,
+  "recipe": [
     {
+      "id": "mushroom",
       "name": "Champiñón",
       "amount": 1
     },
     {
+      "id": "fowl",
       "name": "Carne de ave",
       "amount": 1
     }
   ],
-  "effect": "Restaura 8/9/10% de la Vida Máxima y 800/1000/1200 pts. de Vida para el personaje seleccionado.",
-  "variant": "Brocheta afrutada"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Brocheta de champiñones y pollo extraña",
+      "description": "Una brocheta de champiñones y pollo. A primera vista, es difícil adivinar cuál es cuál.",
+      "effect": "Restaura un 8% de la Vida Máx. y 800 pts. de Vida al personaje seleccionado."
+    },
+    "normal": {
+      "name": "Brocheta de champiñones y pollo",
+      "description": "#Una brocheta de champiñones y pollo. La fresca carne de ave se complementa con unos exquisitos champiñones. Vamos, ¡no seas quisquillos{F#a}{M#o} y come!",
+      "effect": "Restaura un 9% de la Vida Máx. y 1000 pts. de Vida al personaje seleccionado."
+    },
+    "delicious": {
+      "name": "Brocheta de champiñones y pollo deliciosa",
+      "description": "Una brocheta de champiñones y pollo. Todo lo mejor que la naturaleza tiene para ofrecer unido en una misma brocheta.",
+      "effect": "Restaura un 10% de la Vida Máx. y 1200 pts. de Vida al personaje seleccionado."
+    },
+    "special": {
+      "name": "Brocheta afrutada",
+      "description": "La especialidad de Kaeya. Una brocheta deliciosa con un rico y dulce sabor. Espera... ¿por qué huele a fruta?",
+      "effect": "Restaura un 16% de la Vida Máx. y 1350 pts. de Vida al personaje seleccionado.",
+      "character": {
+        "id": "kaeya",
+        "name": "Kaeya"
+      }
+    }
+  }
 }

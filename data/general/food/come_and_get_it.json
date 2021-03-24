@@ -1,40 +1,55 @@
 {
   "id": "come_and_get_it",
   "name": "Come and Get It",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying \"Come on, eat, eat,\" hence the name.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Fish"
+      "id": "fish",
+      "name": "Fish",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Rice"
+      "id": "rice",
+      "name": "Rice",
+      "amount": 3
     },
     {
-      "amount": 1,
-      "name": "Tofu"
+      "id": "tofu",
+      "name": "Tofu",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "No Tomorrow",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Come and Get It",
+      "description": "A dish made out of a luxurious variety of ingredients... dumped into scalding-hot water and boiled beyond recognition. As if the taste of everything and nothing at the same time isn't bad enough, you'll want to watch out for the sand, too...",
+      "effect": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Come and Get It",
       "description": "A dish made out of a luxurious variety of ingredients. There is no great refinement in the making of this food, and it appears in Liyue often during festival season. Whenever this dish is served up, the person at the head of the table will invite everyone to dig in, saying \"Come on, eat, eat,\" hence the name.",
-      "effect": "Increases all party members' CRIT Rate by 15% for 300s."
+      "effect": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Come and Get It",
       "description": "A dish made out of a luxurious variety of ingredients. The mixture of meat and vegetables is spot-on, the presentation is flawless, and the blend of flavors in the broth brings out the best of everything. Don't mind if I do.",
-      "effect": "Increases all party members' CRIT Rate by 20% for 300s."
+      "effect": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A dish made out of a luxurious variety of ingredients... dumped into scalding-hot water and boiled beyond recognition. As if the taste of everything and nothing at the same time isn't bad enough, you'll want to watch out for the sand, too...",
-      "effect": "Increases all party members' CRIT Rate by 10% for 300s."
+    "special": {
+      "name": "No Tomorrow",
+      "description": "Qiqi's specialty. The neat rows of ingredients seem at once exotic and delicious, and Baizhu says that Qiqi has spent a long time creating this dish. Still, once one considers that Qiqi has no sense of taste, just putting chopsticks to the food is going to take some courage.",
+      "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+      "character": {
+        "id": "qiqi",
+        "name": "Qiqi"
+      }
     }
   }
 }

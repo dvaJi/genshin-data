@@ -1,36 +1,49 @@
 {
   "id": "calla_lily_seafood_soup",
   "name": "Calla Lily Seafood Soup",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A balanced combination of seafood. The delicacy of crab and mint make for a clear soup, and the calla lily brings it a refreshing taste.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 4,
-      "name": "Crab"
+      "id": "crab",
+      "name": "Crab",
+      "amount": 4
     },
     {
-      "amount": 1,
-      "name": "Calla Lily"
+      "id": "calla_lily",
+      "name": "Calla Lily",
+      "amount": 1
     },
     {
-      "amount": 2,
-      "name": "Mint"
+      "id": "mint",
+      "name": "Mint",
+      "amount": 2
     }
   ],
-  "dish_type": ["Sage's Dish"],
-  "variant": "A Prize Catch",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Calla Lily Seafood Soup",
+      "description": "A balanced combination of seafood. The bitterness of the calla lily, the astringency of the mint, the fishiness of the crab... Getting all the negatives together like this takes skill.",
+      "effect": "Increases all party members' DEF by 165 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Calla Lily Seafood Soup",
       "description": "A balanced combination of seafood. The delicacy of crab and mint make for a clear soup, and the calla lily brings it a refreshing taste.",
-      "effect": "Increases all party members' DEF by 200 for 300s."
+      "effect": "Increases all party members' DEF by 200 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "A balanced combination of seafood. The crab, mint and calla lily come together perfectly to dance on your tongue. It reminds you of playing barefoot by the lake in summer.",
-      "effect": "Increases all party members' DEF by 235 for 300s."
+      "name": "Delicious Calla Lily Seafood Soup",
+      "description": "A balanced combination of seafood. The crab, mint, and Calla Lily come together perfectly to dance on your tongue. It reminds you of playing barefoot by the lake in summer.",
+      "effect": "Increases all party members' DEF by 235 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A balanced combination of seafood. The bitterness of the calla lily, the astringency of the mint, the fishiness of the crab... Getting all the negatives together like this takes skill.",
-      "effect": "Increases all party members' DEF by 165 for 300s."
+    "special": {
+      "name": "A Prize Catch",
+      "description": "Tartaglia's specialty. It looks like a trapped beast floundering in an ocean of blood, its death throes an inaudible scream... But Tartaglia smiles and explains that this is something he fished out of the sea, with some products from his homeland on the side.",
+      "effect": "Increases all party members' DEF by 282 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "tartaglia",
+        "name": "Tartaglia"
+      }
     }
   }
 }

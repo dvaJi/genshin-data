@@ -1,24 +1,46 @@
 {
   "id": "tianshu_meat",
-  "name": "Carne estilo Tianshu",
-  "description": "Un plato de carne estofada. La carne magra y la grasa se fríen con las especias en una sartén hasta que se vuelven crujientes. El resultado es suave y ligero, de un color translúcido. Se dice que es una obra maestra inventada por Tianshu, de alguna generación de las Siete Estrellas de Liyue, tras  arduas investigaciones.",
-  "craft": [
+  "name": "Carne estilo Eje Celestial",
+  "description": "Un plato de carne estofada. La carne magra y su grasa se saltean con las especias en una sartén hasta que se vuelven tiernas. El resultado es un plato suave y ligero, de un color traslúcido. Se dice que es una obra maestra inventada tras mucha investigación por el Eje Celestial de las Siete Estrellas de Liyue de una época pasada.",
+  "rarity": 4,
+  "recipe": [
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 4
     },
     {
+      "id": "sugar",
       "name": "Azúcar",
       "amount": 2
     },
     {
+      "id": "qingxin",
       "name": "Flor chingxin",
       "amount": 1
     },
     {
+      "id": "matsutake",
       "name": "Matsutake",
       "amount": 1
     }
   ],
-  "effect": "Aumenta el daño físico del equipo en un 25/35/45% y la probabilidad crítica un 6/8/10% durante 300 segundos."
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Carne estilo Eje Celestial extraña",
+      "description": "Un plato de carne estofada. El largo tiempo de cocinado ha dejado la carne demasiado blanda y la parte con grasa es demasiado grasienta. Rodearla con hojas de flor chingxin es la única forma de que sea comestible...",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 25% y la Prob. CRIT en un 6% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Carne estilo Eje Celestial",
+      "description": "Un plato de carne estofada. La carne magra y su grasa se saltean con las especias en una sartén hasta que se vuelven tiernas. El resultado es un plato suave y ligero, de un color traslúcido. Se dice que es una obra maestra inventada tras mucha investigación por el Eje Celestial de las Siete Estrellas de Liyue de una época pasada.",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 35% y la Prob. CRIT en un 8% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Carne estilo Eje Celestial deliciosa",
+      "description": "Un plato de carne estofada. El intenso aroma, el delicado sabor y la combinación de su forma y su color son la esencia de esta delicia. No desentonaría ni en un banquete del Pabellón Yuehai.",
+      "effect": "Aumenta el Daño Físico de todos los miembros del equipo en un 45% y la Prob. CRIT en un 10% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

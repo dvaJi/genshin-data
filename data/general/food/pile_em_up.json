@@ -1,40 +1,55 @@
 {
   "id": "pile_em_up",
   "name": "\"Pile 'Em Up\"",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A rich, meaty dish. Originally a Mondstadt dish made of steaks, potatoes and cheese, it has since become synonymous with Ludi Harpastum.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Potato"
+      "id": "potato",
+      "name": "Potato",
+      "amount": 3
     },
     {
-      "amount": 1,
-      "name": "Small Lamp Grass"
+      "id": "small_lamp_grass",
+      "name": "Small Lamp Grass",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Cheese"
+      "id": "cheese",
+      "name": "Cheese",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "\"Once Upon a Time in Mondstadt\"",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious \"Pile 'Em Up\"",
+      "description": "A rich, meaty dish. The meat must have been stacked wrong... Yeah, that's it. Now, can this actually be served...?",
+      "effect": "Increases all party members' CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
-      "description": "A rich, meaty dish. Originally a Mondstadt dish made of steaks, potatoes, and cheese, it has since become synonymous with Ludi Harpastum.",
-      "effect": "Increases all party members' CRIT Rate by 15% for 300s."
+      "name": "\"Pile 'Em Up\"",
+      "description": "A rich, meaty dish. Originally a Mondstadt dish made of steaks, potatoes and cheese, it has since become synonymous with Ludi Harpastum.",
+      "effect": "Increases all party members' CRIT Rate by 15% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious \"Pile 'Em Up\"",
       "description": "A rich, meaty dish. Piled in just the right way to be both aesthetically pleasing and delicious all the way through. I wonder if we can pile it a little higher...",
-      "effect": "Increases all party members' CRIT Rate by 20% for 300s."
+      "effect": "Increases all party members' CRIT Rate by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A rich, meaty dish. The meat must have been stacked wrong... Yeah, that's it. Now, can this actually be served...?",
-      "effect": "Increases all party members' CRIT Rate by 10% for 300s."
+    "special": {
+      "name": "\"Once Upon a Time in Mondstadt\"",
+      "description": "Diluc's specialty. Feast your eyes and then your stomach upon this delicacy as the soft ribs melt in your mouth. Who knew Diluc was able to cook this well?",
+      "effect": "Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)",
+      "character": {
+        "id": "diluc",
+        "name": "Diluc"
+      }
     }
   }
 }

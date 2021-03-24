@@ -1,40 +1,55 @@
 {
   "id": "cold_cut_platter",
   "name": "Cold Cut Platter",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A plate of cold cut meat. An equal balance of bacon, ham and sausage keeps everyone happy.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 1,
-      "name": "Ham"
+      "id": "ham",
+      "name": "Ham",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Bacon"
+      "id": "bacon",
+      "name": "Bacon",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Sausage"
+      "id": "sausage",
+      "name": "Sausage",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Mint"
+      "id": "mint",
+      "name": "Mint",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "Die Heilige Sinfonie",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Cold Cut Platter",
+      "description": "A plate of cold cut meat. Seems a little too cold, probably not good for those with bad teeth or sensitive stomachs.",
+      "effect": "Increases all party members' Physical DMG by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Cold Cut Platter",
       "description": "A plate of cold cut meat. An equal balance of bacon, ham and sausage keeps everyone happy.",
-      "effect": "Increases all party members' Physical DMG by 30% for 300s."
+      "effect": "Increases all party members' Physical DMG by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Cold Cut Platter",
       "description": "A plate of cold cut meat. The seasoning is just delightful enough to bring out the flavors perfectly. With a mouth full of meaty ecstasy, one worries about nothing.",
-      "effect": "Increases all party members' Physical DMG by 40% for 300s."
+      "effect": "Increases all party members' Physical DMG by 40% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A plate of cold cut meat. Seems a little too cold, probably not good for those with bad teeth or sensitive stomachs.",
-      "effect": "Increases all party members' Physical DMG by 20% for 300s."
+    "special": {
+      "name": "Die Heilige Sinfonie",
+      "description": "Fischl's specialty. The exquisite presentation doth seem to communicate some incomprehensible enigma. When partaking, if one were to gaze upon Fischl, one might see her expectant gaze peek through the gaps of her fingers, which she is using to cover half her face... Is this also part of the mystery?",
+      "effect": "Increases all party members' Physical DMG by 55% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "fischl",
+        "name": "Fischl"
+      }
     }
   }
 }

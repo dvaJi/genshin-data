@@ -1,20 +1,41 @@
 {
   "id": "lotus_seed_and_bird_egg_soup",
   "name": "Sopa de loto y huevo",
-  "description": "Un plato de huevos al vapor. Los suculentos huevos se derriten en la boca, y antes de que te des cuenta, una suave y sutil dulzura de las recién brotadas flores de loto cubre tus papilas gustativas.",
-  "craft": [
+  "description": "Un plato de huevos al vapor. A la brillante y dorada sopa se le han añadido unas semillas de loto. Se coma como desayuno o como postre, siempre aportará al cuerpo los ingredientes que necesita.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "lotus_head",
       "name": "Cabeza de loto",
       "amount": 1
     },
     {
+      "id": "bird_egg",
       "name": "Huevo de pájaro",
       "amount": 1
     },
     {
+      "id": "sugar",
       "name": "Azúcar",
       "amount": 1
     }
   ],
-  "effect": "Disminuye el consumo de aguante de los miembros del equipo al correr un 15/20/25% durante 900s."
+  "dish_type": "Platos para aventuras",
+  "results": {
+    "suspicious": {
+      "name": "Sopa de loto y huevo extraña",
+      "description": "Un plato de huevos al vapor. El largo proceso de cocción al vapor ha hecho que aparezca una inusual figura con forma de panal en la superficie. Por no hablar del intenso sabor amargo de las semillas de loto...",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 15% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Sopa de loto y huevo",
+      "description": "Un plato de huevos al vapor. A la brillante y dorada sopa se le han añadido unas semillas de loto. Se coma como desayuno o como postre, siempre aportará al cuerpo los ingredientes que necesita.",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 20% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Sopa de loto y huevo deliciosa",
+      "description": "Un plato de huevos al vapor. Los suculentos huevos se derriten en la boca y, antes de que te des cuenta, la suave y sutil dulzura de las flores de loto recién abiertas inunda tus papilas gustativas.",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 25% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

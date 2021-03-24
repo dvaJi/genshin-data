@@ -1,36 +1,50 @@
 {
   "id": "bamboo_shoot_soup",
   "name": "Bamboo Shoot Soup",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A soup dish that's been stewed for a good long while. The meat and ham have been diced into small pieces, and the soup has been kept on low heat till it turned milky white. The process has brought out the distinct flavors of both kinds of meat, making for an especially tasty soup.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 2,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Ham"
+      "id": "ham",
+      "name": "Ham",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Bamboo Shoot"
+      "id": "bamboo_shoot",
+      "name": "Bamboo Shoot",
+      "amount": 1
     }
   ],
-  "dish_type": ["Guardian's Dish"],
-  "variant": "Slow-Cooked Bamboo Shoot Soup",
+  "dish_type": "Recovery Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Bamboo Shoot Soup",
+      "description": "A soup dish that's been stewed for a good long while. The inexpert heat control has caused the fresh meat to be a bit tough, and the salty ham has covered the expected taste. The bamboo shoots, which have absorbed the flavors of both meats, are probably the only acceptable part of this dish.",
+      "effect": "Restores 26% of Max HP to the selected character and regenerates 450 HP every 5s for 30s."
+    },
     "normal": {
+      "name": "Bamboo Shoot Soup",
       "description": "A soup dish that's been stewed for a good long while. The meat and ham have been diced into small pieces, and the soup has been kept on low heat till it turned milky white. The process has brought out the distinct flavors of both kinds of meat, making for an especially tasty soup.",
-      "effect": "Restores 28% of Max HP to the selected character. Regenerates 620 HP every 5s for 30s."
+      "effect": "Restores 28% of Max HP to the selected character and regenerates 620 HP every 5s for 30s."
     },
     "delicious": {
+      "name": "Delicious Bamboo Shoot Soup",
       "description": "A soup dish that's been stewed for a good long while. One whiff is enough to whet one's appetite greatly, and the concentrated flavors fill your body with every spoonful of soup. It is almost like spreading a pair of wings and walking on clouds.",
-      "effect": "Restores 30% of Max HP to the selected character. Regenerates 790 HP every 5s for 30s."
+      "effect": "Restores 30% of Max HP to the selected character and regenerates 790 HP every 5s for 30s."
     },
-    "suspicious": {
-      "description": "A soup dish that's been stewed for a good long while. The inexpert heat control has caused the fresh meat to be a bit tough, and the salty ham has covered the expected taste. The bamboo shoots, which have absorbed the flavors of both meats, are probably the only acceptable part of this dish.",
-      "effect": "Restores 26% of Max HP to the selected character. Regenerates 450 HP every 5s for 30s."
+    "special": {
+      "name": "Slow-Cooked Bamboo Shoot Soup",
+      "description": "Zhongli's specialty. The ham is a butt end selected according to Yuehai Pavilion's gourmet standards. The fresh meat is pork belly, freshly hunted in Springvale, while the bamboo shoots are the densest you'll find in Qingce Village. It is then heated, slowly, gently, and with the utmost care and technique... Such a \"particular\" taste may only be shared with those who know how to appreciate it.",
+      "effect": "Restores 34% of Max HP to the selected character and regenerates 980 HP every 5s for 30s.",
+      "character": {
+        "id": "zhongli",
+        "name": "Zhongli"
+      }
     }
   }
 }

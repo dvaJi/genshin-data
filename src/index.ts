@@ -3,9 +3,6 @@ import { Character } from './types/character';
 import {
   CommonMaterial,
   ElementalStoneMaterial,
-  Food,
-  FoodNormal,
-  FoodSpecial,
   Ingredients,
   JewelMaterial,
   LocalMaterial,
@@ -14,6 +11,7 @@ import {
   WeaponPrimaryMaterial,
   WeaponSecondaryMaterial,
 } from './types/material';
+import { Food } from './types/food';
 import { Weapon } from './types/weapon';
 
 export {
@@ -23,8 +21,6 @@ export {
   CommonMaterial,
   ElementalStoneMaterial,
   Food,
-  FoodNormal,
-  FoodSpecial,
   Ingredients,
   JewelMaterial,
   LocalMaterial,

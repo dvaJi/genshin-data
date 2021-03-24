@@ -1,36 +1,50 @@
 {
   "id": "crystal_shrimp",
   "name": "Crystal Shrimp",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "One of Liyue's traditional snacks. The stuffing is taken from whole fresh shrimp, and the glistening quality of the flour can be guessed at from the translucence of the outer skin. Has a springy, tasty chew.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Rice"
+      "id": "rice",
+      "name": "Rice",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Shrimp Meat"
+      "id": "shrimp_meat",
+      "name": "Shrimp Meat",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Carrot"
+      "id": "carrot",
+      "name": "Carrot",
+      "amount": 2
     }
   ],
-  "dish_type": ["Guardian's Dish"],
-  "variant": "All-Delicacy Parcels",
+  "dish_type": "Recovery Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Crystal Shrimp",
+      "description": "One of Liyue's traditional snacks. The dull outer skin has a rather sticky mouthfeel which, when combined with the dry stuffing within, makes this dish a torment best ended sooner.",
+      "effect": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    },
     "normal": {
+      "name": "Crystal Shrimp",
       "description": "One of Liyue's traditional snacks. The stuffing is taken from whole fresh shrimp, and the glistening quality of the flour can be guessed at from the translucence of the outer skin. Has a springy, tasty chew.",
       "effect": "Restores 20% of Max HP to the selected character and regenerates 390 HP every 5s for 30s."
     },
     "delicious": {
-      "description": "One of Liyue's traditional snacks. The outer skin is as clear as its crystal namesake, and when it enters the mouth, one's tongue could be forgiven for thinking that the fresh shrimp within is still alive. Those who eat it can only lament that four pieces per serving is far, far too few.",
+      "name": "Delicious Crystal Shrimp",
+      "description": "One of Liyue's traditional snacks. The outer skin is as clear its crystal namesake, and when it enters the mouth, one's tongue could be forgiven for thinking that the fresh shrimp within is still alive. Those who eat it can only lament that four pieces per serving is far, far too few.",
       "effect": "Restores 22% of Max HP to the selected character and regenerates 470 HP every 5s for 30s."
     },
-    "suspicious": {
-      "description": "One of Liyue's traditional snacks. The dull outer skin has a rather sticky mouthfeel which, when combined with the dry stuffing within, makes this dish a torment best ended sooner.",
-      "effect": "Restores 18% of Max HP to the selected character and regenerates 300 HP every 5s for 30s."
+    "special": {
+      "name": "All-Delicacy Parcels",
+      "description": "Xingqiu's specialty. This dish's almost artisan appearance makes one almost reluctant to tuck in. But once you get a taste, its fresh, light and lovely sweetness will make the dish hard to put down.... Hang on a moment. Did he throw the carrots out, by any chance?",
+      "effect": "Restores 26% of Max HP to the selected character and regenerates 570 HP every 5s for 30s.",
+      "character": {
+        "id": "xingqiu",
+        "name": "Xingqiu"
+      }
     }
   }
 }

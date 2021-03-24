@@ -1,35 +1,41 @@
 {
   "id": "sticky_honey_roast",
   "name": "Sticky Honey Roast",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A meat dish in a sweet honey sauce. The carrots take the gamey edge off the meat, and the sauce brings it all together sweetly. The perfect warm dish for a cold winter night.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Carrot"
+      "id": "carrot",
+      "name": "Carrot",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Sugar"
+      "id": "sugar",
+      "name": "Sugar",
+      "amount": 2
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Sticky Honey Roast",
+      "description": "A meat dish in a sweet honey sauce. The sauce has stuck like glue to the meat, forming a homogeneous mass that tastes neither of honey nor meat.",
+      "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Sticky Honey Roast",
       "description": "A meat dish in a sweet honey sauce. The carrots take the gamey edge off the meat, and the sauce brings it all together sweetly. The perfect warm dish for a cold winter night.",
-      "effect": "Decreases all party member's climbing and sprinting Stamina consumption by 20% for 900s."
+      "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Sticky Honey Roast",
       "description": "A meat dish in a sweet honey sauce. The warm honey draws out the flavor of the meat, creating a flavor explosion akin to bathing in the warm summer sun.",
-      "effect": "Decreases all party member's climbing and sprinting Stamina consumption by 25% for 900s."
-    },
-    "suspicious": {
-      "description": "A meat dish in a sweet honey sauce. The sauce has stuck like glue to the meat, forming a homogeneous mass that tastes neither of honey nor meat.",
-      "effect": "Decreases all party member's climbing and sprinting Stamina consumption by 15% for 900s."
+      "effect": "Decreases all party members' climbing and sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

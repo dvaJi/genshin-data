@@ -1,6 +1,46 @@
 {
   "id": "fullmoon_egg",
   "name": "Rollitos de luna llena",
-  "description": "Uno de los bocadillos tradicionales de Liyue. La masa deformada envuelve la carne con rigidez y la sensación de sequedad en la boca lleva a la ilusión de que uno está masticando un trozo gigante de ñoquis.",
-  "effect": "Revive un personaje y restaura 1200 pts. de Vida"
+  "description": "Un aperitivo tradicional de Liyue. La yema de huevo se mezcla con harina para hacer una masa, y los camarones y el pescado se pican para hacer el relleno. Después, se le da la forma de una taza de té, se adorna con camarones y se cocina al vapor. El resultado parece una luna llena tapada por las nubes, de ahí el nombre “rollitos de luna llena”.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "fish",
+      "name": "Pescado",
+      "amount": 4
+    },
+    {
+      "id": "shrimp_meat",
+      "name": "Camarón",
+      "amount": 2
+    },
+    {
+      "id": "bird_egg",
+      "name": "Huevo de pájaro",
+      "amount": 2
+    },
+    {
+      "id": "flour",
+      "name": "Harina",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Rollitos de luna llena extraños",
+      "description": "Un aperitivo tradicional de Liyue. La masa, apretada y retorcida alrededor de la carne, le ha dejado una textura seca que, al masticarla, da la impresión de estar comiendo un ñoqui demasiado grande.",
+      "effect": "Revive a un personaje y restaura 900 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Rollitos de luna llena",
+      "description": "Un aperitivo tradicional de Liyue. La yema de huevo se mezcla con harina para hacer una masa, y los camarones y el pescado se pican para hacer el relleno. Después, se le da la forma de una taza de té, se adorna con camarones y se cocina al vapor. El resultado parece una luna llena tapada por las nubes, de ahí el nombre “rollitos de luna llena”.",
+      "effect": "Revive a un personaje y restaura 1200 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Rollitos de luna llena deliciosos",
+      "description": "Un aperitivo tradicional de Liyue. Prueba un bocado cuando aún esté caliente y disfruta del sabor de la tierna y jugosa carne, complementada con la guinda final: un camarón de un dulce regusto. Frente a tus ojos aparecerá una luna llena sobre unas límpidas aguas en cuya orilla flota un bote de pesca, desde el que resonará una bella canción de pescadores.",
+      "effect": "Revive a un personaje y restaura 1500 pts. de su Vida."
+    }
+  }
 }

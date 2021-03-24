@@ -1,24 +1,46 @@
 {
   "id": "jade_parcels",
-  "name": "Rollito de jade",
-  "description": "Un plato de aspecto exquisito. La dulzura del jamón y las crujientes semillas de loto son una combinación perfecta hecha en el cielo. El caldo aromático se derrama como la luz del amanecer, acariciando tu lengua con un sabor delicioso y fuera  de este mundo.",
-  "craft": [
+  "name": "Rollitos de jade",
+  "description": "Un plato de aspecto exquisito. La dulzura del jamón está encerrada dentro de las frescas verduras, rociadas con un caldo picante. “Delicioso” es decir poco.",
+  "rarity": 4,
+  "recipe": [
     {
+      "id": "lotus_head",
       "name": "Cabeza de loto",
       "amount": 3
     },
     {
+      "id": "jueyun_chili",
       "name": "Chile de Jueyun",
       "amount": 2
     },
     {
+      "id": "cabbage",
       "name": "Repollo",
       "amount": 2
     },
     {
+      "id": "ham",
       "name": "Jamón",
       "amount": 1
     }
   ],
-  "effect": "Aumenta el ataque de todos los miembros del equipo en 224/272/320 y la probabilidad crítica un 6/8/10% durante 300s."
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Rollitos de jade extraños",
+      "description": "Un plato de aspecto exquisito. Los ingredientes, cada una elaborado con un grado de cocción diferente, se han envuelto en unas verduras secas. El aspecto es verdaderamente deprimente.",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 224 pts. y su Prob. CRIT un 6% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Rollitos de jade",
+      "description": "Un plato de aspecto exquisito. El umami del jamón está escondido bajo las suaves verduras, rociadas con un caldo picante. “Delicioso” es decir poco.",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 272 pts. y su Prob. CRIT un 8% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Rollitos de jade deliciosos",
+      "description": "Un plato de aspecto exquisito. El aromático jamón y las crujientes semillas de loto forman una perfecta combinación cuasicelestial. El espeso caldo cae sobre los rollitos como los rayos del amanecer, acariciando tu lengua con un sabor delicioso y fuera de este mundo.",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 320 pts. y su Prob. CRIT un 10% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

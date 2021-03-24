@@ -1,16 +1,36 @@
 {
   "id": "radish_veggie_soup",
   "name": "Sopa vegetariana de rábano",
-  "description": "Sopa a base de rábano. Su aroma limpio es increíble, es el perfecto compañero para una tarde de verano.",
-  "craft": [
+  "description": "Una sopa de rábano y verduras. Su sabor tiene toques dulces y agrios. El rábano le aporta un alto valor nutritivo.",
+  "rarity": 1,
+  "recipe": [
     {
+      "id": "radish",
       "name": "Rábano",
       "amount": 1
     },
     {
+      "id": "mint",
       "name": "Menta",
       "amount": 1
     }
   ],
-  "effect": "Restaura 8/9/10% de la Vida máxima de todos los miembros del equipo y regenera 210/260/300 pts. de Vida cada 5s durante 300s."
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Sopa vegetariana de rábano extraña",
+      "description": "Sopa de rábano con verduras. Las verduras no parecen muy frescas.",
+      "effect": "Restaura un 8% de la Vida Máx. al personaje seleccionado y regenera 210 pts. de Vida cada 5 s durante 30 s."
+    },
+    "normal": {
+      "name": "Sopa vegetariana de rábano",
+      "description": "Una sopa de rábano y verduras. Su sabor tiene toques dulces y agrios. El rábano le aporta un alto valor nutritivo.",
+      "effect": "Restaura un 9% de la Vida Máx. al personaje seleccionado y regenera 260 pts. de Vida cada 5 s durante 30 s."
+    },
+    "delicious": {
+      "name": "Sopa vegetariana de rábano deliciosa",
+      "description": "Sopa a base de rábano. Su fresco y sencillo aroma a campo te trasladará al momento de la tarde en que se vuelve a casa sin preocupaciones tras un día de labores en el campo.",
+      "effect": "Restaura un 10% de la Vida Máx. al personaje seleccionado y regenera 300 pts. de Vida cada 5 s durante 30 s."
+    }
+  }
 }

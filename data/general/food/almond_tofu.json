@@ -1,36 +1,50 @@
 {
   "id": "almond_tofu",
   "name": "Almond Tofu",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A dessert made out of almond. It has a silky-smooth texture with a long-lasting aroma of almond. It's named tofu only because of its tofu-like shape.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Milk"
+      "id": "milk",
+      "name": "Milk",
+      "amount": 3
     },
     {
-      "amount": 1,
-      "name": "Sugar"
+      "id": "sugar",
+      "name": "Sugar",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Almond"
+      "id": "almond",
+      "name": "Almond",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "\"Sweet Dream\"",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Almond Tofu",
+      "description": "A dessert made from ground almonds. The almond milk is chilled without being properly ground and strained. You can only lie to yourself that its rough texture is what makes it special.",
+      "effect": "Increases all party members' ATK by 66 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Almond Tofu",
       "description": "A dessert made out of almond. It has a silky-smooth texture with a long-lasting aroma of almond. It's named tofu only because of its tofu-like shape.",
-      "effect": "Increases all party members' ATK by 81 for 300s."
+      "effect": "Increases all party members' ATK by 81 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "A dessert made from ground almonds. It has the exquisite look and texture of that of a piece of white jade, and could pass as an art piece — so much so that you could not entertain the idea of actually eating it.",
-      "effect": "Increases all party members' ATK by 95 for 300s."
+      "name": "Delicious Almond Tofu",
+      "description": "A dessert made from ground almonds. It has the exquisite look and texture of a piece of white jade, and could pass as an art piece — so much so that you could not entertain the idea of actually eating it.",
+      "effect": "Increases all party members' ATK by 95 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A dessert made from ground almonds. The almond milk is chilled without being properly ground and strained. You can only lie to yourself that its rough texture is what makes it special.",
-      "effect": "Increases all party members' ATK by 66 for 300s."
+    "special": {
+      "name": "\"Sweet Dream\"",
+      "description": "Xiao's specialty. His dream is very simple, and it is merely a lovely dream.",
+      "effect": "Increases all party members' ATK by 114 for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "xiao",
+        "name": "Xiao"
+      }
     }
   }
 }

@@ -1,36 +1,50 @@
 {
   "id": "noodles_with_mountain_delicacies",
   "name": "Noodles with Mountain Delicacies",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Noodles in a meat and vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Mushroom"
+      "id": "mushroom",
+      "name": "Mushroom",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Flour"
+      "id": "flour",
+      "name": "Flour",
+      "amount": 2
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
-  "variant": "Cold Noodles with Mountain Delicacies",
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Noodles with Mountain Delicacies",
+      "description": "Noodles in a meat and vegetable sauce. The moisture has been sucked right out of this dish, causing the noodles to become dry. You might choke on them even if you chew slowly.",
+      "effect": "Restores 40 Stamina"
+    },
     "normal": {
-      "description": "Noodles in a meat-and-vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
-      "effect": "Restores 50 Stamina."
+      "name": "Noodles with Mountain Delicacies",
+      "description": "Noodles in a meat and vegetable sauce. The sauce has a rustic flavor, and there's a generous amount of it mixed in with the noodles. A humble but enduringly popular dish.",
+      "effect": "Restores 50 Stamina"
     },
     "delicious": {
-      "description": "Noodles in a meat-and-vegetable sauce. The seemingly ordinary noodles has absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness.",
-      "effect": "Restores 60 Stamina."
+      "name": "Delicious Noodles with Mountain Delicacies",
+      "description": "Noodles in a meat and vegetable sauce. The seemingly ordinary noodles have absorbed the essence of the mountainous delicacies. A single mouthful is enough to taste its extreme freshness.",
+      "effect": "Restores 60 Stamina"
     },
-    "suspicious": {
-      "description": "Noodles in a meat-and-vegetable sauce. The moisture has been sucked right out of this dish, causing the noodles to become dry. You might choke on them even if you chew slowly.",
-      "effect": "Restores 40 Stamina."
+    "special": {
+      "name": "Cold Noodles with Mountain Delicacies",
+      "description": "Chongyun's specialty. Though these springy noodles would be irresistible in the sweltering summer, Chongyun insists on dining on them even in the chattering cold of winter. What a guy.",
+      "effect": "Restores 80 Stamina",
+      "character": {
+        "id": "chongyun",
+        "name": "Chongyun"
+      }
     }
   }
 }

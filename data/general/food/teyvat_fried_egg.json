@@ -1,28 +1,40 @@
 {
   "id": "teyvat_fried_egg",
   "name": "Teyvat Fried Egg",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "An egg fried on one side. The yolk flows out nicely when broken. So satisfying.",
+  "rarity": 1,
+  "recipe": [
     {
-      "amount": 1,
-      "name": "Bird Egg"
+      "id": "bird_egg",
+      "name": "Bird Egg",
+      "amount": 1
     }
   ],
-  "dish_type": ["Guardian's Dish"],
-  "variant": "Teyvat Charred Egg",
+  "dish_type": "Recovery Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Teyvat Fried Egg",
+      "description": "An egg fried on one side. A bit hard in the middle. One can only hope it still has its nutrients.",
+      "effect": "Revives a character and restores 50 HP."
+    },
     "normal": {
+      "name": "Teyvat Fried Egg",
       "description": "An egg fried on one side. The yolk flows out nicely when broken. So satisfying.",
       "effect": "Revives a character and restores 100 HP."
     },
     "delicious": {
+      "name": "Delicious Teyvat Fried Egg",
       "description": "An egg fried on one side. With a taste of the summer sun, it invigorates you from the first bite.",
       "effect": "Revives a character and restores 150 HP."
     },
-    "suspicious": {
-      "description": "An egg fried on one side. A bit hard in the middle. One can only hope it still has its nutrients.",
-      "effect": "Revives a character and restores 50 HP."
+    "special": {
+      "name": "Teyvat Charred Egg",
+      "description": "Bennett's specialty. For some reason, every single fried egg is a little burnt around the edges. That said, the burnt crisp does lends a whole new flavor to the dish.",
+      "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+      "character": {
+        "id": "bennett",
+        "name": "Bennett"
+      }
     }
   }
 }

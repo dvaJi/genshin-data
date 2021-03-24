@@ -1,24 +1,41 @@
 {
   "id": "adventurers_breakfast_sandwich",
   "name": "Sándwich del aventurero",
-  "description": "Un plato de huevo muy nutritivo. Jamón y huevo cocido sobre una rebanada de pan, cubierto por una cremosa salsa mayonesa. Su delicioso sabor proporciona suficiente motivación para salir de aventura. ¡Por algo es el desayuno más popular en el Gremio de Aventureros!.",
-  "craft": [
+  "description": "Un plato de huevo muy nutritivo. Jamón y huevo cocido sobre una rebanada de pan, cubierto por una cremosa salsa mayonesa. Su delicioso sabor proporciona suficiente motivación para salir de aventura. ¡Por algo es el desayuno más popular en el Gremio de Aventureros!",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "bird_egg",
       "name": "Huevo de pájaro",
       "amount": 4
     },
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 3
     },
     {
+      "id": "ham",
       "name": "Jamón",
-      "amount": 1
-    },
-    {
-      "name": "Lucetta",
       "amount": 1
     }
   ],
-  "effect": "Aumenta el ATQ de todos los miembros del equipo 160-228 pts durante 300s."
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Sándwich del aventurero extraño",
+      "description": "Un plato de huevo muy nutritivo. La mayonesa casi se ha solidificado, los huevos que hay debajo están demasiado cocidos y el jamón está duro. Si consigues acabártelo, por lo menos te quitará el hambre.",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 160 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Sándwich del aventurero",
+      "description": "Un plato de huevo muy nutritivo. Jamón y huevo cocido sobre una rebanada de pan, cubierto por una cremosa salsa mayonesa. Su delicioso sabor proporciona suficiente motivación para salir de aventura. ¡Por algo es el desayuno más popular en el Gremio de Aventureros!",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 194 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Sándwich del aventurero delicioso",
+      "description": "Un plato de huevo muy nutritivo. La mayonesa se derrama como los rayos del sol sobre las olas de huevo y el delicioso sabor conmueve el corazón, mientras que el punto salado del jamón disipa cualquier nube. El sol sale por el este y la luz es infinita.",
+      "effect": "Aumenta el ATQ de todos los miembros del equipo en 228 pts. durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

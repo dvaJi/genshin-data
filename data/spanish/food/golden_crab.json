@@ -1,24 +1,45 @@
 {
   "id": "golden_crab",
   "name": "Cangrejo dorado",
-  "description": "Un plato de cangrejo cocinado a la antigua. El aroma de la carne de cangrejo inunda la habitación al instante en que sale de la sartén, y un solo bocado llena el paladar con innumerables sabores rústicos de la ciudad natal de un pueblo pesquero. Parece que las costumbres  del pueblo tan simples pero atemporales guardan el secreto de esta suntuosa opulencia todo este tiempo.",
-  "craft": [
+  "description": "Un plato de cangrejo cocinado a la antigua usanza. Tras cortarlo en pedazos y cubrirlo con harina, el cangrejo se saltea hasta estar dorado y se condimenta. Debido a su dorado aspecto y su delicioso aroma, este plato hace honor a su nombre tanto en términos de emplatado como de sabor.",
+  "rarity": 4,
+  "recipe": [
     {
+      "id": "bird_egg",
       "name": "Huevo de pájaro",
       "amount": 5
     },
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 5
     },
     {
+      "id": "crab",
       "name": "Cangrejo",
       "amount": 4
     },
     {
+      "id": "salt",
       "name": "Sal",
       "amount": 2
     }
   ],
-  "effect": "Aumenta la defensa de todos los miembros del equipo por 261 y los efectos curativos por 8 durante 300s."
+  "results": {
+    "suspicious": {
+      "name": "Cangrejo dorado extraño",
+      "description": "Un plato de cangrejo cocinado a la antigua usanza. En su interior hay grumos de harina que se han solidificado como una piedra y están mezclados con fragmentos de la cáscara. En comparación con el insípido sabor de la carne de cangrejo, su cáscara al menos sí vale la pena probarla.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 215 pts. y su curación en un 6% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Cangrejo dorado",
+      "description": "Un plato de cangrejo cocinado a la antigua usanza. Tras cortarlo en pedazos y cubrirlo con harina, el cangrejo se saltea hasta estar dorado y se condimenta. Debido a su dorado aspecto y su delicioso aroma, este plato hace honor a su nombre tanto en términos de emplatado como de sabor.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 261 pts. y su curación en un 8% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Cangrejo dorado delicioso",
+      "description": "Un plato de cangrejo cocinado a la antigua usanza. El aroma a cangrejo inunda la habitación al instante en el que sale de la sartén. Un solo bocado es suficiente para sentir en el paladar la insondable y conmovedora belleza de un típico pueblo pesquero. Parece que la dorada opulencia de este plato se debe nada más y nada menos que a su sencillez.",
+      "effect": "Aumenta la DEF de todos los miembros del equipo en 308 pts. y su curación en un 10% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

@@ -1,20 +1,41 @@
 {
   "id": "sticky_honey_roast",
-  "name": "Carne frita con zanahorias a la miel",
-  "description": "Un plato de carne con salsa de miel. La salsa de miel sorprende por su explosión de sabores. Es como si estuvieras tomando el sol en un verano caluroso.",
-  "craft": [
+  "name": "Asado a la miel",
+  "description": "Un plato de carne con salsa de miel. Las zanahorias y la carne forman una combinación perfecta. Este plato es perfecto para tomar en invierno.",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 3
     },
     {
+      "id": "carrot",
       "name": "Zanahoria",
       "amount": 2
     },
     {
+      "id": "sugar",
       "name": "Azúcar",
       "amount": 2
     }
   ],
-  "effect": "Disminuye el consumo de aguante de los miembros del equipo al escalar y correr un 15/20/25% durante 900s."
+  "dish_type": "Platos para aventuras",
+  "results": {
+    "suspicious": {
+      "name": "Asado a la miel extraño",
+      "description": "Un plato de carne con salsa de miel. La salsa está tan adherida a la carne que es difícil distinguir si lo que se está comiendo es carne o miel.",
+      "effect": "Disminuye el Consumo de Aguante al escalar y esprintar en un 15% durante 900 s de todos los miembros del equipo. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Asado a la miel",
+      "description": "Un plato de carne con salsa de miel. Las zanahorias y la carne forman una combinación perfecta. Este plato es perfecto para tomar en invierno.",
+      "effect": "Disminuye el Consumo de Aguante al escalar y esprintar en un 20% durante 900 s de todos los miembros del equipo. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Asado a la miel delicioso",
+      "description": "Un plato de carne con salsa de miel. La salsa sorprende por la explosión de sabores que causa en la boca. Es como si estuvieras tomando el sol en un caluroso día de verano.",
+      "effect": "Disminuye en un 25% el Consumo de Aguante de todos los miembros del equipo al escalar y esprintar durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

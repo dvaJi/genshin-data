@@ -25,40 +25,6 @@ export interface CommonMaterial extends Material {
 
 export interface ElementalStoneMaterial extends Material {}
 
-type FoodResult = {
-  normal: {
-    description: string;
-    effect: string;
-  };
-  delicious: {
-    description: string;
-    effect: string;
-  };
-  suspicious: {
-    description: string;
-    effect: string;
-  };
-};
-
-export interface FoodNormal extends Material {
-  craft: Craft[];
-  dish_type: string[];
-  results?: FoodResult;
-  rarity: number;
-  variant?: string;
-}
-
-export interface FoodSpecial extends Material {
-  craft: Craft[];
-  dish_type: string[];
-  rarity: number;
-  character: string;
-  effect: string;
-  base: string;
-}
-
-export interface Food extends FoodNormal, FoodSpecial {}
-
 export interface Ingredients extends Material {
   craft: Craft;
 }

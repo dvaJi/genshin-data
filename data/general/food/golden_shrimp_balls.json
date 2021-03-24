@@ -1,35 +1,41 @@
 {
   "id": "golden_shrimp_balls",
   "name": "Golden Shrimp Balls",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A deep-fried shrimp dish. The aroma assaults your senses, while the crispy potatoes bring out the light sweetness of the shrimp meat. This, in tandem with its cute, small shape, makes it very enticing indeed.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 5,
-      "name": "Shrimp Meat"
+      "id": "shrimp_meat",
+      "name": "Shrimp Meat",
+      "amount": 5
     },
     {
-      "amount": 4,
-      "name": "Potato"
+      "id": "potato",
+      "name": "Potato",
+      "amount": 4
     },
     {
-      "amount": 3,
-      "name": "Flour"
+      "id": "flour",
+      "name": "Flour",
+      "amount": 3
     }
   ],
-  "dish_type": ["Guardian's Dish"],
+  "dish_type": "Recovery Dish",
   "results": {
-    "normal": {
-      "description": "A deep-fried shrimp dish. The aroma assaults your senses, while the crispy potatoes bring out the light sweetness of the shrimp meat. This, in tandem with its cute, small shape, makes it very enticing indeed.",
-      "effect": "Revives a character and restores 1,200 HP."
-    },
-    "delicious": {
-      "description": "A deep-fried shrimp dish. From the rich, indulgent scent of crispy golden potato strips, to the satisfying crunch as you take your first bite, to the grand finale of delicious sweet shrimp, this dish is pure pleasure.",
-      "effect": "Revives a character and restores 1,500 HP."
-    },
     "suspicious": {
+      "name": "Suspicious Golden Shrimp Balls",
       "description": "A deep-fried shrimp dish. Hastily cast into hot oil and promptly forgotten about, the result is a disastrous combination of raw shrimp and burnt potato strips.",
       "effect": "Revives a character and restores 900 HP."
+    },
+    "normal": {
+      "name": "Golden Shrimp Balls",
+      "description": "A deep-fried shrimp dish. The aroma assaults your senses, while the crispy potatoes bring out the light sweetness of the shrimp meat. This, in tandem with its cute, small shape, makes it very enticing indeed.",
+      "effect": "Revives a character and restores 1200 HP."
+    },
+    "delicious": {
+      "name": "Delicious Golden Shrimp Balls",
+      "description": "A deep-fried shrimp dish. From the rich, indulgent scent of crispy golden potato strips, to the satisfying crunch as you take your first bite, to the grand finale of delicious sweet shrimp, this dish is pure pleasure.",
+      "effect": "Revives a character and restores 1500 HP."
     }
   }
 }

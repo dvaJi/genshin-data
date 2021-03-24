@@ -1,36 +1,50 @@
 {
   "id": "cream_stew",
   "name": "Cream Stew",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A meat and vegetable stew. The thick juices taste great with the tender meat and vegetables.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 2,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Cream"
+      "id": "cream",
+      "name": "Cream",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Snapdragon"
+      "id": "snapdragon",
+      "name": "Snapdragon",
+      "amount": 1
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
-  "variant": "Spicy Stew",
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Cream Stew",
+      "description": "A meat and vegetable stew. Surprisingly dry for something that's meant to have liquid.",
+      "effect": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Cream Stew",
       "description": "A meat and vegetable stew. The thick juices taste great with the tender meat and vegetables.",
-      "effect": "Decreases Stamina depleted by sprinting for all party members by 20% for 900s."
+      "effect": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Cream Stew",
       "description": "A meat and vegetable stew. These warm, buttery ingredients are so good that you almost want to dive into the cream stew and cuddle up with them.",
-      "effect": "Decreases Stamina depleted by sprinting for all party members by 25% for 900s."
+      "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "A meat and vegetable stew. Surprisingly dry for something that's meant to have liquid.",
-      "effect": "Decreases Stamina depleted by sprinting for all party members by 15% for 900s."
+    "special": {
+      "name": "Spicy Stew",
+      "description": "Barbara's specialty. Carrots cut into cute little stars make this dish... Wait, AHH, where did this spiciness come from!?",
+      "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 1500s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "barbara",
+        "name": "Barbara"
+      }
     }
   }
 }

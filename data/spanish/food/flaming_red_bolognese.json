@@ -1,21 +1,50 @@
 {
   "id": "flaming_red_bolognese",
   "name": "Pasta a la boloñesa",
-  "description": "Pasta con salsa boloñesa. El intenso y auténtico sabor te transporta a una aventura culinaria desde la primera cucharada.",
-  "craft": [
+  "description": "Pasta con mucha salsa boloñesa. El aroma a carne y hierbas abre el apetito.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "flour",
       "name": "Harina",
       "amount": 2
     },
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 2
     },
     {
+      "id": "tomato",
       "name": "Tomate",
       "amount": 1
     }
   ],
-  "effect": "Restaura 18/20/22% de la Vida máxima de todos los miembros del equipo y regenera 300/390/480 pts. de Vida cada 5s durante 30s.",
-  "variant": "Pasta a la boloñesa misteriosa"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Pasta a la boloñesa extraña",
+      "description": "Pasta con salsa boloñesa. Los espaguetis están un poco blandos y se meten entre los dientes.",
+      "effect": "Restaura un 18% de la Vida Máx. al personaje seleccionado y regenera 300 pts. de Vida cada 5 s durante 30 s."
+    },
+    "normal": {
+      "name": "Pasta a la boloñesa",
+      "description": "Pasta con mucha salsa boloñesa. El aroma a carne y hierbas abre el apetito.",
+      "effect": "Restaura un 20% de la Vida Máx. al personaje seleccionado y regenera 390 pts. de Vida cada 5 s 30 s."
+    },
+    "delicious": {
+      "name": "Pasta a la boloñesa deliciosa",
+      "description": "Pasta con salsa boloñesa. Su intenso y auténtico sabor te transportarán a una aventura culinaria desde el primer bocado.",
+      "effect": "Restaura un 22% de la Vida Máx. al personaje seleccionado y regenera 470 pts. de Vida cada 5 s durante 30 s."
+    },
+    "special": {
+      "name": "Pasta a la boloñesa mágica",
+      "description": "La especialidad de Lisa. Con un fantástico color, siempre tendrás hueco para un bocado más. ¿Habrá hechizado Lisa este plato?",
+      "effect": "Restaura un 26% de la Vida Máx. al personaje seleccionado y regenera 570 pts. de Vida cada 5 s durante 30 s.",
+      "character": {
+        "id": "lisa",
+        "name": "Lisa"
+      }
+    }
+  }
 }

@@ -1,40 +1,54 @@
 {
   "id": "sunshine_sprat",
   "name": "Sunshine Sprat",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Gently fried fish dish. Cooked with the right heat and duration to maintain freshness for a long time. Tender and flaky, it is delicately browned thanks to the layer of aromatic butter on top, which creates a multi-layered and unique flavor.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Butter"
+      "id": "butter",
+      "name": "Butter",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Fish"
+      "id": "fish",
+      "name": "Fish",
+      "amount": 3
     },
     {
-      "amount": 1,
-      "name": "Salt"
+      "id": "salt",
+      "name": "Salt",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Small Lamp Grass"
+      "id": "small_lamp_grass",
+      "name": "Small Lamp Grass",
+      "amount": 1
     }
   ],
-  "dish_type": ["Sage's Dish"],
-  "variant": "Woodland Dream",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Sunshine Sprat",
+      "description": "Gently fried fish dish. The fish has been fried too long, which has deprived it of all its freshness and springiness. The slightest touch with your utensils might cause it to break into small pieces.",
+      "effect": "Increases all party members' Shield Strength by 20% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
-      "description": "Gently fried fish dish. Cooked with the right heat and duration to maintain freshness for a long time. Tender and flaky, delicately browned thanks to the layer of aromatic butter on top, which creates a multi-layered and unique flavor.",
-      "effect": "Increases all party members' Shield strength by 25% for 300s."
+      "name": "Sunshine Sprat",
+      "description": "Gently fried fish dish. Cooked with the right heat and duration to maintain freshness for a long time. Tender and flaky, it is delicately browned thanks to the layer of aromatic butter on top, which creates a multi-layered and unique flavor.",
+      "effect": "Increases all party members' Shield Strength by 25% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "Gently fried fish dish. The fish melts in your mouth, melding the flavors of the land and sea together as it does, making for an unforgettable experience. Little wonder, then, that such a simply-made dish can make it into restaurants of great class.",
-      "effect": "Increases all party members' Shield strength by 30% for 300s."
+      "name": "Delicious Sunshine Sprat",
+      "description": "Gently fried fish dish. The fish melts in your mouth, melding the flavors of land and sea together as it does, making for an unforgettable experience. Little wonder, then, that such a simply-made dish can make it into restaurants of great class.",
+      "effect": "Increases all party members' Shield Strength by 30% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "Gently fried fish dish. The fish has been fried too long, which has deprived it of all its freshness and springiness. The slightest touch with your utensils might cause it to break into small pieces.",
-      "effect": "Increases all party members' Shield strength by 20% for 300s."
+    "special": {
+      "name": "Woodland Dream",
+      "description": "Albedo's specialty. The fruits and vegetables are laid out like grass, and they stand tall like trees. In this miniature world-in-a-plate, you circle the mottled city wall, follow brown alleys, and enter the light orange castle. A sweet, tender taste then bursts forth like a blooming flower. You open your eyes. There is a smile in the white-haired prince's eyes.",
+      "effect": "Increases all party members' Shield Strength by 35% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "albedo",
+        "name": "Albedo"
+      }
     }
   }
 }

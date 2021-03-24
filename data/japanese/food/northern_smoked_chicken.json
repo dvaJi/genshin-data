@@ -1,5 +1,41 @@
 {
   "id": "northern_smoked_chicken",
   "name": "北地のスモークチキン",
-  "description": "料理で作成"
+  "description": "野菜と燻製にした鳥肉の組合せ。北地の家庭料理の定番。大事な客をもてなす時に出す。",
+  "rarity": 2,
+  "recipe": [
+    {
+      "id": "smoked_fowl",
+      "name": "鳥肉の燻製",
+      "amount": 1
+    },
+    {
+      "id": "onion",
+      "name": "玉ねぎ",
+      "amount": 1
+    },
+    {
+      "id": "cabbage",
+      "name": "キャベツ",
+      "amount": 1
+    }
+  ],
+  "dish_type": "冒険系料理",
+  "results": {
+    "suspicious": {
+      "name": "微妙な北地のスモークチキン",
+      "description": "野菜と燻製にした鳥肉の組合せ。誰かをもてなす前には、まず一口味見しよう。今から作り直すのがまだ間に合えるかも。",
+      "effect": "スタミナを40回復する。"
+    },
+    "normal": {
+      "name": "北地のスモークチキン",
+      "description": "野菜と燻製にした鳥肉の組合せ。北地の家庭料理の定番。大事な客をもてなす時に出す。",
+      "effect": "スタミナを50回復する。"
+    },
+    "delicious": {
+      "name": "美味しそうな北地のスモークチキン",
+      "description": "野菜と燻製にした鳥肉の組合せ。完璧な食感をしており、国の主をもてなす時に出しても恥ずかしくない。",
+      "effect": "スタミナを60回復する。"
+    }
+  }
 }

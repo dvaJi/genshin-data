@@ -1,32 +1,45 @@
 {
   "id": "stirfried_filet",
   "name": "Stir-Fried Filet",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Sliced meat flash-fried in a wok. The mild Jueyun Chili adds just the right amount of kick to the delicious aroma of the meat. Perfect as an appetizer and also goes well with rice.",
+  "rarity": 1,
+  "recipe": [
     {
-      "amount": 1,
-      "name": "Raw Meat"
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Jueyun Chili"
+      "id": "jueyun_chili",
+      "name": "Jueyun Chili",
+      "amount": 1
     }
   ],
-  "dish_type": ["Guardian's Dish"],
-  "variant": "Sauteed Meat Slices",
+  "dish_type": "Recovery Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Stir-Fried Filet",
+      "description": "Slices of meat stir-fried on high heat — but for so long that they are now indistinguishable from the accompanying Jueyun Chili. Best served with rice, if served at all.",
+      "effect": "Revives a character and restores 50 HP."
+    },
     "normal": {
+      "name": "Stir-Fried Filet",
       "description": "Sliced meat flash-fried in a wok. The mild Jueyun Chili adds just the right amount of kick to the delicious aroma of the meat. Perfect as an appetizer and also goes well with rice.",
       "effect": "Revives a character and restores 100 HP."
     },
     "delicious": {
+      "name": "Delicious Stir-Fried Filet",
       "description": "Slices of meat stir-fried on high heat. The spiciness is as a blaze amidst a field of snow that ignites your appetite and leaves you craving more.",
       "effect": "Revives a character and restores 150 HP."
     },
-    "suspicious": {
-      "description": "Slices of meat stir-fried on high heat — but for so long that they are now indistinguishable from the accompanying Jueyun Chili. Best served with rice, if served at all.",
-      "effect": "Revives a character and restores 50 HP."
+    "special": {
+      "name": "Flash-Fried Filet",
+      "description": "Beidou's specialty. They say that Beidou once learned some tricks from Xiangling, making some refinements and adding more flavor to this dish. If you can clean it out in one go, perhaps you might impress her.",
+      "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+      "character": {
+        "id": "beidou",
+        "name": "Beidou"
+      }
     }
   }
 }

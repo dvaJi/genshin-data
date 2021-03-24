@@ -1,13 +1,40 @@
 {
   "id": "steak",
   "name": "Filete a la barbacoa",
-  "description": "Un filete a la parrilla. Jugoso, con un increíble sabor. Dale un mordisco y te sentirás más vivo que nunca.",
-  "craft": [
+  "description": "Un filete a la parrilla. El calor que ha absorbido al ser cocinado le da un toque muy jugoso, el cual se puede apreciar al cortarlo.",
+  "rarity": 1,
+  "recipe": [
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 2
     }
   ],
-  "effect": "Revive a un personaje y restaura 50/100/150 pts. de Vida.",
-  "variant": "Filete de la Caballera"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Filete a la barbacoa extraño",
+      "description": "Un filete a la parrilla. Su apariencia es lúgubre y débil. Si el filete tuviera sentimientos, sentiría pena por sí mismo.",
+      "effect": "Revive a un personaje y restaura 50 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Filete a la barbacoa",
+      "description": "Un filete a la parrilla. El calor que ha absorbido al ser cocinado le da un toque muy jugoso, el cual se puede apreciar al cortarlo.",
+      "effect": "Revive a un personaje y restaura 100 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Filete a la barbacoa delicioso",
+      "description": "Un filete a la parrilla. Jugoso y con un increíble sabor. Dale un mordisco y te sentirás más vivo que nunca.",
+      "effect": "Revive a un personaje y restaura 150 pts. de su Vida."
+    },
+    "special": {
+      "name": "Filete de la Caballera Exploradora",
+      "description": "La especialidad de Amber. Sin cocinar por un lado y quemado por el otro. Cierra los ojos y pégale un mordisco. Amber se pondrá contenta.",
+      "effect": "Restaura un 10% de la Vida Máx. y 150 pts. de Vida adicionales al personaje seleccionado.",
+      "character": {
+        "id": "amber",
+        "name": "Amber"
+      }
+    }
+  }
 }

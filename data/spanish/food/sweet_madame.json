@@ -1,16 +1,45 @@
 {
   "id": "sweet_madame",
   "name": "Pollo asado con miel",
-  "description": "Pollo asado con miel. Suave y dulce, la carne y la miel se combinan creando un sabor extremadamente delicioso. ¡Querrás comer hasta los huesos!.",
-  "craft": [
+  "description": "Pollo asado con miel. La miel y las flores dulces complementan la excelente textura de la carne de pollo.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "fowl",
       "name": "Carne de ave",
       "amount": 2
     },
     {
+      "id": "sweet_flower",
       "name": "Flor dulce",
       "amount": 2
     }
   ],
-  "effect": "Restaura 22% de la Vida Máxima y 900/1200/1500 pts. de Vida adicionales."
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Pollo asado con miel extraño",
+      "description": "Pollo asado con miel. Los sabores dulces de las flores a punto de marchitarse dejan un sabor amargo al plato, cuyo olor se nota a distancia.",
+      "effect": "Restaura un 20% de la Vida Máx. y 900 pts. de Vida al personaje seleccionado."
+    },
+    "normal": {
+      "name": "Pollo asado con miel",
+      "description": "Pollo asado con miel. La miel y las flores dulces complementan la excelente textura de la carne de pollo.",
+      "effect": "Restaura un 22% de la Vida Máx. y 1200 pts. de Vida al personaje seleccionado."
+    },
+    "delicious": {
+      "name": "Pollo asado con miel delicioso",
+      "description": "Pollo asado con miel. Suave y dulce, la carne y la miel se combinan creando un sabor extremadamente delicioso. ¡Querrás comerte hasta los huesos!",
+      "effect": "Restaura un 24% de la Vida Máx. y 1500 pts. de Vida al personaje seleccionado."
+    },
+    "special": {
+      "name": "Última cena",
+      "description": "La especialidad de Rosaria. Las oscuras espinas hacen que sea difícil decidir por dónde empezar. Tras cierto esfuerzo, consigues despejar la decoración del plato y, para tu sorpresa, el primer bocado del tierno pollo revela un sabor increíble. Rosaria parece satisfecha mientras observa tu reacción.",
+      "effect": "Restaura un 30% de Vida Máx. y 1750 pts. de Vida al personaje seleccionado.",
+      "character": {
+        "id": "rosaria",
+        "name": "Rosaria"
+      }
+    }
+  }
 }

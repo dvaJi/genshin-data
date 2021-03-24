@@ -1,17 +1,45 @@
 {
   "id": "stirfried_filet",
   "name": "Carne frita",
-  "description": "Carne silvestre a fuego alto. El picante es como una hoguera en la nieve, que al instante despierta el sentido del gusto. Es incluso adictivo.",
-  "craft": [
+  "description": "Carne hecha a fuego rápido. El aroma de la carne se mezcla perfectamente con el ligero sabor picante del chile de Jueyun. Es una excelente opción como aperitivo o como plato principal.",
+  "rarity": 1,
+  "recipe": [
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 1
     },
     {
+      "id": "jueyun_chili",
       "name": "Chile de Jueyun",
       "amount": 1
     }
   ],
-  "effect": "Revive a un personaje y restaura 50/100/150 pts. de Vida.",
-  "variant": "Tiras de carne salteadas"
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Carne frita extraña",
+      "description": "Carne hecha a fuego rápido. La carne, ahora chamuscada, se mezcló con chiles de Jueyun. Para ser comestible, haría falta comerla con mucho arroz.",
+      "effect": "Revive a un personaje y restaura 50 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Carne frita",
+      "description": "Carne hecha a fuego rápido. El aroma de la carne se mezcla perfectamente con el ligero sabor picante del chile de Jueyun. Es una excelente opción como aperitivo o como plato principal.",
+      "effect": "Revive a un personaje y restaura 100 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Carne frita deliciosa",
+      "description": "Carne hecha a fuego rápido. El picante, en su punto perfecto, es como una reconfortante hoguera en un campo nevado capaz de despertar las papilas gustativas. Su sabor puede llegar a ser adictivo.",
+      "effect": "Revive a un personaje y restaura 150 pts. de su Vida."
+    },
+    "special": {
+      "name": "Tiras de carne salteadas",
+      "description": "La especialidad de Beidou. Dicen que Beidou aprendió algunos trucos de cocina de Xiangling y refinó y añadió más sabor a este plato. Si puedes dejarlo limpio de una vez, tal vez puedas impresionarla.",
+      "effect": "Restaura un 10% de la Vida Máx. y 150 pts. de Vida adicionales al personaje seleccionado.",
+      "character": {
+        "id": "beidou",
+        "name": "Beidou"
+      }
+    }
+  }
 }

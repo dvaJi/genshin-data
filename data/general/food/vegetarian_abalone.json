@@ -1,32 +1,45 @@
 {
   "id": "vegetarian_abalone",
   "name": "Vegetarian Abalone",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A vegetarian dish with a rich flavor. The matsutake has been sliced thin and fried till golden before pouring the sauce. The matsutake meat is sumptuous and has flavor to match that of fresh abalone — almost enough to make you think it was the real thing.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 2,
-      "name": "Matsutake"
+      "id": "matsutake",
+      "name": "Matsutake",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Snapdragon"
+      "id": "snapdragon",
+      "name": "Snapdragon",
+      "amount": 2
     }
   ],
-  "dish_type": ["Guardian's Dish"],
-  "variant": "Ghostly March",
+  "dish_type": "Recovery Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Vegetarian Abalone",
+      "description": "A vegetarian dish with a rich flavor. The overly thick sauce has totally covered the freshness that the ingredients should have had, and the condiment leaves your mouth dry no matter how much you wash it down with water.",
+      "effect": "Revives a character and restores 250 HP."
+    },
     "normal": {
+      "name": "Vegetarian Abalone",
       "description": "A vegetarian dish with a rich flavor. The matsutake has been sliced thin and fried till golden before pouring the sauce. The matsutake meat is sumptuous and has flavor to match that of fresh abalone — almost enough to make you think it was the real thing.",
-      "effect": "Revives a character and restores 400 HP"
+      "effect": "Revives a character and restores 400 HP."
     },
     "delicious": {
+      "name": "Delicious Vegetarian Abalone",
       "description": "A vegetarian dish with a rich flavor. With the aid of the sauce, the matsutake has achieved an excellent, elegant mouth-feel that so rivals scallop in tenderness and abalone in freshness that you can hardly tell them apart. If you left your customer guessing before revealing the truth later, you would be sure to earn their astonished praise.",
-      "effect": "Revives a character and restores 550 HP"
+      "effect": "Revives a character and restores 550 HP."
     },
-    "suspicious": {
-      "description": "A vegetarian dish with a rich flavor. The overly thick sauce has totally covered the freshness that the ingredients should have had, and the condiment leaves your mouth dry no matter how much you wash it down with water.",
-      "effect": "Revives a character and restores 250 HP"
+    "special": {
+      "name": "Ghostly March",
+      "description": "Hu Tao's specialty. The round-faced ghouls seem quite cute, squeezed into a pile as they are. But if you were to fall to temptation and try but one of them, you may yet come to regret it for a long while... After all, this plate is full of top-quality, taste-bud-blasting— Actually, what on earth is this stuff, anyway?",
+      "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+      "character": {
+        "id": "hu_tao",
+        "name": "Hu Tao"
+      }
     }
   }
 }

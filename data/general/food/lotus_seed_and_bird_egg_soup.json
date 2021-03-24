@@ -1,36 +1,41 @@
 {
   "id": "lotus_seed_and_bird_egg_soup",
   "name": "Lotus Seed and Bird Egg Soup",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "A steamed egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 1,
-      "name": "Lotus Head"
+      "id": "lotus_head",
+      "name": "Lotus Head",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Bird Egg"
+      "id": "bird_egg",
+      "name": "Bird Egg",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Sugar"
+      "id": "sugar",
+      "name": "Sugar",
+      "amount": 1
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
-  "variant": "Lantern Rite Special Lotus Seed and Bird Egg Soup",
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Lotus Seed and Bird Egg Soup",
+      "description": "A steamed egg dish. The lengthy steaming process has caused unusual honeycomb figure to appear on the surface of the egg custard. It goes without saying that there isn't hardly a hint of bitterness left in the lotus.",
+      "effect": "Decreases all party members' sprinting Stamina consumption by 15% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
-      "description": "A steaming egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
-      "effect": "Decreases all party members'sprinting Stamina consumption by 20% for 900s."
+      "name": "Lotus Seed and Bird Egg Soup",
+      "description": "A steamed egg dish. The clear, gold colors of the egg custard have been embellished with several lotus roots. Regardless of whether it is breakfast or a post-meal snack, its superior nutritional value can greatly nourish the body.",
+      "effect": "Decreases all party members' sprinting Stamina consumption by 20% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "A steaming egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds.",
-      "effect": "Decreases all party members'sprinting Stamina consumption by 25% for 900s."
-    },
-    "suspicious": {
-      "description": "A steaming egg dish. The lengthy steaming process has caused unusual honeycomb figure to appear on the surface of the egg custard. It goes without saying that there isn't hardly a hint of bitterness left in the lotus.",
-      "effect": "Decreases all party members'sprinting Stamina consumption by 15% for 900s."
+      "name": "Delicious Lotus Seed and Bird Egg Soup",
+      "description": "A steamed egg dish. The succulent eggs melt right in your mouth, and before you know it, a smooth and subtle sweetness of newly sprung lotus flowers covers your tastebuds.",
+      "effect": "Decreases all party members' sprinting Stamina consumption by 25% for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

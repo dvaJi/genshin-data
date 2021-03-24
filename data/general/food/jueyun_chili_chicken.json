@@ -1,36 +1,50 @@
 {
   "id": "jueyun_chili_chicken",
   "name": "Jueyun Chili Chicken",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Chicken in a dressing, served cold. The way the dish has been prepared captures the succulence of the chicken perfectly. Beneath the glowing gold skin, the meat has a mildly hot flavor.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 2,
-      "name": "Fowl"
+      "id": "fowl",
+      "name": "Fowl",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Jueyun Chili"
+      "id": "jueyun_chili",
+      "name": "Jueyun Chili",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Pepper"
+      "id": "pepper",
+      "name": "Pepper",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
-  "variant": "Rockin' Riffin' Chicken!",
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Jueyun Chili Chicken",
+      "description": "Chicken in a dressing, served cold. The chicken probably isn't properly marinated, so it's only salty on the outside but bland on the inside. The taste reminds you of water-poached chicken breasts.",
+      "effect": "Increases all party members' CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
-      "description": "Cold chicken mixed in dressings. The finesse technique used in mixing the dish retained the freshness of the delightful juice contained within the chicken. The glowing gold chicken skin hides a mildly hot flavor underneath.",
-      "effect": "Increases all party members' CRIT Rate by 9% for 300s."
+      "name": "Jueyun Chili Chicken",
+      "description": "Chicken in a dressing, served cold. The way the dish has been prepared captures the succulence of the chicken perfectly. Beneath the glowing gold skin, the meat has a mildly hot flavor.",
+      "effect": "Increases all party members' CRIT Rate by 9% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "Cold chicken mixed in dressings. The chicken is extremely tender, juicy, and sweet. The delicious taste transports you to the realm of dreams.",
-      "effect": "Increases all party members' CRIT Rate by 12% for 300s."
+      "name": "Delicious Jueyun Chili Chicken",
+      "description": "Chicken in a dressing, served cold. The chicken is extremely tender, juicy, and sweet. The delicious taste transports you to the realm of dreams.",
+      "effect": "Increases all party members' CRIT Rate by 12% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
-    "suspicious": {
-      "description": "Cold chicken mixed in dressings. The chicken probably isn't properly marinated, so it's only salty on the outside but bland on the inside. The taste reminds you of water-poached chicken breasts.",
-      "effect": "Increases all party members' CRIT Rate by 6% for 300s."
+    "special": {
+      "name": "Rockin' Riffin' Chicken!",
+      "description": "Xinyan's specialty. Its demonic appearance hides an absolutely demonic spiciness. Eat it, tear up, eat some more, and don't stop till you drop! Surely only a demon could have invented such a dish!",
+      "effect": "Increases all party members' CRIT Rate by 16% for 300s. In Co-Op Mode, this effect only applies to your own character(s).",
+      "character": {
+        "id": "xinyan",
+        "name": "Xinyan"
+      }
     }
   }
 }

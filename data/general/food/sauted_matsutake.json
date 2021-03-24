@@ -1,39 +1,46 @@
 {
   "id": "sauted_matsutake",
   "name": "Sautéed Matsutake",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Sautéed slices of Matsutake. Cooked in butter, it's crisp outside yet tender inside. Eat it before someone steals it from you.",
+  "rarity": 3,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Matsutake"
+      "id": "matsutake",
+      "name": "Matsutake",
+      "amount": 3
     },
     {
-      "amount": 3,
-      "name": "Flour"
+      "id": "flour",
+      "name": "Flour",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Pinecone"
+      "id": "pinecone",
+      "name": "Pinecone",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Butter"
+      "id": "butter",
+      "name": "Butter",
+      "amount": 2
     }
   ],
-  "dish_type": ["Warrior's Dish"],
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Sautéed Matsutake",
+      "description": "Sautéed slices of Matsutake. A shame that control of the fire was lost. Best you can do now is try to trick people who didn't see you cooking it into thinking they are just potato chips.",
+      "effect": "Increases all party members' ATK by 160 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Sautéed Matsutake",
       "description": "Sautéed slices of Matsutake. Cooked in butter, it's crisp outside yet tender inside. Eat it before someone steals it from you.",
-      "effect": "Increases all party members' ATK by 194 for 300s."
+      "effect": "Increases all party members' ATK by 194 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Sautéed Matsutake",
       "description": "Sautéed slices of Matsutake. So smooth and fragrant, eating them is like having the bursting vitality of spring absorbed into your stomach.",
-      "effect": "Increases all party members' ATK by 228 for 300s."
-    },
-    "suspicious": {
-      "description": "Sautéed slices of Matsutake. A shame that control of the fire was lost. Best you can do now is try to trick people who didn't see you cooking it into thinking they are just potato chips.",
-      "effect": "Increases all party members' ATK by 160 for 300s."
+      "effect": "Increases all party members' ATK by 228 for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

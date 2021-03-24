@@ -1,35 +1,41 @@
 {
   "id": "northern_smoked_chicken",
   "name": "Northern Smoked Chicken",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Smoked fowl paired with vegetables. A staple for Northerners, often made for honored guests.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 1,
-      "name": "Smoked Fowl"
+      "id": "smoked_fowl",
+      "name": "Smoked Fowl",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Onion"
+      "id": "onion",
+      "name": "Onion",
+      "amount": 1
     },
     {
-      "amount": 1,
-      "name": "Cabbage"
+      "id": "cabbage",
+      "name": "Cabbage",
+      "amount": 1
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Northern Smoked Chicken",
+      "description": "Smoked fowl paired with vegetables. It's true. You really ought to try your own cooking before serving it to your guests. It's not too late to make a new one, perhaps?",
+      "effect": "Restores 40 Stamina"
+    },
     "normal": {
+      "name": "Northern Smoked Chicken",
       "description": "Smoked fowl paired with vegetables. A staple for Northerners, often made for honored guests.",
-      "effect": "Restores 50 Stamina."
+      "effect": "Restores 50 Stamina"
     },
     "delicious": {
-      "description": "Smoked fowl paired with vegetables. A dish fit for a King. Go on, find one and serve him with pride.",
-      "effect": "Restores 60 Stamina."
-    },
-    "suspicious": {
-      "description": "Smoked fowl paired with vegetables. It's true. You really ought to try your own cooking before serving it to your guests. It's not too late to make a new one, perhaps?",
-      "effect": "Restores 40 Stamina."
+      "name": "Delicious Northern Smoked Chicken",
+      "description": "Smoked fowl paired with vegetables. A dish fit for a king. Go on, find one and serve him with pride.",
+      "effect": "Restores 60 Stamina"
     }
   }
 }

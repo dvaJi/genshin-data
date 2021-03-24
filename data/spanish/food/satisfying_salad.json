@@ -1,25 +1,55 @@
 {
   "id": "satisfying_salad",
   "name": "Ensalada saludable",
-  "description": "Una ensalada muy fresca. Ligera, saludable y con muchos ingredientes diferentes. Nunca te cansarás de comerla. Tiene un sabor y textura diferentes con cada bocado.",
-  "craft": [
+  "description": "Una ensalada con muchas hojas verdes. No son solo papas al vapor y verduras frescas, sino que también tiene un huevo cocido encima. Satisface tanto a los ojos como al estómago.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "cabbage",
       "name": "Repollo",
       "amount": 2
     },
     {
+      "id": "apple",
       "name": "Manzana",
       "amount": 2
     },
     {
+      "id": "bird_egg",
       "name": "Huevo de pájaro",
       "amount": 1
     },
     {
+      "id": "potato",
       "name": "Papa",
       "amount": 1
     }
   ],
-  "effect": "Aumenta la Probabilidad Crítica de todos los miembros del equipo un 6/9/12% durante 300s.",
-  "variant": "Sabiduría suprema (vida)"
+  "dish_type": "Platos que mejoran ataques",
+  "results": {
+    "suspicious": {
+      "name": "Ensalada saludable extraña",
+      "description": "Una ensalada con muchas hojas verdes. Tiene un aspecto muy pobre y parece que se olvidaron de ponerle huevo cocido y papas.",
+      "effect": "Aumenta en un 6% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Ensalada saludable",
+      "description": "Una ensalada con muchas hojas verdes. No son solo papas al vapor y verduras frescas, sino que también tiene un huevo cocido encima. Satisface tanto a los ojos como al estómago.",
+      "effect": "Aumenta en un 9% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Ensalada saludable deliciosa",
+      "description": "Una ensalada muy fresca. Ligera, saludable y con muchos ingredientes diferentes. Nunca te cansarás de comerla. Tiene un sabor y textura diferentes con cada bocado.",
+      "effect": "Aumenta en un 12% la Prob. CRIT de todos los miembros del equipo durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "special": {
+      "name": "Sabiduría suprema (vida)",
+      "description": "La especialidad de Mona. Un gran trabajo de una gran astróloga. Su mayor cualidad consiste en su capacidad de llenar el estómago a un precio asequible.",
+      "effect": "Aumenta la Prob. CRIT de todos los miembros del equipo un 16% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios miembros.",
+      "character": {
+        "id": "mona",
+        "name": "Mona"
+      }
+    }
+  }
 }

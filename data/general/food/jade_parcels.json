@@ -1,39 +1,46 @@
 {
   "id": "jade_parcels",
   "name": "Jade Parcels",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "An exquisite-looking dish. The ham's sweetness is locked inside the fresh vegetables, drizzled with a spicy broth. Delicious is an understatement.",
+  "rarity": 4,
+  "recipe": [
     {
-      "amount": 3,
-      "name": "Lotus Head"
+      "id": "lotus_head",
+      "name": "Lotus Head",
+      "amount": 3
     },
     {
-      "amount": 2,
-      "name": "Jueyun Chili"
+      "id": "jueyun_chili",
+      "name": "Jueyun Chili",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Cabbage"
+      "id": "cabbage",
+      "name": "Cabbage",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Ham"
+      "id": "ham",
+      "name": "Ham",
+      "amount": 1
     }
   ],
-  "dish_type": ["Warrior's Dish"],
+  "dish_type": "ATK-Boosting Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Jade Parcels",
+      "description": "An exquisite-looking dish. Food ingredients of different degrees of doneness are wrapped in shriveled vegetables. It looks depressing to say the least.",
+      "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
+      "name": "Jade Parcels",
       "description": "An exquisite-looking dish. The ham's sweetness is locked inside the fresh vegetables, drizzled with a spicy broth. Delicious is an understatement.",
-      "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s."
+      "effect": "Increases all party members' ATK by 272 and CRIT Rate by 8% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
-      "description": "An exquisite-looking dish. The sweetness of ham and the crisp lotus seeds are a match made in heaven. The aromatic broth pours down like the dawning light, caressing your tongue with an unworldly delicious taste.",
-      "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s."
-    },
-    "suspicious": {
-      "description": "An exquisite-looking dish. Food ingredients of different degrees of doneness are wrapped in shriveled vegetables. It looks depressing to say the least.",
-      "effect": "Increases all party members' ATK by 224 and CRIT Rate by 6% for 300s."
+      "name": "Delicious Jade Parcels",
+      "description": "An exquisite-looking dish. The sweetness of the ham and the crisp lotus seeds are a match made in heaven. The aromatic broth pours down like the dawning light, caressing your tongue with an unworldly delicious taste.",
+      "effect": "Increases all party members' ATK by 320 and CRIT Rate by 10% for 300s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

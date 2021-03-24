@@ -1,35 +1,41 @@
 {
   "id": "goulash",
   "name": "Goulash",
-  "material_type": ["Food"],
-  "type": "Consumables",
-  "craft": [
+  "description": "Hot stew made from Chilled Meat and vegetables chopped into small pieces. Slow-boiled tomatoes give this dish a rich and thick texture. Filling one's stomach with this comforting mixture has a warming effect.",
+  "rarity": 2,
+  "recipe": [
     {
-      "amount": 2,
-      "name": "Chilled Meat"
+      "id": "chilled_meat",
+      "name": "Chilled Meat",
+      "amount": 2
     },
     {
-      "amount": 2,
-      "name": "Carrot"
+      "id": "carrot",
+      "name": "Carrot",
+      "amount": 2
     },
     {
-      "amount": 1,
-      "name": "Tomato"
+      "id": "tomato",
+      "name": "Tomato",
+      "amount": 1
     }
   ],
-  "dish_type": ["Adventurer's Dish"],
+  "dish_type": "Adventurer's Dish",
   "results": {
+    "suspicious": {
+      "name": "Suspicious Goulash",
+      "description": "A steaming-hot stew. There was some flaw in the flame control during the stewing process, leading to a product with a very stiff mouthfeel. You can ignore those flaws if you scarf it all down — it'll keep the cold away regardless.",
+      "effect": "Slightly decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
+    },
     "normal": {
-      "description": "A steaming-hot stew. Hot stew made from Chilled Meat and vegetables chopped into small pieces. Slow-boiled tomatoes give this dish a rich and thick texture. Filling one's stomach with this comforting mixture has a warming effect.",
-      "effect": "Somewhat decreases the rate of Sheer Cold accumulation for all party members for 900s."
+      "name": "Goulash",
+      "description": "Hot stew made from Chilled Meat and vegetables chopped into small pieces. Slow-boiled tomatoes give this dish a rich and thick texture. Filling one's stomach with this comforting mixture has a warming effect.",
+      "effect": "Somewhat decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     },
     "delicious": {
+      "name": "Delicious Goulash",
       "description": "A steaming-hot stew. Just one spoonful sends a down-to-earth sense of satisfaction welling up from the depths of your heart. The meat's flavor grows with every chew, bringing limitless strength to the eater even in the coldest wintry wastes.",
-      "effect": "Decreases the rate of Sheer Cold accumulation for all party members for 900s."
-    },
-    "suspicious": {
-      "description": "A steaming-hot stew. There was some flaw in the flame control during the stewing process, leading to a product with a very stiff mouthfeel. You can ignore those flaws if you scarf it all down - it'll keep the cold away regardless.",
-      "effect": "Slightly decreases the rate of Sheer Cold accumulation for all party members for 900s."
+      "effect": "Decreases the rate of Sheer Cold accumulation for all party members for 900s. In Co-Op Mode, this effect only applies to your own character(s)."
     }
   }
 }

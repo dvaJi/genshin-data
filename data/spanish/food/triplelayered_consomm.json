@@ -1,24 +1,45 @@
 {
   "id": "triplelayered_consomm",
   "name": "Tiras de tres sabores",
-  "description": "Un plato muy bien presentado. La uniformidad de las tiras revela la impecable técnica de cuchillo; parece una obra de arte. Cuando al fin te decides a probarlo, el exquisito sabor te produce alegría y tristeza a la vez; seria un desperdicio conservarlo como obra de arte.",
-  "craft": [
+  "description": "Un plato muy bien presentado. El jamón, la carne de ave y los brotes de bambú se cortan en tiras finas de la misma longitud, se hierven a fuego rápido, se ponen en el centro de un plato para sopa y se sirven con el caldo. El resultado es muy sabroso.",
+  "rarity": 3,
+  "recipe": [
     {
+      "id": "ham",
       "name": "Jamón",
       "amount": 2
     },
     {
+      "id": "fowl",
       "name": "Carne de ave",
       "amount": 2
     },
     {
+      "id": "bamboo_shoot",
       "name": "Brote de bambú",
       "amount": 1
     },
     {
+      "id": "mushroom",
       "name": "Champiñón",
       "amount": 1
     }
   ],
-  "effect": "Aumenta la fuerza del escudo de los miembros del equipo un 20/25/30%."
+  "results": {
+    "suspicious": {
+      "name": "Tiras de tres sabores extrañas",
+      "description": "Un plato muy bien presentado. A primera vista parece delicioso, pero al probarlo se descubre que no sabe a nada. ¿Tal vez prepararon el caldo con demasiada agua?",
+      "effect": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 20% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Tiras de tres sabores",
+      "description": "Un plato muy bien presentado. El jamón, la carne de ave y los brotes de bambú se cortan en tiras finas de la misma longitud, se hierven a fuego rápido, se ponen en el centro de un plato para sopa y se sirven con el caldo. El resultado es muy sabroso.",
+      "effect": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 25% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Tiras de tres sabores deliciosas",
+      "description": "Un plato muy bien presentado. La uniformidad de las tiras revela la impecable técnica de cuchillo; parece una obra de arte. Cuando al fin te decides a probarlo, el exquisito sabor te produce alegría y tristeza a la vez: sería un desperdicio conservarlo como obra de arte.",
+      "effect": "Aumenta la Protección de Escudo de todos los miembros del equipo en un 30% durante 300 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    }
+  }
 }

@@ -1,21 +1,50 @@
 {
   "id": "cream_stew",
   "name": "Guisado de temporada",
-  "description": "Guiso de carne y verduras. Estos ingredientes calientes y mantecosos se ven tan buenos que casi quieres sumergirte en el jugo y acurrucarte con ellos.",
-  "craft": [
+  "description": "Guiso de carne y verduras. Su espeso caldo es la salsa perfecta para acompañar la carne y las verduras.",
+  "rarity": 2,
+  "recipe": [
     {
+      "id": "raw_meat",
       "name": "Carne cruda",
       "amount": 2
     },
     {
+      "id": "cream",
       "name": "Crema batida",
       "amount": 2
     },
     {
+      "id": "snapdragon",
       "name": "Flor dorada",
       "amount": 1
     }
   ],
-  "effect": "Disminuye el consumo de aguante al correr para todos los miembros del equipo un 15/20/25% durante 900s.",
-  "variant": "Guisado picante"
+  "dish_type": "Platos para aventuras",
+  "results": {
+    "suspicious": {
+      "name": "Guisado de temporada extraño",
+      "description": "Guiso de carne y verduras. Sorprendentemente seco para un plato que normalmente tiene mucho jugo.",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 15% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "normal": {
+      "name": "Guisado de temporada",
+      "description": "Guiso de carne y verduras. Su espeso caldo es la salsa perfecta para acompañar la carne y las verduras.",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 20% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "delicious": {
+      "name": "Guisado de temporada delicioso",
+      "description": "Guiso de carne y verduras. Sus cálidos ingredientes tienen tan buena pinta que dan ganas de sumergirse en la salsa y acurrucarse junto a ellos.",
+      "effect": "Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 25% durante 900 s. En modo Multijugador, solo tendrá efecto en tus propios personajes."
+    },
+    "special": {
+      "name": "Guisado picante",
+      "description": "La especialidad de Bárbara. Las zanahorias, bellamente cortadas en forma de estrella, hacen que este plato... Espera... ¡Ah! ¿Qué es ese sabor picante?",
+      "effect": "Disminuye el Consumo de Aguante de todos los miembros del equipo al esprintar en un 25% durante 1500 s. En modo Multijugador, solo tendrá efecto en tus propios personajes.",
+      "character": {
+        "id": "barbara",
+        "name": "Bárbara"
+      }
+    }
+  }
 }
