@@ -1,106 +1,545 @@
 {
   "id": "zhongli",
   "name": "Zhongli",
-  "description": "A mysterious guest invited by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+  "title": "Vago Mundo",
+  "description": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
   "weapon_type": "Polearm",
   "element": "Geo",
   "gender": "Male",
+  "substat": "Geo DMG Bonus",
+  "affiliation": "Liyue Harbor",
   "region": "Liyue",
   "rarity": 5,
-  "location": "Wish",
-  "titles": ["Vago Mundo"],
+  "birthday": [
+    31,
+    12
+  ],
+  "constellation": "???",
+  "cv": {
+    "english": "Keith Silverstein",
+    "chinese": "彭博",
+    "japanese": "前野 智昭",
+    "korean": "표영재"
+  },
   "skills": [
     {
-      "id": "rain_of_stone",
-      "name": "Rain of Stone",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 6 rapid strikes.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.<b>Plunging Attack:</b> Plunges from mid-air to strike the gronud below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_rain_of_stone",
+      "name": "Normal Attack: Rain of Stone",
+      "description": "<span>Normal Attack</span>\\nPerforms up to 6 consecutive spear strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "30.77%",
+            "33.27%",
+            "35.78%",
+            "39.36%",
+            "41.86%",
+            "44.72%",
+            "48.66%",
+            "52.59%",
+            "56.53%",
+            "60.82%",
+            "65.74%",
+            "71.53%",
+            "77.31%",
+            "83.1%",
+            "89.41%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "31.15%",
+            "33.69%",
+            "36.22%",
+            "39.85%",
+            "42.38%",
+            "45.28%",
+            "49.26%",
+            "53.25%",
+            "57.23%",
+            "61.58%",
+            "66.56%",
+            "72.42%",
+            "78.27%",
+            "84.13%",
+            "90.52%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "38.58%",
+            "41.72%",
+            "44.86%",
+            "49.34%",
+            "52.48%",
+            "56.07%",
+            "61%",
+            "65.94%",
+            "70.87%",
+            "76.26%",
+            "82.42%",
+            "89.68%",
+            "96.93%",
+            "104.18%",
+            "112.1%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "42.94%",
+            "46.43%",
+            "49.93%",
+            "54.92%",
+            "58.42%",
+            "62.41%",
+            "67.9%",
+            "73.4%",
+            "78.89%",
+            "84.88%",
+            "91.74%",
+            "99.82%",
+            "107.89%",
+            "115.97%",
+            "124.77%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "10.75%×4",
+            "11.63%×4",
+            "12.5%×4",
+            "13.75%×4",
+            "14.62%×4",
+            "15.63%×4",
+            "17%×4",
+            "18.38%×4",
+            "19.75%×4",
+            "21.25%×4",
+            "22.97%×4",
+            "24.99%×4",
+            "27.01%×4",
+            "29.03%×4",
+            "31.24%×4"
+          ]
+        ],
+        [
+          "6-Hit DMG",
+          [
+            "54.5%",
+            "58.93%",
+            "63.37%",
+            "69.7%",
+            "74.14%",
+            "79.21%",
+            "86.18%",
+            "93.15%",
+            "100.12%",
+            "107.73%",
+            "116.44%",
+            "126.69%",
+            "136.93%",
+            "147.18%",
+            "158.36%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "111.03%",
+            "120.06%",
+            "129.1%",
+            "142.01%",
+            "151.05%",
+            "161.37%",
+            "175.58%",
+            "189.78%",
+            "203.98%",
+            "219.47%",
+            "237.22%",
+            "258.1%",
+            "278.97%",
+            "299.85%",
+            "322.62%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "dominus_lapidis",
       "name": "Dominus Lapidis",
-      "type": "Elemental Skill",
-      "description": "Every mountain, rock, and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.<p><b>Press:</b> Commands the omnipresent power of the earth to solidify into a Stone Stele, standing 30 seconds, dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span> at the creation.Once per 2 seconds, the Stone Stele will resonate with the nearby <span style=\"color:#b67607\"><b>Geo Constructs</b></span>, dealing <span style=\"color:#b67607\"><b>Geo DMG</b></span> to surrounding opponents.The Stone Stele is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and can both be climbed and used to block attacks. Only one Stele may exist at any one time.<b>Hold:</b> Causes nearby Geo energy to explode, causing the following effects:</p><ul><li>Creates a shield of jade. The shield's DMG absorption scales based on Zhongli's Max HP, and absorbs <span style=\"color:#b67607\"><b>Geo DMG</b></span> 250% more effectively.</li><li>Causes <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.</li><li>If there are nearby targets with the <span style=\"color:#b67607\"><b>Geo</b></span> element, it will drain a large amount of <span style=\"color:#b67607\"><b>Geo element</b></span> from a maximum of 2 such targets. This effect does not cause DMG.</li></ul><p>When hit at least one opponent, the Stone Stele creation and the Resonance generate <b>0.5</b> elemental particles.</p>",
-      "modifiers": []
+      "description": "#Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.\\n\\n<span>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</span>\\nCommands the power of earth to create a Stone Stele.\\n\\n<span>Hold</span>\\nCauses nearby Geo energy to explode, causing the following effects:\\n·If their maximum number hasn't been reached, creates a Stone Stele.\\n·Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.\\n·Deals <span>AoE Geo DMG</span>.\\n·If there are nearby targets with the <span>Geo element</span>, it will drain a large amount of <span>Geo element</span> from a maximum of 2 such targets. This effect does not cause DMG.\\n\\n<span>Stone Stele</span>\\nWhen created, deals <span>AoE Geo DMG</span>.\\nAdditionally, it will intermittently resonate with other nearby <span>Geo constructs</span>, dealing <span>Geo DMG</span> to nearby opponents.\\nThe Stone Stele is considered a <span>Geo construct</span> that can both be climbed and used to block attacks.\\nOnly one Stele created by Zhongli himself may initially exist at any one time.\\n\\n<span>Jade Shield</span>\\nPossesses 150% DMG Absorption against all Elemental and Physical DMG.\\nCharacters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.\\n\\n<i>A true master of stone may carve jade and shape gold.</i>",
+      "attributes": [
+        [
+          "Stone Stele/Resonance DMG",
+          [
+            "16% / 32%",
+            "17.2% / 34.4%",
+            "18.4% / 36.8%",
+            "20% / 40%",
+            "21.2% / 42.4%",
+            "22.4% / 44.8%",
+            "24% / 48%",
+            "25.6% / 51.2%",
+            "27.2% / 54.4%",
+            "28.8% / 57.6%",
+            "30.4% / 60.8%",
+            "32% / 64%",
+            "34% / 68%",
+            "36% / 72%",
+            "38% / 76%"
+          ]
+        ],
+        [
+          "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+          [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        ],
+        [
+          "Hold DMG",
+          [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        ],
+        [
+          "Shield Base Absorption",
+          [
+            "1232.4107666015625",
+            "1355.6690673828125",
+            "1489.19873046875",
+            "1633",
+            "1787.07275390625",
+            "1951.4169921875",
+            "2126.032958984375",
+            "2310.920166015625",
+            "2506.0791015625",
+            "2711.50927734375",
+            "2927.211181640625",
+            "3153.1845703125",
+            "3389.429443359375",
+            "3635.946044921875",
+            "3892.73388671875"
+          ]
+        ],
+        [
+          "Additional Shield Absorption",
+          [
+            "12.8% Max HP",
+            "13.76% Max HP",
+            "14.72% Max HP",
+            "16% Max HP",
+            "16.96% Max HP",
+            "17.92% Max HP",
+            "19.2% Max HP",
+            "20.48% Max HP",
+            "21.76% Max HP",
+            "23.04% Max HP",
+            "24.32% Max HP",
+            "25.6% Max HP",
+            "27.2% Max HP",
+            "28.8% Max HP",
+            "30.4% Max HP"
+          ]
+        ],
+        [
+          "Shield Duration",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ],
+        [
+          "CD (hold)",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ]
+      ]
     },
     {
       "id": "planet_befall",
       "name": "Planet Befall",
-      "type": "Elemental Burst",
-      "description": "Brings a falling meteor down to earth, dealing massive <span style=\"color:#b67607\"><b>Geo DMG</b></span> to opponents caught in its AoE and applying the <span style=\"color:#b67607\"><b>Petrification</b></span> status to them.<p><b>Petrification:</b> Opponents affected by the <span style=\"color:#b67607\"><b>Petrification</b></span> status cannot move.</p>",
-      "modifiers": []
+      "description": "Brings a falling meteor down to earth, dealing massive <span>Geo DMG</span> to opponents caught in its AoE and applying the <span>Petrification</span> status to them.\\n\\n<span>Petrification</span>\\nOpponents affected by the <span>Petrification</span> status cannot move.\\n\\n<i>The falling meteor punishes the unjust.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "401.08%",
+            "444.44%",
+            "487.8%",
+            "542%",
+            "590.78%",
+            "639.56%",
+            "704.6%",
+            "769.64%",
+            "834.68%",
+            "899.72%",
+            "964.76%",
+            "1029.8%",
+            "1084%",
+            "1138.2%",
+            "1192.4%"
+          ]
+        ],
+        [
+          "Petrification Duration",
+          [
+            "3.0999999046325684s",
+            "3.200000047683716s",
+            "3.299999952316284s",
+            "3.4000000953674316s",
+            "3.5s",
+            "3.5999999046325684s",
+            "3.700000047683716s",
+            "3.799999952316284s",
+            "3.9000000953674316s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "resonant_waves",
       "name": "Resonant Waves",
-      "description": "When the Jade Shield takes DMG, it will Fortify:<ul><li>Fortified characters have 5% increased Shield Strength.Can stack up to 5 times, and lasts until the Jade Shield disappears.</li></ul>",
-      "unlock": "Ascension 1"
+      "description": "When the Jade Shield takes DMG, it will Fortify:\\n·Fortified characters have 5% increased Shield Strength.\\nCan stack up to 5 times, and lasts until the Jade Shield disappears.",
+      "level": 1
     },
     {
       "id": "dominance_of_earth",
       "name": "Dominance of Earth",
-      "description": "Planet Befall deals additional DMG equal to 33% of Zhongli's Max HP.",
-      "unlock": "Ascension 4"
+      "description": "Zhongli deals bonus DMG based on his Max HP:\\n·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\\n·<span>Dominus Lapidis'</span> Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\\n·<span>Planet Befall's</span> DMG is increased by 33% of Max HP.",
+      "level": 4
     },
     {
       "id": "arcanum_of_crystal",
       "name": "Arcanum of Crystal",
-      "description": "Refunds 15% of the ores used when Polearm-type weapons.",
-      "unlock": ""
+      "description": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "rock_the_backbone_of_earth",
       "name": "Rock, the Backbone of Earth",
-      "description": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously to 2.",
+      "description": "Increases the maximum number of Stone Steles created by <span>Dominus Lapidis</span> that may exist simultaneously to 2.",
       "level": 1
     },
     {
       "id": "stone_the_cradle_of_jade",
       "name": "Stone, the Cradle of Jade",
-      "description": "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
+      "description": "<span>Planet Befall</span> grants nearby characters on the field a Jade Shield when it descends.",
       "level": 2
     },
     {
       "id": "jade_shimmering_through_darkness",
       "name": "Jade, Shimmering through Darkness",
-      "description": "Increases the Level of Dominus Lapidis by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Dominus Lapidis</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "topaz_unbreakable_and_fearless",
       "name": "Topaz, Unbreakable and Fearless",
-      "description": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+      "description": "Increases <span>Planet Befall</span>'s AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
       "level": 4
     },
     {
       "id": "lazuli_herald_of_the_order",
       "name": "Lazuli, Herald of the Order",
-      "description": "Increases the Level of Planet Befall by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Planet Befall</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "chrysos_bounty_of_dominator",
       "name": "Chrysos, Bounty of Dominator",
-      "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character. A single instance of regeneration cannot exceed 8% of that character's Max HP.",
+      "description": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.\\nA single instance of regeneration cannot exceed 8% of that character's Max HP.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "prithiva_topaz_sliver",
         "name": "Prithiva Topaz Sliver",
         "amount": 1
       },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 3 },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 3
+      },
       "mat4": {
         "id": "slime_condensate",
         "name": "Slime Condensate",
@@ -109,15 +548,26 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 2 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 10 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 10
+      },
       "mat4": {
         "id": "slime_condensate",
         "name": "Slime Condensate",
@@ -126,15 +576,26 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 4 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 20 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 20
+      },
       "mat4": {
         "id": "slime_secretions",
         "name": "Slime Secretions",
@@ -143,15 +604,26 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 8 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 30 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 30
+      },
       "mat4": {
         "id": "slime_secretions",
         "name": "Slime Secretions",
@@ -160,15 +632,26 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 12 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 45 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 45
+      },
       "mat4": {
         "id": "slime_concentrate",
         "name": "Slime Concentrate",
@@ -177,15 +660,26 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "prithiva_topaz_gemstone",
         "name": "Prithiva Topaz Gemstone",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 20 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 60 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 60
+      },
       "mat4": {
         "id": "slime_concentrate",
         "name": "Slime Concentrate",

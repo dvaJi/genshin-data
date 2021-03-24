@@ -1,74 +1,491 @@
 {
   "id": "qiqi",
   "name": "Qiqi",
-  "description": "An apprentice and herb gatherer at Bubu Pharmacy, Qiqi is an undead with a bone-white complexion.",
+  "title": "Icy Resurrection",
+  "description": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
   "weapon_type": "Sword",
   "element": "Cryo",
   "gender": "Female",
+  "substat": "Healing Bonus",
+  "affiliation": "Bubu Pharmacy",
   "region": "Liyue",
   "rarity": 5,
-  "location": "Wish",
-  "titles": ["Pharmacist", "Icy Resurrection"],
+  "birthday": [
+    3,
+    3
+  ],
+  "constellation": "Pristina Nola",
+  "cv": {
+    "english": "Christie Cate",
+    "chinese": "宴宁",
+    "japanese": "田村ゆかり",
+    "korean": "이슬"
+  },
   "skills": [
     {
-      "id": "ancient_sword_art",
-      "name": "Ancient Sword Art",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack</b>: Perform up to 5 rapid strikes.<b>Charged Attack</b>: Consumes a certain amount Stamina to unleash 2 rapid sword strikes. <b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-      "modifiers": []
+      "id": "normal_attack_ancient_sword_art",
+      "name": "Normal Attack: Ancient Sword Art",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "37.75%",
+            "40.83%",
+            "43.9%",
+            "48.29%",
+            "51.36%",
+            "54.87%",
+            "59.7%",
+            "64.53%",
+            "69.36%",
+            "74.63%",
+            "79.9%",
+            "85.17%",
+            "90.43%",
+            "95.7%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "38.87%",
+            "42.04%",
+            "45.2%",
+            "49.72%",
+            "52.88%",
+            "56.5%",
+            "61.47%",
+            "66.44%",
+            "71.42%",
+            "76.84%",
+            "82.26%",
+            "87.69%",
+            "93.11%",
+            "98.54%",
+            "103.96%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "24.17% + 24.17%",
+            "26.13% + 26.13%",
+            "28.1% + 28.1%",
+            "30.91% + 30.91%",
+            "32.88% + 32.88%",
+            "35.12% + 35.12%",
+            "38.22% + 38.22%",
+            "41.31% + 41.31%",
+            "44.4% + 44.4%",
+            "47.77% + 47.77%",
+            "51.14% + 51.14%",
+            "54.51% + 54.51%",
+            "57.89% + 57.89%",
+            "61.26% + 61.26%",
+            "64.63% + 64.63%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "24.68% + 24.68%",
+            "26.69% + 26.69%",
+            "28.7% + 28.7%",
+            "31.57% + 31.57%",
+            "33.58% + 33.58%",
+            "35.87% + 35.87%",
+            "39.03% + 39.03%",
+            "42.19% + 42.19%",
+            "45.35% + 45.35%",
+            "48.79% + 48.79%",
+            "52.23% + 52.23%",
+            "55.68% + 55.68%",
+            "59.12% + 59.12%",
+            "62.57% + 62.57%",
+            "66.01% + 66.01%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "63.04%",
+            "68.17%",
+            "73.3%",
+            "80.63%",
+            "85.76%",
+            "91.62%",
+            "99.69%",
+            "107.75%",
+            "115.81%",
+            "124.61%",
+            "133.41%",
+            "142.2%",
+            "151%",
+            "159.79%",
+            "168.59%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "64.33% + 64.33%",
+            "69.56% + 69.56%",
+            "74.8% + 74.8%",
+            "82.28% + 82.28%",
+            "87.52% + 87.52%",
+            "93.5% + 93.5%",
+            "101.73% + 101.73%",
+            "109.96% + 109.96%",
+            "118.18% + 118.18%",
+            "127.16% + 127.16%",
+            "136.14% + 136.14%",
+            "145.11% + 145.11%",
+            "154.09% + 154.09%",
+            "163.06% + 163.06%",
+            "172.04% + 172.04%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "100.97%"
+          ]
+        ]
+      ]
     },
     {
       "id": "adeptus_art_herald_of_frost",
       "name": "Adeptus Art: Herald of Frost",
-      "type": "Elemental Skill",
-      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to surrounding opponents.<p><b>Herald of Frost:</b></p><ul><li>On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.</li><li>Periodically regenerates your active character's HP.</li><li>Follows the character around, dealing <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents in their path.</li></ul>",
-      "modifiers": []
+      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <span>Cryo DMG</span> to surrounding opponents.\\n\\n<span>Herald of Frost</span>\\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n·Periodically regenerates your active character's HP.\\n·Follows the character around, dealing <span>Cryo DMG</span> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        ],
+        [
+          "Regeneration on Hit",
+          [
+            "0.10559999942779541  ATK+ 67.4078598022461",
+            "0.11351999640464783  ATK+ 74.14957427978516",
+            "0.12144000083208084  ATK+ 81.45310974121094",
+            "0.13199999928474426  ATK+ 89.31845092773438",
+            "0.13991999626159668  ATK+ 97.74560546875",
+            "0.1478399932384491  ATK+ 106.73457336425781",
+            "0.15839999914169312  ATK+ 116.28534698486328",
+            "0.16896000504493713  ATK+ 126.3979263305664",
+            "0.17951999604701996  ATK+ 137.07232666015625",
+            "0.19008000195026398  ATK+ 148.30853271484375",
+            "0.2006399929523468  ATK+ 160.10653686523438",
+            "0.21119999885559082  ATK+ 172.46636962890625",
+            "0.22439999878406525  ATK+ 185.38800048828125",
+            "0.23759999871253967  ATK+ 198.87144470214844",
+            "0.2508000135421753  ATK+ 212.9167022705078"
+          ]
+        ],
+        [
+          "Continuous Regeneration",
+          [
+            "0.6959999799728394  ATK+ 450.5506896972656",
+            "0.748199999332428  ATK+ 495.61199951171875",
+            "0.8004000186920166  ATK+ 544.428466796875",
+            "0.8700000047683716  ATK+ 597",
+            "0.9222000241279602  ATK+ 653.32666015625",
+            "0.974399983882904  ATK+ 713.408447265625",
+            "1.0440000295639038  ATK+ 777.2453002929688",
+            "1.1136000156402588  ATK+ 844.8373413085938",
+            "1.1832000017166138  ATK+ 916.1844482421875",
+            "1.2527999877929688  ATK+ 991.28662109375",
+            "1.3223999738693237  ATK+ 1070.1439208984375",
+            "1.3919999599456787  ATK+ 1152.75634765625",
+            "1.4789999723434448  ATK+ 1239.1239013671875",
+            "1.565999984741211  ATK+ 1329.24658203125",
+            "1.652999997138977  ATK+ 1423.1243896484375"
+          ]
+        ],
+        [
+          "Herald of Frost DMG",
+          [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        ]
+      ]
     },
     {
       "id": "adeptus_art_preserver_of_fortune",
       "name": "Adeptus Art: Preserver of Fortune",
-      "type": "Elemental Burst",
-      "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span>.<p><b>Fortune-Preserving Talisman:</b></p><ul><li>When opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.</li></ul>",
-      "modifiers": []
+      "description": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <span>Cryo DMG</span>.\\n\\n<span>Fortune-Preserving Talisman</span>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>— Qiqi does not remember these words.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "284.8%",
+            "306.16%",
+            "327.52%",
+            "356%",
+            "377.36%",
+            "398.72%",
+            "427.2%",
+            "455.68%",
+            "484.16%",
+            "512.64%",
+            "541.12%",
+            "569.6%",
+            "605.2%",
+            "640.8%",
+            "676.4%"
+          ]
+        ],
+        [
+          "Healing",
+          [
+            "90%  ATK+ 577.3388061523438",
+            "96.75%  ATK+ 635.0806884765625",
+            "103.5%  ATK+ 697.6344604492188",
+            "112.5%  ATK+ 765",
+            "119.25%  ATK+ 837.1773681640625",
+            "126%  ATK+ 914.1665649414062",
+            "135%  ATK+ 995.9676513671875",
+            "144%  ATK+ 1082.5804443359375",
+            "153%  ATK+ 1174.005126953125",
+            "162%  ATK+ 1270.24169921875",
+            "171%  ATK+ 1371.2900390625",
+            "180%  ATK+ 1477.150146484375",
+            "191.25%  ATK+ 1587.8221435546875",
+            "202.5%  ATK+ 1703.305908203125",
+            "213.75%  ATK+ 1823.6015625"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "lifeprolonging_methods",
       "name": "Life-Prolonging Methods",
-      "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
-      "unlock": "Ascension 1"
+      "description": "When a character under the effects of <span>Adeptus Art: Herald of Frost</span> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+      "level": 1
     },
     {
       "id": "a_glimpse_into_arcanum",
       "name": "A Glimpse into Arcanum",
-      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s.&nbsp; This effect can only occur once every 30s.",
-      "unlock": "Ascension 4"
+      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "level": 4
     },
     {
       "id": "former_life_memories",
       "name": "Former Life Memories",
-      "description": "Displays the location of nearby resources unique to Liyue on the mini-map.",
-      "unlock": ""
+      "description": "Displays the location of nearby <span>resources unique to Liyue</span> on the mini-map.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "ascetics_of_frost",
       "name": "Ascetics of Frost",
-      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 energy.",
+      "description": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
       "level": 1
     },
     {
       "id": "frozen_to_the_bone",
       "name": "Frozen to the Bone",
-      "description": "Qiqi's Normal and Charge Attack DMG against opponents affected by Cryo is increased by 15%.",
+      "description": "Qiqi's Normal and Charge Attack DMG against opponents affected by <span>Cryo</span> is increased by 15%.",
       "level": 2
     },
     {
       "id": "ascendant_praise",
       "name": "Ascendant Praise",
-      "description": "Increase the Level of Adeptus Art: Preserver of Fortune by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Adeptus Art: Preserver of Fortune</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
@@ -80,27 +497,34 @@
     {
       "id": "crimson_lotus_bloom",
       "name": "Crimson Lotus Bloom",
-      "description": "Increases the Level of Adeptus Art: Herald of Frost by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Adeptus Art: Herald of Frost</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "rite_of_resurrection",
       "name": "Rite of Resurrection",
-      "description": "Using Adeptus Art: Preserver of Fortune revives all nearby fallen party members and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
+      "description": "Using <span>Adeptus Art: Preserver of Fortune</span> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 3 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 3
+      },
       "mat4": {
         "id": "divining_scroll",
         "name": "Divining Scroll",
@@ -109,15 +533,26 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 10 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 10
+      },
       "mat4": {
         "id": "divining_scroll",
         "name": "Divining Scroll",
@@ -126,33 +561,66 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 20 },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 12 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 30 },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 18 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "shivada_jade_chunk",
@@ -164,7 +632,11 @@
         "name": "Hoarfrost Core",
         "amount": 12
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 45 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 45
+      },
       "mat4": {
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
@@ -173,7 +645,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "shivada_jade_gemstone",
@@ -185,7 +660,11 @@
         "name": "Hoarfrost Core",
         "amount": 20
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 60 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 60
+      },
       "mat4": {
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",

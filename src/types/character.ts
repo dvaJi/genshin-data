@@ -1,21 +1,17 @@
-export interface SkillModifier {
-  stat: string;
-  value: string;
-}
+type SkillAttributes = [string, string[]];
 
 export interface Skill {
   id: string;
   name: string;
-  type: string;
   description: string;
-  modifiers?: SkillModifier[];
+  attributes: SkillAttributes[];
 }
 
 export interface Passive {
   id: string;
   name: string;
-  unlock?: string;
   description: string;
+  level: number;
 }
 
 export interface Constellation {
@@ -33,7 +29,7 @@ export interface AscensionMaterial {
 
 export interface Ascension {
   ascension: number;
-  level: number;
+  level: [number, number];
   cost: number;
   mat1: AscensionMaterial;
   mat2?: AscensionMaterial;
@@ -41,28 +37,28 @@ export interface Ascension {
   mat4: AscensionMaterial;
 }
 
-interface Tier {
-  c: number;
-  tier: number;
-}
-
-export interface CharacterTier {
-  maindps?: Tier;
-  subdps?: Tier;
-  support?: Tier;
-}
+type CharacterVoice = {
+  english: string;
+  chinese: string;
+  japanese: string;
+  korean: string;
+};
 
 export interface Character {
   id: string;
   name: string;
-  region: string;
+  title: string;
   description: string;
-  location: string;
-  rarity: number;
-  element: string;
   weapon_type: string;
+  element: string;
   gender: string;
-  titles: string[];
+  substat: string;
+  affiliation: string;
+  region: string;
+  rarity: number;
+  birtday: [number, number];
+  constellation: string;
+  cv: CharacterVoice;
   skills: Skill[];
   passives: Passive[];
   constellations: Constellation[];

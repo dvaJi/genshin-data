@@ -1,118 +1,610 @@
 {
   "id": "xingqiu",
   "name": "Xingchiu",
-  "description": "Un joven que lleva una espada larga que se ve con frecuencia en las cabinas de libros. Tiene un corazón de oro y anhela la justicia y la equidad para todos.",
-  "titles": [
-    "Joven maestro del Gremio de Comerciantes de Feiyun",
-    "Nerd de Guhua (por Paimon)"
+  "title": "el Joven Galante",
+  "description": "Un joven con una espada larga al que puede verse frecuentemente en las librerías. Tiene un corazón de oro y anhela la justicia y la igualdad para todos.",
+  "weapon_type": "Espada ligera",
+  "element": "Hydro",
+  "gender": "Masculino",
+  "substat": "ATQ%",
+  "affiliation": "Gremio de Comerciantes de Feiyun",
+  "region": "Liyue",
+  "rarity": 4,
+  "birthday": [
+    9,
+    10
   ],
+  "constellation": "Fabulae Textile",
+  "cv": {
+    "english": "Cristina Vee Valenzuela",
+    "chinese": "唐雅菁",
+    "japanese": "皆川純子",
+    "korean": "곽규미"
+  },
   "skills": [
     {
-      "id": "guhua_style",
-      "name": "Técnica de espada Guhua",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_guhua_style",
+      "name": "Ataque Normal: Técnica de espada Guhua",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "46.61%",
+            "50.41%",
+            "54.2%",
+            "59.62%",
+            "63.41%",
+            "67.75%",
+            "73.71%",
+            "79.67%",
+            "85.64%",
+            "92.14%",
+            "99.59%",
+            "108.36%",
+            "117.12%",
+            "125.88%",
+            "135.45%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "47.64%",
+            "51.52%",
+            "55.4%",
+            "60.94%",
+            "64.82%",
+            "69.25%",
+            "75.34%",
+            "81.44%",
+            "87.53%",
+            "94.18%",
+            "101.8%",
+            "110.76%",
+            "119.71%",
+            "128.67%",
+            "138.44%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "28.55% + 28.55%",
+            "30.88% + 30.88%",
+            "33.2% + 33.2%",
+            "36.52% + 36.52%",
+            "38.84% + 38.84%",
+            "41.5% + 41.5%",
+            "45.15% + 45.15%",
+            "48.8% + 48.8%",
+            "52.46% + 52.46%",
+            "56.44% + 56.44%",
+            "61.01% + 61.01%",
+            "66.37% + 66.37%",
+            "71.74% + 71.74%",
+            "77.11% + 77.11%",
+            "82.97% + 82.97%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "55.99%",
+            "60.54%",
+            "65.1%",
+            "71.61%",
+            "76.17%",
+            "81.38%",
+            "88.54%",
+            "95.7%",
+            "102.86%",
+            "110.67%",
+            "119.62%",
+            "130.15%",
+            "140.67%",
+            "151.2%",
+            "162.68%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "35.86% + 35.86%",
+            "38.78% + 38.78%",
+            "41.7% + 41.7%",
+            "45.87% + 45.87%",
+            "48.79% + 48.79%",
+            "52.13% + 52.13%",
+            "56.71% + 56.71%",
+            "61.3% + 61.3%",
+            "65.89% + 65.89%",
+            "70.89% + 70.89%",
+            "76.62% + 76.62%",
+            "83.37% + 83.37%",
+            "90.11% + 90.11%",
+            "96.85% + 96.85%",
+            "104.21% + 104.21%"
+          ]
+        ],
+        [
+          "Ataque Cargado",
+          [
+            "47.3% + 56.16%",
+            "51.15% + 60.73%",
+            "55% + 65.3%",
+            "60.5% + 71.83%",
+            "64.35% + 76.4%",
+            "68.75% + 81.63%",
+            "74.8% + 88.81%",
+            "80.85% + 95.99%",
+            "86.9% + 103.17%",
+            "93.5% + 111.01%",
+            "101.06% + 119.99%",
+            "109.96% + 130.55%",
+            "118.85% + 141.11%",
+            "127.74% + 151.67%",
+            "137.44% + 163.18%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "guhua_sword_fatal_rainscreen",
       "name": "Espada Guhua: Lluvia torrencial mortal",
-      "type": "Habilidad elemental",
-      "description": "<p>Xingchiu realiza golpes gemelos con su espada, infligiendo Daño Hydro. Al mismo tiempo, esta habilidad crea la cantidad máxima de Espadas de lluvia, que orbitarán alrededor del personaje. Las Espadas de lluvia tienen las siguientes propiedades:</p><ul><li>Cuando el personaje recibe Daño, una Espada de lluvia se romperá, reduciendo la cantidad de Daño recibido.</li><li>Aumenta la RES a interrupción del personaje.</li></ul><p>20% del Bono de Daño Hydro de Xingchiu se convertirá en reducción de Daño adicional para las Espadas de lluvia.</p><p>La cantidad máxima de reducción de Daño que se puede obtener de esta manera es del 24%.</p>",
-      "modifiers": []
+      "description": "Xingchiu realiza dos golpes consecutivos con su espada, infligiendo <span>Daño Hydro</span>. Al mismo tiempo, esta habilidad crea la máxima cantidad posible de espadas de lluvia, las cuales orbitarán alrededor del personaje en uso.\\nLas espadas de lluvia tienen las siguientes características:\\n·Cuando el personaje recibe daño, una espada de lluvia se romperá, reduciendo la cantidad de daño recibido.\\n·Aumenta la RES a interrupción del personaje.\\nUn 20% del <span>Bono de Daño Hydro</span> de Xingchiu se convertirá en reducción de daño adicional de las espadas de lluvia.\\n\\nLa cantidad máxima de reducción de daño que se puede obtener de esta manera es del 24%.\\nEl número máximo inicial de espadas de lluvia es de 3.\\nEl uso de esta habilidad aplica el estado de <span>Mojado</span> sobre el personaje.\\n\\n<i>“Es más fácil degollar a un dragón que cortar la lluvia”</i>.",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "168% + 191.2%",
+            "180.6% + 205.54%",
+            "193.2% + 219.88%",
+            "210% + 239%",
+            "222.6% + 253.34%",
+            "235.2% + 267.68%",
+            "252% + 286.8%",
+            "268.8% + 305.92%",
+            "285.6% + 325.04%",
+            "302.4% + 344.16%",
+            "319.2% + 363.28%",
+            "336% + 382.4%",
+            "357% + 406.3%",
+            "378% + 430.2%",
+            "399% + 454.1%"
+          ]
+        ],
+        [
+          "Reducción de daño",
+          [
+            "20%",
+            "21%",
+            "22%",
+            "23%",
+            "24%",
+            "25%",
+            "26%",
+            "27%",
+            "28%",
+            "29%",
+            "29%",
+            "29%",
+            "29%",
+            "29%",
+            "29%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s",
+            "21 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "guhua_sword_raincutter",
       "name": "Espada Guhua: Sable de lluvia",
-      "type": "Impulso elemental",
-      "description": "<p>Activa la Espada arcoíris y lucha con una lluvia de espadas fantasma, a la vez que crea el número máximo de Espadas de lluvia.</p><p><b>Espada arcoíris:</b></p><ul><li>Los ataques Normales desencadenarán ataques de espada de lluvia consecutivos que infligen Daño Hydro.</li><li>Se mantendrá el número máximo de Espadas de lluvia durante el efecto de la habilidad.</li></ul><p>Estos efectos se trasladan a otros personajes.</p>",
-      "modifiers": []
+      "description": "Activa la espada arcoíris y lucha con una lluvia de espadas ilusoria, a la vez que crea la máxima cantidad posible de espadas de lluvia.\\n\\n<span>Espada arcoíris</span>\\n·Los Ataques Normales de tu personaje en uso desencadenarán una lluvia de espadas consecutiva que inflige <span>Daño Hydro</span>.\\n·Durante el efecto de esta habilidad, se mantendrá en todo momento el máximo número posible de espadas de lluvia.\\n\\n<i>La técnica de corte de lluvia es uno de los secretos de la Academia Guhua.</i>",
+      "attributes": [
+        [
+          "Daño de lluvia de espadas",
+          [
+            "54.27%",
+            "58.34%",
+            "62.41%",
+            "67.84%",
+            "71.91%",
+            "75.98%",
+            "81.41%",
+            "86.84%",
+            "92.26%",
+            "97.69%",
+            "103.12%",
+            "108.54%",
+            "115.33%",
+            "122.11%",
+            "128.9%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "hydropathic",
       "name": "Secretos del agua",
-      "description": "<p>Cuando Espadas de lluvia se interrumpe o termina su duración, el personaje actual recibe el 6% de la Vida Máx. de Xingchiu.</p>"
+      "description": "Cuando una espada de lluvia se rompe o termina su duración, el personaje en uso regenera una cantidad de Vida proporcional al 6% de la Vida Máx. de Xingchiu.",
+      "level": 1
     },
     {
       "id": "blades_amidst_raindrops",
       "name": "Cuchillas a cántaros",
-      "description": "<p>Xingchiu recibe un Bono de Daño Hydro de 20%.</p>"
+      "description": "Xingchiu obtiene un 20% de <span>Bono de Daño Hydro</span>.",
+      "level": 4
     },
     {
       "id": "flash_of_genius",
       "name": "Destello repentino",
-      "description": "<p>Al fabricar Materiales de talento del personaje, hay un 25% de probabilidad de recuperar los materiales usados.</p>"
+      "description": "Al fabricar materiales de talento de personaje, hay una probabilidad del 25% de recuperar los materiales usados.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "the_scent_remained",
       "name": "Lluvia sobre mojado",
-      "description": "Máx. de cargas de Espadas de Lluvia +1.",
+      "description": "Aumenta en 1 la cantidad máxima de espadas de lluvia.",
       "level": 1
     },
     {
+      "id": "rainbow_upon_the_azure_sky",
       "name": "Arcoíris brillante",
-      "description": "Extiende la duración de Espada Guhua: Sable de lluvia en 3 s y reduce la RES Hydro de los enemigos golpeados por Lluvia de espadas un 15% de manera continua por 4 s.",
+      "description": "Extiende la duración de <span>Espada Guhua: Sable de lluvia</span> en 3 s y reduce en un 15% la <span>RES Hydro</span> de los enemigos golpeados por la lluvia de espadas durante 4 s.",
       "level": 2
     },
     {
+      "id": "weaver_of_verses",
       "name": "Tejedor de versos",
-      "description": "Aumenta el nivel de habilidad de Espada Guhua: Sable de lluvia +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Espada Guhua: Sable de lluvia</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "evilsoother",
       "name": "Pacificador del mal",
-      "description": "A lo largo de la duración de Espada Guhua: Sable de lluvia, el Daño infligido por Espada Guhua: Lluvia torrencial mortal aumenta en un 50%.",
+      "description": "A lo largo de la duración de <span>Espada Guhua: Sable de lluvia</span>, el daño infligido por <span>Espada Guhua: Lluvia torrencial mortal</span> aumenta en un 50%.",
       "level": 4
     },
     {
+      "id": "embrace_of_rain",
       "name": "Baile bajo la lluvia",
-      "description": "Aumenta el nivel de habilidad de Espada Guhua: Lluvia torrencial mortal +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Espada Guhua: Lluvia torrencial mortal</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "hence_call_them_my_own_verses",
       "name": "Colección de poesía",
-      "description": "Cada 2 ataques de Espada Guhua: Sable de lluvia, aumentará considerablemente el Daño de Lluvia de espadas. Al ser golpeado, Xingchiu recupera 3 de Energía.",
+      "description": "Con cada 2 ataques de lluvia de espadas de <span>Espada Guhua: Sable de lluvia</span>, el daño de la siguiente lluvia de espadas aumentará considerablemente. Además, Xingchiu recupera 3 pts. de Energía Elemental cada vez que ataca a sus enemigos con una lluvia de espadas.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de lazurita varunada" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Pedacito de lazurita varunada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de lazurita varunada" },
-      "mat2": { "name": "Corazón purificador" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragmento de lazurita varunada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Corazón purificador",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de lazurita varunada" },
-      "mat2": { "name": "Corazón purificador" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragmento de lazurita varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Corazón purificador",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de lazurita varunada" },
-      "mat2": { "name": "Corazón purificador" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Trozo de lazurita varunada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Corazón purificador",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de lazurita varunada" },
-      "mat2": { "name": "Corazón purificador" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Trozo de lazurita varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Corazón purificador",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Lazurita varunada" },
-      "mat2": { "name": "Corazón purificador" },
-      "mat3": { "name": "Flor de seda" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Lazurita varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Corazón purificador",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "silk_flower",
+        "name": "Flor de seda",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 24
+      }
     }
   ]
 }

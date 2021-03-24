@@ -1,119 +1,670 @@
 {
   "id": "bennett",
   "name": "Bennett",
-  "description": "Los pocos jóvenes aventureros del Gremio de Aventureros de Mondstadt han sufrido desgracias insospechadas al salir de aventura con Bennett.",
-  "titles": [
-    "Prueba de fuego",
-    "Líder del Equipo de Aventura de Benny",
-    "Tentador del Destino"
+  "title": "el Tentador del Destino",
+  "description": "El chico aventurero de Mondstadt. Su naturaleza amable no va acorde con su mala suerte.",
+  "weapon_type": "Espada ligera",
+  "element": "Pyro",
+  "gender": "Masculino",
+  "substat": "Recarga de Energía",
+  "affiliation": "Gremio de Aventureros",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    29,
+    2
   ],
+  "constellation": "Rota Calamitas",
+  "cv": {
+    "english": "Cristina Vee Valenzuela",
+    "chinese": "穆雪婷",
+    "japanese": "逢坂良太",
+    "korean": "송하림"
+  },
   "skills": [
     {
-      "id": "strike_of_fortune",
-      "name": "Espada de la suerte",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_strike_of_fortune",
+      "name": "Ataque Normal: Espada de la suerte",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "44.55%",
+            "48.17%",
+            "51.8%",
+            "56.98%",
+            "60.61%",
+            "64.75%",
+            "70.45%",
+            "76.15%",
+            "81.84%",
+            "88.06%",
+            "94.28%",
+            "100.49%",
+            "106.71%",
+            "112.92%",
+            "119.14%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "42.74%",
+            "46.22%",
+            "49.7%",
+            "54.67%",
+            "58.15%",
+            "62.12%",
+            "67.59%",
+            "73.06%",
+            "78.53%",
+            "84.49%",
+            "90.45%",
+            "96.42%",
+            "102.38%",
+            "108.35%",
+            "114.31%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "54.61%",
+            "59.06%",
+            "63.5%",
+            "69.85%",
+            "74.3%",
+            "79.37%",
+            "86.36%",
+            "93.34%",
+            "100.33%",
+            "107.95%",
+            "115.57%",
+            "123.19%",
+            "130.81%",
+            "138.43%",
+            "146.05%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "59.68%",
+            "64.54%",
+            "69.4%",
+            "76.34%",
+            "81.2%",
+            "86.75%",
+            "94.38%",
+            "102.02%",
+            "109.65%",
+            "117.98%",
+            "126.31%",
+            "134.64%",
+            "142.96%",
+            "151.29%",
+            "159.62%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "71.9%",
+            "77.75%",
+            "83.6%",
+            "91.96%",
+            "97.81%",
+            "104.5%",
+            "113.7%",
+            "122.89%",
+            "132.09%",
+            "142.12%",
+            "152.15%",
+            "162.18%",
+            "172.22%",
+            "182.25%",
+            "192.28%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "passion_overload",
       "name": "Sobrecarga de pasión",
-      "type": "Habilidad elemental",
-      "description": "<p>Bennett concentra el espíritu aventurero y la energía Pyro en su espada. Dependiendo del tiempo de carga, se producen diferentes efectos.</p><p><b>Un clic:</b> Realiza un rápido y ardiente movimiento con su espada, infligiendo Daño Pyro.</p><p><b>Mantener pulsado:</b> Dependiendo de la duración, lanza una habilidad distinta basada en en nivel de carga.</p><ul><li>Nivel 1: Golpea dos veces, infligiendo Daño Pyro y lanzando a los enemigos por los aires.</li><li>Nivel 2: Lanza 3 ataques consecutivos que infligen una cantidad significativa de Daño Pyro. El último ataque causa una explosión que lanza tanto a los enemigos como a Bennett por los aires. Sin embargo, Bennett no resulta herido por esta explosión.</li></ul>",
-      "modifiers": []
+      "description": "#Bennett concentra el espíritu aventurero y la energía Pyro en su espada. Dependiendo del tiempo de carga, se producen diferentes efectos.\\n\\n<span>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Un clic}{LAYOUT_PS#Presionar una vez}</span>: Realiza un rápido y ardiente movimiento con su espada, infligiendo <span>Daño Pyro</span>.\\n\\n<span>Mantener pulsado</span>\\nDependiendo de la duración, lanza una habilidad distinta basada en el nivel de carga.\\n·Carga 1: asesta dos golpes, infligiendo <span>Daño Pyro</span> y lanzando a los enemigos por los aires.\\n·Carga 2: lanza 3 ataques consecutivos que infligen una cantidad significativa de <span>Daño Pyro</span>. El último ataque causa una explosión que lanza tanto a los enemigos como a Bennett por los aires. Sin embargo, Bennett no resulta herido por esta explosión.\\n\\n<i>Un ataque que combina los sueños y la pasión de Bennett con el elemento Pyro. A veces se le va la mano con la pasión y la fuerza Pyro, por lo que termina explotando.</i>",
+      "attributes": [
+        [
+          "#Daño {LAYOUT_MOBILE#por toque}{LAYOUT_PC#por clic}{LAYOUT_PS#al pulsar}",
+          [
+            "137.6%",
+            "147.92%",
+            "158.24%",
+            "172%",
+            "182.32%",
+            "192.64%",
+            "206.4%",
+            "220.16%",
+            "233.92%",
+            "247.68%",
+            "261.44%",
+            "275.2%",
+            "292.4%",
+            "309.6%",
+            "326.8%"
+          ]
+        ],
+        [
+          "Daño de Carga 1",
+          [
+            "84% + 92%",
+            "90.3% + 98.9%",
+            "96.6% + 105.8%",
+            "105% + 115%",
+            "111.3% + 121.9%",
+            "117.6% + 128.8%",
+            "126% + 138%",
+            "134.4% + 147.2%",
+            "142.8% + 156.4%",
+            "151.2% + 165.6%",
+            "159.6% + 174.8%",
+            "168% + 184%",
+            "178.5% + 195.5%",
+            "189% + 207%",
+            "199.5% + 218.5%"
+          ]
+        ],
+        [
+          "Daño de Carga 2",
+          [
+            "88% + 96%",
+            "94.6% + 103.2%",
+            "101.2% + 110.4%",
+            "110% + 120%",
+            "116.6% + 127.2%",
+            "123.2% + 134.4%",
+            "132% + 144%",
+            "140.8% + 153.6%",
+            "149.6% + 163.2%",
+            "158.4% + 172.8%",
+            "167.2% + 182.4%",
+            "176% + 192%",
+            "187% + 204%",
+            "198% + 216%",
+            "209% + 228%"
+          ]
+        ],
+        [
+          "Daño de explosión",
+          [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s",
+            "5 / 7.5/ 10 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "fantastic_voyage",
       "name": "Aventura maravillosa",
-      "type": "Impulso elemental",
-      "description": "<p>Bennett salta hacia el enemigo y ataca, infligiendo Daño Pyro y creando un círculo de apoyo moral.</p><p><b>Círculo de apoyo moral:</b></p><ul><li>Si la Vida de un personaje dentro del círculo es igual o inferior al 70%, su vida se regenerará continuamente.</li><li>Si al vida de un personaje dentro del círculo es mayor a 70%, obtendrán un Bono de ATQ igual a un porcentaje del ATQ Básico de Bennett.</li><li>Los personajes dentro del círculo obtendrán el efecto Pyro.</li></ul>",
-      "modifiers": []
+      "description": "Bennett salta hacia el enemigo y crea una explosión, infligiendo <span>Daño Pyro</span> y creando un círculo de apoyo moral.\\n\\n<span>Círculo de apoyo moral</span>:\\n·Si la Vida de un personaje dentro del círculo es igual o inferior al 70%, su vida se regenerará continuamente. La cantidad de vida regenerada aumenta en proporción a la Vida Máx. de Bennett.\\n·Si la Vida de un personaje dentro del círculo es superior al 70%, obtendrá un Bono de ATQ en proporción al ATQ Básico de Bennett.\\n·Los personajes dentro del círculo serán <span>afectados por Pyro</span>.\\n\\n<i>Ir de aventuras con la Brigada de Benny es peligroso. Aunque Bennett se inclina más por llamarlo “aventuras llenas de maravillas, emoción y belleza”...</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "232.8%",
+            "250.26%",
+            "267.72%",
+            "291%",
+            "308.46%",
+            "325.92%",
+            "349.2%",
+            "372.48%",
+            "395.76%",
+            "419.04%",
+            "442.32%",
+            "465.6%",
+            "494.7%",
+            "523.8%",
+            "552.9%"
+          ]
+        ],
+        [
+          "Curación continua",
+          [
+            "0.05999999865889549  de Vida Máx. +  577.3388061523438/s",
+            "0.06449999660253525  de Vida Máx. +  635.0806884765625/s",
+            "0.0689999982714653  de Vida Máx. +  697.6344604492188/s",
+            "0.07500000298023224  de Vida Máx. +  765/s",
+            "0.0794999971985817  de Vida Máx. +  837.1773681640625/s",
+            "0.08399999886751175  de Vida Máx. +  914.1665649414062/s",
+            "0.09000000357627869  de Vida Máx. +  995.9676513671875/s",
+            "0.09600000083446503  de Vida Máx. +  1082.5804443359375/s",
+            "0.10199999809265137  de Vida Máx. +  1174.005126953125/s",
+            "0.1080000028014183  de Vida Máx. +  1270.24169921875/s",
+            "0.11400000005960464  de Vida Máx. +  1371.2900390625/s",
+            "0.11999999731779099  de Vida Máx. +  1477.150146484375/s",
+            "0.1274999976158142  de Vida Máx. +  1587.8221435546875/s",
+            "0.13500000536441803  de Vida Máx. +  1703.305908203125/s",
+            "0.14249999821186066  de Vida Máx. +  1823.6015625/s"
+          ]
+        ],
+        [
+          "Porcentaje de Bono de ATQ",
+          [
+            "56%",
+            "60.2%",
+            "64.4%",
+            "70%",
+            "74.2%",
+            "78.4%",
+            "84%",
+            "89.6%",
+            "95.2%",
+            "100.8%",
+            "106.4%",
+            "112%",
+            "119%",
+            "126%",
+            "133%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "rekindle",
       "name": "Resurgimiento de la pasión",
-      "description": "<p>Reduce el TdE de Sobrecarga de pasión en 20%.</p>"
+      "description": "Reduce en un 20% el TdE de <span>Sobrecarga de pasión</span>.",
+      "level": 1
     },
     {
       "id": "fearnaught",
       "name": "Fervor intrépido",
-      "description": "<p>Dentro del área de Sobrecarga de pasión tiene los siguientes efectos:</p><ul><li>Su TdE se reduce en un 50%.</li><li>Bennett no será lanzado por los aires con la Carga 2.</li></ul>"
+      "description": "Dentro del área de <span>Aventura maravillosa</span>, <span>Sobrecarga de pasión</span> tiene los siguientes efectos:\\n·Su TdE se reduce en un 50%.\\n·Bennett no será lanzado por los aires con la Carga 2.",
+      "level": 4
     },
     {
       "id": "it_should_be_safe",
       "name": "Supuestamente seguro",
-      "description": "<p>Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.</p>"
+      "description": "Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "grand_expectation",
       "name": "Visión de aventura",
-      "description": "El efecto de aumento de ATQ de Aventura maravillosa ya no tiene restricción de Vida, y el personaje gana un 20% adicional de ATQ Básico.",
+      "description": "El efecto de aumento de ATQ de <span>Aventura maravillosa</span> ya no se ve restringido por la cantidad de Vida, y aumenta en un 20% adicional en proporción al ATQ Básico de Bennett.",
       "level": 1
     },
     {
+      "id": "impasse_conqueror",
       "name": "Huida desesperada",
-      "description": "Aumenta la Recarga de Energía de Bennett en un 30% cuando la Vida es menor al 70%.",
+      "description": "Aumenta la Recarga de Energía de Bennett en un 30% cuando su Vida es inferior al 70%.",
       "level": 2
     },
     {
+      "id": "unstoppable_fervor",
       "name": "Pasión ardiente",
-      "description": "Aumenta el nivel de habilidad de Sobrecarga de pasión +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Sobrecarga de pasión</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "unexpected_odyssey",
       "name": "Calidez inagotable",
-      "description": "Usar un ATQ Normal al ejecutar el segundo ataque del nivel 1 de carga de Sobrecarga de pasión permite realizar un ataque adicional. Este ataque adicional es equivalente al 135% del Daño del segundo ataque.",
+      "description": "Usar un Ataque Normal al ejecutar el segundo ataque <span>Sobrecarga de pasión</span>: Carga 1 permite realizar un ataque adicional.\\nEste ataque adicional es equivalente al 135% del daño del segundo ataque.",
       "level": 4
     },
     {
+      "id": "true_explorer",
       "name": "Explorador verdadero",
-      "description": "Aumenta el nivel de habilidad de Aventura maravillosa +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Aventura maravillosa</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "fire_ventures_with_me",
       "name": "Fuego y coraje",
-      "description": "Si los personaje en uso utilizan espada ligera, mandoble o lanza y se encuentran en el AdE de Aventura maravillosa, dichos personajes obtendrán un 15% de Bono de Daño Pyro. Además, serán imbuidos del Elemento Pyro.",
+      "description": "Si los personajes en uso utilizan espada ligera, mandoble o lanza y se encuentran en el AdE de <span>Aventura maravillosa</span>, dichos personajes obtendrán un 15% de <span>Bono de Daño Pyro</span>. Además, serán <span>imbuidos del elemento Pyro</span>.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de ágata agnidus" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo novato" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Pedacito de ágata agnidus",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insignia de cuervo de bronce",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo novato" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insignia de cuervo de bronce",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo plateada" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insignia de cuervo plateada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo plateada" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insignia de cuervo plateada",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo dorada" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insignia de cuervo dorada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Insignia de cuervo dorada" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insignia de cuervo dorada",
+        "amount": 24
+      }
     }
   ]
 }

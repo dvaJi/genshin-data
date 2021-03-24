@@ -1,154 +1,609 @@
 {
   "id": "xiao",
   "name": "Xiao",
-  "description": "Uno de los poderosos e iluminados Adeptus que custodian Liyue. También llamado \"Guardián Yaksha\". A pesar de tener una apariencia joven, algunas de sus hazañas ya aparecen en libros antiguos de hace miles de años. Le gusta especialmente el tofu de Almendras de la Posada Wangshu. La razón de esto es que el platillo sabe justo como los \"sueños\" que solía devorar.",
-  "titles": ["El Guardián Yaksha", "Alatus, el rey de alas doradas"],
+  "title": "el Guardián Yaksha",
+  "description": "Un Yaksha o Adeptus que protege Liyue. También llamado el “Gran Cazador de Demonios” o “Guardián Yaksha”.",
+  "weapon_type": "Lanza",
+  "element": "Anemo",
+  "gender": "Masculino",
+  "substat": "Prob. CRIT",
+  "affiliation": "Adeptus de Liyue",
+  "region": "Liyue",
+  "rarity": 5,
+  "birthday": [
+    17,
+    4
+  ],
+  "constellation": "Alatus Nemeseos",
+  "cv": {
+    "english": "Laila Berzins",
+    "chinese": "kinsen",
+    "japanese": "松冈祯丞",
+    "korean": "정유미"
+  },
   "skills": [
     {
-      "name": "Impulso de torbellino",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Ejecuta hasta 6 ataques rápidos con lanza.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para atacar alzando su lanza.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto. Xiao no recibirá daño al caer con un Ataque Descendente.</p>",
-      "modifiers": []
+      "id": "normal_attack_whirlwind_thrust",
+      "name": "Ataque Normal: Impulso de torbellino",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 6 ataques rápidos con lanza.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para atacar alzando su lanza.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.\\nXiao no recibirá daño al caer con un Ataque Descendente.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "27.54% + 27.54%",
+            "29.42% + 29.42%",
+            "31.3% + 31.3%",
+            "33.8% + 33.8%",
+            "35.68% + 35.68%",
+            "37.87% + 37.87%",
+            "40.69% + 40.69%",
+            "43.51% + 43.51%",
+            "46.32% + 46.32%",
+            "49.14% + 49.14%",
+            "51.96% + 51.96%",
+            "54.77% + 54.77%",
+            "57.59% + 57.59%",
+            "60.41% + 60.41%",
+            "63.23% + 63.23%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "56.94%",
+            "60.82%",
+            "64.7%",
+            "69.88%",
+            "73.76%",
+            "78.29%",
+            "84.11%",
+            "89.93%",
+            "95.76%",
+            "101.58%",
+            "107.4%",
+            "113.22%",
+            "119.05%",
+            "124.87%",
+            "130.69%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "68.55%",
+            "73.23%",
+            "77.9%",
+            "84.13%",
+            "88.81%",
+            "94.26%",
+            "101.27%",
+            "108.28%",
+            "115.29%",
+            "122.3%",
+            "129.31%",
+            "136.33%",
+            "143.34%",
+            "150.35%",
+            "157.36%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "37.66% + 37.66%",
+            "40.23% + 40.23%",
+            "42.8% + 42.8%",
+            "46.22% + 46.22%",
+            "48.79% + 48.79%",
+            "51.79% + 51.79%",
+            "55.64% + 55.64%",
+            "59.49% + 59.49%",
+            "63.34% + 63.34%",
+            "67.2% + 67.2%",
+            "71.05% + 71.05%",
+            "74.9% + 74.9%",
+            "78.75% + 78.75%",
+            "82.6% + 82.6%",
+            "86.46% + 86.46%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "71.54%",
+            "76.42%",
+            "81.3%",
+            "87.8%",
+            "92.68%",
+            "98.37%",
+            "105.69%",
+            "113.01%",
+            "120.32%",
+            "127.64%",
+            "134.96%",
+            "142.27%",
+            "149.59%",
+            "156.91%",
+            "164.23%"
+          ]
+        ],
+        [
+          "Daño de 6º golpe",
+          [
+            "95.83%",
+            "102.37%",
+            "108.9%",
+            "117.61%",
+            "124.15%",
+            "131.77%",
+            "141.57%",
+            "151.37%",
+            "161.17%",
+            "170.97%",
+            "180.77%",
+            "190.58%",
+            "200.38%",
+            "210.18%",
+            "219.98%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "121.09%",
+            "129.34%",
+            "137.6%",
+            "148.61%",
+            "156.86%",
+            "166.5%",
+            "178.88%",
+            "191.26%",
+            "203.65%",
+            "216.03%",
+            "228.42%",
+            "240.8%",
+            "253.18%",
+            "265.57%",
+            "277.95%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "81.83%",
+            "88.49%",
+            "95.16%",
+            "104.67%",
+            "111.33%",
+            "118.94%",
+            "129.41%",
+            "139.88%",
+            "150.35%",
+            "161.76%",
+            "173.18%",
+            "184.6%",
+            "196.02%",
+            "207.44%",
+            "218.86%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "163.63% / 204.39%",
+            "176.95% / 221.02%",
+            "190.27% / 237.66%",
+            "209.3% / 261.42%",
+            "222.62% / 278.06%",
+            "237.84% / 297.07%",
+            "258.77% / 323.21%",
+            "279.7% / 349.36%",
+            "300.63% / 375.5%",
+            "323.46% / 404.02%",
+            "346.29% / 432.54%",
+            "369.12% / 461.06%",
+            "391.96% / 489.57%",
+            "414.79% / 518.09%",
+            "437.62% / 546.61%"
+          ]
+        ]
+      ]
     },
     {
+      "id": "lemniscatic_wind_cycling",
       "name": "Ciclón de viento lemniscático",
-      "type": "Ataque normal",
-      "description": "Xiao se lanza hacia adelante e inflinge Daño Anemo a todos los enemigos que se crucen en su camino. Puede activarse en el aire y empieza con un total de 2 cargas.",
-      "modifiers": []
+      "description": "Xiao se lanza hacia adelante e inflige <span>Daño Anemo</span> a todos los enemigos que se crucen en su camino.\\nPuede activarse en el aire y empieza con un total de 2 cargas.\\n\\n<i>Cuentan las leyendas de otra tierra que el mundo será aplastado por dos grandes ruedas de viento. El dominio con la lanza de Xiao le permite destrozar a sus enemigos igual que las legendarias ruedas de viento.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "252.8%",
+            "271.76%",
+            "290.72%",
+            "316%",
+            "334.96%",
+            "353.92%",
+            "379.2%",
+            "404.48%",
+            "429.76%",
+            "455.04%",
+            "480.32%",
+            "505.6%",
+            "537.2%",
+            "568.8%",
+            "600.4%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ]
+      ]
     },
     {
+      "id": "bane_of_all_evil",
       "name": "Azote de todos los males",
-      "type": "Ataque normal",
-      "description": "Xiao se pone la máscara de Yaksha que aterrorizó tanto a los demonios como a los arcontes hace miles de años.<p><b>Máscara de Yaksha</b></p><ul><li>Mejora la capacidad de salto de Xiao.</li><li>Mientras dura la habilidad, aumenta el alcance y el daño de los ataques de Xiao.</li><li>Convierte su daño de ataque en Daño Anemo. Este cambio elemental no puede sustituirse imbuyéndose de otro elemento.</li></ul>Estar en esta forma consume la Vida de Xiao de manera continua.",
-      "modifiers": []
+      "description": "Xiao se pone la máscara de Yaksha que aterrorizó tanto a los demonios como a los arcontes hace miles de años.\\n\\n<span>Máscara de Yaksha</span>\\n·Mejora la capacidad de salto de Xiao.\\n·Mientras dura la habilidad, aumenta el alcance y el daño de los ataques de Xiao.\\n·Convierte su daño de ataque en <span>Daño Anemo</span>. Este cambio elemental no puede sustituirse imbuyéndose de otro elemento.\\nEstar en esta forma consume la Vida de Xiao de manera continua.\\n\\n<i>Xiao se pone una máscara y adopta la forma del Guardián Yaksha para aterrorizar a todos los males y eliminar a los monstruos y espíritus del mundo. Sin embargo, un gran poder conlleva un gran dolor. Algunos lo llaman el “Azote de todos los males”.</i>",
+      "attributes": [
+        [
+          "Aumento de daño de ATQ Normal/Cargado/Descendente",
+          [
+            "58.45%",
+            "61.95%",
+            "65.45%",
+            "70%",
+            "73.5%",
+            "77%",
+            "81.55%",
+            "86.1%",
+            "90.65%",
+            "95.2%",
+            "99.75%",
+            "104.3%",
+            "108.85%",
+            "113.4%",
+            "117.95%"
+          ]
+        ],
+        [
+          "Pérdida de Vida",
+          [
+            "3% de Vida actual/s",
+            "3% de Vida actual/s",
+            "3% de Vida actual/s",
+            "2.5% de Vida actual/s",
+            "2.5% de Vida actual/s",
+            "2.5% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s",
+            "2% de Vida actual/s"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s",
+            "18 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
+      "id": "conqueror_of_evil_tamer_of_demons",
       "name": "Conquista del mal: Domademonios",
-      "description": "Al estar bajo los efectos de Azote de todos los males, el daño infligido por Xiao se incrementa en un 5%. Después, su daño continúa aumentando en un 5% cada 3 s hasta el fin de la habilidad. Solo se puede alcanzar un 25% de bono de daño máximo."
+      "description": "Al estar bajo los efectos de <span>Azote de todos los males</span>, el daño infligido por Xiao se incrementa en un 5%. Después, su daño continúa aumentando en un 5% cada 3 s hasta el fin de la habilidad.\\nSolo se puede alcanzar un 25% de bono de daño máximo.",
+      "level": 1
     },
     {
+      "id": "dissolution_eon_heaven_fall",
       "name": "Desintegración: Caída celestial",
-      "description": "Usar Ciclón de viento lemniscático aumenta en un 15% el daño infligido por los siguientes Ciclones de viento lemniscático durante 7 s. Este efecto puede acumularse un máximo de 3 veces y, cada vez que se obtenga una nueva carga, la duración de este efecto se reiniciará."
+      "description": "Usar <span>Ciclón de viento lemniscático</span> aumenta en un 15% el daño infligido por los siguientes Ciclones de viento lemniscático durante 7 s.\\nEste efecto puede acumularse un máximo de 3 veces y, cada vez que se obtenga una nueva carga, la duración de este efecto se reiniciará.",
+      "level": 4
     },
     {
+      "id": "transcension_gravity_defier",
       "name": "Trascendencia: Desafío a la gravedad",
-      "description": "Disminuye en un 20% el Coste de Aguante al escalar de todos los miembros de tu equipo. No se puede acumular con otros talentos pasivos que tengan los mismos efectos."
+      "description": "Disminuye en un 20% el Coste de Aguante al escalar de todos los miembros de tu equipo.\\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "dissolution_eon_destroyer_of_worlds",
       "name": "Desintegración: Destructor de mundos",
-      "description": "Aumenta las cargas de Ciclón de viento lemniscático en 1.",
+      "description": "Aumenta las cargas de <span>Ciclón de viento lemniscático</span> en 1.",
       "level": 1
     },
     {
+      "id": "annihilation_eon_blossom_of_kaleidos",
       "name": "Aniquilación: Flor de Kaleidos",
       "description": "Cuando Xiao está en tu equipo pero no en combate, su Recarga de Energía aumenta en un 25%.",
       "level": 2
     },
     {
+      "id": "conqueror_of_evil_wrath_deity",
       "name": "Conquista del mal: Deidad de la ira",
-      "description": "Aumenta el nivel de habilidad de Ciclón de viento lemniscático +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Ciclón de viento lemniscático</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "transcension_extinction_of_suffering",
       "name": "Trascendencia: Fin del sufrimiento",
       "description": "Cuando la Vida de Xiao cae por debajo del 50%, obtiene un 100% de Bono de DEF.",
       "level": 4
     },
     {
+      "id": "evolution_eon_origin_of_ignorance",
       "name": "Evolución: Origen de la ignorancia",
-      "description": "Aumenta el nivel de habilidad de Azote de todos los males +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Azote de todos los males</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "conqueror_of_evil_guardian_yaksha",
       "name": "Conquista del mal: Guardián Yaksha",
-      "description": "Mientras Xiao está bajo los efectos de Azote de todos los males, golpear a 2 o más enemigos con Ataque Descendente otorga a Ciclón de viento lemniscático 1 carga adicional y elimina su TdE durante 1 s.",
+      "description": "Mientras Xiao está bajo los efectos de <span>Azote de todos los males</span>, golpear a 2 o más enemigos con Ataque Descendente otorga a <span>Ciclón de viento lemniscático</span> 1 carga adicional y elimina su TdE durante 1 s.",
       "level": 6
     }
   ],
   "ascension": [
     {
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
       "mat1": {
-        "name": "Pedacito de turquesa vayuda"
+        "id": "vayuda_turquoise_sliver",
+        "name": "Pedacito de turquesa vayuda",
+        "amount": 1
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 3
       },
       "mat4": {
-        "name": "Condensado de Slime"
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 3
       }
     },
     {
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
       "mat1": {
-        "name": "Fragmento de turquesa vayuda"
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 3
       },
       "mat2": {
-        "name": "Jade inmaduro"
+        "id": "juvenile_jade",
+        "name": "Jade inmaduro",
+        "amount": 2
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 10
       },
       "mat4": {
-        "name": "Condensado de Slime"
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 15
       }
     },
     {
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
       "mat1": {
-        "name": "Fragmento de turquesa vayuda"
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 6
       },
       "mat2": {
-        "name": "Jade inmaduro"
+        "id": "juvenile_jade",
+        "name": "Jade inmaduro",
+        "amount": 4
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 20
       },
       "mat4": {
-        "name": "Babas de Slime"
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 12
       }
     },
     {
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
       "mat1": {
-        "name": "Trozo de turquesa vayuda"
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 3
       },
       "mat2": {
-        "name": "Jade inmaduro"
+        "id": "juvenile_jade",
+        "name": "Jade inmaduro",
+        "amount": 8
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 30
       },
       "mat4": {
-        "name": "Babas de Slime"
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 18
       }
     },
     {
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
       "mat1": {
-        "name": "Trozo de turquesa vayuda"
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 6
       },
       "mat2": {
-        "name": "Jade inmaduro"
+        "id": "juvenile_jade",
+        "name": "Jade inmaduro",
+        "amount": 12
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 45
       },
       "mat4": {
-        "name": "Esencia de Slime"
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 12
       }
     },
     {
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
       "mat1": {
-        "name": "Turquesa vayuda"
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Turquesa vayuda",
+        "amount": 6
       },
       "mat2": {
-        "name": "Jade inmaduro"
+        "id": "juvenile_jade",
+        "name": "Jade inmaduro",
+        "amount": 20
       },
       "mat3": {
-        "name": "Flor chingxin"
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 60
       },
       "mat4": {
-        "name": "Esencia de Slime"
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 24
       }
     }
   ]

@@ -1,103 +1,554 @@
 {
   "id": "hu_tao",
   "name": "Hu Tao",
-  "description": "Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary affairs.She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.Aside from this, she is also a talented poet whose many \"masterpieces\" have passed around Liyue's populace by word of mouth.",
+  "title": "Fragrance in Thaw",
+  "description": "The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.",
   "weapon_type": "Polearm",
   "element": "Pyro",
   "gender": "Female",
+  "substat": "CRIT DMG",
+  "affiliation": "Wangsheng Funeral Parlor",
   "region": "Liyue",
   "rarity": 5,
-  "location": "Wish",
-  "titles": [
-    "Fragrance in Thaw",
-    "77th-Generation Director of the Wangsheng Funeral Parlor",
-    "Director Hu",
-    "Liyue Harbor's \"Versemonger of the Darkest Alleys\""
+  "birthday": [
+    15,
+    7
   ],
+  "constellation": "Papilio Charontis",
+  "cv": {
+    "english": "Brianna Knickerbocker",
+    "chinese": "陶典",
+    "japanese": "高橋李依",
+    "korean": "김하루"
+  },
   "skills": [
     {
-      "id": "secret_spear_of_wangsheng",
-      "name": "Secret Spear of Wangsheng",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 6 rapid strikes.<br /><p><b>Charged Attack:</b> Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.</p>",
-      "modifiers": []
+      "id": "normal_attack_secret_spear_of_wangsheng",
+      "name": "Normal Attack: Secret Spear of Wangsheng",
+      "description": "<span>Normal Attack</span>\\nPerforms up to six consecutive spear strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "46.89%",
+            "50.08%",
+            "53.28%",
+            "57.54%",
+            "60.74%",
+            "64.47%",
+            "69.26%",
+            "74.06%",
+            "78.85%",
+            "83.65%",
+            "88.44%",
+            "93.24%",
+            "98.04%",
+            "102.83%",
+            "107.63%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "48.25%",
+            "51.54%",
+            "54.83%",
+            "59.22%",
+            "62.51%",
+            "66.35%",
+            "71.28%",
+            "76.22%",
+            "81.15%",
+            "86.09%",
+            "91.02%",
+            "95.96%",
+            "100.89%",
+            "105.83%",
+            "110.76%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "61.05%",
+            "65.21%",
+            "69.38%",
+            "74.92%",
+            "79.09%",
+            "83.94%",
+            "90.19%",
+            "96.43%",
+            "102.67%",
+            "108.92%",
+            "115.16%",
+            "121.41%",
+            "127.65%",
+            "133.89%",
+            "140.14%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "65.64%",
+            "70.12%",
+            "74.59%",
+            "80.56%",
+            "85.03%",
+            "90.26%",
+            "96.97%",
+            "103.68%",
+            "110.4%",
+            "117.11%",
+            "123.82%",
+            "130.54%",
+            "137.25%",
+            "143.96%",
+            "150.68%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "33.27% + 35.2%",
+            "35.54% + 37.6%",
+            "37.81% + 40%",
+            "40.84% + 43.2%",
+            "43.1% + 45.6%",
+            "45.75% + 48.4%",
+            "49.15% + 52%",
+            "52.56% + 55.6%",
+            "55.96% + 59.2%",
+            "59.36% + 62.8%",
+            "62.77% + 66.4%",
+            "66.17% + 70%",
+            "69.57% + 73.6%",
+            "72.98% + 77.2%",
+            "76.38% + 80.8%"
+          ]
+        ],
+        [
+          "6-Hit DMG",
+          [
+            "85.96%",
+            "91.82%",
+            "97.68%",
+            "105.49%",
+            "111.36%",
+            "118.19%",
+            "126.98%",
+            "135.78%",
+            "144.57%",
+            "153.36%",
+            "162.15%",
+            "170.94%",
+            "179.73%",
+            "188.52%",
+            "197.31%"
+          ]
+        ],
+        [
+          "Charged Attack",
+          [
+            "135.96%",
+            "145.23%",
+            "154.5%",
+            "166.86%",
+            "176.13%",
+            "186.94%",
+            "200.85%",
+            "214.76%",
+            "228.66%",
+            "242.56%",
+            "256.47%",
+            "270.37%",
+            "284.28%",
+            "298.18%",
+            "312.09%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "65.42%",
+            "69.88%",
+            "74.34%",
+            "80.29%",
+            "84.75%",
+            "89.95%",
+            "96.64%",
+            "103.33%",
+            "110.02%",
+            "116.71%",
+            "123.4%",
+            "130.1%",
+            "136.79%",
+            "143.48%",
+            "150.17%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "130.81% / 163.39%",
+            "139.73% / 174.53%",
+            "148.65% / 185.67%",
+            "160.54% / 200.52%",
+            "169.46% / 211.66%",
+            "179.86% / 224.66%",
+            "193.24% / 241.37%",
+            "206.62% / 258.08%",
+            "220% / 274.79%",
+            "233.38% / 291.5%",
+            "246.76% / 308.21%",
+            "260.13% / 324.92%",
+            "273.51% / 341.63%",
+            "286.89% / 358.34%",
+            "300.27% / 375.05%"
+          ]
+        ]
+      ]
     },
     {
       "id": "guide_to_afterlife",
       "name": "Guide to Afterlife",
-      "type": "Elemental Skill",
-      "description": "Hu Tao consumes a part of her HP, knocking nearby enemies back and entering the Paramita Papilio State.<br /><p><b>Paramita Papilio State:</b><br />Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK. Hu Tao's attack DMG is converted to <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>, which cannot be overridden by any other elemental infusion.<br />Increases Hu Tao's resistance to interruption.<br />Paramita Papilio ends when its duration is over, or when Hu Tao has left the battlefield or fallen.<br />In the Paramita Papilio state, Hu Tao's Charged Attacks apply the Blood Blossom effect to enemies it hits.<br /><b>Blood Blossom Effect:</b><br />Enemies affected by Blood Blossom will take <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> every 4s.<br />This DMG is considered Elemental Skill DMG.<br />Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.</p>",
-      "modifiers": []
+      "description": "Only an unwavering flame can cleanse the impurities of this world.\\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.\\n\\n<span>Paramita Papilio</span>\\n·Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.\\n·Converts attack DMG to <span>Pyro DMG</span>, which cannot be overridden by any other elemental infusion.\\n·Charged Attacks apply the Blood Blossom effect to the enemies hit.\\n·Increases Hu Tao's resistance to interruption.\\n\\n<span>Blood Blossom</span>\\nEnemies affected by Blood Blossom will take <span>Pyro DMG</span> every 4s. This DMG is considered Elemental Skill DMG.\\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\\n\\n<span>Paramita Papilio</span> ends when its duration is over, or Hu Tao has left the battlefield or fallen.\\n\\n<i>Hu Tao's Secret Spear technique is based on several rules, the first of which is: \"The spear opens the path to the afterlife, and the butterflies bridge this world and the next.\"</i>",
+      "attributes": [
+        [
+          "Activation Cost",
+          [
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP",
+            "30% Current HP"
+          ]
+        ],
+        [
+          "ATK Increase",
+          [
+            "0.0384100005030632 Max HP",
+            "0.040709998458623886 Max HP",
+            "0.04301000013947487 Max HP",
+            "0.04600000008940697 Max HP",
+            "0.04830000177025795 Max HP",
+            "0.050599999725818634 Max HP",
+            "0.05358999967575073 Max HP",
+            "0.05657999962568283 Max HP",
+            "0.05956999957561493 Max HP",
+            "0.06255999952554703 Max HP",
+            "0.06554999947547913 Max HP",
+            "0.06853999942541122 Max HP",
+            "0.07152999937534332 Max HP",
+            "0.07451999932527542 Max HP",
+            "0.07750999927520752 Max HP"
+          ]
+        ],
+        [
+          "Blood Blossom DMG",
+          [
+            "64%",
+            "68.8%",
+            "73.6%",
+            "80%",
+            "84.8%",
+            "89.6%",
+            "96%",
+            "102.4%",
+            "108.8%",
+            "115.2%",
+            "121.6%",
+            "128%",
+            "136%",
+            "144%",
+            "152%"
+          ]
+        ],
+        [
+          "Blood Blossom Duration",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        ]
+      ]
     },
     {
       "id": "spirit_soother",
       "name": "Spirit Soother",
-      "type": "Elemental Burst",
-      "description": "Hu Tao commands a blazing spirit to deal <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> in a large AoE. Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times based on the number of enemies hit.<br /><p>If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.</p>",
-      "modifiers": []
+      "description": "Commands a blazing spirit to attack, dealing <span>Pyro DMG</span> in a large AoE.\\nUpon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.\\nIf Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.\\n\\n<i>Supernatural activity by those who have already left this world is a source of great anxiety for the Wangsheng Funeral Parlor. In such cases, cremation always lets Hu Tao find peace of mind. The more anxious she feels, the stronger the flame.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "303.27%",
+            "321.43%",
+            "339.59%",
+            "363.2%",
+            "381.36%",
+            "399.52%",
+            "423.13%",
+            "446.74%",
+            "470.34%",
+            "493.95%",
+            "517.56%",
+            "541.17%",
+            "564.78%",
+            "588.38%",
+            "611.99%"
+          ]
+        ],
+        [
+          "Low HP Skill DMG",
+          [
+            "379.09%",
+            "401.79%",
+            "424.49%",
+            "454%",
+            "476.7%",
+            "499.4%",
+            "528.91%",
+            "558.42%",
+            "587.93%",
+            "617.44%",
+            "646.95%",
+            "676.46%",
+            "705.97%",
+            "735.48%",
+            "764.99%"
+          ]
+        ],
+        [
+          "Skill HP Regeneration",
+          [
+            "0.06262499839067459 Max HP",
+            "0.0663750022649765 Max HP",
+            "0.07012499868869781 Max HP",
+            "0.07500000298023224 Max HP",
+            "0.07874999940395355 Max HP",
+            "0.08250000327825546 Max HP",
+            "0.08737500011920929 Max HP",
+            "0.09224999696016312 Max HP",
+            "0.09712500125169754 Max HP",
+            "0.10199999809265137 Max HP",
+            "0.10687500238418579 Max HP",
+            "0.11174999922513962 Max HP",
+            "0.11662500351667404 Max HP",
+            "0.12150000035762787 Max HP",
+            "0.1263750046491623 Max HP"
+          ]
+        ],
+        [
+          "Low HP Skill Regeneration",
+          [
+            "0.08349999785423279 Max HP",
+            "0.0885000005364418 Max HP",
+            "0.09350000321865082 Max HP",
+            "0.10000000149011612 Max HP",
+            "0.10499999672174454 Max HP",
+            "0.10999999940395355 Max HP",
+            "0.11649999767541885 Max HP",
+            "0.12300000339746475 Max HP",
+            "0.12950000166893005 Max HP",
+            "0.13600000739097595 Max HP",
+            "0.14249999821186066 Max HP",
+            "0.14900000393390656 Max HP",
+            "0.15549999475479126 Max HP",
+            "0.16200000047683716 Max HP",
+            "0.16850000619888306 Max HP"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "flutter_by",
       "name": "Flutter By",
-      "description": "When a <span style=\"color:#cc8000\"><b>Paramita Papilio</b></span> state activated by <span style=\"color:#cc8000\"><b>Guide to Afterlife</b></span> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
-      "unlock": "Ascension 1"
+      "description": "When a <span>Paramita Papilio</span> state activated by <span>Guide to Afterlife</span> ends, all allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 8s.",
+      "level": 1
     },
     {
       "id": "sanguine_rouge",
       "name": "Sanguine Rouge",
-      "description": "When Hu Tao's HP is equal to or less than 50%, her <span style=\"color:#bf2818\"><b>Pyro DMG Bonus</b></span> is increased by 33%.",
-      "unlock": "Ascension 4"
+      "description": "When Hu Tao's HP is equal to or less than 50%, her <span>Pyro DMG Bonus</span> is increased by 33%.",
+      "level": 4
     },
     {
       "id": "the_more_the_merrier",
       "name": "The More the Merrier",
-      "description": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type."
+      "description": "When Hu Tao cooks a dish perfectly, she has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "crimson_bouquet",
       "name": "Crimson Bouquet",
-      "description": "While in a Paramita Papilio state activated by Guide to Afterlife, Hu Tao's Charge Attacks do not consume Stamina.",
+      "description": "While in a <span>Paramita Papilio</span> state activated by <span>Guide to Afterlife</span>, Hu Tao's Charge Attacks do not consume Stamina.",
       "level": 1
     },
     {
       "id": "ominous_rainfall",
       "name": "Ominous Rainfall",
-      "description": "Increases the Blood Blossom DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.Additionally, Spirit Soother will also apply the Blood Blossom effect.",
+      "description": "Increases the <span>Blood Blossom</span> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.\\nAdditionally, <span>Spirit Soother</span> will also apply the <span>Blood Blossom</span> effect.",
       "level": 2
     },
     {
       "id": "lingering_carmine",
       "name": "Lingering Carmine",
-      "description": "Increases the Level of Guide to Afterlife by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Guide to Afterlife</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "garden_of_eternal_rest",
       "name": "Garden of Eternal Rest",
-      "description": "Upon defeating an enemy affected by a Blood Blossom that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
+      "description": "Upon defeating an enemy affected by a <span>Blood Blossom</span> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
       "level": 4
     },
     {
       "id": "floral_incense",
       "name": "Floral Incense",
-      "description": "Increases the Level of Spirit Soother by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Spirit Soother</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "butterflys_embrace",
       "name": "Butterfly's Embrace",
-      "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.This effect triggers automatically when Hu Tao has 1 HP left.Can only occur once every 60s.",
+      "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:\\nHu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.\\nThis effect triggers automatically when Hu Tao has 1 HP left.\\nCan only occur once every 60s.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 2040,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "agnidus_agate_sliver",
@@ -117,7 +568,10 @@
     },
     {
       "ascension": 2,
-      "level": 4050,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "agnidus_agate_fragment",
@@ -142,7 +596,10 @@
     },
     {
       "ascension": 3,
-      "level": 5060,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "agnidus_agate_fragment",
@@ -167,7 +624,10 @@
     },
     {
       "ascension": 4,
-      "level": 6070,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -192,7 +652,10 @@
     },
     {
       "ascension": 5,
-      "level": 7080,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -216,8 +679,11 @@
       }
     },
     {
-      "ascension": null,
-      "level": 8090,
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "agnidus_agate_gemstone",

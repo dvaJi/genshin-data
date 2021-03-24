@@ -1,106 +1,565 @@
 {
   "id": "xinyan",
   "name": "Xinyan",
+  "title": "Blazing Riff",
   "description": "Liyue's sole rock 'n' roll musician. She rebels against ossified prejudices using her music and passionate singing.",
   "weapon_type": "Claymore",
   "element": "Pyro",
   "gender": "Female",
+  "substat": "ATK%",
+  "affiliation": "Liyue Harbor",
   "region": "Liyue",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Blazing Riff", "Rock 'n' Roll Musician"],
+  "birthday": [
+    16,
+    10
+  ],
+  "constellation": "Fila Ignium",
+  "cv": {
+    "english": "Laura Stahl",
+    "chinese": "王雅欣",
+    "japanese": "たかはし 智秋",
+    "korean": "김채하"
+  },
   "skills": [
     {
-      "id": "dance_on_fire",
-      "name": "Dance on Fire",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 4 consecutive strikes.<p><b>Charged Attack:</b> Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.At end of the sequence, perform a more powerful slash.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_dance_on_fire",
+      "name": "Normal Attack: Dance on Fire",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 consecutive strikes.\\n\\n<span>Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "76.54%",
+            "82.77%",
+            "89%",
+            "97.9%",
+            "104.13%",
+            "111.25%",
+            "121.04%",
+            "130.83%",
+            "140.62%",
+            "151.3%",
+            "161.98%",
+            "172.66%",
+            "183.34%",
+            "194.02%",
+            "204.7%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "73.96%",
+            "79.98%",
+            "86%",
+            "94.6%",
+            "100.62%",
+            "107.5%",
+            "116.96%",
+            "126.42%",
+            "135.88%",
+            "146.2%",
+            "156.52%",
+            "166.84%",
+            "177.16%",
+            "187.48%",
+            "197.8%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "95.46%",
+            "103.23%",
+            "111%",
+            "122.1%",
+            "129.87%",
+            "138.75%",
+            "150.96%",
+            "163.17%",
+            "175.38%",
+            "188.7%",
+            "202.02%",
+            "215.34%",
+            "228.66%",
+            "241.98%",
+            "255.3%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "115.84%",
+            "125.27%",
+            "134.7%",
+            "148.17%",
+            "157.6%",
+            "168.38%",
+            "183.19%",
+            "198.01%",
+            "212.83%",
+            "228.99%",
+            "245.15%",
+            "261.32%",
+            "277.48%",
+            "293.65%",
+            "309.81%"
+          ]
+        ],
+        [
+          "Charged Attack Spinning DMG",
+          [
+            "62.55%",
+            "67.64%",
+            "72.73%",
+            "80%",
+            "85.09%",
+            "90.91%",
+            "98.91%",
+            "106.91%",
+            "114.91%",
+            "123.64%",
+            "132.36%",
+            "141.09%",
+            "149.82%",
+            "158.55%",
+            "167.27%"
+          ]
+        ],
+        [
+          "Charged Attack Final DMG",
+          [
+            "113.09%",
+            "122.29%",
+            "131.5%",
+            "144.65%",
+            "153.86%",
+            "164.37%",
+            "178.84%",
+            "193.31%",
+            "207.77%",
+            "223.55%",
+            "239.33%",
+            "255.11%",
+            "270.89%",
+            "286.67%",
+            "302.45%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        ],
+        [
+          "Max Duration",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ]
+      ]
     },
     {
       "id": "sweeping_fervor",
       "name": "Sweeping Fervor",
-      "type": "Elemental Skill",
-      "description": "Xinyan brandishes her instrument, dealing <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> on nearby opponents, forming a shield made out of her audience's passion.The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.<ul><li>Hitting 0-1 opponents grants Shield Level 1: Ad Lib.</li><li>Hitting 2 opponents grants Shield Level 2: Lead-In.</li><li>Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> to nearby opponents.</li></ul><p>The shield has the following special properties:</p><ul><li>When unleashed, it infuses Xinyan with <span style=\"color:#bf2818\"><b>Pyro</b></span>.</li><li>It has 250% DMG Absorption effectiveness against <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>.</li></ul><p>Generate <b>4</b> elemental particles when it hit at least 1 target.</p>",
-      "modifiers": []
+      "description": "Xinyan brandishes her instrument, dealing <span>Pyro DMG</span> on nearby opponents, forming a shield made out of her audience's passion.\\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.\\n·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.\\n·Hitting 2 opponents grants Shield Level 2: Lead-In.\\n·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span>Pyro DMG</span> to nearby opponents.\\n\\nThe shield has the following special properties:\\n·When unleashed, it infuses Xinyan with <span>Pyro</span>.\\n·It has 250% DMG Absorption effectiveness against <span>Pyro DMG</span>.\\n\\n<i>Xinyan insists that these pyrotechnics are the apex of performative art, and that they are physical phenomena that have nothing to do with her Vision.</i>",
+      "attributes": [
+        [
+          "Swing DMG",
+          [
+            "169.6%",
+            "182.32%",
+            "195.04%",
+            "212%",
+            "224.72%",
+            "237.44%",
+            "254.4%",
+            "271.36%",
+            "288.32%",
+            "305.28%",
+            "322.24%",
+            "339.2%",
+            "360.4%",
+            "381.6%",
+            "402.8%"
+          ]
+        ],
+        [
+          "Shield Level 1 DMG Absorption",
+          [
+            "104.04%  DEF+ 500.552734375",
+            "111.84%  DEF+ 550.614990234375",
+            "119.65%  DEF+ 604.8490600585938",
+            "130.05%  DEF+ 663.2550048828125",
+            "137.85%  DEF+ 725.832763671875",
+            "145.66%  DEF+ 792.5824584960938",
+            "156.06%  DEF+ 863.50390625",
+            "166.46%  DEF+ 938.5972900390625",
+            "176.87%  DEF+ 1017.8624877929688",
+            "187.27%  DEF+ 1101.299560546875",
+            "197.68%  DEF+ 1188.908447265625",
+            "208.08%  DEF+ 1280.689208984375",
+            "221.09%  DEF+ 1376.641845703125",
+            "234.09%  DEF+ 1476.7662353515625",
+            "247.09%  DEF+ 1581.0626220703125"
+          ]
+        ],
+        [
+          "Shield Level 2 DMG Absorption",
+          [
+            "122.4%  DEF+ 588.8855590820312",
+            "131.58%  DEF+ 647.7823486328125",
+            "140.76%  DEF+ 711.587158203125",
+            "153%  DEF+ 780.2999877929688",
+            "162.18%  DEF+ 853.9209594726562",
+            "171.36%  DEF+ 932.449951171875",
+            "183.6%  DEF+ 1015.886962890625",
+            "195.84%  DEF+ 1104.2320556640625",
+            "208.08%  DEF+ 1197.4852294921875",
+            "220.32%  DEF+ 1295.646484375",
+            "232.56%  DEF+ 1398.7158203125",
+            "244.8%  DEF+ 1506.693115234375",
+            "260.1%  DEF+ 1619.57861328125",
+            "275.4%  DEF+ 1737.3720703125",
+            "290.7%  DEF+ 1860.0736083984375"
+          ]
+        ],
+        [
+          "Shield Level 3 DMG Absorption",
+          [
+            "144%  DEF+ 692.8065795898438",
+            "154.8%  DEF+ 762.0968627929688",
+            "165.6%  DEF+ 837.1613159179688",
+            "180%  DEF+ 918",
+            "190.8%  DEF+ 1004.6128540039062",
+            "201.6%  DEF+ 1096.9998779296875",
+            "216%  DEF+ 1195.1611328125",
+            "230.4%  DEF+ 1299.0965576171875",
+            "244.8%  DEF+ 1408.80615234375",
+            "259.2%  DEF+ 1524.2900390625",
+            "273.6%  DEF+ 1645.5479736328125",
+            "288%  DEF+ 1772.5802001953125",
+            "306%  DEF+ 1905.3865966796875",
+            "324%  DEF+ 2043.9671630859375",
+            "342%  DEF+ 2188.322021484375"
+          ]
+        ],
+        [
+          "DoT",
+          [
+            "33.6%",
+            "36.12%",
+            "38.64%",
+            "42%",
+            "44.52%",
+            "47.04%",
+            "50.4%",
+            "53.76%",
+            "57.12%",
+            "60.48%",
+            "63.84%",
+            "67.2%",
+            "71.4%",
+            "75.6%",
+            "79.8%"
+          ]
+        ],
+        [
+          "Shield Duration",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        ]
+      ]
     },
     {
       "id": "riff_revolution",
       "name": "Riff Revolution",
-      "type": "Elemental Burst",
-      "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd. The sheer intensity of the atmosphere will cause explosions that deal <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> to nearby opponents.",
-      "modifiers": []
+      "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.\\nThe sheer intensity of the atmosphere will cause explosions that deal <span>Pyro DMG</span> to nearby opponents.\\n\\n<i>Xinyan used to end all her performances with this move. She didn't stop because it was dangerous, however, but because she didn't have a more epic finale in case someone shouted \"Encore!\"</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "340.8%",
+            "366.36%",
+            "391.92%",
+            "426%",
+            "451.56%",
+            "477.12%",
+            "511.2%",
+            "545.28%",
+            "579.36%",
+            "613.44%",
+            "647.52%",
+            "681.6%",
+            "724.2%",
+            "766.8%",
+            "809.4%"
+          ]
+        ],
+        [
+          "Pyro DoT",
+          [
+            "40%",
+            "43%",
+            "46%",
+            "50%",
+            "53%",
+            "56%",
+            "60%",
+            "64%",
+            "68%",
+            "72%",
+            "76%",
+            "80%",
+            "85%",
+            "90%",
+            "95%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s",
+            "2s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "the_show_goes_on_even_without_an_audience",
-      "name": "\"The Show Goes On, Even Without an Audience...\"",
-      "description": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.<ul><li>Shield Level 2: Lead-In requirement reduced to 1 opponent hit.</li><li>Shield Level 3: Rave requirement reduced to 2 opponents hit or more.</li></ul>",
-      "unlock": "Ascension 1"
+      "name": "\"The Show Goes On, Even Without An Audience...\"",
+      "description": "Decreases the number of opponents <span>Sweeping Fervor</span> must hit to trigger each level of shielding.\\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
+      "level": 1
     },
     {
       "id": "now_thats_rock_n_roll",
       "name": "\"...Now That's Rock 'N' Roll!\"",
-      "description": "Characters shielded by Sweeping Fervor deal 15% increased Physical DMG.",
-      "unlock": "Ascension 4"
+      "description": "Characters shielded by <span>Sweeping Fervor</span> deal 15% increased Physical DMG.",
+      "level": 4
     },
     {
       "id": "a_rad_recipe",
       "name": "A Rad Recipe",
       "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
-      "unlock": ""
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "fatal_acceleration",
       "name": "Fatal Acceleration",
-      "description": "Upon scoring a CRIT hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s. Can only occur once every 5s.",
+      "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.\\nCan only occur once every 5s.",
       "level": 1
     },
     {
       "id": "impromptu_opening",
       "name": "Impromptu Opening",
-      "description": "Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
+      "description": "<span>Riff Revolution</span>'s Physical DMG has its Crit Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
       "level": 2
     },
     {
       "id": "doublestop",
       "name": "Double-Stop",
-      "description": "Increases the Level of Sweeping Fervor by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Sweeping Fervor</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "wildfire_rhythm",
       "name": "Wildfire Rhythm",
-      "description": "Sweeping Fervor's swing DMG decrease opponent's Physical RES by 15% for 12s.",
+      "description": "<span>Sweeping Fervor</span>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
       "level": 4
     },
     {
       "id": "screamin_for_an_encore",
       "name": "Screamin' for an Encore",
-      "description": "Increases the Level of Riff Revolution by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Riff Revolution</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "rockin_in_a_flaming_world",
       "name": "Rockin' in a Flaming World",
-      "description": "Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK bonus equal to 50% of her DEF.",
+      "description": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "agnidus_agate_sliver",
         "name": "Agnidus Agate Sliver",
         "amount": 1
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 3 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 3
+      },
       "mat4": {
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
@@ -109,15 +568,26 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 10 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 10
+      },
       "mat4": {
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
@@ -126,15 +596,26 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 20 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 20
+      },
       "mat4": {
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
@@ -143,15 +624,26 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 30 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 30
+      },
       "mat4": {
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
@@ -160,7 +652,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -172,7 +667,11 @@
         "name": "Everflame Seed",
         "amount": 12
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 45 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 45
+      },
       "mat4": {
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
@@ -181,7 +680,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "agnidus_agate_gemstone",
@@ -193,7 +695,11 @@
         "name": "Everflame Seed",
         "amount": 20
       },
-      "mat3": { "id": "violetgrass", "name": "Violetgrass", "amount": 60 },
+      "mat3": {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "amount": 60
+      },
       "mat4": {
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",

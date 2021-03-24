@@ -1,55 +1,397 @@
 {
   "id": "barbara",
   "name": "Barbara",
-  "description": "Every citizen of Mondstadt adores Barbara. However, she learned the word \"idol\" from a magazine.",
+  "title": "Shining Idol",
+  "description": "Every citizen of Mondstadt adores Barbara. She learned the word \"idol\" from a magazine.",
   "weapon_type": "Catalyst",
   "element": "Hydro",
   "gender": "Female",
+  "substat": "HP%",
+  "affiliation": "Church of Favonius",
   "region": "Mondstadt",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Shining Idol", "Deaconess"],
+  "birthday": [
+    5,
+    7
+  ],
+  "constellation": "Crater",
+  "cv": {
+    "english": "Laura Stahl",
+    "chinese": "宋媛媛",
+    "japanese": "鬼頭明里",
+    "korean": "윤아영"
+  },
   "skills": [
     {
-      "id": "whisper_of_water",
-      "name": "Whisper of Water",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 4 water splash attacks that deal <span style=\"color:#0b4dda\"><b>Hydro DMG</b></span>.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to deal <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> after a short casting time.<b>Plunging Attack:</b> Gathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> upon impact with the ground.</p>",
-      "modifiers": []
+      "id": "normal_attack_whisper_of_water",
+      "name": "Normal Attack: Whisper of Water",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 water splash attacks that deal <span>Hydro DMG</span>.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to deal <span>AoE Hydro DMG</span> after a short casting time.\\n\\n<span>Plunging Attack</span>\\nGathering the might of Hydro, Barbara plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span>AoE Hydro DMG</span> upon impact with the ground.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "37.84%",
+            "40.68%",
+            "43.52%",
+            "47.3%",
+            "50.14%",
+            "52.98%",
+            "56.76%",
+            "60.54%",
+            "64.33%",
+            "68.11%",
+            "72.05%",
+            "77.19%",
+            "82.34%",
+            "87.49%",
+            "92.63%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "35.52%",
+            "38.18%",
+            "40.85%",
+            "44.4%",
+            "47.06%",
+            "49.73%",
+            "53.28%",
+            "56.83%",
+            "60.38%",
+            "63.94%",
+            "67.63%",
+            "72.46%",
+            "77.29%",
+            "82.12%",
+            "86.95%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "41.04%",
+            "44.12%",
+            "47.2%",
+            "51.3%",
+            "54.38%",
+            "57.46%",
+            "61.56%",
+            "65.66%",
+            "69.77%",
+            "73.87%",
+            "78.14%",
+            "83.72%",
+            "89.3%",
+            "94.88%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "55.2%",
+            "59.34%",
+            "63.48%",
+            "69%",
+            "73.14%",
+            "77.28%",
+            "82.8%",
+            "88.32%",
+            "93.84%",
+            "99.36%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "166.24%",
+            "178.71%",
+            "191.18%",
+            "207.8%",
+            "220.27%",
+            "232.74%",
+            "249.36%",
+            "265.98%",
+            "282.61%",
+            "299.23%",
+            "316.52%",
+            "339.13%",
+            "361.74%",
+            "384.35%",
+            "406.96%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "105.1%",
+            "112.61%",
+            "120.12%",
+            "127.62%",
+            "135.13%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "100.47%"
+          ]
+        ]
+      ]
     },
     {
       "id": "let_the_show_begin",
-      "name": "Let the Show Begin",
-      "type": "Elemental Skill",
-      "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <span style=\"color:#0b4dda\"><b>Hydro DMG</b></span> to surrounding opponents and afflicting them with the <span style=\"color:#0b4dda\"><b>Wet</b></span> status.<p><b>Melody Loop:</b></p><ul><li>Barbara's Normal Attacks heal your characters in the party and nearby allied characters for a certain amount of HP, which scales with Barbara's Max HP.</li><li>Her Charged Attack generates 4 times the amount of healing.</li><li>Regenerates a certain amount of HP at regular intervals for your active character.</li><li>Applies the <span style=\"color:#0b4dda\"><b>Wet</b></span> status to the character and opponents who come in contact with them.</li></ul>",
-      "modifiers": []
+      "name": "Let the Show Begin♪",
+      "description": "Summons water droplets resembling musical notes that form a Melody Loop, dealing <span>Hydro DMG</span> to surrounding opponents and applying the <span>Wet</span> status to them.\\n\\n<span>Melody Loop</span>\\n·On hit, Barbara's Normal Attacks heal your own party members and nearby teammates for a certain amount of HP, which scales with Barbara's Max HP.\\n·On hit, Barbara's Charged Attack generates 4 times the amount of healing.\\n·Periodically regenerates your own active character's HP.\\n·Applies the <span>Wet</span> status to the character and to opponents who come in contact with them.\\n\\n<i>Barbara's music is the magic that heals her companions.</i>",
+      "attributes": [
+        [
+          "HP Regeneration Per Hit",
+          [
+            "0.007499999832361937  Max HP+ 72.22270202636719",
+            "0.008062999695539474  Max HP+ 79.44597625732422",
+            "0.008624999783933163  Max HP+ 87.27119445800781",
+            "0.00937500037252903  Max HP+ 95.6983413696289",
+            "0.00993799977004528  Max HP+ 104.72743225097656",
+            "0.010499999858438969  Max HP+ 114.35846710205078",
+            "0.011250000447034836  Max HP+ 124.59143829345703",
+            "0.012000000104308128  Max HP+ 135.4263458251953",
+            "0.012749999761581421  Max HP+ 146.8632049560547",
+            "0.013500000350177288  Max HP+ 158.90199279785156",
+            "0.01425000000745058  Max HP+ 171.542724609375",
+            "0.014999999664723873  Max HP+ 184.78538513183594",
+            "0.01593800075352192  Max HP+ 198.6300048828125",
+            "0.016875000670552254  Max HP+ 213.07655334472656",
+            "0.017812000587582588  Max HP+ 228.12503051757812"
+          ]
+        ],
+        [
+          "Continuous Regeneration",
+          [
+            "0.03999999910593033  Max HP+ 385.187744140625",
+            "0.0430000014603138  Max HP+ 423.7118835449219",
+            "0.04600000008940697  Max HP+ 465.44635009765625",
+            "0.05000000074505806  Max HP+ 510.39117431640625",
+            "0.05299999937415123  Max HP+ 558.5463256835938",
+            "0.0560000017285347  Max HP+ 609.9118041992188",
+            "0.05999999865889549  Max HP+ 664.4876708984375",
+            "0.06400000303983688  Max HP+ 722.2738647460938",
+            "0.06800000369548798  Max HP+ 783.2703857421875",
+            "0.07199999690055847  Max HP+ 847.477294921875",
+            "0.07599999755620956  Max HP+ 914.89453125",
+            "0.07999999821186066  Max HP+ 985.5220947265625",
+            "0.08500000089406967  Max HP+ 1059.3599853515625",
+            "0.09000000357627869  Max HP+ 1136.408203125",
+            "0.0949999988079071  Max HP+ 1216.6668701171875"
+          ]
+        ],
+        [
+          "Droplet DMG",
+          [
+            "58.4%",
+            "62.78%",
+            "67.16%",
+            "73%",
+            "77.38%",
+            "81.76%",
+            "87.6%",
+            "93.44%",
+            "99.28%",
+            "105.12%",
+            "110.96%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s",
+            "32s"
+          ]
+        ]
+      ]
     },
     {
       "id": "shining_miracle",
-      "name": "Shining Miracle",
-      "type": "Elemental Burst",
-      "description": "Heals nearby allied characters and your characters in the party for a large amount of HP that scales with Barbara's Max HP.",
-      "modifiers": []
+      "name": "Shining Miracle♪",
+      "description": "Heals your own party members and nearby teammates for a large amount of HP that scales with Barbara's Max HP.\\n\\n<i>Barbara's desire to heal strengthens her will to fight and sing.</i>",
+      "attributes": [
+        [
+          "Regeneration",
+          [
+            "17.6%  Max HP+ 1694.2818603515625",
+            "18.92%  Max HP+ 1863.733642578125",
+            "20.24%  Max HP+ 2047.3062744140625",
+            "22%  Max HP+ 2245",
+            "23.32%  Max HP+ 2456.814697265625",
+            "24.64%  Max HP+ 2682.750244140625",
+            "26.4%  Max HP+ 2922.806884765625",
+            "28.16%  Max HP+ 3176.984619140625",
+            "29.92%  Max HP+ 3445.283203125",
+            "31.68%  Max HP+ 3727.70263671875",
+            "33.44%  Max HP+ 4024.2431640625",
+            "35.2%  Max HP+ 4334.90478515625",
+            "37.4%  Max HP+ 4659.68701171875",
+            "39.6%  Max HP+ 4998.5908203125",
+            "41.8%  Max HP+ 5351.615234375"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "glorious_season",
       "name": "Glorious Season",
-      "description": "The Stamina Consumption of characters within Let the Show Begin's Melody Loop is reduced by 12%.",
-      "unlock": "Ascension 1"
+      "description": "The Stamina Consumption of characters within <span>Let the Show Begin♪</span>'s Melody Loop is reduced by 12%.",
+      "level": 1
     },
     {
       "id": "encore",
       "name": "Encore",
-      "description": "When your active character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s.",
-      "unlock": "Ascension 4"
+      "description": "When your active character gains an Elemental Orb/Particle, the duration of the Melody Loop of <span>Let the Show Begin♪</span> is extended by 1s.\\nThe maximum extension is 5s.",
+      "level": 4
     },
     {
       "id": "with_my_whole_heart",
-      "name": "With My Whole Heart",
-      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, Barbara has a 12% chance to obtain double the product.",
-      "unlock": ""
+      "name": "With My Whole Heart♪",
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "level": 0
     }
   ],
   "constellations": [
@@ -62,38 +404,41 @@
     {
       "id": "vitality_burst",
       "name": "Vitality Burst",
-      "description": "Decreases the CD of Let the Show Begin by 15%. During the ability's duration, your active character gains 15% Hydro DMG Bonus.",
+      "description": "Decreases the CD of <span>Let the Show Begin♪</span> by 15%.\\nDuring the ability's duration, your active character gains a 15% <span>Hydro DMG Bonus</span>.",
       "level": 2
     },
     {
       "id": "star_of_tomorrow",
       "name": "Star of Tomorrow",
-      "description": "Increases the level of Shining Miracle by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Shining Miracle♪</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "attentiveness_be_my_power",
       "name": "Attentiveness be My Power",
-      "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her. A maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
+      "description": "Every opponent Barbara hits with her Charged Attack regenerates 1 Energy for her.\\nA maximum of 5 energy can be regenerated in this manner with any one Charged Attack.",
       "level": 4
     },
     {
       "id": "the_purest_companionship",
       "name": "The Purest Companionship",
-      "description": "Increases the level of Let the Show Begin by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Let the Show Begin♪</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "dedicating_everything_to_you",
       "name": "Dedicating Everything to You",
-      "description": "When Barbara is not on the field, and one of your characters in the party falls:\nAutomatically revives this character.\nFully regenerates this character's HP to 100%.\nThis effect can only occur once every 15 mins.",
+      "description": "When Barbara is in the party but not on the field, and one of your own party members falls:\\n·Automatically revives the fallen character.\\n·Fully restores the revived character's HP to 100%.\\nThis effect can only occur once every 15 mins.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "varunada_lazurite_sliver",
@@ -113,7 +458,10 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "varunada_lazurite_fragment",
@@ -138,7 +486,10 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "varunada_lazurite_fragment",
@@ -155,11 +506,18 @@
         "name": "Philanemo Mushroom",
         "amount": 20
       },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 12 }
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "varunada_lazurite_chunk",
@@ -176,11 +534,18 @@
         "name": "Philanemo Mushroom",
         "amount": 30
       },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 18 }
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "varunada_lazurite_chunk",
@@ -205,7 +570,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "varunada_lazurite_gemstone",

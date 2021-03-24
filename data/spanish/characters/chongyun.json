@@ -1,115 +1,610 @@
 {
   "id": "chongyun",
   "name": "Chongyun",
-  "description": "Con Liyue como su base de operaciones, el exorcista Chongyun vaga por el continente librándolo del mal. Proviene de una familia de exorcistas; desde pequeño ya poseía habilidades sobrehumanas. Estas habilidades no las aprendió con ningún maestro, sino que le eran innatas: se trata de la \"Positividad Congénita\".",
-  "titles": ["Frozen Ardor", "Banisher of Evil and Rumors Thereof"],
+  "title": "el Hielo Ardiente",
+  "description": "Un joven exorcista procedente de una familia de exorcistas. Hace todo lo que puede para reprimir su propia “positividad congénita”.",
+  "weapon_type": "Mandoble",
+  "element": "Cryo",
+  "gender": "Masculino",
+  "substat": "ATQ%",
+  "affiliation": "Liyue",
+  "region": "Liyue",
+  "rarity": 4,
+  "birthday": [
+    7,
+    9
+  ],
+  "constellation": "Nubis Caesor",
+  "cv": {
+    "english": "Beau Bridgland",
+    "chinese": "kinsen",
+    "japanese": "斉藤壮馬",
+    "korean": "양정화"
+  },
   "skills": [
     {
-      "id": "demonbane",
-      "name": "Desgracia de los demonios",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 tajos rápidos.</p><p><b>Ataque Cargado:</b> Sigue consumiendo Aguante para realizar golpes de espada giratorios contra los enemigos cercanos. Al final del Ataque Cargado, realizará un golpe de espada más poderoso.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_demonbane",
+      "name": "Ataque Normal: Desgracia de los demonios",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 4 tajos de espada consecutivos.\\n\\n<span>Ataque Cargado</span>\\nConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.\\nAl final del Ataque Cargado, realizará un golpe de espada más poderoso.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "70%",
+            "75.7%",
+            "81.4%",
+            "89.54%",
+            "95.24%",
+            "101.75%",
+            "110.7%",
+            "119.66%",
+            "128.61%",
+            "138.38%",
+            "148.15%",
+            "157.92%",
+            "167.68%",
+            "177.45%",
+            "187.22%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "63.12%",
+            "68.26%",
+            "73.4%",
+            "80.74%",
+            "85.88%",
+            "91.75%",
+            "99.82%",
+            "107.9%",
+            "115.97%",
+            "124.78%",
+            "133.59%",
+            "142.4%",
+            "151.2%",
+            "160.01%",
+            "168.82%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "80.32%",
+            "86.86%",
+            "93.4%",
+            "102.74%",
+            "109.28%",
+            "116.75%",
+            "127.02%",
+            "137.3%",
+            "147.57%",
+            "158.78%",
+            "169.99%",
+            "181.2%",
+            "192.4%",
+            "203.61%",
+            "214.82%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "101.22%",
+            "109.46%",
+            "117.7%",
+            "129.47%",
+            "137.71%",
+            "147.13%",
+            "160.07%",
+            "173.02%",
+            "185.97%",
+            "200.09%",
+            "214.21%",
+            "228.34%",
+            "242.46%",
+            "256.59%",
+            "270.71%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado en ciclo",
+          [
+            "56.29%",
+            "60.87%",
+            "65.45%",
+            "71.99%",
+            "76.57%",
+            "81.81%",
+            "89.01%",
+            "96.21%",
+            "103.41%",
+            "111.26%",
+            "119.12%",
+            "126.97%",
+            "134.82%",
+            "142.68%",
+            "150.53%"
+          ]
+        ],
+        [
+          "Daño final de Ataque Cargado",
+          [
+            "101.78%",
+            "110.07%",
+            "118.35%",
+            "130.18%",
+            "138.47%",
+            "147.94%",
+            "160.96%",
+            "173.97%",
+            "186.99%",
+            "201.2%",
+            "215.4%",
+            "229.6%",
+            "243.8%",
+            "258%",
+            "272.2%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s"
+          ]
+        ],
+        [
+          "Duración máx.",
+          [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ]
+      ]
     },
     {
       "id": "spirit_blade_chonghuas_layered_frost",
       "name": "Filo espiritual: Estratos de escarcha Chonghua",
-      "type": "Habilidad elemental",
-      "description": "<p>Chongyun golpea el suelo con su gran espada, causando una explosión Cryo en un AdE circular frente a él que inflige daño Cryo.</p><p>Después de un breve periodo de tiempo, el aire frío creado por la explosión Cryo se concentra en un campo de estratos de escarcha, dentro del cual se imbuye del Elemento Cryo a los personajes que usan espadas ligeras, mandobles y lanzas.</p>",
-      "modifiers": []
+      "description": "Chongyun golpea el suelo con su gran espada, causando una explosión Cryo en un AdE circular frente a él que inflige <span>Daño Cryo</span>.\\nDespués de un breve periodo de tiempo, el aire frío creado por la explosión Cryo se concentra en un campo de estratos de escarcha, dentro del cual se <span>imbuye del elemento Cryo</span> a los personajes que usan espadas ligeras, mandobles y lanzas.\\n\\n<i>“Las joyas linlang resuenan en medio del silencio. Los ríos están quietos y las nubes se llenan de escarcha. Cuando las puertas del altar se abren, el mal es desterrado”.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "172.04%",
+            "184.94%",
+            "197.85%",
+            "215.05%",
+            "227.95%",
+            "240.86%",
+            "258.06%",
+            "275.26%",
+            "292.47%",
+            "309.67%",
+            "326.88%",
+            "344.08%",
+            "365.58%",
+            "387.09%",
+            "408.59%"
+          ]
+        ],
+        [
+          "Duración del elemento imbuido",
+          [
+            "2 s",
+            "2.0999999046325684 s",
+            "2.200000047683716 s",
+            "2.299999952316284 s",
+            "2.4000000953674316 s",
+            "2.5 s",
+            "2.5999999046325684 s",
+            "2.700000047683716 s",
+            "2.799999952316284 s",
+            "2.9000000953674316 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s"
+          ]
+        ],
+        [
+          "Duración del campo",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "spirit_blade_cloudparting_star",
       "name": "Filo espiritual: Estrella cortanubes",
-      "type": "Impulso elemental",
-      "description": "<p>Al crear sellos de mano secretos, Chongyun invoca tres Hojas del espíritu gigantes que caen a la tierra, una tras otra, explotando al golpear el suelo. Cuando las Hojas del espíritu gigantes impactan, infligen Daño Cryo en el AdE.</p>",
-      "modifiers": []
+      "description": "Chongyun crea unos sellos con sus manos para invocar tres filos espirituales gigantes que caen a la tierra uno tras otro, explotando al impactar contra el suelo, infligiendo <span>Daño Cryo en el AdE</span> y lanzando por los aires a sus enemigos.\\n\\n<i>“Así como del hielo nace la escarcha, mi hoja trascendente sacude el cielo y la tierra. ¡Atiende a mi llamado y ven aquí!”.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "142.4%",
+            "153.08%",
+            "163.76%",
+            "178%",
+            "188.68%",
+            "199.36%",
+            "213.6%",
+            "227.84%",
+            "242.08%",
+            "256.32%",
+            "270.56%",
+            "284.8%",
+            "302.6%",
+            "320.4%",
+            "338.2%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "steady_breathing",
       "name": "Respiración inalterable",
-      "description": "<p>Aumenta un 8% la Vel. de ATQ Normal de los personajes con espadas ligeras, espadas Mandoble o lanzas dentro del campo creado por Filo espiritual: Estratos de escarcha.</p>"
+      "description": "Aumenta en un 8% la Vel. de Ataque Normal de los personajes con espadas ligeras, mandobles o lanzas dentro del campo creado por <span>Filo espiritual: Estratos de escarcha Chonghua</span>.",
+      "level": 1
     },
     {
       "id": "rimechaser_blade",
       "name": "Hoja cazaescarcha",
-      "description": "<p>Cuando el campo creado por Filo espiritual: Estratos de escarcha desaparece, invoca otro Filo espiritual para atacar a los enemigos cercanos, infligiendo el 100% del Daño de habilidad de Estratos de escarcha como Daño Cryo AdE. La Res Cryo de los enemigos a los que ataque disminuirá en un 10% durante 8 s.</p>"
+      "description": "Cuando el campo creado por <span>Filo espiritual: Estratos de escarcha Chonghua</span> desaparece, invoca otro filo espiritual que ataca a los enemigos cercanos, infligiendo el 100% del daño de habilidad de Estratos de escarcha Chonghua como <span>Daño Cryo en el AdE</span>. La <span>Res Cryo</span> de los enemigos golpeados por este filo disminuirá en un 10% durante 8 s.",
+      "level": 4
     },
     {
       "id": "gallant_journey",
       "name": "Viaje por las nubes",
-      "description": "<p>Reduce en un 25% el tiempo necesario para completar una expedición en Liyue.</p>"
+      "description": "Reduce en un 25% el tiempo necesario para completar una expedición en Liyue.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "ice_unleashed",
       "name": "Ventisca desatada",
-      "description": "El último Ataque Normal de la secuencia de Chongyun lanza 3 cuchillas de hielo. Cada cuchilla inflige el 50% del ATQ de Chongyun como Daño Cryo a todos los enemigos que se atraviesen.",
-      "level": 1
+      "description": "El último Ataque Normal de la secuencia de Chongyun lanza 3 cuchillas de hielo. Cada cuchilla inflige el 50% del ATQ de Chongyun como <span>Daño Cryo</span> a todos los enemigos que se atraviesen.",
+      "level": 361
     },
     {
+      "id": "atmospheric_revolution",
       "name": "Revolución atmosférica",
-      "description": "El TdE de las Hab. Elementales y Definitivas lanzadas dentro del área de escarcha creado por Filo espiritual: Estratos de escarcha se reduce en un 15%.",
-      "level": 2
+      "description": "El TdE de las Habilidades Elementales y Definitivas lanzadas dentro del área de escarcha creado por <span>Filo espiritual: Estratos de escarcha Chonghua</span> se reduce en un 15%.",
+      "level": 362
     },
     {
+      "id": "cloudburst",
       "name": "Cirro-explosión",
-      "description": "Aumenta el nivel de habilidad de Filo espiritual: Estrella cortanubes +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 3
+      "description": "Aumenta el nivel de habilidad de <span>Filo espiritual: Estrella cortanubes</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "frozen_skies",
       "name": "Cielos congelados",
-      "description": "Chongyun regenera 1 punto de Energía cada vez que golpea a un enemigo afectado por Cryo. Este efecto solo puede ocurrir una vez cada 2 s.",
-      "level": 4
+      "description": "Chongyun regenera 1 punto de Energía cada vez que golpea a un enemigo afectado por <span>Cryo</span>.\\nEste efecto solo puede ocurrir una vez cada 2 s.",
+      "level": 22
     },
     {
+      "id": "the_true_path",
       "name": "El verdadero camino",
-      "description": "Aumenta el nivel de habilidad de Filo espiritual: Estratos de escarcha +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 5
+      "description": "Aumenta el nivel de habilidad de <span>Filo espiritual: Estratos de escarcha Chonghua</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
-      "name": "Ofrenda de las Cuatro Divinidades",
-      "description": "Filo espiritual: Estrella cortanubes inflige un 15% más de Daño a los enemigos con un porcentaje de Vida más bajo que el de Chongyun. Esta habilidad también invocará un Filo espiritual adicional.",
-      "level": 6
+      "id": "rally_of_four_blades",
+      "name": "Ofrenda de los Cuatro Espíritus",
+      "description": "<span>Filo espiritual: Estrella cortanubes</span> inflige un 15% más de daño a los enemigos con un porcentaje de Vida restante más bajo que el de Chongyun.\\nEsta habilidad también invocará un filo espiritual adicional.",
+      "level": 366
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de jade shivada" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "shivada_jade_sliver",
+        "name": "Pedacito de jade shivada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "shivada_jade_gemstone",
+        "name": "Jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 24
+      }
     }
   ]
 }

@@ -1,115 +1,570 @@
 {
   "id": "kaeya",
   "name": "Kaeya",
-  "description": "En los Caballeros de Favonius, Kaeya es el ayudante más confiable de la Gran Maestra Interina Jean. Siempre puede contar con él para resolver cualquier problema insoluble. Todos en Mondstadt aman a Kaeya, pero nadie sabe qué secretos tiene este ingenioso y encantador caballero.",
-  "titles": ["Capitán de Caballería"],
+  "title": "el Espadachín Glacial",
+  "description": "El gran estratega de los Caballeros de Favonius, con una apariencia algo excéntrica...",
+  "weapon_type": "Espada ligera",
+  "element": "Cryo",
+  "gender": "Masculino",
+  "substat": "Recarga de Energía",
+  "affiliation": "Caballeros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    30,
+    11
+  ],
+  "constellation": "Pavo Ocellus",
+  "cv": {
+    "english": "Josey Montana McCoy",
+    "chinese": "孙晔",
+    "japanese": "鳥海浩輔",
+    "korean": "정주원"
+  },
   "skills": [
     {
-      "id": "ceremonial_bladework",
-      "name": "Técnica de espada ceremonial",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_ceremonial_bladework",
+      "name": "Ataque Normal: Técnica de espada ceremonial",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "53.75%",
+            "58.13%",
+            "62.5%",
+            "68.75%",
+            "73.12%",
+            "78.13%",
+            "85%",
+            "91.87%",
+            "98.75%",
+            "106.25%",
+            "114.84%",
+            "124.95%",
+            "135.06%",
+            "145.16%",
+            "156.19%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "51.69%",
+            "55.89%",
+            "60.1%",
+            "66.11%",
+            "70.32%",
+            "75.13%",
+            "81.74%",
+            "88.35%",
+            "94.96%",
+            "102.17%",
+            "110.43%",
+            "120.15%",
+            "129.87%",
+            "139.59%",
+            "150.19%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "65.27%",
+            "70.59%",
+            "75.9%",
+            "83.49%",
+            "88.8%",
+            "94.88%",
+            "103.22%",
+            "111.57%",
+            "119.92%",
+            "129.03%",
+            "139.47%",
+            "151.74%",
+            "164.01%",
+            "176.29%",
+            "189.67%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "70.86%",
+            "76.63%",
+            "82.4%",
+            "90.64%",
+            "96.41%",
+            "103%",
+            "112.06%",
+            "121.13%",
+            "130.19%",
+            "140.08%",
+            "151.41%",
+            "164.73%",
+            "178.06%",
+            "191.38%",
+            "205.92%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "88.24%",
+            "95.42%",
+            "102.6%",
+            "112.86%",
+            "120.04%",
+            "128.25%",
+            "139.54%",
+            "150.82%",
+            "162.11%",
+            "174.42%",
+            "188.53%",
+            "205.12%",
+            "221.71%",
+            "238.3%",
+            "256.4%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "55.04% + 73.1%",
+            "59.52% + 79.05%",
+            "64% + 85%",
+            "70.4% + 93.5%",
+            "74.88% + 99.45%",
+            "80% + 106.25%",
+            "87.04% + 115.6%",
+            "94.08% + 124.95%",
+            "101.12% + 134.3%",
+            "108.8% + 144.5%",
+            "117.6% + 156.19%",
+            "127.95% + 169.93%",
+            "138.3% + 183.68%",
+            "148.65% + 197.42%",
+            "159.94% + 212.42%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "frostgnaw",
       "name": "Golpe de escarcha",
-      "type": "Habilidad elemental",
-      "description": "<p>Lanza una ráfaga gélida que inflige Daño Cryo a los enemigos frente a Kaeya.</p>",
-      "modifiers": []
+      "description": "Lanza una ráfaga gélida que inflige <span>Daño Cryo</span> a los enemigos frente a Kaeya.\\n\\n<i>Kaeya parece amable, pero su naturaleza es la del hielo inderretible.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "191.2%",
+            "205.54%",
+            "219.88%",
+            "239%",
+            "253.34%",
+            "267.68%",
+            "286.8%",
+            "305.92%",
+            "325.04%",
+            "344.16%",
+            "363.28%",
+            "382.4%",
+            "406.3%",
+            "430.2%",
+            "454.1%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "glacial_waltz",
       "name": "Vals gélido",
-      "type": "Impulso elemental",
-      "description": "<p>Al condensar la escarcha en el aire, Kaeya invoca 3 carámbanos que giran a su alrededor. Estos carámbanos seguirán al personaje e infligirán Daño Cryo a los enemigos que se atraviesen.</p>",
-      "modifiers": []
+      "description": "Al condensar la escarcha en el aire, Kaeya invoca 3 carámbanos que giran a su alrededor.\\nEstos carámbanos seguirán al personaje e infligirán <span>Daño Cryo</span> a los enemigos que se atraviesen.\\n\\n<i>Una sonrisa encantadora, palabras bondadosas y la despiadada escarcha que yace oculta... Esas son las armas de Kaeya.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "77.6%",
+            "83.42%",
+            "89.24%",
+            "97%",
+            "102.82%",
+            "108.64%",
+            "116.4%",
+            "124.16%",
+            "131.92%",
+            "139.68%",
+            "147.44%",
+            "155.2%",
+            "164.9%",
+            "174.6%",
+            "184.3%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "coldblooded_strike",
       "name": "Espada de sangre fría",
-      "description": "<p>Al golpear a un enemigo con Golpe de escarcha, Kaeya restaura Vida equivalente al 15% del ATQ.</p>"
+      "description": "Al atacar a un enemigo con <span>Golpe de escarcha</span>, Kaeya restaura su Vida una cantidad equivalente al 15% de su ATQ.",
+      "level": 1
     },
     {
-      "id": "heart_of_the_abyss",
+      "id": "glacial_heart",
       "name": "Corazón glacial",
-      "description": "<p>Cuando Golpe de escarcha congela a un enemigo, el enemigo congelado dejará caer Partículas Elementales adicionales. Cada golpe dará un máximo de 2 Partículas Elementales adicionales.</p>"
+      "description": "Cuando <span>Golpe de escarcha</span> <span>congela</span> a un enemigo, el enemigo congelado dejará caer partículas elementales adicionales.\\nCada golpe dará un máximo de 2 partículas elementales adicionales.",
+      "level": 4
     },
     {
       "id": "hidden_strength",
       "name": "Fuerza subyacente",
-      "description": "<p>Disminuye el consumo de Aguante de todos los miembros del equipo al esprintar en un 20%.</p>"
+      "description": "Disminuye en un 20% el Coste de Aguante al esprintar de todos los miembros de tu equipo.\\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+      "level": 0
     }
   ],
   "constellations": [
     {
-      "name": "Sangre Excelente",
-      "description": "La Prob. CRIT del ATQ Normal y Cargado de Kaeya aumentan en un 15% contra enemigos afectados por Cryo.",
+      "id": "excellent_blood",
+      "name": "Sangre excelente",
+      "description": "La Prob. CRIT del Ataque Normal y Cargado de Kaeya aumentan en un 15% contra enemigos afectados por <span>Cryo</span>.",
       "level": 1
     },
     {
+      "id": "neverending_performance",
       "name": "Actuación eterna",
-      "description": "Al derrotar a un enemigo con Vals gélido, aumenta su duración en 2.5 s hasta un máximo de 15 s.",
+      "description": "Al derrotar a un enemigo con <span>Vals gélido</span>, aumenta su duración en 2.5 s hasta un máximo de 15 s.",
       "level": 2
     },
     {
+      "id": "dance_of_frost",
       "name": "Baile de escarcha",
-      "description": "Aumenta el nivel de habilidad de Golpe de escarcha + 3",
+      "description": "Aumenta el nivel de habilidad de <span>Golpe de escarcha</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
-      "name": "Beso Congelado",
-      "description": "Cuando la Vida de Kaeya cae por debajo del 20%: Genera un escudo que absorbe Daño igual al 30% de su Vida Máx. durante 20 s. El escudo absorberá un 250% del Daño Cryo recibido. Solo puede ocurrir una vez cada 60 s.",
+      "id": "frozen_kiss",
+      "name": "Beso congelado",
+      "description": "Cuando la Vida de Kaeya cae por debajo del 20%:\\n·Genera un escudo que absorbe daño igual al 30% de su Vida Máx. durante 20 s.\\n·El escudo tiene un efecto de absorción de 250% de <span>Daño Cryo</span>.\\nSolo puede ocurrir una vez cada 60 s.",
       "level": 4
     },
     {
+      "id": "frostbiting_embrace",
       "name": "Abrazo helado",
-      "description": "Aumenta el nivel de habilidad de Vals gélido +3 Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Vals gélido</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "glacial_whirlwind",
       "name": "Torbellino helado",
-      "description": "Vals gélido produce 1 carámbano adicional y regenera 15 pts. de Energía al ser lanzado.",
+      "description": "<span>Vals gélido</span> produce 1 carámbano adicional y regenera 15 pts. de Energía Elemental al ser lanzado.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de jade shivada" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo novato" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "shivada_jade_sliver",
+        "name": "Pedacito de jade shivada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insignia de cuervo de bronce",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo novato" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insignia de cuervo de bronce",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo plateada" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insignia de cuervo plateada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo plateada" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insignia de cuervo plateada",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo dorada" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insignia de cuervo dorada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Lirio cala" },
-      "mat4": { "name": "Insignia de cuervo dorada" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "shivada_jade_gemstone",
+        "name": "Jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Lirio cala",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insignia de cuervo dorada",
+        "amount": 24
+      }
     }
   ]
 }

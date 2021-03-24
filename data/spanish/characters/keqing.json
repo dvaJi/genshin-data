@@ -1,115 +1,635 @@
 {
   "id": "keqing",
   "name": "Keching",
-  "description": "El Yuheng del Liyue Qixing. Keching tiene mucho que decir sobre el enfoque unilateral de Rex Lapis para la formulación de políticas en Liyue ⁠, pero en verdad, los dioses admiran mucho a los escépticos como ella. Ella cree firmemente que el futuro de la humanidad debería ser determinado por los propios humanos, y que incluso pueden hacerlo mejor de lo que los arcontes y los adepti han hecho por ellos. Para demostrarlo, trabaja más duro que nadie.",
-  "titles": ["Yuheng de la Liyue", "Qixing"],
+  "title": "la Conductora del Trueno",
+  "description": "El Equilibrio Terrenal de las Siete Estrellas de Liyue. Tiene su opinión sobre el gobierno de Rex Lapis en Liyue, pero, en verdad, a los dioses les gustan bastante los escépticos como ella.",
+  "weapon_type": "Espada ligera",
+  "element": "Electro",
+  "gender": "Femenino",
+  "substat": "Daño CRIT",
+  "affiliation": "Siete Estrellas de Liyue",
+  "region": "Liyue",
+  "rarity": 5,
+  "birthday": [
+    20,
+    11
+  ],
+  "constellation": "Trulla Cementarii",
+  "cv": {
+    "english": "Kayli Mills",
+    "chinese": "谢莹",
+    "japanese": "喜多村英梨",
+    "korean": "이보희"
+  },
   "skills": [
     {
-      "id": "yunlai_swordsmanship",
-      "name": "Estilo Yunlai",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_yunlai_swordsmanship",
+      "name": "Ataque Normal: Estilo Yunlai",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "41.02%",
+            "44.36%",
+            "47.7%",
+            "52.47%",
+            "55.81%",
+            "59.62%",
+            "64.87%",
+            "70.12%",
+            "75.37%",
+            "81.09%",
+            "86.81%",
+            "92.54%",
+            "98.26%",
+            "103.99%",
+            "109.71%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "41.02%",
+            "44.36%",
+            "47.7%",
+            "52.47%",
+            "55.81%",
+            "59.62%",
+            "64.87%",
+            "70.12%",
+            "75.37%",
+            "81.09%",
+            "86.81%",
+            "92.54%",
+            "98.26%",
+            "103.99%",
+            "109.71%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "54.44%",
+            "58.87%",
+            "63.3%",
+            "69.63%",
+            "74.06%",
+            "79.12%",
+            "86.09%",
+            "93.05%",
+            "100.01%",
+            "107.61%",
+            "115.21%",
+            "122.8%",
+            "130.4%",
+            "137.99%",
+            "145.59%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "31.48% + 34.4%",
+            "34.04% + 37.2%",
+            "36.6% + 40%",
+            "40.26% + 44%",
+            "42.82% + 46.8%",
+            "45.75% + 50%",
+            "49.78% + 54.4%",
+            "53.8% + 58.8%",
+            "57.83% + 63.2%",
+            "62.22% + 68%",
+            "66.61% + 72.8%",
+            "71% + 77.6%",
+            "75.4% + 82.4%",
+            "79.79% + 87.2%",
+            "84.18% + 92%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "66.99%",
+            "72.45%",
+            "77.9%",
+            "85.69%",
+            "91.14%",
+            "97.37%",
+            "105.94%",
+            "114.51%",
+            "123.08%",
+            "132.43%",
+            "141.78%",
+            "151.13%",
+            "160.47%",
+            "169.82%",
+            "179.17%"
+          ]
+        ],
+        [
+          "Ataque Cargado",
+          [
+            "76.8% + 86%",
+            "83.05% + 93%",
+            "89.3% + 100%",
+            "98.23% + 110%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "104.48% + 117%",
+            "111.63% + 125%",
+            "121.45% + 136%",
+            "131.27% + 147%",
+            "141.09% + 158%",
+            "151.81% + 170%",
+            "162.53% + 182%",
+            "173.24% + 194%",
+            "183.96% + 206%",
+            "194.67% + 218%",
+            "205.39% + 230%"
+          ]
+        ]
+      ]
     },
     {
       "id": "stellar_restoration",
       "name": "Retorno estelar",
-      "type": "Habilidad elemental",
-      "description": "<p>Lanza una Cuña relámpago que aniquila a sus enemigos como un rayo veloz.Cuando la cuña golpea a su objetivo, inflige Daño Electro a los enemigos en un AdE pequeña, y añade una Marca de Cuña en el lugar donde golpea.</p><p><b>Mantener pulsado:</b> Mantén pulsado para ajustar la dirección en la que se lanzará la cuña. Las cuñas lanzadas al mantener presionado pueden suspenderse en el aire, permitiendo que Keching salte hacia ellas al usar Retorno estelar por segunda vez.</p><p><b>Cuña relámpago:</b> Si Keching usa Retorno estelar de nuevo o hace un Ataque Cargado durante la habilidad, borrará la Marca de Cuña y producirá diferentes efectos: </p><ul><li>Si vuelve a usar Retorno Estelar, se teletransportará hasta la ubicación de la marca y desatará un ataque cortante que inflige Daño Electro en el AdE. Al teletransportarse a una cuña lanzada al mantener presionado, Keching ignora los obstáculos del terreno.</li><li>Si Keching usa un Ataque Cargado, desencadenará una serie de cortes de tormenta en la Marca de Cuña, infligiendo Daño Electro en el AdE.</li></ul>",
-      "modifiers": []
+      "description": "Lanza una cuña relámpago que aniquila a sus enemigos como un rayo veloz.\\nCuando la cuña golpea a su objetivo, inflige <span>Daño Electro</span> a los enemigos en una pequeña AdE, y añade una marca en el lugar donde golpea.\\n\\n<span>Mantener pulsado</span>\\nMantén pulsado para ajustar la dirección en la que se lanzará la cuña.\\nLas cuñas lanzadas al mantener pulsado pueden suspenderse en el aire, permitiendo que Keching salte hacia ellas al usar Retorno estelar por segunda vez.\\n\\n<span>Cuña relámpago</span>\\nSi Keching usa Retorno estelar de nuevo o hace un Ataque Cargado durante la habilidad, eliminará la marca de la cuña y producirá diferentes efectos:\\n·Si vuelve a usar Retorno estelar, se teletransportará hasta la ubicación de la marca y desatará un ataque cortante que inflige <span>Daño Electro en el AdE</span>. Al teletransportarse a una cuña lanzada tras mantener pulsado, Keching ignora los obstáculos del terreno.\\n·Si Keching usa un Ataque Cargado, desencadenará una tempestad eléctrica en la marca de la cuña, infligiendo <span>Daño Electro en el AdE</span>.\\n\\n<i>“Los humanos son como las polillas: persiguen a ciegas la claridad a la que llaman ‘dioses’ y ‘Adeptus’. En cambio, yo tengo mi luz propia”.</i>",
+      "attributes": [
+        [
+          "Daño de cuña relámpago",
+          [
+            "50.4%",
+            "54.18%",
+            "57.96%",
+            "63%",
+            "66.78%",
+            "70.56%",
+            "75.6%",
+            "80.64%",
+            "85.68%",
+            "90.72%",
+            "95.76%",
+            "100.8%",
+            "107.1%",
+            "113.4%",
+            "119.7%"
+          ]
+        ],
+        [
+          "Daño de corte",
+          [
+            "168%",
+            "180.6%",
+            "193.2%",
+            "210%",
+            "222.6%",
+            "235.2%",
+            "252%",
+            "268.8%",
+            "285.6%",
+            "302.4%",
+            "319.2%",
+            "336%",
+            "357%",
+            "378%",
+            "399%"
+          ]
+        ],
+        [
+          "Daño de corte de tempestad eléctrica",
+          [
+            "84% ×2",
+            "90.3% ×2",
+            "96.6% ×2",
+            "105% ×2",
+            "111.3% ×2",
+            "117.6% ×2",
+            "126% ×2",
+            "134.4% ×2",
+            "142.8% ×2",
+            "151.2% ×2",
+            "159.6% ×2",
+            "168% ×2",
+            "178.5% ×2",
+            "189% ×2",
+            "199.5% ×2"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "starward_sword",
       "name": "Paseo celestial",
-      "type": "Impulso elemental",
-      "description": "<p>Keching desata el poder del rayo, infligiendo Daño Electro en el AdE. Después, se funde en la sombra de su espada y ataca con una serie de golpes relámpago a los enemigos infligiendo, al mismo tiempo, Daño Electro. El ataque final inflige una gran cantidad de Daño Electro en el AdE.</p>",
-      "modifiers": []
+      "description": "Keching desata el poder del rayo, infligiendo <span>Daño Electro</span> en el AdE.\\nDespués, se funde en la sombra de su espada y ataca con una serie de golpes relámpago a los enemigos infligiendo <span>Daño Electro</span>. El ataque final inflige una gran cantidad de <span>Daño Electro en el AdE</span>.\\n\\n<i>La técnica más veloz en el arsenal personal de Keching es lo suficientemente rápida como para derribar estrellas.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "88%",
+            "94.6%",
+            "101.2%",
+            "110%",
+            "116.6%",
+            "123.2%",
+            "132%",
+            "140.8%",
+            "149.6%",
+            "158.4%",
+            "167.2%",
+            "176%",
+            "187%",
+            "198%",
+            "209%"
+          ]
+        ],
+        [
+          "Daño de corte continuo",
+          [
+            "24% ×8",
+            "25.8% ×8",
+            "27.6% ×8",
+            "30% ×8",
+            "31.8% ×8",
+            "33.6% ×8",
+            "36% ×8",
+            "38.4% ×8",
+            "40.8% ×8",
+            "43.2% ×8",
+            "45.6% ×8",
+            "48% ×8",
+            "51% ×8",
+            "54% ×8",
+            "57% ×8"
+          ]
+        ],
+        [
+          "Daño del último golpe",
+          [
+            "188.8%",
+            "202.96%",
+            "217.12%",
+            "236%",
+            "250.16%",
+            "264.32%",
+            "283.2%",
+            "302.08%",
+            "320.96%",
+            "339.84%",
+            "358.72%",
+            "377.6%",
+            "401.2%",
+            "424.8%",
+            "448.4%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "thundering_penance",
       "name": "Penitencia del trueno",
-      "description": "<p>Al utilizar Retorno estelar mientras esté presente una cuña relámpago, Keching se imbuye del Elemento Electro durante 5 s.</p>"
+      "description": "Al utilizar <span>Retorno estelar</span> mientras esté presente una cuña relámpago, Keching se <span>imbuye del elemento Electro</span> durante 5 s.",
+      "level": 1
     },
     {
       "id": "aristocratic_dignity",
       "name": "Dignidad aristocrática",
-      "description": "<p>Al lanzar Paseo celestial, la Prob. CRIT y la Recarga de Energía de Keching incrementan en un 15%. Este efecto dura 8 s.</p>"
+      "description": "Al lanzar <span>Paseo celestial</span>, la Prob. CRIT y la Recarga de Energía de Keching aumentan en un 15% durante 8 s.",
+      "level": 4
     },
     {
       "id": "lands_overseer",
       "name": "Supervisora de la tierra",
-      "description": "<p>Reduce en un 25% el tiempo necesario para completar una expedición en Liyue.</p>"
+      "description": "Reduce en un 25% el tiempo necesario para completar una expedición en Liyue.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "thundering_might",
       "name": "Fuerza atronadora",
-      "description": "Volver a lanzar Retorno estelar mientras está presente una Cuña relámpago hace que Keching inflija 50% de su ATQ como Daño Electro en el AdE en el punto de inicio y final al teletransportarse.",
+      "description": "Usar <span>Retorno estelar</span> mientras está presente una cuña relámpago hace que Keching inflija un 50% de su ATQ como <span>Daño Electro en el AdE</span> en el punto de inicio y de reaparición.",
       "level": 1
     },
     {
+      "id": "keen_extraction",
       "name": "Impuestos desorbitantes",
-      "description": "Cuando los ATQ Normal y Cargado de Keching golpean a los enemigos afectados por Electro, tienen un 50% de probabilidad de producir una Partícula Elemental. Este efecto solo puede ocurrir una vez cada 5 segundos.",
+      "description": "Cuando los Ataques Normales y Cargados de Keching golpean a enemigos afectados por <span>Electro</span>, tienen un 50% de probabilidad de crear una partícula elemental.\\nEste efecto solo puede ocurrir una vez cada 5 s.",
       "level": 2
     },
     {
+      "id": "foreseen_reformation",
       "name": "Reforma anticipada",
-      "description": "Aumenta el nivel de habilidad de Paseo celestial +3.",
+      "description": "Aumenta el nivel de habilidad de <span>Paseo celestial</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "attunement",
       "name": "Sintonización",
-      "description": "10 s después de que Keching lance una Reacción Elemental relacionada con Electro, aumenta su ATQ en un 25%.",
+      "description": "Cuando Keching causa una <span>Reacción Elemental con Electro</span>, su ATQ aumenta en un 25% durante 10 s.",
       "level": 4
     },
     {
+      "id": "beckoning_stars",
       "name": "Luces viajeras",
-      "description": "Aumenta el nivel de habilidad de Retorno estelar +3.",
+      "description": "Aumenta el nivel de habilidad de <span>Retorno estelar</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
-      "name": "Luces viajeras",
-      "description": "Al hacer un Ataque Normal, un Ataque Cargado, una Habilidad Elemental o una Habilidad Definitiva, Keching obtiene un 6% de Bono de Daño Electro durante 8 s. Los efectos activados por Ataques Normales, Ataques Cargados, Habilidades Elementales y Habilidades Definitivas no se incluirán en dicho bono.",
+      "id": "tenacious_star",
+      "name": "Estrella tenaz",
+      "description": "Al hacer un Ataque Normal, un Ataque Cargado, una Habilidad Elemental o una Habilidad Definitiva, Keching obtiene un 6% de <span>Bono de Daño Electro</span> durante 8 s.\\nLos efectos activados por Ataques Normales, Ataques Cargados, Habilidades Elementales y Habilidades Definitivas serán independientes unos de otros.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de amatista vajrada" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Pedacito de amatista vajrada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 24
+      }
     }
   ]
 }

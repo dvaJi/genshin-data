@@ -1,115 +1,610 @@
 {
   "id": "amber",
   "name": "Amber",
-  "description": "Una chica alegre y sencilla, que también es la única exploradora de los Caballeros de Favonius. Su asombroso dominio de las alas voladoras la ha convertido en tres veces ganadora del Campeonato de vuelo en Mondstadt. Como estrella en ascenso dentro de los Caballeros de Favonius, Amber siempre está lista para cualquier tarea desafiante.",
-  "titles": ["Campeona de Vuelo"],
+  "title": "la Campeona de Vuelo",
+  "description": "Siempre enérgica y llena de vida, Amber es la mejor exploradora de los Caballeros de Favonius, aunque también es la única...",
+  "weapon_type": "Arco",
+  "element": "Pyro",
+  "gender": "Femenino",
+  "substat": "ATQ%",
+  "affiliation": "Caballeros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    10,
+    8
+  ],
+  "constellation": "Lepus Minor",
+  "cv": {
+    "english": "Kelly Baskin",
+    "chinese": "牛奶君",
+    "japanese": "石見舞菜香",
+    "korean": "김연우"
+  },
   "skills": [
-    {
-      "id": "sharpshooter",
-      "name": "Arquero divino",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 disparos consecutivos con arco.</p><p><b>Ataque Cargado:</b> Dispara un Tiro preciso que inflige mayor daño. Al apuntar, se acumularán llamas en la punta de flecha. Una flecha en llamas totalmente cargada infligirá Daño Pyro.</p><p><b>Ataque descendiente:</b> Dispara una lluvia de flechas desde el aire y desciende rápidamente, causando daño a distancia al impactar en el suelo.</p>",
-      "modifiers": []
-    },
     {
       "id": "explosive_puppet",
       "name": "Marioneta explosiva",
-      "type": "Habilidad elemental",
-      "description": "<p>El fiel Barón Bunny aparece en escena.</p><p><b>Barón Bunny:</b></p><ul><li>Se burla de los enemigos cercanos para atraer su atención.</li><li>La Vida Máx. de Barón Bunny aumenta en proporción a la Vida de Amber.</li><li>Cuando es destruido o su temporizador llega a cero, Barón Bunny explota, infligiendo Daño Pyro de Área.</li></ul><p><b>Mantener apretado:</b> Ajusta la dirección de lanzamiento de Barón Bunny. Cuanto más tiempo se mantenga apretado el botón, más lejos se lanzará. </p>",
-      "modifiers": []
+      "description": "El fiel Barón Bunny aparece en escena.\\n\\n<span>Barón Bunny</span>:\\n·Se burla de los enemigos cercanos para atraer su atención.\\n·La Vida Máx. de Barón Bunny aumenta en proporción a la Vida de Amber.\\n·Cuando es destruido o su temporizador llega a cero, Barón Bunny explota, infligiendo <span>Daño Pyro en el AdE</span>.\\n\\n<span>Mantener pulsado</span>\\nAjusta la dirección de lanzamiento de Barón Bunny. Cuanto más tiempo mantengas apretado, más lejos se lanzará.\\n\\n<i>Barón Bunny proviene de un gran linaje histórico. De hecho, Amber dejó de contar los antepasados de Barón Bunny a partir del n.º 893.</i>",
+      "attributes": [
+        [
+          "Vida de Barón Bunny",
+          [
+            "41.36% de Vida Máx.",
+            "44.46% de Vida Máx.",
+            "47.56% de Vida Máx.",
+            "51.7% de Vida Máx.",
+            "54.8% de Vida Máx.",
+            "57.9% de Vida Máx.",
+            "62.04% de Vida Máx.",
+            "66.18% de Vida Máx.",
+            "70.31% de Vida Máx.",
+            "74.45% de Vida Máx.",
+            "78.58% de Vida Máx.",
+            "82.72% de Vida Máx.",
+            "87.89% de Vida Máx.",
+            "93.06% de Vida Máx.",
+            "98.23% de Vida Máx."
+          ]
+        ],
+        [
+          "Daño de explosión",
+          [
+            "123.2%",
+            "132.44%",
+            "141.68%",
+            "154%",
+            "163.24%",
+            "172.48%",
+            "184.8%",
+            "197.12%",
+            "209.44%",
+            "221.76%",
+            "234.08%",
+            "246.4%",
+            "261.8%",
+            "277.2%",
+            "292.6%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "normal_attack_sharpshooter",
+      "name": "Ataque Normal: Arquero divino",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 disparos consecutivos con arco.\\n\\n<span>Ataque Cargado</span>\\nRealiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.\\nAl apuntar, se acumularán llamas en la punta de flecha. Una flecha en llamas totalmente cargada infligirá <span>Daño Pyro</span>.\\n\\n<span>Ataque Descendente</span>\\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "46.44%",
+            "50.22%",
+            "54%",
+            "59.4%",
+            "63.18%",
+            "67.5%",
+            "73.44%",
+            "79.38%",
+            "85.32%",
+            "91.8%",
+            "98.28%",
+            "104.76%",
+            "111.24%",
+            "117.72%",
+            "124.2%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "47.3%",
+            "51.15%",
+            "55%",
+            "60.5%",
+            "64.35%",
+            "68.75%",
+            "74.8%",
+            "80.85%",
+            "86.9%",
+            "93.5%",
+            "100.1%",
+            "106.7%",
+            "113.3%",
+            "119.9%",
+            "126.5%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "59.34%",
+            "64.17%",
+            "69%",
+            "75.9%",
+            "80.73%",
+            "86.25%",
+            "93.84%",
+            "101.43%",
+            "109.02%",
+            "117.3%",
+            "125.58%",
+            "133.86%",
+            "142.14%",
+            "150.42%",
+            "158.7%"
+          ]
+        ],
+        [
+          "Disparo Preciso",
+          [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        ],
+        [
+          "Disparo Preciso (carga completa)",
+          [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "fiery_rain",
       "name": "Lluvia ardiente",
-      "type": "Impulso elemental",
-      "description": "<p>Dispara una lluvia de flechas, infligiendo Daño Pyro de Área continuo.</p>",
-      "modifiers": []
+      "description": "Dispara una lluvia de flechas, infligiendo <span>Daño Pyro en el AdE</span> continuo.\\n\\n<i>La pasión de Amber arde como el fuego.</i>",
+      "attributes": [
+        [
+          "Daño de Lluvia ardiente (por golpe)",
+          [
+            "28.08%",
+            "30.19%",
+            "32.29%",
+            "35.1%",
+            "37.21%",
+            "39.31%",
+            "42.12%",
+            "44.93%",
+            "47.74%",
+            "50.54%",
+            "53.35%",
+            "56.16%",
+            "59.67%",
+            "63.18%",
+            "66.69%"
+          ]
+        ],
+        [
+          "Daño de Lluvia ardiente (total)",
+          [
+            "505.44%",
+            "543.35%",
+            "581.26%",
+            "631.8%",
+            "669.71%",
+            "707.62%",
+            "758.16%",
+            "808.7%",
+            "859.25%",
+            "909.79%",
+            "960.34%",
+            "1010.88%",
+            "1074.06%",
+            "1137.24%",
+            "1200.42%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "every_arrow_finds_its_target",
       "name": "¡Puntería final!",
-      "description": "<p>Lluvia ardiente aumenta un 10% de Prob. CRIT y el AdE se expande un 30%.</p>"
+      "description": "La Prob. CRIT de <span>Lluvia ardiente</span> aumenta en un 10%, y su AdE se expande en un 30%.",
+      "level": 1
     },
     {
       "id": "precise_shot",
-      "name": "Disparo preciso",
-      "description": "<p>Al infligir daño en los puntos débiles del enemigo usando Tiro preciso, el ATQ Básico aumenta un 15% durante 10 s.</p>"
+      "name": "Flecha precisa",
+      "description": "Al infligir daño en los puntos débiles del enemigo usando Disparo Preciso, el ATQ aumenta en un 15% durante 10 s.",
+      "level": 4
     },
     {
       "id": "gliding_champion",
-      "name": "Campeona de Vuelo",
-      "description": "<p>Disminuye el consumo de Aguante al planear en un 20%.</p>"
+      "name": "Campeona de vuelo",
+      "description": "Disminuye en un 20% el Coste de Aguante al planear de todos los miembros de tu equipo.\\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+      "level": 0
     }
   ],
   "constellations": [
     {
-      "name": "¡Una Flecha para Gobernarlos a Todos!",
-      "description": "Lanza 2 flechas por cada Tiro preciso. La segunda flecha inflige 20% del daño de la primera flecha.",
-      "level": 1
+      "id": "one_arrow_to_rule_them_all",
+      "name": "¡Una flecha para gobernarlos a todos!",
+      "description": "Lanza 2 flechas por cada <span>Disparo Preciso</span>. La segunda flecha inflige un 20% del daño de la primera flecha.",
+      "level": 212
     },
     {
+      "id": "bunny_triggered",
       "name": "Lanzamiento de Barón Bunny",
-      "description": "¡Un nuevo y mejorado Barón Bunny! Golpear su pie con un Tiro preciso cargado detona inmediatamente a Barón Bunny. Explotarlo manualmente infligirá un 200% de Daño adicional.",
-      "level": 2
+      "description": "¡Un nuevo y mejorado Barón Bunny! Atacarle a los pies con un Disparo Preciso cargado hace que detone inmediatamente.\\nExplotarlo de esta manera hará que inflija un 200% de daño adicional.",
+      "level": 213
     },
     {
+      "id": "it_burns",
       "name": "¡Quémalo todo!",
-      "description": "Aumenta el nivel de habilidad de Lluvia ardiente +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 3
+      "description": "Aumenta el nivel de habilidad de <span>Lluvia ardiente</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "its_not_just_any_doll",
       "name": "No es una muñeca cualquiera...",
-      "description": "Reduce el TdE de Marioneta explosiva en un 20%, y puede ser utilizada 1 vez más.",
-      "level": 4
+      "description": "Reduce el TdE de <span>Marioneta explosiva</span> en un 20%, y puede ser utilizada 1 vez más.",
+      "level": 211
     },
     {
+      "id": "its_baron_bunny",
       "name": "¡Es Barón Bunny!",
-      "description": "Aumenta el nivel de habilidad de marioneta explosiva +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 5
+      "description": "Aumenta el nivel de habilidad de <span>Marioneta explosiva</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
-      "name": "Fuego Salvaje",
-      "description": "Lluvia ardiente aumenta la Vel. Movimiento y el ATQ Básico de todos los miembros del equipo en un 15% durante 10 s.",
-      "level": 6
+      "id": "wildfire",
+      "name": "Fuego salvaje",
+      "description": "<span>Lluvia ardiente</span> aumenta la Vel. Movimiento de todos los miembros del equipo en un 15% y su ATQ en un 15% durante 10 s.",
+      "level": 216
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de ágata agnidus" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha robusta" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Pedacito de ágata agnidus",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Flecha robusta",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha robusta" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Flecha robusta",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha afilada" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Flecha afilada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha afilada" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Flecha afilada",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha veterana" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Flecha veterana",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha veterana" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Flecha veterana",
+        "amount": 24
+      }
     }
   ]
 }

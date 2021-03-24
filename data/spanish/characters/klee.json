@@ -1,119 +1,570 @@
 {
   "id": "klee",
   "name": "Klee",
-  "description": "La presencia de la caballera chispeante de los Caballeros de Favonius siempre va acompañada de destellos y explosiones. Después de escuchar el estallido, siempre desaparece rápidamente de la mirada inquisitiva de Jean. Durante sus detenciones, investiga sobre nuevas fórmulas explosivas. Si no estuviera tanto tiempo en el calabozo, sus descubrimientos serían aún más aterradores.",
-  "titles": [
-    "Caballero Chispeante",
-    "El Sol Fugitivo",
-    "Chica Explosiva (por Razor)"
+  "title": "el Sol Fugitivo",
+  "description": "Una visitante frecuente de los calabozos de los Caballeros de Favonius, la maestra de explosiones de Mondstadt. La llaman “el Sol Fugitivo”.",
+  "weapon_type": "Catalizador",
+  "element": "Pyro",
+  "gender": "Femenino",
+  "substat": "Bono de Daño Pyro",
+  "affiliation": "Caballeros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [
+    27,
+    7
   ],
+  "constellation": "Trifolium",
+  "cv": {
+    "english": "Poonam Basu",
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "korean": "방연지"
+  },
   "skills": [
     {
-      "id": "kaboom",
-      "name": "¡Buuum!",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b>Realiza hasta 3 ataques explosivos que infligen Daño Pyro. </p><p><b>Ataque Cargado:</b>Consume una cierta cantidad de Aguante para infligir Daño Pyro en el AdE después de un corto tiempo de lanzamiento.</p><p><b>Ataque descendiente:</b> Al acumular poder Pyro, Klee se lanza hacia el suelo desde el aire, dañando a todos los enemigos en su camino. A su vez, inflige Daño Pyro en el AdE.</p>",
-      "modifiers": []
+      "id": "normal_attack_kaboom",
+      "name": "Ataque Normal: ¡Buuum!",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 3 ataques explosivos que infligen <span>Daño Pyro en el AdE</span>.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para infligir <span>Daño Pyro en el AdE</span> después de un corto tiempo de lanzamiento.\\n\\n<span>Ataque Descendente</span>\\nAl acumular poder Pyro, Klee se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo <span>Daño Pyro en el AdE</span> en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "72.16%",
+            "77.57%",
+            "82.98%",
+            "90.2%",
+            "95.61%",
+            "101.02%",
+            "108.24%",
+            "115.46%",
+            "122.67%",
+            "129.89%",
+            "137.39%",
+            "147.21%",
+            "157.02%",
+            "166.83%",
+            "176.65%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "62.4%",
+            "67.08%",
+            "71.76%",
+            "78%",
+            "82.68%",
+            "87.36%",
+            "93.6%",
+            "99.84%",
+            "106.08%",
+            "112.32%",
+            "118.81%",
+            "127.3%",
+            "135.78%",
+            "144.27%",
+            "152.76%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "89.92%",
+            "96.66%",
+            "103.41%",
+            "112.4%",
+            "119.14%",
+            "125.89%",
+            "134.88%",
+            "143.87%",
+            "152.86%",
+            "161.86%",
+            "171.21%",
+            "183.44%",
+            "195.67%",
+            "207.89%",
+            "220.12%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "157.36%",
+            "169.16%",
+            "180.96%",
+            "196.7%",
+            "208.5%",
+            "220.3%",
+            "236.04%",
+            "251.78%",
+            "267.51%",
+            "283.25%",
+            "299.61%",
+            "321.01%",
+            "342.42%",
+            "363.82%",
+            "385.22%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "jumpy_dumpty",
       "name": "Bomba saltarina",
-      "type": "Habilidad elemental",
-      "description": "<p>¡La Bomba saltarina es un montón de diversión! Arroja una Bomba saltarina poderosa que puede rebotar hasta tres veces. Cada vez que rebota genera una explosión con Daño Pyro en el AdE. </p><p>Después de rebotar tres veces, se dividirá en varias Trampas cazabobos. Al tocar al enemigo, las ráfagas explotarán, causando Daño Pyro en el AdE. </p><p>Puede ser usado 2 veces consecutivas.</p>",
-      "modifiers": []
+      "description": "¡La bomba saltarina es superdivertida!\\nArroja una poderosa Bomba saltarina que rebota hasta tres veces. Cada vez que rebota genera una explosión que inflige <span>Daño Pyro en el AdE</span>.\\n\\nDespués de rebotar tres veces, se dividirá en varias minas.\\nAl entrar en contacto con el enemigo, las minas explotarán, infligiendo <span>Daño Pyro en el AdE</span>.\\n\\nPuede ser usado 2 veces consecutivas.\\n\\n<i>La bomba saltarina es la nueva amiga de Klee... ¡Todos mueren por conocerla!</i>",
+      "attributes": [
+        [
+          "Daño de Bomba saltarina",
+          [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        ],
+        [
+          "Daño de mina",
+          [
+            "32.8%",
+            "35.26%",
+            "37.72%",
+            "41%",
+            "43.46%",
+            "45.92%",
+            "49.2%",
+            "52.48%",
+            "55.76%",
+            "59.04%",
+            "62.32%",
+            "65.6%",
+            "69.7%",
+            "73.8%",
+            "77.9%"
+          ]
+        ],
+        [
+          "Duración de minas",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "sparks_n_splash",
       "name": "Chispas explosivas",
-      "type": "Impulso elemental",
-      "description": "<p>¡Klee a la carga! Mientras dure la Habilidad, no para de invocar Chispas explosivas que hacen daño a los enemigos cercanos, infligiendo Daño Pyro en el AdE.</p>",
-      "modifiers": []
+      "description": "¡Klee a la carga! Mientras dure la habilidad, invoca constantemente Chispas explosivas que hacen daño a los enemigos cercanos, infligiendo <span>Daño Pyro en el AdE</span>.\\n\\n<i>Los Caballeros de Favonius creen que si Klee nunca se ha hecho daño con sus propias bombas es porque debe tener una buena estrella que la protege...</i>",
+      "attributes": [
+        [
+          "Daño de Chispas explosivas",
+          [
+            "42.64%",
+            "45.84%",
+            "49.04%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "63.96%",
+            "68.22%",
+            "72.49%",
+            "76.75%",
+            "81.02%",
+            "85.28%",
+            "90.61%",
+            "95.94%",
+            "101.27%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "pounding_surprise",
       "name": "Regalo explosivo",
-      "description": "<p>Cuando Bomba saltarina inflige daño junto con un ATQ Normal, hay un 50% de posibilidades de que Klee obtenga una Flor explosiva. El siguiente ATQ Cargado consumirá esta Flor explosiva sin consumir Aguante. El daño infligido aumentará en un 50%.</p>"
+      "description": "Cuando se inflige daño con <span>Bomba saltarina</span> y Ataque Normal, hay una probabilidad del 50% de que Klee obtenga una flor explosiva.\\nEl siguiente Ataque Cargado consumirá esta flor explosiva sin ningún coste de Aguante y tendrá un aumento de daño del 50%.",
+      "level": 1
     },
     {
       "id": "sparkling_burst",
       "name": "Estallido incesante",
-      "description": "<p>Después de asestar un golpe CRIT. con el Ataque Cargado, todos los miembros del equipo reciben 2 pts. de Energía Elemental.</p>"
+      "description": "Cuando Klee asesta un golpe CRIT. con su Ataque Cargado, todos los miembros del equipo recuperan 2 pts. de Energía Elemental.",
+      "level": 4
     },
     {
       "id": "all_of_my_treasures",
       "name": "Todos mis tesoros",
-      "description": "<p>Muestra la ubicación de las especialidades de Mondstadt cercanas en el Mini-mapa.</p>"
+      "description": "Muestra la ubicación de los <span>objetos típicos de Mondstadt</span> cercanos en el Mini-mapa.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "chained_reactions",
       "name": "Explosión en cadena",
-      "description": "Al atacar o usar una habilidad, hay una probabilidad de invocar chispas que atacan al enemigo, las cuales infligen Daño equivalente a 120% del Daño de Chispas explosivas.",
+      "description": "Al atacar o usar una habilidad, hay una probabilidad de invocar chispas que atacan al enemigo, las cuales infligen daño equivalente a 120% del daño de <span>Chispas explosivas</span>.",
       "level": 1
     },
     {
+      "id": "explosive_frags",
       "name": "Fragmentos de metralla",
-      "description": "Las trampas cazabobos de Bomba saltarina reducen la DEF de los enemigos en 23% por 10 s.",
+      "description": "Las minas de <span>Bomba saltarina</span> reducen la DEF de los enemigos en un 23% durante 10 s.",
       "level": 2
     },
     {
+      "id": "exquisite_compound",
       "name": "Mezcla especial de Klee",
-      "description": "Aumenta el nivel de habilidad de Bomba saltarina +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Bomba saltarina</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "sparkly_explosion",
       "name": "¡Bomba va!",
-      "description": "Si el personaje se retira mientras la habilidad Chispas explosivas está activa, creará una explosión que inflige 555% de Daño Pyro de Área.",
+      "description": "Si Klee se retira de combate mientras la habilidad <span>Chispas explosivas</span> está activa, creará una explosión que inflige un 555% de <span>Daño Pyro en el AdE</span>.",
       "level": 4
     },
     {
+      "id": "nova_burst",
       "name": "Estrella de los bombardeos",
-      "description": "Aumenta el nivel de habilidad de Chispas explosivas +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Chispas explosivas</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
-      "name": "¡A la carga!",
-      "description": "Mientras las Chispas explosivas estén activas, los miembros del equipo recuperarán energía elemental; después de activar Chispas explosivas, y por 25 s todos los miembros del equipo reciben 10% de Bono de Daño Pyro.",
+      "id": "blazing_delight",
+      "name": "¡Klee a la carga!",
+      "description": "Mientras las <span>Chispas explosivas</span> estén activas, Klee hará que todos los miembros del equipo (sin incluir al personaje en uso) recuperen 3 pts. de Energía Elemental cada 3 s.\\nDespués de activar <span>Chispas explosivas</span>, todos los miembros del equipo reciben un 10% de <span>Bono de Daño Pyro</span> durante 25 s.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de ágata agnidus" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino guía" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Pedacito de ágata agnidus",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino guía" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino hechizado" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino hechizado" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino maldito" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Seta filanemo" },
-      "mat4": { "name": "Pergamino maldito" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Seta filanemo",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 24
+      }
     }
   ]
 }

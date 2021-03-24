@@ -1,61 +1,482 @@
 {
   "id": "traveler_anemo",
   "name": "Traveler (Anemo)",
+  "title": "",
   "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
   "weapon_type": "Sword",
   "element": "Anemo",
-  "gender": "Player's Choice",
-  "region": "Mondstadt",
+  "gender": "Male/Female",
+  "substat": "ATK%",
+  "affiliation": "-",
   "rarity": 5,
-  "location": "Quest",
-  "titles": [
-    "Outlander",
-    "Honorary Knight",
-    "Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
-    "Comrade (by Tartaglia)"
+  "birthday": [
+    null,
+    null
   ],
+  "constellation": "Viator",
+  "cv": {
+    "english": "Zach Aguilar & Corina Boettger",
+    "chinese": "鹿喑 & 多多poi",
+    "japanese": "堀江瞬 & 古賀葵",
+    "korean": "이경태 & 김가령"
+  },
   "skills": [
     {
-      "id": "foreign_ironwind",
-      "name": "Foreign Ironwind",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_foreign_ironwind",
+      "name": "Normal Attack: Foreign Ironwind",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        ]
+      ]
     },
     {
       "id": "palm_vortex",
       "name": "Palm Vortex",
-      "type": "Elemental Skill",
-      "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing <span style=\"color:#26a684\"><b>Anemo DMG</b></span> 6 times in 1.5 seconds to opponents in front of you. The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.<p><b>Hold:</b> DMG and AoE will gradually increase.<b>Elemental Absorption:</b> If the vortex comes into contact with <span style=\"color:#0b4dda\"><b>Hydro</b></span>/<span style=\"color:#bf2818\"><b>Pyro</b></span>/<span style=\"color:#4878a8\"><b>Cryo</b></span>/<span style=\"color:#9336b0\"><b>Electro</b></span> elements, it will deal 23% additional elemental DMG of that type. Elemental Absorption may only occur once per use.Generate <b>2</b> elemental particles when press and <b>3.5</b> when hold, if it hit at least 1 target.</p>",
-      "modifiers": []
+      "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous <span>Anemo DMG</span> to opponents in front of you.\\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\\n\\n<span>Hold</span>\\nDMG and AoE will gradually increase.\\n\\n<span>Elemental Absorption</span>\\nIf the vortex comes into contact with <span>Hydro</span>/<span>Pyro</span>/<span>Cryo</span>/<span>Electro</span>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You discussed the way to grasp the formless wind with Paimon.</i>",
+      "attributes": [
+        [
+          "Initial Cutting DMG",
+          [
+            "12%",
+            "12.9%",
+            "13.8%",
+            "15%",
+            "15.9%",
+            "16.8%",
+            "18%",
+            "19.2%",
+            "20.4%",
+            "21.6%",
+            "22.8%",
+            "24%",
+            "25.5%",
+            "27%",
+            "28.5%"
+          ]
+        ],
+        [
+          "Max Cutting DMG",
+          [
+            "16.8%",
+            "18.06%",
+            "19.32%",
+            "21%",
+            "22.26%",
+            "23.52%",
+            "25.2%",
+            "26.88%",
+            "28.56%",
+            "30.24%",
+            "31.92%",
+            "33.6%",
+            "35.7%",
+            "37.8%",
+            "39.9%"
+          ]
+        ],
+        [
+          "Initial Storm DMG",
+          [
+            "176%",
+            "189.2%",
+            "202.4%",
+            "220%",
+            "233.2%",
+            "246.4%",
+            "264%",
+            "281.6%",
+            "299.2%",
+            "316.8%",
+            "334.4%",
+            "352%",
+            "374%",
+            "396%",
+            "418%"
+          ]
+        ],
+        [
+          "Max Storm DMG",
+          [
+            "192%",
+            "206.4%",
+            "220.8%",
+            "240%",
+            "254.4%",
+            "268.8%",
+            "288%",
+            "307.2%",
+            "326.4%",
+            "345.6%",
+            "364.8%",
+            "384%",
+            "408%",
+            "432%",
+            "456%"
+          ]
+        ],
+        [
+          "Base CD",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Max Charging CD",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ]
+      ]
     },
     {
       "id": "gust_surge",
       "name": "Gust Surge",
-      "type": "Elemental Burst",
-      "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing <span style=\"color:#26a684\"><b>Anemo DMG</b></span> each 0.5 seconds, 9 times.<p><b>Elemental Absorption:</b> If the vortex comes into contact with <span style=\"color:#0b4dda\"><b>Hydro</b></span>/<span style=\"color:#bf2818\"><b>Pyro</b></span>/<span style=\"color:#4878a8\"><b>Cryo</b></span>/<span style=\"color:#9336b0\"><b>Electro</b></span> elements, it will deal 30.7% additional elemental DMG of that type. Elemental Absorption may only occur once per use.</p>",
-      "modifiers": []
+      "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous <span>Anemo DMG</span>.\\n\\n<span>Elemental Absorption</span>\\nIf the tornado comes into contact with <span>Hydro</span>/<span>Pyro</span>/<span>Cryo</span>/<span>Electro</span>, it will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use.\\n\\n<i>You and Paimon studied the flapping of a butterfly's wings.</i>",
+      "attributes": [
+        [
+          "Tornado DMG",
+          [
+            "80.8%",
+            "86.86%",
+            "92.92%",
+            "101%",
+            "107.06%",
+            "113.12%",
+            "121.2%",
+            "129.28%",
+            "137.36%",
+            "145.44%",
+            "153.52%",
+            "161.6%",
+            "171.7%",
+            "181.8%",
+            "191.9%"
+          ]
+        ],
+        [
+          "Additional Elemental DMG",
+          [
+            "24.8%",
+            "26.66%",
+            "28.52%",
+            "31%",
+            "32.86%",
+            "34.72%",
+            "37.2%",
+            "39.68%",
+            "42.16%",
+            "44.64%",
+            "47.12%",
+            "49.6%",
+            "52.7%",
+            "55.8%",
+            "58.9%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "slitting_wind",
       "name": "Slitting Wind",
-      "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
-      "unlock": "Ascension 1"
+      "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as <span>Anemo DMG</span> to all opponents in its path.",
+      "level": 1
     },
     {
       "id": "second_wind",
       "name": "Second Wind",
-      "description": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
-      "unlock": "Ascension 4"
+      "description": "<span>Palm Vortex</span> kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
+      "level": 4
     }
   ],
   "constellations": [
     {
       "id": "raging_vortex",
       "name": "Raging Vortex",
-      "description": "Palm Vortex pulls in enemies within a 5m radius.",
+      "description": "<span>Palm Vortex</span> pulls in opponents and objects within a 5m radius.",
       "level": 1
     },
     {
@@ -67,32 +488,35 @@
     {
       "id": "sweeping_gust",
       "name": "Sweeping Gust",
-      "description": "Increases the level of Gust Surge by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Gust Surge</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "cherishing_breezes",
       "name": "Cherishing Breezes",
-      "description": "Reduces DMG taken while casting Palm Vortex by 10%.",
+      "description": "Reduces DMG taken while casting <span>Palm Vortex</span> by 10%.",
       "level": 4
     },
     {
       "id": "vortex_stellaris",
       "name": "Vortex Stellaris",
-      "description": "Increases the level of Palm Vortex by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Palm Vortex</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "intertwined_winds",
       "name": "Intertwined Winds",
-      "description": "Targets who take DMG from Gust Surge have their <b>Anemo RES</b> decreased by 20%.<p>If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.</p>",
+      "description": "Targets who take DMG from <span>Gust Surge</span> have their <span>Anemo RES</span> decreased by 20%.\\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "brilliant_diamond_sliver",
@@ -104,11 +528,18 @@
         "name": "Windwheel Aster",
         "amount": 3
       },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3
+      }
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "brilliant_diamond_fragment",
@@ -120,11 +551,18 @@
         "name": "Windwheel Aster",
         "amount": 10
       },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15
+      }
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "brilliant_diamond_fragment",
@@ -136,11 +574,18 @@
         "name": "Windwheel Aster",
         "amount": 20
       },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "brilliant_diamond_chunk",
@@ -152,11 +597,18 @@
         "name": "Windwheel Aster",
         "amount": 30
       },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "brilliant_diamond_chunk",
@@ -168,11 +620,18 @@
         "name": "Windwheel Aster",
         "amount": 45
       },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "brilliant_diamond_gemstone",
@@ -184,7 +643,11 @@
         "name": "Windwheel Aster",
         "amount": 60
       },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24
+      }
     }
   ]
 }

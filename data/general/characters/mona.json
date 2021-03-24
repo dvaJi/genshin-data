@@ -1,106 +1,483 @@
 {
   "id": "mona",
   "name": "Mona",
+  "title": "Astral Reflection",
   "description": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
   "weapon_type": "Catalyst",
   "element": "Hydro",
   "gender": "Female",
+  "substat": "Energy Recharge",
+  "affiliation": "Mondstadt",
   "region": "Mondstadt",
   "rarity": 5,
-  "location": "Wish",
-  "titles": ["Astral Reflection", "Enigmatic Astrologer"],
+  "birthday": [
+    31,
+    8
+  ],
+  "constellation": "Astrolabos",
+  "cv": {
+    "english": "Felecia Angelle",
+    "chinese": "陈婷婷",
+    "japanese": "小原好美",
+    "korean": "우정신"
+  },
   "skills": [
     {
-      "id": "ripple_of_fate",
-      "name": "Ripple of Fate",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 4 water splash attacks that deal <span style=\"color:#0b4dda\"><b>Hydro DMG</b></span>.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to deal <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> after a short casting time.<b>Plunging Attack:</b> Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span> upon impact with the ground.</p>",
-      "modifiers": []
+      "id": "normal_attack_ripple_of_fate",
+      "name": "Normal Attack: Ripple of Fate",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 water splash attacks that deal <span>Hydro DMG</span>.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to deal <span>AoE Hydro DMG</span> after a short casting time.\\n\\n<span>Plunging Attack</span>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span>AoE Hydro DMG</span> upon impact with the ground.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "37.6%",
+            "40.42%",
+            "43.24%",
+            "47%",
+            "49.82%",
+            "52.64%",
+            "56.4%",
+            "60.16%",
+            "63.92%",
+            "67.68%",
+            "71.44%",
+            "75.2%",
+            "79.9%",
+            "84.6%",
+            "89.3%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "44.8%",
+            "48.16%",
+            "51.52%",
+            "56%",
+            "59.36%",
+            "62.72%",
+            "67.2%",
+            "71.68%",
+            "76.16%",
+            "80.64%",
+            "85.12%",
+            "89.6%",
+            "95.2%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "56.16%",
+            "60.37%",
+            "64.58%",
+            "70.2%",
+            "74.41%",
+            "78.62%",
+            "84.24%",
+            "89.86%",
+            "95.47%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "149.72%",
+            "160.95%",
+            "172.18%",
+            "187.15%",
+            "198.38%",
+            "209.61%",
+            "224.58%",
+            "239.55%",
+            "254.52%",
+            "269.5%",
+            "285.07%",
+            "305.43%",
+            "325.79%",
+            "346.15%",
+            "366.51%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "101.09%",
+            "106.7%",
+            "112.32%",
+            "119.34%",
+            "126.36%",
+            "133.38%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "100.8%",
+            "106.4%"
+          ]
+        ]
+      ]
     },
     {
       "id": "mirror_reflection_of_doom",
       "name": "Mirror Reflection of Doom",
-      "type": "Elemental Skill",
-      "description": "Creates an illusory Phantom of fate from coalesced waterspouts.<p>The <b>Phantom</b> has the following special properties:</p><ul><li>Continuously taunts nearby opponents, attracting their fire.</li><li>Each second, 4 times, deals <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span>.</li><li>When its duration expires, the Phantom explodes, dealing <span style=\"color:#0b4dda\"><b>AoE Hydro DMG</b></span>.</li></ul><p><b>Hold:</b> Utilizes water currents to move backwards swiftly before conjuring a PhantomOnly one Phantom created by Mirror Reflection of Doom can exist at any time.When the Phantom explodes and hits at least one opponent, it generates <b>3</b> elemental particles.</p>",
-      "modifiers": []
+      "description": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\nThe <span>Phantom</span> has the following special properties:\\n·Continuously taunts nearby opponents, attracting their fire.\\n·Continuously deals <span>Hydro DMG</span> to nearby opponents.\\n·When its duration expires, the Phantom explodes, dealing <span>AoE Hydro DMG</span>.\\n\\n<span>Hold</span>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+      "attributes": [
+        [
+          "DoT",
+          [
+            "32%",
+            "34.4%",
+            "36.8%",
+            "40%",
+            "42.4%",
+            "44.8%",
+            "48%",
+            "51.2%",
+            "54.4%",
+            "57.6%",
+            "60.8%",
+            "64%",
+            "68%",
+            "72%",
+            "76%"
+          ]
+        ],
+        [
+          "Explosion DMG",
+          [
+            "132.8%",
+            "142.76%",
+            "152.72%",
+            "166%",
+            "175.96%",
+            "185.92%",
+            "199.2%",
+            "212.48%",
+            "225.76%",
+            "239.04%",
+            "252.32%",
+            "265.6%",
+            "282.2%",
+            "298.8%",
+            "315.4%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ]
+      ]
     },
     {
       "id": "illusory_torrent",
       "name": "Illusory Torrent",
-      "type": "Alternate Sprint",
-      "description": "<b>Alternate Sprint:</b> Mona cloaks herself within the water's flow, consuming stamina to move rapidly.<p>When under the effect of Illusory Torrent, Mona can move at high speed on water.Applies the <span style=\"color:#0b4dda\"><b>Wet</b></span> status to nearby opponents when she reappears.</p>",
-      "modifiers": []
+      "description": "<span>Alternate Sprint</span>\\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\\n\\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\\nApplies the <span>Wet</span> status to nearby opponents when she reappears.\\n\\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+      "attributes": [
+        [
+          "Activation Stamina Consumption",
+          [
+            "10"
+          ]
+        ],
+        [
+          "Stamina Drain",
+          [
+            "15/s"
+          ]
+        ]
+      ]
     },
     {
       "id": "stellaris_phantasm",
       "name": "Stellaris Phantasm",
-      "type": "Elemental Burst",
-      "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to the opponents in a large AoE.<p><b>Illusory Bubble:</b> Traps opponents inside a pocket of destiny and also makes them <span style=\"color:#0b4dda\"><b>Wet</b></span>. Renders weaker opponents immobile. When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:</p><ul><li>Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.</li><li>Removes the Illusory Bubble, dealing <span style=\"color:#0b4dda\"><b>Hydro</b></span> DMG in the process.</li></ul><p><b>Omen:</b> During its duration, increases DMG taken by opponents.</p>",
-      "modifiers": []
+      "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<span>Illusory Bubble</span>\\nTraps opponents inside a pocket of destiny and also makes them <span>Wet</span>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n·Removes the Illusory Bubble, dealing <span>Hydro</span> DMG in the process.\\n\\n<span>Omen</span>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+      "attributes": [
+        [
+          "Illusory Bubble Duration",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ],
+        [
+          "Illusory Bubble Explosion DMG",
+          [
+            "442.4%",
+            "475.58%",
+            "508.76%",
+            "553%",
+            "586.18%",
+            "619.36%",
+            "663.6%",
+            "707.84%",
+            "752.08%",
+            "796.32%",
+            "840.56%",
+            "884.8%",
+            "940.1%",
+            "995.4%",
+            "1050.7%"
+          ]
+        ],
+        [
+          "DMG Bonus",
+          [
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "58%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        ],
+        [
+          "Omen Duration",
+          [
+            "4s",
+            "4s",
+            "4s",
+            "4.5s",
+            "4.5s",
+            "4.5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "come_n_get_me_hag",
-      "name": "Come 'n' Get Me, Hag!",
-      "description": "After she has used <b>Illusory Torrent</b> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.<p>A Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.</p>",
-      "unlock": "Ascension 1"
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "description": "After she has used <span>Illusory Torrent</span> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <span>Mirror Reflection of Doom</span>.",
+      "level": 1
     },
     {
       "id": "waterborne_destiny",
       "name": "Waterborne Destiny",
-      "description": "Increases Mona's <span style=\"color:#0b4dda\"><b>Hydro DMG Bonus</b></span> by a degree equivalent to 20% of her Energy Recharge rate.",
-      "unlock": "Ascension 4"
+      "description": "Increases Mona's <span>Hydro DMG Bonus</span> by a degree equivalent to 20% of her Energy Recharge rate.",
+      "level": 4
     },
     {
       "id": "principium_of_astrology",
       "name": "Principium of Astrology",
-      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund one count of one material out of all the crafting materials used.",
-      "unlock": ""
+      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "prophecy_of_submersion",
       "name": "Prophecy of Submersion",
-      "description": "The effects of Hydro-related Elemental Reactions are enhanced for 8s after any of your characters in the party hit an opponent affected by an Omen:\nElectro-Charged DMG is increased by 15%.\nVaporize DMG is increased by 15%.\nHydro Swirl DMG is increased by 15%.\nThe duration for which enemies are Frozen is increased by 15%.",
+      "description": "When any of your own party members hits an opponent affected by an Omen, the effects of <span>Hydro-related Elemental Reactions</span> are enhanced for 8s:\\n·Electro-Charged DMG increases by 15%.\\n·Vaporize DMG increases by 15%.\\n·Hydro Swirl DMG increases by 15%.\\n·Frozen duration is extended by 15%.",
       "level": 1
     },
     {
       "id": "lunar_chain",
       "name": "Lunar Chain",
-      "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. This effect can only occur once every 5s.",
+      "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
       "level": 2
     },
     {
       "id": "restless_revolution",
       "name": "Restless Revolution",
-      "description": "Increases the Level of Stellaris Phantasm by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Stellaris Phantasm</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "prophecy_of_oblivion",
       "name": "Prophecy of Oblivion",
-      "description": "When any character in the party attacks an opponent affected by the Omen status effect, their CRIT Rate is increased by 15%.",
+      "description": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
       "level": 4
     },
     {
       "id": "mockery_of_fortuna",
       "name": "Mockery of Fortuna",
-      "description": "Increase the Level of Mirror Reflection of Doom by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Mirror Reflection of Doom</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "rhetorics_of_calamitas",
       "name": "Rhetorics of Calamitas",
-      "description": "Upon entering Illusory Torrent, Mona gains a 60% increase to the DMG her next Charged Attack per second of movement. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "description": "Upon entering <span>Illusory Torrent</span>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "varunada_lazurite_sliver",
@@ -120,7 +497,10 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "varunada_lazurite_fragment",
@@ -145,7 +525,10 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "varunada_lazurite_fragment",
@@ -170,7 +553,10 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "varunada_lazurite_chunk",
@@ -195,7 +581,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "varunada_lazurite_chunk",
@@ -212,11 +601,18 @@
         "name": "Philanemo Mushroom",
         "amount": 45
       },
-      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 12 }
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12
+      }
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "varunada_lazurite_gemstone",
@@ -233,7 +629,11 @@
         "name": "Philanemo Mushroom",
         "amount": 60
       },
-      "mat4": { "id": "energy_nectar", "name": "Energy Nectar", "amount": 24 }
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24
+      }
     }
   ]
 }

@@ -1,115 +1,590 @@
 {
   "id": "fischl",
   "name": "Fischl",
-  "description": "Una chica misterioso que se hace llamar \"la princesa del juicio\". Siempre camina junto con un cuervo oscuro, llamado Oz. Actualmente hace de investigadora en el Gremio de Aventureros. Con sus habilidades únicas, su carácter excéntrico y su duro trabajo (aunque ella misma nunca lo admitiría), Fischl se convirtió en una estrella en ascenso entre los investigadores del Gremio de Aventureros, ganándose el reconocimiento de todos.",
-  "titles": ["La Princesa del Juicio"],
+  "title": "la Princesa del Juicio",
+  "description": "Una chica misteriosa que se hace llamar “Princesa del Juicio”. Siempre camina junto con un cuervo oscuro llamado Oz.",
+  "weapon_type": "Arco",
+  "element": "Electro",
+  "gender": "Femenino",
+  "substat": "ATQ%",
+  "affiliation": "Gremio de Aventureros",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    27,
+    5
+  ],
+  "constellation": "Corvus",
+  "cv": {
+    "english": "Brittany Cox y Ben Pronsky",
+    "chinese": "Mace&李元韬",
+    "japanese": "内田真礼&増谷康紀",
+    "korean": "박고운&이현"
+  },
   "skills": [
     {
-      "id": "bolts_of_downfall",
-      "name": "Flechas del juicio",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b>Realiza hasta 5 disparos consecutivos con arco.</p><p><b>Ataque Cargado:</b>Realiza un Tiro Preciso más preciso con daño aumentado. Al apuntar, los espíritus oscuros del Reino de la Noche Eterna atenderán al llamado de su Princesa y se acumularán en la punta de flecha encantada. Cuando esté completamente habitado, el Relámpago del juicio inflige una cantidad considerable de Daño Electro.</p><p><b>Ataque descendiente:</b> Dispara una lluvia de flechas al aire antes de caer y golpear el suelo, infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_bolts_of_downfall",
+      "name": "Ataque Normal: Flechas del juicio",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 disparos consecutivos con arco.\\n\\n<span>Ataque Cargado</span>\\nRealiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.\\nAl apuntar, los espíritus oscuros del Reino de la Noche Eterna atenderán al llamado de su Princesa y se acumularán en la punta de la flecha mágica. Cuando esté completamente cargada, la flecha liberará un relámpago del juicio que inflige una cantidad considerable de <span>Daño Electro</span>.\\n\\n<span>Ataque Descendente</span>\\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "44.12%",
+            "47.71%",
+            "51.3%",
+            "56.43%",
+            "60.02%",
+            "64.13%",
+            "69.77%",
+            "75.41%",
+            "81.05%",
+            "87.21%",
+            "93.37%",
+            "99.52%",
+            "105.68%",
+            "111.83%",
+            "117.99%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "46.78%",
+            "50.59%",
+            "54.4%",
+            "59.84%",
+            "63.65%",
+            "68%",
+            "73.98%",
+            "79.97%",
+            "85.95%",
+            "92.48%",
+            "99.01%",
+            "105.54%",
+            "112.06%",
+            "118.59%",
+            "125.12%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "58.14%",
+            "62.87%",
+            "67.6%",
+            "74.36%",
+            "79.09%",
+            "84.5%",
+            "91.94%",
+            "99.37%",
+            "106.81%",
+            "114.92%",
+            "123.03%",
+            "131.14%",
+            "139.26%",
+            "147.37%",
+            "155.48%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "57.71%",
+            "62.4%",
+            "67.1%",
+            "73.81%",
+            "78.51%",
+            "83.88%",
+            "91.26%",
+            "98.64%",
+            "106.02%",
+            "114.07%",
+            "122.12%",
+            "130.17%",
+            "138.23%",
+            "146.28%",
+            "154.33%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "72.07%",
+            "77.93%",
+            "83.8%",
+            "92.18%",
+            "98.05%",
+            "104.75%",
+            "113.97%",
+            "123.19%",
+            "132.4%",
+            "142.46%",
+            "152.52%",
+            "162.57%",
+            "172.63%",
+            "182.68%",
+            "192.74%"
+          ]
+        ],
+        [
+          "Disparo Preciso",
+          [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        ],
+        [
+          "Disparo Preciso (carga completa)",
+          [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "nightrider",
       "name": "Vigía de la noche",
-      "type": "Habilidad elemental",
-      "description": "<p>Invoca a Oz. El cuervo nocturno compuesto de oscuridad y truenos desciende sobre la tierra, infligiendo Daño Electro en una pequeña AdE. Mientras dure la habilidad, Oz atacará continuamente a los enemigos cercanos con Balas Electro. </p><p>Mantén presionado para ajustar la ubicación en la que se invocará a Oz. Pulsa de nuevo cuando Oz esté presente para invocarlo al lado de Fischl.</p>",
-      "modifiers": []
+      "description": "Invoca a Oz. El cuervo nocturno compuesto de oscuridad y truenos desciende sobre la tierra, infligiendo <span>Daño Electro</span> en una pequeña AdE.\\nMientras dure la habilidad, Oz atacará continuamente a los enemigos cercanos con <span>balas Electro</span>.\\n\\nMantén pulsado para ajustar la ubicación en la que se invocará a Oz.\\nPulsa de nuevo cuando Oz esté presente para invocarlo al lado de Fischl.\\n\\n<i>“Ve, Oz. Cae sobre ellos e invoca tu relámpago del juicio para dar comienzo a la noche eterna”.</i>\\n<i>——«Flores para la princesa Fischl (IV): Adiós, Frau Welt».</i>",
+      "attributes": [
+        [
+          "Daño de ATQ de Oz",
+          [
+            "88.8%",
+            "95.46%",
+            "102.12%",
+            "111%",
+            "117.66%",
+            "124.32%",
+            "133.2%",
+            "142.08%",
+            "150.96%",
+            "159.84%",
+            "168.72%",
+            "177.6%",
+            "188.7%",
+            "199.8%",
+            "210.9%"
+          ]
+        ],
+        [
+          "Daño al invocar",
+          [
+            "115.44%",
+            "124.1%",
+            "132.76%",
+            "144.3%",
+            "152.96%",
+            "161.62%",
+            "173.16%",
+            "184.7%",
+            "196.25%",
+            "207.79%",
+            "219.34%",
+            "230.88%",
+            "245.31%",
+            "259.74%",
+            "274.17%"
+          ]
+        ],
+        [
+          "Duración de Oz",
+          [
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s.",
+            "10 s."
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s",
+            "25 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "midnight_phantasmagoria",
       "name": "Ilusión nocturna",
-      "type": "Impulso elemental",
-      "description": "<p>Invoca a Oz para extender sus alas del crepúsculo y proteger a Fischl. Durante la habilidad, tiene las siguiente propiedades: </p><ul><li>Fischl adquiere la forma de Oz, lo que aumenta considerablemente su Velocidad de Movimiento.</li><li>Inflige Daño Electro a los enemigos cercanos.</li></ul><p>Cada enemigo puede ser golpeado solo una vez. Una vez que finalice la habilidad, Oz permanecerá en el campo de batalla atacando a los enemigos de la Princesa. Si Oz ya está en el campo de batalla, reiniciará su duración.</p>",
-      "modifiers": []
+      "description": "Invoca a Oz para extender sus alas del crepúsculo y proteger a Fischl.\\nDurante la habilidad, tiene las siguientes propiedades:\\n·Fischl adquiere la forma de Oz, lo que aumenta considerablemente su Velocidad de Movimiento.\\n·Inflige <span>Daño Electro</span> a los enemigos cercanos. Cada enemigo puede ser golpeado solo una vez.\\nAl finalizar la habilidad, Oz permanecerá en el campo de batalla, atacando a los enemigos de la Princesa. Si Oz ya estaba en el campo de batalla, reiniciará su duración.\\n\\n<i>“... Entre las hordas de bestias que persiguen la sangre maldita, solo el Príncipe Cuervo de la Noche, que fue testigo de la extinción de mil mundos, conoce la verdadera grandeza de la Princesa. Así, las alas nocturnas que extiende son su eterna promesa de proteger a Su Alteza Real”.</i>\\n<i>—«Flores para la Princesa Fischl - Vol. I: El colapso del fin de los tiempos».</i>",
+      "attributes": [
+        [
+          "Daño de rayo",
+          [
+            "208%",
+            "223.6%",
+            "239.2%",
+            "260%",
+            "275.6%",
+            "291.2%",
+            "312%",
+            "332.8%",
+            "353.6%",
+            "374.4%",
+            "395.2%",
+            "416%",
+            "442%",
+            "468%",
+            "494%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "stellar_predator",
       "name": "Cuervo devoraestrellas",
-      "description": "<p>Cuando Fischl golpea a Oz con una carga completa de Tiro preciso, Oz lanza una Retribución del trueno a los enemigos cercanos, causando Daño Electro de Área igual al 152.7% del daño de la flecha.</p>"
+      "description": "Cuando Fischl golpea a Oz con un Disparo Preciso completamente cargado, Oz lanza una retribución del trueno, infligiendo <span>Daño Electro en el AdE</span> igual al 152.7% del daño de la flecha.",
+      "level": 1
     },
     {
-      "id": "lightning_smite",
+      "id": "undone_be_thy_sinful_hex",
       "name": "Juicio de los pecadores",
-      "description": "<p>Si un personaje desencadena una Reacción Elemental relacionada con Electro cuando Oz está en combate, el enemigo será golpeado con Retribución del trueno, infligiendo Daño Electro igual al 80% del ATQ de Fischl.</p>"
+      "description": "Si el personaje en uso desencadena una <span>Reacción Elemental con Electro</span> cuando Oz está en combate, el enemigo será golpeado con retribución del trueno, infligiendo <span>Daño Electro</span> igual al 80% del ATQ de Fischl.",
+      "level": 4
     },
     {
       "id": "mein_hausgarten",
       "name": "Mi jardín secreto",
-      "description": "<p>Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.</p>"
+      "description": "Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "gaze_of_the_deep",
       "name": "Ojo de cuervo penetrante",
-      "description": "Cuando Oz no está en el campo de batalla, también mira a Fischl a través del Ojo de cuervo. Cuando Fischl daña al enemigo con Ataque Normal, Oz atacará simultáneamente con el Ojo de cuervo e infligirá un 22% de daño.",
-      "level": 1
+      "description": "Cuando Oz no está en el campo de batalla, seguirá vigilando a Fischl a través de su ojo de cuervo. Cuando Fischl ataca a un enemigo con Ataque Normal, Oz atacará simultáneamente con su ojo e infligirá un 22% de daño.",
+      "level": 331
     },
     {
-      "name": "Devoradora de pecados",
-      "description": "Vigía de la noche inflige un 200% de daño adicional, y su AdE aumenta en un 50%.",
-      "level": 2
+      "id": "devourer_of_all_sins",
+      "name": "Devorador de pecados",
+      "description": "<span>Vigía de la noche</span> inflige un 200% de daño adicional, y su AdE aumenta en un 50%.",
+      "level": 332
     },
     {
+      "id": "wings_of_nightmare",
       "name": "Alas sombrías",
-      "description": "Aumenta el nivel de habilidad de Alas de vigilancia nocturna +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 3
+      "description": "Aumenta el nivel de habilidad de <span>Vigía de la noche</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
-      "name": "Fantasía de la reina",
-      "description": "Al lanzar Ilusión nocturna, inflige un 222% de daño de ATQ de Daño Electro a los enemigos cercanos. Cuando la habilidad termina, Fischl recupera el 20% de su Vida.",
-      "level": 4
+      "id": "her_pilgrimage_of_bleak",
+      "name": "Fantasía de la princesa",
+      "description": "Al lanzar <span>Ilusión nocturna</span>, inflige un 222% de daño de ATQ como <span>Daño Electro</span> a los enemigos cercanos.\\nCuando termina la duración de la habilidad, Fischl recupera el 20% de su Vida.",
+      "level": 334
     },
     {
+      "id": "against_the_fleeing_light",
       "name": "Noche silenciosa",
-      "description": "Aumenta el nivel de habilidad de Ilusión nocturna +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 5
+      "description": "Aumenta el nivel de habilidad de <span>Ilusión nocturna</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
-      "name": "Ave de la noche eterna",
-      "description": "Aumenta la duración de la invocación de Oz en 2 s. Mientras Oz esté presente, atacará con el personaje actual, e infligirá el 30% del ATQ de Fischl como Daño Electro.",
-      "level": 6
+      "id": "evernight_raven",
+      "name": "Ave de la Noche Eterna",
+      "description": "Aumenta la duración de la invocación de Oz en 2 s. Mientras Oz esté presente, atacará junto a tu personaje en uso, e infligirá un 30% del ATQ de Fischl como <span>Daño Electro</span>.",
+      "level": 336
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de amatista vajrada" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha robusta" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Pedacito de amatista vajrada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Flecha robusta",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha robusta" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Flecha robusta",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha afilada" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Flecha afilada",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha afilada" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sharp_arrowhead",
+        "name": "Flecha afilada",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha veterana" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Flecha veterana",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Amatista vajrada" },
-      "mat2": { "name": "Prisma de Relámpago" },
-      "mat3": { "name": "Lucetta" },
-      "mat4": { "name": "Flecha veterana" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Amatista vajrada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "lightning_prism",
+        "name": "Prisma del relámpago",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "small_lamp_grass",
+        "name": "Lucetta",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "weathered_arrowhead",
+        "name": "Flecha veterana",
+        "amount": 24
+      }
     }
   ]
 }

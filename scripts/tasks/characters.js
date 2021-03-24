@@ -20,15 +20,15 @@ async function generateCharacters(lang) {
     fs.readdirSync(folderPath).forEach(filename => {
       if (!filename.endsWith('.json')) return;
       const data = require(path.join(folderPath, filename));
-      const originalData = require(path.join(
-        DATA_PATH,
-        'general',
-        folder,
-        filename
-      ));
+      // const originalData = require(path.join(
+      //   DATA_PATH,
+      //   'general',
+      //   folder,
+      //   filename
+      // ));
 
-      let fmtData = deepMerge(originalData, data);
-      index.push(fmtData);
+      // let fmtData = deepMerge(originalData, data);
+      index.push(data);
     });
 
     fs.writeFileSync(

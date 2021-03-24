@@ -1,172 +1,725 @@
 {
   "id": "noelle",
   "name": "Noelle",
-  "description": "A maid in the service of the Knights of Favonius that dreams of joining their ranks someday.",
+  "title": "Chivalric Blossom",
+  "description": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
   "weapon_type": "Claymore",
   "element": "Geo",
   "gender": "Female",
+  "substat": "DEF%",
+  "affiliation": "Knights of Favonius",
   "region": "Mondstadt",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Chivalric Blossom", "Maid of Favonius"],
+  "birthday": [
+    21,
+    3
+  ],
+  "constellation": "Parma Cordis",
+  "cv": {
+    "english": "Laura Faye Smith",
+    "chinese": "宴宁",
+    "japanese": "高尾奏音",
+    "korean": "이보희"
+  },
   "skills": [
     {
-      "id": "favonius_bladework_maid",
-      "name": "Favonius Bladework - Maid",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 4 consecutive slashes<p><b>Charged Attack:</b> Drains Stamina over time to perform continuous swirling attack on all nearby opponents. At the end of the sequence, performs an additional powerful slash.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_favonius_bladework_maid",
+      "name": "Normal Attack: Favonius Bladework - Maid",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 consecutive strikes.\\n\\n<span>Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "79.12%",
+            "85.56%",
+            "92%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "73.36%",
+            "79.33%",
+            "85.3%",
+            "93.83%",
+            "99.8%",
+            "106.62%",
+            "116.01%",
+            "125.39%",
+            "134.77%",
+            "145.01%",
+            "155.25%",
+            "165.48%",
+            "175.72%",
+            "185.95%",
+            "196.19%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "86.26%",
+            "93.28%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "113.43%",
+            "122.67%",
+            "131.9%",
+            "145.09%",
+            "154.32%",
+            "164.87%",
+            "179.38%",
+            "193.89%",
+            "208.4%",
+            "224.23%",
+            "240.06%",
+            "255.89%",
+            "271.71%",
+            "287.54%",
+            "303.37%"
+          ]
+        ],
+        [
+          "Charged Attack Spinning DMG",
+          [
+            "50.74%",
+            "54.87%",
+            "59%",
+            "64.9%",
+            "69.03%",
+            "73.75%",
+            "80.24%",
+            "86.73%",
+            "93.22%",
+            "100.3%",
+            "107.38%",
+            "114.46%",
+            "121.54%",
+            "128.62%",
+            "135.7%"
+          ]
+        ],
+        [
+          "Charged Attack Final DMG",
+          [
+            "90.47%",
+            "97.84%",
+            "105.2%",
+            "115.72%",
+            "123.08%",
+            "131.5%",
+            "143.07%",
+            "154.64%",
+            "166.22%",
+            "178.84%",
+            "191.46%",
+            "204.09%",
+            "216.71%",
+            "229.34%",
+            "241.96%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        ],
+        [
+          "Max Duration",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "100.3%",
+            "110.33%",
+            "117.35%",
+            "125.37%",
+            "136.41%",
+            "147.44%",
+            "158.47%",
+            "170.51%",
+            "182.55%",
+            "194.58%",
+            "206.62%",
+            "218.65%",
+            "230.69%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "101.2%",
+            "107.64%",
+            "115%",
+            "125.12%",
+            "135.24%",
+            "145.36%",
+            "156.4%",
+            "167.44%",
+            "178.48%",
+            "189.52%",
+            "200.56%",
+            "211.6%"
+          ]
+        ]
+      ]
     },
     {
       "id": "breastplate",
       "name": "Breastplate",
-      "type": "Elemental Skill",
-      "description": "Summons protective stone armor, dealing <span style=\"color:#b67607\"><b>Geo DMG</b></span> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.The shield has the following properties:<ul><li>When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.</li><li>Possesses 250% Absorption Efficiency against <span style=\"color:#b67607\"><b>Geo DMG</b></span></li></ul><p>The amount of HP healed when regeneration is triggered scales based on Noelle's DEF.</p>",
-      "modifiers": []
+      "description": "Summons protective stone armor, dealing <span>Geo DMG</span> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\\nThe shield has the following properties:\\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\\n\\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\\n\\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "120% DEF",
+            "129% DEF",
+            "138% DEF",
+            "150% DEF",
+            "159% DEF",
+            "168% DEF",
+            "180% DEF",
+            "192% DEF",
+            "204% DEF",
+            "216% DEF",
+            "228% DEF",
+            "240% DEF",
+            "255% DEF",
+            "270% DEF",
+            "285% DEF"
+          ]
+        ],
+        [
+          "DMG Absorption",
+          [
+            "160%  DEF+ 769.7850952148438",
+            "172%  DEF+ 846.7742919921875",
+            "184%  DEF+ 930.1792602539062",
+            "200%  DEF+ 1020",
+            "212%  DEF+ 1116.2364501953125",
+            "224%  DEF+ 1218.8887939453125",
+            "240%  DEF+ 1327.956787109375",
+            "256%  DEF+ 1443.440673828125",
+            "272%  DEF+ 1565.3402099609375",
+            "288%  DEF+ 1693.655517578125",
+            "304%  DEF+ 1828.38671875",
+            "320%  DEF+ 1969.5335693359375",
+            "340%  DEF+ 2117.09619140625",
+            "360%  DEF+ 2271.07470703125",
+            "380%  DEF+ 2431.46875"
+          ]
+        ],
+        [
+          "Healing",
+          [
+            "21.28%  DEF+ 102.718017578125",
+            "22.88%  DEF+ 112.99124908447266",
+            "24.47%  DEF+ 124.12057495117188",
+            "26.6%  DEF+ 136.10601806640625",
+            "28.2%  DEF+ 148.9475555419922",
+            "29.79%  DEF+ 162.6451873779297",
+            "31.92%  DEF+ 177.1989288330078",
+            "34.05%  DEF+ 192.60877990722656",
+            "36.18%  DEF+ 208.87472534179688",
+            "38.3%  DEF+ 225.99676513671875",
+            "40.43%  DEF+ 243.97491455078125",
+            "42.56%  DEF+ 262.8091735839844",
+            "45.22%  DEF+ 282.4995422363281",
+            "47.88%  DEF+ 303.0459899902344",
+            "50.54%  DEF+ 324.44854736328125"
+          ]
+        ],
+        [
+          "Healing Triggering Chance",
+          [
+            "50%",
+            "51%",
+            "52%",
+            "53%",
+            "54%",
+            "55%",
+            "56%",
+            "57%",
+            "58%",
+            "59%",
+            "59%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s",
+            "24s"
+          ]
+        ]
+      ]
     },
     {
       "id": "sweeping_time",
       "name": "Sweeping Time",
-      "type": "Elemental Burst",
-      "description": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <span style=\"color:#b67607\"><b>Geo DMG</b></span>.Afterwards, Noelle gains the following effects:<ul><li>Larger attack AoE</li><li>Converts attack DMG to <span style=\"color:#b67607\"><b>Geo DMG</b></span> that cannot be overridden by any other elemental infusion.</li><li>Increased ATK that scales based on her DEF.</li></ul>",
-      "modifiers": []
+      "description": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <span>Geo DMG</span>.\\nAfterwards, Noelle gains the following effects:\\n·Larger attack AoE.\\n·Converts attack DMG to <span>Geo DMG</span> that cannot be overridden by any other elemental infusion.\\n·Increased ATK that scales based on her DEF.\\n\\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+      "attributes": [
+        [
+          "Burst DMG",
+          [
+            "67.2%",
+            "72.24%",
+            "77.28%",
+            "84%",
+            "89.04%",
+            "94.08%"
+          ]
+        ],
+        [
+          "Skill DMG",
+          [
+            "92.8%",
+            "99.76%",
+            "106.72%",
+            "116%",
+            "122.96%",
+            "129.92%",
+            "139.2%",
+            "148.48%",
+            "157.76%",
+            "167.04%",
+            "176.32%",
+            "185.6%",
+            "197.2%",
+            "208.8%",
+            "220.4%"
+          ]
+        ],
+        [
+          "ATK Bonus",
+          [
+            "40% DEF",
+            "43% DEF",
+            "46% DEF",
+            "50% DEF",
+            "53% DEF",
+            "56% DEF",
+            "60% DEF",
+            "64% DEF",
+            "68% DEF",
+            "72% DEF",
+            "76% DEF",
+            "80% DEF",
+            "85% DEF",
+            "90% DEF",
+            "95% DEF"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ],
+        [
+          "Elemental Burst DMG",
+          [
+            "100.8%",
+            "107.52%",
+            "114.24%",
+            "120.96%",
+            "127.68%",
+            "134.4%",
+            "142.8%",
+            "151.2%",
+            "159.6%"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "devotion",
       "name": "Devotion",
-      "description": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:<p>Creates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. The shield has a 250% DMG Absorption effectiveness against <span style=\"color:#b67607\"><b>Geo DMG</b></span>. This effect can only occur once every 60s.</p>",
-      "unlock": "Ascension 1"
+      "description": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\\nThis effect can only occur once every 60s.",
+      "level": 1
     },
     {
       "id": "nice_and_clean",
       "name": "Nice and Clean",
-      "description": "Every 4 Breastplate by 1s.Hitting multiple opponents with a single attack is only counted as 1 hit.",
-      "unlock": "Ascension 4"
+      "description": "Every 4 Normal or Charged Attack hits will decrease the CD of <span>Breastplate</span> by 1s.\\nHitting multiple opponents with a single attack is only counted as 1 hit.",
+      "level": 4
     },
     {
       "id": "maids_knighthood",
       "name": "Maid's Knighthood",
       "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
-      "unlock": ""
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "i_got_your_back",
       "name": "I Got Your Back",
-      "description": "While Sweeping Time and Breastplate are both in effect, attacks hits have a 100% chance to trigger Breastplate's healing effects.",
-      "level": 1
+      "description": "While <span>Sweeping Time</span> and <span>Breastplate</span> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+      "level": 341
     },
     {
       "id": "combat_maid",
       "name": "Combat Maid",
-      "description": "Decreases Noelle's Stamina Consumption of Charged Attacks by 20% and increases Charged Attack DMG by 15%.",
-      "level": 2
+      "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+      "level": 342
     },
     {
       "id": "invulnerable_maid",
       "name": "Invulnerable Maid",
-      "description": "Increases Breastplate's skill level by 3. Max level is 15",
-      "level": 3
+      "description": "Increases the Level of <span>Breastplate</span> by 3.\\nMaximum upgrade level is 15.",
+      "level": null
     },
     {
       "id": "to_be_cleaned",
       "name": "To Be Cleaned",
-      "description": "When Breastplate ends or shatters, it deals 400% of ATK as Geo DMG to surrounding opponents.",
-      "level": 4
+      "description": "When <span>Breastplate</span>'s duration expires or it is destroyed by DMG, it will deal 400% ATK of <span>Geo DMG</span> to surrounding opponents.",
+      "level": 344
     },
     {
       "id": "favonius_sweeper_master",
       "name": "Favonius Sweeper Master",
-      "description": "Increases Sweeping Time's skill level by 3. Max level is 15.",
-      "level": 5
+      "description": "Increases the Level of <span>Sweeping Time</span> by 3.\\nMaximum upgrade level is 15.",
+      "level": null
     },
     {
       "id": "must_be_spotless",
       "name": "Must Be Spotless",
-      "description": "Sweeping Time increases ATK by an additional 50% of Noelle's DEF. For the skill's duration, adds 1s duration time per opponent defeated, up to 10s.",
-      "level": 6
+      "description": "<span>Sweeping Time</span> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+      "level": 346
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "prithiva_topaz_sliver",
         "name": "Prithiva Topaz Sliver",
         "amount": 1
       },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 3 },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3
+      }
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 2 },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 10 },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15
+      }
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 4 },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 20 },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 8 },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 30 },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 12 },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 45 },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "prithiva_topaz_gemstone",
         "name": "Prithiva Topaz Gemstone",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 20 },
-      "mat3": { "id": "valberry", "name": "Valberry", "amount": 60 },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valberry",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24
+      }
     }
   ]
 }

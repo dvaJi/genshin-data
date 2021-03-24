@@ -1,99 +1,424 @@
 {
   "id": "klee",
   "name": "Klee",
+  "title": "Fleeing Sunlight",
   "description": "An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.",
   "weapon_type": "Catalyst",
   "element": "Pyro",
   "gender": "Female",
+  "substat": "Pyro DMG Bonus",
+  "affiliation": "Knights of Favonius",
   "region": "Mondstadt",
   "rarity": 5,
-  "location": "Wish",
-  "titles": ["Fleeing Sunlight", "Spark Knight", "Red Burny Girl (by Razor)"],
+  "birthday": [
+    27,
+    7
+  ],
+  "constellation": "Trifolium",
+  "cv": {
+    "english": "Poonam Basu",
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "korean": "방연지"
+  },
   "skills": [
     {
-      "id": "kaboom",
-      "name": "Kaboom!",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Throws things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina and deals <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> to opponents after a short casting time.<b>Plunging Attack:</b> Gathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> upon impact with the ground.</p>",
-      "modifiers": []
+      "id": "normal_attack_kaboom",
+      "name": "Normal Attack: Kaboom!",
+      "description": "<span>Normal Attack</span>\\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing <span>AoE Pyro DMG</span>.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina and deals <span>AoE Pyro DMG</span> to opponents after a short casting time.\\n\\n<span>Plunging Attack</span>\\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span>AoE Pyro DMG</span> upon impact with the ground.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "72.16%",
+            "77.57%",
+            "82.98%",
+            "90.2%",
+            "95.61%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "62.4%",
+            "67.08%",
+            "71.76%",
+            "78%",
+            "82.68%",
+            "87.36%",
+            "93.6%",
+            "99.84%",
+            "106.08%",
+            "112.32%",
+            "118.81%",
+            "127.3%",
+            "135.78%",
+            "144.27%",
+            "152.76%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "89.92%",
+            "96.66%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "157.36%",
+            "169.16%",
+            "180.96%",
+            "196.7%",
+            "208.5%",
+            "220.3%",
+            "236.04%",
+            "251.78%",
+            "267.51%",
+            "283.25%",
+            "299.61%",
+            "321.01%",
+            "342.42%",
+            "363.82%",
+            "385.22%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "103.41%",
+            "112.4%",
+            "119.14%",
+            "125.89%",
+            "134.88%",
+            "143.87%",
+            "152.86%",
+            "161.86%",
+            "171.21%",
+            "183.44%",
+            "195.67%",
+            "207.89%",
+            "220.12%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "101.02%",
+            "108.24%",
+            "115.46%",
+            "122.67%",
+            "129.89%",
+            "137.39%",
+            "147.21%",
+            "157.02%",
+            "166.83%",
+            "176.65%"
+          ]
+        ]
+      ]
     },
     {
       "id": "jumpy_dumpty",
       "name": "Jumpy Dumpty",
-      "type": "Elemental Skill",
-      "description": "Jumpy Dumpty is tons of boom-bang-fun!<p>When thrown, Jumpy Dumpty bounces thrice, igniting and dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span> with every bounce.On the third bounce, the bomb splits into <b>8</b> mines. The mines will explode upon contact with opponents, or after a short period of time, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.Starts with 2 charges.</p>",
-      "modifiers": []
+      "description": "Jumpy Dumpty is tons of boom-bang-fun! \\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing <span>AoE Pyro DMG</span> with every bounce.\\n\\nOn the third bounce, the bomb splits into many mines.\\nThe mines will explode upon contact with opponents, or after a short period of time, dealing <span>AoE Pyro DMG</span>.\\n\\nStarts with 2 charges.\\n\\n<i>Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.</i>",
+      "attributes": [
+        [
+          "Jumpy Dumpty DMG",
+          [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        ],
+        [
+          "Mine DMG",
+          [
+            "32.8%",
+            "35.26%",
+            "37.72%",
+            "41%",
+            "43.46%",
+            "45.92%",
+            "49.2%",
+            "52.48%",
+            "55.76%",
+            "59.04%",
+            "62.32%",
+            "65.6%",
+            "69.7%",
+            "73.8%",
+            "77.9%"
+          ]
+        ],
+        [
+          "Mine Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ]
+      ]
     },
     {
       "id": "sparks_n_splash",
       "name": "Sparks 'n' Splash",
-      "type": "Elemental Burst",
-      "description": "Klee's Blazing Delight! For 10 seconds, summons 5 times 4 Sparks 'n' Splash to attack nearby opponents, dealing <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.",
-      "modifiers": []
+      "description": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing <span>AoE Pyro DMG</span>.\\n\\n<i>The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...</i>",
+      "attributes": [
+        [
+          "Sparks 'n' Splash DMG",
+          [
+            "42.64%",
+            "45.84%",
+            "49.04%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "63.96%",
+            "68.22%",
+            "72.49%",
+            "76.75%",
+            "81.02%",
+            "85.28%",
+            "90.61%",
+            "95.94%",
+            "101.27%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "pounding_surprise",
       "name": "Pounding Surprise",
-      "description": "When Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
-      "unlock": "Ascension 1"
+      "description": "When <span>Jumpy Dumpty</span> and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "level": 1
     },
     {
       "id": "sparkling_burst",
       "name": "Sparkling Burst",
-      "description": "When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
-      "unlock": "Ascension 4"
+      "description": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
+      "level": 4
     },
     {
       "id": "all_of_my_treasures",
       "name": "All Of My Treasures!",
-      "description": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
-      "unlock": ""
+      "description": "Displays the location of nearby <span>resources unique to Mondstadt</span> on the mini-map.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "chained_reactions",
       "name": "Chained Reactions",
-      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+      "description": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of <span>Sparks 'n' Splash</span>'s DMG.",
       "level": 1
     },
     {
       "id": "explosive_frags",
       "name": "Explosive Frags",
-      "description": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.",
+      "description": "Being hit by <span>Jumpy Dumpty</span>'s mines decreases opponents' DEF by 23% for 10s.",
       "level": 2
     },
     {
       "id": "exquisite_compound",
       "name": "Exquisite Compound",
-      "description": "Increases the level of Jumpy Dumpty by 3. Maximum level is 15.",
+      "description": "Increases the Level of <span>Jumpy Dumpty</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "sparkly_explosion",
       "name": "Sparkly Explosion",
-      "description": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+      "description": "If Klee leaves the field during the duration of <span>Sparks 'n' Splash</span>, her departure triggers an explosion that deals 555% of her ATK as <span>AoE Pyro DMG</span>.",
       "level": 4
     },
     {
       "id": "nova_burst",
       "name": "Nova Burst",
-      "description": "Increases the level of Sparks 'n' Splash by 3. Maximum level is 15.",
+      "description": "Increases the Level of <span>Sparks 'n' Splash</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "blazing_delight",
       "name": "Blazing Delight",
-      "description": "While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy.\nWhen Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+      "description": "While under the effects of <span>Sparks 'n' Splash</span>, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.\\nWhen <span>Sparks 'n' Splash</span> is used, all party members will gain a 10% <span>Pyro DMG Bonus</span> for 25s.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "agnidus_agate_sliver",
@@ -113,14 +438,21 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2
+      },
       "mat3": {
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
@@ -134,41 +466,66 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4
+      },
       "mat3": {
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 20
       },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 12 }
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8
+      },
       "mat3": {
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 30
       },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 18 }
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -193,7 +550,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "agnidus_agate_gemstone",

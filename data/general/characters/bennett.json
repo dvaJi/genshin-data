@@ -1,99 +1,529 @@
 {
   "id": "bennett",
   "name": "Bennett",
-  "description": "A righteous and good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+  "title": "Trial by Fire",
+  "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
   "weapon_type": "Sword",
   "element": "Pyro",
   "gender": "Male",
+  "substat": "Energy Recharge",
+  "affiliation": "Adventurers' Guild",
   "region": "Mondstadt",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Trial by Fire", "Leader of Benny's Adventure Team"],
+  "birthday": [
+    29,
+    2
+  ],
+  "constellation": "Rota Calamitas",
+  "cv": {
+    "english": "Cristina Vee Valenzuela",
+    "chinese": "穆雪婷",
+    "japanese": "逢坂良太",
+    "korean": "송하림"
+  },
   "skills": [
     {
-      "id": "strike_of_fortune",
-      "name": "Strike of Fortune",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword swings.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_strike_of_fortune",
+      "name": "Normal Attack: Strike of Fortune",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "44.55%",
+            "48.17%",
+            "51.8%",
+            "56.98%",
+            "60.61%",
+            "64.75%",
+            "70.45%",
+            "76.15%",
+            "81.84%",
+            "88.06%",
+            "94.28%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "42.74%",
+            "46.22%",
+            "49.7%",
+            "54.67%",
+            "58.15%",
+            "62.12%",
+            "67.59%",
+            "73.06%",
+            "78.53%",
+            "84.49%",
+            "90.45%",
+            "96.42%",
+            "102.38%",
+            "108.35%",
+            "114.31%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "54.61%",
+            "59.06%",
+            "63.5%",
+            "69.85%",
+            "74.3%",
+            "79.37%",
+            "86.36%",
+            "93.34%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "59.68%",
+            "64.54%",
+            "69.4%",
+            "76.34%",
+            "81.2%",
+            "86.75%",
+            "94.38%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "71.9%",
+            "77.75%",
+            "83.6%",
+            "91.96%",
+            "97.81%",
+            "104.5%",
+            "113.7%",
+            "122.89%",
+            "132.09%",
+            "142.12%",
+            "152.15%",
+            "162.18%",
+            "172.22%",
+            "182.25%",
+            "192.28%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "102.02%",
+            "109.65%",
+            "117.98%",
+            "126.31%",
+            "134.64%",
+            "142.96%",
+            "151.29%",
+            "159.62%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "100.33%",
+            "107.95%",
+            "115.57%",
+            "123.19%",
+            "130.81%",
+            "138.43%",
+            "146.05%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "100.49%",
+            "106.71%",
+            "112.92%",
+            "119.14%"
+          ]
+        ]
+      ]
     },
     {
       "id": "passion_overload",
       "name": "Passion Overload",
-      "type": "Elemental Skill",
-      "description": "Bennett concentrates the spirit of Adventure and Pyro into his blade. Depending on how long he charges for, different effects occur.<p><b>Tap:</b> A single, swift flame strike that deals <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>.<b>Hold (Short):</b> Charges up, resulting in different effects when unleashed based on the Charge Level</p><ul><li>Level 1: Strikes twice, dealing <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> and launching opponents.</li><li>Level 2: Unleashes 3 consecutive attacks that deal impressive <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>, but the last attack triggers an explosion that launches both Bennett and the enemy.Bennett takes no damage from being launched.</li></ul>",
-      "modifiers": []
+      "description": "#Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\\n\\n<span>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</span>\\nA single, swift flame strike that deals <span>Pyro DMG</span>.\\n\\n<span>Hold (Short)</span>\\nCharges up, resulting in different effects when unleashed based on the Charge Level.\\n·Level 1: Strikes twice, dealing <span>Pyro DMG</span> and launching opponents.\\n·Level 2: Unleashes 3 consecutive attacks that deal impressive <span>Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.\\nBennett takes no damage from being launched.\\n\\n<i>An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.</i>",
+      "attributes": [
+        [
+          "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG",
+          [
+            "137.6%",
+            "147.92%",
+            "158.24%",
+            "172%",
+            "182.32%",
+            "192.64%",
+            "206.4%",
+            "220.16%",
+            "233.92%",
+            "247.68%",
+            "261.44%",
+            "275.2%",
+            "292.4%",
+            "309.6%",
+            "326.8%"
+          ]
+        ],
+        [
+          "Charge Level 1 DMG",
+          [
+            "84% + 92%",
+            "90.3% + 98.9%",
+            "96.6% + 105.8%",
+            "105% + 115%",
+            "111.3% + 121.9%",
+            "117.6% + 128.8%",
+            "126% + 138%",
+            "134.4% + 147.2%",
+            "142.8% + 156.4%",
+            "151.2% + 165.6%",
+            "159.6% + 174.8%",
+            "168% + 184%",
+            "178.5% + 195.5%",
+            "189% + 207%",
+            "199.5% + 218.5%"
+          ]
+        ],
+        [
+          "Charge Level 2 DMG",
+          [
+            "88% + 96%",
+            "94.6% + 103.2%",
+            "101.2% + 110.4%",
+            "110% + 120%",
+            "116.6% + 127.2%",
+            "123.2% + 134.4%",
+            "132% + 144%",
+            "140.8% + 153.6%",
+            "149.6% + 163.2%",
+            "158.4% + 172.8%",
+            "167.2% + 182.4%",
+            "176% + 192%",
+            "187% + 204%",
+            "198% + 216%",
+            "209% + 228%"
+          ]
+        ],
+        [
+          "Explosion DMG",
+          [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s",
+            "5 / 7.5/ 10s"
+          ]
+        ]
+      ]
     },
     {
       "id": "fantastic_voyage",
       "name": "Fantastic Voyage",
-      "type": "Elemental Burst",
-      "description": "Bennett performs a jumping attack that deals <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>, creating an Inspiration Field for 12 seconds.<p><b>Inspiration Field:</b></p><ul><li>If the health of a character within the AoE is equal to or falls below 70%, their health will regenerate each second. The amount of HP restores scales off Bennett's Max HP.</li><li>If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that scales based on Bennett's Base ATK.</li><li>Imbues characters within the AoE with <span style=\"color:#bf2818\"><b>Pyro</b></span>.</li></ul>",
-      "modifiers": []
+      "description": "Bennett performs a jumping attack that deals <span>Pyro DMG</span>, creating an Inspiration Field.\\n\\n<span>Inspiration Field</span>\\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\\n·Imbues characters within the AoE with <span>Pyro</span>.\\n\\n<i>Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "232.8%",
+            "250.26%",
+            "267.72%",
+            "291%",
+            "308.46%",
+            "325.92%",
+            "349.2%",
+            "372.48%",
+            "395.76%",
+            "419.04%",
+            "442.32%",
+            "465.6%",
+            "494.7%",
+            "523.8%",
+            "552.9%"
+          ]
+        ],
+        [
+          "Continuous Regeneration Per Sec",
+          [
+            "0.05999999865889549  Max HP+ 577.3388061523438",
+            "0.06449999660253525  Max HP+ 635.0806884765625",
+            "0.0689999982714653  Max HP+ 697.6344604492188",
+            "0.07500000298023224  Max HP+ 765",
+            "0.0794999971985817  Max HP+ 837.1773681640625",
+            "0.08399999886751175  Max HP+ 914.1665649414062",
+            "0.09000000357627869  Max HP+ 995.9676513671875",
+            "0.09600000083446503  Max HP+ 1082.5804443359375",
+            "0.10199999809265137  Max HP+ 1174.005126953125",
+            "0.1080000028014183  Max HP+ 1270.24169921875",
+            "0.11400000005960464  Max HP+ 1371.2900390625",
+            "0.11999999731779099  Max HP+ 1477.150146484375",
+            "0.1274999976158142  Max HP+ 1587.8221435546875",
+            "0.13500000536441803  Max HP+ 1703.305908203125",
+            "0.14249999821186066  Max HP+ 1823.6015625"
+          ]
+        ],
+        [
+          "ATK Bonus Ratio",
+          [
+            "56%",
+            "60.2%",
+            "64.4%",
+            "70%",
+            "74.2%",
+            "78.4%",
+            "84%",
+            "89.6%",
+            "95.2%",
+            "100.8%",
+            "106.4%",
+            "112%",
+            "119%",
+            "126%",
+            "133%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "rekindle",
       "name": "Rekindle",
-      "description": "Decreases Passion Overload's CD by 20%.",
-      "unlock": "Ascension 1"
+      "description": "Decreases <span>Passion Overload</span>'s CD by 20%.",
+      "level": 1
     },
     {
       "id": "fearnaught",
       "name": "Fearnaught",
-      "description": "When inside Passion Overload's CD is decreased by 50% and Bennett cannot be launched by this skill's explosion.",
-      "unlock": "Ascension 4"
+      "description": "Within the area created by <span>Fantastic Voyage</span>, <span>Passion Overload</span> takes on the following effects:\\n·CD is reduced by 50%.\\n·Bennett will not be launched by the effects of Charge Level 2.",
+      "level": 4
     },
     {
       "id": "it_should_be_safe",
       "name": "It Should Be Safe...",
-      "description": "When dispatched on an Mondstadt, time consumed is reduced by 25%.",
-      "unlock": ""
+      "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "grand_expectation",
       "name": "Grand Expectation",
-      "description": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK. (Additive increase)",
+      "description": "<span>Fantastic Voyage</span>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
       "level": 1
     },
     {
       "id": "impasse_conqueror",
       "name": "Impasse Conqueror",
-      "description": "When HP falls below 70%, increases Energy Recharge by 30%.",
+      "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
       "level": 2
     },
     {
       "id": "unstoppable_fervor",
       "name": "Unstoppable Fervor",
-      "description": "Increases Passion Overload's skill level by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Passion Overload</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "unexpected_odyssey",
       "name": "Unexpected Odyssey",
-      "description": "Short hold to release Passion Overload as a two-stage attack. Press the attack button to perform an additional falling attack.",
+      "description": "Using a Normal Attack when executing the second attack of <span>Passion Overload</span>'s Charge Level 1 allows an additional attack to be performed.\\nThis additional attack does 135% of the second attack's DMG.",
       "level": 4
     },
     {
       "id": "true_explorer",
       "name": "True Explorer",
-      "description": "Increases Fantastic Voyage's skill level by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Fantastic Voyage</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "fire_ventures_with_me",
       "name": "Fire Ventures with Me",
-      "description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
+      "description": "Sword, Claymore, or Polearm-wielding characters inside <span>Fantastic Voyage</span>'s radius gain a 15% <span>Pyro DMG Bonus</span> and their weapons are infused with <span>Pyro</span>.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "agnidus_agate_sliver",
@@ -113,14 +543,21 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2
+      },
       "mat3": {
         "id": "windwheel_aster",
         "name": "Windwheel Aster",
@@ -134,14 +571,21 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4
+      },
       "mat3": {
         "id": "windwheel_aster",
         "name": "Windwheel Aster",
@@ -155,14 +599,21 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8
+      },
       "mat3": {
         "id": "windwheel_aster",
         "name": "Windwheel Aster",
@@ -176,7 +627,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -201,7 +655,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "agnidus_agate_gemstone",

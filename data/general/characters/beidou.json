@@ -1,99 +1,554 @@
 {
   "id": "beidou",
   "name": "Beidou",
-  "description": "Captain of the Crux and its crew. She's quite an unbound and forthright woman.",
+  "title": "Uncrowned Lord of the Ocean",
+  "description": "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
   "weapon_type": "Claymore",
   "element": "Electro",
   "gender": "Female",
+  "substat": "Electro DMG Bonus",
+  "affiliation": "The Crux",
   "region": "Liyue",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Uncrowned Lord of Ocean", "Queen of the Crux Fleet"],
+  "birthday": [
+    14,
+    2
+  ],
+  "constellation": "Victor Mare",
+  "cv": {
+    "english": "Allegra Clark",
+    "chinese": "唐雅菁",
+    "japanese": "小清水亜美",
+    "korean": "정유미"
+  },
   "skills": [
     {
-      "id": "oceanborne",
-      "name": "Oceanborne",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 5 successive strikes.<p><b>Charged Attack:</b> Drains Stamina over time to perform continuous slashes. At end of the sequence, perform a more powerful slash.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_oceanborne",
+      "name": "Normal Attack: Oceanborne",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 consecutive strikes.\\n\\n<span>Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt end of the sequence, perform a more powerful slash.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "71.12%",
+            "76.91%",
+            "82.7%",
+            "90.97%",
+            "96.76%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "70.86%",
+            "76.63%",
+            "82.4%",
+            "90.64%",
+            "96.41%",
+            "103%",
+            "112.06%",
+            "121.13%",
+            "130.19%",
+            "140.08%",
+            "151.41%",
+            "164.73%",
+            "178.06%",
+            "191.38%",
+            "205.92%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "88.32%",
+            "95.51%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "86.52%",
+            "93.56%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "112.14%",
+            "121.27%",
+            "130.4%",
+            "143.44%",
+            "152.57%",
+            "163%",
+            "177.34%",
+            "191.69%",
+            "206.03%",
+            "221.68%",
+            "239.61%",
+            "260.7%",
+            "281.78%",
+            "302.87%",
+            "325.87%"
+          ]
+        ],
+        [
+          "Charged Attack Spinning DMG",
+          [
+            "56.24%",
+            "60.82%",
+            "65.4%",
+            "71.94%",
+            "76.52%",
+            "81.75%",
+            "88.94%",
+            "96.14%"
+          ]
+        ],
+        [
+          "Charged Attack Final DMG",
+          [
+            "101.82%",
+            "110.11%",
+            "118.4%",
+            "130.24%",
+            "138.53%",
+            "148%",
+            "161.02%",
+            "174.05%",
+            "187.07%",
+            "201.28%",
+            "217.56%",
+            "236.71%",
+            "255.85%",
+            "275%",
+            "295.88%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        ],
+        [
+          "Max Duration",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "102.7%",
+            "112.97%",
+            "120.16%",
+            "128.38%",
+            "139.67%",
+            "150.97%",
+            "162.27%",
+            "174.59%",
+            "188.71%",
+            "205.32%",
+            "221.92%",
+            "238.53%",
+            "256.65%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "100.6%",
+            "110.66%",
+            "117.7%",
+            "125.75%",
+            "136.82%",
+            "147.88%",
+            "158.95%",
+            "171.02%",
+            "184.85%",
+            "201.12%",
+            "217.39%",
+            "233.65%",
+            "251.4%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "103.38%",
+            "112.47%",
+            "121.57%",
+            "130.67%",
+            "140.59%",
+            "151.96%",
+            "165.33%",
+            "178.71%",
+            "192.08%",
+            "206.67%"
+          ]
+        ],
+        [
+          "Charged Attack Cycling DMG",
+          [
+            "103.33%",
+            "111.18%",
+            "120.17%",
+            "130.75%",
+            "141.32%",
+            "151.9%",
+            "163.43%"
+          ]
+        ]
+      ]
     },
     {
       "id": "tidecaller",
       "name": "Tidecaller",
-      "type": "Elemental Skill",
-      "description": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.<p><b>Press:</b> Accumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span>.<b>Hold:</b> Lifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.Attacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span>. DMG dealt scales with the number of times beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.The shield possesses the following properties:</p><ul><li>Has 250% <span style=\"color:#9336b0\"><b>Electro DMG</b></span> Absorption Efficiency.</li><li>Applies the <span style=\"color:#9336b0\"><b>Electro element</b></span> to Beidou upon activation.</li></ul><p>Generate <b>2</b> elemental particles when it hit at least 1 target, or <b>4</b> when hit with energy stored.</p>",
-      "modifiers": []
+      "description": "#Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\\n\\n<span>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</span>\\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing <span>Electro DMG</span>.\\n\\n<span>Hold</span>\\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing <span>Electro DMG</span>. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\\nThe shield possesses the following properties:\\n·Has 250% <span>Electro DMG</span> Absorption Efficiency.\\n·Applies the <span>Electro element</span> to Beidou upon activation.\\n\\n<i>Conquer the high seas! Pursue the waves and chase the storm!</i>",
+      "attributes": [
+        [
+          "Shield DMG Absorption",
+          [
+            "14.4%  Max HP+ 1386.3677978515625",
+            "15.48%  Max HP+ 1525.02392578125",
+            "16.56%  Max HP+ 1675.234619140625",
+            "18%  Max HP+ 1837",
+            "19.08%  Max HP+ 2010.320068359375",
+            "20.16%  Max HP+ 2195.19482421875",
+            "21.6%  Max HP+ 2391.624267578125",
+            "23.04%  Max HP+ 2599.6083984375",
+            "24.48%  Max HP+ 2819.14697265625",
+            "25.92%  Max HP+ 3050.240478515625",
+            "27.36%  Max HP+ 3292.888671875",
+            "28.8%  Max HP+ 3547.09130859375",
+            "30.6%  Max HP+ 3812.848876953125",
+            "32.4%  Max HP+ 4090.160888671875",
+            "34.2%  Max HP+ 4379.02783203125"
+          ]
+        ],
+        [
+          "Base DMG",
+          [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        ],
+        [
+          "DMG Bonus on Hit Taken",
+          [
+            "160%",
+            "172%",
+            "184%",
+            "200%",
+            "212%",
+            "224%",
+            "240%",
+            "256%",
+            "272%",
+            "288%",
+            "304%",
+            "320%",
+            "340%",
+            "360%",
+            "380%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s"
+          ]
+        ]
+      ]
     },
     {
       "id": "stormbreaker",
       "name": "Stormbreaker",
-      "type": "Elemental Burst",
-      "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <span style=\"color:#9336b0\"><b>Electro DMG</b></span> to nearby opponents.<p><i>Thunderbeast's Targe:</i></p><ul><li>When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing<span style=\"color:#9336b0\"><b> Electro DMG</b></span>.</li><li>Increases the character's resistance to interruption, and decreases DMG taken.</li><li>Triggers a maximum of 1 lightning discharge per second.</li></ul>",
-      "modifiers": []
+      "description": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing <span>Electro DMG</span> to nearby opponents.\\n\\n<span>Thunderbeast's Targe</span>\\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing <span>Electro DMG</span>.\\n·Increases the character's resistance to interruption, and decreases DMG taken.\\n\\nA maximum of 1 lightning discharge can be triggered per second.\\n\\n<i>With a peal of thunder, Haishan is slain.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        ],
+        [
+          "Lightning DMG",
+          [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        ],
+        [
+          "DMG Reduction",
+          [
+            "20%",
+            "21%",
+            "22%",
+            "24%",
+            "25%",
+            "26%",
+            "28%",
+            "30%",
+            "32%",
+            "34%",
+            "35%",
+            "36%",
+            "37%",
+            "38%",
+            "39%"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "retribution",
       "name": "Retribution",
-      "description": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus.",
-      "unlock": "Ascension 1"
+      "description": "Counterattacking with <span>Tidecaller</span> at the precise moment when the character is hit grants the maximum DMG Bonus.",
+      "level": 1
     },
     {
       "id": "lightning_storm",
       "name": "Lightning Storm",
-      "description": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus:<ul><li>DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.</li><li>Greatly reduced delay before unleashing Charged Attacks.</li></ul>",
-      "unlock": "Ascension 4"
+      "description": "Gain the following effects for 10s after unleashing <span>Tidecaller</span> with its maximum DMG Bonus: \\n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\\n·Greatly reduced delay before unleashing Charged Attacks.",
+      "level": 4
     },
     {
       "id": "conqueror_of_tides",
       "name": "Conqueror of Tides",
-      "description": "Decreases swimming Stamina consumption of your characters in the party by 20%.<p>Not stackable with Passive Talents that provide the exact same effects.</p>",
-      "unlock": ""
+      "description": "Decreases swimming Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "sea_beasts_scourge",
       "name": "Sea Beast's Scourge",
-      "description": "When Stormbreaker is used: Creates a shield that absorbs up to 16% of Beidou's Max HP for 15s. This shield absorbs Electro DMG 250% more effectively.",
+      "description": "When <span>Stormbreaker</span> is used:\\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\\nThis shield absorbs <span>Electro DMG</span> 250% more effectively.",
       "level": 1
     },
     {
       "id": "upon_the_turbulent_sea_the_thunder_arises",
       "name": "Upon the Turbulent Sea, the Thunder Arises",
-      "description": "Stormbreaker's arc lightning can jump to 2 additional targets.",
+      "description": "<span>Stormbreaker</span>'s arc lightning can jump to 2 additional targets.",
       "level": 2
     },
     {
       "id": "summoner_of_storm",
       "name": "Summoner of Storm",
-      "description": "Increases the level of Tidecaller by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Tidecaller</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "stunning_revenge",
       "name": "Stunning Revenge",
-      "description": "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional Electro DMG.",
+      "description": "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional <span>Electro DMG</span>.",
       "level": 4
     },
     {
       "id": "crimson_tidewalker",
       "name": "Crimson Tidewalker",
-      "description": "Increases the level of Stormbreaker by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Stormbreaker</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
-      "id": "bane_of_the_evil",
-      "name": "Bane of the Evil",
-      "description": "During the duration of Stormbreaker, the Electro RES of surrounding opponents is decreased by 15%.",
+      "id": "bane_of_evil",
+      "name": "Bane of Evil",
+      "description": "During the duration of <span>Stormbreaker</span>, the <span>Electro RES</span> of surrounding opponents is decreased by 15%.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "vajrada_amethyst_sliver",
@@ -113,7 +568,10 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "vajrada_amethyst_fragment",
@@ -138,7 +596,10 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "vajrada_amethyst_fragment",
@@ -163,7 +624,10 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "vajrada_amethyst_chunk",
@@ -188,7 +652,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "vajrada_amethyst_chunk",
@@ -213,7 +680,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "vajrada_amethyst_gemstone",

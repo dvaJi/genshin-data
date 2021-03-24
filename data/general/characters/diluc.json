@@ -1,40 +1,462 @@
 {
   "id": "diluc",
   "name": "Diluc",
-  "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way",
+  "title": "The Dark Side of Dawn",
+  "description": "The tycoon of a winery empire in Mondstadt, unmatched in every possible way.",
   "weapon_type": "Claymore",
   "element": "Pyro",
   "gender": "Male",
+  "substat": "CRIT Rate",
+  "affiliation": "Dawn Winery",
   "region": "Mondstadt",
   "rarity": 5,
-  "location": "Wish",
-  "titles": [
-    "The Dark Side of Dawn",
-    "Darknight Hero",
-    "The Uncrowned King of Mondstadt",
-    "Captain Pyro  (by Paimon)"
+  "birthday": [
+    30,
+    4
   ],
+  "constellation": "Noctua",
+  "cv": {
+    "english": "Sean Chiplock",
+    "chinese": "马洋",
+    "japanese": "小野賢章",
+    "korean": "최승훈"
+  },
   "skills": [
     {
-      "id": "tempered_sword",
-      "name": "Tempered Sword",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 4 consecutive strikes.<p><b>Charged Attack:</b> Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_tempered_sword",
+      "name": "Normal Attack: Tempered Sword",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 consecutive strikes.\\n\\n<span>Charged Attack</span>\\nDrains Stamina over time to perform continuous slashes.\\nAt end of the sequence, perform a more powerful slash.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "89.7%",
+            "97%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "87.63%",
+            "94.77%",
+            "101.9%",
+            "112.09%",
+            "119.22%",
+            "127.37%",
+            "138.58%",
+            "149.79%",
+            "161%",
+            "173.23%",
+            "187.24%",
+            "203.72%",
+            "220.2%",
+            "236.67%",
+            "254.65%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "98.81%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "133.99%",
+            "144.89%",
+            "155.8%",
+            "171.38%",
+            "182.29%",
+            "194.75%",
+            "211.89%",
+            "229.03%",
+            "246.16%",
+            "264.86%",
+            "286.28%",
+            "311.48%",
+            "336.67%",
+            "361.86%",
+            "389.34%"
+          ]
+        ],
+        [
+          "Charged Attack Spinning DMG",
+          [
+            "68.8%",
+            "74.4%",
+            "80%",
+            "88%",
+            "93.6%",
+            "100%",
+            "108.8%",
+            "117.6%",
+            "126.4%",
+            "136%",
+            "147%",
+            "159.94%",
+            "172.87%",
+            "185.81%",
+            "199.92%"
+          ]
+        ],
+        [
+          "Charged Attack Final DMG",
+          [
+            "124.7%",
+            "134.85%",
+            "145%",
+            "159.5%",
+            "169.65%",
+            "181.25%",
+            "197.2%",
+            "213.15%",
+            "229.1%",
+            "246.5%",
+            "266.44%",
+            "289.88%",
+            "313.33%",
+            "336.78%",
+            "362.35%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        ],
+        [
+          "Max Duration",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "89.51%",
+            "96.79%",
+            "104.08%",
+            "114.48%",
+            "121.77%",
+            "130.1%",
+            "141.54%",
+            "152.99%",
+            "164.44%",
+            "176.93%",
+            "189.42%",
+            "201.91%",
+            "214.4%",
+            "226.89%",
+            "239.37%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "178.97% / 223.55%",
+            "193.54% / 241.74%",
+            "208.11% / 259.94%",
+            "228.92% / 285.93%",
+            "243.49% / 304.13%",
+            "260.13% / 324.92%",
+            "283.03% / 353.52%",
+            "305.92% / 382.11%",
+            "328.81% / 410.7%",
+            "353.78% / 441.89%",
+            "378.76% / 473.09%",
+            "403.73% / 504.28%",
+            "428.7% / 535.47%",
+            "453.68% / 566.66%",
+            "478.65% / 597.86%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "106.86%",
+            "114.9%",
+            "126.39%",
+            "134.43%",
+            "143.62%",
+            "156.26%",
+            "168.9%",
+            "181.54%",
+            "195.33%",
+            "211.13%",
+            "229.71%",
+            "248.29%",
+            "266.87%",
+            "287.14%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "104.3%",
+            "114.73%",
+            "122.03%",
+            "130.38%",
+            "141.85%",
+            "153.32%",
+            "164.79%",
+            "177.31%",
+            "191.65%",
+            "208.52%",
+            "225.38%",
+            "242.25%",
+            "260.65%"
+          ]
+        ]
+      ]
     },
     {
       "id": "searing_onslaught",
       "name": "Searing Onslaught",
-      "type": "Elemental Skill",
-      "description": "Performs a forward slash that deals <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>.<p>This skill can be used 3 times consecutively. Enters CD if not cast again within a short period (5s).</p>",
-      "modifiers": []
+      "description": "Performs a forward slash that deals <span>Pyro DMG</span>.\\n\\nThis skill can be used 3 times consecutively. Enters CD if not cast again within a short period.\\n\\n<i>The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.</i>",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "94.4%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "97.6%",
+            "104.92%",
+            "112.24%",
+            "122%",
+            "129.32%",
+            "136.64%",
+            "146.4%",
+            "156.16%",
+            "165.92%",
+            "175.68%",
+            "185.44%",
+            "195.2%",
+            "207.4%",
+            "219.6%",
+            "231.8%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "128.8%",
+            "138.46%",
+            "148.12%",
+            "161%",
+            "170.66%",
+            "180.32%",
+            "193.2%",
+            "206.08%",
+            "218.96%",
+            "231.84%",
+            "244.72%",
+            "257.6%",
+            "273.7%",
+            "289.8%",
+            "305.9%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "101.48%",
+            "108.56%",
+            "118%",
+            "125.08%",
+            "132.16%",
+            "141.6%",
+            "151.04%",
+            "160.48%",
+            "169.92%",
+            "179.36%",
+            "188.8%",
+            "200.6%",
+            "212.4%",
+            "224.2%"
+          ]
+        ]
+      ]
     },
     {
       "id": "dawn",
       "name": "Dawn",
-      "type": "Elemental Burst",
-      "description": "Releases intense flames to knock nearby opponents back, dealing <span style=\"color:#bf2818\"><b>Pyro DMG</b></span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span style=\"color:#bf2818\"><b>Pyro DMG</b></span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span style=\"color:#bf2818\"><b>AoE Pyro DMG</b></span>.The searing flames that run down his blade cause it to be infused with <span style=\"color:#bf2818\"><b>Pyro</b></span>.",
-      "modifiers": []
+      "description": "Releases intense flames to knock nearby opponents back, dealing <span>Pyro DMG</span>. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive <span>Pyro DMG</span> to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of <span>AoE Pyro DMG</span>.\\nThe searing flames that run down his blade cause it to be infused with <span>Pyro</span>.\\n\\n<i>The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.</i>",
+      "attributes": [
+        [
+          "Slashing DMG",
+          [
+            "204%",
+            "219.3%",
+            "234.6%",
+            "255%",
+            "270.3%",
+            "285.6%",
+            "306%",
+            "326.4%",
+            "346.8%",
+            "367.2%",
+            "387.6%",
+            "408%",
+            "433.5%",
+            "459%",
+            "484.5%"
+          ]
+        ],
+        [
+          "DoT",
+          [
+            "60%",
+            "64.5%",
+            "69%",
+            "75%",
+            "79.5%",
+            "84%",
+            "90%",
+            "96%",
+            "102%",
+            "108%",
+            "114%",
+            "120%",
+            "127.5%",
+            "135%",
+            "142.5%"
+          ]
+        ],
+        [
+          "Explosion DMG",
+          [
+            "204%",
+            "219.3%",
+            "234.6%",
+            "255%",
+            "270.3%",
+            "285.6%",
+            "306%",
+            "326.4%",
+            "346.8%",
+            "367.2%",
+            "387.6%",
+            "408%",
+            "433.5%",
+            "459%",
+            "484.5%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "Infusion Duration",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
@@ -42,19 +464,19 @@
       "id": "relentless",
       "name": "Relentless",
       "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
-      "unlock": "Ascension 1"
+      "level": 1
     },
     {
       "id": "blessing_of_phoenix",
       "name": "Blessing of Phoenix",
-      "description": "The <span style=\"color:#bf2818\"><b>Pyro Enchantment</b></span> provided by Dawn lasts for 4s longer. Additionally. Diluc gains 20% <span style=\"color:#bf2818\"><b>Pyro DMG Bonus</b></span> during the duration of this effect.",
-      "unlock": "Ascension 4"
+      "description": "The <span>Pyro Infusion</span> provided by <span>Dawn</span> lasts for 4s longer. Additionally, Diluc gains 20% <span>Pyro DMG Bonus</span> during the duration of this effect.",
+      "level": 4
     },
     {
       "id": "tradition_of_the_dawn_knight",
       "name": "Tradition of the Dawn Knight",
-      "description": "Refunds 15% of the ores used when Claymore-type weapons.",
-      "unlock": ""
+      "description": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
+      "level": 0
     }
   ],
   "constellations": [
@@ -67,38 +489,41 @@
     {
       "id": "searing_ember",
       "name": "Searing Ember",
-      "description": "When Diluc takes DMG, his ATK increases by 10%, and his ATK SPD increases by 5%. Last for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
+      "description": "When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
       "level": 2
     },
     {
       "id": "fire_and_steel",
       "name": "Fire and Steel",
-      "description": "Increases Searing Onslaught's skill level by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Searing Onslaught</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "flowing_flame",
       "name": "Flowing Flame",
-      "description": "Casting Searing Onslaught in sequence greatly increases damage dealt.\nWithin 2s of using Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for the next 2s.",
+      "description": "Casting <span>Searing Onslaught</span> in rhythm greatly increases damage dealt.\\n2s after casting <span>Searing Onslaught</span>, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.",
       "level": 4
     },
     {
       "id": "phoenix_harbinger_of_dawn",
       "name": "Phoenix, Harbinger of Dawn",
-      "description": "Increases Dawn's skill level by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Dawn</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
-      "id": "flaming_sword_nemesis_of_dark",
-      "name": "Flaming Sword, Nemesis of Dark",
-      "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
+      "id": "flaming_sword_nemesis_of_the_dark",
+      "name": "Flaming Sword, Nemesis of the Dark",
+      "description": "After casting <span>Searing Onslaught</span>, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "agnidus_agate_sliver",
@@ -118,14 +543,21 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 2 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 2
+      },
       "mat3": {
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
@@ -139,14 +571,21 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 4 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 4
+      },
       "mat3": {
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
@@ -160,14 +599,21 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3
       },
-      "mat2": { "id": "everflame_seed", "name": "Everflame Seed", "amount": 8 },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Everflame Seed",
+        "amount": 8
+      },
       "mat3": {
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
@@ -181,7 +627,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "agnidus_agate_chunk",
@@ -206,7 +655,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "agnidus_agate_gemstone",

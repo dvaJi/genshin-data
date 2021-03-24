@@ -1,115 +1,630 @@
 {
   "id": "xiangling",
   "name": "Xiangling",
-  "description": "La jefa de cocina del restaurante Wanmin y también camarera allí, Xiangling es una apasionada de la cocina y destaca en sus platos picantes y característicos. Aunque todavía es joven, Xiangling es una verdadera maestra de las artes culinarias con todas las habilidades de un veterano de la cocina. Disfruta de una buena reputación entre los comensales abundantes de Chihu Rock. No hay absolutamente ninguna necesidad de estar nervioso si quiere que pruebes su última creación. No te defraudará.",
-  "titles": ["Chef de Cocina"],
+  "title": "la Maestra Culinaria de Liyue",
+  "description": "Una reconocida chef de Liyue. Le apasiona la cocina y sobresale al hacer sus platos calientes y picantes.",
+  "weapon_type": "Lanza",
+  "element": "Pyro",
+  "gender": "Femenino",
+  "substat": "Maestría Elemental",
+  "affiliation": "Restaurante Wanmin",
+  "region": "Liyue",
+  "rarity": 4,
+  "birthday": [
+    2,
+    11
+  ],
+  "constellation": "Trullae",
+  "cv": {
+    "english": "Jackie Lastra",
+    "chinese": "小N",
+    "japanese": "小澤亜李",
+    "korean": "윤아영"
+  },
   "skills": [
     {
-      "id": "doughfu",
-      "name": "Kung-Fu pasta",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 5 ataques rápidos.</p><p><b>Ataque Cargado:</b> Consume cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_doughfu",
+      "name": "Ataque Normal: Kung-Fu pasta",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos con lanza.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "42.05%",
+            "45.48%",
+            "48.9%",
+            "53.79%",
+            "57.21%",
+            "61.12%",
+            "66.5%",
+            "71.88%",
+            "77.26%",
+            "83.13%",
+            "89.85%",
+            "97.76%",
+            "105.67%",
+            "113.58%",
+            "122.2%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "42.14%",
+            "45.57%",
+            "49%",
+            "53.9%",
+            "57.33%",
+            "61.25%",
+            "66.64%",
+            "72.03%",
+            "77.42%",
+            "83.3%",
+            "90.04%",
+            "97.96%",
+            "105.88%",
+            "113.81%",
+            "122.45%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "26.06% + 26.06%",
+            "28.18% + 28.18%",
+            "30.3% + 30.3%",
+            "33.33% + 33.33%",
+            "35.45% + 35.45%",
+            "37.87% + 37.87%",
+            "41.21% + 41.21%",
+            "44.54% + 44.54%",
+            "47.87% + 47.87%",
+            "51.51% + 51.51%",
+            "55.68% + 55.68%",
+            "60.58% + 60.58%",
+            "65.48% + 65.48%",
+            "70.37% + 70.37%",
+            "75.72% + 75.72%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "14.1% ×4",
+            "15.25% ×4",
+            "16.4% ×4",
+            "18.04% ×4",
+            "19.19% ×4",
+            "20.5% ×4",
+            "22.3% ×4",
+            "24.11% ×4",
+            "25.91% ×4",
+            "27.88% ×4",
+            "30.13% ×4",
+            "32.79% ×4",
+            "35.44% ×4",
+            "38.09% ×4",
+            "40.98% ×4"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "71.04%",
+            "76.82%",
+            "82.6%",
+            "90.86%",
+            "96.64%",
+            "103.25%",
+            "112.34%",
+            "121.42%",
+            "130.51%",
+            "140.42%",
+            "151.78%",
+            "165.13%",
+            "178.49%",
+            "191.85%",
+            "206.42%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "121.69%",
+            "131.6%",
+            "141.5%",
+            "155.65%",
+            "165.56%",
+            "176.87%",
+            "192.44%",
+            "208%",
+            "223.57%",
+            "240.55%",
+            "260.01%",
+            "282.89%",
+            "305.77%",
+            "328.65%",
+            "353.61%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "guoba_attack",
       "name": "Ataque de Guoba",
-      "type": "Habilidad elemental",
-      "description": "<p>Invoca al Panda Guoba. Guoba escupe fuego continuamente hacia el enemigo, infligiendo Daño Pyro de Área.</p>",
-      "modifiers": []
+      "description": "Invoca al panda Guoba. Guoba escupe fuego continuamente contra los enemigos, infligiendo <span>Daño Pyro en el AdE</span>.\\n\\n<i>A Guoba le encanta el picante. El problema es que su estómago no aguanta la comida tan picante.</i>",
+      "attributes": [
+        [
+          "Daño de lanzallamas",
+          [
+            "111.28%",
+            "119.63%",
+            "127.97%",
+            "139.1%",
+            "147.45%",
+            "155.79%",
+            "166.92%",
+            "178.05%",
+            "189.18%",
+            "200.3%",
+            "211.43%",
+            "222.56%",
+            "236.47%",
+            "250.38%",
+            "264.29%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "pyronado",
       "name": "Pyronado",
-      "type": "Impulso elemental",
-      "description": "<p>Haciendo muestra de su dominio sobre el fuego y las lanzas, Xiangling provoca un Torbellino de llamas a su alrededor. El torbellino se mueve con el personaje durante su efecto, infligiendo Daño Pyro a todos los enemigos en su camino.</p>",
-      "modifiers": []
+      "description": "Haciendo muestra de su dominio del fuego y las lanzas, Xiangling provoca un tornado de llamas a su alrededor.\\nMientras dure la habilidad, el tornado se moverá junto a tu personaje, infligiendo <span>Daño Pyro</span> a todos los enemigos en su camino.\\n\\n<i>Nunca hay suficiente fuego. Nunca.</i>",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "72%",
+            "77.4%",
+            "82.8%",
+            "90%",
+            "95.4%",
+            "100.8%",
+            "108%",
+            "115.2%",
+            "122.4%",
+            "129.6%",
+            "136.8%",
+            "144%",
+            "153%",
+            "162%",
+            "171%"
+          ]
+        ],
+        [
+          "Daño de 2° golpe",
+          [
+            "88%",
+            "94.6%",
+            "101.2%",
+            "110%",
+            "116.6%",
+            "123.2%",
+            "132%",
+            "140.8%",
+            "149.6%",
+            "158.4%",
+            "167.2%",
+            "176%",
+            "187%",
+            "198%",
+            "209%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "109.6%",
+            "117.82%",
+            "126.04%",
+            "137%",
+            "145.22%",
+            "153.44%",
+            "164.4%",
+            "175.36%",
+            "186.32%",
+            "197.28%",
+            "208.24%",
+            "219.2%",
+            "232.9%",
+            "246.6%",
+            "260.3%"
+          ]
+        ],
+        [
+          "Daño de Pyronado",
+          [
+            "112%",
+            "120.4%",
+            "128.8%",
+            "140%",
+            "148.4%",
+            "156.8%",
+            "168%",
+            "179.2%",
+            "190.4%",
+            "201.6%",
+            "212.8%",
+            "224%",
+            "238%",
+            "252%",
+            "266%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "crossfire",
       "name": "Fuego cruzado",
-      "description": "<p>El alcance del lanzallamas de Guoba aumenta un 20%.</p>"
+      "description": "El alcance del lanzallamas de Guoba aumenta en un 20%.",
+      "level": 1
     },
     {
       "id": "beware_its_super_hot",
       "name": "¡Cuidado, que pica!",
-      "description": "<p>Cuando termina el Ataque de guoba, Guoba deja chiles en el lugar donde desaparece. Obtén los chiles para aumentar el ATQ un 10% durante 10 s.</p>"
+      "description": "Cuando termina el <span>Ataque de Guoba</span>, Guoba deja chiles en el lugar donde desaparece. Obtén los chiles para aumentar el ATQ en un 10% durante 10 s.",
+      "level": 4
     },
     {
       "id": "chef_de_cuisine",
       "name": "Chef de cocina",
-      "description": "<p>Cuando se logra un \"Perfecto\" en un plato con efectos de ataque, hay un 12% de posibilidades de obtener el doble de cantidad del producto.</p>"
+      "description": "Cuando se logra un “Perfecto” en un plato con efectos de ataque, hay una probabilidad del 12% de obtener el doble.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "crispy_outside_tender_inside",
       "name": "Crujiente por fuera, tierno por dentro",
-      "description": "Reduce la RES Pyro de los oponentes atacados por Guoba en un 15% durante 6 s.",
-      "level": 1
+      "description": "Reduce la <span>RES Pyro</span> de los enemigos atacados por Guoba en un 15% durante 6 s.",
+      "level": 231
     },
     {
+      "id": "oil_meets_fire",
       "name": "Aceite y fuego",
-      "description": "El último golpe del Ataque Normal hace que el enemigo implote durante 2 s. Después de eso, el enemigo explotará, produciendo un 75% de Daño Pyro de Área.",
-      "level": 2
+      "description": "El último golpe del Ataque Normal aplica sobre el enemigo un estado de implosión durante 2 s. Tras ese tiempo, el enemigo explotará, infligiendo un 75% de <span>Daño Pyro en el AdE</span>.",
+      "level": 232
     },
     {
+      "id": "deepfry",
       "name": "Que quede bien frito",
-      "description": "Aumenta el nivel de habilidad de Torbellino de llamas +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 3
+      "description": "Aumenta el nivel de habilidad de <span>Pyronado</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "slowbake",
       "name": "A fuego lento",
-      "description": "Aumenta en un 40% el tiempo de duración de Torbellino de llamas.",
-      "level": 4
+      "description": "Aumenta en un 40% la duración de <span>Pyronado</span>.",
+      "level": 234
     },
     {
+      "id": "guoba_mad",
       "name": "Guoba furioso",
-      "description": "Aumenta el nivel de habilidad de Ataque de Guoba +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 5
+      "description": "Aumenta el nivel de habilidad de <span>Ataque de Guoba</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "condensed_pyronado",
       "name": "Pyronado condensado",
-      "description": "Mientras esté activa la habilidad de Torbellino de llamas, todos los personajes del equipo obtienen un 15% de Bono de Daño Pyro.",
-      "level": 6
+      "description": "Mientras <span>Pyronado</span> esté activo, todos los miembros del equipo obtienen un 15% de <span>Bono de Daño Pyro</span>.",
+      "level": 236
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de ágata agnidus" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Pedacito de ágata agnidus",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Trozo de ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Ágata agnidus" },
-      "mat2": { "name": "Semilla de fuego eterno" },
-      "mat3": { "name": "Chile de Jueyun" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Ágata agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semilla de fuego eterno",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "jueyun_chili",
+        "name": "Chile de Jueyun",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 24
+      }
     }
   ]
 }

@@ -1,115 +1,710 @@
 {
   "id": "noelle",
   "name": "Noelle",
-  "description": "Al igual que otros jóvenes de Mondstadt, Noelle sueña en convertirse en una Caballera Honorable de Favonius. Aunque todavía no tiene las cualidades de un caballero, Noelle trabaja dentro de Ordo Favonius como criada, a la vez que estudia con detenimiento cada palabra y cada movimiento de los caballeros. Tiene la firme convicción de que, siempre y cuando trabaje duro, llegará el día en el que portará la armadura de los caballeros con orgullo.",
-  "titles": ["Flor caballeresca", "Sirvienta de Favonius"],
+  "title": "la Heroína no Reconocida",
+  "description": "La criada de confianza de los Caballeros de Favonius sueña con convertirse algún día en caballera de la orden.",
+  "weapon_type": "Mandoble",
+  "element": "Geo",
+  "gender": "Femenino",
+  "substat": "DEF%",
+  "affiliation": "Caballeros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    21,
+    3
+  ],
+  "constellation": "Parma Cordis",
+  "cv": {
+    "english": "Laura Faye Smith",
+    "chinese": "宴宁",
+    "japanese": "高尾奏音",
+    "korean": "이보희"
+  },
   "skills": [
     {
-      "id": "favonius_bladework_maid",
-      "name": "Técnica de espada Favonius - Criada",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 tajos rápidos.</p><p><b>Ataque Cargado:</b> Sigue consumiendo Aguante para realizar golpes de espada giratorios contra los enemigos cercanos. Al final del Ataque Cargado, realizará un golpe de espada más poderoso.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_favonius_bladework_maid",
+      "name": "Ataque Normal: Técnica de espada Favonius - Criada",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 4 tajos de espada consecutivos.\\n\\n<span>Ataque Cargado</span>\\nConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.\\nAl final del Ataque Cargado, realizará un golpe de espada más poderoso.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "79.12%",
+            "85.56%",
+            "92%",
+            "101.2%",
+            "107.64%",
+            "115%",
+            "125.12%",
+            "135.24%",
+            "145.36%",
+            "156.4%",
+            "167.44%",
+            "178.48%",
+            "189.52%",
+            "200.56%",
+            "211.6%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "73.36%",
+            "79.33%",
+            "85.3%",
+            "93.83%",
+            "99.8%",
+            "106.62%",
+            "116.01%",
+            "125.39%",
+            "134.77%",
+            "145.01%",
+            "155.25%",
+            "165.48%",
+            "175.72%",
+            "185.95%",
+            "196.19%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "86.26%",
+            "93.28%",
+            "100.3%",
+            "110.33%",
+            "117.35%",
+            "125.37%",
+            "136.41%",
+            "147.44%",
+            "158.47%",
+            "170.51%",
+            "182.55%",
+            "194.58%",
+            "206.62%",
+            "218.65%",
+            "230.69%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "113.43%",
+            "122.67%",
+            "131.9%",
+            "145.09%",
+            "154.32%",
+            "164.87%",
+            "179.38%",
+            "193.89%",
+            "208.4%",
+            "224.23%",
+            "240.06%",
+            "255.89%",
+            "271.71%",
+            "287.54%",
+            "303.37%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado en ciclo",
+          [
+            "50.74%",
+            "54.87%",
+            "59%",
+            "64.9%",
+            "69.03%",
+            "73.75%",
+            "80.24%",
+            "86.73%",
+            "93.22%",
+            "100.3%",
+            "107.38%",
+            "114.46%",
+            "121.54%",
+            "128.62%",
+            "135.7%"
+          ]
+        ],
+        [
+          "Daño final de Ataque Cargado",
+          [
+            "90.47%",
+            "97.84%",
+            "105.2%",
+            "115.72%",
+            "123.08%",
+            "131.5%",
+            "143.07%",
+            "154.64%",
+            "166.22%",
+            "178.84%",
+            "191.46%",
+            "204.09%",
+            "216.71%",
+            "229.34%",
+            "241.96%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s",
+            "40 pts./s"
+          ]
+        ],
+        [
+          "Duración máx.",
+          [
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ]
+      ]
     },
     {
       "id": "breastplate",
       "name": "Guardiana del corazón",
-      "type": "Habilidad elemental",
-      "description": "<p>Invoca una armadura de roca la cual inflige Daño Geo en los oponentes alrededor y absorbe el daño. El Daño absorbido aumenta en proporción a la DEF de Noelle. El Escudo tiene los siguientes efectos:</p><ul><li>Cuando los Ataques Normales y Ataques Cargados de Noelle golpean un objetivo, hay una posibilidad de regenerar Vida a todos los miembros del equipo.</li></ul><p>Posee un 250% de eficiencia de absorción contra Daño Geo. La cantidad de Vida curada es proporcional a la DEF de Noelle.</p>",
-      "modifiers": []
+      "description": "Invoca un recubrimiento Geo que inflige <span>Daño Geo</span> a los enemigos cercanos y absorbe daño en proporción a la DEF de Noelle. El escudo tiene los siguientes efectos:\\n·Cuando los Ataques Normales y Ataques Cargados de Noelle golpean un objetivo, hay una probabilidad de regenerar Vida para todos los miembros del equipo.\\n·Posee un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.\\n\\nLa cantidad de Vida curada es proporcional a la DEF de Noelle.\\n\\n<i>Noelle es una fiel criada y, al mismo tiempo, una valiente caballera.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "120% de DEF",
+            "129% de DEF",
+            "138% de DEF",
+            "150% de DEF",
+            "159% de DEF",
+            "168% de DEF",
+            "180% de DEF",
+            "192% de DEF",
+            "204% de DEF",
+            "216% de DEF",
+            "228% de DEF",
+            "240% de DEF",
+            "255% de DEF",
+            "270% de DEF",
+            "285% de DEF"
+          ]
+        ],
+        [
+          "Absorción",
+          [
+            "160%  de DEF +  769.7850952148438",
+            "172%  de DEF +  846.7742919921875",
+            "184%  de DEF +  930.1792602539062",
+            "200%  de DEF +  1020",
+            "212%  de DEF +  1116.2364501953125",
+            "224%  de DEF +  1218.8887939453125",
+            "240%  de DEF +  1327.956787109375",
+            "256%  de DEF +  1443.440673828125",
+            "272%  de DEF +  1565.3402099609375",
+            "288%  de DEF +  1693.655517578125",
+            "304%  de DEF +  1828.38671875",
+            "320%  de DEF +  1969.5335693359375",
+            "340%  de DEF +  2117.09619140625",
+            "360%  de DEF +  2271.07470703125",
+            "380%  de DEF +  2431.46875"
+          ]
+        ],
+        [
+          "Curación",
+          [
+            "21.28%  de DEF +  102.718017578125",
+            "22.88%  de DEF +  112.99124908447266",
+            "24.47%  de DEF +  124.12057495117188",
+            "26.6%  de DEF +  136.10601806640625",
+            "28.2%  de DEF +  148.9475555419922",
+            "29.79%  de DEF +  162.6451873779297",
+            "31.92%  de DEF +  177.1989288330078",
+            "34.05%  de DEF +  192.60877990722656",
+            "36.18%  de DEF +  208.87472534179688",
+            "38.3%  de DEF +  225.99676513671875",
+            "40.43%  de DEF +  243.97491455078125",
+            "42.56%  de DEF +  262.8091735839844",
+            "45.22%  de DEF +  282.4995422363281",
+            "47.88%  de DEF +  303.0459899902344",
+            "50.54%  de DEF +  324.44854736328125"
+          ]
+        ],
+        [
+          "Prob. de curación",
+          [
+            "50%",
+            "51%",
+            "52%",
+            "53%",
+            "54%",
+            "55%",
+            "56%",
+            "57%",
+            "58%",
+            "59%",
+            "59%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s",
+            "24 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "sweeping_time",
       "name": "Hora de limpiar",
-      "type": "Impulso elemental",
-      "description": "<p>Al reunir el poder de la roca alrededor de su arma, Noelle golpea a los enemigos que la rodean dentro de un AdE de gran tamaño e inflige Daño Geo. Después, Noelle obtiene los siguientes efectos:</p><ul><li>Ataque con mayor AdE.</li><li>Convierte el Daño de ataque en Daño Geo.</li><li>El incremento del ATQ es proporcional a su DEF.</li></ul>",
-      "modifiers": []
+      "description": "Al reunir el poder de la roca alrededor de su arma, Noelle golpea a los enemigos que la rodean dentro de una gran AdE, infligiendo <span>Daño Geo</span>.\\nDespués, Noelle obtiene los siguientes efectos:\\n·Aumenta el alcance de su ataque.\\n·Convierte el daño de ATQ en <span>Daño Geo</span>. Este cambio elemental no puede ser sustituido imbuyéndolo de otro elemento.\\n·Aumenta el ATQ en proporción a la DEF de Noelle.\\n\\n<i>Lo que debe limpiarse a veces no es solo el polvo...</i>",
+      "attributes": [
+        [
+          "Daño de explosión",
+          [
+            "67.2%",
+            "72.24%",
+            "77.28%",
+            "84%",
+            "89.04%",
+            "94.08%",
+            "100.8%",
+            "107.52%",
+            "114.24%",
+            "120.96%",
+            "127.68%",
+            "134.4%",
+            "142.8%",
+            "151.2%",
+            "159.6%"
+          ]
+        ],
+        [
+          "Daño de habilidad",
+          [
+            "92.8%",
+            "99.76%",
+            "106.72%",
+            "116%",
+            "122.96%",
+            "129.92%",
+            "139.2%",
+            "148.48%",
+            "157.76%",
+            "167.04%",
+            "176.32%",
+            "185.6%",
+            "197.2%",
+            "208.8%",
+            "220.4%"
+          ]
+        ],
+        [
+          "Aumento de ATQ",
+          [
+            "40% de DEF",
+            "43% de DEF",
+            "46% de DEF",
+            "50% de DEF",
+            "53% de DEF",
+            "56% de DEF",
+            "60% de DEF",
+            "64% de DEF",
+            "68% de DEF",
+            "72% de DEF",
+            "76% de DEF",
+            "80% de DEF",
+            "85% de DEF",
+            "90% de DEF",
+            "95% de DEF"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "devotion",
       "name": "De todo corazón",
-      "description": "<p>Cuando Noelle está fuera de escena, si la Vida del personaje activo es inferior al 30%, ocurrirán automáticamente los siguientes efectos: El personaje recibirá inmediatamente un escudo que absorbe el daño equivalente al 400% de DEF de Noelle. Este escudo puede durar hasta 20 s y se puede activar una vez cada 60 s.</p>"
+      "description": "Si la Vida de tu personaje en uso es inferior al 30% cuando Noelle está en tu equipo pero no en combate:\\n·Dicho personaje en uso recibirá inmediatamente un escudo de una duración de 20 s que absorbe un daño equivalente al 400% de la DEF de Noelle.\\n·El escudo tiene un 150% de efectividad de absorción contra todo el Daño Elemental y el Daño Físico.\\n·Este efecto solo puede ocurrir una vez cada 60 s.",
+      "level": 1
     },
     {
       "id": "nice_and_clean",
       "name": "Pulcra y eficaz",
-      "description": "<p>Cuando Noelle inflige daño a los enemigos con ATQ Normal o Cargado, el TdE de Guardiana del corazón se reducirá 1 s cada 4 golpes. Infligir daño a varios enemigos al mismo tiempo se considera un solo movimiento de ataque.</p>"
+      "description": "Cuando Noelle inflige daño a los enemigos con Ataques Normales o Cargados, el TdE de <span>Guardiana del corazón</span> se reducirá 1 s cada 4 golpes.\\nInfligir daño a varios enemigos al mismo tiempo se considera un solo movimiento de ataque.",
+      "level": 4
     },
     {
       "id": "maids_knighthood",
       "name": "Dedicación de la criada",
-      "description": "<p>Cuando se logra un \"Perfecto\" en un plato con efectos de defensa, hay un 12% de posibilidades de obtener el doble de cantidad del producto.</p>"
+      "description": "Cuando se logra un “Perfecto” en un plato con efectos de defensa, hay una probabilidad del 12% de obtener el doble.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "i_got_your_back",
       "name": "Yo te cubro",
-      "description": "Al atacar estando en los estados de Hora de limpiar y Guardiana del corazón, el efecto de restauración de Vida de Guardiana del corazón será del 100%.",
-      "level": 1
+      "description": "Al atacar estando al mismo tiempo bajo los efectos de <span>Hora de limpiar</span> y <span>Guardiana del corazón</span>, la probabilidad de restaurar Vida de Guardiana del corazón será del 100%.",
+      "level": 341
     },
     {
+      "id": "combat_maid",
       "name": "Torbellino de la criada",
-      "description": "Reduce el coste de Aguante del ATQ Cargado de Noelle un 20%, aumentando el daño infligido un 15%.",
-      "level": 2
+      "description": "Reduce en un 20% el coste de Aguante del Ataque Cargado de Noelle, y aumenta en un 15% el daño infligido con dicho ataque.",
+      "level": 342
     },
     {
+      "id": "invulnerable_maid",
       "name": "Sin un rasguño",
-      "description": "Aumenta el nivel de habilidad de Guardiana del corazón +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 3
+      "description": "Aumenta el nivel de habilidad de <span>Guardiana del corazón</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "to_be_cleaned",
       "name": "Limpieza obligada",
-      "description": "Cuando Guardiana del corazón termina o se rompe debido al daño, inflige un 400% de Daño Geo a los enemigos cercanos.",
-      "level": 4
+      "description": "Cuando termina la duración de <span>Guardiana del corazón</span> o el escudo se rompe debido al daño, inflige un 400% de <span>Daño Geo</span> a los enemigos cercanos.",
+      "level": 344
     },
     {
+      "id": "favonius_sweeper_master",
       "name": "Experta en limpieza",
-      "description": "Aumenta el nivel de habilidad de Hora de limpiar +3. Puede ser aumentado hasta Niv. 15.",
-      "level": 5
+      "description": "Aumenta el nivel de habilidad de <span>Hora de limpiar</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
+      "level": null
     },
     {
+      "id": "must_be_spotless",
       "name": "Debe quedar impoluto",
-      "description": "Hora de limpiar aumenta la DEF de Noelle un 50%; Además, durante la duración de la habilidad, la duración se extendrá en 1 s por cada enemigo noqueado (máx. 10 s).",
-      "level": 6
+      "description": "<span>Hora de limpiar</span> aumenta el ATQ de Noelle en un 50% adicional de su DEF.\\nAdemás, mientras dure la habilidad, su duración se extenderá en 1 s por cada enemigo derrotado (máx. 10 s).",
+      "level": 346
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de topacio prithiva" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "prithiva_topaz_sliver",
+        "name": "Pedacito de topacio prithiva",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Fragmento de topacio prithiva",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Fragmento de topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Trozo de topacio prithiva",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Trozo de topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Valbaya" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "prithiva_topaz_gemstone",
+        "name": "Topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "valberry",
+        "name": "Valbaya",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 24
+      }
     }
   ]
 }

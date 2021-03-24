@@ -1,150 +1,571 @@
 {
   "id": "chongyun",
   "name": "Chongyun",
-  "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his pure positive energy.",
+  "title": "Frozen Ardor",
+  "description": "A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.",
   "weapon_type": "Claymore",
   "element": "Cryo",
   "gender": "Male",
+  "substat": "ATK%",
+  "affiliation": "Liyue Harbor",
   "region": "Liyue",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Frozen Ardor", "Banisher of Evil and Rumors Thereof"],
+  "birthday": [
+    7,
+    9
+  ],
+  "constellation": "Nubis Caesor",
+  "cv": {
+    "english": "Beau Bridgland",
+    "chinese": "kinsen",
+    "japanese": "斉藤壮馬",
+    "korean": "양정화"
+  },
   "skills": [
     {
-      "id": "demonbane",
-      "name": "Demonbane",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 4 consecutive strikes.<p><b>Charged Attack:</b> Drains Stamina over time to perform continuous swirling attacks against all nearby opponents. At the end of the sequence, perform a more powerful slash.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_demonbane",
+      "name": "Normal Attack: Demonbane",
+      "description": "<span>Normal Attack</span>\\nPerform up to 4 consecutive strikes.\\n\\n<span>Charged Attack</span>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt end of the sequence, perform a more powerful slash. \\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "70%",
+            "75.7%",
+            "81.4%",
+            "89.54%",
+            "95.24%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "63.12%",
+            "68.26%",
+            "73.4%",
+            "80.74%",
+            "85.88%",
+            "91.75%",
+            "99.82%",
+            "107.9%",
+            "115.97%",
+            "124.78%",
+            "133.59%",
+            "142.4%",
+            "151.2%",
+            "160.01%",
+            "168.82%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "80.32%",
+            "86.86%",
+            "93.4%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "101.22%",
+            "109.46%",
+            "117.7%",
+            "129.47%",
+            "137.71%",
+            "147.13%",
+            "160.07%",
+            "173.02%",
+            "185.97%",
+            "200.09%",
+            "214.21%",
+            "228.34%",
+            "242.46%",
+            "256.59%",
+            "270.71%"
+          ]
+        ],
+        [
+          "Charged Attack Spinning DMG",
+          [
+            "56.29%",
+            "60.87%",
+            "65.45%",
+            "71.99%",
+            "76.57%",
+            "81.81%",
+            "89.01%",
+            "96.21%",
+            "103.41%",
+            "111.26%",
+            "119.12%",
+            "126.97%",
+            "134.82%",
+            "142.68%",
+            "150.53%"
+          ]
+        ],
+        [
+          "Charged Attack Final DMG",
+          [
+            "101.78%",
+            "110.07%",
+            "118.35%",
+            "130.18%",
+            "138.47%",
+            "147.94%",
+            "160.96%",
+            "173.97%",
+            "186.99%",
+            "201.2%",
+            "215.4%",
+            "229.6%",
+            "243.8%",
+            "258%",
+            "272.2%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        ],
+        [
+          "Max Duration",
+          [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "102.74%",
+            "109.28%",
+            "116.75%",
+            "127.02%",
+            "137.3%",
+            "147.57%",
+            "158.78%",
+            "169.99%",
+            "181.2%",
+            "192.4%",
+            "203.61%",
+            "214.82%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "101.75%",
+            "110.7%",
+            "119.66%",
+            "128.61%",
+            "138.38%",
+            "148.15%",
+            "157.92%",
+            "167.68%",
+            "177.45%",
+            "187.22%"
+          ]
+        ]
+      ]
     },
     {
       "id": "spirit_blade_chonghuas_layered_frost",
       "name": "Spirit Blade: Chonghua's Layered Frost",
-      "type": "Elemental Skill",
-      "description": "Chongyun strikes the ground with his greatsword, causing a <span style=\"color:#4878a8\"><b>Cryo</b></span> explosion in a circular AoE in front of him that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span>.<p>After a short delay, the cold air created by the <span style=\"color:#4878a8\"><b>Cryo</b></span> explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <span style=\"color:#4878a8\"><b>Cryo</b></span>.</p>",
-      "modifiers": []
+      "description": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <span>Cryo DMG</span>.\\nAfter a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <span>Cryo</span>.\\n\\n<i>\"A crystal-clear ring, and all is silent. The rivers move not, and the clouds are heavy with frost. The altar gates open, and evil is banished.\"</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "172.04%",
+            "184.94%",
+            "197.85%",
+            "215.05%",
+            "227.95%",
+            "240.86%",
+            "258.06%",
+            "275.26%",
+            "292.47%",
+            "309.67%",
+            "326.88%",
+            "344.08%",
+            "365.58%",
+            "387.09%",
+            "408.59%"
+          ]
+        ],
+        [
+          "Infusion Duration",
+          [
+            "2s",
+            "2.0999999046325684s",
+            "2.200000047683716s",
+            "2.299999952316284s",
+            "2.4000000953674316s",
+            "2.5s",
+            "2.5999999046325684s",
+            "2.700000047683716s",
+            "2.799999952316284s",
+            "2.9000000953674316s",
+            "3s",
+            "3s",
+            "3s",
+            "3s",
+            "3s"
+          ]
+        ],
+        [
+          "Field Duration",
+          [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ]
+      ]
     },
     {
       "id": "spirit_blade_cloudparting_star",
       "name": "Spirit Blade: Cloud-Parting Star",
-      "type": "Elemental Burst",
-      "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.<p>When the spirit blades explode, they will deal <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span> and launch opponents.</p>",
-      "modifiers": []
+      "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.\\nWhen the spirit blades explode, they will deal <span>AoE Cryo DMG</span> and launch opponents.\\n\\n<i>\"As ice doth give the biting frost birth, My transcendent blade shakes heaven and earth. Heed my summons and come hence!\"</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "142.4%",
+            "153.08%",
+            "163.76%",
+            "178%",
+            "188.68%",
+            "199.36%",
+            "213.6%",
+            "227.84%",
+            "242.08%",
+            "256.32%",
+            "270.56%",
+            "284.8%",
+            "302.6%",
+            "320.4%",
+            "338.2%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "steady_breathing",
       "name": "Steady Breathing",
-      "description": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade: Chonghua's Layered Frost have their Normal ATK SPD increased by 8%.",
-      "unlock": "Ascension 1"
+      "description": "Sword, Claymore, or Polearm-wielding characters within the field created by <span>Spirit Blade: Chonghua's Layered Frost</span> have their Normal ATK SPD increased by 8%.",
+      "level": 1
     },
     {
       "id": "rimechaser_blade",
       "name": "Rimechaser Blade",
-      "description": "When the field created by Spirit Blade: Chonghua's Layered Frost disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span>.Opponents hit by this blade will have their <span style=\"color:#4878a8\"><b>Cryo RES</b></span> decreased by 10% for 8s.",
-      "unlock": "Ascension 4"
+      "description": "When the field created by <span>Spirit Blade: Chonghua's Layered Frost</span> disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as <span>AoE Cryo DMG</span>. Opponents hit by this blade will have their <span>Cryo RES</span> decreased by 10% for 8s.",
+      "level": 4
     },
     {
       "id": "gallant_journey",
       "name": "Gallant Journey",
-      "description": "When dispatched on an Liyue, time consumed is reduced by 25%.",
-      "unlock": ""
+      "description": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "ice_unleashed",
       "name": "Ice Unleashed",
-      "description": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all opponents in its path.",
-      "level": 1
+      "description": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as <span>Cryo DMG</span> to all opponents in its path.",
+      "level": 361
     },
     {
       "id": "atmospheric_revolution",
       "name": "Atmospheric Revolution",
-      "description": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade: Chonghua's Layered Frost have their CD time decreased by 15%.",
-      "level": 2
+      "description": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <span>Spirit Blade: Chonghua's Layered Frost</span> have their CD time decreased by 15%.",
+      "level": 362
     },
     {
       "id": "cloudburst",
       "name": "Cloudburst",
-      "description": "Increases the level of Spirit Blade: Cloud-Parting Star by 3. Maximum upgrade level is 15.",
-      "level": 3
+      "description": "Increases the Level of <span>Spirit Blade: Cloud-parting Star</span> by 3.\\nMaximum upgrade level is 15.",
+      "level": null
     },
     {
       "id": "frozen_skies",
       "name": "Frozen Skies",
-      "description": "Chongyun regenerates 1 Energy every time he hits an opponent affected by Cryo. This effect can only occur once every 2s.",
-      "level": 4
+      "description": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <span>Cryo</span>.\\nThis effect can only occur once every 2s.",
+      "level": 22
     },
     {
       "id": "the_true_path",
       "name": "The True Path",
-      "description": "Increases the level of Spirit Blade: Chonghua's Layered Frost by 3. Maximum upgrade level is 15.",
-      "level": 5
+      "description": "Increases the Level of <span>Spirit Blade: Chonghua's Layered Frost</span> by 3.\\nMaximum upgrade level is 15.",
+      "level": null
     },
     {
       "id": "rally_of_four_blades",
       "name": "Rally of Four Blades",
-      "description": "Spirit Blade: Cloud-Parting Star deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun. This skill will also summon 1 additional spirit blade.",
-      "level": 6
+      "description": "<span>Spirit Blade: Cloud-parting Star</span> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.\\nThis skill will also summon 1 additional spirit blade.",
+      "level": 366
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1
       },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 3 },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3
+      }
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 10 },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15
+      }
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 20 },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 30 },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "shivada_jade_chunk",
@@ -156,12 +577,23 @@
         "name": "Hoarfrost Core",
         "amount": 12
       },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 45 },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "shivada_jade_gemstone",
@@ -173,8 +605,16 @@
         "name": "Hoarfrost Core",
         "amount": 20
       },
-      "mat3": { "id": "cor_lapis", "name": "Cor Lapis", "amount": 60 },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor Lapis",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24
+      }
     }
   ]
 }

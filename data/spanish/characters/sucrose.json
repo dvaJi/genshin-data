@@ -1,115 +1,570 @@
 {
   "id": "sucrose",
   "name": "Sacarosa",
-  "description": "Una alquimista llena de curiosidad por todas las cosas. Ella investiga la bioalquimia.",
-  "titles": ["Dulzura Inofensiva", "Alquimista asistente"],
+  "title": "la Dulzura Inofensiva",
+  "description": "Una alquimista e investigadora de la escuela de bioalquimia que siente curiosidad por todo.",
+  "weapon_type": "Catalizador",
+  "element": "Anemo",
+  "gender": "Femenino",
+  "substat": "Bono de Daño Anemo",
+  "affiliation": "Caballeros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": [
+    26,
+    11
+  ],
+  "constellation": "Ampulla",
+  "cv": {
+    "english": "Valeria Rodriguez",
+    "chinese": "小敢",
+    "japanese": "藤田茜",
+    "korean": "김하영"
+  },
   "skills": [
     {
-      "id": "wind_spirit_creation",
-      "name": "Creación del Espíritu del Viento",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 4 ataques usando Espíritus del Viento, que infligen Daño Anemo.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante e inflige Daño Anemo en el AdE después de un corto tiempo de lanzamiento.</p><p><b>Ataque descendiente:</b> Al llamar a los Espíritus del Viento, Sacarosa se lanza hacia el suelo desde el aire, dañando a todos los enemigos en su camino. Inflige Daño Anemo en el AdE al impactar con el suelo.</p>",
-      "modifiers": []
+      "id": "normal_attack_wind_spirit_creation",
+      "name": "Ataque Normal: Creación del espíritu del viento",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 4 ataques usando espíritus del viento, los cuales infligen <span>Daño Anemo</span>.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante e inflige <span>Daño Anemo en el AdE</span> después de un corto tiempo de lanzamiento.\\n\\n<span>Ataque Descendente</span>\\nAl llamar a los espíritus del viento, Sacarosa se lanza desde el aire para golpear el suelo, dañando a todos los enemigos cercanos e infligiendo <span>Daño Anemo en el AdE</span> en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "33.46%",
+            "35.97%",
+            "38.48%",
+            "41.83%",
+            "44.34%",
+            "46.85%",
+            "50.2%",
+            "53.54%",
+            "56.89%",
+            "60.24%",
+            "63.58%",
+            "66.93%",
+            "71.11%",
+            "75.29%",
+            "79.48%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "30.62%",
+            "32.91%",
+            "35.21%",
+            "38.27%",
+            "40.57%",
+            "42.86%",
+            "45.92%",
+            "48.99%",
+            "52.05%",
+            "55.11%",
+            "58.17%",
+            "61.23%",
+            "65.06%",
+            "68.89%",
+            "72.71%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "38.45%",
+            "41.33%",
+            "44.22%",
+            "48.06%",
+            "50.94%",
+            "53.83%",
+            "57.67%",
+            "61.52%",
+            "65.36%",
+            "69.21%",
+            "73.05%",
+            "76.9%",
+            "81.7%",
+            "86.51%",
+            "91.31%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "47.92%",
+            "51.51%",
+            "55.11%",
+            "59.9%",
+            "63.49%",
+            "67.08%",
+            "71.88%",
+            "76.67%",
+            "81.46%",
+            "86.25%",
+            "91.04%",
+            "95.84%",
+            "101.82%",
+            "107.81%",
+            "113.8%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "120.16%",
+            "129.17%",
+            "138.18%",
+            "150.2%",
+            "159.21%",
+            "168.22%",
+            "180.24%",
+            "192.26%",
+            "204.27%",
+            "216.29%",
+            "228.3%",
+            "240.32%",
+            "255.34%",
+            "270.36%",
+            "285.38%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "astable_anemohypostasis_creation_6308",
       "name": "Creación del espíritu del viento: Experimento 6308",
-      "type": "Habilidad elemental",
-      "description": "<p>Invoca un pequeño Espíritu del Viento que inflige Daño Anemo a los enemigos en un AdE, arrastrándolos hacia la ubicación del Espíritu del Viento antes de lanzarlos por los aires.</p>",
-      "modifiers": []
+      "description": "Invoca un pequeño espíritu del viento que atrae a enemigos y objetos al lugar de su ubicación, los lanza por los aires e inflige <span>Daño Anemo</span>.\\n\\n<i>Esto es un poco vergonzoso, pero aunque las formas de vida elementales que nacieron a través de este procedimiento se disipan muy rápidamente, son increíblemente útiles cuando vas de aventura. Incluso los experimentos fallidos pueden tener aplicaciones prácticas.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "211.2%",
+            "227.04%",
+            "242.88%",
+            "264%",
+            "279.84%",
+            "295.68%",
+            "316.8%",
+            "337.92%",
+            "359.04%",
+            "380.16%",
+            "401.28%",
+            "422.4%",
+            "448.8%",
+            "475.2%",
+            "501.6%"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "forbidden_creation_isomer_75_type_ii",
-      "name": "Creación del espíritu del viento prohibida: Isomorfo 75 tipo II",
-      "type": "Impulso elemental",
-      "description": "<p>Sacarosa arroja un brebaje inestable que crea un Gran Espíritu del Viento. Durante la habilidad, el Gran Espíritu del Viento atrae y arroja a los enemigos cercanos, infligiendo Daño Anemo en el AdE.</p><p><b>Cambio elemental:</b> Si el espíritu del Viento entra en contacto con Hydro/Pyro/Cryo/Electro, infligirá Daño elemental adicional de ese tipo. El cambio elemental solo puede ocurrir una vez por uso.</p>",
-      "modifiers": []
+      "name": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
+      "description": "Sacarosa arroja un brebaje inestable que crea un gran espíritu del viento.\\nMientras dure, el espíritu del viento atrae a los enemigos y objetos cercanos, lanzándolos por los aires e infligiendo <span>Daño Anemo</span>.\\n\\n<span>Cambio elemental</span>\\nSi el espíritu del viento entra en contacto con <span>Hydro</span>/<span>Pyro </span>/<span>Cryo </span>/<span>Electro </span>, infligirá Daño Elemental adicional de ese tipo.\\nSolo puede ocurrir un cambio elemental en toda la duración de esta habilidad.\\n\\n<i>Sacarosa solía dar nombres a sus volátiles Hipostasis Anemo. Pero el linaje de Hipostasis creció tan rápido que acabó superando al Barón Bunny n.º 893.</i>",
+      "attributes": [
+        [
+          "Daño continuo",
+          [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        ],
+        [
+          "Daño Elemental adicional",
+          [
+            "44%",
+            "47.3%",
+            "50.6%",
+            "55%",
+            "58.3%",
+            "61.6%",
+            "66%",
+            "70.4%",
+            "74.8%",
+            "79.2%",
+            "83.6%",
+            "88%",
+            "93.5%",
+            "99%",
+            "104.5%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "catalyst_conversion",
       "name": "Conversión de catalizador",
-      "description": "<p>Cuando Sacarosa active un Torbellino, aumentará la Maestría Elemental de todos los miembros del equipo con el elemento correspondiente en 50 pts. por los próximos 8 s.</p>"
+      "description": "Cuando Sacarosa cause una reacción de Torbellino, aumentará en 50 pts. la Maestría Elemental de todos los miembros del equipo (a excepción de sí misma) cuyo Tipo Elemental coincida con el elemento contra el que provocó dicho Torbellino. Este efecto tiene una duración de 8 s.",
+      "level": 1
     },
     {
       "id": "mollis_favonius",
       "name": "Mollis Favonius",
-      "description": "<p>Cuando Creación del espíritu del viento prohibida: Isomorfo 75 tipo II golpee a un enemigo, aumenta la Maestría Elemental de otros miembros del equipo con base en el 20% de Maestría Elemental de Sacarosa durante 8 s.</p>"
+      "description": "Cuando Sacarosa ataca a un enemigo con <span>Creación del espíritu del viento: Experimento 6308</span> o <span>Creación prohibida del espíritu del viento: Isomorfo 75 tipo II</span>, aumenta durante 8 s la Maestría Elemental de todos los miembros del equipo (sin incluir a Sacarosa) en proporción al 20% de la Maestría Elemental de Sacarosa.",
+      "level": 4
     },
     {
       "id": "astable_invention",
       "name": "Invención inestable",
-      "description": "<p>Al crear materiales para personaje y armas, hay un 10% de probabilidad de recibir el doble.</p>"
+      "description": "Al crear materiales para personaje y armas, hay una probabilidad del 10% de recibir el doble.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "clustered_vacuum_field",
       "name": "Cúmulo de campo de vacío",
-      "description": "Aumenta las cargas de Creación del espíritu del viento: Experimento 6308 en 1.",
+      "description": "Aumenta en 1 las cargas de <span>Creación del espíritu del viento: Experimento 6308</span>.",
       "level": 1
     },
     {
-      "name": "Bett - Forma no consolidada",
-      "description": "Aumenta en 2 s la duración de Creación del espíritu del viento prohibida: Isomorfo 75 tipo II.",
+      "id": "beth_unbound_form",
+      "name": "Bett: Forma no consolidada",
+      "description": "Aumenta en 2 s la duración de <span>Creación prohibida del espíritu del viento: Isomorfo 75 tipo II</span>.",
       "level": 2
     },
     {
+      "id": "flawless_alchemistress",
       "name": "Alquimista infalible",
-      "description": "Aumenta el nivel de habilidad de Creación del espíritu del viento: Experimento 6308 +3.",
+      "description": "Aumenta el nivel de habilidad de <span>Creación del espíritu del viento: Experimento 6308</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "alchemania",
       "name": "Alquemanía",
-      "description": "Por cada 7 Ataques Normales y Cargados de Sacarosa, el TdE de Creación del espíritu del viento: Experimento 6308 se reduce de 1 a 7 s.",
+      "description": "Por cada 7 Ataques Normales y Cargados de Sacarosa, el TdE de <span>Creación del espíritu del viento: Experimento 6308</span> se reduce entre 1 y 7 s.",
       "level": 4
     },
     {
-      "name": "Precaución: frasco ordinario",
-      "description": "Aumenta el nivel de habilidad de Creación del espíritu del viento prohibida: Isomorfo 75 tipo II +3.",
+      "id": "caution_standard_flask",
+      "name": "Precaución: Frasco ordinario",
+      "description": "Aumenta el nivel de habilidad de <span>Creación prohibida del espíritu del viento: Isomorfo 75 tipo II</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "chaotic_entropy",
       "name": "Entropía caótica",
-      "description": "Si Creación del espíritu del viento prohibida: Isomorfo 75 tipo II desencadena un cambio elemental, todos los miembros del equipo obtienen un 20% de Bono de Daño Elemental del elemento absorbido correspondiente mientras dure la habilidad.",
+      "description": "Si <span>Creación prohibida del espíritu del viento: Isomorfo 75 tipo II</span> desencadena un cambio elemental, todos los miembros del equipo obtienen un 20% de Bono de Daño Elemental del elemento al que se cambió mientras dure la habilidad.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de turquesa vayuda" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "vayuda_turquoise_sliver",
+        "name": "Pedacito de turquesa vayuda",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 24
+      }
     }
   ]
 }

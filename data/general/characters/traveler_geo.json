@@ -1,98 +1,442 @@
 {
   "id": "traveler_geo",
   "name": "Traveler (Geo)",
+  "title": "",
   "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
   "weapon_type": "Sword",
   "element": "Geo",
-  "gender": "Player's Choice",
-  "region": "Mondstadt",
+  "gender": "Male/Female",
+  "substat": "ATK%",
+  "affiliation": "-",
   "rarity": 5,
-  "location": "Quest",
-  "titles": [
-    "Outlander",
-    "Honorary Knight",
-    "Mr. Nice Guy/Ms. Nice Lady (by Teucer)",
-    "Comrade (by Tartaglia)"
+  "birthday": [
+    null,
+    null
   ],
+  "constellation": "Viator",
+  "cv": {
+    "english": "Zach Aguilar & Corina Boettger",
+    "chinese": "鹿喑 & 多多poi",
+    "japanese": "堀江瞬 & 古賀葵",
+    "korean": "이경태 & 김가령"
+  },
   "skills": [
     {
-      "id": "foreign_rockblade",
-      "name": "Foreign Rockblade",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_foreign_rockblade",
+      "name": "Normal Attack: Foreign Rockblade",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        ]
+      ]
     },
     {
       "id": "starfell_sword",
       "name": "Starfell Sword",
-      "type": "Elemental Skill",
-      "description": "You disgorge a meteorite from the depths of the earth, dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>. The meteorite is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and can be climbed or used to block attacks.<p><b>Hold:</b> This skill's positioning may be adjusted.</p>",
-      "modifiers": []
+      "description": "You disgorge a meteorite from the depths of the earth, dealing <span>AoE Geo DMG</span>.\\nThe meteorite is considered a <span>Geo Construct</span>, and can be climbed or used to block attacks.\\n\\n<span>Hold</span>\\nThis skill's positioning may be adjusted.\\n\\n<i>You spoke with Paimon about the final destination of falling stars.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "248%",
+            "266.6%",
+            "285.2%",
+            "310%",
+            "328.6%",
+            "347.2%",
+            "372%",
+            "396.8%",
+            "421.6%",
+            "446.4%",
+            "471.2%",
+            "496%",
+            "527%",
+            "558%",
+            "589%"
+          ]
+        ],
+        [
+          "Meteorite Duration",
+          [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ]
+      ]
     },
     {
       "id": "wake_of_earth",
       "name": "Wake of Earth",
-      "type": "Elemental Burst",
-      "description": "Energizing the Geo elements deep underground, you set off expanding shockwaves.<p>Launches surrounding opponents back and deals <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.A stone wall is erected at the edges of the shockwave.The stone wall is considered a <span style=\"color:#b67607\"><b>Geo Construct</b></span>, and may be used to block attacks.</p>",
-      "modifiers": []
+      "description": "Energizing the Geo deep underground, you set off expanding shockwaves.\\nLaunches surrounding opponents back and deals <span>AoE Geo DMG</span>.\\nA stone wall is erected at the edges of the shockwave.\\nThe stone wall is considered a <span>Geo Construct</span>, and may be used to block attacks.\\n\\n<i>You and Paimon studied the pulse of the mountains.</i>",
+      "attributes": [
+        [
+          "DMG Per Shockwave",
+          [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        ],
+        [
+          "Stonewall Duration",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "shattered_darkrock",
       "name": "Shattered Darkrock",
-      "description": "Reduces Starfell Sword's CD by 2s.",
-      "unlock": "Ascension 1"
+      "description": "Reduces <span>Starfell Sword</span>'s CD by 2s.",
+      "level": 1
     },
     {
       "id": "frenzied_rockslide",
       "name": "Frenzied Rockslide",
-      "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>.",
-      "unlock": "Ascension 4"
+      "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as <span>AoE Geo DMG</span>.",
+      "level": 4
     }
   ],
   "constellations": [
     {
       "id": "invincible_stonewall",
       "name": "Invincible Stonewall",
-      "description": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.",
+      "description": "Party members within the radius of <span>Wake of Earth</span> have their CRIT Rate increased by 10% and have increased resistance against interruption.",
       "level": 1
     },
     {
       "id": "rockcore_meltdown",
       "name": "Rockcore Meltdown",
-      "description": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.",
+      "description": "When the meteorite created by <span>Starfell Sword</span> is destroyed, it will also explode, dealing additional <span>AoE Geo DMG</span> equal to the amount of damage dealt by Starfell Sword.",
       "level": 2
     },
     {
       "id": "will_of_the_rock",
       "name": "Will of the Rock",
-      "description": "Increases the level of Wake of Earth by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Wake of Earth</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "reaction_force",
       "name": "Reaction Force",
-      "description": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every enemy hit. A maximum of 25 Energy can be recovered in this manner.",
+      "description": "The shockwave triggered by <span>Wake of Earth</span> regenerates 5 Energy for every opponent hit.\\nA maximum of 25 Energy can be regenerated in this manner at any one time.",
       "level": 4
     },
     {
       "id": "meteorite_impact",
       "name": "Meteorite Impact",
-      "description": "Increases the level of Starfell Sword by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Starfell Sword</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "everlasting_boulder",
       "name": "Everlasting Boulder",
-      "description": "The barrier created by Wake of Earth lasts 5s longer. The meteorite created by Starfell Sword lasts 10s longer.",
+      "description": "The barrier created by <span>Wake of Earth</span> lasts 5s longer.\\nThe meteorite created by <span>Starfell Sword</span> lasts 10s longer.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "brilliant_diamond_sliver",
@@ -104,11 +448,18 @@
         "name": "Windwheel Aster",
         "amount": 3
       },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 3 }
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3
+      }
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "brilliant_diamond_fragment",
@@ -120,11 +471,18 @@
         "name": "Windwheel Aster",
         "amount": 10
       },
-      "mat4": { "id": "damaged_mask", "name": "Damaged Mask", "amount": 15 }
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15
+      }
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "brilliant_diamond_fragment",
@@ -136,11 +494,18 @@
         "name": "Windwheel Aster",
         "amount": 20
       },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 12 }
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "brilliant_diamond_chunk",
@@ -152,11 +517,18 @@
         "name": "Windwheel Aster",
         "amount": 30
       },
-      "mat4": { "id": "stained_mask", "name": "Stained Mask", "amount": 18 }
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "brilliant_diamond_chunk",
@@ -168,11 +540,18 @@
         "name": "Windwheel Aster",
         "amount": 45
       },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 12 }
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12
+      }
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "brilliant_diamond_gemstone",
@@ -184,7 +563,11 @@
         "name": "Windwheel Aster",
         "amount": 60
       },
-      "mat4": { "id": "ominous_mask", "name": "Ominous Mask", "amount": 24 }
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24
+      }
     }
   ]
 }

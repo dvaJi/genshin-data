@@ -1,115 +1,670 @@
 {
   "id": "ganyu",
   "name": "Ganyu",
-  "description": "La secretaria del pabellón Yuehai. La sangre de los Qilin, una bestia iluminada, fluye por sus venas.",
-  "titles": ["La Vigía del Plenilunio"],
+  "title": "la Vigía del Plenilunio",
+  "description": "La secretaria del Pabellón Yuehai. La sangre de las bestias iluminadas Chilin fluye por sus venas.",
+  "weapon_type": "Arco",
+  "element": "Cryo",
+  "gender": "Femenino",
+  "substat": "Daño CRIT",
+  "affiliation": "Pabellón Yuehai",
+  "region": "Liyue",
+  "rarity": 5,
+  "birthday": [
+    2,
+    12
+  ],
+  "constellation": "Sinae Unicornis",
+  "cv": {
+    "english": "Jennifer Losi",
+    "chinese": "林簌",
+    "japanese": "上田丽奈",
+    "korean": "김선혜"
+  },
   "skills": [
     {
-      "id": "liutian_archery",
-      "name": "Técnica de tiro Liutian",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Ejecuta hasta 6 disparos consecutivos.</p><p><b>Ataque Cargado:</b> Ejecuta un Disparo Preciso. Mientras apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de cuánto tiempo se ha cargado: </p><ul><li>Carga 1: Dispara una flecha congelada que inflige Daño Cryo.</li><li>Carga 2: Dispara una flecha helada que inflige Daño Cryo. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo Daño Cryo en el AdE.</li></ul>",
-      "modifiers": []
+      "id": "normal_attack_liutian_archery",
+      "name": "Ataque Normal: Técnica de tiro Liutian",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 6 disparos consecutivos con arco.\\n\\n<span>Ataque Cargado</span>\\nRealiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.\\nMientras se apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de durante cuánto tiempo se ha cargado:\\nCarga 1: Dispara una flecha congelada que inflige <span>Daño Cryo</span>.\\nCarga 2: Dispara una flecha helada que inflige <span>Daño Cryo</span>. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo <span>Daño Cryo en el AdE</span>.\\n\\n<span>Ataque Descendiente</span>\\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "31.73%",
+            "34.32%",
+            "36.9%",
+            "40.59%",
+            "43.17%",
+            "46.13%",
+            "50.18%",
+            "54.24%",
+            "58.3%",
+            "62.73%",
+            "67.8%",
+            "73.77%",
+            "79.74%",
+            "85.7%",
+            "92.21%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "35.6%",
+            "38.5%",
+            "41.4%",
+            "45.54%",
+            "48.44%",
+            "51.75%",
+            "56.3%",
+            "60.86%",
+            "65.41%",
+            "70.38%",
+            "76.07%",
+            "82.77%",
+            "89.46%",
+            "96.16%",
+            "103.46%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "45.49%",
+            "49.2%",
+            "52.9%",
+            "58.19%",
+            "61.89%",
+            "66.12%",
+            "71.94%",
+            "77.76%",
+            "83.58%",
+            "89.93%",
+            "97.2%",
+            "105.76%",
+            "114.31%",
+            "122.87%",
+            "132.2%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "45.49%",
+            "49.2%",
+            "52.9%",
+            "58.19%",
+            "61.89%",
+            "66.12%",
+            "71.94%",
+            "77.76%",
+            "83.58%",
+            "89.93%",
+            "97.2%",
+            "105.76%",
+            "114.31%",
+            "122.87%",
+            "132.2%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "48.25%",
+            "52.17%",
+            "56.1%",
+            "61.71%",
+            "65.64%",
+            "70.13%",
+            "76.3%",
+            "82.47%",
+            "88.64%",
+            "95.37%",
+            "103.08%",
+            "112.16%",
+            "121.23%",
+            "130.3%",
+            "140.19%"
+          ]
+        ],
+        [
+          "Daño de 6º golpe",
+          [
+            "57.62%",
+            "62.31%",
+            "67%",
+            "73.7%",
+            "78.39%",
+            "83.75%",
+            "91.12%",
+            "98.49%",
+            "105.86%",
+            "113.9%",
+            "123.11%",
+            "133.95%",
+            "144.78%",
+            "155.61%",
+            "167.43%"
+          ]
+        ],
+        [
+          "Disparo Preciso",
+          [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        ],
+        [
+          "1er Disparo Preciso cargado",
+          [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        ],
+        [
+          "Daño de flecha helada",
+          [
+            "128%",
+            "137.6%",
+            "147.2%",
+            "160%",
+            "169.6%",
+            "179.2%",
+            "192%",
+            "204.8%",
+            "217.6%",
+            "230.4%",
+            "243.2%",
+            "256%",
+            "272%",
+            "288%",
+            "304%"
+          ]
+        ],
+        [
+          "Daño de explosión de escarcha de flecha helada",
+          [
+            "217.6%",
+            "233.92%",
+            "250.24%",
+            "272%",
+            "288.32%",
+            "304.64%",
+            "326.4%",
+            "348.16%",
+            "369.92%",
+            "391.68%",
+            "413.44%",
+            "435.2%",
+            "462.4%",
+            "489.6%",
+            "516.8%"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "trail_of_the_qilin",
       "name": "Senda de Chilin",
-      "type": "Habilidad elemental",
-      "description": "<p>Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e inflingiendo Daño Cryo en el AdE.El loto de hielo provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen. La resistencia del loto es proporcional a la Vida Max. de Ganyu. Explota cuando es destruido o una vez terminada su duración, infligiendo Daño Cryo en el AdE.</p>",
-      "modifiers": []
+      "description": "Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e infligiendo <span>Daño Cryo en el AdE</span>.\\n<span>Loto de hielo</span>\\n·Provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen.\\n·La resistencia del loto es proporcional a la Vida Máx. de Ganyu.\\n·Explota cuando es destruido o una vez terminada su duración, infligiendo <span>Daño Cryo en el AdE</span>.\\n\\n<i>“¿Dices que me viste? Debe haber sido un error. A esas horas estaba trabajando horas extras”</i>.",
+      "attributes": [
+        [
+          "Vida del loto",
+          [
+            "120% de Vida Máx.",
+            "129% de Vida Máx.",
+            "138% de Vida Máx.",
+            "150% de Vida Máx.",
+            "159% de Vida Máx.",
+            "168% de Vida Máx.",
+            "180% de Vida Máx.",
+            "192% de Vida Máx.",
+            "204% de Vida Máx.",
+            "216% de Vida Máx.",
+            "228% de Vida Máx.",
+            "240% de Vida Máx.",
+            "255% de Vida Máx.",
+            "270% de Vida Máx.",
+            "285% de Vida Máx."
+          ]
+        ],
+        [
+          "Daño de habilidad",
+          [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "celestial_shower",
       "name": "Diluvio celestial",
-      "type": "Impulso elemental",
-      "description": "<p>Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.</p><pre>Mientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen Daño Cryo.</pre>",
-      "modifiers": []
+      "description": "Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.\\nMientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen <span>Daño Cryo</span>.\\n\\n<i>Ganyu puede provocar una lluvia sin problemas. Pero contra los demonios y los herejes, esa lluvia se convierte en una helada y amarga nieve.</i>",
+      "attributes": [
+        [
+          "Daño de carámbano",
+          [
+            "70.27%",
+            "75.54%",
+            "80.81%",
+            "87.84%",
+            "93.11%",
+            "98.38%",
+            "105.41%",
+            "112.44%",
+            "119.46%",
+            "126.49%",
+            "133.52%",
+            "140.54%",
+            "149.33%",
+            "158.11%",
+            "166.9%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "undivided_heart",
       "name": "Corazón indiviso",
-      "description": "<p>Tras lanzar una flecha helada, aumenta en un 20% la Prob.CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.</p>"
+      "description": "Tras lanzar una flecha helada, aumenta en un 20% la Prob. CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.",
+      "level": 1
     },
     {
       "id": "harmony_between_heaven_and_earth",
       "name": "Armonía entre el Cielo y la Tierra",
-      "description": "<p>Los personajes del equipo dentro del área de Diluvio celestial obtienen un 20% de <b>Bono de Daño Cryo</b>.</p>"
+      "description": "Los personajes en uso que se encuentren dentro del área de <span>Diluvio celestial</span> obtienen un 20% de <span>Bono de Daño Cryo</span>.",
+      "level": 4
     },
     {
       "id": "preserved_for_the_hunt",
       "name": "Arco de repuesto",
-      "description": "<p>Recupera el 15% de los minerales utilizados en la fabricación de arcos.</p>"
+      "description": "Recupera el 15% de los minerales utilizados en la fabricación de arcos.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "dewdrinker",
       "name": "Bebedora de rocío",
-      "description": "Reduce en un 15% la RES Cryo de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s. Además, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
+      "description": "Reduce en un 15% la <span>RES Cryo</span> de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s.\\nAdemás, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de Carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
       "level": 1
     },
     {
+      "id": "the_auspicious",
       "name": "La auspiciosa",
-      "description": "Aumenta en 1 las cargas de Senda de Chilin.",
+      "description": "Aumenta en 1 las cargas de <span>Senda de Chilin</span>.",
       "level": 2
     },
     {
+      "id": "cloudstrider",
       "name": "Jinete de las nubes",
-      "description": "Aumenta el nivel de habilidad de Diluvio celestial +3.\nPuede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Diluvio celestial</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "westward_sojourn",
       "name": "Viaje al Oeste",
-      "description": "Los enemigos une estén en el AdE de Diluvio celestial reciben daño adicional. Este efecto se fortalece con el tiempo.\nEl daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.\n\nEste efecto persiste durante 3 s después de que el enémigo se aleje del AdE de la habilidad.",
+      "description": "Los enemigos que estén en el AdE de <span>Diluvio celestial</span> reciben daño adicional. Este efecto se fortalece con el tiempo.\\nEl daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.\\nEste efecto persiste durante 3 s después de que el enemigo se aleje del AdE de la habilidad.",
       "level": 4
     },
     {
+      "id": "the_merciful",
       "name": "La misericordiosa",
-      "description": "Aumenta el nivel de habilidad de Senda de Chilin +3.\nPuede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Senda de Chilin</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "the_clement",
       "name": "La clemente",
-      "description": "Utilizar Senda de Chilin hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
+      "description": "Utilizar <span>Senda de Chilin</span> hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de jade shivada" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "shivada_jade_sliver",
+        "name": "Pedacito de jade shivada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar de Megaflora" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Néctar de Megaflora",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar brillante" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Néctar brillante",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Jade shivada" },
-      "mat2": { "name": "Núcleo de escarcha" },
-      "mat3": { "name": "Flor chingxin" },
-      "mat4": { "name": "Néctar energético" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "shivada_jade_gemstone",
+        "name": "Jade shivada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Núcleo de escarcha",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "qingxin",
+        "name": "Flor chingxin",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Néctar energético",
+        "amount": 24
+      }
     }
   ]
 }

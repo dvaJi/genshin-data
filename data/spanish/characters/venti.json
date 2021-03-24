@@ -1,115 +1,650 @@
 {
   "id": "venti",
   "name": "Venti",
-  "description": "Un bardo misterioso al que le gusta recitar tanto viejos poemas como nuevas canciones de moda. Le encantan las manzanas y los ambientes animados, odia el queso y las cosas pegajosas. Su poder suele manifestarse en forma de plumas y viento, seguramente debido a su obsesión por los objetos ligeros y voladores.",
-  "titles": ["Arconte Anemo", "Bardo de Pacotilla (por Paimon)"],
+  "title": "el Bardo Itinerante",
+  "description": "Uno de los muchos bardos de Mondstadt que deambula libremente por las calles y callejones de la ciudad.",
+  "weapon_type": "Arco",
+  "element": "Anemo",
+  "gender": "Masculino",
+  "substat": "Recarga de Energía",
+  "affiliation": "Mondstadt",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [
+    16,
+    6
+  ],
+  "constellation": "Carmen Dei",
+  "cv": {
+    "english": "Erika Harlacher",
+    "chinese": "喵酱",
+    "japanese": "村瀬歩",
+    "korean": "정유정"
+  },
   "skills": [
     {
-      "id": "divine_marksmanship",
-      "name": "Puntería divina",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b>Realiza hasta 6 disparos consecutivos con arco. </p><p><b>Ataque Cargado:</b>Dispara un Tiro preciso que inflige mayor daño. Al apuntar, se acumularán vientos favorables en la punta de flecha. Una flecha con fuerza del viento totalmente cargada infligirá Daño Anemo.</p><p><b>Ataque descendiente:</b> Dispara una lluvia de flechas desde el aire y desciende rápidamente, causando daño a distancia al impactar en el suelo.</p>",
-      "modifiers": []
+      "id": "normal_attack_divine_marksmanship",
+      "name": "Ataque Normal: Puntería divina",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 6 disparos consecutivos con arco.\\n\\n<span>Ataque Cargado</span>\\nRealiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.\\nAl apuntar, se acumularán vientos favorables en la punta de la flecha. Una flecha totalmente cargada con la fuerza del viento infligirá <span>Daño Anemo</span>.\\n\\n<span>Ataque Descendente</span>\\nDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "20.38% + 20.38%",
+            "22.04% + 22.04%",
+            "23.7% + 23.7%",
+            "26.07% + 26.07%",
+            "27.73% + 27.73%",
+            "29.62% + 29.62%",
+            "32.23% + 32.23%",
+            "34.84% + 34.84%",
+            "37.45% + 37.45%",
+            "40.29% + 40.29%",
+            "43.55% + 43.55%",
+            "47.38% + 47.38%",
+            "51.21% + 51.21%",
+            "55.05% + 55.05%",
+            "59.23% + 59.23%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "44.38%",
+            "47.99%",
+            "51.6%",
+            "56.76%",
+            "60.37%",
+            "64.5%",
+            "70.18%",
+            "75.85%",
+            "81.53%",
+            "87.72%",
+            "94.81%",
+            "103.16%",
+            "111.5%",
+            "119.85%",
+            "128.95%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "52.37%",
+            "56.64%",
+            "60.9%",
+            "66.99%",
+            "71.25%",
+            "76.13%",
+            "82.82%",
+            "89.52%",
+            "96.22%",
+            "103.53%",
+            "111.9%",
+            "121.75%",
+            "131.6%",
+            "141.45%",
+            "152.19%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "26.06% + 26.06%",
+            "28.18% + 28.18%",
+            "30.3% + 30.3%",
+            "33.33% + 33.33%",
+            "35.45% + 35.45%",
+            "37.87% + 37.87%",
+            "41.21% + 41.21%",
+            "44.54% + 44.54%",
+            "47.87% + 47.87%",
+            "51.51% + 51.51%",
+            "55.68% + 55.68%",
+            "60.58% + 60.58%",
+            "65.48% + 65.48%",
+            "70.37% + 70.37%",
+            "75.72% + 75.72%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "50.65%",
+            "54.78%",
+            "58.9%",
+            "64.79%",
+            "68.91%",
+            "73.62%",
+            "80.1%",
+            "86.58%",
+            "93.06%",
+            "100.13%",
+            "108.23%",
+            "117.75%",
+            "127.28%",
+            "136.8%",
+            "147.19%"
+          ]
+        ],
+        [
+          "Daño de 6º golpe",
+          [
+            "70.95%",
+            "76.73%",
+            "82.5%",
+            "90.75%",
+            "96.53%",
+            "103.13%",
+            "112.2%",
+            "121.27%",
+            "130.35%",
+            "140.25%",
+            "151.59%",
+            "164.93%",
+            "178.27%",
+            "191.61%",
+            "206.17%"
+          ]
+        ],
+        [
+          "Disparo Preciso",
+          [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "93.71%",
+            "101.96%",
+            "110.21%",
+            "118.45%",
+            "127.45%"
+          ]
+        ],
+        [
+          "Disparo Preciso (carga completa)",
+          [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "236.1%",
+            "252.96%",
+            "269.82%",
+            "286.69%",
+            "303.55%"
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "skyward_sonnet",
       "name": "Sonata celestial",
-      "type": "Habilidad elemental",
-      "description": "<p>¡Oh viento sobre el que vuelan todos los himnos y cantos, lleva a estos caminantes de la tierra hacia los cielos! </p><p>Pulsar una vez Invoca un campo de viento en la ubicación del enemigo, infligiendo Daño Anemo de Área y lanzando a los enemigos por el aire. </p><p>Mantener pulsado Invoca un campo de viento aún más grande con Venti como epicentro, infligiendo Daño Anemo de Área y lanzando a los enemigos afectados al aire. Después de soltar esta habilidad, Venti cabalga el viento en el aire.</p>",
-      "modifiers": []
+      "description": "#Oh, viento que lleva consigo la música y la poesía, ¡llévate a estos caminantes de la tierra a los cielos!\\n\\n<span>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Un clic}{LAYOUT_PS#Pulsar una vez}</span>\\nInvoca un campo de viento en la ubicación del enemigo, infligiendo <span>Daño Anemo en el AdE</span> y lanzando a los enemigos por los aires.\\n\\n<span>Mantener pulsado</span>\\nInvoca un campo de viento aún más grande con Venti como epicentro, infligiendo <span>Daño Anemo en el AdE</span> y lanzando por los aires a los enemigos afectados.\\nAl mantener pulsada esta habilidad, Venti también alzará el vuelo.\\n\\nLos enemigos golpeados por Sonata celestial caerán al suelo lentamente.\\n\\n<i>En los días en que dioses y hombres caminaban juntos por la tierra, los cielos estaban llenos de innumerables canciones. Sin embargo, esta melodía fue olvidada hace mucho tiempo.</i>",
+      "attributes": [
+        [
+          "#Daño {LAYOUT_MOBILE#por toque}{LAYOUT_PC#por clic}{LAYOUT_PS#al pulsar}",
+          [
+            "276%",
+            "296.7%",
+            "317.4%",
+            "345%",
+            "365.7%",
+            "386.4%",
+            "414%",
+            "441.6%",
+            "469.2%",
+            "496.8%",
+            "524.4%",
+            "552%",
+            "586.5%",
+            "621%",
+            "655.5%"
+          ]
+        ],
+        [
+          "#TdE {LAYOUT_MOBILE#por toque}{LAYOUT_PC#por clic}{LAYOUT_PS#por pulsar}",
+          [
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s"
+          ]
+        ],
+        [
+          "Daño de mantener pulsado",
+          [
+            "380%",
+            "408.5%",
+            "437%",
+            "475%",
+            "503.5%",
+            "532%",
+            "570%",
+            "608%",
+            "646%",
+            "684%",
+            "722%",
+            "760%",
+            "807.5%",
+            "855%",
+            "902.5%"
+          ]
+        ],
+        [
+          "TdE de mantener pulsado",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "winds_grand_ode",
       "name": "Gran Oda del Viento",
-      "type": "Impulso elemental",
-      "description": "<p>Dispara una flecha hecha de innumerables vientos fusionados, creando un enorme Ojo de la Tormenta que absorbe objetos y enemigos a su paso e inflige Daño Anemo. </p><p>Cambio elemental Si el Ojo de la tormenta entra en contacto con Hydro/Pyro/Cryo/Electro, inflige Daño elemental adicional de ese tipo. El cambio elemental solo puede ocurrir una vez por uso.</p>",
-      "modifiers": []
+      "description": "Dispara una flecha imbuida de viento, creando un enorme ciclón que atrae a los enemigos e inflige <span>Daño Anemo</span>.\\n\\n<span>Cambio elemental</span>\\nSi el ciclón entra en contacto con <span>Hydro</span>/<span>Pyro </span>/<span>Cryo</span>/<span>Electro</span>, inflige Daño Elemental adicional de ese tipo.\\nEl cambio elemental solo puede ocurrir una vez por uso.\\n\\n<i>Muchos himnos escritos en alabanza al Arconte Anemo se han perdido en el tiempo. Este canta sobre su dominio del viento.</i>",
+      "attributes": [
+        [
+          "Daño continuo",
+          [
+            "37.6%",
+            "40.42%",
+            "43.24%",
+            "47%",
+            "49.82%",
+            "52.64%",
+            "56.4%",
+            "60.16%",
+            "63.92%",
+            "67.68%",
+            "71.44%",
+            "75.2%",
+            "79.9%",
+            "84.6%",
+            "89.3%"
+          ]
+        ],
+        [
+          "Daño Elemental adicional",
+          [
+            "18.8%",
+            "20.21%",
+            "21.62%",
+            "23.5%",
+            "24.91%",
+            "26.32%",
+            "28.2%",
+            "30.08%",
+            "31.96%",
+            "33.84%",
+            "35.72%",
+            "37.6%",
+            "39.95%",
+            "42.3%",
+            "44.65%"
+          ]
+        ],
+        [
+          "Duración",
+          [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "embrace_of_winds",
       "name": "Abraza los vientos",
-      "description": "<p>Mantener pulsado la Sonata celestial genera corrientes de viento ascendentes con una duración de 20 s.</p>"
+      "description": "Mantener pulsado <span>Sonata celestial</span> genera corrientes de viento ascendentes con una duración de 20 s.",
+      "level": 1
     },
     {
       "id": "stormeye",
       "name": "Ojo del huracán",
-      "description": "<p>Después de que termine el efecto de Gran Oda del Viento, Venti restaurará 15 puntos de Energía Elemental. Si ocurre un cambio elemental, también restaurará 15 pts. de Energía Elemental a todos los personajes con los elementos correspondientes.</p>"
+      "description": "Al terminar el efecto de <span>Gran Oda del Viento</span>, Venti restaurará 15 pts. de Energía Elemental.\\nSi ocurre un cambio elemental, también restaurará 15 pts. de Energía Elemental a todos los personajes con el elemento al que cambió el ciclón.",
+      "level": 4
     },
     {
       "id": "windrider",
       "name": "Jinete del viento",
-      "description": "<p>Disminuye el consumo de Aguante al planear en un 20%.</p>"
+      "description": "Disminuye en un 20% el Coste de Aguante al planear de todos los miembros de tu equipo.\\nNo se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "splitting_gales",
       "name": "Vendaval feroz",
-      "description": "Dispara 2 flechas adicionales por cada Tiro preciso, infligiendo cada uno 33% del Daño de la flecha original.",
+      "description": "Dispara 2 flechas adicionales por cada <span>Disparo Preciso</span>. Cada una inflige un 33% del daño de la flecha original.",
       "level": 1
     },
     {
+      "id": "breeze_of_reminiscence",
       "name": "Brisa de reminiscencia",
-      "description": "Sonata celestial reduce la RES Anemo del enemigo en un 12% durante 10 s. Los enemigos lanzados al aire por Sonata celestial sufren una reducción adicional del 12% de RES Anemo y de RES física.",
+      "description": "<span>Sonata celestial</span> reduce la <span>RES Anemo</span> y la RES Física del enemigo en un 12% durante 10 s.\\nLos enemigos lanzados al aire por <span>Sonata celestial</span> sufren una reducción adicional del 12% de <span>RES Anemo</span> y de RES física.",
       "level": 2
     },
     {
+      "id": "ode_to_thousand_winds",
       "name": "Oda a los Mil Vientos",
-      "description": "Aumenta el nivel de habilidad de Gran Oda del Viento +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Gran Oda del Viento</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "hurricane_of_freedom",
       "name": "Huracán de la libertad",
-      "description": "Venti obtiene un 25% de Bono de Daño Anemo durante 10 s tras recoger un Orbe Elemental o una Partícula Elemental.",
+      "description": "Venti obtiene un 25% de <span>Bono de Daño Anemo</span> durante 10 s tras recoger un orbe o una partícula elemental.",
       "level": 4
     },
     {
+      "id": "concerto_dal_cielo",
       "name": "Concierto celestial",
-      "description": "Aumenta el nivel de habilidad de Sonata celestial +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Sonata celestial</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
-      "name": "Tormenta de desafío",
-      "description": "Gran Oda del Viento reduce la RES Anemo del enemigo en un 20%. Si ocurriera un cambio elemental durante Gran Oda del Viento, la RES Elemental del nuevo atributo se reducirá un 20%.",
+      "id": "storm_of_defiance",
+      "name": "Tormenta de la rebelión",
+      "description": "<span>Gran Oda del Viento</span> reduce la RES Anemo del enemigo en un 20%.\\nSi ocurre un cambio elemental durante <span>Gran Oda del Viento</span>, la RES Elemental del nuevo atributo se reducirá en un 20%.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de turquesa vayuda" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "vayuda_turquoise_sliver",
+        "name": "Pedacito de turquesa vayuda",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Turquesa vayuda" },
-      "mat2": { "name": "Semilla de Huracán" },
-      "mat3": { "name": "Cecilia" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Turquesa vayuda",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "hurricane_seed",
+        "name": "Semilla de huracán",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 24
+      }
     }
   ]
 }

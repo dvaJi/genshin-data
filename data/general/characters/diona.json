@@ -1,132 +1,581 @@
 {
   "id": "diona",
   "name": "Diona",
-  "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredible popular bartender of the Cat's Tail tavern.",
+  "title": "Kätzlein Cocktail",
+  "description": "A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat's Tail tavern.",
   "weapon_type": "Bow",
   "element": "Cryo",
   "gender": "Female",
+  "substat": "Cryo DMG Bonus",
+  "affiliation": "The Cat's Tail",
   "region": "Mondstadt",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Kätzlein Cocktail", "Wine Industry Slayer (Self-proclaimed)"],
+  "birthday": [
+    18,
+    1
+  ],
+  "constellation": "Feles",
+  "cv": {
+    "english": "Dina Sherman",
+    "chinese": "诺亚",
+    "japanese": "井澤詩織",
+    "korean": "우정신"
+  },
   "skills": [
     {
-      "id": "ktzlein_style",
-      "name": "Kätzlein Style",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 5 consecutive shots with a bow.<p><b>Charged Attack:</b> Perform a more precise Aimed Shot with increased DMG. While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span style=\"color:#4878a8\"><b>Cryo Damage</b></span>.<b>Plunging Attack:</b> Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG on impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_ktzlein_style",
+      "name": "Normal Attack: Kätzlein Style",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 consecutive shots with a bow.\\n\\n<span>Charged Attack</span>\\nPerform a more precise <span>Aimed Shot</span> with increased DMG.\\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span>Cryo DMG</span>.\\n\\n<span>Plunging Attack</span>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "77.17%",
+            "83.97%",
+            "90.76%",
+            "97.55%",
+            "104.96%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "33.54%",
+            "36.27%",
+            "39%",
+            "42.9%",
+            "45.63%",
+            "48.75%",
+            "53.04%",
+            "57.33%",
+            "61.62%",
+            "66.3%",
+            "71.66%",
+            "77.97%",
+            "84.28%",
+            "90.58%",
+            "97.46%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "45.58%",
+            "49.29%",
+            "53%",
+            "58.3%",
+            "62.01%",
+            "66.25%",
+            "72.08%",
+            "77.91%",
+            "83.74%",
+            "90.1%",
+            "97.39%",
+            "105.96%",
+            "114.53%",
+            "123.1%",
+            "132.45%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "43%",
+            "46.5%",
+            "50%",
+            "55%",
+            "58.5%",
+            "62.5%",
+            "68%",
+            "73.5%",
+            "79%",
+            "85%",
+            "91.87%",
+            "99.96%",
+            "108.05%",
+            "116.13%",
+            "124.95%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "53.75%",
+            "58.13%",
+            "62.5%",
+            "68.75%",
+            "73.12%",
+            "78.13%",
+            "85%",
+            "91.87%",
+            "98.75%",
+            "106.25%",
+            "114.84%",
+            "124.95%",
+            "135.06%",
+            "145.16%",
+            "156.19%"
+          ]
+        ],
+        [
+          "Aimed Shot",
+          [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "93.71%",
+            "101.96%",
+            "110.21%",
+            "118.45%",
+            "127.45%"
+          ]
+        ],
+        [
+          "Fully-Charged Aimed Shot",
+          [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "236.1%",
+            "252.96%",
+            "269.82%",
+            "286.69%",
+            "303.55%"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
     },
     {
       "id": "icy_paws",
       "name": "Icy Paws",
-      "type": "Elemental Skill",
-      "description": "Fires an Icy Paw that deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents and forms a shield on hit. The shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.<p><b>Press:</b> Rapidly fires off <b>2</b> Icy Paws.<b>Hold:</b> Dashes back quickly before firing <b>5</b> Icy Paws. The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.The shield has a 250% <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> Absorption Bonus, and will infuse Diona with <span style=\"color:#4878a8\"><b>Cryo</b></span> at the point of formation for a short duration.Each Icy Paw which hits an opponent generates approximately <b>0.8</b> elemental particles.</p>",
-      "modifiers": []
+      "description": "#Fires an Icy Paw that deals <span>Cryo DMG</span> to opponents and forms a shield on hit.\\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\\n\\n<span>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</span>\\nRapidly fires off 2 Icy Paws.\\n\\n<span>Hold</span>\\nDashes back quickly before firing five Icy Paws.\\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\\n\\nThe shield has a 250% <span>Cryo DMG</span> Absorption Bonus, and will cause your active character to become affected by <span>Cryo</span> at the point of formation for a short duration.\\n\\n<i>When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!</i>",
+      "attributes": [
+        [
+          "Icy Paw DMG",
+          [
+            "41.92% per Paw",
+            "45.06% per Paw",
+            "48.21% per Paw",
+            "52.4% per Paw",
+            "55.54% per Paw",
+            "58.69% per Paw",
+            "62.88% per Paw",
+            "67.07% per Paw",
+            "71.26% per Paw",
+            "75.46% per Paw",
+            "79.65% per Paw",
+            "83.84% per Paw",
+            "89.08% per Paw",
+            "94.32% per Paw",
+            "99.56% per Paw"
+          ]
+        ],
+        [
+          "Base Shield DMG Absorption",
+          [
+            "7.2%  Max HP+ 692.8065795898438",
+            "7.74%  Max HP+ 762.0968627929688",
+            "8.28%  Max HP+ 837.1613159179688",
+            "9%  Max HP+ 918",
+            "9.54%  Max HP+ 1004.6128540039062",
+            "10.08%  Max HP+ 1096.9998779296875",
+            "10.8%  Max HP+ 1195.1611328125",
+            "11.52%  Max HP+ 1299.0965576171875",
+            "12.24%  Max HP+ 1408.80615234375",
+            "12.96%  Max HP+ 1524.2900390625",
+            "13.68%  Max HP+ 1645.5479736328125",
+            "14.4%  Max HP+ 1772.5802001953125",
+            "15.3%  Max HP+ 1905.3865966796875",
+            "16.2%  Max HP+ 2043.9671630859375",
+            "17.1%  Max HP+ 2188.322021484375"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "1.7999999523162842s per Claw",
+            "1.899999976158142s per Claw",
+            "2s per Claw",
+            "2.0999999046325684s per Claw",
+            "2.200000047683716s per Claw",
+            "2.299999952316284s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw",
+            "2.4000000953674316s per Claw"
+          ]
+        ],
+        [
+          "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+          [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        ],
+        [
+          "Holding CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ]
+      ]
     },
     {
       "id": "signature_mix",
       "name": "Signature Mix",
-      "type": "Elemental Burst",
-      "description": "Tosses out a special cold brew that deals <span style=\"color:#4878a8\"><b>AoE Cryo DMG</b></span> and creates a Drunken Mist in an AoE.<p>Every 2 seconds, for 12 seconds, <b>Drunken Mist:</b></p><ul><li>Deals <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents within the field.</li><li>Regenerates the HP of characters within the field.</li></ul>",
-      "modifiers": []
+      "description": "Tosses out a special cold brew that deals <span>AoE Cryo DMG</span> and creates a Drunken Mist in an AoE.\\n\\n<span>Drunken Mist</span>\\n·Deals continuous <span>Cryo DMG</span> to opponents within the AoE.\\n·Continuously regenerates the HP of characters within the AoE.\\n\\n<i>A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        ],
+        [
+          "Continuous Field DMG",
+          [
+            "52.64%",
+            "56.59%",
+            "60.54%",
+            "65.8%",
+            "69.75%",
+            "73.7%",
+            "78.96%",
+            "84.22%",
+            "89.49%",
+            "94.75%",
+            "100.02%",
+            "105.28%",
+            "111.86%",
+            "118.44%",
+            "125.02%"
+          ]
+        ],
+        [
+          "HP Regeneration Over Time",
+          [
+            "0.053360000252723694  Max HP+ 513.1900634765625",
+            "0.05736200138926506  Max HP+ 564.5161743164062",
+            "0.06136399880051613  Max HP+ 620.1195068359375",
+            "0.06669999659061432  Max HP+ 680",
+            "0.07070200145244598  Max HP+ 744.1576538085938",
+            "0.07470399886369705  Max HP+ 812.592529296875",
+            "0.08004000037908554  Max HP+ 885.3045654296875",
+            "0.08537600189447403  Max HP+ 962.2937622070312",
+            "0.09071200340986252  Max HP+ 1043.5601806640625",
+            "0.09604799747467041  Max HP+ 1129.103759765625",
+            "0.1013839989900589  Max HP+ 1218.9244384765625",
+            "0.10672000050544739  Max HP+ 1313.0223388671875",
+            "0.1133899986743927  Max HP+ 1411.3974609375",
+            "0.12005999684333801  Max HP+ 1514.0498046875",
+            "0.12672999501228333  Max HP+ 1620.979248046875"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "cats_tail_secret_menu",
       "name": "Cat's Tail Secret Menu",
-      "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
-      "unlock": "Ascension 1"
+      "description": "Characters shielded by <span>Icy Paws</span> have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
+      "level": 1
     },
     {
       "id": "drunkards_farce",
       "name": "Drunkards' Farce",
-      "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
-      "unlock": "Ascension 4"
+      "description": "Opponents who enter the AoE of <span>Signature Mix</span> have 10% decreased ATK for 15s.",
+      "level": 4
     },
     {
       "id": "complimentary_bar_food",
       "name": "Complimentary Bar Food",
-      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, Diona has a 12% chance to obtain double the product.",
-      "unlock": ""
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "a_lingering_flavor",
       "name": "A Lingering Flavor",
-      "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
+      "description": "Regenerates 15 Energy for Diona after the effects of <span>Signature Mix</span> end.",
       "level": 1
     },
     {
       "id": "shaken_not_purred",
       "name": "Shaken, Not Purred",
-      "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
+      "description": "Increases <span>Icy Paws</span>' DMG by 15%, and increases its shield's DMG Absorption by 15%.\\nAdditionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the <span>Icy Paws</span> shield's DMG Absorption for 5s.",
       "level": 2
     },
     {
       "id": "aanother_round",
-      "name": "A-Another Round?",
-      "description": "Increases the Level of Signature Mix by 3. Maximum upgrade level is 15.",
+      "name": "A—Another Round?",
+      "description": "Increases the Level of <span>Signature Mix</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "wine_industry_slayer",
       "name": "Wine Industry Slayer",
-      "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%.",
+      "description": "Within the radius of <span>Signature Mix</span>, Diona's charge time for aimed shots is reduced by 60%",
       "level": 4
     },
     {
       "id": "double_shot_on_the_rocks",
       "name": "Double Shot, On The Rocks",
-      "description": "Increases the Level of Icy Paws by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Icy Paws</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "cats_tail_closing_time",
       "name": "Cat's Tail Closing Time",
-      "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\nIncreases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\nElemental Mastery increased by 200 when HP is above 50%.",
+      "description": "Characters within <span>Signature Mix</span>'s radius will gain the following effects based on their HP amounts:\\n·Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\\n·Elemental Mastery increased by 200 when HP is above 50%.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 3 },
-      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 3 }
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Firm Arrowhead",
+        "amount": 3
+      }
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 10 },
-      "mat4": { "id": "firm_arrowhead", "name": "Firm Arrowhead", "amount": 15 }
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "firm_arrowhead",
+        "name": "Firm Arrowhead",
+        "amount": 15
+      }
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 20 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 20
+      },
       "mat4": {
         "id": "sharp_arrowhead",
         "name": "Sharp Arrowhead",
@@ -135,15 +584,26 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 30 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 30
+      },
       "mat4": {
         "id": "sharp_arrowhead",
         "name": "Sharp Arrowhead",
@@ -152,7 +612,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "shivada_jade_chunk",
@@ -164,7 +627,11 @@
         "name": "Hoarfrost Core",
         "amount": 12
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 45 },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 45
+      },
       "mat4": {
         "id": "weathered_arrowhead",
         "name": "Weathered Arrowhead",
@@ -173,7 +640,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "shivada_jade_gemstone",
@@ -185,7 +655,11 @@
         "name": "Hoarfrost Core",
         "amount": 20
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 60 },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 60
+      },
       "mat4": {
         "id": "weathered_arrowhead",
         "name": "Weathered Arrowhead",

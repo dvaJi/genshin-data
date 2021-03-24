@@ -1,106 +1,440 @@
 {
   "id": "kaeya",
   "name": "Kaeya",
+  "title": "Frostwind Swordsman",
   "description": "A thinker in the Knights of Favonius with a somewhat exotic appearance.",
   "weapon_type": "Sword",
   "element": "Cryo",
   "gender": "Male",
+  "substat": "Energy Recharge",
+  "affiliation": "Knights of Favonius",
   "region": "Mondstadt",
   "rarity": 4,
-  "location": "Wish",
-  "titles": ["Cavalry Captain", "Quartermaster", "Frostblade"],
+  "birthday": [
+    30,
+    11
+  ],
+  "constellation": "Pavo Ocellus",
+  "cv": {
+    "english": "Josey Montana McCoy",
+    "chinese": "孙晔",
+    "japanese": "鳥海浩輔",
+    "korean": "정주원"
+  },
   "skills": [
     {
-      "id": "ceremonial_bladework",
-      "name": "Ceremonial Bladework",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Performs up to 5 rapid strikes.<p><b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>",
-      "modifiers": []
+      "id": "normal_attack_ceremonial_bladework",
+      "name": "Normal Attack: Ceremonial Bladework",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "53.75%",
+            "58.13%",
+            "62.5%",
+            "68.75%",
+            "73.12%",
+            "78.13%",
+            "85%",
+            "91.87%",
+            "98.75%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "51.69%",
+            "55.89%",
+            "60.1%",
+            "66.11%",
+            "70.32%",
+            "75.13%",
+            "81.74%",
+            "88.35%",
+            "94.96%",
+            "102.17%",
+            "110.43%",
+            "120.15%",
+            "129.87%",
+            "139.59%",
+            "150.19%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "65.27%",
+            "70.59%",
+            "75.9%",
+            "83.49%",
+            "88.8%",
+            "94.88%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "70.86%",
+            "76.63%",
+            "82.4%",
+            "90.64%",
+            "96.41%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "88.24%",
+            "95.42%",
+            "102.6%",
+            "112.86%",
+            "120.04%",
+            "128.25%",
+            "139.54%",
+            "150.82%",
+            "162.11%",
+            "174.42%",
+            "188.53%",
+            "205.12%",
+            "221.71%",
+            "238.3%",
+            "256.4%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "55.04% + 73.1%",
+            "59.52% + 79.05%",
+            "64% + 85%",
+            "70.4% + 93.5%",
+            "74.88% + 99.45%",
+            "80% + 106.25%",
+            "87.04% + 115.6%",
+            "94.08% + 124.95%",
+            "101.12% + 134.3%",
+            "108.8% + 144.5%",
+            "117.6% + 156.19%",
+            "127.95% + 169.93%",
+            "138.3% + 183.68%",
+            "148.65% + 197.42%",
+            "159.94% + 212.42%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ],
+        [
+          "4-hit DMG",
+          [
+            "103%",
+            "112.06%",
+            "121.13%",
+            "130.19%",
+            "140.08%",
+            "151.41%",
+            "164.73%",
+            "178.06%",
+            "191.38%",
+            "205.92%"
+          ]
+        ],
+        [
+          "3-hit DMG",
+          [
+            "103.22%",
+            "111.57%",
+            "119.92%",
+            "129.03%",
+            "139.47%",
+            "151.74%",
+            "164.01%",
+            "176.29%",
+            "189.67%"
+          ]
+        ],
+        [
+          "1-hit DMG",
+          [
+            "106.25%",
+            "114.84%",
+            "124.95%",
+            "135.06%",
+            "145.16%",
+            "156.19%"
+          ]
+        ]
+      ]
     },
     {
       "id": "frostgnaw",
       "name": "Frostgnaw",
-      "type": "Elemental Skill",
-      "description": "Unleashes a frigid blast, dealing <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents in front of Kaeya. <p>Generates <b>2.5</b> elemental particles when it hits at least 1 target.</p>",
-      "modifiers": []
+      "description": "Unleashes a frigid blast, dealing <span>Cryo DMG</span> to opponents in front of Kaeya.\\n\\n<i>Kaeya seems affable, but his nature is that of unyielding ice.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "191.2%",
+            "205.54%",
+            "219.88%",
+            "239%",
+            "253.34%",
+            "267.68%",
+            "286.8%",
+            "305.92%",
+            "325.04%",
+            "344.16%",
+            "363.28%",
+            "382.4%",
+            "406.3%",
+            "430.2%",
+            "454.1%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        ]
+      ]
     },
     {
       "id": "glacial_waltz",
       "name": "Glacial Waltz",
-      "type": "Elemental Burst",
-      "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve 4 times around him for 8 seconds.These icicles will follow the character around and deal <span style=\"color:#4878a8\"><b>Cryo DMG</b></span> to opponents in their path for so long as they persist.",
-      "modifiers": []
+      "description": "Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.\\nThese icicles will follow the character around and deal <span>Cryo DMG</span> to opponents in their path for the ability's duration.\\n\\n<i>A winsome smile, genial words, and the merciless hoarfrost that lies beneath... These are all Kaeya's weapons.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "77.6%",
+            "83.42%",
+            "89.24%",
+            "97%",
+            "102.82%",
+            "108.64%",
+            "116.4%",
+            "124.16%",
+            "131.92%",
+            "139.68%",
+            "147.44%",
+            "155.2%",
+            "164.9%",
+            "174.6%",
+            "184.3%"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "coldblooded_strike",
       "name": "Cold-Blooded Strike",
-      "description": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
-      "unlock": "Ascension 1"
+      "description": "Every hit with <span>Frostgnaw</span> regenerates HP for Kaeya equal to 15% of his ATK.",
+      "level": 1
     },
     {
       "id": "glacial_heart",
       "name": "Glacial Heart",
-      "description": "Opponents <span style=\"color:#4878a8\"><b>Frozen</b></span> by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
-      "unlock": "Ascension 4"
+      "description": "Opponents <span>Frozen</span> by <span>Frostgnaw</span> will drop additional Elemental Particles.\\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
+      "level": 4
     },
     {
       "id": "hidden_strength",
       "name": "Hidden Strength",
-      "description": "Decreases sprinting Stamina consumption of your characters in the party by 20%.<p>Not stackable with Passive Talents that provide the exact same effects.</p>",
-      "unlock": ""
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "excellent_blood",
       "name": "Excellent Blood",
-      "description": "The CRIT Rate of Kaeya's Normal Attack and Charge Attacks against opponents affected by the Cryo is increased by 15%.",
+      "description": "The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by <span>Cryo</span> is increased by 15%.",
       "level": 1
     },
     {
       "id": "neverending_performance",
       "name": "Never-Ending Performance",
-      "description": "Every time Glacial Waltz defeats an opponent, its duration is increased by 2.5s, up to a maximum of 15s. *The description is incorrect, duration extension takes effect on any enemy defeat, not just enemies defeated by Glacial Waltz.",
+      "description": "Every time <span>Glacial Waltz</span> defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s.",
       "level": 2
     },
     {
       "id": "dance_of_frost",
       "name": "Dance of Frost",
-      "description": "Increases the Level of Frostgnaw by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Frostgnaw</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "frozen_kiss",
       "name": "Frozen Kiss",
-      "description": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs Cryo DMG with 250% efficiency.\nCan only occur once every 60s.",
+      "description": "Triggers automatically when Kaeya's HP falls below 20%:\\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\\nThis shield absorbs <span>Cryo DMG</span> with 250% efficiency.\\nCan only occur once every 60s.",
       "level": 4
     },
     {
       "id": "frostbiting_embrace",
       "name": "Frostbiting Embrace",
-      "description": "Increases the level of Glacial Waltz by 3. Max upgrade level is 15.",
+      "description": "Increases the Level of <span>Glacial Waltz</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "glacial_whirlwind",
       "name": "Glacial Whirlwind",
-      "description": "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
+      "description": "<span>Glacial Waltz</span> will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 3 },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 3
+      },
       "mat4": {
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
@@ -109,15 +443,26 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 2 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 10 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 10
+      },
       "mat4": {
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
@@ -126,15 +471,26 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 4 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 20 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 20
+      },
       "mat4": {
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
@@ -143,15 +499,26 @@
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3
       },
-      "mat2": { "id": "hoarfrost_core", "name": "Hoarfrost Core", "amount": 8 },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 30 },
+      "mat2": {
+        "id": "hoarfrost_core",
+        "name": "Hoarfrost Core",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 30
+      },
       "mat4": {
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
@@ -160,7 +527,10 @@
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "shivada_jade_chunk",
@@ -172,7 +542,11 @@
         "name": "Hoarfrost Core",
         "amount": 12
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 45 },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 45
+      },
       "mat4": {
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
@@ -181,7 +555,10 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "shivada_jade_gemstone",
@@ -193,7 +570,11 @@
         "name": "Hoarfrost Core",
         "amount": 20
       },
-      "mat3": { "id": "calla_lily", "name": "Calla Lily", "amount": 60 },
+      "mat3": {
+        "id": "calla_lily",
+        "name": "Calla Lily",
+        "amount": 60
+      },
       "mat4": {
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",

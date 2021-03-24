@@ -1,115 +1,690 @@
 {
   "id": "zhongli",
   "name": "Zhongli",
-  "description": "Un misterioso hombre invitado por la Funeraria Wangsheng. Un gran conocedor de todos los saberes. Zhongli no parpadea al pagar (o pedir a otros que paguen). Con gusto paga el precio, sin importar cuán irrazonable sea, y pagará incluso más por las cosas que le gustan. La parte divertida es que Zhongli siempre olvida llevar su dinero con él.",
-  "titles": ["El Vagabundo del Mundo Mortal", "Rex Lapis (en Liyue)"],
+  "title": "el Vagabundo del Reino Mortal",
+  "description": "Misterioso invitado de la Funeraria El Camino. Erudito y con información sobre todo tipo de cosas.",
+  "weapon_type": "Lanza",
+  "element": "Geo",
+  "gender": "Masculino",
+  "substat": "Bono de Daño Geo",
+  "affiliation": "Liyue",
+  "region": "Liyue",
+  "rarity": 5,
+  "birthday": [
+    31,
+    12
+  ],
+  "constellation": "¿?",
+  "cv": {
+    "english": "Keith Silverstein",
+    "chinese": "彭博",
+    "japanese": "前野智昭",
+    "korean": "표영재"
+  },
   "skills": [
     {
-      "id": "rain_of_stone",
-      "name": "Lluvia pétrea",
-      "type": "Ataque normal",
-      "description": "<p><b>Ataque Normal:</b> Realiza hasta 6 ataques rápidos con lanza.</p><p><b>Ataque Cargado:</b> Consume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.</p><p><b>Ataque descendiente:</b> Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.</p>",
-      "modifiers": []
+      "id": "normal_attack_rain_of_stone",
+      "name": "Ataque Normal: Lluvia pétrea",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 6 ataques rápidos con lanza.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "30.77%",
+            "33.27%",
+            "35.78%",
+            "39.36%",
+            "41.86%",
+            "44.72%",
+            "48.66%",
+            "52.59%",
+            "56.53%",
+            "60.82%",
+            "65.74%",
+            "71.53%",
+            "77.31%",
+            "83.1%",
+            "89.41%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "31.15%",
+            "33.69%",
+            "36.22%",
+            "39.85%",
+            "42.38%",
+            "45.28%",
+            "49.26%",
+            "53.25%",
+            "57.23%",
+            "61.58%",
+            "66.56%",
+            "72.42%",
+            "78.27%",
+            "84.13%",
+            "90.52%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "38.58%",
+            "41.72%",
+            "44.86%",
+            "49.34%",
+            "52.48%",
+            "56.07%",
+            "61%",
+            "65.94%",
+            "70.87%",
+            "76.26%",
+            "82.42%",
+            "89.68%",
+            "96.93%",
+            "104.18%",
+            "112.1%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "42.94%",
+            "46.43%",
+            "49.93%",
+            "54.92%",
+            "58.42%",
+            "62.41%",
+            "67.9%",
+            "73.4%",
+            "78.89%",
+            "84.88%",
+            "91.74%",
+            "99.82%",
+            "107.89%",
+            "115.97%",
+            "124.77%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "10.75% ×4",
+            "11.63% ×4",
+            "12.5% ×4",
+            "13.75% ×4",
+            "14.62% ×4",
+            "15.63% ×4",
+            "17% ×4",
+            "18.38% ×4",
+            "19.75% ×4",
+            "21.25% ×4",
+            "22.97% ×4",
+            "24.99% ×4",
+            "27.01% ×4",
+            "29.03% ×4",
+            "31.24% ×4"
+          ]
+        ],
+        [
+          "Daño de 6º golpe",
+          [
+            "54.5%",
+            "58.93%",
+            "63.37%",
+            "69.7%",
+            "74.14%",
+            "79.21%",
+            "86.18%",
+            "93.15%",
+            "100.12%",
+            "107.73%",
+            "116.44%",
+            "126.69%",
+            "136.93%",
+            "147.18%",
+            "158.36%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "111.03%",
+            "120.06%",
+            "129.1%",
+            "142.01%",
+            "151.05%",
+            "161.37%",
+            "175.58%",
+            "189.78%",
+            "203.98%",
+            "219.47%",
+            "237.22%",
+            "258.1%",
+            "278.97%",
+            "299.85%",
+            "322.62%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "dominus_lapidis",
       "name": "Dominus lapidis",
-      "type": "Habilidad elemental",
-      "description": "<p>Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.</p><p><b>Un clic:</b> Controla el poder omnipresente de la tierra para solidificarlo en una Cresta de piedra que inflige Daño Geo en el AdE. La Cresta de piedra resonará con los objetos Geo cercanos, infligiendo Daño Geo a los enemigos de alrededor. La Cresta de piedra es considerada una creación Geo, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.</p><p><b>Mantener pulsado:</b>Hace que los elementos Geo cercanos exploten, provocando los siguientes efectos: </p><ul><li>Crea un escudo de jade. La cantidad de absorción de daño del escudo se basa en la Vida Máx. de Zhongli, y dicho escudo tiene un 250% de absorción de Daño Geo.</li><li>Inflige Daño Geo en el AdE.</li><li>Si hay enemigos cercanos afectados por el Elemento Geo, absorberá una gran cantidad de Elemento Geo de un máximo de dos objetivos afectados por dicho elemento. Este efecto no causa daño.</li></ul>",
-      "modifiers": []
+      "description": "#Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.\\n\\n<span>{LAYOUT_MOBILE#Un toque}{LAYOUT_PC#Un clic}{LAYOUT_PS#Presionar una vez}</span>\\nOrdena al poder Geo de la tierra que se solidifique en una cresta de piedra.\\n\\n<span>Mantener pulsado</span>\\nHace que los elementos Geo cercanos exploten, provocando los siguientes efectos:\\n·Si aún no se ha alcanzado la cantidad máxima de crestas de piedra, invocará una cresta de piedra.\\n·Crea un escudo de jade. La cantidad de absorción de daño del escudo es proporcional a la Vida Máx. de Zhongli.\\n·Inflige <span>Daño Geo en el AdE</span>.\\n·Si hay enemigos cercanos afectados por el <span>elemento Geo</span>, absorberá una gran cantidad de dicho elemento de un máximo de dos objetivos afectados por él. Este efecto no causa daño.\\n\\n<span>Cresta de piedra</span>\\nAl ser creada, inflige <span>Daño Geo en el AdE</span>.\\nLa cresta de piedra resonará con las <span>creaciones Geo</span> cercanas, infligiendo <span>Daño Geo</span> a los enemigos cercanos.\\nLa cresta de piedra es considerada una <span>creación Geo</span>, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.\\n\\n<span>Escudo de jade</span>\\nTiene un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.\\nCuando un personaje se encuentra protegido por este escudo, todas las RES Elementales y la RES Física de los enemigos cercanos a él en una pequeña AdE se reducen en un 20%. Este efecto no puede acumularse.\\n\\n<i>Un verdadero maestro de la piedra puede tallar jade y dar forma al oro.</i>",
+      "attributes": [
+        [
+          "Daño de cresta de piedra/Daño de resonancia",
+          [
+            "16% / 32%",
+            "17.2% / 34.4%",
+            "18.4% / 36.8%",
+            "20% / 40%",
+            "21.2% / 42.4%",
+            "22.4% / 44.8%",
+            "24% / 48%",
+            "25.6% / 51.2%",
+            "27.2% / 54.4%",
+            "28.8% / 57.6%",
+            "30.4% / 60.8%",
+            "32% / 64%",
+            "34% / 68%",
+            "36% / 72%",
+            "38% / 76%"
+          ]
+        ],
+        [
+          "#TdE {LAYOUT_MOBILE#por toque}{LAYOUT_PC#por clic}{LAYOUT_PS#por pulsar}",
+          [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        ],
+        [
+          "Daño al mantener pulsado",
+          [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        ],
+        [
+          "Absorción base de escudo",
+          [
+            "1232.4107666015625",
+            "1355.6690673828125",
+            "1489.19873046875",
+            "1633",
+            "1787.07275390625",
+            "1951.4169921875",
+            "2126.032958984375",
+            "2310.920166015625",
+            "2506.0791015625",
+            "2711.50927734375",
+            "2927.211181640625",
+            "3153.1845703125",
+            "3389.429443359375",
+            "3635.946044921875",
+            "3892.73388671875"
+          ]
+        ],
+        [
+          "Absorción adicional del escudo",
+          [
+            "12.8% de Vida Máx.",
+            "13.76% de Vida Máx.",
+            "14.72% de Vida Máx.",
+            "16% de Vida Máx.",
+            "16.96% de Vida Máx.",
+            "17.92% de Vida Máx.",
+            "19.2% de Vida Máx.",
+            "20.48% de Vida Máx.",
+            "21.76% de Vida Máx.",
+            "23.04% de Vida Máx.",
+            "24.32% de Vida Máx.",
+            "25.6% de Vida Máx.",
+            "27.2% de Vida Máx.",
+            "28.8% de Vida Máx.",
+            "30.4% de Vida Máx."
+          ]
+        ],
+        [
+          "Duración del escudo",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ],
+        [
+          "TdE de mantener pulsado",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "planet_befall",
       "name": "Lluvia estelar",
-      "type": "Impulso elemental",
-      "description": "<p>Atrae un meteorito a la tierra, causando Daño Geo masivo a los enemigos dentro de su AdE y aplicando el efecto de Petrificación.</p><p><b>Petrificación</b> Los enemigos bajo el efecto de Petrificación no pueden moverse.</p>",
-      "modifiers": []
+      "description": "Atrae un meteorito a la tierra, causando <span>Daño Geo</span> masivo a los enemigos dentro de su AdE y aplicando el efecto de <span>Petrificación</span>.\\n\\n<span>Petrificación</span>\\nLos enemigos bajo el efecto de <span>Petrificación</span> no pueden moverse.\\n\\n<i>El meteorito que cae castiga a los injustos.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "401.08%",
+            "444.44%",
+            "487.8%",
+            "542%",
+            "590.78%",
+            "639.56%",
+            "704.6%",
+            "769.64%",
+            "834.68%",
+            "899.72%",
+            "964.76%",
+            "1029.8%",
+            "1084%",
+            "1138.2%",
+            "1192.4%"
+          ]
+        ],
+        [
+          "Tiempo de petrificación",
+          [
+            "3.0999999046325684 s",
+            "3.200000047683716 s",
+            "3.299999952316284 s",
+            "3.4000000953674316 s",
+            "3.5 s",
+            "3.5999999046325684 s",
+            "3.700000047683716 s",
+            "3.799999952316284 s",
+            "3.9000000953674316 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "resonant_waves",
       "name": "Ondas resonantes",
-      "description": "<p>Cuando el Escudo de Jade recibe daño, genera un efecto de fortalecimiento. </p><ul><li>Los personajes con Escudo de Jade aumentan su Protección de Escudo en un 5%.</li><li>Este efecto puede acumularse hasta 5 veces y dura hasta que desaparezca el Escudo de Jade.</li></ul>"
+      "description": "Cuando el escudo de jade recibe daño, se fortalece.\\n·Cuando un personaje que está protegido por el escudo de jade recibe daño, su Protección de Escudo aumenta en un 5%.\\n·Este efecto puede acumularse hasta 5 veces y dura hasta que desaparezca el escudo de jade.",
+      "level": 1
     },
     {
       "id": "dominance_of_earth",
       "name": "Dominio de la Tierra",
-      "description": "<p>Lluvia estelar inflige daño adicional equivalente al 33% de la Vida Máx. de Zhongli.</p>"
+      "description": "El daño infligido por los siguientes ataques de Zhongli aumenta en proporción a su Vida Máx.:\\n·Aumenta el daño de Ataque Normal, Ataque Cargado y Ataque Descendente en un 1.39% de su Vida Máx.\\n·Aumenta en un 1.9% de su Vida Máx. el daño de resonancia de la cresta de piedra de <span>Dominus lapidis</span>, así como el daño de mantener pulsado.\\n·Aumenta el daño de <span>Lluvia estelar</span> en un 33% de la Vida Máx. de Zhongli.",
+      "level": 4
     },
     {
       "id": "arcanum_of_crystal",
       "name": "Cristal del destino",
-      "description": "<p>Recupera el 15% de los minerales utilizados en la fabricación de lanzas.</p>"
+      "description": "Recupera el 15% de los minerales utilizados en la fabricación de lanzas.",
+      "level": 0
     }
   ],
   "constellations": [
     {
+      "id": "rock_the_backbone_of_earth",
       "name": "Roca, el núcleo de la Tierra",
-      "description": "Dominus lapidis puede crear un máximo de 2 Crestas de piedra al mismo tiempo.",
+      "description": "<span>Dominus lapidis</span> puede crear un máximo de 2 crestas de piedra al mismo tiempo.",
       "level": 1
     },
     {
+      "id": "stone_the_cradle_of_jade",
       "name": "Piedra, el origen del jade",
-      "description": "Al caer Lluvia estelar, otorga un Escudo de jade a los personajes cercanos que están en combate.",
+      "description": "Al caer <span>Lluvia estelar</span>, otorga un escudo de jade a los personajes en uso cercanos.",
       "level": 2
     },
     {
+      "id": "jade_shimmering_through_darkness",
       "name": "Jade, el brillo del crepúsculo",
-      "description": "Aumenta el nivel de habilidad de Dominus lapidis +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Dominus lapidis</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "topaz_unbreakable_and_fearless",
       "name": "Topacio, indestructible e intrépido",
-      "description": "Aumenta el AdE de Lluvia estelar en un 20%. Además, aumenta en 2 s la duración de Petrificación de Lluvia estelar.",
+      "description": "Aumenta el AdE de <span>Lluvia estelar</span> en un 20%.\\nAdemás, aumenta en 2 s la duración de Petrificación de Lluvia estelar.",
       "level": 4
     },
     {
+      "id": "lazuli_herald_of_the_order",
       "name": "Lapislázuli, el heraldo del orden",
-      "description": "Aumenta el nivel de habilidad de Lluvia estelar +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Lluvia estelar</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "chrysos_bounty_of_dominator",
       "name": "Chrysos, la generosidad del dominador",
-      "description": "Cuando Escudo de Jade recibe daño, el 40% del daño recibido se convierte en Vida para el personaje actual. No se puede recuperar más del 8% de la Vida Máx. del personaje cada vez que se activa el efecto.",
+      "description": "Cuando el escudo de jade recibe daño, el 40% del daño recibido se convierte en Vida para el personaje en uso.\\nNo se puede recuperar más del 8% de la Vida Máx. del personaje cada vez que se activa el efecto.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de topacio prithiva" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "prithiva_topaz_sliver",
+        "name": "Pedacito de topacio prithiva",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Condensado de Slime" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Fragmento de topacio prithiva",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "slime_condensate",
+        "name": "Condensado de Slime",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Fragmento de topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Babas de Slime" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Trozo de topacio prithiva",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "slime_secretions",
+        "name": "Babas de Slime",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Trozo de topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Topacio prithiva" },
-      "mat2": { "name": "Pilar de basalto" },
-      "mat3": { "name": "Cor lapis" },
-      "mat4": { "name": "Esencia de Slime" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "prithiva_topaz_gemstone",
+        "name": "Topacio prithiva",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Pilar de basalto",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cor_lapis",
+        "name": "Cor lapis",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "slime_concentrate",
+        "name": "Esencia de Slime",
+        "amount": 24
+      }
     }
   ]
 }

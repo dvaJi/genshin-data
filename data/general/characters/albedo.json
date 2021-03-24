@@ -1,111 +1,465 @@
 {
   "id": "albedo",
   "name": "Albedo",
+  "title": "Kreideprinz",
   "description": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
   "weapon_type": "Sword",
   "element": "Geo",
   "gender": "Male",
+  "substat": "Geo DMG Bonus",
+  "affiliation": "Knights of Favonius",
   "region": "Mondstadt",
   "rarity": 5,
-  "location": "Wish",
-  "titles": [
-    "Kreideprinz",
-    "The Chalk Prince",
-    "Chief Alchemist",
-    "Captain of the Investigation Team"
+  "birthday": [
+    13,
+    9
   ],
+  "constellation": "Princeps Cretaceus",
+  "cv": {
+    "english": "Khoi Dao",
+    "chinese": "Mace",
+    "japanese": "野島健児",
+    "korean": "김명준"
+  },
   "skills": [
     {
-      "id": "favonius_bladework_weiss",
-      "name": "Favonius Bladework - Weiss",
-      "type": "Normal/Charged Attack",
-      "description": "<b>Normal Attack:</b> Perform up to 5 rapid strikes.<b>Charged Attack:</b> Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<b>Plunging Attack:</b> Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-      "modifiers": []
+      "id": "normal_attack_favonius_bladework_weiss",
+      "name": "Normal Attack: Favonius Bladework - Weiss",
+      "description": "<span>Normal Attack</span>\\nPerform up to 5 rapid strikes.\\n\\n<span>Charged Attack</span>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<span>Plunging Attack</span>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "attributes": [
+        [
+          "1-Hit DMG",
+          [
+            "36.74%",
+            "39.73%",
+            "42.72%",
+            "46.99%",
+            "49.98%",
+            "53.4%",
+            "58.1%",
+            "62.8%",
+            "67.5%",
+            "72.62%",
+            "78.5%",
+            "85.41%",
+            "92.31%",
+            "99.22%",
+            "106.76%"
+          ]
+        ],
+        [
+          "2-Hit DMG",
+          [
+            "36.74%",
+            "39.73%",
+            "42.72%",
+            "46.99%",
+            "49.98%",
+            "53.4%",
+            "58.1%",
+            "62.8%",
+            "67.5%",
+            "72.62%",
+            "78.5%",
+            "85.41%",
+            "92.31%",
+            "99.22%",
+            "106.76%"
+          ]
+        ],
+        [
+          "3-Hit DMG",
+          [
+            "47.45%",
+            "51.32%",
+            "55.18%",
+            "60.7%",
+            "64.56%",
+            "68.98%",
+            "75.04%",
+            "81.11%",
+            "87.18%",
+            "93.81%",
+            "101.39%",
+            "110.32%",
+            "119.24%",
+            "128.16%",
+            "137.89%"
+          ]
+        ],
+        [
+          "4-Hit DMG",
+          [
+            "49.75%",
+            "53.8%",
+            "57.85%",
+            "63.63%",
+            "67.68%",
+            "72.31%",
+            "78.68%",
+            "85.04%",
+            "91.4%",
+            "98.34%",
+            "106.3%",
+            "115.65%",
+            "125.01%",
+            "134.36%",
+            "144.57%"
+          ]
+        ],
+        [
+          "5-Hit DMG",
+          [
+            "62.07%",
+            "67.13%",
+            "72.18%",
+            "79.4%",
+            "84.45%",
+            "90.22%",
+            "98.16%",
+            "106.1%",
+            "114.04%",
+            "122.7%",
+            "132.63%",
+            "144.3%",
+            "155.97%",
+            "167.64%",
+            "180.38%"
+          ]
+        ],
+        [
+          "Charged Attack DMG",
+          [
+            "47.3% + 60.2%",
+            "51.15% + 65.1%",
+            "55% + 70%",
+            "60.5% + 77%",
+            "64.35% + 81.9%",
+            "68.75% + 87.5%",
+            "74.8% + 95.2%",
+            "80.85% + 102.9%",
+            "86.9% + 110.6%",
+            "93.5% + 119%",
+            "101.06% + 128.62%",
+            "109.96% + 139.94%",
+            "118.85% + 151.26%",
+            "127.74% + 162.58%",
+            "137.44% + 174.93%"
+          ]
+        ],
+        [
+          "Charged Attack Stamina Cost",
+          [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        ],
+        [
+          "Plunge DMG",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Low/High Plunge DMG",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "abiogenesis_solar_isotoma",
       "name": "Abiogenesis: Solar Isotoma",
-      "type": "Elemental Skill",
-      "description": "Albedo creates a Solar Isotoma using alchemy, which deals <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span> on appearance.<p><b>Solar Isotoma</b> has the following properties:</p><ul><li>When enemies within the Solar Isotoma zone take damage, the Solar Isotoma will generate Transient Blossoms which deal <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>. DMG dealt scales off Albedo's DEF. Transient Blossoms can only be generated once every 2s.</li><li>When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.</li><li>Solar Isotoma is a <span style=\"color:#b67607\"><b>Geo construct</b></span>.</li></ul><p><b>Hold</b> to designate the location of the skill.</p>",
-      "modifiers": []
+      "description": "Albedo creates a Solar Isotoma using alchemy, which deals <span>AoE Geo DMG</span> on appearance.\\n\\n<span>Solar Isotoma</span>\\nhas the following properties:\\n·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <span>AoE Geo DMG</span>. DMG dealt scales off Albedo's DEF. \\n·Transient Blossoms can only be generated once every 2s.\\n·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.\\n·Solar Isotoma is considered a <span>Geo construct</span>. Only one Solar Isotoma created by Albedo himself can exist at a time. \\n\\n<span>Hold</span> to designate the location of the skill.\\n\\n<i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i>",
+      "attributes": [
+        [
+          "Skill DMG",
+          [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        ],
+        [
+          "Transient Blossom DMG",
+          [
+            "133.6% DEF",
+            "143.62% DEF",
+            "153.64% DEF",
+            "167% DEF",
+            "177.02% DEF",
+            "187.04% DEF",
+            "200.4% DEF",
+            "213.76% DEF",
+            "227.12% DEF",
+            "240.48% DEF",
+            "253.84% DEF",
+            "267.2% DEF",
+            "283.9% DEF",
+            "300.6% DEF",
+            "317.3% DEF"
+          ]
+        ],
+        [
+          "Duration",
+          [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        ],
+        [
+          "Skill CD",
+          [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        ]
+      ]
     },
     {
       "id": "rite_of_progeniture_tectonic_tide",
       "name": "Rite of Progeniture: Tectonic Tide",
-      "type": "Elemental Burst",
-      "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span> in front of him.<p>If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <span style=\"color:#b67607\"><b>AoE Geo DMG</b></span>Tecotonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.</p>",
-      "modifiers": []
+      "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing <span>AoE Geo DMG</span> in front of him.\\nIf a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <span>AoE Geo DMG</span>.\\n\\nTectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.\\n\\n<i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.</i>",
+      "attributes": [
+        [
+          "Elemental Burst DMG",
+          [
+            "367.2%",
+            "394.74%",
+            "422.28%",
+            "459%",
+            "486.54%",
+            "514.08%",
+            "550.8%",
+            "587.52%",
+            "624.24%",
+            "660.96%",
+            "697.68%",
+            "734.4%",
+            "780.3%",
+            "826.2%",
+            "872.1%"
+          ]
+        ],
+        [
+          "Fatal Blossom DMG",
+          [
+            "72% each",
+            "77.4% each",
+            "82.8% each",
+            "90% each",
+            "95.4% each",
+            "100.8% each",
+            "108% each",
+            "115.2% each",
+            "122.4% each",
+            "129.6% each",
+            "136.8% each",
+            "144% each",
+            "153% each",
+            "162% each",
+            "171% each"
+          ]
+        ],
+        [
+          "CD",
+          [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        ],
+        [
+          "Energy Cost",
+          [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "calcite_might",
       "name": "Calcite Might",
-      "description": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%.",
-      "unlock": "Ascension 1"
+      "description": "Transient Blossoms generated by <span>Abiogenesis: Solar Isotoma</span> deal 25% more DMG to opponents whose HP is below 50%.",
+      "level": 1
     },
     {
       "id": "homuncular_nature",
       "name": "Homuncular Nature",
-      "description": "Using Elemental Mastery of nearby party members by 125 for 10s.",
-      "unlock": "Ascension 4"
+      "description": "Using <span>Rite of Progeniture: Tectonic Tide</span> increases the Elemental Mastery of nearby party members by 125 for 10s.",
+      "level": 4
     },
     {
-      "id": "flash_of_genius_albedo",
-      "name": "Flash of Genius (Albedo)",
+      "id": "flash_of_genius",
+      "name": "Flash of Genius",
       "description": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
-      "unlock": ""
+      "level": 0
     }
   ],
   "constellations": [
     {
       "id": "flower_of_eden",
       "name": "Flower of Eden",
-      "description": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.",
+      "description": "Transient Blossoms generated by Albedo's <span>Abiogenesis: Solar Isotoma</span> regenerate 1.2 Energy for Albedo.",
       "level": 1
     },
     {
       "id": "opening_of_phanerozoic",
       "name": "Opening of Phanerozoic",
-      "description": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:\nUnleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\nThe effect stacks up to 4 times.",
+      "description": "Transient Blossoms generated by <span>Abiogenesis: Solar Isotoma</span> grant Albedo Fatal Reckoning for 30s:\\n·Unleashing <span>Rite of Progeniture: Tectonic Tide</span> consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.\\n·This effect stacks up to 4 times.",
       "level": 2
     },
     {
       "id": "grace_of_helios",
       "name": "Grace of Helios",
-      "description": "Increases the level of Abiogenesis: Solar Isotoma by 3. Maximum upgrade level is 15.",
+      "description": "Increases the Level of <span>Abiogenesis: Solar Isotoma</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 3
     },
     {
       "id": "descent_of_divinity",
       "name": "Descent of Divinity",
-      "description": "Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE.",
+      "description": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%.",
       "level": 4
     },
     {
-      "id": "tide_of_hadaen",
-      "name": "Tide of Hadaen",
-      "description": "Increases the level of Rite of Progeniture: Tectonic Tide by 3. Maximum upgrade level is 15.",
+      "id": "tide_of_hadean",
+      "name": "Tide of Hadean",
+      "description": "Increases the Level of <span>Rite of Progeniture: Tectonic Tide</span> by 3.\\nMaximum upgrade level is 15.",
       "level": 5
     },
     {
       "id": "dust_of_purification",
       "name": "Dust of Purification",
-      "description": "If active party members within the AoE are protected by a shield created by Crystallize, Solar Isotoma increases their DMG by 17%.",
+      "description": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%.",
       "level": 6
     }
   ],
   "ascension": [
     {
       "ascension": 1,
-      "level": 20,
+      "level": [
+        20,
+        40
+      ],
       "cost": 20000,
       "mat1": {
         "id": "prithiva_topaz_sliver",
         "name": "Prithiva Topaz Sliver",
         "amount": 1
       },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 3 },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 3
+      },
       "mat4": {
         "id": "divining_scroll",
         "name": "Divining Scroll",
@@ -114,15 +468,26 @@
     },
     {
       "ascension": 2,
-      "level": 40,
+      "level": [
+        40,
+        50
+      ],
       "cost": 40000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 2 },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 10 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 10
+      },
       "mat4": {
         "id": "divining_scroll",
         "name": "Divining Scroll",
@@ -131,41 +496,82 @@
     },
     {
       "ascension": 3,
-      "level": 50,
+      "level": [
+        50,
+        60
+      ],
       "cost": 60000,
       "mat1": {
         "id": "prithiva_topaz_fragment",
         "name": "Prithiva Topaz Fragment",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 4 },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 20 },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 12 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 12
+      }
     },
     {
       "ascension": 4,
-      "level": 60,
+      "level": [
+        60,
+        70
+      ],
       "cost": 80000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 3
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 8 },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 30 },
-      "mat4": { "id": "sealed_scroll", "name": "Sealed Scroll", "amount": 18 }
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Sealed Scroll",
+        "amount": 18
+      }
     },
     {
       "ascension": 5,
-      "level": 70,
+      "level": [
+        70,
+        80
+      ],
       "cost": 100000,
       "mat1": {
         "id": "prithiva_topaz_chunk",
         "name": "Prithiva Topaz Chunk",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 12 },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 45 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 45
+      },
       "mat4": {
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
@@ -174,15 +580,26 @@
     },
     {
       "ascension": 6,
-      "level": 80,
+      "level": [
+        80,
+        90
+      ],
       "cost": 120000,
       "mat1": {
         "id": "prithiva_topaz_gemstone",
         "name": "Prithiva Topaz Gemstone",
         "amount": 6
       },
-      "mat2": { "id": "basalt_pillar", "name": "Basalt Pillar", "amount": 20 },
-      "mat3": { "id": "cecilia", "name": "Cecilia", "amount": 60 },
+      "mat2": {
+        "id": "basalt_pillar",
+        "name": "Basalt Pillar",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "amount": 60
+      },
       "mat4": {
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",

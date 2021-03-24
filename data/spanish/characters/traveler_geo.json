@@ -1,105 +1,558 @@
 {
   "id": "traveler_geo",
   "name": "Viajero (Geo)",
-  "description": "Un viajero de otro mundo a quien le arrebataron su único familiar, obligándolo a salir en un viaje para encontrar a Los Siete.",
-  "titles": ["Extranjero", "Caballero Honorario (de Mondstadt)"],
+  "title": "",
+  "description": "#{F#Una viajera}{M#Un viajero} de otro mundo a quien arrebataron a su único familiar, y que se vio obligad{F#a}{M#o} a embarcarse en un viaje en busca de Los Siete.",
+  "weapon_type": "Espada ligera",
+  "element": "Geo",
+  "gender": "Masculino/Femenino",
+  "substat": "ATQ%",
+  "affiliation": "—",
+  "rarity": 5,
+  "birthday": [
+    null,
+    null
+  ],
+  "constellation": "Viator",
+  "cv": {
+    "english": "Zach Aguilar y Corina Boettger",
+    "chinese": "鹿喑&多多poi",
+    "japanese": "堀江瞬&古賀葵",
+    "korean": "이경태&김가령"
+  },
   "skills": [
     {
-      "id": "foreign_rockblade",
-      "name": "Espada de piedra extranjera",
-      "type": "Ataque normal",
-      "description": "<b>Ataque Normal:</b>Realiza hasta 5 ataques rápidos.<p><b>Ataque Cargado:</b>Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.</p><b>Ataque descendiente:</b>Se lanza desde el aire para golpear el suelo, dañando a los enemigos a lo largo del camino e infligiendo Daño de Área en el momento del impacto.",
-      "modifiers": []
+      "id": "normal_attack_foreign_rockblade",
+      "name": "Ataque Normal: Espada de piedra extranjera",
+      "description": "<span>Ataque Normal</span>\\nRealiza hasta 5 ataques rápidos.\\n\\n<span>Ataque Cargado</span>\\nConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.\\n\\n<span>Ataque Descendente</span>\\nSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "attributes": [
+        [
+          "Daño de 1er golpe",
+          [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%",
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        ],
+        [
+          "Daño de 2º golpe",
+          [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        ],
+        [
+          "Daño de 3er golpe",
+          [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%",
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        ],
+        [
+          "Daño de 4º golpe",
+          [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%",
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        ],
+        [
+          "Daño de 5º golpe",
+          [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        ],
+        [
+          "Daño de ATQ Cargado",
+          [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        ],
+        [
+          "Coste de Aguante de ATQ Cargado",
+          [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        ],
+        [
+          "Daño de Caída",
+          [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        ],
+        [
+          "Daño de impacto de caída baja/alta",
+          [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        ]
+      ]
     },
     {
       "id": "starfell_sword",
       "name": "Espada estrellacaída",
-      "type": "Habilidad elemental",
-      "description": "Toma un meteorito de las profundidades de la tierra, infligiendo Daño Geo de Área.<p>El meteorito es considerado un objeto Geo, puede ser escalado o usado para bloquear ataques.</p><p>Mantener pulsado</p>Puede ajustar la posición de efecto de esta habilidad.",
-      "modifiers": []
+      "description": "Invoca un meteorito de las profundidades de la tierra, infligiendo <span>Daño Geo en el AdE</span>.\\nEl meteorito es considerado una <span>creación Geo</span>, y puede escalarse o usarse para bloquear ataques.\\n\\n<span>Mantener pulsado</span>\\nAjusta la posición sobre la que se coloca la habilidad\\n\\n<i>Hablaste con Paimon sobre el destino final de las estrellas fugaces.</i>",
+      "attributes": [
+        [
+          "Daño de habilidad",
+          [
+            "248%",
+            "266.6%",
+            "285.2%",
+            "310%",
+            "328.6%",
+            "347.2%",
+            "372%",
+            "396.8%",
+            "421.6%",
+            "446.4%",
+            "471.2%",
+            "496%",
+            "527%",
+            "558%",
+            "589%"
+          ]
+        ],
+        [
+          "Duración del meteorito",
+          [
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        ]
+      ]
     },
     {
       "id": "wake_of_earth",
       "name": "Despertar de la Tierra",
-      "type": "Impulso elemental",
-      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.<p>Inflige Daño Geo de Área a todos los enemigos a los que alcanza.Tras ello, crea una columna de piedra que se levanta abruptamente en el límite de la onda. La columna de piedra se considera un objeto Geo, por lo que puede escalarse o usarse para bloquear ataques.</p><p>Mantener pulsado</p>Puede ajustar la posición de efecto de esta habilidad.",
-      "modifiers": []
+      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.\\nInflige <span>Daño Geo en el AdE</span> a todos los enemigos a los que alcanza.\\nTras ello, crea una columna de piedra que se levanta abruptamente en el límite de la onda.\\nLa columna de piedra se considera una <span>creación Geo</span>, y puede usarse para bloquear ataques.\\n\\n<i>Investigaste con Paimon la vibración de las montañas</i>.",
+      "attributes": [
+        [
+          "Daño por cada onda expansiva",
+          [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        ],
+        [
+          "Duración del muro de piedra",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "TdE",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Energía Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
     }
   ],
   "passives": [
     {
       "id": "shattered_darkrock",
       "name": "Roca quebrada",
-      "description": "Disminuye el TdE de Espada estrellacaída -2 s."
+      "description": "Disminuye el TdE de <span>Espada estrellacaída</span> -2 s.",
+      "level": 1
     },
     {
       "id": "frenzied_rockslide",
       "name": "Roca turbulenta",
-      "description": "El último golpe del Ataque Normal provoca una destrucción, infligiendo un 60% de Daño Geo a los enemigos dentro del área."
+      "description": "El último golpe del Ataque Normal provoca una destrucción, infligiendo un 60% de <span>Daño Geo</span> a los enemigos dentro del AdE.",
+      "level": 4
     }
   ],
   "constellations": [
     {
+      "id": "invincible_stonewall",
       "name": "Muro inquebrantable",
-      "description": "Aumenta la Prob. CRIT de todos los aliados dentro del radio de Despertar de la Tierra en 10%, y aumenta su RES a interrupción.",
+      "description": "Aumenta en un 10% la Prob. CRIT de todos los miembros del equipo que estén en el radio de <span>Despertar de la Tierra</span>, y aumenta su RES a interrupción.",
       "level": 1
     },
     {
+      "id": "rockcore_meltdown",
       "name": "Fusión de lava",
-      "description": "El meteorito de Espada estrellacaída explota de nuevo cuando es destruido, causando Daño Geo de Área adicional equivalente al daño de Espada estrellacaída.",
+      "description": "El meteorito de <span>Espada estrellacaída</span> explota de nuevo cuando es destruido, causando <span>Daño Geo en el AdE</span> adicional equivalente al daño de Espada estrellacaída.",
       "level": 2
     },
     {
+      "id": "will_of_the_rock",
       "name": "Voluntad pétrea",
-      "description": "Aumenta el nivel de habilidad de Despertar de la Tierra +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Despertar de la Tierra</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "id": "reaction_force",
       "name": "Fuerza de reacción",
-      "description": "Al golpear al enemigo con una onda expansiva de Despertar de la Tierra, recuperas 5 de Energía. Puedes recuperar hasta 25 puntos de energía de esta forma.",
+      "description": "Al golpear al enemigo con una onda expansiva de <span>Despertar de la Tierra</span>, recuperas 5 pts. de Energía Elemental.\\nPuedes recuperar hasta 25 pts. de energía de esta forma.",
       "level": 4
     },
     {
+      "id": "meteorite_impact",
       "name": "Impacto meteórico",
-      "description": "Aumenta el nivel de habilidad de Espada estrellacaída +3. Puede ser aumentado hasta Niv. 15.",
+      "description": "Aumenta el nivel de habilidad de <span>Espada estrellacaída</span> +3.\\nPuede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "id": "everlasting_boulder",
       "name": "Bloque eterno",
-      "description": "Extiende la duración del muro de piedra de Despertar de la Tierra en 5s.; Extiende la duración del meteorito de Espada estrellacaída en 10 s.",
+      "description": "Extiende la duración del muro de piedra de <span>Despertar de la Tierra</span> en 5 s.\\nExtiende la duración del meteorito de <span>Espada estrellacaída</span> en 10 s.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "mat1": { "name": "Pedacito de diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 1,
+      "level": [
+        20,
+        40
+      ],
+      "cost": 20000,
+      "mat1": {
+        "id": "brilliant_diamond_sliver",
+        "name": "Pedacito de diamante brillante",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 3
+      }
     },
     {
-      "mat1": { "name": "Fragmento de diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara dañada" }
+      "ascension": 2,
+      "level": [
+        40,
+        50
+      ],
+      "cost": 40000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara dañada",
+        "amount": 15
+      }
     },
     {
-      "mat1": { "name": "Fragmento de diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 3,
+      "level": [
+        50,
+        60
+      ],
+      "cost": 60000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Trozo de diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara sucia" }
+      "ascension": 4,
+      "level": [
+        60,
+        70
+      ],
+      "cost": 80000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara sucia",
+        "amount": 18
+      }
     },
     {
-      "mat1": { "name": "Trozo de diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 5,
+      "level": [
+        70,
+        80
+      ],
+      "cost": 100000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 12
+      }
     },
     {
-      "mat1": { "name": "Diamante brillante" },
-      "mat3": { "name": "Margarita voladora" },
-      "mat4": { "name": "Máscara amenazante" }
+      "ascension": 6,
+      "level": [
+        80,
+        90
+      ],
+      "cost": 120000,
+      "mat1": {
+        "id": "brilliant_diamond_gemstone",
+        "name": "Diamante brillante",
+        "amount": 6
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margarita voladora",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara amenazante",
+        "amount": 24
+      }
     }
   ]
 }
