@@ -1,3 +1,27 @@
+## [0.7.0](https://github.com/dvaJi/genshin-data/compare/0.6.0...0.7.0) (2021-03-24)
+
+
+### Features
+
+* **weapons** update weapons to include ascensions and refinements ([373a5c6](https://github.com/dvaJi/genshin-data/commit/373a5c6bb5fdfa66804e1c53e644838bd1d5aa71))
+
+* **artifacts** update artifacts ([c87ab33](https://github.com/dvaJi/genshin-data/commit/c87ab33e5261de052262f7329c12782a0946a5db))
+
+* **characters** update all characters and typings ([f31ec2c](https://github.com/dvaJi/genshin-data/commit/f31ec2cbacc12c766d8a16ffb7fbf030423ebce1))
+
+* **weapons** update weapons to v1.4.0 ([484cdec](https://github.com/dvaJi/genshin-data/commit/484cdec09ff6c8d1581f5e54dd06ff11756fc84c))
+
+* **food** update foods data to v1.4.0 ([d90415f](https://github.com/dvaJi/genshin-data/commit/d90415f5548e613bb441b0c6153f13331923256c))
+
+
+### Fixes
+
+* update character types ([1f30862](https://github.com/dvaJi/genshin-data/commit/1f30862f0da6cab181ef384b1b30825f2d754c99))
+
+* update typescript-eslint to resolve errors ([3d1bc4e](https://github.com/dvaJi/genshin-data/commit/3d1bc4ea1d3006ae40a46f5e12c2c7e5903c1c54))
+
+
+
 ## [0.6.0](https://github.com/dvaJi/genshin-data/compare/0.5.0...0.6.0) (2021-03-13)
 
 
