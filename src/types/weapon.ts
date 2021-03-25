@@ -31,6 +31,7 @@ export interface Weapon {
   type: string;
   primary: WeaponStat;
   secondary?: WeaponStat;
+  bonus: string;
   ascensions: WeaponAscension[];
   refinements: WeaponRefinement[];
 }
