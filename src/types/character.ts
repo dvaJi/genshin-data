@@ -2,6 +2,7 @@ export interface Skill {
   id: string;
   name: string;
   description: string;
+  info: string;
   attributes: Array<[string, string[]]>;
 }
 
