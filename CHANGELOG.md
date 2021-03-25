@@ -1,3 +1,12 @@
+## [0.7.1](https://github.com/dvaJi/genshin-data/compare/0.7.0...0.7.1) (2021-03-25)
+
+
+### Features
+
+* **weapons** add bonus and round values ([6a069e5](https://github.com/dvaJi/genshin-data/commit/6a069e51b3e5fb094e8b5912a885f3f5fdf0bc3b))
+
+
+
 ## [0.7.0](https://github.com/dvaJi/genshin-data/compare/0.6.0...0.7.0) (2021-03-24)
 
 
