@@ -1,3 +1,14 @@
+## [0.7.2](https://github.com/dvaJi/genshin-data/compare/0.7.1...0.7.2) (2021-03-25)
+
+
+### Features
+
+* **characters** add info to skills and format all descriptions ([7033467](https://github.com/dvaJi/genshin-data/commit/7033467e342b524c400122927e1a480f66145261))
+
+* **weapons** add ascension cost and move passive name attribute ([12026c9](https://github.com/dvaJi/genshin-data/commit/12026c96e0f8bf18d0244f1c4ce816ca38380624))
+
+
+
 ## [0.7.1](https://github.com/dvaJi/genshin-data/compare/0.7.0...0.7.1) (2021-03-25)
 
 
