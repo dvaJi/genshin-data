@@ -14,12 +14,12 @@ type WeaponAscension = {
   maxLevel: number;
   primary: number;
   secondary: number;
+  cost: number;
   materials: AscensionMaterial[];
 };
 
 type WeaponRefinement = {
   refinement: number;
-  name: string;
   desc: string;
 };
 
@@ -31,6 +31,7 @@ export interface Weapon {
   type: string;
   primary: WeaponStat;
   secondary?: WeaponStat;
+  passive: string;
   bonus: string;
   ascensions: WeaponAscension[];
   refinements: WeaponRefinement[];
