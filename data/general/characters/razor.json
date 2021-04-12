@@ -25,7 +25,26 @@
       "description": "<span>Normal Attack</span><br/>Perform up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At end of the sequence, perform a more powerful slash. <br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
-        ["1-Hit DMG", ["95.92%"]],
+        [
+          "1-Hit DMG",
+          [
+            "95.92%",
+            "102.46%",
+            "109%",
+            "117.72%",
+            "124.26%",
+            "131.89%",
+            "141.7%",
+            "151.51%",
+            "161.32%",
+            "171.13%",
+            "180.94%",
+            "190.75%",
+            "200.56%",
+            "210.37%",
+            "220.18%"
+          ]
+        ],
         [
           "2-Hit DMG",
           [
@@ -47,7 +66,7 @@
           ]
         ],
         [
-          "3-hit DMG",
+          "3-Hit DMG",
           [
             "103.31%",
             "110.36%",
@@ -67,7 +86,7 @@
           ]
         ],
         [
-          "4-hit DMG",
+          "4-Hit DMG",
           [
             "136.05%",
             "145.32%",
@@ -205,36 +224,17 @@
             "415.87% / 519.44%",
             "438.76% / 548.04%"
           ]
-        ],
-        [
-          "1-hit DMG",
-          [
-            "102.46%",
-            "109%",
-            "117.72%",
-            "124.26%",
-            "131.89%",
-            "141.7%",
-            "151.51%",
-            "161.32%",
-            "171.13%",
-            "180.94%",
-            "190.75%",
-            "200.56%",
-            "210.37%",
-            "220.18%"
-          ]
         ]
       ]
     },
     {
       "id": "claw_and_thunder",
       "name": "Claw and Thunder",
-      "description": "#Hunts his prey using the techniques taught to him by his master and his Lupical.<br/><br/><span>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</span><br/>Swings the Thunder Wolf Claw, dealing <span>Electro DMG</span> to opponents in front of Razor.<br/>Upon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.<br/>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.<br/><br/><span>Hold</span><br/>Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive <span>Electro DMG</span>, and clears all of Razor's Electro Sigils.<br/>Each Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+      "description": "Hunts his prey using the techniques taught to him by his master and his Lupical.<br/><br/><span>Press</span><br/>Swings the Thunder Wolf Claw, dealing <span>Electro DMG</span> to opponents in front of Razor.<br/>Upon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.<br/>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.<br/><br/><span>Hold</span><br/>Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive <span>Electro DMG</span>, and clears all of Razor's Electro Sigils.<br/>Each Electro Sigil cleared in this manner will be converted into Energy for Razor.",
       "info": "In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
       "attributes": [
         [
-          "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG",
+          "Press Skill DMG",
           [
             "199.2%",
             "214.14%",
@@ -334,7 +334,7 @@
           ]
         ],
         [
-          "#{LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD",
+          "Press CD",
           [
             "6s",
             "6s",
@@ -566,7 +566,7 @@
     {
       "id": "bite",
       "name": "Bite",
-      "description": "#When casting <span>Claw and Thunder</span> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
+      "description": "When casting <span>Claw and Thunder</span> (Press), opponents hit will have their DEF decreased by 15% for 7s.",
       "level": 4
     },
     {
