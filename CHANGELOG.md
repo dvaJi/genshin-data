@@ -1,3 +1,12 @@
+## [0.7.3](https://github.com/dvaJi/genshin-data/compare/0.7.2...0.7.3) (2021-04-12)
+
+
+### Fixes
+
+* **characters** update descriptions and resolve some attributes for characters ([9d46f11](https://github.com/dvaJi/genshin-data/commit/9d46f1154d24f85f949e8a1d9acf3de3cea374a6))
+
+
+
 ## [0.7.2](https://github.com/dvaJi/genshin-data/compare/0.7.1...0.7.2) (2021-03-25)
 
 
