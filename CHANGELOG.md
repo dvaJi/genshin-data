@@ -1,3 +1,12 @@
+## [0.7.4](https://github.com/dvaJi/genshin-data/compare/0.7.3...0.7.4) (2021-04-13)
+
+
+### Features
+
+* **characters** add talent materials ([e0fe3ff](https://github.com/dvaJi/genshin-data/commit/e0fe3ff37ee92ae39d5bcfdf0333dd61eb63aea8))
+
+
+
 ## [0.7.3](https://github.com/dvaJi/genshin-data/compare/0.7.2...0.7.3) (2021-04-12)
 
 
