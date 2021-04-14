@@ -43,6 +43,12 @@ type CharacterVoice = {
   korean: string;
 };
 
+type TalentMaterial = {
+  level: number;
+  cost: number;
+  items: AscensionMaterial[];
+};
+
 export interface Character {
   id: string;
   name: string;
@@ -62,4 +68,5 @@ export interface Character {
   passives: Passive[];
   constellations: Constellation[];
   ascension: Ascension[];
+  talent_materials: TalentMaterial[];
 }
