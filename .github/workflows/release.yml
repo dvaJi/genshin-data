@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Publish Package
 on:
   release:
     types: [created]
@@ -19,7 +19,3 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           registry-url: "https://npm.pkg.github.com"
-      # Publish to GitHub Packages
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
