@@ -1,3 +1,12 @@
+## [0.7.5](https://github.com/dvaJi/genshin-data/compare/0.7.4...0.7.5) (2021-04-15)
+
+
+### Fixes
+
+* **characters** format and organize attribute skills and update unit test ([36b5a3e](https://github.com/dvaJi/genshin-data/commit/36b5a3e460e4b8367f87e2442ea8c7c6243f05b9))
+
+
+
 ## [0.7.4](https://github.com/dvaJi/genshin-data/compare/0.7.3...0.7.4) (2021-04-13)
 
 
