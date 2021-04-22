@@ -1,6 +1,23 @@
 {
   "id": "desiccant_potion",
   "name": "Poción antihumedad",
-  "description": "Un tipo de poción que aumenta Hydro RES y hace que uno sea capaz de soportar ambientes muy húmedos. Se dice que actúa como un desecante y es muy eficaz para mantener los artículos secos. También se puede ingerir para obtener el mismo efecto.",
-  "effect": "Aumenta la RES Hydro de todos los miembros del Equipo un 25% durante 300 s."
+  "description": "Un tipo de poción que potencia la RES Hydro y ayuda a resistir ambientes de alta humedad.<br/>Dicen que esta poción puede mantener los objetos secos y también puede ser consumida por las personas para obtener una mayor resistencia al agua.",
+  "type": "Poción",
+  "effect": "Aumenta la RES Hydro de todos los miembros del equipo en un 25% durante 300 s.",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "Alas de mariposa",
+        "amount": 1
+      },
+      {
+        "id": "lotus_head",
+        "name": "Cabeza de loto",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

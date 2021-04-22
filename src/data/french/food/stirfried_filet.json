@@ -1,0 +1,45 @@
+{
+  "id": "stirfried_filet",
+  "name": "Viande sautée",
+  "description": "Des tranches de viande sautées à feu vif qui ont été imprégnées par le goût des piments. Ce plat est excellent en début ou en fin de repas.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 1
+    },
+    {
+      "id": "jueyun_chili",
+      "name": "Piment de Jueyun",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Viande sautée (suspecte)",
+      "description": "Des tranches de viande sautées à feu vif. Cuites trop longtemps, il est impossible de les distinguer des morceaux de piments ou de les manger, à moins de les mélanger dans une grande quantité de riz.",
+      "effect": "Réanime un personnage et restaure 50 PV."
+    },
+    "normal": {
+      "name": "Viande sautée",
+      "description": "Des tranches de viande sautées à feu vif qui ont été imprégnées par le goût des piments. Ce plat est excellent en début ou en fin de repas.",
+      "effect": "Réanime un personnage et restaure 100 PV."
+    },
+    "delicious": {
+      "name": "Viande sautée (délicieuse)",
+      "description": "Des tranches de viande sautées à feu vif dont le gout épicé en bouche est comparable à un feu allumé en plein hiver. Vous en redemanderez encore.",
+      "effect": "Réanime un personnage et restaure 150 PV."
+    },
+    "special": {
+      "name": "Tranches de viande sautées",
+      "description": "Spécialité culinaire de Beidou. Cette dernière a appris une ou deux choses de Xiangling pour améliorer le goût de ce plat. Elle sera impressionnée si vous arrivez à le terminer d'une traite.",
+      "effect": "Réanime un personnage et restaure 10 % des PV max, puis encore 150 PV supplémentaires.",
+      "character": {
+        "id": "beidou",
+        "name": "Beidou"
+      }
+    }
+  }
+}

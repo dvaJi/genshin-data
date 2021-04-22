@@ -1,12 +1,24 @@
 {
   "id": "bacon",
   "name": "Bacon",
-  "material_type": ["Cooking Ingredient"],
+  "description": "Smoked strips of pork. Crispy with a bit of fat, but not too greasy. Mmmmm... bacon.",
   "type": "Cooking Ingredient",
-  "description": "Smoked strips of pork. With just enough fat, but not too greasy.Mmmmm... Bacon.Meat must be processed first to be made into Bacon.",
-  "craft": {
-    "name": "Salt",
-    "amount": 2
-  },
-  "rarity": 3
+  "processing": [
+    {
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 2
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "amount": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cold_cut_platter",
+      "name": "Cold Cut Platter"
+    }
+  ]
 }

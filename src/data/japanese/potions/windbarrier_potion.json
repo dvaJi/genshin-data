@@ -1,6 +1,23 @@
 {
   "id": "windbarrier_potion",
   "name": "耐風薬剤",
-  "description": "合成で獲得",
-  "effect": "チーム全員の風元素の耐性+25％、継続時間300秒。"
+  "description": "飲むと強風にも耐えられる不思議な薬剤。風元素耐性が上がる。<br/>よく野宿をする冒険者にとって非常に便利な薬剤。風邪予防にも使えるらしい。",
+  "type": "薬剤",
+  "effect": "チーム全員の風元素耐性+25%、継続時間300秒。",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "crystal_core",
+        "name": "晶核",
+        "amount": 1
+      },
+      {
+        "id": "dandelion_seed",
+        "name": "蒲公英の種",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

@@ -1,0 +1,45 @@
+{
+  "id": "mora_meat",
+  "name": "Viande-mora",
+  "description": "Un plat de viande en croûte dont la généreuse garniture s'échappe lorsqu'on le coupe. Le goût graisseux de la viande a disparu grâce à une cuisson parfaite et la pâte feuilletée est croustillante à souhait. Le symbole du mora est généralement apposé sur chaque tranche pour porter chance à celui qui en mangera.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 1
+    },
+    {
+      "id": "flour",
+      "name": "Farine",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Viande-mora (suspecte)",
+      "description": "Un plat de viande en croûte dont la généreuse garniture s'échappe lorsqu'on le coupe. La pâte feuilletée est dure sous la dent et il faudra engloutir une quantité importante de gras avant de pouvoir savourer le goût de la viande.",
+      "effect": "Réanime un personnage et restaure 50 PV."
+    },
+    "normal": {
+      "name": "Viande-mora",
+      "description": "Un plat de viande en croûte dont la généreuse garniture s'échappe lorsqu'on le coupe. Le goût graisseux de la viande a disparu grâce à une cuisson parfaite et la pâte feuilletée est croustillante à souhait. Le symbole du mora est généralement apposé sur chaque tranche pour porter chance à celui qui en mangera.",
+      "effect": "Réanime un personnage et restaure 100 PV."
+    },
+    "delicious": {
+      "name": "Viande-mora (délicieuse)",
+      "description": "Un plat de viande en croûte. Tendre à souhait à l'intérieur et légèrement croustillante à l'extérieur, elle ne vous laissera pas {M#indifférent}{F#indifférente}. Même une pile de moras placée sous vos yeux ne vous empêchera pas de savourer ce plat.",
+      "effect": "Réanime un personnage et restaure 150 PV."
+    },
+    "special": {
+      "name": "Viande-mora façon Caesor",
+      "description": "Spécialité culinaire de Ningguang. La pâte est parfaitement moelleuse et la viande qu'elle renferme est juteuse. Quand est-ce que Dame Megrez des Sept Étoiles de Liyue a-t-elle appris à cuisiner un tel plat ?",
+      "effect": "Réanime un personnage et restaure 10 % des PV max, puis encore 150 PV supplémentaires.",
+      "character": {
+        "id": "ningguang",
+        "name": "Ningguang"
+      }
+    }
+  }
+}

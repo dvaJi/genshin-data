@@ -1,0 +1,55 @@
+{
+  "id": "mushroom_pizza",
+  "name": "Pizza aux champignons",
+  "description": "Une pizza couverte de champignons et de fromage fondant. Ce dernier s'étire quand la pizza est encore chaude. Quelques parts suffiront à satisfaire votre estomac.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "mushroom",
+      "name": "Champignon",
+      "amount": 4
+    },
+    {
+      "id": "flour",
+      "name": "Farine",
+      "amount": 3
+    },
+    {
+      "id": "cabbage",
+      "name": "Chou",
+      "amount": 2
+    },
+    {
+      "id": "cheese",
+      "name": "Fromage",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Pizza aux champignons (suspecte)",
+      "description": "Une pizza couverte de champignons et de fromage. La pâte est tellement dure qu'elle pourrait presque vous casser des dents... Enfin, c'est toujours mieux que de mourir de faim.",
+      "effect": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "normal": {
+      "name": "Pizza aux champignons",
+      "description": "Une pizza couverte de champignons et de fromage fondant. Ce dernier s'étire quand la pizza est encore chaude. Quelques parts suffiront à satisfaire votre estomac.",
+      "effect": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "delicious": {
+      "name": "Pizza aux champignons (délicieuse)",
+      "description": "Une pizza couverte de champignons et de fromage. Les ingrédients se complémentent à la perfection. C'est la fête dans votre bouche !",
+      "effect": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "special": {
+      "name": "Pizza revigorante",
+      "description": "Spécialité culinaire de Jean. Cette pizza est une œuvre d'art qu'on n'ose pas manger, mais une part suffit pour nous requinquer. Est-ce grâce à ce plat que Jean trouve la force de travailler aussi dur ?",
+      "effect": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+      "character": {
+        "id": "jean",
+        "name": "Jean"
+      }
+    }
+  }
+}

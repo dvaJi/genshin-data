@@ -1,6 +1,23 @@
 {
   "id": "desiccant_potion",
   "name": "耐湿薬剤",
-  "description": "合成で獲得",
-  "effect": "チーム全員の水元素の耐性+25％、継続時間300秒。"
+  "description": "飲むと湿っぽい環境にも耐えられる不思議な薬剤。水元素耐性が上がる。<br/>防湿効果もあるらしい。リウマチ患者にとっては宝物。",
+  "type": "薬剤",
+  "effect": "チーム全員の水元素耐性+25%、継続時間300秒。",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "蝶々の羽",
+        "amount": 1
+      },
+      {
+        "id": "lotus_head",
+        "name": "ハスの花托",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

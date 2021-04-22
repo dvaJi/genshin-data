@@ -1,12 +1,19 @@
 {
   "id": "crab_roe",
   "name": "Crab Roe",
-  "material_type": ["Cooking Ingredient"],
-  "type": "Cooking Ingredient",
   "description": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.",
-  "craft": {
-    "name": "Crab",
-    "amount": 4
-  },
-  "rarity": 3
+  "type": "Cooking Ingredient",
+  "processing": [
+    {
+      "id": "crab",
+      "name": "Crab",
+      "amount": 4
+    }
+  ],
+  "recipes": [
+    {
+      "id": "crab_ham_veggie_bake",
+      "name": "Crab, Ham & Veggie Bake"
+    }
+  ]
 }

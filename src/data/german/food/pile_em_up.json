@@ -1,0 +1,55 @@
+{
+  "id": "pile_em_up",
+  "name": "Hochgestapeltes",
+  "description": "Ein sehr reichhaltiges Fleischgericht. Eigentlich Hausmannskost aus Mondstadt bestehend aus Steaks, Kartoffeln und Käse übereinandergeschichtet steht es heute sinnbildlich für die Ludi Harpastum.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Rohes Fleisch",
+      "amount": 3
+    },
+    {
+      "id": "potato",
+      "name": "Kartoffel",
+      "amount": 3
+    },
+    {
+      "id": "small_lamp_grass",
+      "name": "Lampenkraut",
+      "amount": 1
+    },
+    {
+      "id": "cheese",
+      "name": "Käse",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Gericht für Angriff",
+  "results": {
+    "suspicious": {
+      "name": "Misslungenes Hochgestapeltes",
+      "description": "Ein sehr reichhaltiges Fleischgericht. Die Reihenfolge beim Stapeln ist wohl etwas durcheinandergeraten. Es wird eine Herausforderung, dieses Monstrum jemandem vorzusetzen.",
+      "effect": "Erhöht die KT aller Truppenmitglieder 300 s lang um 10 %. Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
+    },
+    "normal": {
+      "name": "Hochgestapeltes",
+      "description": "Ein sehr reichhaltiges Fleischgericht. Eigentlich Hausmannskost aus Mondstadt bestehend aus Steaks, Kartoffeln und Käse übereinandergeschichtet steht es heute sinnbildlich für die Ludi Harpastum.",
+      "effect": "Erhöht die KT aller Truppenmitglieder 300 s lang um 15 %. Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
+    },
+    "delicious": {
+      "name": "Leckeres Hochgestapeltes",
+      "description": "Ein sehr reichhaltiges Fleischgericht. Die einzelnen Schichten sind so kunstvoll drapiert, dass man sich nicht sattsehen kann – aber auch nicht sattessen.",
+      "effect": "Erhöht die KT aller Truppenmitglieder 300 s lang um 20 %. Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt."
+    },
+    "special": {
+      "name": "„Es war einmal in Mondstadt“",
+      "description": "Dilucs Spezialzubereitung. Erst labst du deine Augen an dieser Köstlichkeit. Dann füllst du deinen Magen damit. Wer hätte gedacht, dass Diluc etwas so Erstaunliches zubereiten könnte?",
+      "effect": "Erhöht die KT aller Truppenmitglieder 300 s lang um 20 % und den KSCH um 20%. Wirkung ist im Mehrspielermodus auf eigene Figuren beschränkt.",
+      "character": {
+        "id": "diluc",
+        "name": "Diluc"
+      }
+    }
+  }
+}

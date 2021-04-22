@@ -1,6 +1,23 @@
 {
   "id": "heatshield_potion",
   "name": "Poción de resistencia térmica",
-  "description": "Una poción milagrosa que aumenta Pyro RES y hace que uno sea capaz de soportar altas temperaturas. No funciona enfriando el cuerpo, sino ayudándolo a aclimatarse a las altas temperaturas.",
-  "effect": "Aumenta la RES Pyro de todos los miembros del Equipo un 25% durante 300 s."
+  "description": "Una poción milagrosa que potencia la RES Pyro y la tolerancia al calor.<br/>Se basa en el principio de hacer que el cuerpo se adapte al calor en lugar de hacer que entre en frío.",
+  "type": "Poción",
+  "effect": "Aumenta la RES Pyro de todos los miembros del equipo en un 25% durante 300 s.",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "Alas de mariposa",
+        "amount": 1
+      },
+      {
+        "id": "flaming_flower_stamen",
+        "name": "Pistilo de flor llameante",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

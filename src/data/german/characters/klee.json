@@ -1,0 +1,723 @@
+{
+  "id": "klee",
+  "name": "Klee",
+  "title": "Fliehende Sonne",
+  "description": "Ein häufiger Gast der Arrestzelle des Ordo Favonius und ein wahrer Meister der Zerstörung. Man nennt sie auch die „Fliehende Sonne“.",
+  "weapon_type": "Katalysator",
+  "element": "Pyro",
+  "gender": "Weiblich",
+  "substat": "Pyro-SCH-Bonus",
+  "affiliation": "Ordo Favonius",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [27, 7],
+  "constellation": "Trifolium",
+  "cv": {
+    "english": "Poonam Basu",
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "korean": "방연지"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_kaboom",
+      "name": "Standardangriff: Bumm-Bumm",
+      "description": "<span>Standardangriff</span><br/>Wirft eine nette, effektvolle Bombe! Führt bis zu 3 Bombenangriffe aus und verursacht <span>Pyro-Flächenschaden</span>.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer, bombardiert Gegner nach kurzer Aufladezeit und verursacht <span>Pyro-Flächenschaden</span>.<br/><br/><span>Angriff aus dem Fall</span><br/>Konzentriert die Kraft der Flammen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <span>Pyro-Flächenschaden</span>.",
+      "info": "",
+      "attributes": [
+        [
+          "SCH Phase 1",
+          [
+            "72.16%",
+            "77.57%",
+            "82.98%",
+            "90.2%",
+            "95.61%",
+            "101.02%",
+            "108.24%",
+            "115.46%",
+            "122.67%",
+            "129.89%",
+            "137.39%",
+            "147.21%",
+            "157.02%",
+            "166.83%",
+            "176.65%"
+          ]
+        ],
+        [
+          "SCH Phase 2",
+          [
+            "62.4%",
+            "67.08%",
+            "71.76%",
+            "78%",
+            "82.68%",
+            "87.36%",
+            "93.6%",
+            "99.84%",
+            "106.08%",
+            "112.32%",
+            "118.81%",
+            "127.3%",
+            "135.78%",
+            "144.27%",
+            "152.76%"
+          ]
+        ],
+        [
+          "SCH Phase 3",
+          [
+            "89.92%",
+            "96.66%",
+            "103.41%",
+            "112.4%",
+            "119.14%",
+            "125.89%",
+            "134.88%",
+            "143.87%",
+            "152.86%",
+            "161.86%",
+            "171.21%",
+            "183.44%",
+            "195.67%",
+            "207.89%",
+            "220.12%"
+          ]
+        ],
+        [
+          "SCH heftiger Schläge",
+          [
+            "157.36%",
+            "169.16%",
+            "180.96%",
+            "196.7%",
+            "208.5%",
+            "220.3%",
+            "236.04%",
+            "251.78%",
+            "267.51%",
+            "283.25%",
+            "299.61%",
+            "321.01%",
+            "342.42%",
+            "363.82%",
+            "385.22%"
+          ]
+        ],
+        [
+          "Ausdauerverbrauch heftiger Schläge",
+          [
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte"
+          ]
+        ],
+        [
+          "SCH beim Fallen",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "SCH beim Fallen aus niedriger/großer Höhe",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Bimm-Bamm-Bombe",
+      "description": "Wirft eine Bombe, die dazu bestimmt ist, große Freude zu bringen!<br/>Die Bimm-Bamm-Bombe kommt dreimal auf dem Boden auf und verursacht jedes Mal eine Explosion sowie <span>Pyro-Flächenschaden</span>.<br/><br/>Spaltet sich beim dritten Mal zu vielen kleinen Sprengfallen auf.<br/>Bei Berührung mit einem Gegner oder nach einer gewissen Zeit explodieren die Sprengfallen und verursachen <span>Pyro-Flächenschaden</span>.<br/><br/>Kann anfänglich 2-mal angewendet werden.",
+      "info": "Diese Bombe ist ein „Freund“ von Klee, den sie anderen gern vorstellt.",
+      "attributes": [
+        [
+          "SCH der Bimm-Bamm-Bombe",
+          [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        ],
+        [
+          "SCH der Sprengfallen",
+          [
+            "32.8%",
+            "35.26%",
+            "37.72%",
+            "41%",
+            "43.46%",
+            "45.92%",
+            "49.2%",
+            "52.48%",
+            "55.76%",
+            "59.04%",
+            "62.32%",
+            "65.6%",
+            "69.7%",
+            "73.8%",
+            "77.9%"
+          ]
+        ],
+        [
+          "Dauer der Sprengfallen",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Abklingzeit",
+          [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Funkelfunken",
+      "description": "Und Feuer! Beschwört während der Wirkungsdauer ununterbrochen Funkelfunken, die Gegner in der Nähe angreifen und <span>Pyro-Flächenschaden</span> verursachen.",
+      "info": "Die Ritter glauben, dass Klee einen Schutzengel haben muss, weil sie sich noch nie mit einer ihrer Bomben selbst verletzt hat.",
+      "attributes": [
+        [
+          "Funkelfunken-SCH",
+          [
+            "42.64%",
+            "45.84%",
+            "49.04%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "63.96%",
+            "68.22%",
+            "72.49%",
+            "76.75%",
+            "81.02%",
+            "85.28%",
+            "90.61%",
+            "95.94%",
+            "101.27%"
+          ]
+        ],
+        [
+          "Dauer",
+          [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        ],
+        [
+          "Abklingzeit",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Elementarenergie",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "pounding_surprise",
+      "name": "Explosives Geschenk",
+      "description": "Erschafft beim Verursachen von Schaden mit <span>Bimm-Bamm-Bombe</span> oder Standardangriffen mit einer Wahrscheinlichkeit von 50 % einen explosiven Funken.<br/>Verbraucht beim nächsten heftigen Schlag den Funken statt Ausdauer und erhöht den damit verursachten Schaden um 50 %.",
+      "level": 1
+    },
+    {
+      "id": "sparkling_burst",
+      "name": "Unzählige Funken",
+      "description": "Stellt allen Truppenmitgliedern beim Verursachen von KT mit Klees heftigen Schlägen 2 Punkte Elementarenergie wieder her.",
+      "level": 4
+    },
+    {
+      "id": "all_of_my_treasures",
+      "name": "Alles voller Schätze",
+      "description": "Zeigt alle <span>Besonderheiten Mondstadts</span> in der Nähe auf der Minikarte an.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "chained_reactions",
+      "name": "Kettenreaktion",
+      "description": "Erschafft beim Angriff und beim Einsetzen von Fähigkeiten mit gewisser Wahrscheinlichkeit Funken, die Gegner angreifen und Schaden in Höhe von 120 % des Schadens von <span>Funkelfunken</span> verursachen.",
+      "level": 1
+    },
+    {
+      "id": "explosive_frags",
+      "name": "Splitterbombe",
+      "description": "Die Sprengfallen von <span>Bimm-Bamm-Bombe</span> verringern die VTD von Gegnern 10 s lang um 23 %.",
+      "level": 2
+    },
+    {
+      "id": "exquisite_compound",
+      "name": "Klees Sonderanfertigung",
+      "description": "Erhöht die Stufe der Fähigkeit <span>Bimm-Bamm-Bombe</span> um 3.<br/>Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "sparkly_explosion",
+      "name": "Manuelle Explosion",
+      "description": "Löst beim Auswechseln der Figur während der Wirkungsdauer von <span>Funkelfunken</span> eine Explosion aus, die <span>Pyro-Flächenschaden</span> in Höhe von 555 % ANG verursacht.",
+      "level": 4
+    },
+    {
+      "id": "nova_burst",
+      "name": "Explodierender Stern",
+      "description": "Erhöht die Stufe der Fähigkeit <span>Funkelfunken</span> um 3.<br/>Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "blazing_delight",
+      "name": "Feuer frei!",
+      "description": "Klee stellt allen Truppenmitgliedern (außer sich selbst) während der Wirkungsdauer von <span>Funkelfunken</span> alle 3 s 3 Punkte Elementarenergie wieder her.<br/>Erhöht den <span>Pyro-Schaden</span> aller Truppenmitglieder nach Anwenden von <span>Funkelfunken</span> 25 s lang um 10 %.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Agnidus-Achat-Splitter",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Fluxfeuersamen",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Fluxfeuersamen",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Fluxfeuersamen",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Fluxfeuersamen",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Fluchschriftrolle",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Agnidus-Achat",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Fluxfeuersamen",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Fluchschriftrolle",
+        "amount": 24
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_freedom",
+          "name": "Lehren der „Freiheit“",
+          "amount": 3
+        },
+        {
+          "id": "divining_scroll",
+          "name": "Leitende Schriftrolle",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 2
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 4
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 6
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 9
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 4
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring des Nordwinds",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 6
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 6
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring des Nordwinds",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 12
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 9
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring des Nordwinds",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 16
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 12
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring des Nordwinds",
+          "amount": 2
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Krone der Weisheit",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

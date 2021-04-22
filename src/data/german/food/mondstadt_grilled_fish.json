@@ -1,0 +1,45 @@
+{
+  "id": "mondstadt_grilled_fish",
+  "name": "Gegrillter Fischspieß",
+  "description": "Ein auf kleiner Flamme gegrillter Fischspieß. Das Fleisch hat aufgrund des Grillens seinen hohen Wasseranteil verloren und dafür eine feste Konsistenz bekommen. Der Pfeffer gibt dem frischen Geschmack eine besondere Note.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "fish",
+      "name": "Fisch",
+      "amount": 1
+    },
+    {
+      "id": "pepper",
+      "name": "Pfeffer",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Gericht zur LP-Wiederherstellung",
+  "results": {
+    "suspicious": {
+      "name": "Misslungener gegrillter Fischspieß",
+      "description": "Ein auf kleiner Flamme gegrillter Fischspieß. Leider haftet dem Fisch der Geschmack von Verbranntem an und er ist so trocken, dass er zerbröselt.",
+      "effect": "Belebt die gewählte Figur wieder und stellt ihr 50 LP wieder her."
+    },
+    "normal": {
+      "name": "Gegrillter Fischspieß",
+      "description": "Ein auf kleiner Flamme gegrillter Fischspieß. Das Fleisch hat aufgrund des Grillens seinen hohen Wasseranteil verloren und dafür eine feste Konsistenz bekommen. Der Pfeffer gibt dem frischen Geschmack eine besondere Note.",
+      "effect": "Belebt die gewählte Figur wieder und stellt ihr 100 LP wieder her."
+    },
+    "delicious": {
+      "name": "Leckerer gegrillter Fischspieß",
+      "description": "Ein auf kleiner Flamme gegrillter Fischspieß. Eine dünne Fettschicht trennt die knusprige Haut von dem zarten Fleisch. Selbst der kleinste Happen bringt einen Mund voll Freude.",
+      "effect": "Belebt die gewählte Figur wieder und stellt ihr 150 LP wieder her."
+    },
+    "special": {
+      "name": "Verträgt sich nicht mit Alkohol",
+      "description": "Dionas Spezialzubereitung. Knusprige Fischhaut, saftiges Fleisch, nur ein wahrer Liebhaber von Fisch kann etwas so Aromatisches schaffen. Perfekt dazu wäre ein Gläschen ... Halt, Diona sieht her!",
+      "effect": "Stellt der gewählten Figur 10 % LP sowie zusätzlich 150 LP wieder her.",
+      "character": {
+        "id": "diona",
+        "name": "Diona"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "chickenmushroom_skewer",
+  "name": "버섯 닭꼬치",
+  "description": "야생버섯과 새고기로 만든 꼬치. 부드럽고 향기롭다. 편식하지 말고 먹자",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "mushroom",
+      "name": "버섯",
+      "amount": 1
+    },
+    {
+      "id": "fowl",
+      "name": "새고기",
+      "amount": 1
+    }
+  ],
+  "dish_type": "회복류 요리",
+  "results": {
+    "suspicious": {
+      "name": "이상한 버섯 닭꼬치",
+      "description": "야생버섯과 새고기로 만든 꼬치. 얼핏 보면 버섯과 고기의 구분이 어렵다",
+      "effect": "선택한 캐릭터 HP 최대치의 8%를 회복하고 추가로 HP를 800pt 회복한다"
+    },
+    "normal": {
+      "name": "버섯 닭꼬치",
+      "description": "야생버섯과 새고기로 만든 꼬치. 부드럽고 향기롭다. 편식하지 말고 먹자",
+      "effect": "선택한 캐릭터의 HP 최대치의 9%를 회복하고 추가로 HP를 1000pt 회복한다"
+    },
+    "delicious": {
+      "name": "맛있는 버섯 닭꼬치",
+      "description": "야생버섯과 새고기로 만든 꼬치. 적당하게 구워져서 산과 들의 맛을 느낄 수 있다",
+      "effect": "선택한 캐릭터 HP 최대치의 10%를 회복하고 추가로 HP를 1200pt 회복한다"
+    },
+    "special": {
+      "name": "과일맛 꼬치",
+      "description": "케이아의 특제 요리. 탱탱한 식감에 뒷맛이 달고 깊다. 잠깐...이거 진짜 과일 맛이야?",
+      "effect": "선택한 캐릭터 HP 최대치의 16%를 회복하고 추가로 HP를 1350pt 회복한다",
+      "character": {
+        "id": "kaeya",
+        "name": "케이아"
+      }
+    }
+  }
+}

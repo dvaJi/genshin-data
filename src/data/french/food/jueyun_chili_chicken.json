@@ -1,0 +1,50 @@
+{
+  "id": "jueyun_chili_chicken",
+  "name": "Poulet pimenté de Jueyun",
+  "description": "Poulet froid en sauce. La délicieuse saveur du poulet a été conservée grâce à une technique et une exécution hors-pair. La peau croustillante possède un goût légèrement épicé.",
+  "rarity": 2,
+  "recipe": [
+    {
+      "id": "fowl",
+      "name": "Volaille",
+      "amount": 2
+    },
+    {
+      "id": "jueyun_chili",
+      "name": "Piment de Jueyun",
+      "amount": 1
+    },
+    {
+      "id": "pepper",
+      "name": "Poivre",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Attaque",
+  "results": {
+    "suspicious": {
+      "name": "Poulet pimenté de Jueyun (suspect)",
+      "description": "Poulet froid en sauce qui n'a pas été mariné correctement. La chair a un goût fade qui rappelle celui des blancs de poulets à la vapeur.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 6 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "normal": {
+      "name": "Poulet pimenté de Jueyun",
+      "description": "Poulet froid en sauce. La délicieuse saveur du poulet a été conservée grâce à une technique et une exécution hors-pair. La peau croustillante possède un goût légèrement épicé.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 9 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "delicious": {
+      "name": "Poulet pimenté de Jueyun (délicieux)",
+      "description": "Poulet froid en sauce. Sa chair est si tendre et juteuse sous la dent, comme si vous mordiez dans un rêve.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 12 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "special": {
+      "name": "Poulet rock 'n' roll",
+      "description": "Spécialité culinaire de Xinyan. Ce plat cache un piquant redoutable. Le manger vous fait pleurer mais vous ne pouvez pas vous arrêter ! Seul le diable aurait pu inventer un plat pareil !",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 16 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+      "character": {
+        "id": "xinyan",
+        "name": "Xinyan"
+      }
+    }
+  }
+}

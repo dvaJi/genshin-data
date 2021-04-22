@@ -1,0 +1,55 @@
+{
+  "id": "cold_cut_platter",
+  "name": "Assortiment de charcuterie",
+  "description": "Un assortiment de charcuterie : bacon, jambon, saucisson... Il y en a pour tous les goûts.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "ham",
+      "name": "Jambon",
+      "amount": 1
+    },
+    {
+      "id": "bacon",
+      "name": "Bacon",
+      "amount": 1
+    },
+    {
+      "id": "sausage",
+      "name": "Saucisse",
+      "amount": 1
+    },
+    {
+      "id": "mint",
+      "name": "Menthe",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Attaque",
+  "results": {
+    "suspicious": {
+      "name": "Assortiment de charcuterie (suspect)",
+      "description": "Un assortiment de chacuterie qui est peut-être encore un peu trop froid. Dents et estomacs sensibles s'abstenir !",
+      "effect": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "normal": {
+      "name": "Assortiment de charcuterie",
+      "description": "Un assortiment de charcuterie : bacon, jambon, saucisson... Il y en a pour tous les goûts.",
+      "effect": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 30 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "delicious": {
+      "name": "Assortiment de charcuterie (délicieux)",
+      "description": "Un assortiment de charcuterie. L'assaisonnement délicat relève parfaitement la saveur de la viande. Que demande le peuple ?",
+      "effect": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 40 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "special": {
+      "name": "Sainte Symphonie",
+      "description": "Spécialité culinaire de Fischl. La présentation exquise de ce plat dégage quelque chose de mystérieux. Vous pouvez sentir le regard de Fischl à travers ses mains qui lui cachent le visage quand vous vous apprêtez à le savourer. Est-ce aussi une partie du mystère ?",
+      "effect": "Augmente les DGT physiques infligés par tous les personnages de l'équipe de 55 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+      "character": {
+        "id": "fischl",
+        "name": "Fischl"
+      }
+    }
+  }
+}

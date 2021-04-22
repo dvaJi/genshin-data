@@ -1,0 +1,55 @@
+{
+  "id": "come_and_get_it",
+  "name": "Ramen Alézi",
+  "description": "Un plat aux ingrédients variés. Malgré sa préparation rudimentaire, il fait fureur pendant les festivals à Liyue et a été nommé ainsi, car la personne qui le commande pour toute la table dit toujours : « Allez-y, servez-vous. »",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 3
+    },
+    {
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 3
+    },
+    {
+      "id": "rice",
+      "name": "Riz",
+      "amount": 3
+    },
+    {
+      "id": "tofu",
+      "name": "Tofu",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Attaque",
+  "results": {
+    "suspicious": {
+      "name": "Ramen Alézi (suspect)",
+      "description": "Un plat aux ingrédients variés qui ont grossièrement été cuits dans un wok. Le mélange des saveurs est désagréable, et... hum ? Est-ce du sable que j'ai dans la bouche ?",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "normal": {
+      "name": "Ramen Alézi",
+      "description": "Un plat aux ingrédients variés. Malgré sa préparation rudimentaire, il fait fureur pendant les festivals à Liyue et a été nommé ainsi, car la personne qui le commande pour toute la table dit toujours : « Allez-y, servez-vous. »",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "delicious": {
+      "name": "Ramen Alézi (délicieux)",
+      "description": "Un plat aux ingrédients variés. La viande et les légumes se complètent parfaitement aussi bien dans l'assiette qu'en bouche. La moitié du plat est déjà partie avant qu'on ait pu inviter qui que ce soit à la table.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "special": {
+      "name": "Sansespoir",
+      "description": "Spécialité culinaire de Qiqi. Les ingrédients de ce plat ont été soigneusement arrangés. D'après Baizhu, Qiqi a mis beaucoup de temps à le préparer, mais une fois qu'on connaît les goûts de la jeune fille, il est difficile de vouloir en manger.",
+      "effect": "Augmente le taux CRIT et les DGT CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+      "character": {
+        "id": "qiqi",
+        "name": "Qiqi"
+      }
+    }
+  }
+}

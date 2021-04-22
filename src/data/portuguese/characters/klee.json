@@ -1,0 +1,723 @@
+{
+  "id": "klee",
+  "name": "Klee",
+  "title": "Sol Fugitivo",
+  "description": "Uma visitante frequente da sala de confinamento dos Cavaleiros de Favonius, também conhecido como \"Sol Fugitivo\".",
+  "weapon_type": "Catalisador",
+  "element": "Pyro",
+  "gender": "Feminino",
+  "substat": "Bônus de Dano Pyro",
+  "affiliation": "Cavaleiros de Favonius",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [27, 7],
+  "constellation": "Trifolium",
+  "cv": {
+    "english": "Poonam Basu",
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "korean": "방연지"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_kaboom",
+      "name": "Ataque Normal - Kaboom!",
+      "description": "<span>Ataque normal</span><br/>Atira coisas que fazem boom quando acertam coisas! Realiza até 3 ataques explosivos, infligindo <span>Dano Pyro em uma AdE</span>.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina que inflige <span>Dano Pyro em uma AdE</span> em inimigos após um curto tempo de canalização.<br/><br/><span>Ataque Imersivo</span><br/>Reunindo o poder do Pyro, Klee mergulha em direção ao chão em pleno ar, causando dano a todos os inimigos em seu caminho. Inflige <span>Dano Pyro em uma AdE</span> ao entrar em contato com o chão.",
+      "info": "",
+      "attributes": [
+        ["Dano do 1° Golpe", ["72.16%", "77.57%", "82.98%", "90.2%", "95.61%"]],
+        [
+          "Dano do 2° Golpe",
+          [
+            "62.4%",
+            "67.08%",
+            "71.76%",
+            "78%",
+            "82.68%",
+            "87.36%",
+            "93.6%",
+            "99.84%"
+          ]
+        ],
+        ["Dano do 3° Golpe", ["89.92%", "96.66%"]],
+        [
+          "Dano de Ataque Carregado",
+          [
+            "157.36%",
+            "169.16%",
+            "180.96%",
+            "196.7%",
+            "208.5%",
+            "220.3%",
+            "236.04%",
+            "251.78%",
+            "267.51%",
+            "283.25%",
+            "299.61%",
+            "321.01%",
+            "342.42%",
+            "363.82%",
+            "385.22%"
+          ]
+        ],
+        [
+          "Consumo de Stamina de Ataque Carregado",
+          [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        ],
+        [
+          "Dano Durante a Queda",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "Dano de Queda de Alta/Baixa Altitude",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ],
+        [
+          "Dano do 3° golpe",
+          [
+            "103.41%",
+            "112.4%",
+            "119.14%",
+            "125.89%",
+            "134.88%",
+            "143.87%",
+            "152.86%",
+            "161.86%",
+            "171.21%",
+            "183.44%",
+            "195.67%",
+            "207.89%",
+            "220.12%"
+          ]
+        ],
+        [
+          "Dano do 1° golpe",
+          [
+            "101.02%",
+            "108.24%",
+            "115.46%",
+            "122.67%",
+            "129.89%",
+            "137.39%",
+            "147.21%",
+            "157.02%",
+            "166.83%",
+            "176.65%"
+          ]
+        ],
+        [
+          "Dano do 2° golpe",
+          [
+            "106.08%",
+            "112.32%",
+            "118.81%",
+            "127.3%",
+            "135.78%",
+            "144.27%",
+            "152.76%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Bomba Saltitante",
+      "description": "A Bomba Saltitante é uma explosão de diversão!<br/>Quando lançada, Bomba Saltitante quica três vezes, incendiando e infligindo <span>Dano Pyro em uma AdE</span> a cada salto.<br/><br/>No terceiro salto, a bomba se divide em várias minas.<br/>As minas irão explodir ao entrar em contato com os inimigos, ou após um curto período de tempo, infligindo <span>Dano Pyro em uma AdE</span>.<br/><br/>Começa com 2 cargas.",
+      "info": "A Bomba Saltitante é o melhor amigo de Klee! Ela não consegue deixar de apresentá-la a todos.",
+      "attributes": [
+        [
+          "Dano de Bomba Saltitante",
+          [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        ],
+        [
+          "Dano da Mina",
+          [
+            "32.8%",
+            "35.26%",
+            "37.72%",
+            "41%",
+            "43.46%",
+            "45.92%",
+            "49.2%",
+            "52.48%",
+            "55.76%",
+            "59.04%",
+            "62.32%",
+            "65.6%",
+            "69.7%",
+            "73.8%",
+            "77.9%"
+          ]
+        ],
+        [
+          "Duração da Mina",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Tempo de Recarga",
+          [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Faíscas Explosivas",
+      "description": "Delícia Ardente de Klee! Ao longo da duração dessa habilidade, evoca continuamente os ataques de Faíscas Explosivas para atacar inimigos próximos, infligindo <span>Dano Pyro em uma AdE</span>.",
+      "info": "Todos os cavaleiros acreditam que Klee deve ser uma estrela da sorte, tendo cuidado para nunca se machucarem com suas próprias bombas...",
+      "attributes": [
+        [
+          "Dano das Faíscas Explosivas",
+          [
+            "42.64%",
+            "45.84%",
+            "49.04%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "63.96%",
+            "68.22%",
+            "72.49%",
+            "76.75%",
+            "81.02%",
+            "85.28%",
+            "90.61%",
+            "95.94%",
+            "101.27%"
+          ]
+        ],
+        [
+          "Duração",
+          [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        ],
+        [
+          "Tempo de Recarga",
+          [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        ],
+        [
+          "Energia Elemental",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "pounding_surprise",
+      "name": "Presente Explosivo",
+      "description": "Quando a <span>Bomba Saltitante</span> e os Ataques Normais causam Dano, Klee possui 50% de chance de obter um Lampejo Explosivo.<br/>O Lampejo Explosivo será consumido pelo próximo Ataque Carregado sem consumo de Stamina e causa 50% de Dano adicional.",
+      "level": 1
+    },
+    {
+      "id": "sparkling_burst",
+      "name": "Faíscas Ilimitadas",
+      "description": "Quando o Ataque Carregado de Klee resultar em um Crítico, todos os membros da equipe ganham 2 pontos de Energia Elemental.",
+      "level": 4
+    },
+    {
+      "id": "all_of_my_treasures",
+      "name": "Tem tesouros por toda parte",
+      "description": "Mostra a localização de <span>recursos únicos de Mondstadt</span> próximos no mapa.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "chained_reactions",
+      "name": "Explosão em Cadeia",
+      "description": "Ataques e Habilidades possuem certa chance de invocar faíscas que bombardeiam o inimigo, causando Dano igual a 120% das <span>Faíscas Explosivas</span>.",
+      "level": 1
+    },
+    {
+      "id": "explosive_frags",
+      "name": "Fragmentos Explosivos",
+      "description": "Ao ser atingido pelas minas da <span>Bomba Saltitante</span>, diminui a DEF do inimigo em 23% por 10s.",
+      "level": 2
+    },
+    {
+      "id": "exquisite_compound",
+      "name": "Coquetel Especial de Klee",
+      "description": "Aumenta o nível da <span>Bomba Saltitante</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "sparkly_explosion",
+      "name": "Coelho Ativado",
+      "description": "Se Klee deixa o campo de batalha durante as <span>Faíscas Explosivas</span>, a sua partida ativa uma explosão que causa 555% do seu ATQ como <span>Dano AdE Pyro</span>.",
+      "level": 4
+    },
+    {
+      "id": "nova_burst",
+      "name": "Estrela dos Bombardeios",
+      "description": "Aumenta o nível das <span>Faíscas Explosivas</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "blazing_delight",
+      "name": "Fogo Aberto",
+      "description": "Enquanto sob o efeito de <span>Faíscas Explosivas</span>, Klee regenera 3 de Energia para todos os membros da equipe (exceto Klee) a cada 3s.<br/>Quando <span>Faíscas Explosivas</span> for usado, todos os membros do grupo ganharão 10% de <span>Bônus de Dano Pyro</span> por 25s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Prata de Ágata Agnidus",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergaminho Guia",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de Ágata Agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semente de Fogo Eterno",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergaminho Guia",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de Ágata Agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semente de Fogo Eterno",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergaminho do Encantamento",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Pedaço de Ágata Agnidus",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semente de Fogo Eterno",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergaminho do Encantamento",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Pedaço de Ágata Agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semente de Fogo Eterno",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergaminho da Maldição",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Gema de Ágata Agnidus",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "everflame_seed",
+        "name": "Semente de Fogo Eterno",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Cogumelo Philanemo",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergaminho da Maldição",
+        "amount": 24
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_freedom",
+          "name": "Ensinamentos de \"Liberdade\"",
+          "amount": 3
+        },
+        {
+          "id": "divining_scroll",
+          "name": "Pergaminho Guia",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Guia da Liberdade",
+          "amount": 2
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergaminho do Encantamento",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Guia da Liberdade",
+          "amount": 4
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergaminho do Encantamento",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Guia da Liberdade",
+          "amount": 6
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergaminho do Encantamento",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_freedom",
+          "name": "Guia da Liberdade",
+          "amount": 9
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergaminho do Encantamento",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Filosofia da Liberdade",
+          "amount": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergaminho da Maldição",
+          "amount": 4
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Cálice do Vento Norte",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Filosofia da Liberdade",
+          "amount": 6
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergaminho da Maldição",
+          "amount": 6
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Cálice do Vento Norte",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Filosofia da Liberdade",
+          "amount": 12
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergaminho da Maldição",
+          "amount": 9
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Cálice do Vento Norte",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_freedom",
+          "name": "Filosofia da Liberdade",
+          "amount": 16
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergaminho da Maldição",
+          "amount": 12
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Cálice do Vento Norte",
+          "amount": 2
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

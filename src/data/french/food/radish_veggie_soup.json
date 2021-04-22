@@ -1,0 +1,36 @@
+{
+  "id": "radish_veggie_soup",
+  "name": "Soupe de radis",
+  "description": "Une soupe avec du radis en ingrédient principal. Des morceaux de radis tendres se trouvent au fond de ce plat harmonieux et nourrissant.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "radish",
+      "name": "Radis",
+      "amount": 1
+    },
+    {
+      "id": "mint",
+      "name": "Menthe",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Soupe de radis (suspecte)",
+      "description": "Une soupe de légumes avec du radis en ingrédient principal. Les ingrédients de ce plat sont bien fades.",
+      "effect": "Restaure immédiatement 8 % des PV max, puis 210 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "normal": {
+      "name": "Soupe de radis",
+      "description": "Une soupe avec du radis en ingrédient principal. Des morceaux de radis tendres se trouvent au fond de ce plat harmonieux et nourrissant.",
+      "effect": "Restaure immédiatement 9 % des PV max, puis 260 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "delicious": {
+      "name": "Soupe de radis (délicieuse)",
+      "description": "Une soupe avec du radis en ingrédient principal. Son goût simple et frais rappelle un doux après-midi de jeunesse.",
+      "effect": "Restaure immédiatement 10 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    }
+  }
+}

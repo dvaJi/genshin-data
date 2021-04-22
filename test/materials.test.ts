@@ -10,8 +10,7 @@ describe('Materials Method', () => {
     expect(materials[0].id).toBeDefined();
     expect(materials[0].name).toBeDefined();
 
-    expect(materials[0].material_type).toBeUndefined();
-    expect(materials[0].type).toBeUndefined();
+    expect(materials[0].description).toBeUndefined();
   });
 });
 

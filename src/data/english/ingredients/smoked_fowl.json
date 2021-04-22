@@ -1,12 +1,24 @@
 {
   "id": "smoked_fowl",
   "name": "Smoked Fowl",
-  "material_type": ["Cooking Ingredient"],
+  "description": "Fowl that has been smoked. The firmness of the meat gives new texture to dishes.",
   "type": "Cooking Ingredient",
-  "description": "Fowl that has been smoked. The firm texture gives new taste to dishes.Fowl must be processed first to be made into Smoked Fowl.",
-  "craft": {
-    "name": "Salt",
-    "amount": 3
-  },
-  "rarity": 2
+  "processing": [
+    {
+      "id": "fowl",
+      "name": "Fowl",
+      "amount": 3
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "northern_smoked_chicken",
+      "name": "Northern Smoked Chicken"
+    }
+  ]
 }

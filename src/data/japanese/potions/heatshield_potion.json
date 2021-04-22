@@ -1,6 +1,23 @@
 {
   "id": "heatshield_potion",
   "name": "耐熱薬剤",
-  "description": "合成で獲得",
-  "effect": "チーム全員の炎元素の耐性+25％、継続時間300秒。"
+  "description": "飲むと酷暑にも耐えられる不思議な薬剤。炎元素耐性が上がる。<br/>その原理は体を冷やすのでなく、暑さに慣れさせることである。",
+  "type": "薬剤",
+  "effect": "チーム全員の炎元素耐性+25%、継続時間300秒。",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "蝶々の羽",
+        "amount": 1
+      },
+      {
+        "id": "flaming_flower_stamen",
+        "name": "烈焔花の花蕊",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

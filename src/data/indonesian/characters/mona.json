@@ -1,0 +1,773 @@
+{
+  "id": "mona",
+  "name": "Mona",
+  "title": "Astral Reflection",
+  "description": "Seorang astrolog yang menyebut dirinya sendiri sebagai \"Astrologist Mona Megistus\", dan memiliki kemampuan yang sesuai dengan julukannya. Kepandaiannya setara dengan keangkuhannya.",
+  "weapon_type": "Catalyst",
+  "element": "Hydro",
+  "gender": "Perempuan",
+  "substat": "Energy Recharge",
+  "affiliation": "Mondstadt",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [31, 8],
+  "constellation": "Astrolabos",
+  "cv": {
+    "english": "Felecia Angelle",
+    "chinese": "陈婷婷",
+    "japanese": "小原好美",
+    "korean": "우정신"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_ripple_of_fate",
+      "name": "Normal Attack: Ripple of Fate",
+      "description": "<span>Normal Attack</span><br/>Melancarkan maks. 4 serangan Hydro yang mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Hydro DMG area</span> setelah jeda casting yang singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan energi Hydro dan menerjang tanah, menyerang musuh di jalurnya dan mengakibatkan <span>Hydro DMG area</span> saat mendarat.",
+      "info": "",
+      "attributes": [
+        [
+          "DMG Tahap 1",
+          [
+            "37.6%",
+            "40.42%",
+            "43.24%",
+            "47%",
+            "49.82%",
+            "52.64%",
+            "56.4%",
+            "60.16%",
+            "63.92%",
+            "67.68%",
+            "71.44%",
+            "75.2%",
+            "79.9%",
+            "84.6%",
+            "89.3%"
+          ]
+        ],
+        [
+          "DMG Tahap 2",
+          [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        ],
+        [
+          "DMG Tahap 3",
+          [
+            "44.8%",
+            "48.16%",
+            "51.52%",
+            "56%",
+            "59.36%",
+            "62.72%",
+            "67.2%",
+            "71.68%",
+            "76.16%",
+            "80.64%",
+            "85.12%",
+            "89.6%",
+            "95.2%",
+            "100.8%",
+            "106.4%"
+          ]
+        ],
+        [
+          "DMG Tahap 4",
+          [
+            "56.16%",
+            "60.37%",
+            "64.58%",
+            "70.2%",
+            "74.41%",
+            "78.62%",
+            "84.24%",
+            "89.86%",
+            "95.47%",
+            "101.09%",
+            "106.7%",
+            "112.32%",
+            "119.34%",
+            "126.36%",
+            "133.38%"
+          ]
+        ],
+        [
+          "DMG Charged Attack",
+          [
+            "149.72%",
+            "160.95%",
+            "172.18%",
+            "187.15%",
+            "198.38%",
+            "209.61%",
+            "224.58%",
+            "239.55%",
+            "254.52%",
+            "269.5%",
+            "285.07%",
+            "305.43%",
+            "325.79%",
+            "346.15%",
+            "366.51%"
+          ]
+        ],
+        [
+          "Konsumsi Stamina Charged Attack",
+          [
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt",
+            "50pt"
+          ]
+        ],
+        [
+          "DMG Selama Plunging",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "DMG Plunging Attack Min./Maks.",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Mirror Reflection of Doom",
+      "description": "Menciptakan bayangan ilusi nasib dari bunga air.<br/><br/><span>Bayangan</span> tersebut mempunyai spesial efek seperti:<br/>·Terus-menerus menarik perhatian musuh di sekitar.<br/>Terus-menerus mengakibatkan <span>Hydro DMG</span> kepada musuh di sekitar.<br/>·Saat durasinya habis, bayangan akan meledak, mengakibatkan <span>Hydro DMG area</span>.<br/><br/><span>Tahan</span><br/>Manfaatkan arus air untuk bergerak mundur dengan cepat sebelum memanggil bayangan.<br/><br/>Hanya satu bayangan saja yang dapat dibuat oleh Mirror Reflection of Doom kapan pun juga.",
+      "info": "Astrolog terampil selalu bermimpi untuk menggunakan faksimili diri untuk menangkal nasib buruk yang akan segera terjadi, tapi Mona harus menjadi yang pertama di seluruh Teyvat yang bisa membuat hal itu terjadi.",
+      "attributes": [
+        [
+          "DMG Berkelanjutan",
+          [
+            "32%",
+            "34.4%",
+            "36.8%",
+            "40%",
+            "42.4%",
+            "44.8%",
+            "48%",
+            "51.2%",
+            "54.4%",
+            "57.6%",
+            "60.8%",
+            "64%",
+            "68%",
+            "72%",
+            "76%"
+          ]
+        ],
+        [
+          "DMG Ledakan",
+          [
+            "132.8%",
+            "142.76%",
+            "152.72%",
+            "166%",
+            "175.96%",
+            "185.92%",
+            "199.2%",
+            "212.48%",
+            "225.76%",
+            "239.04%",
+            "252.32%",
+            "265.6%",
+            "282.2%",
+            "298.8%",
+            "315.4%"
+          ]
+        ],
+        [
+          "Cooldown",
+          [
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk",
+            "12dtk"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Illusory Torrent",
+      "description": "<span>Alternate Sprint</span><br/>Mona menyembunyikan dirinya di dalam arus air, mengonsumsi sejumlah Stamina untuk bergerak cepat.<br/><br/>Saat berada di bawah pengaruh efek Illusory Torrent, Mona dapat bergerak dengan kecepatan tinggi di air.<br/>Saat dia muncul kembali, akan menyebabkan efek <span>Wet</span> kepada musuh di sekitarnya.",
+      "info": "Ini adalah hal yang bisa dilakukan oleh Mona, namun gurunya tidak bisa melakukannya. Yah, namun demikian gurunya juga tidak akan mempelajari lebih lanjut mengenai Hydro Vision...",
+      "attributes": [
+        ["Konsumsi Stamina Aktivasi", ["10pt"]],
+        ["Konsumsi Stamina", ["15/ dtk"]]
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Stellaris Phantasm",
+      "description": "Mona menciptakan gelombang air yang memantulkan cahaya langit penuh bintang, menyebabkan efek Illusory Bubble pada musuh dalam area yang besar.<br/><br/><span>Illusory Bubble</span><br/>Mengurung musuh di dalam gelembung bintang dan menyebabkan efek <span>Wet</span>. Musuh yang lebih lemah akan terkurung dan tidak bisa bergerak.<br/>Saat musuh dalam gelembung terkena DMG, akan muncul efek berikut:<br/>·Menyebabkan efek Omen pada musuh, yang akan meningkatkan DMG yang diterima, dan juga meningkatkan DMG serangan yang memicu efek ini;<br/>·Illusory Bubble akan pecah dan mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Omen</span><br/>Meningkatkan DMG yang diterima musuh selama durasi Omen.",
+      "info": "Sejak pertama kali para dewa menulusuri cahaya di langit dengan mata mereka, di situlah lahirnya sebuah \"takdir\".",
+      "attributes": [
+        [
+          "Durasi Illusory Bubble",
+          [
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk",
+            "8dtk"
+          ]
+        ],
+        [
+          "DMG Ledakan Illusory Bubble",
+          [
+            "442.4%",
+            "475.58%",
+            "508.76%",
+            "553%",
+            "586.18%",
+            "619.36%",
+            "663.6%",
+            "707.84%",
+            "752.08%",
+            "796.32%",
+            "840.56%",
+            "884.8%",
+            "940.1%",
+            "995.4%",
+            "1050.7%"
+          ]
+        ],
+        [
+          "Bonus DMG",
+          [
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "58%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        ],
+        [
+          "Durasi Omen",
+          [
+            "4dtk",
+            "4dtk",
+            "4dtk",
+            "4.5dtk",
+            "4.5dtk",
+            "4.5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk",
+            "5dtk"
+          ]
+        ],
+        [
+          "Cooldown",
+          [
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk",
+            "15dtk"
+          ]
+        ],
+        [
+          "Energy",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "come_n_get_me_hag",
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "description": "Jika ada musuh di sekitar, Mona akan menciptakan sebuah bayangan setelah menggunakan <span>Illusory Torrent</span> selama 2 detik.<br/>Bayangan yang dibuat dengan cara ini dapat bertahan selama 2 detik, dan DMG ledakannya setara dengan 50% DMG <span>Mirror Reflection of Doom</span>.",
+      "level": 1
+    },
+    {
+      "id": "waterborne_destiny",
+      "name": "Waterborne Destiny",
+      "description": "Meningkatkan <span>Hydro DMG Bonus</span> Mona sebesar 20% dari Energy Recharge.",
+      "level": 4
+    },
+    {
+      "id": "principium_of_astrology",
+      "name": "Principium of Astrology",
+      "description": "Mona memiliki 25% kemungkinan untuk mendapatkan kembali material yang digunakan saat membuat Material Ascension Senjata.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion",
+      "description": "Efek <span>Reaksi Elemental yang berhubungan dengan elemen Hydro</span> akan ditingkatkan selama 8 detik setelah karakter dalam party sendiri menyerang musuh yang terkena efek Omen:<br/>·DMG Electro Charged meningkat 15%.<br/>·DMG Vaporize meningkat 15%.<br/>·DMG Hydro Swirl meningkat 15%.<br/>·Durasi musuh yang terkena Frozen meningkat 15%.",
+      "level": 1
+    },
+    {
+      "id": "lunar_chain",
+      "name": "Lunar Chain",
+      "description": "Saat Normal Attack mengenai musuh, memiliki 20% persentase untuk melancarkan Charged Attack.<br/>Dapat terpicu setiap 5 detik.",
+      "level": 2
+    },
+    {
+      "id": "restless_revolution",
+      "name": "Restless Revolution",
+      "description": "Meningkatkan 3 level <span>Stellaris Phantasm</span>.<br/>Level maksimum adalah level 15.",
+      "level": 3
+    },
+    {
+      "id": "prophecy_of_oblivion",
+      "name": "Prophecy of Oblivion",
+      "description": "Saat anggota party menyerang musuh yang terkena efek Omen, CRIT Rate akan meningkat 15%.",
+      "level": 4
+    },
+    {
+      "id": "mockery_of_fortuna",
+      "name": "Mockery of Fortuna",
+      "description": "Meningkatkan 3 level <span>Mirror Reflection of Doom</span>.<br/>Level maksimum adalah level 15.",
+      "level": 5
+    },
+    {
+      "id": "rhetorics_of_calamitas",
+      "name": "Rhetorics of Calamitas",
+      "description": "Saat dalam kondisi <span>Illusory Torrent</span> setiap 1 detik gerakan, Charged Attack Mona meningkat 60%,<br/>Bonus DMG sampai 180% bertahan selama 8 detik.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Whopperflower Nectar",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Shimmering Nectar",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cleansing Heart",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Philanemo Mushroom",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Energy Nectar",
+        "amount": 24
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_resistance",
+          "name": "Teachings of \"Resistance\"",
+          "amount": 3
+        },
+        {
+          "id": "whopperflower_nectar",
+          "name": "Whopperflower Nectar",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide to \"Resistance\"",
+          "amount": 2
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide to \"Resistance\"",
+          "amount": 4
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide to \"Resistance\"",
+          "amount": 6
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide to \"Resistance\"",
+          "amount": 9
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Shimmering Nectar",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of \"Resistance\"",
+          "amount": 4
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 4
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of \"Resistance\"",
+          "amount": 6
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 6
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of \"Resistance\"",
+          "amount": 12
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 9
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophies of \"Resistance\"",
+          "amount": 16
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Energy Nectar",
+          "amount": 12
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Ring of Boreas",
+          "amount": 2
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

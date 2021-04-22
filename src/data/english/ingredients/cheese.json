@@ -1,12 +1,23 @@
 {
   "id": "cheese",
   "name": "Cheese",
-  "material_type": ["Cooking Ingredient"],
+  "description": "Made from fermented milk. High in energy, it's used in a wide range of dishes.",
   "type": "Cooking Ingredient",
-  "description": "Made from fermented milk. With high energy and limitless possibilities, it's used in a wide range of dishes.Milk must be processed first to be made into Cheese.",
-  "craft": {
-    "name": "Milk",
-    "amount": 3
-  },
-  "rarity": 3
+  "processing": [
+    {
+      "id": "milk",
+      "name": "Milk",
+      "amount": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mushroom_pizza",
+      "name": "Mushroom Pizza"
+    },
+    {
+      "id": "pile_em_up",
+      "name": "\"Pile 'Em Up\""
+    }
+  ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "cream_stew",
+  "name": "Ensopado de Creme",
+  "description": "Um ensopado de carne e vegetais. Sua consistência espessa tem ótimo sabor com carnes e vegetais macios.",
+  "rarity": 2,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Carne Crua",
+      "amount": 2
+    },
+    {
+      "id": "cream",
+      "name": "Creme",
+      "amount": 2
+    },
+    {
+      "id": "snapdragon",
+      "name": "Flor-Crânio-de-Dragão",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Pratos de Aventura",
+  "results": {
+    "suspicious": {
+      "name": "Ensopado de Creme Esquisito",
+      "description": "Ensopado de Creme com carne e vegetais. Muito seco para algo que era suposto ter algum líquido.",
+      "effect": "Diminui o consumo de Stamina ao correr de todos os membros da Equipe em 15% por 900s. Durante o modo multijogador, este efeito é aplicado apenas em si mesmo."
+    },
+    "normal": {
+      "name": "Ensopado de Creme",
+      "description": "Um ensopado de carne e vegetais. Sua consistência espessa tem ótimo sabor com carnes e vegetais macios.",
+      "effect": "Diminui o consumo de Stamina ao correr de todos os membros da Equipe em 20% por 900s. Durante o modo multijogador, este efeito é aplicado apenas em si mesmo."
+    },
+    "delicious": {
+      "name": "Ensopado de Creme Delicioso",
+      "description": "Um ensopado de carne e vegetais. Esta combinação de ingredientes amanteigados é tão boa que faz com que você queira mergulhar nessa sopa.",
+      "effect": "Diminui o consumo de Stamina ao correr de todos os membros da Equipe em 25% por 900s. Durante o modo multijogador, este efeito é aplicado apenas em si mesmo."
+    },
+    "special": {
+      "name": "Ensopado Picante",
+      "description": "Especialidade de Barbara. Tem cenouras cortadas em formato de estrelas...Espere, AAH! De onde está vindo essa ardência toda?!",
+      "effect": "Diminui o consumo de Stamina ao correr de todos os membros da Equipe em 25% por 1500s. Durante o modo multijogador, este efeito tem efeito apenas em si mesmo.",
+      "character": {
+        "id": "barbara",
+        "name": "Barbara"
+      }
+    }
+  }
+}

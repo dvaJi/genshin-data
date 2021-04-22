@@ -1,0 +1,55 @@
+{
+  "id": "cold_cut_platter",
+  "name": "Prato de Carnes Frias",
+  "description": "Um prato com fatias de carnes frias. Uma combinação de bacon, presunto, salsichas deixa qualquer um feliz.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "ham",
+      "name": "Presunto",
+      "amount": 1
+    },
+    {
+      "id": "bacon",
+      "name": "Bacon",
+      "amount": 1
+    },
+    {
+      "id": "sausage",
+      "name": "Salsicha",
+      "amount": 1
+    },
+    {
+      "id": "mint",
+      "name": "Menta",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Pratos de ATQ",
+  "results": {
+    "suspicious": {
+      "name": "Prato Esquisito de Carnes Frias",
+      "description": "Um prato com carnes frias cortadas. Parece um pouco frio demais, provavelmente não muito bom para aqueles que tem dentes sensíveis.",
+      "effect": "Aumenta o Dano Físico de todos os membros do Grupo em 20% por 300s. No modo multijogador, terá efeito em si mesmo."
+    },
+    "normal": {
+      "name": "Prato de Carnes Frias",
+      "description": "Um prato com fatias de carnes frias. Uma combinação de bacon, presunto, salsichas deixa qualquer um feliz.",
+      "effect": "Aumenta o Dano Físico de todos os membros do Grupo em 30% por 300s. No modo multijogador, terá efeito em si mesmo."
+    },
+    "delicious": {
+      "name": "Prato Delicioso de Carnes Frias",
+      "description": "Um prato frio de carnes picadas. Os temperos esquisitos utilizados na combinação de três tipos de carne oferecem o melhor sabor, fazendo até mesmo a pessoa esquecer dos seus problemas.",
+      "effect": "Aumenta o Dano Físico de todos os membros do Grupo em 40% por 300s. No modo multijogador, terá efeito em si mesmo."
+    },
+    "special": {
+      "name": "Sinfonia Abençoada",
+      "description": "A especialidade de Fischl. Sua apresentação diferenciada parece querer comunicar algum enigma incompreensível. De começo, se alguém fosse observar a Fischl, um poderia perceber seu olhar esperançoso espreitando por meio dos seus dedos, que ela usa para cobrir metade de seu rosto... Isso também é parte do mistério?",
+      "effect": "Aumenta o Dano Físico de todos os membros da Equipe em 55% por 300s. No modo multijogador, terá efeito em si mesmo.",
+      "character": {
+        "id": "fischl",
+        "name": "Fischl"
+      }
+    }
+  }
+}

@@ -1,5 +1,23 @@
 {
   "id": "cheese",
   "name": "チーズ",
-  "description": "食材加工で獲得"
+  "description": "牛乳を濃縮させて発酵させた乳製品。エネルギーを補充できるだけでなく、料理に無限の可能性を与えてくれる。",
+  "type": "食材",
+  "processing": [
+    {
+      "id": "milk",
+      "name": "牛乳",
+      "amount": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mushroom_pizza",
+      "name": "キノコピザ"
+    },
+    {
+      "id": "pile_em_up",
+      "name": "「お肉ツミツミ」"
+    }
+  ]
 }

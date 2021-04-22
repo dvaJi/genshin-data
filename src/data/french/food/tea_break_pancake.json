@@ -1,0 +1,50 @@
+{
+  "id": "tea_break_pancake",
+  "name": "Pancakes",
+  "description": "Une pile de pancakes servis à l'heure du thé chez les bourgeois. Seules les meilleures baies sont sélectionnées pour agrémenter ce plat.",
+  "rarity": 2,
+  "recipe": [
+    {
+      "id": "berry",
+      "name": "Baie",
+      "amount": 3
+    },
+    {
+      "id": "flour",
+      "name": "Farine",
+      "amount": 2
+    },
+    {
+      "id": "bird_egg",
+      "name": "Œuf d'oiseau",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Pancakes (suspects)",
+      "description": "Une pile de pancakes qui sent le brûlé. Ce plat reste mangeable grâce aux baies qui l'agrémentent.",
+      "effect": "Réanime un personnage et restaure 250 PV."
+    },
+    "normal": {
+      "name": "Pancakes",
+      "description": "Une pile de pancakes servis à l'heure du thé chez les bourgeois. Seules les meilleures baies sont sélectionnées pour agrémenter ce plat.",
+      "effect": "Réanime un personnage et restaure 400 PV."
+    },
+    "delicious": {
+      "name": "Pancakes (délicieux)",
+      "description": "Une pile de pancakes mœlleux comme des nuages et qui dégagent une odeur divine. Quel délice !",
+      "effect": "Réanime un personnage et restaure 550 PV."
+    },
+    "special": {
+      "name": "Pancakes moelleux",
+      "description": "Spécialité culinaire de Noëlle. Ces pancakes sont la collation servie aux chevaliers de l'Ordre de Favonius. C'est comme si vous mordiez dans un nuage sucré... et puis le sourire de Noëlle fait chaud au cœur !",
+      "effect": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+      "character": {
+        "id": "noelle",
+        "name": "Noëlle"
+      }
+    }
+  }
+}

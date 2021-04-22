@@ -1,24 +1,23 @@
 {
   "id": "gushing_essential_oil",
   "name": "Gushing Essential Oil",
-  "description": "Grants greater affinity to Anemo, boosting Anemo DMG. It has a fragrant smell. It's said, using it on travels will make you walk as if you're riding on the wind.",
-  "material_type": ["Potions"],
-  "type": "Consumables",
-  "craft": [
-    {
-      "amount": 1,
-      "name": "Lizard Tail"
-    },
-    {
-      "amount": 1,
-      "name": "Dandelion Seed"
-    },
-    {
-      "amount": 100,
-      "name": "Mora"
-    }
-  ],
-  "rarity": 3,
-  "sources": ["Alchemy"],
-  "effect": "Increases all party members' Anemo DMG by 25% for 300s."
+  "description": "Grants greater affinity for Anemo, boosting Anemo DMG.<br/>It has a fragrant smell. It is said that using it during your travels will make you walk as if you're riding on the wind.",
+  "type": "Potion",
+  "effect": "Increases all party members' Anemo DMG by 25% for 300s.",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "lizard_tail",
+        "name": "Lizard Tail",
+        "amount": 1
+      },
+      {
+        "id": "dandelion_seed",
+        "name": "Dandelion Seed",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

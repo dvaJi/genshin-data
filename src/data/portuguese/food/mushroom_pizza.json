@@ -1,0 +1,55 @@
+{
+  "id": "mushroom_pizza",
+  "name": "Pizza de Cogumelos",
+  "description": "Uma pizza coberta de queijo e cogumelos. Quando ainda está quente, o queijo derretido dá uma grande sensação de satisfação.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "mushroom",
+      "name": "Cogumelo",
+      "amount": 4
+    },
+    {
+      "id": "flour",
+      "name": "Farinha",
+      "amount": 3
+    },
+    {
+      "id": "cabbage",
+      "name": "Repolho",
+      "amount": 2
+    },
+    {
+      "id": "cheese",
+      "name": "Queijo",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Pratos de Regeneração",
+  "results": {
+    "suspicious": {
+      "name": "Pizza Esquisita de Cogumelos",
+      "description": "Uma pizza coberta de queijo e cogumelos. Sua textura é dura como pedra, mas pelo menos consegue acalmar a sua fome.",
+      "effect": "Restaura 26% da Vida Máxima do personagem selecionado e regenera 450 de Vida a cada 5s por 30s."
+    },
+    "normal": {
+      "name": "Pizza de Cogumelos",
+      "description": "Uma pizza coberta de queijo e cogumelos. Quando ainda está quente, o queijo derretido dá uma grande sensação de satisfação.",
+      "effect": "Restaura 28% da Vida Máxima do personagem selecionado e regenera 620 de Vida a cada 5s por 30s."
+    },
+    "delicious": {
+      "name": "Pizza Deliciosa de Cogumelos",
+      "description": "Uma pizza coberta de queijo e cogumelos. É uma festa de sabores dentro da sua boca.",
+      "effect": "Restaura 30% da Vida Máxima do personagem selecionado e regenera 790 de Vida a cada 5s por 30s."
+    },
+    "special": {
+      "name": "Pizza Revigorante",
+      "description": "Especialidade de Jean. Essa pizza parece mais uma obra de arte do que comida. Apenas um único pedaço é o suficiente para revigorá-lo. Será que é por isso que a Jean sempre está trabalhando tanto?",
+      "effect": "Restaura 34% da Vida Máxima do personagem selecionado e regenera 980 de Vida a cada 5s por 30s.",
+      "character": {
+        "id": "jean",
+        "name": "Jean"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "pile_em_up",
+  "name": "Empil'tout",
+  "description": "Un plat copieux originaire de Mondstadt riche en viande, pommes de terre et fromage. On le sert surtout pendant le Ludi Harpastum.",
+  "rarity": 3,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 3
+    },
+    {
+      "id": "potato",
+      "name": "Pomme de terre",
+      "amount": 3
+    },
+    {
+      "id": "small_lamp_grass",
+      "name": "Herbe à lampe",
+      "amount": 1
+    },
+    {
+      "id": "cheese",
+      "name": "Fromage",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Attaque",
+  "results": {
+    "suspicious": {
+      "name": "Empil'tout (suspect)",
+      "description": "Un plat très généreux, surtout en viande. Les ingrédients ont été empilés n'importe comment. C'est un miracle qu'on ait pu servir ce plat sans que tout s'écroule.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 10 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "normal": {
+      "name": "Empil'tout",
+      "description": "Un plat copieux originaire de Mondstadt riche en viande, pommes de terre et fromage. On le sert surtout pendant le Ludi Harpastum.",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 15 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "delicious": {
+      "name": "Empil'tout (délicieux)",
+      "description": "Un plat très généreux, surtout en viande. Les ingrédients ont été empilés correctement et apportent une satisfaction visuelle et gustative. Encore un peu plus haut et ça aurait été parfait...",
+      "effect": "Augmente le taux CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur."
+    },
+    "special": {
+      "name": "« Le passé de Mondstadt »",
+      "description": "Spécialité culinaire de Diluc. Un délice aussi bien pour les yeux que pour l'estomac. Qui aurait cru que Diluc était un cordon bleu ?",
+      "effect": "Augmente le taux CRIT et les DGT CRIT de tous les personnages de l'équipe de 20 % pendant 300 s. Ne s'applique qu'à votre personnage en mode multijoueur.",
+      "character": {
+        "id": "diluc",
+        "name": "Diluc"
+      }
+    }
+  }
+}

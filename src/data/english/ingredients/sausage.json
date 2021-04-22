@@ -1,12 +1,19 @@
 {
   "id": "sausage",
   "name": "Sausage",
-  "material_type": ["Cooking Ingredient"],
+  "description": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.",
   "type": "Cooking Ingredient",
-  "description": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.Meat must be processed first to be made into Sausages.",
-  "craft": {
-    "name": "Raw Meat",
-    "amount": 3
-  },
-  "rarity": 3
+  "processing": [
+    {
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cold_cut_platter",
+      "name": "Cold Cut Platter"
+    }
+  ]
 }

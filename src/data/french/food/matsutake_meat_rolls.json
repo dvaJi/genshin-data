@@ -1,0 +1,36 @@
+{
+  "id": "matsutake_meat_rolls",
+  "name": "Rouleaux de viande au matsutake",
+  "description": "Un plat de viande hachée, poêlée avec des champignons matsutake à feu doux. Ces derniers absorbent le jus de la viande et en font saliver plus d'un.",
+  "rarity": 2,
+  "recipe": [
+    {
+      "id": "matsutake",
+      "name": "Matsutake",
+      "amount": 2
+    },
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Rouleaux de viande aux matsutake (suspect)",
+      "description": "Un plat de viande hachée poêlée. Sa texture sèche et rugueuse est loin d'être idéale, mais on se force à le manger pour ne pas gaspiller les champignons.",
+      "effect": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires."
+    },
+    "normal": {
+      "name": "Rouleaux de viande au matsutake",
+      "description": "Un plat de viande hachée, poêlée avec des champignons matsutake à feu doux. Ces derniers absorbent le jus de la viande et en font saliver plus d'un.",
+      "effect": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires."
+    },
+    "delicious": {
+      "name": "Rouleaux de viande au matsutake (délicieux)",
+      "description": "Un plat de viande hachée et poêlée. Cette spécialité est composée de ce qu'il y a de mieux dans ce monde. Riche en nutriments, elle ne manquera pas de satisfaire votre appétit et de vous donner le sourire.",
+      "effect": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+    }
+  }
+}

@@ -1,12 +1,50 @@
 {
   "id": "sugar",
   "name": "Sugar",
-  "material_type": ["Cooking Ingredient"],
+  "description": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.",
   "type": "Cooking Ingredient",
-  "description": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.Can be purchased from the merchants in the city, or made with Sweet Flowers.",
-  "craft": {
-    "name": "Sweet Flower",
-    "amount": 2
-  },
-  "rarity": 2
+  "processing": [
+    {
+      "id": "sweet_flower",
+      "name": "Sweet Flower",
+      "amount": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mint_jelly",
+      "name": "Mint Jelly"
+    },
+    {
+      "id": "almond_tofu",
+      "name": "Almond Tofu"
+    },
+    {
+      "id": "lotus_seed_and_bird_egg_soup",
+      "name": "Lotus Seed and Bird Egg Soup"
+    },
+    {
+      "id": "sticky_honey_roast",
+      "name": "Sticky Honey Roast"
+    },
+    {
+      "id": "squirrel_fish",
+      "name": "Squirrel Fish"
+    },
+    {
+      "id": "lotus_flower_crisp",
+      "name": "Lotus Flower Crisp"
+    },
+    {
+      "id": "tianshu_meat",
+      "name": "Tianshu Meat"
+    }
+  ],
+  "craft": [
+    {
+      "id": "jam",
+      "name": "Jam",
+      "amount": 1
+    }
+  ]
 }

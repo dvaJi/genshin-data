@@ -1,5 +1,27 @@
 {
   "id": "cream",
   "name": "クリーム",
-  "description": "食材加工で獲得"
+  "description": "牛乳を高速で混ぜて作った乳製品。美味しいお菓子を作る時の必須材料。",
+  "type": "食材",
+  "processing": [
+    {
+      "id": "milk",
+      "name": "牛乳",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cream_stew",
+      "name": "ホワイトソースポトフ"
+    },
+    {
+      "id": "fragrant_mashed_potatoes",
+      "name": "濃厚マッシュポテト"
+    },
+    {
+      "id": "crab_ham_veggie_bake",
+      "name": "かにみそとハムのグリル野菜"
+    }
+  ]
 }

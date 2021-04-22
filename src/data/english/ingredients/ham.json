@@ -1,12 +1,52 @@
 {
   "id": "ham",
   "name": "Ham",
-  "material_type": ["Cooking Ingredient"],
+  "description": "Smoked leg meat. Even the thinnest slice is packed full of flavor.",
   "type": "Cooking Ingredient",
-  "description": "Smoked leg meat. Even the thinnest slice is packed full of flavor.Meat must be processed first to be made into Ham.",
-  "craft": {
-    "name": "Salt",
-    "amount": 2
-  },
-  "rarity": 2
+  "processing": [
+    {
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "amount": 2
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cold_cut_platter",
+      "name": "Cold Cut Platter"
+    },
+    {
+      "id": "crab_ham_veggie_bake",
+      "name": "Crab, Ham & Veggie Bake"
+    },
+    {
+      "id": "adventurers_breakfast_sandwich",
+      "name": "Adventurer's Breakfast Sandwich"
+    },
+    {
+      "id": "bamboo_shoot_soup",
+      "name": "Bamboo Shoot Soup"
+    },
+    {
+      "id": "triplelayered_consomm",
+      "name": "Triple-Layered Consommé"
+    },
+    {
+      "id": "jueyun_guoba",
+      "name": "Jueyun Guoba"
+    },
+    {
+      "id": "jade_parcels",
+      "name": "Jade Parcels"
+    },
+    {
+      "id": "adeptus_temptation",
+      "name": "Adeptus' Temptation"
+    }
+  ]
 }

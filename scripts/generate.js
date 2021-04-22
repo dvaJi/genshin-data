@@ -3,7 +3,21 @@ const path = require('path');
 
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'data');
 
-const languages = ['english', 'japanese', 'spanish'];
+const languages = [
+  'english',
+  'japanese',
+  'spanish',
+  'chinese-simplified',
+  'chinese-traditional',
+  'french',
+  'german',
+  'indonesian',
+  'korean',
+  'portuguese',
+  'russian',
+  'thai',
+  'vietnamese',
+];
 const folders = [
   'artifacts',
   'characters',

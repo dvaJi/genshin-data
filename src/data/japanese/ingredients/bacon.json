@@ -1,5 +1,24 @@
 {
   "id": "bacon",
   "name": "ベーコン",
-  "description": "食材加工で獲得"
+  "description": "燻製にした獣肉のリブ。グラデーションがあり、脂がのっていてもクドくないのが幅広く好まれている理由。",
+  "type": "食材",
+  "processing": [
+    {
+      "id": "raw_meat",
+      "name": "獣肉",
+      "amount": 2
+    },
+    {
+      "id": "salt",
+      "name": "塩",
+      "amount": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cold_cut_platter",
+      "name": "冷製肉盛り合わせ"
+    }
+  ]
 }

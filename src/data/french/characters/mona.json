@@ -1,0 +1,773 @@
+{
+  "id": "mona",
+  "name": "Mona",
+  "title": "Réflexion astrale",
+  "description": "Jeune astromancienne mystérieuse, Mona se surnomme elle-même « la grande astromancienne Mona », et fait preuve d'une force singulière et d'une érudition hors-norme qui ne désavouent pas cette appellation.",
+  "weapon_type": "Catalyseur",
+  "element": "Hydro",
+  "gender": "Femme",
+  "substat": "Recharge d'énergie",
+  "affiliation": "Cité de Mondstadt",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [31, 8],
+  "constellation": "Astrolabos",
+  "cv": {
+    "english": "Felecia Angelle",
+    "chinese": "陈婷婷",
+    "japanese": "小原好美",
+    "korean": "우정신"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_ripple_of_fate",
+      "name": "Attaque normale : Ondes du destin",
+      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 attaques d'eau qui infligent des <span>DGT Hydro</span>.<br/><br/><span>Attaque chargée</span><br/>Après un court délai, inflige des <span>DGT Hydro de zone</span> ; cette attaque consomme de l'endurance.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs en concentrant ses pouvoirs Hydro, infligeant des DGT aux ennemis en chemin et des <span>DGT Hydro de zone</span> à l'impact.",
+      "info": "",
+      "attributes": [
+        [
+          "DGT 1er coup",
+          [
+            "37.6%",
+            "40.42%",
+            "43.24%",
+            "47%",
+            "49.82%",
+            "52.64%",
+            "56.4%",
+            "60.16%",
+            "63.92%",
+            "67.68%",
+            "71.44%",
+            "75.2%",
+            "79.9%",
+            "84.6%",
+            "89.3%"
+          ]
+        ],
+        [
+          "DGT 2e coup",
+          [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68.4%",
+            "72%",
+            "76.5%",
+            "81%",
+            "85.5%"
+          ]
+        ],
+        [
+          "DGT 3e coup",
+          [
+            "44.8%",
+            "48.16%",
+            "51.52%",
+            "56%",
+            "59.36%",
+            "62.72%",
+            "67.2%",
+            "71.68%",
+            "76.16%",
+            "80.64%",
+            "85.12%",
+            "89.6%",
+            "95.2%",
+            "100.8%",
+            "106.4%"
+          ]
+        ],
+        [
+          "DGT 4e coup",
+          [
+            "56.16%",
+            "60.37%",
+            "64.58%",
+            "70.2%",
+            "74.41%",
+            "78.62%",
+            "84.24%",
+            "89.86%",
+            "95.47%",
+            "101.09%",
+            "106.7%",
+            "112.32%",
+            "119.34%",
+            "126.36%",
+            "133.38%"
+          ]
+        ],
+        [
+          "DGT attaque chargée",
+          [
+            "149.72%",
+            "160.95%",
+            "172.18%",
+            "187.15%",
+            "198.38%",
+            "209.61%",
+            "224.58%",
+            "239.55%",
+            "254.52%",
+            "269.5%",
+            "285.07%",
+            "305.43%",
+            "325.79%",
+            "346.15%",
+            "366.51%"
+          ]
+        ],
+        [
+          "Endurance attaque chargée",
+          [
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts"
+          ]
+        ],
+        [
+          "DGT durant la chute",
+          [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        ],
+        [
+          "DGT chute basse/élevée",
+          [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Mirage aqueux",
+      "description": "Mona invoque un mirage du destin créé à partir de projections aqueuses.<br/><br/><span>Mirage</span><br/>Le mirage a les effets suivants :<br/>· Nargue les ennemis proches et attire leur attention ;<br/>· Inflige des <span>DGT Hydro continus</span> aux ennemis proches ;<br/>· Lorsque le mirage prend fin, il explose et inflige des <span>DGT Hydro de zone</span>.<br/><br/><span>Appui long</span><br/>Mona utilise la puissance de l'eau pour se propulser rapidement en arrière et invoque un mirage du destin.<br/>Il ne peut exister qu'un seul mirage à la fois.",
+      "info": "Les astromanciens les plus doués ont toujours rêvé de pouvoir créer un sosie d'eux-mêmes pour pouvoir faire face au danger ; mais Mona est sans doute la première à avoir réalisé ce tour de main.",
+      "attributes": [
+        [
+          "DGT continus",
+          [
+            "32%",
+            "34.4%",
+            "36.8%",
+            "40%",
+            "42.4%",
+            "44.8%",
+            "48%",
+            "51.2%",
+            "54.4%",
+            "57.6%",
+            "60.8%",
+            "64%",
+            "68%",
+            "72%",
+            "76%"
+          ]
+        ],
+        [
+          "DGT explosion",
+          [
+            "132.8%",
+            "142.76%",
+            "152.72%",
+            "166%",
+            "175.96%",
+            "185.92%",
+            "199.2%",
+            "212.48%",
+            "225.76%",
+            "239.04%",
+            "252.32%",
+            "265.6%",
+            "282.2%",
+            "298.8%",
+            "315.4%"
+          ]
+        ],
+        [
+          "Temps de recharge",
+          [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Vicissitude",
+      "description": "<span>Remplace le sprint</span><br/>Mona se transforme en un courant d'eau, consommant de l'endurance pour se déplacer aussi vite qu'un torrent.<br/><br/>Dans l'état Vicissitude, Mona peut se déplacer rapidement sur l'eau.<br/>À la fin de l'état, Mona <span>trempe</span> les ennemis proches lorsqu'elle réapparaît.",
+      "info": "Voici une technique que Mona est capable d'effectuer, mais pas son maître. Ce n'est pas comme si cette dernière souhaitait apprendre quoi que ce soit au sujet de l'œil divin Hydro...",
+      "attributes": [
+        ["Endurance (activation)", ["10 pts"]],
+        ["Endurance (durée)", ["15 pts/s"]]
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Voie divine",
+      "description": "Mona invoque des vagues chatoyantes pour créer un reflet du ciel étoilé, qui inflige l'état Bulle nocturne aux ennemis dans une large zone d'effet.<br/><br/><span>Bulle nocturne</span><br/>Emprisonne les ennemis, et les <span>trempe</span>. Les ennemis les plus faibles sont immobilisés.<br/>Lorsqu'un ennemi emprisonné subit des DGT, il subit également les effets suivants :<br/>· Un présage est appliqué à l'ennemi, qui subit alors une augmentation de DGT, y compris de l'attaque l'ayant provoqué ;<br/>· L'effet Bulle nocturne disparaît, et inflige des <span>DGT Hydro</span> supplémentaires.<br/><br/><span>Présage</span><br/>Le présage augmente les DGT subis par l'ennemi tant qu'il est actif.",
+      "info": "C'est lorsque le regard des dieux dessina les étoiles que la notion de « destin » naquit.",
+      "attributes": [
+        [
+          "Durée Bulle Nocturne",
+          [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        ],
+        [
+          "DGT Bulle nocturne",
+          [
+            "442.4%",
+            "475.58%",
+            "508.76%",
+            "553%",
+            "586.18%",
+            "619.36%",
+            "663.6%",
+            "707.84%",
+            "752.08%",
+            "796.32%",
+            "840.56%",
+            "884.8%",
+            "940.1%",
+            "995.4%",
+            "1050.7%"
+          ]
+        ],
+        [
+          "Bonus de DGT",
+          [
+            "42%",
+            "44%",
+            "46%",
+            "48%",
+            "50%",
+            "52%",
+            "54%",
+            "56%",
+            "58%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%",
+            "60%"
+          ]
+        ],
+        [
+          "Durée du présage",
+          [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4.5 s",
+            "4.5 s",
+            "4.5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s",
+            "5 s"
+          ]
+        ],
+        [
+          "Temps de recharge",
+          [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        ],
+        [
+          "Énergie élémentaire",
+          [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        ]
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "come_n_get_me_hag",
+      "name": "Leurre du fatum",
+      "description": "Entrer dans l'état <span>Vicissitude</span> invoque automatiquement un mirage après 2 s en cas de présence d'ennemis proches.<br/>Le mirage ainsi invoqué dure 2 s, et ses DGT d'explosion sont équivalents à 50 % des DGT de <span>Mirage aqueux</span>.",
+      "level": 1
+    },
+    {
+      "id": "waterborne_destiny",
+      "name": "Que le destin décide",
+      "description": "Confère à Mona un <span>bonus de DGT Hydro</span> équivalant à 20 % de sa recharge d'énergie.",
+      "level": 4
+    },
+    {
+      "id": "principium_of_astrology",
+      "name": "Principes d'astromancie",
+      "description": "Lorsque vous fabriquez un matériau d'élévation d'arme, il y a 25 % de chance qu'une partie des matières premières vous soit rendue.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "prophecy_of_submersion",
+      "name": "Prophétie immersive",
+      "description": "Les effets des <span>réactions liées à l'élément Hydro</span> sont renforcés pendant 8 s lorsque l'attaque de vos personnages dans l'équipe touche un ennemi marqué par un présage :<br/>· Les DGT d'Électrocution, d'Évaporation, de Dispersion Hydro augmentent de 15 % ;<br/>· La durée de Gel augmente de 15 %.",
+      "level": 1
+    },
+    {
+      "id": "lunar_chain",
+      "name": "Chaîne lunaire",
+      "description": "Les attaques normales ont 20 % de chance d'être suivies par une attaquée chargée.<br/> Cet effet peut être déclenché une fois toutes les 5 s.",
+      "level": 2
+    },
+    {
+      "id": "restless_revolution",
+      "name": "Révolution éternelle",
+      "description": "Niveau de compétence <span>Voie divine</span> +3.<br/>Niveau max : 15",
+      "level": 3
+    },
+    {
+      "id": "prophecy_of_oblivion",
+      "name": "Prophétie de la fin",
+      "description": "Augmente le taux CRIT de 15 % lorsque vos personnages dans l'équipe attaquent un ennemi marqué par un présage.",
+      "level": 4
+    },
+    {
+      "id": "mockery_of_fortuna",
+      "name": "Un tour du destin",
+      "description": "Niveau de compétence <span>Mirage aqueux</span> +3.<br/>Niveau max : 15",
+      "level": 5
+    },
+    {
+      "id": "rhetorics_of_calamitas",
+      "name": "Rhétorique de l'adversité",
+      "description": "Dans l'état <span>Vicissitude</span>, Mona obtient un bonus de 60 % DGT pour sa prochaine attaque chargée à chaque seconde passée à se déplacer.<br/>Cet effet est cumulable 3 fois max (bonus de 180 %) et dure 8 s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Éclat de lazurite varunada",
+        "amount": 1
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 3
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Nectar de Fleur mensongère",
+        "amount": 3
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragment de lazurite varunada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cœur d'eau pure",
+        "amount": 2
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 10
+      },
+      "mat4": {
+        "id": "whopperflower_nectar",
+        "name": "Nectar de Fleur mensongère",
+        "amount": 15
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragment de lazurite varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cœur d'eau pure",
+        "amount": 4
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 20
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Nectar miroitant",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Morceau de lazurite varunada",
+        "amount": 3
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cœur d'eau pure",
+        "amount": 8
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 30
+      },
+      "mat4": {
+        "id": "shimmering_nectar",
+        "name": "Nectar miroitant",
+        "amount": 18
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Morceau de lazurite varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cœur d'eau pure",
+        "amount": 12
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 45
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Nectar élémentaire",
+        "amount": 12
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Pierre de lazurite varunada",
+        "amount": 6
+      },
+      "mat2": {
+        "id": "cleansing_heart",
+        "name": "Cœur d'eau pure",
+        "amount": 20
+      },
+      "mat3": {
+        "id": "philanemo_mushroom",
+        "name": "Champignon anémophile",
+        "amount": 60
+      },
+      "mat4": {
+        "id": "energy_nectar",
+        "name": "Nectar élémentaire",
+        "amount": 24
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_resistance",
+          "name": "Enseignement de la Résistance",
+          "amount": 3
+        },
+        {
+          "id": "whopperflower_nectar",
+          "name": "Nectar de Fleur mensongère",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide de la Résistance",
+          "amount": 2
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Nectar miroitant",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide de la Résistance",
+          "amount": 4
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Nectar miroitant",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide de la Résistance",
+          "amount": 6
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Nectar miroitant",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_resistance",
+          "name": "Guide de la Résistance",
+          "amount": 9
+        },
+        {
+          "id": "shimmering_nectar",
+          "name": "Nectar miroitant",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophie de la Résistance",
+          "amount": 4
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Nectar élémentaire",
+          "amount": 4
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Anneau de Borée",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophie de la Résistance",
+          "amount": 6
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Nectar élémentaire",
+          "amount": 6
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Anneau de Borée",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophie de la Résistance",
+          "amount": 12
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Nectar élémentaire",
+          "amount": 9
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Anneau de Borée",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_resistance",
+          "name": "Philosophie de la Résistance",
+          "amount": 16
+        },
+        {
+          "id": "energy_nectar",
+          "name": "Nectar élémentaire",
+          "amount": 12
+        },
+        {
+          "id": "ring_of_boreas",
+          "name": "Anneau de Borée",
+          "amount": 2
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Couronne de la sagesse",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

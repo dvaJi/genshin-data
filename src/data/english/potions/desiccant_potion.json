@@ -1,24 +1,23 @@
 {
   "id": "desiccant_potion",
   "name": "Desiccant Potion",
-  "description": "A kind of medicine that boosts Hydro RES and makes one able to withstand highly humid environments. It is said to act like a desiccant to keep items dry that can also be ingested for the same effect.",
-  "material_type": ["Potions"],
-  "type": "Consumables",
-  "craft": [
-    {
-      "amount": 1,
-      "name": "Butterfly Wings"
-    },
-    {
-      "amount": 1,
-      "name": "Lotus Head"
-    },
-    {
-      "amount": 100,
-      "name": "Mora"
-    }
-  ],
-  "rarity": 3,
-  "sources": ["Alchemy"],
-  "effect": "Increases all party members' Hydro RES by 25% for 300s."
+  "description": "A kind of potion that boosts Hydro RES and makes one able to withstand highly humid environments.<br/>It is said to act like a desiccant and be highly effective at keeping items dry. It can also be ingested for the same effect.",
+  "type": "Potion",
+  "effect": "Increases all party members' Hydro RES by 25% for 300s.",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "Butterfly Wings",
+        "amount": 1
+      },
+      {
+        "id": "lotus_head",
+        "name": "Lotus Head",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

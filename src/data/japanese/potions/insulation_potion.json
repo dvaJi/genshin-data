@@ -1,6 +1,23 @@
 {
   "id": "insulation_potion",
   "name": "耐電薬剤",
-  "description": "合成で獲得",
-  "effect": "チーム全員の雷元素の耐性+25％、継続時間300秒。"
+  "description": "飲むと感電にも耐えられる不思議な薬剤。雷元素耐性が上がる。<br/>飲むと全身がピリピリと感じる。逆な交流電気を作ることにより、雷のダメージを相殺する。",
+  "type": "薬剤",
+  "effect": "チーム全員の雷元素耐性+25%、継続時間300秒。",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "butterfly_wings",
+        "name": "蝶々の羽",
+        "amount": 1
+      },
+      {
+        "id": "electro_crystal",
+        "name": "電気水晶",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

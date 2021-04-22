@@ -1,0 +1,40 @@
+{
+  "id": "steak",
+  "name": "Sườn Nướng",
+  "description": "Sườn nướng trên lửa. Nhiệt độ cao làm nước được giữ bên trong, khiến người ta rất trông mong dáng vẻ tươm mỡ của nó khi được cắt ra.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "raw_meat",
+      "name": "Thịt Rừng",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Món Dạng Hồi Phục",
+  "results": {
+    "suspicious": {
+      "name": "Sườn Nướng Kỳ Lạ",
+      "description": "Sườn nướng trên lửa. Bề mặt có chút cháy khét, dường như đang tiếc nuối bản thân không được dùng đúng chỗ.",
+      "effect": "Hồi 50 điểm HP cho nhân vật được chọn hồi sinh."
+    },
+    "normal": {
+      "name": "Sườn Nướng",
+      "description": "Sườn nướng trên lửa. Nhiệt độ cao làm nước được giữ bên trong, khiến người ta rất trông mong dáng vẻ tươm mỡ của nó khi được cắt ra.",
+      "effect": "Hồi 100 điểm HP cho nhân vật được chọn hồi sinh."
+    },
+    "delicious": {
+      "name": "Sườn Nướng Ngon",
+      "description": "Sườn nướng trên lửa. Mùi thơm lan tỏa trong miệng, có thể cảm nhận được sức mạnh đang phát ra trong người.",
+      "effect": "Hồi 150 điểm HP cho nhân vật được chọn hồi sinh."
+    },
+    "special": {
+      "name": "Thịt Nướng Kỵ Sĩ Trinh Thám!",
+      "description": "Món độc quyền của Amber. Thịt thăn một mặt vẫn sống, một mặt thì hơi khét. Nếu cứ nhắm mắt ăn đại thì có khiến Amber vui không nhỉ?",
+      "effect": "Hồi 10% giới hạn HP cho nhân vật được chọn hồi sinh, và hồi thêm 150 điểm HP.",
+      "character": {
+        "id": "amber",
+        "name": "Amber"
+      }
+    }
+  }
+}

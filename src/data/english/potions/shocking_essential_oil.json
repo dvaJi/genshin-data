@@ -1,24 +1,23 @@
 {
   "id": "shocking_essential_oil",
   "name": "Shocking Essential Oil",
-  "description": "Grants greater affinity to Electro, boosting Electro DMG. It induces a tingling sensation on the skin, able to better channel Electro elements at the risk of electrical fire that would definitely ruin your perfect hair.",
-  "material_type": ["Potions"],
-  "type": "Consumables",
-  "craft": [
-    {
-      "amount": 1,
-      "name": "Frog"
-    },
-    {
-      "amount": 1,
-      "name": "Electro Crystal"
-    },
-    {
-      "amount": 100,
-      "name": "Mora"
-    }
-  ],
-  "rarity": 3,
-  "sources": ["Alchemy"],
-  "effect": "Increases all party members' Electro DMG by 25% for 300s."
+  "description": "Grants greater affinity for Electro, boosting Electro DMG.<br/>It induces a tingling sensation on the skin and renders the user better able to better channel Electro energy — but comes with a risk of causing an electrical fire that would definitely ruin your perfect hair.",
+  "type": "Potion",
+  "effect": "Increases all party members' Electro DMG by 25% for 300s.",
+  "craft": {
+    "cost": 100,
+    "items": [
+      {
+        "id": "frog",
+        "name": "Frog",
+        "amount": 1
+      },
+      {
+        "id": "electro_crystal",
+        "name": "Electro Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  "rarity": 3
 }

@@ -1,18 +1,16 @@
 import { Artifact } from './types/artifact';
 import { Character } from './types/character';
-import {
-  CommonMaterial,
-  ElementalStoneMaterial,
-  Ingredients,
-  JewelMaterial,
-  LocalMaterial,
-  Potion,
-  TalentLvlUpMaterial,
-  WeaponPrimaryMaterial,
-  WeaponSecondaryMaterial,
-} from './types/material';
 import { Food } from './types/food';
 import { Weapon } from './types/weapon';
+import { CommonMaterial } from './types/common_material';
+import { ElementalStoneMaterial } from './types/elemental_stone_material';
+import { Ingredients } from './types/ingredient';
+import { JewelMaterial } from './types/jewel_material';
+import { LocalMaterial } from './types/local_material';
+import { Potion } from './types/potion';
+import { TalentLvlUpMaterial } from './types/talent_lvl_up_material';
+import { WeaponPrimaryMaterial } from './types/weapon_primary_material';
+import { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
 
 export {
   Artifact,
@@ -30,7 +28,20 @@ export {
   WeaponSecondaryMaterial,
 };
 
-type Languages = 'english' | 'spanish' | 'japanese';
+export type Languages =
+  | 'english'
+  | 'spanish'
+  | 'japanese'
+  | 'chinese-simplified'
+  | 'chinese-traditional'
+  | 'french'
+  | 'german'
+  | 'indonesian'
+  | 'korean'
+  | 'portuguese'
+  | 'russian'
+  | 'thai'
+  | 'vietnamese';
 type Folders =
   | 'artifacts'
   | 'characters'

@@ -1,0 +1,45 @@
+{
+  "id": "mondstadt_grilled_fish",
+  "name": "Poisson grillé mondstadtois",
+  "description": "Poisson grillé à feu doux. Sa chair est ferme grâce à une cuisson maîtrisée, et le poivre fait ressortir toute sa saveur.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 1
+    },
+    {
+      "id": "pepper",
+      "name": "Poivre",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Poisson grillé mondstadtois (suspect)",
+      "description": "Poisson grillé à feu doux. En raison de sa trop longue cuisson, il est dur à mâcher et laisse un désagréable goût de brûlé en bouche.",
+      "effect": "Réanime un personnage et restaure 50 PV."
+    },
+    "normal": {
+      "name": "Poisson grillé mondstadtois",
+      "description": "Poisson grillé à feu doux. Sa chair est ferme grâce à une cuisson maîtrisée, et le poivre fait ressortir toute sa saveur.",
+      "effect": "Réanime un personnage et restaure 100 PV."
+    },
+    "delicious": {
+      "name": "Poisson grillé mondstadtois (délicieux)",
+      "description": "Poisson grillé à feu doux. Une délicate couche de graisse sépare la peau croustillante de la chair tendre. Une bouchée suffira à libérer son goût incroyable.",
+      "effect": "Réanime un personnage et restaure 150 PV."
+    },
+    "special": {
+      "name": "Ceci n'est pas un apéritif",
+      "description": "Spécialité culinaire de Diona. La peau est croustillante et la viande est charnue. Seule une véritable fan de poisson est capable d'élaborer un plat aux saveurs exquises comme celui-ci. Il ne manque plus qu'un bon petit verre de vin pour l'accompagner... Oups, on nous regarde !",
+      "effect": "Réanime un personnage et restaure 10 % des PV max, puis encore 150 PV supplémentaires.",
+      "character": {
+        "id": "diona",
+        "name": "Diona"
+      }
+    }
+  }
+}

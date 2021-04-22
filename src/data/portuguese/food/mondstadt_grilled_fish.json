@@ -1,0 +1,45 @@
+{
+  "id": "mondstadt_grilled_fish",
+  "name": "Peixe Grelhado de Mondstadt",
+  "description": "Peixe grelhado totalmente em fogo médio, tornando-o completamente seco e crocante. A adição de pimenta realça o seu sabor.",
+  "rarity": 1,
+  "recipe": [
+    {
+      "id": "fish",
+      "name": "Peixe",
+      "amount": 1
+    },
+    {
+      "id": "pepper",
+      "name": "Pimenta",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Pratos de Regeneração",
+  "results": {
+    "suspicious": {
+      "name": "Peixe Grelhado de Mondstadt Estranho",
+      "description": "Peixe grelhado cuidadosamente com fogo moderado. Infelizmente, passou um pouco do ponto. O cheiro carbonizado e a textura seca não impressionam muito.",
+      "effect": "Revive um personagem e restaura 50 de Vida."
+    },
+    "normal": {
+      "name": "Peixe Grelhado de Mondstadt",
+      "description": "Peixe grelhado totalmente em fogo médio, tornando-o completamente seco e crocante. A adição de pimenta realça o seu sabor.",
+      "effect": "Revive um personagem e restaura 100 de Vida."
+    },
+    "delicious": {
+      "name": "Peixe Grelhado de Mondstadt Delicioso",
+      "description": "Peixe grelhado cuidadosamente em fogo moderado, mantendo o delicioso suco dentro da carne sob a pele crocante. Basta uma pequena mordida para sentir seu sabor maravilhoso e delicioso.",
+      "effect": "Revive um personagem e restaura 150 de Vida."
+    },
+    "special": {
+      "name": "Isso não é um aperitivo",
+      "description": "Especialidade da Diona. A pele do peixe é crocante e a carne é abundante. Somente alguém com um amor suficientemente grande por peixes seria capaz de revelar sabores tão agradáveis. Agora, se ao menos houvesse algo para beber... Uh-oh, ela está olhando para cá!",
+      "effect": "Revive um personagem e restaura 10% da Vida máxima, e então restaura um adicional de 150 de Vida.",
+      "character": {
+        "id": "diona",
+        "name": "Diona"
+      }
+    }
+  }
+}
