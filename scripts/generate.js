@@ -44,7 +44,6 @@ function combineData() {
       fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
         filename => {
           if (!filename.endsWith('.json')) return;
-          console.log(`${GENERATED_PATH}/${lang}/${folder}/${filename}`);
           data[folder].push(
             require(`${GENERATED_PATH}/${lang}/${folder}/${filename}`)
           );
@@ -53,6 +52,7 @@ function combineData() {
     }
 
     fs.writeFileSync(`./src/min/data_${lang}.min.json`, JSON.stringify(data));
+    console.log(`./src/min/data_${lang}.min.json`);
   }
 }
 

@@ -1,4 +1,4 @@
-import GenshinData from '../src';
+import GenshinData, { languages } from '../src';
 
 let currentWeapons = 0;
 
@@ -15,57 +15,28 @@ describe('Weapons Method', () => {
   });
 });
 
-describe('Weapons English', () => {
-  const genshinData = new GenshinData({ language: 'english' });
+for (const language of languages) {
+  describe(`Weapons ${language}`, () => {
+    const genshinData = new GenshinData({ language });
 
-  it('should return all weapons', async () => {
-    const weapons = await genshinData.weapons();
-    expect(weapons.length).toBeGreaterThan(0);
-    currentWeapons = weapons.length;
+    it('should return all weapons', async () => {
+      const weapons = await genshinData.weapons();
+      expect(weapons.length).toBeGreaterThan(0);
+
+      if (currentWeapons === 0) {
+        currentWeapons = weapons.length;
+      }
+
+      expect(weapons.length).toEqual(currentWeapons);
+    });
+
+    it('should contains all mandatory fields', async () => {
+      const weapons = await genshinData.weapons();
+
+      for (const weapon of weapons) {
+        expect(weapon.id).toBeDefined();
+        expect(weapon.name).toBeDefined();
+      }
+    });
   });
-
-  it('should contains all mandatory fields', async () => {
-    const weapons = await genshinData.weapons();
-
-    for (const weapon of weapons) {
-      expect(weapon.id).toBeDefined();
-      expect(weapon.name).toBeDefined();
-    }
-  });
-});
-
-describe('Weapons Spanish', () => {
-  const genshinData = new GenshinData({ language: 'spanish' });
-
-  it('should return all weapons', async () => {
-    const weapons = await genshinData.weapons();
-    expect(weapons.length).toEqual(currentWeapons);
-  });
-
-  it('should contains all mandatory fields', async () => {
-    const weapons = await genshinData.weapons();
-
-    for (const weapon of weapons) {
-      expect(weapon.id).toBeDefined();
-      expect(weapon.name).toBeDefined();
-    }
-  });
-});
-
-describe('Weapons Japanese', () => {
-  const genshinData = new GenshinData({ language: 'japanese' });
-
-  it('should return all weapons', async () => {
-    const weapons = await genshinData.weapons();
-    expect(weapons.length).toEqual(currentWeapons);
-  });
-
-  it('should contains all mandatory fields', async () => {
-    const weapons = await genshinData.weapons();
-
-    for (const weapon of weapons) {
-      expect(weapon.id).toBeDefined();
-      expect(weapon.name).toBeDefined();
-    }
-  });
-});
+}

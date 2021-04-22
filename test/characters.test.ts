@@ -1,4 +1,4 @@
-import GenshinData from '../src';
+import GenshinData, { languages } from '../src';
 
 let currentCharacters = 0;
 
@@ -16,129 +16,52 @@ describe('Characters Method', () => {
   });
 });
 
-describe('Characters English', () => {
-  const genshinData = new GenshinData({ language: 'english' });
+for (const language of languages) {
+  describe(`Characters ${language}`, () => {
+    const genshinData = new GenshinData({ language });
 
-  it('should return all characters', async () => {
-    const characters = await genshinData.characters();
-    expect(characters.length).toBeGreaterThan(0);
-    currentCharacters = characters.length;
-  });
+    it('should return all characters', async () => {
+      const characters = await genshinData.characters();
+      expect(characters.length).toBeGreaterThan(0);
 
-  it('should contains all mandatory fields', async () => {
-    const characters = await genshinData.characters();
+      if (currentCharacters === 0) {
+        currentCharacters = characters.length;
+      }
 
-    for (const character of characters) {
-      expect(character.id).toBeDefined();
-      expect(character.name).toBeDefined();
-      expect(character.description).toBeDefined();
-      expect(character.skills.length).toBeGreaterThan(0);
-      expect(character.passives.length).toBeGreaterThan(0);
-    }
-  });
+      expect(characters.length).toEqual(currentCharacters);
+    });
 
-  it('all skills must contains 15 attribute values', async () => {
-    const characters = await genshinData.characters();
+    it('should contains all mandatory fields', async () => {
+      const characters = await genshinData.characters();
 
-    for (const character of characters) {
-      for (const skill of character.skills) {
-        // Mona SP skill must be skipped
-        if (skill.id === 'illusory_torrent') {
-          continue;
-        }
+      for (const character of characters) {
+        expect(character.id).toBeDefined();
+        expect(character.name).toBeDefined();
+        expect(character.description).toBeDefined();
+        expect(character.skills.length).toBeGreaterThan(0);
+        expect(character.passives.length).toBeGreaterThan(0);
+      }
+    });
 
-        for (const attribute of skill.attributes) {
-          if (attribute[1].length < 15) {
-            fail(
-              `Skill [${skill.id}] attribute [${attribute[0]}] of ${character.id} must have 15 attributes`
-            );
+    it('all skills must contains 15 attribute values', async () => {
+      const characters = await genshinData.characters();
+
+      for (const character of characters) {
+        for (const skill of character.skills) {
+          // Mona SP skill must be skipped
+          if (skill.id === 'illusory_torrent') {
+            continue;
+          }
+
+          for (const attribute of skill.attributes) {
+            if (attribute[1].length < 15) {
+              fail(
+                `Skill [${skill.id}] attribute [${attribute[0]}] of ${character.id} must have 15 attributes`
+              );
+            }
           }
         }
       }
-    }
+    });
   });
-});
-
-describe('Characters Spanish', () => {
-  const genshinData = new GenshinData({ language: 'spanish' });
-
-  it('should return all characters', async () => {
-    const characters = await genshinData.characters();
-    expect(characters.length).toEqual(currentCharacters);
-  });
-
-  it('should contains all mandatory fields', async () => {
-    const characters = await genshinData.characters();
-
-    for (const character of characters) {
-      expect(character.id).toBeDefined();
-      expect(character.name).toBeDefined();
-      expect(character.description).toBeDefined();
-      expect(character.skills.length).toBeGreaterThan(0);
-      expect(character.passives.length).toBeGreaterThan(0);
-    }
-  });
-
-  it('all skills must contains 15 attribute values', async () => {
-    const characters = await genshinData.characters();
-
-    for (const character of characters) {
-      for (const skill of character.skills) {
-        // Mona SP skill must be skipped
-        if (skill.id === 'illusory_torrent') {
-          continue;
-        }
-
-        for (const attribute of skill.attributes) {
-          if (attribute[1].length < 15) {
-            fail(
-              `Skill [${skill.id}] attribute [${attribute[0]}] of ${character.id} must have 15 attributes`
-            );
-          }
-        }
-      }
-    }
-  });
-});
-
-describe('Characters Japanese', () => {
-  const genshinData = new GenshinData({ language: 'japanese' });
-
-  it('should return all characters', async () => {
-    const characters = await genshinData.characters();
-    expect(characters.length).toEqual(currentCharacters);
-  });
-
-  it('should contains all mandatory fields', async () => {
-    const characters = await genshinData.characters();
-
-    for (const character of characters) {
-      expect(character.id).toBeDefined();
-      expect(character.name).toBeDefined();
-      expect(character.description).toBeDefined();
-      expect(character.skills.length).toBeGreaterThan(0);
-      expect(character.passives.length).toBeGreaterThan(0);
-    }
-  });
-
-  it('all skills must contains 15 attribute values', async () => {
-    const characters = await genshinData.characters();
-
-    for (const character of characters) {
-      for (const skill of character.skills) {
-        // Mona SP skill must be skipped
-        if (skill.id === 'illusory_torrent') {
-          continue;
-        }
-
-        for (const attribute of skill.attributes) {
-          if (attribute[1].length < 15) {
-            fail(
-              `Skill [${skill.id}] attribute [${attribute[0]}] of ${character.id} must have 15 attributes`
-            );
-          }
-        }
-      }
-    }
-  });
-});
+}

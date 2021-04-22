@@ -28,20 +28,24 @@ export {
   WeaponSecondaryMaterial,
 };
 
-export type Languages =
-  | 'english'
-  | 'spanish'
-  | 'japanese'
-  | 'chinese-simplified'
-  | 'chinese-traditional'
-  | 'french'
-  | 'german'
-  | 'indonesian'
-  | 'korean'
-  | 'portuguese'
-  | 'russian'
-  | 'thai'
-  | 'vietnamese';
+export const languages = [
+  'english',
+  'spanish',
+  'japanese',
+  'chinese-simplified',
+  'chinese-traditional',
+  'french',
+  'german',
+  'indonesian',
+  'korean',
+  'portuguese',
+  'russian',
+  'thai',
+  'vietnamese',
+] as const;
+
+export type Languages = typeof languages[number];
+
 type Folders =
   | 'artifacts'
   | 'characters'
