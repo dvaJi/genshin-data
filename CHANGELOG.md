@@ -1,3 +1,15 @@
+## [0.8.0](https://github.com/dvaJi/genshin-data/compare/0.7.5...0.8.0) (2021-04-23)
+
+
+### Features
+
+* restructure the data and have only one directory for the data ([8f6fab8](https://github.com/dvaJi/genshin-data/commit/8f6fab808e1e35296280a9dda6f46e72327b5eac))
+
+* implement chs, cht, fr, de, id, ko, pt, th and vi languages ([e8f0824](https://github.com/dvaJi/genshin-data/commit/e8f08240acfdb9ae5985cc3f13274bf69a4b9ecf))
+
+* improve unit test to implement all languages and fix characters attributes ([f5740b4](https://github.com/dvaJi/genshin-data/commit/f5740b4cc758bf6e26cdf14859e236e4b56fdb4e))
+
+
 ## [0.7.5](https://github.com/dvaJi/genshin-data/compare/0.7.4...0.7.5) (2021-04-15)
 
 
