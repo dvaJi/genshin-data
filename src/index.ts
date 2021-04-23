@@ -176,7 +176,8 @@ export default class GenshinData {
     folder: Folders,
     query?: QueryOpts<T>
   ) {
-    let results = (await import(`./min/data_${lang}.min.json`)).default[folder];
+    let results = (await import(`./min/data_${lang}_${folder}.min.json`))
+      .default;
 
     if (query) {
       results = this.selectProps(results, query);

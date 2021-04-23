@@ -36,23 +36,24 @@ const folders = [
 
 function combineData() {
   for (const lang of languages) {
-    let data = {};
     for (const folder of folders) {
       if (!fs.existsSync(`${GENERATED_PATH}/${lang}/${folder}`)) continue;
-      data[folder] = [];
+      let data = [];
 
       fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
         filename => {
           if (!filename.endsWith('.json')) return;
-          data[folder].push(
-            require(`${GENERATED_PATH}/${lang}/${folder}/${filename}`)
-          );
+          data.push(require(`${GENERATED_PATH}/${lang}/${folder}/${filename}`));
         }
+      );
+
+      fs.writeFileSync(
+        `./src/min/data_${lang}_${folder}.min.json`,
+        JSON.stringify(data)
       );
     }
 
-    fs.writeFileSync(`./src/min/data_${lang}.min.json`, JSON.stringify(data));
-    console.log(`./src/min/data_${lang}.min.json`);
+    console.log(`> ${lang}`);
   }
 }
 
