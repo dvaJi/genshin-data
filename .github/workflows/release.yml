@@ -8,6 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
         with:
           node-version: "14.x"
           registry-url: "https://registry.npmjs.org"
@@ -15,4 +17,5 @@ jobs:
       # Publish to npm
       - run: npm publish
         env:
+          NODE_OPTIONS: --max_old_space_size=4096
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
