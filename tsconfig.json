@@ -2,7 +2,9 @@
   "include": ["src", "types"],
   "compilerOptions": {
     "module": "esnext",
-    "lib": ["dom", "esnext"],
+    "lib": ["esnext"],
+    "target": "ES5",
+    "outDir": "./dist",
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
@@ -13,11 +15,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
-    "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
+    "noEmit": false,
     "resolveJsonModule": true
   }
 }
