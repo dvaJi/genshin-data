@@ -2,13 +2,12 @@ name: CI
 on: [push]
 jobs:
   build:
-    name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
+    name: Build, lint, and test on Node ${{ matrix.node }}
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['13.x', '14.x']
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node: ['14.x', '16.x']
 
     steps:
       - name: Checkout repo
