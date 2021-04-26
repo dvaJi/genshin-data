@@ -1,23 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const { languages } = require('../dist');
 
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'data');
+const MIN_PATH = path.join(__dirname, '..', 'src', 'min');
 
-const languages = [
-  'english',
-  'japanese',
-  'spanish',
-  'chinese-simplified',
-  'chinese-traditional',
-  'french',
-  'german',
-  'indonesian',
-  'korean',
-  'portuguese',
-  'russian',
-  'thai',
-  'vietnamese',
-];
 const folders = [
   'artifacts',
   'characters',
@@ -38,21 +25,24 @@ function combineData() {
   for (const lang of languages) {
     let data = {};
     for (const folder of folders) {
-      if (!fs.existsSync(`${GENERATED_PATH}/${lang}/${folder}`)) continue;
+      if (!fs.existsSync(path.join(GENERATED_PATH, lang, folder))) continue;
       data[folder] = [];
 
       fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
         filename => {
           if (!filename.endsWith('.json')) return;
           data[folder].push(
-            require(`${GENERATED_PATH}/${lang}/${folder}/${filename}`)
+            require(path.join(GENERATED_PATH, lang, folder, filename))
           );
         }
       );
     }
 
-    fs.writeFileSync(`./src/min/data_${lang}.min.json`, JSON.stringify(data));
-    console.log(`./src/min/data_${lang}.min.json`);
+    fs.writeFileSync(
+      path.join(MIN_PATH, `data_${lang}.min.json`),
+      JSON.stringify(data)
+    );
+    console.log(path.join(MIN_PATH), `data_${lang}.min.json`);
   }
 }
 

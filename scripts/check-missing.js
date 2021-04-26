@@ -1,4 +1,5 @@
-const GenshinData = require('../dist').default;
+const gdata = require('../dist');
+const GenshinData = gdata.default;
 
 const METHODS = [
   'characters',
@@ -16,21 +17,10 @@ const METHODS = [
   'weaponSecondaryMaterials',
 ];
 
-const data = {
-  english: new GenshinData({ language: 'english' }),
-  spanish: new GenshinData({ language: 'spanish' }),
-  japanese: new GenshinData({ language: 'japanese' }),
-  'chinese-simplified': new GenshinData({ language: 'chinese-simplified' }),
-  'chinese-traditional': new GenshinData({ language: 'chinese-traditional' }),
-  french: new GenshinData({ language: 'french' }),
-  german: new GenshinData({ language: 'german' }),
-  indonesian: new GenshinData({ language: 'indonesian' }),
-  korean: new GenshinData({ language: 'korean' }),
-  portuguese: new GenshinData({ language: 'portuguese' }),
-  russian: new GenshinData({ language: 'russian' }),
-  thai: new GenshinData({ language: 'thai' }),
-  vietnamese: new GenshinData({ language: 'vietnamese' }),
-};
+const data = gdata.languages.reduce((obj, key) => {
+  obj[key] = new GenshinData({ language: key });
+  return obj;
+}, {});
 
 async function main() {
   const keys = Object.keys(data).filter(k => k !== 'english');
