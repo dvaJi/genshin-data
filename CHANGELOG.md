@@ -1,9 +1,19 @@
+## [0.9.0](https://github.com/dvaJi/genshin-data/compare/0.8.1...0.9.0) (2021-04-28)
+
+
+### Features
+
+* update data to v1.5 (#4) ([98755f7](https://github.com/dvaJi/genshin-data/commit/98755f7c179aea22663006d4bf94700e6a7f63f7))
+
+
+
 ## [0.8.1](https://github.com/dvaJi/genshin-data/compare/0.8.0...0.8.1) (2021-04-23)
 
 
 ### Fixes
 
 * resolve error on CI
+
 
 
 ## [0.8.0](https://github.com/dvaJi/genshin-data/compare/0.7.5...0.8.0) (2021-04-23)
@@ -16,6 +26,7 @@
 * implement chs, cht, fr, de, id, ko, pt, th and vi languages ([e8f0824](https://github.com/dvaJi/genshin-data/commit/e8f08240acfdb9ae5985cc3f13274bf69a4b9ecf))
 
 * improve unit test to implement all languages and fix characters attributes ([f5740b4](https://github.com/dvaJi/genshin-data/commit/f5740b4cc758bf6e26cdf14859e236e4b56fdb4e))
+
 
 
 ## [0.7.5](https://github.com/dvaJi/genshin-data/compare/0.7.4...0.7.5) (2021-04-15)
