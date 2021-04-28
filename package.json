@@ -15,7 +15,7 @@
     "build": "tsdx build",
     "generate": "node ./scripts/generate.js",
     "check-missing": "npm run generate && npm run build && node ./scripts/check-missing.js",
-    "format-data": "prettier --write \"src/data/**/*.json\"",
+    "format-data": "prettier --loglevel warn --write \"src/data/**/*.json\"",
     "test": "tsdx test",
     "test:coverage": "tsdx test --coverage",
     "lint": "tsdx lint",

@@ -1,9 +1,24 @@
 {
   "id": "bacon",
   "name": "Tocino",
-  "description": "Tocino es un ingrediente culinario que puede usarse al preparar platillos.",
-  "craft": {
-    "name": "Sal",
-    "amount": 2
-  }
+  "description": "Tiras de cerdo curadas. Crujientes y un poco grasientas.",
+  "type": "Ingrediente culinario",
+  "processing": [
+    {
+      "id": "raw_meat",
+      "name": "Carne cruda",
+      "amount": 2
+    },
+    {
+      "id": "salt",
+      "name": "Sal",
+      "amount": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cold_cut_platter",
+      "name": "Plato de carnes frías"
+    }
+  ]
 }

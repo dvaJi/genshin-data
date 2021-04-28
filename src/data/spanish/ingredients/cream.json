@@ -1,9 +1,27 @@
 {
   "id": "cream",
   "name": "Crema batida",
-  "description": "Crema batida es un ingrediente culinario que puede usarse al preparar platillos.",
-  "craft": {
-    "name": "Leche",
-    "amount": 1
-  }
+  "description": "Un producto obtenido de la leche. Un ingrediente esencial para hacer pasteles.",
+  "type": "Ingrediente culinario",
+  "processing": [
+    {
+      "id": "milk",
+      "name": "Leche",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "cream_stew",
+      "name": "Guisado de temporada"
+    },
+    {
+      "id": "fragrant_mashed_potatoes",
+      "name": "Puré de papas"
+    },
+    {
+      "id": "crab_ham_veggie_bake",
+      "name": "Asado mar y montaña"
+    }
+  ]
 }
