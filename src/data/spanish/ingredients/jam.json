@@ -1,9 +1,29 @@
 {
   "id": "jam",
   "name": "Mermelada",
-  "description": "Mermelada es un ingrediente culinario que puede usarse al preparar platillos.",
-  "craft": {
-    "name": "Azúcar",
-    "amount": 1
-  }
+  "description": "Un puré hecho de fruta y azúcar. Incluso una pequeña cantidad puede despertar fácilmente las papilas gustativas.",
+  "type": "Ingrediente culinario",
+  "processing": [
+    {
+      "id": "sunsettia",
+      "name": "Solsettia",
+      "amount": 3
+    },
+    {
+      "id": "berry",
+      "name": "Baya",
+      "amount": 2
+    },
+    {
+      "id": "sugar",
+      "name": "Azúcar",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mondstadt_hash_brown",
+      "name": "Tortilla de papas de Mondstadt"
+    }
+  ]
 }

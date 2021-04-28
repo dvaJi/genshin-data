@@ -1,9 +1,24 @@
 const fs = require('fs');
 const path = require('path');
-const { languages } = require('../dist');
 
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'data');
 const MIN_PATH = path.join(__dirname, '..', 'src', 'min');
+
+const languages = [
+  'english',
+  'spanish',
+  'japanese',
+  'chinese-simplified',
+  'chinese-traditional',
+  'french',
+  'german',
+  'indonesian',
+  'korean',
+  'portuguese',
+  'russian',
+  'thai',
+  'vietnamese',
+];
 
 const folders = [
   'artifacts',

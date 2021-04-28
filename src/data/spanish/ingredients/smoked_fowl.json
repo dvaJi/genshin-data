@@ -1,9 +1,24 @@
 {
   "id": "smoked_fowl",
   "name": "Carne de ave ahumada",
-  "description": "Carne de ave ahumada es un ingrediente culinario que puede usarse al preparar platillos.",
-  "craft": {
-    "name": "Sal",
-    "amount": 1
-  }
+  "description": "Carne de ave que ha sido ahumada. La firme textura otorga un sabor diferente al plato.",
+  "type": "Ingrediente culinario",
+  "processing": [
+    {
+      "id": "fowl",
+      "name": "Carne de ave",
+      "amount": 3
+    },
+    {
+      "id": "salt",
+      "name": "Sal",
+      "amount": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": "northern_smoked_chicken",
+      "name": "Pollo ahumado del Norte"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-type Recipe = {
+type Ingredient = {
   id: string;
   name: string;
   amount: number;
@@ -31,7 +31,7 @@ export interface Food {
   id: string;
   name: string;
   description: string;
-  recipe: Recipe[];
+  ingredients: Ingredient[];
   dish_type: string;
   results: FoodResult;
   rarity: number;

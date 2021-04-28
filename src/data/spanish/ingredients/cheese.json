@@ -1,9 +1,23 @@
 {
   "id": "cheese",
   "name": "Queso",
-  "description": "Queso es un ingrediente culinario que puede usarse al preparar platillos.",
-  "craft": {
-    "name": "Leche",
-    "amount": 3
-  }
+  "description": "Hecho de leche fermentada. Aporta mucha energía y posibilidades ilimitadas. Se utiliza en una amplia gama de platos.",
+  "type": "Ingrediente culinario",
+  "processing": [
+    {
+      "id": "milk",
+      "name": "Leche",
+      "amount": 3
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mushroom_pizza",
+      "name": "Pizza de champiñones"
+    },
+    {
+      "id": "pile_em_up",
+      "name": "Torre de Ludi"
+    }
+  ]
 }
