@@ -1,113 +1,192 @@
 {
   "id": "primordial_jade_cutter",
-  "name": "Древний Нефритовый Резак",
-  "description": "Огромный двуручный меч, который когда-то был покрыт мхом, но стал кристально чистым после благословения и увещевания архонтом земли.",
+  "name": "Драгоценный омут",
+  "description": "Ритуальный меч, искусно вырезанный из чистейшего нефрита и покрытый изящными гравировками. Иногда кажется, что при взмахе им можно услышать тихий вздох ветра.",
   "rarity": 5,
   "type": "Одноручное оружие",
   "primary": {
     "name": "Базовая атака",
-    "value": 23
+    "value": 44
   },
-  "passive": "",
-  "bonus": "",
+  "secondary": {
+    "name": "Шанс крит. попадания",
+    "value": 9.6
+  },
+  "passive": "Добродетель защитника",
+  "bonus": "Увеличивает HP на <span>20/25/30/35/40%</span>. Также даёт бонус атаки, равный <span>12/15/18/21/24.%</span> от макс. HP экипированного этим оружием персонажа.",
   "ascensions": [
     {
       "ascensionLevel": 0,
       "maxLevel": 20,
-      "primary": 56,
+      "primary": 110,
+      "secondary": 17,
       "materials": []
     },
     {
       "ascensionLevel": 1,
       "maxLevel": 40,
-      "primary": 102,
+      "primary": 210,
+      "secondary": 24.7,
+      "cost": 10000,
       "materials": [
         {
-          "id": "tile_of_decarabians_tower",
-          "name": "Плитка башни Декарабиана",
-          "amount": 1
+          "id": "mist_veiled_lead_elixir",
+          "name": "Свинцовая пилюля Заоблачного моря",
+          "amount": 5
         },
         {
-          "id": "heavy_horn",
-          "name": "Тяжёлый рог",
-          "amount": 1
+          "id": "mist_grass_pollen",
+          "name": "Пыльца туманной травы",
+          "amount": 5
         },
         {
-          "id": "firm_arrowhead",
-          "name": "Прочный наконечник стрелы",
-          "amount": 1
+          "id": "treasure_hoarder_insignia",
+          "name": "Печать Похитителей сокровищ",
+          "amount": 3
         }
       ]
     },
     {
       "ascensionLevel": 2,
       "maxLevel": 50,
-      "primary": 130,
-      "cost": 5000,
+      "primary": 275,
+      "secondary": 28.6,
+      "cost": 20000,
       "materials": [
         {
-          "id": "debris_of_decarabians_city",
-          "name": "Обломок стены Декарабиана",
-          "amount": 1
+          "id": "mist_veiled_mercury_elixir",
+          "name": "Ртутная пилюля Заоблачного моря",
+          "amount": 5
         },
         {
-          "id": "heavy_horn",
-          "name": "Тяжёлый рог",
-          "amount": 4
+          "id": "mist_grass_pollen",
+          "name": "Пыльца туманной травы",
+          "amount": 18
         },
         {
-          "id": "firm_arrowhead",
-          "name": "Прочный наконечник стрелы",
-          "amount": 2
+          "id": "treasure_hoarder_insignia",
+          "name": "Печать Похитителей сокровищ",
+          "amount": 12
         }
       ]
     },
     {
       "ascensionLevel": 3,
       "maxLevel": 60,
-      "primary": 158,
-      "cost": 5000,
+      "primary": 341,
+      "secondary": 32.5,
+      "cost": 30000,
       "materials": [
         {
-          "id": "debris_of_decarabians_city",
-          "name": "Обломок стены Декарабиана",
-          "amount": 2
+          "id": "mist_veiled_mercury_elixir",
+          "name": "Ртутная пилюля Заоблачного моря",
+          "amount": 9
         },
         {
-          "id": "black_bronze_horn",
-          "name": "Чёрный бронзовый рог",
-          "amount": 2
+          "id": "mist_grass",
+          "name": "Мешочек с туманной травой",
+          "amount": 9
         },
         {
-          "id": "sharp_arrowhead",
-          "name": "Острый наконечник стрелы",
-          "amount": 2
+          "id": "silver_raven_insignia",
+          "name": "Печать серебряного ворона",
+          "amount": 9
         }
       ]
     },
     {
       "ascensionLevel": 4,
       "maxLevel": 70,
-      "primary": 185,
-      "cost": 10000,
+      "primary": 408,
+      "secondary": 36.3,
+      "cost": 45000,
       "materials": [
         {
-          "id": "fragment_of_decarabians_epic",
-          "name": "Фрагмент эпоса Декарабиана",
-          "amount": 1
+          "id": "mist_veiled_gold_elixir",
+          "name": "Золотая пилюля Заоблачного моря",
+          "amount": 5
         },
         {
-          "id": "black_bronze_horn",
-          "name": "Чёрный бронзовый рог",
-          "amount": 4
+          "id": "mist_grass",
+          "name": "Мешочек с туманной травой",
+          "amount": 18
         },
         {
-          "id": "sharp_arrowhead",
-          "name": "Острый наконечник стрелы",
-          "amount": 3
+          "id": "silver_raven_insignia",
+          "name": "Печать серебряного ворона",
+          "amount": 14
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 5,
+      "maxLevel": 80,
+      "primary": 475,
+      "secondary": 40.2,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "mist_veiled_gold_elixir",
+          "name": "Золотая пилюля Заоблачного моря",
+          "amount": 9
+        },
+        {
+          "id": "mist_grass_wick",
+          "name": "Пучок туманной травы",
+          "amount": 14
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Печать золотого ворона",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 6,
+      "maxLevel": 90,
+      "primary": 542,
+      "secondary": 44.1,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "mist_veiled_primo_elixir",
+          "name": "Примо эликсир Заоблачного моря",
+          "amount": 6
+        },
+        {
+          "id": "mist_grass_wick",
+          "name": "Пучок туманной травы",
+          "amount": 27
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Печать золотого ворона",
+          "amount": 18
         }
       ]
     }
   ],
-  "refinements": []
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Увеличивает HP на <span>20%</span>. Также даёт бонус атаки, равный <span>1.2%</span> от макс. HP экипированного этим оружием персонажа."
+    },
+    {
+      "refinement": 2,
+      "desc": "Увеличивает HP на <span>25%</span>. Также даёт бонус атаки, равный <span>1.5%</span> от макс. HP экипированного этим оружием персонажа."
+    },
+    {
+      "refinement": 3,
+      "desc": "Увеличивает HP на <span>30%</span>. Также даёт бонус атаки, равный <span>1.8%</span> от макс. HP экипированного этим оружием персонажа."
+    },
+    {
+      "refinement": 4,
+      "desc": "Увеличивает HP на <span>35%</span>. Также даёт бонус атаки, равный <span>2.1%</span> от макс. HP экипированного этим оружием персонажа."
+    },
+    {
+      "refinement": 5,
+      "desc": "Увеличивает HP на <span>40%</span>. Также даёт бонус атаки, равный <span>2.4%</span> от макс. HP экипированного этим оружием персонажа."
+    }
+  ]
 }

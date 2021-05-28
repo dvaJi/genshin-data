@@ -1,113 +1,192 @@
 {
   "id": "primordial_jade_cutter",
   "name": "Cortador de Jade Primordial",
-  "description": "Un gran claymore cubierto de musgo que fue bendecido y aprobado por el Dios de la Roca. Su aspecto aburrido y pesado esconde su letalidad.",
+  "description": "Una espada para ceremonias hecha con esencia de jade puro muy finamente tallado. El viento que se produce al blandirla emite un sonido parecido al de un suspiro.",
   "rarity": 5,
   "type": "Espada ligera",
   "primary": {
     "name": "ATQ Básico",
-    "value": 23
+    "value": 44
   },
-  "passive": "",
-  "bonus": "",
+  "secondary": {
+    "name": "Prob. CRIT",
+    "value": 9.6
+  },
+  "passive": "Pureza del protector",
+  "bonus": "Aumenta la Vida en un <span>20/25/30/35/40%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>12/15/18/21/24.%</span> de Bono de ATQ en proporción a su Vida Máx.",
   "ascensions": [
     {
       "ascensionLevel": 0,
       "maxLevel": 20,
-      "primary": 56,
+      "primary": 110,
+      "secondary": 17,
       "materials": []
     },
     {
       "ascensionLevel": 1,
       "maxLevel": 40,
-      "primary": 102,
+      "primary": 210,
+      "secondary": 24.7,
+      "cost": 10000,
       "materials": [
         {
-          "id": "tile_of_decarabians_tower",
-          "name": "Fragmento de azulejo de Decarabian",
-          "amount": 1
+          "id": "mist_veiled_lead_elixir",
+          "name": "Perdigones de plomo",
+          "amount": 5
         },
         {
-          "id": "heavy_horn",
-          "name": "Cuerno pesado",
-          "amount": 1
+          "id": "mist_grass_pollen",
+          "name": "Polen de neblina",
+          "amount": 5
         },
         {
-          "id": "firm_arrowhead",
-          "name": "Flecha robusta",
-          "amount": 1
+          "id": "treasure_hoarder_insignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 3
         }
       ]
     },
     {
       "ascensionLevel": 2,
       "maxLevel": 50,
-      "primary": 130,
-      "cost": 5000,
+      "primary": 275,
+      "secondary": 28.6,
+      "cost": 20000,
       "materials": [
         {
-          "id": "debris_of_decarabians_city",
-          "name": "Escombro de la ciudad de Decarabian",
-          "amount": 1
+          "id": "mist_veiled_mercury_elixir",
+          "name": "Perdigones de mercurio",
+          "amount": 5
         },
         {
-          "id": "heavy_horn",
-          "name": "Cuerno pesado",
-          "amount": 4
+          "id": "mist_grass_pollen",
+          "name": "Polen de neblina",
+          "amount": 18
         },
         {
-          "id": "firm_arrowhead",
-          "name": "Flecha robusta",
-          "amount": 2
+          "id": "treasure_hoarder_insignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 12
         }
       ]
     },
     {
       "ascensionLevel": 3,
       "maxLevel": 60,
-      "primary": 158,
-      "cost": 5000,
+      "primary": 341,
+      "secondary": 32.5,
+      "cost": 30000,
       "materials": [
         {
-          "id": "debris_of_decarabians_city",
-          "name": "Escombro de la ciudad de Decarabian",
-          "amount": 2
+          "id": "mist_veiled_mercury_elixir",
+          "name": "Perdigones de mercurio",
+          "amount": 9
         },
         {
-          "id": "black_bronze_horn",
-          "name": "Cuerno de bronce negro",
-          "amount": 2
+          "id": "mist_grass",
+          "name": "Hierba brumosa",
+          "amount": 9
         },
         {
-          "id": "sharp_arrowhead",
-          "name": "Flecha afilada",
-          "amount": 2
+          "id": "silver_raven_insignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 9
         }
       ]
     },
     {
       "ascensionLevel": 4,
       "maxLevel": 70,
-      "primary": 185,
-      "cost": 10000,
+      "primary": 408,
+      "secondary": 36.3,
+      "cost": 45000,
       "materials": [
         {
-          "id": "fragment_of_decarabians_epic",
-          "name": "Fragmento de epopeya de Decarabian",
-          "amount": 1
+          "id": "mist_veiled_gold_elixir",
+          "name": "Perdigones de oro",
+          "amount": 5
         },
         {
-          "id": "black_bronze_horn",
-          "name": "Cuerno de bronce negro",
-          "amount": 4
+          "id": "mist_grass",
+          "name": "Hierba brumosa",
+          "amount": 18
         },
         {
-          "id": "sharp_arrowhead",
-          "name": "Flecha afilada",
-          "amount": 3
+          "id": "silver_raven_insignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 14
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 5,
+      "maxLevel": 80,
+      "primary": 475,
+      "secondary": 40.2,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "mist_veiled_gold_elixir",
+          "name": "Perdigones de oro",
+          "amount": 9
+        },
+        {
+          "id": "mist_grass_wick",
+          "name": "Estambre de hierba brumosa",
+          "amount": 14
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 9
+        }
+      ]
+    },
+    {
+      "ascensionLevel": 6,
+      "maxLevel": 90,
+      "primary": 542,
+      "secondary": 44.1,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "mist_veiled_primo_elixir",
+          "name": "Perdigones primordiales",
+          "amount": 6
+        },
+        {
+          "id": "mist_grass_wick",
+          "name": "Estambre de hierba brumosa",
+          "amount": 27
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 18
         }
       ]
     }
   ],
-  "refinements": []
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Aumenta la Vida en un <span>20%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>1.2%</span> de Bono de ATQ en proporción a su Vida Máx."
+    },
+    {
+      "refinement": 2,
+      "desc": "Aumenta la Vida en un <span>25%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>1.5%</span> de Bono de ATQ en proporción a su Vida Máx."
+    },
+    {
+      "refinement": 3,
+      "desc": "Aumenta la Vida en un <span>30%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>1.8%</span> de Bono de ATQ en proporción a su Vida Máx."
+    },
+    {
+      "refinement": 4,
+      "desc": "Aumenta la Vida en un <span>35%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>2.1%</span> de Bono de ATQ en proporción a su Vida Máx."
+    },
+    {
+      "refinement": 5,
+      "desc": "Aumenta la Vida en un <span>40%</span>. Además, el personaje que lleve esta arma equipada obtendrá un <span>2.4%</span> de Bono de ATQ en proporción a su Vida Máx."
+    }
+  ]
 }

@@ -24,6 +24,7 @@ export interface AscensionMaterial {
   id: string;
   name: string;
   amount: number;
+  rarity: number;
 }
 
 export interface Ascension {
@@ -36,14 +37,14 @@ export interface Ascension {
   mat4: AscensionMaterial;
 }
 
-type CharacterVoice = {
+export type CharacterVoice = {
   english: string;
   chinese: string;
   japanese: string;
   korean: string;
 };
 
-type TalentMaterial = {
+export type TalentMaterial = {
   level: number;
   cost: number;
   items: AscensionMaterial[];
