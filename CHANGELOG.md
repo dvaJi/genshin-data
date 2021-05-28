@@ -1,3 +1,12 @@
+## [0.9.1](https://github.com/dvaJi/genshin-data/compare/0.9.0...0.9.1) (2021-05-28)
+
+
+### Fixes
+
+* resolve primordial_jade_cutter error, add rarity to talent_materials and ascension, and export some character typings ([59e6b04](https://github.com/dvaJi/genshin-data/commit/59e6b043c401e89b5999f7b9739283812b0bab86))
+
+
+
 ## [0.9.0](https://github.com/dvaJi/genshin-data/compare/0.8.1...0.9.0) (2021-04-28)
 
 
