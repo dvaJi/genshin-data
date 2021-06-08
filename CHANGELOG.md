@@ -1,3 +1,11 @@
+## [0.10.0](https://github.com/dvaJi/genshin-data/compare/0.9.1...0.10.0) (2021-06-08)
+
+
+### Features
+
+* update data to v1.6 ([a12cd47](https://github.com/dvaJi/genshin-data/commit/a12cd47b68bab17b1fed7079e78d5196a5571772))
+
+
 ## [0.9.1](https://github.com/dvaJi/genshin-data/compare/0.9.0...0.9.1) (2021-05-28)
 
 
