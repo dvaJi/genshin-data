@@ -1,0 +1,36 @@
+{
+  "id": "tuna_sushi",
+  "name": "Sushi au thon",
+  "description": "Un plat traditionnel confectionné à mains nues. Le riz doux et légèrement vinaigré complémente à merveille le poisson frais. Les locaux considèrent presque ce mets comme un luxe.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 3
+    },
+    {
+      "id": "rice",
+      "name": "Riz",
+      "amount": 3
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Sushi au thon (suspect)",
+      "description": "Un plat traditionnel confectionné à mains nues. La couleur des tranches de poisson a l'air un peu bizarre, et il est difficile de dire si le problème vient du riz aigre ou de la qualité du poisson.",
+      "effect": "Restaure 20 % des PV max du personnage sélectionné et 900 PV supplémentaires."
+    },
+    "normal": {
+      "name": "Sushi au thon",
+      "description": "Un plat traditionnel confectionné à mains nues. Le riz doux et légèrement vinaigré complémente à merveille le poisson frais. Les locaux considèrent presque ce mets comme un luxe.",
+      "effect": "Restaure 22 % des PV max du personnage sélectionné et 1 200 PV supplémentaires."
+    },
+    "delicious": {
+      "name": "Sushi au thon (délicieux)",
+      "description": "Un plat traditionnel confectionné à mains nues. La graisse délicate tapisse les tranches de poisson telle du givre sur un chemin et l'équilibre entre les textures est parfait. La préparation de ce plat ne fait preuve d'aucune exubérance, mais combine merveilleusement bien les saveurs profondes des champs et celles de la mer.",
+      "effect": "Restaure 24 % des PV max du personnage sélectionné et 1 500 PV supplémentaires."
+    }
+  }
+}

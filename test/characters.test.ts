@@ -48,8 +48,8 @@ for (const language of languages) {
 
       for (const character of characters) {
         for (const skill of character.skills) {
-          // Mona SP skill must be skipped
-          if (skill.id === 'illusory_torrent') {
+          // Mona|Ayaka SP skill must be skipped
+          if (['illusory_torrent', 'kamisato_art_senho'].includes(skill.id)) {
             continue;
           }
 

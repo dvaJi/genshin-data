@@ -1,0 +1,50 @@
+{
+  "id": "onigiri",
+  "name": "Onigiris",
+  "description": "Un plat à emporter fait à base de riz. Il est simple à faire et reste délicieux à température ambiante, ce qui l'a rendu très populaire auprès des civils et des soldats.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 2
+    },
+    {
+      "id": "seagrass",
+      "name": "Herbe marine",
+      "amount": 2
+    },
+    {
+      "id": "rice",
+      "name": "Riz",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Onigiris (suspects)",
+      "description": "Un plat à emporter fait à base de riz. Il a une forme à peu près triangulaire, mais il est si lâche qu'il menace de se désintégrer quand vous le prenez en main. Oui, se désintégrer, tout comme l'appétit de celui qui aurait le malheur de vouloir le manger.",
+      "effect": "Restaure immédiatement 18 % des PV max, puis 300 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "normal": {
+      "name": "Onigiris",
+      "description": "Un plat à emporter fait à base de riz. Il est simple à faire et reste délicieux à température ambiante, ce qui l'a rendu très populaire auprès des civils et des soldats.",
+      "effect": "Restaure immédiatement 20 % des PV max, puis 390 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "delicious": {
+      "name": "Onigiris (délicieux)",
+      "description": "Un plat à emporter fait à base de riz. L'algue croustillante ajoute un peu d'umami à la douceur terre-à-terre du riz gluant. Pour la touche finale, le poisson frais contenu dans la boule de riz frappe avec force, et la satisfaction qu'il apporte au corps et à l'esprit sonne comme le clairon de la victoire.",
+      "effect": "Restaure immédiatement 22 % des PV max, puis 470 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "special": {
+      "name": "Remède contre le tournis 2.0",
+      "description": "Spécialité culinaire de Sayu. Sayu a pétri les onigiris pour leur donner une forme amusante. Mais rappelez-vous, c'est un mujina, pas un tanuki, compris ? D'ailleurs, c'est peut-être la raison pour laquelle elle dort toute une journée après avoir mangé.",
+      "effect": "Restaure immédiatement 26 % des PV max, puis 570 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+      "character": {
+        "id": "sayu",
+        "name": "Sayu"
+      }
+    }
+  }
+}
