@@ -1,4 +1,12 @@
-## [0.11.0](https://github.com/dvaJi/genshin-data/compare/0.0.0...0.11.0) (2021-07-21)
+## [0.11.1](https://github.com/dvaJi/genshin-data/compare/0.11.0...0.11.1) (2021-07-21)
+
+
+### Features
+
+* added electro traveler ([08e436b](https://github.com/dvaJi/genshin-data/commit/08e436b9ff17a2a3afc94dd828e6184524dbf008))
+
+
+## [0.11.0](https://github.com/dvaJi/genshin-data/compare/0.10.0...0.11.0) (2021-07-21)
 
 
 ### Features
