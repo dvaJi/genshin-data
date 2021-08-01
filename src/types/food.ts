@@ -6,18 +6,22 @@ type Ingredient = {
 
 type FoodResult = {
   normal: {
+    name: string;
     description: string;
     effect: string;
   };
   delicious: {
+    name: string;
     description: string;
     effect: string;
   };
   suspicious: {
+    name: string;
     description: string;
     effect: string;
   };
   special?: {
+    name: string;
     description: string;
     effect: string;
     character: {
