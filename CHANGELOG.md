@@ -1,3 +1,12 @@
+## [0.11.2](https://github.com/dvaJi/genshin-data/compare/0.11.1...0.11.2) (2021-08-01)
+
+
+### Fixes
+
+* update food typings ([a0d7679](https://github.com/dvaJi/genshin-data/commit/a0d7679d5a0445002da0dde382f84d9a16bff072))
+
+
+
 ## [0.11.1](https://github.com/dvaJi/genshin-data/compare/0.11.0...0.11.1) (2021-07-21)
 
 
