@@ -4,165 +4,251 @@
   "description": "Копьё тонкой работы, выточенное из утёсов каменного леса Гуюнь. На свете нет ничего твёрже, чем его наконечник.",
   "rarity": 4,
   "type": "Древковое оружие",
-  "primary": {
-    "name": "Базовая атака",
-    "value": 44
-  },
-  "secondary": {
-    "name": "Сила атаки%",
-    "value": 6
-  },
   "passive": "Наставления камня: Единство",
   "bonus": "С каждым членом отряда из Ли Юэ сила атаки экипированного этим оружием персонажа увеличивается на <span>7/8/9/10/11%</span>, а его шанс крит. попадания - на <span>3/4/5/6/7%</span>. Эффект может складываться до 4 раз.",
+  "stats": {
+    "primary": "Базовая атака",
+    "secondary": "Сила атаки%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 10.6,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 15.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Зерно чёрного сидерита",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Хрупкие останки",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Прочный наконечник стрелы",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 17.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Кусочек чёрного сидерита",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Хрупкие останки",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Прочный наконечник стрелы",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 20.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Кусочек чёрного сидерита",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Крепкие останки",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Острый наконечник стрелы",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 22.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Осколок чёрного сидерита",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Крепкие останки",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Острый наконечник стрелы",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 25.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Осколок чёрного сидерита",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Окаменевшие останки",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Старый наконечник стрелы",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 27.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Обломок чёрного сидерита",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Окаменевшие останки",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Старый наконечник стрелы",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

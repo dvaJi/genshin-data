@@ -4,165 +4,251 @@
   "description": "風龍の傲りを象徴する両手剣。振り回す時に風龍の勢いを感じられ、蒼空と長風の力が秘められている。",
   "rarity": 5,
   "type": "両手剣",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 48
-  },
-  "secondary": {
-    "name": "元素チャージ効率",
-    "value": 8
-  },
   "passive": "晴れ空を裂く龍の骨",
   "bonus": "与えるダメージ+<span>8/10/12/14/16%</span>。元素爆発を発動した後、通常攻撃と重撃が命中すると真空の刃を放ち、経路上の敵に攻撃力の<span>80/100/120/140/160%</span>のダメージを与える、継続時間20秒または真空の刃を8回発動するまで。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "元素チャージ効率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 36.8
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 14.1,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 20.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "凛風奔狼の乳歯",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈の旧枝",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 23.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凛風奔狼の砕牙",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈の旧枝",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 27.1,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凛風奔狼の砕牙",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈の枯れ葉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 30.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凛風奔狼の断牙",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈の枯れ葉",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 33.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凛風奔狼の断牙",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈の新芽",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 36.8,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "凛風奔狼の郷愁",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈の新芽",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

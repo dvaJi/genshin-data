@@ -4,165 +4,251 @@
   "description": "Trường thương được chế tạo từ răng rồng. Có một cảm giác ấm áp kỳ lạ.",
   "rarity": 4,
   "type": "Vũ Khí Cán Dài",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 41
-  },
-  "secondary": {
-    "name": "Tăng Sát Thương Vật Lý",
-    "value": 15
-  },
   "passive": "Sương Táng",
   "bonus": "Khi tấn công thường và trọng kích đánh trúng kẻ địch có tỷ lệ <span>60/70/80/90/100%</span> tạo ra Đá Vĩnh Hằng phía trên kẻ địch và rơi xuống, gây sát thương phạm vi bằng <span>80/95/110/125/140%</span> tấn công. Nếu địch bị ảnh hưởng bởi nguyên tố Băng, sẽ gây sát thương bằng <span>200/240/280/320/360%</span> tấn công. Hiệu quả này mỗi 10s kích hoạt 1 lần.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tăng Sát Thương Vật Lý",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 15
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 69
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 26.5,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 38.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Răng Sữa Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Phù Hiệu Tân Binh",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 44.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Răng Vỡ Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Phù Hiệu Tân Binh",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 50.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Răng Vỡ Sói Bão",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Phù Hiệu Sĩ Quan",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 56.8,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Mảnh Răng Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Phù Hiệu Sĩ Quan",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 62.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Mảnh Răng Sói Bão",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Phù Hiệu Hiệu Úy",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 69,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Nỗi Nhớ Của Sói Bão",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Phù Hiệu Hiệu Úy",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

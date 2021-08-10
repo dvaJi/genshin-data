@@ -4,165 +4,251 @@
   "description": "Cung săn bắn đã bị hóa đá theo năm tháng, vẫn có thể thấy được trang sức được khảm trên đó. Mang theo sức mạnh chúc phúc của gió thời gian.",
   "rarity": 4,
   "type": "Cung",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 44
-  },
-  "secondary": {
-    "name": "Hiệu Quả Nạp Nguyên Tố",
-    "value": 6.7
-  },
   "passive": "Khí Định Thần",
   "bonus": "Khi kỹ năng Nguyên Tố tạo thành sát thương, có tỷ lệ <span>40/50/60/70/80%</span> làm mới thời gian CD kỹ năng đó, mỗi <span>30/26/22/19/16</span>s mới thi triển 1 lần.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Hiệu Quả Nạp Nguyên Tố",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6.7
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 11.8
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 11.8
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 17.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 17.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 19.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 19.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 22.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 22.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 25.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 25.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 27.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 27.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 30.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 11.8,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 17.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Răng Sữa Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Cành Cây Địa Mạch",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Dịch Slime",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 19.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Răng Vỡ Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Cành Cây Địa Mạch",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Dịch Slime",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 22.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Răng Vỡ Sói Bão",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Lá Khô Địa Mạch",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Tinh Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 25.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Mảnh Răng Sói Bão",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Lá Khô Địa Mạch",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Tinh Slime",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 27.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Mảnh Răng Sói Bão",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Chồi Non Địa Mạch",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Bột Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 30.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Nỗi Nhớ Của Sói Bão",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Chồi Non Địa Mạch",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Bột Slime",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

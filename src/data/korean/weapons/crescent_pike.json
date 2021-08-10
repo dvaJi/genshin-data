@@ -4,165 +4,251 @@
   "description": "창끝이 매우 길고 끝부분이 반달 모양의 칼날로 갈라진 이국의 병기. 상로를 거쳐 리월로 전해져왔다. 조금만 연습하면 아주 뛰어난 살상력을 발휘할 수 있다",
   "rarity": 4,
   "type": "장병기",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 44
-  },
-  "secondary": {
-    "name": "물리 피해 보너스",
-    "value": 7.5
-  },
   "passive": "에너지 주입 바늘",
   "bonus": "원소 입자 또는 원소 구슬 획득 후 5초 동안 일반 공격 혹은 강공격 시 적에게 추가로 공격력 <span>20/25/30/35/40%</span>의 피해를 준다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "물리 피해 보너스",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 7.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 22.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 22.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 28.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 28.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 31.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 31.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 34.5
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 13.3,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 19.3,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "고운한림의 매끄러운 모래",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "사냥꾼의 제도",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "보물찾기 까마귀 휘장",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 22.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "고운한림의 휘암",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "사냥꾼의 제도",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "보물찾기 까마귀 휘장",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 25.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "고운한림의 휘암",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "특수 요원의 제도",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "실버 까마귀 휘장",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 28.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "고운한림의 해골",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "특수 요원의 제도",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "실버 까마귀 휘장",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 31.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "고운한림의 해골",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "검사관의 제도",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "골드 까마귀 휘장",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 34.5,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "고운한림의 신체",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "검사관의 제도",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "골드 까마귀 휘장",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

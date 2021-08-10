@@ -4,165 +4,251 @@
   "description": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
   "rarity": 5,
   "type": "Polearm",
-  "primary": {
-    "name": "Base ATK",
-    "value": 46
-  },
-  "secondary": {
-    "name": "ATK%",
-    "value": 10.8
-  },
   "passive": "Golden Majesty",
   "bonus": "Increases Shield Strength by <span>20/25/30/35/40%</span>. Scoring hits on opponents increases ATK by <span>4/5/6/7/8%</span> for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "ATK%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 19.1,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 27.8,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Grain of Aerosiderite",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Fragile Bone Shard",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Treasure Hoarder Insignia",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 32.2,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Piece of Aerosiderite",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Fragile Bone Shard",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Treasure Hoarder Insignia",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 36.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Piece of Aerosiderite",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Sturdy Bone Shard",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 40.9,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Bit of Aerosiderite",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Sturdy Bone Shard",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 45.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Bit of Aerosiderite",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Fossilized Bone Shard",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 49.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Chunk of Aerosiderite",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Fossilized Bone Shard",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

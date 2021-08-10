@@ -4,165 +4,251 @@
   "description": "오래전에 사라져버린 옛 제사 의식에 사용됐던 적색의 지팡이",
   "rarity": 5,
   "type": "장병기",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 46
-  },
-  "secondary": {
-    "name": "치명타 피해",
-    "value": 14.4
-  },
   "passive": "자유의 붉은 나비",
   "bonus": "HP가 <span>20/25/30/35/40%</span> 증가하고, 이 무기를 장착한 캐릭터 HP 최대치의 <span>08/1/12/14/16.%</span>에 해당하는 공격력 보너스를 획득한다. 이 무기를 장착한 캐릭터의 HP가 50% 미만일 경우, 공격력이 추가로 HP 최대치의 <span>1/12/14/16/18%</span>만큼 증가한다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "치명타 피해",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 25.4,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 37.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "흑운철 한 알",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "지맥의 낡은 가지",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 42.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "흑운철 조각",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "지맥의 낡은 가지",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 48.7,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "흑운철 조각",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "지맥의 마른 잎",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 54.5,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "흑운철 일각",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "지맥의 마른 잎",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 60.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "흑운철 일각",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "지맥의 새싹",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 66.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "흑운철 덩이",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "지맥의 새싹",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

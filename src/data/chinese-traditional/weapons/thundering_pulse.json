@@ -4,165 +4,251 @@
   "description": "曾由將軍御賜的長弓，閃爍著永不熄滅的雷光。",
   "rarity": 5,
   "type": "弓",
-  "primary": {
-    "name": "基礎攻擊力",
-    "value": 46
-  },
-  "secondary": {
-    "name": "暴擊傷害",
-    "value": 14.4
-  },
   "passive": "飛雷御執",
   "bonus": "攻擊力提高<span>20/25/30/35/40%</span>，並能獲得「飛雷之巴印」的威勢。飛雷之巴印：持有1/2/3層飛雷之巴印時，普通攻擊造成的傷害提高<span>122440/153050/183660/214270/244880//%</span>。在下列情況下，角色將各獲得一層飛雷之巴印：普通攻擊造成傷害時，持續5秒；施放元素戰技時，持續10秒；此外，角色元素能量低於100%時，將獲得一層飛雷之巴印，此飛雷之巴印會在角色的元素能量充滿時消失。每層飛雷之巴印的持續時間獨立計算。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "暴擊傷害",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 25.4,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 37.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "narukamis_wisdom",
           "name": "鳴神御靈的明惠",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dismal_prism",
           "name": "黯淡稜鏡",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "牢固的箭鏃",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 42.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "鳴神御靈的歡喜",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dismal_prism",
           "name": "黯淡稜鏡",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "牢固的箭鏃",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 48.7,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "鳴神御靈的歡喜",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "crystal_prism",
           "name": "水晶稜鏡",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "銳利的箭鏃",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 54.5,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "鳴神御靈的親愛",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "crystal_prism",
           "name": "水晶稜鏡",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "銳利的箭鏃",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 60.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "鳴神御靈的親愛",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "polarizing_prism",
           "name": "偏光稜鏡",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "歷戰的箭鏃",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 66.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "narukamis_valor",
           "name": "鳴神御靈的勇武",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "polarizing_prism",
           "name": "偏光稜鏡",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "歷戰的箭鏃",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

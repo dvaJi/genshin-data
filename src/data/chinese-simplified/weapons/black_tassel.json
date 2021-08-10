@@ -4,165 +4,251 @@
   "description": "解决了白缨容易弄脏问题的绝世好枪。",
   "rarity": 3,
   "type": "长柄武器",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 38
-  },
-  "secondary": {
-    "name": "生命值%",
-    "value": 10.2
-  },
   "passive": "克柔",
   "bonus": "对史莱姆类敌人造成的伤害增加<span>40/50/60/70/80%</span>。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "生命值%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 46.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 86,
-      "secondary": 18,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 151,
-      "secondary": 26.3,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "漆黑陨铁的一粒",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "脆弱的骨片",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "牢固的箭簇",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 193,
-      "secondary": 30.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黑陨铁的一片",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "脆弱的骨片",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "牢固的箭簇",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 234,
-      "secondary": 34.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黑陨铁的一片",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "结实的骨片",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "锐利的箭簇",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 274,
-      "secondary": 38.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黑陨铁的一角",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "结实的骨片",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "锐利的箭簇",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 314,
-      "secondary": 42.8,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黑陨铁的一角",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "石化的骨片",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "历战的箭簇",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 354,
-      "secondary": 46.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "漆黑陨铁的一块",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "石化的骨片",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "历战的箭簇",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

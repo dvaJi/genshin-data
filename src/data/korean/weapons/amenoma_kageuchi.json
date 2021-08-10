@@ -4,165 +4,251 @@
   "description": "전설 속의 아주 빠른 텐구 마저 베어버린다는 명사가 주문한 검",
   "rarity": 4,
   "type": "한손검",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 41
-  },
-  "secondary": {
-    "name": "공격력%",
-    "value": 12
-  },
   "passive": "이와쿠라의 후손",
   "bonus": "원소전투 스킬 발동 후 계승의 씨앗을 1개 획득하고, 해당 효과는 5초마다 최대 1회 발동된다. 계승의 씨앗 지속시간: 30초. 동시에 최대 3개까지 존재할 수 있다. 원소폭발 발동 후 보유 중인 계승의 씨앗이 모두 소모되며, 2초 후 소모된 계승의 씨앗의 개수에 따라 하나당 해당 캐릭터의 원소 에너지를 <span>6/75/9/105/12</span>pt 회복한다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "공격력%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "coral_branch_of_a_distant_sea",
           "name": "먼바다의 산호 가지",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "혼돈의 기관",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "오래된 코등이",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "먼바다의 옥빛 가지",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "혼돈의 기관",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "오래된 코등이",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "먼바다의 옥빛 가지",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "혼돈의 중추",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "카게우치 코등이",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "먼바다의 마노 가지",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "혼돈의 중추",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "카게우치 코등이",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "먼바다의 마노 가지",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "혼돈의 눈동자",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "명검 코등이",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "golden_branch_of_a_distant_sea",
           "name": "먼바다의 금빛 가지",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "혼돈의 눈동자",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "명검 코등이",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

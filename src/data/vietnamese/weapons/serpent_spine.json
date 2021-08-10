@@ -4,165 +4,251 @@
   "description": "Binh khí hiếm đến từ biển cổ đại, múa kiếm vùn vụt như sóng dữ.",
   "rarity": 4,
   "type": "Trọng Kiếm",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 42
-  },
-  "secondary": {
-    "name": "Tỷ Lệ Bạo Kích",
-    "value": 6
-  },
   "passive": "Phá Sóng",
   "bonus": "Khi nhân vật ra trận, mỗi 4s tăng <span>6/7/8/9/10%</span> sát thương gây ra, <span>3/27/24/22/2%</span> sát thương phải chịu. Cộng dồn tối đa 5 tầng, không làm mới khi nhân vật rời khỏi trận, sau khi chịu sát thương sẽ giảm 1 tầng hiệu quả.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tỷ Lệ Bạo Kích",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 27.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 10.6,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 15.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Hạt Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Mảnh Xương Giòn Yếu",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "whopperflower_nectar",
           "name": "Mật Hoa Lừa Dối",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 17.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Mảnh Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Mảnh Xương Giòn Yếu",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "whopperflower_nectar",
           "name": "Mật Hoa Lừa Dối",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 20.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Mảnh Thiên Thạch Đen",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Mảnh Xương Chắc Chắn",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "shimmering_nectar",
           "name": "Mật Hoa Lấp Lánh",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 22.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Một Góc Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Mảnh Xương Chắc Chắn",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "shimmering_nectar",
           "name": "Mật Hoa Lấp Lánh",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 25.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Một Góc Thiên Thạch Đen",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Mảnh Xương Hóa Thạch",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "energy_nectar",
           "name": "Mật Hoa Nguyên Tố",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 27.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Miếng Thiên Thạch Đen",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Mảnh Xương Hóa Thạch",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "energy_nectar",
           "name": "Mật Hoa Nguyên Tố",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

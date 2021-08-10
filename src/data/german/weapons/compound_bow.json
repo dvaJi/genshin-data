@@ -4,165 +4,251 @@
   "description": "Ein Compoundbogen aus Metall, bei dem Räder die Sehne spannen. Aufgrund seines sonderbaren Aufbaus ist er schwierig zu pflegen. Gespannt wird er dafür umso einfacher.",
   "rarity": 4,
   "type": "Bogen",
-  "primary": {
-    "name": "Basis-ANG",
-    "value": 41
-  },
-  "secondary": {
-    "name": "Physischer SCH-Bonus",
-    "value": 15
-  },
   "passive": "Energieschubpfeil",
   "bonus": "Erhöht den ANG bei Treffern mit Standardangriffen und heftigen Schlägen 6 s lang um <span>4/5/6/7/8 %</span> und die Standardangriffs-GSW um <span>12/15/18/21/24, %</span>. 4-fach stapelbar, 0,3 s Abklingzeit.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "Physischer SCH-Bonus",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 15
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 69
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 26.5,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 38.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Körnchen pechschwarzer Aerosiderit",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Zerbrechliches Knochenstück",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Abzeichen für neue Rekruten",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 44.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Stückchen pechschwarzer Aerosiderit",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Zerbrechliches Knochenstück",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Abzeichen für neue Rekruten",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 50.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Stückchen pechschwarzer Aerosiderit",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Stabiles Knochenstück",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Abzeichen für Unteroffiziere",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 56.8,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Klumpen pechschwarzer Aerosiderit",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Stabiles Knochenstück",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Abzeichen für Unteroffiziere",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 62.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Klumpen pechschwarzer Aerosiderit",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Versteinertes Knochenstück",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Abzeichen für Offiziere",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 69,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Brocken pechschwarzer Aerosiderit",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Versteinertes Knochenstück",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Abzeichen für Offiziere",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

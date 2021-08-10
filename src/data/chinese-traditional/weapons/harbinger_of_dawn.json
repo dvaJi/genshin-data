@@ -4,165 +4,251 @@
   "description": "一把曾經耀若朝陽的寶劍，掌握它的人會獲得「自我感覺良好」的力量加持。劍身的發光材料已經褪去。",
   "rarity": 3,
   "type": "單手劍",
-  "primary": {
-    "name": "基礎攻擊力",
-    "value": 39
-  },
-  "secondary": {
-    "name": "暴擊傷害",
-    "value": 10.2
-  },
   "passive": "激勵",
   "bonus": "生命值高於90%時，暴擊率提升<span>14/175/21/245/28%</span>。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "暴擊傷害",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 46.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 18,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 26.3,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "凜風奔狼的始齔",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈的舊枝",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "史萊姆凝液",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 30.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凜風奔狼的裂齒",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈的舊枝",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "史萊姆凝液",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 34.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凜風奔狼的裂齒",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈的枯葉",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "史萊姆清",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 38.6,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凜風奔狼的斷牙",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈的枯葉",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "史萊姆清",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 42.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凜風奔狼的斷牙",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈的新芽",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "史萊姆原漿",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 46.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "凜風奔狼的懷鄉",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈的新芽",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "史萊姆原漿",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

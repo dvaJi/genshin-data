@@ -4,165 +4,251 @@
   "description": "풍룡의 영광을 상징하는 기사검. 잃어버렸다가 오늘날 되찾았다. 현재 검에 바람 신의 축복이 깃들어 있으며, 푸른 하늘과 바람의 힘을 지니고 있다",
   "rarity": 5,
   "type": "한손검",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 46
-  },
-  "secondary": {
-    "name": "원소 충전 효율",
-    "value": 12
-  },
   "passive": "높은 하늘을 뚫는 이빨",
   "bonus": "치명타 확률이 <span>4/5/6/7/8%</span> 증가한다. 원소폭발 발동 시 파공의 기세를 획득한다: 이동속도+<span>10/10/10/10/10%</span>, 공격속도+<span>10/10/10/10/10%</span>. 일반 공격과 강공격이 명중 시 추가로 공격력 <span>20/25/30/35/40%</span>의 피해를 준다. 지속 시간: 12초",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "원소 충전 효율",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "칼바람 울프의 젖니",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "지맥의 낡은 가지",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "칼바람 울프의 이빨",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "지맥의 낡은 가지",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "칼바람 울프의 이빨",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "지맥의 마른 잎",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "칼바람 울프의 부서진 이빨",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "지맥의 마른 잎",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "칼바람 울프의 부서진 이빨",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "지맥의 새싹",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "칼바람 울프의 그리운 고향",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "지맥의 새싹",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

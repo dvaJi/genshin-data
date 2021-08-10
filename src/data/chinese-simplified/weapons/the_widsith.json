@@ -4,165 +4,251 @@
   "description": "记载着歌谱的厚重记事簿。尽管遭受了虫蛀和风化，残留的手迹仍透露出力量。",
   "rarity": 4,
   "type": "法器",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 42
-  },
-  "secondary": {
-    "name": "暴击伤害",
-    "value": 12
-  },
   "passive": "登场乐",
   "bonus": "角色登场时，随机获得一个主题曲，持续10秒。每30秒只能触发一次。宣叙调：攻击力提升<span>60/75/90/105/120%</span>；咏叹调：全元素伤害提升<span>48/60/72/84/96%</span>;间奏曲：元素精通提升<span>240/300/360/420/480</span>。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "暴击伤害",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "凛风奔狼的始龀",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脉的旧枝",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凛风奔狼的裂齿",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脉的旧枝",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "凛风奔狼的裂齿",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脉的枯叶",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凛风奔狼的断牙",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脉的枯叶",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "凛风奔狼的断牙",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "地脉的新芽",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "凛风奔狼的怀乡",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "地脉的新芽",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "某位曾支配蒙德的旧日贵族，曾经珍爱的长枪。过去不曾见过天日，但如今依然尖锐无比。",
   "rarity": 4,
   "type": "长柄武器",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 44
-  },
-  "secondary": {
-    "name": "攻击力%",
-    "value": 6
-  },
   "passive": "专注",
   "bonus": "攻击造成伤害时，暴击率提升<span>8/10/12/14/16%</span>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "攻击力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 10.6,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 15.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "雾海云间的铅丹",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "雾虚花粉",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "新兵的徽记",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 17.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "雾海云间的汞丹",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "雾虚花粉",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "新兵的徽记",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 20.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "雾海云间的汞丹",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "雾虚草囊",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "士官的徽记",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 22.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "雾海云间的金丹",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "雾虚草囊",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "士官的徽记",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 25.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "雾海云间的金丹",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "雾虚灯芯",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "尉官的徽记",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 27.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "雾海云间的转还",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "雾虚灯芯",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "尉官的徽记",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

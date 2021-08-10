@@ -4,165 +4,251 @@
   "description": "Двуручный меч, символ власти Двалина над небесами. Дыхание дракона питает его силой небес и ветров.",
   "rarity": 5,
   "type": "Двуручное оружие",
-  "primary": {
-    "name": "Базовая атака",
-    "value": 48
-  },
-  "secondary": {
-    "name": "Восст. энергии",
-    "value": 8
-  },
   "passive": "Дракон, пронзивший небо",
   "bonus": "Увеличивает наносимый урон на <span>8/10/12/14/16%</span>. После активации взрыва стихий попадания обычными или заряженными атаками запускают неосязаемое лезвие, которое наносит <span>80/100/120/140/160%</span> урона всем врагам на своём пути. Длится 20 сек. или 8 неосязаемых лезвий.",
+  "stats": {
+    "primary": "Базовая атака",
+    "secondary": "Восст. энергии",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 36.8
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 14.1,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 20.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Молочный зуб арктического волка",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ветви артерий земли",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Слизь слайма",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 23.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Треснувший зуб арктического волка",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ветви артерий земли",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Слизь слайма",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 27.1,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Треснувший зуб арктического волка",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Листья артерий земли",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Выделения слайма",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 30.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Сломанный клык арктического волка",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Листья артерий земли",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Выделения слайма",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 33.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Сломанный клык арктического волка",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Ростки артерий земли",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Концентрат слайма",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 36.8,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Ностальгия арктического волка",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Ростки артерий земли",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Концентрат слайма",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

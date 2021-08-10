@@ -4,165 +4,251 @@
   "description": "จิตวิญญาณของเหล่าอัศวินแห่ง Favonius แม้พันปีผ่านไป มันก็ยังคงเป็นดั่งสายลมแห่ง ความยุติธรรมที่ขับไล่สิ่งชั่วร้าย เช่นเดียวกับวีรชนหญิง คนสุดท้ายที่กวัดแกว่งมัน",
   "rarity": 5,
   "type": "ดาบ",
-  "primary": {
-    "name": "พลังโจมตีพื้นฐาน",
-    "value": 48
-  },
-  "secondary": {
-    "name": "โบนัสความเสียหายกายภาพ",
-    "value": 9
-  },
   "passive": "Falcon's Defiance",
   "bonus": "เพิ่มพลังโจมตี <span>20/25/30/35/40%</span>; ปลดปล่อยเมื่อ ได้รับความเสียหาย: จิตวิญญาณของวิหคตะวันตกที่ ชูธงแห่งการต่อต้านจะตื่นขึ้น และฟื้นฟูพลังชีวิตเท่ากับ <span>100/115/130/145/160%</span> ของพลังโจมตี และสร้างความเสียหายเป็น <span>200/230/260/290/320%</span> ของพลังโจมตี แก่ศัตรูโดยรอบ โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 15 วินาที",
+  "stats": {
+    "primary": "พลังโจมตีพื้นฐาน",
+    "secondary": "โบนัสความเสียหายกายภาพ",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 41.3
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 15.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 23.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Tile of Decarabian's Tower",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Heavy Horn",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Firm Arrowhead",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 26.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Debris of Decarabian's City",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Heavy Horn",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Firm Arrowhead",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 30.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Debris of Decarabian's City",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Black Bronze Horn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 34.1,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment of Decarabian's Epic",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Black Bronze Horn",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 37.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment of Decarabian's Epic",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Black Crystal Horn",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Historic Arrowhead",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 41.3,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Scattered Piece of Decarabian's Dream",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Black Crystal Horn",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Historic Arrowhead",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

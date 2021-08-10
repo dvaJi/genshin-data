@@ -4,165 +4,251 @@
   "description": "Thanh kiếm được dùng trong nghi lễ, được chạm khắc cẩn thận từ ngọc bích tinh khiết, khi vung lên, âm thanh giống như tiếng thở dài trong gió.",
   "rarity": 5,
   "type": "Kiếm Đơn",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 44
-  },
-  "secondary": {
-    "name": "Tỷ Lệ Bạo Kích",
-    "value": 9.6
-  },
   "passive": "Trái Tim Hộ Quốc",
   "bonus": "HP tăng <span>20/25/30/35/40%</span>. Ngoài ra, nhận được buff tấn công dựa trên <span>12/15/18/21/24.%</span> giới hạn HP của nhân vật trang bị vũ khí này.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tỷ Lệ Bạo Kích",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 44.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 110,
-      "secondary": 17,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 210,
-      "secondary": 24.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "Diên Đơn Biển Sương Mù",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Ấn Quạ Tầm Bảo",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 275,
-      "secondary": 28.6,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Hống Đơn Biển Sương Mù",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Ấn Quạ Tầm Bảo",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 341,
-      "secondary": 32.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Hống Đơn Biển Sương Mù",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 408,
-      "secondary": 36.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Kim Đơn Biển Sương Mù",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 475,
-      "secondary": 40.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Kim Đơn Biển Sương Mù",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 542,
-      "secondary": 44.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "Sự Chuyển Dời Của Biển Sương Mù",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "Uma espada grande tão leve quanto o suspiro de grama na brisa, mas tão impiedosa para os corruptos quanto um tufão.",
   "rarity": 5,
   "type": "Espadão",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 49
-  },
-  "secondary": {
-    "name": "Bônus de Dano Físico",
-    "value": 4.5
-  },
   "passive": "Música de Rebelião da Bandeira",
   "bonus": "Uma parte do Concerto Milenar que flutua no vento. Aumenta o ATQ em <span>16/20/24/28/32%</span>. Quando Ataque Normal ou Ataque Carregado atingir os inimigos, o personagem obterá um Símbolo dos Suspiros, que pode ser ativado uma vez a cada 0.3s. Possuir 4 Símbolos dos Sussurros faz consumir todos eles, e faz todos os personagens da equipe obterem o efeito de \"Concerto Milenar: Música do Levantar da Bandeira\" por 12s: A Vel. de Ataque Normal será aumentada em <span>12/15/18/21/24%</span>, além disso o ATQ será aumentado em <span>20/25/30/35/40%</span>. Dentro de 20s depois da ativação, não é possível obter os Símbolos dos Sussurros de novo. Entre todos os efeitos de vários valores, os efeitos do mesmo valor não podem ser acumulados.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Bônus de Dano Físico",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 4.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 20.7
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 145,
-      "secondary": 8,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 286,
-      "secondary": 11.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Fragmento de Azulejo de Decarabian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Chifre Pesado",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Máscara Danificada",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 374,
-      "secondary": 13.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Detritos da Cidade de Decarabian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Chifre Pesado",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Máscara Danificada",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 464,
-      "secondary": 15.2,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Detritos da Cidade de Decarabian",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Chifre de Bronze Negro",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Máscara Suja",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 555,
-      "secondary": 17,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragmentos Épicos da Decarabian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Chifre de Bronze Negro",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Máscara Suja",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 648,
-      "secondary": 18.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragmentos Épicos da Decarabian",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Chifre de Cristal Preto",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Máscara Ominosa",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 741,
-      "secondary": 20.7,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Pedaços de Sonho da Decarabian",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Chifre de Cristal Preto",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Máscara Ominosa",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

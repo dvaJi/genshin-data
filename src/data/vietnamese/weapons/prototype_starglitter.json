@@ -4,165 +4,251 @@
   "description": "Thương móc cổ xưa của Hắc Nham Xưởng. Trên đầu lưỡi lấp lánh như ánh sáng của bầu trời vắng sao.",
   "rarity": 4,
   "type": "Vũ Khí Cán Dài",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 42
-  },
-  "secondary": {
-    "name": "Hiệu Quả Nạp Nguyên Tố",
-    "value": 10
-  },
   "passive": "Thị Ma",
   "bonus": "Sau khi thi triển kỹ năng nguyên tố, sát thương tấn công thường và trọng kích tăng <span>8/10/12/14/16%</span>. Kéo dài 12s, tối đa cộng dồn 2 tầng.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Hiệu Quả Nạp Nguyên Tố",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 10
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 45.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 17.7,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 25.8,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Hạt Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Mảnh Xương Giòn Yếu",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 29.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Mảnh Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Mảnh Xương Giòn Yếu",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 33.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Mảnh Thiên Thạch Đen",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Mảnh Xương Chắc Chắn",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 37.9,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Một Góc Thiên Thạch Đen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Mảnh Xương Chắc Chắn",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 41.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Một Góc Thiên Thạch Đen",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Mảnh Xương Hóa Thạch",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 45.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Miếng Thiên Thạch Đen",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Mảnh Xương Hóa Thạch",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

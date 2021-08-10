@@ -4,165 +4,251 @@
   "description": "既に廃れた過去の祭儀で使われていた朱色の杖。",
   "rarity": 5,
   "type": "長柄武器",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 46
-  },
-  "secondary": {
-    "name": "会心ダメージ",
-    "value": 14.4
-  },
   "passive": "縛り無き朱色の蝶",
   "bonus": "HP上限+<span>20/25/30/35/40%</span>。また、キャラクターのHP上限の<span>08/1/12/14/16.%</span>分、攻撃力がアップする。キャラクターのHPが50%未満の時、攻撃力が更にHP上限の<span>1/12/14/16/18%</span>分アップする。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "会心ダメージ",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 25.4,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 37.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "漆黒の隕鉄の一粒",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈の旧枝",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 42.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黒の隕鉄の一片",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "地脈の旧枝",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 48.7,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黒の隕鉄の一片",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈の枯れ葉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 54.5,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黒の隕鉄の一角",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "地脈の枯れ葉",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 60.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黒の隕鉄の一角",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈の新芽",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 66.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "漆黒の隕鉄の塊",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "地脈の新芽",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

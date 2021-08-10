@@ -4,165 +4,251 @@
   "description": "Eigentlich ein Bogen. Nach unzähligen Verbesserungen und Experimenten, um die ultimative Steinschleuder zu schaffen, stand der Erfinder am Ende mit einem Bogen in der Hand da.",
   "rarity": 3,
   "type": "Bogen",
-  "primary": {
-    "name": "Basis-ANG",
-    "value": 38
-  },
-  "secondary": {
-    "name": "KT",
-    "value": 6.8
-  },
   "passive": "Steinschleuder",
   "bonus": "Erhöht den Schaden beim Treffen von Gegnern mit Pfeilen von Standardangriffen und heftigen Schlägen innerhalb von 0,3 s nach dem Abschießen eines Pfeils um <span>36/42/48/54/60 %</span>, verringert den verursachten Schaden ansonsten jedoch um 10 %.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "KT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 6.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 12
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 12
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 17.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 17.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 23
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 23
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 25.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 25.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 31.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 86,
-      "secondary": 12,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 151,
-      "secondary": 17.5,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "Leuchtender Sand von Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Zeremonielles Jagdschwert",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Zerbrochene Maske",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 193,
-      "secondary": 20.3,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Glänzender Stein von Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Zeremonielles Jagdschwert",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Zerbrochene Maske",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 234,
-      "secondary": 23,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Glänzender Stein von Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Zeremonielles Agentenschwert",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Verdreckte Maske",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 274,
-      "secondary": 25.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Reliquie von Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Zeremonielles Agentenschwert",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Verdreckte Maske",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 314,
-      "secondary": 28.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Reliquie von Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Zeremonielles Kundschafterlangschwert",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Unheilvolle Maske",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 354,
-      "secondary": 31.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "Heiligtum von Guyun",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Zeremonielles Kundschafterlangschwert",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Unheilvolle Maske",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

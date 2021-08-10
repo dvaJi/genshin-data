@@ -4,165 +4,251 @@
   "description": "廉价的幻想小说，不具备参考价值。作为法器的力量当然也来自幻想。",
   "rarity": 3,
   "type": "法器",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 39
-  },
-  "secondary": {
-    "name": "元素充能效率",
-    "value": 8.5
-  },
   "passive": "能量沐浴",
   "bonus": "获得元素微粒或元素晶球时，恢复<span>1/125/15/175/2%</span>生命值。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "元素充能效率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 39
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 15,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 21.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "狮牙斗士的枷锁",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "混沌装置",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 25.3,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "狮牙斗士的铁链",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "混沌装置",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 28.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "狮牙斗士的铁链",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "混沌回路",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 32.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "狮牙斗士的镣铐",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "混沌回路",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 35.6,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "狮牙斗士的镣铐",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "混沌炉心",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 39,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "狮牙斗士的理想",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "混沌炉心",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

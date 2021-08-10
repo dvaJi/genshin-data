@@ -4,165 +4,251 @@
   "description": "Ver.12。時代発展などの内容が追加され、Ver.11の誤字を修正したもの。",
   "rarity": 3,
   "type": "法器",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 38
-  },
-  "secondary": {
-    "name": "元素熟知",
-    "value": 41
-  },
   "passive": "水と雷の破滅",
   "bonus": "水元素または雷元素の影響を受けた敵に対するダメージ+<span>12/15/18/21/24%</span>。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "元素熟知",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 41
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 72
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 72
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 105
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 105
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 122
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 122
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 138
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 138
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 154
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 154
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 171
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 171
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 187
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 86,
-      "secondary": 72,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 151,
-      "secondary": 105,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "高塔の王の瓦",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "重い角笛",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 193,
-      "secondary": 122,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "高塔の王の残壁",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "重い角笛",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 234,
-      "secondary": 138,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "高塔の王の残壁",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "黒銅の角笛",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 274,
-      "secondary": 154,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "高塔の王の断片",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "黒銅の角笛",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 314,
-      "secondary": 171,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "高塔の王の断片",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "黒晶の角笛",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 354,
-      "secondary": 187,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "高塔の王の砕けた夢",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "黒晶の角笛",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

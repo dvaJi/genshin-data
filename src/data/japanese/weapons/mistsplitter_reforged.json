@@ -4,165 +4,251 @@
   "description": "烈々たる紫の光に輝く太刀。「廻光」という名は、かつて砕かれた過去に由来している。",
   "rarity": 5,
   "type": "片手剣",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 48
-  },
-  "secondary": {
-    "name": "会心ダメージ",
-    "value": 9.6
-  },
   "passive": "霧切の御腰物",
   "bonus": "全元素ダメージ+<span>12/15/18/21/24%</span>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<span>81628/102035/122442/142849/163256//%</span>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "会心ダメージ",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 44.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 17,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 24.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "coral_branch_of_a_distant_sea",
           "name": "遠海夷地の瑚枝",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "混沌の機関",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "古びた鍔",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 28.6,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "遠海夷地の石枝",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "混沌の機関",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "古びた鍔",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 32.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "遠海夷地の石枝",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "混沌の中枢",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 36.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "遠海夷地の玉枝",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "混沌の中枢",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 40.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "遠海夷地の玉枝",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "混沌の真眼",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "名刀の鍔",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 44.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "golden_branch_of_a_distant_sea",
           "name": "遠海夷地の金枝",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "混沌の真眼",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "名刀の鍔",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
   "rarity": 4,
   "type": "Polearm",
-  "primary": {
-    "name": "Base ATK",
-    "value": 41
-  },
-  "secondary": {
-    "name": "Elemental Mastery",
-    "value": 48
-  },
   "passive": "Bane of Flame and Water",
   "bonus": "Increases DMG against opponents affected by Hydro or Pyro by <span>20/24/28/32/36%</span>.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "Elemental Mastery",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 48
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 85
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 85
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 124
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 124
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 143
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 143
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 162
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 162
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 182
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 182
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 201
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 201
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 221
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 85,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 124,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "Mist Veiled Lead Elixir",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "Mist Grass Pollen",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 143,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Mist Veiled Mercury Elixir",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "Mist Grass Pollen",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 162,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Mist Veiled Mercury Elixir",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "Mist Grass",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 182,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Mist Veiled Gold Elixir",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "Mist Grass",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 201,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Mist Veiled Gold Elixir",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "Mist Grass Wick",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 221,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "Mist Veiled Primo Elixir",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "Mist Grass Wick",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

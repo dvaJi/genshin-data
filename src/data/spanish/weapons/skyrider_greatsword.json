@@ -4,165 +4,251 @@
   "description": "Una espada de acero fiable. Cierta persona intentó usarla como una espada voladora... por segunda vez.",
   "rarity": 3,
   "type": "Mandoble",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 39
-  },
-  "secondary": {
-    "name": "Bono de Daño Físico",
-    "value": 9.6
-  },
   "passive": "Valentía",
   "bonus": "Al atacar con Ataques Normales o Cargados, aumenta el ATQ en un <span>6/7/8/9/10%</span> durante 6 s. Puede acumularse hasta 4 veces. Este efecto solo puede activarse una vez cada 0.5 s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Bono de Daño Físico",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 16.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 16.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 24.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 24.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 32.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 32.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 36.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 36.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 40.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 40.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 43.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 16.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 24.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "Grano de siderita oscura",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "Fragmento de hueso frágil",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Insignia de cuervo de bronce",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 28.5,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Lámina de siderita oscura",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "Fragmento de hueso frágil",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Insignia de cuervo de bronce",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 32.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "Lámina de siderita oscura",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Fragmento de hueso sólido",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 36.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Fragmento de siderita oscura",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "Fragmento de hueso sólido",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 40.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "Fragmento de siderita oscura",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Fragmento de hueso fosilizado",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 43.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "Trozo de siderita oscura",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "Fragmento de hueso fosilizado",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

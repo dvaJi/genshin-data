@@ -4,165 +4,251 @@
   "description": "魔神翡玉化作的長槍，擁有刺殺遠古海獸的沉重與鋒利。",
   "rarity": 5,
   "type": "長柄武器",
-  "primary": {
-    "name": "基礎攻擊力",
-    "value": 48
-  },
-  "secondary": {
-    "name": "暴擊率",
-    "value": 4.8
-  },
   "passive": "昭理的鳶之槍",
   "bonus": "命中敵人時自身攻擊力提高<span>32/39/46/53/6.%</span>，持續6秒，最高可以疊加七層。該效果每0.3秒最多觸發一次。疊滿狀態時傷害提升<span>12/15/18/21/24%</span>。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "暴擊率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 4.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 22.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 8.5,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 12.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "孤雲寒林的光砂",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "獵兵祭刀",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "新兵的徽記",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 14.3,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤雲寒林的輝岩",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "獵兵祭刀",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "新兵的徽記",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 16.2,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤雲寒林的輝岩",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "士官的徽記",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 18.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤雲寒林的聖骸",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "士官的徽記",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 20.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤雲寒林的聖骸",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察長祭刀",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "尉官的徽記",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 22.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "孤雲寒林的神體",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察長祭刀",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "尉官的徽記",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

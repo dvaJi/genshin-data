@@ -4,165 +4,251 @@
   "description": "Trang bị cho binh sĩ của Thiên Nham Quân, thân thương chắc chắn, mũi sắc nhọn, là vũ khí vô cùng tốt.",
   "rarity": 3,
   "type": "Vũ Khí Cán Dài",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 39
-  },
-  "secondary": {
-    "name": "Tỷ Lệ Bạo Kích",
-    "value": 5.1
-  },
   "passive": "Sắc Bén",
   "bonus": "Tấn công thường sát thương tăng <span>24/30/36/42/48%</span>.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tỷ Lệ Bạo Kích",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 5.1
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 13.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 13.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 17.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 17.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 23.4
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 13.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "Ánh Sáng Rừng Băng Giá",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Dao Săn Bắt",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Phù Hiệu Tân Binh",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 15.2,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Nham Thạch Rừng Băng Giá",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Dao Săn Bắt",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "recruits_insignia",
           "name": "Phù Hiệu Tân Binh",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 17.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Nham Thạch Rừng Băng Giá",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Dao Đặc Công",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Phù Hiệu Sĩ Quan",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 19.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Thánh Cốt Rừng Băng Giá",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Dao Đặc Công",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "sergeants_insignia",
           "name": "Phù Hiệu Sĩ Quan",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 21.4,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Thánh Cốt Rừng Băng Giá",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Dao Đô Thám Trưởng",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Phù Hiệu Hiệu Úy",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 23.4,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "Thần Thể Rừng Băng Giá",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Dao Đô Thám Trưởng",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "lieutenants_insignia",
           "name": "Phù Hiệu Hiệu Úy",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

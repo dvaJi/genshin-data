@@ -4,165 +4,251 @@
   "description": "剑身上有一面未开刃的异国大剑，经商路流落到璃月。在了解它的人手里，破坏力极可观。",
   "rarity": 4,
   "type": "双手剑",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 42
-  },
-  "secondary": {
-    "name": "防御力%",
-    "value": 11.3
-  },
   "passive": "注能之锋",
   "bonus": "普通攻击和重击命中后，攻击力和防御力提高<span>6/75/9/105/12%</span>。该效果持续6秒，最多叠加4层，每0.5秒只能触发一次。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "防御力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 11.3
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 19.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 19.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 29
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 29
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 38.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 38.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 42.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 42.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 47.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 47.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 51.7
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 19.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 29,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "孤云寒林的光砂",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "猎兵祭刀",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "寻宝鸦印",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 33.5,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤云寒林的辉岩",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "猎兵祭刀",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "寻宝鸦印",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 38.1,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤云寒林的辉岩",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "藏银鸦印",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 42.6,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤云寒林的圣骸",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "藏银鸦印",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 47.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤云寒林的圣骸",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察长祭刀",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "攫金鸦印",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 51.7,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "孤云寒林的神体",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察长祭刀",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "攫金鸦印",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

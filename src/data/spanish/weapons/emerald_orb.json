@@ -4,165 +4,251 @@
   "description": "Un catalizador tallado en jade extraído del Desfiladero Jueyun, al norte de Liyue. Es pequeño, ligero y duradero. Popularmente se conoce como “Orbe de Jade”.",
   "rarity": 3,
   "type": "Catalizador",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 40
-  },
-  "secondary": {
-    "name": "Maestría Elemental",
-    "value": 20
-  },
   "passive": "Rápidos",
   "bonus": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, o Torbellino Hydro, el ATQ aumenta en un <span>20/25/30/35/40%</span> durante 12 s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Maestría Elemental",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 40,
+        "secondary": 20
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 102,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 121,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 187,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 207,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 239,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 259,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 292,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 311,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 344,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 363,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 396,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 415,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 448,
+        "secondary": 94
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 102,
-      "secondary": 36,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 187,
-      "secondary": 53,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "Arena brillante de Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Daga de cacería",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Insignia de cuervo de bronce",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 239,
-      "secondary": 61,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Piedra reluciente de Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Daga de cacería",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Insignia de cuervo de bronce",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 292,
-      "secondary": 69,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Piedra reluciente de Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Daga del agente",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 344,
-      "secondary": 77,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Reliquia de Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Daga del agente",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 396,
-      "secondary": 85,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Reliquia de Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Daga larga del inspector",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 448,
-      "secondary": 94,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "Cuerpo divino de Guyun",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Daga larga del inspector",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "아주 오래된 활. 원래의 주인이 더이상 존재하지 않더라도 그 안에 깃든 힘은 여전하다. 그 힘은 주인이 없으나 만물 속에 깃들어있다. 마음속의 욕망을 멀리할수록 그 힘이 더 강해진다",
   "rarity": 5,
   "type": "활",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 46
-  },
-  "secondary": {
-    "name": "공격력%",
-    "value": 10.8
-  },
   "passive": "잊지 않은 포부",
   "bonus": "일반 공격과 강공격 피해+<span>12/15/18/21/24%</span>. 일반공격과 강공격 화살이 발사된 후 0.1초가 지날 때마다 피해가 <span>8/10/12/14/16%</span>씩 증가한다. 최대 중첩수: 5회",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "공격력%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 19.1,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 27.8,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "라이언 투사의 족쇄",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "혼돈의 장치",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 32.2,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "라이언 투사의 쇠사슬",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "혼돈의 장치",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "슬라임 응축액",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 36.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "라이언 투사의 쇠사슬",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "혼돈의 회로",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 40.9,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "라이언 투사의 수갑",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "혼돈의 회로",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "슬라임청",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 45.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "라이언 투사의 수갑",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "혼돈의 노심",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 49.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "라이언 투사의 이념",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "혼돈의 노심",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "슬라임 원액",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

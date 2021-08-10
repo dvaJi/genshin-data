@@ -4,165 +4,251 @@
   "description": "Đại kiếm có nhát chém mềm mại như hơi thở của cỏ cây, là vũ khí có sức mạnh như bão tố quật ngã cây cối.",
   "rarity": 5,
   "type": "Trọng Kiếm",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 49
-  },
-  "secondary": {
-    "name": "Tăng Sát Thương Vật Lý",
-    "value": 4.5
-  },
   "passive": "Bài Ca Phản Nghịch",
   "bonus": "Một phần của \"Ca Khúc Thời Đại Nghìn Năm\" lãng du trong gió. Tấn công tăng <span>16/20/24/28/32%</span>; Khi đánh thường hoặc trọng kích trúng kẻ địch sẽ cung cấp cho nhân vật 1 Bùa Thì Thầm, mỗi 0.3s tối đa kích hoạt 1 lần. Khi có 4 Bùa Thì Thầm sẽ tiêu hao tất cả, khiến tất cả nhân vật trong đội gần đó sẽ nhận được hiệu ứng \"Ca Khúc Thời Đại Nghìn Năm - Khúc Ca Vén Cờ\" kéo dài 12s: Tốc độ đánh thường tăng <span>12/15/18/21/24%</span>, tấn công tăng <span>20/25/30/35/40%</span>. Trong 20s sau khi kích hoạt sẽ không thể nhận lại Bùa Thì Thầm. Các chỉ số cùng loại trong \"Ca Khúc Thời Đại Nghìn Năm\" không thể cộng dồn.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tăng Sát Thương Vật Lý",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 4.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 20.7
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 145,
-      "secondary": 8,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 286,
-      "secondary": 11.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Ngói Vỡ Tháp Cô Vương",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Sừng Nặng",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 374,
-      "secondary": 13.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Xác Tàu Tháp Cô Vương",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Sừng Nặng",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 464,
-      "secondary": 15.2,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Xác Tàu Tháp Cô Vương",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Sừng Đồng Đen",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 555,
-      "secondary": 17,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Mảnh Vỡ Tháp Cô Vương",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Sừng Đồng Đen",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 648,
-      "secondary": 18.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Mảnh Vỡ Tháp Cô Vương",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Sừng Hắc Tinh",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 741,
-      "secondary": 20.7,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Mảnh Giấc Mơ Tháp Cô Vương",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Sừng Hắc Tinh",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "布满锈迹的铁造大弓，一般人根本拿不动，遑论引弓放矢。",
   "rarity": 4,
   "type": "弓",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 42
-  },
-  "secondary": {
-    "name": "攻击力%",
-    "value": 9
-  },
   "passive": "速射弓斗",
   "bonus": "普通攻击造成的伤害提升<span>40/50/60/70/80%</span>，重击造成的伤害下降10%。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "攻击力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 15.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 23.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "孤云寒林的光砂",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "猎兵祭刀",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 26.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤云寒林的辉岩",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "猎兵祭刀",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 30.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "孤云寒林的辉岩",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 34.1,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤云寒林的圣骸",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "特工祭刀",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 37.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "孤云寒林的圣骸",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察长祭刀",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 41.3,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "孤云寒林的神体",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "督察长祭刀",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
   "rarity": 4,
   "type": "Catalyst",
-  "primary": {
-    "name": "Base ATK",
-    "value": 42
-  },
-  "secondary": {
-    "name": "Energy Recharge",
-    "value": 10
-  },
   "passive": "Windfall",
   "bonus": "CRIT Hits have a <span>60/70/80/90/100%</span> chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every <span>12/105/9/75/6</span>s.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "Energy Recharge",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 10
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 45.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 17.7,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 25.8,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Tile of Decarabian's Tower",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Heavy Horn",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 29.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Debris of Decarabian's City",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Heavy Horn",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 33.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Debris of Decarabian's City",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Black Bronze Horn",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 37.9,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment of Decarabian's Epic",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Black Bronze Horn",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 41.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment of Decarabian's Epic",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Black Crystal Horn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 45.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Scattered Piece of Decarabian's Dream",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Black Crystal Horn",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "Ein Schwert, das auf Bestellung von einem berühmten Samurai angefertigt wurde, der, den Legenden nach, sogar den schnellsten Tengu-Krieger mühelos niederschlagen konnte.",
   "rarity": 4,
   "type": "Einhänder",
-  "primary": {
-    "name": "Basis-ANG",
-    "value": 41
-  },
-  "secondary": {
-    "name": "ANG%",
-    "value": 12
-  },
   "passive": "Iwakura-Nachkomme",
   "bonus": "Gewährt beim Auslösen einer Elementarfähigkeit 1 Samen der Nachkommenschaft, 5 s Abklingzeit. Samen der Nachkommenschaft halten 30 s, zu einem Zeitpunkt können bis zu 3 existieren. Verbraucht beim Auslösen einer Spezialfähigkeit alle vorhandenen Samen der Nachkommenschaft und stellt der Figur 2 s später <span>6/75/9/105/12</span> Punkte Elementarenergie pro verbrauchten Samen der Nachkommenschaft wieder her.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "ANG%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "coral_branch_of_a_distant_sea",
           "name": "Korallenzweig eines fernen Meeres",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "Chaos-Vorrichtung",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Alter Handschutz",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Juwelenzweig eines fernen Meeres",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "Chaos-Vorrichtung",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Alter Handschutz",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Juwelenzweig eines fernen Meeres",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "Chaos-Achse",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Jadezweig eines fernen Meeres",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "Chaos-Achse",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Jadezweig eines fernen Meeres",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "Chaos-Oculus",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "golden_branch_of_a_distant_sea",
           "name": "Goldzweig eines fernen Meeres",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "Chaos-Oculus",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

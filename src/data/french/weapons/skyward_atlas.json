@@ -4,165 +4,251 @@
   "description": "Un atlas représentant Dvalin et son ancien maître, l'Archon Anémo. Il décrit en détail les vents et les nuages au nord de Teyvat et renferme la puissance des cieux et des vents.",
   "rarity": 5,
   "type": "Catalyseur",
-  "primary": {
-    "name": "ATQ de base",
-    "value": 48
-  },
-  "secondary": {
-    "name": "ATQ%",
-    "value": 7.2
-  },
   "passive": "Nuages vagabonds",
   "bonus": "Augmente les DGT élémentaires de <span>12/15/18/21/24 %</span>. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige <span>160/200/240/280/320 %</span> des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "ATQ%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 7.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 33.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 12.7,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 18.5,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Dent de lait du Loup boréal",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Branche morte des lignes énergétiques",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Pointe de flèche robuste",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 21.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Croc brisé du Loup boréal",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Branche morte des lignes énergétiques",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Pointe de flèche robuste",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 24.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Croc brisé du Loup boréal",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Feuilles mortes des lignes énergétiques",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Pointe de flèche aiguisée",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 27.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Croc fendu du Loup boréal",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Feuilles mortes des lignes énergétiques",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Pointe de flèche aiguisée",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 30.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Croc fendu du Loup boréal",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Pousse des lignes énergétiques",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Pointe de flèche usée",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 33.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Nostalgie du Loup boréal",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Pousse des lignes énergétiques",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Pointe de flèche usée",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

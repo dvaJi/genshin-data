@@ -4,165 +4,251 @@
   "description": "Un espadon aussi léger que la brise soufflant sur l'herbe, mais aussi puissant qu'un ouragan.",
   "rarity": 5,
   "type": "Épée à deux mains",
-  "primary": {
-    "name": "ATQ de base",
-    "value": 49
-  },
-  "secondary": {
-    "name": "Bonus de DGT physiques",
-    "value": 4.5
-  },
   "passive": "Hymne du drapeau rebelle",
   "bonus": "Partie du « Concert du millénaire ». Augmente l'ATQ de <span>16/20/24/28/32 %</span>, et lorsque les attaques normales ou chargées touchent un ennemi, le personnage obtient un charme des murmures, à raison d'un charme toutes les 0,3 s max. Une fois 4 charmes obtenus, ils sont consommés et tous les personnages de l'équipe à proximité bénéficient de l'effet « Concert du millénaire - Hymne du drapeau » pendant 12 s, ce qui augmente la VIT des attaques normales de <span>12/15/18/21/24 %</span>, et l'ATQ de <span>20/25/30/35/40 %</span>. Il n'est plus possible d'obtenir de charmes des murmures pendant 20 s après avoir déclenché cet effet. Parmi les nombreux effets du « Concert du millénaire », les améliorations du même type ne se cumulent pas.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "Bonus de DGT physiques",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 4.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 20.7
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 145,
-      "secondary": 8,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 286,
-      "secondary": 11.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Tuile cassée de Décabarian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Corne lourde",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Masque endommagé",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 374,
-      "secondary": 13.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Mur abattu de Décabarian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Corne lourde",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Masque endommagé",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 464,
-      "secondary": 15.2,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Mur abattu de Décabarian",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Corne en bronze noir",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Masque sale",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 555,
-      "secondary": 17,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment dispersé de Décabarian",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Corne en bronze noir",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Masque sale",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 648,
-      "secondary": 18.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragment dispersé de Décabarian",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Corne à cristal noir",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Masque sinistre",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 741,
-      "secondary": 20.7,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Rêve brisé de Décabarian",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Corne à cristal noir",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Masque sinistre",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

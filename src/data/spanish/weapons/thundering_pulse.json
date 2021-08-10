@@ -4,165 +4,251 @@
   "description": "Un arco que la Shogun le otorgó a alguien. Emite unos destellos eléctricos que nunca se apagarán.",
   "rarity": 5,
   "type": "Arco",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 46
-  },
-  "secondary": {
-    "name": "Daño CRIT",
-    "value": 14.4
-  },
   "passive": "Imperio del trueno",
   "bonus": "Aumenta el ATQ en un <span>20/25/30/35/40%</span> y otorga el poder de los emblemas del trueno. Dependiendo de si se tienen 1, 2 o 3 emblemas del trueno, el daño infligido con los Ataques Normales aumenta en un <span>122440/153050/183660/214270/244880//%</span>. En las siguientes situaciones, el personaje obtiene un emblema: al infligir daño con Ataques Normales. El emblema dura 5 s; al realizar una Habilidad Elemental. El emblema dura 10 s; cuando la Energía Elemental del personaje está por debajo del 100%. El emblema del trueno obtenido de esta manera dura hasta que el personaje regenere toda su Energía Elemental. La duración de cada emblema del trueno se calcula de manera independiente.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Daño CRIT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 25.4,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 37.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "narukamis_wisdom",
           "name": "Sabiduría de Narukami",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dismal_prism",
           "name": "Prisma oscuro",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Flecha robusta",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 42.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "Júbilo de Narukami",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dismal_prism",
           "name": "Prisma oscuro",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Flecha robusta",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 48.7,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "Júbilo de Narukami",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "crystal_prism",
           "name": "Prisma de cristal",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 54.5,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "Afecto de Narukami",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "crystal_prism",
           "name": "Prisma de cristal",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 60.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "Afecto de Narukami",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "polarizing_prism",
           "name": "Prisma polarizador",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 66.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "narukamis_valor",
           "name": "Valentía de Narukami",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "polarizing_prism",
           "name": "Prisma polarizador",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

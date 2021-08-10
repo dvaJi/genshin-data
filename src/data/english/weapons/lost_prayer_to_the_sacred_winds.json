@@ -4,165 +4,251 @@
   "description": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
   "rarity": 5,
   "type": "Catalyst",
-  "primary": {
-    "name": "Base ATK",
-    "value": 46
-  },
-  "secondary": {
-    "name": "CRIT Rate",
-    "value": 7.2
-  },
   "passive": "Boundless Blessing",
   "bonus": "Increases Movement SPD by 10%. When in battle, gain an <span>8/10/12/14/16%</span> Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "CRIT Rate",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 7.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 33.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 12.7,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 18.5,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Fetters of the Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "Chaos Device",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Slime Condensate",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 21.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of the Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "Chaos Device",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Slime Condensate",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 24.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of the Dandelion Gladiator",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Slime Secretions",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 27.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of the Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Slime Secretions",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 30.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of the Dandelion Gladiator",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "Chaos Core",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 33.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "Dream of the Dandelion Gladiator",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "Chaos Core",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

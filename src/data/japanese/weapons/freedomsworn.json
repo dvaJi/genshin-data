@@ -4,165 +4,251 @@
   "description": "悠久なる歌声のように青く、真っすぐな直剣。風の国を代表する自由の誓いのように、その切っ先は鋭い。",
   "rarity": 5,
   "type": "片手剣",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 46
-  },
-  "secondary": {
-    "name": "元素熟知",
-    "value": 43
-  },
   "passive": "執行と抗争の歌",
   "bonus": "風と共に流れる「千年の大楽章」の一部。与えるダメージ+<span>10/125/15/175/20%</span>。元素反応を起こすと、奮起の欠片を1枚獲得する。この効果は0.5秒内に1回のみ発動でき、待機中のキャラクターも発動できる。奮起の欠片を2枚集めると、全ての奮起の欠片を消費し、周囲のチーム全員に12秒継続する「千年の大楽章·抗争の歌」効果を付与する：通常攻撃、重撃、落下攻撃のダメージ+<span>16/20/24/28/32%</span>、攻撃力+<span>20/25/30/35/40%</span>。発動後20秒の間、奮起の欠片を再度獲得することはできない。「千年の大楽章」のもたらす各効果中、同種類の効果は重ね掛け不可。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "元素熟知",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 43
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 76
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 76
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 111
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 111
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 129
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 129
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 146
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 146
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 164
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 164
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 181
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 181
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 198
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 76,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 111,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "獅牙戦士の枷",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "混沌の装置",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "占いの絵巻",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 129,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "獅牙戦士の鎖",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "混沌の装置",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "占いの絵巻",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 146,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "獅牙戦士の鎖",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "混沌の回路",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "封魔の絵巻",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 164,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "獅牙戦士の手錠",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "混沌の回路",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "封魔の絵巻",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 181,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "獅牙戦士の手錠",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "混沌の炉心",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "禁呪の絵巻",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 198,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "獅牙戦士の理想",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "混沌の炉心",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "禁呪の絵巻",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

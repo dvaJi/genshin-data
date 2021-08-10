@@ -4,165 +4,251 @@
   "description": "흑암 공장에 은밀히 보관된 금색 호박 법구. 태양과 달, 그리고 별이 어두운 빛을 내뿜는다",
   "rarity": 4,
   "type": "법구",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 42
-  },
-  "secondary": {
-    "name": "HP%",
-    "value": 9
-  },
   "passive": "도금",
   "bonus": "원소폭발 발동 후 6초 동안 2초마다 원소 에너지를 <span>4/45/5/55/6</span>pt 회복한다. 파티 내 모든 캐릭터의 HP를 2초마다 <span>4/45/5/55/6%</span> 회복한다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "HP%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 15.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 23.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "안개구름 속의 흑연단",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "안개꽃 가루",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 26.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "안개구름 속의 수은단",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "안개꽃 가루",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 30.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "안개구름 속의 수은단",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "안개풀 주머니",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 34.1,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "안개구름 속의 금단",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "안개풀 주머니",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 37.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "안개구름 속의 금단",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "안개 등심",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 41.3,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "안개구름 속의 전환",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "안개 등심",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

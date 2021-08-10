@@ -4,165 +4,251 @@
   "description": "หอกที่เป็นสัญลักษณ์ของ ความตั้งใจของ Dvalin ด้ามหอกที่ตรงดิ่งชี้ไปยังฟากฟ้า มีพลังของฟ้าและพลังแห่งลม ซ่อนอยู่ภายใน",
   "rarity": 5,
   "type": "หอก",
-  "primary": {
-    "name": "พลังโจมตีพื้นฐาน",
-    "value": 48
-  },
-  "secondary": {
-    "name": "การฟื้นฟูพลังงาน",
-    "value": 8
-  },
   "passive": "Black Wing",
   "bonus": "อัตราคริเพิ่มขึ้น <span>8/10/12/14/16%</span> และเพิ่มความเร็ว การโจมตีปกติ <span>12/12/12/12/12%</span> เมื่อทำการโจมตีปกติ และชาร์จโจมตีถูกศัตรู มีโอกาสสร้าง ใบมีดสุญญากาศ <span>50/50/50/50/50%</span> และสร้างความเสียหาย เพิ่มเติมในพื้นที่วงแคบ <span>40/55/70/85/100%</span> ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 2 วินาที",
+  "stats": {
+    "primary": "พลังโจมตีพื้นฐาน",
+    "secondary": "การฟื้นฟูพลังงาน",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 36.8
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 14.1,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 20.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Fetters of the Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "Chaos Device",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 23.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of the Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "Chaos Device",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 27.1,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of the Dandelion Gladiator",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Seal Scroll",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 30.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of Dandelion Gladiator",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Seal Scroll",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 33.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of Dandelion Gladiator",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "Chaos Core",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 36.8,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "Dream of Dandelion Gladiator",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "Chaos Core",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

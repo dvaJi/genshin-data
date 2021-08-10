@@ -4,165 +4,251 @@
   "description": "曾支配蒙德的旧日贵族的佩剑。做工精良，装饰与雕花彰显着挥舞者的身份。",
   "rarity": 4,
   "type": "单手剑",
-  "primary": {
-    "name": "基础攻击力",
-    "value": 42
-  },
-  "secondary": {
-    "name": "攻击力%",
-    "value": 9
-  },
   "passive": "专注",
   "bonus": "攻击造成伤害时，暴击率提升<span>8/10/12/14/16%</span>，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "攻击力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 15.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 23.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "高塔孤王的破瓦",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "沉重号角",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 26.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "高塔孤王的残垣",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "沉重号角",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "破损的面具",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 30.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "高塔孤王的残垣",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "黑铜号角",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 34.1,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "高塔孤王的断片",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "黑铜号角",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "污秽的面具",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 37.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "高塔孤王的断片",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "黑晶号角",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 41.3,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "高塔孤王的碎梦",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "黑晶号角",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "不祥的面具",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

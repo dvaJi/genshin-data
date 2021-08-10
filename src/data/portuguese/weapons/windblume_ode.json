@@ -4,165 +4,251 @@
   "description": "Um arco adornado com flores desconhecidas que carrega as esperanças de uma pessoa também desconhecida.",
   "rarity": 4,
   "type": "Arco",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 42
-  },
-  "secondary": {
-    "name": "Proficiência Elemental",
-    "value": 36
-  },
   "passive": "Desejo da Brisa Florescente",
   "bonus": "Ao lançar uma Habilidade Elemental, se obtém o desejo antigo da Flor do Vento, e o Ataque aumenta <span>16/20/24/28/32%</span> por 6s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Proficiência Elemental",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 64,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 93,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Grilhões de Dandelion",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ramo Seco de Linha Ley",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "whopperflower_nectar",
           "name": "Néctar da Flor Gigante",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 107,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Correntes do Gladiador de Dandelion",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ramo Seco de Linha Ley",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "whopperflower_nectar",
           "name": "Néctar da Flor Gigante",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 122,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Correntes do Gladiador de Dandelion",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Folha Morta de Linha Ley",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "shimmering_nectar",
           "name": "Néctar Brilhante",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 136,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Manilhas do Gladiador de Dandelion",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Folha Morta de Linha Ley",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "shimmering_nectar",
           "name": "Néctar Brilhante",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 151,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Manilhas do Gladiador de Dandelion",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Broto de Linha Ley",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "energy_nectar",
           "name": "Néctar Elemental",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 165,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "Sonho do Gladiador de Dandelion",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Broto de Linha Ley",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "energy_nectar",
           "name": "Néctar Elemental",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "고결한 청록색의 활. 숲에서 사냥하며 살아가는 어느 사냥꾼이 사용하던 활",
   "rarity": 4,
   "type": "활",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 42
-  },
-  "secondary": {
-    "name": "치명타 확률",
-    "value": 6
-  },
   "passive": "청록색의 바람",
   "bonus": "일반 공격과 강공격 명중 시 50%의 확률로 바람의 눈을 1개 생성하여 주변의 적을 끌어당기고 닿은 적에게 0.5초마다 공격력 <span>40/50/60/70/80%</span>의 피해를 준다. 지속 시간: 4초. 해당 효과는 <span>14/13/12/11/10</span>초마다 1번 발동한다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "치명타 확률",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 27.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 10.6,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 15.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "고탑 왕의 잔해",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "무거운 나팔",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 17.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "고탑 왕의 절망",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "무거운 나팔",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 20.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "고탑 왕의 절망",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "흑동 나팔",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 22.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "고탑 왕의 조각",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "흑동 나팔",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 25.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "고탑 왕의 조각",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "흑수정 나팔",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 27.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "고탑 왕의 깨진 꿈",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "흑수정 나팔",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

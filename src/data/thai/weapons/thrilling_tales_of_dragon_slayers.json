@@ -4,165 +4,251 @@
   "description": "นวนิยายที่เกี่ยวกับเรื่องราวของ ฮีโร่ 5 คนที่กำลังจะเดินทางไป ล่ามังกร เขียนไว้อย่างหลวม ๆ และมีโครงเรื่องเพียงน้อยนิด แต่สิ่งสำคัญของมันคือ การสอนผู้คนให้เรียนรู้จากความผิดพลาด",
   "rarity": 3,
   "type": "สื่อเวท",
-  "primary": {
-    "name": "พลังโจมตีพื้นฐาน",
-    "value": 39
-  },
-  "secondary": {
-    "name": "พลังชีวิต%",
-    "value": 7.7
-  },
   "passive": "Heritage",
   "bonus": "เมื่อสับเปลี่ยนตัวละคร พลังโจมตีของตัวละครที่ เข้าสู่การต่อสู้จะเพิ่มขึ้น <span>24/30/36/42/48%</span> เป็นเวลา 10 วินาที โดยเอฟเฟกต์นี้จะเกิดขึ้น หนึ่งครั้งในทุก 20 วินาที",
+  "stats": {
+    "primary": "พลังโจมตีพื้นฐาน",
+    "secondary": "พลังชีวิต%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 7.7
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 19.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 19.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 22.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 22.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 25.9
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 25.9
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 29
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 29
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 32.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 32.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 35.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 13.5,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 19.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Boreal Wolf's Milk Tooth",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Dead Ley Line Branches",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 22.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Boreal Wolf's Cracked Tooth",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Dead Ley Line Branches",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Divining Scroll",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 25.9,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Boreal Wolf's Cracked Tooth",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Dead Ley Line Leaves",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Seal Scroll",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 29,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Boreal Wolf's Broken Fang",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Dead Ley Line Leaves",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Seal Scroll",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 32.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Boreal Wolf's Broken Fang",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Ley Lines Sprouts",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 35.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Boreal Wolf's Nostalgia",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Ley Lines Sprouts",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

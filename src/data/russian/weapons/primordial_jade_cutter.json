@@ -4,165 +4,251 @@
   "description": "Ритуальный меч, искусно вырезанный из чистейшего нефрита и покрытый изящными гравировками. Иногда кажется, что при взмахе им можно услышать тихий вздох ветра.",
   "rarity": 5,
   "type": "Одноручное оружие",
-  "primary": {
-    "name": "Базовая атака",
-    "value": 44
-  },
-  "secondary": {
-    "name": "Шанс крит. попадания",
-    "value": 9.6
-  },
   "passive": "Добродетель защитника",
   "bonus": "Увеличивает HP на <span>20/25/30/35/40%</span>. Также даёт бонус атаки, равный <span>12/15/18/21/24.%</span> от макс. HP экипированного этим оружием персонажа.",
+  "stats": {
+    "primary": "Базовая атака",
+    "secondary": "Шанс крит. попадания",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 44.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 110,
-      "secondary": 17,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 210,
-      "secondary": 24.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "Свинцовая пилюля Заоблачного моря",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "Пыльца туманной травы",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Печать Похитителей сокровищ",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 275,
-      "secondary": 28.6,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Ртутная пилюля Заоблачного моря",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "Пыльца туманной травы",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "Печать Похитителей сокровищ",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 341,
-      "secondary": 32.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Ртутная пилюля Заоблачного моря",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "Мешочек с туманной травой",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Печать серебряного ворона",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 408,
-      "secondary": 36.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Золотая пилюля Заоблачного моря",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "Мешочек с туманной травой",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "Печать серебряного ворона",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 475,
-      "secondary": 40.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Золотая пилюля Заоблачного моря",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "Пучок туманной травы",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Печать золотого ворона",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 542,
-      "secondary": 44.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "Примо эликсир Заоблачного моря",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "Пучок туманной травы",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "Печать золотого ворона",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

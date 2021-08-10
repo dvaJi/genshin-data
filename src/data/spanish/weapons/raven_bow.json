@@ -4,165 +4,251 @@
   "description": "Los cuervos son conocidos por ser los mensajeros de la muerte. Las plumas que decoran este arco presagian la muerte inminente de cualquier objetivo.",
   "rarity": 3,
   "type": "Arco",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 40
-  },
-  "secondary": {
-    "name": "Maestría Elemental",
-    "value": 20
-  },
   "passive": "Perdición de las llamas y el agua",
   "bonus": "Aumenta en un <span>12/15/18/21/24%</span> el daño contra los enemigos afectados por Hydro o Pyro.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Maestría Elemental",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 40,
+        "secondary": 20
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 102,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 121,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 187,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 207,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 239,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 259,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 292,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 311,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 344,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 363,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 396,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 415,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 448,
+        "secondary": 94
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 102,
-      "secondary": 36,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 187,
-      "secondary": 53,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Fragmento de azulejo de Decarabian",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Cuerno pesado",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Flecha robusta",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 239,
-      "secondary": 61,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Escombro de la ciudad de Decarabian",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Cuerno pesado",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Flecha robusta",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 292,
-      "secondary": 69,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Escombro de la ciudad de Decarabian",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Cuerno de bronce negro",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 344,
-      "secondary": 77,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragmento de epopeya de Decarabian",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Cuerno de bronce negro",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 396,
-      "secondary": 85,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Fragmento de epopeya de Decarabian",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Cuerno con cristal negro",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 448,
-      "secondary": 94,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Fragmento de sueño de Decarabian",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Cuerno con cristal negro",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

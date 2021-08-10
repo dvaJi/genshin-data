@@ -4,165 +4,251 @@
   "description": "Thanh kiếm cổ xưa được cất giấu giữa bức bích họa. Được đúc từ Tinh Ngân, dường như có sở hữu sức mạnh có thể cắt vỡ băng tuyết.",
   "rarity": 4,
   "type": "Trọng Kiếm",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 44
-  },
-  "secondary": {
-    "name": "Tăng Sát Thương Vật Lý",
-    "value": 7.5
-  },
   "passive": "Sương Táng",
   "bonus": "Khi tấn công thường và trọng kích đánh trúng kẻ địch có tỷ lệ <span>60/70/80/90/100%</span> tạo ra Đá Vĩnh Hằng phía trên kẻ địch và rơi xuống, gây sát thương phạm vi bằng <span>80/95/110/125/140%</span> tấn công. Nếu địch bị ảnh hưởng bởi nguyên tố Băng, sẽ gây sát thương bằng <span>200/240/280/320/360%</span> tấn công. Hiệu quả này mỗi 10s kích hoạt 1 lần.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tăng Sát Thương Vật Lý",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 7.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 19.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 22.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 22.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 28.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 28.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 31.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 31.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 34.5
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 13.3,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 19.3,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Ngói Vỡ Tháp Cô Vương",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Sừng Nặng",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Dịch Slime",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 22.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Xác Tàu Tháp Cô Vương",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Sừng Nặng",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Dịch Slime",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 25.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Xác Tàu Tháp Cô Vương",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Sừng Đồng Đen",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Tinh Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 28.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Mảnh Vỡ Tháp Cô Vương",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Sừng Đồng Đen",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Tinh Slime",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 31.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Mảnh Vỡ Tháp Cô Vương",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Sừng Hắc Tinh",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Bột Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 34.5,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Mảnh Giấc Mơ Tháp Cô Vương",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Sừng Hắc Tinh",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Bột Slime",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

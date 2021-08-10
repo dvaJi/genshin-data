@@ -4,165 +4,251 @@
   "description": "Un épais carnet couvert de notes. Bien qu'il soit abîmé et rongé par les vers, un grand pouvoir existe dans les mots couchés à la main.",
   "rarity": 4,
   "type": "Catalyseur",
-  "primary": {
-    "name": "ATQ de base",
-    "value": 42
-  },
-  "secondary": {
-    "name": "DGT CRIT",
-    "value": 12
-  },
   "passive": "Musique d'ouverture",
   "bonus": "Le personnage obtient pendant 10 s une mélodie aléatoire lorsqu'il est déployé au combat ; cet effet peut être déclenché toutes les 30 s. Récital : augmente l'ATQ de <span>60/75/90/105/120 %</span> ; Aria : augmente les DGT élémentaires de <span>48/60/72/84/96 %</span> ; Interlude : augmente la maîtrise élémentaire de <span>240/300/360/420/480</span> pts.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "DGT CRIT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Dent de lait du Loup boréal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Branche morte des lignes énergétiques",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Masque endommagé",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Croc brisé du Loup boréal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Branche morte des lignes énergétiques",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Masque endommagé",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Croc brisé du Loup boréal",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Feuilles mortes des lignes énergétiques",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Masque sale",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Croc fendu du Loup boréal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Feuilles mortes des lignes énergétiques",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Masque sale",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Croc fendu du Loup boréal",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Pousse des lignes énergétiques",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Masque sinistre",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Nostalgie du Loup boréal",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Pousse des lignes énergétiques",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Masque sinistre",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

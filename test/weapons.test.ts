@@ -36,6 +36,8 @@ for (const language of languages) {
       for (const weapon of weapons) {
         expect(weapon.id).toBeDefined();
         expect(weapon.name).toBeDefined();
+        expect(weapon.rarity).toBeDefined();
+        expect(weapon.type).toBeDefined();
       }
     });
   });

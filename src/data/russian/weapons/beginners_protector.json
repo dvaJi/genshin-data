@@ -4,107 +4,165 @@
   "description": "Обычное копьё. Прямое, как флагшток. Одним его взмахом можно разрешить большинство споров.",
   "rarity": 1,
   "type": "Древковое оружие",
-  "primary": {
-    "name": "Базовая атака",
-    "value": 23
-  },
   "passive": "",
   "bonus": "",
+  "stats": {
+    "primary": "Базовая атака",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 23
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 56
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 68
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 102
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 113
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 130
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 141
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 158
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 169
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 185
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 56,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 102,
+      "ascension": 1,
+      "level": 40,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Кандалы львиного клыка",
-          "amount": 1
+          "amount": 1,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "Устройство хаоса",
-          "amount": 1
+          "amount": 1,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Свиток божественной магии",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 130,
+      "ascension": 2,
+      "level": 50,
       "cost": 5000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Цепи львиного клыка",
-          "amount": 1
+          "amount": 1,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "Устройство хаоса",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         },
         {
           "id": "divining_scroll",
           "name": "Свиток божественной магии",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 158,
+      "ascension": 3,
+      "level": 60,
       "cost": 5000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Цепи львиного клыка",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "Цепь хаоса",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Свиток печати",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 185,
+      "ascension": 4,
+      "level": 70,
       "cost": 10000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Оковы львиного клыка",
-          "amount": 1
+          "amount": 1,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "Цепь хаоса",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sealed_scroll",
           "name": "Свиток печати",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         }
       ]
     }

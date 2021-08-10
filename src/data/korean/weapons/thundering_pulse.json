@@ -4,165 +4,251 @@
   "description": "쇼군이 하사한 장궁, 영원히 꺼지지 않는 뇌광이 반짝인다",
   "rarity": 5,
   "type": "활",
-  "primary": {
-    "name": "기초 공격력",
-    "value": 46
-  },
-  "secondary": {
-    "name": "치명타 피해",
-    "value": 14.4
-  },
   "passive": "비뢰 어궁",
   "bonus": "공격력이 <span>20/25/30/35/40%</span> 증가하고, 「비뢰의 문장」의 위세를 획득한다. 비뢰의 문장: 1/2/3스택의 비뢰의 문장 보유 시, 일반 공격으로 가하는 피해가 각각 <span>122440/153050/183660/214270/244880//%</span> 증가한다. 캐릭터가 비뢰의 문장 1스택을 획득할 수 있는 상황: 일반 공격으로 피해를 가하면 5초간 지속. 원소전투 스킬을 발동하면 10초간 지속. 이 외에 캐릭터의 원소 에너지가 100% 미만이면 비뢰의 문장을 1스택 획득한다. 해당 비뢰의 문장은 캐릭터의 원소 에너지가 가득 차면 사라지며, 비뢰의 문장의 각 스택 지속 시간은 따로 계산된다",
+  "stats": {
+    "primary": "기초 공격력",
+    "secondary": "치명타 피해",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 122,
-      "secondary": 25.4,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 235,
-      "secondary": 37.1,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "narukamis_wisdom",
           "name": "나루카미 어령의 은혜",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "dismal_prism",
           "name": "어두운 프리즘",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 308,
-      "secondary": 42.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "나루카미 어령의 환희",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "dismal_prism",
           "name": "어두운 프리즘",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "견고한 화살촉",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 382,
-      "secondary": 48.7,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "나루카미 어령의 환희",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "crystal_prism",
           "name": "수정 프리즘",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 457,
-      "secondary": 54.5,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "나루카미 어령의 친애",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "crystal_prism",
           "name": "수정 프리즘",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "날카로운 화살촉",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 532,
-      "secondary": 60.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "나루카미 어령의 친애",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "polarizing_prism",
           "name": "편광 프리즘",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 608,
-      "secondary": 66.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "narukamis_valor",
           "name": "나루카미 어령의 용맹",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "polarizing_prism",
           "name": "편광 프리즘",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "역전의 화살촉",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

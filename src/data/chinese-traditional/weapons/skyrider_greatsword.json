@@ -4,165 +4,251 @@
   "description": "可靠的大劍，傳說著名的「御劍公子」曾試圖借助它二度飛天。",
   "rarity": 3,
   "type": "雙手劍",
-  "primary": {
-    "name": "基礎攻擊力",
-    "value": 39
-  },
-  "secondary": {
-    "name": "物理傷害加成",
-    "value": 9.6
-  },
   "passive": "勇氣",
   "bonus": "普通攻擊和重擊命中時，攻擊力提高<span>6/7/8/9/10%</span>，持續6秒，最多疊加四層。該效果每0.5秒只能觸發一次。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "物理傷害加成",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 16.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 16.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 24.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 24.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 32.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 32.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 36.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 36.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 40.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 40.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 43.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 16.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 24.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "grain_of_aerosiderite",
           "name": "漆黑隕鐵的一粒",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "fragile_bone_shard",
           "name": "脆弱的骨片",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "尋寶鴉印",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 28.5,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黑隕鐵的一片",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "fragile_bone_shard",
           "name": "脆弱的骨片",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "treasure_hoarder_insignia",
           "name": "尋寶鴉印",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 32.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "piece_of_aerosiderite",
           "name": "漆黑隕鐵的一片",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "sturdy_bone_shard",
           "name": "結實的骨片",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "藏銀鴉印",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 36.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黑隕鐵的一角",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "sturdy_bone_shard",
           "name": "結實的骨片",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "silver_raven_insignia",
           "name": "藏銀鴉印",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 40.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "bit_of_aerosiderite",
           "name": "漆黑隕鐵的一角",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "fossilized_bone_shard",
           "name": "石化的骨片",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "攫金鴉印",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 43.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "chunk_of_aerosiderite",
           "name": "漆黑隕鐵的一塊",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "fossilized_bone_shard",
           "name": "石化的骨片",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "golden_raven_insignia",
           "name": "攫金鴉印",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

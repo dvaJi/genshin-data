@@ -4,165 +4,251 @@
   "description": "Uma lâmina que dizem ter sido feita sob encomenda por um famoso samurai que poderia até mesmo cortar do ar um guerreiro tengu, famoso por sua habilidade em usar sua incrível velocidade.",
   "rarity": 4,
   "type": "Espada",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 41
-  },
-  "secondary": {
-    "name": "ATQ%",
-    "value": 12
-  },
   "passive": "Herdeiro de Iwakura",
   "bonus": "Depois de lançar a Habilidade Elemental, ganha 1 Semente de Sucessão. Este efeito pode ser ativado uma vez a cada 5s. A Semente de Sucessão dura 30s e no máximo podem coexistir 3 sementes. Depois de lançar o Supremo, todas as Sementes de Sucessão serão eliminadas e, após 2s, o personagem restaura <span>6/75/9/105/12</span> de Energia Elemental por cada Semente de Sucessão consumida.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "ATQ%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "coral_branch_of_a_distant_sea",
           "name": "Ramo de Coral de um Mar Distante",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "Mecanismo do Caos",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Protetor de Mão Velho",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Ramo Perolado de um Mar Distante",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "Mecanismo do Caos",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Protetor de Mão Velho",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Ramo Perolado de um Mar Distante",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "Processador do Caos",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Protetor de Mão Kageuchi",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Ramo de Jade de um Mar Distante",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "Processador do Caos",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Protetor de Mão Kageuchi",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Ramo de Jade de um Mar Distante",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "Olho do Caos",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Protetor de Mão Famoso",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "golden_branch_of_a_distant_sea",
           "name": "Ramo Dourado de um Mar Distante",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "Olho do Caos",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Protetor de Mão Famoso",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

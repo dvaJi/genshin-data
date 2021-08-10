@@ -4,165 +4,251 @@
   "description": "Двуручный меч. Лёгкий, словно ласкающий траву ветерок, но готов сокрушающим ураганом обрушиться на зло.",
   "rarity": 5,
   "type": "Двуручное оружие",
-  "primary": {
-    "name": "Базовая атака",
-    "value": 49
-  },
-  "secondary": {
-    "name": "Бонус физ. урона",
-    "value": 4.5
-  },
   "passive": "Гимн мятежников",
   "bonus": "Часть Тысячелетней симфонии, что блуждает среди ветров. Увеличивает силу атаки на <span>16/20/24/28/32%</span> и при попадании обычной или заряженной атакой даёт персонажу Печать шёпота. Этот эффект может возникнуть раз в 0.3 сек. После получения 4-ой Печати шёпота все они тратятся, и все окружающие члены отряда получают эффект «Тысячелетняя симфония: Гимн знамени» на 12 сек. «Тысячелетняя симфония: Гимн знамени» увеличивает скорость обычной атаки на <span>12/15/18/21/24%</span> и силу атаки на <span>20/25/30/35/40%</span>. После активации этого эффекта вы не сможете получать Печати шёпота в течение 20 сек. При наличии нескольких эффектов Тысячелетней симфонии усиления одного типа не складываются.",
+  "stats": {
+    "primary": "Базовая атака",
+    "secondary": "Бонус физ. урона",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 4.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 8
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 11.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 13.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 15.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 17
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 18.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 20.7
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 145,
-      "secondary": 8,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 286,
-      "secondary": 11.6,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "tile_of_decarabians_tower",
           "name": "Плитка башни Декарабиана",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "heavy_horn",
           "name": "Тяжёлый рог",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Разбитая маска",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 374,
-      "secondary": 13.4,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Обломок стены Декарабиана",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "heavy_horn",
           "name": "Тяжёлый рог",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Разбитая маска",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 464,
-      "secondary": 15.2,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "debris_of_decarabians_city",
           "name": "Обломок стены Декарабиана",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "black_bronze_horn",
           "name": "Чёрный бронзовый рог",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Грязная маска",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 555,
-      "secondary": 17,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Фрагмент эпоса Декарабиана",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "black_bronze_horn",
           "name": "Чёрный бронзовый рог",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Грязная маска",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 648,
-      "secondary": 18.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "fragment_of_decarabians_epic",
           "name": "Фрагмент эпоса Декарабиана",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "black_crystal_horn",
           "name": "Чёрный кристаллический рог",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Зловещая маска",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 741,
-      "secondary": 20.7,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "scattered_piece_of_decarabians_dream",
           "name": "Осколок мечты Декарабиана",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "black_crystal_horn",
           "name": "Чёрный кристаллический рог",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Зловещая маска",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

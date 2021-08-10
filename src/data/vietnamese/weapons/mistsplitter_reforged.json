@@ -4,165 +4,251 @@
   "description": "Một thanh kiếm rực lên với ánh sáng tím. Cái tên \"Ánh Sáng\" gợi nhớ quá khứ từng tan vỡ.",
   "rarity": 5,
   "type": "Kiếm Đơn",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 48
-  },
-  "secondary": {
-    "name": "ST Bạo Kích",
-    "value": 9.6
-  },
   "passive": "Linh Vật Cắt Sương",
   "bonus": "Tăng <span>12/15/18/21/24%</span> Sát Thương Nguyên Tố, đồng thời nhận lấy sức mạnh \"Vết Cắt Sương Mù\". Khi Vết Cắt Sương Mù ở tầng 1/2/3 sẽ tăng Sát Thương Nguyên Tố cùng loại với bản thân, tương ứng là <span>81628/102035/122442/142849/163256//%</span>. Nhân vật sẽ được nhận 1 tầng Vết Cắt Sương Mù khi: Tấn Công Thường tạo thành Sát Thương Nguyên Tố tồn tại trong 5 giây; Thi triển Kỹ Năng Nộ tồn tại trong 10 giây; Ngoài ra, Năng Lượng Nguyên Tố của nhân vật khi thấp hơn 100%, Vết Cắt Sương Mù của lần này sẽ biến mất sau khi Năng Lượng Nguyên Tố của nhân vật được nạp đầy. Thời gian tồn tại của mỗi tầng Vết Cắt Sương Mù được tính độc lập với nhau.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "ST Bạo Kích",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 44.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 133,
-      "secondary": 17,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 261,
-      "secondary": 24.7,
+      "ascension": 1,
+      "level": 40,
       "cost": 10000,
       "materials": [
         {
           "id": "coral_branch_of_a_distant_sea",
           "name": "Nhánh San Hô Của Biển Xa",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "Cơ Quan Hỗn Độn",
-          "amount": 5
+          "amount": 5,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Kiếm Cách Cũ Nát",
-          "amount": 3
+          "amount": 3,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 341,
-      "secondary": 28.6,
+      "ascension": 2,
+      "level": 50,
       "cost": 20000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Nhánh Ngọc Của Biển Xa",
-          "amount": 5
+          "amount": 5,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "Cơ Quan Hỗn Độn",
-          "amount": 18
+          "amount": 18,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "Kiếm Cách Cũ Nát",
-          "amount": 12
+          "amount": 12,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 423,
-      "secondary": 32.5,
+      "ascension": 3,
+      "level": 60,
       "cost": 30000,
       "materials": [
         {
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "Nhánh Ngọc Của Biển Xa",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "Đầu Nối Hỗn Độn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Kiếm Cách Bản Sao",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 506,
-      "secondary": 36.3,
+      "ascension": 4,
+      "level": 70,
       "cost": 45000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Nhánh Quỳnh Ngọc Của Biển Xa",
-          "amount": 5
+          "amount": 5,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "Đầu Nối Hỗn Độn",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "Kiếm Cách Bản Sao",
-          "amount": 14
+          "amount": 14,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 590,
-      "secondary": 40.2,
+      "ascension": 5,
+      "level": 80,
       "cost": 55000,
       "materials": [
         {
           "id": "jade_branch_of_a_distant_sea",
           "name": "Nhánh Quỳnh Ngọc Của Biển Xa",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "Con Ngươi Hỗn Độn",
-          "amount": 14
+          "amount": 14,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Kiếm Cách Trứ Danh",
-          "amount": 9
+          "amount": 9,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 674,
-      "secondary": 44.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 65000,
       "materials": [
         {
           "id": "golden_branch_of_a_distant_sea",
           "name": "Nhánh Vàng Của Biển Xa",
-          "amount": 6
+          "amount": 6,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "Con Ngươi Hỗn Độn",
-          "amount": 27
+          "amount": 27,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "Kiếm Cách Trứ Danh",
-          "amount": 18
+          "amount": 18,
+          "rarity": 3
         }
       ]
     }

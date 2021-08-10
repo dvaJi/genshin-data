@@ -4,165 +4,251 @@
   "description": "Trân châu u ám, tương truyền sở hữu sức mạnh nhìn thấu tâm can.",
   "rarity": 4,
   "type": "Pháp Khí",
-  "primary": {
-    "name": "Tấn Công Căn Bản",
-    "value": 41
-  },
-  "secondary": {
-    "name": "Tấn Công%",
-    "value": 12
-  },
   "passive": "Vang Vọng",
   "bonus": "Khi tấn công thường và trọng kích đánh trúng, có 50% tỷ lệ thi triển 1 cầu phép Chiêu Tâm, gây sát thương bằng <span>240/270/300/330/360%</span> lực tấn công, tối đa bắn 4 lần vào địch. Mỗi <span>12/11/10/9/8</span>s thi triển nhiều nhất 1 lần.",
+  "stats": {
+    "primary": "Tấn Công Căn Bản",
+    "secondary": "Tấn Công%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "mist_veiled_lead_elixir",
           "name": "Diên Đơn Biển Sương Mù",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Hống Đơn Biển Sương Mù",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "mist_grass_pollen",
           "name": "Phấn Hoa Hư Vô",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Mặt Nạ Vỡ",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "mist_veiled_mercury_elixir",
           "name": "Hống Đơn Biển Sương Mù",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Kim Đơn Biển Sương Mù",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "mist_grass",
           "name": "Túi Cỏ Hư Vô",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Mặt Nạ Bẩn",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "mist_veiled_gold_elixir",
           "name": "Kim Đơn Biển Sương Mù",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "mist_veiled_primo_elixir",
           "name": "Sự Chuyển Dời Của Biển Sương Mù",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "mist_grass_wick",
           "name": "Đuốc Hư Vô",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Mặt Nạ Xui Xẻo",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

@@ -4,165 +4,251 @@
   "description": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
   "rarity": 3,
   "type": "Bow",
-  "primary": {
-    "name": "Base ATK",
-    "value": 38
-  },
-  "secondary": {
-    "name": "CRIT Rate",
-    "value": 6.8
-  },
   "passive": "Slingshot",
   "bonus": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by <span>36/42/48/54/60%</span>. Otherwise, decreases DMG by 10%.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "CRIT Rate",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 6.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 12
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 12
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 17.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 17.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 23
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 23
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 25.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 25.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 28.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 31.2
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 86,
-      "secondary": 12,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 151,
-      "secondary": 17.5,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "luminous_sands_from_guyun",
           "name": "Luminous Sands from Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Hunter's Sacrificial Knife",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Damaged Mask",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 193,
-      "secondary": 20.3,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Lustrous Stone from Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "hunters_sacrificial_knife",
           "name": "Hunter's Sacrificial Knife",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Damaged Mask",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 234,
-      "secondary": 23,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "lustrous_stone_from_guyun",
           "name": "Lustrous Stone from Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Agent's Sacrificial Knife",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Stained Mask",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 274,
-      "secondary": 25.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Relic from Guyun",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "agents_sacrificial_knife",
           "name": "Agent's Sacrificial Knife",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Stained Mask",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 314,
-      "secondary": 28.5,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "relic_from_guyun",
           "name": "Relic from Guyun",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Inspector's Sacrificial Knife",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Ominous Mask",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 354,
-      "secondary": 31.2,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "divine_body_from_guyun",
           "name": "Divine Body from Guyun",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "inspectors_sacrificial_knife",
           "name": "Inspector's Sacrificial Knife",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Ominous Mask",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

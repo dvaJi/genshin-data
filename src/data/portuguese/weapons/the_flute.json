@@ -4,165 +4,251 @@
   "description": "Abaixo da poeira, há uma lâmina fina e luxuosamente decorada. Seus movimentos são suaves como o vento.",
   "rarity": 4,
   "type": "Espada",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 42
-  },
-  "secondary": {
-    "name": "ATQ%",
-    "value": 9
-  },
   "passive": "Acorde",
   "bonus": "O Ataque Normal ou Ataque Carregado concede um Acorde. Obter 5 Acordes ativa o poder da música e causa <span>100/125/150/175/200%</span> de Dano de ATQ aos inimigos ao redor. Os Acordes duram até 30s e pode-se ganhar 1 Acorde a cada 0.5s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "ATQ%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 15.9,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 23.2,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "boreal_wolfs_milk_tooth",
           "name": "Dente de Leite do Lobo Boreal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ramo Seco de Linha Ley",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Condensado de Slime",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 26.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Dente Rachado do Lobo Boreal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_branch",
           "name": "Ramo Seco de Linha Ley",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "Condensado de Slime",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 30.4,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Dente Rachado do Lobo Boreal",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Folha Morta de Linha Ley",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Secreção de Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 34.1,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Presa Quebrada do Lobo Boreal",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "dead_ley_line_leaves",
           "name": "Folha Morta de Linha Ley",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "Secreção de Slime",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 37.7,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "boreal_wolfs_broken_fang",
           "name": "Presa Quebrada do Lobo Boreal",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ley_line_sprout",
           "name": "Broto de Linha Ley",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Essência de Slime",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 41.3,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "boreal_wolfs_nostalgia",
           "name": "Nostalgia do Lobo Boreal",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "ley_line_sprout",
           "name": "Broto de Linha Ley",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "Essência de Slime",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

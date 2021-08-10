@@ -4,165 +4,251 @@
   "description": "たたら砂で鍛えられた刀。重くて強靭である。",
   "rarity": 4,
   "type": "両手剣",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 42
-  },
-  "secondary": {
-    "name": "元素チャージ効率",
-    "value": 10
-  },
   "passive": "名士の振舞",
   "bonus": "元素スキルのダメージ+<span>6/75/9/105/12%</span>。元素スキルが命中した時、キャラクターは元素エネルギーを3ポイント失う。その後の6秒間、2秒毎に元素エネルギーを<span>3/35/4/45/5</span>ポイント獲得する。この効果は10秒毎に1回のみ発動でき、待機中のキャラクターも発動できる。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "元素チャージ効率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 10
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 45.9
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 109,
-      "secondary": 17.7,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 205,
-      "secondary": 25.8,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "narukamis_wisdom",
           "name": "鳴神御霊の恩恵",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "chaos_gear",
           "name": "混沌の機関",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "古びた鍔",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 266,
-      "secondary": 29.8,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "鳴神御霊の歓喜",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "chaos_gear",
           "name": "混沌の機関",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "old_handguard",
           "name": "古びた鍔",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 327,
-      "secondary": 33.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "鳴神御霊の歓喜",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "chaos_axis",
           "name": "混沌の中枢",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 388,
-      "secondary": 37.9,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "鳴神御霊の親愛",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "chaos_axis",
           "name": "混沌の中枢",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 449,
-      "secondary": 41.9,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "鳴神御霊の親愛",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "chaos_oculus",
           "name": "混沌の真眼",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "名刀の鍔",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 510,
-      "secondary": 45.9,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "narukamis_valor",
           "name": "鳴神御霊の勇武",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "chaos_oculus",
           "name": "混沌の真眼",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "famed_handguard",
           "name": "名刀の鍔",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

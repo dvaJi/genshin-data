@@ -4,165 +4,251 @@
   "description": "Una novela de fantasía barata y sin ningún valor. También es fantasía el hecho de que pueda servir como catalizador.",
   "rarity": 3,
   "type": "Catalizador",
-  "primary": {
-    "name": "ATQ Básico",
-    "value": 39
-  },
-  "secondary": {
-    "name": "Recarga de Energía",
-    "value": 8.5
-  },
   "passive": "Inmersión energética",
   "bonus": "Restaura un <span>1/125/15/175/2%</span> de Vida al obtener orbes o partículas elementales.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Recarga de Energía",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 39
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 94,
-      "secondary": 15,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 169,
-      "secondary": 21.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Grilletes de Diente de León",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "Dispositivo del caos",
-          "amount": 2
+          "amount": 2,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Máscara dañada",
-          "amount": 1
+          "amount": 1,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 216,
-      "secondary": 25.3,
+      "ascension": 2,
+      "level": 50,
       "cost": 10000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Cadena de Diente de León",
-          "amount": 2
+          "amount": 2,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "Dispositivo del caos",
-          "amount": 8
+          "amount": 8,
+          "rarity": 2
         },
         {
           "id": "damaged_mask",
           "name": "Máscara dañada",
-          "amount": 5
+          "amount": 5,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 263,
-      "secondary": 28.8,
+      "ascension": 3,
+      "level": 60,
       "cost": 15000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Cadena de Diente de León",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "Circuito del caos",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Máscara sucia",
-          "amount": 4
+          "amount": 4,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 309,
-      "secondary": 32.2,
+      "ascension": 4,
+      "level": 70,
       "cost": 20000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Esposas de Diente de León",
-          "amount": 2
+          "amount": 2,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "Circuito del caos",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         },
         {
           "id": "stained_mask",
           "name": "Máscara sucia",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 355,
-      "secondary": 35.6,
+      "ascension": 5,
+      "level": 80,
       "cost": 25000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Esposas de Diente de León",
-          "amount": 4
+          "amount": 4,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "Caldera del caos",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Máscara amenazante",
-          "amount": 4
+          "amount": 4,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 401,
-      "secondary": 39,
+      "ascension": 6,
+      "level": 90,
       "cost": 30000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "Ideales de Diente de León",
-          "amount": 3
+          "amount": 3,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "Caldera del caos",
-          "amount": 12
+          "amount": 12,
+          "rarity": 4
         },
         {
           "id": "ominous_mask",
           "name": "Máscara amenazante",
-          "amount": 8
+          "amount": 8,
+          "rarity": 3
         }
       ]
     }

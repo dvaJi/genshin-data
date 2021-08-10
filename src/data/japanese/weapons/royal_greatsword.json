@@ -4,165 +4,251 @@
   "description": "かつてモンドを支配した旧貴族の大剣。高級素材が使われているため、長い年月が経っても新しいまま。貴族が戦闘時に使う武器である。",
   "rarity": 4,
   "type": "両手剣",
-  "primary": {
-    "name": "基礎攻撃力",
-    "value": 44
-  },
-  "secondary": {
-    "name": "攻撃力%",
-    "value": 6
-  },
   "passive": "集中",
   "bonus": "攻撃が敵にダメージを与えた時、会心率+<span>8/10/12/14/16%</span>、最大5重まで。攻撃会心発生時、効果がクリアされる。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "攻撃力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 119,
-      "secondary": 10.6,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 226,
-      "secondary": 15.4,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "獅牙戦士の枷",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "chaos_device",
           "name": "混沌の装置",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 293,
-      "secondary": 17.9,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "獅牙戦士の鎖",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "chaos_device",
           "name": "混沌の装置",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "slime_condensate",
           "name": "スライムの液体",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 361,
-      "secondary": 20.3,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "chains_of_the_dandelion_gladiator",
           "name": "獅牙戦士の鎖",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "chaos_circuit",
           "name": "混沌の回路",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 429,
-      "secondary": 22.7,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "獅牙戦士の手錠",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "chaos_circuit",
           "name": "混沌の回路",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "slime_secretions",
           "name": "スライムの分泌物",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 497,
-      "secondary": 25.1,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "獅牙戦士の手錠",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "chaos_core",
           "name": "混沌の炉心",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 565,
-      "secondary": 27.6,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "dream_of_the_dandelion_gladiator",
           "name": "獅牙戦士の理想",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "chaos_core",
           "name": "混沌の炉心",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "slime_concentrate",
           "name": "スライムのピュレ",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }

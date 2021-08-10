@@ -4,165 +4,251 @@
   "description": "Eine gewisse Schreinjungfer besaß einst diesen Bogen. Er wurde mit überragendem Geschick gefertigt und ist sowohl kunstvoll als auch robust.",
   "rarity": 4,
   "type": "Bogen",
-  "primary": {
-    "name": "Basis-ANG",
-    "value": 41
-  },
-  "secondary": {
-    "name": "ANG%",
-    "value": 12
-  },
   "passive": "Totaler Stillstand",
   "bonus": "Erhöht den mit Standardangriffen verursachten Schaden um <span>16/20/24/28/32 %</span> und den mit heftigen Schlägen verursachten Schaden um <span>12/15/18/21/24 %</span>. Verstärkt diesen Effekt bei 100 % Elementarenergie der mit dieser Waffe ausgerüsteten Figur um 100 %.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "ANG%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
   "ascensions": [
     {
-      "ascensionLevel": 0,
-      "maxLevel": 20,
-      "primary": 99,
-      "secondary": 21.2,
+      "ascension": 0,
+      "level": 20,
       "materials": []
     },
     {
-      "ascensionLevel": 1,
-      "maxLevel": 40,
-      "primary": 184,
-      "secondary": 30.9,
+      "ascension": 1,
+      "level": 40,
       "cost": 5000,
       "materials": [
         {
           "id": "narukamis_wisdom",
           "name": "Narukamis Weisheit",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "dismal_prism",
           "name": "Düsteres Prisma",
-          "amount": 3
+          "amount": 3,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Stabile Bolzenspitze",
-          "amount": 2
+          "amount": 2,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 2,
-      "maxLevel": 50,
-      "primary": 238,
-      "secondary": 35.7,
+      "ascension": 2,
+      "level": 50,
       "cost": 15000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "Narukamis Freude",
-          "amount": 3
+          "amount": 3,
+          "rarity": 3
         },
         {
           "id": "dismal_prism",
           "name": "Düsteres Prisma",
-          "amount": 12
+          "amount": 12,
+          "rarity": 2
         },
         {
           "id": "firm_arrowhead",
           "name": "Stabile Bolzenspitze",
-          "amount": 8
+          "amount": 8,
+          "rarity": 1
         }
       ]
     },
     {
-      "ascensionLevel": 3,
-      "maxLevel": 60,
-      "primary": 293,
-      "secondary": 40.6,
+      "ascension": 3,
+      "level": 60,
       "cost": 20000,
       "materials": [
         {
           "id": "narukamis_joy",
           "name": "Narukamis Freude",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "crystal_prism",
           "name": "Kristallprisma",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Scharfe Bolzenspitze",
-          "amount": 6
+          "amount": 6,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 4,
-      "maxLevel": 70,
-      "primary": 347,
-      "secondary": 45.4,
+      "ascension": 4,
+      "level": 70,
       "cost": 30000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "Narukamis Zuneigung",
-          "amount": 3
+          "amount": 3,
+          "rarity": 4
         },
         {
           "id": "crystal_prism",
           "name": "Kristallprisma",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         },
         {
           "id": "sharp_arrowhead",
           "name": "Scharfe Bolzenspitze",
-          "amount": 9
+          "amount": 9,
+          "rarity": 2
         }
       ]
     },
     {
-      "ascensionLevel": 5,
-      "maxLevel": 80,
-      "primary": 401,
-      "secondary": 50.3,
+      "ascension": 5,
+      "level": 80,
       "cost": 35000,
       "materials": [
         {
           "id": "narukamis_affection",
           "name": "Narukamis Zuneigung",
-          "amount": 6
+          "amount": 6,
+          "rarity": 4
         },
         {
           "id": "polarizing_prism",
           "name": "Polarisationsprisma",
-          "amount": 9
+          "amount": 9,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Abgenutzte Bolzenspitze",
-          "amount": 6
+          "amount": 6,
+          "rarity": 3
         }
       ]
     },
     {
-      "ascensionLevel": 6,
-      "maxLevel": 90,
-      "primary": 454,
-      "secondary": 55.1,
+      "ascension": 6,
+      "level": 90,
       "cost": 45000,
       "materials": [
         {
           "id": "narukamis_valor",
           "name": "Narukamis Tapferkeit",
-          "amount": 4
+          "amount": 4,
+          "rarity": 5
         },
         {
           "id": "polarizing_prism",
           "name": "Polarisationsprisma",
-          "amount": 18
+          "amount": 18,
+          "rarity": 4
         },
         {
           "id": "weathered_arrowhead",
           "name": "Abgenutzte Bolzenspitze",
-          "amount": 12
+          "amount": 12,
+          "rarity": 3
         }
       ]
     }
