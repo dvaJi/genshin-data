@@ -5,10 +5,13 @@ let currentCharacters = 0;
 describe('Characters Method', () => {
   const genshinData = new GenshinData({ language: 'english' });
   it('should return only fields specified on "select"', async () => {
-    const characters = await genshinData.characters({ select: ['name', 'id'] });
+    const characters = await genshinData.characters({
+      select: ['name', 'id', 'domain'],
+    });
 
     expect(characters[0].id).toBeDefined();
     expect(characters[0].name).toBeDefined();
+    expect(characters[0].domain).toBeDefined();
 
     expect(characters[0].description).toBeUndefined();
     expect(characters[0].skills).toBeUndefined();

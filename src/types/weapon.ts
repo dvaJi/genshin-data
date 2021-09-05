@@ -36,6 +36,7 @@ export interface Weapon {
   description: string;
   rarity: number;
   type: string;
+  domain: string;
   passive: string;
   bonus: string;
   stats: WeaponStat;

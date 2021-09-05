@@ -5,10 +5,13 @@ let currentWeapons = 0;
 describe('Weapons Method', () => {
   const genshinData = new GenshinData({ language: 'english' });
   it('should return only fields specified on "select"', async () => {
-    const weapons = await genshinData.weapons({ select: ['name', 'id'] });
+    const weapons = await genshinData.weapons({
+      select: ['name', 'id', 'domain'],
+    });
 
     expect(weapons[0].id).toBeDefined();
     expect(weapons[0].name).toBeDefined();
+    expect(weapons[0].domain).toBeDefined();
 
     expect(weapons[0].description).toBeUndefined();
     expect(weapons[0].type).toBeUndefined();

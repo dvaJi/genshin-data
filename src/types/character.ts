@@ -64,6 +64,7 @@ export interface Character {
   rarity: number;
   birtday: [number, number];
   constellation: string;
+  domain: string;
   cv: CharacterVoice;
   skills: Skill[];
   passives: Passive[];
