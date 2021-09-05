@@ -22,9 +22,12 @@ const languages = [
 
 const folders = [
   'artifacts',
+  'bait',
   'characters',
   'common_materials',
   'elemental_stone_materials',
+  'fish',
+  'fishing_rod',
   'food',
   'ingredients',
   'jewels_materials',
