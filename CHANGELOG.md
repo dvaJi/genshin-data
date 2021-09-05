@@ -1,3 +1,11 @@
+## [0.13.1](https://github.com/dvaJi/genshin-data/compare/0.13.0...0.13.1) (2021-09-05)
+
+### Features
+
+- add fishing materials (fish, fishing rod and bait) ([5ca8638](https://github.com/dvaJi/genshin-data/commit/5ca863817795d57005b46dc7198f9e8105069c42))
+
+- add 'domain' to characters and weapons ([7f24b11](https://github.com/dvaJi/genshin-data/commit/7f24b1197c11bebf60182322c81ea1324d5d080d))
+
 ## [0.13.0](https://github.com/dvaJi/genshin-data/compare/0.12.0...0.13.0) (2021-09-03)
 
 ### Features
