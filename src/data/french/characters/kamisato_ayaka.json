@@ -26,9 +26,9 @@
       "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour déclencher deux lames du vent rapides.<br/><br/><span>Attaque descendante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
-        [
-          "DGT 1er coup",
-          [
+        {
+          "label": "DGT 1er coup",
+          "values": [
             "45.73%",
             "49.45%",
             "53.17%",
@@ -45,10 +45,10 @@
             "115.91%",
             "122.29%"
           ]
-        ],
-        [
-          "DGT 2e coup",
-          [
+        },
+        {
+          "label": "DGT 2e coup",
+          "values": [
             "48.68%",
             "52.65%",
             "56.61%",
@@ -65,10 +65,10 @@
             "123.41%",
             "130.2%"
           ]
-        ],
-        [
-          "DGT 3e coup",
-          [
+        },
+        {
+          "label": "DGT 3e coup",
+          "values": [
             "62.62%",
             "67.72%",
             "72.82%",
@@ -85,10 +85,10 @@
             "158.74%",
             "167.48%"
           ]
-        ],
-        [
-          "DGT 4e coup",
-          [
+        },
+        {
+          "label": "DGT 4e coup",
+          "values": [
             "22.65% ×3",
             "24.49% ×3",
             "26.33% ×3",
@@ -105,10 +105,10 @@
             "57.41% ×3",
             "60.57% ×3"
           ]
-        ],
-        [
-          "DGT 5e coup",
-          [
+        },
+        {
+          "label": "DGT 5e coup",
+          "values": [
             "78.18%",
             "84.55%",
             "90.91%",
@@ -125,10 +125,10 @@
             "198.18%",
             "209.09%"
           ]
-        ],
-        [
-          "DGT attaque chargée",
-          [
+        },
+        {
+          "label": "DGT attaque chargée",
+          "values": [
             "55.13% ×3",
             "59.61% ×3",
             "64.1% ×3",
@@ -145,10 +145,10 @@
             "139.74% ×3",
             "147.43% ×3"
           ]
-        ],
-        [
-          "Coût d'endurance attaque chargée",
-          [
+        },
+        {
+          "label": "Coût d'endurance attaque chargée",
+          "values": [
             "20 pts",
             "20 pts",
             "20 pts",
@@ -165,10 +165,10 @@
             "20 pts",
             "20 pts"
           ]
-        ],
-        [
-          "DGT durant la chute",
-          [
+        },
+        {
+          "label": "DGT durant la chute",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "DGT chute basse/élevée",
-          [
+        },
+        {
+          "label": "DGT chute basse/élevée",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,18 @@
       "description": "<span>Remplace le sprint</span><br/>Ayaka consomme de l'endurance pour se déplacer rapidement au milieu d'un brouillard de glace.<br/><br/>Sous Sentier de givre, Ayaka peut se déplacer rapidement sur l'eau.<br/>À la fin de l'état, elle réapparaît ; deux choses se produisent alors simultanément :<br/>· Elle libère une énergie glacée qui applique aux ennemis proches l'élément <span>Cryo</span>.<br/>· Le froid se concentre sur son épée : les DGT qu'inflige cette dernière sont momentanément convertis en <span>DGT Cryo</span>.",
       "info": "« Volent les ailes mouillées / Le héron blanc marche sur l'eau / D'une vision parfaite ».",
       "attributes": [
-        ["Endurance (activation)", ["10 pts"]],
-        ["Endurance (durée)", ["15 pts/s"]],
-        ["Durée enchantement", ["5 s"]]
+        {
+          "label": "Endurance (activation)",
+          "values": ["10 pts"]
+        },
+        {
+          "label": "Endurance (durée)",
+          "values": ["15 pts/s"]
+        },
+        {
+          "label": "Durée enchantement",
+          "values": ["5 s"]
+        }
       ]
     },
     {
@@ -225,9 +234,9 @@
       "description": "Ayaka invoque une fleur glacée qui projette les ennemis proches, leur infligeant des <span>DGT Cryo de zone</span>.",
       "info": "« Les nuages enveloppent la lune, le désir descend tel un brouillard, emplissant le cœur du voyageur. »",
       "attributes": [
-        [
-          "DGT compétence",
-          [
+        {
+          "label": "DGT compétence",
+          "values": [
             "239.2%",
             "257.14%",
             "275.08%",
@@ -244,10 +253,10 @@
             "538.2%",
             "568.1%"
           ]
-        ],
-        [
-          "Temps de recharge",
-          [
+        },
+        {
+          "label": "Temps de recharge",
+          "values": [
             "10 s",
             "10 s",
             "10 s",
@@ -264,7 +273,7 @@
             "10 s",
             "10 s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -273,9 +282,9 @@
       "description": "Ayaka adopte une posture magnifique pour libérer un tourbillon givré qui avance sans s'arrêter.<br/><br/><span>Tourbillon givré</span><br/>· Le tourbillon givré lacère de façon continue les ennemis qui se trouvent sur sa route, infligeant des <span>DGT Cryo</span>.<br/>· Le tourbillon finit par exploser, infligeant des <span>DGT Cryo de zone</span>.",
       "info": "« Le blizzard dissimule les pensées du héron, au cœur rempli de pitié. »",
       "attributes": [
-        [
-          "DGT coupure",
-          [
+        {
+          "label": "DGT coupure",
+          "values": [
             "112.3%",
             "120.72%",
             "129.15%",
@@ -292,10 +301,10 @@
             "252.68%",
             "266.71%"
           ]
-        ],
-        [
-          "DGT floraison",
-          [
+        },
+        {
+          "label": "DGT floraison",
+          "values": [
             "168.45%",
             "181.08%",
             "193.72%",
@@ -312,10 +321,10 @@
             "379.01%",
             "400.07%"
           ]
-        ],
-        [
-          "Durée",
-          [
+        },
+        {
+          "label": "Durée",
+          "values": [
             "5 s",
             "5 s",
             "5 s",
@@ -332,10 +341,10 @@
             "5 s",
             "5 s"
           ]
-        ],
-        [
-          "Temps de recharge",
-          [
+        },
+        {
+          "label": "Temps de recharge",
+          "values": [
             "20 s",
             "20 s",
             "20 s",
@@ -352,10 +361,10 @@
             "20 s",
             "20 s"
           ]
-        ],
-        [
-          "Énergie élémentaire",
-          [
+        },
+        {
+          "label": "Énergie élémentaire",
+          "values": [
             "80",
             "80",
             "80",
@@ -372,7 +381,7 @@
             "80",
             "80"
           ]
-        ]
+        }
       ]
     }
   ],

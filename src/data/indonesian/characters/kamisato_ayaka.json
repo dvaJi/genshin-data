@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Melancarkan maks. 5 tebasan pedang.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk terus mengerahkan rentetan tebasan.<br/><br/><span>Plunging Attack</span><br/>Menukik dari langit dan menghantam tanah, menyerang musuh di jalurnya dan mengakibatkan DMG Area saat mendarat.",
       "info": "",
       "attributes": [
-        [
-          "DMG Tahap 1",
-          [
+        {
+          "label": "DMG Tahap 1",
+          "values": [
             "45.73%",
             "49.45%",
             "53.17%",
@@ -45,10 +45,10 @@
             "115.91%",
             "122.29%"
           ]
-        ],
-        [
-          "DMG Tahap 2",
-          [
+        },
+        {
+          "label": "DMG Tahap 2",
+          "values": [
             "48.68%",
             "52.65%",
             "56.61%",
@@ -65,10 +65,10 @@
             "123.41%",
             "130.2%"
           ]
-        ],
-        [
-          "DMG Tahap 3",
-          [
+        },
+        {
+          "label": "DMG Tahap 3",
+          "values": [
             "62.62%",
             "67.72%",
             "72.82%",
@@ -85,10 +85,10 @@
             "158.74%",
             "167.48%"
           ]
-        ],
-        [
-          "DMG Tahap 4",
-          [
+        },
+        {
+          "label": "DMG Tahap 4",
+          "values": [
             "22.65%×3",
             "24.49%×3",
             "26.33%×3",
@@ -105,10 +105,10 @@
             "57.41%×3",
             "60.57%×3"
           ]
-        ],
-        [
-          "DMG Tahap 5",
-          [
+        },
+        {
+          "label": "DMG Tahap 5",
+          "values": [
             "78.18%",
             "84.55%",
             "90.91%",
@@ -125,10 +125,10 @@
             "198.18%",
             "209.09%"
           ]
-        ],
-        [
-          "DMG Charged Attack",
-          [
+        },
+        {
+          "label": "DMG Charged Attack",
+          "values": [
             "55.13%×3",
             "59.61%×3",
             "64.1%×3",
@@ -145,10 +145,10 @@
             "139.74%×3",
             "147.43%×3"
           ]
-        ],
-        [
-          "Konsumsi Stamina Charged Attack",
-          [
+        },
+        {
+          "label": "Konsumsi Stamina Charged Attack",
+          "values": [
             "20pt",
             "20pt",
             "20pt",
@@ -165,10 +165,10 @@
             "20pt",
             "20pt"
           ]
-        ],
-        [
-          "DMG Selama Plunging",
-          [
+        },
+        {
+          "label": "DMG Selama Plunging",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "DMG Plunging Attack Rendah/Tinggi",
-          [
+        },
+        {
+          "label": "DMG Plunging Attack Rendah/Tinggi",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,18 @@
       "description": "<span>Alternate Sprint</span><br/>Ayaka mengonsumsi energi untuk bersembunyi di balik es dan salju yang mengikuti gerakannya.<br/><br/>Dalam status Senho, Ayaka akan bergerak dengan kecepatan tinggi di atas permukaan air.<br/>Saat Ayaka muncul kembali, efek berikut akan berlaku:<br/>·Melepaskan energi dingin yang menambahkan efek <span>Cryo</span> kepada musuh di sekitar.<br/>·Energi dingin berkumpul di bilah pedang dan dalam waktu singkat membuat serangan Ayaka memperoleh infusi <span>Cryo</span>.",
       "info": "\"Bulu-bulu basah yang indah menghilang dalam sekejap, sang bangau putih pun menapaki air tanpa cela.\"",
       "attributes": [
-        ["Konsumsi Stamina Aktivasi", ["10pt"]],
-        ["Konsumsi Stamina", ["15 / dtk"]],
-        ["Durasi Infusion", ["5 dtk"]]
+        {
+          "label": "Konsumsi Stamina Aktivasi",
+          "values": ["10pt"]
+        },
+        {
+          "label": "Konsumsi Stamina",
+          "values": ["15 / dtk"]
+        },
+        {
+          "label": "Durasi Infusion",
+          "values": ["5 dtk"]
+        }
       ]
     },
     {
@@ -225,9 +234,9 @@
       "description": "Memanggil dan menerbangkan bunga es ke arah musuh di sekitar untuk mengakibatkan <span>Cryo DMG Area</span>.",
       "info": "\"Awan menyelimuti langit malam yang cerah diterangi rembulan. Rasa rindu yang timbul layaknya kabut, memenuhi hati seseorang dengan keinginan tuk' mengembara.\"",
       "attributes": [
-        [
-          "DMG Skill",
-          [
+        {
+          "label": "DMG Skill",
+          "values": [
             "239.2%",
             "257.14%",
             "275.08%",
@@ -244,10 +253,10 @@
             "538.2%",
             "568.1%"
           ]
-        ],
-        [
-          "Cooldown",
-          [
+        },
+        {
+          "label": "Cooldown",
+          "values": [
             "10dtk",
             "10dtk",
             "10dtk",
@@ -264,7 +273,7 @@
             "10dtk",
             "10dtk"
           ]
-        ]
+        }
       ]
     },
     {
@@ -273,9 +282,9 @@
       "description": "Memanggil es dengan ketenangan tanpa cela, lalu melepaskan Frostflake Seki no To yang terus bergerak maju.<br/><br/><span>Frostflake Seki no To</span><br/>·Terus-menerus menebas musuh yang disentuhnya dengan angin dingin setajam pisau dan mengakibatkan <span>Cryo DMG</span>;<br/>·Terbuka mekar setelah durasinya berakhir dan mengakibatkan <span>Cryo DMG Area</span>.",
       "info": "\"Badai salju memenuhi pikiran sang bangau, sedang rasa iba yang berat membebani hatinya.\"",
       "attributes": [
-        [
-          "DMG Tebasan",
-          [
+        {
+          "label": "DMG Tebasan",
+          "values": [
             "112.3%",
             "120.72%",
             "129.15%",
@@ -292,10 +301,10 @@
             "252.68%",
             "266.71%"
           ]
-        ],
-        [
-          "DMG Saat Mekar",
-          [
+        },
+        {
+          "label": "DMG Saat Mekar",
+          "values": [
             "168.45%",
             "181.08%",
             "193.72%",
@@ -312,10 +321,10 @@
             "379.01%",
             "400.07%"
           ]
-        ],
-        [
-          "Durasi",
-          [
+        },
+        {
+          "label": "Durasi",
+          "values": [
             "5 dtk",
             "5 dtk",
             "5 dtk",
@@ -332,10 +341,10 @@
             "5 dtk",
             "5 dtk"
           ]
-        ],
-        [
-          "Cooldown",
-          [
+        },
+        {
+          "label": "Cooldown",
+          "values": [
             "20 dtk",
             "20 dtk",
             "20 dtk",
@@ -352,10 +361,10 @@
             "20 dtk",
             "20 dtk"
           ]
-        ],
-        [
-          "Konsumsi Energy",
-          [
+        },
+        {
+          "label": "Konsumsi Energy",
+          "values": [
             "80",
             "80",
             "80",
@@ -372,7 +381,7 @@
             "80",
             "80"
           ]
-        ]
+        }
       ]
     }
   ],

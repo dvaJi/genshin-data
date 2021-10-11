@@ -26,9 +26,9 @@
       "description": "<span>Ataque Normal</span><br/>Realiza até 6 golpes rápidos.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para desferir um golpe com pulo.<br/><br/><span>Ataque Imersivo</span><br/>Se lança em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.<br/>Xiao não recebe dano de queda ao realizar um Ataque Imersivo.",
       "info": "",
       "attributes": [
-        [
-          "Dano do 1° Golpe",
-          [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
             "27.54% + 27.54%",
             "29.42% + 29.42%",
             "31.3% + 31.3%",
@@ -45,10 +45,10 @@
             "60.41% + 60.41%",
             "63.23% + 63.23%"
           ]
-        ],
-        [
-          "Dano do 2° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
             "56.94%",
             "60.82%",
             "64.7%",
@@ -65,10 +65,10 @@
             "124.87%",
             "130.69%"
           ]
-        ],
-        [
-          "Dano do 3° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
             "68.55%",
             "73.23%",
             "77.9%",
@@ -85,10 +85,10 @@
             "150.35%",
             "157.36%"
           ]
-        ],
-        [
-          "Dano do 4° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
             "37.66% + 37.66%",
             "40.23% + 40.23%",
             "42.8% + 42.8%",
@@ -105,10 +105,10 @@
             "82.6% + 82.6%",
             "86.46% + 86.46%"
           ]
-        ],
-        [
-          "Dano do 5° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
             "71.54%",
             "76.42%",
             "81.3%",
@@ -125,10 +125,10 @@
             "156.91%",
             "164.23%"
           ]
-        ],
-        [
-          "Dano do 6° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 6° Golpe",
+          "values": [
             "95.83%",
             "102.37%",
             "108.9%",
@@ -145,10 +145,10 @@
             "210.18%",
             "219.98%"
           ]
-        ],
-        [
-          "Ataque Carregado",
-          [
+        },
+        {
+          "label": "Ataque Carregado",
+          "values": [
             "121.09%",
             "129.34%",
             "137.6%",
@@ -165,10 +165,10 @@
             "265.57%",
             "277.95%"
           ]
-        ],
-        [
-          "Consumo de Stamina de Ataque Carregado",
-          [
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
             "25",
             "25",
             "25",
@@ -185,10 +185,10 @@
             "25",
             "25"
           ]
-        ],
-        [
-          "Dano Durante a Queda",
-          [
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
             "81.83%",
             "88.49%",
             "95.16%",
@@ -205,10 +205,10 @@
             "207.44%",
             "218.86%"
           ]
-        ],
-        [
-          "Dano de Queda de Baixa/Alta Altitude",
-          [
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
             "163.63% / 204.39%",
             "176.95% / 221.02%",
             "190.27% / 237.66%",
@@ -225,7 +225,7 @@
             "414.79% / 518.09%",
             "437.62% / 546.61%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -234,9 +234,9 @@
       "description": "Xiao avança, causando <span>Dano Anemo</span> aos inimigos em seu caminho.<br/>Pode ser usado no meio do ar.<br/>Inicia com 2 cargas.",
       "info": "Segundo as lendas de outra terra, o mundo será um dia esmagado por duas grandes rodas de vento. O domínio de Xiao sobre as lanças é transcendente, destruindo seus inimigos como aquelas lendárias rodas de vento.",
       "attributes": [
-        [
-          "Dano de Habilidade",
-          [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
             "252.8%",
             "271.76%",
             "290.72%",
@@ -253,10 +253,10 @@
             "568.8%",
             "600.4%"
           ]
-        ],
-        [
-          "Tempo de Recarga",
-          [
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
             "10s",
             "10s",
             "10s",
@@ -273,7 +273,7 @@
             "10s",
             "10s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -282,9 +282,9 @@
       "description": "Xiao veste a Máscara Yaksha, que há milênios atrás, pôs deuses e demônios a tremer.<br/><br/><span>Máscara Yaksha</span><br/>·Aumenta consideravelmente a capacidade de salto de Xiao.<br/>·Aumenta a AdE  de seu Ataque e aumenta seu Dano.<br/>·Converte o Dano do seu Ataque em <span>Dano Anemo</span>, que não pode ser anulado por nenhuma outra infusão elemental.<br/><br/>Nesse estado, Xiao perderá Vida continuamente.<br/>Os efeitos dessa habilidade terminam quando Xiao deixa o campo.",
       "info": "Colocando a máscara Yaksha, Xiao se transforma no Conquistador de Demônios. Mas esse grande poder também lhe trouxe grande sofrimento. Alguns lhe chamam de \"A Ruína de Todos os Males\".",
       "attributes": [
-        [
-          "Aumento de Ataque Normal/Ataque Carregado/Ataque Imersivo",
-          [
+        {
+          "label": "Aumento de Ataque Normal/Ataque Carregado/Ataque Imersivo",
+          "values": [
             "58.45%",
             "61.95%",
             "65.45%",
@@ -301,10 +301,10 @@
             "113.4%",
             "117.95%"
           ]
-        ],
-        [
-          "Vida consumida",
-          [
+        },
+        {
+          "label": "Vida consumida",
+          "values": [
             "3% da Vida Atual/s",
             "3% da Vida Atual/s",
             "3% da Vida Atual/s",
@@ -321,10 +321,10 @@
             "2% da Vida Atual/s",
             "2% da Vida Atual/s"
           ]
-        ],
-        [
-          "Duração",
-          [
+        },
+        {
+          "label": "Duração",
+          "values": [
             "15",
             "15",
             "15",
@@ -341,10 +341,10 @@
             "15",
             "15"
           ]
-        ],
-        [
-          "Tempo de Recarga",
-          [
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
             "18s",
             "18s",
             "18s",
@@ -361,10 +361,10 @@
             "18s",
             "18s"
           ]
-        ],
-        [
-          "Energia Elemental",
-          [
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
             "70",
             "70",
             "70",
@@ -381,7 +381,7 @@
             "70",
             "70"
           ]
-        ]
+        }
       ]
     }
   ],

@@ -1,9 +1,14 @@
+export interface SkillAttribute {
+  label: string;
+  values: string[];
+}
+
 export interface Skill {
   id: string;
   name: string;
   description: string;
   info: string;
-  attributes: Array<[string, string[]]>;
+  attributes: SkillAttribute[];
 }
 
 export interface Passive {
@@ -62,7 +67,7 @@ export interface Character {
   affiliation: string;
   region: string;
   rarity: number;
-  birtday: [number, number];
+  birthday: [number, number];
   constellation: string;
   domain: string;
   cv: CharacterVoice;

@@ -17,11 +17,4 @@ export interface Artifact {
   '1pc'?: string;
   '2pc'?: string;
   '4pc'?: string;
-  drop: {
-    '1'?: string[];
-    '2'?: string[];
-    '3'?: string[];
-    '4'?: string[];
-    '5'?: string[];
-  };
 }

@@ -26,9 +26,9 @@
       "description": "<span>Ataque Normal</span><br/>Realiza hasta 4 salpicaduras de agua que infligen <span>Daño Hydro</span>.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para infligir <span>Daño Hydro en el AdE</span> después de un corto tiempo de lanzamiento.<br/><br/><span>Ataque Descendente</span><br/>Concentra el poder Hydro y desciende hacia el suelo, dañando a todos los enemigos cercanos e infligiendo <span>Daño Hydro en el AdE</span> en el momento del impacto.",
       "info": "",
       "attributes": [
-        [
-          "Daño de 1er golpe",
-          [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
             "37.6%",
             "40.42%",
             "43.24%",
@@ -45,10 +45,10 @@
             "84.6%",
             "89.3%"
           ]
-        ],
-        [
-          "Daño de 2.º golpe",
-          [
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
             "36%",
             "38.7%",
             "41.4%",
@@ -65,10 +65,10 @@
             "81%",
             "85.5%"
           ]
-        ],
-        [
-          "Daño de 3er golpe",
-          [
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
             "44.8%",
             "48.16%",
             "51.52%",
@@ -85,10 +85,10 @@
             "100.8%",
             "106.4%"
           ]
-        ],
-        [
-          "Daño de 4.º golpe",
-          [
+        },
+        {
+          "label": "Daño de 4.º golpe",
+          "values": [
             "56.16%",
             "60.37%",
             "64.58%",
@@ -105,10 +105,10 @@
             "126.36%",
             "133.38%"
           ]
-        ],
-        [
-          "Daño de ATQ Cargado",
-          [
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
             "149.72%",
             "160.95%",
             "172.18%",
@@ -125,10 +125,10 @@
             "346.15%",
             "366.51%"
           ]
-        ],
-        [
-          "Coste de Aguante de ATQ Cargado",
-          [
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
             "50 pts.",
             "50 pts.",
             "50 pts.",
@@ -145,10 +145,10 @@
             "50 pts.",
             "50 pts."
           ]
-        ],
-        [
-          "Daño de Caída",
-          [
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
             "56.83%",
             "61.45%",
             "66.08%",
@@ -165,10 +165,10 @@
             "144.05%",
             "151.98%"
           ]
-        ],
-        [
-          "Daño de impacto de caída baja/alta",
-          [
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
             "113.63% / 141.93%",
             "122.88% / 153.49%",
             "132.13% / 165.04%",
@@ -185,7 +185,7 @@
             "288.05% / 359.79%",
             "303.9% / 379.59%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -194,9 +194,9 @@
       "description": "Invoca unos chorros de agua para crear una ilusión del destino.<br/><br/>La <span>ilusión</span> tiene las siguientes características:<br/>·Provoca a los enemigos cercanos, atrayendo la atención de sus ataques.<br/>·Inflige intermitentemente <span>Daño Hydro</span> a los enemigos cercanos.<br/>Al terminar su efecto, la ilusión explota e inflige <span>Daño Hydro en el AdE</span>.<br/><br/><span>Mantener pulsado</span><br/>Utiliza una corriente de agua para impulsarse hacia atrás rápidamente y conjurar una ilusión.<br/><br/>Solo puede existir una ilusión creada por Espejismo del agua a la vez.",
       "info": "Los astrólogos expertos siempre han soñado con usar una copia ilusoria de ellos mismos para protegerse de la inminente mala suerte, pero Mona debe ser la primera en burlarse de la mala suerte en todo Teyvat.",
       "attributes": [
-        [
-          "Daño continuo",
-          [
+        {
+          "label": "Daño continuo",
+          "values": [
             "32%",
             "34.4%",
             "36.8%",
@@ -213,10 +213,10 @@
             "72%",
             "76%"
           ]
-        ],
-        [
-          "Daño de explosión",
-          [
+        },
+        {
+          "label": "Daño de explosión",
+          "values": [
             "132.8%",
             "142.76%",
             "152.72%",
@@ -233,10 +233,10 @@
             "298.8%",
             "315.4%"
           ]
-        ],
-        [
-          "TdE",
-          [
+        },
+        {
+          "label": "TdE",
+          "values": [
             "12 s",
             "12 s",
             "12 s",
@@ -253,7 +253,7 @@
             "12 s",
             "12 s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -262,8 +262,14 @@
       "description": "<span>Reemplaza a Esprintar</span><br/>Mona se oculta bajo un flujo de agua, consumiendo su Aguante para moverse rápidamente.<br/><br/>Cuando está bajo el efecto de Torrente ilusorio, Mona puede moverse a gran velocidad sobre el agua.<br/>Al reaparecer, aplica el estado de <span>Mojado</span> sobre los enemigos cercanos.",
       "info": "Esto es algo que Mona puede hacer, pero su maestra no. Bueno, tampoco es que su maestra esté interesada en asuntos relacionados con las Visiones Hydro...",
       "attributes": [
-        ["Coste de Aguante al activar", ["10 pts."]],
-        ["Coste de Aguante continuo", ["15 pts./s"]]
+        {
+          "label": "Coste de Aguante al activar",
+          "values": ["10 pts."]
+        },
+        {
+          "label": "Coste de Aguante continuo",
+          "values": ["15 pts./s"]
+        }
       ]
     },
     {
@@ -272,9 +278,9 @@
       "description": "Mona invoca unas olas cristalinas para crear un reflejo del cielo estrellado, aplicando el estado de burbuja ilusoria sobre los enemigos en una gran AdE.<br/><br/><span>Burbuja ilusoria</span><br/>Invoca una burbuja estrellada que envuelve a sus enemigos, aplicando el efecto de <span>Mojado</span> sobre ellos. La burbuja inmoviliza a los enemigos más débiles, los cuales no podrán moverse.<br/>Cuando un enemigo que está bajo los efectos de la burbuja ilusoria recibe daño, se producen los siguientes efectos:<br/>·Coloca un presagio sobre el enemigo, lo que otorga un bono de daño y también aumenta el daño del ataque que lo causa.<br/>·Elimina la burbuja ilusoria, infligiendo <span>Daño Hydro</span> adicional.<br/><br/><span>Presagio</span><br/>Mientras dura la habilidad, aumenta el daño que reciben los enemigos.",
       "info": "Fue en la época en la que los dioses dibujaron por primera vez luces en el cielo cuando el “destino” comenzó a ser llamado como tal.",
       "attributes": [
-        [
-          "Duración de Burbuja ilusoria",
-          [
+        {
+          "label": "Duración de Burbuja ilusoria",
+          "values": [
             "8 s",
             "8 s",
             "8 s",
@@ -291,10 +297,10 @@
             "8 s",
             "8 s"
           ]
-        ],
-        [
-          "Daño de explosión de Burbuja ilusoria",
-          [
+        },
+        {
+          "label": "Daño de explosión de Burbuja ilusoria",
+          "values": [
             "442.4%",
             "475.58%",
             "508.76%",
@@ -311,10 +317,10 @@
             "995.4%",
             "1050.7%"
           ]
-        ],
-        [
-          "Bono de Daño",
-          [
+        },
+        {
+          "label": "Bono de Daño",
+          "values": [
             "42%",
             "44%",
             "46%",
@@ -331,10 +337,10 @@
             "60%",
             "60%"
           ]
-        ],
-        [
-          "Duración de presagio",
-          [
+        },
+        {
+          "label": "Duración de presagio",
+          "values": [
             "4 s",
             "4 s",
             "4 s",
@@ -351,10 +357,10 @@
             "5 s",
             "5 s"
           ]
-        ],
-        [
-          "TdE",
-          [
+        },
+        {
+          "label": "TdE",
+          "values": [
             "15 s",
             "15 s",
             "15 s",
@@ -371,10 +377,10 @@
             "15 s",
             "15 s"
           ]
-        ],
-        [
-          "Energía Elemental",
-          [
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
             "60",
             "60",
             "60",
@@ -391,7 +397,7 @@
             "60",
             "60"
           ]
-        ]
+        }
       ]
     }
   ],

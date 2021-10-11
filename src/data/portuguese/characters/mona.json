@@ -26,9 +26,9 @@
       "description": "<span>Ataque Normal</span><br/>Realiza até 4 ataques com esguichos de água que infligem <span>Dano Hydro</span>.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para infligir <span>Dano Hydro em uma AdE</span> após um curto período de canalização.<br/><br/><span>Ataque Imersivo</span><br/>Reunindo o poder do Hydro, Mona mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige <span>Dano Hydro em uma AdE</span> durante o impacto com o chão.",
       "info": "",
       "attributes": [
-        [
-          "Dano do 1° Golpe",
-          [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
             "37.6%",
             "40.42%",
             "43.24%",
@@ -45,10 +45,10 @@
             "84.6%",
             "89.3%"
           ]
-        ],
-        [
-          "Dano do 2° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
             "36%",
             "38.7%",
             "41.4%",
@@ -65,10 +65,10 @@
             "81%",
             "85.5%"
           ]
-        ],
-        [
-          "Dano do 3° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
             "44.8%",
             "48.16%",
             "51.52%",
@@ -85,10 +85,10 @@
             "100.8%",
             "106.4%"
           ]
-        ],
-        [
-          "Dano do 4° Golpe",
-          [
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
             "56.16%",
             "60.37%",
             "64.58%",
@@ -105,10 +105,10 @@
             "126.36%",
             "133.38%"
           ]
-        ],
-        [
-          "Dano de Ataque Carregado",
-          [
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
             "149.72%",
             "160.95%",
             "172.18%",
@@ -125,10 +125,10 @@
             "346.15%",
             "366.51%"
           ]
-        ],
-        [
-          "Consumo de Stamina de Ataque Carregado",
-          [
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
             "50",
             "50",
             "50",
@@ -145,10 +145,10 @@
             "50",
             "50"
           ]
-        ],
-        [
-          "Dano Durante a Queda",
-          [
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
             "56.83%",
             "61.45%",
             "66.08%",
@@ -165,10 +165,10 @@
             "144.05%",
             "151.98%"
           ]
-        ],
-        [
-          "Dano de Queda de Baixa/Alta Altitude",
-          [
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
             "113.63% / 141.93%",
             "122.88% / 153.49%",
             "132.13% / 165.04%",
@@ -185,7 +185,7 @@
             "288.05% / 359.79%",
             "303.9% / 379.59%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -194,9 +194,9 @@
       "description": "Cria um Fantasma ilusório do destino a partir de trombas d'águas fundidas.<br/><br/>O <span>Fantasma</span> tem as seguintes propriedades especiais:<br/>Continuamente provoca inimigos próximos, atraindo seus golpes.<br/> Continuamente inflige <span>Dano Hydro</span> nos inimigos próximos.<br/> Quando sua duração expira, o Fantasma explode, infligindo <span>Dano Hydro em uma AdE</span>.<br/><br/><span>Manter pressionado</span><br/>Utiliza a corrente da água para movimentar-se rapidamente para trás antes de conjurar o Fantasma.<br/><br/>Apenas um Fantasma criado pelo Espelho do Reflexo do Apocalipse pode existir a qualquer momento.",
       "info": "Astrólogos qualificados sempre sonharam em usar uma cópia de si mesmos para se prevenirem do destino cruel iminente, mas Mona deve ser a primeira a fazer tamanho escárnio de todos em Teyvat.",
       "attributes": [
-        [
-          "Dano de Contínuo",
-          [
+        {
+          "label": "Dano de Contínuo",
+          "values": [
             "32%",
             "34.4%",
             "36.8%",
@@ -213,10 +213,10 @@
             "72%",
             "76%"
           ]
-        ],
-        [
-          "Dano de Explosão",
-          [
+        },
+        {
+          "label": "Dano de Explosão",
+          "values": [
             "132.8%",
             "142.76%",
             "152.72%",
@@ -233,10 +233,10 @@
             "298.8%",
             "315.4%"
           ]
-        ],
-        [
-          "Tempo de Recarga",
-          [
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
             "12s",
             "12s",
             "12s",
@@ -253,7 +253,7 @@
             "12s",
             "12s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -262,8 +262,14 @@
       "description": "<span>Arrancada Alternativa</span><br/>Mona se envolve dentro do fluxo da água, consumindo Stamina para se mover rapidamente.<br/>Quando sob o efeito de Vicissitude, Mona pode se movementar em alta velocidade sobre a água.<br/>Aplica o estado de <span>Molhado</span> para inimigos próximos quando ela ressurge.",
       "info": "Isso é algo que a Mona pode fazer, mas seu professor não pode. Bem, não é como se seu professor fosse seguir qualquer coisa relacionada às Visões Hydro de qualquer forma...",
       "attributes": [
-        ["Ativar Consumo de Stamina", ["10 pontos"]],
-        ["Consumo de Stamina", ["15/s"]]
+        {
+          "label": "Ativar Consumo de Stamina",
+          "values": ["10 pontos"]
+        },
+        {
+          "label": "Consumo de Stamina",
+          "values": ["15/s"]
+        }
       ]
     },
     {
@@ -272,9 +278,9 @@
       "description": "Mona evoca as ondas cintilantes e cria um reflexo do céu estrelado, aplicando o status de Bolha Ilusória aos oponentes em uma grande AdE<br/><br/><span>Bolha Ilusória</span><br/>Prende inimigos em um bolso do destino e também deixa eles <span>Molhados</span>. Torna oponentes mais fracos imóveis.<br/>Quando um oponente afetado pela Bolha Ilusória recebe Dano, os seguintes efeitos são aplicados:<br/>Aplica um Presságio no oponente, que causa Dano Bônus, também aumentando o Dano do ataque que o ocasiona.<br/> Remove a Bolha Ilusória, causando Dano Elemental <span>Hydro</span> no processo.<br/><br/><span>Presságio</span><br/>Ao longo da duração, aumenta o Dano recebido pelos inimigos.",
       "info": "No momento em que os deuses traçaram pela primeira vez as luzes no céu com seus olhos, o \"destino\" nasceu.",
       "attributes": [
-        [
-          "Duração da Sombra de Bolha",
-          [
+        {
+          "label": "Duração da Sombra de Bolha",
+          "values": [
             "8s",
             "8s",
             "8s",
@@ -291,10 +297,10 @@
             "8s",
             "8s"
           ]
-        ],
-        [
-          "Dano de Explosão da Bolha Ilusória",
-          [
+        },
+        {
+          "label": "Dano de Explosão da Bolha Ilusória",
+          "values": [
             "442.4%",
             "475.58%",
             "508.76%",
@@ -311,10 +317,10 @@
             "995.4%",
             "1050.7%"
           ]
-        ],
-        [
-          "Dano Adicional",
-          [
+        },
+        {
+          "label": "Dano Adicional",
+          "values": [
             "42%",
             "44%",
             "46%",
@@ -331,10 +337,10 @@
             "60%",
             "60%"
           ]
-        ],
-        [
-          "Duração do Presságio",
-          [
+        },
+        {
+          "label": "Duração do Presságio",
+          "values": [
             "4s",
             "4s",
             "4s",
@@ -351,10 +357,10 @@
             "5s",
             "5s"
           ]
-        ],
-        [
-          "Tempo de Recarga",
-          [
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
             "15s",
             "15s",
             "15s",
@@ -371,10 +377,10 @@
             "15s",
             "15s"
           ]
-        ],
-        [
-          "Energia Elemental",
-          [
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
             "60",
             "60",
             "60",
@@ -391,7 +397,7 @@
             "60",
             "60"
           ]
-        ]
+        }
       ]
     }
   ],

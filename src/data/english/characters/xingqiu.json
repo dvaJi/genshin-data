@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Perform up to 5 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
-        [
-          "1-Hit DMG",
-          [
+        {
+          "label": "1-Hit DMG",
+          "values": [
             "46.61%",
             "50.41%",
             "54.2%",
@@ -45,10 +45,10 @@
             "125.88%",
             "135.45%"
           ]
-        ],
-        [
-          "2-Hit DMG",
-          [
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
             "47.64%",
             "51.52%",
             "55.4%",
@@ -65,10 +65,10 @@
             "128.67%",
             "138.44%"
           ]
-        ],
-        [
-          "3-Hit DMG",
-          [
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
             "28.55% + 28.55%",
             "30.88% + 30.88%",
             "33.2% + 33.2%",
@@ -85,10 +85,10 @@
             "77.11% + 77.11%",
             "82.97% + 82.97%"
           ]
-        ],
-        [
-          "4-Hit DMG",
-          [
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
             "55.99%",
             "60.54%",
             "65.1%",
@@ -105,10 +105,10 @@
             "151.2%",
             "162.68%"
           ]
-        ],
-        [
-          "5-Hit DMG",
-          [
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
             "35.86% + 35.86%",
             "38.78% + 38.78%",
             "41.7% + 41.7%",
@@ -125,10 +125,10 @@
             "96.85% + 96.85%",
             "104.21% + 104.21%"
           ]
-        ],
-        [
-          "Charged Attack DMG",
-          [
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
             "47.3% + 56.16%",
             "51.15% + 60.73%",
             "55% + 65.3%",
@@ -145,10 +145,10 @@
             "127.74% + 151.67%",
             "137.44% + 163.18%"
           ]
-        ],
-        [
-          "Charged Attack Stamina Cost",
-          [
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
             "20",
             "20",
             "20",
@@ -165,10 +165,10 @@
             "20",
             "20"
           ]
-        ],
-        [
-          "Plunge DMG",
-          [
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "Low/High Plunge DMG",
-          [
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,9 @@
       "description": "Xingqiu performs twin strikes with his sword, dealing <span>Hydro DMG</span>. At the same time, this ability creates the maximum number of Rain Swords, which will orbit your active character.<br/>The Rain Swords have the following properties:<br/>·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.<br/>·Increases the character's resistance to interruption.<br/>20% of Xingqiu's <span>Hydro DMG Bonus</span> will be converted to additional DMG Reduction for the Rain Swords.<br/><br/>The maximum amount of additional DMG Reduction that can be gained this way is 24%.<br/>The initial maximum number of Rain Swords is 3.<br/>Using this ability applies the <span>Wet</span> status onto the character.",
       "info": "\"Easier to slay a rain dragon than to sever the rain.\"",
       "attributes": [
-        [
-          "Skill DMG",
-          [
+        {
+          "label": "Skill DMG",
+          "values": [
             "168% + 191.2%",
             "180.6% + 205.54%",
             "193.2% + 219.88%",
@@ -233,10 +233,10 @@
             "378% + 430.2%",
             "399% + 454.1%"
           ]
-        ],
-        [
-          "Damage Reduction Ratio",
-          [
+        },
+        {
+          "label": "Damage Reduction Ratio",
+          "values": [
             "20%",
             "21%",
             "22%",
@@ -253,10 +253,10 @@
             "29%",
             "29%"
           ]
-        ],
-        [
-          "Duration",
-          [
+        },
+        {
+          "label": "Duration",
+          "values": [
             "15s",
             "15s",
             "15s",
@@ -273,10 +273,10 @@
             "15s",
             "15s"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "21s",
             "21s",
             "21s",
@@ -293,7 +293,7 @@
             "21s",
             "21s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -302,9 +302,9 @@
       "description": "Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.<br/><br/><span>Rainbow Bladework</span><br/>·Your active character's Normal Attacks will trigger consecutive sword rain attacks, dealing <span>Hydro DMG</span>.<br/>·Rain Swords will remain at the maximum number throughout the ability's duration.",
       "info": "The \"Way of the Rain Cutter\" is one of the esoteric secret techniques of the Guhua Sect.",
       "attributes": [
-        [
-          "Sword Rain DMG",
-          [
+        {
+          "label": "Sword Rain DMG",
+          "values": [
             "54.27%",
             "58.34%",
             "62.41%",
@@ -321,10 +321,10 @@
             "122.11%",
             "128.9%"
           ]
-        ],
-        [
-          "Duration",
-          [
+        },
+        {
+          "label": "Duration",
+          "values": [
             "15s",
             "15s",
             "15s",
@@ -341,10 +341,10 @@
             "15s",
             "15s"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "20s",
             "20s",
             "20s",
@@ -361,10 +361,10 @@
             "20s",
             "20s"
           ]
-        ],
-        [
-          "Energy Cost",
-          [
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
             "80",
             "80",
             "80",
@@ -381,7 +381,7 @@
             "80",
             "80"
           ]
-        ]
+        }
       ]
     }
   ],

@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a flurry of sword ki.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
-        [
-          "1-Hit DMG",
-          [
+        {
+          "label": "1-Hit DMG",
+          "values": [
             "45.73%",
             "49.45%",
             "53.17%",
@@ -45,10 +45,10 @@
             "115.91%",
             "122.29%"
           ]
-        ],
-        [
-          "2-Hit DMG",
-          [
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
             "48.68%",
             "52.65%",
             "56.61%",
@@ -65,10 +65,10 @@
             "123.41%",
             "130.2%"
           ]
-        ],
-        [
-          "3-Hit DMG",
-          [
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
             "62.62%",
             "67.72%",
             "72.82%",
@@ -85,10 +85,10 @@
             "158.74%",
             "167.48%"
           ]
-        ],
-        [
-          "4-Hit DMG",
-          [
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
             "22.65%×3",
             "24.49%×3",
             "26.33%×3",
@@ -105,10 +105,10 @@
             "57.41%×3",
             "60.57%×3"
           ]
-        ],
-        [
-          "5-Hit DMG",
-          [
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
             "78.18%",
             "84.55%",
             "90.91%",
@@ -125,10 +125,10 @@
             "198.18%",
             "209.09%"
           ]
-        ],
-        [
-          "Charged Attack DMG",
-          [
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
             "55.13%×3",
             "59.61%×3",
             "64.1%×3",
@@ -145,10 +145,10 @@
             "139.74%×3",
             "147.43%×3"
           ]
-        ],
-        [
-          "Charged Attack Stamina Cost",
-          [
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
             "20",
             "20",
             "20",
@@ -165,10 +165,10 @@
             "20",
             "20"
           ]
-        ],
-        [
-          "Plunge DMG",
-          [
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "Low/High Plunge DMG",
-          [
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,18 @@
       "description": "<span>Alternate Sprint</span><br/>Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her.<br/><br/>In Senho form, she moves swiftly upon water.<br/>When she reappears, the following effects occur:<br/>·Ayaka unleashes frigid energy to apply <span>Cryo</span> on nearby opponents.<br/>·Coldness condenses around Ayaka's blade, infusing her attacks with <span>Cryo</span> for a brief period.",
       "info": "\"Feathers fleeting wet / the white heron treads water / a sight without flaw\"",
       "attributes": [
-        ["Activation Stamina Consumption", ["10"]],
-        ["Stamina Drain", ["15/s"]],
-        ["Infusion Duration", ["5s"]]
+        {
+          "label": "Activation Stamina Consumption",
+          "values": ["10"]
+        },
+        {
+          "label": "Stamina Drain",
+          "values": ["15/s"]
+        },
+        {
+          "label": "Infusion Duration",
+          "values": ["5s"]
+        }
       ]
     },
     {
@@ -225,9 +234,9 @@
       "description": "Summons blooming ice to launch nearby opponents, dealing <span>AoE Cryo DMG</span>.",
       "info": "\"Clouds shroud the moonlit night. Longing descends like a fog, filling the one detained with wanderlust.\"",
       "attributes": [
-        [
-          "Skill DMG",
-          [
+        {
+          "label": "Skill DMG",
+          "values": [
             "239.2%",
             "257.14%",
             "275.08%",
@@ -244,10 +253,10 @@
             "538.2%",
             "568.1%"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "10s",
             "10s",
             "10s",
@@ -264,7 +273,7 @@
             "10s",
             "10s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -273,9 +282,9 @@
       "description": "Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.<br/><br/><span>Frostflake Seki no To</span><br/>·A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing <span>Cryo DMG</span>.<br/>·The snowstorm explodes after its duration ends, dealing <span>AoE Cryo DMG</span>.",
       "info": "\"The blizzard veils the heron's thoughts, pity heavy in its heart.\"",
       "attributes": [
-        [
-          "Cutting DMG",
-          [
+        {
+          "label": "Cutting DMG",
+          "values": [
             "112.3%",
             "120.72%",
             "129.15%",
@@ -292,10 +301,10 @@
             "252.68%",
             "266.71%"
           ]
-        ],
-        [
-          "Bloom DMG",
-          [
+        },
+        {
+          "label": "Bloom DMG",
+          "values": [
             "168.45%",
             "181.08%",
             "193.72%",
@@ -312,10 +321,10 @@
             "379.01%",
             "400.07%"
           ]
-        ],
-        [
-          "Duration",
-          [
+        },
+        {
+          "label": "Duration",
+          "values": [
             "5s",
             "5s",
             "5s",
@@ -332,10 +341,10 @@
             "5s",
             "5s"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "20s",
             "20s",
             "20s",
@@ -352,10 +361,10 @@
             "20s",
             "20s"
           ]
-        ],
-        [
-          "Energy Cost",
-          [
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
             "80",
             "80",
             "80",
@@ -372,7 +381,7 @@
             "80",
             "80"
           ]
-        ]
+        }
       ]
     }
   ],

@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Perform up to 4 water splash attacks that deal <span>Hydro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span>AoE Hydro DMG</span> after a short casting time.<br/><br/><span>Plunging Attack</span><br/>Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span>AoE Hydro DMG</span> upon impact with the ground.",
       "info": "",
       "attributes": [
-        [
-          "1-Hit DMG",
-          [
+        {
+          "label": "1-Hit DMG",
+          "values": [
             "37.6%",
             "40.42%",
             "43.24%",
@@ -45,10 +45,10 @@
             "84.6%",
             "89.3%"
           ]
-        ],
-        [
-          "2-Hit DMG",
-          [
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
             "36%",
             "38.7%",
             "41.4%",
@@ -65,10 +65,10 @@
             "81%",
             "85.5%"
           ]
-        ],
-        [
-          "3-Hit DMG",
-          [
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
             "44.8%",
             "48.16%",
             "51.52%",
@@ -85,10 +85,10 @@
             "100.8%",
             "106.4%"
           ]
-        ],
-        [
-          "4-Hit DMG",
-          [
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
             "56.16%",
             "60.37%",
             "64.58%",
@@ -105,10 +105,10 @@
             "126.36%",
             "133.38%"
           ]
-        ],
-        [
-          "Charged Attack DMG",
-          [
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
             "149.72%",
             "160.95%",
             "172.18%",
@@ -125,10 +125,10 @@
             "346.15%",
             "366.51%"
           ]
-        ],
-        [
-          "Charged Attack Stamina Cost",
-          [
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
             "50",
             "50",
             "50",
@@ -145,10 +145,10 @@
             "50",
             "50"
           ]
-        ],
-        [
-          "Plunge DMG",
-          [
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
             "56.83%",
             "61.45%",
             "66.08%",
@@ -165,10 +165,10 @@
             "144.05%",
             "151.98%"
           ]
-        ],
-        [
-          "Low/High Plunge DMG",
-          [
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
             "113.63% / 141.93%",
             "122.88% / 153.49%",
             "132.13% / 165.04%",
@@ -185,7 +185,7 @@
             "288.05% / 359.79%",
             "303.9% / 379.59%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -194,9 +194,9 @@
       "description": "Creates an illusory Phantom of Fate from coalesced waterspouts.<br/><br/>The <span>Phantom</span> has the following special properties:<br/>·Continuously taunts nearby opponents, attracting their fire.<br/>·Continuously deals <span>Hydro DMG</span> to nearby opponents.<br/>·When its duration expires, the Phantom explodes, dealing <span>AoE Hydro DMG</span>.<br/><br/><span>Hold</span><br/>Utilizes water currents to move backwards swiftly before conjuring a Phantom.<br/><br/>Only one Phantom created by Mirror Reflection of Doom can exist at any time.",
       "info": "Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.",
       "attributes": [
-        [
-          "DoT",
-          [
+        {
+          "label": "DoT",
+          "values": [
             "32%",
             "34.4%",
             "36.8%",
@@ -213,10 +213,10 @@
             "72%",
             "76%"
           ]
-        ],
-        [
-          "Explosion DMG",
-          [
+        },
+        {
+          "label": "Explosion DMG",
+          "values": [
             "132.8%",
             "142.76%",
             "152.72%",
@@ -233,10 +233,10 @@
             "298.8%",
             "315.4%"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "12s",
             "12s",
             "12s",
@@ -253,7 +253,7 @@
             "12s",
             "12s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -262,8 +262,14 @@
       "description": "<span>Alternate Sprint</span><br/>Mona cloaks herself within the water's flow, consuming Stamina to move rapidly.<br/><br/>When under the effect of Illusory Torrent, Mona can move at high speed on water.<br/>Applies the <span>Wet</span> status to nearby opponents when she reappears.",
       "info": "This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...",
       "attributes": [
-        ["Activation Stamina Consumption", ["10"]],
-        ["Stamina Drain", ["15/s"]]
+        {
+          "label": "Activation Stamina Consumption",
+          "values": ["10"]
+        },
+        {
+          "label": "Stamina Drain",
+          "values": ["15/s"]
+        }
       ]
     },
     {
@@ -272,9 +278,9 @@
       "description": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.<br/><br/><span>Illusory Bubble</span><br/>Traps opponents inside a pocket of destiny and also makes them <span>Wet</span>. Renders weaker opponents immobile.<br/>When an opponent affected by Illusory Bubble sustains DMG, it has the following effects:<br/>·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.<br/>·Removes the Illusory Bubble, dealing <span>Hydro</span> DMG in the process.<br/><br/><span>Omen</span><br/>During its duration, increases DMG taken by opponents.",
       "info": "It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.",
       "attributes": [
-        [
-          "Illusory Bubble Duration",
-          [
+        {
+          "label": "Illusory Bubble Duration",
+          "values": [
             "8s",
             "8s",
             "8s",
@@ -291,10 +297,10 @@
             "8s",
             "8s"
           ]
-        ],
-        [
-          "Illusory Bubble Explosion DMG",
-          [
+        },
+        {
+          "label": "Illusory Bubble Explosion DMG",
+          "values": [
             "442.4%",
             "475.58%",
             "508.76%",
@@ -311,10 +317,10 @@
             "995.4%",
             "1050.7%"
           ]
-        ],
-        [
-          "DMG Bonus",
-          [
+        },
+        {
+          "label": "DMG Bonus",
+          "values": [
             "42%",
             "44%",
             "46%",
@@ -331,10 +337,10 @@
             "60%",
             "60%"
           ]
-        ],
-        [
-          "Omen Duration",
-          [
+        },
+        {
+          "label": "Omen Duration",
+          "values": [
             "4s",
             "4s",
             "4s",
@@ -351,10 +357,10 @@
             "5s",
             "5s"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "15s",
             "15s",
             "15s",
@@ -371,10 +377,10 @@
             "15s",
             "15s"
           ]
-        ],
-        [
-          "Energy Cost",
-          [
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
             "60",
             "60",
             "60",
@@ -391,7 +397,7 @@
             "60",
             "60"
           ]
-        ]
+        }
       ]
     }
   ],

@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan serangan yang menghempas musuh ke udara dengan kekuatan angin.<br/>Musuh yang terhempas akan terjatuh perlahan untuk sementara waktu.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
       "info": "",
       "attributes": [
-        [
-          "DMG Tahap 1",
-          [
+        {
+          "label": "DMG Tahap 1",
+          "values": [
             "48.33%",
             "52.27%",
             "56.2%",
@@ -45,10 +45,10 @@
             "130.53%",
             "140.44%"
           ]
-        ],
-        [
-          "DMG Tahap 2",
-          [
+        },
+        {
+          "label": "DMG Tahap 2",
+          "values": [
             "45.58%",
             "49.29%",
             "53%",
@@ -65,10 +65,10 @@
             "123.1%",
             "132.45%"
           ]
-        ],
-        [
-          "DMG Tahap 3",
-          [
+        },
+        {
+          "label": "DMG Tahap 3",
+          "values": [
             "60.29%",
             "65.19%",
             "70.1%",
@@ -85,10 +85,10 @@
             "162.81%",
             "175.18%"
           ]
-        ],
-        [
-          "DMG Tahap 4",
-          [
+        },
+        {
+          "label": "DMG Tahap 4",
+          "values": [
             "65.88%",
             "71.24%",
             "76.6%",
@@ -105,10 +105,10 @@
             "177.91%",
             "191.42%"
           ]
-        ],
-        [
-          "DMG Tahap 5",
-          [
+        },
+        {
+          "label": "DMG Tahap 5",
+          "values": [
             "79.21%",
             "85.65%",
             "92.1%",
@@ -125,10 +125,10 @@
             "213.91%",
             "230.16%"
           ]
-        ],
-        [
-          "DMG Charged Attack",
-          [
+        },
+        {
+          "label": "DMG Charged Attack",
+          "values": [
             "162.02%",
             "175.21%",
             "188.4%",
@@ -145,10 +145,10 @@
             "437.58%",
             "470.81%"
           ]
-        ],
-        [
-          "Konsumsi Stamina Charged Attack",
-          [
+        },
+        {
+          "label": "Konsumsi Stamina Charged Attack",
+          "values": [
             "20pt",
             "20pt",
             "20pt",
@@ -165,10 +165,10 @@
             "20pt",
             "20pt"
           ]
-        ],
-        [
-          "DMG Selama Plunging",
-          [
+        },
+        {
+          "label": "DMG Selama Plunging",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "DMG Plunging Attack Min./Maks.",
-          [
+        },
+        {
+          "label": "DMG Plunging Attack Min./Maks.",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,9 @@
       "description": "Jean mengerahkan badai kecil dengan memusatkan kekuatan angin di bilah pedangnya untuk menghempas musuh ke arah yang dia tunjuk. Mengakibatkan <span>Anemo DMG</span> yang besar.<br/><br/><span>Tahan</span><br/>Dengan terus mengonsumsi Stamina, Jean dapat mengarahkan badai tersebut, yang menarik musuh dan obyek di sekitar ke depannya.<br/>Arahnya dapat disesuaikan.<br/>Karakter tidak dapat bergerak selama durasi skill.",
       "info": "Yang mengikuti Jean, pelindung berhati emas, adalah angin penjaga yang bisa menghalau bahaya dari rekan-rekannya.",
       "attributes": [
-        [
-          "DMG Skill",
-          [
+        {
+          "label": "DMG Skill",
+          "values": [
             "292%",
             "313.9%",
             "335.8%",
@@ -233,10 +233,10 @@
             "657%",
             "693.5%"
           ]
-        ],
-        [
-          "Konsumsi Stamina",
-          [
+        },
+        {
+          "label": "Konsumsi Stamina",
+          "values": [
             "20 / dtk",
             "20 / dtk",
             "20 / dtk",
@@ -253,10 +253,10 @@
             "20 / dtk",
             "20 / dtk"
           ]
-        ],
-        [
-          "Max Durasi",
-          [
+        },
+        {
+          "label": "Max Durasi",
+          "values": [
             "5dtk",
             "5dtk",
             "5dtk",
@@ -273,10 +273,10 @@
             "5dtk",
             "5dtk"
           ]
-        ],
-        [
-          "Cooldown",
-          [
+        },
+        {
+          "label": "Cooldown",
+          "values": [
             "6dtk",
             "6dtk",
             "6dtk",
@@ -293,7 +293,7 @@
             "6dtk",
             "6dtk"
           ]
-        ]
+        }
       ]
     },
     {
@@ -302,9 +302,9 @@
       "description": "Dengan memanggil perlindungan dari angin, Jean dapat menciptakan Dandelion Field yang menghempas musuh di sekitar dan mengakibatkan <span>Anemo DMG</span>.<br/>Di saat yang sama, sejumlah besar HP untuk semua anggota party akan pulih secara langsung. Jumlah HP yang dipulihkan bergantung dari ATK Jean.<br/><br/><span>Dandelion Field</span><br/>·Memulihkan HP karakter yang berada di dalam lingkup area secara berkelanjutan.<br/>·Memengaruhi musuh yang berada di dalam lingkup area dengan elemen <span>Anemo</span> secara berkelanjutan.<br/>·Mengakibatkan <span>Anemo DMG</span> kepada musuh yang memasuki atau keluar dari Dandelion Field.",
       "info": "Berkat Anemo bagaikan dandelion yang terbang ke seluruh pelosok dunia. Inilah fondasi prinsip dan pendirian Jean.",
       "attributes": [
-        [
-          "DMG Elemental Burst",
-          [
+        {
+          "label": "DMG Elemental Burst",
+          "values": [
             "424.8%",
             "456.66%",
             "488.52%",
@@ -321,10 +321,10 @@
             "955.8%",
             "1008.9%"
           ]
-        ],
-        [
-          "DMG Keluar Masuk Field",
-          [
+        },
+        {
+          "label": "DMG Keluar Masuk Field",
+          "values": [
             "78.4%",
             "84.28%",
             "90.16%",
@@ -341,10 +341,10 @@
             "176.4%",
             "186.2%"
           ]
-        ],
-        [
-          "Pemulihan Saat Talenta Dilancarkan",
-          [
+        },
+        {
+          "label": "Pemulihan Saat Talenta Dilancarkan",
+          "values": [
             "251.2% ATK + 1540",
             "270.04% ATK + 1694",
             "288.88% ATK + 1861",
@@ -361,10 +361,10 @@
             "565.2% ATK + 4544",
             "596.6% ATK + 4865"
           ]
-        ],
-        [
-          "Regenerasi HP/dtk",
-          [
+        },
+        {
+          "label": "Regenerasi HP/dtk",
+          "values": [
             "25.12% ATK + 154",
             "27% ATK + 169",
             "28.89% ATK + 186",
@@ -381,10 +381,10 @@
             "56.52% ATK + 454",
             "59.66% ATK + 487"
           ]
-        ],
-        [
-          "Cooldown",
-          [
+        },
+        {
+          "label": "Cooldown",
+          "values": [
             "20dtk",
             "20dtk",
             "20dtk",
@@ -401,10 +401,10 @@
             "20dtk",
             "20dtk"
           ]
-        ],
-        [
-          "Konsumsi Energy",
-          [
+        },
+        {
+          "label": "Konsumsi Energy",
+          "values": [
             "80",
             "80",
             "80",
@@ -421,7 +421,7 @@
             "80",
             "80"
           ]
-        ]
+        }
       ]
     }
   ],

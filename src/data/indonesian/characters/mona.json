@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan air yang mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Hydro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Hydro dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan <span>Hydro DMG area</span> saat mendarat.",
       "info": "",
       "attributes": [
-        [
-          "DMG Tahap 1",
-          [
+        {
+          "label": "DMG Tahap 1",
+          "values": [
             "37.6%",
             "40.42%",
             "43.24%",
@@ -45,10 +45,10 @@
             "84.6%",
             "89.3%"
           ]
-        ],
-        [
-          "DMG Tahap 2",
-          [
+        },
+        {
+          "label": "DMG Tahap 2",
+          "values": [
             "36%",
             "38.7%",
             "41.4%",
@@ -65,10 +65,10 @@
             "81%",
             "85.5%"
           ]
-        ],
-        [
-          "DMG Tahap 3",
-          [
+        },
+        {
+          "label": "DMG Tahap 3",
+          "values": [
             "44.8%",
             "48.16%",
             "51.52%",
@@ -85,10 +85,10 @@
             "100.8%",
             "106.4%"
           ]
-        ],
-        [
-          "DMG Tahap 4",
-          [
+        },
+        {
+          "label": "DMG Tahap 4",
+          "values": [
             "56.16%",
             "60.37%",
             "64.58%",
@@ -105,10 +105,10 @@
             "126.36%",
             "133.38%"
           ]
-        ],
-        [
-          "DMG Charged Attack",
-          [
+        },
+        {
+          "label": "DMG Charged Attack",
+          "values": [
             "149.72%",
             "160.95%",
             "172.18%",
@@ -125,10 +125,10 @@
             "346.15%",
             "366.51%"
           ]
-        ],
-        [
-          "Konsumsi Stamina Charged Attack",
-          [
+        },
+        {
+          "label": "Konsumsi Stamina Charged Attack",
+          "values": [
             "50pt",
             "50pt",
             "50pt",
@@ -145,10 +145,10 @@
             "50pt",
             "50pt"
           ]
-        ],
-        [
-          "DMG Selama Plunging",
-          [
+        },
+        {
+          "label": "DMG Selama Plunging",
+          "values": [
             "56.83%",
             "61.45%",
             "66.08%",
@@ -165,10 +165,10 @@
             "144.05%",
             "151.98%"
           ]
-        ],
-        [
-          "DMG Plunging Attack Min./Maks.",
-          [
+        },
+        {
+          "label": "DMG Plunging Attack Min./Maks.",
+          "values": [
             "113.63% / 141.93%",
             "122.88% / 153.49%",
             "132.13% / 165.04%",
@@ -185,7 +185,7 @@
             "288.05% / 359.79%",
             "303.9% / 379.59%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -194,9 +194,9 @@
       "description": "Menciptakan bayangan ilusi nasib dari bunga air.<br/><br/><span>Bayangan</span> tersebut mempunyai spesial efek seperti:<br/>·Terus-menerus menarik perhatian musuh di sekitar.<br/>Terus-menerus mengakibatkan <span>Hydro DMG</span> kepada musuh di sekitar.<br/>·Saat durasinya habis, bayangan akan meledak, mengakibatkan <span>Hydro DMG area</span>.<br/><br/><span>Tahan</span><br/>Manfaatkan arus air untuk bergerak mundur dengan cepat sebelum memanggil bayangan.<br/><br/>Hanya satu bayangan saja yang dapat dibuat oleh Mirror Reflection of Doom kapan pun juga.",
       "info": "Astrolog terampil selalu bermimpi untuk menggunakan faksimili diri untuk menangkal nasib buruk yang akan segera terjadi, tapi Mona harus menjadi yang pertama di seluruh Teyvat yang bisa membuat hal itu terjadi.",
       "attributes": [
-        [
-          "DMG Berkelanjutan",
-          [
+        {
+          "label": "DMG Berkelanjutan",
+          "values": [
             "32%",
             "34.4%",
             "36.8%",
@@ -213,10 +213,10 @@
             "72%",
             "76%"
           ]
-        ],
-        [
-          "DMG Ledakan",
-          [
+        },
+        {
+          "label": "DMG Ledakan",
+          "values": [
             "132.8%",
             "142.76%",
             "152.72%",
@@ -233,10 +233,10 @@
             "298.8%",
             "315.4%"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "12 dtk",
             "12 dtk",
             "12 dtk",
@@ -253,7 +253,7 @@
             "12 dtk",
             "12 dtk"
           ]
-        ]
+        }
       ]
     },
     {
@@ -262,8 +262,14 @@
       "description": "<span>Alternate Sprint</span><br/>Mona menyembunyikan dirinya di dalam arus air, mengonsumsi sejumlah Stamina untuk bergerak cepat.<br/><br/>Saat berada di bawah pengaruh efek Illusory Torrent, Mona dapat bergerak dengan kecepatan tinggi di air.<br/>Saat dia muncul kembali, akan menyebabkan efek <span>Wet</span> kepada musuh di sekitarnya.",
       "info": "Ini adalah hal yang bisa dilakukan oleh Mona, namun gurunya tidak bisa melakukannya. Yah, namun demikian gurunya juga tidak akan mempelajari lebih lanjut mengenai Hydro Vision...",
       "attributes": [
-        ["Konsumsi Stamina Aktivasi", ["10pt"]],
-        ["Konsumsi Stamina", ["15/ dtk"]]
+        {
+          "label": "Konsumsi Stamina Aktivasi",
+          "values": ["10pt"]
+        },
+        {
+          "label": "Konsumsi Stamina",
+          "values": ["15/ dtk"]
+        }
       ]
     },
     {
@@ -272,9 +278,9 @@
       "description": "Mona menciptakan gelombang air yang memantulkan cahaya langit penuh bintang, menyebabkan efek Illusory Bubble pada musuh dalam area yang besar.<br/><br/><span>Illusory Bubble</span><br/>Mengurung musuh di dalam gelembung bintang dan menyebabkan efek <span>Wet</span>. Musuh yang lebih lemah akan terkurung dan tidak bisa bergerak.<br/>Saat musuh dalam gelembung terkena DMG, akan muncul efek berikut:<br/>·Menyebabkan efek Omen pada musuh, yang akan meningkatkan DMG yang diterima, dan juga meningkatkan DMG serangan yang memicu efek ini;<br/>·Illusory Bubble akan pecah dan mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Omen</span><br/>Meningkatkan DMG yang diterima musuh selama durasi Omen.",
       "info": "Sejak pertama kali para dewa menulusuri cahaya di langit dengan mata mereka, di situlah lahirnya sebuah \"takdir\".",
       "attributes": [
-        [
-          "Durasi Illusory Bubble",
-          [
+        {
+          "label": "Durasi Illusory Bubble",
+          "values": [
             "8dtk",
             "8dtk",
             "8dtk",
@@ -291,10 +297,10 @@
             "8dtk",
             "8dtk"
           ]
-        ],
-        [
-          "DMG Ledakan Illusory Bubble",
-          [
+        },
+        {
+          "label": "DMG Ledakan Illusory Bubble",
+          "values": [
             "442.4%",
             "475.58%",
             "508.76%",
@@ -311,10 +317,10 @@
             "995.4%",
             "1050.7%"
           ]
-        ],
-        [
-          "Bonus DMG",
-          [
+        },
+        {
+          "label": "Bonus DMG",
+          "values": [
             "42%",
             "44%",
             "46%",
@@ -331,10 +337,10 @@
             "60%",
             "60%"
           ]
-        ],
-        [
-          "Durasi Omen",
-          [
+        },
+        {
+          "label": "Durasi Omen",
+          "values": [
             "4dtk",
             "4dtk",
             "4dtk",
@@ -351,10 +357,10 @@
             "5dtk",
             "5dtk"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "15 dtk",
             "15 dtk",
             "15 dtk",
@@ -371,10 +377,10 @@
             "15 dtk",
             "15 dtk"
           ]
-        ],
-        [
-          "Konsumsi Energy",
-          [
+        },
+        {
+          "label": "Konsumsi Energy",
+          "values": [
             "60",
             "60",
             "60",
@@ -391,7 +397,7 @@
             "60",
             "60"
           ]
-        ]
+        }
       ]
     }
   ],

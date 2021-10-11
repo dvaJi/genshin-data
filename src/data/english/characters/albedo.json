@@ -26,9 +26,9 @@
       "description": "<span>Normal Attack</span><br/>Perform up to 5 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
-        [
-          "1-Hit DMG",
-          [
+        {
+          "label": "1-Hit DMG",
+          "values": [
             "36.74%",
             "39.73%",
             "42.72%",
@@ -45,10 +45,10 @@
             "99.22%",
             "106.76%"
           ]
-        ],
-        [
-          "2-Hit DMG",
-          [
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
             "36.74%",
             "39.73%",
             "42.72%",
@@ -65,10 +65,10 @@
             "99.22%",
             "106.76%"
           ]
-        ],
-        [
-          "3-Hit DMG",
-          [
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
             "47.45%",
             "51.32%",
             "55.18%",
@@ -85,10 +85,10 @@
             "128.16%",
             "137.89%"
           ]
-        ],
-        [
-          "4-Hit DMG",
-          [
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
             "49.75%",
             "53.8%",
             "57.85%",
@@ -105,10 +105,10 @@
             "134.36%",
             "144.57%"
           ]
-        ],
-        [
-          "5-Hit DMG",
-          [
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
             "62.07%",
             "67.13%",
             "72.18%",
@@ -125,10 +125,10 @@
             "167.64%",
             "180.38%"
           ]
-        ],
-        [
-          "Charged Attack DMG",
-          [
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
             "47.3% + 60.2%",
             "51.15% + 65.1%",
             "55% + 70%",
@@ -145,10 +145,10 @@
             "127.74% + 162.58%",
             "137.44% + 174.93%"
           ]
-        ],
-        [
-          "Charged Attack Stamina Cost",
-          [
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
             "20",
             "20",
             "20",
@@ -165,10 +165,10 @@
             "20",
             "20"
           ]
-        ],
-        [
-          "Plunge DMG",
-          [
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
             "63.93%",
             "69.14%",
             "74.34%",
@@ -185,10 +185,10 @@
             "162.06%",
             "170.98%"
           ]
-        ],
-        [
-          "Low/High Plunge DMG",
-          [
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
             "127.84% / 159.68%",
             "138.24% / 172.67%",
             "148.65% / 185.67%",
@@ -205,7 +205,7 @@
             "324.05% / 404.76%",
             "341.89% / 427.04%"
           ]
-        ]
+        }
       ]
     },
     {
@@ -214,9 +214,9 @@
       "description": "Albedo creates a Solar Isotoma using alchemy, which deals <span>AoE Geo DMG</span> on appearance.<br/><br/><span>Solar Isotoma</span><br/>has the following properties:<br/>·When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal <span>AoE Geo DMG</span>. DMG dealt scales off Albedo's DEF. <br/>·Transient Blossoms can only be generated once every 2s.<br/>·When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.<br/>·Solar Isotoma is considered a <span>Geo construct</span>. Only one Solar Isotoma created by Albedo himself can exist at a time. <br/><br/><span>Hold</span> to designate the location of the skill.",
       "info": "This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.",
       "attributes": [
-        [
-          "Skill DMG",
-          [
+        {
+          "label": "Skill DMG",
+          "values": [
             "130.4%",
             "140.18%",
             "149.96%",
@@ -233,10 +233,10 @@
             "293.4%",
             "309.7%"
           ]
-        ],
-        [
-          "Transient Blossom DMG",
-          [
+        },
+        {
+          "label": "Transient Blossom DMG",
+          "values": [
             "133.6% DEF",
             "143.62% DEF",
             "153.64% DEF",
@@ -253,10 +253,10 @@
             "300.6% DEF",
             "317.3% DEF"
           ]
-        ],
-        [
-          "Duration",
-          [
+        },
+        {
+          "label": "Duration",
+          "values": [
             "30s",
             "30s",
             "30s",
@@ -273,10 +273,10 @@
             "30s",
             "30s"
           ]
-        ],
-        [
-          "Skill CD",
-          [
+        },
+        {
+          "label": "Skill CD",
+          "values": [
             "4s",
             "4s",
             "4s",
@@ -293,7 +293,7 @@
             "4s",
             "4s"
           ]
-        ]
+        }
       ]
     },
     {
@@ -302,9 +302,9 @@
       "description": "Under Albedo's command, Geo crystals surge and burst forth, dealing <span>AoE Geo DMG</span> in front of him.<br/>If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing <span>AoE Geo DMG</span>.<br/><br/>Tectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.",
       "info": "Under the Kreideprinz's command, the tectonic tide of creation seethes into life.",
       "attributes": [
-        [
-          "Elemental Burst DMG",
-          [
+        {
+          "label": "Elemental Burst DMG",
+          "values": [
             "367.2%",
             "394.74%",
             "422.28%",
@@ -321,10 +321,10 @@
             "826.2%",
             "872.1%"
           ]
-        ],
-        [
-          "Fatal Blossom DMG",
-          [
+        },
+        {
+          "label": "Fatal Blossom DMG",
+          "values": [
             "72% each",
             "77.4% each",
             "82.8% each",
@@ -341,10 +341,10 @@
             "162% each",
             "171% each"
           ]
-        ],
-        [
-          "CD",
-          [
+        },
+        {
+          "label": "CD",
+          "values": [
             "12s",
             "12s",
             "12s",
@@ -361,10 +361,10 @@
             "12s",
             "12s"
           ]
-        ],
-        [
-          "Energy Cost",
-          [
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
             "40",
             "40",
             "40",
@@ -381,7 +381,7 @@
             "40",
             "40"
           ]
-        ]
+        }
       ]
     }
   ],
