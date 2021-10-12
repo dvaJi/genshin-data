@@ -57,9 +57,9 @@ for (const language of languages) {
           }
 
           for (const attribute of skill.attributes) {
-            if (attribute[1].length < 15) {
+            if (attribute.values.length < 15) {
               fail(
-                `Skill [${skill.id}] attribute [${attribute[0]}] of ${character.id} must have 15 attributes`
+                `Skill [${skill.id}] attribute [${attribute.label}] of ${character.id} must have 15 attributes`
               );
             }
           }

@@ -1,0 +1,870 @@
+{
+  "id": "thoma",
+  "name": "Thoma",
+  "title": "Protetor de Longe",
+  "description": "O Empregado do Clã Kamisato e animado Mediador de Inazuma.",
+  "weapon_type": "Lança",
+  "element": "Pyro",
+  "gender": "Masculino",
+  "substat": "ATQ%",
+  "affiliation": "Comissão Yashiro",
+  "region": "Inazuma",
+  "rarity": 4,
+  "birthday": [9, 1],
+  "constellation": "Rubeum Scutum",
+  "domain": "Jardim Violeta",
+  "cv": {
+    "english": "Christian Banas",
+    "chinese": "张沛",
+    "japanese": "森田成一",
+    "korean": "류승곤"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_swiftshatter_spear",
+      "name": "Ataque Normal - Poder da Lança Veloz",
+      "description": "<span>Ataque Normal</span><br/>Realiza até 4 golpes com a lança.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "44.39%",
+            "48.01%",
+            "51.62%",
+            "56.78%",
+            "60.4%",
+            "64.53%",
+            "70.2%",
+            "75.88%",
+            "81.56%",
+            "87.75%",
+            "93.95%",
+            "100.14%",
+            "106.34%",
+            "112.53%",
+            "118.73%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "43.63%",
+            "47.18%",
+            "50.73%",
+            "55.8%",
+            "59.35%",
+            "63.41%",
+            "68.99%",
+            "74.57%",
+            "80.15%",
+            "86.24%",
+            "92.33%",
+            "98.42%",
+            "104.5%",
+            "110.59%",
+            "116.68%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "26.79%*2",
+            "28.97%*2",
+            "31.15%*2",
+            "34.26%*2",
+            "36.45%*2",
+            "38.94%*2",
+            "42.36%*2",
+            "45.79%*2",
+            "49.22%*2",
+            "52.96%*2",
+            "56.69%*2",
+            "60.43%*2",
+            "64.17%*2",
+            "67.91%*2",
+            "71.64%*2"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "67.36%",
+            "72.84%",
+            "78.32%",
+            "86.15%",
+            "91.63%",
+            "97.9%",
+            "106.52%",
+            "115.13%",
+            "123.75%",
+            "133.14%",
+            "142.54%",
+            "151.94%",
+            "161.34%",
+            "170.74%",
+            "180.14%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "112.75%",
+            "121.92%",
+            "131.1%",
+            "144.21%",
+            "153.39%",
+            "163.87%",
+            "178.3%",
+            "192.72%",
+            "207.14%",
+            "222.87%",
+            "238.6%",
+            "254.33%",
+            "270.07%",
+            "285.8%",
+            "301.53%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina do Ataque Carregado",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "Proteção das Chamas do Destino",
+      "description": "Thoma usa a ponta de sua lança como apoio para canalizar as chamas e executar um chute que causa <span>Dano Pyro em uma AdE</span> e desencadear uma Barreira Flamejante defensiva. No momento em que é desencadeada, a Barreira concederá a Thoma <span>Infusão Pyro</span>.<br/>A Absorção de Dano da Barreira é baseada na Vida Máxima de Thoma.<br/>A Barreira Flamejante tem as seguintes propriedades:<br/>Absorve o <span>Dano Pyro</span> 250% mais efetivamente.<br/>A absorção de Dano restante de uma Barreira Flamejante existente será acumulada e sua duração será renovada se outra Barreira Flamejante for obtida durante este tempo.<br/><br/>A absorção máxima de Dano da Barreira não irá exceder uma determinada porcentagem baseado na Vida Máxima de Thoma.",
+      "info": "Como um convidado de longe, somente a paixão mais ardente permitiria dominar a arte pura e precisa da lança de Inazuma. O domínio de Thoma, de fato, não se limita a ser o \"estudante mais rápido\" ou \"um mestre da lança\", mas ele incorporou sua vontade de proteger os outros e de combater os inimigos em sua arte também.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "146.4%",
+            "157.38%",
+            "168.36%",
+            "183%",
+            "193.98%",
+            "204.96%",
+            "219.6%",
+            "234.24%",
+            "248.88%",
+            "263.52%",
+            "278.16%",
+            "292.8%",
+            "311.1%",
+            "329.4%",
+            "347.7%"
+          ]
+        },
+        {
+          "label": "Absorção de Escudo",
+          "values": [
+            "7.2% do Limite da Vida Máxima + 693",
+            "7.74% do Limite da Vida Máxima + 763",
+            "8.28% do Limite da Vida Máxima + 838",
+            "9% do Limite da Vida Máxima + 919",
+            "9.54% do Limite da Vida Máxima + 1005",
+            "10.08% do Limite da Vida Máxima + 1098",
+            "10.8% do Limite da Vida Máxima + 1196",
+            "11.52% do Limite da Vida Máxima + 1300",
+            "12.24% do Limite da Vida Máxima + 1410",
+            "12.96% do Limite da Vida Máxima + 1525",
+            "13.68% do Limite da Vida Máxima + 1647",
+            "14.4% do Limite da Vida Máxima + 1774",
+            "15.3% do Limite da Vida Máxima + 1907",
+            "16.2% do Limite da Vida Máxima + 2046",
+            "17.1% do Limite da Vida Máxima + 2190"
+          ]
+        },
+        {
+          "label": "Duração do Escudo",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Limite Máximo de Absorção de Dano do Escudo",
+          "values": [
+            "19.6% da Vida Máxima + 1887",
+            "21.07% da Vida Máxima + 2076",
+            "22.54% da Vida Máxima + 2281",
+            "24.5% da Vida Máxima + 2501",
+            "25.97% da Vida Máxima + 2737",
+            "27.44% da Vida Máxima + 2989",
+            "29.4% da Vida Máxima + 3256",
+            "31.36% da Vida Máxima + 3539",
+            "33.32% da Vida Máxima + 3838",
+            "35.28% da Vida Máxima + 4153",
+            "37.24% da Vida Máxima + 4483",
+            "39.2% da Vida Máxima + 4829",
+            "41.65% da Vida Máxima + 5191",
+            "44.1% da Vida Máxima + 5568",
+            "46.55% da Vida Máxima + 5962"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "Grande Armadura Flamejante",
+      "description": "Thoma gira sua lança, retalhando através de seus adversários com fogos abrasadores que causam <span>Dano Pyro em uma AdE</span> que se entrelaçam e criam uma Armadura Flamejante.<br/><br/><span>Armadura Flamejante</span><br/>Os Ataques Normais dos personagens ativos afetados pela Armadura Flamejante irão desencadear Colapso Ardente que causa <span>Dano Pyro em uma AdE</span> e cria uma Barreira Flamejante.<br/>Colapso Ardente pode ser desencadeado a cada 1s.<br/><br/>As Barreiras Flamejantes criadas desta maneira, são idênticas àquelas criadas pela Habilidade Elemental de Thoma, Proteção das Chamas do Destino, exceto pela quantidade de Dano que elas podem absorver.<br/>Elas absorvem o <span>Dano Pyro</span> 250% mais efetivamente.<br/>A absorção de Dano restante de uma Barreira Flamejante existente será acumulada e sua duração será renovada se outra Barreira Flamejante for obtida durante este tempo.<br/><br/>A absorção máxima de Dano da Barreira não irá exceder uma determinada porcentagem baseada na Vida Máxima de Thoma.<br/><br/>Se Thoma for derrotado, os efeitos da Armadura Flamejante serão dissipados.",
+      "info": "\"Não vou esquecer minha promessa inicial. Que esta chama ardente proteja aqueles que eu prezo, e que nunca se apague.\"",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "88%",
+            "94.6%",
+            "101.2%",
+            "110%",
+            "116.6%",
+            "123.2%",
+            "132%",
+            "140.8%",
+            "149.6%",
+            "158.4%",
+            "167.2%",
+            "176%",
+            "187%",
+            "198%",
+            "209%"
+          ]
+        },
+        {
+          "label": "Dano do Colapso Ardente",
+          "values": [
+            "58%",
+            "62.35%",
+            "66.7%",
+            "72.5%",
+            "76.85%",
+            "81.2%",
+            "87%",
+            "92.8%",
+            "98.6%",
+            "104.4%",
+            "110.2%",
+            "116%",
+            "123.25%",
+            "130.5%",
+            "137.75%"
+          ]
+        },
+        {
+          "label": "Absorção de Escudo",
+          "values": [
+            "1.14% do Limite da Vida + 110",
+            "1.23% do Limite da Vida + 121",
+            "1.32% do Limite da Vida + 133",
+            "1.43% do Limite da Vida + 146",
+            "1.52% do Limite da Vida + 160",
+            "1.6% do Limite da Vida + 174",
+            "1.72% do Limite da Vida + 190",
+            "1.83% do Limite da Vida + 206",
+            "1.94% do Limite da Vida + 224",
+            "2.06% do Limite da Vida + 242",
+            "2.17% do Limite da Vida + 261",
+            "2.29% do Limite da Vida + 282",
+            "2.43% do Limite da Vida + 303",
+            "2.57% do Limite da Vida + 325",
+            "2.72% do Limite da Vida + 348"
+          ]
+        },
+        {
+          "label": "Duração do Escudo",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Duração da Armadura Flamejante",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "imbricated_armor",
+      "name": "Armadura Imbricada",
+      "description": "Quando o seu próprio personagem ativo no campo de batalha obter ou renovar uma <span>Barreira Flamejante</span>, a Força do Escudo será aumentada em 5% e terá duração de 6s.<br/>Esse efeito pode ser desencadeado no máximo uma vez a cada 0.3s, podendo acumular até 5 vezes.",
+      "level": 1
+    },
+    {
+      "id": "flaming_assault",
+      "name": "Ataque Incinerador",
+      "description": "O Dano causado pelo Colapso Ardente da <span>Grande Armadura Flamejante</span> é aumentado em 2.2% baseado na Vida Máxima de Thoma.",
+      "level": 4
+    },
+    {
+      "id": "snap_and_swing",
+      "name": "Apaixonado Pela Pesca",
+      "description": "Quando você <span>pescar</span> com sucesso em Inazuma, possui 20% de chance de obter o dobro de peixe graças a ajuda do Thoma.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "a_comrades_duty",
+      "name": "O Dever de Um Amigo",
+      "description": "Quando uma <span>Barreira Flamejante</span> levar Dano em qualquer personagem que não seja o Thoma, então a própria <span>Proteção das Chamas do Destino</span> dele irá diminuir seu Tempo de Recarga em 3s, enquanto que sua própria <span>Grande Armadura Flamejante</span> tem seu Tempo de Recarga reduzido em 3s.<br/>Este efeito pode ser desencadeado uma vez a cada 20s.",
+      "level": 1
+    },
+    {
+      "id": "a_subordinates_skills",
+      "name": "Servente Hábil",
+      "description": "Aumenta a duração da <span>Grande Armadura Flamejante</span> em 3s.",
+      "level": 2
+    },
+    {
+      "id": "fortified_resolve",
+      "name": "Vontade Resoluta",
+      "description": "Aumenta o Nível da <span>Proteção das Chamas do Destino</span> em 3.<br/>O Nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "longterm_planning",
+      "name": "Plano a Longo Prazo",
+      "description": "Após lançar <span>Grande Armadura Flamejante</span>, Thoma regenerará 15 pontos de Energia Elemental.",
+      "level": 4
+    },
+    {
+      "id": "raging_wildfire",
+      "name": "Fogo Incontrolável",
+      "description": "Aumenta o nível da <span>Grande Armadura Flamejante</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "burning_heart",
+      "name": "Coração Fervoroso",
+      "description": "Quando uma <span>Barreira Flamejante</span> é obtida ou acumulada o Dano causado por Ataques Normais, Carregados e Imersivos de todos os membros da equipe é aumentado em 15% por 6s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "agnidus_agate_sliver",
+        "name": "Lasca de Ágata Agnidus",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de Ágata Agnidus",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "smoldering_pearl",
+        "name": "Pérola Ardente",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "treasure_hoarder_insignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "agnidus_agate_fragment",
+        "name": "Fragmento de Ágata Agnidus",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "smoldering_pearl",
+        "name": "Pérola Ardente",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Pedaço de Ágata Agnidus",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "smoldering_pearl",
+        "name": "Pérola Ardente",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "silver_raven_insignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "agnidus_agate_chunk",
+        "name": "Pedaço de Ágata Agnidus",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "smoldering_pearl",
+        "name": "Pérola Ardente",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "agnidus_agate_gemstone",
+        "name": "Gema de Ágata Agnidus",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "smoldering_pearl",
+        "name": "Pérola Ardente",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "fluorescent_fungus",
+        "name": "Fungos Fluorescentes",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "golden_raven_insignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_transience",
+          "name": "Ensinamentos do Mundo Mortal",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "treasure_hoarder_insignia",
+          "name": "Insígnia dos Ladrões de Tesouro",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_transience",
+          "name": "Guia do Mundo Mortal",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "silver_raven_insignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_transience",
+          "name": "Guia do Mundo Mortal",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "silver_raven_insignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_transience",
+          "name": "Guia do Mundo Mortal",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "silver_raven_insignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_transience",
+          "name": "Guia do Mundo Mortal",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "silver_raven_insignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_transience",
+          "name": "Filosofia do Mundo Mortal",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "hellfire_butterfly",
+          "name": "Borboleta das Chamas Infernais",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_transience",
+          "name": "Filosofia do Mundo Mortal",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "hellfire_butterfly",
+          "name": "Borboleta das Chamas Infernais",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_transience",
+          "name": "Filosofia do Mundo Mortal",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "hellfire_butterfly",
+          "name": "Borboleta das Chamas Infernais",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_transience",
+          "name": "Filosofia do Mundo Mortal",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "golden_raven_insignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "hellfire_butterfly",
+          "name": "Borboleta das Chamas Infernais",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
