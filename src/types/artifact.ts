@@ -14,7 +14,7 @@ export interface Artifact {
   sands?: ArtifactSet;
   goblet?: ArtifactSet;
   circlet?: ArtifactSet;
-  '1pc'?: string;
-  '2pc'?: string;
-  '4pc'?: string;
+  one_pc?: string;
+  two_pc?: string;
+  four_pc?: string;
 }

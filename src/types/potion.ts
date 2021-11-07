@@ -8,7 +8,6 @@ export type Potion = {
   id: string;
   name: string;
   description: string;
-  type: string;
   effect: string;
   rarity: number;
   craft: {

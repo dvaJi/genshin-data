@@ -13,7 +13,6 @@ export type Ingredients = {
   id: string;
   name: string;
   description: string;
-  type: string;
   processing?: Item[];
   recipes?: Recipe[];
 };

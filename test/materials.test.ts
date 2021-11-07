@@ -23,6 +23,8 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.source).toBeDefined();
       }
     });
 
@@ -31,6 +33,9 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.source).toBeDefined();
       }
     });
 
@@ -39,14 +44,11 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
-      }
-    });
-
-    it('should return all food', async () => {
-      const materials = await genshinData.food();
-      for (const material of materials) {
-        expect(material.id).toBeDefined();
-        expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.dish_type).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.results).toBeDefined();
+        expect(material.ingredients).toBeDefined();
       }
     });
 
@@ -55,6 +57,7 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
       }
     });
 
@@ -63,6 +66,9 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.source).toBeDefined();
       }
     });
 
@@ -71,6 +77,8 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.source).toBeDefined();
       }
     });
 
@@ -79,6 +87,10 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.effect).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.craft).toBeDefined();
       }
     });
 
@@ -87,6 +99,9 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.source).toBeDefined();
       }
     });
 
@@ -95,6 +110,12 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.source).toBeDefined();
+        expect(material.domain).toBeDefined();
+        expect(material.days).toBeDefined();
+        expect(material.location).toBeDefined();
       }
     });
 
@@ -103,6 +124,31 @@ for (const language of languages) {
       for (const material of materials) {
         expect(material.id).toBeDefined();
         expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.source).toBeDefined();
+      }
+    });
+
+    it('should return all weapon experience materials', async () => {
+      const materials = await genshinData.weaponExpMaterials();
+      for (const material of materials) {
+        expect(material.id).toBeDefined();
+        expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.exp).toBeDefined();
+      }
+    });
+
+    it('should return all character experience materials', async () => {
+      const materials = await genshinData.characterExpMaterials();
+      for (const material of materials) {
+        expect(material.id).toBeDefined();
+        expect(material.name).toBeDefined();
+        expect(material.description).toBeDefined();
+        expect(material.rarity).toBeDefined();
+        expect(material.exp).toBeDefined();
       }
     });
   });

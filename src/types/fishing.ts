@@ -2,7 +2,6 @@ export type Fish = {
   id: string;
   name: string;
   description: string;
-  type: string;
   rarity: number;
   source: string[];
   bait: {
@@ -16,7 +15,6 @@ export type FishingRod = {
   id: string;
   name: string;
   description: string;
-  type: string;
   rarity: number;
   source: string[];
 };
@@ -42,7 +40,6 @@ export type Bait = {
   id: string;
   name: string;
   description: string;
-  type: string;
   rarity: number;
   craft: Craft;
   fish: FishBait[];

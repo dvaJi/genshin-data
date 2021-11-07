@@ -12,6 +12,7 @@ import { TalentLvlUpMaterial } from './types/talent_lvl_up_material';
 import { WeaponPrimaryMaterial } from './types/weapon_primary_material';
 import { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
 import { Bait, Fish, FishingRod } from './types/fishing';
+import { ExpMaterial } from './types/exp';
 
 export {
   Artifact,
@@ -19,6 +20,7 @@ export {
   Weapon,
   CommonMaterial,
   ElementalStoneMaterial,
+  ExpMaterial,
   Food,
   Ingredients,
   JewelMaterial,
@@ -53,6 +55,7 @@ export type Languages = typeof languages[number];
 type Folders =
   | 'artifacts'
   | 'bait'
+  | 'character_exp_material'
   | 'characters'
   | 'common_materials'
   | 'elemental_stone_materials'
@@ -64,6 +67,7 @@ type Folders =
   | 'local_materials'
   | 'potions'
   | 'talent_lvl_up_materials'
+  | 'weapon_enhancement_material'
   | 'weapon_primary_materials'
   | 'weapon_secondary_materials'
   | 'weapons';
@@ -191,6 +195,20 @@ export default class GenshinData {
   async baits(query?: QueryOpts<Bait>): Promise<Bait[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'bait', query);
+  }
+
+  async characterExpMaterials(
+    query?: QueryOpts<ExpMaterial>
+  ): Promise<ExpMaterial[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'character_exp_material', query);
+  }
+
+  async weaponExpMaterials(
+    query?: QueryOpts<ExpMaterial>
+  ): Promise<ExpMaterial[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'weapon_enhancement_material', query);
   }
 
   private async findByFolder<T>(
