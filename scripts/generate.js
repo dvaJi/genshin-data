@@ -23,10 +23,13 @@ function combineData() {
       );
     }
 
-    fs.writeFileSync(
-      path.join(MIN_PATH, `data_${lang}.min.json`),
-      JSON.stringify(data)
-    );
+    const newFilePath = path.join(MIN_PATH, `data_${lang}.min.json`);
+
+    if (!fs.existsSync(path.dirname(newFilePath))) {
+      fs.mkdirSync(path.dirname(newFilePath));
+    }
+
+    fs.writeFileSync(newFilePath, JSON.stringify(data));
     console.log(path.join(MIN_PATH), `data_${lang}.min.json`);
   }
 }
