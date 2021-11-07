@@ -10,12 +10,6 @@
 
 - remove type on potions, ingredients, baits, fish, fishing_rods ([8758963](https://github.com/dvaJi/genshin-data/commit/8758963587d8c906ab6de5d0bc4c6cdc66cefc73))
 
-### Features
-
-- update data to version 2.2 ([8b406aa](https://github.com/dvaJi/genshin-data/commit/8b406aa4a13a4d11f6fff218590a94c100cd9cda))
-
-- refactor character attributes skills ([599e499](https://github.com/dvaJi/genshin-data/commit/599e499fce3cf4eaa270aa3a5b51288e86e7766b))
-
 ## [0.14.0](https://github.com/dvaJi/genshin-data/compare/0.13.1...0.14.0) (2021-10-11)
 
 ### Features
