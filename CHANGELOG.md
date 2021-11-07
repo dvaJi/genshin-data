@@ -1,3 +1,21 @@
+## [0.14.1](https://github.com/dvaJi/genshin-data/compare/0.14.0...0.14.1) (2021-11-07)
+
+### BREAKING CHANGES
+
+- artifacts properties '1pc', '2pc', and '4pc' were renamed to 'one_pc', 'two_pc', and 'four_pc' respectively.
+
+### Fixes
+
+- ignore json files at src directory in package to reduce file size ([dc0ecfb](https://github.com/dvaJi/genshin-data/commit/dc0ecfb6adcdef0b4c1e8627031ffa36c3232d0a))
+
+- remove type on potions, ingredients, baits, fish, fishing_rods ([8758963](https://github.com/dvaJi/genshin-data/commit/8758963587d8c906ab6de5d0bc4c6cdc66cefc73))
+
+### Features
+
+- update data to version 2.2 ([8b406aa](https://github.com/dvaJi/genshin-data/commit/8b406aa4a13a4d11f6fff218590a94c100cd9cda))
+
+- refactor character attributes skills ([599e499](https://github.com/dvaJi/genshin-data/commit/599e499fce3cf4eaa270aa3a5b51288e86e7766b))
+
 ## [0.14.0](https://github.com/dvaJi/genshin-data/compare/0.13.1...0.14.0) (2021-10-11)
 
 ### Features
