@@ -1,0 +1,830 @@
+{
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "Canine Warrior",
+  "description": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+  "weapon_type": "Bow",
+  "element": "Geo",
+  "gender": "Male",
+  "substat": "Geo DMG Bonus",
+  "affiliation": "Watatsumi Island",
+  "region": "Inazuma",
+  "rarity": 4,
+  "birthday": [18, 5],
+  "constellation": "Canis Bellatoris",
+  "domain": "Violet Court",
+  "cv": {
+    "english": "Cory Yee",
+    "chinese": "杨昕燃",
+    "japanese": "畠中祐",
+    "korean": "이새벽"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_ripping_fang_fletching",
+      "name": "Normal Attack: Ripping Fang Fletching",
+      "description": "<span>Normal Attack</span><br/>Perform up to 4 consecutive shots with a bow.<br/><br/><span>Charged Attack</span><br/>Perform a more precise <span>Aimed Shot</span> with increased DMG.<br/>While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <span>Geo DMG</span>.<br/><br/><span>Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "37.75%",
+            "40.83%",
+            "43.9%",
+            "48.29%",
+            "51.36%",
+            "54.87%",
+            "59.7%",
+            "64.53%",
+            "69.36%",
+            "74.63%",
+            "79.9%",
+            "85.17%",
+            "90.43%",
+            "95.7%",
+            "100.97%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "37.15%",
+            "40.18%",
+            "43.2%",
+            "47.52%",
+            "50.54%",
+            "54%",
+            "58.75%",
+            "63.5%",
+            "68.26%",
+            "73.44%",
+            "78.62%",
+            "83.81%",
+            "88.99%",
+            "94.18%",
+            "99.36%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "49.45%",
+            "53.47%",
+            "57.5%",
+            "63.25%",
+            "67.27%",
+            "71.88%",
+            "78.2%",
+            "84.53%",
+            "90.85%",
+            "97.75%",
+            "104.65%",
+            "111.55%",
+            "118.45%",
+            "125.35%",
+            "132.25%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "59%",
+            "63.8%",
+            "68.6%",
+            "75.46%",
+            "80.26%",
+            "85.75%",
+            "93.3%",
+            "100.84%",
+            "108.39%",
+            "116.62%",
+            "124.85%",
+            "133.08%",
+            "141.32%",
+            "149.55%",
+            "157.78%"
+          ]
+        },
+        {
+          "label": "Aimed Shot",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Fully-Charged Aimed Shot",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "Inuzaka All-Round Defense",
+      "description": "Deals <span>AoE Geo DMG</span> and sets up a General's War Banner.<br/><br/><span>General's War Banner</span><br/>Provides up to 3 buffs to active characters within the skill's AoE based on the number of <span>Geo</span> characters in the party at the time of casting:<br/>· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.<br/>· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.<br/>· 3 Geo characters: Adds \"Crunch\" - <span>Geo DMG Bonus</span>.<br/><br/>Gorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.<br/><br/><span>Hold</span><br/>Adjust the location of the skill.",
+      "info": "\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "107.2%",
+            "115.24%",
+            "123.28%",
+            "134%",
+            "142.04%",
+            "150.08%",
+            "160.8%",
+            "171.52%",
+            "182.24%",
+            "192.96%",
+            "203.68%",
+            "214.4%",
+            "227.8%",
+            "241.2%",
+            "254.6%"
+          ]
+        },
+        {
+          "label": "DEF Increase",
+          "values": [
+            "206",
+            "222",
+            "237",
+            "258",
+            "273",
+            "289",
+            "309",
+            "330",
+            "350",
+            "371",
+            "392",
+            "412",
+            "438",
+            "464",
+            "490"
+          ]
+        },
+        {
+          "label": "Geo DMG Bonus",
+          "values": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "Juuga: Forward Unto Victory",
+      "description": "Displaying his valor as a general, Gorou deals <span>AoE Geo DMG</span> and creates a field known as General's Glory to embolden his comrades.<br/><br/><span>General's Glory</span><br/>This field has the following properties:<br/>· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <span>Geo</span> characters in the party. Also moves together with your active character.<br/>· Generates 1 Crystal Collapse every 1.5s that deals <span>AoE Geo DMG</span> to 1 opponent within the skill's AoE.<br/>· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).<br/><br/>If a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.<br/> If Gorou falls, the effects of General's Glory will be cleared.",
+      "info": "\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "98.22% DEF",
+            "105.58% DEF",
+            "112.95% DEF",
+            "122.77% DEF",
+            "130.14% DEF",
+            "137.5% DEF",
+            "147.32% DEF",
+            "157.15% DEF",
+            "166.97% DEF",
+            "176.79% DEF",
+            "186.61% DEF",
+            "196.43% DEF",
+            "208.71% DEF",
+            "220.99% DEF",
+            "233.26% DEF"
+          ]
+        },
+        {
+          "label": "Crystal Collapse DMG",
+          "values": [
+            "61.3% DEF",
+            "65.9% DEF",
+            "70.49% DEF",
+            "76.63% DEF",
+            "81.22% DEF",
+            "85.82% DEF",
+            "91.95% DEF",
+            "98.08% DEF",
+            "104.21% DEF",
+            "110.34% DEF",
+            "116.47% DEF",
+            "122.6% DEF",
+            "130.26% DEF",
+            "137.93% DEF",
+            "145.59% DEF"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "heedless_of_the_wind_and_weather",
+      "name": "Heedless of the Wind and Weather",
+      "description": "After using <span>Juuga: Forward Unto Victory</span>, all nearby party members' DEF is increased by 25% for 12s.",
+      "level": 1
+    },
+    {
+      "id": "a_favor_repaid",
+      "name": "A Favor Repaid",
+      "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:<br/>· <span>Inuzaka All-Round Defense</span>: Skill DMG increased by 156% of DEF<br/>· <span>Juuga: Forward Unto Victory</span>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "level": 4
+    },
+    {
+      "id": "seeker_of_shinies",
+      "name": "Seeker of Shinies",
+      "description": "Displays the location of nearby <span>resources unique to Inazuma</span> on the mini-map.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "rushing_hound_swift_as_the_wind",
+      "name": "Rushing Hound: Swift as the Wind",
+      "description": "When characters (other than Gorou) within the AoE of Gorou's <span>General's War Banner</span> or <span>General's Glory</span> deal Geo DMG to opponents, the CD of Gorou's <span>Inuzaka All-Round Defense</span> is decreased by 2s.<br/>This effect can occur once every 10s.",
+      "level": 1
+    },
+    {
+      "id": "sitting_hound_steady_as_a_clock",
+      "name": "Sitting Hound: Steady as a Clock",
+      "description": "While <span>General's Glory</span> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. <br/>This effect can occur once every 0.1s. Max extension is 3s.",
+      "level": 2
+    },
+    {
+      "id": "mauling_hound_fierce_as_fire",
+      "name": "Mauling Hound: Fierce as Fire",
+      "description": "Increases the Level of <span>Inuzaka All-Round Defense</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "lapping_hound_warm_as_water",
+      "name": "Lapping Hound: Warm as Water",
+      "description": "When <span>General's Glory</span> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+      "level": 4
+    },
+    {
+      "id": "striking_hound_thunderous_force",
+      "name": "Striking Hound: Thunderous Force",
+      "description": "Increases the Level of <span>Juuga: Forward Unto Victory</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "valiant_hound_mountainous_fealty",
+      "name": "Valiant Hound: Mountainous Fealty",
+      "description": "For 12s after using <span>Inuzaka All-Round Defense</span> or <span>Juuga: Forward Unto Victory</span>, increases the CRIT DMG of all nearby party members' <span>Geo DMG</span> based on the buff level of the skill's field at the time of use:<br/>· \"Standing Firm\": +10%<br/>· \"Impregnable\": +20%<br/>· \"Crunch\": +40%<br/><br/>This effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "prithiva_topaz_sliver",
+        "name": "Prithiva Topaz Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_husk",
+        "name": "Spectral Husk",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "prithiva_topaz_fragment",
+        "name": "Prithiva Topaz Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_heart",
+        "name": "Spectral Heart",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "prithiva_topaz_chunk",
+        "name": "Prithiva Topaz Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "prithiva_topaz_gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "perpetual_heart",
+        "name": "Perpetual Heart",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sango_pearl",
+        "name": "Sango Pearl",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "spectral_nucleus",
+        "name": "Spectral Nucleus",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_light",
+          "name": "Teachings of Light",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "spectral_husk",
+          "name": "Spectral Husk",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide to Light",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "spectral_heart",
+          "name": "Spectral Heart",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophies of Light",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "spectral_nucleus",
+          "name": "Spectral Nucleus",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "molten_moment",
+          "name": "Molten Moment",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
