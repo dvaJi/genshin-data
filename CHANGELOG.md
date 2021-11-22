@@ -1,3 +1,9 @@
+## [0.15.0](https://github.com/dvaJi/genshin-data/compare/0.14.1...0.15.0) (2021-11-22)
+
+### Features
+
+- update GI data to v2.3 ([ae8ae7e](https://github.com/dvaJi/genshin-data/commit/ae8ae7e336c1e2435af964927cf444bf21f0595b))
+
 ## [0.14.1](https://github.com/dvaJi/genshin-data/compare/0.14.0...0.14.1) (2021-11-07)
 
 ### BREAKING CHANGES
