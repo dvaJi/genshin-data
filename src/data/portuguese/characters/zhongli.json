@@ -2,7 +2,7 @@
   "id": "zhongli",
   "name": "Zhongli",
   "title": "Andarilho do Reino Mortal",
-  "description": "Um convidado misterioso da Funerária Wangsheng. É um erudito que tem um profundo conhecimento sobre todos os tipos de coisa.",
+  "description": "Um convidado misterioso da Funerária de Wangsheng. É um erudito que tem um profundo conhecimento sobre todos os tipos de coisa.",
   "weapon_type": "Lança",
   "element": "Geo",
   "gender": "Masculino",
@@ -22,7 +22,7 @@
   "skills": [
     {
       "id": "normal_attack_rain_of_stone",
-      "name": "Chuva de Pedras",
+      "name": "Ataque Normal: Chuva de Pedras",
       "description": "<span>Ataque Normal</span><br/>Realiza até 6 golpes consecutivos com a lança.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para se lançar para frente, fazendo com que lanças de pedras caiam em seu trajeto.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando dano a inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
       "info": "",
       "attributes": [
@@ -231,11 +231,11 @@
     {
       "id": "dominus_lapidis",
       "name": "Dominus Lapidis",
-      "description": "O Poder Geo cobre todas as montanhas, terras e rochas. Mas poucas são as pessoas que o podem usar livremente.<br/><br/><span>Pressionar</span><br/>Ordena que o elemento Geo na terra se una em Estela de Pedra.<br/><br/><span>Manter Pressionado</span><br/>Ordena que elementos Geo ao redor explodam, causando o seguinte efeito:<br/>·Se o número de Estelas de Pedra não alcançou o máximo, cria outra Estela de Pedra;<br/>·Forma um Escudo de Jade, que absorve o Dano com base na Vida Máxima de Zhongli;<br/>·Causa <span>Dano Geo AdE</span>;<br/>·Se houver alvos com <span>Elemento Geo</span> nas proximidades, absorverá o <span>Elemento Geo</span> de até dois alvos. Esse efeito não causa dano.<br/><br/><span>Estela de Pedra</span><br/>Ao ser criada, causa <span>Dano Geo AdE</span>.<br/>Além disso, enquanto existir, ressoará com <span>Construções Geo</span> próximas, causando <span>Dano Geo</span> aos inimigos próximos.<br/>A Estela de Pedra é considerada uma <span>Construção Geo</span>, pode parar ataques, e pode ser escalada.<br/>Só é possível existir uma Estela de Pedra ao mesmo tempo.<br/><br/><span>Escudo de Jade</span><br/>Absorve 150% de todos os Danos Elementais e Danos Físicos.<br/>Os personagens sob a proteção do Escudo de Jade, diminuem a RES Elemental e RES Física de todos os inimigos em uma pequena área em redor.",
+      "description": "O Poder Geo cobre todas as montanhas, terras e rochas. Mas poucas são as pessoas que o podem usar livremente.<br/><br/><span>Pressionar</span><br/>Ordena que o elemento Geo na terra se una em Estela de Pedra.<br/><br/><span>Manter Pressionado</span><br/>Ordena que elementos Geo ao redor explodam, causando o seguinte efeito:<br/>·Se o número de Estelas de Pedra não alcançou o máximo, cria outra Estela de Pedra;<br/>·Forma um Escudo de Jade, que absorve o Dano com base na Vida Máxima de Zhongli;<br/>·Causa <span>Dano Geo em uma AdE</span>;<br/>·Se houver alvos com <span>Elemento Geo</span> nas proximidades, absorverá o <span>Elemento Geo</span> de até dois alvos. Esse efeito não causa dano.<br/><br/><span>Estela de Pedra</span><br/>Ao ser criada, causa <span>Dano Geo em uma AdE</span>.<br/>Além disso, enquanto existir, ressoará com <span>Construções Geo</span> próximas, causando <span>Dano Geo</span> aos inimigos próximos.<br/>A Estela de Pedra é considerada uma <span>Construção Geo</span>, pode parar ataques, e pode ser escalada.<br/>Inicialmente só é possível existir uma Estela de Pedra, criada pelo próprio Zhongli, ao mesmo tempo.<br/><br/><span>Escudo de Jade</span><br/>Absorve 150% de todos os Danos Elementais e Danos Físicos.<br/>Os personagens sob a proteção do Escudo de Jade, diminuem a RES Elemental e RES Física de todos os inimigos em 20% numa pequena AdE.",
       "info": "Um verdadeiro mestre da pedra pode entalhar jade e dar forma ao ouro. ",
       "attributes": [
         {
-          "label": "Dano de Cume da Pedra/Ressonância",
+          "label": "Dano da Estela de Pedra/Ressonância",
           "values": [
             "16% / 32%",
             "17.2% / 34.4%",
@@ -255,7 +255,7 @@
           ]
         },
         {
-          "label": "Recarga de Toque",
+          "label": "Recarga de Pressionar",
           "values": [
             "4s",
             "4s",
@@ -355,7 +355,7 @@
           ]
         },
         {
-          "label": "Tempo de Recarga ao Manter Pressionado",
+          "label": "Tempo de Recarga de Manter Pressionado",
           "values": [
             "12s",
             "12s",
@@ -475,7 +475,7 @@
     {
       "id": "dominance_of_earth",
       "name": "Domínio da Terra",
-      "description": "Os ataques de Zhongli terão os seguintes aumentos de Dano de acordo com sua Vida Máxima:<br/>·Ataque Normal, Ataque Carregado e Ataque Imersivo terão seu dano aumentado para 1.39% da Vida Máxima<br/>·O Dano da Estela de Pedra, Dano de ressonância Geo e Dano de Manter Pressionado de <span>Dominis Lapidis</span> aumentarão para 1.9% da Vida Máxima<br/>·O Dano de <span>Chuva Estelar</span> aumentará para 33% da Vida Máxima",
+      "description": "Os ataques de Zhongli terão os seguintes aumentos de Dano de acordo com sua Vida Máxima:<br/>·Ataque Normal, Ataque Carregado e Ataque Imersivo terão seu dano aumentado em 1,39% da Vida Máxima<br/>·O Dano da Estela de Pedra, Dano de ressonância Geo e Dano de Manter Pressionado de <span>Dominus Lapidis</span> aumentarão para 1.9% da Vida Máxima<br/>·O Dano de <span>Chuva Estelar</span> aumentará para 33% da Vida Máxima",
       "level": 4
     },
     {
@@ -489,7 +489,7 @@
     {
       "id": "rock_the_backbone_of_earth",
       "name": "Pedra, a Espinha Vertebral da Terra",
-      "description": "Aumenta o número máximo de Espirais de Pedra criados pelo <span>Dominus Lapidis</span> que podem existir simultaneamente para 2.",
+      "description": "Aumenta o número máximo de Estelas de Pedra criadas pelo <span>Dominus Lapidis</span> que podem existir simultaneamente para 2.",
       "level": 1
     },
     {
