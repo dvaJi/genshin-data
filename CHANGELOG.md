@@ -1,3 +1,13 @@
+## [0.16.0](https://github.com/dvaJi/genshin-data/compare/0.15.0...0.16.0) (2021-12-31)
+
+### Features
+
+- update GI data to v2.4 ([f6e7c02b](https://github.com/dvaJi/genshin-data/commit/f6e7c02b9d7a70566d6f55e63c15bafcef7df7c6))
+
+### Fixes
+
+- **french** remove {NON_BREAK_SPACE} from all data ([8d91e7c7](https://github.com/dvaJi/genshin-data/commit/8d91e7c70f06720f5d5e1a2dbbc2501e3ebc15f3))
+
 ## [0.15.0](https://github.com/dvaJi/genshin-data/compare/0.14.1...0.15.0) (2021-11-22)
 
 ### Features
