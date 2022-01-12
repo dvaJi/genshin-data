@@ -1,5 +1,6 @@
 name: CI
 on: [push]
+
 jobs:
   build:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
@@ -23,12 +24,6 @@ jobs:
         uses: bahmutov/npm-install@v1
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-
-      - name: Lint
-        run: npm run lint
-
-      - name: Test
-        run: npm run test --ci --coverage --maxWorkers=2
 
       - name: Build
         run: npm run build
