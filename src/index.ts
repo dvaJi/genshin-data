@@ -212,7 +212,7 @@ export default class GenshinData {
   }
 
   private async findByFolder<T>(
-    lang: string,
+    lang: Languages,
     folder: Folders,
     query?: QueryOpts<T>
   ) {
