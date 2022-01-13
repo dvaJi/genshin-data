@@ -13,8 +13,11 @@ import { WeaponPrimaryMaterial } from './types/weapon_primary_material';
 import { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
 import { Bait, Fish, FishingRod } from './types/fishing';
 import { ExpMaterial } from './types/exp';
+import { AchievementCategory, Achievement } from './types/achievement';
 
 export {
+  AchievementCategory,
+  Achievement,
   Artifact,
   Character,
   Weapon,
@@ -53,6 +56,7 @@ export const languages = [
 export type Languages = typeof languages[number];
 
 type Folders =
+  | 'achievements'
   | 'artifacts'
   | 'bait'
   | 'character_exp_material'
@@ -209,6 +213,13 @@ export default class GenshinData {
   ): Promise<ExpMaterial[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'weapon_enhancement_material', query);
+  }
+
+  async achievements(
+    query?: QueryOpts<AchievementCategory>
+  ): Promise<AchievementCategory[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'achievements', query);
   }
 
   private async findByFolder<T>(

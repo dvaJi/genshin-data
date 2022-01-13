@@ -1,7 +1,8 @@
-const gdata = require('../dist');
+const gdata = require('../dist/genshin-data');
 const GenshinData = gdata.default;
 
 const METHODS = [
+  'achievements',
   'characters',
   'weapons',
   'artifacts',
