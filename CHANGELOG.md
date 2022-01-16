@@ -1,3 +1,19 @@
+## [0.17.0](https://github.com/dvaJi/genshin-data/compare/0.16.0...0.17.0) (2022-01-16)
+
+### Features
+
+- drop tdsx library ([#6](https://github.com/dvaJi/genshin-data/pull/6)) ([784543e](https://github.com/dvaJi/genshin-data/commit/784543eb3eb7bf124ef6e3570c98fbdf90282c9f))
+
+- implement all achievements ([f588006](https://github.com/dvaJi/genshin-data/commit/f5880066fb43d4577a235b07da0c30a879d18f84))
+
+- add furnishings data ([c9c5778](https://github.com/dvaJi/genshin-data/commit/c9c57788edd683e23bb99f8c51dfd33b93776223))
+
+- add method to get all materials ([194c58d](https://github.com/dvaJi/genshin-data/commit/194c58d08975f2885c34dd728fd191af3bb7b434))
+
+### Fixes
+
+- **french** remove {NON_BREAK_SPACE} from all data ([8d91e7c7](https://github.com/dvaJi/genshin-data/commit/8d91e7c70f06720f5d5e1a2dbbc2501e3ebc15f3))
+
 ## [0.16.0](https://github.com/dvaJi/genshin-data/compare/0.15.0...0.16.0) (2021-12-31)
 
 ### Features
