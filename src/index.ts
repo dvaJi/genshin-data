@@ -16,6 +16,16 @@ import { ExpMaterial } from './types/exp';
 import { AchievementCategory, Achievement } from './types/achievement';
 import { Furnishing } from './types/furnishing';
 
+export type Material =
+  | CommonMaterial
+  | ElementalStoneMaterial
+  | JewelMaterial
+  | LocalMaterial
+  | Potion
+  | TalentLvlUpMaterial
+  | WeaponPrimaryMaterial
+  | WeaponSecondaryMaterial;
+
 export {
   AchievementCategory,
   Achievement,
@@ -216,6 +226,21 @@ export default class GenshinData {
   ): Promise<ExpMaterial[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'weapon_enhancement_material', query);
+  }
+
+  async materials(query?: QueryOpts<Material>): Promise<Material[]> {
+    const lang = this.getLang();
+    return [
+      await this.findByFolder(lang, 'weapon_primary_materials', query),
+      await this.findByFolder(lang, 'weapon_secondary_materials', query),
+      await this.findByFolder(lang, 'common_materials', query),
+      await this.findByFolder(lang, 'elemental_stone_materials', query),
+      await this.findByFolder(lang, 'jewels_materials', query),
+      await this.findByFolder(lang, 'local_materials', query),
+      await this.findByFolder(lang, 'talent_lvl_up_materials', query),
+      await this.findByFolder(lang, 'character_exp_material', query),
+      await this.findByFolder(lang, 'weapon_enhancement_material', query),
+    ].flat();
   }
 
   async achievements(

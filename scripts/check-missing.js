@@ -8,6 +8,7 @@ const METHODS = [
   'artifacts',
   'commonMaterials',
   'elementalStoneMaterials',
+  'materials',
   'food',
   'furnishings',
   'ingredients',
