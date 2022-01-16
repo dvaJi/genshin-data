@@ -10,10 +10,6 @@
 
 - add method to get all materials ([194c58d](https://github.com/dvaJi/genshin-data/commit/194c58d08975f2885c34dd728fd191af3bb7b434))
 
-### Fixes
-
-- **french** remove {NON_BREAK_SPACE} from all data ([8d91e7c7](https://github.com/dvaJi/genshin-data/commit/8d91e7c70f06720f5d5e1a2dbbc2501e3ebc15f3))
-
 ## [0.16.0](https://github.com/dvaJi/genshin-data/compare/0.15.0...0.16.0) (2021-12-31)
 
 ### Features
