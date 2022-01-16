@@ -14,6 +14,7 @@ import { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
 import { Bait, Fish, FishingRod } from './types/fishing';
 import { ExpMaterial } from './types/exp';
 import { AchievementCategory, Achievement } from './types/achievement';
+import { Furnishing } from './types/furnishing';
 
 export {
   AchievementCategory,
@@ -35,6 +36,7 @@ export {
   Bait,
   Fish,
   FishingRod,
+  Furnishing,
 };
 
 export const languages = [
@@ -65,6 +67,7 @@ type Folders =
   | 'elemental_stone_materials'
   | 'fish'
   | 'fishing_rod'
+  | 'furnishing'
   | 'food'
   | 'ingredients'
   | 'jewels_materials'
@@ -222,6 +225,11 @@ export default class GenshinData {
     return await this.findByFolder(lang, 'achievements', query);
   }
 
+  async furnishings(query?: QueryOpts<Furnishing>): Promise<Furnishing[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'furnishing', query);
+  }
+
   private async findByFolder<T>(
     lang: Languages,
     folder: Folders,
@@ -238,9 +246,9 @@ export default class GenshinData {
 
   private selectProps<T>(results: T[], query: QueryOpts<T>): T[] {
     if (query.select) {
-      return results.map(result => {
+      return results.map((result) => {
         let obj: Partial<T> = {};
-        query.select?.forEach(key => {
+        query.select?.forEach((key) => {
           obj[key] = result[key];
         });
 

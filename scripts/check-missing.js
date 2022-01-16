@@ -9,6 +9,7 @@ const METHODS = [
   'commonMaterials',
   'elementalStoneMaterials',
   'food',
+  'furnishings',
   'ingredients',
   'jewelsMaterials',
   'localMaterials',
