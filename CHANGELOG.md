@@ -1,3 +1,9 @@
+## [0.17.1](https://github.com/dvaJi/genshin-data/compare/0.17.0...0.17.1) (2022-01-16)
+
+### Fixes
+
+- add bait to Divda Ray and Formalo Ray fishes ([4e7cfa9](https://github.com/dvaJi/genshin-data/commit/4e7cfa911eed7d12f50c4f4226ac8036ecfbc135))
+
 ## [0.17.0](https://github.com/dvaJi/genshin-data/compare/0.16.0...0.17.0) (2022-01-16)
 
 ### Features
