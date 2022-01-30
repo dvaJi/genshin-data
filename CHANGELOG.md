@@ -1,3 +1,9 @@
+## [0.17.2](https://github.com/dvaJi/genshin-data/compare/0.17.1...0.17.2) (2022-01-30)
+
+### Fixes
+
+- strip all gender choices from furnishings and achievements ([32d1d01](https://github.com/dvaJi/genshin-data/commit/32d1d01c9251a66fc3139c17f4cc682f869dd7af))
+
 ## [0.17.1](https://github.com/dvaJi/genshin-data/compare/0.17.0...0.17.1) (2022-01-16)
 
 ### Fixes
