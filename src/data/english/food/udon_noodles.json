@@ -1,0 +1,50 @@
+{
+  "id": "udon_noodles",
+  "name": "Udon Noodles",
+  "description": "Highly springy noodles. After several rounds of rising and pulling, the result is silky smooth yet springy noodles. Unlike ramen, which prizes dense flavors, udon noodles use light flavors to heal the Inazuman soul.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "flour",
+      "name": "Flour",
+      "amount": 3
+    },
+    {
+      "id": "seagrass",
+      "name": "Seagrass",
+      "amount": 1
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Recovery Dish",
+  "results": {
+    "suspicious": {
+      "name": "Suspicious Udon Noodles",
+      "description": "Highly springy noodles. The overly bland noodles and soup make for a boring experience. Looks like you've got to pay a bit more attention to seasoning next time.",
+      "effect": "Revives a character and restores 250 HP."
+    },
+    "normal": {
+      "name": "Udon Noodles",
+      "description": "Highly springy noodles. After several rounds of rising and pulling, the result is silky smooth yet springy noodles. Unlike ramen, which prizes dense flavors, udon noodles use light flavors to heal the Inazuman soul.",
+      "effect": "Revives a character and restores 400 HP."
+    },
+    "delicious": {
+      "name": "Delicious Udon Noodles",
+      "description": "Highly springy noodles. The snow-white, soft yet elastic udon, and the elegantly flavored soup combine to make a simple but comforting dish. The faintest scent of wheat may eventually travel down into your belly together with the sweet noodles, but the aftertaste of warmth will remain.",
+      "effect": "Revives a character and restores 550 HP."
+    },
+    "special": {
+      "name": "Fukuuchi Udon",
+      "description": "Yae Miko's specialty. The Fried Tofu in here is specially made by the solemn Lady Kitsune. It is said that if you eat it all at one go with sincerity in your heart, you will have the protection of the Great Kitsune — misfortune shall flee and fortune abound!",
+      "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+      "character": {
+        "id": "yae_miko",
+        "name": "Yae Miko"
+      }
+    }
+  }
+}

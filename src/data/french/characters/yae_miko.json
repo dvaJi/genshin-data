@@ -1,0 +1,810 @@
+{
+  "id": "yae_miko",
+  "name": "Yae Miko",
+  "title": "Frivolité ingénieuse",
+  "description": "La Guuji Yae du Sanctuaire de Narukami est également responsable éditoriale de la Chambre Yae. Une intelligence et une ruse inimaginables sont cachées sous son apparence gracieuse.",
+  "weapon_type": "Catalyseur",
+  "element": "Électro",
+  "gender": "Femme",
+  "substat": "Taux CRIT",
+  "affiliation": "Sanctuaire de Narukami",
+  "region": "Inazuma",
+  "rarity": 5,
+  "birthday": [27, 6],
+  "constellation": "Divina Vulpes",
+  "domain": "Cour violette",
+  "cv": {
+    "english": "Ratana",
+    "chinese": "杜冥鸦",
+    "japanese": "佐倉綾音",
+    "korean": "Moon Yoo-jung"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_spiritfox_sineater",
+      "name": "Attaque normale : Vulpes mangeur de péchés",
+      "description": "<span>Attaque normale</span><br/>Invoque des esprits Kitsunes, enchaînant jusqu'à 3 attaques qui infligent des <span>DGT Électro</span>.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour infliger des <span>DGT Électro de zone</span> après un court délai.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs en concentrant la puissance du tonnerre, infligeant des DGT aux ennemis en chemin et des <span>DGT Électro de zone</span> à l'impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DGT 1er coup",
+          "values": [
+            "39.66%",
+            "42.63%",
+            "45.61%",
+            "49.57%",
+            "52.55%",
+            "55.52%",
+            "59.49%",
+            "63.45%",
+            "67.42%",
+            "71.39%",
+            "75.35%",
+            "79.32%",
+            "84.27%",
+            "89.23%",
+            "94.19%"
+          ]
+        },
+        {
+          "label": "DGT 2e coup",
+          "values": [
+            "38.52%",
+            "41.41%",
+            "44.3%",
+            "48.15%",
+            "51.04%",
+            "53.93%",
+            "57.78%",
+            "61.63%",
+            "65.48%",
+            "69.33%",
+            "73.19%",
+            "77.04%",
+            "81.85%",
+            "86.67%",
+            "91.48%"
+          ]
+        },
+        {
+          "label": "DGT 3e coup",
+          "values": [
+            "56.89%",
+            "61.16%",
+            "65.42%",
+            "71.11%",
+            "75.38%",
+            "79.64%",
+            "85.33%",
+            "91.02%",
+            "96.71%",
+            "102.4%",
+            "108.09%",
+            "113.78%",
+            "120.89%",
+            "128%",
+            "135.11%"
+          ]
+        },
+        {
+          "label": "DGT attaque chargée",
+          "values": [
+            "142.89%",
+            "153.61%",
+            "164.33%",
+            "178.62%",
+            "189.34%",
+            "200.05%",
+            "214.34%",
+            "228.63%",
+            "242.92%",
+            "257.21%",
+            "271.5%",
+            "285.79%",
+            "303.65%",
+            "321.51%",
+            "339.38%"
+          ]
+        },
+        {
+          "label": "Coût d'endurance attaque chargée",
+          "values": [
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts",
+            "50 pts"
+          ]
+        },
+        {
+          "label": "DGT durant la chute",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DGT chute basse/élevée",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "Évocation des yakan : Sakura dévastateur",
+      "description": "Pour Yae, les tâches ennuyeuses qui peuvent être réglées en chassant les esprits n'ont pas besoin d'être accomplies personnellement.<br/>Se déplace rapidement, en laissant derrière elle un sakura dévastateur.<br/><br/><span>Sakura dévastateur</span><br/>Les caractéristiques suivantes s'appliquent :<br/>· Frappe un ennemi proche d'un éclair de façon intermittente, infligeant des <span>DGT Électro</span>.<br/>· Lorsqu'il y a d'autres sakura dévastateurs à proximité, leur niveau augmente, améliorant les DGT qu'ils infligent.<br/><br/>Cette capacité peut être utilisée 3 fois.<br/>Un maximum de 3 sakura dévastateurs peut exister en même temps. Le niveau initial d'un sakura dévastateur est 1, et le niveau le plus élevé qu'un sakura peut atteindre est 3. Si un sakura dévastateur est créé trop près d'un autre sakura, l'ancien sakura est détruit.",
+      "info": "« Les esprits Kitsunes scellés dans les branches sont tous des yakans qui aspirent à chasser les humains. Les yakans sont deux grades plus bas que nous, les Kitsunes célestes, et donc, je vois à peine le problème si je les... mets à mes ordres. Néanmoins, cela ne signifie pas que vous, les humains, devriez copier notre système de grade. Que nenni... Et quant à qui d'entre nous, Kitsunes ou humains, est le plus haut placé dans l'ordre hiérarchique... Héhé... »",
+      "attributes": [
+        {
+          "label": "DGT sakura dévastateur Niv.1",
+          "values": [
+            "60.67%",
+            "65.22%",
+            "69.77%",
+            "75.84%",
+            "80.39%",
+            "84.94%",
+            "91.01%",
+            "97.08%",
+            "103.14%",
+            "109.21%",
+            "115.28%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%"
+          ]
+        },
+        {
+          "label": "DGT sakura dévastateur Niv.2",
+          "values": [
+            "75.84%",
+            "81.53%",
+            "87.22%",
+            "94.8%",
+            "100.49%",
+            "106.18%",
+            "113.76%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%"
+          ]
+        },
+        {
+          "label": "DGT sakura dévastateur Niv.3",
+          "values": [
+            "94.8%",
+            "101.91%",
+            "109.02%",
+            "118.5%",
+            "125.61%",
+            "132.72%",
+            "142.2%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%"
+          ]
+        },
+        {
+          "label": "DGT sakura dévastateur Niv.4",
+          "values": [
+            "118.5%",
+            "127.39%",
+            "136.28%",
+            "148.13%",
+            "157.01%",
+            "165.9%",
+            "177.75%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%",
+            "237%",
+            "251.81%",
+            "266.62%",
+            "281.44%"
+          ]
+        },
+        {
+          "label": "Durée",
+          "values": [
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s"
+          ]
+        },
+        {
+          "label": "Temps de recharge",
+          "values": [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "Technique secrète : Incarnation de tenko",
+      "description": "La légende du « kitsunetsuki », ou la possession par un Kitsune, est l'un des contes populaires d'Inazuma. Parmi eux, celui du Kitsune céleste est considéré comme spécial, accablant les ennemis du Sanctuaire de Narukami sous la forme d'un éclair qui s'abat, infligeant des <span>DGT Électro de zone</span>.<br/>En utilisant cette compétence, Yae Miko descelle les sakura dévastateurs à proximité pour détruire leurs formes extérieures et les transformer en éclairs de tenko descendant du ciel, infligeant des <span>DGT Électro de zone</span>. Chaque sakura dévastateur détruit de cette manière déclenche un éclair.",
+      "info": "Yae n'utilise sa quintessence de Kitsune céleste que dans ces moments-là, brandissant elle-même la foudre. Tous ceux qui ont vu les queues de la guuji ont été réduits en cendres, alors rappelez-vous que dame Yae n'a pas de queue !",
+      "attributes": [
+        {
+          "label": "DGT compétence",
+          "values": [
+            "260%",
+            "279.5%",
+            "299%",
+            "325%",
+            "344.5%",
+            "364%",
+            "390%",
+            "416%",
+            "442%",
+            "468%",
+            "494%",
+            "520%",
+            "552.5%",
+            "585%",
+            "617.5%"
+          ]
+        },
+        {
+          "label": "DGT éclair de tenko",
+          "values": [
+            "333.82%",
+            "358.85%",
+            "383.89%",
+            "417.27%",
+            "442.31%",
+            "467.34%",
+            "500.72%",
+            "534.11%",
+            "567.49%",
+            "600.87%",
+            "634.25%",
+            "667.63%",
+            "709.36%",
+            "751.09%",
+            "792.81%"
+          ]
+        },
+        {
+          "label": "Temps de recharge",
+          "values": [
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s"
+          ]
+        },
+        {
+          "label": "Énergie élémentaire",
+          "values": [
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "the_shrines_sacred_shade",
+      "name": "Ombre sacrée du sanctuaire",
+      "description": "Lors de l'utilisation de <span>Technique secrète : Incarnation de tenko</span>, le TdR d'<span>Évocation des yakan : Sakura dévastateur</span> se réinitialise une fois pour chaque sakura dévastateur détruit.",
+      "level": 1
+    },
+    {
+      "id": "enlightened_blessing",
+      "name": "Bénédiction éveillée",
+      "description": "Chaque point de maîtrise élémentaire que Yae Miko possède augmente les DGT des <span>sakura dévastateurs</span> de 0,15 %.",
+      "level": 4
+    },
+    {
+      "id": "meditations_of_a_yako",
+      "name": "Méditation d'une yako",
+      "description": "25 % de chances de synthétiser un matériau d'aptitude aléatoire supplémentaire (même rareté et région que les matériaux consommés).",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "yakan_offering",
+      "name": "Offrande des yakan",
+      "description": "Lorsque <span>Technique secrète : Incarnation céleste</span> déclenche un éclair de tenko, Yae Miko récupère 8 pts d'énergie élémentaire.",
+      "level": 1
+    },
+    {
+      "id": "foxs_mooncall",
+      "name": "Glapissement sous la lune",
+      "description": "Les <span>sakura dévastateurs</span> commencent au Niv.2 et peuvent monter jusqu'au Niv.4, et leur portée d'attaque augmente de 60 %.",
+      "level": 2
+    },
+    {
+      "id": "the_seven_glamours",
+      "name": "Les sept glamours",
+      "description": "Niveau d'aptitude <span>Évocation des yakan : Sakura dévastateur</span> +3.<br/>Niveau max : 15",
+      "level": 3
+    },
+    {
+      "id": "sakura_channeling",
+      "name": "Canalisation de sakura",
+      "description": "Lorsque l'éclair d'un <span>sakura dévastateur</span> touche un ennemi, tous les membres de l'équipe à proximité obtiennent un <span>bonus de DGT Électro</span> de 20 % pendant 5 s.",
+      "level": 4
+    },
+    {
+      "id": "mischievous_teasing",
+      "name": "Moquerie implacable",
+      "description": "Niveau d'aptitude <span>Technique secrète : Incarnation de tenko</span> +3.<br/>Niveau max : 15",
+      "level": 5
+    },
+    {
+      "id": "forbidden_art_daisesshou",
+      "name": "Art tabou : Daisesshou",
+      "description": "Les attaques des <span>sakura dévastateurs</span> ignorent 60 % de la DÉF de l'ennemi.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Éclat d'améthyste vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "Garde-main ancien",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragment d'améthyste vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Fausse nageoire de l'héritier du dragon",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "Garde-main ancien",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragment d'améthyste vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Fausse nageoire de l'héritier du dragon",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "Garde-main kageuchi",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Morceau d'améthyste vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Fausse nageoire de l'héritier du dragon",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "Garde-main kageuchi",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Morceau d'améthyste vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Fausse nageoire de l'héritier du dragon",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "Garde-main célèbre",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Pierre d'améthyste vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Fausse nageoire de l'héritier du dragon",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Ganoderma marin",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "Garde-main célèbre",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_light",
+          "name": "Enseignement de la lumière",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "old_handguard",
+          "name": "Garde-main ancien",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide de la Lumière",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Garde-main kageuchi",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide de la Lumière",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Garde-main kageuchi",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide de la Lumière",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Garde-main kageuchi",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guide de la Lumière",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Garde-main kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophie de la lumière",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Garde-main célèbre",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Signification d'une éternité",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophie de la lumière",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Garde-main célèbre",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Signification d'une éternité",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophie de la lumière",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Garde-main célèbre",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Signification d'une éternité",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Philosophie de la lumière",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Garde-main célèbre",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Signification d'une éternité",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Couronne de la sagesse",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

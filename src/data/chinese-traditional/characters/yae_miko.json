@@ -1,0 +1,810 @@
+{
+  "id": "yae_miko",
+  "name": "八重神子",
+  "title": "浮世笑百姿",
+  "description": "鳴神大社的宮司大人，兼任「八重堂」總編。豔麗動人的外表下藏著令人意想不到的聰慧與狡黠。",
+  "weapon_type": "法器",
+  "element": "雷",
+  "gender": "女",
+  "substat": "暴擊率",
+  "affiliation": "鳴神大社",
+  "region": "稻妻",
+  "rarity": 5,
+  "birthday": [27, 6],
+  "constellation": "仙狐座",
+  "domain": "菫色之庭",
+  "cv": {
+    "english": "Ratana",
+    "chinese": "杜冥鸦",
+    "japanese": "佐倉綾音",
+    "korean": "文維貞"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_spiritfox_sineater",
+      "name": "普通攻擊·狐靈食罪式",
+      "description": "<span>普通攻擊</span><br/>驅役狐靈，進行至多三段的攻擊，造成<span>雷元素傷害</span>。<br/><br/><span>重擊</span><br/>消耗一定體力，短暫詠唱後，造成<span>雷元素範圍傷害</span>。<br/><br/><span>下落攻擊</span><br/>凝聚雷霆的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成<span>雷元素範圍傷害</span>。",
+      "info": "",
+      "attributes": [
+        {
+          "label": "一段傷害",
+          "values": [
+            "39.66%",
+            "42.63%",
+            "45.61%",
+            "49.57%",
+            "52.55%",
+            "55.52%",
+            "59.49%",
+            "63.45%",
+            "67.42%",
+            "71.39%",
+            "75.35%",
+            "79.32%",
+            "84.27%",
+            "89.23%",
+            "94.19%"
+          ]
+        },
+        {
+          "label": "二段傷害",
+          "values": [
+            "38.52%",
+            "41.41%",
+            "44.3%",
+            "48.15%",
+            "51.04%",
+            "53.93%",
+            "57.78%",
+            "61.63%",
+            "65.48%",
+            "69.33%",
+            "73.19%",
+            "77.04%",
+            "81.85%",
+            "86.67%",
+            "91.48%"
+          ]
+        },
+        {
+          "label": "三段傷害",
+          "values": [
+            "56.89%",
+            "61.16%",
+            "65.42%",
+            "71.11%",
+            "75.38%",
+            "79.64%",
+            "85.33%",
+            "91.02%",
+            "96.71%",
+            "102.4%",
+            "108.09%",
+            "113.78%",
+            "120.89%",
+            "128%",
+            "135.11%"
+          ]
+        },
+        {
+          "label": "重擊傷害",
+          "values": [
+            "142.89%",
+            "153.61%",
+            "164.33%",
+            "178.62%",
+            "189.34%",
+            "200.05%",
+            "214.34%",
+            "228.63%",
+            "242.92%",
+            "257.21%",
+            "271.5%",
+            "285.79%",
+            "303.65%",
+            "321.51%",
+            "339.38%"
+          ]
+        },
+        {
+          "label": "重擊體力消耗",
+          "values": [
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點",
+            "50點"
+          ]
+        },
+        {
+          "label": "下墜期間傷害",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "低空/高空墜地衝擊傷害",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "野干役咒·殺生櫻",
+      "description": "對八重而言，驅役精怪就能解決的麻煩，自然是無須親力親為的。<br/>迅速移動，並留下一株「殺生櫻」。<br/><br/><span>殺生櫻</span><br/>具有如下特性：<br/>·間歇性對周圍的一名敵人降下落雷，造成<span>雷元素傷害</span>；<br/>·附近存在其他的殺生櫻時，將提升其位階，提高上述攻擊造成的傷害。<br/><br/>擁有3次可使用次數。<br/>最多同時存在3株殺生櫻，殺生櫻創造時的初始位階為壹階，階級初始至多提升至參階。若創造的位置與已有的殺生櫻距離過近，則會摧毀已有的殺生櫻。",
+      "info": "「封在枝條裡的狐靈都是墮為害人妖鬼的野干。野干天然要低我們天狐兩等，使喚起來心安理得。不過我們狐狸分三六九等，你們人類可不要這樣哦。至於你問狐狸和人誰比較高級，哼哼…」",
+      "attributes": [
+        {
+          "label": "殺生櫻傷害·壹階",
+          "values": [
+            "60.67%",
+            "65.22%",
+            "69.77%",
+            "75.84%",
+            "80.39%",
+            "84.94%",
+            "91.01%",
+            "97.08%",
+            "103.14%",
+            "109.21%",
+            "115.28%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%"
+          ]
+        },
+        {
+          "label": "殺生櫻傷害·貳階",
+          "values": [
+            "75.84%",
+            "81.53%",
+            "87.22%",
+            "94.8%",
+            "100.49%",
+            "106.18%",
+            "113.76%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%"
+          ]
+        },
+        {
+          "label": "殺生櫻傷害·參階",
+          "values": [
+            "94.8%",
+            "101.91%",
+            "109.02%",
+            "118.5%",
+            "125.61%",
+            "132.72%",
+            "142.2%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%"
+          ]
+        },
+        {
+          "label": "殺生櫻傷害·肆階",
+          "values": [
+            "118.5%",
+            "127.39%",
+            "136.28%",
+            "148.13%",
+            "157.01%",
+            "165.9%",
+            "177.75%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%",
+            "237%",
+            "251.81%",
+            "266.62%",
+            "281.44%"
+          ]
+        },
+        {
+          "label": "持續時間",
+          "values": [
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒",
+            "14秒"
+          ]
+        },
+        {
+          "label": "冷卻時間",
+          "values": [
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒",
+            "4秒"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "大密法·天狐顯真",
+      "description": "稻妻民話中有「狐憑」一說。其中比較特殊的「天狐之憑」會以雷霆的形式降臨在鳴神大社的敵人身上。降下雷電，造成<span>雷元素範圍傷害</span>。<br/>施放時，八重神子會解放附近的殺生櫻，摧毀它們的形姿，化作天狐霆雷降下，造成<span>雷元素範圍傷害</span>。每透過這種方式摧毀一株殺生櫻，就能降下一道天狐霆雷。",
+      "info": "八重僅在此時需要露出天狐之憑證，號令雷霆。而看過宮司大人露出尾巴的傢伙，都已經灰都不剩了。因此，謹記於心——八重大人是沒有尾巴的。",
+      "attributes": [
+        {
+          "label": "技能傷害",
+          "values": [
+            "260%",
+            "279.5%",
+            "299%",
+            "325%",
+            "344.5%",
+            "364%",
+            "390%",
+            "416%",
+            "442%",
+            "468%",
+            "494%",
+            "520%",
+            "552.5%",
+            "585%",
+            "617.5%"
+          ]
+        },
+        {
+          "label": "天狐霆雷傷害",
+          "values": [
+            "333.82%",
+            "358.85%",
+            "383.89%",
+            "417.27%",
+            "442.31%",
+            "467.34%",
+            "500.72%",
+            "534.11%",
+            "567.49%",
+            "600.87%",
+            "634.25%",
+            "667.63%",
+            "709.36%",
+            "751.09%",
+            "792.81%"
+          ]
+        },
+        {
+          "label": "冷卻時間",
+          "values": [
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒",
+            "22秒"
+          ]
+        },
+        {
+          "label": "元素能量",
+          "values": [
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "the_shrines_sacred_shade",
+      "name": "神籬之御蔭",
+      "description": "施放<span>大密法·天狐顯真</span>時，每摧毀一株殺生櫻，就會重置一次<span>野干役咒·殺生櫻</span>的冷卻時間。",
+      "level": 1
+    },
+    {
+      "id": "enlightened_blessing",
+      "name": "啟蜇之祝詞",
+      "description": "八重神子的每點元素精通，能使<span>殺生櫻</span>造成的傷害提升0.15%。",
+      "level": 4
+    },
+    {
+      "id": "meditations_of_a_yako",
+      "name": "野狐說禪",
+      "description": "合成角色天賦素材時，有25%機率額外產生一份地區相同的其他隨機天賦素材，等階與合成所消耗的素材相同。",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "yakan_offering",
+      "name": "野狐供真篇",
+      "description": "<span>大密法·天狐顯真</span>每引發一次天狐霆雷，都會為八重神子自己恢復8點元素能量。",
+      "level": 1
+    },
+    {
+      "id": "foxs_mooncall",
+      "name": "歲月吼噦聲",
+      "description": "<span>殺生櫻</span>創造時的初始位階提升至貳階，位階上限提升至肆階，攻擊範圍提升60%。",
+      "level": 2
+    },
+    {
+      "id": "the_seven_glamours",
+      "name": "七段妙變化",
+      "description": "<span>野干役咒·殺生櫻</span>的技能等級提高3級。<br/>至多提升至15級。",
+      "level": 3
+    },
+    {
+      "id": "sakura_channeling",
+      "name": "緋櫻引雷章",
+      "description": "<span>殺生櫻</span>的落雷命中敵人後，隊伍中附近的所有角色獲得20%<span>雷元素傷害加成</span>，持續5秒。",
+      "level": 4
+    },
+    {
+      "id": "mischievous_teasing",
+      "name": "暴惡嗤笑面",
+      "description": "<span>大密法·天狐顯真</span>的技能等級提高3級。<br/>至多提升至15級。",
+      "level": 5
+    },
+    {
+      "id": "forbidden_art_daisesshou",
+      "name": "大殺生咒禁",
+      "description": "<span>殺生櫻</span>在攻擊時無視敵人60%的防禦力。",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "最勝紫晶碎屑",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "破舊的刀鐔",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "最勝紫晶斷片",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "龍嗣偽鰭",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "破舊的刀鐔",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "最勝紫晶斷片",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "龍嗣偽鰭",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "影打刀鐔",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "最勝紫晶塊",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "龍嗣偽鰭",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "影打刀鐔",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "最勝紫晶塊",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "龍嗣偽鰭",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "名刀鐔",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "最勝紫晶",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "龍嗣偽鰭",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "海靈芝",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "名刀鐔",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_light",
+          "name": "「天光」的教導",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "old_handguard",
+          "name": "破舊的刀鐔",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "「天光」的指引",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "影打刀鐔",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "「天光」的指引",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "影打刀鐔",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "「天光」的指引",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "影打刀鐔",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "「天光」的指引",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "影打刀鐔",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "「天光」的哲學",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "名刀鐔",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "萬劫之真意",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "「天光」的哲學",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "名刀鐔",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "萬劫之真意",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "「天光」的哲學",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "名刀鐔",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "萬劫之真意",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "「天光」的哲學",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "名刀鐔",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "萬劫之真意",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "智識之冕",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

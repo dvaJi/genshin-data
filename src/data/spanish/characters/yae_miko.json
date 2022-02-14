@@ -1,0 +1,810 @@
+{
+  "id": "yae_miko",
+  "name": "Yae Miko",
+  "title": "La Kitsune Taimada",
+  "description": "La Suma Sacerdotisa del Gran Santuario Narukami y editora en jefe de la Editorial Yae. Bajo su increíble encanto esconde una inteligencia y una astucia inimaginables.",
+  "weapon_type": "Catalizador",
+  "element": "Electro",
+  "gender": "Femenino",
+  "substat": "Prob. CRIT",
+  "affiliation": "Gran Santuario Narukami",
+  "region": "Inazuma",
+  "rarity": 5,
+  "birthday": [27, 6],
+  "constellation": "Divina Vulpes",
+  "domain": "Jardín de los pensamientos",
+  "cv": {
+    "english": "Ratana",
+    "chinese": "杜冥鸦",
+    "japanese": "佐倉綾音",
+    "korean": "Moon Yoo-jung"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_spiritfox_sineater",
+      "name": "Ataque Normal: Kitsune devorapecados",
+      "description": "<span>Ataque Normal</span><br/>Invoca espíritus kitsune para realizar hasta 3 ataques que infligen <span>Daño Electro</span>.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para infligir <span>Daño Electro en el AdE</span> después de un corto tiempo de invocación.<br/><br/><span>Ataque Descendente</span><br/>Concentra el poder del trueno y desciende hacia el suelo, dañando a todos los enemigos cercanos e infligiendo <span>Daño Electro en el AdE</span> en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "39.66%",
+            "42.63%",
+            "45.61%",
+            "49.57%",
+            "52.55%",
+            "55.52%",
+            "59.49%",
+            "63.45%",
+            "67.42%",
+            "71.39%",
+            "75.35%",
+            "79.32%",
+            "84.27%",
+            "89.23%",
+            "94.19%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "38.52%",
+            "41.41%",
+            "44.3%",
+            "48.15%",
+            "51.04%",
+            "53.93%",
+            "57.78%",
+            "61.63%",
+            "65.48%",
+            "69.33%",
+            "73.19%",
+            "77.04%",
+            "81.85%",
+            "86.67%",
+            "91.48%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "56.89%",
+            "61.16%",
+            "65.42%",
+            "71.11%",
+            "75.38%",
+            "79.64%",
+            "85.33%",
+            "91.02%",
+            "96.71%",
+            "102.4%",
+            "108.09%",
+            "113.78%",
+            "120.89%",
+            "128%",
+            "135.11%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "142.89%",
+            "153.61%",
+            "164.33%",
+            "178.62%",
+            "189.34%",
+            "200.05%",
+            "214.34%",
+            "228.63%",
+            "242.92%",
+            "257.21%",
+            "271.5%",
+            "285.79%",
+            "303.65%",
+            "321.51%",
+            "339.38%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "Maleficio yako: Cerezo kitsune aniquilador",
+      "description": "Yae Miko no necesita hacer personalmente las tareas más triviales mientras pueda usar los espíritus de otros seres.<br/>Hace un rápido movimiento e invoca un cerezo kitsune.<br/><br/><span>Cerezo kitsune</span><br/>Tiene las siguientes características:<br/>·Cada cierto tiempo, hace descender un rayo sobre un enemigo cercano para infligirle <span>Daño Electro</span>.<br/>·Si se invoca un cerezo kitsune cuando ya existen otros, los ya existentes subirán de nivel y el daño que infligen con sus ataques aumentará.<br/><br/>Esta habilidad puede usarse tres veces.<br/>Solo pueden existir 3 cerezos kitsune al mismo tiempo. Cuando se crea uno, su nivel inicial es 1 y solo podrá aumentar a nivel 3 como máximo. Si se crea un cerezo kitsune en una ubicación que esté excesivamente cerca de otro, el ya existente se destruirá.",
+      "info": "“Los espíritus kitsune sellados en las ramas de los árboles son yako que han degenerado hasta querer herir a los humanos. Los yako están dos rangos por debajo de nosotros, los Kitsune Celestiales, así que no veo ningún problema en pedirles que cumplan mis órdenes. Aunque entre los kitsune tengamos un sistema de clasificación, los humanos no tienen por qué hacer eso. ¿Que quiénes son superiores, los humanos o los kitsune? *Ejem*, ¿de verdad te gustaría saberlo?”",
+      "attributes": [
+        {
+          "label": "Daño de cerezo kitsune niv. 1",
+          "values": [
+            "60.67%",
+            "65.22%",
+            "69.77%",
+            "75.84%",
+            "80.39%",
+            "84.94%",
+            "91.01%",
+            "97.08%",
+            "103.14%",
+            "109.21%",
+            "115.28%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%"
+          ]
+        },
+        {
+          "label": "Daño de cerezo kitsune niv. 2",
+          "values": [
+            "75.84%",
+            "81.53%",
+            "87.22%",
+            "94.8%",
+            "100.49%",
+            "106.18%",
+            "113.76%",
+            "121.34%",
+            "128.93%",
+            "136.51%",
+            "144.1%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%"
+          ]
+        },
+        {
+          "label": "Daño de cerezo kitsune niv. 3",
+          "values": [
+            "94.8%",
+            "101.91%",
+            "109.02%",
+            "118.5%",
+            "125.61%",
+            "132.72%",
+            "142.2%",
+            "151.68%",
+            "161.16%",
+            "170.64%",
+            "180.12%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%"
+          ]
+        },
+        {
+          "label": "Daño de cerezo kitsune niv. 4",
+          "values": [
+            "118.5%",
+            "127.39%",
+            "136.28%",
+            "148.13%",
+            "157.01%",
+            "165.9%",
+            "177.75%",
+            "189.6%",
+            "201.45%",
+            "213.3%",
+            "225.15%",
+            "237%",
+            "251.81%",
+            "266.62%",
+            "281.44%"
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s",
+            "14 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "Técnica secreta suprema: Encarnación de Kitsune Celestial",
+      "description": "En Inazuma existen leyendas sobre posesiones kitsune. Una de las más particulares es la de la posesión por Kitsune Celestiales que caen con forma de relámpago sobre los intrusos que se infiltran en el Gran Santuario Narukami. Cuando el relámpago desciende, inflige <span>Daño Electro en el AdE</span>.<br/>Al lanzar la habilidad, Yae Miko destruye los cerezos kitsune cercanos, los cuales se transforman en relámpagos de Kitsune Celestiales que infligen <span>Daño Electro en el AdE</span>. Un relámpago de Kitsune Celestial caerá por cada cerezo kitsune que se destruya de esta forma.",
+      "info": "Yae Miko solo revela su aspecto de Kitsune Celestial en los momentos más cruciales para invocar el poder del rayo. De aquellos que han visto la cola de la Suma Sacerdotisa no quedan ni las cenizas, así que más te vale recordar esto muy bien: la Srta. Yae no tiene cola.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "260%",
+            "279.5%",
+            "299%",
+            "325%",
+            "344.5%",
+            "364%",
+            "390%",
+            "416%",
+            "442%",
+            "468%",
+            "494%",
+            "520%",
+            "552.5%",
+            "585%",
+            "617.5%"
+          ]
+        },
+        {
+          "label": "Daño de relámpago de Kitsune Celestial",
+          "values": [
+            "333.82%",
+            "358.85%",
+            "383.89%",
+            "417.27%",
+            "442.31%",
+            "467.34%",
+            "500.72%",
+            "534.11%",
+            "567.49%",
+            "600.87%",
+            "634.25%",
+            "667.63%",
+            "709.36%",
+            "751.09%",
+            "792.81%"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s",
+            "22 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90",
+            "90"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "the_shrines_sacred_shade",
+      "name": "Sombra sagrada",
+      "description": "Al usar <span>Técnica secreta suprema: Encarnación de Kitsune Celestial</span>, el TdE de <span>Maleficio yako: Cerezo kitsune aniquilador</span> se reiniciará una vez por cada cerezo kitsune destruido.",
+      "level": 1
+    },
+    {
+      "id": "enlightened_blessing",
+      "name": "Bendición del despertar",
+      "description": "Aumenta en un 0.15% el daño que infligen los <span>cerezos kitsune</span> por cada punto de Maestría Elemental de Yae Miko.",
+      "level": 4
+    },
+    {
+      "id": "meditations_of_a_yako",
+      "name": "Meditación de yako",
+      "description": "Al fabricar materiales de talento, hay una probabilidad del 25% de obtener otro aleatorio de la misma región y tipo que los materiales usados.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "yakan_offering",
+      "name": "Ofrenda de los yako",
+      "description": "Yae Miko recupera 8 pts. de Energía elemental por cada relámpago de Kitsune Celestial desencadenado con <span>Técnica secreta suprema: Encarnación de Kitsune Celestial</span>.",
+      "level": 1
+    },
+    {
+      "id": "foxs_mooncall",
+      "name": "Aullido lunar",
+      "description": "Al ser creados, los <span>cerezos aniquiladores</span> comienzan con nivel 2, pueden aumentarse hasta nivel 4 y su alcance de ataque aumenta en un 60%.",
+      "level": 2
+    },
+    {
+      "id": "the_seven_glamours",
+      "name": "Heptatransformación",
+      "description": "Aumenta el nivel de habilidad de <span>Maleficio yako: Cerezo kitsune aniquilador</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "id": "sakura_channeling",
+      "name": "Cerezo de la tormenta",
+      "description": "Cuando el rayo de un <span>cerezo kitsune</span> golpea a un enemigo, todos los miembros del equipo cercanos obtienen un 20% de <span>Bono de Daño Electro</span> durante 5 s.",
+      "level": 4
+    },
+    {
+      "id": "mischievous_teasing",
+      "name": "Burla despiadada",
+      "description": "Aumenta el nivel de habilidad de <span>Técnica secreta suprema: Encarnación de Kitsune Celestial</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "id": "forbidden_art_daisesshou",
+      "name": "Técnica prohibida: Masacre",
+      "description": "Los ataques de los <span>cerezos kitsune</span> ignoran un 60% de la DEF del enemigo.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Pedacito de amatista vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "Guardamano viejo",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Pseudoaleta de dragón de las profundidades",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "old_handguard",
+        "name": "Guardamano viejo",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Pseudoaleta de dragón de las profundidades",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "Guardamano gemelo",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Pseudoaleta de dragón de las profundidades",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "kageuchi_handguard",
+        "name": "Guardamano gemelo",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Pseudoaleta de dragón de las profundidades",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "Guardamano célebre",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Amatista vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "dragonheirs_false_fin",
+        "name": "Pseudoaleta de dragón de las profundidades",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "sea_ganoderma",
+        "name": "Hongo marino",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "famed_handguard",
+        "name": "Guardamano célebre",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_light",
+          "name": "Enseñanzas de la luz",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "old_handguard",
+          "name": "Guardamano viejo",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guía de la luz",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guía de la luz",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guía de la luz",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_light",
+          "name": "Guía de la luz",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Filosofía de la luz",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Máxima de la catástrofe",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Filosofía de la luz",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Máxima de la catástrofe",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Filosofía de la luz",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Máxima de la catástrofe",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_light",
+          "name": "Filosofía de la luz",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "the_meaning_of_aeons",
+          "name": "Máxima de la catástrofe",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Corona de la sabiduría",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
