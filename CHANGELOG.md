@@ -1,3 +1,9 @@
+## [0.18.1 ](https://github.com/dvaJi/genshin-data/compare/0.18.0...0.18.1) (2022-03-12)
+
+### Fixes
+
+- **characters** fix wrong constellation number in some characters ([fef36a1](https://github.com/dvaJi/genshin-data/commit/fef36a1c4882fad4c1b86c4590f30fcb2561ace8))
+
 ## [0.18.0](https://github.com/dvaJi/genshin-data/compare/0.17.2...0.18.0) (2022-02-14)
 
 ### Features
