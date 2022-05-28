@@ -17,7 +17,7 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=4096
       # Publish to npm
-      - run: npm run generate && npm publish
+      - run: npm publish
         env:
           NODE_OPTIONS: --max_old_space_size=4096
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
