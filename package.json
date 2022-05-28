@@ -14,7 +14,7 @@
     "generate": "node ./scripts/generate.js",
     "check-missing": "npm run generate && npm run build && node ./scripts/check-missing.js",
     "format-data": "prettier --loglevel warn --write \"src/data/**/*.json\"",
-    "prepare": "npm run generate && npm run build"
+    "prepublishOnly": "npm run generate && npm run build"
   },
   "prettier": {
     "printWidth": 80,
