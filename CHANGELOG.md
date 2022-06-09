@@ -1,3 +1,13 @@
+## [0.20.1](https://github.com/dvaJi/genshin-data/compare/0.20.0...0.20.1) (2022-06-08)
+
+### Fixes
+
+- **achievements** remove duplicated and disused achievements ([6c3f5ab](https://github.com/dvaJi/genshin-data/commit/6c3f5ab08e315d507a49d286f96483d4ea101ce6))
+
+### CI
+
+- use nodejs 14, 16 and 18 for testing ([ae58b1f](https://github.com/dvaJi/genshin-data/commit/ae58b1fd1c826dd5eb8049bc7887f7deed1fa25a))
+
 ## [0.20.0](https://github.com/dvaJi/genshin-data/compare/0.19.0...0.20.0) (2022-05-28)
 
 ### Features
