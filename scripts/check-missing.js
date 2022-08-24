@@ -18,6 +18,7 @@ const METHODS = [
   'talentLvlUpMaterials',
   'weaponPrimaryMaterials',
   'weaponSecondaryMaterials',
+  'domains',
 ];
 
 const data = gdata.languages.reduce((obj, key) => {

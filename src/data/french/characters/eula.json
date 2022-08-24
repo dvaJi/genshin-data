@@ -251,7 +251,7 @@
     {
       "id": "icetide_vortex",
       "name": "Vortex des mers glacées",
-      "description": "Givre coupant et lame dansante.<br/><br/><span>Appui simple</span><br/>Eula exécute une frappe rapide qui inflige des <span>DGT Cryo</span>.<br/>Si elle touche un ennemi, Eula gagne une charge de Cœur de glace (jusqu'à 2 charges max). Eula peut gagner une charge toutes les 0,3 s max.<br/><br/><span>Cœur de glace</span><br/>Améliore la RÉS à l'interruption et la DÉF d'Eula.<br/><br/><span>Appui long</span><br/>Eula consomme toutes les charges de Cœur de glace pour faire tournoyer son épée devant elle et infliger des <span>DGT Cryo de zone</span> aux ennemis en face.<br/>Si des charges de Cœur de glace sont consommées, la RÉS physique et la <span>RÉS Cryo</span> des ennemis proches diminuent.<br/>Chaque charge de Cœur de glace est convertie en épée vortex de glace, qui inflige des <span>DGT Cryo</span> aux ennemis proches.",
+      "description": "Givre coupant et lame dansante.<br/><br/><span>Appui simple</span><br/>Eula exécute une frappe rapide qui inflige des <span>DGT Cryo</span>.<br/>Si elle touche un ennemi, Eula gagne un cumul de Cœur de glace (jusqu'à 2 cumuls max). Eula peut gagner un cumul toutes les 0,3 s max.<br/><br/><span>Cœur de glace</span><br/>Améliore la RÉS à l'interruption et la DÉF d'Eula.<br/><br/><span>Appui long</span><br/>Eula consomme toutes les cumuls de Cœur de glace pour faire tournoyer son épée devant elle et infliger des <span>DGT Cryo de zone</span> aux ennemis en face.<br/>Si des cumuls de Cœur de glace sont consommés, la RÉS physique et la <span>RÉS Cryo</span> des ennemis proches diminuent.<br/>Chaque cumul de Cœur de glace est converti en épée vortex de glace, qui inflige des <span>DGT Cryo</span> aux ennemis proches.",
       "info": "Ainsi roula l'écume des vagues, engloutissant dans son sillage la couronne de la royauté. Et chaque embrun de cette marée glaciale étincela de sa lumineuse clarté.",
       "attributes": [
         {
@@ -317,21 +317,21 @@
         {
           "label": "Bonus de DÉF",
           "values": [
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge",
-            "30% par charge"
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul",
+            "30% par cumul"
           ]
         },
         {
@@ -459,7 +459,7 @@
     {
       "id": "glacial_illumination",
       "name": "Lame de fond",
-      "description": "Eula brandit son épée avec fureur, infligeant des <span>DGT Cryo</span> aux ennemis proches, et crée une épée de lumière qui la suit pendant 7 s max.<br/>Tant qu'elle est active, l'épée de lumière augmente la RÉS à l'interruption d'Eula. Lorsqu'Eula inflige des DGT à des ennemis avec son attaque normale, sa compétence ou son déchaînement élémentaire, elle accumule des charges d'énergie pour l'épée de lumière. Une charge d'énergie peut être cumulée toutes les 0,1 s.<br/>Lorsque la durée de l'épée de lumière est écoulée, elle explose violemment, infligeant des DGT physiques aux ennemis proches.<br/>Ces DGT augmentent en fonction du nombre de charges d'énergie accumulées.<br/>L'épée explose immédiatement lorsqu'Eula quitte le champ de bataille.",
+      "description": "Eula brandit son épée avec fureur, infligeant des <span>DGT Cryo</span> aux ennemis proches, et crée une épée de lumière qui la suit pendant 7 s max.<br/>Tant qu'elle est active, l'épée de lumière augmente la RÉS à l'interruption d'Eula. Lorsqu'Eula inflige des DGT à des ennemis avec son attaque normale, sa compétence ou son déchaînement élémentaire, elle obtient des cumuls d'énergie pour l'épée de lumière. Un cumul d'énergie peut être obtenu toutes les 0,1 s.<br/>Lorsque la durée de l'épée de lumière est écoulée, elle explose violemment, infligeant des DGT physiques aux ennemis proches.<br/>Ces DGT augmentent en fonction du nombre de cumuls d'énergie obtenus.<br/>L'épée explose immédiatement lorsqu'Eula quitte le champ de bataille.",
       "info": "Le naufrage est facile. Et pourtant, Eula insiste pour figer cette marée.",
       "attributes": [
         {
@@ -503,7 +503,7 @@
           ]
         },
         {
-          "label": "DGT élémentaires par charge d'énergie",
+          "label": "DGT élémentaires par cumul d'énergie",
           "values": [
             "74.99%",
             "81.1%",
@@ -523,7 +523,7 @@
           ]
         },
         {
-          "label": "Limite de charges d'énergie",
+          "label": "Limite de cumuls d'énergie",
           "values": [
             "30",
             "30",
@@ -589,13 +589,13 @@
     {
       "id": "roiling_rime",
       "name": "Maelström de glace",
-      "description": "Lorsque vous consommez 2 charges de Cœur de glace lors de l'appui long de <span>Vortex des mers glacées</span>, une brève épée de lumière est créée. Cette dernière explose immédiatement, infligeant des DGT physiques équivalant à 50 % des DGT de base de <span>Lame de fond</span>.",
+      "description": "Lorsque vous consommez 2 cumuls de Cœur de glace lors de l'appui long de <span>Vortex des mers glacées</span>, une brève épée de lumière est créée. Cette dernière explose immédiatement, infligeant des DGT physiques équivalant à 50 % des DGT de base de <span>Lame de fond</span>.",
       "level": 1
     },
     {
       "id": "wellspring_of_warlust",
       "name": "Esprit belligérant",
-      "description": "Le TdR de <span>Vortex des mers glacées</span> est réinitialisé lors de l'utilisation de <span>Lame de fond</span>, et Eula obtient une charge de Cœur de glace.",
+      "description": "Le TdR de <span>Vortex des mers glacées</span> est réinitialisé lors de l'utilisation de <span>Lame de fond</span>, et Eula obtient un cumul de Cœur de glace.",
       "level": 4
     },
     {
@@ -609,7 +609,7 @@
     {
       "id": "tidal_illusion",
       "name": "Illusion des marées",
-      "description": "À chaque fois qu'une charge de Cœur de glace de <span>Vortex des mers glacées</span> est consommée, Eula gagne un bonus de DGT physiques de 30 % pendant 6 s.<br/>Chaque charge de Cœur de glace consommée prolonge la durée de l'effet de 6 s, jusqu'à un maximum de 18 s.",
+      "description": "À chaque fois qu'un cumul de Cœur de glace de <span>Vortex des mers glacées</span> est consommé, Eula gagne un bonus de DGT physiques de 30 % pendant 6 s.<br/>Chaque cumul de Cœur de glace consommé prolonge la durée de l'effet de 6 s, jusqu'à un maximum de 18 s.",
       "level": 1
     },
     {
@@ -639,7 +639,7 @@
     {
       "id": "noble_obligation",
       "name": "Obligations aristocratiques",
-      "description": "Confère immédiatement 5 charges d'énergie à l'épée de lumière créée par <span>Lame de fond</span>. De plus, lorsque vous utilisez des attaques normales, la compétence ou le déchaînement élémentaire pour cumuler des charges, vous avez 50 % de chances de gagner une charge supplémentaire.",
+      "description": "Confère immédiatement 5 cumuls d'énergie à l'épée de lumière créée par <span>Lame de fond</span>. De plus, lorsque vous utilisez des attaques normales, la compétence ou le déchaînement élémentaire pour obtenir des cumuls, vous avez 50 % de chances de gagner un cumul supplémentaire.",
       "level": 6
     }
   ],

@@ -1,0 +1,752 @@
+{
+  "id": "traveler_dendro",
+  "name": "Traveler (Dendro)",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "weapon_type": "Sword",
+  "element": "Dendro",
+  "gender": "Male/Female",
+  "substat": "ATK%",
+  "affiliation": "-",
+  "rarity": 5,
+  "birthday": [null, null],
+  "constellation": "Viator",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Zach Aguilar & Corina Boettger",
+    "chinese": "鹿喑 & 多多poi",
+    "japanese": "堀江瞬 & 古賀葵",
+    "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_foreign_fieldcleaver",
+      "name": "Normal Attack: Foreign Fieldcleaver",
+      "description": "<span>Normal Attack</span><br/>Perform up to 5 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%",
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%",
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%",
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgent_manifestation",
+      "name": "Surgent Manifestation",
+      "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous <span>Dendro DMG</span> to opponents within its AoE.<br/><br/><span>Lotuslight Transfiguration</span><br/>The Lea Lotus Lamp will undergo the following changes after it comes into contact with <span>Hydro</span>/<span>Electro</span>/<span>Pyro</span>:<br/>·<span>Hydro</span>: the Lamp's AoE and the AoE of its attacks are increased.<br/>·<span>Electro</span>: the Lamp's ATK SPD is increased.<br/>·<span>Pyro</span>: the Lamp will explode after a short delay and then disappear, dealing <span>AoE Dendro DMG</span>.<br/>The Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.<br/><br/>Only one Lamp created by the Traveler can exist at any one time.",
+      "info": "You and Paimon studied the sounds of plants that sprout after the rain.",
+      "attributes": [
+        {
+          "label": "Lea Lotus Lamp Attack DMG",
+          "values": [
+            "80.16%",
+            "86.17%",
+            "92.18%",
+            "100.2%",
+            "106.21%",
+            "112.22%",
+            "120.24%",
+            "128.26%",
+            "136.27%",
+            "144.29%",
+            "152.3%",
+            "160.32%",
+            "170.34%",
+            "180.36%",
+            "190.38%"
+          ]
+        },
+        {
+          "label": "Explosion DMG",
+          "values": [
+            "400.8%",
+            "430.86%",
+            "460.92%",
+            "501%",
+            "531.06%",
+            "561.12%",
+            "601.2%",
+            "641.28%",
+            "681.36%",
+            "721.44%",
+            "761.52%",
+            "801.6%",
+            "851.7%",
+            "901.8%",
+            "951.9%"
+          ]
+        },
+        {
+          "label": "Lea Lotus Lamp Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "razorgrass_blade",
+      "name": "Razorgrass Blade",
+      "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal <span>Dendro DMG</span>.",
+      "info": "You and Paimon observed the flowing edges of grass and leaf.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "230.4%",
+            "247.68%",
+            "264.96%",
+            "288%",
+            "305.28%",
+            "322.56%",
+            "345.6%",
+            "368.64%",
+            "391.68%",
+            "414.72%",
+            "437.76%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "verdant_overgrowth",
+      "name": "Verdant Overgrowth",
+      "description": "<span>Lea Lotus Lamp</span> will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
+      "level": 1
+    },
+    {
+      "id": "verdant_luxury",
+      "name": "Verdant Luxury",
+      "description": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by <span>Razorgrass Blade</span> by 0.15% and the DMG dealt by <span>Surgent Manifestation</span> by 0.1%.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "id": "symbiotic_creeper",
+      "name": "Symbiotic Creeper",
+      "description": "After <span>Razorgrass Blade</span> hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
+      "level": 1
+    },
+    {
+      "id": "green_resilience",
+      "name": "Green Resilience",
+      "description": "<span>Lea Lotus Lamp</span>'s duration is increased by 3s.",
+      "level": 2
+    },
+    {
+      "id": "whirling_weeds",
+      "name": "Whirling Weeds",
+      "description": "Increases the Level of <span>Razorgrass Blade</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "treacle_grass",
+      "name": "Treacle Grass",
+      "description": "After the <span>Lea Lotus Lamp</span> triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\"<br/>You must have unlocked this Passive Talent first.",
+      "level": 4
+    },
+    {
+      "id": "viridian_transience",
+      "name": "Viridian Transience",
+      "description": "Increases the Level of <span>Surgent Manifestation</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "withering_aggregation",
+      "name": "Withering Aggregation",
+      "description": "The <span>Dendro DMG Bonus</span> of the character under the effect of Overflowing Lotuslight as created by the <span>Lea Lotus Lamp</span> is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "brilliant_diamond_sliver",
+        "name": "Brilliant Diamond Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Damaged Mask",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Brilliant Diamond Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Stained Mask",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Brilliant Diamond Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "brilliant_diamond_gemstone",
+        "name": "Brilliant Diamond Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Windwheel Aster",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Ominous Mask",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_admonition",
+          "name": "Teachings of Admonition",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "fungal_spores",
+          "name": "Fungal Spores",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guide to Admonition",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Philosophies of Admonition",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra of the Malefic General",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

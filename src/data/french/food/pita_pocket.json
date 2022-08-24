@@ -1,0 +1,55 @@
+{
+  "id": "pita_pocket",
+  "name": "Snack pita",
+  "description": "Une galette de pain contenant de la garniture en tout genre. Lorsqu'elle cuit, la pâte toute plate devient ronde et volumineuse comme un poisson-globe. Après avoir coupé la galette, elle ressemble à un petit sac rempli de nourriture. On dit que dans les temps anciens, les Sumériens préféraient manger ces galettes en les trempant directement dans une sauce. Aujourd'hui, en revanche, la façon habituelle de les déguster est de les farcir avec toutes sortes d'ingrédients.",
+  "rarity": 3,
+  "ingredients": [
+    {
+      "id": "raw_meat",
+      "name": "Viande crue",
+      "amount": 3
+    },
+    {
+      "id": "flour",
+      "name": "Farine",
+      "amount": 3
+    },
+    {
+      "id": "tomato",
+      "name": "Tomate",
+      "amount": 2
+    },
+    {
+      "id": "milk",
+      "name": "Lait",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Snack pita (suspect)",
+      "description": "Une galette de pain contenant de la garniture en tout genre. Le pain râpe la langue comme du gravier, et il faut ajouter à cela la garniture sèche et dure qui a perdu toute sa couleur d'origine... Seul un voyageur égaré qui n'a pas mangé depuis trois jours accepterait de goûter ça.",
+      "effect": "Restaure 30 % des PV max du personnage sélectionné et 600 PV supplémentaires."
+    },
+    "normal": {
+      "name": "Snack pita",
+      "description": "Une galette de pain contenant de la garniture en tout genre. Lorsqu'elle cuit, la pâte toute plate devient ronde et volumineuse comme un poisson-globe. Après avoir coupé la galette, elle ressemble à un petit sac rempli de nourriture. On dit que dans les temps anciens, les Sumériens préféraient manger ces galettes en les trempant directement dans une sauce. Aujourd'hui, en revanche, la façon habituelle de les déguster est de les farcir avec toutes sortes d'ingrédients.",
+      "effect": "Restaure 32 % des PV max du personnage sélectionné et 1 250 PV supplémentaires."
+    },
+    "delicious": {
+      "name": "Snack pita (délicieux)",
+      "description": "Une galette de pain contenant de la garniture en tout genre. La sauce est tel un coup de projecteur faisant ressortir le charme du duo complice constitué par la viande parfumée et les légumes, qui sont les acteurs principaux de ce grand spectacle. Cette galette pita est semblable à un chapeau de magicien, renfermant un nombre illimité de surprises qui ne cessent d'époustoufler ceux qui la dégustent.",
+      "effect": "Restaure 34 % des PV max du personnage sélectionné et 1 900 PV supplémentaires."
+    },
+    "special": {
+      "name": "Aspiration",
+      "description": "Spécialité culinaire de Collei. Un pain mou garni d'ingrédients riches en nutriments qui est idéal pour les personnes qui doivent se déplacer souvent. Selon Collei, le bifteck qu'il contient est appelé « la viande grillée du garde forestier » ! Difficile de ne pas penser à une certaine fille vêtue de rouge pleine d'enthousiasme... C'est sûrement elle qui doit être à l'origine de l'aspiration de Collei.",
+      "effect": "Restaure 40 % des PV max du personnage sélectionné et 2 350 PV supplémentaires.",
+      "character": {
+        "id": "collei",
+        "name": "Collei"
+      }
+    }
+  }
+}

@@ -15,6 +15,7 @@ import { Bait, Fish, FishingRod } from './types/fishing';
 import { ExpMaterial } from './types/exp';
 import { AchievementCategory, Achievement } from './types/achievement';
 import { Furnishing } from './types/furnishing';
+import { Domains } from './types/domain';
 
 export type Material =
   | CommonMaterial
@@ -33,6 +34,7 @@ export {
   Character,
   Weapon,
   CommonMaterial,
+  Domains,
   ElementalStoneMaterial,
   ExpMaterial,
   Food,
@@ -74,6 +76,7 @@ type Folders =
   | 'character_exp_material'
   | 'characters'
   | 'common_materials'
+  | 'domains'
   | 'elemental_stone_materials'
   | 'fish'
   | 'fishing_rod'
@@ -253,6 +256,11 @@ export default class GenshinData {
   async furnishings(query?: QueryOpts<Furnishing>): Promise<Furnishing[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'furnishing', query);
+  }
+
+  async domains(query?: QueryOpts<Domains>): Promise<Domains> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'domains', query);
   }
 
   private async findByFolder<T>(

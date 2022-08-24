@@ -1,0 +1,752 @@
+{
+  "id": "traveler_dendro",
+  "name": "Viajante (Dendro)",
+  "description": "Um Viajante de outro mundo que teve seu ente querido levado e foi forçado a embarcar em uma jornada em busca dos Sete.",
+  "weapon_type": "Espada",
+  "element": "Dendro",
+  "gender": "Masculino/Feminino",
+  "substat": "ATQ%",
+  "affiliation": "——",
+  "rarity": 5,
+  "birthday": [null, null],
+  "constellation": "Viator",
+  "domain": "Campanário da Ignorância",
+  "cv": {
+    "english": "Zach Aguilar & Corina Boettger",
+    "chinese": "鹿喑&多多poi",
+    "japanese": "堀江瞬&古賀葵",
+    "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_foreign_fieldcleaver",
+      "name": "Ataque Normal: Foice Exótica",
+      "description": "<span>Ataque Normal</span><br/>Realiza até 5 golpes consecutivos.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%",
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%",
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%",
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos",
+            "20 pontos"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgent_manifestation",
+      "name": "Mímico Dendro",
+      "description": "Canalizando o poder da flora a sua volta, você cria uma Lótus Luminosa.<br/>Essa Lótus irá infligir <span>Dano Dendro</span> contínuo contra os oponentes dentro de uma AdE.<br/><br/><span>Transformação da Lótus Luminosa</span><br/>A Lótus Luminosa irá passar pelas seguintes mudanças depois de entrar em contato com <span>Hydro</span>/<span>Electro</span>/<span>Pyro</span>:<br/>· <span>Hydro</span>: A AdE da Lótus Luminosa e a AdE de seus ataques são aumentadas.<br/>· <span>Electro</span>: A Vel. de ATQ da Lótus Luminosa é aumentada.<br/>· <span>Pyro</span>: A Lótus Luminosa irá explodir depois de um curto período e então desaparecer, infligindo <span>Dano Dendro em uma AdE</span>.<br/>A Lótus Luminosa apenas poderá passar por uma única Transformação durante sua duração.<br/><br/>Apenas uma Lótus Luminosa criada pelo Viajante pode existir simultaneamente.",
+      "info": "Você e Paimon estudaram os sons das plantas que florescem após a chuva.",
+      "attributes": [
+        {
+          "label": "Dano do Ataque da Lótus Luminosa",
+          "values": [
+            "80.16%",
+            "86.17%",
+            "92.18%",
+            "100.2%",
+            "106.21%",
+            "112.22%",
+            "120.24%",
+            "128.26%",
+            "136.27%",
+            "144.29%",
+            "152.3%",
+            "160.32%",
+            "170.34%",
+            "180.36%",
+            "190.38%"
+          ]
+        },
+        {
+          "label": "Dano da Explosão",
+          "values": [
+            "400.8%",
+            "430.86%",
+            "460.92%",
+            "501%",
+            "531.06%",
+            "561.12%",
+            "601.2%",
+            "641.28%",
+            "681.36%",
+            "721.44%",
+            "761.52%",
+            "801.6%",
+            "851.7%",
+            "901.8%",
+            "951.9%"
+          ]
+        },
+        {
+          "label": "Duração da Lótus Luminosa",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "razorgrass_blade",
+      "name": "Espada da Grama Afiada",
+      "description": "Brandindo sua espada, você desencadeia uma chuva de folhas afiadas que infligem <span>Dano Dendro</span> à frente.",
+      "info": "Você e Paimon observaram as extremidades afiadas da grama e da folha.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "230.4%",
+            "247.68%",
+            "264.96%",
+            "288%",
+            "305.28%",
+            "322.56%",
+            "345.6%",
+            "368.64%",
+            "391.68%",
+            "414.72%",
+            "437.76%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "verdant_overgrowth",
+      "name": "Proliferação Exuberante",
+      "description": "<span>Lótus Luminosa</span> irá obter um acúmulo do efeito Sobrecarga Luminosa a cada segundo em campo, aumentando a Proficiência Elemental dos personagens ativos dentro de sua AdE em 6. A Sobrecarga Luminosa pode acumular até 10 vezes.",
+      "level": 1
+    },
+    {
+      "id": "verdant_luxury",
+      "name": "Verde Luxuoso",
+      "description": "Cada ponto de Proficiência Elemental que o Viajante possui aumenta o Dano infligido pela <span>Espada da Grama Afiada</span> em 0.15% e o Dano infligido pelo <span>Mímico Dendro</span> em 0.1%.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "id": "symbiotic_creeper",
+      "name": "Videira Parasítica",
+      "description": "Após a <span>Espada da Grama Afiada</span> acertar um oponente, ela irá gerar 3.5 de Energia ao Viajante.",
+      "level": 1
+    },
+    {
+      "id": "green_resilience",
+      "name": "Resiliência Verde",
+      "description": "Aumenta a duração da <span>Lótus Luminosa</span> em 3s.",
+      "level": 2
+    },
+    {
+      "id": "whirling_weeds",
+      "name": "Turbilhão de Ervas Daninhas",
+      "description": "Aumenta o nível da <span>Espada da Grama Afiada</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "treacle_grass",
+      "name": "Erva de Melaço",
+      "description": "Após a <span>Lótus Luminosa</span> desencadear a Transformação da Lótus Luminosa, ela irá obter 5 acúmulos do efeito de Sobrecarga Luminosa do Talento Passivo \"Proliferação Exuberante\".<br/>É preciso ter desbloqueado esse Talento Passivo primeiro.",
+      "level": 4
+    },
+    {
+      "id": "viridian_transience",
+      "name": "Transiência Viridiana",
+      "description": "Aumenta o nível do <span>Mímico Dendro</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "withering_aggregation",
+      "name": "Acúmulo Envelhecido",
+      "description": "O personagem sob o efeito da Sobrecarga Luminosa criada pela <span>Lótus Luminosa</span> ganha  12% de <span>Bônus de Dano Dendro</span>. Se a Lótus tiver passado pela Transformação da Lótus Luminosa, o personagem também ganhará 12% de Bônus de Dano ao elemento correspondente.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "brilliant_diamond_sliver",
+        "name": "Lasca de Diamante Brilhante",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara Danificada",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Fragmento de Diamante Brilhante",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "damaged_mask",
+        "name": "Máscara Danificada",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "brilliant_diamond_fragment",
+        "name": "Fragmento de Diamante Brilhante",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara Suja",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Pedaço de Diamante Brilhante",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "stained_mask",
+        "name": "Máscara Suja",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "brilliant_diamond_chunk",
+        "name": "Pedaço de Diamante Brilhante",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara Ominosa",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "brilliant_diamond_gemstone",
+        "name": "Gema de Diamante Brilhante",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat3": {
+        "id": "windwheel_aster",
+        "name": "Margaridas Voadoras",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ominous_mask",
+        "name": "Máscara Ominosa",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_admonition",
+          "name": "Ensinamentos de Admoestações",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "fungal_spores",
+          "name": "Esporo de Cogumelo Flutuante",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_ingenuity",
+          "name": "Guia da Engenhosidade",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guia da Admoestação",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_ingenuity",
+          "name": "Guia da Engenhosidade",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra da Shogun Maléfica",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Filosofia da Admoestação",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra da Shogun Maléfica",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofia da Engenhosidade",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra da Shogun Maléfica",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra da Shogun Maléfica",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

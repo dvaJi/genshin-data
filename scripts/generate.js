@@ -11,10 +11,17 @@ function combineData() {
     let data = {};
     for (const folder of folders) {
       if (!fs.existsSync(path.join(GENERATED_PATH, lang, folder))) continue;
-      data[folder] = [];
+      data[folder.replace('.json', '')] = [];
+
+      if (folder.endsWith('.json')) {
+        data[folder.replace('.json', '')].push(
+          require(path.join(GENERATED_PATH, lang, folder))
+        );
+        continue;
+      }
 
       fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
-        filename => {
+        (filename) => {
           if (!filename.endsWith('.json')) return;
           data[folder].push(
             require(path.join(GENERATED_PATH, lang, folder, filename))
