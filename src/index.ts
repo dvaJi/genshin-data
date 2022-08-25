@@ -260,14 +260,14 @@ export default class GenshinData {
 
   async domains(query?: QueryOpts<Domains>): Promise<Domains> {
     const lang = this.getLang();
-    return await this.findByFolder(lang, 'domains', query);
+    return (await this.findByFolder(lang, 'domains', query))[0];
   }
 
   private async findByFolder<T>(
     lang: Languages,
     folder: Folders,
     query?: QueryOpts<T>
-  ) {
+  ): Promise<T[]> {
     let results = (await import(`./min/data_${lang}.min.json`)).default[folder];
 
     if (query) {
