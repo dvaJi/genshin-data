@@ -1,3 +1,9 @@
+## [0.22.1](https://github.com/dvaJi/genshin-data/compare/0.22.0...0.22.1) (2022-08-24)
+
+### Fixes
+
+- **artifacts**: fix names and pieces bonus ([1f17adc](https://github.com/dvaJi/genshin-data/commit/1f17adc76da2e4953b01dd6b0f9223271604ae2e))
+
 ## [0.22.0](https://github.com/dvaJi/genshin-data/compare/0.21.0...0.22.0) (2022-08-24)
 
 ### Features
