@@ -1,3 +1,9 @@
+## [0.22.2](https://github.com/dvaJi/genshin-data/compare/0.22.1...0.22.2) (2022-08-25)
+
+### Fixes
+
+- **domains**: fix domains returning array instead of object ([1cce295](https://github.com/dvaJi/genshin-data/commit/1cce2954ce967744b1b40892d47d92a217eb1052))
+
 ## [0.22.1](https://github.com/dvaJi/genshin-data/compare/0.22.0...0.22.1) (2022-08-24)
 
 ### Fixes
