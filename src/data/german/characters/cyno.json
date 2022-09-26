@@ -1,0 +1,990 @@
+{
+  "id": "cyno",
+  "name": "Cyno",
+  "title": "Richter über Geheimnisse",
+  "description": "Mahamatra an der Akademie, der die Arbeit der Gelehrten beaufsichtigt. Bei seiner Arbeit ist er effizienter als das „Große Vayuvyastra“, das das Kshahrewar-Institut geschaffen hat.",
+  "weapon_type": "Stangenwaffe",
+  "element": "Elektro",
+  "gender": "Männlich",
+  "substat": "KSCH",
+  "affiliation": "Tempel des Schweigens",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [23, 6],
+  "constellation": "Lupus Aureus",
+  "domain": "Turm der Bewusstseinsschwäche",
+  "cv": {
+    "english": "Alejandro Saab",
+    "chinese": "李轻扬",
+    "japanese": "入野自由",
+    "korean": "Lee Woo-ri"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_invokers_spear",
+      "name": "Standardangriff: Speertechnik der Beschwörer",
+      "description": "<span>Standardangriff</span><br/>Führt bis zu 4 Lanzenstiche hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "49.26%",
+            "53.27%",
+            "57.28%",
+            "63%",
+            "67.01%",
+            "71.6%",
+            "77.9%",
+            "84.2%",
+            "90.5%",
+            "97.37%",
+            "104.24%",
+            "111.12%",
+            "117.99%",
+            "124.86%",
+            "131.73%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "47.92%",
+            "51.82%",
+            "55.72%",
+            "61.29%",
+            "65.19%",
+            "69.65%",
+            "75.78%",
+            "81.91%",
+            "88.04%",
+            "94.73%",
+            "101.41%",
+            "108.1%",
+            "114.79%",
+            "121.47%",
+            "128.16%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "29.31% + 29.31%",
+            "31.69% + 31.69%",
+            "34.08% + 34.08%",
+            "37.48% + 37.48%",
+            "39.87% + 39.87%",
+            "42.6% + 42.6%",
+            "46.34% + 46.34%",
+            "50.09% + 50.09%",
+            "53.84% + 53.84%",
+            "57.93% + 57.93%",
+            "62.02% + 62.02%",
+            "66.11% + 66.11%",
+            "70.2% + 70.2%",
+            "74.29% + 74.29%",
+            "78.38% + 78.38%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "75.89%",
+            "82.07%",
+            "88.24%",
+            "97.07%",
+            "103.25%",
+            "110.31%",
+            "120.01%",
+            "129.72%",
+            "139.43%",
+            "150.02%",
+            "160.61%",
+            "171.2%",
+            "181.78%",
+            "192.37%",
+            "202.96%"
+          ]
+        },
+        {
+          "label": "Heftige Schläge",
+          "values": [
+            "122.38%",
+            "132.34%",
+            "142.3%",
+            "156.53%",
+            "166.49%",
+            "177.87%",
+            "193.53%",
+            "209.18%",
+            "224.83%",
+            "241.91%",
+            "258.99%",
+            "276.06%",
+            "293.14%",
+            "310.21%",
+            "327.29%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "Geheimer Ritus – Abgründiger Seelenwanderer",
+      "description": "Führt blitzschnell einen Stoß aus, der den Gegnern in der Bahn <span>Elektro-Schaden</span> zufügt.<br/><br/>Wenn Cyno sich im Modus „Paktverschworener Pfadklärer“ befindet, den die Spezialfähigkeit „Heiliger Ritus – Schnelligkeit des Wolfs“ ausgelöst hat, führt er stattdessen den <span>Bestattungsritus</span> aus, der donnernd <span>Elektro-Flächenschaden</span> verursacht und die Dauer des Modus „Paktverschworener Pfadklärer“ verlängert.",
+      "info": "„Dieser Prozess lässt keinen Einspruch zu. Wir alle ... sind schon lange darin gefangen.“",
+      "attributes": [
+        {
+          "label": "Fähigkeits-SCH",
+          "values": [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        },
+        {
+          "label": "SCH des Bestattungsritus",
+          "values": [
+            "156.8%",
+            "168.56%",
+            "180.32%",
+            "196%",
+            "207.76%",
+            "219.52%",
+            "235.2%",
+            "250.88%",
+            "266.56%",
+            "282.24%",
+            "297.92%",
+            "313.6%",
+            "333.2%",
+            "352.8%",
+            "372.4%"
+          ]
+        },
+        {
+          "label": "Dauerbonus für „Paktverschworener Pfadklärer“",
+          "values": [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit des Bestattungsritus",
+          "values": [
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "Heiliger Ritus – Schnelligkeit des Wolfs",
+      "description": "Beschwört einen göttlichen Geist, der Cyno in den „Paktverschworenen Pfadklärer“ verwandelt.<br/><br/><span>Paktverschworener Pfadklärer</span><br/>Wandelt den durch Cynos Standardangriffe, heftige Schläge und Angriffe aus dem Fall verursachten Schaden in <span>Elektro-Schaden</span> um, der nicht von anderen Elementen überdeckt werden kann.<br/>· Erhöht Cynos Elementarkunde und Unterbrechungs-WDS. Verleiht ihm zugleich Immunität gegen Schaden, den die Reaktion „Unter Strom“ verursacht.<br/><br/>Diese Effekte halten bis zu 18 s und werden entfernt, sobald Cyno ausgewechselt wird.",
+      "info": "Die geheimen Riten der alten Zivilisation sind für Mahamatra auch der letzte Prozess.<br/><i>Ob die Vergangenheit oder die Gegenwart, ob Sturm oder Riesenschlange, nichts kann die Autorität des Gesetzes erschüttern.</i>",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "78.28%",
+            "84.66%",
+            "91.03%",
+            "100.13%",
+            "106.5%",
+            "113.78%",
+            "123.8%",
+            "133.81%",
+            "143.82%",
+            "154.75%",
+            "165.67%",
+            "176.59%",
+            "187.52%",
+            "198.44%",
+            "209.36%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "82.47%",
+            "89.18%",
+            "95.89%",
+            "105.48%",
+            "112.2%",
+            "119.87%",
+            "130.42%",
+            "140.96%",
+            "151.51%",
+            "163.02%",
+            "174.53%",
+            "186.03%",
+            "197.54%",
+            "209.05%",
+            "220.56%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "104.63%",
+            "113.15%",
+            "121.67%",
+            "133.83%",
+            "142.35%",
+            "152.08%",
+            "165.47%",
+            "178.85%",
+            "192.23%",
+            "206.83%",
+            "221.43%",
+            "236.03%",
+            "250.63%",
+            "265.23%",
+            "279.83%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "51.69% + 51.69%",
+            "55.9% + 55.9%",
+            "60.11% + 60.11%",
+            "66.12% + 66.12%",
+            "70.33% + 70.33%",
+            "75.14% + 75.14%",
+            "81.75% + 81.75%",
+            "88.36% + 88.36%",
+            "94.97% + 94.97%",
+            "102.19% + 102.19%",
+            "109.4% + 109.4%",
+            "116.61% + 116.61%",
+            "123.83% + 123.83%",
+            "131.04% + 131.04%",
+            "138.25% + 138.25%"
+          ]
+        },
+        {
+          "label": "SCH Phase 5",
+          "values": [
+            "130.84%",
+            "141.49%",
+            "152.15%",
+            "167.36%",
+            "178.01%",
+            "190.18%",
+            "206.92%",
+            "223.65%",
+            "240.39%",
+            "258.65%",
+            "276.9%",
+            "295.16%",
+            "313.42%",
+            "331.68%",
+            "349.93%"
+          ]
+        },
+        {
+          "label": "SCH heftiger Schläge",
+          "values": [
+            "101.05%",
+            "109.27%",
+            "117.5%",
+            "129.25%",
+            "137.48%",
+            "146.88%",
+            "159.8%",
+            "172.72%",
+            "185.65%",
+            "199.75%",
+            "213.85%",
+            "227.95%",
+            "242.05%",
+            "256.15%",
+            "270.25%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte",
+            "25 Punkte"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        },
+        {
+          "label": "Elementarkunde-Bonus",
+          "values": [
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte",
+            "100 Punkte"
+          ]
+        },
+        {
+          "label": "Basisdauer",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "featherfall_judgment",
+      "name": "Urteil der Federn",
+      "description": "Befindet sich Cyno im Modus „Paktverschworener Pfadklärer“ der Spezialfähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span>, wird er in Intervallen den Zustand „Prophet des Endes“ einnehmen. Wendet er in diesem Zustand die Elementarfähigkeit <span>Geheimer Ritus – Abgründiger Seelenwanderer</span> an, wird der Effekt „Zumessung“ ausgelöst, der den diesmaligen Schaden von „Geheimer Ritus – Abgründiger Seelenwanderer“ um 35 % erhöht und 3 Staubblitze nach vorn abfeuert, die <span>Elektro-Schaden </span> in Höhe von 100 % von Cynos ANG verursachen.<br/>Schaden der Staubblitze gilt als Schaden der Elementarfähigkeit.",
+      "level": 1
+    },
+    {
+      "id": "authority_over_the_nine_bows",
+      "name": "Autorität der neun Bögen",
+      "description": "Erhöht den Schaden Cynos folgender Angriffe basierend auf seiner Elementarkunde:<br/>· Standardangriff im Modus „Paktverschworener Pfadklärer“: um 150 % seiner Elementarkunde.<br/>· Staubblitze des passiven Talents „Urteil der Federn“: um 250 % seiner Elementarkunde.",
+      "level": 4
+    },
+    {
+      "id": "the_gift_of_silence",
+      "name": "Gnade der Stille",
+      "description": "Bringt bei 20-stündigen Erkundungsentsendungen in Sumeru 25 % mehr Belohnungen.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "ordinance_unceasing_vigil",
+      "name": "Ordnungsritus – Unermüdliche Wachsamkeit",
+      "description": "Erhöht 10 s lang nach Anwenden der Fähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span> Cynos Geschwindigkeit der Standardangriffe um 20 %. Wenn der Effekt „Zumessung“ des passiven Talents „Urteil der Federn“ beim Anwenden der Fähigkeit <span>Geheimer Ritus – Abgründiger Seelenwanderer</span> ausgelöst wird, wird die Dauer dieses Bonus aktualisiert.<br/>Das passive Talent „Urteil der Federn“ muss zuerst freigeschaltet werden.",
+      "level": 1
+    },
+    {
+      "id": "ceremony_homecoming_of_spirits",
+      "name": "Zeremonienritus – Heimkehrende Seelen",
+      "description": "Erhöht 4 s lang nach Treffen von Gegnern mit Cynos Standardangriffen Cynos <span>Elektro-SCH</span> um 10 %. 0,1 s Abklingzeit. 5-fach stapelbar.",
+      "level": 2
+    },
+    {
+      "id": "precept_lawful_enforcer",
+      "name": "Gebotsritus – Gesetzestreuer Vollstrecker",
+      "description": "Erhöht die Stufe der Fähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span> um 3.<br/>Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "austerity_forbidding_guard",
+      "name": "Austeritätsritus – Beschützender Verbotswächter",
+      "description": "Befindet sich Cyno im Modus „Paktverschworener Pfadklärer“ der Spezialfähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span>, stellt er nach Auslösen der Reaktionen wie „Unter Strom“, „Supraleiter“, „Überladen“, „Urwuchs“, „Suprawuchs“, „Supraspross“ oder „Elektro-Verwirbelung“ allen Truppenmitgliedern in der Nähe (außer Cyno) 3 Punkte Elementarenergie wieder her.<br/>5-mal während der Wirkungsdauer der Spezialfähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span> auslösbar.",
+      "level": 4
+    },
+    {
+      "id": "funerary_rite_the_passing_of_starlight",
+      "name": "Grabritus – Vergehendes Sternenlicht",
+      "description": "Erhöht die Stufe der Fähigkeit <span>Geheimer Ritus – Abgründiger Seelenwanderer</span> um 3.<br/>Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "raiment_just_scales",
+      "name": "Federritus – Gerechte Waage",
+      "description": "Cyno erhält beim Anwenden der Spezialfähigkeit <span>Heiliger Ritus – Schnelligkeit des Wolfs</span> oder nach Auslösen des Effekts „Zumessung“ des passiven Talents „Urteil der Federn“ 4 Stapelungen des Effekts „Opfer des Schakals“. Bei einem Treffer mit Cynos Standardangriff verbraucht er 1 Stapelung von „Opfer des Schakals“, um einen Staubblitz auszulösen.<br/>Der Effekt „Opfer des Schakals“ hält 8 s, 8-fach stapelbar. „Opfer des Schakals“ wird entfernt, sobald der Modus „Paktverschworener Pfadklärer“ der Fähigkeit „Heiliger Ritus – Schnelligkeit des Wolfs“ endet.<br/>0,4 s Abklingzeit für das Auslösen solch eines Staubblitzes.<br/>Das passive Talent „Urteil der Federn“ muss zuerst freigeschaltet werden.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada-Amethyst-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada-Amethyst-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Donnerknall-Fruchtkern",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada-Amethyst-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Donnerknall-Fruchtkern",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada-Amethyst-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Donnerknall-Fruchtkern",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada-Amethyst-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Donnerknall-Fruchtkern",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Fluchschriftrolle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada-Amethyst",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Donnerknall-Fruchtkern",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Skarabäus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Fluchschriftrolle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_admonition",
+          "name": "Lehren der „Ermahnung“",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "divining_scroll",
+          "name": "Leitende Schriftrolle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Anleitung zur „Ermahnung“",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Anleitung zur „Ermahnung“",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Anleitung zur „Ermahnung“",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Anleitung zur „Ermahnung“",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Philosophie der „Ermahnung“",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra des grimmigen Generals",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Philosophie der „Ermahnung“",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra des grimmigen Generals",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Philosophie der „Ermahnung“",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra des grimmigen Generals",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Philosophie der „Ermahnung“",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Fluchschriftrolle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra des grimmigen Generals",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Krone der Weisheit",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,850 @@
+{
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Dance of Lotuslight",
+  "description": "The star of the Zubayr Theater. She is full of warmth and innocence, and her dances are lively and elegant.",
+  "weapon_type": "Sword",
+  "element": "Hydro",
+  "gender": "Female",
+  "substat": "HP%",
+  "affiliation": "Zubayr Theater",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 12],
+  "constellation": "Lotos Somno",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Dani Chambers",
+    "chinese": "紫苏九月",
+    "japanese": "金元寿子",
+    "korean": "Chae Rim"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_dance_of_samser",
+      "name": "Normal Attack: Dance of Samser",
+      "description": "<span>Normal Attack</span><br/>Performs up to 3 consecutive sword strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to perform a twirling slash.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "50.31%",
+            "54.4%",
+            "58.5%",
+            "64.35%",
+            "68.44%",
+            "73.12%",
+            "79.56%",
+            "85.99%",
+            "92.43%",
+            "99.44%",
+            "106.46%",
+            "113.48%",
+            "120.5%",
+            "127.52%",
+            "134.54%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "45.44%",
+            "49.14%",
+            "52.84%",
+            "58.12%",
+            "61.82%",
+            "66.04%",
+            "71.86%",
+            "77.67%",
+            "83.48%",
+            "89.82%",
+            "96.16%",
+            "102.5%",
+            "108.84%",
+            "115.18%",
+            "121.52%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "70.35%",
+            "76.08%",
+            "81.81%",
+            "89.99%",
+            "95.71%",
+            "102.26%",
+            "111.26%",
+            "120.26%",
+            "129.26%",
+            "139.07%",
+            "148.89%",
+            "158.71%",
+            "168.52%",
+            "178.34%",
+            "188.16%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "50.22% + 54.44%",
+            "54.31% + 58.87%",
+            "58.4% + 63.3%",
+            "64.24% + 69.63%",
+            "68.33% + 74.06%",
+            "73% + 79.12%",
+            "79.42% + 86.09%",
+            "85.85% + 93.05%",
+            "92.27% + 100.01%",
+            "99.28% + 107.61%",
+            "106.29% + 115.21%",
+            "113.3% + 122.8%",
+            "120.3% + 130.4%",
+            "127.31% + 137.99%",
+            "134.32% + 145.59%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Dance of Haftkarsvar",
+      "description": "Enters the Pirouette state, dealing <span>Hydro DMG</span> to nearby opponents based on Nilou's Max HP.<br/>While she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to <span>Hydro DMG</span> that cannot be overridden and that is considered Elemental Skill DMG.<br/><br/>In these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step:<br/>·Sword Dance: unleashes a Luminous Illusion that deals <span>Hydro DMG</span> to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.<br/>·Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals <span>AoE Hydro DMG</span> and creates a Tranquility Aura that follows your active character around and applies <span>Wet</span> to opponents within its AoE.<br/><br/>Nilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.",
+      "info": "\"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "3.34% Max HP",
+            "3.59% Max HP",
+            "3.84% Max HP",
+            "4.17% Max HP",
+            "4.42% Max HP",
+            "4.67% Max HP",
+            "5.01% Max HP",
+            "5.34% Max HP",
+            "5.68% Max HP",
+            "6.01% Max HP",
+            "6.34% Max HP",
+            "6.68% Max HP",
+            "7.1% Max HP",
+            "7.51% Max HP",
+            "7.93% Max HP"
+          ]
+        },
+        {
+          "label": "Sword Dance/Whirling Steps 1-Hit DMG",
+          "values": [
+            "4.55% / 3.26% Max HP",
+            "4.89% / 3.51% Max HP",
+            "5.24% / 3.75% Max HP",
+            "5.69% / 4.08% Max HP",
+            "6.03% / 4.32% Max HP",
+            "6.37% / 4.57% Max HP",
+            "6.83% / 4.89% Max HP",
+            "7.28% / 5.22% Max HP",
+            "7.74% / 5.55% Max HP",
+            "8.19% / 5.87% Max HP",
+            "8.65% / 6.2% Max HP",
+            "9.1% / 6.52% Max HP",
+            "9.67% / 6.93% Max HP",
+            "10.24% / 7.34% Max HP",
+            "10.81% / 7.75% Max HP"
+          ]
+        },
+        {
+          "label": "Sword Dance/Whirling Steps 2-Hit DMG",
+          "values": [
+            "5.14% / 3.96% Max HP",
+            "5.53% / 4.26% Max HP",
+            "5.92% / 4.55% Max HP",
+            "6.43% / 4.95% Max HP",
+            "6.82% / 5.25% Max HP",
+            "7.2% / 5.54% Max HP",
+            "7.72% / 5.94% Max HP",
+            "8.23% / 6.34% Max HP",
+            "8.75% / 6.73% Max HP",
+            "9.26% / 7.13% Max HP",
+            "9.77% / 7.52% Max HP",
+            "10.29% / 7.92% Max HP",
+            "10.93% / 8.42% Max HP",
+            "11.58% / 8.91% Max HP",
+            "12.22% / 9.41% Max HP"
+          ]
+        },
+        {
+          "label": "Luminous Illusion/Water Wheel DMG",
+          "values": [
+            "7.17% / 5.06% Max HP",
+            "7.71% / 5.44% Max HP",
+            "8.24% / 5.82% Max HP",
+            "8.96% / 6.33% Max HP",
+            "9.5% / 6.71% Max HP",
+            "10.04% / 7.09% Max HP",
+            "10.75% / 7.59% Max HP",
+            "11.47% / 8.1% Max HP",
+            "12.19% / 8.6% Max HP",
+            "12.9% / 9.11% Max HP",
+            "13.62% / 9.62% Max HP",
+            "14.34% / 10.12% Max HP",
+            "15.23% / 10.76% Max HP",
+            "16.13% / 11.39% Max HP",
+            "17.03% / 12.02% Max HP"
+          ]
+        },
+        {
+          "label": "Pirouette Duration",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Lunar Prayer Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Tranquility Aura Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+      "description": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing <span>AoE Hydro DMG</span> based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit.<br/>After an interval, opponents affected by Lingering Aeon will take <span>Hydro DMG</span>.",
+      "info": "\"We have never witnessed that distant dream, but this dance can bring it to life.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "18.43% Max HP",
+            "19.81% Max HP",
+            "21.2% Max HP",
+            "23.04% Max HP",
+            "24.42% Max HP",
+            "25.8% Max HP",
+            "27.65% Max HP",
+            "29.49% Max HP",
+            "31.33% Max HP",
+            "33.18% Max HP",
+            "35.02% Max HP",
+            "36.86% Max HP",
+            "39.17% Max HP",
+            "41.47% Max HP",
+            "43.78% Max HP"
+          ]
+        },
+        {
+          "label": "Lingering Aeon DMG",
+          "values": [
+            "22.53% Max HP",
+            "24.22% Max HP",
+            "25.91% Max HP",
+            "28.16% Max HP",
+            "29.85% Max HP",
+            "31.54% Max HP",
+            "33.79% Max HP",
+            "36.04% Max HP",
+            "38.3% Max HP",
+            "40.55% Max HP",
+            "42.8% Max HP",
+            "45.06% Max HP",
+            "47.87% Max HP",
+            "50.69% Max HP",
+            "53.5% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "court_of_dancing_petals",
+      "name": "Court of Dancing Petals",
+      "description": "When all characters in the party are all <span>Dendro</span> or <span>Hydro</span>, and there are at least one Dendro character and one Hydro character:<br/>The completion of the third dance step of Nilou's <span>Dance of Haftkarsvar</span> will grant all nearby characters the Golden Chalice's Bounty for 30s upon its completion.<br/>Characters under the effect of Golden Chalice's Bounty will increase the Elemental Mastery of all nearby characters by 100 for 10s whenever they are hit by <span>Dendro attacks</span>. Also, triggering the Bloom reaction will create Bountiful Cores instead of Dendro Cores.<br/>Such Cores will burst very quickly after being created, and they have larger AoEs.<br/>Bountiful Cores cannot trigger Hyperbloom or Burgeon, and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.<br/>Should the party not meet the conditions for this Passive Talent, any existing Golden Chalice's Bounty effects will be canceled.",
+      "level": 1
+    },
+    {
+      "id": "dreamy_dance_of_aeons",
+      "name": "Dreamy Dance of Aeons",
+      "description": "Every 1,000 points of Nilou's Max HP above 30,000 will cause the DMG dealt by Bountiful Cores created by characters affected by Golden Chalice's Bounty to increase by 9%.<br/>The maximum increase in Bountiful Core DMG that can be achieved this way is 400%.",
+      "level": 4
+    },
+    {
+      "id": "white_jade_lotus",
+      "name": "White Jade Lotus",
+      "description": "When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "dance_of_the_waning_moon",
+      "name": "Dance of the Waning Moon",
+      "description": "<span>Dance of Haftkarsvar</span> will be enhanced as follows:<br/>·Luminous Illusion DMG is increased by 65%.<br/>·The Tranquility Aura's duration is extended by 6s.",
+      "level": 1
+    },
+    {
+      "id": "the_starry_skies_their_flowers_rain",
+      "name": "The Starry Skies Their Flowers Rain",
+      "description": "After characters affected by the Golden Chalice's Bounty deal <span>Hydro DMG</span> to an opponent, that opponent's <span>Hydro RES</span> will be decreased by 35% for 10s. After a triggered Bloom reaction deals DMG to opponents, their <span>Dendro RES</span> will be decreased by 35% for 10s.<br/>You need to have unlocked the \"Court of Dancing Petals\" Talent.",
+      "level": 2
+    },
+    {
+      "id": "beguiling_shadowstep",
+      "name": "Beguiling Shadowstep",
+      "description": "Increases the Level of <span>Dance of Abzendegi: Distant Dreams, Listening Spring</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "fricative_pulse",
+      "name": "Fricative Pulse",
+      "description": "After the third dance step of <span>Dance of Haftkarsvar</span>'s Pirouette hits opponents, Nilou will gain 15 Elemental Energy, and DMG from her <span>Dance of Abzendegi: Distant Dreams, Listening Spring</span> will be increased by 50% for 8s.",
+      "level": 4
+    },
+    {
+      "id": "twirling_light",
+      "name": "Twirling Light",
+      "description": "Increases the Level of <span>Dance of Haftkarsvar</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "frostbreakers_melody",
+      "name": "Frostbreaker's Melody",
+      "description": "For every 1,000 points of Max HP, Nilou's CRIT Rate and CRIT DMG will increase by 0.6% and 1.2% respectively.<br/>The maximum increase in CRIT Rate and CRIT DMG via this method is 30% and 60% respectively.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Varunada Lazurite Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Varunada Lazurite Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Varunada Lazurite Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_praxis",
+          "name": "Teachings of Praxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "fungal_spores",
+          "name": "Fungal Spores",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Tears of the Calamitous God",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

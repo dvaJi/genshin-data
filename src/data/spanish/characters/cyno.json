@@ -1,0 +1,990 @@
+{
+  "id": "cyno",
+  "name": "Cyno",
+  "title": "El Magistrado de lo Arcano",
+  "description": "Gran Juez de la matra y supervisor de los eruditos de la Academia de Sumeru. Cuando trabaja, es incluso más eficiente que la “Gran Vayuvyastra” creada por la Facultad Kshahrewar.",
+  "weapon_type": "Lanza",
+  "element": "Electro",
+  "gender": "Masculino",
+  "substat": "Daño CRIT",
+  "affiliation": "Templo del Silencio",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [23, 6],
+  "constellation": "Lupus Aureus",
+  "domain": "Estupa Avidya",
+  "cv": {
+    "english": "Alejandro Saab",
+    "chinese": "李轻扬",
+    "japanese": "入野自由",
+    "korean": "Lee Woo-ri"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_invokers_spear",
+      "name": "Ataque Normal: Lanza de la invocación",
+      "description": "<span>Ataque Normal</span><br/>Realiza hasta 4 ataques rápidos con lanza.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzarse al frente, e infligir daño a los enemigos en el camino.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "49.26%",
+            "53.27%",
+            "57.28%",
+            "63%",
+            "67.01%",
+            "71.6%",
+            "77.9%",
+            "84.2%",
+            "90.5%",
+            "97.37%",
+            "104.24%",
+            "111.12%",
+            "117.99%",
+            "124.86%",
+            "131.73%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "47.92%",
+            "51.82%",
+            "55.72%",
+            "61.29%",
+            "65.19%",
+            "69.65%",
+            "75.78%",
+            "81.91%",
+            "88.04%",
+            "94.73%",
+            "101.41%",
+            "108.1%",
+            "114.79%",
+            "121.47%",
+            "128.16%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "29.31% + 29.31%",
+            "31.69% + 31.69%",
+            "34.08% + 34.08%",
+            "37.48% + 37.48%",
+            "39.87% + 39.87%",
+            "42.6% + 42.6%",
+            "46.34% + 46.34%",
+            "50.09% + 50.09%",
+            "53.84% + 53.84%",
+            "57.93% + 57.93%",
+            "62.02% + 62.02%",
+            "66.11% + 66.11%",
+            "70.2% + 70.2%",
+            "74.29% + 74.29%",
+            "78.38% + 78.38%"
+          ]
+        },
+        {
+          "label": "Daño de 4.º golpe",
+          "values": [
+            "75.89%",
+            "82.07%",
+            "88.24%",
+            "97.07%",
+            "103.25%",
+            "110.31%",
+            "120.01%",
+            "129.72%",
+            "139.43%",
+            "150.02%",
+            "160.61%",
+            "171.2%",
+            "181.78%",
+            "192.37%",
+            "202.96%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "122.38%",
+            "132.34%",
+            "142.3%",
+            "156.53%",
+            "166.49%",
+            "177.87%",
+            "193.53%",
+            "209.18%",
+            "224.83%",
+            "241.91%",
+            "258.99%",
+            "276.06%",
+            "293.14%",
+            "310.21%",
+            "327.29%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "Rito secreto: Guía de las almas abismales",
+      "description": "Se arroja rápidamente hacia delante para infligir <span>Daño Electro</span> contra los enemigos en el camino.<br/><br/>Cuando Cyno está en el estado de abrecaminos del juramento de su Habilidad Definitiva, Rito sagrado: Celeridad lupina, realizará una <span>ofrenda mortuoria</span> que libera el poder del rayo para infligir <span>Daño Electro en el AdE</span> y prolongar la duración de abrecaminos del juramento.",
+      "info": "No tienes el derecho ni de aceptar ni de rechazar este veredicto, pues tanto tú como yo fuimos juzgados hace ya mucho tiempo.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        },
+        {
+          "label": "Daño de ofrenda mortuoria",
+          "values": [
+            "156.8%",
+            "168.56%",
+            "180.32%",
+            "196%",
+            "207.76%",
+            "219.52%",
+            "235.2%",
+            "250.88%",
+            "266.56%",
+            "282.24%",
+            "297.92%",
+            "313.6%",
+            "333.2%",
+            "352.8%",
+            "372.4%"
+          ]
+        },
+        {
+          "label": "Prolongación de abrecaminos del juramento",
+          "values": [
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s",
+            "4 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s",
+            "7.5 s"
+          ]
+        },
+        {
+          "label": "TdE de ofrenda mortuoria",
+          "values": [
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s",
+            "3 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "Rito sagrado: Celeridad lupina",
+      "description": "Invoca a un espíritu divino para que lo posea y se transforma en el abrecaminos del juramento.<br/><br/><span>Abrecaminos del juramento</span><br/>·Transforma el daño de los Ataques Normales, Cargados y Descendentes de Cyno en <span>Daño Electro</span>, el cual no puede sustituirse imbuyéndose de otro elemento.<br/>·Aumenta la Maestría Elemental y la RES a interrupción de Cyno y lo vuelve inmune al daño de Electrocargado.<br/><br/>Este efecto dura un máximo de 18 s y desaparece cuando Cyno es retirado de combate.",
+      "info": "Para el Gran Juez, los ritos secretos heredados de las civilizaciones de la antigüedad son como un juicio final.<br/><i>Ya sea el pasado, el presente, una tormenta de arena o una serpiente pitón, nada ni nadie puede hacer que el poder de la ley se estremezca.</i>",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "78.28%",
+            "84.66%",
+            "91.03%",
+            "100.13%",
+            "106.5%",
+            "113.78%",
+            "123.8%",
+            "133.81%",
+            "143.82%",
+            "154.75%",
+            "165.67%",
+            "176.59%",
+            "187.52%",
+            "198.44%",
+            "209.36%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "82.47%",
+            "89.18%",
+            "95.89%",
+            "105.48%",
+            "112.2%",
+            "119.87%",
+            "130.42%",
+            "140.96%",
+            "151.51%",
+            "163.02%",
+            "174.53%",
+            "186.03%",
+            "197.54%",
+            "209.05%",
+            "220.56%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "104.63%",
+            "113.15%",
+            "121.67%",
+            "133.83%",
+            "142.35%",
+            "152.08%",
+            "165.47%",
+            "178.85%",
+            "192.23%",
+            "206.83%",
+            "221.43%",
+            "236.03%",
+            "250.63%",
+            "265.23%",
+            "279.83%"
+          ]
+        },
+        {
+          "label": "Daño de 4.º golpe",
+          "values": [
+            "51.69% + 51.69%",
+            "55.9% + 55.9%",
+            "60.11% + 60.11%",
+            "66.12% + 66.12%",
+            "70.33% + 70.33%",
+            "75.14% + 75.14%",
+            "81.75% + 81.75%",
+            "88.36% + 88.36%",
+            "94.97% + 94.97%",
+            "102.19% + 102.19%",
+            "109.4% + 109.4%",
+            "116.61% + 116.61%",
+            "123.83% + 123.83%",
+            "131.04% + 131.04%",
+            "138.25% + 138.25%"
+          ]
+        },
+        {
+          "label": "Daño de 5.º golpe",
+          "values": [
+            "130.84%",
+            "141.49%",
+            "152.15%",
+            "167.36%",
+            "178.01%",
+            "190.18%",
+            "206.92%",
+            "223.65%",
+            "240.39%",
+            "258.65%",
+            "276.9%",
+            "295.16%",
+            "313.42%",
+            "331.68%",
+            "349.93%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "101.05%",
+            "109.27%",
+            "117.5%",
+            "129.25%",
+            "137.48%",
+            "146.88%",
+            "159.8%",
+            "172.72%",
+            "185.65%",
+            "199.75%",
+            "213.85%",
+            "227.95%",
+            "242.05%",
+            "256.15%",
+            "270.25%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts.",
+            "25 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        },
+        {
+          "label": "Aumento de Maestría Elemental",
+          "values": [
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts."
+          ]
+        },
+        {
+          "label": "Duración básica",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "featherfall_judgment",
+      "name": "Juicio de la pluma",
+      "description": "Mientras está en el estado de abrecaminos del juramento de <span>Rito sagrado: Celeridad lupina</span>, Cyno entrará cada cierto tiempo en el estado de “profeta del fin”. Cuando usa <span>Rito secreto: Guía de las almas abismales</span> mientras está en ese estado, provocará el efecto de “sentencia”, el cual aumenta en un 35% el daño infligido con dicha habilidad y dispara hacia delante 3 rayos catastróficos que infligen <span>Daño Electro</span> equivalente al 100% del ATQ de Cyno.<br/>El daño de los rayos catastróficos se considera daño de Habilidad Elemental.",
+      "level": 1
+    },
+    {
+      "id": "authority_over_the_nine_bows",
+      "name": "Potestad de los Nueve Arcos",
+      "description": "Aumenta el daño de los siguientes ataques de Cyno en función de su Maestría Elemental:<br/>·El daño de los Ataques Normales ejecutados en el estado de abrecaminos del juramento aumenta en un 150% de la Maestría Elemental.<br/>·El daño de los rayos catastróficos del talento pasivo “Juicio de la pluma” aumenta en un 250% de la Maestría Elemental.",
+      "level": 4
+    },
+    {
+      "id": "the_gift_of_silence",
+      "name": "Gracia del silencio",
+      "description": "Aumenta en un 25% las recompensas de las expediciones de 20 h en Sumeru.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "ordinance_unceasing_vigil",
+      "name": "Decreto: Vigilancia incansable",
+      "description": "Tras usar <span>Rito sagrado: Celeridad lupina</span>, la Vel. de Ataque Normal de Cyno aumenta en un 20% durante 10 s. Además, si al usar <span>Rito secreto: Guía de las almas abismales</span> se activa el efecto de “sentencia” del talento pasivo “Juicio de la pluma”, la duración del aumento de Vel. de Ataque Normal se reiniciará.<br/>Es necesario desbloquear el talento pasivo “Juicio de la pluma”.",
+      "level": 1
+    },
+    {
+      "id": "ceremony_homecoming_of_spirits",
+      "name": "Ceremonia: Retorno de las almas",
+      "description": "Cuando Cyno golpea a un enemigo con un Ataque Normal, su <span>Bono de Daño Electro</span> aumenta en un 10% durante 4 s. Este efecto solo se puede activar una vez cada 0.1 s y puede acumularse un máximo de 5 veces.",
+      "level": 2
+    },
+    {
+      "id": "precept_lawful_enforcer",
+      "name": "Edicto: Castigo de la ley",
+      "description": "Aumenta el nivel de habilidad de <span>Rito sagrado: Celeridad lupina</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "id": "austerity_forbidding_guard",
+      "name": "Inspección: Defensa intimidante",
+      "description": "Cuando Cyno está en el estado de “abrecaminos del juramento” de <span>Rito sagrado: Celeridad lupina</span> y causa una reacción de Electrocargado, Superconductor, Sobrecarga, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, todos los miembros del equipo cercanos (a excepción de Cyno) recuperan 3 pts. de Energía Elemental.<br/>Este efecto solo puede ocurrir 5 veces por cada uso de <span>Rito sagrado: Celeridad lupina</span>.",
+      "level": 4
+    },
+    {
+      "id": "funerary_rite_the_passing_of_starlight",
+      "name": "Exequias: Luz del tránsito",
+      "description": "Aumenta el nivel de habilidad de <span>Rito secreto: Guía de las almas abismales</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "id": "raiment_just_scales",
+      "name": "Liturgia: Balanza del juicio",
+      "description": "Tras usar <span>Rito sagrado: Celeridad lupina</span> o tras activar el efecto de sentencia del talento pasivo “Juicio de la pluma”, Cyno obtiene 4 cargas del efecto “rito chacálico”. Al golpear a un enemigo con un Ataque Normal, consume una carga y lanza un rayo catastrófico.<br/>Rito chacálico dura 8 s, puede acumularse un máximo de 8 veces y se anulará cuando termine la duración del estado de abrecaminos del juramento de Rito sagrado: Celeridad lupina.<br/>Como máximo, puede lanzar un rayo catastrófico cada 0.4 s de esta manera.<br/>Es necesario desbloquear el talento pasivo “Juicio de la pluma”.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "vajrada_amethyst_sliver",
+        "name": "Pedacito de amatista vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Fruto atronador",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de amatista vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Fruto atronador",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Fruto atronador",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "vajrada_amethyst_chunk",
+        "name": "Trozo de amatista vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Fruto atronador",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Amatista vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "thunderclap_fruitcore",
+        "name": "Fruto atronador",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "scarab",
+        "name": "Escarabajo dorado",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_admonition",
+          "name": "Enseñanzas de la exhortación",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "divining_scroll",
+          "name": "Pergamino guía",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guía de la exhortación",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guía de la exhortación",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guía de la exhortación",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_admonition",
+          "name": "Guía de la exhortación",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Filosofía de la exhortación",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra de la Shogun implacable",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Filosofía de la exhortación",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra de la Shogun implacable",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Filosofía de la exhortación",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra de la Shogun implacable",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_admonition",
+          "name": "Filosofía de la exhortación",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "mudra_of_the_malefic_general",
+          "name": "Mudra de la Shogun implacable",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Corona de la sabiduría",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

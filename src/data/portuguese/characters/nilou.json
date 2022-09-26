@@ -1,0 +1,850 @@
+{
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Dança da Luz de Lótus",
+  "description": "A Estrela do Teatro Zubayr, ela é bondosa e inocente. Seu estilo de dança é alegre e elegante.",
+  "weapon_type": "Espada",
+  "element": "Hydro",
+  "gender": "Feminino",
+  "substat": "Vida%",
+  "affiliation": "Teatro Zubayr",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 12],
+  "constellation": "Lotos Somno",
+  "domain": "Campanário da Ignorância",
+  "cv": {
+    "english": "Dani Chambers",
+    "chinese": "紫苏九月",
+    "japanese": "金元寿子",
+    "korean": "Chae Rim"
+  },
+  "skills": [
+    {
+      "id": "normal_attack_dance_of_samser",
+      "name": "Ataque Normal: Dança da Meia-Lua",
+      "description": "<span>Ataque Normal</span><br/>Realiza até 3 golpes rápidos.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para desferir um golpe giratório.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "50.31%",
+            "54.4%",
+            "58.5%",
+            "64.35%",
+            "68.44%",
+            "73.12%",
+            "79.56%",
+            "85.99%",
+            "92.43%",
+            "99.44%",
+            "106.46%",
+            "113.48%",
+            "120.5%",
+            "127.52%",
+            "134.54%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "45.44%",
+            "49.14%",
+            "52.84%",
+            "58.12%",
+            "61.82%",
+            "66.04%",
+            "71.86%",
+            "77.67%",
+            "83.48%",
+            "89.82%",
+            "96.16%",
+            "102.5%",
+            "108.84%",
+            "115.18%",
+            "121.52%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "70.35%",
+            "76.08%",
+            "81.81%",
+            "89.99%",
+            "95.71%",
+            "102.26%",
+            "111.26%",
+            "120.26%",
+            "129.26%",
+            "139.07%",
+            "148.89%",
+            "158.71%",
+            "168.52%",
+            "178.34%",
+            "188.16%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "50.22% + 54.44%",
+            "54.31% + 58.87%",
+            "58.4% + 63.3%",
+            "64.24% + 69.63%",
+            "68.33% + 74.06%",
+            "73% + 79.12%",
+            "79.42% + 86.09%",
+            "85.85% + 93.05%",
+            "92.27% + 100.01%",
+            "99.28% + 107.61%",
+            "106.29% + 115.21%",
+            "113.3% + 122.8%",
+            "120.3% + 130.4%",
+            "127.31% + 137.99%",
+            "134.32% + 145.59%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Dança dos Sete Reinos",
+      "description": "Entra no estado de \"Pirueta\", infligindo <span>Dano Hydro</span> baseado na Vida Máxima de Nilou.<br/>Enquanto estiver no estado de Pirueta, ao desferir Ataques Normais ou lançar sua Habilidade Elemental, Nilou entrará nas posições \"Dança de Espadas\" e \"Dança Rodopiante\" respectivamente, fazendo com que o Dano infligido seja convertido em <span>Dano Hydro</span> que não pode ser substituído, e é considerado Dano de Habilidade Elemental.<br/><br/>Nesse estado, o terceiro passo da dança de Nilou eliminará o estado de Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:<br/>· Dança de Espadas: lança uma Lua Aquática, que inflige <span>Dano Hydro</span> contra os inimigos que atinge e faz Nilou entrar no estado \"Súplica Lunar\". Nesse estado, ao realizar Ataques Normais, eles serão convertidos em Dança de Espadas e, ao realizar o último ataque, será lançada uma Lua Aquática;<br/>· Dança Rodopiante: lança uma Roda d'Água, infligindo <span>Dano Hydro em AdE</span>, e gerando uma \"Aura da Tranquilidade\" que segue o personagem ativo, continuamente aplicando o estado <span>Molhado</span> aos oponentes.<br/><br/>Enquanto Nilou estiver no estado de Pirueta ou da Súplica Lunar, ela não poderá desferir Ataques Carregados; esses estados serão eliminados quando Nilou sair do campo de batalha.",
+      "info": "\"Quando seus pés delicados tocam suavemente a água, ela cria ondulações tão resplandecentes quanto os sete céus.\"",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "3.34% da Vida Máxima",
+            "3.59% da Vida Máxima",
+            "3.84% da Vida Máxima",
+            "4.17% da Vida Máxima",
+            "4.42% da Vida Máxima",
+            "4.67% da Vida Máxima",
+            "5.01% da Vida Máxima",
+            "5.34% da Vida Máxima",
+            "5.68% da Vida Máxima",
+            "6.01% da Vida Máxima",
+            "6.34% da Vida Máxima",
+            "6.68% da Vida Máxima",
+            "7.1% da Vida Máxima",
+            "7.51% da Vida Máxima",
+            "7.93% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Dano do 1° Golpe da Dança de Espadas/Dança Rodopiante",
+          "values": [
+            "4.55% / 3.26% da Vida Máxima",
+            "4.89% / 3.51% da Vida Máxima",
+            "5.24% / 3.75% da Vida Máxima",
+            "5.69% / 4.08% da Vida Máxima",
+            "6.03% / 4.32% da Vida Máxima",
+            "6.37% / 4.57% da Vida Máxima",
+            "6.83% / 4.89% da Vida Máxima",
+            "7.28% / 5.22% da Vida Máxima",
+            "7.74% / 5.55% da Vida Máxima",
+            "8.19% / 5.87% da Vida Máxima",
+            "8.65% / 6.2% da Vida Máxima",
+            "9.1% / 6.52% da Vida Máxima",
+            "9.67% / 6.93% da Vida Máxima",
+            "10.24% / 7.34% da Vida Máxima",
+            "10.81% / 7.75% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Dano do 2º Golpe da Dança de Espadas/Dança Rodopiante",
+          "values": [
+            "5.14% / 3.96% da Vida Máxima",
+            "5.53% / 4.26% da Vida Máxima",
+            "5.92% / 4.55% da Vida Máxima",
+            "6.43% / 4.95% da Vida Máxima",
+            "6.82% / 5.25% da Vida Máxima",
+            "7.2% / 5.54% da Vida Máxima",
+            "7.72% / 5.94% da Vida Máxima",
+            "8.23% / 6.34% da Vida Máxima",
+            "8.75% / 6.73% da Vida Máxima",
+            "9.26% / 7.13% da Vida Máxima",
+            "9.77% / 7.52% da Vida Máxima",
+            "10.29% / 7.92% da Vida Máxima",
+            "10.93% / 8.42% da Vida Máxima",
+            "11.58% / 8.91% da Vida Máxima",
+            "12.22% / 9.41% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Dano de Lua Aquática/Roda d'Água",
+          "values": [
+            "7.17% / 5.06% da Vida Máxima",
+            "7.71% / 5.44% da Vida Máxima",
+            "8.24% / 5.82% da Vida Máxima",
+            "8.96% / 6.33% da Vida Máxima",
+            "9.5% / 6.71% da Vida Máxima",
+            "10.04% / 7.09% da Vida Máxima",
+            "10.75% / 7.59% da Vida Máxima",
+            "11.47% / 8.1% da Vida Máxima",
+            "12.19% / 8.6% da Vida Máxima",
+            "12.9% / 9.11% da Vida Máxima",
+            "13.62% / 9.62% da Vida Máxima",
+            "14.34% / 10.12% da Vida Máxima",
+            "15.23% / 10.76% da Vida Máxima",
+            "16.13% / 11.39% da Vida Máxima",
+            "17.03% / 12.02% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Duração de Pirueta",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Duração da Súplica Lunar",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Duração da Aura da Tranquilidade",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "Recarga",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Dança da Lótus: Nascente Longínqua Onírica",
+      "description": "Inicia a Dança da Nascente Longínqua Onírica, desabrochando a Lótus de Águas Longínquas, que inflige <span>Dano Hydro em AdE</span> baseado na Vida Máxima de Nilou e aplicando o estado \"Inundação Eterna\" aos inimigos atingidos.<br/>Após um curto intervalo, inimigos sob o estado Inundação Eterna sofrerão <span>Dano Hydro</span>.",
+      "info": "\"Nunca testemunhamos sonho tão distante, mas essa dança pode trazê-lo à vida.\"",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "18.43% da Vida Máxima",
+            "19.81% da Vida Máxima",
+            "21.2% da Vida Máxima",
+            "23.04% da Vida Máxima",
+            "24.42% da Vida Máxima",
+            "25.8% da Vida Máxima",
+            "27.65% da Vida Máxima",
+            "29.49% da Vida Máxima",
+            "31.33% da Vida Máxima",
+            "33.18% da Vida Máxima",
+            "35.02% da Vida Máxima",
+            "36.86% da Vida Máxima",
+            "39.17% da Vida Máxima",
+            "41.47% da Vida Máxima",
+            "43.78% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Dano da Inundação Eterna",
+          "values": [
+            "22.53% da Vida Máxima",
+            "24.22% da Vida Máxima",
+            "25.91% da Vida Máxima",
+            "28.16% da Vida Máxima",
+            "29.85% da Vida Máxima",
+            "31.54% da Vida Máxima",
+            "33.79% da Vida Máxima",
+            "36.04% da Vida Máxima",
+            "38.3% da Vida Máxima",
+            "40.55% da Vida Máxima",
+            "42.8% da Vida Máxima",
+            "45.06% da Vida Máxima",
+            "47.87% da Vida Máxima",
+            "50.69% da Vida Máxima",
+            "53.5% da Vida Máxima"
+          ]
+        },
+        {
+          "label": "Recarga",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "court_of_dancing_petals",
+      "name": "Corte das Pétalas Dançantes",
+      "description": "Quando todos os personagens da equipe são do tipo elemental <span>Dendro</span> e <span>Hydro</span>, e quando há pelo menos um personagem Dendro e Hydro:<br/>Ao completar a terceira etapa da <span>Dança dos Sete Reinos</span>, Nilou concede a todos os membros próximos da equipe o estado \"Recompensa do Cálice Dourado\" que dura por 30s.<br/>Personagens que estão sob o estado Recompensa do Cálice Dourado, ao sofrerem um <span>Ataque Dendro</span>, aumentarão a Proficiência Elemental de todos os personagens próximos em 100 por 10s; além disso, ao desencadearem a reação de Florescimento, substituirão a criação de um Núcleo Dendro por um \"Núcleo da Riqueza\".<br/>Diferente do Núcleo Dendro, o Núcleo da Riqueza explode rapidamente e tem uma AdE maior.<br/>O Núcleo da Riqueza não pode desencadear as reações de Germinação e Superflorescimento, e compartilha o limite de quantidade com os Núcleos Dendro. O Dano do Núcleo da Riqueza é considerado como Dano de Núcleo Dendro criado pela reação de Florescimento.<br/>Quando os requisitos de Talento Passivo do tipo de elementos dos personagens da equipe não forem atendidos, os efeitos da Recompensa do Cálice Dourado existentes serão removidos.",
+      "level": 1
+    },
+    {
+      "id": "dreamy_dance_of_aeons",
+      "name": "Sonhos da Dança de Eras",
+      "description": "Para cada 1.000 pontos de Vida Máxima de Nilou acima de 30.000, aumenta o Dano infligido pelos Núcleos da Riqueza criados pelos personagens sob o estado de \"Recompensa do Cálice Dourado\" em 9%.<br/>O aumento de Dano infligido pelos Núcleos da Riqueza desta forma pode ser de até 400%.",
+      "level": 4
+    },
+    {
+      "id": "white_jade_lotus",
+      "name": "Lótus da Jade Branca",
+      "description": "Ao fazer uma comida Perfeita relacionada a efeitos de Aventura, há 12% de chance de se obter o dobro de produção.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "dance_of_the_waning_moon",
+      "name": "Dança da Lua Minguante",
+      "description": "A <span>Dança dos Sete Reinos</span> obtém os seguintes fortalecimentos:<br/>Aumenta o Dano CRIT de Lua Aquática em 65%.<br/>A Duração da Aura da Tranquilidade é aumentada em 6s.",
+      "level": 1
+    },
+    {
+      "id": "the_starry_skies_their_flowers_rain",
+      "name": "Chuva Florestelar",
+      "description": "Quando um personagem que foi afetado pelo efeito de \"Recompensa do Cálice Dourado\" inflige <span>Dano Hydro</span> contra um inimigo, a <span>RES Hydro</span> desse inimigo será reduzida em 35% por 10s. Quando um inimigo sofre Dano de uma reação de Florescimento, a <span>RES Dendro</span> dele é reduzida em 35% por 10s.<br/>É necessário ter desbloqueado o Talento \"Corte das Pétalas Dançantes\".",
+      "level": 2
+    },
+    {
+      "id": "beguiling_shadowstep",
+      "name": "Silhueta dos Passos de Lótus",
+      "description": "Aumenta o nível da <span>Dança da Lótus: Nascente Longínqua Onírica</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "fricative_pulse",
+      "name": "Pulso Sibilante",
+      "description": "Após o terceiro passo do estado Pirueta da <span>Dança dos Sete Reinos</span> acertar o oponente, Nilou regenerará 15 de Energia Elemental, e o Dano de sua <span>Dança da Lótus: Nascente Longínqua Onírica</span> aumentará em 50% por 8s.",
+      "level": 4
+    },
+    {
+      "id": "twirling_light",
+      "name": "Luz Rodopiante",
+      "description": "Aumenta o nível da <span>Dança dos Sete Reinos</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "frostbreakers_melody",
+      "name": "Melodia Rompegelo",
+      "description": "A cada 1.000 pontos de Vida Máxima de Nilou, aumenta a sua Taxa CRIT em 0.6% e seu Dano CRIT em 1.2%.<br/>O aumento máximo de Taxa CRIT é de 30% e de Dano CRIT é de 60%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "id": "varunada_lazurite_sliver",
+        "name": "Lasca de Lazurita Varunada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "fungal_spores",
+        "name": "Esporo de Cogumelo Flutuante",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragmento de Lazurita Varunada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "fungal_spores",
+        "name": "Esporo de Cogumelo Flutuante",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "id": "varunada_lazurite_fragment",
+        "name": "Fragmento de Lazurita Varunada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "luminescent_pollen",
+        "name": "Pólen fluorescente",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Pedaço de Lazurita Varunada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "luminescent_pollen",
+        "name": "Pólen fluorescente",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "id": "varunada_lazurite_chunk",
+        "name": "Pedaço de Lazurita Varunada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "crystalline_cyst_dust",
+        "name": "Poeira Cristalina de Cisto",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "id": "varunada_lazurite_gemstone",
+        "name": "Gema de Lazurita Varunada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "crystalline_cyst_dust",
+        "name": "Poeira Cristalina de Cisto",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "teachings_of_praxis",
+          "name": "Ensinamentos de Práxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "fungal_spores",
+          "name": "Esporo de Cogumelo Flutuante",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "luminescent_pollen",
+          "name": "Pólen fluorescente",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Lágrima da Deusa do Desastre",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Lágrima da Deusa do Desastre",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Lágrima da Deusa do Desastre",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "name": "Poeira Cristalina de Cisto",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "tears_of_the_calamitous_god",
+          "name": "Lágrima da Deusa do Desastre",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
