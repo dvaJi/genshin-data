@@ -1,3 +1,11 @@
+## [0.23.0](https://github.com/dvaJi/genshin-data/compare/0.22.2...0.23.0) (2022-09-26)
+
+### Features
+
+- feat: update data to GI v3.1 ([0eae320](https://github.com/dvaJi/genshin-data/commit/0eae32051e0f7098b1da9e1f11c0b61cf4aeceb6))
+
+- add \_id (original id) field to all data type ([ad5bf99](https://github.com/dvaJi/genshin-data/commit/ad5bf999b94a919098191b3ccc23898900b7b0c7))
+
 ## [0.22.2](https://github.com/dvaJi/genshin-data/compare/0.22.1...0.22.2) (2022-08-25)
 
 ### Fixes
