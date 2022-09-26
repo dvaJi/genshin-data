@@ -1,10 +1,12 @@
 interface ArtifactSet {
+  _id: number;
   id: string;
   name: string;
   description?: string;
 }
 
 export interface Artifact {
+  _id: number;
   id: string;
   name: string;
   min_rarity: number;

@@ -8,8 +8,8 @@ export interface Achievement {
 }
 
 export interface AchievementCategory {
+  _id: number;
   id: string;
-  originalId: number;
   name: string;
   order: number;
   achievements: Achievement[];

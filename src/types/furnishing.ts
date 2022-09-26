@@ -5,12 +5,14 @@ export interface FurnitureCategory {
 }
 
 export interface FurnitureRecipe {
+  _id: number;
   id: number;
   category: string;
   type?: string;
 }
 
 export interface Furnishing {
+  _id: number;
   id: string;
   originalId: number;
   name: string;

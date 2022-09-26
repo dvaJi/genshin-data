@@ -1,4 +1,5 @@
 {
+  "_id": 10000030,
   "id": "zhongli",
   "name": "종려",
   "title": "속세 한유",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10301,
       "id": "normal_attack_rain_of_stone",
       "name": "일반 공격·바위 비",
       "description": "<span>일반 공격</span><br/>창으로 최대 6번 공격한다.<br/><br/><span>강공격</span><br/>일정 스태미나를 소모해 전방으로 질주한다. 경로 및 종착점에 비 같은 바위창을 내린다.<br/><br/><span>낙하 공격</span><br/>공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10302,
       "id": "dominus_lapidis",
       "name": "지핵",
       "description": "대지 위, 산맥, 반석 사이엔 바위의 힘이 널리 퍼져있다. 그러나 이 힘을 자유자재로 사용할 수 있는 이는 거의 없다.<br/><br/><span>짧은 터치</span><br/>대지에 퍼져있는 바위 원소를 소환해 암주를 생성한다.<br/><br/><span>홀드</span><br/>근처의 바위 원소를 폭발시켜 아래 효과를 생성한다:<br/>·암주의 수량이 최대 수량에 미치지 못하면 암주를 생성해 낸다:<br/>·옥홀 방패를 생성한다. 피해 흡수량은 종려 HP 최대치의 영향을 받는다.<br/>·<span>바위 원소 범위 피해</span>를 준다.<br/>·근처에 <span>바위 원소</span>를 보유한 타깃이 있다면, 최대 2개 타깃의 <span>바위 원소</span>를 대량 소모한다. 해당 효과로 피해를 줄 수 없다.<br/><br/><span>암주</span><br/>생성 시,<span>바위 원소 범위 피해</span>를 준다.<br/>또한 암주는 주변의 다른 <span>바위 원소 창조물</span>과 간헐적으로 원암 공명을 일으켜 주변의 적에게 <span>바위 원소 피해</span>를 준다.<br/>암주는 <span>바위 원소 창조물</span>로 간주되며, 공격을 막거나 등반할 수 있다.<br/>종려가 만들어낸 암주는 초기에 동시에 1개만 존재 할 수 있다.<br/><br/><span>옥홀 방패</span><br/>모든 원소 피해와 물리 피해에 대해 150%의 흡수 효과가 있다<br/>옥홀 방패로 보호를 받고 있는 캐릭터는, 주변의 작은 범위 내의 적들의 원소 내성과 물리 내성을 20% 감소시킨다, 이 효과는 중첩되지 않는다.",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10303,
       "id": "planet_befall",
       "name": "천성",
       "description": "거대한 운석을 떨어뜨려 추락 범위 내의 적에게 대량의 <span>바위 원소 피해</span>를 주고 <span>석화</span> 상태로 만든다.<br/><br/><span>석화</span><br/><span>석화</span> 상태가 된 적은 움직일 수 없다",
@@ -487,36 +491,42 @@
   ],
   "constellations": [
     {
+      "_id": 301,
       "id": "rock_the_backbone_of_earth",
       "name": "암석·천지의 기반",
       "description": "<span>지핵</span>으로 만든 암주는 동시에 최대 2개 존재할 수 있다",
       "level": 1
     },
     {
+      "_id": 302,
       "id": "stone_the_cradle_of_jade",
       "name": "돌·옥으로 인해 빛나는 세상",
       "description": "<span>천성</span>이 떨어질 때 근처에 있는 현재 캐릭터에게 옥홀 방패를 부여한다",
       "level": 2
     },
     {
+      "_id": 303,
       "id": "jade_shimmering_through_darkness",
       "name": "옥그릇·저물어도 사라지지 않는 광채",
       "description": "<span>지핵</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 3
     },
     {
+      "_id": 304,
       "id": "topaz_unbreakable_and_fearless",
       "name": "옥홀·부서져도 건재한 견고함",
       "description": "<span>천성</span>의 영향 범위가 20% 증가한다.<br/>또한, 천성의 석화 효과 지속 시간이 2초 증가한다",
       "level": 4
     },
     {
+      "_id": 305,
       "id": "lazuli_herald_of_the_order",
       "name": "푸른 규벽·천지의 이치",
       "description": "<span>천성</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 5
     },
     {
+      "_id": 306,
       "id": "chrysos_bounty_of_dominator",
       "name": "금옥·천하에 주는 선물",
       "description": "옥홀 방패가 피해를 받을 경우, 받은 피해의 40%만큼 현재 캐릭터의 HP를 회복한다.<br/>단일 회복량은 현재 캐릭터 HP 최대치의 8%를 초과할 수 없다",
@@ -529,18 +539,21 @@
       "level": [20, 40],
       "cost": 20000,
       "mat1": {
+        "_id": 104171,
         "id": "prithiva_topaz_sliver",
         "name": "단단한 황옥 가루",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "슬라임 응축액",
         "amount": 3,
@@ -552,24 +565,28 @@
       "level": [40, 50],
       "cost": 40000,
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "단단한 황옥 조각",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "현암의 탑",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "슬라임 응축액",
         "amount": 15,
@@ -581,24 +598,28 @@
       "level": [50, 60],
       "cost": 60000,
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "단단한 황옥 조각",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "현암의 탑",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "슬라임청",
         "amount": 12,
@@ -610,24 +631,28 @@
       "level": [60, 70],
       "cost": 80000,
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "단단한 황옥 덩이",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "현암의 탑",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "슬라임청",
         "amount": 18,
@@ -639,24 +664,28 @@
       "level": [70, 80],
       "cost": 100000,
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "단단한 황옥 덩이",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "현암의 탑",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "슬라임 원액",
         "amount": 12,
@@ -668,24 +697,28 @@
       "level": [80, 90],
       "cost": 120000,
       "mat1": {
+        "_id": 104174,
         "id": "prithiva_topaz_gemstone",
         "name": "단단한 황옥",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "현암의 탑",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "콜 라피스",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "슬라임 원액",
         "amount": 24,
@@ -699,12 +732,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "「황금」의 가르침",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112002,
           "id": "slime_condensate",
           "name": "슬라임 응축액",
           "amount": 6,
@@ -717,12 +752,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "「황금」의 인도",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "슬라임청",
           "amount": 3,
@@ -735,12 +772,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "「황금」의 인도",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "슬라임청",
           "amount": 4,
@@ -753,12 +792,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "「황금」의 인도",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "슬라임청",
           "amount": 6,
@@ -771,12 +812,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "「황금」의 인도",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "슬라임청",
           "amount": 9,
@@ -789,18 +832,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "「황금」의 철학",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "슬라임 원액",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "하늘을 삼킨 고래·뿔",
           "amount": 1,
@@ -813,18 +859,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "「황금」의 철학",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "슬라임 원액",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "하늘을 삼킨 고래·뿔",
           "amount": 1,
@@ -837,18 +886,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "「황금」의 철학",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "슬라임 원액",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "하늘을 삼킨 고래·뿔",
           "amount": 2,
@@ -861,24 +913,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "「황금」의 철학",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "슬라임 원액",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "하늘을 삼킨 고래·뿔",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "지식의 왕관",
           "amount": 1,

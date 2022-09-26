@@ -1,4 +1,5 @@
 type AscensionMaterial = {
+  _id: number;
   id: string;
   name: string;
   amount: number;
@@ -31,6 +32,7 @@ type WeaponStat = {
 };
 
 export interface Weapon {
+  _id: number;
   id: string;
   name: string;
   description: string;

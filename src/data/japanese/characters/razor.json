@@ -1,4 +1,5 @@
 {
+  "_id": 10000020,
   "id": "razor",
   "name": "レザー",
   "title": "狼少年",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10201,
       "id": "normal_attack_steel_fang",
       "name": "通常攻撃·鋼の脊",
       "description": "<span>通常攻撃</span><br/>最大4段の連続攻撃を行う。<br/><br/><span>重撃</span><br/>持続的にスタミナを消費し、大剣を振り回して周囲の敵を攻撃する。<br/>重撃が終了した時に、さらに強力な攻撃を1回放つ。<br/><br/><span>落下攻撃</span><br/>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10202,
       "id": "claw_and_thunder",
       "name": "鋭い爪と蒼雷",
       "description": "師匠と「家族」に教わった方法で、獲物を片付ける。<br/><br/><span>一回押し</span><br/>雷狼の爪を振り、前方の敵に<span>雷元素ダメージ</span>を与える。<br/>敵に命中すると、雷の印を1つ蓄積し、レザーの元素チャージ効率がアップする。<br/>雷の印は同時に最大3つまで存在でき、新しい雷の印を獲得すると全ての雷の印の継続時間がリセットされる。<br/><br/><span>長押し</span><br/>雷の力を集めて狭範囲の雷爆発を起こし、大量の<span>雷元素ダメージ</span>を与える。同時に、レザーの雷の印を全て取り除く。<br/>取り除かれた雷の印は全てレザーの元素エネルギーに変換される。",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10203,
       "id": "lightning_fang",
       "name": "雷牙",
       "description": "無形の雷狼を召喚して自身を守り、周囲の敵に<span>雷元素ダメージ</span>を与える。同時に、雷の印を消耗して自身の元素エネルギーを回復する。<br/>雷狼が存在している間、レザーと共に戦う。<br/><br/><span>雷狼</span><br/>·レザーの通常攻撃に協力し、<span>雷元素ダメージ</span>を与える。<br/>·レザーの攻撃速度と<span>雷元素耐性</span>がアップする。<br/>·<span>感電</span>反応によるダメージを無効化する。<br/>·重撃の発動が不可になる。<br/>·レザーの中断耐性がアップする。<br/><br/>レザーが退場する時、効果が解除される。<br/>退場時、残り時間を基準に、元素エネルギーを最大10まで回復する。",
@@ -547,36 +551,42 @@
   ],
   "constellations": [
     {
+      "_id": 201,
       "id": "wolfs_instinct",
       "name": "狼の性",
       "description": "レザーが元素オーブまたは元素粒子を獲得した8秒間、与えるダメージ+10%。",
       "level": 1
     },
     {
+      "_id": 202,
       "id": "suppression",
       "name": "制圧",
       "description": "HPが30%以下の敵を攻撃する時、会心率+10%。",
       "level": 2
     },
     {
+      "_id": 203,
       "id": "soul_companion",
       "name": "獣の魂",
       "description": "<span>雷牙</span>のスキルLv.+3。<br/>最大Lv.15まで。",
       "level": 3
     },
     {
+      "_id": 204,
       "id": "bite",
       "name": "噛みつく",
       "description": "<span>鋭い爪と蒼雷</span>の一回押しで攻撃した時、命中した敵の防御力-15%、継続時間7秒。",
       "level": 4
     },
     {
+      "_id": 205,
       "id": "sharpened_claws",
       "name": "鋭い爪",
       "description": "<span>鋭い爪と蒼雷</span>のスキルLv.+3。<br/>最大Lv.15まで。",
       "level": 5
     },
     {
+      "_id": 206,
       "id": "lupus_fulguris",
       "name": "天狼",
       "description": "10秒毎に、レザーの大剣が自動的にエネルギーを溜め、次の通常攻撃に落雷を引き起こし、攻撃力100%分の<span>雷元素ダメージ</span>を与える。<br/><span>雷牙</span>状態でない時、落雷が敵に命中すると、レザーに<span>鋭い爪と蒼雷</span>の雷の印を1重付与する。",
@@ -589,18 +599,21 @@
       "level": [20, 40],
       "cost": 20000,
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "最勝のアメシスト·砕屑",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "破損した仮面",
         "amount": 3,
@@ -612,24 +625,28 @@
       "level": [40, 50],
       "cost": 40000,
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "最勝のアメシスト·欠片",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "雷光のプリズム",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "破損した仮面",
         "amount": 15,
@@ -641,24 +658,28 @@
       "level": [50, 60],
       "cost": 60000,
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "最勝のアメシスト·欠片",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "雷光のプリズム",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "汚れた仮面",
         "amount": 12,
@@ -670,24 +691,28 @@
       "level": [60, 70],
       "cost": 80000,
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "最勝のアメシスト·塊",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "雷光のプリズム",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "汚れた仮面",
         "amount": 18,
@@ -699,24 +724,28 @@
       "level": [70, 80],
       "cost": 100000,
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "最勝のアメシスト·塊",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "雷光のプリズム",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "不吉な仮面",
         "amount": 12,
@@ -728,24 +757,28 @@
       "level": [80, 90],
       "cost": 120000,
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "最勝のアメシスト",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "雷光のプリズム",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "ググプラム",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "不吉な仮面",
         "amount": 24,
@@ -759,12 +792,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104304,
           "id": "teachings_of_resistance",
           "name": "「抗争」の教え",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "破損した仮面",
           "amount": 6,
@@ -777,12 +812,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「抗争」の導き",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "汚れた仮面",
           "amount": 3,
@@ -795,12 +832,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「抗争」の導き",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "汚れた仮面",
           "amount": 4,
@@ -813,12 +852,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「抗争」の導き",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "汚れた仮面",
           "amount": 6,
@@ -831,12 +872,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「抗争」の導き",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "汚れた仮面",
           "amount": 9,
@@ -849,18 +892,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「抗争」の哲学",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "不吉な仮面",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "東風の爪",
           "amount": 1,
@@ -873,18 +919,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「抗争」の哲学",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "不吉な仮面",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "東風の爪",
           "amount": 1,
@@ -897,18 +946,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「抗争」の哲学",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "不吉な仮面",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "東風の爪",
           "amount": 2,
@@ -921,24 +973,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「抗争」の哲学",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "不吉な仮面",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "東風の爪",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "知恵の冠",
           "amount": 1,

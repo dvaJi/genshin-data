@@ -1,4 +1,5 @@
 type Item = {
+  _id: number;
   id: string;
   name: string;
   amount: number;
@@ -10,6 +11,7 @@ type Craft = {
 };
 
 export type CommonMaterial = {
+  _id: number;
   id: string;
   name: string;
   description: string;

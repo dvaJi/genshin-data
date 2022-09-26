@@ -1,4 +1,5 @@
 {
+  "_id": 10000020,
   "id": "razor",
   "name": "레이저",
   "title": "늑대소년",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10201,
       "id": "normal_attack_steel_fang",
       "name": "일반 공격·강철 마루",
       "description": "<span>일반 공격</span><br/>검으로 최대 4번 공격한다.<br/><br/><span>강공격</span><br/>스태미나를 지속해서 소모해 검을 휘두르며 주변의 적을 공격한다.<br/>회전 종료 시 추가로 한 번 더 강력하게 휘두른다.<br/><br/><span>낙하 공격</span><br/>공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10202,
       "id": "claw_and_thunder",
       "name": "날카로운 발톱과 창뢰",
       "description": "스승과 그의 「가족」이 가르쳐준 방법으로 사냥감을 처치한다.<br/><br/><span>짧은 터치</span><br/>썬더울프의 발톱으로 전방의 적에게 <span>번개 원소 피해</span>를 준다.<br/>적을 명중하면 번개의 인장이 한 개 쌓여 레이저의 원소 충전 효율이 상승한다.<br/>번개의 인장은 최대 동시에 3개 존재할 수 있으며 새로운 인장을 획득할 때마다 모든 인장의 지속 시간이 갱신된다.<br/><br/><span>홀드</span><br/>뇌전의 힘을 모은 후 폭발시켜 주변 작은 범위의 적에게 대량의 <span>번개 원소 피해</span>를 주고 번개의 인장을 지운다.<br/>번개의 인장을 지울 때마다 레이저의 원소 에너지로 전환된다.",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10203,
       "id": "lightning_fang",
       "name": "뇌아",
       "description": "무형의 썬더울프를 깨워 주변의 적에게 <span>번개 원소 피해</span>를 주고 모든 번개의 인장을 소모하여 레이저의 원소 에너지를 회복한다.<br/>썬더울프가 존재할 때 레이저와 함께 싸운다.<br/><br/><span>썬더울프</span><br/>·레이저가 일반 공격 시 썬더울프도 같이 공격하여 <span>번개 원소 피해</span>를 준다.<br/>·레이저의 공격속도, <span>번개 원소 내성</span>이 증가한다.<br/>·레이저가 <span>감전</span> 반응의 피해를 받지 않는다.<br/>·강공격을 발동할 수 없다.<br/>·레이저의 경직 저항력이 상승한다.<br/><br/>효과는 레이저 퇴장 시 사라진다.<br/>퇴장 시 잔여 지속 시간에 따라 최대 10pt의 원소 에너지를 반환한다.",
@@ -547,36 +551,42 @@
   ],
   "constellations": [
     {
+      "_id": 201,
       "id": "wolfs_instinct",
       "name": "늑대의 본성",
       "description": "레이저가 원소 구슬 혹은 원소 입자 획득 후 8초 동안 가하는 피해가 10% 증가한다",
       "level": 1
     },
     {
+      "_id": 202,
       "id": "suppression",
       "name": "진압",
       "description": "레이저가 HP 30% 미만의 적을 공격 시 치명타 확률이 10% 증가한다",
       "level": 2
     },
     {
+      "_id": 203,
       "id": "soul_companion",
       "name": "야수의 혼",
       "description": "<span>뇌아</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 3
     },
     {
+      "_id": 204,
       "id": "bite",
       "name": "물어뜯기",
       "description": "<span>날카로운 발톱과 창뢰</span>를 짧게 터치하면 명중한 적의 방어력이 15% 감소한다. 지속 시간: 7초",
       "level": 4
     },
     {
+      "_id": 205,
       "id": "sharpened_claws",
       "name": "날카로운 발톱",
       "description": "<span>날카로운 발톱과 창뢰</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 5
     },
     {
+      "_id": 206,
       "id": "lupus_fulguris",
       "name": "천랑",
       "description": "10초마다 레이저의 대검이 자동으로 충전되어 다음 일반 공격 시 낙뢰가 발생해 공격력 100%의 <span>번개 원소 피해</span>를 가한다.<br/><span>뇌아</span> 상태가 아닐 경우 낙뢰가 적에게 명중하면 레이저는 <span>날카로운 발톱과 창뢰</span>의 번개의 인장을 1개 획득한다",
@@ -589,18 +599,21 @@
       "level": [20, 40],
       "cost": 20000,
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "승리의 자수정 가루",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "부서진 가면",
         "amount": 3,
@@ -612,24 +625,28 @@
       "level": [40, 50],
       "cost": 40000,
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "승리의 자수정 조각",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "뇌광 프리즘",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "부서진 가면",
         "amount": 15,
@@ -641,24 +658,28 @@
       "level": [50, 60],
       "cost": 60000,
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "승리의 자수정 조각",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "뇌광 프리즘",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "오염된 가면",
         "amount": 12,
@@ -670,24 +691,28 @@
       "level": [60, 70],
       "cost": 80000,
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "승리의 자수정 덩이",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "뇌광 프리즘",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "오염된 가면",
         "amount": 18,
@@ -699,24 +724,28 @@
       "level": [70, 80],
       "cost": 100000,
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "승리의 자수정 덩이",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "뇌광 프리즘",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "불길한 가면",
         "amount": 12,
@@ -728,24 +757,28 @@
       "level": [80, 90],
       "cost": 120000,
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "승리의 자수정",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "뇌광 프리즘",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100021,
         "id": "wolfhook",
         "name": "고리고리 열매",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "불길한 가면",
         "amount": 24,
@@ -759,12 +792,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104304,
           "id": "teachings_of_resistance",
           "name": "「투쟁」의 가르침",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "부서진 가면",
           "amount": 6,
@@ -777,12 +812,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「투쟁」의 인도",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "오염된 가면",
           "amount": 3,
@@ -795,12 +832,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「투쟁」의 인도",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "오염된 가면",
           "amount": 4,
@@ -813,12 +852,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「투쟁」의 인도",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "오염된 가면",
           "amount": 6,
@@ -831,12 +872,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "「투쟁」의 인도",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "오염된 가면",
           "amount": 9,
@@ -849,18 +892,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「투쟁」의 철학",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "불길한 가면",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "동풍의 발톱",
           "amount": 1,
@@ -873,18 +919,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「투쟁」의 철학",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "불길한 가면",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "동풍의 발톱",
           "amount": 1,
@@ -897,18 +946,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「투쟁」의 철학",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "불길한 가면",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "동풍의 발톱",
           "amount": 2,
@@ -921,24 +973,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "「투쟁」의 철학",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "불길한 가면",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "동풍의 발톱",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "지식의 왕관",
           "amount": 1,

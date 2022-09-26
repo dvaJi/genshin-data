@@ -1,4 +1,5 @@
 export type Fish = {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -12,6 +13,7 @@ export type Fish = {
 };
 
 export type FishingRod = {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -31,12 +33,14 @@ type Craft = {
 };
 
 type FishBait = {
+  _id: number;
   id: string;
   name: string;
   rarity: number;
 };
 
 export type Bait = {
+  _id: number;
   id: string;
   name: string;
   description: string;

@@ -4,6 +4,7 @@ export interface SkillAttribute {
 }
 
 export interface Skill {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -19,6 +20,7 @@ export interface Passive {
 }
 
 export interface Constellation {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -26,6 +28,7 @@ export interface Constellation {
 }
 
 export interface AscensionMaterial {
+  _id: number;
   id: string;
   name: string;
   amount: number;
@@ -56,6 +59,7 @@ export type TalentMaterial = {
 };
 
 export interface Character {
+  _id: number;
   id: string;
   name: string;
   title: string;

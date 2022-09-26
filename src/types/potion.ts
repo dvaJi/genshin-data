@@ -1,10 +1,12 @@
 type Item = {
+  _id: number;
   id: string;
   name: string;
   amount: number;
 };
 
 export type Potion = {
+  _id: number;
   id: string;
   name: string;
   description: string;
