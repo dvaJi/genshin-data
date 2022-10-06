@@ -1,3 +1,9 @@
+## [0.23.1](https://github.com/dvaJi/genshin-data/compare/0.23.0...0.23.1) (2022-10-06)
+
+### Fixes
+
+- add missing local materials ([34e8c18](https://github.com/dvaJi/genshin-data/commit/34e8c180a94aa5c5c4249a56701832a52bcb34ea))
+
 ## [0.23.0](https://github.com/dvaJi/genshin-data/compare/0.22.2...0.23.0) (2022-09-26)
 
 ### Features
