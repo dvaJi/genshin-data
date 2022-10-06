@@ -1,21 +1,21 @@
-import { Artifact } from './types/artifact';
-import { Character } from './types/character';
-import { Food } from './types/food';
-import { Weapon } from './types/weapon';
-import { CommonMaterial } from './types/common_material';
-import { ElementalStoneMaterial } from './types/elemental_stone_material';
-import { Ingredients } from './types/ingredient';
-import { JewelMaterial } from './types/jewel_material';
-import { LocalMaterial } from './types/local_material';
-import { Potion } from './types/potion';
-import { TalentLvlUpMaterial } from './types/talent_lvl_up_material';
-import { WeaponPrimaryMaterial } from './types/weapon_primary_material';
-import { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
-import { Bait, Fish, FishingRod } from './types/fishing';
-import { ExpMaterial } from './types/exp';
-import { AchievementCategory, Achievement } from './types/achievement';
-import { Furnishing } from './types/furnishing';
-import { Domains } from './types/domain';
+import type { Artifact } from './types/artifact';
+import type { Character } from './types/character';
+import type { Food } from './types/food';
+import type { Weapon } from './types/weapon';
+import type { CommonMaterial } from './types/common_material';
+import type { ElementalStoneMaterial } from './types/elemental_stone_material';
+import type { Ingredients } from './types/ingredient';
+import type { JewelMaterial } from './types/jewel_material';
+import type { LocalMaterial } from './types/local_material';
+import type { Potion } from './types/potion';
+import type { TalentLvlUpMaterial } from './types/talent_lvl_up_material';
+import type { WeaponPrimaryMaterial } from './types/weapon_primary_material';
+import type { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
+import type { Bait, Fish, FishingRod } from './types/fishing';
+import type { ExpMaterial } from './types/exp';
+import type { AchievementCategory, Achievement } from './types/achievement';
+import type { Furnishing } from './types/furnishing';
+import type { Domains } from './types/domain';
 
 export type Material =
   | CommonMaterial
@@ -27,7 +27,7 @@ export type Material =
   | WeaponPrimaryMaterial
   | WeaponSecondaryMaterial;
 
-export {
+export type {
   AchievementCategory,
   Achievement,
   Artifact,
@@ -233,7 +233,7 @@ export default class GenshinData {
 
   async materials(query?: QueryOpts<Material>): Promise<Material[]> {
     const lang = this.getLang();
-    return [
+    const ret = await Promise.all([
       await this.findByFolder(lang, 'weapon_primary_materials', query),
       await this.findByFolder(lang, 'weapon_secondary_materials', query),
       await this.findByFolder(lang, 'common_materials', query),
@@ -243,7 +243,9 @@ export default class GenshinData {
       await this.findByFolder(lang, 'talent_lvl_up_materials', query),
       await this.findByFolder(lang, 'character_exp_material', query),
       await this.findByFolder(lang, 'weapon_enhancement_material', query),
-    ].flat();
+    ]);
+
+    return ret.flat();
   }
 
   async achievements(

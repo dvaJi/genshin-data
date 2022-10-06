@@ -1,16 +1,27 @@
 {
   "version": "0.23.0",
   "license": "MIT",
-  "main": "dist/genshin-data.js",
-  "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    "/": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/*",
+    "index.d.ts"
   ],
   "engines": {
     "node": ">=13"
   },
   "scripts": {
-    "build": "webpack",
+    "prepare": "npm run build",
+    "clean:dist": "rimraf dist/",
+    "build:types": "tsc src/index.ts --declarationDir dist/ --lib esnext --emitDeclarationOnly --declaration",
+    "build:lib": "vite build",
+    "build": "npm run clean:dist && npm run build:lib && npm run build:types",
     "generate": "node ./scripts/generate.js",
     "check-missing": "npm run generate && npm run build && node ./scripts/check-missing.js",
     "format-data": "prettier --loglevel warn --write \"src/data/**/*.json\"",
@@ -26,11 +37,9 @@
   "author": "dvaJi",
   "devDependencies": {
     "prettier": "^2.7.1",
-    "ts-node": "^10.9.1",
+    "rimraf": "^3.0.2",
     "tslib": "^2.4.0",
-    "ts-loader": "^9.4.1",
     "typescript": "^4.8.3",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "vite": "^3.1.4"
   }
 }
