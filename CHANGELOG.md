@@ -1,3 +1,9 @@
+## [0.24.1](https://github.com/dvaJi/genshin-data/compare/0.24.0...0.24.1) (2022-10-11)
+
+### Fixes
+
+- fix exports definition ([6003661](https://github.com/dvaJi/genshin-data/commit/6003661049f1015b72ec1f48a48249250078db5e))
+
 ## [0.24.0](https://github.com/dvaJi/genshin-data/compare/0.23.1...0.24.0) (2022-10-11)
 
 ### Features
