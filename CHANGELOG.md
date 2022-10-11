@@ -1,3 +1,9 @@
+## [0.24.0](https://github.com/dvaJi/genshin-data/compare/0.23.1...0.24.0) (2022-10-11)
+
+### Features
+
+- build library using vite to generate CJS and ESM exports ([a4940cc](https://github.com/dvaJi/genshin-data/commit/a4940cc44120b0fd8cb97263e9502aa55a3f0802))
+
 ## [0.23.1](https://github.com/dvaJi/genshin-data/compare/0.23.0...0.23.1) (2022-10-06)
 
 ### Fixes
