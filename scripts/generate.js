@@ -1,5 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 const GENERATED_PATH = path.join(__dirname, '..', 'src', 'data');
 const MIN_PATH = path.join(__dirname, '..', 'src', 'min');
@@ -14,18 +19,18 @@ function combineData() {
       data[folder.replace('.json', '')] = [];
 
       if (folder.endsWith('.json')) {
-        data[folder.replace('.json', '')].push(
-          require(path.join(GENERATED_PATH, lang, folder))
-        );
+        const file = fs.readFileSync(path.join(GENERATED_PATH, lang, folder));
+        data[folder.replace('.json', '')].push(JSON.parse(file.toString()));
         continue;
       }
 
       fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
         (filename) => {
           if (!filename.endsWith('.json')) return;
-          data[folder].push(
-            require(path.join(GENERATED_PATH, lang, folder, filename))
+          const file = fs.readFileSync(
+            path.join(GENERATED_PATH, lang, folder, filename)
           );
+          data[folder].push(JSON.parse(file.toString()));
         }
       );
     }
