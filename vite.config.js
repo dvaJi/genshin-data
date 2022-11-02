@@ -6,7 +6,9 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true,
     lib: {
-      fileName: '[name]',
+      entry: {
+        primary: 'src/index.ts',
+      },
       formats: ['cjs', 'es'],
     },
     rollupOptions: {
