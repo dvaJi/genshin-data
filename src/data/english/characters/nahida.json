@@ -1,0 +1,946 @@
+{
+  "_id": 10000073,
+  "id": "nahida",
+  "name": "Nahida",
+  "title": "Physic of Purity",
+  "description": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+  "weapon_type": "Catalyst",
+  "element": "Dendro",
+  "gender": "Female",
+  "substat": "Elemental Mastery",
+  "affiliation": "Sumeru City",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [27, 10],
+  "constellation": "Sapientia Oromasdis",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Kimberley Anne Campbell",
+    "chinese": "花玲",
+    "japanese": "田村ゆかり",
+    "korean": "Park Shi-yoon"
+  },
+  "skills": [
+    {
+      "_id": 10731,
+      "id": "normal_attack_akara",
+      "name": "Normal Attack: Akara",
+      "description": "<span>Normal Attack</span><br/>Performs up to 4 attacks that deal <span>Dendro DMG</span> to opponents in front of her.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to deal <span>AoE Dendro DMG</span> to opponents in front of her after a short casting time.<br/><br/><span>Plunging Attack</span><br/>Calling upon the might of Dendro, Nahida plunges towards the ground from mid-air, damaging all opponents in her path. Deals <span>AoE Dendro DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "40.3%",
+            "43.33%",
+            "46.35%",
+            "50.38%",
+            "53.4%",
+            "56.43%",
+            "60.46%",
+            "64.49%",
+            "68.52%",
+            "72.55%",
+            "76.58%",
+            "80.61%",
+            "85.65%",
+            "90.69%",
+            "95.72%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "36.97%",
+            "39.75%",
+            "42.52%",
+            "46.22%",
+            "48.99%",
+            "51.76%",
+            "55.46%",
+            "59.16%",
+            "62.86%",
+            "66.55%",
+            "70.25%",
+            "73.95%",
+            "78.57%",
+            "83.19%",
+            "87.81%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "45.87%",
+            "49.31%",
+            "52.76%",
+            "57.34%",
+            "60.78%",
+            "64.22%",
+            "68.81%",
+            "73.4%",
+            "77.99%",
+            "82.57%",
+            "87.16%",
+            "91.75%",
+            "97.48%",
+            "103.22%",
+            "108.95%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "58.41%",
+            "62.79%",
+            "67.17%",
+            "73.01%",
+            "77.39%",
+            "81.77%",
+            "87.61%",
+            "93.45%",
+            "99.29%",
+            "105.13%",
+            "110.97%",
+            "116.81%",
+            "124.11%",
+            "131.41%",
+            "138.72%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10732,
+      "id": "all_schemes_to_know",
+      "name": "All Schemes to Know",
+      "description": "Sends forth karmic bonds of wood and tree from her side, dealing <span>AoE Dendro DMG</span> and marking up to 8 opponents hit with the Seed of Skandha.<br/>When held, this skill will trigger differently.<br/><br/><span>Hold</span><br/>Enters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's resistance to interruption will be increased.<br/>When released, this skill deals <span>Dendro DMG</span> to these opponents and marks them with the Seed of Skandha.<br/>Aiming Mode will last up to 5s and can select a maximum of 8 opponents.<br/><br/><span>Seed of Skandha</span><br/>Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.<br/>After you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing <span>Dendro DMG</span> based on her ATK and Elemental Mastery.<br/>You can trigger at most 1 Tri-Karma Purification within a short period of time.",
+      "info": "Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.",
+      "attributes": [
+        {
+          "label": "Press DMG",
+          "values": [
+            "98.4%",
+            "105.78%",
+            "113.16%",
+            "123%",
+            "130.38%",
+            "137.76%",
+            "147.6%",
+            "157.44%",
+            "167.28%",
+            "177.12%",
+            "186.96%",
+            "196.8%",
+            "209.1%",
+            "221.4%",
+            "233.7%"
+          ]
+        },
+        {
+          "label": "Hold DMG",
+          "values": [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        },
+        {
+          "label": "Tri-Karma Purification DMG",
+          "values": [
+            "103.2% ATK + 206.4% Elemental Mastery",
+            "110.94% ATK + 221.88% Elemental Mastery",
+            "118.68% ATK + 237.36% Elemental Mastery",
+            "129% ATK + 258% Elemental Mastery",
+            "136.74% ATK + 273.48% Elemental Mastery",
+            "144.48% ATK + 288.96% Elemental Mastery",
+            "154.8% ATK + 309.6% Elemental Mastery",
+            "165.12% ATK + 330.24% Elemental Mastery",
+            "175.44% ATK + 350.88% Elemental Mastery",
+            "185.76% ATK + 371.52% Elemental Mastery",
+            "196.08% ATK + 392.16% Elemental Mastery",
+            "206.4% ATK + 412.8% Elemental Mastery",
+            "219.3% ATK + 438.6% Elemental Mastery",
+            "232.2% ATK + 464.4% Elemental Mastery",
+            "245.1% ATK + 490.2% Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Tri-Karma Purification Trigger Interval",
+          "values": [
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s"
+          ]
+        },
+        {
+          "label": "Seed of Skandha Duration",
+          "values": [
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s",
+            "25s"
+          ]
+        },
+        {
+          "label": "Press CD",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Hold CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10735,
+      "id": "illusory_heart",
+      "name": "Illusory Heart",
+      "description": "Manifests the Court of Dreams and expands the Shrine of Maya.<br/><br/>When the Shrine of Maya field is unleashed, the following effects will be separately unleashed based on the Elemental Types present within the party.<br/>·<span>Pyro</span>: While Nahida remains within the Shrine of Maya, the DMG dealt by Tri-Karma Purification from \"All Schemes to Know\" is increased.<br/>·<span>Electro</span>: While Nahida remains within the Shrine of Maya, the interval between each Tri-Karma Purification from \"All Schemes to Know\" is decreased.<br/>·<span>Hydro</span>: The Shrine of Maya's duration is increased.<br/><br/>If there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.<br/><br/>Even if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.",
+      "info": "Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.",
+      "attributes": [
+        {
+          "label": "Pyro: DMG Bonus",
+          "values": [
+            "2 Characters 22.32%",
+            "2 Characters 23.99%",
+            "2 Characters 25.67%",
+            "2 Characters 27.9%",
+            "2 Characters 29.57%",
+            "2 Characters 31.25%",
+            "2 Characters 33.48%",
+            "2 Characters 35.71%",
+            "2 Characters 37.94%",
+            "2 Characters 40.18%",
+            "2 Characters 42.41%",
+            "2 Characters 44.64%",
+            "2 Characters 47.43%",
+            "2 Characters 50.22%",
+            "2 Characters 53.01%"
+          ]
+        },
+        {
+          "label": "Electro: Trigger Interval Decrease",
+          "values": [
+            "2 Characters 37.2%s",
+            "2 Characters 39.99%s",
+            "2 Characters 42.78%s",
+            "2 Characters 46.5%s",
+            "2 Characters 49.29%s",
+            "2 Characters 52.08%s",
+            "2 Characters 55.8%s",
+            "2 Characters 59.52%s",
+            "2 Characters 63.24%s",
+            "2 Characters 66.96%s",
+            "2 Characters 70.68%s",
+            "2 Characters 74.4%s",
+            "2 Characters 79.05%s",
+            "2 Characters 83.7%s",
+            "2 Characters 88.35%s"
+          ]
+        },
+        {
+          "label": "Hydro: Duration Extension",
+          "values": [
+            "2 Characters 5s",
+            "2 Characters 5.4s",
+            "2 Characters 5.8s",
+            "2 Characters 6.3s",
+            "2 Characters 6.6s",
+            "2 Characters 7s",
+            "2 Characters 7.5s",
+            "2 Characters 8s",
+            "2 Characters 8.5s",
+            "2 Characters 9s",
+            "2 Characters 9.5s",
+            "2 Characters 10s",
+            "2 Characters 10.7s",
+            "2 Characters 11.3s",
+            "2 Characters 11.9s"
+          ]
+        },
+        {
+          "label": "Base Duration",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "compassion_illuminated",
+      "name": "Compassion Illuminated",
+      "description": "When unleashing <span>Illusory Heart</span>, the Shrine of Maya will gain the following effects:<br/>The Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.<br/>You can gain a maximum of 250 Elemental Mastery in this manner.",
+      "level": 1
+    },
+    {
+      "id": "awakening_elucidated",
+      "name": "Awakening Elucidated",
+      "description": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from <span>All Schemes to Know</span>.<br/>A maximum of 80% Bonus DMG and 24% CRIT Rate can be granted to Tri-Karma Purification in this manner.",
+      "level": 4
+    },
+    {
+      "id": "on_all_things_meditated",
+      "name": "On All Things Meditated",
+      "description": "Nahida can use <span>All Schemes to Know</span> to interact with some harvestable items within a fixed AoE.<br/>This skill may even have some other effects...",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 731,
+      "id": "the_seed_of_stored_knowledge",
+      "name": "The Seed of Stored Knowledge",
+      "description": "When the <span>Shrine of Maya</span> is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
+      "level": 1
+    },
+    {
+      "_id": 732,
+      "id": "the_root_of_all_fullness",
+      "name": "The Root of All Fullness",
+      "description": "Opponents that are marked by <span>Seeds of Skandha</span> applied by Nahida herself will be affected by the following effects:<br/>·Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively.<br/>·Within 8s of being affected by Quicken, Aggravate, Spread, DEF is decreased by 30%.",
+      "level": 2
+    },
+    {
+      "_id": 733,
+      "id": "the_shoot_of_conscious_attainment",
+      "name": "The Shoot of Conscious Attainment",
+      "description": "Increases the Level of <span>All Schemes to Know</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 734,
+      "id": "the_stem_of_manifest_inference",
+      "name": "The Stem of Manifest Inference",
+      "description": "When 1/2/3/4 (or more) nearby opponents are affected by <span>All Schemes to Know</span>'s Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
+      "level": 4
+    },
+    {
+      "_id": 735,
+      "id": "the_leaves_of_enlightening_speech",
+      "name": "The Leaves of Enlightening Speech",
+      "description": "Increases the Level of <span>Illusory Heart</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 736,
+      "id": "the_fruit_of_reasons_culmination",
+      "name": "The Fruit of Reason's Culmination",
+      "description": "When Nahida hits an opponent affected by <span>All Schemes to Know</span>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <span>Illusory Heart</span>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <span>Dendro DMG</span> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.<br/>DMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.<br/>This effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spores",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Teachings of Ingenuity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112059,
+          "id": "fungal_spores",
+          "name": "Fungal Spores",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

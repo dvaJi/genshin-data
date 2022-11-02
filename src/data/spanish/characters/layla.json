@@ -1,0 +1,846 @@
+{
+  "_id": 10000074,
+  "id": "layla",
+  "name": "Laila",
+  "title": "La Estrella de la Noche",
+  "description": "Una estudiante de la Facultad Rtawahist especializada en astrología teórica. A veces con sonambulismo, otras veces con insomnio, esta chica siempre tiene problemas de sueño.",
+  "weapon_type": "Espada ligera",
+  "element": "Cryo",
+  "gender": "Femenino",
+  "substat": "Vida%",
+  "affiliation": "Facultad Rtawahist",
+  "region": "Sumeru",
+  "rarity": 4,
+  "birthday": [19, 12],
+  "constellation": "Luscinia",
+  "domain": "Estupa Avidya",
+  "cv": {
+    "english": "Ashely Biski",
+    "chinese": "侯小菲",
+    "japanese": "富田美憂",
+    "korean": "Kang Sae-bom"
+  },
+  "skills": [
+    {
+      "_id": 10741,
+      "id": "normal_attack_sword_of_the_radiant_path",
+      "name": "Ataque Normal: Senda radiante",
+      "description": "<span>Ataque Normal</span><br/>Realiza hasta 3 ataques rápidos.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "51.22%",
+            "55.39%",
+            "59.56%",
+            "65.51%",
+            "69.68%",
+            "74.44%",
+            "80.99%",
+            "87.55%",
+            "94.1%",
+            "101.24%",
+            "108.39%",
+            "115.54%",
+            "122.68%",
+            "129.83%",
+            "136.98%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "48.48%",
+            "52.43%",
+            "56.38%",
+            "62.01%",
+            "65.96%",
+            "70.47%",
+            "76.67%",
+            "82.87%",
+            "89.07%",
+            "95.84%",
+            "102.6%",
+            "109.37%",
+            "116.13%",
+            "122.9%",
+            "129.66%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "72.97%",
+            "78.91%",
+            "84.85%",
+            "93.34%",
+            "99.28%",
+            "106.07%",
+            "115.4%",
+            "124.73%",
+            "134.07%",
+            "144.25%",
+            "154.43%",
+            "164.61%",
+            "174.8%",
+            "184.98%",
+            "195.16%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "47.73% + 52.55%",
+            "51.61% + 56.82%",
+            "55.5% + 61.1%",
+            "61.05% + 67.21%",
+            "64.93% + 71.49%",
+            "69.38% + 76.38%",
+            "75.48% + 83.1%",
+            "81.59% + 89.82%",
+            "87.69% + 96.54%",
+            "94.35% + 103.87%",
+            "101.01% + 111.2%",
+            "107.67% + 118.53%",
+            "114.33% + 125.87%",
+            "120.99% + 133.2%",
+            "127.65% + 140.53%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10742,
+      "id": "nights_of_formal_focus",
+      "name": "Noche solemne",
+      "description": "Extiende una Cortina del Letargo protectora para infligir <span>Daño Cryo en el AdE</span>.<br/>La cantidad de daño que absorbe el escudo aumenta en función de la Vida Máx. de Laila, y tiene un 250% de efectividad de absorción de <span>Daño Cryo</span>. Al crear el escudo, Laila es <span>afectada por Cryo</span> durante un breve periodo de tiempo.<br/><br/><span>Estrellas nocturnas y estrellas fugaces</span><br/>Mientras el escudo Cortina del Letargo esté activo, cada 1.5 s obtiene una estrella nocturna que se adhiere a él. Cuando un personaje protegido por el escudo use una Habilidad Elemental, creará 2 estrellas nocturnas. Solo se puede obtener una estrella nocturna cada 0.3 s de esta manera y, como máximo, solo se pueden tener 4 al mismo tiempo.<br/>Si hay enemigos cerca cuando el escudo Cortina del Letargo alcanza las 4 estrellas nocturnas, estas se convertirán en estrellas fugaces que se disparan una tras otra y que persiguen por sí solas a los enemigos para infligir <span>Daño Cryo</span> al golpearlos.<br/>Cuando termine la duración del escudo Cortina del Letargo o cuando se rompa, todas las estrellas nocturnas desaparecerán. Si ya se están disparando como estrellas fugaces, durarán hasta que se hayan disparado todas.<br/><br/>No se pueden crear nuevas estrellas nocturnas hasta que todas las estrellas fugaces actuales se hayan disparado.",
+      "info": "Ella y yo somos como dos maestras artesanas que aún no se han conocido, sentadas en la misma silla y bordando la misma flor de ensueño.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "12.8%",
+            "13.76%",
+            "14.72%",
+            "16%",
+            "16.96%",
+            "17.92%",
+            "19.2%",
+            "20.48%",
+            "21.76%",
+            "23.04%",
+            "24.32%",
+            "25.6%",
+            "27.2%",
+            "28.8%",
+            "30.4%"
+          ]
+        },
+        {
+          "label": "Daño de estrella fugaz",
+          "values": [
+            "14.72%",
+            "15.82%",
+            "16.93%",
+            "18.4%",
+            "19.5%",
+            "20.61%",
+            "22.08%",
+            "23.55%",
+            "25.02%",
+            "26.5%",
+            "27.97%",
+            "29.44%",
+            "31.28%",
+            "33.12%",
+            "34.96%"
+          ]
+        },
+        {
+          "label": "Absorción base de escudo",
+          "values": [
+            "10.8% de Vida Máx. + {NON_BREAK_SPACE}1040",
+            "11.61% de Vida Máx. + {NON_BREAK_SPACE}1144",
+            "12.42% de Vida Máx. + {NON_BREAK_SPACE}1257",
+            "13.5% de Vida Máx. + {NON_BREAK_SPACE}1378",
+            "14.31% de Vida Máx. + {NON_BREAK_SPACE}1508",
+            "15.12% de Vida Máx. + {NON_BREAK_SPACE}1647",
+            "16.2% de Vida Máx. + {NON_BREAK_SPACE}1794",
+            "17.28% de Vida Máx. + {NON_BREAK_SPACE}1950",
+            "18.36% de Vida Máx. + {NON_BREAK_SPACE}2115",
+            "19.44% de Vida Máx. + {NON_BREAK_SPACE}2288",
+            "20.52% de Vida Máx. + {NON_BREAK_SPACE}2470",
+            "21.6% de Vida Máx. + {NON_BREAK_SPACE}2661",
+            "22.95% de Vida Máx. + {NON_BREAK_SPACE}2860",
+            "24.3% de Vida Máx. + {NON_BREAK_SPACE}3068",
+            "25.65% de Vida Máx. + {NON_BREAK_SPACE}3285"
+          ]
+        },
+        {
+          "label": "Duración del escudo",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10745,
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Sueño acunaestrellas",
+      "description": "Libera una celestesfera onírica que lanza continuamente proyectiles estelares para atacar a los enemigos situados dentro del área e infligirles <span>Daño Cryo</span>.<br/>Cuando un proyectil estelar golpea a un enemigo, obtiene 1 estrella nocturna para los escudos Cortina del Letargo cercanos. Cada Cortina del Letargo puede obtener una estrella nocturna cada 0.5 s de esta manera.",
+      "info": "Duerme, duerme plácidamente. Sé que sueñas con sendas estelares, y que el porvenir de muchos destinos se revela ante tus ojos en ese difuso letargo.",
+      "attributes": [
+        {
+          "label": "Daño de proyectil estelar",
+          "values": [
+            "4.65% de Vida Máx.",
+            "5% de Vida Máx.",
+            "5.35% de Vida Máx.",
+            "5.81% de Vida Máx.",
+            "6.16% de Vida Máx.",
+            "6.51% de Vida Máx.",
+            "6.97% de Vida Máx.",
+            "7.44% de Vida Máx.",
+            "7.9% de Vida Máx.",
+            "8.37% de Vida Máx.",
+            "8.83% de Vida Máx.",
+            "9.3% de Vida Máx.",
+            "9.88% de Vida Máx.",
+            "10.46% de Vida Máx.",
+            "11.04% de Vida Máx."
+          ]
+        },
+        {
+          "label": "Duración",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "like_nascent_light",
+      "name": "Manifestación de la luz",
+      "description": "Mientras el <span>escudo Cortina del Letargo</span> esté activo, cada vez que obtenga una estrella nocturna se produce el efecto de “gran letargo”:<br/>·La Protección de Escudo de los personajes bajo el efecto de Cortina del Letargo aumenta en un 6%.<br/>·Este efecto puede acumularse hasta 4 veces y dura hasta que desaparezca el escudo Cortina del Letargo.",
+      "level": 1
+    },
+    {
+      "id": "sweet_slumber_undisturbed",
+      "name": "Sueños imperturbables",
+      "description": "El daño infligido por las estrellas fugaces de <span>Noche solemne</span> aumenta en una cantidad equivalente al 1.5% de la Vida Máx. de Laila.",
+      "level": 4
+    },
+    {
+      "id": "shadowy_dreamsigns",
+      "name": "Sueño premonitorio",
+      "description": "Al crear materiales de talento de personaje, hay una probabilidad del 10% de recibir el doble.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 741,
+      "id": "fortress_of_fantasy",
+      "name": "Fortaleza fantástica",
+      "description": "Aumenta en un 20% la absorción de daño del escudo Cortina del Letargo de <span>Noche solemne</span>.<br/>Además, al usar Noche solemne, se crea para todos los personajes del equipo cercanos que no estén protegidos por Cortina del Letargo un escudo con una cantidad de absorción de daño del 35% de la de Cortina del Letargo. Este escudo dura 12 s y tiene un 250% de efectividad de absorción de <span>Daño Cryo</span>.",
+      "level": 1
+    },
+    {
+      "_id": 742,
+      "id": "lights_remit",
+      "name": "Remisión estelar",
+      "description": "Cuando las estrellas fugaces de <span>Noche solemne</span> golpean a un enemigo, Laila recupera 1 pt. de Energía Elemental. Laila solo puede regenerar energía una vez por cada estrella fugaz de esta manera.",
+      "level": 2
+    },
+    {
+      "_id": 743,
+      "id": "secrets_of_the_night",
+      "name": "Secretos de la noche",
+      "description": "Aumenta el nivel de habilidad de <span>Noche solemne</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "_id": 744,
+      "id": "starry_illumination",
+      "name": "Revelación astral",
+      "description": "Cuando se empieza a lanzar un conjunto de estrellas fugaces de <span>Noche solemne</span>, otorga a todos los miembros del equipo cercanos el efecto de “lucero”, el cual aumenta el daño de sus Ataques Normales y Cargados en una cantidad equivalente al 5% de la Vida Máx. de Laila.<br/>El efecto de lucero dura 3 s y se anula 0.05 s después de infligir daño con un Ataque Normal o Cargado.",
+      "level": 4
+    },
+    {
+      "_id": 745,
+      "id": "stream_of_consciousness",
+      "name": "Flujo de consciencia",
+      "description": "Aumenta el nivel de habilidad de <span>Sueño acunaestrellas</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "_id": 746,
+      "id": "radiant_soulfire",
+      "name": "Fulgor espirituardiente",
+      "description": "Aumenta en un 40% tanto el daño infligido por las estrellas fugaces de <span>Noche solemne</span> como el de los rayos estelares de <span>Sueño acunaestrellas</span>.<br/>Además, el intervalo de creación de estrellas nocturnas de Noche solemne se reduce en un 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Pedacito de jade shivada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamino guía",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Fragmento de jade shivada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamino hechizado",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Trozo de jade shivada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Jade shivada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto nilotpala",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamino maldito",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Enseñanzas del ingenio",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Pergamino guía",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guía del ingenio",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guía del ingenio",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guía del ingenio",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guía del ingenio",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamino hechizado",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofía del ingenio",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Espejo del mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofía del ingenio",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Espejo del mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofía del ingenio",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Espejo del mushin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofía del ingenio",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamino maldito",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Espejo del mushin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Corona de la sabiduría",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

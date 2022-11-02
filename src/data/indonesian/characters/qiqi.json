@@ -17,7 +17,7 @@
   "cv": {
     "english": "Christie Cate",
     "chinese": "宴宁",
-    "japanese": "田村由加莉",
+    "japanese": "田村ゆかり",
     "korean": "Lee Seul"
   },
   "skills": [
@@ -25,7 +25,7 @@
       "_id": 10351,
       "id": "normal_attack_ancient_sword_art",
       "name": "Normal Attack: Ancient Sword Art",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang secara cepat.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -214,8 +214,8 @@
       "_id": 10352,
       "id": "adeptus_art_herald_of_frost",
       "name": "Adeptus Art: Herald of Frost",
-      "description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <span>Cryo DMG</span> ke musuh di sekitarnya.<br/><br/><span>Herald of Frost</span><br/>·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party dan karakter teman lainnya. Jumlah HP yang disembuhkan ditentukan berdasarkan ATK Qiqi;<br/>·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP karakter yang sedang digunakan;<br/>·Mengikuti gerakan karakter dan mengakibatkan <span>Cryo DMG</span> kepada musuh yang dilewati.",
-      "info": "Aku menggunakan ini supaya tidak busuk... Eh, aku sedang bicara soal bahan-bahan Dr. Bai.",
+      "description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <span>Cryo DMG</span> ke musuh di sekelilingnya.<br/><br/><span>Herald of Frost</span><br/>·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter teman lain di dekatnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi;<br/>·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri;<br/>·Mengikuti gerakan Karakter dan mengakibatkan <span>Cryo DMG</span> kepada musuh yang dilewati.",
+      "info": "Aku pakai ini supaya tidak jadi hangat dan busuk... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.",
       "attributes": [
         {
           "label": "DMG Skill",
@@ -258,7 +258,7 @@
           ]
         },
         {
-          "label": "Regenerasi HP",
+          "label": "Pemulihan HP Berkelanjutan",
           "values": [
             "69.6% ATK + 451",
             "74.82% ATK + 496",
@@ -343,8 +343,8 @@
       "_id": 10353,
       "id": "adeptus_art_preserver_of_fortune",
       "name": "Adeptus Art: Preserver of Fortune",
-      "description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan jimat keberuntungan yang mengakibatkan <span>Cryo DMG</span>.<br/><br/><span>Fortune-Preserving Talisman</span><br/>Saat musuh yang telah ditandai menerima DMG, maka karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.",
-      "info": "\"Aku adalah Penjaga Keberuntungan, sang Gadis Kebangkitan.\"<br/><i>—Qiqi tidak ingat kata-kata ini.</i>",
+      "description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <span>Cryo DMG</span>.<br/><br/><span>Fortune-Preserving Talisman</span><br/>Saat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.",
+      "info": "\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"<br/><i>—Qiqi tidak ingat kata-kata ini.</i>",
       "attributes": [
         {
           "label": "DMG Skill",
@@ -453,7 +453,7 @@
     {
       "id": "lifeprolonging_methods",
       "name": "Life-Prolonging Methods",
-      "description": "Meningkatkan 20% Bonus Pemulihan karakter selama 8 detik saat karakter dalam efek <span>Adeptus Art: Herald of Frost</span> memicu reaksi elemental.",
+      "description": "Saat Karakter berada dalam efek <span>Adeptus Art: Herald of Frost</span> memicu Reaksi Elemental, Incoming Healing Bonus mereka meningkat sebesar 20% selama 8 detik.",
       "level": 1
     },
     {
@@ -465,7 +465,7 @@
     {
       "id": "former_life_memories",
       "name": "Former Life Memories",
-      "description": "Memperlihatkan lokasi <span>produk khas Liyue</span> di sekitar pada mini-map.",
+      "description": "Menunjukkan lokasi <span>produk khas Liyue</span> di sekitar pada peta mini.",
       "level": 0
     }
   ],
@@ -474,7 +474,7 @@
       "_id": 351,
       "id": "ascetics_of_frost",
       "name": "Ascetics of Frost",
-      "description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi mendapatkan 2 Energy.",
+      "description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi memulihkan 2 Energy.",
       "level": 1
     },
     {

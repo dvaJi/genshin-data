@@ -1,0 +1,946 @@
+{
+  "_id": 10000073,
+  "id": "nahida",
+  "name": "Nahida",
+  "title": "Physic of Purity",
+  "description": "Seorang gadis yang dikurung bak burung di dalam sangkar Sanctuary of Surasthana, hanya bisa melihat dunia dari dalam mimpi.",
+  "weapon_type": "Catalyst",
+  "element": "Dendro",
+  "gender": "Perempuan",
+  "substat": "Elemental Mastery",
+  "affiliation": "Sumeru City",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [27, 10],
+  "constellation": "Sapientia Oromasdis",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Kimberley Anne Campbell",
+    "chinese": "花玲",
+    "japanese": "田村ゆかり",
+    "korean": "Park Shi-yoon"
+  },
+  "skills": [
+    {
+      "_id": 10731,
+      "id": "normal_attack_akara",
+      "name": "Normal Attack: Akara",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan ke area depan, yang mengakibatkan <span>Dendro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Dendro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Dendro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Dendro DMG area</span> saat mendarat.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DMG Tahap 1",
+          "values": [
+            "40.3%",
+            "43.33%",
+            "46.35%",
+            "50.38%",
+            "53.4%",
+            "56.43%",
+            "60.46%",
+            "64.49%",
+            "68.52%",
+            "72.55%",
+            "76.58%",
+            "80.61%",
+            "85.65%",
+            "90.69%",
+            "95.72%"
+          ]
+        },
+        {
+          "label": "DMG Tahap 2",
+          "values": [
+            "36.97%",
+            "39.75%",
+            "42.52%",
+            "46.22%",
+            "48.99%",
+            "51.76%",
+            "55.46%",
+            "59.16%",
+            "62.86%",
+            "66.55%",
+            "70.25%",
+            "73.95%",
+            "78.57%",
+            "83.19%",
+            "87.81%"
+          ]
+        },
+        {
+          "label": "DMG Tahap 3",
+          "values": [
+            "45.87%",
+            "49.31%",
+            "52.76%",
+            "57.34%",
+            "60.78%",
+            "64.22%",
+            "68.81%",
+            "73.4%",
+            "77.99%",
+            "82.57%",
+            "87.16%",
+            "91.75%",
+            "97.48%",
+            "103.22%",
+            "108.95%"
+          ]
+        },
+        {
+          "label": "DMG Tahap 4",
+          "values": [
+            "58.41%",
+            "62.79%",
+            "67.17%",
+            "73.01%",
+            "77.39%",
+            "81.77%",
+            "87.61%",
+            "93.45%",
+            "99.29%",
+            "105.13%",
+            "110.97%",
+            "116.81%",
+            "124.11%",
+            "131.41%",
+            "138.72%"
+          ]
+        },
+        {
+          "label": "DMG Charged Attack",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Konsumsi Stamina Charged Attack",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "DMG Selama Plunging",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DMG Plunging Attack Min./Maks.",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10732,
+      "id": "all_schemes_to_know",
+      "name": "All Schemes to Know",
+      "description": "Melepaskan belenggu karma dari kayu dan pepohonan di sekitarnya dan mengakibatkan <span>Dendro DMG Area</span>, serta memberikan status Seed of Skandha terhadap musuh yang terkena serangan, maksimal hingga 8 musuh.<br/>Saat ditahan, akan melancarkan serangan dengan cara yang berbeda.<br/><br/><span>Tahan</span><br/>Memasuki Mode Membidik untuk memilih sejumlah musuh dalam jarak tertentu dan meningkatkan ketahanan Nahida terhadap interupsi saat Nahida berada dalam status ini.<br/>Saat Mode Tahan selesai, akan mengakibatkan <span>Dendro DMG</span> terhadap musuh yang terpilih dan menambahkan Seed of Skandha kepada mereka.<br/>Mode Membidik bertahan maksimal selama 5 detik, dan bisa memilih hingga maksimal 8 musuh.<br/><br/><span>Seed of Skandha</span><br/>Musuh yang berada dalam status ini akan saling terhubung jika berada di dalam jarak tertentu.<br/>Setelah memicu reaksi elemental terhadap musuh yang berada dalam status ini, atau setelah musuh ini menerima DMG yang diakibatkan oleh Dendro Core (termasuk Burgeon dan Hyperbloom), Nahida akan melancarkan Tri-Karma Purification terhadap musuh ini dan semua musuh yang terhubung, dan mengakibatkan <span>Dendro DMG</span> berdasarkan ATK dan Elemental Mastery Nahida.<br/>Memicu sekali Tri-Karma Purification dalam waktu singkat.",
+      "info": "Oh, para dewa dedaunan dan pepohonan memancarkan kebenaran mutlaknya dalam kehampaan, menerangi asal mula dan kehancuran dari tiga karma.",
+      "attributes": [
+        {
+          "label": "DMG Tekan",
+          "values": [
+            "98.4%",
+            "105.78%",
+            "113.16%",
+            "123%",
+            "130.38%",
+            "137.76%",
+            "147.6%",
+            "157.44%",
+            "167.28%",
+            "177.12%",
+            "186.96%",
+            "196.8%",
+            "209.1%",
+            "221.4%",
+            "233.7%"
+          ]
+        },
+        {
+          "label": "DMG Tahan",
+          "values": [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%",
+            "293.4%",
+            "309.7%"
+          ]
+        },
+        {
+          "label": "DMG Tri-Karma Purification",
+          "values": [
+            "103.2% ATK + 206.4%Elemental Mastery",
+            "110.94% ATK + 221.88%Elemental Mastery",
+            "118.68% ATK + 237.36%Elemental Mastery",
+            "129% ATK + 258%Elemental Mastery",
+            "136.74% ATK + 273.48%Elemental Mastery",
+            "144.48% ATK + 288.96%Elemental Mastery",
+            "154.8% ATK + 309.6%Elemental Mastery",
+            "165.12% ATK + 330.24%Elemental Mastery",
+            "175.44% ATK + 350.88%Elemental Mastery",
+            "185.76% ATK + 371.52%Elemental Mastery",
+            "196.08% ATK + 392.16%Elemental Mastery",
+            "206.4% ATK + 412.8%Elemental Mastery",
+            "219.3% ATK + 438.6%Elemental Mastery",
+            "232.2% ATK + 464.4%Elemental Mastery",
+            "245.1% ATK + 490.2%Elemental Mastery"
+          ]
+        },
+        {
+          "label": "Jeda Waktu Tri-Karma Purification",
+          "values": [
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk",
+            "2.5 dtk"
+          ]
+        },
+        {
+          "label": "Durasi Seed of Skandha",
+          "values": [
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik",
+            "25 detik"
+          ]
+        },
+        {
+          "label": "Cooldown (Mode Tekan)",
+          "values": [
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik",
+            "5 detik"
+          ]
+        },
+        {
+          "label": "Cooldown (Mode Tahan)",
+          "values": [
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik",
+            "6 detik"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10735,
+      "id": "illusory_heart",
+      "name": "Illusory Heart",
+      "description": "Memanifestasikan Court of Dreams dan membentuk medan Shrine of Maya.<br/><br/>Saat medan Shrine of Maya dilancarkan, efek berikut akan diperoleh Karakter di dalam party sesuai dengan elemen yang dimilikinya.<br/>·<span>Pyro</span>: Saat Nahida berada di dalam Shrine of Maya, akan meningkatkan DMG Tri-Karma Purification dari Elemental Skill \"All Schemes to Know\";<br/>·<span>Electro</span>: Saat Nahida berada di dalam Shrine of Maya, akan mengurangi jeda waktu terpicunya Tri-Karma Purification dari Elemental Skill \"All Schemes to Know\";<br/>·<span>Hydro</span>: Meningkatkan durasi Shrine of Maya.<br/><br/>Saat membentuk medan, jika Karakter dengan elemen yang disebutkan di atas berjumlah 2 atau lebih, maka efek yang terpicu akan ditingkatkan lebih lanjut.<br/><br/>Saat Nahida ada di dalam party namun tidak berada di medan pertempuran, asalkan party ini berada dalam Shrine of Maya, akan tetap memperoleh peningkatan efek yang disebutkan di atas.",
+      "info": "Mungkin semua yang berjuang di permukaan pohon tidak lebih dari sekadar mimpi terbalik yang sekejap saja di mata Dewa Kebijaksanaan.",
+      "attributes": [
+        {
+          "label": "Pyro: DMG Meningkat",
+          "values": [
+            "2 Karakter 22.32%",
+            "2 Karakter 23.99%",
+            "2 Karakter 25.67%",
+            "2 Karakter 27.9%",
+            "2 Karakter 29.57%",
+            "2 Karakter 31.25%",
+            "2 Karakter 33.48%",
+            "2 Karakter 35.71%",
+            "2 Karakter 37.94%",
+            "2 Karakter 40.18%",
+            "2 Karakter 42.41%",
+            "2 Karakter 44.64%",
+            "2 Karakter 47.43%",
+            "2 Karakter 50.22%",
+            "2 Karakter 53.01%"
+          ]
+        },
+        {
+          "label": "Electro: Jeda Berkurang",
+          "values": [
+            "2 Karakter 37.2% dtk",
+            "2 Karakter 39.99% dtk",
+            "2 Karakter 42.78% dtk",
+            "2 Karakter 46.5% dtk",
+            "2 Karakter 49.29% dtk",
+            "2 Karakter 52.08% dtk",
+            "2 Karakter 55.8% dtk",
+            "2 Karakter 59.52% dtk",
+            "2 Karakter 63.24% dtk",
+            "2 Karakter 66.96% dtk",
+            "2 Karakter 70.68% dtk",
+            "2 Karakter 74.4% dtk",
+            "2 Karakter 79.05% dtk",
+            "2 Karakter 83.7% dtk",
+            "2 Karakter 88.35% dtk"
+          ]
+        },
+        {
+          "label": "Hydro: Peningkatan Durasi",
+          "values": [
+            "2 Karakter 5 dtk",
+            "2 Karakter 5.4 dtk",
+            "2 Karakter 5.8 dtk",
+            "2 Karakter 6.3 dtk",
+            "2 Karakter 6.6 dtk",
+            "2 Karakter 7 dtk",
+            "2 Karakter 7.5 dtk",
+            "2 Karakter 8 dtk",
+            "2 Karakter 8.5 dtk",
+            "2 Karakter 9 dtk",
+            "2 Karakter 9.5 dtk",
+            "2 Karakter 10 dtk",
+            "2 Karakter 10.7 dtk",
+            "2 Karakter 11.3 dtk",
+            "2 Karakter 11.9 dtk"
+          ]
+        },
+        {
+          "label": "Durasi Dasar",
+          "values": [
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk",
+            "15 dtk"
+          ]
+        },
+        {
+          "label": "Cooldown",
+          "values": [
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk",
+            "13.5 dtk"
+          ]
+        },
+        {
+          "label": "Konsumsi Energy",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "compassion_illuminated",
+      "name": "Compassion Illuminated",
+      "description": "Saat melancarkan <span>Illusory Heart</span>, Shrine of Maya akan mendapatkan efek sebagai berikut:<br/>Meningkatkan Elemental Mastery Karakter aktif yang berada di dalam medan Shrine of Maya sebesar 25% dari Karakter yang memiliki Elemental Mastery tertinggi di dalam party.<br/>Elemental Mastery yang bisa diperoleh dengan cara ini maksimal hingga 250 poin Elemental Mastery.",
+      "level": 1
+    },
+    {
+      "id": "awakening_elucidated",
+      "name": "Awakening Elucidated",
+      "description": "Untuk setiap 1 poin Elemental Mastery Nahida yang di atas 200 poin, akan membuat DMG Tri-Karma Purification yang diakibatkan oleh <span>All Schemes to Know</span> meningkat 0,1%, CRIT Rate meningkat 0,03%.<br/>Peningkatan DMG Tri-Karma Purification yang bisa diperoleh dengan cara ini maksimal adalah 80% dan peningkatan CRIT Rate maksimal adalah 24%.",
+      "level": 4
+    },
+    {
+      "id": "on_all_things_meditated",
+      "name": "On All Things Meditated",
+      "description": "Nahida bisa berinteraksi dengan sebagian tanaman dalam area tertentu melalui <span>All Schemes to Know</span>.<br/>Mungkin masih ada efek yang lain ....",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 731,
+      "id": "the_seed_of_stored_knowledge",
+      "name": "The Seed of Stored Knowledge",
+      "description": "Saat membentuk <span>Shrine of Maya</span> dan melakukan perhitungan terhadap jumlah Karakter berelemen tertentu di dalam party, akan menambahkan perhitungan Karakter berelemen Pyro, Electro, dan Hydro masing-masing sebanyak 1 orang.",
+      "level": 1
+    },
+    {
+      "_id": 732,
+      "id": "the_root_of_all_fullness",
+      "name": "The Root of All Fullness",
+      "description": "Musuh yang berada dalam status <span>Seed of Skandha</span> yang diberikan oleh Nahida akan mendapatkan pengaruh efek sebagai berikut:<br/>·DMG reaksi Burning, Bloom, Hyperbloom, dan Burgeon yang diterimanya akan bisa mengakibatkan CRIT, dengan nilai CRIT Rate sebesar 20% dan CRIT DMG sebesar 100%;<br/>·Dalam 8 detik setelah reaksi Quicken, Aggravate, dan Spread terpicu, DEF berkurang 30%.",
+      "level": 2
+    },
+    {
+      "_id": 733,
+      "id": "the_shoot_of_conscious_attainment",
+      "name": "The Shoot of Conscious Attainment",
+      "description": "Meningkatkan 3 level <span>All Schemes to Know</span>.<br/>Maksimum: Lv. 15.",
+      "level": 3
+    },
+    {
+      "_id": 734,
+      "id": "the_stem_of_manifest_inference",
+      "name": "The Stem of Manifest Inference",
+      "description": "Saat jumlah musuh yang berada di dalam status Seed of Skandha dari <span>All Schemes to Know</span> adalah 1/2/3/4 atau lebih banyak, maka Elemental Mastery Nahida akan meningkat sebesar 100/120/140/160 poin.",
+      "level": 4
+    },
+    {
+      "_id": 735,
+      "id": "the_leaves_of_enlightening_speech",
+      "name": "The Leaves of Enlightening Speech",
+      "description": "Meningkatkan 3 level <span>Illusory Heart</span>.<br/>Maksimum: Lv. 15.",
+      "level": 5
+    },
+    {
+      "_id": 736,
+      "id": "the_fruit_of_reasons_culmination",
+      "name": "The Fruit of Reason's Culmination",
+      "description": "Setelah melancarkan <span>Illusory Heart</span>, saat Normal Attack atau Charged Attack Nahida mengenai musuh yang berada dalam status Seed of Skandha dari <span>All Schemes to Know</span>, akan melancarkan Tri-Karma Purification: Karmic Oblivion terhadap musuh ini dan seluruh musuh yang terhubung, mengakibatkan <span>Dendro DMG</span> sebesar 200% ATK dan 400% Elemental Mastery Nahida.<br/>DMG yang diakibatkan Tri-Karma Purification: Karmic Oblivion akan dianggap sebagai DMG Elemental Skill dan dapat terpicu 0,2 detik sekali.<br/>Efek ini bisa bertahan selama 10 detik, dan akan hilang setelah Nahida melancarkan 6 kali Tri-Karma Purification: Karmic Oblivion.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spore",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112059,
+        "id": "fungal_spores",
+        "name": "Fungal Spore",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104132,
+        "id": "nagadus_emerald_fragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112060,
+        "id": "luminescent_pollen",
+        "name": "Luminescent Pollen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104133,
+        "id": "nagadus_emerald_chunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113040,
+        "id": "quelled_creeper",
+        "name": "Quelled Creeper",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101217,
+        "id": "kalpalata_lotus",
+        "name": "Kalpalata Lotus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112061,
+        "id": "crystalline_cyst_dust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Teachings of Ingenuity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112059,
+          "id": "fungal_spores",
+          "name": "Fungal Spore",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guide to Ingenuity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112060,
+          "id": "luminescent_pollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112061,
+          "id": "crystalline_cyst_dust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113041,
+          "id": "puppet_strings",
+          "name": "Puppet Strings",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
