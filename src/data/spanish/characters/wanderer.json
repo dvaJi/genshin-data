@@ -1,0 +1,826 @@
+{
+  "_id": 10000075,
+  "id": "wanderer",
+  "name": "Trotamundos",
+  "title": "El Caminante Eterno",
+  "description": "Un joven errante de identidad enigmática. Viste como un asceta, pero no actúa como tal.",
+  "weapon_type": "Catalizador",
+  "element": "Anemo",
+  "gender": "Masculino",
+  "substat": "Prob. CRIT",
+  "affiliation": "—",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 1],
+  "constellation": "Peregrinus",
+  "domain": "Estupa Avidya",
+  "cv": {
+    "english": "Patrick Pedraza",
+    "chinese": "鹿喑",
+    "japanese": "柿原徹也",
+    "korean": "Min Seung-woo"
+  },
+  "skills": [
+    {
+      "_id": 10751,
+      "id": "normal_attack_yuuban_meigen",
+      "name": "Ataque Normal: Ondeo de estandartes",
+      "description": "<span>Ataque Normal</span><br/>Libera ráfagas de viento cortante para realizar hasta 3 ataques que infligen <span>Daño Anemo</span>.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante, crea una acumulación de aire a presión e inflige <span>Daño Anemo en el AdE</span> después de un corto tiempo de canalización.<br/><br/><span>Ataque Descendente</span><br/>Concentra el poder del viento, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo <span>Daño Anemo</span> en el AdE en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "68.71%",
+            "74.31%",
+            "79.9%",
+            "87.89%",
+            "93.48%",
+            "99.87%",
+            "108.66%",
+            "117.45%",
+            "126.24%",
+            "135.83%",
+            "145.42%",
+            "155.01%",
+            "164.59%",
+            "174.18%",
+            "183.77%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "65.02%",
+            "70.31%",
+            "75.6%",
+            "83.16%",
+            "88.45%",
+            "94.5%",
+            "102.82%",
+            "111.13%",
+            "119.45%",
+            "128.52%",
+            "137.59%",
+            "146.66%",
+            "155.74%",
+            "164.81%",
+            "173.88%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "47.64% + 47.64%",
+            "51.52% + 51.52%",
+            "55.4% + 55.4%",
+            "60.94% + 60.94%",
+            "64.82% + 64.82%",
+            "69.25% + 69.25%",
+            "75.34% + 75.34%",
+            "81.44% + 81.44%",
+            "87.53% + 87.53%",
+            "94.18% + 94.18%",
+            "100.83% + 100.83%",
+            "107.48% + 107.48%",
+            "114.12% + 114.12%",
+            "120.77% + 120.77%",
+            "127.42% + 127.42%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "132.08%",
+            "141.99%",
+            "151.89%",
+            "165.1%",
+            "175.01%",
+            "184.91%",
+            "198.12%",
+            "211.33%",
+            "224.54%",
+            "237.74%",
+            "250.95%",
+            "264.16%",
+            "280.67%",
+            "297.18%",
+            "313.69%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts.",
+            "50 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10752,
+      "id": "hanega_song_of_the_wind",
+      "name": "Ilustración emplumada: Balada del viento",
+      "description": "Concentra el poder del viento para liberarse de las cadenas terrenales. Inflige <span>Daño Anemo</span> alrededor de sí mismo y da un salto con el que entra en el estado de “gracia del viento”.<br/><br/><span>Gracia del viento</span><br/>El Trotamundos no puede ejecutar Ataques Descendentes, y sus Ataques Normales y Cargados se transforman respectivamente en “Obliteración celeste” y “Ráfaga celeste”, los cuales infligen mayor daño y tienen una mayor AdE. El daño de estos dos ataques se considera, respectivamente, daño de Ataque Normal y de Ataque Cargado. Además, Ráfaga celeste no consume Aguante.<br/>En el estado de gracia del viento, el Trotamundos queda suspendido en el aire de manera continua, lo que otorga a sus movimientos las siguientes características:<br/>·Consume continuamente “persistencia celeste” para mantenerse en el aire.<br/>·Al esprintar, consume una cantidad de persistencia celeste adicional para acelerar mientras está suspendido en el aire. Al mantener pulsado para esprintar, consume continuamente esta persistencia para mantener la velocidad a la que se mueve. Este efecto sustituye al esprint.<br/>·Cuando salta, vuelve a gastar persistencia celeste para elevarse aún más. Al mantener pulsado para saltar, la persistencia celeste se consume de forma continua para seguir elevándose en el aire.<br/><br/>Este estado terminará al agotar por completo la persistencia celeste o si se vuelve a usar esta habilidad mientras la gracia del viento está activa.",
+      "info": "El mundo efectúa una sutil danza para revelar un secreto que se oculta en las flores.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        },
+        {
+          "label": "Daño de Obliteración celeste",
+          "values": [
+            "132.98% del daño de ATQ Normal",
+            "134.96% del daño de ATQ Normal",
+            "136.93% del daño de ATQ Normal",
+            "139.5% del daño de ATQ Normal",
+            "141.47% del daño de ATQ Normal",
+            "143.45% del daño de ATQ Normal",
+            "146.02% del daño de ATQ Normal",
+            "148.58% del daño de ATQ Normal",
+            "151.15% del daño de ATQ Normal",
+            "153.72% del daño de ATQ Normal",
+            "156.29% del daño de ATQ Normal",
+            "158.85% del daño de ATQ Normal",
+            "161.42% del daño de ATQ Normal",
+            "163.99% del daño de ATQ Normal",
+            "166.56% del daño de ATQ Normal"
+          ]
+        },
+        {
+          "label": "Daño de Ráfaga celeste",
+          "values": [
+            "126.39% del daño de ATQ Cargado",
+            "127.97% del daño de ATQ Cargado",
+            "129.55% del daño de ATQ Cargado",
+            "131.6% del daño de ATQ Cargado",
+            "133.18% del daño de ATQ Cargado",
+            "134.76% del daño de ATQ Cargado",
+            "136.81% del daño de ATQ Cargado",
+            "138.87% del daño de ATQ Cargado",
+            "140.92% del daño de ATQ Cargado",
+            "142.98% del daño de ATQ Cargado",
+            "145.03% del daño de ATQ Cargado",
+            "147.08% del daño de ATQ Cargado",
+            "149.14% del daño de ATQ Cargado",
+            "151.19% del daño de ATQ Cargado",
+            "153.25% del daño de ATQ Cargado"
+          ]
+        },
+        {
+          "label": "Persistencia celeste inicial",
+          "values": [
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts.",
+            "100 pts."
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s",
+            "6 s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10755,
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Cinco actos",
+      "description": "Comprime el aire y lo transforma en una cavidad vacua capaz de acabar con todas las preocupaciones, y que inflige varias veces <span>Daño Anemo en el AdE</span>.<br/>Si se usa esta habilidad en el estado de gracia del viento de la Habilidad Elemental, Ilustración emplumada: Balada del viento, dicho estado se terminará.",
+      "info": "Poco a poco, el cielo se vuelve a iluminar, mientras los sueños de ayer y hoy flotan en el aire dejando una sombra que se difumina.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "147.2% ×5",
+            "158.24% ×5",
+            "169.28% ×5",
+            "184% ×5",
+            "195.04% ×5",
+            "206.08% ×5",
+            "220.8% ×5",
+            "235.52% ×5",
+            "250.24% ×5",
+            "264.96% ×5",
+            "279.68% ×5",
+            "294.4% ×5",
+            "312.8% ×5",
+            "331.2% ×5",
+            "349.6% ×5"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "jadeclaimed_flower",
+      "name": "Flor de jade",
+      "description": "Al usar <span>Ilustración emplumada: Balada del viento</span>, si esta entra en contacto con <span>Hydro</span>, <span>Pyro</span>, <span>Cryo</span> o <span>Electro</span>, el actual estado de gracia del viento obtendrá los siguientes fortalecimientos dependiendo del elemento con el que entró en contacto la habilidad:<br/>·<span>Hydro</span>: el límite máximo de persistencia celeste aumenta en 20 pts.<br/>·<span>Pyro</span>: el ATQ aumenta en un 30%.<br/>·<span>Cryo</span>: la Prob. CRIT aumenta en un 20%.<br/>·<span>Electro</span>: recupera 0.8 pts. de Energía Elemental cuando golpea a un enemigo con un Ataque Normal o Cargado. Solo se puede recuperar Energía Elemental una vez cada 0.2 s de esta manera.<br/><br/>Solo pueden obtenerse los fortalecimientos de hasta 2 elementos distintos al mismo tiempo.",
+      "level": 1
+    },
+    {
+      "id": "gales_of_reverie",
+      "name": "Céfiro de la ensoñación",
+      "description": "Cuando el Trotamundos golpea a un enemigo con Obliteración celeste o Ráfaga celeste mientras está en el estado de <span>gracia del viento</span>, tiene un 16% de probabilidad de obtener el efecto de “precipitación”. Este efecto se eliminará cuando el Trotamundos acelere en el aire mientras esté en el estado de gracia del viento, y hará que dicho acelerón no consuma persistencia celeste y dispare 4 proyectiles ventosos que infligen cada uno <span>Daño Anemo</span> basado en el 35% del ATQ.<br/>Si Obliteración celeste o Ráfaga celeste no generan el efecto de precipitación, la próxima vez que se ejecuten tendrán un 12% más de probabilidad de generarlo. El cálculo de la generación del efecto de precipitación solo puede ocurrir una vez cada 0.1 s.",
+      "level": 4
+    },
+    {
+      "id": "strum_the_swirling_winds",
+      "name": "Acordes nubosos",
+      "description": "Reduce en un 50% los Moras necesarios para ascender arcos y catalizadores.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 751,
+      "id": "shoban_ostentatious_plumage",
+      "name": "Primer acto: Plumaje ostentoso",
+      "description": "En el estado de <span>gracia del viento</span>, la Vel. de Ataque de Obliteración celeste y Ráfaga celeste del Trotamundos aumenta en un 10%.<br/>Además, los proyectiles ventosos del talento pasivo “Céfiro de la ensoñación” infligen un daño adicional equivalente al 25% del ATQ. Para activar este efecto, es necesario desbloquear el talento pasivo “Céfiro de la ensoñación”.",
+      "level": 1
+    },
+    {
+      "_id": 752,
+      "id": "niban_isle_amidst_white_waves",
+      "name": "Segundo acto: La luna en el mar riela",
+      "description": "En el estado de <span>gracia del viento</span>, el daño infligido con <span>Kyougen: Cinco actos</span> aumenta en un 4% por cada punto de diferencia que haya entre el límite máximo de persistencia celeste y la cantidad actual.<br/>Como máximo, el daño de Kyougen: Cinco actos solo puede aumentar en un 200% de esta manera.",
+      "level": 2
+    },
+    {
+      "_id": 753,
+      "id": "sanban_moonflower_kusemai",
+      "name": "Tercer acto: Kusemai del ocaso",
+      "description": "Aumenta el nivel de habilidad de <span>Kyougen: Cinco actos</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "_id": 754,
+      "id": "yonban_set_adrift_into_spring",
+      "name": "Cuarto acto: Barco a la deriva",
+      "description": "Si al usar <span>Ilustración emplumada: Balada del viento</span> se activa el fortalecimiento de un tipo elemental mediante el talento pasivo “Flor de jade”, se obtiene aleatoriamente un fortalecimiento más que no se haya activado al usar dicha habilidad. Solo se pueden obtener 3 fortalecimientos elementales al mismo tiempo.<br/>Se necesita desbloquear el talento pasivo “Flor de jade”.",
+      "level": 4
+    },
+    {
+      "_id": 755,
+      "id": "matsuban_ancient_illuminator_from_abroad",
+      "name": "Acto final: Ilustrado en el pasado",
+      "description": "Aumenta el nivel de habilidad de <span>Ilustración emplumada: Balada del viento</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "_id": 756,
+      "id": "shugen_the_curtains_melancholic_sway",
+      "name": "Agradecimientos: Telón del Matsukaze",
+      "description": "En el estado de <span>gracia del viento</span>, cuando el Trotamundos golpea a un enemigo con Obliteración celeste, se producen los siguientes efectos:<br/>·En la ubicación golpeada, se ejecuta una Obliteración celeste adicional que inflige un 40% del daño original. Este daño se considera daño de Ataque Normal.<br/>·Cuando el Trotamundos tiene menos de 40 pts. de persistencia celeste, recupera un máximo de 4 pts. una vez cada 0.2 s de esta manera. Este efecto solo se puede activar 5 veces a lo largo de la duración de una gracia del viento.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Pedacito de turquesa vayuda",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Guardamano viejo",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Guardamano viejo",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de turquesa vayuda",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Guardamano gemelo",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Guardamano gemelo",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Trozo de turquesa vayuda",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Guardamano célebre",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Turquesa vayuda",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Resorte perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Champiñón rukkhashava",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Guardamano célebre",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104335,
+          "id": "teachings_of_praxis",
+          "name": "Enseñanzas de la praxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Guardamano viejo",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guía de la praxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guía de la praxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guía de la praxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guía de la praxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Guardamano gemelo",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofía de la praxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Cascabel de anulación",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofía de la praxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Cascabel de anulación",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofía de la praxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Cascabel de anulación",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofía de la praxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Guardamano célebre",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Cascabel de anulación",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Corona de la sabiduría",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

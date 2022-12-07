@@ -1,0 +1,826 @@
+{
+  "_id": 10000075,
+  "id": "wanderer",
+  "name": "Wanderer",
+  "title": "Eons Adrift",
+  "description": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part.",
+  "weapon_type": "Catalyst",
+  "element": "Anemo",
+  "gender": "Male",
+  "substat": "CRIT Rate",
+  "affiliation": "None",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 1],
+  "constellation": "Peregrinus",
+  "domain": "Steeple of Ignorance",
+  "cv": {
+    "english": "Patrick Pedraza",
+    "chinese": "鹿喑",
+    "japanese": "柿原徹也",
+    "korean": "Min Seung-woo"
+  },
+  "skills": [
+    {
+      "_id": 10751,
+      "id": "normal_attack_yuuban_meigen",
+      "name": "Normal Attack: Yuuban Meigen",
+      "description": "<span>Normal Attack</span><br/>Performs up to 3 attacks using wind blades, dealing <span>Anemo DMG</span>.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals <span>AoE Anemo DMG</span> after a short casting time.<br/><br/><span>Plunging Attack</span><br/>Calling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals <span>AoE Anemo DMG</span> upon impact with the ground.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "68.71%",
+            "74.31%",
+            "79.9%",
+            "87.89%",
+            "93.48%",
+            "99.87%",
+            "108.66%",
+            "117.45%",
+            "126.24%",
+            "135.83%",
+            "145.42%",
+            "155.01%",
+            "164.59%",
+            "174.18%",
+            "183.77%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "65.02%",
+            "70.31%",
+            "75.6%",
+            "83.16%",
+            "88.45%",
+            "94.5%",
+            "102.82%",
+            "111.13%",
+            "119.45%",
+            "128.52%",
+            "137.59%",
+            "146.66%",
+            "155.74%",
+            "164.81%",
+            "173.88%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "47.64% + 47.64%",
+            "51.52% + 51.52%",
+            "55.4% + 55.4%",
+            "60.94% + 60.94%",
+            "64.82% + 64.82%",
+            "69.25% + 69.25%",
+            "75.34% + 75.34%",
+            "81.44% + 81.44%",
+            "87.53% + 87.53%",
+            "94.18% + 94.18%",
+            "100.83% + 100.83%",
+            "107.48% + 107.48%",
+            "114.12% + 114.12%",
+            "120.77% + 120.77%",
+            "127.42% + 127.42%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "132.08%",
+            "141.99%",
+            "151.89%",
+            "165.1%",
+            "175.01%",
+            "184.91%",
+            "198.12%",
+            "211.33%",
+            "224.54%",
+            "237.74%",
+            "250.95%",
+            "264.16%",
+            "280.67%",
+            "297.18%",
+            "313.69%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10752,
+      "id": "hanega_song_of_the_wind",
+      "name": "Hanega: Song of the Wind",
+      "description": "Concentrates the power of the winds to break free from the shackles of the earth, dealing <span>AoE Anemo DMG</span> before leaping into the air and entering the Windfavored state.<br/><br/><span>Windfavored</span><br/>The Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina.<br/>The Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:<br/>·Persistently consumes Kuugoryoku Points to maintain this hovering state.<br/>·When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.<br/>·Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.<br/><br/>Running out of Kuugoryoku Points will end the Windfavored state.<br/>A second cast during the duration of Windfavored will also end it.",
+      "info": "\"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        },
+        {
+          "label": "Kuugo: Fushoudan DMG",
+          "values": [
+            "132.98% Normal Attack DMG",
+            "134.96% Normal Attack DMG",
+            "136.93% Normal Attack DMG",
+            "139.5% Normal Attack DMG",
+            "141.47% Normal Attack DMG",
+            "143.45% Normal Attack DMG",
+            "146.02% Normal Attack DMG",
+            "148.58% Normal Attack DMG",
+            "151.15% Normal Attack DMG",
+            "153.72% Normal Attack DMG",
+            "156.29% Normal Attack DMG",
+            "158.85% Normal Attack DMG",
+            "161.42% Normal Attack DMG",
+            "163.99% Normal Attack DMG",
+            "166.56% Normal Attack DMG"
+          ]
+        },
+        {
+          "label": "Kuugo: Toufukai DMG",
+          "values": [
+            "126.39% Charged Attack DMG",
+            "127.97% Charged Attack DMG",
+            "129.55% Charged Attack DMG",
+            "131.6% Charged Attack DMG",
+            "133.18% Charged Attack DMG",
+            "134.76% Charged Attack DMG",
+            "136.81% Charged Attack DMG",
+            "138.87% Charged Attack DMG",
+            "140.92% Charged Attack DMG",
+            "142.98% Charged Attack DMG",
+            "145.03% Charged Attack DMG",
+            "147.08% Charged Attack DMG",
+            "149.14% Charged Attack DMG",
+            "151.19% Charged Attack DMG",
+            "153.25% Charged Attack DMG"
+          ]
+        },
+        {
+          "label": "Initial Kuugoryoku Points",
+          "values": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10755,
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Five Ceremonial Plays",
+      "description": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of <span>AoE Anemo DMG</span>.<br/>If the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.",
+      "info": "\"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\"",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "147.2%×5",
+            "158.24%×5",
+            "169.28%×5",
+            "184%×5",
+            "195.04%×5",
+            "206.08%×5",
+            "220.8%×5",
+            "235.52%×5",
+            "250.24%×5",
+            "264.96%×5",
+            "279.68%×5",
+            "294.4%×5",
+            "312.8%×5",
+            "331.2%×5",
+            "349.6%×5"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "jadeclaimed_flower",
+      "name": "Jade-Claimed Flower",
+      "description": "If <span>Hanega: Song of the Wind</span> comes into contact with <span>Hydro</span>/<span>Pyro</span>/<span>Cryo</span>/<span>Electro</span> when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):<br/>·<span>Hydro</span>: Kuugoryoku Point cap increases by 20.<br/>·<span>Pyro</span>: ATK increases by 30%.<br/>·<span>Cryo</span>: CRIT Rate increases by 20%.<br/>·<span>Electro</span>: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.<br/><br/>You can have up to 2 different kinds of these buffs simultaneously.",
+      "level": 1
+    },
+    {
+      "id": "gales_of_reverie",
+      "name": "Gales of Reverie",
+      "description": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his <span>Windfavored</span> state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as <span>Anemo DMG</span> each.<br/>For each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s.",
+      "level": 4
+    },
+    {
+      "id": "strum_the_swirling_winds",
+      "name": "Strum the Swirling Winds",
+      "description": "Mora expended when ascending Bows and Catalysts is decreased by 50%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 751,
+      "id": "shoban_ostentatious_plumage",
+      "name": "Shoban: Ostentatious Plumage",
+      "description": "When in the <span>Windfavored</span> state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.<br/>Additionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first.",
+      "level": 1
+    },
+    {
+      "_id": 752,
+      "id": "niban_isle_amidst_white_waves",
+      "name": "Niban: Isle Amidst White Waves",
+      "description": "When in the <span>Windfavored</span> state, <span>Kyougen: Five Ceremonial Plays</span> will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.<br/>Through this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+      "level": 2
+    },
+    {
+      "_id": 753,
+      "id": "sanban_moonflower_kusemai",
+      "name": "Sanban: Moonflower Kusemai",
+      "description": "Increases the Level of <span>Kyougen: Five Ceremonial Plays</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "_id": 754,
+      "id": "yonban_set_adrift_into_spring",
+      "name": "Yonban: Set Adrift into Spring",
+      "description": "When casting <span>Hanega: Song of the Wind</span>, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.<br/>You must unlock the Passive Talent \"Jade-Claimed Flower\" first.",
+      "level": 4
+    },
+    {
+      "_id": 755,
+      "id": "matsuban_ancient_illuminator_from_abroad",
+      "name": "Matsuban: Ancient Illuminator From Abroad",
+      "description": "Increases the Level of <span>Hanega: Song of the Wind</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "_id": 756,
+      "id": "shugen_the_curtains_melancholic_sway",
+      "name": "Shugen: The Curtains' Melancholic Sway",
+      "description": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the <span>Windfavored</span> state, the following effects will occur:<br/>·Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.<br/>·When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Old Handguard",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Kageuchi Handguard",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Perpetual Caliber",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Famed Handguard",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104335,
+          "id": "teachings_of_praxis",
+          "name": "Teachings of Praxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Old Handguard",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guide to Praxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Kageuchi Handguard",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Philosophies of Praxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Famed Handguard",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Daka's Bell",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "_id": 10000075,
+  "id": "wanderer",
+  "name": "Andarilho",
+  "title": "Caminhante Eterno",
+  "description": "Um jovem andarilho de identidade misteriosa. Se veste como um shugenja, mas com certeza não age como um.",
+  "weapon_type": "Catalisador",
+  "element": "Anemo",
+  "gender": "Masculino",
+  "substat": "Taxa Crítica",
+  "affiliation": "Nenhuma",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 1],
+  "constellation": "Peregrinus",
+  "domain": "Campanário da Ignorância",
+  "cv": {
+    "english": "Patrick Pedraza",
+    "chinese": "鹿喑",
+    "japanese": "柿原徹也",
+    "korean": "Min Seung-woo"
+  },
+  "skills": [
+    {
+      "_id": 10751,
+      "id": "normal_attack_yuuban_meigen",
+      "name": "Ataque Normal: Tocar da Bandeira Trêmula",
+      "description": "<span>Ataque Normal</span><br/>Realiza até 3 ataques lançando Lâminas de Vento, infligindo <span>Dano Anemo</span>.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina criando um campo de alta pressão, infligindo <span>Dano Anemo em uma AdE</span> após um curto período de canalização.<br/><br/><span>Ataque Imersivo</span><br/>Convocando os poderes do Anemo para si, mergulha em direção ao chão a partir do ar, causando dano a todos os inimigos em seu caminho. Inflige <span>Dano Anemo em uma AdE</span> quando atinge o chão.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "68.71%",
+            "74.31%",
+            "79.9%",
+            "87.89%",
+            "93.48%",
+            "99.87%",
+            "108.66%",
+            "117.45%",
+            "126.24%",
+            "135.83%",
+            "145.42%",
+            "155.01%",
+            "164.59%",
+            "174.18%",
+            "183.77%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "65.02%",
+            "70.31%",
+            "75.6%",
+            "83.16%",
+            "88.45%",
+            "94.5%",
+            "102.82%",
+            "111.13%",
+            "119.45%",
+            "128.52%",
+            "137.59%",
+            "146.66%",
+            "155.74%",
+            "164.81%",
+            "173.88%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "47.64% + 47.64%",
+            "51.52% + 51.52%",
+            "55.4% + 55.4%",
+            "60.94% + 60.94%",
+            "64.82% + 64.82%",
+            "69.25% + 69.25%",
+            "75.34% + 75.34%",
+            "81.44% + 81.44%",
+            "87.53% + 87.53%",
+            "94.18% + 94.18%",
+            "100.83% + 100.83%",
+            "107.48% + 107.48%",
+            "114.12% + 114.12%",
+            "120.77% + 120.77%",
+            "127.42% + 127.42%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "132.08%",
+            "141.99%",
+            "151.89%",
+            "165.1%",
+            "175.01%",
+            "184.91%",
+            "198.12%",
+            "211.33%",
+            "224.54%",
+            "237.74%",
+            "250.95%",
+            "264.16%",
+            "280.67%",
+            "297.18%",
+            "313.69%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10752,
+      "id": "hanega_song_of_the_wind",
+      "name": "Pluma Ilustrada: Canção Graciosa",
+      "description": "Condensa uma atmosfera poderosa para quebrar as correntes da terra. Inflige <span>Dano Anemo</span> contra os inimigos próximos e salta no ar, entrando no estado \"Postura do Vento\".<br/><br/><span>Postura do Vento</span><br/>Quando o Andarilho está nesse estado, não consegue realizar Ataques Imersivos, e ao realizar Ataques Normais ou Carregados, eles serão convertidos em Vazio: Obliteração e Vazio: Lâmina de Vento respectivamente, aumentando o Dano causado e a AdE. Esses Danos são considerados Dano de Ataque Normal e Dano de Ataque Carregado respectivamente. Ao realizar Vazio: Lâmina de Vento, não consumirá Stamina.<br/>Quando o Andarilho estiver nesse estado, flutuará continuamente no ar, e seus movimentos possuirão as seguintes características:<br/>· Enquanto estiver flutuando, consumirá continuamente \"Poder Vazio\";<br/>· Ao correr, consumirá Poder Vazio adicional para acelerar no ar; ao Manter Pressionado para correr, consumirá continuamente Poder Vazio para se mover rapidamente. Esse efeito substituirá a corrida;<br/>· Ao saltar, consumirá Poder do Vazio adicional para flutuar mais alto; ao Manter Pressionado para saltar, consumirá continuamente Poder Vazio para aumentar sua altitude.<br/><br/>Quando Poder Vazio for exaurido, esse estado terminará.<br/>Lançar a habilidade novamente durante a duração da Postura do Vento também encerrará esse estado.",
+      "info": "\"O mundo dança enquanto os segredos desabrocham como flores.\"",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        },
+        {
+          "label": "Dano de Vazio: Obliteração",
+          "values": [
+            "132.98% do Dano de Ataque Normal",
+            "134.96% do Dano de Ataque Normal",
+            "136.93% do Dano de Ataque Normal",
+            "139.5% do Dano de Ataque Normal",
+            "141.47% do Dano de Ataque Normal",
+            "143.45% do Dano de Ataque Normal",
+            "146.02% do Dano de Ataque Normal",
+            "148.58% do Dano de Ataque Normal",
+            "151.15% do Dano de Ataque Normal",
+            "153.72% do Dano de Ataque Normal",
+            "156.29% do Dano de Ataque Normal",
+            "158.85% do Dano de Ataque Normal",
+            "161.42% do Dano de Ataque Normal",
+            "163.99% do Dano de Ataque Normal",
+            "166.56% do Dano de Ataque Normal"
+          ]
+        },
+        {
+          "label": "Dano de Vazio: Lâmina de Vento",
+          "values": [
+            "126.39% do Dano de Ataque Carregado",
+            "127.97% do Dano de Ataque Carregado",
+            "129.55% do Dano de Ataque Carregado",
+            "131.6% do Dano de Ataque Carregado",
+            "133.18% do Dano de Ataque Carregado",
+            "134.76% do Dano de Ataque Carregado",
+            "136.81% do Dano de Ataque Carregado",
+            "138.87% do Dano de Ataque Carregado",
+            "140.92% do Dano de Ataque Carregado",
+            "142.98% do Dano de Ataque Carregado",
+            "145.03% do Dano de Ataque Carregado",
+            "147.08% do Dano de Ataque Carregado",
+            "149.14% do Dano de Ataque Carregado",
+            "151.19% do Dano de Ataque Carregado",
+            "153.25% do Dano de Ataque Carregado"
+          ]
+        },
+        {
+          "label": "Poder Vazio Inicial",
+          "values": [
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10755,
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyogen: Cinco Atos",
+      "description": "Comprime o ar, criando um vácuo para esmagar todas as suas preocupações, infligindo <span>Dano Anemo em AdE</span> várias vezes.<br/>Se for lançado durante o estado Postura do Vento da Habilidade Elemental \"Pluma Ilustrada: Canção Graciosa\", encerrará esse estado.",
+      "info": "\"O céu lentamente se iluminará, os sonhos do presente e do passado serão como o pó a flutuar no ar.\"",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "147.2% x5",
+            "158.24% x5",
+            "169.28% x5",
+            "184% x5",
+            "195.04% x5",
+            "206.08% x5",
+            "220.8% x5",
+            "235.52% x5",
+            "250.24% x5",
+            "264.96% x5",
+            "279.68% x5",
+            "294.4% x5",
+            "312.8% x5",
+            "331.2% x5",
+            "349.6% x5"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "jadeclaimed_flower",
+      "name": "Flores de Jade",
+      "description": "Ao lançar <span>Pluma Ilustrada: Canção Graciosa</span> e entrar em contato com <span>Hydro</span>, <span>Pyro</span>, <span>Cryo</span> ou <span>Electro</span>, o estado atual de Postura do Vento obterá os seguintes bônus, de acordo com o elemento interagido: <br/>· <span>Hydro</span>: aumenta 20 de limite do Poder Vazio;<br/>· <span>Pyro</span>: aumenta o ATQ em 30%;<br/>· <span>Cyro</span>: aumenta a Taxa CRIT em 20%;<br/>· <span>Electro</span>: após atingir o inimigo com Ataque Normal e Carregado, recupera 0.8 de Energia Elemental. É possível restaurar Energia Elemental até 1 vez a cada 0.2s desta maneira.<br/><br/>É possível obter até 2 tipos de bônus de diferentes elementos simultaneamente.",
+      "level": 1
+    },
+    {
+      "id": "gales_of_reverie",
+      "name": "Brisa dos Sonhos Remanescentes",
+      "description": "Quando o Andarilho atinge o inimigo com Vazio: Obliteração ou Vazio: Lâmina de Vento no estado <span>Postura do Vento</span>, há 16% de chance de se obter o efeito \"Descida\": ao acelerar no ar sob o estado Postura do Vento, o efeito \"Descida\" será eliminado, não consumindo Poder Vazio para essa aceleração no ar, disparando também 4 Flechas de Vento que causarão <span>Dano Anemo</span> com base em 35% de seu ATQ.<br/>Para cada Vazio: Obliteração e Vazio: Lâmina de Vento que não gerarem \"Descida\", a probabilidade de produção do efeito durante o próximo ataque será aumentada em 12%. O cálculo da produção do efeito é feito 1 vez a cada 0.1s.",
+      "level": 4
+    },
+    {
+      "id": "strum_the_swirling_winds",
+      "name": "Tocar dos Ventos Rodopiantes",
+      "description": "Reduz o consumo de Mora necessário para ascender Arcos e Catalisadores em 50%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 751,
+      "id": "shoban_ostentatious_plumage",
+      "name": "Primeiro Ato: Asas do Vento da Sorte",
+      "description": "Quando estiver no estado <span>Postura do Vento</span>, aumenta a Vel. de ATQ de Vazio: Obliteração e Vazio: Lâmina de Vento do Andarilho em 10%.<br/>Além disso, as flechas de vento adicionais lançadas pelo Talento Passivo \"Brisa dos Sonhos Remanescentes\" causam 25% a mais de Dano com base em seu ATQ. É necessário desbloquear o Talento Passivo \"Brisa dos Sonhos Remanescentes\" para ativar este efeito.",
+      "level": 1
+    },
+    {
+      "_id": 752,
+      "id": "niban_isle_amidst_white_waves",
+      "name": "Segundo Ato: Ilha em meio a Ondas Brancas",
+      "description": "Enquanto estiver no estado <span>Postura do Vento</span>, aumentará o Dano de <span>Kyogen: Cinco Atos</span> em 4% para cada ponto de diferença entre a quantidade máxima e atual de Poder Vazio quando usar Kyogen: Cinco Atos.<br/>É possível aumentar o Dano de Kyogen: Cinco Atos em até 200% dessa forma.",
+      "level": 2
+    },
+    {
+      "_id": 753,
+      "id": "sanban_moonflower_kusemai",
+      "name": "Terceiro Ato: Duelo no Crepúsculo",
+      "description": "Aumenta o nível do <span>Kyogen: Cinco Atos</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "_id": 754,
+      "id": "yonban_set_adrift_into_spring",
+      "name": "Quarto Ato: Flutuar das Flores da Lua",
+      "description": "Ao lançar <span>Pluma Ilustrada: Canção Graciosa</span>, se tiver desencadeado o efeito de Fortalecimento de Tipo Elemental do Talento Passivo \"Flores de Jade\", obterá aleatoriamente um dos tipos de efeito de Fortalecimento não desencadeado. É possível obter até três tipos de efeito de Fortalecimento Elemental.<br/>É necessário ter desbloqueado o Talento Passivo \"Flores de Jade\".",
+      "level": 4
+    },
+    {
+      "_id": 755,
+      "id": "matsuban_ancient_illuminator_from_abroad",
+      "name": "Quinto Ato: Passado Sobre o Presente",
+      "description": "Aumenta o nível da <span>Pluma Ilustrada: Canção Graciosa</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "_id": 756,
+      "id": "shugen_the_curtains_melancholic_sway",
+      "name": "Agradecimentos: Ventos Neblinosos Entre os Pinheiros",
+      "description": "Quando o Andarilho estiver no estado <span>Postura do Vento</span> e seu Vazio: Obliteração atingir o inimigo, gerará os seguintes efeitos:<br/>· Realiza um Vazio: Obliteração adicional na posição atingida, causando 40% do Dano original, esse Dano é considerado Dano de Ataque Normal;<br/>· Quando o Poder Vazio do Andarilho é inferior a 40, regenera 4 de Poder Vazio para ele. É possível regenerar Poder Vazio dessa forma uma vez a cada 0.2s, e pode ser desencadeado até 5 vezes na duração de Postura do Vento.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "ascension": 1,
+      "level": [20, 40],
+      "cost": 20000,
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Lasca de Turquesa Vayuda",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Protetor de Mão Velho",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 2,
+      "level": [40, 50],
+      "cost": 40000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de Turquesa Vayuda",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Protetor de Mão Velho",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "ascension": 3,
+      "level": [50, 60],
+      "cost": 60000,
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Fragmento de Turquesa Vayuda",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Protetor de Mão Kageuchi",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 4,
+      "level": [60, 70],
+      "cost": 80000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Pedaço de Turquesa Vayuda",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Protetor de Mão Kageuchi",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "ascension": 5,
+      "level": [70, 80],
+      "cost": 100000,
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Pedaço de Turquesa Vayuda",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Protetor de Mão Famoso",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "ascension": 6,
+      "level": [80, 90],
+      "cost": 120000,
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Gema de Turquesa Vayuda",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibre Perpétuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Cogumelo Rukkhashava",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Protetor de Mão Famoso",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104335,
+          "id": "teachings_of_praxis",
+          "name": "Ensinamentos de Práxis",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Protetor de Mão Velho",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guia da Práxis",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Sino do Vazio",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Sino do Vazio",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Sino do Vazio",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofia da Práxis",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Sino do Vazio",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}
