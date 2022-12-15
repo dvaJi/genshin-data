@@ -1,0 +1,90 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "モナ",
+  "title": "星天水鏡·モナ",
+  "desc": "勝敗がどうであれ、全て運命に定められたこと。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": ["モンド"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": ["キャッツテールでモナを招待し、友好対戦に勝利することで獲得"],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "因果点破",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "水中幻願",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">虚影</span>を召喚する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "星命定軌",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">泡影</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "虚実流動",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">本キャラが出撃キャラであり、味方がキャラチェンジを行う時</span>、それが「<span style=\"color:#FFFFFFFF\">戦闘アクション</span>」ではなく、「<span style=\"color:#FFFFFFFF\">クイックアクション</span>」とみなされる。（各ラウンドで1回のみ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

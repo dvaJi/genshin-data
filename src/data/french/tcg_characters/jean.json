@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "Jean · Chevalier au Pissenlit",
+  "desc": "Elle n'est jamais totalement satisfaite de ce qu'elle a fait. Du moins, pas avant que la victoire finale ne soit la sienne...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Anémo",
+    "weapon": "Épée à une main",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Récompense pour avoir invité Jean à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Escrime de Favonius",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Épée de tourbillon",
+      "desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et bascule de force la cible pour le personnage suivant.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Brise de pissenlit",
+      "desc": "Soigne tous vos personnages pour 2 pts et invoque un <span style=\"color:#FFFFFFFF\">champ de pissenlits</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

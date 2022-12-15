@@ -1,0 +1,80 @@
+{
+  "_id": 1102,
+  "id": "diona",
+  "name": "Diona",
+  "title": "Putzige Mischung – Diona",
+  "desc": "1 % der Energie für das Getränkemischen, 99 % für ... das Neinsagen zu Versagen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Kryo",
+    "weapon": "Bogen",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Diona in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000039,
+      "id": "diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Schießkunst der Jäger",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icy_paws",
+      "name": "Eistatzen",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Pfoten-Schild</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "signature_mix",
+      "name": "Eisgekühlter Branntwein",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, stellt 2 LP der Figur wieder her, erschafft 1 <span style=\"color:#FFFFFFFF\">Kältedunstfeld</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

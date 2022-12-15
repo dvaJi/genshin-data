@@ -1,0 +1,85 @@
+{
+  "_id": 1202,
+  "id": "xingqiu",
+  "name": "Xingqiu",
+  "title": "Xingqiu · Jeune galant",
+  "desc": "« Est-ce moi ou les protagonistes des romans sont de nos jours tous des élèves d'une école privée ou d'une autre... »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à une main",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3207,
+      "id": "the_scent_remained",
+      "name": "The Scent Remained"
+    },
+    "source": [
+      "Récompense pour avoir invité Xingqiu à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000025,
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "guhua_style",
+      "name": "Style Guhua",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fatal_rainscreen",
+      "name": "Pluie battante",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>, <span style=\"color:#80C0FFFF\">applique l'élément Hydro</span> au personnage et crée une <span style=\"color:#FFFFFFFF\">épée de pluie</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "raincutter",
+      "name": "Pluie et arc-en-ciel",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>, <span style=\"color:#80C0FFFF\">applique l'élément Hydro</span> au personnage et crée une <span style=\"color:#FFFFFFFF\">lame arc-en-ciel</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

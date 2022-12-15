@@ -1,0 +1,83 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Soldado Fatui - Doncella del Espejo",
+  "title": "Doncella de Snezhnaya - Enviada del espejo",
+  "desc": "El resplandeciente espejo de agua resguarda todos los secretos...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": [
+      "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Doncella del Espejo de los duelos tabernarios"
+    ],
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Hidrobomba",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Explosión acuática",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo entra en estado de <span style=\"color:#FFFFFFFF\">refracción</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Reflejo ondulado",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

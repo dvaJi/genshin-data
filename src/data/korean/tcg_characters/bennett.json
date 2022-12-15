@@ -1,0 +1,83 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "베넷",
+  "title": "운명의 시금석·베넷",
+  "desc": "반드시 지게 된다는 것을 눈치채는 순간에는, 어떻게 해야 이길 수 있는지도 알게 되는 법이다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "한손검",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": ["캣테일 술집에서 베넷 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "행운의 검",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "열정 과부하",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "아름다운 여정",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 4pt 주고 <span style=\"color:#FFFFFFFF\">격려의 영역</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

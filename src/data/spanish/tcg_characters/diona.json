@@ -1,0 +1,80 @@
+{
+  "_id": 1102,
+  "id": "diona",
+  "name": "Diona",
+  "title": "Diona - La Cantinera Felina",
+  "desc": "1% de energía para preparar bebidas, 99% para... negarse a aceptar la derrota.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Se obtiene tras retar y ganar a Diona en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000039,
+      "id": "diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Puntería de cazador",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icy_paws",
+      "name": "Zarpazo helado",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">escudo de zarpas</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "signature_mix",
+      "name": "Cóctel asesino",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, cura 2 pts. a este personaje y crea un <span style=\"color:#FFFFFFFF\">campo de bruma embriagadora</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

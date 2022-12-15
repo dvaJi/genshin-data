@@ -1,0 +1,104 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Rhodeia of Loch",
+  "title": "\"Lady of Clear Waters\" Rhodeia",
+  "desc": "\"As long as rain falls and rivers flow... water will exist forever... \"",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": [
+      "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Rhodeia of Loch"
+    ],
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Surge",
+      "desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Oceanid Mimic Summoning",
+      "desc": "Randomly summons 1 <span style=\"color:#FFFFFFFF\">Oceanid Mimic</span> (Prioritizes summoning a different type from preexisting ones).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "The Myriad Wilds",
+      "desc": "Randomly summons 2 <span style=\"color:#FFFFFFFF\">Oceanid Mimic</span> (Prioritizes summoning different types).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Tide and Torrent",
+      "desc": "Deals 3 <span style=\"color:#80C0FFFF\">Hydro DMG</span>. For each friendly Summon on the field, deals +2 additional DMG.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

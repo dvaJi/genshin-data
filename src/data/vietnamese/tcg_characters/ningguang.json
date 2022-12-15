@@ -1,0 +1,85 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "Ningguang",
+  "title": "Yểm Nguyệt Thiên Quyền - Ningguang",
+  "desc": "Bí mật lớn nhất mà cô ấy nắm giữ chính là cô ấy giữ rất nhiều bí mật của cảng Liyue.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Pháp Khí",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": [
+      "Nhận được sau khi mời Ningguang giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+    ],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "Ngàn Vàng Lấp Lánh",
+      "desc": "Gây 1 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "Vách Toàn Cơ",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, tạo ra <span style=\"color:#FFFFFFFF\">Vách Toàn Cơ</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "Thiên Quyền Băng Ngọc",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>; Nếu <span style=\"color:#FFFFFFFF\">Vách Toàn Cơ</span> trong trận sẽ khiến sát thương này +2.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

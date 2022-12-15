@@ -1,0 +1,83 @@
+{
+  "_id": 1103,
+  "id": "kaeya",
+  "name": "Kaeya",
+  "title": "Kaeya - El Espadachín Glacial",
+  "desc": "Especialista en despertar las “virtudes caballerescas” en otros.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3210,
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": ["Se obtiene con el mazo inicial"],
+    "character": {
+      "_id": 10000015,
+      "id": "kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ceremonial_bladework",
+      "name": "Técnica de espada ceremonial",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostgnaw",
+      "name": "Golpe de escarcha",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_waltz",
+      "name": "Vals gélido",
+      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">carámbano</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "Dança das Chamas - Yoimiya",
+  "desc": "Capitã e Vanguarda do Time Naganohara no 11º Torneio de Rua Hanamizaka",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arco",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Recompensa por desafiar Yoimiya para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Pirotecnia",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Dança de Fogo Niwabi",
+      "desc": "Este personagem é afetado por <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span>. (Esta habilidade não gera  Carga)",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Saxifraga Ryukin",
+      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, gera <span style=\"color:#FFFFFFFF\">Flama Dourada</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1202,
+  "id": "xingqiu",
+  "name": "Син Цю",
+  "title": "«Галантный юноша» Син Цю",
+  "desc": "«Мне кажется, или в современных романах главные герои - это сплошь ученики из частных школ?..»",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Одноручное",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3207,
+      "id": "the_scent_remained",
+      "name": "The Scent Remained"
+    },
+    "source": [
+      "Награда за приглашение Син Цю в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000025,
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "guhua_style",
+      "name": "Стиль Гухуа",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fatal_rainscreen",
+      "name": "Завеса дождя",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед., даёт персонажу <span style=\"color:#80C0FFFF\">Эффект Гидро</span>, создаёт <span style=\"color:#FFFFFFFF\">Меч дождя</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "raincutter",
+      "name": "Радужная стойка",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед., даёт персонажу <span style=\"color:#80C0FFFF\">Эффект Гидро</span>, создаёт <span style=\"color:#FFFFFFFF\">Радужная стойка</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

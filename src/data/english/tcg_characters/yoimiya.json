@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "\"Frolicking Flames\" Yoimiya",
+  "desc": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Bow",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Reward for inviting Yoimiya to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Firework Flare-Up",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Niwabi Fire-Dance",
+      "desc": "This character gains <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span>. (This Skill does not grant Energy)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Ryuukin Saxifrage",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Aurous Blaze</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1402,
+  "id": "razor",
+  "name": "Razor",
+  "title": "Razor - El Niño-lobo",
+  "desc": "“Jugar cartas ser difícil. Pero yo tener amigos...”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Se obtiene tras retar y ganar a Razor en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000020,
+      "id": "razor",
+      "name": "Razor",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "steel_fang",
+      "name": "Colmillo de acero",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "claw_and_thunder",
+      "name": "Garra y trueno",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_fang",
+      "name": "Colmillo relámpago",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">lobo interior</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

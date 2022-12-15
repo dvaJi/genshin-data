@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "Yoimiya · Flamme gambadante",
+  "desc": "Capitaine et première joueuse de l'équipe Naganohara pour le 11e tournoi sur invitation d'Hanamizaka !",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arc",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Récompense pour avoir invité Yoimiya à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Flambée pyrotechnique",
+      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Danse du feu « Niwabi »",
+      "desc": "Accorde un <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span> au personnage. (Cette capacité n'accorde pas de charge)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Saxifrage Ryuukin",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et crée une <span style=\"color:#FFFFFFFF\">Flamme Ryuukin</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

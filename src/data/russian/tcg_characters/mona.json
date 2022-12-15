@@ -1,0 +1,92 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "Мона",
+  "title": "«Звёздное отражение» Мона",
+  "desc": "Победа или поражение - всё решают звёзды.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Катализатор",
+    "faction": ["Мондштадт"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": [
+      "Награда за приглашение Моны в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Круги на воде",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Отражение фатума",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед., призывает помощника: <span style=\"color:#FFFFFFFF\">Фантом</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Звёздный фантазм",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед., создаёт <span style=\"color:#FFFFFFFF\">Теневой пузырь</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Иллюзорный поток",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">Когда этот персонаж является активным, ваша смена персонажа:</span> считается как <span style=\"color:#FFFFFFFF\">Быстрое действие</span>, а не как <span style=\"color:#FFFFFFFF\">Боевое действие</span>. Только 1 раз за раунд.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

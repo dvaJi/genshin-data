@@ -1,0 +1,83 @@
+{
+  "_id": 1701,
+  "id": "collei",
+  "name": "柯萊",
+  "title": "萃念初蘖·柯萊",
+  "desc": "「大聲喊出卡牌的名字會讓它威力加倍…這一定是虛構的吧？」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "弓",
+    "faction": ["須彌"],
+    "talent_card": {
+      "_id": 3234,
+      "id": "floral_sidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": ["在貓尾酒館中邀請柯萊進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000067,
+      "id": "collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "supplicants_bowmanship",
+      "name": "祈頌射藝",
+      "desc": "造成1點<span style=\"color:#7EC236FF\">草元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "floral_brush",
+      "name": "拂花偈葉",
+      "desc": "造成3點<span style=\"color:#7EC236FF\">草元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "trumpcard_kitty",
+      "name": "貓貓秘寶",
+      "desc": "造成3點<span style=\"color:#7EC236FF\">草元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">柯里安巴</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_id": 1104,
+  "id": "chongyun",
+  "name": "중운",
+  "title": "얼어붙은 열정·중운",
+  "desc": "「여름아, 제발 조용히 지나가 주라…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "얼음 원소",
+    "weapon": "양손검",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3211,
+      "id": "steady_breathing",
+      "name": "Steady Breathing"
+    },
+    "source": ["캣테일 술집에서 중운 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000036,
+      "id": "chongyun",
+      "name": "Chongyun",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "demonbane",
+      "name": "악멸의 사식",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chonghuas_layered_frost",
+      "name": "중첩의 서리",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">중첩의 서리 영역</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cloudparting_star",
+      "name": "떨어지는 별",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

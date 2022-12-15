@@ -1,0 +1,85 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "Keching",
+  "title": "Keching - La Conductora del Trueno",
+  "desc": "Puede crear mazos nunca antes vistos y ganar duelos cuya victoria es impensable.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Espada ligera",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Keching en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "Estilo Yunlai",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "Retorno estelar",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y crea una carta de <span style=\"color:#FFFFFFFF\">Cuña relámpago</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "Paseo celestial",
+      "desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>, así como <span style=\"color:#FFFFFFFF\">3 pts. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes en reserva enemigos.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

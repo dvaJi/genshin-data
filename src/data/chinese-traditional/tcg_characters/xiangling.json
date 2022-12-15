@@ -1,0 +1,83 @@
+{
+  "_id": 1302,
+  "id": "xiangling",
+  "name": "香菱",
+  "title": "萬民百味·香菱",
+  "desc": "身為一個廚師，她幾乎什麼都做得出來。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "長柄武器",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3230,
+      "id": "crossfire",
+      "name": "Crossfire"
+    },
+    "source": ["在貓尾酒館中邀請香菱進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000023,
+      "id": "xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "doughfu",
+      "name": "白案功夫",
+      "desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guoba_attack",
+      "name": "鍋巴出擊",
+      "desc": "召喚<span style=\"color:#FFFFFFFF\">鍋巴</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyronado",
+      "name": "旋火輪",
+      "desc": "造成4點<span style=\"color:#FF9999FF\">火元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">旋火輪</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

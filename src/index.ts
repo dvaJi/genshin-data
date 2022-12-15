@@ -16,6 +16,8 @@ import type { ExpMaterial } from './types/exp';
 import type { AchievementCategory, Achievement } from './types/achievement';
 import type { Furnishing } from './types/furnishing';
 import type { Domains } from './types/domain';
+import type { TCGCharacterCard } from './types/tcg_character';
+import type { TCGActionCard } from './types/tcg_action';
 
 export type Material =
   | CommonMaterial
@@ -26,6 +28,8 @@ export type Material =
   | TalentLvlUpMaterial
   | WeaponPrimaryMaterial
   | WeaponSecondaryMaterial;
+
+export type TCGCard = TCGCharacterCard & TCGActionCard;
 
 export type {
   AchievementCategory,
@@ -49,6 +53,8 @@ export type {
   Fish,
   FishingRod,
   Furnishing,
+  TCGCharacterCard,
+  TCGActionCard,
 };
 
 export const languages = [
@@ -87,6 +93,8 @@ type Folders =
   | 'local_materials'
   | 'potions'
   | 'talent_lvl_up_materials'
+  | 'tcg_action'
+  | 'tcg_characters'
   | 'weapon_enhancement_material'
   | 'weapon_primary_materials'
   | 'weapon_secondary_materials'
@@ -263,6 +271,28 @@ export default class GenshinData {
   async domains(query?: QueryOpts<Domains>): Promise<Domains> {
     const lang = this.getLang();
     return (await this.findByFolder(lang, 'domains', query))[0];
+  }
+
+  async tcgCharacters(
+    query?: QueryOpts<TCGCharacterCard>
+  ): Promise<TCGCharacterCard[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'tcg_characters', query);
+  }
+
+  async tcgActions(query?: QueryOpts<TCGActionCard>): Promise<TCGActionCard[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'tcg_action', query);
+  }
+
+  async tcgCards(query?: QueryOpts<TCGCard>): Promise<TCGCard[]> {
+    const lang = this.getLang();
+    const ret = await Promise.all([
+      await this.findByFolder(lang, 'tcg_characters', query),
+      await this.findByFolder(lang, 'tcg_action', query),
+    ]);
+
+    return ret.flat();
   }
 
   private async findByFolder<T>(

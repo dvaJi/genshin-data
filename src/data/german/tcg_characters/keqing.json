@@ -1,0 +1,85 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "Keqing",
+  "title": "Donnerwetter – Keqing",
+  "desc": "Sie kann Decks erstellen, die bisher für niemanden denkbar sind, und Duelle gewinnen, auf eine unvorstellbare Weise.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Keqing in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "Schwertkunst aus den Wolken",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "Rückkehr der Sterne",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft die Karte <span style=\"color:#FFFFFFFF\">Donnerkeil</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "Himmelswanderung",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, fügt allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">3 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

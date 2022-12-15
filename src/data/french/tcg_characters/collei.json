@@ -1,0 +1,85 @@
+{
+  "_id": 1701,
+  "id": "collei",
+  "name": "Collei",
+  "title": "Collei · Germe de renaissance",
+  "desc": "« Crier le nom de votre carte à voix haute multiplie sa puissance... C'est une blague, hein ? »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arc",
+    "faction": ["Sumeru"],
+    "talent_card": {
+      "_id": 3234,
+      "id": "floral_sidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": [
+      "Récompense pour avoir invité Collei à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000067,
+      "id": "collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "supplicants_bowmanship",
+      "name": "Archerie de l'implorant",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "floral_brush",
+      "name": "Brosse florale",
+      "desc": "Inflige 3 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "trumpcard_kitty",
+      "name": "Atout félin",
+      "desc": "Inflige 3 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span> et invoque un <span style=\"color:#FFFFFFFF\">Cuilein-Anbar</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

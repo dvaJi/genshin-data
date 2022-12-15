@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "\"Frolicking Flames\" Yoimiya",
+  "desc": "Kapten dan Pelopor Tim Naganohara untuk Kompetisi Hanamizaka ke-11.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Bow",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Didapatkan setelah mengundang Yoimiya ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Firework Flare-Up",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Niwabi Fire-Dance",
+      "desc": "Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span>. (Skill ini tidak memberikan Energy)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Ryuukin Saxifrage",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan menciptakan <span style=\"color:#FFFFFFFF\">Aurous Blaze</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

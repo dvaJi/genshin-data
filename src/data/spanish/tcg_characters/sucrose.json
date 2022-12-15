@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Sacarosa",
+  "title": "Sacarosa - La Dulzura Inofensiva",
+  "desc": "“¡No puedes evaluar la capacidad de un mazo sin someterlo a pruebas!”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["Se obtiene con el mazo inicial"],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Creación del espíritu del viento",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Creación del espíritu del viento: Experimento 6308",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y obliga al rival a que su personaje cambie al anterior.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> e invoca un <span style=\"color:#FFFFFFFF\">gran espíritu del viento</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

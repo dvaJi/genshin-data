@@ -1,0 +1,90 @@
+{
+  "_id": 4604,
+  "id": "stonehide_lawachurl",
+  "name": "Chef Brutorocheux",
+  "title": "Traverseur de vallée - Chef Brutorocheux",
+  "desc": "Faites le tour, car la voie à l'avant est le royaume du « Chef ».",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre", "Brutocollinus"],
+    "talent_card": {
+      "_id": 3239,
+      "id": "stonehide_reforged",
+      "name": "Stonehide Reforged"
+    },
+    "source": [
+      "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Chef Brutorocheux"
+    ],
+    "character": {
+      "id": "stonehide_lawachurl",
+      "name": "Stonehide Lawachurl"
+    }
+  },
+  "skills": [
+    {
+      "id": "plama_lawa",
+      "name": "Plama Lawa",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "movo_lawa",
+      "name": "Movo Lawa",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "upa_shato",
+      "name": "Upa Shato",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "infused_stonehide",
+      "name": "Peau-pierre infusée",
+      "desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">peau-pierre</span> et une <span style=\"color:#FFFFFFFF\">force de pierre</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

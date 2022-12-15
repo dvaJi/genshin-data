@@ -1,0 +1,90 @@
+{
+  "_id": 4604,
+  "id": "stonehide_lawachurl",
+  "name": "츄츄 바위왕",
+  "title": "천장만행·츄츄 바위왕",
+  "desc": "멀리 돌아서 가자. 이 앞은 「왕」의 영역이니까",
+  "attributes": {
+    "hp": 8,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바위 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물", "츄츄족"],
+    "talent_card": {
+      "_id": 3239,
+      "id": "stonehide_reforged",
+      "name": "Stonehide Reforged"
+    },
+    "source": [
+      "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 츄츄 바위왕에게 승리 후 획득"
+    ],
+    "character": {
+      "id": "stonehide_lawachurl",
+      "name": "Stonehide Lawachurl"
+    }
+  },
+  "skills": [
+    {
+      "id": "plama_lawa",
+      "name": "Plama Lawa",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "movo_lawa",
+      "name": "Movo Lawa",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "upa_shato",
+      "name": "Upa Shato",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "infused_stonehide",
+      "name": "악마화: 바위 투구",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">바위 투구</span>와 <span style=\"color:#FFFFFFFF\">견고한 바위의 힘</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

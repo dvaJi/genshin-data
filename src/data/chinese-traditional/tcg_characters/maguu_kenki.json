@@ -1,0 +1,97 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "魔偶劍鬼",
+  "title": "萬般機巧·魔偶劍鬼",
+  "desc": "今日，其仍徘徊在因緣斷絕之地。",
+  "attributes": {
+    "hp": 28,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "風元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": [
+      "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度魔偶劍鬼中取得勝利後獲得"
+    ],
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "一文字",
+      "desc": "造成1點<span style=\"color:#80FFD7FF\">風元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "孤風刀勢",
+      "desc": "造成3點<span style=\"color:#80FFD7FF\">風元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">劍影·孤風</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "霜馳影突",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">劍影·霜馳</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "機巧偽天狗抄",
+      "desc": "造成3點<span style=\"color:#80FFD7FF\">風元素傷害</span>，觸發我方所有<span style=\"color:#FFFFFFFF\">劍影</span>召喚物的效果。（不消耗其可用次數）",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

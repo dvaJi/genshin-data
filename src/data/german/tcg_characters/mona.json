@@ -1,0 +1,92 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "Mona",
+  "title": "Abbildung der Sterne im Wasser – Mona",
+  "desc": "Sieg oder Niederlage, alles hängt vom Schicksal ab.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Mona in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Unumgängliches Schicksal",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Trugbilder im Wasser",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Trugbild</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Vorbestimmte Laufbahn",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Blasenschatten</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Irreführende Strömung",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Beim Wechseln deiner Figuren, wenn aber Mona jetzt die aktive Figur ist:</span> Dieser Wechsel gilt nicht als „<span style=\"color:#FFFFFFFF\">Kampfaktion</span>“, sondern als „<span style=\"color:#FFFFFFFF\">Schnellaktion</span>“ (1-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

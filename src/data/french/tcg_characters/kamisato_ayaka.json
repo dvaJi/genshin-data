@@ -1,0 +1,92 @@
+{
+  "_id": 1105,
+  "id": "kamisato_ayaka",
+  "name": "Kamisato Ayaka",
+  "title": "Kamisato Ayaka · Héron de givre",
+  "desc": "Avec l'élégance du givre dans le vent, le héron se perche paisiblement dans la cour.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Épée à une main",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3208,
+      "id": "kanten_senmyou_blessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": [
+      "Récompense pour avoir invité Kamisato Ayaka à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000002,
+      "id": "kamisato_ayaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_kabuki",
+      "name": "École Kamisato : Sveltesse",
+      "desc": "Inflige 1 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_hyouka",
+      "name": "École Kamisato : Fleur de glace",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_soumetsu",
+      "name": "École Kamisato : Givre mortel",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque un <span style=\"color:#FFFFFFFF\">tourbillon givré</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_senho",
+      "name": "École Kamisato : Sentier de givre",
+      "desc": "(Passif) Lorsque ce personnage devient le personnage actif, accorde un <span style=\"color:#FFFFFFFF\">enchantement Cryo</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

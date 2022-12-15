@@ -1,0 +1,83 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "宵宮",
+  "title": "琉焔に舞う大輪·宵宮",
+  "desc": "花見坂第11回町内招待試合「長野原隊」隊長兼先行プレイヤー。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "弓",
+    "faction": ["稲妻"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": ["キャッツテールで宵宮を招待し、友好対戦に勝利することで獲得"],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "打ち上げ花火",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "焔硝の庭火舞い",
+      "desc": "本キャラに<span style=\"color:#FFFFFFFF\">庭火の焔硝</span>を付与する。（このスキルはチャージを獲得することができない）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "琉金の雲間草",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">琉金の炎</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

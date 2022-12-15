@@ -1,0 +1,85 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "Keqing",
+  "title": "ผู้บงการสายฟ้า - Keqing",
+  "desc": "เธอสามารถสร้างเด็คที่ไม่เคยมีมาก่อน และได้รับชัยชนะที่คาดไม่ถึง",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "ดาบ",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": [
+      "ได้รับหลังจากเชิญ Keqing ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+    ],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "Yunlai Swordsmanship",
+      "desc": "จะสร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "Stellar Restoration",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย และสร้างการ์ด <span style=\"color:#FFFFFFFF\">Lightning Stiletto</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "Starward Sword",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 4 หน่วย และสร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 3 หน่วย</span> ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

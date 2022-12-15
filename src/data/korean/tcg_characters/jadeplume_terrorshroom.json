@@ -1,0 +1,90 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "공포의 취령 버섯",
+  "title": "버섯의 왕·공포의 취령 버섯",
+  "desc": "가만히 귀를 기울이면 고요한 숲 저 너머에서 영토를 시찰하는 버섯 왕의 발소리가 들려온다…",
+  "attributes": {
+    "hp": 30,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": [
+      "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 공포의 취령 버섯에게 승리 후 획득"
+    ],
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "균왕의 춤",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "불안정한 포자 구름",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "깃털 펼치기",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 3pt 주고 모든 <span style=\"color:#FFFFFFFF\">활력 자극</span> 스택을 소모하며 스택당 이번 피해가 1pt씩 증가한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "활력 자극",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">활력 자극</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

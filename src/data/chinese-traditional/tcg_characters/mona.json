@@ -1,0 +1,90 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "莫娜",
+  "title": "星天水鏡·莫娜",
+  "desc": "無論勝負平棄，都是命當如此。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": ["在貓尾酒館中邀請莫娜進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "因果點破",
+      "desc": "造成1點<span style=\"color:#80C0FFFF\">水元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "水中幻願",
+      "desc": "造成3點<span style=\"color:#80C0FFFF\">水元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">虛影</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "星命定軌",
+      "desc": "造成3點<span style=\"color:#80C0FFFF\">水元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">泡影</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "虛實流動",
+      "desc": "【被動】<span style=\"color:#FFFFFFFF\">此角色為出戰角色，我方執行「切換角色」行動時：</span>將此次切換視為「<span style=\"color:#FFFFFFFF\">快速行動</span>」而非「<span style=\"color:#FFFFFFFF\">戰鬥行動</span>」。（每回合1次）",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_id": 1103,
+  "id": "kaeya",
+  "name": "凱亞",
+  "title": "寒風劍士·凱亞",
+  "desc": "他很擅長在他人身上發掘出「騎士般的美德」。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "單手劍",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3210,
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": ["初始牌組中獲得"],
+    "character": {
+      "_id": 10000015,
+      "id": "kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ceremonial_bladework",
+      "name": "儀典劍術",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostgnaw",
+      "name": "霜襲",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_waltz",
+      "name": "凜冽輪舞",
+      "desc": "造成4點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">寒冰之稜</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

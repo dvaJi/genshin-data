@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "Sucrose · Alchimiste 100 % naturelle",
+  "desc": "« On ne peut pas évaluer la force d'un deck qui n'a pas encore été testé ! »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["Obtenue dans le deck de départ"],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Esprit du vent",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Esprit du vent : Sujet 6308",
+      "desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et bascule de force la cible pour le personnage précédent.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Esprit du vent : Isomorphe 75 Type II",
+      "desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et invoque un <span style=\"color:#FFFFFFFF\">Esprit du vent de grande taille</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1602,
+  "id": "noelle",
+  "name": "Noelle",
+  "title": "Knospe des Rittertums – Noelle",
+  "desc": "Dinge wie das Aufräumen des Spielbrettes kannst du ihr immer überlassen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Zweihänder",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3233,
+      "id": "i_got_your_back",
+      "name": "I Got Your Back"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Noelle in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000034,
+      "id": "noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_maid",
+      "name": "Favonius-Schwertkunst – Magd",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "breastplate",
+      "name": "Brustpanzer",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Geo-Panzer</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sweeping_time",
+      "name": "Großreinigung",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Großreinigung</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

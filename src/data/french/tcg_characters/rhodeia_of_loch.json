@@ -1,0 +1,104 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Océanide - Rhodeia",
+  "title": "Maîtresse des eaux - Rhodeia",
+  "desc": "« Tant que couleront les rivières et que tombera la pluie, l'eau demeurera... »",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": [
+      "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Océanide - Rhodeia"
+    ],
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Déferlante",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Mimétisme océanique",
+      "desc": "Invoque aléatoirement un type de <span style=\"color:#FFFFFFFF\">Mimiqueur Hydro</span>. (Priorité accordée aux types différents)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "Myriade sauvage",
+      "desc": "Invoque aléatoirement deux types de <span style=\"color:#FFFFFFFF\">Mimiqueurs Hydro</span>. (Priorité accordée aux types différents)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Marée et torrent",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>. Pour chacune de vos invocations, DGT +2.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Dépôt d'élément Hydro",
+      "desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">Entité élémentaire Hydro</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

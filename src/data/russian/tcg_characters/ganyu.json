@@ -1,0 +1,99 @@
+{
+  "_id": 1101,
+  "id": "ganyu",
+  "name": "Гань Юй",
+  "title": "«Взгляд полнолуния» Гань Юй",
+  "desc": "«Пресс-релиз нужно дописать к завтрашнему утру... Наверное, если потратить на это всю ночь, я смогу уложиться в срок...»",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Стрелковое",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3214,
+      "id": "undivided_heart",
+      "name": "Undivided Heart"
+    },
+    "source": [
+      "Награда за приглашение Гань Юй в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000037,
+      "id": "ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "Небесная стрела",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "След цилиня",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Ледяной лотос</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frostflake_arrow",
+      "name": "Ледяная стрела-цветок",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 5 ед., наносит <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 2 ед.</span> всем неактивным персонажам противника.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Небесный дождь",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед., наносит <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 1 ед.</span> всем неактивным персонажам противника, призывает помощника: <span style=\"color:#FFFFFFFF\">Священная Крио жемчужина</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

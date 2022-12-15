@@ -1,0 +1,83 @@
+{
+  "_id": 1602,
+  "id": "noelle",
+  "name": "노엘",
+  "title": "수여받지 못한 꽃·노엘",
+  "desc": "테이블 정리만큼은 그녀에게 맡겨도 된다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바위 원소",
+    "weapon": "양손검",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3233,
+      "id": "i_got_your_back",
+      "name": "I Got Your Back"
+    },
+    "source": ["캣테일 술집에서 노엘 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000034,
+      "id": "noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_maid",
+      "name": "페보니우스 검술·메이드",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "breastplate",
+      "name": "호심경",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">바위 갑주</span>를 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sweeping_time",
+      "name": "대청소",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 4pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">대청소</span>가 부착된다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

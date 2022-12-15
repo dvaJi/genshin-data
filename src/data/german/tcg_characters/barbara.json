@@ -1,0 +1,85 @@
+{
+  "_id": 1201,
+  "id": "barbara",
+  "name": "Barbara",
+  "title": "Leuchtender Star – Barbara",
+  "desc": "Sie ist jederzeit bereit, Herzen zu heilen und Seelen zu besänftigen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3209,
+      "id": "glorious_season",
+      "name": "Glorious Season"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Ganyu in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000014,
+      "id": "barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "whisper_of_water",
+      "name": "Stille Wasser",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "let_the_show_begin",
+      "name": "Die Darbietung beginnt ♪",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Singender Kreis</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shining_miracle",
+      "name": "Glitzerndes Wunder ♪",
+      "desc": "Stellt all deinen Figuren 4 LP wieder her.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

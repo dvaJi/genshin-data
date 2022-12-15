@@ -1,0 +1,83 @@
+{
+  "_id": 1701,
+  "id": "collei",
+  "name": "콜레이",
+  "title": "다시 움튼 새싹·콜레이",
+  "desc": "「카드의 이름을 크게 외치면 그 위력이 몇 배가 된다니… 거짓말이겠지?」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "활",
+    "faction": ["수메르"],
+    "talent_card": {
+      "_id": 3234,
+      "id": "floral_sidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": ["캣테일 술집에서 콜레이 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000067,
+      "id": "collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "supplicants_bowmanship",
+      "name": "기원 사격술",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "floral_brush",
+      "name": "스쳐 지나가는 풀잎",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "trumpcard_kitty",
+      "name": "냥냥 비책",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">콜린엔바</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

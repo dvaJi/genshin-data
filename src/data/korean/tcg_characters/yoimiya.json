@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "요이미야",
+  "title": "유염화무·요이미야",
+  "desc": "제11회 하나미자카 대회의 「나가노하라 팀」 팀장이자 선봉장이다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "활",
+    "faction": ["이나즈마"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "캣테일 술집에서 요이미야 초대 및 친선 대전 난이도 승리 후 획득"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "쏘아 올린 불꽃",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "염초 정화(庭火)의 춤",
+      "desc": "본 캐릭터에게 <span style=\"color:#FFFFFFFF\">정화 염초</span>가 부착된다. (해당 스킬은 원소 에너지가 생성되지 않음)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "유금 운간초",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">유금화광</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

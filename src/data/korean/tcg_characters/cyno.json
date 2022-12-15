@@ -1,0 +1,90 @@
+{
+  "_id": 1404,
+  "id": "cyno",
+  "name": "사이노",
+  "title": "비밀 심판·사이노",
+  "desc": "카드에는 뜨거운 사막의 태양과도 같은 대풍기관의 열정이 간직되어 있다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "장병기",
+    "faction": ["수메르"],
+    "talent_card": {
+      "_id": 3224,
+      "id": "featherfall_judgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": ["캣테일 술집에서 사이노 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000071,
+      "id": "cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "invokers_spear",
+      "name": "일곱 성인의 창술",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "비밀스러운 의식·명계의 인도자",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "성스러운 의식·이리의 질주",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 4pt 주고<br/><span style=\"color:#FFFFFFFF\">길을 여는 사자</span>의 [빙의]가 2레벨 증가한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lawful_enforcer",
+      "name": "징벌 집행",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">길을 여는 사자</span>가 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

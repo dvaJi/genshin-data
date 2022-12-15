@@ -1,0 +1,85 @@
+{
+  "_id": 1201,
+  "id": "barbara",
+  "name": "Bárbara",
+  "title": "Bárbara - La Ídolo Radiante",
+  "desc": "¡Lista para curar los corazones y apaciguar las almas!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3209,
+      "id": "glorious_season",
+      "name": "Glorious Season"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Ganyu en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000014,
+      "id": "barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "whisper_of_water",
+      "name": "Murmullo del agua",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "let_the_show_begin",
+      "name": "Que empiece el concierto ♪",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea unos <span style=\"color:#FFFFFFFF\">círculos melódicos</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shining_miracle",
+      "name": "Milagro brillante ♪",
+      "desc": "Cura 4 pts. a todos tus personajes.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

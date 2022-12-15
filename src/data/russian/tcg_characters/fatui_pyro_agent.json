@@ -1,0 +1,90 @@
+{
+  "_id": 4302,
+  "id": "fatui_pyro_agent",
+  "name": "Фатуи: Пиро агент",
+  "title": "«Клинок расплаты» агент Фатуи",
+  "desc": "«Долг нужно вернуть. Не важно, жив ты или уже нет...»",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Фатуи"],
+    "talent_card": {
+      "_id": 3237,
+      "id": "paid_in_full",
+      "name": "Paid in Full"
+    },
+    "source": [
+      "Награда за победу над Пиро агентом Фатуи в Дружеской дуэли в «Кошкином хвосте»"
+    ],
+    "character": {
+      "id": "fatui_pyro_agent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "Укол",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prowl",
+      "name": "Подходящий момент",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. Персонаж получает <span style=\"color:#FFFFFFFF\">Скрытность</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blade_ablaze",
+      "name": "Испепеляющий кинжал",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stealth_master",
+      "name": "Мастер скрытности",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Скрытность</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

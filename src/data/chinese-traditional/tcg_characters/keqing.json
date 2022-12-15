@@ -1,0 +1,83 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "刻晴",
+  "title": "霆霓快雨·刻晴",
+  "desc": "她能構築出許多出乎意料的牌組，拿下許多難以想像的勝利。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "單手劍",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": ["在貓尾酒館中邀請刻晴進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "雲來劍法",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "星斗歸位",
+      "desc": "造成3點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，生成手牌<span style=\"color:#FFFFFFFF\">雷楔</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "天街巡遊",
+      "desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，對所有敵方後臺角色造成<span style=\"color:#FFFFFFFF\">3點<span style=\"color:#FFFFFFFF\">穿透傷害</span></span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

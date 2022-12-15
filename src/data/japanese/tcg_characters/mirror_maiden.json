@@ -1,0 +1,83 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "ファデュイ·ミラーメイデン",
+  "title": "冬国の仕女·水鏡の使者",
+  "desc": "全ての秘密を、銀に波打つ水鏡の中へと隠そう…",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": [
+      "キャッツテールのリトルプリンスのところで酒場挑戦を行い、ミラーメイデンに挑戦して友好対戦に勝利することで獲得"
+    ],
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "水弾",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "溢れる波の満潮",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与え、目標キャラに<span style=\"color:#FFFFFFFF\">水光破鏡</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "照り返す水鏡",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

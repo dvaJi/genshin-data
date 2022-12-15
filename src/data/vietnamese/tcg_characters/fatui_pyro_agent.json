@@ -1,0 +1,90 @@
+{
+  "_id": 4302,
+  "id": "fatui_pyro_agent",
+  "name": "Fatui - Người Xử Lý Nợ Hỏa",
+  "title": "Lưỡi Dao Tính Sổ - Người Xử Lý Nợ",
+  "desc": "\"Tội chết không thể miễn, tội sống càng khó tránh...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3237,
+      "id": "paid_in_full",
+      "name": "Paid in Full"
+    },
+    "source": [
+      "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Người Xử Lý Nợ Hỏa"
+    ],
+    "character": {
+      "id": "fatui_pyro_agent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "Xung Kích",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prowl",
+      "name": "Đợi Thời Cơ",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Hành Động Lén Lút</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blade_ablaze",
+      "name": "Mũi Nhọn Thiêu Đốt",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stealth_master",
+      "name": "Bậc Thầy Ẩn Mình",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Hành Động Lén Lút</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

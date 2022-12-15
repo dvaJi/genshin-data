@@ -1,0 +1,80 @@
+{
+  "_id": 1102,
+  "id": "diona",
+  "name": "Diona",
+  "title": "\"Kätzlein Cocktail\" Diona",
+  "desc": "1% energy dedicated to mixing drinks, 99% to... denying the reality of familiar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Bow",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Reward for inviting Diona to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000039,
+      "id": "diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Kätzlein Style",
+      "desc": "Deals 1 <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icy_paws",
+      "name": "Icy Paws",
+      "desc": "Deals 3 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Cat-Claw Shield</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "signature_mix",
+      "name": "Signature Mix",
+      "desc": "Deals 3 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, heals this character for 2 HP, summons 1 <span style=\"color:#FFFFFFFF\">Drunken Mist</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

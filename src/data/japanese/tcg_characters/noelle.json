@@ -1,0 +1,83 @@
+{
+  "_id": 1602,
+  "id": "noelle",
+  "name": "ノエル",
+  "title": "騎士道の花咲·ノエル",
+  "desc": "テーブル整理のような仕事であれば——本当に彼女に任せればいい。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "両手剣",
+    "faction": ["モンド"],
+    "talent_card": {
+      "_id": 3233,
+      "id": "i_got_your_back",
+      "name": "I Got Your Back"
+    },
+    "source": ["キャッツテールでノエルを招待し、友好対戦に勝利することで獲得"],
+    "character": {
+      "_id": 10000034,
+      "id": "noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_maid",
+      "name": "西風剣術·メイド",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "breastplate",
+      "name": "護心鎧",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">護身の岩鎧</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sweeping_time",
+      "name": "大掃除",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を4与え、本キャラに<span style=\"color:#FFFFFFFF\">大掃除</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

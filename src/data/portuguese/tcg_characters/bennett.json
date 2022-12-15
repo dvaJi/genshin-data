@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "Bennett",
+  "title": "Julgamento por Fogo - Bennett",
+  "desc": "Quando você sabe que está para perder, então você também sabe como deve ser feito para obter a vitória.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Espada",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "Recompensa por desafiar Bennett para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ele"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Espada da Sorte",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "Sobrecarga de Paixão",
+      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Viagem Fantástica",
+      "desc": "Causa 4 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, gera <span style=\"color:#FFFFFFFF\">Área Estimulada</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

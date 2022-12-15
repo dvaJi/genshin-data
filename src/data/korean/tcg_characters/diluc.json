@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "다이루크",
+  "title": "새벽의 어둠·다이루크",
+  "desc": "그의 가장 강력한 적은 바로 자신의 마음이다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "불 원소",
+    "weapon": "양손검",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["시작 카드 덱에서 획득"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "단련의 검",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "역날의 화염",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 준다. 매 턴에서 해당 스킬을 세 번째 사용 시 피해량이 2pt 증가한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "여명",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 4pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">불 원소 부여</span> 효과가 제공된다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

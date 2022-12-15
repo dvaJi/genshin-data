@@ -1,0 +1,90 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Jadeplume Terrorshroom",
+  "title": "\"Lord of Fungi\" Jadeplume Terrorshroom",
+  "desc": "Jika kamu tetap diam dan mendengarkan dengan seksama, di sini kamu dapat mendengar suara dari penguasa Shroom-Kin yang sedang memeriksa wilayahnya ....",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": [
+      "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Jadeplume Terrorshroom"
+    ],
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Majestic Dance",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Volatile Spore Cloud",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Feather Spreading",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#7EC236FF\">Dendro DMG</span>, lalu mengonsumsi semua lapisan <span style=\"color:#FFFFFFFF\">Radical Vitality</span>. Untuk setiap lapisan yang terkonsumsi, kasus ini mengakibatkan +1 DMG.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Radical Vitality",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Radical Vitality</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

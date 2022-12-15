@@ -1,0 +1,85 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "Нин Гуан",
+  "title": "«Лунное затмение» Нин Гуан",
+  "desc": "Её величайший секрет заключается в том, что она хранит множество секретов Ли Юэ.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Катализатор",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": [
+      "Награда за приглашение Нин Гуан в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "Сверкающий дождь",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "Нефритовая ширма",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Нефритовая ширма</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "Осколки звёзд",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 3 ед. Если <span style=\"color:#FFFFFFFF\">Нефритовая ширма</span> на поле битвы, урон увеличивается на 2 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

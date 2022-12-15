@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "\"Dark Side of Dawn\" Diluc",
+  "desc": "His heart is his greatest foe.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["Obtained from the initial deck"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "Tempered Sword",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "Searing Onslaught",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>. For the third use of this Skill each Round, deals +2 DMG.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Dawn",
+      "desc": "Deals 4 <span style=\"color:#FF9999FF\">Pyro DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Pyro Infusion</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

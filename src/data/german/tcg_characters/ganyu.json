@@ -1,0 +1,99 @@
+{
+  "_id": 1101,
+  "id": "ganyu",
+  "name": "Ganyu",
+  "title": "Mondhüterin – Ganyu",
+  "desc": "„Da dieser Bericht morgen früh abgegeben werden muss, werde ich ihn halt heute Nacht schon fertigstellen.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Bogen",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3214,
+      "id": "undivided_heart",
+      "name": "Undivided Heart"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Ganyu in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000037,
+      "id": "ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "Himmlische Schießkunst",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "Spuren des Qilins",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Eislotos</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frostflake_arrow",
+      "name": "Frostblütenpfeil",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, fügt allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">2 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Bändigender Niederschlag",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, fügt allen inaktiven Figuren deines Gegners <span style=\"color:#FFFFFFFF\">1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu, erschafft 1 <span style=\"color:#FFFFFFFF\">Eisseelenperle</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

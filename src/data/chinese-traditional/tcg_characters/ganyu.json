@@ -1,0 +1,97 @@
+{
+  "_id": 1101,
+  "id": "ganyu",
+  "name": "甘雨",
+  "title": "循循守月·甘雨",
+  "desc": "「既然是明早前要，那這份新聞稿，只要熬夜寫完就好。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "弓",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3214,
+      "id": "undivided_heart",
+      "name": "Undivided Heart"
+    },
+    "source": ["在貓尾酒館中邀請甘雨進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000037,
+      "id": "ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "流天射術",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "山澤麟跡",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">冰蓮</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frostflake_arrow",
+      "name": "霜華矢",
+      "desc": "造成5點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，對所有敵方後臺角色造成<span style=\"color:#FFFFFFFF\">2點<span style=\"color:#FFFFFFFF\">穿透傷害</span></span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "celestial_shower",
+      "name": "降眾天華",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，對所有敵方後臺角色造成<span style=\"color:#FFFFFFFF\">1點<span style=\"color:#FFFFFFFF\">穿透傷害</span></span>，召喚<span style=\"color:#FFFFFFFF\">冰靈珠</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

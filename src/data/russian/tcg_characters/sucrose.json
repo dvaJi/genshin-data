@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Сахароза",
+  "title": "«Безобидная карамелька» Сахароза",
+  "desc": "«Невозможно оценить колоду, не испробовав её в бою!»",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Катализатор",
+    "faction": ["Мондштадт"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["Можно получить из начальной колоды"],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Базовая эссенция ветра",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Эксперимент №6308",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 3 ед. Принуждает соперника сделать активным предыдущего персонажа.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Запретно! Изомер 75 / Тип II",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 3 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Большой Воздушный дух</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

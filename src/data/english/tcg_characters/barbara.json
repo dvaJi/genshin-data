@@ -1,0 +1,85 @@
+{
+  "_id": 1201,
+  "id": "barbara",
+  "name": "Barbara",
+  "title": "\"Shining Idol\" Barbara",
+  "desc": "Ready to heal hearts and soothe souls at any time.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3209,
+      "id": "glorious_season",
+      "name": "Glorious Season"
+    },
+    "source": [
+      "Reward for inviting Ganyu to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000014,
+      "id": "barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "whisper_of_water",
+      "name": "Whisper of Water",
+      "desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "let_the_show_begin",
+      "name": "Let the Show Begin♪",
+      "desc": "Deals 3 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Melody Loop</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shining_miracle",
+      "name": "Shining Miracle♪",
+      "desc": "Heals all of your characters for 4 HP.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

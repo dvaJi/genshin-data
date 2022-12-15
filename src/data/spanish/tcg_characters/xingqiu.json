@@ -1,0 +1,85 @@
+{
+  "_id": 1202,
+  "id": "xingqiu",
+  "name": "Xingchiu",
+  "title": "Xingchiu - El Joven Galante",
+  "desc": "“¿Es mi imaginación, o los protagonistas de las novelas más nuevas son todos estudiantes de escuelas privadas?”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3207,
+      "id": "the_scent_remained",
+      "name": "The Scent Remained"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Xingchiu en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000025,
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "guhua_style",
+      "name": "Técnica de espada Guhua",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fatal_rainscreen",
+      "name": "Lluvia torrencial mortal",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea unas <span style=\"color:#FFFFFFFF\">espadas de lluvia</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "raincutter",
+      "name": "Sable de lluvia",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">espada arcoíris</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

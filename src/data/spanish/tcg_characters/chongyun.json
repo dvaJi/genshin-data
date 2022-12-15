@@ -1,0 +1,85 @@
+{
+  "_id": 1104,
+  "id": "chongyun",
+  "name": "Chongyun",
+  "title": "Chongyun - El Hielo Ardiente",
+  "desc": "“Ay... que pase el verano sin incidentes...”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Mandoble",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3211,
+      "id": "steady_breathing",
+      "name": "Steady Breathing"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Chongyun en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000036,
+      "id": "chongyun",
+      "name": "Chongyun",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "demonbane",
+      "name": "Desgracia de los demonios",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chonghuas_layered_frost",
+      "name": "Estratos de escarcha",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">campo de estratos de escarcha</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cloudparting_star",
+      "name": "Filo espiritual: Estrella cortanubes",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

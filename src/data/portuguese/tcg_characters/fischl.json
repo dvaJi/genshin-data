@@ -1,0 +1,83 @@
+{
+  "_id": 1401,
+  "id": "fischl",
+  "name": "Fischl",
+  "title": "Princesa dos Pecados - Fischl",
+  "desc": "\"Oz! Minha família, abra tuas asas, e na penumbra da noite, busque um novo fio do destino para esta Princesa!\"\\n\"Senhorita, não posso ajudá-la a substituir uma carta...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3227,
+      "id": "stellar_predator",
+      "name": "Stellar Predator"
+    },
+    "source": [],
+    "character": {
+      "_id": 10000031,
+      "id": "fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "bolts_of_downfall",
+      "name": "Flechas da Culpa",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightrider",
+      "name": "Asas da Vigilância Noturna",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Oz</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "midnight_phantasmagoria",
+      "name": "Ilusão Noturna",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>, causa 2 pontos de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Dano Perfurante</span></span> a todos os Personagens Inativos do oponente.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

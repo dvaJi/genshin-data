@@ -1,0 +1,99 @@
+{
+  "_id": 1101,
+  "id": "ganyu",
+  "name": "Ganyu",
+  "title": "Người Bảo Vệ Tận Tâm - Ganyu",
+  "desc": "\"Bản thảo phải xong trước sáng mai, vậy thì đành phải thức đêm viết cho xong thôi.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Băng",
+    "weapon": "Cung",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3214,
+      "id": "undivided_heart",
+      "name": "Undivided Heart"
+    },
+    "source": [
+      "Nhận được sau khi mời Ganyu giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+    ],
+    "character": {
+      "_id": 10000037,
+      "id": "ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "liutian_archery",
+      "name": "Lưu Thiên Xạ Thuật",
+      "desc": "Gây 1 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "trail_of_the_qilin",
+      "name": "Sơn Trạch Lân Tích",
+      "desc": "Gây 3 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, tạo 1 <span style=\"color:#FFFFFFFF\">Sen Băng</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frostflake_arrow",
+      "name": "Cung Sương Hoa",
+      "desc": "Gây 5 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, gây <span style=\"color:#FFFFFFFF\">2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span></span> cho tất cả nhân vật dự bị của kẻ địch.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "celestial_shower",
+      "name": "Thiên Hoa Hạ Phàm",
+      "desc": "Gây 3 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, gây cho tất cả kẻ địch dự bị <span style=\"color:#FFFFFFFF\">1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span></span>, triệu hồi <span style=\"color:#FFFFFFFF\">Băng Linh Châu</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

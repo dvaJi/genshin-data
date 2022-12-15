@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "Löwenzahnritter – Jean",
+  "desc": "Sie glaubt immer, dass sie noch nicht genug getan hätte, bis sie den endgültigen Sieg errungen hat.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Einhänder",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Jean in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Favonius-Schwertkunst",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Luftdruckschwert",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, wechselt die nächste Figur deines Gegners zwangsweise zur aktiven Figur.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Löwenzahnbrise",
+      "desc": "Stellt allen deinen Figuren 2 LP wieder her, erschafft 1 <span style=\"color:#FFFFFFFF\">Löwenzahnfeld</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

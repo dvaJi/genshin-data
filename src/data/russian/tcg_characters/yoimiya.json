@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Ёимия",
+  "title": "«Пляшущие огоньки» Ёимия",
+  "desc": "Капитан и авангард команды Наганохара на 11-м гостевом турнире Ханамидзаки.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Стрелковое",
+    "faction": ["Инадзума"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Награда за приглашение Ёимии в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Вспышка фейерверка",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Огненный танец Ниваби",
+      "desc": "Персонаж получает <span style=\"color:#FFFFFFFF\">Ниваби энсё</span>. Этот навык не создаёт  энергию.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Камнеломка Рюкин",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Золотое сияние</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

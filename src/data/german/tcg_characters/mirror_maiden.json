@@ -1,0 +1,83 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Fatui – Spiegeljungfrau",
+  "title": "Jungfrau aus Snezhnaya – Spiegelgesandte",
+  "desc": "Alle Geheimnisse werden im gleißenden Wasserspiegel verborgen ...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Spiegeljungfrau in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Wassergeschosse",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Wasserschwapp",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Wasserspiegelscherben</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Spiegelbrechung",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

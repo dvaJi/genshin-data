@@ -1,0 +1,90 @@
+{
+  "_id": 4604,
+  "id": "stonehide_lawachurl",
+  "name": "ヒルチャール·岩兜の王",
+  "title": "千嶂を行く·ヒルチャール·岩兜の王",
+  "desc": "遠回りして進もう。この先は「王」の領域だから。",
+  "attributes": {
+    "hp": 8,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "他の武器",
+    "faction": ["魔物", "ヒルチャール"],
+    "talent_card": {
+      "_id": 3239,
+      "id": "stonehide_reforged",
+      "name": "Stonehide Reforged"
+    },
+    "source": [
+      "キャッツテールのリトルプリンスのところで酒場挑戦を行い、ヒルチャール·岩兜の王に挑戦して友好対戦に勝利することで獲得"
+    ],
+    "character": {
+      "id": "stonehide_lawachurl",
+      "name": "Stonehide Lawachurl"
+    }
+  },
+  "skills": [
+    {
+      "id": "plama_lawa",
+      "name": "Plama Lawa",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "movo_lawa",
+      "name": "Movo Lawa",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "upa_shato",
+      "name": "Upa Shato",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "infused_stonehide",
+      "name": "魔化：岩兜",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">岩兜</span>と<span style=\"color:#FFFFFFFF\">堅岩の力</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

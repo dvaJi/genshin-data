@@ -1,0 +1,83 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Fatui - Dama do Espelho",
+  "title": "Dama de Snezhnaya - Mensageira do Espelho",
+  "desc": "Todos os segredos se escondem no reluzente espelho d'água...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": [
+      "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com Dama do Espelho"
+    ],
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Bomba de Água",
+      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Romper das Ondas",
+      "desc": "Causa 3 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, o personagem alvo é afetado por <span style=\"color:#FFFFFFFF\">Refração</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Reflexo Transparente",
+      "desc": "Causa 3 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

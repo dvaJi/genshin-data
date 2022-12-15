@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "Беннет",
+  "title": "«Испытание огнём» Беннет",
+  "desc": "Когда точно знаешь, что тебя ждёт поражение, то сможешь увидеть и путь к победе.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Одноручное",
+    "faction": ["Мондштадт"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "Награда за приглашение Беннета в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Счастливый меч",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "Чрезмерные стремления",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Волнительное приключение",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 4 ед. и создаёт <span style=\"color:#FFFFFFFF\">Круг вдохновения</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

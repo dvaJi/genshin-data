@@ -1,0 +1,29 @@
+export interface ActionCardSkill {
+  name: string;
+  desc: string;
+}
+interface Entity {
+  _id: number;
+  id: string;
+  name: string;
+  rarity: number;
+}
+export interface TCGActionCard {
+  _id: number;
+  id: string;
+  name: string;
+  title: string;
+  desc: string;
+  attributes: {
+    cost: number;
+    cost_type: string;
+    card_type: string;
+    source: string[];
+    artifact?: Entity;
+    character?: Entity;
+    food?: Entity;
+    weapon?: Entity;
+    tags: string[];
+  };
+  skills: ActionCardSkill[];
+}

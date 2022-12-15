@@ -1,0 +1,92 @@
+{
+  "_id": 1404,
+  "id": "cyno",
+  "name": "Сайно",
+  "title": "«Вершитель таинств» Сайно",
+  "desc": "На карте изображена жгучая страсть генерала махаматры. Она напоминает палящее солнце, висящее над пустыней.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Древковое",
+    "faction": ["Сумеру"],
+    "talent_card": {
+      "_id": 3224,
+      "id": "featherfall_judgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": [
+      "Награда за приглашение Сайно в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000071,
+      "id": "cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "invokers_spear",
+      "name": "Копьё призывателя",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "Тайный обряд: Переправляющий души",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "Священный обряд: Проворство шакала",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 4 ед.<br/>Уровень [состояния]<span style=\"color:#FFFFFFFF\">Поклявшийся прокладывать путь</span> +2.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lawful_enforcer",
+      "name": "Исполнение наказания",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Поклявшийся прокладывать путь</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

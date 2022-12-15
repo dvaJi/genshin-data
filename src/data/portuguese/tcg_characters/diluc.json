@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "O Lado Negro do Alvorecer - Diluc",
+  "desc": "Seu coração é o seu maior inimigo.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Espadão",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["Obtido do deck inicial"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "Espada Temperada",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "Investida Ardente",
+      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>. Ao usar essa habilidade pela 3ª vez em cada turno, aumenta o Dano em 2 pontos.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Alvorecer",
+      "desc": "Causa 4 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Encantamento Pyro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

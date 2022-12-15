@@ -1,0 +1,90 @@
+{
+  "_id": 4302,
+  "id": "fatui_pyro_agent",
+  "name": "愚人众·火之债务处理人",
+  "title": "清算之刃·债务处理人",
+  "desc": "「死债不可免，活债更难逃…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["愚人众"],
+    "talent_card": {
+      "_id": 3237,
+      "id": "paid_in_full",
+      "name": "Paid in Full"
+    },
+    "source": [
+      "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度火之债务处理人中获得胜利后获取"
+    ],
+    "character": {
+      "id": "fatui_pyro_agent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "突刺",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prowl",
+      "name": "伺机而动",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">潜行</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blade_ablaze",
+      "name": "焚毁之锋",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stealth_master",
+      "name": "潜行大师",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">潜行</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

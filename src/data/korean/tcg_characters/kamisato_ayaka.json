@@ -1,0 +1,92 @@
+{
+  "_id": 1105,
+  "id": "kamisato_ayaka",
+  "name": "카미사토 아야카",
+  "title": "눈꽃의 백로·카미사토 아야카",
+  "desc": "승화된 서리처럼, 정원의 백로처럼",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": ["이나즈마"],
+    "talent_card": {
+      "_id": 3208,
+      "id": "kanten_senmyou_blessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": [
+      "캣테일 술집에서 카미사토 아야카 초대 및 친선 대전 난이도 승리 후 획득"
+    ],
+    "character": {
+      "_id": 10000002,
+      "id": "kamisato_ayaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_kabuki",
+      "name": "카미사토류·경(傾)",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_hyouka",
+      "name": "카미사토류·얼음꽃",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_soumetsu",
+      "name": "카미사토류·멸망의 서리",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">서리의 관문</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_senho",
+      "name": "카미사토류·싸락눈 걸음",
+      "desc": "[패시브] 해당 캐릭터를 출전 캐릭터로 교체할 시, <span style=\"color:#FFFFFFFF\">얼음 원소 부여</span> 효과가 제공된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

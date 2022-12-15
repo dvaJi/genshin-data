@@ -1,0 +1,90 @@
+{
+  "_id": 4302,
+  "id": "fatui_pyro_agent",
+  "name": "ファデュイ·デットエージェント·炎",
+  "title": "清算の刃·デットエージェント",
+  "desc": "「死んでも免れはしないのだ。まして生きているならば、尚更…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "talent_card": {
+      "_id": 3237,
+      "id": "paid_in_full",
+      "name": "Paid in Full"
+    },
+    "source": [
+      "キャッツテールのリトルプリンスのところで酒場挑戦を行い、デットエージェント·炎に挑戦して友好対戦に勝利することで獲得"
+    ],
+    "character": {
+      "id": "fatui_pyro_agent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "突刺",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prowl",
+      "name": "隙を狙う",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">潜行</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blade_ablaze",
+      "name": "焼き払う刃先",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stealth_master",
+      "name": "潜行マスター",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">潜行</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

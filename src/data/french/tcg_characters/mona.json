@@ -1,0 +1,92 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "Mona",
+  "title": "Mona · Réflexion astrale",
+  "desc": "Victoire ou défaite, tout est écrit dans les étoiles.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalyseur",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": [
+      "Récompense pour avoir invité Mona à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Ondes du destin",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Mirage aqueux",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et invoque un <span style=\"color:#FFFFFFFF\">mirage</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Voie divine",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une <span style=\"color:#FFFFFFFF\">bulle nocturne</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Vicissitude",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque ce personnage est actif et que vous basculez de personnage : </span>Considère ce changement comme une <span style=\"color:#FFFFFFFF\">action rapide</span>, et pas comme une <span style=\"color:#FFFFFFFF\">action de combat</span>. (1 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

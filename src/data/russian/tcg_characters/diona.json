@@ -1,0 +1,80 @@
+{
+  "_id": 1102,
+  "id": "diona",
+  "name": "Диона",
+  "title": "«Кошкин Коктейль» Диона",
+  "desc": "1% сил уходит на смешивание коктейля, а 99% на отрицание провала...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Стрелковое",
+    "faction": ["Мондштадт"],
+    "source": [
+      "Награда за приглашение Дионы в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000039,
+      "id": "diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Стиль котёнка",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icy_paws",
+      "name": "Морозные коготочки",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Щит кошачьих коготочков</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "signature_mix",
+      "name": "Авторский коктейль",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед., исцеляет 2 HP персонажа, призывает помощника: <span style=\"color:#FFFFFFFF\">Пьянящий туман</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

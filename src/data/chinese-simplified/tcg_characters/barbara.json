@@ -1,0 +1,83 @@
+{
+  "_id": 1201,
+  "id": "barbara",
+  "name": "芭芭拉",
+  "title": "闪耀偶像·芭芭拉",
+  "desc": "无论何时都能治愈人心。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3209,
+      "id": "glorious_season",
+      "name": "Glorious Season"
+    },
+    "source": ["在猫尾酒馆中邀请甘雨进行对局，在友好对局难度中获得胜利后获取"],
+    "character": {
+      "_id": 10000014,
+      "id": "barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "whisper_of_water",
+      "name": "水之浅唱",
+      "desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "let_the_show_begin",
+      "name": "演唱，开始♪",
+      "desc": "造成3点<span style=\"color:#80C0FFFF\">水元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">歌声之环</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shining_miracle",
+      "name": "闪耀奇迹♪",
+      "desc": "治疗我方所有角色4点。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

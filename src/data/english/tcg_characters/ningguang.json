@@ -1,0 +1,85 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "Ningguang",
+  "title": "\"Eclipsing Star\" Ningguang",
+  "desc": "The greatest secret she keeps is that she keeps a great many of Liyue's secrets.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Catalyst",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": [
+      "Reward for inviting Ningguang to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "Sparkling Scatter",
+      "desc": "Deals 1 <span style=\"color:#FFE699FF\">Geo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "Jade Screen",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Jade Screen</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "Starshatter",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>. If <span style=\"color:#FFFFFFFF\">Jade Screen</span> is on the field, deals +2 DMG.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

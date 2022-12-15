@@ -1,0 +1,83 @@
+{
+  "_id": 1104,
+  "id": "chongyun",
+  "name": "重雲",
+  "title": "雪融有蹤·重雲",
+  "desc": "「夏天啊，你還是悄悄過去吧…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "雙手劍",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3211,
+      "id": "steady_breathing",
+      "name": "Steady Breathing"
+    },
+    "source": ["在貓尾酒館中邀請重雲進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000036,
+      "id": "chongyun",
+      "name": "Chongyun",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "demonbane",
+      "name": "滅邪四式",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chonghuas_layered_frost",
+      "name": "重華疊霜",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">重華疊霜領域</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cloudparting_star",
+      "name": "雲開星落",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

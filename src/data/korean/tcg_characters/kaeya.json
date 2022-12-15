@@ -1,0 +1,83 @@
+{
+  "_id": 1103,
+  "id": "kaeya",
+  "name": "케이아",
+  "title": "한풍의 검사·케이아",
+  "desc": "그는 다른 사람에게서 「기사의 미덕」을 찾아내는 데 능하다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3210,
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": ["시작 카드 덱에서 획득"],
+    "character": {
+      "_id": 10000015,
+      "id": "kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ceremonial_bladework",
+      "name": "의전 검술",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostgnaw",
+      "name": "서리 엄습",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_waltz",
+      "name": "살을 에는 윤무",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 4pt 주고 <span style=\"color:#FFFFFFFF\">얼음 기둥</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

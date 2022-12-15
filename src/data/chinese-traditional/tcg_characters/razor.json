@@ -1,0 +1,78 @@
+{
+  "_id": 1402,
+  "id": "razor",
+  "name": "雷澤",
+  "title": "狼少年·雷澤",
+  "desc": "「牌，難。」\\n「但，有朋友…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "雙手劍",
+    "faction": ["蒙德"],
+    "source": ["在貓尾酒館中邀請雷澤進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000020,
+      "id": "razor",
+      "name": "Razor",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "steel_fang",
+      "name": "鋼脊",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "claw_and_thunder",
+      "name": "利爪與蒼雷",
+      "desc": "造成3點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_fang",
+      "name": "雷牙",
+      "desc": "造成3點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">雷狼</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

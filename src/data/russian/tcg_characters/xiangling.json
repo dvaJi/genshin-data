@@ -1,0 +1,85 @@
+{
+  "_id": 1302,
+  "id": "xiangling",
+  "name": "Сян Лин",
+  "title": "«Миллион вкусов» Сян Лин",
+  "desc": "Как шеф-повару ей нет равных.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Древковое",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3230,
+      "id": "crossfire",
+      "name": "Crossfire"
+    },
+    "source": [
+      "Награда за приглашение Сян Лин в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000023,
+      "id": "xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "doughfu",
+      "name": "Кунг-Тесто",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guoba_attack",
+      "name": "Атака Гобы",
+      "desc": "Призывает 1 помощника: <span style=\"color:#FFFFFFFF\">Гоба</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyronado",
+      "name": "Огневихрь",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 4 ед. и создаёт <span style=\"color:#FFFFFFFF\">Огневихрь</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

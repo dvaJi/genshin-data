@@ -1,0 +1,83 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Fatui - Thiếu Nữ Kính",
+  "title": "Quý Cô Snezhnaya - Sứ Giả Kính",
+  "desc": "Tất cả những bí mật hãy cất giấu trong chiếc kính nước lấp lánh này...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": [
+      "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Thiếu Nữ Kính"
+    ],
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Bóng Nước",
+      "desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Sóng Nước Lan Tràn",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, nhân vật mục tiêu nhận <span style=\"color:#FFFFFFFF\">Gương Vỡ Phản Chiếu</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Phản Chiếu Gợn Sóng",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

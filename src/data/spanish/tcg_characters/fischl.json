@@ -1,0 +1,83 @@
+{
+  "_id": 1401,
+  "id": "fischl",
+  "name": "Fischl",
+  "title": "Fischl - La Princesa del Juicio",
+  "desc": "“¡Oz, mi familiar! ¡Bate tus alas y teje un nuevo destino para mí bajo el velo nocturno!”.\\n“Señorita, no me estará pidiendo que le pase una carta, ¿o sí?”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3227,
+      "id": "stellar_predator",
+      "name": "Stellar Predator"
+    },
+    "source": [],
+    "character": {
+      "_id": 10000031,
+      "id": "fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "bolts_of_downfall",
+      "name": "Flechas del juicio",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightrider",
+      "name": "Vigía de la noche",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca a <span style=\"color:#FFFFFFFF\">Oz</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "midnight_phantasmagoria",
+      "name": "Ilusión nocturna",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>, así como 2 pts. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes en reserva enemigos.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

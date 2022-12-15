@@ -1,0 +1,85 @@
+{
+  "_id": 1701,
+  "id": "collei",
+  "name": "Collei",
+  "title": "Collei - La Promesa en Flor",
+  "desc": "“‘Gritar el nombre de la tarjeta hará que su poder aumente considerablemente’... ¿Esto es en serio?”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arco",
+    "faction": ["Sumeru"],
+    "talent_card": {
+      "_id": 3234,
+      "id": "floral_sidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Collei en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000067,
+      "id": "collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "supplicants_bowmanship",
+      "name": "Elogio de la arquería",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "floral_brush",
+      "name": "Caricia de las flores",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "trumpcard_kitty",
+      "name": "Secreto miauravilloso",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e invoca a <span style=\"color:#FFFFFFFF\">Colleámbar</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

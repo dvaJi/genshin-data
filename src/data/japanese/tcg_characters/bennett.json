@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "ベネット",
+  "title": "運命の試金石·ベネット",
+  "desc": "自分が絶対に負けると分かった時は、どう勝つのかも分かっているはずだ。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "片手剣",
+    "faction": ["モンド"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "キャッツテールでベネットを招待し、友好対戦に勝利することで獲得"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "好運の剣",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "溢れる情熱",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "素晴らしい旅",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を4与え、<span style=\"color:#FFFFFFFF\">鼓舞エリア</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

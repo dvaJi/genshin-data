@@ -1,0 +1,90 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Espantohongo Plumaverde",
+  "title": "Espantohongo Plumaverde - Amo de los Hongos",
+  "desc": "Si guardas silencio y prestas atención, escucharás los pasos del rey de los hongos patrullando su territorio.",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": [
+      "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Espantohongo Plumaverde de los duelos tabernarios"
+    ],
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Danza del rey fúngico",
+      "desc": "Inflige 1 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Nube de esporas inestable",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Plumaje majestuoso",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y consume todas las cargas de <span style=\"color:#FFFFFFFF\">revitalización</span>. Por cada carga: daño actual +1.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Revitalización",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">revitalización</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

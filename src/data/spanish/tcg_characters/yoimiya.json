@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "Yoimiya - La Maestra de las Llamas",
+  "desc": "¡Capitana y primera jugadora del equipo Naganohara en el onceavo torneo por invitación de Hanamizaka!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arco",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Yoimiya en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Pirotecnia",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Danza de la pólvora",
+      "desc": "Este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">nitrofogata</span> (esta habilidad no genera Energía).",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Saxifraga de oro",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea una <span style=\"color:#FFFFFFFF\">ascua dorada</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

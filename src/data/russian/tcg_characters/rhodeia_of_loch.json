@@ -1,0 +1,104 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Родия",
+  "title": "«Хозяйка вод» Родия",
+  "desc": "«Пока идёт дождь и бегут реки, вода никуда не исчезнет...»",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": [
+      "Награда за победу над Родией в Дружеской дуэли в «Кошкином хвосте»"
+    ],
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Прилив",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Иллюзорный океанид",
+      "desc": "Случайным образом призывает: <span style=\"color:#FFFFFFFF\">Мимик океанида</span> (1 вид). В первую очередь создаёт разные виды.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "Лесное многообразие",
+      "desc": "Случайным образом призывает: <span style=\"color:#FFFFFFFF\">Мимик океанида</span> (2 вида). В первую очередь создаёт разные виды.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Приливы и течения",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед. За каждого помощника наносит 2 ед. урона.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Скопление элементов: Гидро",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Элементальные существа: Гидро</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

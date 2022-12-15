@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "Bennett",
+  "title": "ไฟแห่งโชคชะตา - Bennett",
+  "desc": "เมื่อคุณรู้ตัวเองว่าต้องแพ้อย่างแน่นอน งั้นคุณก็ต้องรู้หนทางที่จะชนะเช่นกัน",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "ดาบ",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "ได้รับหลังจากเชิญ Bennett ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Strike of Fortune",
+      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "Passion Overload",
+      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Fantastic Voyage",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 4 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Inspiration Field</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

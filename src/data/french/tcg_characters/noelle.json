@@ -1,0 +1,85 @@
+{
+  "_id": 1602,
+  "id": "noelle",
+  "name": "Noëlle",
+  "title": "Noëlle · Fleur chevaleresque",
+  "desc": "Vous pouvez lui laisser organiser la table... Vraiment...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Épée à deux mains",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3233,
+      "id": "i_got_your_back",
+      "name": "I Got Your Back"
+    },
+    "source": [
+      "Récompense pour avoir invité Noëlle à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000034,
+      "id": "noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_maid",
+      "name": "Escrime de Favonius : Servante",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "breastplate",
+      "name": "Armure de cœur",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">armure complète</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sweeping_time",
+      "name": "Grand ménage",
+      "desc": "Inflige 4 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et accorde un <span style=\"color:#FFFFFFFF\">grand ménage</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

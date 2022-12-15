@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "迪卢克",
+  "title": "晨曦暗面·迪卢克",
+  "desc": "他的心是他最大的敌人。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "双手剑",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["初始牌组中获取"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "淬炼之剑",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "逆焰之刃",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。每回合第三次使用本技能时，伤害+2。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "黎明",
+      "desc": "造成4点<span style=\"color:#FF9999FF\">火元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">火元素附魔</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

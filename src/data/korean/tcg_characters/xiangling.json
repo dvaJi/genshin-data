@@ -1,0 +1,83 @@
+{
+  "_id": 1302,
+  "id": "xiangling",
+  "name": "향릉",
+  "title": "만민백미·향릉",
+  "desc": "요리사로서 그녀는 뭐든 해낼 수 있다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3230,
+      "id": "crossfire",
+      "name": "Crossfire"
+    },
+    "source": ["캣테일 술집에서 향릉 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000023,
+      "id": "xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "doughfu",
+      "name": "밀가루 음식 솜씨",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guoba_attack",
+      "name": "누룽지 출격",
+      "desc": "<span style=\"color:#FFFFFFFF\">누룽지</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyronado",
+      "name": "화륜",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 4pt 주고 <span style=\"color:#FFFFFFFF\">화륜</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

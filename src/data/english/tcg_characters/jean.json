@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "\"Dandelion Knight\" Jean",
+  "desc": "Never believes that she has done well enough — not until final victory is hers, anyway.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Sword",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Reward for inviting Jean to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Favonius Bladework",
+      "desc": "Deals 1 <span style=\"color:#80FFD7FF\">Anemo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Gale Blade",
+      "desc": "Deals 3 <span style=\"color:#80FFD7FF\">Anemo DMG</span>, the target is forcibly switched to the next character.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Dandelion Breeze",
+      "desc": "Heals all your characters for 2 HP, summons 1 <span style=\"color:#FFFFFFFF\">Dandelion Field</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

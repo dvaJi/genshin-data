@@ -1,0 +1,83 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "응광",
+  "title": "엄월천권·응광",
+  "desc": "그녀가 가지고 있는 가장 큰 비밀은, 바로 자신이 리월항의 수많은 비밀을 지키고 있다는 것이다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "바위 원소",
+    "weapon": "법구",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": ["캣테일 술집에서 응광 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "천금투",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "선기 병풍",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">선기 병풍</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "천권 붕옥",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 준다. 만약 필드에 <span style=\"color:#FFFFFFFF\">선기 병풍</span>이 있을 시, 이번 피해가 2pt 증가한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "Diluc · Ombre de l'Aurore",
+  "desc": "Son cœur est son plus grand ennemi.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Épée à deux mains",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["Obtenue dans le deck de départ"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "Épée trempée",
+      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "Assaut brûlant",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Aurore",
+      "desc": "Inflige 4 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et accorde un <span style=\"color:#FFFFFFFF\">enchantement Pyro</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

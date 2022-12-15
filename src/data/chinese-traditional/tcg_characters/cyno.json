@@ -1,0 +1,90 @@
+{
+  "_id": 1404,
+  "id": "cyno",
+  "name": "賽諾",
+  "title": "緘秘的裁遣·賽諾",
+  "desc": "卡牌中蘊藏的，是大風紀官如沙漠烈日般炙熱的喜愛之情。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "長柄武器",
+    "faction": ["須彌"],
+    "talent_card": {
+      "_id": 3224,
+      "id": "featherfall_judgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": ["在貓尾酒館中邀請賽諾進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000071,
+      "id": "cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "invokers_spear",
+      "name": "七聖槍術",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "秘儀·律淵渡魂",
+      "desc": "造成3點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "聖儀·煟煌隨狼行",
+      "desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，<br/><span style=\"color:#FFFFFFFF\">啟途誓使</span>的[憑依]級數+2。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lawful_enforcer",
+      "name": "行度誓懲",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">啟途誓使</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

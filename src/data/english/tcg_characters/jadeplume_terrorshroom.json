@@ -1,0 +1,90 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Jadeplume Terrorshroom",
+  "title": "\"Lord of Fungi\" Jadeplume Terrorshroom",
+  "desc": "If you keep silent and listen closely, you can hear the sound of the ruler of the Shroom-Kin inspecting its territory...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": [
+      "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Jadeplume Terrorshroom"
+    ],
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Majestic Dance",
+      "desc": "Deals 1 <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Volatile Spore Cloud",
+      "desc": "Deals 3 <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Feather Spreading",
+      "desc": "Deals 3 <span style=\"color:#7EC236FF\">Dendro DMG</span>, then consumes all <span style=\"color:#FFFFFFFF\">Radical Vitality</span> stacks. For each stack consumed, this instance deals +1 DMG.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Radical Vitality",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Radical Vitality</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

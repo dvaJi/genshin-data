@@ -1,0 +1,83 @@
+{
+  "_id": 1202,
+  "id": "xingqiu",
+  "name": "행추",
+  "title": "고화비운·행추",
+  "desc": "「어째 요즘 소설 주인공들은 죄다 학생이네…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "한손검",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3207,
+      "id": "the_scent_remained",
+      "name": "The Scent Remained"
+    },
+    "source": ["캣테일 술집에서 행추 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000025,
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "guhua_style",
+      "name": "고화 검법",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fatal_rainscreen",
+      "name": "화우농산",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#80C0FFFF\">물 원소 부착</span> 효과를 주며 <span style=\"color:#FFFFFFFF\">우렴검</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "raincutter",
+      "name": "재우유홍",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#80C0FFFF\">물 원소 부착</span> 효과를 주며 <span style=\"color:#FFFFFFFF\">홍검세</span>를 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

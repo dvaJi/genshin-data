@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "ความหวานที่ไร้พิษสง - Sucrose",
+  "desc": "\"เด็คที่ไม่เคยผ่านการต่อสู้จริงมาก่อน ไม่มีค่าที่จะใช้ตัดสินความแข็งแกร่งหรอกนะ!\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "สื่อเวท",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["ได้รับจากเด็คเริ่มต้น"],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Wind Spirit Creation",
+      "desc": "จะสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Astable Anemohypostasis Creation - 6308",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย และบังคับฝ่ายตรงข้าม ให้สลับไปใช้ตัวละครก่อนหน้า",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Forbidden Creation - Isomer 75 / Type II",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Large Wind Spirit</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

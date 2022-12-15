@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "ประกายเพลิงเริงระบำ - Yoimiya",
+  "desc": "หัวหน้า \"ทีม Naganohara\" และผู้เล่นคนแรก ในการแข่งขันทั่วทั้งย่าน Hanamizaka ครั้งที่ 11",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "ธนู",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "ได้รับหลังจากเชิญ Yoimiya ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Firework Flare-Up",
+      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Niwabi Fire-Dance",
+      "desc": "ตัวละครนี้เข้าสู่สภาวะ <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span> (สกิลนี้ไม่ก่อให้เกิดพลังงาน)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Ryuukin Saxifrage",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Aurous Blaze</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

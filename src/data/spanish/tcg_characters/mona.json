@@ -1,0 +1,92 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "Mona",
+  "title": "Mona - La Observadora de los Astros",
+  "desc": "Ganes o pierdas, todo está escrito en las estrellas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Mona en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Destino revelado",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Espejismo del agua",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">ilusión</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Órbita divina",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">burbuja ilusoria</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Torrente ilusorio",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">Cuando este personaje está en combate y cambias de personaje</span>, dicho cambio se considera una <span style=\"color:#FFFFFFFF\">acción rápida</span> en vez de una <span style=\"color:#FFFFFFFF\">acción de combate</span> (1 vez por ronda).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

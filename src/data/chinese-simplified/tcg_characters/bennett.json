@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "班尼特",
+  "title": "命运试金石·班尼特",
+  "desc": "当你知道自己一定会输时，那你肯定也知道如何能赢。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "单手剑",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "在猫尾酒馆中邀请班尼特进行对局，在友好对局难度中获得胜利后获取"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "好运剑",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "热情过载",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "美妙旅程",
+      "desc": "造成4点<span style=\"color:#FF9999FF\">火元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">鼓舞领域</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_id": 1105,
+  "id": "kamisato_ayaka",
+  "name": "神里綾華",
+  "title": "白鷺氷華·神里綾華",
+  "desc": "氷華の如し、白鷺の如し。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "氷元素",
+    "weapon": "片手剣",
+    "faction": ["稲妻"],
+    "talent_card": {
+      "_id": 3208,
+      "id": "kanten_senmyou_blessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": [
+      "キャッツテールで神里綾華を招待し、友好対戦に勝利することで獲得"
+    ],
+    "character": {
+      "_id": 10000002,
+      "id": "kamisato_ayaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_kabuki",
+      "name": "神里流·傾き",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_hyouka",
+      "name": "神里流·氷華",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_soumetsu",
+      "name": "神里流·霜滅",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">霜見雪関扉</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_senho",
+      "name": "神里流·霰歩",
+      "desc": "【固有】このキャラが「出撃キャラ」へとチェンジした時、<span style=\"color:#FFFFFFFF\">氷元素付与</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

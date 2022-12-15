@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "Jean - La Caballera de Dandelion",
+  "desc": "Nunca está satisfecha consigo misma... hasta que obtiene la victoria.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Espada ligera",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Jean en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Técnica de espada Favonius",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Filo de ventisca",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y obliga al rival a que su personaje cambie al siguiente.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Brisa de Dandelion",
+      "desc": "Vida +2 a todos tus personajes. Crea un <span style=\"color:#FFFFFFFF\">campo de dientes de león</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

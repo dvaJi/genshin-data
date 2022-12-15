@@ -1,0 +1,90 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "모나",
+  "title": "별하늘의 물거울·모나",
+  "desc": "승리와 패배는 모두 운명으로 정해진 것",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "법구",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": ["캣테일 술집에서 모나 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "인과 간파",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "수중 환원",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">허영</span>을 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "별의 운명",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">포영</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "흐르는 허와 실",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">해당 캐릭터가 출전 캐릭터이며 아군이 「캐릭터 교체」 행동 진행 시:</span> 이번 교체를 「<span style=\"color:#FFFFFFFF\">전투 행동</span>」이 아닌 「<span style=\"color:#FFFFFFFF\">빠른 행동</span>」으로 간주한다. (턴당 1회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

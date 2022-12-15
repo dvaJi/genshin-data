@@ -1,0 +1,85 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "Keqing",
+  "title": "Keqing · Ardeur du tonnerre",
+  "desc": "Elle peut construire des decks jusqu'ici inédits et gagner des batailles dans lesquelles la victoire est impensable.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Électro",
+    "weapon": "Épée à une main",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": [
+      "Récompense pour avoir invité Keqing à une partie amicale dans La Queue de Chat et remporté la victoire"
+    ],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "Escrime des nuages",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "Retour des étoiles",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et crée une <span style=\"color:#FFFFFFFF\">lame de foudre</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "Promenade céleste",
+      "desc": "Inflige 4 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et inflige <span style=\"color:#FFFFFFFF\">3 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> à tous les personnages ennemis en attente.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

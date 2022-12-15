@@ -1,0 +1,85 @@
+{
+  "_id": 1302,
+  "id": "xiangling",
+  "name": "Xiangling",
+  "title": "Küchenfee des Volkes – Xiangling",
+  "desc": "Als Köchin kann sie praktisch alles.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3230,
+      "id": "crossfire",
+      "name": "Crossfire"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Xiangling in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000023,
+      "id": "xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "doughfu",
+      "name": "Gebäckgefecht",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guoba_attack",
+      "name": "Guoba, erscheine!",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Guoba</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyronado",
+      "name": "Feuerrad",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Feuerrad</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

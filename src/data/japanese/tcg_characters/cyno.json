@@ -1,0 +1,90 @@
+{
+  "_id": 1404,
+  "id": "cyno",
+  "name": "セノ",
+  "title": "緘秘の裁き·セノ",
+  "desc": "カードには、砂漠で燃えたぎる太陽のような大マハマトラの熱い情愛が込められている。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "長柄武器",
+    "faction": ["スメール"],
+    "talent_card": {
+      "_id": 3224,
+      "id": "featherfall_judgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": ["キャッツテールでセノを招待し、友好対戦に勝利することで獲得"],
+    "character": {
+      "_id": 10000071,
+      "id": "cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "invokers_spear",
+      "name": "七聖槍術",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "秘儀·律淵渡魂",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "聖儀·狼駆憑走",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を4与える。<br/><span style=\"color:#FFFFFFFF\">啓途誓使</span>の「憑依」レベル+2。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lawful_enforcer",
+      "name": "行度誓戒",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">啓途誓使</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

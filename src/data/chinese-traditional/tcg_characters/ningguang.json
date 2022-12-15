@@ -1,0 +1,83 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "凝光",
+  "title": "掩月天權·凝光",
+  "desc": "她保守著一個最大的秘密，那就是自己保守著璃月港的許多秘密。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "岩元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": ["在貓尾酒館中邀請凝光進行對局，在友好對局難度中取得勝利後獲得"],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "千金擲",
+      "desc": "造成1點<span style=\"color:#FFE699FF\">岩元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "璇璣屏",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">璇璣屏</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "天權崩玉",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>；如果<span style=\"color:#FFFFFFFF\">璇璣屏</span>在場，就使此傷害+2。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

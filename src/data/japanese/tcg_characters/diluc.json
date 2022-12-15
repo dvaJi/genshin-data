@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "ディルック",
+  "title": "アカツキの裏面·ディルック",
+  "desc": "最大の敵は彼自身の心だ。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "両手剣",
+    "faction": ["モンド"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["初期デッキで獲得"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "百煉の剣",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "逆焔の刃",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。このスキルが各ラウンド3回目に発動されると、ダメージ+2。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "黎明",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を4与え、本キャラは<span style=\"color:#FFFFFFFF\">炎元素付与</span>状態を獲得する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

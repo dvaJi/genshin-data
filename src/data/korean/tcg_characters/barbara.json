@@ -1,0 +1,83 @@
+{
+  "_id": 1201,
+  "id": "barbara",
+  "name": "바바라",
+  "title": "빛나는 아이돌·바바라",
+  "desc": "언제든 사람의 마음을 치유해준다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "법구",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3209,
+      "id": "glorious_season",
+      "name": "Glorious Season"
+    },
+    "source": ["캣테일 술집에서 감우 초대 및 친선 대전 난이도 승리 후 획득"],
+    "character": {
+      "_id": 10000014,
+      "id": "barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "whisper_of_water",
+      "name": "물의 노래",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "let_the_show_begin",
+      "name": "공연, 시작♪",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">노래의 고리</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shining_miracle",
+      "name": "빛나는 기적♪",
+      "desc": "모든 아군 캐릭터의 HP를 4pt 치유한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

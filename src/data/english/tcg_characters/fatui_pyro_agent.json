@@ -1,0 +1,90 @@
+{
+  "_id": 4302,
+  "id": "fatui_pyro_agent",
+  "name": "Fatui Pyro Agent",
+  "title": "\"Blade of Settlement\" Agent",
+  "desc": "\"There is no running from your debt, be you living or otherwise.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3237,
+      "id": "paid_in_full",
+      "name": "Paid in Full"
+    },
+    "source": [
+      "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Fatui Pyro Agent"
+    ],
+    "character": {
+      "id": "fatui_pyro_agent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "Thrust",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prowl",
+      "name": "Prowl",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Stealth</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blade_ablaze",
+      "name": "Blade Ablaze",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stealth_master",
+      "name": "Stealth Master",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Stealth</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1104,
+  "id": "chongyun",
+  "name": "Чун Юнь",
+  "title": "«Морозная пылкость» Чун Юнь",
+  "desc": "«Ох, лето... Скорее сменись на осень и оставь нас в покое...»",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Двуручное",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3211,
+      "id": "steady_breathing",
+      "name": "Steady Breathing"
+    },
+    "source": [
+      "Награда за приглашение Чун Юня в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000036,
+      "id": "chongyun",
+      "name": "Chongyun",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "demonbane",
+      "name": "Искоренение зла",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chonghuas_layered_frost",
+      "name": "Холод Чунхуа",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Область холода Чунхуа</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cloudparting_star",
+      "name": "Падение с небес",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "_id": 1105,
+  "id": "kamisato_ayaka",
+  "name": "Kamisato Ayaka",
+  "title": "Kamisato Ayaka - La Garza de la Escarcha",
+  "desc": "Grácil como la escarcha cayendo, elegante como una garza posada en un jardín.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3208,
+      "id": "kanten_senmyou_blessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Kamisato Ayaka en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000002,
+      "id": "kamisato_ayaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_kabuki",
+      "name": "Estilo Kamisato - Elegancia",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_hyouka",
+      "name": "Estilo Kamisato: Flor del hielo",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_soumetsu",
+      "name": "Estilo Kamisato: Devastación glacial",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea una <span style=\"color:#FFFFFFFF\">ráfaga de ventisca</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_senho",
+      "name": "Estilo Kamisato: Senda de escarcha",
+      "desc": "Pasiva: cuando este personaje pasa a ser el personaje en combate, obtiene un <span style=\"color:#FFFFFFFF\">imbuimiento Cryo</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}
