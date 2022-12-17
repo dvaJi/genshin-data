@@ -1,3 +1,9 @@
+## [0.27.1](https://github.com/dvaJi/genshin-data/compare/0.27.0...0.27.1) (2022-12-17)
+
+### Fixes
+
+- fix typing for ascension ([cce3c2e](https://github.com/dvaJi/genshin-data/commit/cce3c2eb8e6fed17d62b7f72075eb03e0a54130b))
+
 ## [0.27.0](https://github.com/dvaJi/genshin-data/compare/0.26.0...0.27.0) (2022-12-17)
 
 ### Fixes
