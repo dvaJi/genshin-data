@@ -40,32 +40,15 @@ export type AscendStat = {
   values: (string | number)[];
 };
 
-export interface FirstAscension {
-  level: [1, 20];
-  cost: number;
-  stats: AscendStat[];
-}
-
-export interface SecondAscension {
-  level: [20, 40];
-  cost: number;
-  stats: AscendStat[];
-  mat1: AscensionMaterial;
-  mat3: AscensionMaterial;
-  mat4: AscensionMaterial;
-}
-
-export interface ThenAscension {
+export interface Ascension {
   level: [number, number];
   cost: number;
   stats: AscendStat[];
-  mat1: AscensionMaterial;
-  mat2: AscensionMaterial;
-  mat3: AscensionMaterial;
-  mat4: AscensionMaterial;
+  mat1?: AscensionMaterial;
+  mat2?: AscensionMaterial;
+  mat3?: AscensionMaterial;
+  mat4?: AscensionMaterial;
 }
-
-export type Ascension = FirstAscension | SecondAscension | ThenAscension;
 
 export type CharacterVoice = {
   english: string;
