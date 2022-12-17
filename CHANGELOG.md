@@ -1,3 +1,19 @@
+## [0.27.0](https://github.com/dvaJi/genshin-data/compare/0.26.0...0.27.0) (2022-12-17)
+
+### Fixes
+
+- **achievements**: replace {param0} with actual value ([3d20442](https://github.com/dvaJi/genshin-data/commit/3d2044284b9ce4bb1ee184eaaf8209dadbbcf381))
+
+- remove {NON_BREAK_SPACE} from descriptions ([d17a9b75](https://github.com/dvaJi/genshin-data/commit/d17a9b7551fc71388dbcc924700082d2764a5fd7))
+
+### Features
+
+- **tcg**: add Genius Invokation TCG Cards data ([3bdb5e0](https://github.com/dvaJi/genshin-data/commit/3bdb5e001469a562b71370b0ab18bd2c7d77961a))
+
+- **characters**: modify ascension to include stats. Now it includes level 1, so the first ascend will not have mat1, mat3, and mat4 ([db273d8](https://github.com/dvaJi/genshin-data/commit/db273d898ca29d688c025d0ec3b9a4ac3a5a7ec8))
+
+- **tcg**: fix character card skill description ([3c77ce0](https://github.com/dvaJi/genshin-data/commit/3c77ce026d49da9d93f4be0c209db96940d4ae11))
+
 ## [0.26.0](https://github.com/dvaJi/genshin-data/compare/0.25.0...0.26.0) (2022-12-07)
 
 ### Features
