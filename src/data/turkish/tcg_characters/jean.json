@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "\"Karahindiba Şövalyesi\" Jean",
+  "desc": "En azından nihai zaferi elde edene kadar yaptığı şeyin yeterli olduğuna asla ikna olmaz.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Rüzgar",
+    "weapon": "Kılıç",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Jean'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Favonius Kılıç Tekniği",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Bora Kılıcı",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Karahindiba Yeli",
+      "desc": "Tüm karakterlerinin Canını 2 yeniler ve 1 <span style=\"color:#FFFFFFFF\">Karahindiba Tarlası</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

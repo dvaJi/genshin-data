@@ -1,0 +1,90 @@
+{
+  "_id": 4604,
+  "id": "stonehide_lawachurl",
+  "name": "Taş Sırtlı Dağ Reisi",
+  "title": "\"Vadigezen\" Taş Sırtlı Dağ Reisi",
+  "desc": "Etraftan dolaş, ileride \"kralın\" diyarı var.",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar", "Dağ Yabanisi"],
+    "talent_card": {
+      "_id": 3239,
+      "id": "stonehide_reforged",
+      "name": "Stonehide Reforged"
+    },
+    "source": [
+      "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Taş Sırtlı Dağ Reisi ile olan Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "id": "stonehide_lawachurl",
+      "name": "Stonehide Lawachurl"
+    }
+  },
+  "skills": [
+    {
+      "id": "plama_lawa",
+      "name": "Plama Lawa",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "movo_lawa",
+      "name": "Movo Lawa",
+      "desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "upa_shato",
+      "name": "Upa Shato",
+      "desc": "5 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "infused_stonehide",
+      "name": "Element Yüklü Taş Sırt",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Taş Sırt</span> ve <span style=\"color:#FFFFFFFF\">Taş Gücü</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

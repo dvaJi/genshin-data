@@ -1,0 +1,85 @@
+{
+  "_id": 1502,
+  "id": "jean",
+  "name": "Jean",
+  "title": "Jean, Cavaliere del Dente di leone",
+  "desc": "È convinta di non fare mai abbastanza, perlomeno fin quando non vince.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Spada",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3222,
+      "id": "lands_of_dandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Jean a duello alla Coda di Gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000003,
+      "id": "jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework",
+      "name": "Tecnica di Favonius",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gale_blade",
+      "name": "Lama burrascosa",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. Obbliga l'avversario a passare al personaggio successivo.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dandelion_breeze",
+      "name": "Brezza dei denti di leone",
+      "desc": "Ripristina 2 punti a tutti i tuoi personaggi, invoca un <span style=\"color:#FFFFFFFF\">Campo di denti di leone</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

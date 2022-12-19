@@ -1,0 +1,85 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "Ningguang",
+  "title": "\"Örten Yıldız\" Ningguang",
+  "desc": "Sakladığı en büyük sır, Liyue'nin bir sürü sırrını saklamasıdır.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Toprak",
+    "weapon": "Katalizör",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": [
+      "Ningguang'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "Parıldayan Parçacıklar",
+      "desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "Yeşim Tablet",
+      "desc": "2 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Yeşim Tablet</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "Yıldız Kıran",
+      "desc": "8 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Eğer <span style=\"color:#FFFFFFFF\">Yeşim Tablet</span> alandaysa, bu Hasar 2 artar.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

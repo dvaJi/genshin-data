@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "Diluc, Lato oscuro dell'alba",
+  "desc": "Il suo cuore è il suo più acerrimo nemico.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["Si ottiene dal mazzo iniziale"],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "Spada temprata",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "Assalto fiammante",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>. Se nello stesso turno questa abilità è usata per 3 volte, infligge DAN +2.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Alba",
+      "desc": "Infligge 8 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Infusione di Pyro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

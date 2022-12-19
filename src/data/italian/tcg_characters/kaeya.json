@@ -1,0 +1,83 @@
+{
+  "_id": 1103,
+  "id": "kaeya",
+  "name": "Kaeya",
+  "title": "Kaeya, Spadaccino della bufera",
+  "desc": "Specializzato nel risvegliare le virtù cavalleresche nel prossimo.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Spada",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3210,
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": ["Si ottiene dal mazzo iniziale"],
+    "character": {
+      "_id": 10000015,
+      "id": "kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ceremonial_bladework",
+      "name": "Tecnica cerimoniale",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostgnaw",
+      "name": "Attacco gelante",
+      "desc": "Infligge 3 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_waltz",
+      "name": "Valzer glaciale",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, crea una <span style=\"color:#FFFFFFFF\">Stalattite</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

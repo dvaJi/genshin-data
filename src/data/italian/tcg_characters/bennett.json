@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "Bennett",
+  "title": "Bennett, Prova del fuoco",
+  "desc": "Quando capisci che stai per perdere, devi sapere come vincere.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Spada",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Bennett a duello alla Coda di Gatto e battendolo in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Colpo di fortuna",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "Sovraccarico di passione",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Viaggio fantastico",
+      "desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, crea un <span style=\"color:#FFFFFFFF\">Campo d'ispirazione</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,977 @@
+{
+  "_id": 10000029,
+  "id": "klee",
+  "name": "Klee",
+  "title": "Sole fugace",
+  "description": "Esperta di esplosivi e ospite frequente della cella d'isolamento dei Cavalieri di Favonius. Conosciuta anche come Sole fugace.",
+  "weapon_type": "Catalizzatore",
+  "element": "Pyro",
+  "gender": "Femmina",
+  "substat": "Bonus DAN da Pyro",
+  "affiliation": "Cavalieri di Favonius",
+  "region": "Mondstadt",
+  "rarity": 5,
+  "birthday": [27, 7],
+  "constellation": "Trifolium",
+  "domain": "Gola dell'Oblio",
+  "cv": {
+    "english": "Poonam Basu",
+    "chinese": "花玲",
+    "japanese": "久野美咲",
+    "korean": "Bang Yeon-ji"
+  },
+  "skills": [
+    {
+      "_id": 10291,
+      "id": "normal_attack_kaboom",
+      "name": "Attacco normale: Megaboom!",
+      "description": "<span>Attacco normale</span><br/>Lancia oggetti che fanno boom quando entrano in contatto con cose o persone! Effettua fino a 3 attacchi esplosivi, infliggendo <span>DAN da Pyro ad area</span>.<br/><br/><span>Attacco caricato</span><br/>Consuma una determinata quantità di vigore per infliggere <span>DAN da Pyro ad area</span> agli avversari dopo un breve periodo di lancio.<br/><br/><span>Attacco in picchiata</span><br/>Convogliando la forza di Pyro, Klee si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari sul suo percorso. Infligge <span>DAN da Pyro ad area</span> all'impatto col suolo.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DAN da 1º colpo",
+          "values": [
+            "72.16%",
+            "77.57%",
+            "82.98%",
+            "90.2%",
+            "95.61%",
+            "101.02%",
+            "108.24%",
+            "115.46%",
+            "122.67%",
+            "129.89%",
+            "137.39%",
+            "147.21%",
+            "157.02%",
+            "166.83%",
+            "176.65%"
+          ]
+        },
+        {
+          "label": "DAN da 2º colpo",
+          "values": [
+            "62.4%",
+            "67.08%",
+            "71.76%",
+            "78%",
+            "82.68%",
+            "87.36%",
+            "93.6%",
+            "99.84%",
+            "106.08%",
+            "112.32%",
+            "118.81%",
+            "127.3%",
+            "135.78%",
+            "144.27%",
+            "152.76%"
+          ]
+        },
+        {
+          "label": "DAN da 3º colpo",
+          "values": [
+            "89.92%",
+            "96.66%",
+            "103.41%",
+            "112.4%",
+            "119.14%",
+            "125.89%",
+            "134.88%",
+            "143.87%",
+            "152.86%",
+            "161.86%",
+            "171.21%",
+            "183.44%",
+            "195.67%",
+            "207.89%",
+            "220.12%"
+          ]
+        },
+        {
+          "label": "DAN da ATT caricato",
+          "values": [
+            "157.36%",
+            "169.16%",
+            "180.96%",
+            "196.7%",
+            "208.5%",
+            "220.3%",
+            "236.04%",
+            "251.78%",
+            "267.51%",
+            "283.25%",
+            "299.61%",
+            "321.01%",
+            "342.42%",
+            "363.82%",
+            "385.22%"
+          ]
+        },
+        {
+          "label": "Costo vigore ATT caricato",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata basso/alto",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10292,
+      "id": "jumpy_dumpty",
+      "name": "Coniglio Bumbum",
+      "description": "Il Coniglio Bumbum è divertente e scoppiettante! <br/>Quando viene lanciato, il Coniglio Bumbum rimbalza tre volte, infuocandosi e infliggendo <span>DAN da Pyro ad area</span> a ogni rimbalzo.<br/><br/>Al terzo rimbalzo, la bomba si divide in tante mine.<br/>Le mine esplodono al contatto con gli avversari o dopo un breve periodo di tempo, infliggendo <span>DAN da Pyro ad area</span>.<br/><br/>Inizia con 2 cariche.",
+      "info": "Il Coniglio Bumbum è un ottimo amico di Klee! Non può fare a meno di presentarlo a tutti.",
+      "attributes": [
+        {
+          "label": "DAN da Coniglio Bumbum",
+          "values": [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        },
+        {
+          "label": "DAN da mina",
+          "values": [
+            "32.8%",
+            "35.26%",
+            "37.72%",
+            "41%",
+            "43.46%",
+            "45.92%",
+            "49.2%",
+            "52.48%",
+            "55.76%",
+            "59.04%",
+            "62.32%",
+            "65.6%",
+            "69.7%",
+            "73.8%",
+            "77.9%"
+          ]
+        },
+        {
+          "label": "Durata mina",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10295,
+      "id": "sparks_n_splash",
+      "name": "Schizzi e scintille",
+      "description": "Una delizia ardente di Klee! Fintanto che l'abilità è attiva, evoca continuamente Schizzi e scintille per attaccare gli avversari vicini, infliggendo <span>DAN da Pyro ad area</span>.",
+      "info": "Tutti i cavalieri pensano che Klee debba avere una buona stella che la sorveglia, perché non si ferisce mai con le sue stesse bombe...",
+      "attributes": [
+        {
+          "label": "DAN da Schizzi e scintille",
+          "values": [
+            "42.64%",
+            "45.84%",
+            "49.04%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "63.96%",
+            "68.22%",
+            "72.49%",
+            "76.75%",
+            "81.02%",
+            "85.28%",
+            "90.61%",
+            "95.94%",
+            "101.27%"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Costo energia",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "pounding_surprise",
+      "name": "Batosta a sorpresa",
+      "description": "Quando il <span>Coniglio Bumbum</span> e gli attacchi normali infliggono DAN, Klee ha un 50% di probabilità di ottenere una Scintilla esplosiva.<br/>La Scintilla esplosiva è consumata dal successivo attacco caricato, che non ha costo di vigore e infligge un 50% di DAN in più.",
+      "level": 1
+    },
+    {
+      "id": "sparkling_burst",
+      "name": "Scoppio scintillante",
+      "description": "Quando l'attacco caricato di Klee provoca un colpo CRIT, tutti i membri del gruppo ottengono 2 di energia elementale.",
+      "level": 4
+    },
+    {
+      "id": "all_of_my_treasures",
+      "name": "Tutti i miei tesori!",
+      "description": "Mostra sulla minimappa la posizione delle <span>risorse uniche di Mondstadt</span>.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 291,
+      "id": "chained_reactions",
+      "name": "Esplosioni a catena",
+      "description": "Gli attacchi e le abilità hanno una certa probabilità di evocare scintille che bombardano gli avversari, infliggendo DAN pari a un 120% dei DAN di <span>Schizzi e scintille</span>.",
+      "level": 1
+    },
+    {
+      "_id": 292,
+      "id": "explosive_frags",
+      "name": "Schegge esplosive",
+      "description": "Quando un avversario viene colpito dalle mine di <span>Coniglio Bumbum</span>, la sua DIF si riduce di un 23% per 10 s.",
+      "level": 2
+    },
+    {
+      "_id": 293,
+      "id": "exquisite_compound",
+      "name": "Miscela speciale",
+      "description": "Aumenta di 3 il livello di <span>Coniglio Bumbum</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 3
+    },
+    {
+      "_id": 294,
+      "id": "sparkly_explosion",
+      "name": "Esplosione scintillante",
+      "description": "Se Klee lascia il campo di battaglia mentre <span>Schizzi e scintille</span> è attiva, verrà innescata un'esplosione che infligge <span>DAN da Pyro ad area</span> pari a un 555% del suo ATT.",
+      "level": 4
+    },
+    {
+      "_id": 295,
+      "id": "nova_burst",
+      "name": "Esplosione stellare",
+      "description": "Aumenta di 3 il livello di <span>Schizzi e scintille</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 5
+    },
+    {
+      "_id": 296,
+      "id": "blazing_delight",
+      "name": "Delizia ardente",
+      "description": "Mentre è sotto l'effetto di <span>Schizzi e scintille</span>, Klee ripristinerà 3 di energia a tutti i membri del gruppo (esclusa Klee) ogni 3 s.<br/>Quando <span>Schizzi e scintille</span> viene usata, tutti i membri del gruppo otterranno un <span>bonus DAN da Pyro</span> di un 10% per 25 s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [0, 1]
+        },
+        {
+          "label": "PS di base",
+          "values": ["-", "801"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["-", "24"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["-", "48"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["-", "0%"]
+        }
+      ]
+    },
+    {
+      "level": [20, 40],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [1, 2]
+        },
+        {
+          "label": "PS di base",
+          "values": ["2077", "2764"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["63", "84"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["124", "165"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["0%", "0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104111,
+        "id": "agnidus_agate_sliver",
+        "name": "Scheggia d'agata Agnidus",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamena divinatoria",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [40, 50],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [2, 3]
+        },
+        {
+          "label": "PS di base",
+          "values": ["4136", "4623"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["125", "140"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["247", "276"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["0%", "7.2%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Frammento d'agata Agnidus",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Seme del fuoco eterno",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamena divinatoria",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [50, 60],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [3, 4]
+        },
+        {
+          "label": "PS di base",
+          "values": ["5319", "5970"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["161", "180"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["318", "357"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["7.2%", "14.4%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104112,
+        "id": "agnidus_agate_fragment",
+        "name": "Frammento d'agata Agnidus",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Seme del fuoco eterno",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamena sigillata",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [60, 70],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [4, 5]
+        },
+        {
+          "label": "PS di base",
+          "values": ["6673", "7161"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["202", "216 "]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["399", "428"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["14.4%", "14.4%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Pezzo d'agata Agnidus",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Seme del fuoco eterno",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamena sigillata",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [70, 80],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [5, 6]
+        },
+        {
+          "label": "PS di base",
+          "values": ["7870", "8358"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["238", "253"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["470", "500"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["14.4%", "21.6%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104113,
+        "id": "agnidus_agate_chunk",
+        "name": "Pezzo d'agata Agnidus",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Seme del fuoco eterno",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamena maledetta",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [80, 90],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [6, 7]
+        },
+        {
+          "label": "PS di base",
+          "values": ["9076", "9563"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["274", "289"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["542", "572"]
+        },
+        {
+          "label": "Bonus DAN da Pyro",
+          "values": ["21.6%", "28.8%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104114,
+        "id": "agnidus_agate_gemstone",
+        "name": "Gemma d'agata Agnidus",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113011,
+        "id": "everflame_seed",
+        "name": "Seme del fuoco eterno",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 100025,
+        "id": "philanemo_mushroom",
+        "name": "Fungo anemofilo",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamena maledetta",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104301,
+          "id": "teachings_of_freedom",
+          "name": "Insegnamenti della libertà",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Pergamena divinatoria",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guida alla libertà",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guida alla libertà",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guida alla libertà",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104302,
+          "id": "guide_to_freedom",
+          "name": "Guida alla libertà",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Filosofie della libertà",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Anello di Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Filosofie della libertà",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Anello di Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Filosofie della libertà",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Anello di Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104303,
+          "id": "philosophies_of_freedom",
+          "name": "Filosofie della libertà",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113007,
+          "id": "ring_of_boreas",
+          "name": "Anello di Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Corona della saggezza",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

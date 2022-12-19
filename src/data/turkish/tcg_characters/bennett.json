@@ -1,0 +1,85 @@
+{
+  "_id": 1303,
+  "id": "bennett",
+  "name": "Bennett",
+  "title": "\"Ateşle İmtihan\" Bennett",
+  "desc": "Kesinlikle kaybedeceğini bildiğinde kesinlikle kazanacağın yolu öğrenirsin.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Kılıç",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3229,
+      "id": "grand_expectation",
+      "name": "Grand Expectation"
+    },
+    "source": [
+      "Bennett'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000032,
+      "id": "bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "strike_of_fortune",
+      "name": "Şanslı Vuruş",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "passion_overload",
+      "name": "Tutku Patlaması",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fantastic_voyage",
+      "name": "Unutulmaz Serüven",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">İlham Alanı</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

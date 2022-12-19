@@ -1,0 +1,83 @@
+{
+  "_id": 1103,
+  "id": "kaeya",
+  "name": "Kaeya",
+  "title": "\"Buzdaki Kılıç Ustası\" Kaeya",
+  "desc": "Başkalarındaki şövalyelik erdemlerini ortaya çıkarmada uzmanlaşmıştır.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Kılıç",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3210,
+      "id": "coldblooded_strike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": ["Başlangıç destesinden elde edilir."],
+    "character": {
+      "_id": 10000015,
+      "id": "kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ceremonial_bladework",
+      "name": "Merasim Kılıcı Tekniği",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostgnaw",
+      "name": "Buzul Isırığı",
+      "desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_waltz",
+      "name": "Buzul Valsi",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Sarkıt</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

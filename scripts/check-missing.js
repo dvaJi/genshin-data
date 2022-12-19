@@ -1,5 +1,4 @@
-const gdata = require('../dist/genshin-data');
-const GenshinData = gdata.default;
+import GenshinData, { languages } from '../dist/index.js';
 
 const METHODS = [
   'achievements',
@@ -16,7 +15,7 @@ const METHODS = [
   'localMaterials',
   'potions',
   'talentLvlUpMaterials',
-  'tcgAction',
+  'tcgActions',
   'tcgCharacters',
   'tcgCards',
   'weaponPrimaryMaterials',
@@ -24,7 +23,7 @@ const METHODS = [
   'domains',
 ];
 
-const data = gdata.languages.reduce((obj, key) => {
+const data = languages.reduce((obj, key) => {
   obj[key] = new GenshinData({ language: key });
   return obj;
 }, {});

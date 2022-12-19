@@ -1,0 +1,92 @@
+{
+  "_id": 1404,
+  "id": "cyno",
+  "name": "Cyno",
+  "title": "Cyno, Giustiziere dei segreti",
+  "desc": "La carta contiene tutta la passione del generale Mahamatra, ardente come il sole sopra il deserto.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Alabarda",
+    "faction": ["Sumeru"],
+    "talent_card": {
+      "_id": 3224,
+      "id": "featherfall_judgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Cyno a duello alla Coda di Gatto e battendolo in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000071,
+      "id": "cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "invokers_spear",
+      "name": "Lancia dell'evocatore",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_chasmic_soulfarer",
+      "name": "Rito arcano: Guida delle anime del baratro",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wolfs_swiftness",
+      "name": "Rito sacro: Destrezza del lupo",
+      "desc": "Infligge 4 <span style=\"color:#FFACFFFF\">DAN da Electro</span>,<br/>Aumenta di 2 il livello di Possessione di <span style=\"color:#FFFFFFFF\">Precorritore giurato</span>",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lawful_enforcer",
+      "name": "Tutore della legge",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Precorritore giurato</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

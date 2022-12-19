@@ -1,0 +1,80 @@
+{
+  "_id": 1102,
+  "id": "diona",
+  "name": "Diona",
+  "title": "Diona, Barista Kätzlein",
+  "desc": "L'1% di energia dedicata a miscelare i drink e il 99% per... evitare ogni possibilità di fallimento.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Ricompensa ottenuta sfidando Diona a duello alla Coda di Gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000039,
+      "id": "diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ktzlein_style",
+      "name": "Stile Kätzlein",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icy_paws",
+      "name": "Zampe glaciali",
+      "desc": "Infligge 2 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, crea uno <span style=\"color:#FFFFFFFF\">Scudo felino</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "signature_mix",
+      "name": "Miscela d'autore",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, cura questo personaggio di 2 punti, invoca <span style=\"color:#FFFFFFFF\">Foschia ubriaca</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

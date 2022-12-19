@@ -1,0 +1,92 @@
+{
+  "_id": 1203,
+  "id": "mona",
+  "name": "Mona",
+  "title": "Mona, Riflesso astrale",
+  "desc": "Vittoria o sconfitta? È tutto scritto nelle stelle.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalizzatore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3206,
+      "id": "prophecy_of_submersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Mona a duello alla Coda di Gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000041,
+      "id": "mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ripple_of_fate",
+      "name": "Increspatura del fato",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mirror_reflection_of_doom",
+      "name": "Condanna riflessa",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, invoca un <span style=\"color:#FFFFFFFF\">Riflesso</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stellaris_phantasm",
+      "name": "Fantasma stellaris",
+      "desc": "Infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro</span> e crea una <span style=\"color:#FFFFFFFF\">Bolla illusoria</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "illusory_torrent",
+      "name": "Torrente illusorio",
+      "desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Quando usi Cambia personaggio mentre Mona è il tuo personaggio attivo</span>, questo cambio è considerato come <span style=\"color:#FFFFFFFF\">Azione rapida</span> invece che <span style=\"color:#FFFFFFFF\">Azione di combattimento</span> (una volta per turno).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

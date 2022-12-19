@@ -1,0 +1,85 @@
+{
+  "_id": 1202,
+  "id": "xingqiu",
+  "name": "Xingqiu",
+  "title": "\"Gençliğin Baharı\" Xingqiu",
+  "desc": "\"Bana mı öyle geliyor yoksa bugünlerde romanların kahramanları hep bir özel okulun öğrencisi mi oluyor...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Kılıç",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3207,
+      "id": "the_scent_remained",
+      "name": "The Scent Remained"
+    },
+    "source": [
+      "Xingqiu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000025,
+      "id": "xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "guhua_style",
+      "name": "Guhua Tarzı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fatal_rainscreen",
+      "name": "Ölümcül Yağmur",
+      "desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karaktere <span style=\"color:#80C0FFFF\">Su Etkisi</span> kazandırarak 1 <span style=\"color:#FFFFFFFF\">Yağmur Kılıcı</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "raincutter",
+      "name": "Yağmurkesici",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karaktere <span style=\"color:#80C0FFFF\">Su Etkisi</span> kazandırarak 1 <span style=\"color:#FFFFFFFF\">Gökkuşağı Kılıcı Tekniği</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

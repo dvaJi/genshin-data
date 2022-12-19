@@ -1,0 +1,997 @@
+{
+  "_id": 10000074,
+  "id": "layla",
+  "name": "Layla",
+  "title": "Stella fantastica della sera",
+  "description": "Una studentessa della Rtawahist specializzata in astrologia teorica. Molto predisposta al sonnambulismo e bloccata in una logorante battaglia contro la mancanza di sonno. Il suo più grande problema è riuscire a farsi una bella dormita riposante.",
+  "weapon_type": "Spada",
+  "element": "Cryo",
+  "gender": "Femmina",
+  "substat": "PS%",
+  "affiliation": "Rtawahist",
+  "region": "Sumeru",
+  "rarity": 4,
+  "birthday": [19, 12],
+  "constellation": "Luscinia",
+  "domain": "Campanile dell'Insipienza",
+  "cv": {
+    "english": "Ashely Biski",
+    "chinese": "侯小菲",
+    "japanese": "富田美憂",
+    "korean": "Kang Sae-bom"
+  },
+  "skills": [
+    {
+      "_id": 10741,
+      "id": "normal_attack_sword_of_the_radiant_path",
+      "name": "Attacco normale: Spada del Sentiero radioso",
+      "description": "<span>Attacco normale</span><br/>Sferra fino a 3 colpi rapidi.<br/><br/><span>Attacco caricato</span><br/>Consuma una determinata quantità di vigore per sferrare 2 colpi di spada rapidi.<br/><br/><span>Attacco in picchiata</span><br/>Attacca scagliandosi al suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DAN da 1º colpo",
+          "values": [
+            "51.22%",
+            "55.39%",
+            "59.56%",
+            "65.51%",
+            "69.68%",
+            "74.44%",
+            "80.99%",
+            "87.55%",
+            "94.1%",
+            "101.24%",
+            "108.39%",
+            "115.54%",
+            "122.68%",
+            "129.83%",
+            "136.98%"
+          ]
+        },
+        {
+          "label": "DAN da 2º colpo",
+          "values": [
+            "48.48%",
+            "52.43%",
+            "56.38%",
+            "62.01%",
+            "65.96%",
+            "70.47%",
+            "76.67%",
+            "82.87%",
+            "89.07%",
+            "95.84%",
+            "102.6%",
+            "109.37%",
+            "116.13%",
+            "122.9%",
+            "129.66%"
+          ]
+        },
+        {
+          "label": "DAN da 3º colpo",
+          "values": [
+            "72.97%",
+            "78.91%",
+            "84.85%",
+            "93.34%",
+            "99.28%",
+            "106.07%",
+            "115.4%",
+            "124.73%",
+            "134.07%",
+            "144.25%",
+            "154.43%",
+            "164.61%",
+            "174.8%",
+            "184.98%",
+            "195.16%"
+          ]
+        },
+        {
+          "label": "DAN da attacco caricato",
+          "values": [
+            "47.73% + 52.55%",
+            "51.61% + 56.82%",
+            "55.5% + 61.1%",
+            "61.05% + 67.21%",
+            "64.93% + 71.49%",
+            "69.38% + 76.38%",
+            "75.48% + 83.1%",
+            "81.59% + 89.82%",
+            "87.69% + 96.54%",
+            "94.35% + 103.87%",
+            "101.01% + 111.2%",
+            "107.67% + 118.53%",
+            "114.33% + 125.87%",
+            "120.99% + 133.2%",
+            "127.65% + 140.53%"
+          ]
+        },
+        {
+          "label": "Costo vigore attacco caricato",
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata basso/alto",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10742,
+      "id": "nights_of_formal_focus",
+      "name": "Concentrazione solenne",
+      "description": "Crea uno scudo noto come Cortina onirica che infligge <span>DAN da Cryo ad area</span>.<br/>L'assorbimento DAN della Cortina onirica si basa sui PS max di Layla, e assorbe i <span>DAN da Cryo</span> con un 250% di efficacia. Quando lo scudo è attivato, a Layla sarà applicato <span>Cryo</span> per un breve periodo.<br/><br/><span>Stelle notturne e cadenti</span><br/>Mentre è attiva, la Cortina onirica creerà 1 Stella notturna ogni 1,5 s. Quando un personaggio protetto da questo scudo userà un'abilità elementale, saranno generate 2 Stelle notturne. Le Stelle notturne si possono generare una volta ogni 0,3 s. È possibile accumulare fino a 4 Stelle notturne ogni volta.<br/>In presenza di avversari vicini, quando la Cortina onirica avrà accumulato 4 Stelle notturne, queste si trasformeranno in Stelle cadenti, che saranno scagliate in sequenza infliggendo <span>DAN da Cryo</span> a tutti gli avversari colpiti.<br/>Se la Cortina onirica terminerà o verrà distrutta, le Stelle notturne scompariranno. Se saranno in procinto di trasformarsi in Stelle cadenti, queste ultime dureranno fino al termine dell'ondata dei colpi.<br/><br/>Non saranno generate nuove Stelle notturne fin quando l'ondata successiva di Stelle cadenti non terminerà.",
+      "info": "\"Io e lei siamo come due maestri artigiani che non si conoscono, ma che siedono sul medesimo cuscino mentre ricamano un unico fiore dei sogni.\"",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "12.8%",
+            "13.76%",
+            "14.72%",
+            "16%",
+            "16.96%",
+            "17.92%",
+            "19.2%",
+            "20.48%",
+            "21.76%",
+            "23.04%",
+            "24.32%",
+            "25.6%",
+            "27.2%",
+            "28.8%",
+            "30.4%"
+          ]
+        },
+        {
+          "label": "DAN da Stella cadente",
+          "values": [
+            "14.72%",
+            "15.82%",
+            "16.93%",
+            "18.4%",
+            "19.5%",
+            "20.61%",
+            "22.08%",
+            "23.55%",
+            "25.02%",
+            "26.5%",
+            "27.97%",
+            "29.44%",
+            "31.28%",
+            "33.12%",
+            "34.96%"
+          ]
+        },
+        {
+          "label": "Assorbimento DAN base scudo",
+          "values": [
+            "10.8% PS max + 1040",
+            "11.61% PS max + 1144",
+            "12.42% PS max + 1257",
+            "13.5% PS max + 1378",
+            "14.31% PS max + 1508",
+            "15.12% PS max + 1647",
+            "16.2% PS max + 1794",
+            "17.28% PS max + 1950",
+            "18.36% PS max + 2115",
+            "19.44% PS max + 2288",
+            "20.52% PS max + 2470",
+            "21.6% PS max + 2661",
+            "22.95% PS max + 2860",
+            "24.3% PS max + 3068",
+            "25.65% PS max + 3285"
+          ]
+        },
+        {
+          "label": "Durata scudo",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10745,
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Culla dei sogni stellati",
+      "description": "Attiva un'Onirisfera celestiale che scaglia continuamente Proiettili stellari contro gli avversari nell'area d'effetto, infliggendo <span>DAN da Cryo</span>.<br/>Quando un Proiettile stellare fa centro, genera 1 Stella notturna per le Cortine oniriche vicine. In questo modo, ciascuna Cortina onirica può acquisire 1 Stella notturna ogni 0,5 s.",
+      "info": "\"Ora dormi... Che molti destini possano esserti rivelati all'interno dei tuoi sogni stellati.\"",
+      "attributes": [
+        {
+          "label": "DAN da Proiettile stellare",
+          "values": [
+            "4.65% PS max",
+            "5% PS max",
+            "5.35% PS max",
+            "5.81% PS max",
+            "6.16% PS max",
+            "6.51% PS max",
+            "6.97% PS max",
+            "7.44% PS max",
+            "7.9% PS max",
+            "8.37% PS max",
+            "8.83% PS max",
+            "9.3% PS max",
+            "9.88% PS max",
+            "10.46% PS max",
+            "11.04% PS max"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "Costo energia",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "like_nascent_light",
+      "name": "Luce nascente",
+      "description": "Mentre la <span>Cortina onirica</span> è attiva, l'effetto Sonno profondo viene innescato ogni volta che la Cortina onirica acquisisce 1 Stella notturna:<br/>· l'efficacia dello scudo di un personaggio sotto l'effetto della Cortina onirica aumenta di un 6%;<br/>· l'effetto è cumulabile fino a 4 volte e perdura finché la Cortina onirica non svanisce.",
+      "level": 1
+    },
+    {
+      "id": "sweet_slumber_undisturbed",
+      "name": "Sonno sereno",
+      "description": "I DAN inflitti dalle Stelle cadenti di <span>Concentrazione solenne</span> aumentano di un 1,5% dei PS max di Layla.",
+      "level": 4
+    },
+    {
+      "id": "shadowy_dreamsigns",
+      "name": "Segni onirici oscuri",
+      "description": "Quando Layla crea materiali per i talenti dei personaggi, ha un 10% di probabilità di ricevere il doppio del prodotto.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 741,
+      "id": "fortress_of_fantasy",
+      "name": "Fortezza fantastica",
+      "description": "L'Assorbimento dello scudo della Cortina onirica generata da <span>Concentrazione solenne</span> aumenta di un 20%.<br/>Inoltre, quando si attiva Concentrazione solenne, sarà generato uno scudo per ogni membro del gruppo vicino non protetto da una Cortina onirica. Questo scudo assorbirà un 35% della Cortina onirica per 12 s, oltre ai <span>DAN da Cryo</span> con un 250% di efficacia.",
+      "level": 1
+    },
+    {
+      "_id": 742,
+      "id": "lights_remit",
+      "name": "Mandato della luce",
+      "description": "Quando le Stelle cadenti di <span>Concentrazione solenne</span> colpiscono gli avversari, ripristinano ciascuna 1 punto di energia di Layla. Ogni Stella cadente può ripristinare l'energia di Layla in questo modo una sola volta.",
+      "level": 2
+    },
+    {
+      "_id": 743,
+      "id": "secrets_of_the_night",
+      "name": "Segreti della notte",
+      "description": "Aumenta di 3 il livello di <span>Concentrazione solenne</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 3
+    },
+    {
+      "_id": 744,
+      "id": "starry_illumination",
+      "name": "Illuminazione stellare",
+      "description": "Quando <span>Concentrazione solenne</span> comincia a scagliare Stelle cadenti, concede ai membri del gruppo vicini l'effetto Stella del mattino, incrementando i loro DAN da attacco normale e caricato in base a un 5% dei PS max di Layla.<br/>Stella del mattino può durare fino a 3 s e sarà rimosso 0,05 s dopo aver inflitto DAN da attacco normale o caricato.",
+      "level": 4
+    },
+    {
+      "_id": 745,
+      "id": "stream_of_consciousness",
+      "name": "Flusso di coscienza",
+      "description": "Aumenta di 3 il livello di <span>Culla dei sogni stellati</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 5
+    },
+    {
+      "_id": 746,
+      "id": "radiant_soulfire",
+      "name": "Animardente radiosa",
+      "description": "Le Stelle cadenti di <span>Concentrazione solenne</span> e i Proiettili stellari di <span>Culla dei sogni stellati</span> infliggono un 40% di DAN in più.<br/>L'intervallo di creazione delle Stelle notturne tramite Concentrazione solenne si riduce di un 20%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [0, 1]
+        },
+        {
+          "label": "PS di base",
+          "values": ["-", "930"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["-", "18"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["-", "55"]
+        },
+        {
+          "label": "PS",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [20, 40],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [1, 2]
+        },
+        {
+          "label": "PS di base",
+          "values": ["2389", "3084"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["47", "60"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["141", "182"]
+        },
+        {
+          "label": "PS",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104161,
+        "id": "shivada_jade_sliver",
+        "name": "Scheggia di giada Shivada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamena divinatoria",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [40, 50],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [2, 3]
+        },
+        {
+          "label": "PS di base",
+          "values": ["4619", "5113"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["90", "100"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["273", "302"]
+        },
+        {
+          "label": "PS",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Frammento di giada Shivada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112008,
+        "id": "divining_scroll",
+        "name": "Pergamena divinatoria",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [50, 60],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [3, 4]
+        },
+        {
+          "label": "PS di base",
+          "values": ["5881", "6540"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["115", "128"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["347", "386"]
+        },
+        {
+          "label": "PS",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104162,
+        "id": "shivada_jade_fragment",
+        "name": "Frammento di giada Shivada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamena sigillata",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [60, 70],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [4, 5]
+        },
+        {
+          "label": "PS di base",
+          "values": ["7308", "7801"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["143", "153"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["432", "461"]
+        },
+        {
+          "label": "PS",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Pezzo di giada Shivada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112009,
+        "id": "sealed_scroll",
+        "name": "Pergamena sigillata",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [70, 80],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [5, 6]
+        },
+        {
+          "label": "PS di base",
+          "values": ["8569", "9062"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["168", "177"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["506", "535"]
+        },
+        {
+          "label": "PS",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104163,
+        "id": "shivada_jade_chunk",
+        "name": "Pezzo di giada Shivada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamena maledetta",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [80, 90],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [6, 7]
+        },
+        {
+          "label": "PS di base",
+          "values": ["9831", "10324"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["192", "202"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["581", "610"]
+        },
+        {
+          "label": "PS",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104164,
+        "id": "shivada_jade_gemstone",
+        "name": "Gemma di giada Shivada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101215,
+        "id": "nilotpala_lotus",
+        "name": "Loto Nilotpala",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112010,
+        "id": "forbidden_curse_scroll",
+        "name": "Pergamena maledetta",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104332,
+          "id": "teachings_of_ingenuity",
+          "name": "Insegnamenti dell'ingegno",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112008,
+          "id": "divining_scroll",
+          "name": "Pergamena divinatoria",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guida all'ingegno",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guida all'ingegno",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guida all'ingegno",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104333,
+          "id": "guide_to_ingenuity",
+          "name": "Guida all'ingegno",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112009,
+          "id": "sealed_scroll",
+          "name": "Pergamena sigillata",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofie dell'ingegno",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Specchio di Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofie dell'ingegno",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Specchio di Mushin",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofie dell'ingegno",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Specchio di Mushin",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104334,
+          "id": "philosophies_of_ingenuity",
+          "name": "Filosofie dell'ingegno",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112010,
+          "id": "forbidden_curse_scroll",
+          "name": "Pergamena maledetta",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113042,
+          "id": "mirror_of_mushin",
+          "name": "Specchio di Mushin",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Corona della saggezza",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

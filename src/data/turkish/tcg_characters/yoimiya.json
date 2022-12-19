@@ -1,0 +1,85 @@
+{
+  "_id": 1305,
+  "id": "yoimiya",
+  "name": "Yoimiya",
+  "title": "\"Neşeli Alevler\" Yoimiya",
+  "desc": "11. Hanamizaka Caddesi Daveti için Naganohara Takımı Kaptanı ve Öncüsü.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Yay",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3228,
+      "id": "naganohara_meteor_swarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": [
+      "Yoimiya'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostane Düelloyu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000049,
+      "id": "yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "firework_flareup",
+      "name": "Havai Fişek Patlaması",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "niwabi_firedance",
+      "name": "Niwabi Ateş Dansı",
+      "desc": "Bu karaktere <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span> eklenir. (Bu beceri Enerji Yükü oluşturmaz.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "ryuukin_saxifrage",
+      "name": "Taşkıran Ryuukin",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Altın Alev</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

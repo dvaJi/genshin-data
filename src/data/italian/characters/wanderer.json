@@ -1,0 +1,977 @@
+{
+  "_id": 10000075,
+  "id": "wanderer",
+  "name": "Vagabondo",
+  "title": "Eternamente perduto",
+  "description": "Un viandante dall'identità misteriosa. Nonostante sia vestito come una sorta di asceta di montagna, il suo atteggiamento è di quanto più distante ci sia da una tale definizione.",
+  "weapon_type": "Catalizzatore",
+  "element": "Anemo",
+  "gender": "Maschio",
+  "substat": "Tasso di CRIT",
+  "affiliation": "Nessuna",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": [3, 1],
+  "constellation": "Peregrinus",
+  "domain": "Campanile dell'Insipienza",
+  "cv": {
+    "english": "Patrick Pedraza",
+    "chinese": "鹿喑",
+    "japanese": "柿原徹也",
+    "korean": "Min Seung-woo"
+  },
+  "skills": [
+    {
+      "_id": 10751,
+      "id": "normal_attack_yuuban_meigen",
+      "name": "Attacco normale: Yuuban Meigen",
+      "description": "<span>Attacco normale</span><br/>Sferra fino a 3 attacchi usando una lama di vento, infliggendo <span>DAN da Anemo</span>.<br/><br/><span>Attacco caricato</span><br/>Consuma una determinata quantità di vigore, convogliando vento ad alta pressione per infliggere <span>DAN da Anemo ad area</span> dopo un breve periodo di lancio.<br/><br/><span>Attacco in picchiata</span><br/>Evocando il potere di Anemo, il Vagabondo si scaglia contro il suolo da mezz'aria, danneggiando tutti gli avversari lungo la sua traiettoria. Infligge <span>DAN da Anemo ad area</span> all'impatto col suolo.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DAN da 1º colpo",
+          "values": [
+            "68.71%",
+            "74.31%",
+            "79.9%",
+            "87.89%",
+            "93.48%",
+            "99.87%",
+            "108.66%",
+            "117.45%",
+            "126.24%",
+            "135.83%",
+            "145.42%",
+            "155.01%",
+            "164.59%",
+            "174.18%",
+            "183.77%"
+          ]
+        },
+        {
+          "label": "DAN da 2º colpo",
+          "values": [
+            "65.02%",
+            "70.31%",
+            "75.6%",
+            "83.16%",
+            "88.45%",
+            "94.5%",
+            "102.82%",
+            "111.13%",
+            "119.45%",
+            "128.52%",
+            "137.59%",
+            "146.66%",
+            "155.74%",
+            "164.81%",
+            "173.88%"
+          ]
+        },
+        {
+          "label": "DAN da 3º colpo",
+          "values": [
+            "47.64% + 47.64%",
+            "51.52% + 51.52%",
+            "55.4% + 55.4%",
+            "60.94% + 60.94%",
+            "64.82% + 64.82%",
+            "69.25% + 69.25%",
+            "75.34% + 75.34%",
+            "81.44% + 81.44%",
+            "87.53% + 87.53%",
+            "94.18% + 94.18%",
+            "100.83% + 100.83%",
+            "107.48% + 107.48%",
+            "114.12% + 114.12%",
+            "120.77% + 120.77%",
+            "127.42% + 127.42%"
+          ]
+        },
+        {
+          "label": "DAN da attacco caricato",
+          "values": [
+            "132.08%",
+            "141.99%",
+            "151.89%",
+            "165.1%",
+            "175.01%",
+            "184.91%",
+            "198.12%",
+            "211.33%",
+            "224.54%",
+            "237.74%",
+            "250.95%",
+            "264.16%",
+            "280.67%",
+            "297.18%",
+            "313.69%"
+          ]
+        },
+        {
+          "label": "Costo vigore ATT caricato",
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata basso/alto",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10752,
+      "id": "hanega_song_of_the_wind",
+      "name": "Hanega: Canzone del vento",
+      "description": "Convoglia il potere dei venti per spezzare le catene terrene, infliggendo <span>DAN da Anemo ad area</span> e balzando in aria per acquisire lo stato di Vento prospero.<br/><br/><span>Vento prospero</span><br/>In questo stato, il Vagabondo non può eseguire attacchi in picchiata. Quando usa gli attacchi normali e caricati, questi vengono convertiti rispettivamente in Kuugo: Fushoudan e Kuugo: Toufukai, ricevendo un incremento dei DAN inflitti e dell'area d'effetto, e i loro DAN vengono considerati rispettivamente DAN da attacco normale e caricato. Kuugo: Toufukai non consuma vigore.<br/>Quando è in questo stato, il Vagabondo può librarsi costantemente in aria, e i suoi movimenti acquistano le seguenti proprietà.<br/>· Consuma una quantità costante di punti Kuugoryoku, che gli permette di continuare a librarsi in aria.<br/>· Quando esegue uno Scatto, consuma una maggiore quantità di punti Kuugoryoku per accelerare a mezz'aria. La pressione prolungata del tasto dello Scatto causa un consumo continuo di punti Kuugoryoku, che gli consente di mantenere la velocità. Questo effetto sostituisce lo Scatto normale.<br/>· Il salto usa una quantità extra di punti Kuugoryoku per incrementare l'altezza di volo. Tenere premuto il tasto del salto causa un consumo di punti Kuugoryoku costante.<br/><br/>L'esaurimento di punti Kuugoryoku rimuove lo stato di Vento prospero.<br/>Eseguire nuovamente l'abilità mentre Vento prospero è attivo ne annulla gli effetti.",
+      "info": "\"Il mondo danza in una spirale impalpabile, palesando un segreto che solo i fiori sono in grado di mostrare.\"",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "95.2%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.8%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.4%",
+            "202.3%",
+            "214.2%",
+            "226.1%"
+          ]
+        },
+        {
+          "label": "DAN da Kuugo: Fushoudan",
+          "values": [
+            "132.98% DAN da ATT normale",
+            "134.96% DAN da ATT normale",
+            "136.93% DAN da ATT normale",
+            "139.5% DAN da ATT normale",
+            "141.47% DAN da ATT normale",
+            "143.45% DAN da ATT normale",
+            "146.02% DAN da ATT normale",
+            "148.58% DAN da ATT normale",
+            "151.15% DAN da ATT normale",
+            "153.72% DAN da ATT normale",
+            "156.29% DAN da ATT normale",
+            "158.85% DAN da ATT normale",
+            "161.42% DAN da ATT normale",
+            "163.99% DAN da ATT normale",
+            "166.56% DAN da ATT normale"
+          ]
+        },
+        {
+          "label": "DAN da Kuugo: Toufukai",
+          "values": [
+            "126.39% DAN da ATT caricato",
+            "127.97% DAN da ATT caricato",
+            "129.55% DAN da ATT caricato",
+            "131.6% DAN da ATT caricato",
+            "133.18% DAN da ATT caricato",
+            "134.76% DAN da ATT caricato",
+            "136.81% DAN da ATT caricato",
+            "138.87% DAN da ATT caricato",
+            "140.92% DAN da ATT caricato",
+            "142.98% DAN da ATT caricato",
+            "145.03% DAN da ATT caricato",
+            "147.08% DAN da ATT caricato",
+            "149.14% DAN da ATT caricato",
+            "151.19% DAN da ATT caricato",
+            "153.25% DAN da ATT caricato"
+          ]
+        },
+        {
+          "label": "Punti Kuugoryoku iniziali",
+          "values": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 10755,
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Goban Date cerimoniale",
+      "description": "Comprime l'atmosfera in un unico spazio vuoto, mandando ogni pena in frantumi e infliggendo più volte <span>DAN da Anemo ad area</span>.<br/>Se il personaggio ha attivato lo stato di Vento prospero fornito da Hanega: Canzone del vento, Vento prospero termina dopo l'esecuzione dell'abilità.",
+      "info": "\"Luminoso è il limitato sguardo del cielo, che posa i suoi occhi su sogni passati e presenti, come un bagliore che spazza via la polvere nel vento.\"",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "147.2%×5",
+            "158.24%×5",
+            "169.28%×5",
+            "184%×5",
+            "195.04%×5",
+            "206.08%×5",
+            "220.8%×5",
+            "235.52%×5",
+            "250.24%×5",
+            "264.96%×5",
+            "279.68%×5",
+            "294.4%×5",
+            "312.8%×5",
+            "331.2%×5",
+            "349.6%×5"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Costo energia",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "jadeclaimed_flower",
+      "name": "Fiore della giada",
+      "description": "Se <span>Hanega: Canzone del vento</span> entra in contatto con <span>Hydro</span>/<span>Pyro</span>/<span>Cryo</span>/<span>Electro</span> quando impiegato, l'effetto Vento prospero ottiene effetti positivi a seconda dell'elemento.<br/>· <span>Hydro</span>: il limite di punti di Kuugoryoku aumenta di 20.<br/>· <span>Pyro</span>: l'ATT aumenta di un 30%.<br/>· <span>Cryo</span>: il tasso di CRIT aumenta di un 20%.<br/>· <span>Electro</span>: quando gli attacchi normali e caricati colpiscono gli avversari, il personaggio ottiene 0,8 di energia. È possibile ottenere energia in questo modo ogni 0,2 s.<br/><br/>Puoi beneficiare di max 2 di questi effetti positivi contemporaneamente.",
+      "level": 1
+    },
+    {
+      "id": "gales_of_reverie",
+      "name": "Fantasticheria burrascosa",
+      "description": "Quando il Vagabondo colpisce gli avversari con Kuugo: Fushoudan o Kuugo: Toufukai nel suo stato di <span>Vento prospero</span> ha un 16% di probabilità di ottenere l'effetto Discesa: la volta successiva che il Vagabondo accelera a mezz'aria mentre è in stato di Vento prospero, questo effetto viene rimosso. L'accelerazione non consuma alcun punto di Kuugoryoku, e il personaggio scocca 4 frecce di vento che infliggono <span>DAN da Anemo</span> pari a un 35% del suo ATT ciascuna.<br/>Per ogni Kuugo: Fushoudan e Kuugo: Toufukai che non produce quest'effetto, l'attacco successivo di uno dei due tipi ha un 12% di probabilità in più di produrlo. Il calcolo della produzione dell'effetto viene effettuato ogni 0,1 s.",
+      "level": 4
+    },
+    {
+      "id": "strum_the_swirling_winds",
+      "name": "Corde dei venti vorticosi",
+      "description": "Il costo in Mora per l'ascensione di catalizzatori e archi si riduce di un 50%.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 751,
+      "id": "shoban_ostentatious_plumage",
+      "name": "Shoban: Piume sfarzose",
+      "description": "Quando lo stato <span>Vento prospero</span> è attivo, la VEL d'ATT di Kuugo: Fushoudan e Kuugo: Toufukai del Vagabondo aumenta di un 10%.<br/>Inoltre, le frecce di vento scoccate dal talento passivo Fantasticheria burrascosa infliggono DAN pari a un ulteriore 25% del suo ATT. Devi prima sbloccare il talento passivo Fantasticheria burrascosa.",
+      "level": 1
+    },
+    {
+      "_id": 752,
+      "id": "niban_isle_amidst_white_waves",
+      "name": "Niban: Isola tra le bianche onde",
+      "description": "Quando lo stato <span>Vento prospero</span> è attivo, i DAN da <span>Kyougen: Goban Date cerimoniale</span> aumentano di un 4% per ogni punto di differenza tra la quantità massima di punti di Kuugoryoku e la sua attuale capacità durante il suo uso.<br/>In questo modo, è possibile incrementare i DAN di Kyougen: Goban Date cerimoniale fino a un 200% massimo.",
+      "level": 2
+    },
+    {
+      "_id": 753,
+      "id": "sanban_moonflower_kusemai",
+      "name": "Sanban: Kusemai dei Fiordiluna",
+      "description": "Aumenta di 3 il livello di <span>Kyougen: Goban Date cerimoniale</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 3
+    },
+    {
+      "_id": 754,
+      "id": "yonban_set_adrift_into_spring",
+      "name": "Yonban: Deriva primaverile",
+      "description": "Quando usi <span>Hanega: Canzone del vento</span>, se si attiva il talento passivo Fiore della giada, il personaggio ottiene degli effetti positivi in relazione ai tipi elementali con cui entra in contatto, oltre a un effetto positivo casuale inattivo. Non possono esistere più di 3 di questi effetti positivi elementali contemporaneamente.<br/>Devi prima sbloccare il talento passivo Fiore della giada.",
+      "level": 4
+    },
+    {
+      "_id": 755,
+      "id": "matsuban_ancient_illuminator_from_abroad",
+      "name": "Matsuban: Rivelazione remota",
+      "description": "Aumenta di 3 il livello di <span>Hanega: Canzone del vento</span>.<br/>Il livello di potenziamento massimo è 15.",
+      "level": 5
+    },
+    {
+      "_id": 756,
+      "id": "shugen_the_curtains_melancholic_sway",
+      "name": "Shugen: Ondeggio malinconico",
+      "description": "Quando il Vagabondo si trova nello stato di <span>Vento prospero</span> e colpisce attivamente un avversario con Kuugo: Fushoudan, si verificano gli effetti descritti di seguito.<br/>· Lancia un ulteriore Kuugo: Fushoudan nella posizione colpita, che infligge un 40% dei DAN originali. Questi DAN vengono considerati come DAN da attacco normale.<br/>· Quando i punti di Kuugoryoku del Vagabondo sono inferiori a 40, ne ripristina 4. I punti di Kuugoryoku possono essere ripristinati in questo modo una volta ogni 0,2 s e per un massimo di 5 volte per tutta la durata di Vento prospero.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [0, 1]
+        },
+        {
+          "label": "PS di base",
+          "values": ["-", "791"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["-", "26"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["-", "47"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [20, 40],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [1, 2]
+        },
+        {
+          "label": "PS di base",
+          "values": ["2053", "2731"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["66", "88"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["123", "163"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104151,
+        "id": "vayuda_turquoise_sliver",
+        "name": "Scheggia di turchese Vayuda",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Paramano antico",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [40, 50],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [2, 3]
+        },
+        {
+          "label": "PS di base",
+          "values": ["4086", "4568"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["132", "148"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["244", "273"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["0.0%", "4.8%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Frammento di turchese Vayuda",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112044,
+        "id": "old_handguard",
+        "name": "Paramano antico",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [50, 60],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [3, 4]
+        },
+        {
+          "label": "PS di base",
+          "values": ["5256", "5899"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["170", "190"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["314", "352"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["4.8%", "9.6%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104152,
+        "id": "vayuda_turquoise_fragment",
+        "name": "Frammento di turchese Vayuda",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Paramano kageuchi",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [60, 70],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [4, 5]
+        },
+        {
+          "label": "PS di base",
+          "values": ["6593", "7076"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["213", "228"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["394", "423"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["9.6%", "9.6%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Pezzo di turchese Vayuda",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112045,
+        "id": "kageuchi_handguard",
+        "name": "Paramano kageuchi",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [70, 80],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [5, 6]
+        },
+        {
+          "label": "PS di base",
+          "values": ["7777", "8259"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["251", "266"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["465", "493"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["9.6%", "14.4%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104153,
+        "id": "vayuda_turquoise_chunk",
+        "name": "Pezzo di turchese Vayuda",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Paramano celebre",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [80, 90],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [6, 7]
+        },
+        {
+          "label": "PS di base",
+          "values": ["8968", "9450"]
+        },
+        {
+          "label": "ATT di base",
+          "values": ["289", "305"]
+        },
+        {
+          "label": "DIF di base",
+          "values": ["536", "564"]
+        },
+        {
+          "label": "Tasso di CRIT",
+          "values": ["14.4%", "19.2%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104154,
+        "id": "vayuda_turquoise_gemstone",
+        "name": "Gemma di turchese Vayuda",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113038,
+        "id": "perpetual_caliber",
+        "name": "Calibro perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101213,
+        "id": "rukkhashava_mushrooms",
+        "name": "Funghi di Rukkhashava",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112046,
+        "id": "famed_handguard",
+        "name": "Paramano celebre",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104335,
+          "id": "teachings_of_praxis",
+          "name": "Insegnamenti della pragmatica",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112044,
+          "id": "old_handguard",
+          "name": "Paramano antico",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guida alla pragmatica",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Paramano kageuchi",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guida alla pragmatica",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Paramano kageuchi",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guida alla pragmatica",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Paramano kageuchi",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104336,
+          "id": "guide_to_praxis",
+          "name": "Guida alla pragmatica",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112045,
+          "id": "kageuchi_handguard",
+          "name": "Paramano kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofie della pragmatica",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Paramano celebre",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Campana di Daka",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofie della pragmatica",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Paramano celebre",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Campana di Daka",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofie della pragmatica",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Paramano celebre",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Campana di Daka",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104337,
+          "id": "philosophies_of_praxis",
+          "name": "Filosofie della pragmatica",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112046,
+          "id": "famed_handguard",
+          "name": "Paramano celebre",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113043,
+          "id": "dakas_bell",
+          "name": "Campana di Daka",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Corona della saggezza",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

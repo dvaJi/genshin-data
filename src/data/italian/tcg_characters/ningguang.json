@@ -1,0 +1,85 @@
+{
+  "_id": 1601,
+  "id": "ningguang",
+  "name": "Ningguang",
+  "title": "Ningguang, Stella dell'eclissi",
+  "desc": "Il suo più grande segreto è che custodisce gran parte dei segreti di Liyue.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Catalizzatore",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3232,
+      "id": "strategic_reserve",
+      "name": "Strategic Reserve"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Ningguang a duello alla Coda di Gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000027,
+      "id": "ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sparkling_scatter",
+      "name": "Dispersione scintillante",
+      "desc": "Infligge 1 <span style=\"color:#FFE699FF\">DAN da Geo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jade_screen",
+      "name": "Paravento di giada",
+      "desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo</span>, genera un <span style=\"color:#FFFFFFFF\">Paravento di giada</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starshatter",
+      "name": "Spaccastelle",
+      "desc": "Infligge 8 <span style=\"color:#FFE699FF\">DAN da Geo</span>, se <span style=\"color:#FFFFFFFF\">Paravento di giada</span> è sul campo, DAN inflitti da questo attacco +2.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

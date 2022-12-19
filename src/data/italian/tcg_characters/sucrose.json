@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "Sucrose, Dolcezza innocua",
+  "desc": "\"Non puoi valutare la potenza di un mazzo non ancora provato!\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizzatore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["Si ottiene dal mazzo iniziale"],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Creazione dello spirito dei venti",
+      "desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Creazione Anemoipostasi astabile n. 6308",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. Obbliga l'avversario a passare al personaggio precedente.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Creazione proibita: Isomero 75 Tipo II",
+      "desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, invoca un <span style=\"color:#FFFFFFFF\">Grande Spirito dei venti</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

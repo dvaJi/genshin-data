@@ -1,0 +1,83 @@
+{
+  "_id": 1401,
+  "id": "fischl",
+  "name": "Fischl",
+  "title": "\"Fischl, Prinzessin der Verurteilung!\" Fischl",
+  "desc": "\"Oz, mio famiglio, distendi le tue ali e tessimi un nuovo destino nell'oscurità della notte!\"\\n\"Mein Fräulein, non posso aiutarla a sostituire una carta...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3227,
+      "id": "stellar_predator",
+      "name": "Stellar Predator"
+    },
+    "source": [],
+    "character": {
+      "_id": 10000031,
+      "id": "fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "bolts_of_downfall",
+      "name": "Cascata di dardi",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightrider",
+      "name": "Cavaliere della notte",
+      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Oz</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "midnight_phantasmagoria",
+      "name": "Fantasmagoria di mezzanotte",
+      "desc": "Infligge 4 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, infligge <span style=\"color:#FFFFFFFF\">2 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span></span> a tutti i personaggi inattivi.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

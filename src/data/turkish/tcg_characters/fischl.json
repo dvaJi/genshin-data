@@ -1,0 +1,83 @@
+{
+  "_id": 1401,
+  "id": "fischl",
+  "name": "Fischl",
+  "title": "\"Fischl, Adalet Prensesi!\" Fischl",
+  "desc": "\"Oz, hizmetkarım, kanatlarını aç ve bu gecenin karanlığında bana yeni bir kader ör!\"\\n\"Mein Fräulein, size bir değişim kartı getirmemi beklemeyin benden...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Elektrik",
+    "weapon": "Yay",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3227,
+      "id": "stellar_predator",
+      "name": "Stellar Predator"
+    },
+    "source": [],
+    "character": {
+      "_id": 10000031,
+      "id": "fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "bolts_of_downfall",
+      "name": "Düşen Yıldırımlar",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightrider",
+      "name": "Gecekuşu",
+      "desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Oz</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "midnight_phantasmagoria",
+      "name": "Gece Yanılsaması",
+      "desc": "4 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve rakibin hazırdaki karakterlerine <span style=\"color:#FFFFFFFF\">2 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span></span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

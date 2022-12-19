@@ -1,0 +1,85 @@
+{
+  "_id": 1403,
+  "id": "keqing",
+  "name": "Keqing",
+  "title": "Keqing, Dominatrice del tuono",
+  "desc": "Può realizzare dei mazzi mai concepiti e vincere delle battaglie impossibili.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Spada",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3225,
+      "id": "thundering_penance",
+      "name": "Thundering Penance"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Keqing a duello alla Coda di gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000042,
+      "id": "keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "yunlai_swordsmanship",
+      "name": "Arte della spada Yunlai",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stellar_restoration",
+      "name": "Ripristino stellare",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, genera una carta <span style=\"color:#FFFFFFFF\">Stiletto saettante</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "starward_sword",
+      "name": "Spada celestiale",
+      "desc": "Infligge 4 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, infligge <span style=\"color:#FFFFFFFF\">3 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span></span> a tutti i personaggi inattivi dell'avversario.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

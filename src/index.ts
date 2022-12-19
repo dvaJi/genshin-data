@@ -66,10 +66,12 @@ export const languages = [
   'french',
   'german',
   'indonesian',
+  'italian',
   'korean',
   'portuguese',
   'russian',
   'thai',
+  'turkish',
   'vietnamese',
 ] as const;
 

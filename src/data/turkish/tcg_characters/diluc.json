@@ -1,0 +1,83 @@
+{
+  "_id": 1301,
+  "id": "diluc",
+  "name": "Diluc",
+  "title": "\"Şafağın Karanlık Yüzü\" Diluc",
+  "desc": "Yüreği en büyük düşmanıdır.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Çift Elli Kılıç",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3231,
+      "id": "flowing_flame",
+      "name": "Flowing Flame"
+    },
+    "source": ["Başlangıç destesinden elde edilir."],
+    "character": {
+      "_id": 10000016,
+      "id": "diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "tempered_sword",
+      "name": "Akkor Kılıç",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_onslaught",
+      "name": "Dağlayan Taarruz",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "name": "Şafak",
+      "desc": "8 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ateş Tesiri</span> kazanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

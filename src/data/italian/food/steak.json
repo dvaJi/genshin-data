@@ -1,0 +1,46 @@
+{
+  "_id": 1004,
+  "id": "steak",
+  "name": "Bistecca",
+  "description": "Una bistecca ai ferri. Una buona cottura ha mantenuto i succhi all'interno della carne, suscitando grandi aspettative per il momento in cui verrà tagliata.",
+  "rarity": 1,
+  "ingredients": [
+    {
+      "_id": 100061,
+      "id": "raw_meat",
+      "name": "Carne cruda",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Piatti rigenerativi",
+  "results": {
+    "suspicious": {
+      "_id": 108007,
+      "name": "Bistecca sospetta",
+      "description": "Una bistecca ai ferri. Ha una colorazione un po' deprimente, come se fosse dispiaciuta di essere una bistecca di scarsa qualità.",
+      "effect": "Rianima un personaggio e ripristina 50 PS."
+    },
+    "normal": {
+      "_id": 108008,
+      "name": "Bistecca",
+      "description": "Una bistecca ai ferri. Una buona cottura ha mantenuto i succhi all'interno della carne, suscitando grandi aspettative per il momento in cui verrà tagliata.",
+      "effect": "Rianima un personaggio e ripristina 100 PS."
+    },
+    "delicious": {
+      "_id": 108009,
+      "name": "Bistecca deliziosa",
+      "description": "Una bistecca ai ferri. La carne è succulenta, fragrante e molto saporita. Un solo morso ti rimette al mondo.",
+      "effect": "Rianima un personaggio e ripristina 150 PS."
+    },
+    "special": {
+      "_id": 108010,
+      "name": "Bistecca della Vigilante!",
+      "description": "La specialità di Amber. Un lato è palesemente crudo. L'altro emana un lieve odore di bruciato. Chiudi gli occhi e manda giù, se non altro per far felice Amber.",
+      "effect": "Rianima un personaggio e ripristina un 10% dei PS max, quindi ripristina 150 PS aggiuntivi.",
+      "character": {
+        "id": "amber",
+        "name": "Amber"
+      }
+    }
+  }
+}

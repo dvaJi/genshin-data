@@ -1,0 +1,80 @@
+{
+  "_id": 1402,
+  "id": "razor",
+  "name": "Razor",
+  "title": "Razor, Ragazzo lupo",
+  "desc": "\"Carte difficili.\\nMa... amiche...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Claymore",
+    "faction": ["Mondstadt"],
+    "source": [
+      "Ricompensa ottenuta sfidando Razor a duello alla Coda di Gatto e battendolo in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000020,
+      "id": "razor",
+      "name": "Razor",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "steel_fang",
+      "name": "Zanna d'acciaio",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "claw_and_thunder",
+      "name": "Artiglio tonante",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_fang",
+      "name": "Zanna fulminante",
+      "desc": "Infligge 5 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, questo personaggio ottiene l'effetto <span style=\"color:#FFFFFFFF\">Lupo interiore</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_id": 1501,
+  "id": "sucrose",
+  "name": "Sucrose",
+  "title": "\"Masum Şeker\" Sucrose",
+  "desc": "\"Daha denenmemiş bir destenin gücünü değerlendiremezsin!\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Katalizör",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3223,
+      "id": "chaotic_entropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": ["Başlangıç destesinden elde edilir."],
+    "character": {
+      "_id": 10000043,
+      "id": "sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "wind_spirit_creation",
+      "name": "Rüzgar Ruhu Saldırısı",
+      "desc": "1 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "astable_anemohypostasis_creation_6308",
+      "name": "Dengesiz Rüzgar Hipostazı - Denek 6308",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve rakibin karakteri zorla bir önceki karakterle değiştirilir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "forbidden_creation_isomer_75_type_ii",
+      "name": "Yasaklı İcat - İzomer 75 / Tip II",
+      "desc": "1 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Büyük Rüzgar Ruhu</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
