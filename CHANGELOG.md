@@ -1,3 +1,9 @@
+## [0.27.2](https://github.com/dvaJi/genshin-data/compare/0.27.1...0.27.2) (2022-12-19)
+
+### Features
+
+- add italian and turkish ([b667094](https://github.com/dvaJi/genshin-data/commit/b667094f767e25d14e67927e85303ca03a55a52a))
+
 ## [0.27.1](https://github.com/dvaJi/genshin-data/compare/0.27.0...0.27.1) (2022-12-17)
 
 ### Fixes
