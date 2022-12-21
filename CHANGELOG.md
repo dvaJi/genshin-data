@@ -1,3 +1,9 @@
+## [0.27.3](https://github.com/dvaJi/genshin-data/compare/0.27.2...0.27.3) (2022-12-21)
+
+### Features
+
+- **tcg**: add monster cards ([b861060](https://github.com/dvaJi/genshin-data/commit/b861060c51dc0aa6b01cde86e9c9a519b27e69e7))
+
 ## [0.27.2](https://github.com/dvaJi/genshin-data/compare/0.27.1...0.27.2) (2022-12-19)
 
 ### Features
