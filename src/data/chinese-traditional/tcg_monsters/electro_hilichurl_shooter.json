@@ -1,0 +1,64 @@
+{
+  "_id": 3402,
+  "id": "electro_hilichurl_shooter",
+  "name": "雷箭丘丘人",
+  "title": "雷箭丘丘人",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"]
+  },
+  "skills": [
+    {
+      "id": "thunder_arrow",
+      "name": "雷箭",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "幾枝一起",
+      "desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "躲起來",
+      "desc": "【被動】此角色出招後，自動切換到下一個角色。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

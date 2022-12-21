@@ -1,0 +1,65 @@
+{
+  "_id": 3202,
+  "id": "hydro_samachurl",
+  "name": "水丘丘萨满",
+  "title": "水丘丘萨满",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "杖击",
+      "desc": "造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_for_rain",
+      "name": "祈雨术",
+      "desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">治疗之雨</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tidal_impact",
+      "name": "激流冲击",
+      "desc": "造成5点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

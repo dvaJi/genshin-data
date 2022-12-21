@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Hiçlik Ateş Büyücüsü",
+  "title": "Hiçlik Ateş Büyücüsü",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Alev Dalgası",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Yanma Ayini",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Erimiş Patlama Şenliği",
+      "desc": "7 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Ateş Kalkanı",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Ateş Kalkanı</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Hiçlik Kalkanı",
+      "desc": "(Pasif) Kalkan kırıkken bu karakter bir Beceri kullanılır ve <span style=\"color:#FFFFFFFF\">Ateş Kalkanı</span> kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

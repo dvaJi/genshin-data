@@ -1,0 +1,65 @@
+{
+  "_id": 3001,
+  "id": "hilichurl_fighter",
+  "name": "Hilichurl combattente",
+  "title": "Hilichurl combattente",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": ["Mostro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "hit",
+      "name": "Mazzata",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jump_and_hit",
+      "name": "Attacco balzante",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "swing_that_club",
+      "name": "Mazzate confuse",
+      "desc": "Infligge 4 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

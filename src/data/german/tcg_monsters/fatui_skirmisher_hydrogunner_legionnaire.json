@@ -1,0 +1,78 @@
+{
+  "_id": 3203,
+  "id": "fatui_skirmisher_hydrogunner_legionnaire",
+  "name": "Fatui-Plänkler – Hydro-Kanonen-Gardist",
+  "title": "Fatui-Plänkler – Hydro-Kanonen-Gardist",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Fatui"]
+  },
+  "skills": [
+    {
+      "id": "skilled_charge",
+      "name": "Körperstoß",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "curative_bullet",
+      "name": "Heilungsschuss",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, stellt 2 eigenen inaktiven Figuren 1 LP wieder her.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_buff_hydro",
+      "name": "Elementarbonus – Hydro",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Elementarrüstung – Hydro</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Einsatzversorgung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes selbst 2 Pkt. Aufladung.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_id": 3703,
+  "id": "dendro_samachurl",
+  "name": "Sciamachurl di Dendro",
+  "title": "Sciamachurl di Dendro",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Bastonata",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "venomous_vines",
+      "name": "Rampicanti velenosi",
+      "desc": "Infligge 1 <span style=\"color:#7EC236FF\">DAN da Dendro</span>, genera 1 <span style=\"color:#FFFFFFFF\">Rampicanti</span> nel campo avversario.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dendro_field",
+      "name": "Campo di Dendro",
+      "desc": "Infligge 5 <span style=\"color:#7EC236FF\">DAN da Dendro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

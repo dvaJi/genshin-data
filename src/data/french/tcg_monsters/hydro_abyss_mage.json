@@ -1,0 +1,85 @@
+{
+  "_id": 5201,
+  "id": "hydro_abyss_mage",
+  "name": "Hydromage de l'Abîme",
+  "title": "Hydromage de l'Abîme|s1:Hydromages de l'Abîme",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"]
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Boule d'eau",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubbling_offering",
+      "name": "Offrande de bulle",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et inflige une <span style=\"color:#FFFFFFFF\">bulle</span> au personnage choisi.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_mortal_water",
+      "name": "Rite d'eau mortelle",
+      "desc": "Inflige 4 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et inflige une <span style=\"color:#FFFFFFFF\">bulle</span> au personnage choisi.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hydro_shield",
+      "name": "Bouclier Hydro",
+      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">bouclier Hydro</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Égide de l'Abîme",
+      "desc": "(Passif) Si le bouclier est brisé, lorsque ce personnage a utilisé une capacité : Restaure le <span style=\"color:#FFFFFFFF\">bouclier Hydro</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

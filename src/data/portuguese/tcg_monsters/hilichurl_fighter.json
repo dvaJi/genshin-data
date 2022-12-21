@@ -1,0 +1,65 @@
+{
+  "_id": 3001,
+  "id": "hilichurl_fighter",
+  "name": "Hilichurl Lutador",
+  "title": "Hilichurl Lutador",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "hit",
+      "name": "Bordoada",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jump_and_hit",
+      "name": "Voadora",
+      "desc": "Causa 2 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "swing_that_club",
+      "name": "Ataque Frenético",
+      "desc": "Causa 4 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

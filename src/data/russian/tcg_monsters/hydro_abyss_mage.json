@@ -1,0 +1,85 @@
+{
+  "_id": 5201,
+  "id": "hydro_abyss_mage",
+  "name": "Гидро маг Бездны",
+  "title": "Гидро маг Бездны",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"]
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Водяной снаряд",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubbling_offering",
+      "name": "Воздаяние миражу",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед. Цель получает <span style=\"color:#FFFFFFFF\">Туманный пузырь</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_mortal_water",
+      "name": "Ритуал жизни и смерти",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 4 ед. Цель получает <span style=\"color:#FFFFFFFF\">Туманный пузырь</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hydro_shield",
+      "name": "Гидро купол",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Гидро купол</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Защита бездны",
+      "desc": "(Пассивный навык) Когда щит разрушается и персонаж применяет навык: восстанавливает <span style=\"color:#FFFFFFFF\">Гидро купол</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

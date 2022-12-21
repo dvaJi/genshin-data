@@ -1,0 +1,64 @@
+{
+  "_id": 3204,
+  "id": "hydro_slime",
+  "name": "水スライム",
+  "title": "水スライム",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"]
+  },
+  "skills": [
+    {
+      "id": "bounce",
+      "name": "ボンボン",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "slam",
+      "name": "墜落",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を4与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "元素蓄積·水",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">元素生命·水</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "_id": 3101,
+  "id": "ice_shieldwall_mitachurl",
+  "name": "Ice Shieldwall Mitachurl",
+  "title": "Ice Shieldwall Mitachurl",
+  "desc": "",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "plata_plama",
+      "name": "Plata Plama",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "da_plama",
+      "name": "Da Plama",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aba_movo",
+      "name": "Aba Movo",
+      "desc": "Mengakibatkan 5 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hoarfrost_greatshield",
+      "name": "Hoarfrost Greatshield",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Hoarfrost Greatshield</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

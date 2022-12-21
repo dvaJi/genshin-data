@@ -1,0 +1,78 @@
+{
+  "_id": 3203,
+  "id": "fatui_skirmisher_hydrogunner_legionnaire",
+  "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+  "title": "Fatui Skirmisher - Hydrogunner Legionnaire",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": ["Fatui"]
+  },
+  "skills": [
+    {
+      "id": "skilled_charge",
+      "name": "Skilled Charge",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "curative_bullet",
+      "name": "Curative Bullet",
+      "desc": "Deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, heals 2 of friendly characters on standby for 1 HP.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_buff_hydro",
+      "name": "Elemental Buff: Hydro",
+      "desc": "Deals 3 <span style=\"color:#80C0FFFF\">Hydro DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Hydro Elemental Equipment</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Combat Resupply",
+      "desc": "(Passive) When the battle begins, this character gains 2 Energy.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

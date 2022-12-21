@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Pyro Abyss Mage",
+  "title": "Pyro Abyss Mage",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Flamewave",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Blazing Visage",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Rite of the Molten Eruption",
+      "desc": "Deals 7 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Pyro Shield",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Pyro Shield</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Aegis of the Abyss",
+      "desc": "(Passive) When the shield is broken, after this character uses a Skill: Restore the <span style=\"color:#FFFFFFFF\">Pyro Shield</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -18,6 +18,7 @@ import type { Furnishing } from './types/furnishing';
 import type { Domains } from './types/domain';
 import type { TCGCharacterCard } from './types/tcg_character';
 import type { TCGActionCard } from './types/tcg_action';
+import type { TCGMonsterCard } from './types/tcg_monster';
 
 export type Material =
   | CommonMaterial
@@ -29,7 +30,7 @@ export type Material =
   | WeaponPrimaryMaterial
   | WeaponSecondaryMaterial;
 
-export type TCGCard = TCGCharacterCard & TCGActionCard;
+export type TCGCard = TCGCharacterCard & TCGActionCard & TCGMonsterCard;
 
 export type {
   AchievementCategory,
@@ -97,6 +98,7 @@ type Folders =
   | 'talent_lvl_up_materials'
   | 'tcg_action'
   | 'tcg_characters'
+  | 'tcg_monsters'
   | 'weapon_enhancement_material'
   | 'weapon_primary_materials'
   | 'weapon_secondary_materials'
@@ -287,11 +289,17 @@ export default class GenshinData {
     return await this.findByFolder(lang, 'tcg_action', query);
   }
 
+  async tcgMonsters(query?: QueryOpts<TCGMonsterCard>): Promise<TCGMonsterCard[]> {
+    const lang = this.getLang();
+    return await this.findByFolder(lang, 'tcg_monsters', query);
+  }
+
   async tcgCards(query?: QueryOpts<TCGCard>): Promise<TCGCard[]> {
     const lang = this.getLang();
     const ret = await Promise.all([
       await this.findByFolder(lang, 'tcg_characters', query),
       await this.findByFolder(lang, 'tcg_action', query),
+      await this.findByFolder(lang, 'tcg_monsters', query),
     ]);
 
     return ret.flat();

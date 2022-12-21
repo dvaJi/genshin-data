@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "火深渊法师",
+  "title": "火深渊法师",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "炎波",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "灼面的祭法",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "熔焰地涌之仪",
+      "desc": "造成7点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "火元素护罩",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">火元素护罩</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "深渊加护",
+      "desc": "【被动】护罩破碎的情况下，使用技能后：重新附属<span style=\"color:#FFFFFFFF\">火元素护罩</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

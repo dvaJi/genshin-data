@@ -1,0 +1,64 @@
+{
+  "_id": 3102,
+  "id": "cryo_hilichurl_shooter",
+  "name": "Buz Dağ Yabanisi Nişancısı",
+  "title": "Buz Dağ Yabanisi Nişancısı",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar", "Dağ Yabanisi"]
+  },
+  "skills": [
+    {
+      "id": "ice_arrow",
+      "name": "Buz Oku",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Ok Üstadı",
+      "desc": "4 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Vur ve Kaç",
+      "desc": "(Pasif) Bu karakter bir hamle yaptığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

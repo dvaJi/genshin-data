@@ -1,0 +1,85 @@
+{
+  "_id": 3401,
+  "id": "kairagi_dancing_thunder",
+  "name": "Kairagi: Trovão Dançante",
+  "title": "Kairagi: Trovão Dançante",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Kairagi"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Corte Triplo",
+      "desc": "Causa 2 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Corte de Salto",
+      "desc": "Causa 3 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Corte Iaido",
+      "desc": "Este personagem prepara a habilidade:<span style=\"color:#FFFFFFFF\">Iaido: Sopro do Trovão</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_electro",
+      "name": "Amuleto de Kamuna - Brilho",
+      "desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Amuleto de Kamuna - Brilho</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Ataque Desesperado",
+      "desc": "Quando outros Kairagi seus forem derrotados, este personagem será afetado por <span style=\"color:#FFFFFFFF\">Ataque Desesperado</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

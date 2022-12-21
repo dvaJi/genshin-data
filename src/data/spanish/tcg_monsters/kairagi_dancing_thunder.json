@@ -1,0 +1,85 @@
+{
+  "_id": 3401,
+  "id": "kairagi_dancing_thunder",
+  "name": "Samurái Kairagi - Rayo danzarín",
+  "title": "Samurái Kairagi - Rayo danzarín",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Samurái Kairagi"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Tricorte",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Salto cortante",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Golpe de espada: Envaine",
+      "desc": "Este personaje prepara la habilidad <span style=\"color:#FFFFFFFF\">Golpe de espada: Aliento de tormenta</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_electro",
+      "name": "Amuleto de Kamuna: Brillo",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene un <span style=\"color:#FFFFFFFF\">amuleto de Kamuna: Brillo</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Frenesí final",
+      "desc": "Pasiva: cuando tus demás Samuráis Kairagi hayan sido derrotados, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">frenesí final</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

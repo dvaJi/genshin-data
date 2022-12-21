@@ -1,0 +1,78 @@
+{
+  "_id": 3203,
+  "id": "fatui_skirmisher_hydrogunner_legionnaire",
+  "name": "Schermagliatore dei Fatui Hydroartigliere corazzato",
+  "title": "Schermagliatore dei Fatui Hydroartigliere corazzato",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": ["I Fatui"]
+  },
+  "skills": [
+    {
+      "id": "skilled_charge",
+      "name": "Collisione tattica",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "curative_bullet",
+      "name": "Bomba terapeutica",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>. Guarisce 2 personaggi inattivi di 1 punto.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_buff_hydro",
+      "name": "Potenziamento elementale: Hydro",
+      "desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Armatura elementale: Hydro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio della battaglia, questo personaggio ottiene 2 punti di carica.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

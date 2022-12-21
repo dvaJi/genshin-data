@@ -1,0 +1,78 @@
+{
+  "_id": 3103,
+  "id": "cryo_abyss_mage",
+  "name": "Mago del Abismo Cryo",
+  "title": "Mago del Abismo Cryo",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"]
+  },
+  "skills": [
+    {
+      "id": "cryo_thorns",
+      "name": "Espina helada",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostdrift_offering",
+      "name": "Ofrenda helada",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rimestorm_rite",
+      "name": "Rito de los carámbanos",
+      "desc": "Inflige 5 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "cryo_shield",
+      "name": "Escudo Cryo",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene un <span style=\"color:#FFFFFFFF\">Escudo Cryo</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

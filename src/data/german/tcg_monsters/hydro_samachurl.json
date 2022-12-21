@@ -1,0 +1,65 @@
+{
+  "_id": 3202,
+  "id": "hydro_samachurl",
+  "name": "Hydro-Samachurl",
+  "title": "Hydro-Samachurl",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Stabschlag",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_for_rain",
+      "name": "Regentanz",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Heilungsregen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tidal_impact",
+      "name": "Stromstoß",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

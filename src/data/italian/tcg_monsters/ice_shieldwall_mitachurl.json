@@ -1,0 +1,78 @@
+{
+  "_id": 3101,
+  "id": "ice_shieldwall_mitachurl",
+  "name": "Mitachurl con scudo di ghiaccio",
+  "title": "Mitachurl con scudo di ghiaccio",
+  "desc": "",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": ["Mostro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "plata_plama",
+      "name": "Plata Plama",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "da_plama",
+      "name": "Da Plama",
+      "desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aba_movo",
+      "name": "Aba Movo",
+      "desc": "Infligge 5 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hoarfrost_greatshield",
+      "name": "Granscudo glaciale",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Granscudo glaciale</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

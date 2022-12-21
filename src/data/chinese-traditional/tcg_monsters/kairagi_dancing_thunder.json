@@ -1,0 +1,85 @@
+{
+  "_id": 3401,
+  "id": "kairagi_dancing_thunder",
+  "name": "海亂鬼·雷騰",
+  "title": "海亂鬼·雷騰",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["海亂鬼"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "三位切",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "鯉躍斬",
+      "desc": "造成3點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "居合·納刀",
+      "desc": "本角色準備技能：<span style=\"color:#FFFFFFFF\">居合·霆息</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_electro",
+      "name": "惟神召符·煌",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">惟神召符·煌</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "絕境狂亂",
+      "desc": "我方其他海亂鬼被擊倒時，此角色附屬<span style=\"color:#FFFFFFFF\">絕境狂亂</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

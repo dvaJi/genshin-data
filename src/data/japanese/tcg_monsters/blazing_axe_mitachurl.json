@@ -1,0 +1,78 @@
+{
+  "_id": 3302,
+  "id": "blazing_axe_mitachurl",
+  "name": "ヒルチャール暴徒·炎斧",
+  "title": "ヒルチャール暴徒·炎斧",
+  "desc": "",
+  "attributes": {
+    "hp": 8,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": ["魔物", "ヒルチャール"]
+  },
+  "skills": [
+    {
+      "id": "du_plama",
+      "name": "Du Plama",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "upa",
+      "name": "Upa",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "oto_tiga",
+      "name": "Oto Tiga",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を5与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flowfire_edge",
+      "name": "流焔研磨",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">流焔研磨</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

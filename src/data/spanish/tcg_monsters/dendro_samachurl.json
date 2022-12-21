@@ -1,0 +1,65 @@
+{
+  "_id": 3703,
+  "id": "dendro_samachurl",
+  "name": "Samachurl Dendro",
+  "title": "Samachurl Dendro",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Bastonazo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "venomous_vines",
+      "name": "Zarza venenosa",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y crea una <span style=\"color:#FFFFFFFF\">enredadera</span> en el campo del rival.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dendro_field",
+      "name": "Dendroárea",
+      "desc": "Inflige 5 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

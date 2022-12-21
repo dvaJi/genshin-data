@@ -1,0 +1,78 @@
+{
+  "_id": 3101,
+  "id": "ice_shieldwall_mitachurl",
+  "name": "Mitachurl de Escudo de Gelo",
+  "title": "Mitachurl de Escudo de Gelo",
+  "desc": "",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "plata_plama",
+      "name": "Plata Plama",
+      "desc": "Causa 2 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "da_plama",
+      "name": "Da Plama",
+      "desc": "Causa 3 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aba_movo",
+      "name": "Aba Movo",
+      "desc": "Causa 5 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hoarfrost_greatshield",
+      "name": "Escudo Gélido",
+      "desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Escudo Gélido</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

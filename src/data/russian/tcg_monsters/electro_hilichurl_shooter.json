@@ -1,0 +1,64 @@
+{
+  "_id": 3402,
+  "id": "electro_hilichurl_shooter",
+  "name": "Электро хиличурл-стрелок",
+  "title": "Электро хиличурл-стрелок",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Прочее",
+    "faction": ["Монстр", "Хиличурл"]
+  },
+  "skills": [
+    {
+      "id": "thunder_arrow",
+      "name": "Электро стрела",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Многострел",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 4 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Укрытие",
+      "desc": "(Пассивный навык) После атаки персонажа, следующий персонаж автоматически станет активным.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

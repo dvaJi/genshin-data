@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "Nobushi: Jintouban",
+  "title": "Nobushi: Jintouban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "No Elemental Type",
+    "weapon": "Other Weapons",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Combo Slash",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "Leap Attack",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai: Sheathed",
+      "desc": "This character prepares this Skill: <span style=\"color:#FFFFFFFF\">Iai: Thrust</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Zanshin",
+      "desc": "(Passive) End Phase: If this character is the active character, they gain 1 Energy.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

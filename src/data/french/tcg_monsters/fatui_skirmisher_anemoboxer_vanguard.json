@@ -1,0 +1,71 @@
+{
+  "_id": 3502,
+  "id": "fatui_skirmisher_anemoboxer_vanguard",
+  "name": "Tirailleur Fatui - Frappeur Anémo",
+  "title": "Tirailleur Fatui - Frappeur Anémo|s1:Tirailleurs Fatui - Frappeurs Anémo",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"]
+  },
+  "skills": [
+    {
+      "id": "hurricane_jab",
+      "name": "Frappe d'ouragan",
+      "desc": "Inflige 2 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gathering_the_winds",
+      "name": "Cumul venteux",
+      "desc": "Accorde une <span style=\"color:#FFFFFFFF\">barrière de rafale</span> au personnage et prépare la capacité : <span style=\"color:#FFFFFFFF\">Rafale vengeresse</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_agitation",
+      "name": "Incitation des vents",
+      "desc": "Inflige 3 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et accorde 1 <span style=\"color:#FFFFFFFF\">charge</span> à vos personnages de type Fatui.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

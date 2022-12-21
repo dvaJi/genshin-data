@@ -1,0 +1,58 @@
+{
+  "_id": 3002,
+  "id": "hilichurl_shooter",
+  "name": "射手丘丘人",
+  "title": "射手丘丘人",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"]
+  },
+  "skills": [
+    {
+      "id": "shooting",
+      "name": "射击",
+      "desc": "造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "几支一起",
+      "desc": "造成5点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "躲起来",
+      "desc": "【被动】此角色使用技能后，自动切换到下一个角色。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

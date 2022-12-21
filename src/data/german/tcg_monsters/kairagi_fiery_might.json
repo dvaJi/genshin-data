@@ -1,0 +1,85 @@
+{
+  "_id": 3303,
+  "id": "kairagi_fiery_might",
+  "name": "Kairagi – Sengende Macht",
+  "title": "Kairagi – Sengende Macht",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Kairagi"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Dreifachhieb",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Sprunghieb",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai – Ruhe",
+      "desc": "Diese Figur bereitet die Fähigkeit <span style=\"color:#FFFFFFFF\">Iai – Flammenwind</span> vor.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_pyro",
+      "name": "Spruchpapier – Pyro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Spruchpapier – Pyro</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Brennende Kampfwut",
+      "desc": "Erhält, wenn andere Kairagi ausgeschaltet werden, <span style=\"color:#FFFFFFFF\">Brennende Kampfwut</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

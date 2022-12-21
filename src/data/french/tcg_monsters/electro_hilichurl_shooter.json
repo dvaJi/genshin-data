@@ -1,0 +1,64 @@
+{
+  "_id": 3402,
+  "id": "electro_hilichurl_shooter",
+  "name": "Arbalétrier Brutocollinus Électro",
+  "title": "Arbalétrier Brutocollinus Électro|s1:Arbalétriers Brutocollinus Électro",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre", "Brutocollinus"]
+  },
+  "skills": [
+    {
+      "id": "thunder_arrow",
+      "name": "Flèche Électro",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Multitir",
+      "desc": "Inflige 4 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Dissimulation",
+      "desc": "(Passif) Bascule pour le personnage suivant après que ce personnage a attaqué.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

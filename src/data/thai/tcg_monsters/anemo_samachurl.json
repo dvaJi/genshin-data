@@ -1,0 +1,65 @@
+{
+  "_id": 3501,
+  "id": "anemo_samachurl",
+  "name": "Anemo Samachurl",
+  "title": "Anemo Samachurl",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Staff Strike",
+      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_to_the_winds",
+      "name": "Prayer to the Winds",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Whirlwind</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_shock",
+      "name": "Galeforce Shock",
+      "desc": "จะสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

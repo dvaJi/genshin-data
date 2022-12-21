@@ -1,0 +1,78 @@
+{
+  "_id": 3305,
+  "id": "nobushi_hitsukeban",
+  "name": "Nobushi Hitsukeban",
+  "title": "Nobushi Hitsukeban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Attacco continuo",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blaze_bloom",
+      "name": "Scoppio pirico",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, passa al prossimo personaggio.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iaido: Estrazione della spada",
+      "desc": "Questo personaggio prepara l'abilità <span style=\"color:#FFFFFFFF\">Iaido: Stoccata</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Crudeltà",
+      "desc": "(Passiva) Fase finale: se questo personaggio è il personaggio attivo, ottiene 1 punto di carica.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

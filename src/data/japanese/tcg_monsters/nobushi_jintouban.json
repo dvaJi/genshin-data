@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "野伏·陣刀番",
+  "title": "野伏·陣刀番",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "元素タイプなし",
+    "weapon": "他の武器",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "連続斬り",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "ジャンプ斬り",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "居合·納刀",
+      "desc": "本キャラはスキル<span style=\"color:#FFFFFFFF\">居合·前</span>の準備に入る。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "残心",
+      "desc": "【固有】エンドフェーズ：このキャラは「出撃キャラ」の場合、チャージを1獲得する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

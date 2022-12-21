@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Pyro-Abgrundmagier",
+  "title": "Pyro-Abgrundmagier",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Feuerwelle",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Opferritual des Feuerscheins",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Ritus der Lavaflut",
+      "desc": "Verursacht 7 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Pyro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Pyro-Ummantelung</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Ägide des Abgrundes",
+      "desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die <span style=\"color:#FFFFFFFF\">Pyro-Ummantelung</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

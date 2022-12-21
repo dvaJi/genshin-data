@@ -1,0 +1,78 @@
+{
+  "_id": 3305,
+  "id": "nobushi_hitsukeban",
+  "name": "Nobushi: Hitsukeban",
+  "title": "Nobushi: Hitsukeban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Kombo Darbe",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blaze_bloom",
+      "name": "Alev Çiçeği",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve karakterin bir sonraki karakterle değiştirilir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "İai: Kınına Sokma",
+      "desc": "Bu karakter şu Beceriyi hazırlar: <span style=\"color:#FFFFFFFF\">İai: Sokma</span>",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Zanshin",
+      "desc": "(Pasif) Son Aşama: Eğer bu karakter aktif karakter ise 1 Enerji Yükü kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

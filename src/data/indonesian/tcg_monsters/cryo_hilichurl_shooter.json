@@ -1,0 +1,64 @@
+{
+  "_id": 3102,
+  "id": "cryo_hilichurl_shooter",
+  "name": "Cryo Hilichurl Shooter",
+  "title": "Cryo Hilichurl Shooter",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "ice_arrow",
+      "name": "Ice Arrow",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Multishot",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Hide",
+      "desc": "[Pasif] Setelah Karakter ini menyerang, Karakter Aktifmu akan berganti ke Karakter berikutnya.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

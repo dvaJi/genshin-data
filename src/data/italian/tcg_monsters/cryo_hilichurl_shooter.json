@@ -1,0 +1,64 @@
+{
+  "_id": 3102,
+  "id": "cryo_hilichurl_shooter",
+  "name": "Hilichurl balestriere di Cryo",
+  "title": "Hilichurl balestriere di Cryo",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": ["Mostro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "ice_arrow",
+      "name": "Freccia gelida",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Raffica di frecce",
+      "desc": "Infligge 4 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Colpo e fuga",
+      "desc": "(Passiva) Dopo aver usato un'abilità, questo personaggio viene automaticamente sostituito con quello successivo.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

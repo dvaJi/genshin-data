@@ -1,0 +1,85 @@
+{
+  "_id": 3303,
+  "id": "kairagi_fiery_might",
+  "name": "海乱鬼·炎威",
+  "title": "海乱鬼·炎威",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["海乱鬼"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "三位切",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "鲤跃斩",
+      "desc": "造成3点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "居合·纳刀",
+      "desc": "本角色准备技能：<span style=\"color:#FFFFFFFF\">居合·焚风</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_pyro",
+      "name": "惟神召符·炎",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">惟神召符·炎</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "绝境狂乱",
+      "desc": "我方其他海乱鬼被击倒时，此角色附属<span style=\"color:#FFFFFFFF\">绝境狂乱</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

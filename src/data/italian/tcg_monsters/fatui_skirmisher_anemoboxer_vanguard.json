@@ -1,0 +1,71 @@
+{
+  "_id": 3502,
+  "id": "fatui_skirmisher_anemoboxer_vanguard",
+  "name": "Schermagliatore dei Fatui Anemopugile d'assalto",
+  "title": "Schermagliatore dei Fatui Anemopugile d'assalto",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Altre armi",
+    "faction": ["I Fatui"]
+  },
+  "skills": [
+    {
+      "id": "hurricane_jab",
+      "name": "Raffica sferzante",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gathering_the_winds",
+      "name": "Adunata dei venti",
+      "desc": "Questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Barriera vento di tempesta</span> e prepara l'abilità <span style=\"color:#FFFFFFFF\">Sferzata violenta</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_agitation",
+      "name": "Istigazione della tempesta",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. I Fatui che controlli ottengono 1 punto di <span style=\"color:#FFFFFFFF\">carica</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 5201,
+  "id": "hydro_abyss_mage",
+  "name": "Hiçlik Su Büyücüsü",
+  "title": "Hiçlik Su Büyücüsü",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"]
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Su Mermisi",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubbling_offering",
+      "name": "Köpük Ayini",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Sis Baloncuğu</span> eklenir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_mortal_water",
+      "name": "Ölümsüz Su Şenliği",
+      "desc": "4 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Sis Baloncuğu</span> eklenir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hydro_shield",
+      "name": "Su Kalkanı",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Su Kalkanı</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Hiçlik Kalkanı",
+      "desc": "(Pasif) Kalkan kırıkken bu karakter bir Beceri kullanılır ve <span style=\"color:#FFFFFFFF\">Su Kalkanı</span> kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

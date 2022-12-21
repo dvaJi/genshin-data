@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "Nobushi: Jintouban",
+  "title": "Nobushi: Jintouban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Combo Slash",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "Leap Attack",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai: Sheathed",
+      "desc": "Karakter ini sedang mempersiapkan Skill: <span style=\"color:#FFFFFFFF\">Iai: Thrust</span>",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Zanshin",
+      "desc": "[Pasif] Tahap Selesai: Jika Karakter ini merupakan Karakter Aktif, memperoleh 1 Energy.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

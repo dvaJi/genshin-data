@@ -1,0 +1,78 @@
+{
+  "_id": 3403,
+  "id": "crackling_axe_mitachurl",
+  "name": "Mitachurl con Hacha Electro",
+  "title": "Mitachurl con Hacha Electro",
+  "desc": "",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "du_plama",
+      "name": "Du Plama",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "upa",
+      "name": "Upa",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "oto_tiga",
+      "name": "Oto Tiga",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ripple_electro_edge",
+      "name": "Filo del trueno",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">filo del trueno</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

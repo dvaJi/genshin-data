@@ -1,0 +1,78 @@
+{
+  "_id": 3103,
+  "id": "cryo_abyss_mage",
+  "name": "Крио маг Бездны",
+  "title": "Крио маг Бездны",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": ["Монстр"]
+  },
+  "skills": [
+    {
+      "id": "cryo_thorns",
+      "name": "Крио укол",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostdrift_offering",
+      "name": "Воздаяние морозу",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rimestorm_rite",
+      "name": "Ритуал морозного вихря",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "cryo_shield",
+      "name": "Крио купол",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Крио купол</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

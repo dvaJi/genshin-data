@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "Nobushi - Jintouban",
+  "title": "Nobushi - Jintouban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Chém Liên Tục",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "Nhảy Chém",
+      "desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai: Nạp Đao",
+      "desc": "Nhân vật này chuẩn bị kỹ năng: <span style=\"color:#FFFFFFFF\">Iai: Xung Kích</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Tàn Nhẫn",
+      "desc": "(Bị động) Giai Đoạn Kết Thúc: Nếu nhân vật này là nhân vật xuất chiến, sẽ nhận được 1 Năng Lượng.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

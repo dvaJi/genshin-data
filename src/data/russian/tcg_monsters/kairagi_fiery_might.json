@@ -1,0 +1,85 @@
+{
+  "_id": 3303,
+  "id": "kairagi_fiery_might",
+  "name": "Кайраги: Огненная мощь",
+  "title": "Кайраги: Огненная мощь",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Кайраги"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Тройной разрез",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Рассекающий прыжок",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Иай: ното",
+      "desc": "Текущий персонаж подготавливает навык: <span style=\"color:#FFFFFFFF\">Иай: огненный вихрь</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_pyro",
+      "name": "Амулет Камуны: Пламя",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Амулет Камуны: Пламя</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Финальная лихорадка",
+      "desc": "Когда другой ваш кайраги оказывается повержен, персонаж получает <span style=\"color:#FFFFFFFF\">Финальная лихорадка</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

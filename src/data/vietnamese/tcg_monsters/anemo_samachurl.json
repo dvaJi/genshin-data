@@ -1,0 +1,65 @@
+{
+  "_id": 3501,
+  "id": "anemo_samachurl",
+  "name": "Phù Thủy Hilichurl Phong",
+  "title": "Phù Thủy Hilichurl Phong",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Phong",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Gậy Tấn Công",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_to_the_winds",
+      "name": "Thuật Gọi Gió",
+      "desc": "Gây 2 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Lốc Xoáy</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_shock",
+      "name": "Vòng Gió Xung Kích",
+      "desc": "Gây 5 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

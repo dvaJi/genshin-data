@@ -1,0 +1,78 @@
+{
+  "_id": 3405,
+  "id": "nobushi_kikouban",
+  "name": "Nobushi - Astucia",
+  "title": "Nobushi - Astucia",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Ráfaga de cortes",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mechanical_thunderbow",
+      "name": "Electroflecha mecánica",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Golpe de espada: Envaine",
+      "desc": "Este personaje prepara la habilidad <span style=\"color:#FFFFFFFF\">Golpe de espada: Desenvaine</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Crueldad",
+      "desc": "Pasiva (fase final): si este personaje está en combate, obtiene Energía +1.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "_id": 3203,
+  "id": "fatui_skirmisher_hydrogunner_legionnaire",
+  "name": "Đội Tiên Phong Fatui - Vệ Binh Thủy Hạng Nặng",
+  "title": "Đội Tiên Phong Fatui - Vệ Binh Thủy Hạng Nặng",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Fatui"]
+  },
+  "skills": [
+    {
+      "id": "skilled_charge",
+      "name": "Xung Đột Chiến Thuật",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "curative_bullet",
+      "name": "Đạn Trị Liệu",
+      "desc": "Gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, trị liệu 1 điểm cho 2 nhân vật dự bị của phe ta.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_buff_hydro",
+      "name": "Buff Nguyên Tố: Thủy",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Vũ Trang Nguyên Tố - Thủy</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Tiếp Tế",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này nhận 2 điểm Năng Lượng.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

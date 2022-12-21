@@ -1,0 +1,64 @@
+{
+  "_id": 3402,
+  "id": "electro_hilichurl_shooter",
+  "name": "Hilichurl Lôi Tiễn",
+  "title": "Hilichurl Lôi Tiễn",
+  "desc": "",
+  "attributes": {
+    "hp": 3,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "thunder_arrow",
+      "name": "Mũi Tên Sét",
+      "desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multishot",
+      "name": "Bắn Liên Tục",
+      "desc": "Gây 4 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "name": "Nấp",
+      "desc": "(Bị Động) Nhân vật này khi xuất chiêu sẽ tự động đổi đến nhân vật tiếp theo.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

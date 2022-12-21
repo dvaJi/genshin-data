@@ -1,0 +1,85 @@
+{
+  "_id": 5201,
+  "id": "hydro_abyss_mage",
+  "name": "Mago dell'Abisso di Hydro",
+  "title": "Mago dell'Abisso di Hydro",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"]
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Hydrobomba",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubbling_offering",
+      "name": "Rituale della bolla assassina",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, il personaggio bersaglio subisce <span style=\"color:#FFFFFFFF\">Bolla di nebbia</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_mortal_water",
+      "name": "Rito delle acque mortali",
+      "desc": "Infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, il personaggio bersaglio subisce <span style=\"color:#FFFFFFFF\">Bolla di nebbia</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "carica",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hydro_shield",
+      "name": "Scudo di Hydro",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Scudo di Hydro</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Protezione dell'Abisso",
+      "desc": "(Passiva) Quando lo scudo viene distrutto, dopo aver usato l'abilità applica nuovamente <span style=\"color:#FFFFFFFF\">Scudo di Hydro</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_id": 3703,
+  "id": "dendro_samachurl",
+  "name": "Dendro Samachurl",
+  "title": "Dendro Samachurl",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไม้",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Staff Strike",
+      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "venomous_vines",
+      "name": "Venomous Vines",
+      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย และทำให้เกิด <span style=\"color:#FFFFFFFF\">Vines</span> แก่ตัวละครในสนามของฝ่ายตรงข้าม",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dendro_field",
+      "name": "Dendro Field",
+      "desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

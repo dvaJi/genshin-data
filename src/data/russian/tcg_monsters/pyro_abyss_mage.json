@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Пиро маг Бездны",
+  "title": "Пиро маг Бездны",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Огненная волна",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Воздаяние огню",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Ритуал огненного фонтана",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 7 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Пиро купол",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Пиро купол</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Защита бездны",
+      "desc": "(Пассивный навык) Когда щит разрушается и персонаж применяет навык: восстанавливает <span style=\"color:#FFFFFFFF\">Пиро купол</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

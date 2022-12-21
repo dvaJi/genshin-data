@@ -1,0 +1,65 @@
+{
+  "_id": 3501,
+  "id": "anemo_samachurl",
+  "name": "Rüzgar Dağ Şamanı",
+  "title": "Rüzgar Dağ Şamanı",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar", "Dağ Yabanisi"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Asa Saldırısı",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_to_the_winds",
+      "name": "Rüzgar Dansı",
+      "desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Hortum</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_shock",
+      "name": "Rüzgar Dalgası Saldırısı",
+      "desc": "5 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

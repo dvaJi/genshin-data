@@ -1,0 +1,78 @@
+{
+  "_id": 3305,
+  "id": "nobushi_hitsukeban",
+  "name": "Nobushi - Hitsukeban",
+  "title": "Nobushi - Hitsukeban|s1:Nobushis - Hitsukeban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blaze_bloom",
+      "name": "Floraison flamboyante",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et bascule votre personnage pour le personnage suivant.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : <span style=\"color:#FFFFFFFF\">Iai : Avancée</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Phase finale : Si le personnage est le personnage actif, accorde 1 charge.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "_id": 3202,
+  "id": "hydro_samachurl",
+  "name": "Samachurl Hydro",
+  "title": "Samachurl Hydro",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Golpe de Cetro",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prayer_for_rain",
+      "name": "Dança da Chuva",
+      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, invoca <span style=\"color:#FFFFFFFF\">Chuva da Cura</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tidal_impact",
+      "name": "Impacto Torrencial",
+      "desc": "Causa 5 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

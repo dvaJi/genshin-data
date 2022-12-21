@@ -1,0 +1,71 @@
+{
+  "_id": 3502,
+  "id": "fatui_skirmisher_anemoboxer_vanguard",
+  "name": "ファデュイ先遣隊·前鋒軍·風拳",
+  "title": "ファデュイ先遣隊·前鋒軍·風拳",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"]
+  },
+  "skills": [
+    {
+      "id": "hurricane_jab",
+      "name": "疾風ジャブ",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gathering_the_winds",
+      "name": "廻風チャージ",
+      "desc": "本キャラに<span style=\"color:#FFFFFFFF\">廻風障壁</span>を付与し、スキル<span style=\"color:#FFFFFFFF\">逆風の反撃</span>の準備に入る。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "galeforce_agitation",
+      "name": "激風鼓動",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を3与え、味方の「ファデュイ」キャラが<span style=\"color:#FFFFFFFF\">チャージ</span>を1獲得する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

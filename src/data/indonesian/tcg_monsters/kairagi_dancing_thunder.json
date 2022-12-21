@@ -1,0 +1,85 @@
+{
+  "_id": 3401,
+  "id": "kairagi_dancing_thunder",
+  "name": "Kairagi: Dancing Thunder",
+  "title": "Kairagi: Dancing Thunder",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Senjata Lain",
+    "faction": ["Kairagi"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Three Point Slash",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Leaping Strike",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai: Sheathed",
+      "desc": "Karakter ini sedang mempersiapkan Skill: <span style=\"color:#FFFFFFFF\">Iai: Stormbreath</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_electro",
+      "name": "Kamuna Talisman: Electro",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Kamuna Talisman: Electro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Final Frenzy",
+      "desc": "Saat Karakter Kairagi-mu yang lain kalah, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Final Frenzy</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

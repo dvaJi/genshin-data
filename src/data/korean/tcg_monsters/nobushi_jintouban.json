@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "「노부시·칼잡이」",
+  "title": "「노부시·칼잡이」",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "원소 타입 없음",
+    "weapon": "그 외 무기",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "연속 베기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "뛰어올라 내려찍기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "동일한 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "거합·납도",
+      "desc": "본 캐릭터가 <span style=\"color:#FFFFFFFF\">거합·앞</span> 스킬을 준비한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "동일한 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "잔심",
+      "desc": "[패시브] 종료 단계: 해당 캐릭터가 「출전 캐릭터」일 시, 원소 에너지를 1pt 획득한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

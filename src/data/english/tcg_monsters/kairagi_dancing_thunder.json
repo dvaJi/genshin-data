@@ -1,0 +1,85 @@
+{
+  "_id": 3401,
+  "id": "kairagi_dancing_thunder",
+  "name": "Kairagi: Dancing Thunder",
+  "title": "Kairagi: Dancing Thunder",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Other Weapons",
+    "faction": ["Kairagi"]
+  },
+  "skills": [
+    {
+      "id": "three_point_slash",
+      "name": "Three Point Slash",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "leaping_strike",
+      "name": "Leaping Strike",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai: Sheathed",
+      "desc": "This character prepares this Skill: <span style=\"color:#FFFFFFFF\">Iai: Stormbreath</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamuna_talisman_electro",
+      "name": "Kamuna Talisman: Electro",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Kamuna Talisman: Electro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "final_frenzy",
+      "name": "Final Frenzy",
+      "desc": "When another of your Kairagi characters gets defeated, this character gains <span style=\"color:#FFFFFFFF\">Final Frenzy</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Mago del Abismo Pyro",
+  "title": "Mago del Abismo Pyro",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Onda incineradora",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Ofrenda ardiente",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Rito de la erupción",
+      "desc": "Inflige 7 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Escudo Pyro",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene un <span style=\"color:#FFFFFFFF\">Escudo Pyro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Escudo abismal",
+      "desc": "Pasiva: después de que el personaje use una habilidad una vez que el escudo se haya roto, vuelve a obtener un <span style=\"color:#FFFFFFFF\">Escudo Pyro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

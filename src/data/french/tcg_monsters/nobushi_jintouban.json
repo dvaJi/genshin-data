@@ -1,0 +1,72 @@
+{
+  "_id": 3003,
+  "id": "nobushi_jintouban",
+  "name": "Nobushi - Jintouban",
+  "title": "Nobushi - Jintouban|s1:Nobushis - Jintouban",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": []
+  },
+  "skills": [
+    {
+      "id": "combo_slash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leap_attack",
+      "name": "Attaque sautée",
+      "desc": "Inflige 3 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "iai_sheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : <span style=\"color:#FFFFFFFF\">Iai : Avancée</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Phase finale : Si le personnage est le personnage actif, accorde 1 charge.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

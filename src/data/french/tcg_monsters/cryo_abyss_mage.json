@@ -1,0 +1,78 @@
+{
+  "_id": 3103,
+  "id": "cryo_abyss_mage",
+  "name": "Cryomage de l'Abîme",
+  "title": "Cryomage de l'Abîme|s1:Cryomages de l'Abîme",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"]
+  },
+  "skills": [
+    {
+      "id": "cryo_thorns",
+      "name": "Épine de glace",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frostdrift_offering",
+      "name": "Offrande de givre",
+      "desc": "Inflige 3 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rimestorm_rite",
+      "name": "Rite de tempête glaciale",
+      "desc": "Inflige 5 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "cryo_shield",
+      "name": "Bouclier Cryo",
+      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">bouclier Cryo</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

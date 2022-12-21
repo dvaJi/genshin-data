@@ -1,0 +1,65 @@
+{
+  "_id": 3703,
+  "id": "dendro_samachurl",
+  "name": "Samachurl Dendro",
+  "title": "Samachurl Dendro",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Golpe de Cetro",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "venomous_vines",
+      "name": "Videiras Venenosas",
+      "desc": "Causa 1 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>, gera <span style=\"color:#FFFFFFFF\">Videiras no campo do oponente</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dendro_field",
+      "name": "Campo Dendro",
+      "desc": "Causa 5 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

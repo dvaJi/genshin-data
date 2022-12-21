@@ -1,0 +1,85 @@
+{
+  "_id": 5301,
+  "id": "pyro_abyss_mage",
+  "name": "Feiticeiro do Abismo Pyro",
+  "title": "Feiticeiro do Abismo Pyro",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"]
+  },
+  "skills": [
+    {
+      "id": "flamewave",
+      "name": "Onda de Chamas",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_visage",
+      "name": "Ritual das Chamas Ardentes",
+      "desc": "Causa 3 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_the_molten_eruption",
+      "name": "Rito da Erupção Ardente",
+      "desc": "Causa 7 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pyro_shield",
+      "name": "Revestimento Pyro",
+      "desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Revestimento Pyro</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "Defesa do Abismo",
+      "desc": "(Passiva) Após uma habilidade ser usada enquanto o revestimento está destruído: aplica novamente <span style=\"color:#FFFFFFFF\">Revestimento Pyro</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

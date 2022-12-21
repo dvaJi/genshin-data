@@ -1,0 +1,78 @@
+{
+  "_id": 3203,
+  "id": "fatui_skirmisher_hydrogunner_legionnaire",
+  "name": "Soldado dos Fatui - Guarda de Canhão Hydro",
+  "title": "Soldado dos Fatui - Guarda de Canhão Hydro",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": ["Fatui"]
+  },
+  "skills": [
+    {
+      "id": "skilled_charge",
+      "name": "Ataque Frontal Habilidoso",
+      "desc": "Causa 2 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "curative_bullet",
+      "name": "Disparo de Cura",
+      "desc": "Causa 2 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_buff_hydro",
+      "name": "Aumento Elemental - Hydro",
+      "desc": "Causa 3 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Hydro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

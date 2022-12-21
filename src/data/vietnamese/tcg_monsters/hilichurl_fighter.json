@@ -1,0 +1,65 @@
+{
+  "_id": 3001,
+  "id": "hilichurl_fighter",
+  "name": "Hilichurl Chiến Sĩ",
+  "title": "Hilichurl Chiến Sĩ",
+  "desc": "",
+  "attributes": {
+    "hp": 4,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật", "Hilichurl"]
+  },
+  "skills": [
+    {
+      "id": "hit",
+      "name": "Đánh",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jump_and_hit",
+      "name": "Nhảy Đánh",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "swing_that_club",
+      "name": "Quơ Qua Quơ Lại",
+      "desc": "Gây 4 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

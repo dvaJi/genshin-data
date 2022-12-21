@@ -1,0 +1,85 @@
+{
+  "_id": 5201,
+  "id": "hydro_abyss_mage",
+  "name": "물의 심연 메이지",
+  "title": "물의 심연 메이지",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물"]
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "물폭탄",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubbling_offering",
+      "name": "포영의 마법",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 주고 대상 캐릭터에게 <span style=\"color:#FFFFFFFF\">물방울</span>이 부착된다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_mortal_water",
+      "name": "환영 생멸의 의식",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 4pt 주고 대상 캐릭터에게 <span style=\"color:#FFFFFFFF\">물방울</span>이 부착된다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hydro_shield",
+      "name": "물 원소 보호막",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">물 원소 보호막</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    },
+    {
+      "id": "aegis_of_the_abyss",
+      "name": "심연 가호",
+      "desc": "[패시브] 보호막이 파괴된 상태에서 스킬 사용 후: <span style=\"color:#FFFFFFFF\">물 원소 보호막</span>이 다시 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}
