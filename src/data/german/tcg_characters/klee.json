@@ -1,0 +1,82 @@
+{
+  "_id": 1306,
+  "id": "klee",
+  "name": "Klee",
+  "title": "Fliehende Sonne – Klee",
+  "desc": "Jedes Mal, wenn du eine Karte ziehst, kann eine „brisante Überraschung“ passieren.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Katalysator",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3458,
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise"
+    },
+    "character": {
+      "_id": 10000029,
+      "id": "klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Bumm-Bumm",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Bimm-Bamm-Bombe",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-Schaden</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Explosiver Funke</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Funkelfunken",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft auf dem Feld deines Gegners <span style=\"color:#FFFFFFFF\">Funkelfunken</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

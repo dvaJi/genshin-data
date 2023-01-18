@@ -1,0 +1,82 @@
+{
+  "_id": 1306,
+  "id": "klee",
+  "name": "Klee",
+  "title": "Sol Fugitivo - Klee",
+  "desc": "A cada vez que uma carta for comprada, ela pode vir acompanhada de uma \"surpresa explosiva\".",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Catalisador",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3458,
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise"
+    },
+    "character": {
+      "_id": 10000029,
+      "id": "klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Caboom",
+      "desc": "Causa 1 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Bomba Saltitante",
+      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Lampejo Explosivo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Faíscas Explosivas",
+      "desc": "Causa 3 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>, gera <span style=\"color:#FFFFFFFF\">Faíscas Explosivas no campo do oponente</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

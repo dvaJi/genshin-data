@@ -1,0 +1,82 @@
+{
+  "_id": 1306,
+  "id": "klee",
+  "name": "Klee",
+  "title": "\"Kaçan Güneş Işığı\" Klee",
+  "desc": "Çektiğin her kart, bir \"patlamalı sürpriz\" getirebilir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Katalizör",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3458,
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise"
+    },
+    "character": {
+      "_id": 10000029,
+      "id": "klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Bom!",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Zıpzıp Bodur",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Patlayıcı Kıvılcım</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Kıvılcımlar ve Patlama",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve rakibin alanında bir <span style=\"color:#FFFFFFFF\">Kıvılcımlar ve Patlama</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

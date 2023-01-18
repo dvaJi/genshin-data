@@ -1,0 +1,83 @@
+{
+  "_id": 1405,
+  "id": "beidou",
+  "name": "Beidou",
+  "title": "Ungekrönte Königin der Meere – Beidou",
+  "desc": "„Heute hättest du beinahe Geld vom Kapitän der Crux gewonnen. Solch einen Tag solltest du nie vergessen.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Zweihänder",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3459,
+      "id": "lightning_storm",
+      "name": "Lightning Storm"
+    },
+    "character": {
+      "_id": 10000024,
+      "id": "beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "oceanborne",
+      "name": "Meeresbezwinger",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tidecaller",
+      "name": "Wellenfänger",
+      "desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Wellenfänger – Umarmende Brandung</span> und <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeit vor</span>: <span style=\"color:#FFFFFFFF\">$[S14054]</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stormbreaker",
+      "name": "Blitzbrecher",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Donnerschild</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    null
+  ]
+}

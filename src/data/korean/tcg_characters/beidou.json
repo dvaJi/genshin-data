@@ -1,0 +1,83 @@
+{
+  "_id": 1405,
+  "id": "beidou",
+  "name": "북두",
+  "title": "무관의 용왕·북두",
+  "desc": "「오늘을 기억해두라고, 남십자함대 우두머리의 돈을 딸 뻔했던 날이니까」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "번개 원소",
+    "weapon": "양손검",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3459,
+      "id": "lightning_storm",
+      "name": "Lightning Storm"
+    },
+    "character": {
+      "_id": 10000024,
+      "id": "beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "oceanborne",
+      "name": "파도 정복",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tidecaller",
+      "name": "파도잡이",
+      "desc": "본 캐릭터에게 <span style=\"color:#FFFFFFFF\">파도잡이·파도의 포옹</span>을 부착하고 <span style=\"color:#FFFFFFFF\">$[S14054]</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stormbreaker",
+      "name": "작뢰",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">뇌전 괴수의 방패</span>를 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    null
+  ]
+}

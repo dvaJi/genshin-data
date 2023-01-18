@@ -1,0 +1,83 @@
+{
+  "_id": 1405,
+  "id": "beidou",
+  "name": "Beidou",
+  "title": "Beidou, “la Reina del Océano sin Corona”",
+  "desc": "“Recuerda este día como el día en el que casi consigues el botín de la capitana de la Flota Crux Meridianam”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3459,
+      "id": "lightning_storm",
+      "name": "Lightning Storm"
+    },
+    "character": {
+      "_id": 10000024,
+      "id": "beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "oceanborne",
+      "name": "Conquista del océano",
+      "desc": "Inflige 2 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tidecaller",
+      "name": "Invocadora de mareas",
+      "desc": "Este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">Invocadora de mareas: Protección del oleaje</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">$[S14054]</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stormbreaker",
+      "name": "Quebrantatormentas",
+      "desc": "Inflige 3 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y crea un <span style=\"color:#FFFFFFFF\">escudo del trueno</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    null
+  ]
+}

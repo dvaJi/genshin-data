@@ -1,0 +1,83 @@
+{
+  "_id": 1405,
+  "id": "beidou",
+  "name": "北斗",
+  "title": "无冕的龙王·北斗",
+  "desc": "「记住这一天，你差点赢了南十字船队老大的钱。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "双手剑",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3459,
+      "id": "lightning_storm",
+      "name": "Lightning Storm"
+    },
+    "character": {
+      "_id": 10000024,
+      "id": "beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "oceanborne",
+      "name": "征涛",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tidecaller",
+      "name": "捉浪",
+      "desc": "本角色附属<span style=\"color:#FFFFFFFF\">捉浪·涛拥之守</span>并<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">$[S14054]</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stormbreaker",
+      "name": "斫雷",
+      "desc": "造成3点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">雷兽之盾</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    null
+  ]
+}

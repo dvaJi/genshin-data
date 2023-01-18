@@ -1,0 +1,82 @@
+{
+  "_id": 1306,
+  "id": "klee",
+  "name": "Klee",
+  "title": "Mặt Trời Chạy Trốn - Klee",
+  "desc": "Mỗi lần rút bài, đều có thể mang đến 1 lần \"Niềm Vui Bùng Nổ\".",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Pháp Khí",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3458,
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise"
+    },
+    "character": {
+      "_id": 10000029,
+      "id": "klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Bằng Bằng",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Bom Nảy",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Hoa Tia Lửa</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Tia Lửa Mãnh Liệt",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, tạo ra <span style=\"color:#FFFFFFFF\">Tia Lửa Mãnh Liệt</span> trên sân đối phương.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

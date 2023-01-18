@@ -1,0 +1,82 @@
+{
+  "_id": 1306,
+  "id": "klee",
+  "name": "Klee",
+  "title": "\"Fleeing Sunlight\" Klee",
+  "desc": "Dari setiap kartu yang kamu ambil, mungkin akan terdapat satu \"kejutan yang meledak-ledak\".",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Catalyst",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3458,
+      "id": "pounding_surprise",
+      "name": "Pounding Surprise"
+    },
+    "character": {
+      "_id": 10000029,
+      "id": "klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kaboom",
+      "name": "Kaboom!",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumpy_dumpty",
+      "name": "Jumpy Dumpty",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/>Karakter ini menerima status <span style=\"color:#FFFFFFFF\">Explosive Spark</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sparks_n_splash",
+      "name": "Sparks 'n' Splash",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan menciptakan <span style=\"color:#FFFFFFFF\">Sparks 'n' Splash</span> di area bermain lawan.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
