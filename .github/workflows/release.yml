@@ -38,6 +38,6 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Publish Package
-        run: pnpm publish
+        run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

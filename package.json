@@ -17,7 +17,6 @@
     "node": ">=13"
   },
   "scripts": {
-    "prepare": "npm run build",
     "clean:dist": "rimraf dist/",
     "build:types": "tsc src/index.ts --declarationDir dist/ --lib esnext --emitDeclarationOnly --declaration",
     "build:lib": "vite build",
