@@ -1,3 +1,9 @@
+## [0.28.1](https://github.com/dvaJi/genshin-data/compare/0.28.0...0.28.1) (2023-01-31)
+
+### Features
+
+- add missing ingredients ([5f484e9](https://github.com/dvaJi/genshin-data/commit/5f484e9eae1a52446e1683f67e87302dc1a53619))
+
 ## [0.28.0](https://github.com/dvaJi/genshin-data/compare/0.27.3...0.28.0) (2023-01-18)
 
 ### Features
