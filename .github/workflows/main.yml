@@ -43,13 +43,15 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
 
       - name: Generate
         run: pnpm generate
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
+          NODE_OPTIONS: --max_old_space_size=8192
 
       - name: Build
         run: pnpm build
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
+          NODE_OPTIONS: --max_old_space_size=8192
