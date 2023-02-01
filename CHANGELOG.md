@@ -1,3 +1,13 @@
+## [0.28.2](https://github.com/dvaJi/genshin-data/compare/0.28.1...0.28.2) (2023-01-31)
+
+### Fixes
+
+- update workflows ([ee8b3f2](https://github.com/dvaJi/genshin-data/commit/ee8b3f23b562ada3c432e11d4c41488099320598))
+
+- increase max_old_space_size workflow ([1f7d0b6](https://github.com/dvaJi/genshin-data/commit/1f7d0b6d05d849645161365f981d7bbbd280dd85))
+
+- add id to 'special' food ([00e0ffd](https://github.com/dvaJi/genshin-data/commit/00e0ffdbba53703690eb0c6d12d68f8b0c3a07db))
+
 ## [0.28.1](https://github.com/dvaJi/genshin-data/compare/0.28.0...0.28.1) (2023-01-31)
 
 ### Features
