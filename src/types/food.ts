@@ -25,6 +25,7 @@ type FoodResult = {
   };
   special?: {
     _id: number;
+    id: string;
     name: string;
     description: string;
     effect: string;

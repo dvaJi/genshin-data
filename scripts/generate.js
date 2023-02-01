@@ -44,6 +44,8 @@ function combineData() {
     fs.writeFileSync(newFilePath, JSON.stringify(data));
     console.log(path.join(MIN_PATH), `data_${lang}.min.json`);
   }
+
+  console.log('Done');
 }
 
 combineData();

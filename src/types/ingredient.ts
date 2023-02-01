@@ -18,4 +18,5 @@ export type Ingredients = {
   description: string;
   processing?: Item[];
   recipes?: Recipe[];
+  source?: string[];
 };
