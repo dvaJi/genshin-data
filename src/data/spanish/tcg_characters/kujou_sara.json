@@ -1,0 +1,80 @@
+{
+  "_id": 1406,
+  "id": "kujou_sara",
+  "name": "Kujou Sara",
+  "title": "Kujou Sara - La Arquera Plumanegra",
+  "desc": "“Este acto es en nombre de la justicia”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": ["Inazuma"],
+    "source": [
+      "Se obtiene tras retar y ganar a Kujou Sara en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000056,
+      "id": "kujou_sara",
+      "name": "Kujou Sara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "tengu_bowmanship",
+      "name": "Técnica de arco Tengu",
+      "desc": "Inflige 2 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tengu_stormcall",
+      "name": "Electroinvocación tengu",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y causa una <span style=\"color:#FFFFFFFF\">maldición tengu: emboscada</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "subjugation_koukou_sendou",
+      "name": "Aplacamiento: Camino de la luz",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y causa una <span style=\"color:#FFFFFFFF\">maldición tengu: tormenta pétrea</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

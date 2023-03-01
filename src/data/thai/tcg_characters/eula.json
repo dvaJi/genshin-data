@@ -1,0 +1,85 @@
+{
+  "_id": 1106,
+  "id": "eula",
+  "name": "Eula",
+  "title": "ระบำแห่งเกลียวคลื่น - Eula",
+  "desc": "นี่ก็แค่เกมตานึงเท่านั้น ไม่ว่าจะคว้าชัยหรือพ่ายแพ้ เธอก็ไม่ได้ทำความผิดอันใดด้วยเหตุนี้ทั้งนั้น",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "ดาบใหญ่",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3601,
+      "id": "wellspring_of_warlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": [
+      "ได้รับหลังจากเชิญ Eula ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+    ],
+    "character": {
+      "_id": 10000051,
+      "id": "eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_edel",
+      "name": "Favonius Bladework - Edel",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icetide_vortex",
+      "name": "Icetide Vortex",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ <span style=\"color:#FFFFFFFF\">Grimheart</span> จะทำให้ได้รับ <span style=\"color:#FFFFFFFF\">Grimheart</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_illumination",
+      "name": "Glacial Illumination",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Lightfall Sword</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

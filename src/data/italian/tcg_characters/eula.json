@@ -1,0 +1,85 @@
+{
+  "_id": 1106,
+  "id": "eula",
+  "name": "Eula",
+  "title": "Eula, Danza dell'onda luccicante",
+  "desc": "\"È solo un gioco. Se la fortuna sarà dalla tua parte, non nutrirò rancore.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3601,
+      "id": "wellspring_of_warlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": [
+      "Ricompensa ottenuta sfidando Eula a duello alla Coda di Gatto e battendola in un duello amichevole"
+    ],
+    "character": {
+      "_id": 10000051,
+      "id": "eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_edel",
+      "name": "Tecnica di Favonius - Edel",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icetide_vortex",
+      "name": "Vortice algido",
+      "desc": "Infligge 2 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>. Se questo personaggio non ha ancora ottenuto <span style=\"color:#FFFFFFFF\">Cuortetro</span>, acquisisce <span style=\"color:#FFFFFFFF\">Cuortetro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_illumination",
+      "name": "Illuminazione glaciale",
+      "desc": "Infligge 2 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, evoca 1 <span style=\"color:#FFFFFFFF\">Spada di luce cadente</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

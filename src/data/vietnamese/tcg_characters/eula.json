@@ -1,0 +1,85 @@
+{
+  "_id": 1106,
+  "id": "eula",
+  "name": "Eula",
+  "title": "Vũ Điệu Bọt Biển - Eula",
+  "desc": "Đây chỉ là một trò chơi, bất luận là thắng hay thua, cậu cũng sẽ không bị thêm tội danh đâu.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Băng",
+    "weapon": "Trọng Kiếm",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3601,
+      "id": "wellspring_of_warlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": [
+      "Nhận được sau khi mời Eula giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+    ],
+    "character": {
+      "_id": 10000051,
+      "id": "eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_edel",
+      "name": "Tây Phong Kiếm - Tông Thất",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icetide_vortex",
+      "name": "Lốc Xoáy Băng Hàn",
+      "desc": "Gây 2 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, nếu nhân vật này chưa có <span style=\"color:#FFFFFFFF\">Trái Tim Băng Giá</span>, sẽ khiến nhân vật này nhận <span style=\"color:#FFFFFFFF\">Trái Tim Băng Giá</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_illumination",
+      "name": "Thanh Kiếm Sóng Nước",
+      "desc": "Gây 2 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Kiếm Ánh Sáng</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

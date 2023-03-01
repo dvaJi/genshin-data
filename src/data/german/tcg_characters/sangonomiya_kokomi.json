@@ -1,0 +1,85 @@
+{
+  "_id": 1205,
+  "id": "sangonomiya_kokomi",
+  "name": "Sangonomiya Kokomi",
+  "title": "Perle der Weisheit – Sangonomiya Kokomi",
+  "desc": "Bereite dich auf einen regnerischen Tag vor, um einer Krise voraus zu sein.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3600,
+      "id": "tamanooyas_casket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Sangonomiya Kokomi in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000054,
+      "id": "sangonomiya_kokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "the_shape_of_water",
+      "name": "Form des Wassers",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kurages_oath",
+      "name": "Eid des Kurage",
+      "desc": "Verleiht der Figur das <span style=\"color:#80C0FFFF\">Hydro-Attribut</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Bakekurage</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "nereids_ascension",
+      "name": "Nereidenaufstieg",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Rituelles Federkleid</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,7 @@
       "_id": 10381,
       "id": "normal_attack_guhua_style",
       "name": "Ataque Normal: Técnica de espada Guhua",
-      "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques rápidos.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
       "info": "",
       "attributes": [
         {
@@ -393,7 +393,7 @@
     {
       "id": "hydropathic",
       "name": "Secretos del agua",
-      "description": "Cuando una espada de lluvia se rompe o termina su duración, el personaje en uso regenera una cantidad de Vida proporcional al 6% de la Vida Máx. de Xingchiu.",
+      "description": "Cuando una espada de lluvia se rompe al recibir un ataque o termina su duración, el personaje en uso recupera una cantidad de Vida proporcional al 6% de la Vida Máx. de Xingchiu.",
       "level": 1
     },
     {
@@ -421,7 +421,7 @@
       "_id": 252,
       "id": "rainbow_upon_the_azure_sky",
       "name": "Arcoíris brillante",
-      "description": "Extiende la duración de <span>Espada Guhua: Sable de lluvia</span> en 3 s y reduce en un 15% la <span>RES Hydro</span> de los enemigos golpeados por la lluvia de espadas durante 4 s.",
+      "description": "Extiende la duración de <span>Espada Guhua: Sable de lluvia</span> en 3 s y reduce en un 15% durante 4 s la <span>RES Hydro</span> de los enemigos golpeados por la lluvia de espadas.",
       "level": 2
     },
     {
@@ -449,7 +449,7 @@
       "_id": 256,
       "id": "hence_call_them_my_own_verses",
       "name": "Colección de poesía",
-      "description": "Con cada 2 ataques de lluvia de espadas de <span>Espada Guhua: Sable de lluvia</span>, el daño de la siguiente lluvia de espadas aumentará considerablemente. Además, Xingchiu recupera 3 pts. de Energía Elemental cada vez que ataca a sus enemigos con una lluvia de espadas.",
+      "description": "Con cada 2 ataques de lluvia de espadas de <span>Espada Guhua: Sable de lluvia</span>, la siguiente lluvia de espadas se fortalece considerablemente y, al golpear a un enemigo, regenera 3 pts. de Energía Elemental para Xingchiu.",
       "level": 6
     }
   ],
@@ -475,7 +475,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["-", "0%"]
+          "values": ["-", "0.0%"]
         }
       ]
     },
@@ -501,7 +501,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["0%", "0%"]
+          "values": ["0.0%", "0.0%"]
         }
       ],
       "mat1": {
@@ -548,7 +548,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["0%", "6%"]
+          "values": ["0.0%", "6.0%"]
         }
       ],
       "mat1": {
@@ -602,7 +602,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["6%", "12%"]
+          "values": ["6.0%", "12.0%"]
         }
       ],
       "mat1": {
@@ -652,11 +652,11 @@
         },
         {
           "label": "DEF Base",
-          "values": ["499", "533 "]
+          "values": ["499", "533"]
         },
         {
           "label": "ATQ",
-          "values": ["12%", "12%"]
+          "values": ["12.0%", "12.0%"]
         }
       ],
       "mat1": {
@@ -710,7 +710,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["12%", "18%"]
+          "values": ["12.0%", "18.0%"]
         }
       ],
       "mat1": {
@@ -764,7 +764,7 @@
         },
         {
           "label": "ATQ",
-          "values": ["18%", "24%"]
+          "values": ["18.0%", "24.0%"]
         }
       ],
       "mat1": {

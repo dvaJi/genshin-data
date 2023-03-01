@@ -1,0 +1,85 @@
+{
+  "_id": 1106,
+  "id": "eula",
+  "name": "Eula",
+  "title": "\"Dance of the Shimmering Wave\" Eula",
+  "desc": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3601,
+      "id": "wellspring_of_warlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": [
+      "Reward for inviting Eula to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    ],
+    "character": {
+      "_id": 10000051,
+      "id": "eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_edel",
+      "name": "Favonius Bladework - Edel",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icetide_vortex",
+      "name": "Icetide Vortex",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>. If this character has not yet gained <span style=\"color:#FFFFFFFF\">Grimheart</span>, they will gain <span style=\"color:#FFFFFFFF\">Grimheart</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "glacial_illumination",
+      "name": "Glacial Illumination",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Lightfall Sword</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

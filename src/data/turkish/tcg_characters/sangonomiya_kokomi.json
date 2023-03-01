@@ -1,0 +1,85 @@
+{
+  "_id": 1205,
+  "id": "sangonomiya_kokomi",
+  "name": "Sangonomiya Kokomi",
+  "title": "\"Bilgelik İncisi\" Sangonomiya Kokomi",
+  "desc": "Zorlukları aşmak için onlara karşı hazır olman gerekir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Katalizör",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3600,
+      "id": "tamanooyas_casket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": [
+      "Sangonomiya Kokomi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000054,
+      "id": "sangonomiya_kokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "the_shape_of_water",
+      "name": "Suyun Şekli",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kurages_oath",
+      "name": "Kurage Yemini",
+      "desc": "Bu karakter <span style=\"color:#80C0FFFF\">Su Etkisi</span> kazanır ve 1 <span style=\"color:#FFFFFFFF\">Bake-Kurage</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "nereids_ascension",
+      "name": "Nereid'in Yükselişi",
+      "desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Merasim Elbisesi</span> kazanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji Yükü",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

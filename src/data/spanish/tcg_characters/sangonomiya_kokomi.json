@@ -1,0 +1,85 @@
+{
+  "_id": 1205,
+  "id": "sangonomiya_kokomi",
+  "name": "Sangonomiya Kokomi",
+  "title": "Sangonomiya Kokomi - La Perla de la Sabiduría",
+  "desc": "Para superar la adversidad, hay que anticiparse a ella.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3600,
+      "id": "tamanooyas_casket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": [
+      "Se obtiene tras retar y ganar a Sangonomiya Kokomi en un duelo amistoso en la taberna Cola de Gato"
+    ],
+    "character": {
+      "_id": 10000054,
+      "id": "sangonomiya_kokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "the_shape_of_water",
+      "name": "La forma del agua",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kurages_oath",
+      "name": "Juramento de la medusa",
+      "desc": "El personaje recibe una <span style=\"color:#80C0FFFF\">aplicación Hydro</span> e invoca una <span style=\"color:#FFFFFFFF\">medusa</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "nereids_ascension",
+      "name": "Encarnación de las nereidas",
+      "desc": "Inflige 3 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">manto ceremonial</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
