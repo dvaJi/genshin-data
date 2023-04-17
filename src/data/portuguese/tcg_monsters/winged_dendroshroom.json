@@ -1,0 +1,78 @@
+{
+  "_id": 3701,
+  "id": "winged_dendroshroom",
+  "name": "Cogumelo Alado Dendro",
+  "title": "Cogumelo Alado Dendro",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"]
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Disparo Habilidoso",
+      "desc": "Causa 3 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Mergulho Explosivo",
+      "desc": "Causa 5 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Transformação",
+      "desc": "(Passivo) No começo da batalha, o personagem está em <span style=\"color:#FFFFFFFF\">Estado Normal</span>.<br/>Após o personagem receber <span style=\"color:#FF9999FF\">Dano Pyro</span>: muda para <span style=\"color:#FFFFFFFF\">Estado Queimado</span>.<br/>Após receber <span style=\"color:#FFACFFFF\">Dano Electro</span>: muda para <span style=\"color:#FFFFFFFF\">Estado Ativo</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

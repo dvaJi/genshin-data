@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "Камисато Аято",
+  "title": "«Оплот стойкости» Камисато Аято",
+  "desc": "Благословенный кипарис прорастает новыми листьями.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Одноручное",
+    "faction": ["Инадзума"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "Награда за приглашение Камисато Аято в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "Искусство Камисато: Маробаси",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "Искусство Камисато: Кёка",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Такимэгури канка</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "Искусство Камисато: Суйю",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Безмятежный сад</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "神里綾人",
+  "title": "磐祭葉守·神里綾人",
+  "desc": "神守之柏，已煥新材。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "單手劍",
+    "faction": ["稻妻"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "在貓尾酒館中邀請神里綾人進行對局，在友好對局難度中獲得勝利後獲得"
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "神里流·轉",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "神里流·鏡花",
+      "desc": "造成$[D__KEY__DAMAGE]點$[D__KEY__ELEMENT]，本角色附屬<span style=\"color:#FFFFFFFF\">瀧廻鑑花</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "神里流·水囿",
+      "desc": "造成$[D__KEY__DAMAGE]點$[D__KEY__ELEMENT]，召喚<span style=\"color:#FFFFFFFF\">清淨之園囿</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

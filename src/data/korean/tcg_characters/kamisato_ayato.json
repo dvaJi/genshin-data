@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "카미사토 아야토",
+  "title": "잎을 수호하는 반석·카미사토 아야토",
+  "desc": "신이 수호하는 떡갈나무에 새로운 가지가 자라났다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "한손검",
+    "faction": ["이나즈마"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "캣테일 술집에서 카미사토 아야토 초대 및 친선 대전 난이도 승리 후 획득"
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "카미사토류·전",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "카미사토류·거울꽃",
+      "desc": "$[D__KEY__ELEMENT]를 $[D__KEY__DAMAGE]pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">선회하는 거울꽃</span>을 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "카미사토류·물의 영역",
+      "desc": "$[D__KEY__ELEMENT]를 $[D__KEY__DAMAGE]pt 주고 <span style=\"color:#FFFFFFFF\">고요한 원유(苑囿)</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

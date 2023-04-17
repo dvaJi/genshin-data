@@ -3,7 +3,7 @@
   "id": "lisa",
   "name": "Lisa",
   "title": "Witch of Purple Rose",
-  "description": "Pustakawan Knights of Favonius yang sangat malas namun berwawasan sangat luas, pernah dinyatakan oleh Sumeru Akademiya sebagai siswi kelulusan terbaik 2 abad terakhir.",
+  "description": "Pustakawan Knights of Favonius yang sangat malas namun berwawasan sangat luas. Sumeru Akademiya menyatakan Lisa sebagai lulusan paling berbakat dalam 2 abad terakhir.",
   "weapon_type": "Catalyst",
   "element": "Electro",
   "gender": "Perempuan",
@@ -24,8 +24,8 @@
     {
       "_id": 10060,
       "id": "normal_attack_lightning_touch",
-      "name": "Lighting Touch",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan listrik yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina dan mengakibatkan <span>Electro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Electro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Electro DMG area</span> saat mendarat.",
+      "name": "Normal Attack: Lightning Touch",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan listrik yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Electro DMG Area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Electro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Electro DMG Area</span> saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -194,11 +194,11 @@
       "_id": 10061,
       "id": "violet_arc",
       "name": "Violet Arc",
-      "description": "Menyalurkan kekuatan petir untuk menyapu bersih masalah yang merepotkan.<br/><br/><span>Tekan</span><br/>Melancarkan sebuah bola listrik yang mengejar musuh.<br/>Saat mengenai musuh, mengakibatkan <span>Electro DMG</span> dan memberikan satu lapis efek Conductive (hingga 3 lapis) ke musuh di dalam area kecil.<br/><br/><span>Tahan</span><br/>Setelah waktu casting yang diperpanjang, memanggil petir dari langit untuk mengakibatkan <span>Electro DMG</span> yang besar ke semua musuh di sekitar.<br/>Mengakibatkan tambahan DMG yang besar ke musuh berdasarkan jumlah lapisan Conductive yang mereka miliki dan menghapusnya.",
-      "info": "Warna Electro Purple adalah warna sang Rose Witch.",
+      "description": "Menyalurkan kekuatan petir untuk menyapu bersih masalah yang merepotkan.<br/><br/><span>Mode Tekan</span><br/>Melancarkan sebuah Lightning Orb yang mengejar musuh.<br/>Saat mengenai musuh, Lightning Orb akan mengakibatkan <span>Electro DMG</span> dan memberikan satu lapis efek Conductive (maksimum 3 lapis) ke musuh di dalam sebuah area kecil.<br/><br/><span>Mode Tahan</span><br/>Setelah tombol skill ditahan untuk beberapa saat, Lisa akan memanggil petir dari langit untuk mengakibatkan <span>Electro DMG</span> yang besar ke semua musuh di sekitar.<br/>Akan mengakibatkan DMG tambahan yang besar kepada musuh berdasarkan jumlah lapisan efek Conductive yang dimiliki, kemudian menghapus efek ini.",
+      "info": "Warna ungu Electro adalah warna sang Witch of Purple Rose sendiri.",
       "attributes": [
         {
-          "label": "DMG One-tap",
+          "label": "DMG Mode Tekan",
           "values": [
             "80%",
             "86%",
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "label": "Cooldown (Mode Tekan)",
+          "label": "Cooldown Mode Tekan",
           "values": [
             "1 detik",
             "1 detik",
@@ -238,7 +238,7 @@
           ]
         },
         {
-          "label": "DMG Menahan Non-Conductive",
+          "label": "DMG Mode Tahan Tanpa Efek Conductive",
           "values": [
             "320%",
             "344%",
@@ -258,7 +258,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 1 Conductive",
+          "label": "DMG Mode Tahan (1 Lapis Efek Conductive)",
           "values": [
             "368%",
             "395.6%",
@@ -278,7 +278,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 2 Conductive",
+          "label": "DMG Mode Tahan (2 Lapis Efek Conductive)",
           "values": [
             "424%",
             "455.8%",
@@ -298,7 +298,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 3 Conductive",
+          "label": "DMG Mode Tahan (3 Lapis Efek Conductive)",
           "values": [
             "487.2%",
             "523.74%",
@@ -318,7 +318,7 @@
           ]
         },
         {
-          "label": "Cooldown (Mode Tahan)",
+          "label": "Cooldown Mode Tahan",
           "values": [
             "16 detik",
             "16 detik",
@@ -343,11 +343,11 @@
       "_id": 10062,
       "id": "lightning_rose",
       "name": "Lightning Rose",
-      "description": "Memanggil Lightning Rose yang mengerahkan sambaran petir dan menghempas musuh di sekitar untuk mengakibatkan <span>Electro DMG</span>.<br/>Lightning Rose akan terus memanggil petir untuk menghempas musuh dan mengakibatkan <span>Electro DMG</span> selama ia tetap ada.",
-      "info": "Hati-hati dengan duri mematikan dari mawar yang cantik.",
+      "description": "Memanggil Lightning Rose yang melancarkan sambaran petir kuat dan menghempaskan musuh di sekitar dan mengakibatkan <span>Electro DMG</span>.<br/>Selama durasinya berlangsung, Lightning Rose akan terus menyerang musuh di sekitar dengan petir dan mengakibatkan <span>Electro DMG</span>.",
+      "info": "Mawar memang cantik, tapi berhati-hatilah dengan durinya.",
       "attributes": [
         {
-          "label": "DMG Pelepasan Listrik",
+          "label": "DMG Serangan Petir",
           "values": [
             "36.56%",
             "39.3%",
@@ -433,19 +433,19 @@
     {
       "id": "induced_aftershock",
       "name": "Induced Aftershock",
-      "description": "Charged Attack yang mengenai musuh akan menyebabkan status Conductive dari <span>Violet Arc</span> pada musuh.",
+      "description": "Charged Attack yang mengenai musuh akan memberikan efek Conductive dari skill <span>Violet Arc</span> pada musuh.",
       "level": 1
     },
     {
       "id": "static_electricity_field",
       "name": "Static Electricity Field",
-      "description": "Saat mengenai musuh, <span>Lightning Rose</span> akan mengurangi 15% DEF musuh selama 10 detik.",
+      "description": "Serangan <span>Lightning Rose</span> yang mengenai musuh akan mengurangi 15% DEF musuh tersebut selama 10 detik.",
       "level": 4
     },
     {
       "id": "general_pharmaceutics",
       "name": "General Pharmaceutics",
-      "description": "Lisa memiliki 20% kemungkinan mendapatkan kembali material yang digunakan saat membuat potion.",
+      "description": "Lisa memiliki 20% kemungkinan mendapatkan kembali sebagian material yang digunakan saat membuat potion.",
       "level": 0
     }
   ],
@@ -454,14 +454,14 @@
       "_id": 41,
       "id": "infinite_circuit",
       "name": "Infinite Circuit",
-      "description": "Saat menahan <span>Violet Arc</span>, memulihkan 2 Energy Lisa untuk setiap musuh yang terkena serang.<br/>Paling banyak dapat memulihkan 10 Energy dengan cara ini setiap kalinya.",
+      "description": "<span>Violet Arc</span> dalam Mode Tahan akan memulihkan 2 Energy Lisa untuk setiap musuh yang terkena serangan.<br/>Maksimum dapat memulihkan 10 Energy dengan cara ini setiap kalinya.",
       "level": 1
     },
     {
       "_id": 42,
       "id": "electromagnetic_field",
       "name": "Electromagnetic Field",
-      "description": "Menahan <span>Violet Arc</span> memberikan efek berikut:<br/>·Meningkatkan 25% DEF.<br/>·Meningkatkan daya tahan Lisa terhadap gangguan.",
+      "description": "Menahan tombol skill <span>Violet Arc</span> akan memberikan efek berikut:<br/>·Meningkatkan 25% DEF.<br/>·Meningkatkan ketahanan Lisa terhadap interupsi.",
       "level": 2
     },
     {
@@ -475,7 +475,7 @@
       "_id": 44,
       "id": "plasma_eruption",
       "name": "Plasma Eruption",
-      "description": "Meningkatkan jumlah petir yang dilepaskan oleh <span>Lightning Rose</span> sebanyak 1-3.",
+      "description": "<span>Lightning Rose</span> akan melancarkan 1-3 sambaran petir saat menyerang.",
       "level": 4
     },
     {
@@ -489,7 +489,7 @@
       "_id": 46,
       "id": "pulsating_witch",
       "name": "Pulsating Witch",
-      "description": "Saat berganti karakter ke Lisa, Lisa akan memberikan 3 lapis status Conductive dari skill <span>Violet Arc</span> kepada musuh di sekitar.<br/>Efek ini dapat terpicu setiap 5 detik.",
+      "description": "Saat berganti Karakter ke Lisa, Lisa akan memberikan 3 lapis efek Conductive dari skill <span>Violet Arc</span> ke musuh di sekitar.<br/>Efek ini dapat terpicu sekali setiap 5 detik.",
       "level": 6
     }
   ],

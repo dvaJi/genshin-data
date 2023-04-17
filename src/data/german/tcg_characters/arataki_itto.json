@@ -1,0 +1,85 @@
+{
+  "_id": 1605,
+  "id": "arataki_itto",
+  "name": "Arataki Itto",
+  "title": "Held von Hanamizaka – Arataki Itto",
+  "desc": "„Arataki Itto der unbesiegbare Kartenbeschwörer“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Zweihänder",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3711,
+      "id": "arataki_ichiban",
+      "name": "Arataki Ichiban"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Arataki Itto in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000057,
+      "id": "arataki_itto",
+      "name": "Arataki Itto",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "fight_club_legend",
+      "name": "Lärmende Legende",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "masatsu_zetsugi_akaushi_burst",
+      "name": "Masatsu Zetsugi – Akaushi-Wurf!",
+      "desc": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Ushi</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Superstarke Superkraft</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "royal_descent_behold_itto_the_evil",
+      "name": "Schrecklicher Oni-König – Itto bricht vor!",
+      "desc": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Wütender Oni-König</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

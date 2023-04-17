@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "Kamisato Ayato",
+  "title": "Säule der Stärke – Kamisato Ayato",
+  "desc": "Cypressus Custos weckt den neuen Zweig.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Einhänder",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "Nach einem gewonnenen „Duell – Nett“ mit Kamisato Ayato in der Taverne Zum Katzenschwanz zu erhalten."
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "Kamisato-Stil – Marobashi",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "Kamisato-Stil – Kyouka",
+      "desc": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Takimeguri Kanka</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "Kamisato-Stil – Suiyuu",
+      "desc": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Garten der Reinheit</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_id": 1605,
+  "id": "arataki_itto",
+  "name": "Аратаки Итто",
+  "title": "«Герой Ханамидзаки» Аратаки Итто",
+  "desc": "Аратаки «Лучший картёжник» Итто.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Двуручное",
+    "faction": ["Инадзума"],
+    "talent_card": {
+      "_id": 3711,
+      "id": "arataki_ichiban",
+      "name": "Arataki Ichiban"
+    },
+    "source": [
+      "Награда за приглашение Аратаки Итто в «Кошкин хвост» и победу над ним в Дружеской дуэли"
+    ],
+    "character": {
+      "_id": 10000057,
+      "id": "arataki_itto",
+      "name": "Arataki Itto",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "fight_club_legend",
+      "name": "Легенда бойцовского клуба",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "masatsu_zetsugi_akaushi_burst",
+      "name": "Масацу дзэцуги: Взрыв акауси!",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Уси</span>. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Невероятная сила</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "royal_descent_behold_itto_the_evil",
+      "name": "Явление короля: Итто Жестокий!",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Яростный король óни</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

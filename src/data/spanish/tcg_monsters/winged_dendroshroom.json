@@ -1,0 +1,78 @@
+{
+  "_id": 3701,
+  "id": "winged_dendroshroom",
+  "name": "Dendrohongo Alado",
+  "title": "Dendrohongo Alado",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"]
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Chorro rodante",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Bomba en picada",
+      "desc": "Inflige 5 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar la batalla, el personaje está en <span style=\"color:#FFFFFFFF\">estado normal</span>.<br/>Tras recibir <span style=\"color:#FF9999FF\">Daño Pyro</span>, pasa al <span style=\"color:#FFFFFFFF\">estado quemado</span>.<br/>Tras recibir <span style=\"color:#FFACFFFF\">Daño Electro</span>, pasa al <span style=\"color:#FFFFFFFF\">estado revitalizado</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

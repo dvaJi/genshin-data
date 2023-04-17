@@ -1,0 +1,78 @@
+{
+  "_id": 3701,
+  "id": "winged_dendroshroom",
+  "name": "Champidendro ailé",
+  "title": "Champidendro ailé|s1:Champidendros ailés",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"]
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Balle de spores",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Pulvérisation roulante",
+      "desc": "Inflige 3 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Plongeon explosif",
+      "desc": "Inflige 5 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Changement d'état",
+      "desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">état normal</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span> : Le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span> : Le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

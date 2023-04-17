@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "Kamisato Ayato",
+  "title": "\"Metanet Abidesi\" Kamisato Ayato",
+  "desc": "İlahi olarak kutsanan selviden yeni yapraklar filizlenir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Kılıç",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "Kamisato Ayato'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "Kamisato Sanatı: Marobashi",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "Kamisato Sanatı: Kyouka",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve bu karakter <span style=\"color:#FFFFFFFF\">Takimeguri Kanka</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "Kamisato Sanatı: Suiyuu",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <span style=\"color:#FFFFFFFF\">Saflık Bahçesi</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "_id": 3701,
+  "id": "winged_dendroshroom",
+  "name": "Winged Dendroshroom",
+  "title": "Winged Dendroshroom",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"]
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Spore Bullet",
+      "desc": "Deals 1 <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Rolling Spray",
+      "desc": "Deals 3 <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Divebomb",
+      "desc": "Deals 5 <span style=\"color:#7EC236FF\">Dendro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "State Change",
+      "desc": "(Passive) When the battle begins, the character will be in a <span style=\"color:#FFFFFFFF\">Normal State</span>.<br/>After this character takes <span style=\"color:#FF9999FF\">Pyro DMG</span>, it will become <span style=\"color:#FFFFFFFF\">Scorched</span>.<br/>After this character takes <span style=\"color:#FFACFFFF\">Electro DMG</span>, it will become <span style=\"color:#FFFFFFFF\">Activated</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

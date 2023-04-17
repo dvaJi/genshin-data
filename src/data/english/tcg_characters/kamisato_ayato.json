@@ -1,0 +1,85 @@
+{
+  "_id": 1206,
+  "id": "kamisato_ayato",
+  "name": "Kamisato Ayato",
+  "title": "\"Pillar of Fortitude\" Kamisato Ayato",
+  "desc": "The divinely-blessed cypress sprouts new leaves.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Sword",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3712,
+      "id": "kyouka_fuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": [
+      "Reward for inviting Kamisato Ayato to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+    ],
+    "character": {
+      "_id": 10000066,
+      "id": "kamisato_ayato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "kamisato_art_marobashi",
+      "name": "Kamisato Art: Marobashi",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_kyouka",
+      "name": "Kamisato Art: Kyouka",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <span style=\"color:#FFFFFFFF\">Takimeguri Kanka</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kamisato_art_suiyuu",
+      "name": "Kamisato Art: Suiyuu",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <span style=\"color:#FFFFFFFF\">Garden of Purity</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

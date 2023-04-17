@@ -1,0 +1,78 @@
+{
+  "_id": 3701,
+  "id": "winged_dendroshroom",
+  "name": "Крылатый Дендро моровик",
+  "title": "Крылатый Дендро моровик",
+  "desc": "",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"]
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Выстрел спорами",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Выстрел-переворот",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Пикирующая бомбардировка",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Смена состояния",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Обычное состояние</span>.<br/>Получив <span style=\"color:#FF9999FF\">Пиро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Обожжение</span>.<br/>Получив <span style=\"color:#FFACFFFF\">Электро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Оживление</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}
