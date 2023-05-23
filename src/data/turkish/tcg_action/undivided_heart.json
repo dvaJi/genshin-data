@@ -4,19 +4,26 @@
   "name": "Tek Yürek",
   "title": "Ganyu: Tek Yürek",
   "desc": "Önce ok çarpar, sonra buza dönüşür.",
+  "in_play_description": "Bu kartı kuşanmış Ganyu karakterin <span style=\"color:#FFFFFFFF\">Buzdan Ok</span> becerisini kullandığında bu düelloda daha önce kullanıldıysa hazırdaki rakip karakterlere verilen <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> 3 olarak değişir.",
   "attributes": {
     "cost": 5,
     "cost_type": "Buz",
     "card_type": "Ekipman Kartı",
-    "source": [
-      "Ganyu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü."
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "Buz",
+        "count": 5
+      }
     ],
+    "source": "Ganyu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
     "tags": ["Yetenek", "Savaş Hamlesi"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span>: Aktif karakterin <span style=\"color:#FFFFFFFF\">Ganyu</span> olduğunda bu kartı kuşan.<br/>Ganyu bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Buzdan Ok</span> kullanır.<br/>Bu kartı kuşanmış Ganyu, <span style=\"color:#FFFFFFFF\">Buzdan Ok</span> kullandığında bu Beceri, bu düelloda daha önce kullanıldıysa Becerinin verdiği <span style=\"color:#99FFFFFF\">Buz Hasarı</span> 1 artar ve artık rakibinin hazırdaki karakterlerine 3 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir.<br/>(Bu kartı destene eklemek için destende Ganyu olmalıdır.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span>: Aktif karakterin <span style=\"color:#FFFFFFFF\">Ganyu</span> olduğunda bu kartı kuşan.<br/>Ganyu bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Buzdan Ok</span> kullanır.<br/>Bu kartı kuşanan Ganyu, <span style=\"color:#FFFFFFFF\">Buzdan Ok</span> kullandığında bu Beceri, bu düelloda daha önce kullanıldıysa hazırdaki rakip karakterlere verilen <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> 3 olarak değişir.<br/>(Bu kartı destene eklemek için destende Ganyu olmalıdır.)"
     }
   ]
 }

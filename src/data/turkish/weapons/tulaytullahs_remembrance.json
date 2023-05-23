@@ -7,7 +7,7 @@
   "type": "Katalizör",
   "domain": "Alçak Gurur Kulesi",
   "passive": "Mazinin Mavi Gözyaşı",
-  "bonus": "Normal Saldırı Hızı <span>%10/%12,5/%15/%17,5/%20</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%4,8/%6/%7,2/%8,4/%9,6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%9,6/%12/%14,4/%16,8/%19,2</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%48'dir/%60'dır/%72'dir/%84'tür/%96'dır</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar.",
+  "bonus": "Normal Saldırı Hızı <span>%10/%12,5/%15/%17,5/%20</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%4,8/%6/%7,2/%8,4/%9,6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%9,6/%12/%14,4/%16,8/%19,2</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%48/%60/%72/%84/%96</span>'dir. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar.",
   "stats": {
     "primary": "Temel Saldırı",
     "secondary": "Kritik Hasar",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Mazinin Mavi Gözyaşı",
+    "template": "Normal Saldırı Hızı <span style=\"color:#99FFFFFF\">{0}</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span style=\"color:#99FFFFFF\">{1}</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span style=\"color:#99FFFFFF\">{2}</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span style=\"color:#99FFFFFF\">{3}</span>'dır. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar.",
+    "params": [
+      ["%10", "%4,8", "%9,6", "%48"],
+      ["%12,5", "%6", "%12", "%60"],
+      ["%15", "%7,2", "%14,4", "%72"],
+      ["%17,5", "%8,4", "%16,8", "%84"],
+      ["%20", "%9,6", "%19,2", "%96"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Normal Saldırı Hızı <span>%10</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%4,8</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%9,6</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%48'dir</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
+      "desc": "Normal Saldırı Hızı <span>%10</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%4,8</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%9,6</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%48</span>'dir. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
     },
     {
       "refinement": 2,
-      "desc": "Normal Saldırı Hızı <span>%12,5</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%12</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%60'dır</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
+      "desc": "Normal Saldırı Hızı <span>%12,5</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%12</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%60</span>'tır. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
     },
     {
       "refinement": 3,
-      "desc": "Normal Saldırı Hızı <span>%15</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%7,2</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%14,4</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%72'dir</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
+      "desc": "Normal Saldırı Hızı <span>%15</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%7,2</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%14,4</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%72</span>'dir. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
     },
     {
       "refinement": 4,
-      "desc": "Normal Saldırı Hızı <span>%17,5</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%8,4</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%16,8</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%84'tür</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
+      "desc": "Normal Saldırı Hızı <span>%17,5</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%8,4</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%16,8</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%84</span>'tür. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
     },
     {
       "refinement": 5,
-      "desc": "Normal Saldırı Hızı <span>%20</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%9,6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%19,2</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%96'dır</span>. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
+      "desc": "Normal Saldırı Hızı <span>%20</span> artar. Saldırıyı yapan karakter Element Becerisi kullandıktan sonra 14 saniye boyunca her saniye Normal Saldırı Hasarı <span>%9,6</span> artar. Bu süreç içinde Normal Saldırı ile düşmana vurduktan sonra Normal Saldırı Hasarı <span>%19,2</span> artar. Bu artış her 0,3 saniyede bir tetiklenebilir. Bu etkinin tek bir süresi içinde Normal Saldırı Hasarı artış sınırı <span>%96</span>'dır. Karakter savaş alanından ayrılırsa bu etki sona erer ve tekrar Element Becerisi kullanmak bu becerinin sağladığı tüm Hasar güçlendirmelerini sıfırlar."
     }
   ]
 }

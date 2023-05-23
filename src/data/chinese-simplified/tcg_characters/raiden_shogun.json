@@ -1,0 +1,90 @@
+{
+  "_id": 1407,
+  "id": "raiden_shogun",
+  "name": "雷电将军",
+  "title": "一心净土·雷电将军",
+  "desc": "鸣雷寂灭，浮世泡影。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "长柄武器",
+    "faction": ["稻妻"],
+    "talent_card": {
+      "_id": 3849,
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "在猫尾酒馆中邀请雷电将军进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "_id": 10000052,
+      "id": "raiden_shogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "origin",
+      "name": "源流",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "transcendence_baleful_omen",
+      "name": "神变·恶曜开眼",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">雷罚恶曜之眼</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_musou_shinsetsu",
+      "name": "奥义·梦想真说",
+      "desc": "造成3点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，其他我方角色获得2点<span style=\"color:#FFFFFFFF\">充能</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chakra_desiderata",
+      "name": "诸愿百眼之轮",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">诸愿百眼之轮</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

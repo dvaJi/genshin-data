@@ -4,22 +4,31 @@
   "name": "Gezgin Doktorun Mendili",
   "title": "Tıbbi Uygulama: Gezgin Doktorun Mendili",
   "desc": "\"İster güneş çıksın ister yağmur yağsın, hiçbir şey gezgin doktora engel olamaz.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Bu karakter Element Patlaması kullandıktan sonra</span> tüm karakterlerin için 1 Can yeniler. (Her Turda bir defa)",
   "attributes": {
     "cost": 1,
     "cost_type": "Aynı Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210013,
       "id": "traveling_doctor",
-      "name": "Traveling Doctor"
+      "name": "Traveling Doctor",
+      "rarity": 3
     },
     "tags": ["Yadigar"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter, Element Patlaması kullandıktan sonra</span> tüm karakterlerin için 1 Can yeniler. (Her Turda bir defa)<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Karakter Element Patlaması kullandıktan sonra</span> tüm karakterlerin için 1 Can yeniler. (Her Turda bir defa)<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ]
 }

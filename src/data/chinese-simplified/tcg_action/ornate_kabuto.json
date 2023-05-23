@@ -4,22 +4,31 @@
   "name": "华饰之兜",
   "title": "往岁霆光·华饰之兜",
   "desc": "「浮生若梦十三年，影峠绯雪翩跹烟，再顾君已远。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">其他我方角色使用「元素爆发」后：</span>所附属角色获得1点<span style=\"color:#FFFFFFFF\">充能</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "无色元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "无色元素",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215020,
       "id": "emblem_of_severed_fate",
-      "name": "Emblem of Severed Fate"
+      "name": "Emblem of Severed Fate",
+      "rarity": 5
     },
     "tags": ["圣遗物"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">其他我方角色使用元素爆发后：</span>所附属角色获得1点<span style=\"color:#FFFFFFFF\">充能</span>。<br/>（角色最多装备1件「圣遗物」）"
+      "desc": "<span style=\"color:#FFFFFFFF\">其他我方角色使用「元素爆发」后：</span>所附属角色获得1点<span style=\"color:#FFFFFFFF\">充能</span>。<br/>（角色最多装备1件「圣遗物」）"
     }
   ]
 }

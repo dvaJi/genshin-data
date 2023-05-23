@@ -4,22 +4,31 @@
   "name": "Kızıl Alev Cadısı",
   "title": "Uçuşan Alevler: Kızıl Alev Cadısı",
   "desc": "\"Ağıt yakmayacağım. Yas tutmayacağım. İç çekmeyeceğim. Bunlar hiçbir işe yaramaz.\\nAdalet çoktan öldüyse kimi kurtarabilirim ki?\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter, bir Beceri kullandığında veya bir Yetenek Kartı kuşandığında</span> 1 adet daha az <span style=\"color:#FF9999FF\">Ateş Zarı</span> harcanır.(Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span>Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FF9999FF\">Ateş Zarı</span> olur.",
   "attributes": {
     "cost": 3,
     "cost_type": "Nötr Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Nötr Element",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215006,
       "id": "crimson_witch_of_flames",
-      "name": "Crimson Witch of Flames"
+      "name": "Crimson Witch of Flames",
+      "rarity": 5
     },
     "tags": ["Yadigar"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter, bir Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#FF9999FF\">Ateş Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FF9999FF\">Ateş Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#FF9999FF\">Ateş Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FF9999FF\">Ateş Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ]
 }

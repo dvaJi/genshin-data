@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "Hu Tao",
+  "title": "Pflaumenduft bei Tauwetter – Hu Tao",
+  "desc": "„Lass sie nur kommen, einer nach dem anderen.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Hu Tao in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "Geheime Wangsheng-Lanzentechnik",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "Geleit ins Jenseits",
+      "desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Paramita-Schmetterlingstanz</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "Geheime Kunst der Besänftigung",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1], stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

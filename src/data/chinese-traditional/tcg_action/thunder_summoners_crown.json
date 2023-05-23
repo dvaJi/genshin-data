@@ -4,15 +4,25 @@
   "name": "喚雷的頭冠",
   "title": "紫電驟雨·喚雷的頭冠",
   "desc": "「直至清澈的歌聲穿透低鳴的雷雨、撕裂空中的陰靄，將小小的光傳給那高天的鳥兒。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#FFACFFFF\">雷元素</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌組中獲得",
     "artifact": {
       "_id": 215005,
       "id": "thundering_fury",
-      "name": "Thundering Fury"
+      "name": "Thundering Fury",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

@@ -4,11 +4,19 @@
   "name": "Spada sacrificale",
   "title": "Compostezza: Spada sacrificale",
   "desc": "Questa lama era un semplice oggetto decorativo prima di venire affilata dal passare del tempo.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1 </span><br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un'abilità elementale:</span> crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno).",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Spada"]
   },
   "skills": [

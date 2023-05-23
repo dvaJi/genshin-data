@@ -4,11 +4,19 @@
   "name": "狼の末路",
   "title": "山巡る狩り·狼の末路",
   "desc": "北風と謳われていた騎士が使っていた大剣。狼との絆によって神話のような力を得た。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。<br/>残りHPが6以下の目標を攻撃する時、ダメージがさらに+2。",
   "attributes": {
     "cost": 3,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "両手剣"]
   },
   "skills": [

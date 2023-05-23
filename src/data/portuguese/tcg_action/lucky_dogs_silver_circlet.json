@@ -4,15 +4,24 @@
   "name": "Grinalda de Prata do Sortudo",
   "title": "Coroa da Serenidade - Grinalda de Prata do Sortudo",
   "desc": "\"Quem nasceu com sorte pode encontrar até tesouros nas armadilhas mais mortíferas.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Após este personagem desencadear uma Habilidade Elemental: </span>Cura sua própria Vida em 2 pontos. (1 vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elemento Indefinido",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Elemento Indefinido",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 210011,
       "id": "lucky_dog",
-      "name": "Lucky Dog"
+      "name": "Lucky Dog",
+      "rarity": 3
     },
     "tags": ["Artefato"]
   },

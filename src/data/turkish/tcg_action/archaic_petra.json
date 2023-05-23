@@ -4,22 +4,31 @@
   "name": "Arkaik Taşlar",
   "title": "Dağların Gücü: Arkaik Taşlar",
   "desc": "\"Taşordu burada olduğu sürece kötülük asla kazanamayacak!\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter, bir Beceri kullandığında veya bir Yetenek Kartı kuşandığında</span> 1 adet daha az <span style=\"color:#FFE699FF\">Toprak Zarı</span> harcanır.(Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span>Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FFE699FF\">Toprak Zarı</span> olur.",
   "attributes": {
     "cost": 3,
     "cost_type": "Nötr Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Nötr Element",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["Yadigar"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter, bir Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#FFE699FF\">Toprak Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FFE699FF\">Toprak Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#FFE699FF\">Toprak Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#FFE699FF\">Toprak Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ]
 }

@@ -4,11 +4,19 @@
   "name": "Memórias de Sacrifício",
   "title": "Composto - Memórias de Sacrifício",
   "desc": "Uma partitura musical desgastada. Com o passar dos anos, seu conteúdo não é mais legível.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Aumenta o Dano causado pelo personagem em 1 ponto</span>.<br/><span style=\"color:#FFFFFFFF\">Após o personagem usar uma Habilidade Elemental:</span> Gera 1 Dado Elemental do mesmo tipo que este personagem. (1 vez por turno)",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Catalisador"]
   },
   "skills": [

@@ -4,11 +4,20 @@
   "name": "Minty Meat Rolls",
   "title": "Minty Meat Rolls",
   "desc": "Meskipun bentuknya sekarang mungkin seperti ini, coba pikirkan sejenak: apa hidangan ini pertama kali dikenal sebagai Mint yang menggulung Raw Meat, atau Raw Meat yang menggulung Mint?",
+  "in_play_description": "",
   "attributes": {
     "cost": 1,
     "cost_type": "Elemen Sama",
-    "card_type": "Kartu Event",
-    "source": ["Didapatkan dari Dek Awal", "Dibeli di Toko Kartu"],
+    "card_type": "Kartu Peristiwa",
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 1
+      }
+    ],
+    "source": "Didapatkan dari Dek Awal",
     "food": {
       "_id": 3112,
       "id": "minty_meat_rolls",
@@ -20,7 +29,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "Sebelum Ronde ini berakhir, biaya dari 3 kali <span style=\"color:#FFFFFFFF\">Normal Attack</span> Karakter target selanjutnya akan menghabiskan 1 <span style=\"color:#FFFFFFFF\">Elemen Tidak Selaras</span> lebih sedikit.<br/>(Karakter dapat mengonsumsi maksimum 1 Makanan per Ronde)"
+      "desc": "Selama Ronde ini, biaya dari 3 kali <span style=\"color:#FFFFFFFF\">Normal Attack</span> Karakter target selanjutnya akan mengonsumsi 1 <span style=\"color:#FFFFFFFF\">Elemen Tidak Selaras</span> lebih sedikit.<br/>(Karakter dapat mengonsumsi paling banyak 1 Makanan per Ronde)"
     }
   ]
 }

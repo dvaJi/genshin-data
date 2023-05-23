@@ -4,22 +4,31 @@
   "name": "華飾之兜",
   "title": "往歲霆光·華飾之兜",
   "desc": "「浮生若夢十三年，影峠緋雪翩躚煙，再顧君已遠。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">其他我方角色使用「元素爆發」後：</span>所附屬角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "無色元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215020,
       "id": "emblem_of_severed_fate",
-      "name": "Emblem of Severed Fate"
+      "name": "Emblem of Severed Fate",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">其他我方角色使用元素爆發後：</span>所附屬角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。<br/>（角色最多裝備1件「聖遺物」）"
+      "desc": "<span style=\"color:#FFFFFFFF\">其他我方角色使用「元素爆發」後：</span>所附屬角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。<br/>（角色最多裝備1件「聖遺物」）"
     }
   ]
 }

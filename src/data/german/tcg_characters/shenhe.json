@@ -1,0 +1,83 @@
+{
+  "_id": 1107,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "title": "Einsame Abgeschiedenheit – Shenhe",
+  "desc": "Die irdische Welt ist grenzenlos, das Schicksal ist Schall und Rauch.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Stangenwaffe",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3845,
+      "id": "mystical_abandon",
+      "name": "Mystical Abandon"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Shenhe in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000063,
+      "id": "shenhe",
+      "name": "Shenhe",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "dawnstar_piercer",
+      "name": "Morgensternstachel",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spring_spirit_summoning",
+      "name": "Mantra der Geisterbeschwörung",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Eisfeder</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divine_maidens_deliverance",
+      "name": "Geisterbefehligung der göttlichen Jungfrau",
+      "desc": "Verursacht 1 Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Talismangeist</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

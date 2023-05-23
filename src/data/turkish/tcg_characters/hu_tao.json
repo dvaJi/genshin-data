@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "Hu Tao",
+  "title": "\"Buz Kokusu\" Hu Tao",
+  "desc": "\"Gönder, hepsini gönder!\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Mızrak",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Hu Tao'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "Wangsheng'in Gizli Mızrağı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "Öbür Dünya Rehberi",
+      "desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Ölüm Kelebeğinin Dansı</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "Ruh Terbiyecisi",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve kendine 2 Can yeniler. Bu karakterin Canı 6'dan fazla değilse verilen Hasar ve yenilenen Can 1 artar.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "type": "Yay",
   "domain": "Alçak Gurur Kulesi",
   "passive": "Yabandaki İzin Sonu",
-  "bonus": "Tüm Element Hasarları için <span>%12/%15/%18/%21/%24</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%160'ı/%200'ü/%240'ı/%280'i/%320'si</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir.",
+  "bonus": "Tüm Element Hasarları için <span>%12/%15/%18/%21/%24</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%160/%200/%240/%280/%320</span>'ı kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir.",
   "stats": {
     "primary": "Temel Saldırı",
     "secondary": "Kritik Oranı",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Yabandaki İzin Sonu",
+    "template": "Tüm Element Hasarları için <span style=\"color:#99FFFFFF\">{0}</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span style=\"color:#99FFFFFF\">{1}</span>'si kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir.",
+    "params": [
+      ["%12", "%160"],
+      ["%15", "%200"],
+      ["%18", "%240"],
+      ["%21", "%280"],
+      ["%24", "%320"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Tüm Element Hasarları için <span>%12</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%160'ı</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
+      "desc": "Tüm Element Hasarları için <span>%12</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%160</span>'ı kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
     },
     {
       "refinement": 2,
-      "desc": "Tüm Element Hasarları için <span>%15</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%200'ü</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
+      "desc": "Tüm Element Hasarları için <span>%15</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%200</span>'ü kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
     },
     {
       "refinement": 3,
-      "desc": "Tüm Element Hasarları için <span>%18</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%240'ı</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
+      "desc": "Tüm Element Hasarları için <span>%18</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%240</span>'ı kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
     },
     {
       "refinement": 4,
-      "desc": "Tüm Element Hasarları için <span>%21</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%280'i</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
+      "desc": "Tüm Element Hasarları için <span>%21</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%280</span>'i kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
     },
     {
       "refinement": 5,
-      "desc": "Tüm Element Hasarları için <span>%24</span> Bonus sağlar. Bir düşmana Yüklü Saldırın isabet ettikten sonra Amansız Av etkisi kazanırsın. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%320'si</span> kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
+      "desc": "Tüm Element Hasarları için <span>%24</span> Bonus sağlar. Karakter, bir düşmana Yüklü Saldırı ile vurduğunda Amansız Av etkisi kazanır. Bu etki, Yüklü Saldırı Hasarını Element Ustalığının <span>%320</span>'si kadar artırır. Bu etki, 12 Yüklü Saldırı veya 10 saniye sonrasında kaybolur. Her 12 saniyede 1 defa Amansız Av kazanılabilir."
     }
   ]
 }

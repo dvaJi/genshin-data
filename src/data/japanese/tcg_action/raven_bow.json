@@ -4,11 +4,20 @@
   "name": "鴉羽の弓",
   "title": "炎と水の破滅·鴉羽の弓",
   "desc": "鴉は死の使者だと言われている。だから、狩人は弓の本体にその羽を飾りつけ、射る矢ごとに獲物に終末を告げるのだ。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["初期デッキで獲得", "カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得",
     "tags": ["武器", "弓"]
   },
   "skills": [

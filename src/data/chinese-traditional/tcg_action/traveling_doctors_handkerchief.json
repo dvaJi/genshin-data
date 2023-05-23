@@ -4,15 +4,24 @@
   "name": "遊醫的方巾",
   "title": "懸壺林藂·遊醫的方巾",
   "desc": "「無論是晴日當空、還是大雨瓢潑，都無法阻擋遊醫堅定的行步。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用「元素爆發」後：</span>治療所有我方角色1點。（每回合1次）",
   "attributes": {
     "cost": 1,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210013,
       "id": "traveling_doctor",
-      "name": "Traveling Doctor"
+      "name": "Traveling Doctor",
+      "rarity": 3
     },
     "tags": ["聖遺物"]
   },

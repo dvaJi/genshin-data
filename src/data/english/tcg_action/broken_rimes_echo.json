@@ -4,22 +4,32 @@
   "name": "Broken Rime's Echo",
   "title": "Icy Song, Distant Realm: Broken Rime's Echo",
   "desc": "\"Past the ice-sealed door, walking down the corridors to the depths, he will break off a branch of silver-white, and bring hope to the snowy land.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent Card:</span> Spend 1 less <span style=\"color:#99FFFFFF\">Cryo Die</span>. (Once per Round)",
   "attributes": {
     "cost": 2,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Obtained from the initial deck", "Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "source": "Obtained from the initial deck",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["Artifact"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">When a character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#99FFFFFF\">Cryo Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
+      "desc": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#99FFFFFF\">Cryo Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
     }
   ]
 }

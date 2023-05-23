@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "達達利亞",
+  "title": "「公子」·達達利亞",
+  "desc": "牌局亦為戰場，能者方可爭先。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": ["愚人眾"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "在貓尾酒館中邀請達達利亞進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "斷雨",
+      "desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "魔王武裝·狂瀾",
+      "desc": "切換為<span style=\"color:#FFFFFFFF\">近戰狀態</span>，然後造成2點<span style=\"color:#80C0FFFF\">水元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "極惡技·盡滅閃",
+      "desc": "依據<span style=\"color:#FFFFFFFF\">達達利亞</span>目前所處的狀態，進行不同的攻擊：<br/><span style=\"color:#FFFFFFFF\">遠程狀態·魔彈一閃：</span>造成$[D__KEY__DAMAGE_4]點<span style=\"color:#80C0FFFF\">水元素傷害</span>，歸還2點<span style=\"color:#FFFFFFFF\">充能</span>，目標角色附屬<span style=\"color:#FFFFFFFF\">斷流</span>。<br/><span style=\"color:#FFFFFFFF\">近戰狀態·盡滅水光：</span>造成4點<span style=\"color:#80C0FFFF\">水元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "遏浪",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">遠程狀態</span>。<br/>角色所附屬的<span style=\"color:#FFFFFFFF\">近戰狀態</span>效果結束時，重新附屬<span style=\"color:#FFFFFFFF\">遠程狀態</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

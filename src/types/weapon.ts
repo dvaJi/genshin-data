@@ -43,5 +43,10 @@ export interface Weapon {
   bonus: string;
   stats: WeaponStat;
   ascensions: WeaponAscension[];
+  refinement_raw: {
+    template: string;
+    params: [string[]];
+    effectName: string;
+  };
   refinements: WeaponRefinement[];
 }

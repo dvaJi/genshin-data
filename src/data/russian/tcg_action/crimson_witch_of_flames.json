@@ -4,15 +4,24 @@
   "name": "Горящая алая ведьма",
   "title": "Пылающее рассеивание: Горящая алая ведьма",
   "desc": "«Я не буду петь элегии. Я отказываюсь от стенаний. Я не буду вздыхать. Мне не нужен бессмысленный шум.\\nЕсли справедливость давно мертва, то кому я могу предложить искупление?»",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Когда персонаж использует навык или экипирует талант:</span> расходуется на 1 <span style=\"color:#FF9999FF\">Пиро дайс</span> меньше (1 раз за раунд).<br/><span style=\"color:#FFFFFFFF\">Фаза броска:</span> два из брошенных дайсов обязательно будут <span style=\"color:#FF9999FF\">Пиро</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Неопределённый элемент",
     "card_type": "Карты экипировки",
-    "source": ["Покупка в Карточном магазине"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Неопределённый элемент",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215006,
       "id": "crimson_witch_of_flames",
-      "name": "Crimson Witch of Flames"
+      "name": "Crimson Witch of Flames",
+      "rarity": 5
     },
     "tags": ["Артефакт"]
   },

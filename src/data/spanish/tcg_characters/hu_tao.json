@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "Hu Tao",
+  "title": "Hu Tao - La Guía del Más Allá",
+  "desc": "“¡Donde cabe uno, caben todos!”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Se obtiene tras retar y ganar a Hu Tao en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "Técnica de lanza de El Camino",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "Guía hacia el más allá",
+      "desc": "Este personaje obtiene una <span style=\"color:#FFFFFFFF\">mariposa excelsa</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "Calma de los espíritus",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FF9999FF\">Daño Pyro</span> y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

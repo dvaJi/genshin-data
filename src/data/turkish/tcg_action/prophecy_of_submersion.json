@@ -4,19 +4,32 @@
   "name": "Batışın Kehaneti",
   "title": "Mona: Batışın Kehaneti",
   "desc": "\"Hey! O kartı oynamalısın!\"\\n\"... Pekala nasıl istiyorsan öyle yap.\"",
+  "in_play_description": "Bu kartı kuşanan Mona aktif karakter olarak kaldığı sürece tetikleyebileceğin <span style=\"color:#80C0FFFF\">Su ile İlgili Tepkimeler</span> tarafından verilen Hasar fazladan 2 daha artar.",
   "attributes": {
     "cost": 3,
     "cost_type": "Su",
     "card_type": "Ekipman Kartı",
-    "source": [
-      "Mona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü."
+    "energy": [
+      {
+        "_id": 1102,
+        "id": "hydro",
+        "type": "Su",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Enerji",
+        "count": 3
+      }
     ],
+    "source": "Mona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
     "tags": ["Yetenek", "Savaş Hamlesi"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span>: Aktif karakterin <span style=\"color:#FFFFFFFF\">Mona</span> olduğunda bu kartı kuşan.<br/>Mona bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Kaderin Yıldızı</span> kullanır.<br/>Bu kartı kuşanmış Mona aktif karakter olarak kaldığı sürece tetikleyebileceğin <span style=\"color:#80C0FFFF\">Su ile İlgili Tepkimeler</span> tarafından verilen Hasar fazladan 2 daha artar.<br/>(Bu kartı destene eklemek için destende Mona olmalıdır.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span>: Aktif karakterin <span style=\"color:#FFFFFFFF\">Mona</span> olduğunda bu kartı kuşan.<br/>Mona bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Kaderin Yıldızı</span> kullanır.<br/>Bu kartı kuşanan Mona aktif karakter olarak kaldığı sürece tetikleyebileceğin <span style=\"color:#80C0FFFF\">Su ile İlgili Tepkimeler</span> tarafından verilen Hasar fazladan 2 daha artar.<br/>(Bu kartı destene eklemek için destende Mona olmalıdır.)"
     }
   ]
 }

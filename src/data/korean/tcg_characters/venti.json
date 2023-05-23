@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "벤티",
+  "title": "바람의 시인·벤티",
+  "desc": "「사계절이 지나도 서풍은 절대 그치지 않아」\\n「뭐, 당연하게도 이 노래의 주역은 그들이 아니라 나야」\\n「음유시인이 없다면 누가 이걸 노래하겠어?」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "활",
+    "faction": ["몬드"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "캣테일 술집에서 벤티 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "신성한 사격술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "높은 하늘의 노래",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">바람의 영역</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "바람 신의 시",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">폭풍의 눈</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

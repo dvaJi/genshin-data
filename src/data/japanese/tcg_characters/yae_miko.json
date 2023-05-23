@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "八重神子",
+  "title": "浮世笑百姿·八重神子",
+  "desc": "「英知と美貌を兼ね備えた八重神子様」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": ["稲妻"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "キャッツテールで八重神子を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "狐霊罪喰い式",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "野干役呪·殺生櫻",
+      "desc": "<span style=\"color:#FFFFFFFF\">殺生櫻</span>を召喚する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "大密法·天狐顕現",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を4与える。味方のフィールドに<span style=\"color:#FFFFFFFF\">殺生櫻</span>が存在する場合、それを破壊して<span style=\"color:#FFFFFFFF\">天狐雷霆</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

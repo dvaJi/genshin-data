@@ -4,11 +4,20 @@
   "name": "旅行劍",
   "title": "旅者之伴·旅行劍",
   "desc": "合適的鋼劍，劍柄裡藏著各類方便旅行的小物品。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的傷害+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌組中獲得",
     "tags": ["武器", "單手劍"]
   },
   "skills": [

@@ -4,15 +4,24 @@
   "name": "Glücksspiel-Ohrringe",
   "title": "Im Spielrausch – Glücksspiel-Ohrringe",
   "desc": "„In Spielen auf Leben und Tod ist es wichtig, ruhig und gelassen zu bleiben.“",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Wird eine gegnerische Figur ausgeschaltet:</span> Erschafft 2 <span style=\"color:#FFFFFFFF\">Omni-Würfel</span>, wenn die damit ausgerüstete Figur aktiv ist.",
   "attributes": {
     "cost": 1,
     "cost_type": "Würfel (gleich)",
     "card_type": "Ausrüstungskarte",
-    "source": ["Beim Kartenhändler zu erstehen"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Würfel (gleich)",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210008,
       "id": "gambler",
-      "name": "Gambler"
+      "name": "Gambler",
+      "rarity": 4
     },
     "tags": ["Artefakt"]
   },

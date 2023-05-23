@@ -4,11 +4,19 @@
   "name": "Memorias de Sacrificios",
   "title": "Serenidad: Memorias de Sacrificios",
   "desc": "Un guion desgastado, con textos que ya no son identificables.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Cuando el personaje usa una Habilidad Elemental</span>, se crea un dado elemental de su mismo elemento (1 vez por ronda).",
   "attributes": {
     "cost": 3,
     "cost_type": "Dados unielementales",
     "card_type": "Carta de equipamiento",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Catalizador"]
   },
   "skills": [

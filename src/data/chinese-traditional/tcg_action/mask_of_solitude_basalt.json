@@ -4,15 +4,25 @@
   "name": "不動玄石之相",
   "title": "玄岩嵯峨·不動玄石之相",
   "desc": "「臧否分明，從無失準。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#FFE699FF\">岩元素</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌組中獲得",
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

@@ -4,15 +4,24 @@
   "name": "沉淪之心",
   "title": "浪舟殘想·沉淪之心",
   "desc": "「…因一切死都是枉死，沉湎過往沒有救贖。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#80C0FFFF\">水元素</span>。（每回合1次）<br/><span style=\"color:#FFFFFFFF\">擲骰階段：</span>2個元素骰初始總是擲出<span style=\"color:#80C0FFFF\">水元素</span>。",
   "attributes": {
     "cost": 3,
     "cost_type": "無色元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215016,
       "id": "heart_of_depth",
-      "name": "Heart of Depth"
+      "name": "Heart of Depth",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

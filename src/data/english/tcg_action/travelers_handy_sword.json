@@ -4,11 +4,20 @@
   "name": "Traveler's Handy Sword",
   "title": "Traveler's Companion: Traveler's Handy Sword",
   "desc": "A handy steel sword that contains all manner of useful items in its sheath.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.",
   "attributes": {
     "cost": 2,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Obtained from the initial deck", "Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "source": "Obtained from the initial deck",
     "tags": ["Weapon", "Sword"]
   },
   "skills": [

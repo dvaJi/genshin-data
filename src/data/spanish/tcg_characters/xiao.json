@@ -1,0 +1,83 @@
+{
+  "_id": 1504,
+  "id": "xiao",
+  "name": "Xiao",
+  "title": "Xiao - El guardián Yaksha",
+  "desc": "El Guardián Yaksha, supresor de demonios.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Lanza",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3852,
+      "id": "conqurer_of_evil_guardian_yaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "Se obtiene tras retar y ganar a Xiao en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000026,
+      "id": "xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "whirlwind_thrust",
+      "name": "Impulso de torbellino",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lemniscatic_wind_cycling",
+      "name": "Ciclón de viento lemniscático",
+      "desc": "Inflige 3 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bane_of_all_evil",
+      "name": "Azote de todos los males",
+      "desc": "Inflige 4 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y este personaje se equipa la <span style=\"color:#FFFFFFFF\">máscara de Yaksha</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -4,17 +4,25 @@
   "name": "Sacrificial Fragments",
   "title": "Composed: Sacrificial Fragments",
   "desc": "Partitur musik yang sudah tua dan lapuk, tulisan di atasnya tidak lagi dapat dibaca.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Setelah Karakter menggunakan Elemental Skill:</span> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Sekali setiap Ronde)",
   "attributes": {
     "cost": 3,
     "cost_type": "Elemen Sama",
     "card_type": "Kartu Equipment",
-    "source": ["Dibeli di Toko Kartu"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 3
+      }
+    ],
     "tags": ["Senjata", "Catalyst"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Setelah Karakter menggunakan Elemental Skill:</span> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter ini. (Sekali setiap Ronde)<br/>(<span style=\"color:#FFFFFFFF\">Hanya Karakter pengguna Catalyst</span> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah Senjata)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Setelah Karakter menggunakan Elemental Skill:</span> Menciptakan 1 Dadu Elemental dengan jenis elemen yang sama dengan Karakter yang mengenakannya. (Sekali setiap Ronde)<br/>(<span style=\"color:#FFFFFFFF\">Hanya Karakter pengguna Catalyst</span> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah Senjata)"
     }
   ]
 }

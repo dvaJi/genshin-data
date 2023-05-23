@@ -4,11 +4,19 @@
   "name": "騎士團圖書館",
   "title": "北陸書籍集成之所",
   "desc": "「大部分館藏皆可自由借閱，只是，切忌逾期歸還…」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">擲骰階段：</span>獲得額外一次重擲機會。",
   "attributes": {
     "cost": 1,
     "cost_type": "相同元素",
     "card_type": "支援牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
     "tags": ["場地"]
   },
   "skills": [

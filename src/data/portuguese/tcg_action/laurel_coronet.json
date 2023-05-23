@@ -4,15 +4,25 @@
   "name": "Diadema Láurea",
   "title": "O Emblema do Invocador de Chuvas - Diadema Láurea",
   "desc": "\"O destino de todas as coisas é predeterminado em um ciclo que nunca termina.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#99FF88FF\">Dado Dendro</span> a menos. (1 vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Obtido do deck inicial", "Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Obtido do deck inicial",
     "artifact": {
       "_id": 215025,
       "id": "deepwood_memories",
-      "name": "Deepwood Memories"
+      "name": "Deepwood Memories",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

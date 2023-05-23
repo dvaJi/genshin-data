@@ -4,17 +4,25 @@
   "name": "Lança de Millelith",
   "title": "Montanha Imóvel - Lança de Millelith",
   "desc": "Uma lança forjada com pedras da floresta de Guyun, usada pelo antigo exército Millelith. Sua robustez é conhecida por não haver outra igual.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Aumenta o Dano causado pelo personagem em 1 ponto</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Lança"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Aumenta o Dano causado pelo personagem em 1 ponto</span>.<br/><span style=\"color:#FFFFFFFF\">Quando jogada:</span> Para cada membro de Liyue na equipe, esta carta adiciona <span style=\"color:#FFFFFFFF\">1 ponto de <span style=\"color:#FFFFFFFF\">Escudo</span></span> ao personagem afetado. (Máximo de 3)<br/>(Somente <span style=\"color:#FFFFFFFF\">personagens usuários de Lança</span> podem equipar esta carta. Cada personagem pode equipar no máximo 1 Arma)"
+      "desc": "<span style=\"color:#FFFFFFFF\">O personagem causa +1 de Dano</span>.<br/><span style=\"color:#FFFFFFFF\">Ao ser jogada:</span> Para cada membro da equipe de Liyue, concede <span style=\"color:#FFFFFFFF\">1 ponto de <span style=\"color:#FFFFFFFF\">Escudo</span></span>. (Máximo de 3 pontos)<br/>(Somente <span style=\"color:#FFFFFFFF\">personagens usuários de Lança</span> podem equipar esta carta. Cada personagem pode equipar no máximo 1 Arma)"
     }
   ]
 }

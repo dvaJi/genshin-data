@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "title": "Il Principe Tartaglia",
+  "desc": "Se questo tavolo è come un campo di battaglia, che vinca il migliore.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Arco",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Ricompensa ottenuta sfidando Tartaglia a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "Torrente acuminato",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "Eredità immonda: Marea infuriata",
+      "desc": "Passa a <span style=\"color:#FFFFFFFF\">Posizione da mischia</span> e infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "Caos: Distruzione",
+      "desc": "Esegue diversi attacchi in base alla posizione attuale in cui si trova <span style=\"color:#FFFFFFFF\">Tartaglia</span>.<br/><span style=\"color:#FFFFFFFF\">Posizione a distanza: Lampo di caos</span>, infligge $[D__KEY__DAMAGE_4] <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, recupera 2 punti di <span style=\"color:#FFFFFFFF\">Energia</span>, e applica <span style=\"color:#FFFFFFFF\">Risacca</span> al personaggio bersaglio.<br/><span style=\"color:#FFFFFFFF\">Posizione da mischia: Luce d'annientamento</span>, infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "Domatore di maree",
+      "desc": "(Passiva) All'inizio della battaglia, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Posizione a distanza</span>. Al termine della <span style=\"color:#FFFFFFFF\">Posizione da mischia</span> associata al personaggio, applica nuovamente <span style=\"color:#FFFFFFFF\">Posizione a distanza</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

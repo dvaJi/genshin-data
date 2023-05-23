@@ -1,0 +1,83 @@
+{
+  "_id": 1504,
+  "id": "xiao",
+  "name": "Xiao",
+  "title": "\"Bekçi Yaksha\" Xiao",
+  "desc": "Bekçi Yaksha, tüm şerlerin laneti.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Mızrak",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3852,
+      "id": "conqurer_of_evil_guardian_yaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "Xiao'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "_id": 10000026,
+      "id": "xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "whirlwind_thrust",
+      "name": "Kasırga Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lemniscatic_wind_cycling",
+      "name": "Sonsuz Rüzgar Türbini",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bane_of_all_evil",
+      "name": "Tüm Şerlerin Laneti",
+      "desc": "4 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Yaksha Maskesi</span> kazanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

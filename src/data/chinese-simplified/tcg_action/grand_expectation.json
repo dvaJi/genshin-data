@@ -4,11 +4,26 @@
   "name": "冒险憧憬",
   "title": "班尼特·冒险憧憬",
   "desc": "最美妙的冒险永远是下一次。",
+  "in_play_description": "装备有此牌的班尼特生成的<span style=\"color:#FFFFFFFF\">鼓舞领域</span>，其伤害提升效果改为总是生效，不再具有生命值限制。",
   "attributes": {
     "cost": 4,
     "cost_type": "火元素",
     "card_type": "装备牌",
-    "source": ["在猫尾酒馆中邀请班尼特进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1103,
+        "id": "pyro",
+        "type": "火元素",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "充能",
+        "count": 2
+      }
+    ],
+    "source": "在猫尾酒馆中邀请班尼特进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

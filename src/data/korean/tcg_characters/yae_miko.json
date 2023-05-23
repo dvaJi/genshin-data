@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "야에 미코",
+  "title": "속세를 비웃는 백 가지 자태·야에 미코",
+  "desc": "「지혜와 미모를 겸비한 야에 미코 님」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "법구",
+    "faction": ["이나즈마"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "캣테일 술집에서 야에 미코 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "죄를 삼키는 여우령",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "야칸의 소환·살생앵",
+      "desc": "<span style=\"color:#FFFFFFFF\">살생앵</span>을 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "대비법·천호 현신",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 4pt 주고 아군 필드에 <span style=\"color:#FFFFFFFF\">살생앵</span>이 있을 경우 이를 제거하고 <span style=\"color:#FFFFFFFF\">천호 뇌정</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

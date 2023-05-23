@@ -4,22 +4,31 @@
   "name": "Yelmo Vetusto del General",
   "title": "Promesa acorazada: Yelmo Vetusto del General",
   "desc": "“La lucha duró hasta que la última gota de sangre convergió con el campo de batalla y entonces las arenas de cristal al fin volvieron a brillar”.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Al principio de la fase de acciones</span>, hace que el personaje entre en el estado de <span style=\"color:#FFFFFFFF\">inamovible como un peñasco</span> (otorga 2 pts. de <span style=\"color:#FFFFFFFF\">escudo</span> para protegerle).",
   "attributes": {
     "cost": 2,
     "cost_type": "Dados unielementales",
     "card_type": "Carta de equipamiento",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215017,
       "id": "tenacity_of_the_millelith",
-      "name": "Tenacity of the Millelith"
+      "name": "Tenacity of the Millelith",
+      "rarity": 5
     },
     "tags": ["Artefacto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Al principio de la fase de acciones</span>, hace que el personaje entre en el estado de <span style=\"color:#FFFFFFFF\">inmamovible como un peñasco</span> (otorga 2 pts. de <span style=\"color:#FFFFFFFF\">escudo</span> para protegerle).<br/>Cada personaje solo puede llevar equipado 1 artefacto."
+      "desc": "<span style=\"color:#FFFFFFFF\">Al principio de la fase de acciones</span>, hace que el personaje entre en el estado de <span style=\"color:#FFFFFFFF\">inamovible como un peñasco</span> (otorga 2 pts. de <span style=\"color:#FFFFFFFF\">escudo</span> para protegerle).<br/>Cada personaje solo puede llevar equipado 1 artefacto."
     }
   ]
 }

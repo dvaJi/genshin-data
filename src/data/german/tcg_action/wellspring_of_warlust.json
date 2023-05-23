@@ -4,13 +4,26 @@
   "name": "Sprudelnde Kampflust",
   "title": "Eula – Sprudelnde Kampflust",
   "desc": "Eisiger Sturm, die Rache ist mein!",
+  "in_play_description": "Wendet Eula ausgerüstet mit dieser Karte <span style=\"color:#FFFFFFFF\">Eisiger Strudel</span> an: Verleiht <span style=\"color:#FFFFFFFF\">Schwert des Lichtfalls</span> zusätzlich 1 Energie-Stapelung.",
   "attributes": {
     "cost": 3,
     "cost_type": "Kryo",
     "card_type": "Ausrüstungskarte",
-    "source": [
-      "Nach Erreichen des entsprechenden Ziels in einem Duell mit Eula in der Taverne Zum Katzenschwanz zu erhalten."
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "Kryo",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Aufladung",
+        "count": 2
+      }
     ],
+    "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Eula in der Taverne Zum Katzenschwanz zu erhalten.",
     "tags": ["Talent", "Kampfaktion"]
   },
   "skills": [

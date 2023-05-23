@@ -1,0 +1,83 @@
+{
+  "_id": 1504,
+  "id": "xiao",
+  "name": "Xiao",
+  "title": "Schützender Yaksha – Xiao",
+  "desc": "Schützender Yaksha, Bezwinger der Dämonen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Stangenwaffe",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3852,
+      "id": "conqurer_of_evil_guardian_yaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Xiao in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000026,
+      "id": "xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "whirlwind_thrust",
+      "name": "Aufgewirbelter Staub",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lemniscatic_wind_cycling",
+      "name": "Doppeltes Windrad",
+      "desc": "Verursacht 3 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bane_of_all_evil",
+      "name": "Geistervertreibung",
+      "desc": "Verursacht 4 Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Yaksha-Maske</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

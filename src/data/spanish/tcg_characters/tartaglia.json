@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "title": "Tartaglia - Nobile",
+  "desc": "Los duelos de cartas son como la guerra: solo puede ganar el mejor.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Arco",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Se obtiene tras retar y ganar a Tartaglia en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "Torrente cortante",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "Legado del mal: Olas furiosas",
+      "desc": "Cambia al estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo</span> e inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "Caos: Obliteración",
+      "desc": "Realiza diferentes ataques dependiendo <span style=\"color:#FFFFFFFF\">de la posición de Tartaglia</span>:<br/><span style=\"color:#FFFFFFFF\">Combate a distancia - Flecha del caos:</span> inflige $[D__KEY__DAMAGE_4] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>, restaura <span style=\"color:#FFFFFFFF\">Energía</span> +2 y aplica en el personaje objetivo el efecto de <span style=\"color:#FFFFFFFF\">obstrucción del flujo</span>.<br/><span style=\"color:#FFFFFFFF\">Combate cuerpo a cuerpo - Luz de obliteración:</span> inflige 4 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "Retención de la Marea",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia</span>.<br/>Cuando el personaje afectado salga del estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo</span>, vuelve a entrar en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

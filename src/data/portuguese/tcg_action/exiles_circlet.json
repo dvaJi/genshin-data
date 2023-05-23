@@ -4,22 +4,31 @@
   "name": "Grinalda do Exilado",
   "title": "Descendente da Nobreza - Grinalda do Exilado",
   "desc": "\"Oh, grande salão repleto de prata, por que tua coroa está encharcada de sangue?\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Após o personagem usar um Supremo:</span> Todos os personagens na reserva ganham 1 <span style=\"color:#FFFFFFFF\">Carga</span>. (Uma vez por Turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elemento Indefinido",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Elemento Indefinido",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 210009,
       "id": "the_exile",
-      "name": "The Exile"
+      "name": "The Exile",
+      "rarity": 4
     },
     "tags": ["Artefato"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Após este personagem desencadear seu Supremo: </span>Todos os seus Personagens Inativos recebem 1 ponto de <span style=\"color:#FFFFFFFF\">Carga</span>. (1 vez por turno)<br/>(Cada personagem pode equipar no máximo 1 Artefato)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Após o personagem usar um Supremo:</span> Todos os personagens na reserva ganham 1 <span style=\"color:#FFFFFFFF\">Carga</span>. (Uma vez por Turno)<br/>(Um personagem pode equipar até 1 Artefato)"
     }
   ]
 }

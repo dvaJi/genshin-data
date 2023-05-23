@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "Yae Miko",
+  "title": "ยิ้มเล่ห์กลยลโลกา - Yae Miko",
+  "desc": "\"ท่าน Yae Miko ผู้เปี่ยมทั้งสติปัญญาและความงาม\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "สื่อเวท",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "ได้รับหลังจากเชิญ Yae Miko ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "Spiritfox Sin-Eater",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "Yakan Evocation: Sesshou Sakura",
+      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Sesshou Sakura</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "Great Secret Art: Tenko Kenshin",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 4 หน่วย; หากในสนามของฝ่ายเรามี <span style=\"color:#FFFFFFFF\">Sesshou Sakura</span> จะสลายมัน และสร้าง <span style=\"color:#FFFFFFFF\">Tenko Thunderbolt</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

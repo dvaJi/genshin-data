@@ -4,17 +4,25 @@
   "name": "Spada di Favonius",
   "title": "Vento propizio: Spada di Favonius",
   "desc": "\"La leggenda vuole che il cavaliere che portava il titolo di Cucciolo di lupo potesse fendere con la sua lama finanche le gocce d'acqua piovana, e che le folate scatenate dai suoi colpi fossero potenti al punto da recidere le rose.\\nAnche se nessuno è in grado di raggiungere il valore del Cucciolo di lupo, i cavalieri tengono sempre fede al suo voto di protezione, e la sua eredità perdura ancora oggi.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1 </span><br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio utilizza un'abilità elementale:</span> il personaggio ottiene <span style=\"color:#FFFFFFFF\">Energia</span> +1 (una volta per turno).",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Spada"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio utilizza un'abilità elementale:</span> il personaggio ottiene <span style=\"color:#FFFFFFFF\">Energia</span> +1 (una volta per turno). Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con spada</span>. Il personaggio può equipaggiare un massimo di 1 arma."
+      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio utilizza un'abilità elementale:</span> il personaggio ottiene <span style=\"color:#FFFFFFFF\">Energia</span> +1 (una volta per turno). (Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con spada</span>. Il personaggio può equipaggiare un massimo di 1 arma.)"
     }
   ]
 }

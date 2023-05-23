@@ -4,17 +4,25 @@
   "name": "Skyward Harp",
   "title": "Echoing Ballad: Skyward Harp",
   "desc": "Lira yang menembus angkasa. Suaranya pada saat dimainkan benar-benar disukai oleh Archon Anemo.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Sekali setiap Ronde:</span> <span style=\"color:#FFFFFFFF\">Normal Attack</span> Karakter ini mengakibatkan DMG +1 tambahan.",
   "attributes": {
     "cost": 3,
     "cost_type": "Elemen Sama",
     "card_type": "Kartu Equipment",
-    "source": ["Dibeli di Toko Kartu"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 3
+      }
+    ],
     "tags": ["Senjata", "Bow"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Sekali setiap Ronde:</span> Normal Attack Karakter ini mengakibatkan DMG +1 tambahan.<br/>(<span style=\"color:#FFFFFFFF\">Hanya Karakter pengguna Bow</span> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah Senjata)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Karakter mengakibatkan DMG +1</span>.<br/><span style=\"color:#FFFFFFFF\">Sekali setiap Ronde:</span> <span style=\"color:#FFFFFFFF\">Normal Attack</span> Karakter ini mengakibatkan DMG +1 tambahan.<br/>(<span style=\"color:#FFFFFFFF\">Hanya Karakter pengguna Bow</span> yang dapat mengenakan ini. Karakter maksimum dapat mengenakan 1 buah Senjata)"
     }
   ]
 }

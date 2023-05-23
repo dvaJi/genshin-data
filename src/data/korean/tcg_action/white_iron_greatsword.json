@@ -4,11 +4,20 @@
   "name": "백철 대검",
   "title": "눈빛 은의 애도·백철 대검",
   "desc": "가벼운 백철로 만든 양손 대검. 가볍고 실용적이며, 얼음과 백은의 빛으로 반짝인다",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">캐릭터가 가하는 피해+1pt</span>",
   "attributes": {
     "cost": 2,
     "cost_type": "동일한 원소",
     "card_type": "장비 카드",
-    "source": ["시작 카드 덱에서 획득", "카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 2
+      }
+    ],
+    "source": "시작 카드 덱에서 획득",
     "tags": ["무기", "양손검"]
   },
   "skills": [

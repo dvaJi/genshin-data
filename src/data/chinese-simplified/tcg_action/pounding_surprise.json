@@ -4,11 +4,20 @@
   "name": "砰砰礼物",
   "title": "可莉·砰砰礼物",
   "desc": "抽到这张牌时，发出一阵欢乐的大笑吧。",
+  "in_play_description": "装备有此牌的可莉生成的<span style=\"color:#FFFFFFFF\">爆裂火花</span>的<span style=\"color:#FFFFFFFF\">可用次数</span>+1。",
   "attributes": {
     "cost": 3,
     "cost_type": "火元素",
     "card_type": "装备牌",
-    "source": ["在猫尾酒馆中邀请可莉进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1103,
+        "id": "pyro",
+        "type": "火元素",
+        "count": 3
+      }
+    ],
+    "source": "在猫尾酒馆中邀请可莉进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

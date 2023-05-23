@@ -4,15 +4,25 @@
   "name": "Witch's Scorching Hat",
   "title": "Ashen Lament: Witch's Scorching Hat",
   "desc": "\"Wahai abu yang menari dengan liar, jawablah pertanyaanku ... Kenapa engkau merenggut semua yang kucintai?\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Saat Karakter menggunakan Skill atau mengenakan Talenta:</span> Akan menghabiskan 1 <span style=\"color:#FF9999FF\">Dadu Pyro</span> lebih sedikit. (Sekali setiap Ronde)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elemen Sama",
     "card_type": "Kartu Equipment",
-    "source": ["Didapatkan dari Dek Awal", "Dibeli di Toko Kartu"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 2
+      }
+    ],
+    "source": "Didapatkan dari Dek Awal",
     "artifact": {
       "_id": 215006,
       "id": "crimson_witch_of_flames",
-      "name": "Crimson Witch of Flames"
+      "name": "Crimson Witch of Flames",
+      "rarity": 5
     },
     "tags": ["Artefak"]
   },

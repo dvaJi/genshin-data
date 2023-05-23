@@ -4,22 +4,31 @@
   "name": "Adventurer's Bandana",
   "title": "Trail-Tramper: Adventurer's Bandana",
   "desc": "\"All the secrets of the stars and the abyss await discovery by mere mortals.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">After the character uses a Normal Attack:</span> Heal self for 1 HP. (Max 3 times per Round)",
   "attributes": {
     "cost": 1,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210010,
       "id": "adventurer",
-      "name": "Adventurer"
+      "name": "Adventurer",
+      "rarity": 3
     },
     "tags": ["Artifact"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">After a character uses a Normal Attack:</span> Heal self for 1 HP. (Max 3 times per Round)<br/>(A character can equip a maximum of 1 Artifact)"
+      "desc": "<span style=\"color:#FFFFFFFF\">After the character uses a Normal Attack:</span> Heal self for 1 HP. (Max 3 times per Round)<br/>(A character can equip a maximum of 1 Artifact)"
     }
   ]
 }

@@ -4,11 +4,19 @@
   "name": "西風劍",
   "title": "順風而行·西風劍",
   "desc": "「傳說那獲授幼狼之名的騎士能將細雨斬落，劍鋒捲起的風便足以將薔薇摧折；\\n無人抵達過他昔日的境界，但騎士當初許諾守護的誓言，卻依然傳承到了今天。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的傷害+1</span>。<br/><span style=\"color:#FFFFFFFF\">角色使用「元素戰技」後：</span>角色額外獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。（每回合1次）",
   "attributes": {
     "cost": 3,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "單手劍"]
   },
   "skills": [

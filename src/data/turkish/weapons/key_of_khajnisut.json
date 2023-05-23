@@ -7,7 +7,7 @@
   "type": "Kılıç",
   "domain": "Alçak Gurur Kulesi",
   "passive": "Kumlar Altındaki Şarkı",
-  "bonus": "Can <span>%20/%25/%30/%35/%40</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,12'si/%0,15'i/%0,18'i/%0,21'i/%0,24'ü</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,2'si/%0,25'i/%0,3'ü/%0,35'i/%0,4'ü</span> kadar artar.",
+  "bonus": "Can <span>%20/%25/%30/%35/%40</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,12/%0,15/%0,18/%0,21/%0,24</span>'si kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,2/%0,25/%0,3/%0,35/%0,4</span>'si kadar artar.",
   "stats": {
     "primary": "Temel Saldırı",
     "secondary": "Can%",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Kumlar Altındaki Şarkı",
+    "template": "Can <span style=\"color:#99FFFFFF\">{0}</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span style=\"color:#99FFFFFF\">{1}</span>'ü kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span style=\"color:#99FFFFFF\">{2}</span>'ü kadar artar.",
+    "params": [
+      ["%20", "%0,12", "%0,2"],
+      ["%25", "%0,15", "%0,25"],
+      ["%30", "%0,18", "%0,3"],
+      ["%35", "%0,21", "%0,35"],
+      ["%40", "%0,24", "%0,4"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Can <span>%20</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,12'si</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,2'si</span> kadar artar."
+      "desc": "Can <span>%20</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,12</span>'si kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,2</span>'si kadar artar."
     },
     {
       "refinement": 2,
-      "desc": "Can <span>%25</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,15'i</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,25'i</span> kadar artar."
+      "desc": "Can <span>%25</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,15</span>'i kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,25</span>'i kadar artar."
     },
     {
       "refinement": 3,
-      "desc": "Can <span>%30</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,18'i</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,3'ü</span> kadar artar."
+      "desc": "Can <span>%30</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,18</span>'i kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,3</span>'ü kadar artar."
     },
     {
       "refinement": 4,
-      "desc": "Can <span>%35</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,21'i</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,35'i</span> kadar artar."
+      "desc": "Can <span>%35</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,21</span>'i kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,35</span>'i kadar artar."
     },
     {
       "refinement": 5,
-      "desc": "Can <span>%40</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,24'ü</span> kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,4'ü</span> kadar artar."
+      "desc": "Can <span>%40</span> artar. Element Becerisi düşmanlara vurduğunda 20 saniyeliğine Büyük İlahi etkisi kazanılır. Bu etki, kuşanan karakterin Maks. Canının <span>%0,24</span>'ü kadar Element Ustalığını artırır. Her 0,3 saniyede bir tetiklenebilir. 3 kademeye kadar birikebilir. 3 kademe biriktikten veya üçüncü kademenin süresi yenilendikten sonra 20 saniyeliğine yakındaki tüm grup üyelerinin Element Ustalığı, kuşanan karakterin Maks. Canının <span>%0,4</span>'ü kadar artar."
     }
   ]
 }

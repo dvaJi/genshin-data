@@ -1,0 +1,97 @@
+{
+  "_id": 1703,
+  "id": "nahida",
+  "name": "Nahida",
+  "title": "Nahida, - La Purificadora de las Plantas",
+  "desc": "La panacea trae la pureza, y desde las profundidades del palacio se renueva la primavera.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "faction": ["Sumeru"],
+    "talent_card": {
+      "_id": 3854,
+      "id": "the_seed_of_stored_knowledge",
+      "name": "The Seed of Stored Knowledge"
+    },
+    "source": "Se obtiene tras retar y ganar a Nahida en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000073,
+      "id": "nahida",
+      "name": "Nahida",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "akara",
+      "name": "Akara",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_schemes_to_know",
+      "name": "Omnisciencia",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span> y coloca una <span style=\"color:#FFFFFFFF\">semilla skandha</span> en el personaje objetivo. Si el personaje objetivo ya cuenta con una <span style=\"color:#FFFFFFFF\">semilla skandha</span>, coloca una <span style=\"color:#FFFFFFFF\">semilla skandha</span> en todos los personajes enemigos.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "all_schemes_to_know_tathata",
+      "name": "Omnisciencia: Tathata",
+      "desc": "Inflige 3 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span> y coloca una <span style=\"color:#FFFFFFFF\">semilla skandha</span> en todos los personajes enemigos.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "illusory_heart",
+      "name": "Corazón ilusorio",
+      "desc": "Inflige 4 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span> y crea un <span style=\"color:#FFFFFFFF\">templo ilusorio</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

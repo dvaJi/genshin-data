@@ -7,7 +7,7 @@
   "attributes": {
     "hp": 10,
     "card_type": "Carta de personaje",
-    "energy": 2,
+    "energy": 3,
     "element": "Cryo",
     "weapon": "Arco",
     "faction": ["Liyue"],
@@ -16,9 +16,7 @@
       "id": "undivided_heart",
       "name": "Undivided Heart"
     },
-    "source": [
-      "Se obtiene tras retar y ganar a Ganyu en un duelo amistoso en la taberna Cola de Gato"
-    ],
+    "source": "Se obtiene tras retar y ganar a Ganyu en un duelo amistoso en la taberna Cola de Gato",
     "character": {
       "_id": 10000037,
       "id": "ganyu",
@@ -30,7 +28,7 @@
     {
       "id": "liutian_archery",
       "name": "Técnica de tiro Liutian",
-      "desc": "Inflige 2 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
       "skillTag": ["Ataque Normal"],
       "points": [
         {
@@ -50,7 +48,7 @@
     {
       "id": "trail_of_the_qilin",
       "name": "Senda de Chilin",
-      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">loto de hielo</span>.",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">loto de hielo</span>.",
       "skillTag": ["Habilidad Elemental"],
       "points": [
         {
@@ -64,7 +62,7 @@
     {
       "id": "frostflake_arrow",
       "name": "Flecha helada",
-      "desc": "Inflige 2 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, así como <span style=\"color:#FFFFFFFF\">2 pts. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes enemigos en reserva.",
+      "desc": "Inflige 3 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, así como <span style=\"color:#FFFFFFFF\">2 pts. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes enemigos en reserva.",
       "skillTag": ["Ataque Normal"],
       "points": [
         {
@@ -78,7 +76,7 @@
     {
       "id": "celestial_shower",
       "name": "Diluvio celestial",
-      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, así como <span style=\"color:#FFFFFFFF\">1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes enemigos en reserva, y crea una <span style=\"color:#FFFFFFFF\">perla de hielo sagrada</span>.",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, así como <span style=\"color:#FFFFFFFF\">1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> contra todos los personajes enemigos en reserva, y crea una <span style=\"color:#FFFFFFFF\">perla de hielo sagrada</span>.",
       "skillTag": ["Habilidad Definitiva"],
       "points": [
         {
@@ -91,7 +89,7 @@
           "_id": 1110,
           "id": "energy",
           "type": "Energía",
-          "count": 2
+          "count": 3
         }
       ]
     }

@@ -4,11 +4,20 @@
   "name": "白铁大剑",
   "title": "雪银之悼·白铁大剑",
   "desc": "用轻质的白铁打造而成的双手大剑，轻巧实用，闪着冰雪与白银的光芒。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["初始牌组中获取", "卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌组中获取",
     "tags": ["武器", "双手剑"]
   },
   "skills": [

@@ -4,11 +4,20 @@
   "name": "魔導緒論",
   "title": "水と雷の破滅·魔導緒論",
   "desc": "『魔導諸論』第十二版。\\n一部の内容に誤りが見受けられるが、それでも最も代表的な魔導入門書である。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["初期デッキで獲得", "カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得",
     "tags": ["武器", "法器"]
   },
   "skills": [

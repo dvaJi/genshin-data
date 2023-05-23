@@ -1,0 +1,81 @@
+{
+  "_id": 4102,
+  "id": "fatui_cryo_cicin_mage",
+  "name": "Фатуи: Маг Крио цицинов",
+  "title": "Туманный зов: маг Крио цицинов",
+  "desc": "Пока есть туманная трава, Крио цицины не покинут её.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": ["Фатуи"],
+    "talent_card": {
+      "_id": 3855,
+      "id": "cicins_cold_glare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Награда за победу над магом Крио цицинов в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "fatui_cryo_cicin_mage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "cicin_icicle",
+      "name": "Лёд цицина",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_summons",
+      "name": "Туманный призыв",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Крио цицин</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blizzard_branch_blossom",
+      "name": "Цветы и ветви вьюги",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 5 ед., даёт персонажу <span style=\"color:#99FFFFFF\">Эффект Крио</span>, создаёт 1 <span style=\"color:#FFFFFFFF\">Купол цицинов</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

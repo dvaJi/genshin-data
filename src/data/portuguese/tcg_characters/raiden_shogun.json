@@ -1,0 +1,90 @@
+{
+  "_id": 1407,
+  "id": "raiden_shogun",
+  "name": "Shogun Raiden",
+  "title": "Plano da Eutimia - Shogun Raiden",
+  "desc": "Nirvana pelo Trovão, Ilusão do Mundo Mortal",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Lança",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3849,
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "Recompensa por desafiar Shogun Raiden para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela",
+    "character": {
+      "_id": 10000052,
+      "id": "raiden_shogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "origin",
+      "name": "Origem",
+      "desc": "Causa 2 {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "transcendence_baleful_omen",
+      "name": "Milagre: Luz Maligna",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Olho do Julgamento Tempestuoso</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_musou_shinsetsu",
+      "name": "Arte Secreta: Musou Shinsetsu",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>. Outros personagens obtêm 2 pontos adicionais de <span style=\"color:#FFFFFFFF\">Carga</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chakra_desiderata",
+      "name": "Shogan Byakugen no Rin",
+      "desc": "(Passiva) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Shogan Byakugen no Rin</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

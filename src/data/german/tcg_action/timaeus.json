@@ -4,11 +4,20 @@
   "name": "Timaeus",
   "title": "Alchimist – Timaeus",
   "desc": "„Hallo ... Oh, du möchtest die Werkbank benutzen? Natürlich darfst du das, bedien dich.“",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Endphase:</span> Erzeugt 1 Material.<br/><span style=\"color:#FFFFFFFF\">Beim Ausspielen von „Artefakt“-Ausrüstungskarte:</span> Verbraucht, wenn möglich, Materialien in Höhe der Gesamtkosten zum Anlegen von diesem Artefakt, ohne dabei Elementarwürfel zu kosten (1-mal pro Runde).",
   "attributes": {
     "cost": 2,
     "cost_type": "Würfel (gleich)",
     "card_type": "Unterstützungskarte",
-    "source": ["Beim Kartenhändler zu erstehen"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Würfel (gleich)",
+        "count": 2
+      }
+    ],
+    "source": "Nach Erreichen des entsprechenden Ziels in der Abenteuer-Herausforderung beim Kartenbeschwörer Timaeus in der offenen Welt zu erhalten.",
     "tags": ["Gefährte"]
   },
   "skills": [

@@ -4,15 +4,24 @@
   "name": "沈淪の心",
   "title": "浪船の残想·沈淪の心",
   "desc": "「…すべての死は無駄であり、過去に浸る者に救いはないのだから。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラがスキル発動、または「天賦」を装備する時</span>、必要な<span style=\"color:#80C0FFFF\">水元素</span>-1。（各ラウンドで1回のみ）<br/><span style=\"color:#FFFFFFFF\">ロールフェーズ：</span>初期元素サイコロのうち、常に2個が<span style=\"color:#80C0FFFF\">水元素</span>となる。",
   "attributes": {
     "cost": 3,
     "cost_type": "無色元素",
     "card_type": "装備カード",
-    "source": ["カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215016,
       "id": "heart_of_depth",
-      "name": "Heart of Depth"
+      "name": "Heart of Depth",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

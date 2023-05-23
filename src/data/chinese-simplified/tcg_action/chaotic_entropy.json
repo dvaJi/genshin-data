@@ -4,12 +4,26 @@
   "name": "混元熵增论",
   "title": "砂糖·混元熵增论",
   "desc": "狂风骤降，乱中取胜。",
+  "in_play_description": "装备有此牌的砂糖生成的<span style=\"color:#FFFFFFFF\">大型风灵</span>已转换成另一种元素后：我方造成的此类元素伤害+1。",
   "attributes": {
     "cost": 3,
     "cost_type": "风元素",
     "card_type": "装备牌",
-    "energy": 4,
-    "source": ["在猫尾酒馆中邀请砂糖进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "风元素",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "充能",
+        "count": 2
+      }
+    ],
+    "source": "在猫尾酒馆中邀请砂糖进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

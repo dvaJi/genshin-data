@@ -4,17 +4,25 @@
   "name": "Opferrituale",
   "title": "Göttliche Fügung – Opferrituale",
   "desc": "An den Texten in diesen alten Noten nagt deutlich der Zahn der Zeit. Sie sind kaum noch erkennbar.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1</span>.<br/><span style=\"color:#FFFFFFFF\">Nach Anwenden der Elementarfähigkeit durch die Figur:</span> Erschafft 1 Würfel von dem Element dieser Figur (1-mal pro Runde).",
   "attributes": {
     "cost": 3,
     "cost_type": "Würfel (gleich)",
     "card_type": "Ausrüstungskarte",
-    "source": ["Beim Kartenhändler zu erstehen"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Würfel (gleich)",
+        "count": 3
+      }
+    ],
     "tags": ["Waffe", "Katalysator"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Schaden durch die Figur +1</span>.<br/><span style=\"color:#FFFFFFFF\">Nach Anwenden der Elementarfähigkeit durch die Figur:</span> Erschafft 1 Würfel von dem Element dieser Figur (1-mal pro Runde).<br/>(Nur für <span style=\"color:#FFFFFFFF\">Katalysatornutzer</span> anlegbar, und zwar max. 1 Waffe.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1</span>.<br/><span style=\"color:#FFFFFFFF\">Nach Anwenden der Elementarfähigkeit durch die Figur:</span> Erschafft 1 Würfel von dem Element dieser Figur (1-mal pro Runde).<br/>(Nur für <span style=\"color:#FFFFFFFF\">Katalysatornutzer</span> anlegbar, und zwar max. 1 Waffe.)"
     }
   ]
 }

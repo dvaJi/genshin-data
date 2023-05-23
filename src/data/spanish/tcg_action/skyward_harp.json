@@ -4,17 +4,25 @@
   "name": "Alas Celestiales",
   "title": "Eco: Alas Celestiales",
   "desc": "Una lira capaz de perforar el mismo firmamento. El sonido que produce al disparar la flecha es como música para los oídos del Arconte Anemo.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño +1 adicional en sus <span style=\"color:#FFFFFFFF\">Ataques Normales</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Dados unielementales",
     "card_type": "Carta de equipamiento",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Arco"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño de Ataque Normal +1.<br/>Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan arco</span>. Cada personaje solo puede llevar equipada 1 arma."
+      "desc": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño de <span style=\"color:#FFFFFFFF\">Ataque Normal</span> +1.<br/>Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan arco</span>. Cada personaje solo puede llevar equipada 1 arma."
     }
   ]
 }

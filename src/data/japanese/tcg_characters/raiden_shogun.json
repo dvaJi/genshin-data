@@ -1,0 +1,90 @@
+{
+  "_id": 1407,
+  "id": "raiden_shogun",
+  "name": "雷電将軍",
+  "title": "一心浄土·雷電将軍",
+  "desc": "雷鳴寂滅、浮世の泡影。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "長柄武器",
+    "faction": ["稲妻"],
+    "talent_card": {
+      "_id": 3849,
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "キャッツテールで雷電将軍を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "_id": 10000052,
+      "id": "raiden_shogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "origin",
+      "name": "源流",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "transcendence_baleful_omen",
+      "name": "神変·悪曜開眼",
+      "desc": "<span style=\"color:#FFFFFFFF\">雷罰悪曜の眼</span>を召喚する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_musou_shinsetsu",
+      "name": "奥義·夢想真説",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与え、他の味方キャラが<span style=\"color:#FFFFFFFF\">チャージ</span>を2獲得する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chakra_desiderata",
+      "name": "諸願百目の輪",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">諸願百目の輪</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

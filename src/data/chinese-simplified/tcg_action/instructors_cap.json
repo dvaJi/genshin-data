@@ -4,15 +4,24 @@
   "name": "教官的帽子",
   "title": "事预则立·教官的帽子",
   "desc": "「我没有作为将校指挥军旅的能力，除当兵外也不胜任别的什么工作，\\n不如让我来教小伙子们吃点苦头，好让他们在战场上能多活几分钟。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色引发元素反应后：</span>生成1个此角色元素类型的元素骰。（每回合至多3次）",
   "attributes": {
     "cost": 2,
     "cost_type": "无色元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "无色元素",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 210007,
       "id": "instructor",
-      "name": "Instructor"
+      "name": "Instructor",
+      "rarity": 4
     },
     "tags": ["圣遗物"]
   },

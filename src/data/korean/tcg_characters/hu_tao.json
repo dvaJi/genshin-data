@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "호두",
+  "title": "눈 그친 뒤의 매화향·호두",
+  "desc": "「전부 보내줄게」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": ["리월"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "캣테일 술집에서 호두 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "왕생 비법 창술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "나비의 서",
+      "desc": "본 캐릭터에게 <span style=\"color:#FFFFFFFF\">피안접무</span>를 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "평안의 서",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 자신의 HP를 2pt 치유한다. 본 캐릭터의 HP가 6pt 이하인 경우 가하는 피해와 치유량이 각각 1pt 증가한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

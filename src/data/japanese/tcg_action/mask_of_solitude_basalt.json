@@ -4,15 +4,25 @@
   "name": "不動玄石の相",
   "title": "嵯峨玄岩·不動玄石の相",
   "desc": "「黒白分明、拠る所を失くすことなし」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラがスキル発動、または「天賦」を装備する時</span>、必要な<span style=\"color:#FFE699FF\">岩元素</span>-1。（各ラウンドで1回のみ）",
   "attributes": {
     "cost": 2,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["初期デッキで獲得", "カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得",
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

@@ -4,15 +4,25 @@
   "name": "Broken Rime's Echo",
   "title": "Icy Song, Distant Realm: Broken Rime's Echo",
   "desc": "\"Seberangi pintu yang membeku dan berjalanlah menyusuri koridor yang dalam. Dia mematahkan ranting-ranting untuk membawa harapan ke Negeri Salju.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Saat Karakter menggunakan Skill atau mengenakan Talenta:</span> Akan menghabiskan 1 <span style=\"color:#99FFFFFF\">Dadu Cryo</span> lebih sedikit. (Sekali setiap Ronde)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elemen Sama",
     "card_type": "Kartu Equipment",
-    "source": ["Didapatkan dari Dek Awal", "Dibeli di Toko Kartu"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 2
+      }
+    ],
+    "source": "Didapatkan dari Dek Awal",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["Artefak"]
   },

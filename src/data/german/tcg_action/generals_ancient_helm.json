@@ -4,15 +4,24 @@
   "name": "Generalshelm",
   "title": "Eisernes Versprechen – Generalshelm",
   "desc": "„Als der letzte Blutstropfen in das Schlachtfeld gesickert war, erstrahlte der gläserne Sand wieder in voller Pracht.“",
+  "in_play_description": "Verleiht <span style=\"color:#FFFFFFFF\">zu Beginn der Zugphase</span> der hiermit ausgerüsteten Figur <span style=\"color:#FFFFFFFF\">Unbeirrbare Gipfel</span>. (Verleiht der hiermit ausgerüsteten Figur 2 Pkt. <span style=\"color:#FFFFFFFF\">Schild</span>.)",
   "attributes": {
     "cost": 2,
     "cost_type": "Würfel (gleich)",
     "card_type": "Ausrüstungskarte",
-    "source": ["Beim Kartenhändler zu erstehen"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Würfel (gleich)",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215017,
       "id": "tenacity_of_the_millelith",
-      "name": "Tenacity of the Millelith"
+      "name": "Tenacity of the Millelith",
+      "rarity": 5
     },
     "tags": ["Artefakt"]
   },

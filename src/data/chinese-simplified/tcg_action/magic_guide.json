@@ -4,11 +4,20 @@
   "name": "魔导绪论",
   "title": "止水息雷·魔导绪论",
   "desc": "第十二版《魔导绪论》。\\n尽管部分内容错漏较多，但依然是当今最权威的魔导入门指南。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["初始牌组中获取", "卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌组中获取",
     "tags": ["武器", "法器"]
   },
   "skills": [

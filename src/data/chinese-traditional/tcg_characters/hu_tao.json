@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "胡桃",
+  "title": "雪霽梅香·胡桃",
+  "desc": "「送走，全送走。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "長柄武器",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "在貓尾酒館中邀請胡桃進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "往生秘傳槍法",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "蝶引來生",
+      "desc": "本角色附屬<span style=\"color:#FFFFFFFF\">彼岸蝶舞</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "安神秘法",
+      "desc": "造成2點<span style=\"color:#FF9999FF\">火元素傷害</span>，治療自身2點。如果本角色生命值不多於6，則造成的傷害和治療各+1。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

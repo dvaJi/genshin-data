@@ -4,18 +4,25 @@
   "name": "Тлеющая ведьмина шляпа",
   "title": "Пепельная тоска: Тлеющая ведьмина шляпа",
   "desc": "«...Вы, пепел, танцующий без устали, ответьте мне - почему вы забрали всё, что я люблю?»",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Когда персонаж использует навык или экипирует талант:</span> расходуется на 1 <span style=\"color:#FF9999FF\">Пиро дайс</span> меньше (1 раз за раунд).",
   "attributes": {
     "cost": 2,
     "cost_type": "Совпадающий элемент",
     "card_type": "Карты экипировки",
-    "source": [
-      "Можно получить из начальной колоды",
-      "Покупка в Карточном магазине"
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Совпадающий элемент",
+        "count": 2
+      }
     ],
+    "source": "Можно получить из начальной колоды",
     "artifact": {
       "_id": 215006,
       "id": "crimson_witch_of_flames",
-      "name": "Crimson Witch of Flames"
+      "name": "Crimson Witch of Flames",
+      "rarity": 5
     },
     "tags": ["Артефакт"]
   },

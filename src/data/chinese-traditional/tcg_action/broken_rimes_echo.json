@@ -4,15 +4,25 @@
   "name": "破冰踏雪的回音",
   "title": "遙世霜歌·破冰踏雪的回音",
   "desc": "「越過冰封的門扉，走下深邃的迴廊，他折下銀白枝條，為雪國帶來希望…」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#99FFFFFF\">冰元素</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌組中獲得",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

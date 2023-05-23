@@ -4,14 +4,26 @@
   "name": "Reich des Löwenzahns",
   "title": "Jean – Reich des Löwenzahns",
   "desc": "„Wind, gib mir Kraft!“",
+  "in_play_description": "Ist Jean ausgerüstet mit dieser Karte auf dem Feld, hat ihr <span style=\"color:#FFFFFFFF\">Löwenzahnfeld</span> folgende Wirkung: <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">Anemo-SCH</span></span> durch deine Figuren +1.",
   "attributes": {
     "cost": 4,
     "cost_type": "Anemo",
     "card_type": "Ausrüstungskarte",
-    "energy": 4,
-    "source": [
-      "Nach Erreichen des entsprechenden Ziels in einem Duell mit Jean in der Taverne Zum Katzenschwanz zu erhalten."
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "Anemo",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Aufladung",
+        "count": 3
+      }
     ],
+    "source": "Nach Erreichen des entsprechenden Ziels in einem Duell mit Jean in der Taverne Zum Katzenschwanz zu erhalten.",
     "tags": ["Talent", "Kampfaktion"]
   },
   "skills": [

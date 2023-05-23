@@ -4,15 +4,25 @@
   "name": "Coroa do Caçador Verde",
   "title": "Ventos Verdejantes - Coroa do Caçador Verde",
   "desc": "\"Ninguém poderia dar uma melhor coroa para a Caçadora formidável, já que maior que ela, existiam apenas os céus e a terra.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#80FFD7FF\">Dado Anemo</span> a menos. (1 vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Obtido do deck inicial", "Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Obtido do deck inicial",
     "artifact": {
       "_id": 215002,
       "id": "viridescent_venerer",
-      "name": "Viridescent Venerer"
+      "name": "Viridescent Venerer",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

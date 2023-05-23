@@ -1,0 +1,97 @@
+{
+  "_id": 1603,
+  "id": "zhongli",
+  "name": "Чжун Ли",
+  "title": "«Бренный скиталец» Чжун Ли",
+  "desc": "Сокрытый от чужих глаз нефрит способен осветить весь мир, яркий и непобедимый, словно звезда.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Древковое",
+    "faction": ["Ли Юэ"],
+    "talent_card": {
+      "_id": 3853,
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth"
+    },
+    "source": "Награда за приглашение Чжун Ли в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "_id": 10000030,
+      "id": "zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Каменный дождь",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Власть над камнем",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 1 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Каменная стела</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis_striking_stone",
+      "name": "Власть над камнем: Внушительный удар",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 3 ед. Призывается <span style=\"color:#FFFFFFFF\">Каменная стела</span>, создаётся <span style=\"color:#FFFFFFFF\">Яшмовый щит</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "planet_befall",
+      "name": "Падение кометы",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 4 ед., цель получает <span style=\"color:#FFFFFFFF\">Окаменение</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

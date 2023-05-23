@@ -4,11 +4,20 @@
   "name": "Timaeus",
   "title": "Alquimista - Timaeus",
   "desc": "\"Olá... oh, você quer usar o Balcão de Síntese? Claro que pode, fique à vontade.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Fase Final:</span> Dá mais 1 Material de Sintetização.<br/><span style=\"color:#FFFFFFFF\">Quando uma carta de Artefato é jogada:</span> Se possível, use um número de Materiais de Sintetização equivalente ao Custo do Artefato para equipá-lo de graça. (Uma vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Suporte",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Recompensa por aceitar o Desafio de Aventura - Timaeus no mundo aberto e conquistar todos os objetivos de desafio correspondentes",
     "tags": ["Companheiro"]
   },
   "skills": [

@@ -4,22 +4,31 @@
   "name": "Украшенный кабуто",
   "title": "Проблеск прошлого: Украшенный кабуто",
   "desc": "«Тринадцать лет прошли как сон. Клубится дымом снег багровый среди тёмных пиков. Ты далеко...»",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">После взрыва стихии другого вашего персонажа: </span>у персонажа в этом состоянии добавляется <span style=\"color:#FFFFFFFF\">Энергия</span> ×1.",
   "attributes": {
     "cost": 2,
     "cost_type": "Неопределённый элемент",
     "card_type": "Карты экипировки",
-    "source": ["Покупка в Карточном магазине"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Неопределённый элемент",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215020,
       "id": "emblem_of_severed_fate",
-      "name": "Emblem of Severed Fate"
+      "name": "Emblem of Severed Fate",
+      "rarity": 5
     },
     "tags": ["Артефакт"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">После взрыва стихии другого вашего персонажа: </span>у персонажа с этой картой добавляется <span style=\"color:#FFFFFFFF\">Энергия</span> ×1. <br/>Персонаж может экипировать только 1 артефакт."
+      "desc": "<span style=\"color:#FFFFFFFF\">После взрыва стихии другого вашего персонажа: </span>у персонажа в этом состоянии добавляется <span style=\"color:#FFFFFFFF\">Энергия</span> ×1. <br/>Персонаж может экипировать только 1 артефакт."
     }
   ]
 }

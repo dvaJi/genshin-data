@@ -4,16 +4,25 @@
   "name": "送ってあげよ～！",
   "title": "送ってあげよ～！",
   "desc": "「一丁あがり～往生堂のおもてなしは品質保証付きだよ。大満足間違いございません！」",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "無色元素",
+    "cost_type": "同一元素",
     "card_type": "イベントカード",
-    "source": ["初期デッキで獲得", "カードショップで購入"]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得"
   },
   "skills": [
     {
       "name": "",
-      "desc": "相手の「召喚物」を一つ選び、それを破壊する。"
+      "desc": "相手の「召喚物」を1つ選び、その「<span style=\"color:#FFFFFFFF\">使用可能回数</span>」を-2。"
     }
   ]
 }

@@ -4,15 +4,25 @@
   "name": "Eco do Inverno",
   "title": "Canção Gelada de Um Mundo Distante - Eco do Inverno",
   "desc": "\"Passando a porta selada de gelo, caminhando pelos corredores até às profundezas, ele quebrará um ramo de cor branco prateado e trará esperança para a terra nevada...\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#99FFFFFF\">Dado Cryo</span> a menos. (1 vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Obtido do deck inicial", "Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Obtido do deck inicial",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

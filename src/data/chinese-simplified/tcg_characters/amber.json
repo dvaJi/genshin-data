@@ -1,0 +1,83 @@
+{
+  "_id": 1304,
+  "id": "amber",
+  "name": "安柏",
+  "title": "侦察骑士·安柏",
+  "desc": "如果想要成为一名伟大的牌手…\\n首先，要有坐上牌桌的勇气。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "弓",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3847,
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "在猫尾酒馆中邀请安柏进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "_id": 10000021,
+      "id": "amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sharpshooter",
+      "name": "神射手",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "explosive_puppet",
+      "name": "爆弹玩偶",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">兔兔伯爵</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fiery_rain",
+      "name": "箭雨",
+      "desc": "造成2点<span style=\"color:#FF9999FF\">火元素伤害</span>，对所有敌方后台角色造成2点<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">穿透伤害</span></span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

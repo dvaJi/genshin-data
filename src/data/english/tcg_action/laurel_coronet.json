@@ -4,22 +4,32 @@
   "name": "Laurel Coronet",
   "title": "Raincaller's Emblem: Laurel Coronet",
   "desc": "\"There is a time appointed for all things to live and die, and the cycle continues on forever.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent Card:</span> Spend 1 less <span style=\"color:#99FF88FF\">Dendro Die</span>. (Once per Round)",
   "attributes": {
     "cost": 2,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Obtained from the initial deck", "Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "source": "Obtained from the initial deck",
     "artifact": {
       "_id": 215025,
       "id": "deepwood_memories",
-      "name": "Deepwood Memories"
+      "name": "Deepwood Memories",
+      "rarity": 5
     },
     "tags": ["Artifact"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">When a character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#99FF88FF\">Dendro Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
+      "desc": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#99FF88FF\">Dendro Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
     }
   ]
 }

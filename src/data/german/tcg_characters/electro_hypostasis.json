@@ -1,0 +1,95 @@
+{
+  "_id": 4402,
+  "id": "electro_hypostasis",
+  "name": "Elektro-Hypostase",
+  "title": "Elektro-Hypostase",
+  "desc": "Codename „Alep“, ein hoch entwickeltes Elektro-Lebewesen.\\nSelbst wenn man bei Schere-Stein-Papier gewinnen sollte, so gibt es sich doch für gewöhnlich nicht geschlagen.",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3857,
+      "id": "absorbing_prism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Elektro-Hypostase in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "electro_hypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "Elektro-Kristall-Projektion",
+      "desc": "Verursacht 1 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "Schnick-Schnack-Schnuck",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1], <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeit vor</span>: <span style=\"color:#FFFFFFFF\">Schnick-Schnack-Schnuck – Schere</span> und <span style=\"color:#FFFFFFFF\">Schnick-Schnack-Schnuck – Papier</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "Donnernde Ketten",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Reich der Donnerketten</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electro_crystal_core",
+      "name": "Elektro-Kristallkern",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elektro-Kristallkern</span>.<br/><span style=\"color:#FFFFFFFF\">Zu Beginn der Zugphase:</span> Verleiht dieser Figur wieder den Elektro-Kristallkern, wenn sie nicht mit Elektro-Kristallkern ausgerüstet ist. (Max. 2-mal pro Duell)",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Elementarablagerung – Elektro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Elektro</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "title": "\"Childe\" Tartaglia",
+  "desc": "Should this table be considered a battlefield, then may the strongest claim the win.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Reward for inviting Tartaglia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "Cutting Torrent",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "Foul Legacy: Raging Tide",
+      "desc": "Switches to <span style=\"color:#FFFFFFFF\">Melee Stance</span> and deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "Havoc: Obliteration",
+      "desc": "Performs different attacks based on the current stance that <span style=\"color:#FFFFFFFF\">Tartaglia</span> is in.<br/><span style=\"color:#FFFFFFFF\">Ranged Stance - Flash of Havoc: </span>Deal $[D__KEY__DAMAGE_4] <span style=\"color:#80C0FFFF\">Hydro DMG</span>, reclaim 2 <span style=\"color:#FFFFFFFF\">Energy</span>, and apply <span style=\"color:#FFFFFFFF\">Riptide</span> to the target character.<br/><span style=\"color:#FFFFFFFF\">Melee Stance - Light of Obliteration</span>: Deal 4 <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "Tide Withholder",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Ranged Stance</span>. Once the <span style=\"color:#FFFFFFFF\">Melee Stance</span> attached to the character ends, reapplies <span style=\"color:#FFFFFFFF\">Ranged Stance</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

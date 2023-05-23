@@ -4,15 +4,24 @@
   "name": "Pedra Arcaica",
   "title": "Penhasco Rochoso - Pedra Arcaica",
   "desc": "\"Enquanto os Millelith estiverem de guarda, o mal nunca prevalecerá!\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#FFE699FF\">Dado Geo</span> a menos. (1 vez por turno)<br/><span style=\"color:#FFFFFFFF\">Na Fase de Rolagem: </span>2 Dados Elementais da rolagem estarão sempre garantidos como <span style=\"color:#FFE699FF\">Dados Geo</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Elemento Indefinido",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Elemento Indefinido",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

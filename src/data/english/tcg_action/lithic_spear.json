@@ -4,17 +4,25 @@
   "name": "Lithic Spear",
   "title": "Evil Shall Never Prevail: Lithic Spear",
   "desc": "These spears were forged from the rocks of the Guyun Stone Forest, and were favored by the Millelith of old. Their hardness knows no equal.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 3
+      }
+    ],
     "tags": ["Weapon", "Polearm"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.<br/><span style=\"color:#FFFFFFFF\">When played:</span> For each party member from Liyue, grant <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Shield</span> point</span> to the character to which this is attached. (Max 3 points)<br/>(<span style=\"color:#FFFFFFFF\">Only Polearm Characters</span> can equip this. A character can equip a maximum of 1 Weapon)"
+      "desc": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.<br/><span style=\"color:#FFFFFFFF\">When played:</span> For each of your party members from Liyue, grant <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Shield</span> point</span> to the character to which this is attached. (Max 3 points)<br/>(<span style=\"color:#FFFFFFFF\">Only Polearm Characters</span> can equip this. A character can equip a maximum of 1 Weapon)"
     }
   ]
 }

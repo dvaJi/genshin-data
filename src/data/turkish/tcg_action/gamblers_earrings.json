@@ -4,22 +4,31 @@
   "name": "Kumarbazın Küpeleri",
   "title": "Bahis: Kumarbazın Küpeleri",
   "desc": "\"Ucunda ölüm olan bir kumar oyunu sırasında sakin ve soğukkanlı kalabilmek kazanma ihtimalini artırır.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</span> aktif karakterse 2 <span style=\"color:#FFFFFFFF\">Kararsız Element</span> oluşturur.",
   "attributes": {
     "cost": 1,
     "cost_type": "Aynı Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210008,
       "id": "gambler",
-      "name": "Gambler"
+      "name": "Gambler",
+      "rarity": 4
     },
     "tags": ["Yadigar"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Bu kartın eklendiği karakter, rakibin bir karakteri yenildiğinde</span> aktif karakterse 2 <span style=\"color:#FFFFFFFF\">Kararsız Element</span> oluşturur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</span> aktif karakterse 2 <span style=\"color:#FFFFFFFF\">Kararsız Element</span> oluşturur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ]
 }

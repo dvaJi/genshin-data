@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "溫迪",
+  "title": "風色詩人·溫迪",
+  "desc": "「四季輪轉，四風從不止息。」\\n「當然啦，功勞也不是它們的，主要是我的。」\\n「要是沒有吟遊詩人，誰去把這些傳唱？」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "弓",
+    "faction": ["蒙德"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "在貓尾酒館中邀請溫迪進行對局，在友好對局難度中贏得勝利後獲得",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "神代射術",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "高天之歌",
+      "desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">風域</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "風神之詩",
+      "desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">暴風之眼</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

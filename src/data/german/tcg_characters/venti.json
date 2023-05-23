@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "Venti",
+  "title": "Wandernder Barde – Venti",
+  "desc": "„Wie sich die vier Jahreszeiten nacheinander abwechseln, so werden auch die vier Winde nie aufhören zu wehen.“\\n„Nun war natürlich die Hauptrolle in diesem Stück meine und nicht ihre.“\\n„Hätte es keinen Barden gegeben, wer würde dann jetzt die Geschichte weitererzählen?“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Bogen",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Venti in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "Göttliche Schießkunst",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "Sonett vom Himmel",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-Schaden</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Sturm</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "Ode vom Anemo-Archon",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Zentrum des Sturms</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

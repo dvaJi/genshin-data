@@ -4,13 +4,26 @@
   "name": "Ansia de guerra",
   "title": "Eula: Ansia de guerra",
   "desc": "Una inundación de escarcha me permitirá cumplir mi venganza.",
+  "in_play_description": "Cuando Eula usa <span style=\"color:#FFFFFFFF\">Vórtice helado</span> al tener esta carta equipada, acumula 1 carga de energía adicional para la <span style=\"color:#FFFFFFFF\">espada luminosa</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Cryo",
     "card_type": "Carta de equipamiento",
-    "source": [
-      "Se obtiene tras retar a Eula a un duelo en la taberna Cola de Gato y completar los objetivos del duelo"
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "Cryo",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Energía",
+        "count": 2
+      }
     ],
+    "source": "Se obtiene tras retar a Eula a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
     "tags": ["Talento", "Acción de combate"]
   },
   "skills": [

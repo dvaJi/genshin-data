@@ -4,25 +4,32 @@
   "name": "Corona dell'invocatore di fulmini",
   "title": "Tuoni e pioggia: Corona dell'invocatore di fulmini",
   "desc": "\"La canzone fece breccia nel ronzio del temporale, dissipò le nuvole e lo illuminò di luce.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#FFACFFFF\">dado di Electro</span> in meno (una volta per turno).",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": [
-      "Si ottiene dal mazzo iniziale",
-      "Acquistata al Negozio di carte"
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 2
+      }
     ],
+    "source": "Si ottiene dal mazzo iniziale",
     "artifact": {
       "_id": 215005,
       "id": "thundering_fury",
-      "name": "Thundering Fury"
+      "name": "Thundering Fury",
+      "rarity": 5
     },
     "tags": ["Manufatto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia un talento:</span> consuma 1 <span style=\"color:#FFACFFFF\">dado di Electro</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#FFACFFFF\">dado di Electro</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
     }
   ]
 }

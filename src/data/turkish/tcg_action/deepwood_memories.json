@@ -4,22 +4,31 @@
   "name": "Derin Orman Hatıraları",
   "title": "Sarmaşık Bilgisi: Derin Orman Hatıraları",
   "desc": "\"Çünkü doğanın izinden gidenler ormanın labirentinden geçip o uçsuz bucaksız ovaya ulaşmalıdır.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter, bir Beceri kullandığında veya bir Yetenek Kartı kuşandığında</span> 1 adet daha az <span style=\"color:#99FF88FF\">Doğa Zarı</span> harcanır.(Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span>Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#99FF88FF\">Doğa Zarı</span> olur.",
   "attributes": {
     "cost": 3,
     "cost_type": "Nötr Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Nötr Element",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215025,
       "id": "deepwood_memories",
-      "name": "Deepwood Memories"
+      "name": "Deepwood Memories",
+      "rarity": 5
     },
     "tags": ["Yadigar"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter, bir Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#99FF88FF\">Doğa Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#99FF88FF\">Doğa Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Bir karakter Beceri kullandığında veya bir Yetenek kuşandığında</span> 1 adet daha az <span style=\"color:#99FF88FF\">Doğa Zarı</span> harcanır. (Her Turda bir defa)<br/><span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman <span style=\"color:#99FF88FF\">Doğa Zarı</span> olur.<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ]
 }

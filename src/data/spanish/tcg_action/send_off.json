@@ -4,19 +4,25 @@
   "name": "Despedida",
   "title": "Despedida",
   "desc": "“¡Uno para todos, y todos...! La funeraria el camino tiene un servicio impecable, ¡su satisfacción está asegurada!”.",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "Dado indefinido",
+    "cost_type": "Dados unielementales",
     "card_type": "Evento",
-    "source": [
-      "Se obtiene con el mazo inicial",
-      "Se compra en la Tienda de cartas"
-    ]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 2
+      }
+    ],
+    "source": "Se obtiene con el mazo inicial"
   },
   "skills": [
     {
       "name": "",
-      "desc": "Escoge una invocación enemiga para destruirla."
+      "desc": "Escoge una de las invocaciones del enemigo para reducir en 2 su número de <span style=\"color:#FFFFFFFF\">usos</span>."
     }
   ]
 }

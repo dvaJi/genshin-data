@@ -4,16 +4,25 @@
   "name": "送你一程",
   "title": "送你一程",
   "desc": "「一波送走~往生堂服务品质保证，包您满意！」",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "无色元素",
+    "cost_type": "相同元素",
     "card_type": "事件牌",
-    "source": ["初始牌组中获取", "卡牌商店购买获得"]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌组中获取"
   },
   "skills": [
     {
       "name": "",
-      "desc": "选择一个敌方「召唤物」，将其消灭。"
+      "desc": "选择一个敌方「召唤物」，使其「<span style=\"color:#FFFFFFFF\">可用次数</span>」-2。"
     }
   ]
 }

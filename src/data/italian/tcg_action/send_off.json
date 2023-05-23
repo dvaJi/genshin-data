@@ -4,19 +4,25 @@
   "name": "Espulsione",
   "title": "Espulsione",
   "desc": "\"Qui ai Servizi Funebri Wangsheng, puoi contare su di noi per un ultimo saluto come si deve! Soddisfazione garantita!\"",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "elemento indefinito",
+    "cost_type": "Elementi corrispondenti",
     "card_type": "Carta evento",
-    "source": [
-      "Si ottiene dal mazzo iniziale",
-      "Acquistata al Negozio di carte"
-    ]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 2
+      }
+    ],
+    "source": "Si ottiene dal mazzo iniziale"
   },
   "skills": [
     {
       "name": "",
-      "desc": "Scegli un'invocazione dell'avversario e distruggila."
+      "desc": "Scegli un'invocazione dell'avversario e falle perdere 2 <span style=\"color:#FFFFFFFF\">Utilizzi</span>."
     }
   ]
 }

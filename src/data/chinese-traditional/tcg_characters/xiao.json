@@ -1,0 +1,83 @@
+{
+  "_id": 1504,
+  "id": "xiao",
+  "name": "魈",
+  "title": "護法夜叉·魈",
+  "desc": "護法夜叉，靖妖降魔。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "長柄武器",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3852,
+      "id": "conqurer_of_evil_guardian_yaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "在貓尾酒館中邀請魈進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "_id": 10000026,
+      "id": "xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "whirlwind_thrust",
+      "name": "卷積微塵",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lemniscatic_wind_cycling",
+      "name": "風輪兩立",
+      "desc": "造成3點<span style=\"color:#80FFD7FF\">風元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bane_of_all_evil",
+      "name": "靖妖儺舞",
+      "desc": "造成4點<span style=\"color:#80FFD7FF\">風元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">夜叉儺面</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -4,11 +4,20 @@
   "name": "獸肉薄荷捲",
   "title": "獸肉薄荷捲",
   "desc": "雖然如今是這樣的造型，但仔細想想，一開始到底是薄荷先捲獸肉，還是獸肉先捲薄荷呢？",
+  "in_play_description": "",
   "attributes": {
     "cost": 1,
     "cost_type": "相同元素",
     "card_type": "事件牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
+    "source": "初始牌組中獲得",
     "food": {
       "_id": 3112,
       "id": "minty_meat_rolls",
@@ -20,7 +29,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "目標角色在本回合結束前，之後三次<span style=\"color:#FFFFFFFF\">普通攻擊</span>都少花費1個<span style=\"color:#FFFFFFFF\">無色元素</span>。<br/>（每回合每個角色最多食用1次「料理」）"
+      "desc": "目標角色在本回合結束前，之後三次<span style=\"color:#FFFFFFFF\">「普通攻擊」</span>都少花費1個<span style=\"color:#FFFFFFFF\">無色元素</span>。<br/>（每回合每個角色最多食用1次「料理」）"
     }
   ]
 }

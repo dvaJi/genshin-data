@@ -4,15 +4,24 @@
   "name": "Capacete do Comandante",
   "title": "Promessa de Ferro - Capacete do Comandante",
   "desc": "\"A última gota de sangue encharcou o campo de batalha e as areias áureas brilharam gloriosamente mais uma vez.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">No início da Fase de Ação</span>, faz com que o personagem entre no estado <span style=\"color:#FFFFFFFF\">Montanha Imóvel</span>. Concede 2 pontos de <span style=\"color:#FFFFFFFF\">Escudo</span> para protegê-lo.",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215017,
       "id": "tenacity_of_the_millelith",
-      "name": "Tenacity of the Millelith"
+      "name": "Tenacity of the Millelith",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "Venti",
+  "title": "กวีแห่งสายลม - Venti",
+  "desc": "\"สี่ฤดูหมุนเวียนเปลี่ยนไป แต่สายลมทั้งสี่ไม่เคยหยุดพัด\"\\n\"แน่นอน... ว่านั่นไม่ใช่คุณงามความดีจากพวกมัน แต่มาจากฉันเป็นหลักต่างหากล่ะ\"\\n\"หากไม่มีกวี แล้วจะมีใครมาขับร้องเรื่องราวพวกนี้?\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "ธนู",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "ได้รับหลังจากเชิญ Venti ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "Divine Marksmanship",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "Skyward Sonnet",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Stormzone</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "Wind's Grand Ode",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Stormeye</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

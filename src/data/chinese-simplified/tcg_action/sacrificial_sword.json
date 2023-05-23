@@ -4,11 +4,19 @@
   "name": "祭礼剑",
   "title": "气定神闲·祭礼剑",
   "desc": "经历漫长岁月的道具用剑，在时间之风中变得如钢铁般锋利。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。<br/><span style=\"color:#FFFFFFFF\">角色使用「元素战技」后：</span>生成1个此角色类型的元素骰。（每回合1次）",
   "attributes": {
     "cost": 3,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "单手剑"]
   },
   "skills": [

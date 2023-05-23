@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "八重神子",
+  "title": "浮世笑百姿·八重神子",
+  "desc": "「兼具智慧与美貌的八重神子大人」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": ["稻妻"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "在猫尾酒馆中邀请八重神子进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "狐灵食罪式",
+      "desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "野干役咒·杀生樱",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">杀生樱</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "大密法·天狐显真",
+      "desc": "造成4点<span style=\"color:#FFACFFFF\">雷元素伤害</span>；如果我方场上存在<span style=\"color:#FFFFFFFF\">杀生樱</span>，则将其消灭，然后生成<span style=\"color:#FFFFFFFF\">天狐霆雷</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

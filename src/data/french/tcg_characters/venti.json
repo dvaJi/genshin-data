@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "Venti",
+  "title": "Venti · Barde itinérant",
+  "desc": "« Au rythme des vents et des chansons.\\nGloire à Mondstadt, gloire à l'Archon !\\nEt gloire à moi, le barde fécond.\\nCar sans mon aide, pas de chanson ! »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Arc",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "Récompense pour avoir invité Venti à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "Archerie divine",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "Sonnet des Vents célestes",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et crée une <span style=\"color:#FFFFFFFF\">bourrasque</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "Ode au Vent",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et invoque un <span style=\"color:#FFFFFFFF\">œil de la tempête</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

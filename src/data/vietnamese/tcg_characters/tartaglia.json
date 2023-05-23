@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "Tartaglia",
+  "title": "Childe - Tartaglia",
+  "desc": "Ván bài cũng là chiến trường, người giỏi sẽ dẫn trước.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Cung",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Nhận được sau khi mời Tartaglia giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "Chém Mưa",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "Trang Phục Ma Vương - Thủy Triều",
+      "desc": "Đổi thành <span style=\"color:#FFFFFFFF\">Cận Chiến</span>, sau đó gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "Kỹ Năng Thượng Thừa - Ánh Sáng Tận Diệt",
+      "desc": "Căn cứ trạng thái hiện tại của <span style=\"color:#FFFFFFFF\">Tartaglia</span>, tiến hành các loại tấn công khác nhau:<br/><span style=\"color:#FFFFFFFF\">Trạng thái đánh xa - Đạn Ma:</span> Gây $[D__KEY__DAMAGE_4] điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, hoàn trả 2 điểm <span style=\"color:#FFFFFFFF\">Năng Lượng</span>, áp dụng <span style=\"color:#FFFFFFFF\">Đoạn Lưu</span> cho nhân vật mục tiêu.<br/><span style=\"color:#FFFFFFFF\">Trạng thái cận chiến - Tận Diệt Thủy Quang:</span> Gây 4 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "Ngăn Sóng",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, áp dụng <span style=\"color:#FFFFFFFF\">Đánh Xa</span>.<br/>Khi kết thúc hiệu quả <span style=\"color:#FFFFFFFF\">Cận Chiến</span> mà nhân vật áp dụng, áp dụng lại <span style=\"color:#FFFFFFFF\">Đánh Xa</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

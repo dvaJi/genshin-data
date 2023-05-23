@@ -4,12 +4,20 @@
   "name": "噬星魔鸦",
   "title": "菲谢尔·噬星魔鸦",
   "desc": "「奥兹华尔多·赫芙那梵茵斯展现权能的一瞬。」",
+  "in_play_description": "装备有此牌的菲谢尔生成的<span style=\"color:#FFFFFFFF\">奥兹</span>，会在菲谢尔<span style=\"color:#FFFFFFFF\">普通攻击</span>后造成2点<span style=\"color:#FFACFFFF\">雷元素伤害</span>。（需消耗<span style=\"color:#FFFFFFFF\">可用次数</span>）",
   "attributes": {
     "cost": 3,
     "cost_type": "雷元素",
     "card_type": "装备牌",
-    "energy": 4,
-    "source": ["在猫尾酒馆中邀请菲谢尔进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1104,
+        "id": "electro",
+        "type": "雷元素",
+        "count": 3
+      }
+    ],
+    "source": "在猫尾酒馆中邀请菲谢尔进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

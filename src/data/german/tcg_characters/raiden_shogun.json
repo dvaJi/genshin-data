@@ -1,0 +1,90 @@
+{
+  "_id": 1407,
+  "id": "raiden_shogun",
+  "name": "Shougun Raiden",
+  "title": "Utopische Gefilde – Shougun Raiden",
+  "desc": "Des krachenden Donners Nirvana, die Welt, sie wird vergehen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3849,
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Shougun Raiden in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000052,
+      "id": "raiden_shogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "origin",
+      "name": "Ursprung",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "transcendence_baleful_omen",
+      "name": "Wunder – Unheilvoller Blick",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Unheilvolles Auge der Blitzstrafe</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_musou_shinsetsu",
+      "name": "Geheime Kunst – Musou Shinsetsu",
+      "desc": "Verursacht 3 Pkt. $[D__KEY__ELEMENT|s1], stellt all deinen anderen Figuren 2 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span> wieder her.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chakra_desiderata",
+      "name": "Charkra-Desiderate",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Charkra-Desiderate</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

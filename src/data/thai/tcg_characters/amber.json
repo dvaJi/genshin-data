@@ -1,0 +1,83 @@
+{
+  "_id": 1304,
+  "id": "amber",
+  "name": "Amber",
+  "title": "อัศวินลาดตระเวน - Amber",
+  "desc": "หากอยากเป็นผู้เล่นที่ยิ่งใหญ่...\\nก่อนอื่นต้องมีความกล้าที่จะนั่งลงตรงหน้าโต๊ะดูเอลเสียก่อน",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "ธนู",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3847,
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "ได้รับหลังจากเชิญ Amber ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "_id": 10000021,
+      "id": "amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sharpshooter",
+      "name": "Sharpshooter",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "explosive_puppet",
+      "name": "Explosive Puppet",
+      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Baron Bunny</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fiery_rain",
+      "name": "Fiery Rain",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 2 หน่วย และจะสร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span></span> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

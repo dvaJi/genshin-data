@@ -4,15 +4,24 @@
   "name": "Trovão Furioso",
   "title": "Pluma do Trovejar - Trovão Furioso",
   "desc": "\"Eu lhe cantarei outra canção quando você vier com trovões e chuvas!\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#FFACFFFF\">Dado Electro</span> a menos. (1 vez por turno)<br/><span style=\"color:#FFFFFFFF\">Na Fase de Rolagem: </span>2 Dados Elementais da rolagem estarão sempre garantidos como <span style=\"color:#FFACFFFF\">Dados Electro</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Elemento Indefinido",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Elemento Indefinido",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215005,
       "id": "thundering_fury",
-      "name": "Thundering Fury"
+      "name": "Thundering Fury",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

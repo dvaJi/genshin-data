@@ -4,13 +4,26 @@
   "name": "솟구치는 전투의 욕망",
   "title": "유라·솟구치는 전투의 욕망",
   "desc": "요동치는 얼음 파도는 원한을 끊어낸다",
+  "in_play_description": "해당 카드를 장착한 유라가 <span style=\"color:#FFFFFFFF\">얼음 파도의 와류</span>를 발동할 경우 추가로 <span style=\"color:#FFFFFFFF\">빛의 검</span>에 「에너지 스택」을 1pt 누적한다.",
   "attributes": {
     "cost": 3,
     "cost_type": "얼음 원소",
     "card_type": "장비 카드",
-    "source": [
-      "캣테일 술집에서 유라를 초대해 대전하고 상응하는 도전 목표 달성 후 획득"
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "얼음 원소",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "원소 에너지",
+        "count": 2
+      }
     ],
+    "source": "캣테일 술집에서 유라를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
     "tags": ["특성", "전투 행동"]
   },
   "skills": [

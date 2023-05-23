@@ -4,14 +4,26 @@
   "name": "민들레의 국토",
   "title": "진·민들레의 국토",
   "desc": "「바람의 신이여, 우릴 인도하소서」",
+  "in_play_description": "해당 카드를 장착한 진이 필드에 있을 시, <span style=\"color:#FFFFFFFF\">민들레 영역</span>은 아군이 가하는 <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">바람 원소 피해</span></span>를 1pt 증가시킨다.",
   "attributes": {
     "cost": 4,
     "cost_type": "바람 원소",
     "card_type": "장비 카드",
-    "energy": 4,
-    "source": [
-      "캣테일 술집에서 진을 초대해 대전하고 상응하는 도전 목표 달성 후 획득"
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "바람 원소",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "원소 에너지",
+        "count": 3
+      }
     ],
+    "source": "캣테일 술집에서 진을 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
     "tags": ["특성", "전투 행동"]
   },
   "skills": [

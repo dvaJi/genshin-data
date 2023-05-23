@@ -4,11 +4,19 @@
   "name": "祭礼の断片",
   "title": "落ち着き·祭礼の断片",
   "desc": "長い年月を経た楽譜の残片。書かれた詞はもう判別できない。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。<br/><span style=\"color:#FFFFFFFF\">キャラが「元素スキル」を発動した後</span>、該当キャラの元素タイプに応じた元素サイコロが1個生成される。（各ラウンドで1回のみ）",
   "attributes": {
     "cost": 3,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "法器"]
   },
   "skills": [

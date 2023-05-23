@@ -4,17 +4,25 @@
   "name": "Aquila Favonia",
   "title": "Lasciati guidare dal vento: Aquila Favonia",
   "desc": "Questa spada non era mai stata al fianco di un guerriero proveniente da un'altra terra, e si erse a testimonianza dei suoi conseguimenti nel diffondere la giustizia in tutta Mondstadt.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio avversario usa un'abilità:</span> se il personaggio associato a questa carta è il personaggio attivo, ripristina 1 PS di quel personaggio (non più di due volte per ogni turno).",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Spada"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio avversario usa un'abilità:</span> se il personaggio associato a questa carta è il personaggio attivo, guarisci quel personaggio di 1 PS (non più di due volte per ogni turno).<br/>(Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con spada</span>. I personaggi possono equipaggiare un massimo di 1 arma)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio avversario usa un'abilità:</span> se il personaggio associato a questa carta è il personaggio attivo, ripristina 1 PS di quel personaggio (non più di due volte per ogni turno).<br/>(Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con spada</span>. I personaggi possono equipaggiare un massimo di 1 arma)"
     }
   ]
 }

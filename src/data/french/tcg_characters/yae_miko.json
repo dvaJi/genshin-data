@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "Yae Miko",
+  "title": "Yae Miko · Frivolité ingénieuse",
+  "desc": "« La sage et merveilleuse Yae Miko. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Catalyseur",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "Récompense pour avoir invité Yae Miko à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "Vulpes mangeur de péchés",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "Évocation des yakan : Sakura dévastateur",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">sakura dévastateur</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "Technique secrète : Incarnation de tenko",
+      "desc": "Inflige 4 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span>. Si un <span style=\"color:#FFFFFFFF\">sakura dévastateur</span> est sur votre terrain, le détruit et crée un <span style=\"color:#FFFFFFFF\">éclair de tenko</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

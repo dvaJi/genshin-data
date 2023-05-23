@@ -4,15 +4,24 @@
   "name": "冒险家头带",
   "title": "蹊衢索途·冒险家头带",
   "desc": "「星穹与深渊掩藏的一切缄秘，正等待这弱小的凡人去猎取。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用「普通攻击」后：</span>治疗自身1点。（每回合至多3次）",
   "attributes": {
     "cost": 1,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210010,
       "id": "adventurer",
-      "name": "Adventurer"
+      "name": "Adventurer",
+      "rarity": 3
     },
     "tags": ["圣遗物"]
   },

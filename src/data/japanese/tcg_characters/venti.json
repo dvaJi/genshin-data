@@ -1,0 +1,83 @@
+{
+  "_id": 1503,
+  "id": "venti",
+  "name": "ウェンティ",
+  "title": "風色の詩人·ウェンティ",
+  "desc": "「四季が移ろっても、四風は吹き止まない。」\\n「まあ、当然だけどこれは彼らのお陰じゃなくて、ほとんどこのボクのお陰だよ。」\\n「だって吟遊詩人がいなかったら、誰がそれを唄ってくれるって言うんだい？」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "弓",
+    "faction": ["モンド"],
+    "talent_card": {
+      "_id": 3851,
+      "id": "embrace_of_winds",
+      "name": "Embrace of Winds"
+    },
+    "source": "キャッツテールでウェンティを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "_id": 10000022,
+      "id": "venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "divine_marksmanship",
+      "name": "神代の射術",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "skyward_sonnet",
+      "name": "高天の歌",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">風域</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "winds_grand_ode",
+      "name": "風神の詩",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">暴風の目</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

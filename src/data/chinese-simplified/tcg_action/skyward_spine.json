@@ -4,17 +4,25 @@
   "name": "天空之脊",
   "title": "斫贯黑翼·天空之脊",
   "desc": "支撑高天之脊。坚硬不移的意志，支撑着风之龙与恶秽的仇敌誓死厮杀。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。<br/><span style=\"color:#FFFFFFFF\">每回合1次：</span>角色使用<span style=\"color:#FFFFFFFF\">「普通攻击」</span>造成的伤害额外+1。",
   "attributes": {
     "cost": 3,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "长柄武器"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。<br/><span style=\"color:#FFFFFFFF\">每回合1次：</span>角色使用「普通攻击」造成的伤害额外+1。<br/>（<span style=\"color:#FFFFFFFF\">「长柄武器」角色</span>才能装备。角色最多装备1件「武器」）"
+      "desc": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。<br/><span style=\"color:#FFFFFFFF\">每回合1次：</span>角色使用<span style=\"color:#FFFFFFFF\">「普通攻击」</span>造成的伤害额外+1。<br/>（<span style=\"color:#FFFFFFFF\">「长柄武器」角色</span>才能装备。角色最多装备1件「武器」）"
     }
   ]
 }

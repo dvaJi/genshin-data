@@ -4,20 +4,32 @@
   "name": "Territoire des pissenlits",
   "title": "Jean : Territoire des pissenlits",
   "desc": "« Ô Vent, entends mon appel ! »",
+  "in_play_description": "Lorsque Jean, équipée de cette carte, est sur le terrain : Le <span style=\"color:#FFFFFFFF\">champ de pissenlits</span> augmente les <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">DGT Anémo</span></span> que vous infligez de 1.",
   "attributes": {
     "cost": 4,
     "cost_type": "Anémo",
     "card_type": "Carte d'équipement",
-    "energy": 4,
-    "source": [
-      "Récompense pour avoir invité Jean à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants"
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "Anémo",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Charge",
+        "count": 3
+      }
     ],
+    "source": "Récompense pour avoir invité Jean à une partie dans La Queue de Chat et terminé les objectifs de défi correspondants",
     "tags": ["Aptitude", "Action de combat"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Action de combat</span> : Lorsque votre personnage actif est <span style=\"color:#FFFFFFFF\">Jean</span>, équipe cette carte.<br/>Une fois Jean équipée de cette carte, utilise immédiatement <span style=\"color:#FFD780FF\">Brise de pissenlit</span> une fois.<br/>Lorsque Jean, équipée de cette carte, est sur le terrain, le <span style=\"color:#FFFFFFFF\">champ de pissenlits</span> augmente les <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">DGT Anémo</span></span> que vous infligez de 1.<br/>(Votre deck doit contenir Jean pour pouvoir y ajouter cette carte)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Action de combat</span> : Lorsque votre personnage actif est <span style=\"color:#FFFFFFFF\">Jean</span>, équipe cette carte.<br/>Une fois Jean équipée de cette carte, utilise immédiatement <span style=\"color:#FFD780FF\">Brise de pissenlit</span> une fois.<br/>Lorsque Jean, équipée de cette carte, est sur le terrain : Le <span style=\"color:#FFFFFFFF\">champ de pissenlits</span> augmente les <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">DGT Anémo</span></span> que vous infligez de 1.<br/>(Votre deck doit contenir Jean pour pouvoir y ajouter cette carte)"
     }
   ]
 }

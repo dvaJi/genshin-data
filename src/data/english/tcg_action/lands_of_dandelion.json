@@ -4,14 +4,26 @@
   "name": "Lands of Dandelion",
   "title": "Jean: Lands of Dandelion",
   "desc": "\"Wind, hear me!\"",
+  "in_play_description": "When your Jean, who has this card equipped, is on the field, <span style=\"color:#FFFFFFFF\">Dandelion Field</span> will cause you to deal +1 <span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">Anemo DMG</span></span>.",
   "attributes": {
     "cost": 4,
     "cost_type": "Anemo",
     "card_type": "Equipment Card",
-    "energy": 4,
-    "source": [
-      "Reward for inviting Jean to a duel at The Cat's Tail and achieving all corresponding challenge objectives"
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "Anemo",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "Energy",
+        "count": 3
+      }
     ],
+    "source": "Reward for inviting Jean to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
     "tags": ["Talent", "Combat Action"]
   },
   "skills": [

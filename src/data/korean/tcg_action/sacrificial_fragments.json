@@ -4,11 +4,19 @@
   "name": "제례의 악장",
   "title": "침착·제례의 악장",
   "desc": "오랜 역사를 지닌 악보. 안에 적힌 찬송가는 더 이상 알아볼 수가 없다",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">캐릭터가 가하는 피해+1pt</span><br/><span style=\"color:#FFFFFFFF\">캐릭터가 「원소전투 스킬」 사용 후:</span> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)",
   "attributes": {
     "cost": 3,
     "cost_type": "동일한 원소",
     "card_type": "장비 카드",
-    "source": ["카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 3
+      }
+    ],
     "tags": ["무기", "법구"]
   },
   "skills": [

@@ -4,15 +4,24 @@
   "name": "Briseur de glace",
   "title": "Errance hivernale : Briseur de glace",
   "desc": "« ... Alors, je t'en conjure, vis. Ne t'éteins pas à notre suite, languissant pour toujours sous le silence gelé. »",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage utilise une capacité ou équipe une aptitude : </span>Dépense 1 dé <span style=\"color:#99FFFFFF\">Cryo</span> en moins. (1 fois par manche)<br/><span style=\"color:#FFFFFFFF\">Phase de lancer : </span>2 des dés élémentaires lancés au début sont des dés <span style=\"color:#99FFFFFF\">Cryo</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Élément neutre",
     "card_type": "Carte d'équipement",
-    "source": ["À acheter dans la boutique de cartes"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Élément neutre",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["Artéfact"]
   },

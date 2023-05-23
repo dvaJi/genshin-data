@@ -7,7 +7,7 @@
   "type": "Mızrak",
   "domain": "Dalgalı Kum Bahçesi",
   "passive": "Sonsuz Rüya: Ebedi Ocak",
-  "bonus": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%28/%35/%42/%49/%56</span> artar. Maksimum <span>%80/%90/%100/%110/%120</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%30/%35/%40/%45/%50</span> Enerji Yüklemesi kazanılır.",
+  "bonus": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%28/%35/%42/%49/%56</span>'i kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%80/%90/%100/%110/%120</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%30/%35/%40/%45/%50</span> Enerji Yüklemesi kazanılır.",
   "stats": {
     "primary": "Temel Saldırı",
     "secondary": "Enerji Yüklemesi",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Sonsuz Rüya: Ebedi Ocak",
+    "template": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span style=\"color:#99FFFFFF\">{0}</span>'sı kadar Saldırı Bonusu verir. Bu şekilde en fazla <span style=\"color:#99FFFFFF\">{1}</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span style=\"color:#99FFFFFF\">{2}</span> Enerji Yüklemesi kazanılır.",
+    "params": [
+      ["%28", "%80", "%30"],
+      ["%35", "%90", "%35"],
+      ["%42", "%100", "%40"],
+      ["%49", "%110", "%45"],
+      ["%56", "%120", "%50"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%28</span> artar. Maksimum <span>%80</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%30</span> Enerji Yüklemesi kazanılır."
+      "desc": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%28</span>'i kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%80</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%30</span> Enerji Yüklemesi kazanılır."
     },
     {
       "refinement": 2,
-      "desc": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%35</span> artar. Maksimum <span>%90</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%35</span> Enerji Yüklemesi kazanılır."
+      "desc": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%35</span>'i kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%90</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%35</span> Enerji Yüklemesi kazanılır."
     },
     {
       "refinement": 3,
-      "desc": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%42</span> artar. Maksimum <span>%100</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%40</span> Enerji Yüklemesi kazanılır."
+      "desc": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%42</span>'si kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%100</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%40</span> Enerji Yüklemesi kazanılır."
     },
     {
       "refinement": 4,
-      "desc": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%49</span> artar. Maksimum <span>%110</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%45</span> Enerji Yüklemesi kazanılır."
+      "desc": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%49</span>'u kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%110</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%45</span> Enerji Yüklemesi kazanılır."
     },
     {
       "refinement": 5,
-      "desc": "Enerji Yüklemesi %100'ü aştığında, Saldırı <span>%56</span> artar. Maksimum <span>%120</span> Saldırı bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%50</span> Enerji Yüklemesi kazanılır."
+      "desc": "Taban %100 Enerji Yüklemesinin üzerindeki oranın <span>%56</span>'sı kadar Saldırı Bonusu verir. Bu şekilde en fazla <span>%120</span> Saldırı Bonusu kazanılabilir. Bir Element Patlaması kullanıldığında 12 saniyeliğine <span>%50</span> Enerji Yüklemesi kazanılır."
     }
   ]
 }

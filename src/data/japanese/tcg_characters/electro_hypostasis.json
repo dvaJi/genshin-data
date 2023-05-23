@@ -1,0 +1,95 @@
+{
+  "_id": 4402,
+  "id": "electro_hypostasis",
+  "name": "無相の雷",
+  "title": "無相の雷",
+  "desc": "高純度の雷元素生命体、コードネーム「アレフ」。\\nたとえジャンケンで負かされても、たいてい負けを認めない。",
+  "attributes": {
+    "hp": 45,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3857,
+      "id": "absorbing_prism",
+      "name": "Absorbing Prism"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、無相の雷に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "electro_hypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "雷晶発射",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "ジャンケン三連攻撃",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を2与え、その後<span style=\"color:#FFFFFFFF\">スキル準備</span>に入る：<span style=\"color:#FFFFFFFF\">ジャンケン三連攻撃·チョキ</span>と<span style=\"color:#FFFFFFFF\">ジャンケン三連攻撃·パー</span>。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "霹靂鎮鎖",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">雷鎖鎮域</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electro_crystal_core",
+      "name": "雷晶核心",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">雷晶核心</span>が付与される。<br/><span style=\"color:#FFFFFFFF\">アクションフェーズ開始時：</span>本キャラに雷晶核心が付与されていない場合、雷晶核心を付与する。（各対戦最大2回まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "元素蓄積·雷",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">元素生命·雷</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

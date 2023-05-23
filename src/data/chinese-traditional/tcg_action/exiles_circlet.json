@@ -4,22 +4,31 @@
   "name": "流放者頭冠",
   "title": "貴胄之裔·流放者頭冠",
   "desc": "「禍哉，那白銀堆砌的大殿，你的冠冕何以被血淹沒？」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用「元素爆發」後：</span>所有我方後臺角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "無色元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 210009,
       "id": "the_exile",
-      "name": "The Exile"
+      "name": "The Exile",
+      "rarity": 4
     },
     "tags": ["聖遺物"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">角色使用元素爆發後：</span>所有我方後臺角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。（每回合1次）<br/>（角色最多裝備1件「聖遺物」）"
+      "desc": "<span style=\"color:#FFFFFFFF\">角色使用「元素爆發」後：</span>所有我方後臺角色獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。（每回合1次）<br/>（角色最多裝備1件「聖遺物」）"
     }
   ]
 }

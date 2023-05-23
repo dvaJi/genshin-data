@@ -4,11 +4,20 @@
   "name": "白鉄の大剣",
   "title": "雪銀の弔い·白鉄の大剣",
   "desc": "軽い白鉄で作られた扱いやすい大剣。雪のような白銀色に輝いている。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["初期デッキで獲得", "カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得",
     "tags": ["武器", "両手剣"]
   },
   "skills": [

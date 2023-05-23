@@ -4,15 +4,25 @@
   "name": "부동현석의 상",
   "title": "험준한 현암·부동현석의 상",
   "desc": "「옳고 그름을 잘 구분했고 한 번도 실수하지 않았다」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">캐릭터가 스킬 사용 혹은 「특성」 장착 시:</span> <span style=\"color:#FFE699FF\">바위 원소</span> 소모 개수-1 (턴당 1회)",
   "attributes": {
     "cost": 2,
     "cost_type": "동일한 원소",
     "card_type": "장비 카드",
-    "source": ["시작 카드 덱에서 획득", "카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 2
+      }
+    ],
+    "source": "시작 카드 덱에서 획득",
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["성유물"]
   },

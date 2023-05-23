@@ -1,0 +1,83 @@
+{
+  "_id": 1107,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "title": "Shenhe · Transcendance solitaire",
+  "desc": "Aucun lien avec ce monde ne resta, et telle la brume, elle s'éloigna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Arme d'hast",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3845,
+      "id": "mystical_abandon",
+      "name": "Mystical Abandon"
+    },
+    "source": "Récompense pour avoir invité Shenhe à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000063,
+      "id": "shenhe",
+      "name": "Shenhe",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "dawnstar_piercer",
+      "name": "Percée des étoiles",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spring_spirit_summoning",
+      "name": "Invocation d'esprit printanier",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et crée un <span style=\"color:#FFFFFFFF\">pennage glacé</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divine_maidens_deliverance",
+      "name": "Délivrance de la demoiselle divine",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque un <span style=\"color:#FFFFFFFF\">esprit talismanique</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

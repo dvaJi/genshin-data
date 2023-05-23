@@ -4,16 +4,25 @@
   "name": "Tiễn Bạn Lên Đường",
   "title": "Tiễn Bạn Lên Đường",
   "desc": "\"Tiễn một người đi. Dịch vụ của Vãng Sinh Đường đảm bảo sẽ khiến bạn hài lòng!\"",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "Nguyên Tố Không Màu",
+    "cost_type": "Nguyên Tố Tương Đồng",
     "card_type": "Thẻ Sự Kiện",
-    "source": ["Nhận từ bộ bài khởi đầu", "Mua tại Cửa Hàng Thẻ Bài"]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Nguyên Tố Tương Đồng",
+        "count": 2
+      }
+    ],
+    "source": "Nhận từ bộ bài khởi đầu"
   },
   "skills": [
     {
       "name": "",
-      "desc": "Chọn 1 vật triệu hồi phe địch, và tiêu diệt nó."
+      "desc": "Chọn 1 vật triệu hồi phe địch, khiến <span style=\"color:#FFFFFFFF\">Số Lần Khả Dụng</span> -2."
     }
   ]
 }

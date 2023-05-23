@@ -1,0 +1,83 @@
+{
+  "_id": 1304,
+  "id": "amber",
+  "name": "Amber",
+  "title": "Amber · Éclaireuse",
+  "desc": "Pour devenir un grand joueur...\\nIl faut déjà avoir le courage de s'asseoir et de jouer.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arc",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3847,
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "Récompense pour avoir invité Amber à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000021,
+      "id": "amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sharpshooter",
+      "name": "Archerie revisitée",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "explosive_puppet",
+      "name": "Poupée explosive",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">Baron Lapinou</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fiery_rain",
+      "name": "Pluie de flèches",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FF9999FF\">DGT Pyro</span> et inflige <span style=\"color:#FFFFFFFF\">2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> à tous les personnages adverses en attente.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -4,22 +4,31 @@
   "name": "화려한 투구",
   "title": "지난날의 번개·화려한 투구",
   "desc": "「꿈과 같이 덧없던 13년, 요고우산의 벚꽃과 흰 눈이 나풀나풀 내리네, 님은 멀어졌구나」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">다른 아군 캐릭터가 「원소폭발」사용 후: </span>부착 캐릭터가 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다.",
   "attributes": {
     "cost": 2,
     "cost_type": "무색 원소",
     "card_type": "장비 카드",
-    "source": ["카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "무색 원소",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215020,
       "id": "emblem_of_severed_fate",
-      "name": "Emblem of Severed Fate"
+      "name": "Emblem of Severed Fate",
+      "rarity": 5
     },
     "tags": ["성유물"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">다른 아군 캐릭터가 원소폭발 사용 후: </span>부착 캐릭터가 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다.<br/>(캐릭터는 「성유물」을 1개만 장착할 수 있다)"
+      "desc": "<span style=\"color:#FFFFFFFF\">다른 아군 캐릭터가 「원소폭발」 사용 후: </span>부착 캐릭터가 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다.<br/>(캐릭터는 「성유물」을 1개만 장착할 수 있다)"
     }
   ]
 }

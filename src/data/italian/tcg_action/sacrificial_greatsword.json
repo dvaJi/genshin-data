@@ -4,11 +4,19 @@
   "name": "Spadone sacrificale",
   "title": "Compostezza: Spadone sacrificale",
   "desc": "Questo spadone ha visto tanti anni passare, e in passato era in possesso da un clan di guerrieri coraggiosi e talentuosi, che combatterono duramente e morirono giovani.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1 </span><br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un'abilità elementale:</span> crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno).",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Claymore"]
   },
   "skills": [

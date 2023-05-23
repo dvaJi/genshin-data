@@ -4,15 +4,25 @@
   "name": "Coroa do Invocador do Trovão",
   "title": "Raios e Tempestade - Coroa do Invocador do Trovão",
   "desc": "\"A límpida canção atravessou o murmurar da tempestade, quebrou as nuvens e transmitiu uma pequena luz.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando um personagem usa uma habilidade ou equipa um Talento:</span> gasta 1 <span style=\"color:#FFACFFFF\">Dado Electro</span> a menos. (1 vez por turno)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Obtido do deck inicial", "Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Obtido do deck inicial",
     "artifact": {
       "_id": 215005,
       "id": "thundering_fury",
-      "name": "Thundering Fury"
+      "name": "Thundering Fury",
+      "rarity": 5
     },
     "tags": ["Artefato"]
   },

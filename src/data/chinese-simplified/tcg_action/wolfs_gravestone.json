@@ -4,11 +4,19 @@
   "name": "狼的末路",
   "title": "巡狩山行·狼的末路",
   "desc": "被誉为北风的骑士所使的大剑，在他与狼的情谊中获得了神话般的力量。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。<br/>攻击剩余生命值不多于6的目标时，伤害额外+2。",
   "attributes": {
     "cost": 3,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "双手剑"]
   },
   "skills": [

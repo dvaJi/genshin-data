@@ -1,0 +1,83 @@
+{
+  "_id": 1504,
+  "id": "xiao",
+  "name": "Xiao",
+  "title": "Guardião Yaksha - Xiao",
+  "desc": "Guardião Yaksha, Conquistador de Demônios",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Lança",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3852,
+      "id": "conqurer_of_evil_guardian_yaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "Recompensa por desafiar Xiao para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ele",
+    "character": {
+      "_id": 10000026,
+      "id": "xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "whirlwind_thrust",
+      "name": "Impulso do Redemoinho",
+      "desc": "Causa 2 {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lemniscatic_wind_cycling",
+      "name": "Vento Lemniscático",
+      "desc": "Causa 3 {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#80FFD7FF\">Dano Anemo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bane_of_all_evil",
+      "name": "Dança Nuo da Conquista do Mal",
+      "desc": "Causa 4 pontos de <span style=\"color:#80FFD7FF\">Dano Anemo</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Máscara Yaksha</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

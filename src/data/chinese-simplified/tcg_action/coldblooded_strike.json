@@ -4,11 +4,20 @@
   "name": "冷血之剑",
   "title": "凯亚·冷血之剑",
   "desc": "略显冷酷的玩笑。",
+  "in_play_description": "装备有此牌的凯亚使用<span style=\"color:#FFFFFFFF\">霜袭</span>后：治疗自身2点。（每回合1次）",
   "attributes": {
     "cost": 4,
     "cost_type": "冰元素",
     "card_type": "装备牌",
-    "source": ["在猫尾酒馆中邀请凯亚进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "冰元素",
+        "count": 4
+      }
+    ],
+    "source": "在猫尾酒馆中邀请凯亚进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

@@ -4,17 +4,25 @@
   "name": "Púa Celestial",
   "title": "Alas negras talladas: Púa Celestial",
   "desc": "Una púa que carga con el peso del cielo. Esta determinación inquebrantable fue lo que sostuvo al Dragón del Viento durante la batalla contra su némesis.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño +1 adicional en sus <span style=\"color:#FFFFFFFF\">Ataques Normales</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Dados unielementales",
     "card_type": "Carta de equipamiento",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Lanza"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño de Ataque Normal +1.<br/>Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan lanza</span>. Cada personaje solo puede llevar equipada 1 arma."
+      "desc": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño de <span style=\"color:#FFFFFFFF\">Ataque Normal</span> +1.<br/>Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan lanza</span>. Cada personaje solo puede llevar equipada 1 arma."
     }
   ]
 }

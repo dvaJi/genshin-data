@@ -4,15 +4,25 @@
   "name": "翠绿的猎人之冠",
   "title": "青翠之风·翠绿的猎人之冠",
   "desc": "「无人能为最杰出的猎人加冕，因为高于她的只有地与天。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或装备「天赋」时：</span>少花费1个<span style=\"color:#80FFD7FF\">风元素</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["初始牌组中获取", "卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌组中获取",
     "artifact": {
       "_id": 215002,
       "id": "viridescent_venerer",
-      "name": "Viridescent Venerer"
+      "name": "Viridescent Venerer",
+      "rarity": 5
     },
     "tags": ["圣遗物"]
   },

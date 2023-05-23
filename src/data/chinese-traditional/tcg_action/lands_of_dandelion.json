@@ -4,12 +4,26 @@
   "name": "蒲公英的國土",
   "title": "琴·蒲公英的國土",
   "desc": "「風啊，回應我吧！」",
+  "in_play_description": "裝備有此牌的琴在場時，<span style=\"color:#FFFFFFFF\">蒲公英領域</span>會使我方造成的<span style=\"color:#80FFD7FF\"><span style=\"color:#80FFD7FF\">風元素傷害</span></span>+1。",
   "attributes": {
     "cost": 4,
     "cost_type": "風元素",
     "card_type": "裝備牌",
-    "energy": 4,
-    "source": ["在貓尾酒館中邀請琴進行對局，完成相應挑戰目標後獲得"],
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "風元素",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "充能",
+        "count": 3
+      }
+    ],
+    "source": "在貓尾酒館中邀請琴進行對局，完成相應挑戰目標後獲得",
     "tags": ["天賦", "戰鬥行動"]
   },
   "skills": [

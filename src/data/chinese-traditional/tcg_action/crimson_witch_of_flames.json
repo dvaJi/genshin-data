@@ -4,15 +4,24 @@
   "name": "熾烈的炎之魔女",
   "title": "灼思終散·熾烈的炎之魔女",
   "desc": "「我拒絕挽歌、拒絕哀怨、拒絕悲嘆，也拒絕一切無用的噪喧。\\n若是公義早已不復，又該向誰獻上救贖？」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#FF9999FF\">火元素</span>。（每回合1次）<br/><span style=\"color:#FFFFFFFF\">擲骰階段：</span>2個元素骰初始總是擲出<span style=\"color:#FF9999FF\">火元素</span>。",
   "attributes": {
     "cost": 3,
     "cost_type": "無色元素",
     "card_type": "裝備牌",
-    "source": ["卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215006,
       "id": "crimson_witch_of_flames",
-      "name": "Crimson Witch of Flames"
+      "name": "Crimson Witch of Flames",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

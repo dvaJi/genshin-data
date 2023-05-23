@@ -4,11 +4,20 @@
   "name": "White Tassel",
   "title": "Ardent Argent: White Tassel",
   "desc": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.",
   "attributes": {
     "cost": 2,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Obtained from the initial deck", "Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "source": "Obtained from the initial deck",
     "tags": ["Weapon", "Polearm"]
   },
   "skills": [

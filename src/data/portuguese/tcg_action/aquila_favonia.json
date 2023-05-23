@@ -4,11 +4,19 @@
   "name": "Falcão",
   "title": "Deixe o Vento Levar - Falcão",
   "desc": "Esta espada estava sempre na cintura de um guerreiro forasteiro, testemunhando suas conquistas ao trazer justiça e liberdade para Mondstadt.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Aumenta o Dano causado pelo personagem em 1 ponto</span>.<br/><span style=\"color:#FFFFFFFF\">Após o oponente usar uma Habilidade:</span> Caso o personagem afetado seja o Personagem em Combate, cura este personagem em 1 ponto de Vida. (No máximo 2 vezes por turno)",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Espada"]
   },
   "skills": [

@@ -4,11 +4,20 @@
   "name": "Timaeus",
   "title": "Timaeus, Alchimista",
   "desc": "\"Ma salve... Oh, vorresti usare il Banco della creazione? Certo, accomodati pure.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Fase finale:</span> aggiungi 1 materiale da trasmutazione.<br/><span style=\"color:#FFFFFFFF\">Quando viene giocata una carta manufatto:</span> se possibile, paga una quantità di materiali da trasmutazione pari al costo della carta  manufatto ed equipaggia questo manufatto gratuitamente (una volta per turno).",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta di supporto",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 2
+      }
+    ],
+    "source": "Ricompensa ottenuta accettando la sfida avventura di Timaeus nel mondo di gioco e completando tutti gli obiettivi della sfida corrispondente",
     "tags": ["Compagno"]
   },
   "skills": [

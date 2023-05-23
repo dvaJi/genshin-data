@@ -4,15 +4,24 @@
   "name": "Gambler's Earrings",
   "title": "Wager: Gambler's Earrings",
   "desc": "\"In games where one gambles with life and death, remaining calm and composed is key to increasing one's odds of victory.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">After an opposing character is defeated:</span> If the character this card is attached to is the active character, create <span style=\"color:#FFFFFFFF\">Omni Element</span> ×2.",
   "attributes": {
     "cost": 1,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210008,
       "id": "gambler",
-      "name": "Gambler"
+      "name": "Gambler",
+      "rarity": 4
     },
     "tags": ["Artifact"]
   },

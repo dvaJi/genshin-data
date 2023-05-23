@@ -1,0 +1,83 @@
+{
+  "_id": 1408,
+  "id": "yae_miko",
+  "name": "Yae Miko",
+  "title": "\"Astute Amusement\" Yae Miko",
+  "desc": "\"The wise and beautiful Yae Miko.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3850,
+      "id": "the_shrines_sacred_shade",
+      "name": "The Shrine's Sacred Shade"
+    },
+    "source": "Reward for inviting Yae Miko to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "character": {
+      "_id": 10000058,
+      "id": "yae_miko",
+      "name": "Yae Miko",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "spiritfox_sineater",
+      "name": "Spiritfox Sin-Eater",
+      "desc": "Deals 1 <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yakan_evocation_sesshou_sakura",
+      "name": "Yakan Evocation: Sesshou Sakura",
+      "desc": "Summons 1 <span style=\"color:#FFFFFFFF\">Sesshou Sakura</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "great_secret_art_tenko_kenshin",
+      "name": "Great Secret Art: Tenko Kenshin",
+      "desc": "Deals 4 <span style=\"color:#FFACFFFF\">Electro DMG</span>. If your side of the field has a <span style=\"color:#FFFFFFFF\">Sesshou Sakura</span>, destroy it and create <span style=\"color:#FFFFFFFF\">Tenko Thunderbolts</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

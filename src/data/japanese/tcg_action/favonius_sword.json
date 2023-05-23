@@ -4,11 +4,19 @@
   "name": "西風剣",
   "title": "追い風が吹く·西風剣",
   "desc": "「伝説によると、幼き狼の名を授かった騎士は霧雨を斬り落とすことができ、剣鋒が巻き上げる風は薔薇をへし折るという。\\n彼のかつての境地に到達した者はいないが、騎士が約束した守護の誓いは今も受け継がれている。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラの与えるダメージ+1</span>。<br/><span style=\"color:#FFFFFFFF\">キャラが「元素スキル」を発動した後</span>、追加で<span style=\"color:#FFFFFFFF\">チャージ</span>を1獲得する。（各ラウンドで1回のみ）",
   "attributes": {
     "cost": 3,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 3
+      }
+    ],
     "tags": ["武器", "片手剣"]
   },
   "skills": [

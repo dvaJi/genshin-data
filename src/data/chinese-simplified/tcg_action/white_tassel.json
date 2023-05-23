@@ -4,11 +4,20 @@
   "name": "白缨枪",
   "title": "苍蕤锋锐·白缨枪",
   "desc": "千岩军士兵的制式装备，枪身牢靠，枪尖锋锐，是无比可靠的武器。",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色造成的伤害+1</span>。",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "装备牌",
-    "source": ["初始牌组中获取", "卡牌商店购买获得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌组中获取",
     "tags": ["武器", "长柄武器"]
   },
   "skills": [

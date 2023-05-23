@@ -1,0 +1,83 @@
+{
+  "_id": 1307,
+  "id": "hu_tao",
+  "name": "Hu Tao",
+  "title": "Hu Tao · Fragrance nivale",
+  "desc": "« À la revoyure, les uns après les autres ! »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Arme d'hast",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3848,
+      "id": "sanguine_rogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Récompense pour avoir invité Hu Tao à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000046,
+      "id": "hu_tao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "secret_spear_of_wangsheng",
+      "name": "Lance secrète de Wangsheng",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "guide_to_afterlife",
+      "name": "Chaperon de la renaissance",
+      "desc": "Accorde un <span style=\"color:#FFFFFFFF\">Paramita Papilio</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_soother",
+      "name": "Apaisement divin",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FF9999FF\">DGT Pyro</span> et soigne pour 2 pts. Si le personnage a 6 PV ou moins, DGT infligés et soins +1.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

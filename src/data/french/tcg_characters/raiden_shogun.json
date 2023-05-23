@@ -1,0 +1,90 @@
+{
+  "_id": 1407,
+  "id": "raiden_shogun",
+  "name": "Shogun Raiden",
+  "title": "Shogun Raiden · Plan euthymique",
+  "desc": "Le tonnerre tranquille dispersera ce monde des plus éphémères.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Arme d'hast",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 3849,
+      "id": "wishes_unnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "Récompense pour avoir invité la Shogun Raiden à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000052,
+      "id": "raiden_shogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "origin",
+      "name": "Prémisse",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "transcendence_baleful_omen",
+      "name": "Transcendance : Présage funeste",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">œil de jugement orageux</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_musou_shinsetsu",
+      "name": "Art secret : Dogme d'idéal",
+      "desc": "Inflige 3 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span> et accorde 2 <span style=\"color:#FFFFFFFF\">charges</span> à vos autres personnages.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chakra_desiderata",
+      "name": "Chakra Desiderata",
+      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">Chakra Desiderata</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

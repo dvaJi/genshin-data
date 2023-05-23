@@ -4,15 +4,24 @@
   "name": "유구한 반암",
   "title": "깎아지른 봉우리·유구한 반암",
   "desc": "「귀신 잡는 천암군, 드높은 위상은 변치 않지」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">캐릭터가 스킬 사용 혹은 「특성」 장착 시:</span> <span style=\"color:#FFE699FF\">바위 원소</span> 소모 개수-1 (턴당 1회)<br/><span style=\"color:#FFFFFFFF\">주사위 단계:</span> 처음 주사위를 굴릴 때 확정으로 <span style=\"color:#FFE699FF\">바위 원소</span>를 2개 획득한다.",
   "attributes": {
     "cost": 3,
     "cost_type": "무색 원소",
     "card_type": "장비 카드",
-    "source": ["카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "무색 원소",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["성유물"]
   },

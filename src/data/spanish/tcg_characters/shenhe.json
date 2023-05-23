@@ -1,0 +1,83 @@
+{
+  "_id": 1107,
+  "id": "shenhe",
+  "name": "Shenhe",
+  "title": "Shenhe - La Ermitaña Sobrehumana",
+  "desc": "El mundo de los mortales es perecedero, como una onda de humo que se disipa en el aire.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3845,
+      "id": "mystical_abandon",
+      "name": "Mystical Abandon"
+    },
+    "source": "Se obtiene tras retar y ganar a Shenhe en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000063,
+      "id": "shenhe",
+      "name": "Shenhe",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "dawnstar_piercer",
+      "name": "Perforaestrellas",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spring_spirit_summoning",
+      "name": "Espíritu exorcizador",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea una <span style=\"color:#FFFFFFFF\">pluma glacial</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divine_maidens_deliverance",
+      "name": "Encantamiento de la damisela divina",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">espíritu hechizado</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

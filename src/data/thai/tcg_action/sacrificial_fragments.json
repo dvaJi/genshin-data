@@ -4,11 +4,19 @@
   "name": "Sacrificial Fragments",
   "title": "Composed - Sacrificial Fragments",
   "desc": "ชิ้นส่วนโน้ตเพลงที่ผ่านพ้นช่วงเวลาอันยาวนาน บทเพลงสรรเสริญบนนั้นยากที่จะอ่านออกได้อีกต่อไป",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">ตัวละครสร้างความเสียหาย +1</span><br/><span style=\"color:#FFFFFFFF\">หลังจากที่ตัวละครใช้ \"สกิลธาตุ\":</span> ทำให้เกิด Elemental Dice ที่มีธาตุชนิดเดียวกับตัวละครนี้ 1 ลูก (เทิร์นละ 1 ครั้ง)",
   "attributes": {
     "cost": 3,
     "cost_type": "ธาตุชนิดเดียวกัน",
     "card_type": "การ์ดอุปกรณ์",
-    "source": ["ซื้อได้ที่ร้านขายการ์ด"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "ธาตุชนิดเดียวกัน",
+        "count": 3
+      }
+    ],
     "tags": ["อาวุธ", "สื่อเวท"]
   },
   "skills": [

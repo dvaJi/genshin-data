@@ -4,11 +4,26 @@
   "name": "沉没的预言",
   "title": "莫娜·沉没的预言",
   "desc": "「嗨！应该出那一张！」\\n「好吧，你就是不听我的。」",
+  "in_play_description": "装备有此牌的莫娜出战期间，我方引发的<span style=\"color:#80C0FFFF\">水元素相关反应</span>伤害额外+2。",
   "attributes": {
     "cost": 3,
     "cost_type": "水元素",
     "card_type": "装备牌",
-    "source": ["在猫尾酒馆中邀请莫娜进行对局，完成相应挑战目标后获取"],
+    "energy": [
+      {
+        "_id": 1102,
+        "id": "hydro",
+        "type": "水元素",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "充能",
+        "count": 3
+      }
+    ],
+    "source": "在猫尾酒馆中邀请莫娜进行对局，完成相应挑战目标后获取",
     "tags": ["天赋", "战斗行动"]
   },
   "skills": [

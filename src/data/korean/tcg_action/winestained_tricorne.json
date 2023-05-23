@@ -4,15 +4,25 @@
   "name": "술로 얼룩진 수병모",
   "title": "가라앉은 옛 꿈·술로 얼룩진 수병모",
   "desc": "「술에 얼룩진 모자가 폭풍에 휩쓸려 날아가다 파도 속으로 사라졌다. 고향을 잃은 자들은 희망도, 목적도 없는 싸움을 계속하리라」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">캐릭터가 스킬 사용 혹은 「특성」 장착 시:</span> <span style=\"color:#80C0FFFF\">물 원소</span> 소모 개수-1 (턴당 1회)",
   "attributes": {
     "cost": 2,
     "cost_type": "동일한 원소",
     "card_type": "장비 카드",
-    "source": ["시작 카드 덱에서 획득", "카드 상점 구매 획득"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 2
+      }
+    ],
+    "source": "시작 카드 덱에서 획득",
     "artifact": {
       "_id": 215016,
       "id": "heart_of_depth",
-      "name": "Heart of Depth"
+      "name": "Heart of Depth",
+      "rarity": 5
     },
     "tags": ["성유물"]
   },

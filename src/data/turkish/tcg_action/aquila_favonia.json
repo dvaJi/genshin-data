@@ -4,11 +4,19 @@
   "name": "Favonia Kartalı",
   "title": "Rüzgar Rehberin Olsun: Favonia Kartalı",
   "desc": "Bu kılıç başka topraklardan gelen bir savaşçının belindeydi ve Mondstadt'ta adaleti ve özgürlüğü sağlama konusundaki başarısının bir kanıtıydı.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakterin verdiği Hasar 1 artar.</span><br/><span style=\"color:#FFFFFFFF\">Rakip karakter bir Element Becerisi kullandığında</span> bu ekli karakter aktif karakterse bu karakter için 1 Can yeniler. (Her Turda en fazla iki defa.)",
   "attributes": {
     "cost": 3,
     "cost_type": "Aynı Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 3
+      }
+    ],
     "tags": ["Silah", "Kılıç"]
   },
   "skills": [

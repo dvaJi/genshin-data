@@ -4,17 +4,25 @@
   "name": "Bolsita nutritiva",
   "title": "Comida de emergencia: Ración portátil",
   "desc": "“Nutrirse a tiempo ayuda a superar la actividad más agotadora”.",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
     "cost_type": "Dado indefinido",
     "card_type": "Carta de apoyo",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Dado indefinido",
+        "count": 2
+      }
+    ],
     "tags": ["Objeto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Al entrar en el campo de batalla</span>, saca 1 carta de comida al azar del mazo.<br/><span style=\"color:#FFFFFFFF\">Al jugar una carta de comida</span>, saca 1 carta de comida al azar del mazo (1 vez por ronda)."
+      "desc": "<span style=\"color:#FFFFFFFF\">Al entrar en juego</span> saca 1 carta de comida al azar del mazo.<br/><span style=\"color:#FFFFFFFF\">Al jugar una carta de comida</span>, saca 1 carta de comida al azar del mazo (1 vez por ronda)."
     }
   ]
 }

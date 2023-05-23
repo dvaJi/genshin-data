@@ -4,15 +4,24 @@
   "name": "General's Ancient Helm",
   "title": "Ironclad Promise: General's Ancient Helm",
   "desc": "\"Tetesan darah terakhir telah meresap ke medan pertempuran, pasir glasir pun akhirnya dapat kembali bersinar kembali.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Saat Tahap Aksi dimulai:</span> Memberikan efek <span style=\"color:#FFFFFFFF\">Unmovable Mountain</span> kepada Karakter yang mengenakannya. (Memberikan 2 poin <span style=\"color:#FFFFFFFF\">Perisai</span> untuk melindungi Karakter tersebut.)",
   "attributes": {
     "cost": 2,
     "cost_type": "Elemen Sama",
     "card_type": "Kartu Equipment",
-    "source": ["Dibeli di Toko Kartu"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elemen Sama",
+        "count": 2
+      }
+    ],
     "artifact": {
       "_id": 215017,
       "id": "tenacity_of_the_millelith",
-      "name": "Tenacity of the Millelith"
+      "name": "Tenacity of the Millelith",
+      "rarity": 5
     },
     "tags": ["Artefak"]
   },

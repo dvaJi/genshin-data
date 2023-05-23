@@ -4,15 +4,24 @@
   "name": "Petra Arcaica",
   "title": "Cordilleras imponentes: Petra Arcaica",
   "desc": "“Duros como la roca, inamovibles como un peñasco”.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Cuando el personaje usa una habilidad o se equipa un talento</span>, gasta 1 <span style=\"color:#FFE699FF\">dado Geo</span> menos (1 vez por ronda).<br/>Durante la <span style=\"color:#FFFFFFFF\">fase de lanzamiento</span>, 2 de los dados elementales iniciales que lances siempre serán <span style=\"color:#FFE699FF\">dado Geo</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "Dado indefinido",
     "card_type": "Carta de equipamiento",
-    "source": ["Se compra en la Tienda de cartas"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Dado indefinido",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["Artefacto"]
   },

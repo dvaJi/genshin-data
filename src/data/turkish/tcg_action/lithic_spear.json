@@ -4,17 +4,25 @@
   "name": "Taş Mızrak",
   "title": "Kötülük Asla Kazanamayacak: Taş Mızrak",
   "desc": "Guyun Taş Ormanı kayalarından yapılan bu mızraklar eski Taşordu tarafından da tercih ediliyordu. Sağlamlık konusunda eşi benzeri yoktur.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar daha verir.</span>",
   "attributes": {
     "cost": 3,
     "cost_type": "Aynı Element",
     "card_type": "Ekipman Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 3
+      }
+    ],
     "tags": ["Silah", "Mızrak"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Karakterin verdiği Hasar 1 artar.</span><br/><span style=\"color:#FFFFFFFF\">Oynandığında</span> Liyueli her grup üyesi bu kartı kuşanmış karaktere <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Kalkan</span> puanı</span> ekler. (En fazla 3 puan)<br/>(<span style=\"color:#FFFFFFFF\">Yalnızca Mızrak Karakterleri</span> bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.</span><br/><span style=\"color:#FFFFFFFF\">Oynandığında</span> grubunun Liyueli her bir üyesi, bu kartı kuşanan karaktere <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Kalkan</span> puanı</span> ekler. (En fazla 3 puan)<br/>(<span style=\"color:#FFFFFFFF\">Yalnızca Mızrak Karakterleri</span> bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
     }
   ]
 }

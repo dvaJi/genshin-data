@@ -4,25 +4,32 @@
   "name": "Eco dell'inverno",
   "title": "Canzone del ghiaccio, reame distante: Eco dell'inverno",
   "desc": "\"Oltre la porta sigillata dal ghiaccio, camminando giù per i corridoi verso le profondità, spezzerà un ramo bianco argenteo e porterà speranza alla terra innevata.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#99FFFFFF\">dado di Cryo</span> in meno (una volta per turno).",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": [
-      "Si ottiene dal mazzo iniziale",
-      "Acquistata al Negozio di carte"
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 2
+      }
     ],
+    "source": "Si ottiene dal mazzo iniziale",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["Manufatto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia un talento:</span> consuma 1 <span style=\"color:#99FFFFFF\">dado di Cryo</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#99FFFFFF\">dado di Cryo</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
     }
   ]
 }

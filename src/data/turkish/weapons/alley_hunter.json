@@ -7,7 +7,7 @@
   "type": "Yay",
   "domain": "Sesilya Bahçesi",
   "passive": "Sokak Saldırısı",
-  "bonus": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%2/%2,5/%3/%3,5/%4</span> artarak <span>%20/%25/%30/%35/%40</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%4/%5/%6/%7/%8</span> azalır.",
+  "bonus": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%2/%2,5/%3/%3,5/%4</span> artarak en fazla <span>%20/%25/%30/%35/%40</span>'ye ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%4/%5/%6/%7/%8</span> azalır.",
   "stats": {
     "primary": "Temel Saldırı",
     "secondary": "Saldırı%",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Sokak Saldırısı",
+    "template": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span style=\"color:#99FFFFFF\">{0}</span> artarak en fazla <span style=\"color:#99FFFFFF\">{1}</span>'a ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span style=\"color:#99FFFFFF\">{2}</span> azalır.",
+    "params": [
+      ["%2", "%20", "%4"],
+      ["%2,5", "%25", "%5"],
+      ["%3", "%30", "%6"],
+      ["%3,5", "%35", "%7"],
+      ["%4", "%40", "%8"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%2</span> artarak <span>%20</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%4</span> azalır."
+      "desc": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%2</span> artarak en fazla <span>%20</span>'ye ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%4</span> azalır."
     },
     {
       "refinement": 2,
-      "desc": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%2,5</span> artarak <span>%25</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%5</span> azalır."
+      "desc": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%2,5</span> artarak en fazla <span>%25</span>'e ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%5</span> azalır."
     },
     {
       "refinement": 3,
-      "desc": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%3</span> artarak <span>%30</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%6</span> azalır."
+      "desc": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%3</span> artarak en fazla <span>%30</span>'a ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%6</span> azalır."
     },
     {
       "refinement": 4,
-      "desc": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%3,5</span> artarak <span>%35</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%7</span> azalır."
+      "desc": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%3,5</span> artarak en fazla <span>%35</span>'e ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%7</span> azalır."
     },
     {
       "refinement": 5,
-      "desc": "Bu silahı kuşanan karakter grubun arka planındayken, Hasar oranı her saniye <span>%4</span> artarak <span>%40</span>'ye ulaşabilir. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%8</span> azalır."
+      "desc": "Bu silahı kuşanan karakter savaş alanında değilken, Hasarı her saniye <span>%4</span> artarak en fazla <span>%40</span>'a ulaşır. Karakter savaş alanına çıktıktan 4 saniye sonra, kazandığı güçlendirme %0'a ulaşana kadar saniyede <span>%8</span> azalır."
     }
   ]
 }

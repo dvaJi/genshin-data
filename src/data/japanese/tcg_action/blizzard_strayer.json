@@ -4,15 +4,24 @@
   "name": "氷風を彷徨う勇士",
   "title": "冬日の旅·氷風を彷徨う勇士",
   "desc": "「…生き延びるのです。私たちと共に滅び、冷たき意志に飲み込まれてはなりません…」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラがスキル発動、または「天賦」を装備する時</span>、必要な<span style=\"color:#99FFFFFF\">氷元素</span>-1。（各ラウンドで1回のみ）<br/><span style=\"color:#FFFFFFFF\">ロールフェーズ：</span>初期元素サイコロのうち、常に2個が<span style=\"color:#99FFFFFF\">氷元素</span>となる。",
   "attributes": {
     "cost": 3,
     "cost_type": "無色元素",
     "card_type": "装備カード",
-    "source": ["カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "無色元素",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

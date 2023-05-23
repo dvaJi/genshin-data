@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "타르탈리아",
+  "title": "「귀공자」·타르탈리아",
+  "desc": "카드 대전은 전장과도 같아서, 능력 있는 자가 앞설 수 있다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "활",
+    "faction": ["우인단"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "캣테일 술집에서 타르탈리아 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "단우",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "마왕 무장·광란",
+      "desc": "<span style=\"color:#FFFFFFFF\">근접 상태</span>로 진입하고 <span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "극악기·진멸섬",
+      "desc": "<span style=\"color:#FFFFFFFF\">타르탈리아</span>의 현재 상태에 따라 공격 방식이 달라진다.<br/><span style=\"color:#FFFFFFFF\">원거리 상태·마탄 일섬:</span> <span style=\"color:#80C0FFFF\">물 원소 피해</span>를 $[D__KEY__DAMAGE_4]pt 주고 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 2pt 돌려받으며 대상에게 <span style=\"color:#FFFFFFFF\">단류를 부착</span>한다.<br/><span style=\"color:#FFFFFFFF\">근접 상태·진멸의 물빛:</span> <span style=\"color:#80C0FFFF\">물 원소 피해</span>를 4pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "파도 억제",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">원거리 상태</span>가 부착된다.<br/>캐릭터에게 부착된 <span style=\"color:#FFFFFFFF\">근접 상태</span> 효과 종료 시 <span style=\"color:#FFFFFFFF\">원거리 상태</span>를 다시 부착한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

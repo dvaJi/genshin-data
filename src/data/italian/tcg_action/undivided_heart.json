@@ -4,19 +4,26 @@
   "name": "Cuore indivisibile",
   "title": "Ganyu: Cuore indivisibile",
   "desc": "Prima scocca la freccia, e poi diventa gelo.",
+  "in_play_description": "Quando Ganyu usa <span style=\"color:#FFFFFFFF\">Freccia Fiocco di ghiaccio</span>: se questa abilità è già stata usata durante la partita: <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> inflitti a tutti i personaggi avversari inattivi pari a 3.",
   "attributes": {
     "cost": 5,
     "cost_type": "Cryo",
     "card_type": "Carta equipaggiamento",
-    "source": [
-      "Ricompensa ottenuta sfidando Ganyu a duello alla Coda di Gatto e completando tutti gli obbiettivi della sfida corrispondente"
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "Cryo",
+        "count": 5
+      }
     ],
+    "source": "Ricompensa ottenuta sfidando Ganyu a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
     "tags": ["Talento", "Azione di combattimento"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento</span>: quando il tuo personaggio attivo è <span style=\"color:#FFFFFFFF\">Ganyu</span>, equipaggia questa carta.<br/>Dopo che Ganyu equipaggia questa carta, usa immediatamente <span style=\"color:#FFD780FF\">Freccia Fiocco di ghiaccio</span> una volta.<br/>Quando Ganyu, che ha questa carta equipaggiata, usa <span style=\"color:#FFFFFFFF\">Freccia Fiocco di ghiaccio</span>: <span style=\"color:#99FFFFFF\">DAN da Cryo</span> inflitti +1 se quest'abilità è già stata usata nella stessa partita, e ora invece infligge 3 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti i personaggi inattivi avversari.<br/>(Per aggiungere questa carta al tuo mazzo, devi avere Ganyu.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento</span>: quando il tuo personaggio attivo è <span style=\"color:#FFFFFFFF\">Ganyu</span>, equipaggia questa carta.<br/>Dopo che Ganyu equipaggia questa carta, usa immediatamente <span style=\"color:#FFD780FF\">Freccia Fiocco di ghiaccio</span> una volta.<br/>Quando Ganyu, che ha questa carta equipaggiata, usa <span style=\"color:#FFFFFFFF\">Freccia Fiocco di ghiaccio</span>: se quest'abilità è già stata usata durante questa partita: <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> inflitti a tutti i personaggi avversari inattivi pari a 3.<br/>(Per aggiungere questa carta al tuo mazzo, devi avere Ganyu.)"
     }
   ]
 }

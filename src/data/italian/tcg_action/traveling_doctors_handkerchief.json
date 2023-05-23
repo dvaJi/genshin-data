@@ -4,22 +4,31 @@
   "name": "Fazzoletto della dottoressa errante",
   "title": "Prassi medica: Fazzoletto della dottoressa errante",
   "desc": "\"Con la pioggia o con il sole, niente potrà mai rallentare il viaggio della dottoressa errante.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Dopo che questo personaggio usa un Tripudio elementale:</span> ripristina 1 PS di tutti i tuoi personaggi (una volta per turno).",
   "attributes": {
     "cost": 1,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 1
+      }
+    ],
     "artifact": {
       "_id": 210013,
       "id": "traveling_doctor",
-      "name": "Traveling Doctor"
+      "name": "Traveling Doctor",
+      "rarity": 3
     },
     "tags": ["Manufatto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Dopo che un personaggio usa un Tripudio elementale:</span> ripristina 1 PS di tutti i personaggi (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un Tripudio elementale:</span> ripristina 1 PS di tutti i personaggi (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
     }
   ]
 }

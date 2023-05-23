@@ -4,16 +4,25 @@
   "name": "널 저세상으로 데려다줄게",
   "title": "널 저세상으로 데려다줄게",
   "desc": "「전부 한 번에 보내드려요~ 왕생당 서비스 품질 보증! 분명 만족할 거예요」",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
-    "cost_type": "무색 원소",
+    "cost_type": "동일한 원소",
     "card_type": "이벤트 카드",
-    "source": ["시작 카드 덱에서 획득", "카드 상점 구매 획득"]
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 2
+      }
+    ],
+    "source": "시작 카드 덱에서 획득"
   },
   "skills": [
     {
       "name": "",
-      "desc": "상대방의 「소환물」을 1개 선택하여 소멸시킨다."
+      "desc": "적 「소환물」을 1개 선택하고 해당 소환물의 「<span style=\"color:#FFFFFFFF\">사용 가능 횟수</span>」를 2회 감소시킨다."
     }
   ]
 }

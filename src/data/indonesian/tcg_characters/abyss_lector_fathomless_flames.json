@@ -1,0 +1,95 @@
+{
+  "_id": 4303,
+  "id": "abyss_lector_fathomless_flames",
+  "name": "Abyss Lector - Fathomless Flames",
+  "title": "\"Abyss Lector\" Fathomless Flames",
+  "desc": "Dari ayat yang muncul, timbul peringatan yang diindahkan.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3856,
+      "id": "embers_rekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Abyss Lector: Fathomless Flames",
+    "character": {
+      "id": "abyss_lector_fathomless_flames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "flame_of_salvation",
+      "name": "Flame of Salvation",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_precept",
+      "name": "Searing Precept",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_star",
+      "name": "Ominous Star",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Darkfire Furnace</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fiery_rebirth",
+      "name": "Fiery Rebirth",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Fiery Rebirth</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "shield_of_surging_flame",
+      "name": "Shield of Surging Flame",
+      "desc": "[Pasif] Saat Karakter ini memicu <span style=\"color:#FFFFFFFF\">Fiery Rebirth</span>: Memperoleh status <span style=\"color:#FFFFFFFF\">Shield of Surging Flame</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

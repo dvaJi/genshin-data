@@ -4,22 +4,32 @@
   "name": "Mask of Solitude Basalt",
   "title": "Jagged Stone: Mask of Solitude Basalt",
   "desc": "\"He knew right from wrong, and he never missed his mark.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent Card:</span> Spend 1 less <span style=\"color:#FFE699FF\">Geo Die</span>. (Once per Round)",
   "attributes": {
     "cost": 2,
     "cost_type": "Matching Element",
     "card_type": "Equipment Card",
-    "source": ["Obtained from the initial deck", "Purchased at the Card Shop"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "source": "Obtained from the initial deck",
     "artifact": {
       "_id": 215014,
       "id": "archaic_petra",
-      "name": "Archaic Petra"
+      "name": "Archaic Petra",
+      "rarity": 5
     },
     "tags": ["Artifact"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">When a character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#FFE699FF\">Geo Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
+      "desc": "<span style=\"color:#FFFFFFFF\">When the character uses a Skill or equips a Talent:</span> Spend 1 less <span style=\"color:#FFE699FF\">Geo Die</span>. (Once per Round)<br/>(A character can equip a maximum of 1 Artifact)"
     }
   ]
 }

@@ -1,0 +1,97 @@
+{
+  "_id": 1603,
+  "id": "zhongli",
+  "name": "钟离",
+  "title": "尘世闲游·钟离",
+  "desc": "韬玉之石，可明八荒；灿若天星，纵横无双 。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "岩元素",
+    "weapon": "长柄武器",
+    "faction": ["璃月"],
+    "talent_card": {
+      "_id": 3853,
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth"
+    },
+    "source": "在猫尾酒馆中邀请钟离进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "_id": 10000030,
+      "id": "zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "岩雨",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "地心",
+      "desc": "造成1点<span style=\"color:#FFE699FF\">岩元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">岩脊</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis_striking_stone",
+      "name": "地心·磐礴",
+      "desc": "造成3点<span style=\"color:#FFE699FF\">岩元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">岩脊</span>，生成<span style=\"color:#FFFFFFFF\">玉璋护盾</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "planet_befall",
+      "name": "天星",
+      "desc": "造成4点<span style=\"color:#FFE699FF\">岩元素伤害</span>，目标角色附属<span style=\"color:#FFFFFFFF\">石化</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

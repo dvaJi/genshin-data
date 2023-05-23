@@ -4,15 +4,25 @@
   "name": "氷雪を踏む音",
   "title": "遠い世の霜歌·氷雪を踏む音",
   "desc": "「氷封の扉を開き、深淵の回廊を下り、銀白の枝を折って、彼は雪国に希望をもたらす…」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">キャラがスキル発動、または「天賦」を装備する時</span>、必要な<span style=\"color:#99FFFFFF\">氷元素</span>-1。（各ラウンドで1回のみ）",
   "attributes": {
     "cost": 2,
     "cost_type": "同一元素",
     "card_type": "装備カード",
-    "source": ["初期デッキで獲得", "カードショップで購入"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 2
+      }
+    ],
+    "source": "初期デッキで獲得",
     "artifact": {
       "_id": 214001,
       "id": "blizzard_strayer",
-      "name": "Blizzard Strayer"
+      "name": "Blizzard Strayer",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

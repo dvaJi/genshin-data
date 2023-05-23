@@ -4,11 +4,19 @@
   "name": "Adeptus Doyuran",
   "title": "Adeptus Doyuran",
   "desc": "Bu ismin, yemeğin bir Adeptusu ölümlüler diyarına döndürmesinden yola çıkarak verildiği söylenir. Ama soru şu ki hangi Adeptusu?",
+  "in_play_description": "",
   "attributes": {
     "cost": 2,
     "cost_type": "Nötr Element",
     "card_type": "Etki Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Nötr Element",
+        "count": 2
+      }
+    ],
     "food": {
       "_id": 5101,
       "id": "adeptus_temptation",
@@ -20,7 +28,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "Bu Turda hedef karakterin bir sonraki <span style=\"color:#FFFFFFFF\">Element Patlamasında</span> vereceği Hasar 3 artar.<br/>(Her Turda bir Karakter en fazla 1 Yiyecek tüketebilir.)"
+      "desc": "Bu Turda hedef karakterin bir sonraki <span style=\"color:#FFFFFFFF\">Element Patlaması</span> fazladan 3 Hasar verir.<br/>(Bir karakter her Turda en fazla 1 Yiyecek tüketebilir.)"
     }
   ]
 }

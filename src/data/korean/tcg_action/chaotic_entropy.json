@@ -4,14 +4,26 @@
   "name": "혼돈의 엔트로피",
   "title": "설탕·혼돈의 엔트로피",
   "desc": "광풍이 휘몰아치는 혼돈 속에서 승리를 움켜쥐다",
+  "in_play_description": "해당 카드를 장착한 설탕이 생성한 <span style=\"color:#FFFFFFFF\">거대 풍령</span>이 다른 원소로 전환된 후: 아군이 해당 원소 타입으로 가하는 피해+1pt",
   "attributes": {
     "cost": 3,
     "cost_type": "바람 원소",
     "card_type": "장비 카드",
-    "energy": 4,
-    "source": [
-      "캣테일 술집에서 설탕을 초대해 대전하고 상응하는 도전 목표 달성 후 획득"
+    "energy": [
+      {
+        "_id": 1105,
+        "id": "anemo",
+        "type": "바람 원소",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "원소 에너지",
+        "count": 2
+      }
     ],
+    "source": "캣테일 술집에서 설탕을 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
     "tags": ["특성", "전투 행동"]
   },
   "skills": [

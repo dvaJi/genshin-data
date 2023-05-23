@@ -1,0 +1,90 @@
+{
+  "_id": 1204,
+  "id": "tartaglia",
+  "name": "タルタリヤ",
+  "title": "「公子」·タルタリヤ",
+  "desc": "対局もまた戦場だよ。能ある者だけが先手を取れるんだ。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": ["ファデュイ"],
+    "talent_card": {
+      "_id": 3846,
+      "id": "abyssal_mayhem_hydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "キャッツテールでタルタリヤを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "_id": 10000033,
+      "id": "tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "cutting_torrent",
+      "name": "断雨",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "foul_legacy_raging_tide",
+      "name": "魔王の武装·荒波",
+      "desc": "<span style=\"color:#FFFFFFFF\">近接モード</span>に切り替え、<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を2与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "havoc_obliteration",
+      "name": "極悪技·尽滅閃",
+      "desc": "<span style=\"color:#FFFFFFFF\">タルタリヤ</span>の戦闘モードによって、異なる攻撃を発動する。<br/><span style=\"color:#FFFFFFFF\">遠隔モード·魔弾一閃：</span><span style=\"color:#80C0FFFF\">水元素ダメージ</span>を$[D__KEY__DAMAGE_4]与え、<span style=\"color:#FFFFFFFF\">チャージ</span>が2返還され、目標キャラに<span style=\"color:#FFFFFFFF\">断流</span>を付与する。<br/><span style=\"color:#FFFFFFFF\">近接モード·尽滅の水光：</span><span style=\"color:#80C0FFFF\">水元素ダメージ</span>を4与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tide_withholder",
+      "name": "押波",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">遠隔モード</span>が付与される。<br/>キャラに付与された<span style=\"color:#FFFFFFFF\">近接モード</span>の効果が終了時、再び<span style=\"color:#FFFFFFFF\">遠隔モード</span>を付与する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

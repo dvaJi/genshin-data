@@ -4,22 +4,31 @@
   "name": "Cacciatrice smeraldo",
   "title": "Sogno di foglie infrante: Cacciatrice smeraldo",
   "desc": "\"Un giorno, su quegli sterminati terreni da caccia... Ci incontreremo di nuovo.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#80FFD7FF\">dado di Anemo</span> in meno (una volta per turno).<br/><span style=\"color:#FFFFFFFF\">Fase di lancio:</span> 2 dei dadi elementali che lanci all'inizio saranno sempre dei <span style=\"color:#80FFD7FF\">dadi di Hydro</span>.",
   "attributes": {
     "cost": 3,
     "cost_type": "elemento indefinito",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "elemento indefinito",
+        "count": 3
+      }
+    ],
     "artifact": {
       "_id": 215002,
       "id": "viridescent_venerer",
-      "name": "Viridescent Venerer"
+      "name": "Viridescent Venerer",
+      "rarity": 5
     },
     "tags": ["Manufatto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia un talento:</span> consuma 1 <span style=\"color:#80FFD7FF\">dado di Anemo</span> in meno (una volta per turno).<br/><span style=\"color:#FFFFFFFF\">Fase di lancio:</span> 2 dei dadi elementali che lanci all'inizio saranno sempre dei <span style=\"color:#80FFD7FF\">dadi di Anemo</span>.<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#80FFD7FF\">dado di Anemo</span> in meno (una volta per turno).<br/><span style=\"color:#FFFFFFFF\">Fase di lancio:</span> 2 dei dadi elementali che lanci all'inizio saranno sempre dei <span style=\"color:#80FFD7FF\">dadi di Anemo</span>.<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
     }
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "_id": 1304,
+  "id": "amber",
+  "name": "Amber",
+  "title": "Aventureira - Amber",
+  "desc": "Se você quer ser um grande jogador...\\nPrimeiro, você tem que ter coragem de sentar e jogar!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arco",
+    "faction": ["Mondstadt"],
+    "talent_card": {
+      "_id": 3847,
+      "id": "bunny_triggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "Recompensa por desafiar Amber para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela",
+    "character": {
+      "_id": 10000021,
+      "id": "amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "sharpshooter",
+      "name": "Pontaria",
+      "desc": "Causa 2 {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "explosive_puppet",
+      "name": "Marionete Explosiva",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Barão Coelho</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fiery_rain",
+      "name": "Chuva Ardente",
+      "desc": "Causa 2 {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FF9999FF\">Dano Pyro</span> e causa 2 pontos de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Dano Perfurante</span></span> a todos os Personagens Inativos do oponente.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

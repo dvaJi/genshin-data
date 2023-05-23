@@ -4,17 +4,26 @@
   "name": "唯此一心",
   "title": "甘雨·唯此一心",
   "desc": "先矢奪人，好箭成霜。",
+  "in_play_description": "裝備有此牌的甘雨使用<span style=\"color:#FFFFFFFF\">霜華矢</span>時：如果此技能在本場對局中曾經被使用過，則其對敵方後臺角色造成的<span style=\"color:#FFFFFFFF\">穿透傷害</span>改為3點。",
   "attributes": {
     "cost": 5,
     "cost_type": "冰元素",
     "card_type": "裝備牌",
-    "source": ["在貓尾酒館中邀請甘雨進行對局，完成相應挑戰目標後獲得"],
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "冰元素",
+        "count": 5
+      }
+    ],
+    "source": "在貓尾酒館中邀請甘雨進行對局，完成相應挑戰目標後獲得",
     "tags": ["天賦", "戰鬥行動"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">戰鬥行動</span>：我方出戰角色為<span style=\"color:#FFFFFFFF\">甘雨</span>時，裝備此牌。<br/>甘雨裝備此牌後，立刻使用一次<span style=\"color:#FFD780FF\">霜華矢</span>。<br/>裝備有此牌的甘雨使用<span style=\"color:#FFFFFFFF\">霜華矢</span>時：如果此技能在本場對局中曾經被使用過，則其造成的<span style=\"color:#99FFFFFF\">冰元素傷害</span>+1，並且改為對敵方後臺角色造成3點<span style=\"color:#FFFFFFFF\">穿透傷害</span>。<br/>（牌組中包含甘雨，才能加入牌組）"
+      "desc": "<span style=\"color:#FFFFFFFF\">戰鬥行動</span>：我方出戰角色為<span style=\"color:#FFFFFFFF\">甘雨</span>時，裝備此牌。<br/>甘雨裝備此牌後，立刻使用一次<span style=\"color:#FFD780FF\">霜華矢</span>。<br/>裝備有此牌的甘雨使用<span style=\"color:#FFFFFFFF\">霜華矢</span>時：如果此技能在本場對局中曾經被使用過，則其對敵方後臺角色造成的<span style=\"color:#FFFFFFFF\">穿透傷害</span>改為3點。<br/>（牌組中包含甘雨，才能加入牌組）"
     }
   ]
 }

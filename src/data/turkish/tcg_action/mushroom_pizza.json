@@ -4,11 +4,19 @@
   "name": "Mantarlı Pizza",
   "title": "Mantarlı Pizza",
   "desc": "Bir keresinde bir araştırmacının \"pizza kesmenin en adil yolu\"nu bulmak için çok ince hesaplamalar yaptığı söylenir. Ama çok zahmetli olduğu için kimse bu yöntemi kullanmaz...",
+  "in_play_description": "",
   "attributes": {
     "cost": 1,
     "cost_type": "Aynı Element",
     "card_type": "Etki Kartı",
-    "source": ["Kart Dükkanından satın alarak elde edilir."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ],
     "food": {
       "_id": 3006,
       "id": "mushroom_pizza",
@@ -20,7 +28,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "Hedef karakter için 1 Can yeniler. Sonraki iki Turun Son Aşamasında bu karakter için tekrar 1 Can yeniler.<br/>(Her Turda bir Karakter en fazla 1 Yiyecek tüketebilir.)"
+      "desc": "Hedef karakter için 1 Can yeniler. Sonraki iki Turun Son Aşamasında bu karakter için tekrar 1 Can yeniler.<br/>(Bir karakter her Turda en fazla 1 Yiyecek tüketebilir.)"
     }
   ]
 }

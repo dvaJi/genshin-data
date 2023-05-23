@@ -4,17 +4,25 @@
   "name": "Atlante celeste",
   "title": "Atlante delle nuvole: Atlante celeste",
   "desc": "Il suo nome completo è \"Un atlante dei venti e delle nuvole.\"\\nIn questo testo vengono annotati venti e nuvole dei cieli nordici in forme poetica e archivistica.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una volta per turno:</span> DAN da <span style=\"color:#FFFFFFFF\">attacco normale</span> inflitti da questo personaggio +1.",
   "attributes": {
     "cost": 3,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": ["Acquistata al Negozio di carte"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
     "tags": ["Arma", "Catalizzatore"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una volta per turno:</span> DAN da attacco normale inflitti da questo personaggio +1.<br/>(Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con catalizzatore</span>. Il personaggio può equipaggiare un massimo di 1 arma.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una volta per turno:</span> DAN da <span style=\"color:#FFFFFFFF\">attacco normale</span> inflitti da questo personaggio +1.<br/>(Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con catalizzatore</span>. Il personaggio può equipaggiare un massimo di 1 arma.)"
     }
   ]
 }

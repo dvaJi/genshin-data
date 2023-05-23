@@ -4,19 +4,32 @@
   "name": "戦意の表れ",
   "title": "エウルア·戦意の表れ",
   "desc": "氷浪のように唸れ——怨を絶つ！",
+  "in_play_description": "このカードを装備したエウルアが<span style=\"color:#FFFFFFFF\">氷潮の渦</span>を発動する時、追加で<span style=\"color:#FFFFFFFF\">光臨の剣</span>に「エネルギー量」を1層重ねる。",
   "attributes": {
     "cost": 3,
     "cost_type": "氷元素",
     "card_type": "装備カード",
-    "source": [
-      "キャッツテールでエウルアを招待して対戦し、対応する挑戦目標をクリアすることで獲得"
+    "energy": [
+      {
+        "_id": 1101,
+        "id": "cryo",
+        "type": "氷元素",
+        "count": 3
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "チャージ",
+        "count": 2
+      }
     ],
+    "source": "キャッツテールでエウルアを招待して対戦し、対応する挑戦目標をクリアすることで獲得",
     "tags": ["天賦", "戦闘アクション"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">戦闘アクション</span>：味方の出撃キャラが<span style=\"color:#FFFFFFFF\">エウルア</span>の時、このカードを装備できる。<br/>エウルアがこのカードを装備した後、直ちに<span style=\"color:#FFD780FF\">氷浪の光剣</span>を1回発動する。<br/>このカードを装備したエウルアが<span style=\"color:#FFFFFFFF\">氷潮の渦</span>を発動する時、追加で<span style=\"color:#FFFFFFFF\">光臨の剣</span>に「エネルギー量」を1層重ねる。<br/>（デッキにエウルアが含まれている場合のみ、デッキに追加できる）"
+      "desc": "<span style=\"color:#FFFFFFFF\">戦闘アクション</span>：味方の出撃キャラが<span style=\"color:#FFFFFFFF\">エウルア</span>の時、このカードを装備できる。<br/>エウルアがこのカードを装備した後、直ちに<span style=\"color:#FFD780FF\">氷浪の光剣</span>を1回発動する。<br/>このカードを装備したエウルアが<span style=\"color:#FFFFFFFF\">氷潮の渦</span>を発動する時、追加で<span style=\"color:#FFFFFFFF\">光臨の剣</span>に「エネルギー量」を1層重ねる。<br/>（このカードはデッキにエウルアが含まれている場合のみ、デッキに追加できる）"
     }
   ]
 }

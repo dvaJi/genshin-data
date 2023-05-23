@@ -4,15 +4,25 @@
   "name": "酒漬船帽",
   "title": "沉淵舊夢·酒漬船帽",
   "desc": "「酒漬的船帽被暴風揚入高空，逐浪乘波而去，而那註定失去故鄉之人，進行著無望無求的紛爭。」",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">角色使用技能或裝備「天賦」時：</span>少花費1個<span style=\"color:#80C0FFFF\">水元素</span>。（每回合1次）",
   "attributes": {
     "cost": 2,
     "cost_type": "相同元素",
     "card_type": "裝備牌",
-    "source": ["初始牌組中獲得", "卡牌商店購買獲得"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 2
+      }
+    ],
+    "source": "初始牌組中獲得",
     "artifact": {
       "_id": 215016,
       "id": "heart_of_depth",
-      "name": "Heart of Depth"
+      "name": "Heart of Depth",
+      "rarity": 5
     },
     "tags": ["聖遺物"]
   },

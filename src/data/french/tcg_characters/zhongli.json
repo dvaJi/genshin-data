@@ -1,0 +1,97 @@
+{
+  "_id": 1603,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "title": "Zhongli · Vagabond du monde mortel",
+  "desc": "Une gemme cachée peut illuminer la terre entière, brillante et unique comme une étoile.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Géo",
+    "weapon": "Arme d'hast",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3853,
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth"
+    },
+    "source": "Récompense pour avoir invité Zhongli à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000030,
+      "id": "zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Pluie de pierres",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Dominus Lapidis",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFE699FF\">DGT Géo</span> et invoque une <span style=\"color:#FFFFFFFF\">dorsale rocheuse</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis_striking_stone",
+      "name": "Dominus Lapidis : Roc destructeur",
+      "desc": "Inflige 3 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFE699FF\">DGT Géo</span>, invoque une <span style=\"color:#FFFFFFFF\">dorsale rocheuse</span> et crée un <span style=\"color:#FFFFFFFF\">bouclier de jade</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "planet_befall",
+      "name": "Chute de météore",
+      "desc": "Inflige 4 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFE699FF\">DGT Géo</span> et inflige une <span style=\"color:#FFFFFFFF\">pétrification</span> au personnage choisi.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -39,10 +39,9 @@ export type AscendStat = {
   label: string;
   values: (string | number)[];
 };
-
 export interface Ascension {
   level: [number, number];
-  cost: number;
+  cost?: number;
   stats: AscendStat[];
   mat1?: AscensionMaterial;
   mat2?: AscensionMaterial;

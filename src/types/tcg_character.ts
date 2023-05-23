@@ -28,7 +28,7 @@ export interface TCGCharacterCard {
     weapon: string;
     faction: string[];
     talent_card?: Entity;
-    source: string[];
+    source: string;
     character?: Entity;
   };
   skills: CharacterCardSkill[];

@@ -4,11 +4,20 @@
   "name": "Borla Branca",
   "title": "O Florescer Afiado - Borla Branca",
   "desc": "Uma arma padrão dos soldados de Millelith. Tem uma ponta bastante afiada e resistente. É uma arma confiável.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Aumenta o Dano causado pelo personagem em 1 ponto</span>.",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementos Correspondentes",
     "card_type": "Carta de Equipamento",
-    "source": ["Obtido do deck inicial", "Pode ser comprado na Loja de Cartas"],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementos Correspondentes",
+        "count": 2
+      }
+    ],
+    "source": "Obtido do deck inicial",
     "tags": ["Arma", "Lança"]
   },
   "skills": [

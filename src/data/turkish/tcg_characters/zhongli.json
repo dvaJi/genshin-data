@@ -1,0 +1,97 @@
+{
+  "_id": 1603,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "title": "\"Fani Dünya Gezgini\" Zhongli",
+  "desc": "Gizli kalmış kıymetli bir taş tüm dünyayı aydınlatabilir, parlak ve bir yıldız gibi eşsizdir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Toprak",
+    "weapon": "Mızrak",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3853,
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth"
+    },
+    "source": "Zhongli'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "_id": 10000030,
+      "id": "zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Taş Yağmuru",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Taşların Efendisi",
+      "desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Dikili Taş</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis_striking_stone",
+      "name": "Taşların Efendisi: Hüküm Taşı",
+      "desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir, 1 <span style=\"color:#FFFFFFFF\">Dikili Taş</span> çağırır ve 1 <span style=\"color:#FFFFFFFF\">Yeşim Kalkan</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "planet_befall",
+      "name": "Düşen Gezegen",
+      "desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Taşlaşma</span> eklenir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

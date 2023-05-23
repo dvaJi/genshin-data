@@ -4,25 +4,32 @@
   "name": "Corona d'alloro",
   "title": "Emblema del Chiamapioggia: Corona d'alloro",
   "desc": "\"Ogni essere vivente è destinato a vivere e morire, e il ciclo prosegue in eterno.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#99FF88FF\">dado di Dendro</span> in meno (una volta per turno).",
   "attributes": {
     "cost": 2,
     "cost_type": "Elementi corrispondenti",
     "card_type": "Carta equipaggiamento",
-    "source": [
-      "Si ottiene dal mazzo iniziale",
-      "Acquistata al Negozio di carte"
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 2
+      }
     ],
+    "source": "Si ottiene dal mazzo iniziale",
     "artifact": {
       "_id": 215025,
       "id": "deepwood_memories",
-      "name": "Deepwood Memories"
+      "name": "Deepwood Memories",
+      "rarity": 5
     },
     "tags": ["Manufatto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia un talento:</span> consuma 1 <span style=\"color:#99FF88FF\">dado di Dendro</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Quando un personaggio usa un'abilità o equipaggia una carta talento:</span> consuma 1 <span style=\"color:#99FF88FF\">dado di Dendro</span> in meno (una volta per turno).<br/>(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "_id": 4102,
+  "id": "fatui_cryo_cicin_mage",
+  "name": "Mage cryoluciole des Fatui",
+  "title": "Luciole de brume - Mage cryoluciole",
+  "desc": "Et tant que l'herbe brumeuse persistera, les Cryolucioles ne l'abandonneront pas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3855,
+      "id": "cicins_cold_glare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Mage cryoluciole des Fatui",
+    "character": {
+      "id": "fatui_cryo_cicin_mage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "cicin_icicle",
+      "name": "Pyramide cryoluciole",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_summons",
+      "name": "Appel brumeux",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque une <span style=\"color:#FFFFFFFF\">Cryoluciole</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blizzard_branch_blossom",
+      "name": "Givre de fleurs blanches",
+      "desc": "Inflige 5 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#99FFFFFF\">DGT Cryo</span>, <span style=\"color:#99FFFFFF\">applique l'élément Cryo</span> au personnage et crée un <span style=\"color:#FFFFFFFF\">bouclier de luciole</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

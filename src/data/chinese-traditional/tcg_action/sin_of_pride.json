@@ -4,11 +4,26 @@
   "name": "我界",
   "title": "九條裟羅·我界",
   "desc": "「持心正弦，遇敵必除！」",
+  "in_play_description": "裝備有此牌的九條裟羅在場時，我方附屬有<span style=\"color:#FFFFFFFF\">鳴煌護持</span>的<span style=\"color:#FFACFFFF\">雷元素</span>角色，<span style=\"color:#FFFFFFFF\">元素戰技</span>和<span style=\"color:#FFFFFFFF\">元素爆發</span>造成的傷害額外+1。",
   "attributes": {
     "cost": 4,
     "cost_type": "雷元素",
     "card_type": "裝備牌",
-    "source": ["在貓尾酒館中邀請九條裟羅進行對局，完成相應挑戰目標後獲得"],
+    "energy": [
+      {
+        "_id": 1104,
+        "id": "electro",
+        "type": "雷元素",
+        "count": 4
+      },
+      {
+        "_id": 1110,
+        "id": "energy",
+        "type": "充能",
+        "count": 2
+      }
+    ],
+    "source": "在貓尾酒館中邀請九條裟羅進行對局，完成相應挑戰目標後獲得",
     "tags": ["天賦", "戰鬥行動"]
   },
   "skills": [

@@ -7,7 +7,7 @@
   "type": "Claymore",
   "domain": "Cecilia Garden",
   "passive": "Sky-ripping Dragon Spine",
-  "bonus": "Increases all DMG by <span>8%/10%/12%/14%/16%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>80%/100%/120%/140%/160%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades.",
+  "bonus": "Increases all DMG by <span>8%/10%/12%/14%/16%</span>. After using an Elemental Burst, a vacuum blade that does <span>80%/100%/120%/140%/160%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
   "stats": {
     "primary": "Base ATK",
     "secondary": "Energy Recharge",
@@ -273,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Sky-ripping Dragon Spine",
+    "template": "Increases all DMG by <span style=\"color:#99FFFFFF\">{0}</span>. After using an Elemental Burst, a vacuum blade that does <span style=\"color:#99FFFFFF\">{1}</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades.",
+    "params": [
+      ["8%", "80%"],
+      ["10%", "100%"],
+      ["12%", "120%"],
+      ["14%", "140%"],
+      ["16%", "160%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Increases all DMG by <span>8%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>80%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+      "desc": "Increases all DMG by <span>8%</span>. After using an Elemental Burst, a vacuum blade that does <span>80%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
     },
     {
       "refinement": 2,
-      "desc": "Increases all DMG by <span>10%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>100%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+      "desc": "Increases all DMG by <span>10%</span>. After using an Elemental Burst, a vacuum blade that does <span>100%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
     },
     {
       "refinement": 3,
-      "desc": "Increases all DMG by <span>12%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>120%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+      "desc": "Increases all DMG by <span>12%</span>. After using an Elemental Burst, a vacuum blade that does <span>120%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
     },
     {
       "refinement": 4,
-      "desc": "Increases all DMG by <span>14%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>140%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+      "desc": "Increases all DMG by <span>14%</span>. After using an Elemental Burst, a vacuum blade that does <span>140%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
     },
     {
       "refinement": 5,
-      "desc": "Increases all DMG by <span>16%</span>. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does <span>160%</span> of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades."
+      "desc": "Increases all DMG by <span>16%</span>. After using an Elemental Burst, a vacuum blade that does <span>160%</span> of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
     }
   ]
 }

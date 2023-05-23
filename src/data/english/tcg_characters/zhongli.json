@@ -1,0 +1,97 @@
+{
+  "_id": 1603,
+  "id": "zhongli",
+  "name": "Zhongli",
+  "title": "\"Vago Mundo\" Zhongli",
+  "desc": "A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Polearm",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 3853,
+      "id": "dominance_of_earth",
+      "name": "Dominance of Earth"
+    },
+    "source": "Reward for inviting Zhongli to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "character": {
+      "_id": 10000030,
+      "id": "zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "rain_of_stone",
+      "name": "Rain of Stone",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis",
+      "name": "Dominus Lapidis",
+      "desc": "Deals 1 <span style=\"color:#FFE699FF\">Geo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Stone Stele</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dominus_lapidis_striking_stone",
+      "name": "Dominus Lapidis: Striking Stone",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Stone Stele</span>, creates 1 <span style=\"color:#FFFFFFFF\">Jade Shield</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "planet_befall",
+      "name": "Planet Befall",
+      "desc": "Deals 4 <span style=\"color:#FFE699FF\">Geo DMG</span>. The target character receives <span style=\"color:#FFFFFFFF\">Petrification</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "_id": 4402,
+  "id": "electro_hypostasis",
+  "name": "Hipóstasis Electro",
+  "title": "Hipóstasis Electro",
+  "desc": "Nombre en clave: Álef. Un ser Electro de gran pureza.\\nAunque le ganes a piedra, papel, tijera, nunca admitirá la derrota.",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "talent_card": {
+      "_id": 3857,
+      "id": "absorbing_prism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Hipóstasis Electro de los duelos tabernarios",
+    "character": {
+      "id": "electro_hypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "Proyección de cristal Electro",
+      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "Triporrazo piedra, papel, tijera",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span>, y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> por separado: <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: tijera</span> y <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: papel</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "Retención eléctrica",
+      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca unas <span style=\"color:#FFFFFFFF\">cadenas de tormenta inminente</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electro_crystal_core",
+      "name": "Núcleo de cristal Electro",
+      "desc": "Pasiva: comienza el duelo con un <span style=\"color:#FFFFFFFF\">núcleo de cristal Electro</span>.<br/><span style=\"color:#FFFFFFFF\">Al principio de la fase de acciones</span>, si el personaje no cuenta con un núcleo de cristal Electro, activa uno (se puede activar un máximo de 2 veces por duelo).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Sedimento elemental: Electro",
+      "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de un <span style=\"color:#FFFFFFFF\">Ser elemental: Electro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

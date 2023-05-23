@@ -4,11 +4,20 @@
   "name": "Mondstadt Usulü Mücver",
   "title": "Mondstadt Usulü Mücver",
   "desc": "Tatlı tadı Teyvat'ta tanınmış bir gurmenin şu sözlerini doğrular niteliktedir: \"Bir yöreye ait bir yemeğin tadının kötü olma ihtimali yoktur.\"",
+  "in_play_description": "",
   "attributes": {
     "cost": 1,
     "cost_type": "Aynı Element",
     "card_type": "Etki Kartı",
-    "source": ["Oyuncu Rehberindeki şartları karşılamanın ödülü."],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ],
+    "source": "Oyuncu Rehberindeki şartları karşılamanın ödülü.",
     "food": {
       "_id": 3007,
       "id": "mondstadt_hash_brown",
@@ -20,7 +29,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "Hedef karakter için 2 Can yeniler.<br/>(Her Turda bir Karakter en fazla 1 Yiyecek tüketebilir.)"
+      "desc": "Hedef karakter için 2 Can yeniler.<br/>(Bir karakter her Turda en fazla 1 Yiyecek tüketebilir.)"
     }
   ]
 }
