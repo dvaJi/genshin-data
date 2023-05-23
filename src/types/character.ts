@@ -73,7 +73,7 @@ export interface Character {
   gender: string;
   substat: string;
   affiliation: string;
-  region: string;
+  region?: string;
   rarity: number;
   birthday: [number, number];
   constellation: string;
