@@ -1,3 +1,9 @@
+## [0.31.1](https://github.com/dvaJi/genshin-data/compare/0.31.0...0.31.1) (2023-05-23)
+
+### Features
+
+- **Character** region is optional ([#11](https://github.com/dvaJi/genshin-data/pull/11)) ([c8fb1b4](https://github.com/dvaJi/genshin-data/commit/c8fb1b4c0334bc8991c3c2124485299f47b9090e)) [@Victorsitou](https://github.com/Victorsitou)
+
 ## [0.31.0](https://github.com/dvaJi/genshin-data/compare/0.30.1...0.31.0) (2023-05-23)
 
 ### Features
