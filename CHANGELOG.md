@@ -1,3 +1,9 @@
+## [0.31.0](https://github.com/dvaJi/genshin-data/compare/0.30.1...0.31.0) (2023-05-23)
+
+### Features
+
+- feat: add missing artifacts from v3.7 ([3d7cbc5](https://github.com/dvaJi/genshin-data/commit/3d7cbc595668cb59a909b76e26783cb3a216347b))
+
 ## [0.30.1](https://github.com/dvaJi/genshin-data/compare/0.30.0...0.30.1) (2023-04-17)
 
 ### Fixes
