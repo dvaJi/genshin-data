@@ -1,10 +1,10 @@
-export interface FurnitureCategory {
+export interface FurnitureRecipe {
   id: string;
   name: string;
   amount: string;
 }
 
-export interface FurnitureRecipe {
+export interface FurnitureCategory {
   _id: number;
   id: number;
   category: string;
