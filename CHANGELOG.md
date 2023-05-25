@@ -1,3 +1,11 @@
+## [0.31.2](https://github.com/dvaJi/genshin-data/compare/0.31.1...0.31.2) (2023-05-24)
+
+### Fixes
+
+- **tcg** add missing action cards, Closes ([#13](https://github.com/dvaJi/genshin-data/pull/13)) ([ed517b3](https://github.com/dvaJi/genshin-data/commit/ed517b3004e0dbb467979b3ace6e2a3a96de6039))
+
+- **characters** Missing stats field in Kirara's ascension Closes ([#12](https://github.com/dvaJi/genshin-data/pull/12)) ([d91fab5](https://github.com/dvaJi/genshin-data/commit/d91fab546dc2ae0a9e5cb4b3639e2fd15543db60))
+
 ## [0.31.1](https://github.com/dvaJi/genshin-data/compare/0.31.0...0.31.1) (2023-05-23)
 
 ### Features
@@ -8,7 +16,7 @@
 
 ### Features
 
-- feat: add missing artifacts from v3.7 ([3d7cbc5](https://github.com/dvaJi/genshin-data/commit/3d7cbc595668cb59a909b76e26783cb3a216347b))
+- add update data to GI v3.7 ([3d7cbc5](https://github.com/dvaJi/genshin-data/commit/3d7cbc595668cb59a909b76e26783cb3a216347b))
 
 ## [0.30.1](https://github.com/dvaJi/genshin-data/compare/0.30.0...0.30.1) (2023-04-17)
 
