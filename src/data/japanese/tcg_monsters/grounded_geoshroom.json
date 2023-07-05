@@ -1,0 +1,79 @@
+{
+  "_id": 3605,
+  "id": "grounded_geoshroom",
+  "name": "トコトコ岩マッシュロン",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "胞子弾",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_breath",
+      "name": "凶猛吐息",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_blast",
+      "name": "爆破突進",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を5与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "状態スイッチ",
+      "desc": "【固有】戦闘開始時、キャラは<span style=\"color:#FFFFFFFF\">陸地優勢</span>にある。<br/>キャラが<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を受けた後、<span style=\"color:#FFFFFFFF\">枯燥状態</span>へと変わる。<br/>キャラが<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を受けた後、<span style=\"color:#FFFFFFFF\">活発状態</span>へと変わる。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

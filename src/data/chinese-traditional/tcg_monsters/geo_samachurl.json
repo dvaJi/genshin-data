@@ -1,0 +1,66 @@
+{
+  "_id": 3603,
+  "id": "geo_samachurl",
+  "name": "岩丘丘薩滿",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "杖擊",
+      "desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "summoning_of_stones",
+      "name": "喚石之咒",
+      "desc": "造成2點<span style=\"color:#FFE699FF\">岩元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">岩土臺座</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shockwave_smash",
+      "name": "碎岩震波",
+      "desc": "造成5點<span style=\"color:#FFE699FF\">岩元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

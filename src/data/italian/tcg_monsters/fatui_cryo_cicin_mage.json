@@ -1,0 +1,81 @@
+{
+  "_id": 4102,
+  "id": "fatui_cryo_cicin_mage",
+  "name": "Maga Cicin di Cryo dei Fatui",
+  "title": "\"Cicin della nebbia vuota\" Maga Cicin di Cryo",
+  "desc": "E finché l'Erbafosca persiste, i Cicin di Cryo non l'abbandoneranno.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3855,
+      "id": "cicins_cold_glare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Maga Cicin di Cryo in un duello amichevole",
+    "character": {
+      "id": "fatui_cryo_cicin_mage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "cicin_icicle",
+      "name": "Stalattite Cicin",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_summons",
+      "name": "Invocazioni offuscate",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, invoca <span style=\"color:#FFFFFFFF\">Cicin di Cryo</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blizzard_branch_blossom",
+      "name": "Tormenta, ramo, fioritura",
+      "desc": "Infligge 5 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, questo personaggio riceve <span style=\"color:#99FFFFFF\">Applicazione di Cryo</span> e genera 1 <span style=\"color:#FFFFFFFF\">Scudo fluttuante Cicin</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "雷深淵法師",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "雷彈",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "纏光的祭法",
+      "desc": "召喚<span style=\"color:#FFFFFFFF\">纏雷之環</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "滾雷馳驟之儀",
+      "desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">纏雷之環</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "雷元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">雷元素護罩</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

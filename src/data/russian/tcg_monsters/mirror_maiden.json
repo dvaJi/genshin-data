@@ -1,0 +1,81 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Зеркальная дева Фатуи",
+  "title": "«Посланница водной глади» Зеркальная дева Фатуи",
+  "desc": "Отражения на воде сберегут в себе тайны...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": ["Фатуи"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": "Награда за победу над Зеркальной девой в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Водяной снаряд",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Водяной хлопок",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 2 ед., цель получает <span style=\"color:#FFFFFFFF\">Преломление</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Сверкающее преломление",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

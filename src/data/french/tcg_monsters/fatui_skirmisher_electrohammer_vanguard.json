@@ -1,0 +1,79 @@
+{
+  "_id": 3407,
+  "id": "fatui_skirmisher_electrohammer_vanguard",
+  "name": "Tirailleur Fatui - Frappeur Électro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_hammer_strike",
+      "name": "Martèlement rapide",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_charge",
+      "name": "Charge furieuse",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderblast_hammer",
+      "name": "Marteau de tonnerre",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et accorde un <span style=\"color:#FFFFFFFF\">équipement Électro</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Réapprovisionnement de combat",
+      "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

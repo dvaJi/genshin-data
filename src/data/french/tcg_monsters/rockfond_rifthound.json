@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Limier de faille géophile",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Griffe corrosive",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">zone de corrosion</span> sur le terrain adverse.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Craquelure de cristal",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">zone de corrosion</span> sur le terrain adverse.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Marque de poursuivant",
+      "desc": "Inflige 6 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">zone de corrosion</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Soif de magie",
+      "desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">soif de magie</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Пернатый плесенник",
+  "title": "«Грибной повелитель» Пернатый плесенник",
+  "desc": "Если прислушаться, то можно услышать, как вождь грибов осматривает свои владения...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Награда за победу над Пернатым плесенником в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Танец плесенников",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Облако нестабильных спор",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Величественное оперение",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 4 ед., затем расходует все уровни <span style=\"color:#FFFFFFFF\">Сила оживления</span>. За каждый уровень наносит +1 ед. урона.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Сила оживления",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Сила оживления</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

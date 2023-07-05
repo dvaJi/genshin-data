@@ -1,0 +1,102 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Rhodeia of Loch",
+  "title": "\"Lady of Clear Waters\" Rhodeia",
+  "desc": "\"Selama hujan turun dan sungai mengalir ... air akan selalu ada selamanya ....\"",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Rhodeia of Loch",
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Surge",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Oceanid Mimic Summoning",
+      "desc": "Memanggil 1 <span style=\"color:#FFFFFFFF\">Oceanid Mimic</span> secara acak (Mengutamakan pemanggilan tipe yang berbeda).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "The Myriad Wilds",
+      "desc": "Memanggil 2 <span style=\"color:#FFFFFFFF\">Oceanid Mimic</span> secara acak (Mengutamakan pemanggilan tipe yang berbeda).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Tide and Torrent",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>. Untuk setiap Panggilan yang ada di pihakmu, mengakibatkan +2 poin DMG.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

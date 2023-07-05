@@ -1,0 +1,95 @@
+{
+  "_id": 4402,
+  "id": "electro_hypostasis",
+  "name": "無相之雷",
+  "title": "無相之雷",
+  "desc": "代號為「阿萊夫」的高級雷元素生命。\\n就算猜拳獲勝，它通常也不會認輸。",
+  "attributes": {
+    "hp": 45,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3857,
+      "id": "absorbing_prism",
+      "name": "Absorbing Prism"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度無相之雷中獲得勝利後獲得",
+    "character": {
+      "id": "electro_hypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "雷晶投射",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "猜拳三連擊",
+      "desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">猜拳三連擊·剪刀</span>和<span style=\"color:#FFFFFFFF\">猜拳三連擊·布</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "靂霆鎮鎖",
+      "desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">雷鎖鎮域</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electro_crystal_core",
+      "name": "雷晶核心",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">雷晶核心</span>。<br/><span style=\"color:#FFFFFFFF\">行動階段開始時：</span>如果本角色未附屬雷晶核心，則為其重新附屬雷晶核心。（整場對局最多觸發2次）",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "元素沉積·雷",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·雷</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

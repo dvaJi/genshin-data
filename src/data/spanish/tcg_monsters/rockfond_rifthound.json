@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Sabueso Acechador Lítico",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Zarpazo corrosivo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Ruptura de cristal",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Marca de caza",
+      "desc": "Inflige 6 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Devoración elemental",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">devoración elemental</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

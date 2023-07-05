@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "Mago dell'Abisso di Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "Saetta",
+      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "Luce persistente",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Anello avviluppante</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "Rito del Tuono ondulatorio",
+      "desc": "Infligge 4 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Anello avviluppante</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "Scudo di Electro",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Scudo di Electro</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "煙緋",
+  "title": "無邪気な知恵·煙緋",
+  "desc": "修古を期せず、常行に法らず。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "source": "キャッツテールで煙緋を招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "封蝋の印",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "丹書契約",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">丹火の印</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "契約成立",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">丹火の印</span>と<span style=\"color:#FFFFFFFF\">灼灼</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

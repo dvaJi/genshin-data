@@ -1,0 +1,72 @@
+{
+  "_id": 1207,
+  "id": "candace",
+  "name": "Candace",
+  "title": "Candace - La Devota Áurea",
+  "desc": "Entre arenas granas y doradas, prevalece su juramento de protección.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Lanza",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Candace en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "gleaming_spear_guardian_stance",
+      "name": "Lanza radiante - En guardia",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_herons_sanctum",
+      "name": "Rito sagrado: Garza guardiana",
+      "desc": "Este personaje obtiene un <span style=\"color:#FFFFFFFF\">escudo de la garza</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Golpe de la garza</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wagtails_tide",
+      "name": "Rito sagrado: Marea de aguzanieves",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y otorga el estado de <span style=\"color:#FFFFFFFF\">oración de la corona escarlata</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

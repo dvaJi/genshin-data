@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "Kaedehara Kazuha - El Mensajero del Viento",
+  "desc": "Deleitado por las flores y el canto de los pájaros, la luz de la luna ilumina su camino.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Espada ligera",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Kaedehara Kazuha en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Técnica de espada Garyuu",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Vehemencia estremecedora",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>. Este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">Contención del caos</span>.<br/>Si esta habilidad causa una reacción de Torbellino, el efecto de <span style=\"color:#FFFFFFFF\">Contención del caos</span> cambiará al elemento de dicho Torbellino.<br/><span style=\"color:#FFFFFFFF\">Tras ejecutar esta habilidad</span>, cambias a tu siguiente personaje.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Filo de las diez mil hojas",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> e invoca un <span style=\"color:#FFFFFFFF\">viento del otoño</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

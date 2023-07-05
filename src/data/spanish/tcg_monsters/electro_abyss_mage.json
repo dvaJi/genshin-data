@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "Mago del Abismo Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "Rayo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "Ofrenda lumínica",
+      "desc": "Invoca un <span style=\"color:#FFFFFFFF\">electroanillo enredador</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "Rito del relámpago",
+      "desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca un <span style=\"color:#FFFFFFFF\">electroanillo enredador</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "Escudo Electro",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene un <span style=\"color:#FFFFFFFF\">escudo Electro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

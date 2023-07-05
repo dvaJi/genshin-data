@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "Électromage de l'Abîme",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "Éclair",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "Lumière persistante",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">anneau de tempête</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "Rite du tonnerre hurlant",
+      "desc": "Inflige 4 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque un <span style=\"color:#FFFFFFFF\">anneau de tempête</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "Bouclier Électro",
+      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">bouclier Électro</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

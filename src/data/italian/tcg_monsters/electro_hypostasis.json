@@ -1,0 +1,95 @@
+{
+  "_id": 4402,
+  "id": "electro_hypostasis",
+  "name": "Ipostasi di Electro",
+  "title": "Ipostasi di Electro",
+  "desc": "Nome in codice: Aleph. Un'entità di Elettro dall'elevata purezza.\\nNon ammetterebbe la sconfitta nemmeno se perdesse a sasso carta forbice.",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "talent_card": {
+      "_id": 3857,
+      "id": "absorbing_prism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Ipostasi di Electro in un duello amichevole",
+    "character": {
+      "id": "electro_hypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "Proiezione del Cristallo di Electro",
+      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "Combo carta, forbice, sasso",
+      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span> e poi, separatamente, <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Forbice</span> e <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Carta</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "Blocco fulmineo",
+      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Catene del Tuono tutelare</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electro_crystal_core",
+      "name": "Nucleo cristallino di Electro",
+      "desc": "(Passiva) All'inizio della battaglia, comincia con <span style=\"color:#FFFFFFFF\">Nucleo cristallino di Electro</span>.<br/><span style=\"color:#FFFFFFFF\">Quando inizia la fase di azione:</span> Se il personaggio deve ancora ottenere Nucleo cristallino di Electro, allora ottiene nuovamente Nucleo cristallino di Electro (si può innescare al massimo 2 volte in un singolo duello).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Sedimentazione elementale di Electro",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Entità elementale di Electro</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

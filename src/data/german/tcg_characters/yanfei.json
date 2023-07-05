@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "Yanfei",
+  "title": "Naive Weisheit – Yanfei",
+  "desc": "Alle Regeln verändern sich ständig.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Katalysator",
+    "faction": ["Liyue"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Yanfei in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "Flammendes Siegel",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "Pakt des Feuers",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Flammensiegel</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "Pakt des flammenden Infernos",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Flammensiegel</span> und <span style=\"color:#FFFFFFFF\">Sengende Hitze</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

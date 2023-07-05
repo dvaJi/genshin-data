@@ -1,0 +1,79 @@
+{
+  "_id": 3205,
+  "id": "grounded_hydroshroom",
+  "name": "Grounded Hydroshroom",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Spore Bullet",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_breath",
+      "name": "Raging Breath",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_blast",
+      "name": "Charging Blast",
+      "desc": "Mengakibatkan 5 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "State Change",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini akan memperoleh status <span style=\"color:#FFFFFFFF\">Terrain Advantage</span>.<br/>Jika Karakter menerima <span style=\"color:#FF9999FF\">Pyro DMG</span>, akan berubah menjadi <span style=\"color:#FFFFFFFF\">Scorched</span>.<br/>Jika Karakter menerima <span style=\"color:#FFACFFFF\">Electro DMG</span>, akan berubah menjadi <span style=\"color:#FFFFFFFF\">Activated</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

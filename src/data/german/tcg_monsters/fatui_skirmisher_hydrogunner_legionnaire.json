@@ -2,21 +2,22 @@
   "_id": 3203,
   "id": "fatui_skirmisher_hydrogunner_legionnaire",
   "name": "Fatui-Plänkler – Hydro-Kanonen-Gardist",
-  "title": "Fatui-Plänkler – Hydro-Kanonen-Gardist",
-  "desc": "",
+  "title": null,
+  "desc": null,
   "attributes": {
     "hp": 10,
     "card_type": "Figurenkarte",
     "energy": 3,
     "element": "Hydro",
     "weapon": "Andere Waffen",
-    "faction": ["Fatui"]
+    "faction": ["Fatui"],
+    "source": null
   },
   "skills": [
     {
       "id": "skilled_charge",
       "name": "Körperstoß",
-      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
       "skillTag": ["Standardangriff"],
       "points": [
         {
@@ -36,7 +37,7 @@
     {
       "id": "curative_bullet",
       "name": "Heilungsschuss",
-      "desc": "Verursacht 1 Pkt. $[D__KEY__ELEMENT|s1], stellt 2 eigenen inaktiven Figuren 1 LP wieder her.",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, stellt 2 eigenen inaktiven Figuren 1 LP wieder her.",
       "skillTag": ["Elementarfähigkeit"],
       "points": [
         {
@@ -50,7 +51,7 @@
     {
       "id": "elemental_buff_hydro",
       "name": "Elementarbonus – Hydro",
-      "desc": "Verursacht 3 Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Elementarrüstung – Hydro</span>.",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Elementarrüstung – Hydro</span>.",
       "skillTag": ["Spezialfähigkeit"],
       "points": [
         {

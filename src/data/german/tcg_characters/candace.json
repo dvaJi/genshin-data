@@ -1,0 +1,72 @@
+{
+  "_id": 1207,
+  "id": "candace",
+  "name": "Candace",
+  "title": "Gelübde beim treibenden Gold – Candace",
+  "desc": "Beim treibenden Gold der roten Sande, ihr unzerbrechliches Schutzgelübde.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Sumeru"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Candace in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "gleaming_spear_guardian_stance",
+      "name": "Funkelnde Speertechnik – Abwehr",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_herons_sanctum",
+      "name": "Heiliger Ritus – Heiligtum des Reihers",
+      "desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Schild des Reihers</span> und <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeit vor</span>: <span style=\"color:#FFFFFFFF\">Angriff des Reihers</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wagtails_tide",
+      "name": "Heiliger Ritus – Bachstelzenflut",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Gebet der roten Krone</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_id": 4604,
+  "id": "stonehide_lawachurl",
+  "name": "丘丘岩盔王",
+  "title": "千嶂漫行·丘丘岩盔王",
+  "desc": "繞道而行吧，因為前方是屬於「王」的領域。",
+  "attributes": {
+    "hp": 8,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"],
+    "talent_card": {
+      "_id": 3239,
+      "id": "stonehide_reforged",
+      "name": "Stonehide Reforged"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度丘丘岩盔王中取得勝利後獲得",
+    "character": {
+      "id": "stonehide_lawachurl",
+      "name": "Stonehide Lawachurl"
+    }
+  },
+  "skills": [
+    {
+      "id": "plama_lawa",
+      "name": "Plama Lawa",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "movo_lawa",
+      "name": "Movo Lawa",
+      "desc": "造成3點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "upa_shato",
+      "name": "Upa Shato",
+      "desc": "造成5點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "infused_stonehide",
+      "name": "魔化：岩盔",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">岩盔</span>和<span style=\"color:#FFFFFFFF\">堅岩之力</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

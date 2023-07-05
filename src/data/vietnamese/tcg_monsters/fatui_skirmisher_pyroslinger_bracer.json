@@ -1,0 +1,79 @@
+{
+  "_id": 3306,
+  "id": "fatui_skirmisher_pyroslinger_bracer",
+  "name": "Đội Tiên Phong Fatui - Quân Du Kích Hỏa",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "singleshot_bullet",
+      "name": "Bắn Thẳng Đạn Nhẹ",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "burning_barrage",
+      "name": "Lửa Bắn Liên Hồi",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flaming_cannon",
+      "name": "Nòng Súng Rực Lửa",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Vũ Trang Nguyên Tố - Hỏa</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Tiếp Tế",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này nhận 2 điểm Năng Lượng.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

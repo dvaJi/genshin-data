@@ -1,0 +1,79 @@
+{
+  "_id": 4403,
+  "id": "pure_electro_hypostasis",
+  "name": "Чистый Электро гипостазис",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "Кристаллическая проекция Электро",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "Тройное комбо",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Тройное комбо: Ножницы</span> и <span style=\"color:#FFFFFFFF\">Тройное комбо: Бумага</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "В тисках молний",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Громовые оковы</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Скопление элементов: Электро",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Элементальные существа: Электро</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

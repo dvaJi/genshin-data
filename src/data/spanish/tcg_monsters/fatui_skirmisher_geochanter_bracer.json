@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Soldado Fatui - Guerrillero Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Proyectil pétreo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Perdigones prismáticos",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Culatazo Geo",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">arsenal elemental: Geo</span> y crea un <span style=\"color:#FFFFFFFF\">escudo de cristal</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Reabastecimiento de combate",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene Energía +2.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

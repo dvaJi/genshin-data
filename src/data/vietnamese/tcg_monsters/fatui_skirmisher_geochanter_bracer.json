@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Đội tiên phong Fatui - Quân du kích Nham",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Cơn Mưa Gai Đá",
+      "desc": "Gây 1 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Nham Tinh Hội Tụ",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Trượng Dài Bụi Đá",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Vũ Trang Nguyên Tố - Nham</span>, sinh ra <span style=\"color:#FFFFFFFF\">Lá Chắn Nham Tinh</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Tiếp Tế",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này nhận 2 điểm Năng Lượng.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

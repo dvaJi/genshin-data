@@ -1,11 +1,11 @@
 {
-  "_id": 4402,
+  "_id": 2401,
   "id": "electro_hypostasis",
   "name": "Hipóstasis Electro",
   "title": "Hipóstasis Electro",
   "desc": "Nombre en clave: Álef. Un ser Electro de gran pureza.\\nAunque le ganes a piedra, papel, tijera, nunca admitirá la derrota.",
   "attributes": {
-    "hp": 45,
+    "hp": 8,
     "card_type": "Carta de personaje",
     "energy": 2,
     "element": "Electro",
@@ -26,7 +26,7 @@
     {
       "id": "electro_crystal_projection",
       "name": "Proyección de cristal Electro",
-      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
       "skillTag": ["Ataque Normal"],
       "points": [
         {
@@ -46,7 +46,7 @@
     {
       "id": "rockpaperscissors_combo",
       "name": "Triporrazo piedra, papel, tijera",
-      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span>, y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> por separado: <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: tijera</span> y <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: papel</span>.",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>, y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> por separado: <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: tijera</span> y <span style=\"color:#FFFFFFFF\">triporrazo piedra, papel, tijera: papel</span>.",
       "skillTag": ["Habilidad Elemental"],
       "points": [
         {
@@ -60,7 +60,7 @@
     {
       "id": "lightning_lockdown",
       "name": "Retención eléctrica",
-      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca unas <span style=\"color:#FFFFFFFF\">cadenas de tormenta inminente</span>.",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca unas <span style=\"color:#FFFFFFFF\">cadenas de tormenta inminente</span>.",
       "skillTag": ["Habilidad Definitiva"],
       "points": [
         {
@@ -80,14 +80,7 @@
     {
       "id": "electro_crystal_core",
       "name": "Núcleo de cristal Electro",
-      "desc": "Pasiva: comienza el duelo con un <span style=\"color:#FFFFFFFF\">núcleo de cristal Electro</span>.<br/><span style=\"color:#FFFFFFFF\">Al principio de la fase de acciones</span>, si el personaje no cuenta con un núcleo de cristal Electro, activa uno (se puede activar un máximo de 2 veces por duelo).",
-      "skillTag": ["Habilidad pasiva"],
-      "points": []
-    },
-    {
-      "id": "elemental_sedimentation_electro",
-      "name": "Sedimento elemental: Electro",
-      "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de un <span style=\"color:#FFFFFFFF\">Ser elemental: Electro</span>.",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje activa un <span style=\"color:#FFFFFFFF\">núcleo de cristal Electro</span>.",
       "skillTag": ["Habilidad pasiva"],
       "points": []
     }

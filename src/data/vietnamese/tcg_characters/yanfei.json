@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "Yanfei",
+  "title": "Cơ Trí Ngây Thơ - Yanfei",
+  "desc": "Không có thứ gì bất biến, không có luật pháp nào là vĩnh cửu.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Pháp Khí",
+    "faction": ["Liyue"],
+    "source": "Nhận được sau khi mời Yanfei giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "Hỏa Ấn",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "Sắc Lệnh Đã Ký",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Đan Hỏa Ấn</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "Khế Ước Đã Định",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Đan Hỏa Ấn</span> và <span style=\"color:#FFFFFFFF\">Bỏng Cháy</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3306,
+  "id": "fatui_skirmisher_pyroslinger_bracer",
+  "name": "Застрельщик Фатуи: Пиро мушкетёр",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Фатуи"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "singleshot_bullet",
+      "name": "Одиночный выстрел",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "burning_barrage",
+      "name": "Огненный шквал",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flaming_cannon",
+      "name": "Палящая пушка",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Элементальная форма: Пиро</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

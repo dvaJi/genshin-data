@@ -1,0 +1,79 @@
+{
+  "_id": 3104,
+  "id": "fatui_skirmisher_cryogunner_legionnaire",
+  "name": "ファデュイ先遣隊·重衛士·氷銃",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "closerange_charge",
+      "name": "近接衝突",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "freezing_spray",
+      "name": "氷結噴霧",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frost_cannon",
+      "name": "フロスト鉄銃",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">元素武装·氷</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "戦備補給",
+      "desc": "【固有】戦闘開始時、本キャラはチャージを2獲得する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

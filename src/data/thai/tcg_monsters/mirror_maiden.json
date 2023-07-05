@@ -1,0 +1,81 @@
+{
+  "_id": 4204,
+  "id": "mirror_maiden",
+  "name": "Fatui - Mirror Maiden",
+  "title": "Snezhnayan Maiden - ผู้ใช้งานกระจกวาริน",
+  "desc": "ความลับทั้งหมดจะถูกซ่อนไว้ในกระจกน้ำที่ส่องประกายระยิบระยับ...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3236,
+      "id": "mirror_cage",
+      "name": "Mirror Cage"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Mirror Maiden ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "mirror_maiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "water_ball",
+      "name": "Water Ball",
+      "desc": "จะสร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "influx_blast",
+      "name": "Influx Blast",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Refraction</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rippled_reflection",
+      "name": "Rippled Reflection",
+      "desc": "จะสร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

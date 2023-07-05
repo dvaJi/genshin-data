@@ -1,0 +1,79 @@
+{
+  "_id": 3407,
+  "id": "fatui_skirmisher_electrohammer_vanguard",
+  "name": "우인단 선발대·번개 해머 돌격대",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "번개 원소",
+    "weapon": "그 외 무기",
+    "faction": ["우인단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_hammer_strike",
+      "name": "신속한 해머 강타",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_charge",
+      "name": "맹렬한 돌진",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderblast_hammer",
+      "name": "천둥의 해머",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">원소 무장·번개</span>가 부착된다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "장비 보급",
+      "desc": "[패시브] 전투 시작 시, 본 캐릭터가 원소 에너지를 2pt 획득한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "_id": 4202,
+  "_id": 2201,
   "id": "rhodeia_of_loch",
   "name": "Okeanide Rhodeia",
   "title": "Herrscherin des reinen Wassers – Rhodeia",
   "desc": "„Solange Regen fällt und Flüsse fließen ... wird das Wasser nie versiegen.“",
   "attributes": {
-    "hp": 45,
+    "hp": 10,
     "card_type": "Figurenkarte",
     "energy": 3,
     "element": "Hydro",
@@ -26,7 +26,7 @@
     {
       "id": "surge",
       "name": "Anstieg",
-      "desc": "Verursacht 1 Pkt. $[D__KEY__ELEMENT|s1].",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
       "skillTag": ["Standardangriff"],
       "points": [
         {
@@ -74,7 +74,7 @@
     {
       "id": "tide_and_torrent",
       "name": "Gezeiten und Sintflut",
-      "desc": "Verursacht 4 Pkt. $[D__KEY__ELEMENT|s1]. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
       "skillTag": ["Spezialfähigkeit"],
       "points": [
         {
@@ -90,13 +90,6 @@
           "count": 3
         }
       ]
-    },
-    {
-      "id": "elemental_sedimentation_hydro",
-      "name": "Elementarablagerung – Hydro",
-      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Hydro</span>.",
-      "skillTag": ["Passive Fähigkeit"],
-      "points": []
     }
   ]
 }

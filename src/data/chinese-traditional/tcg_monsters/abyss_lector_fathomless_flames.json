@@ -1,0 +1,95 @@
+{
+  "_id": 4304,
+  "id": "abyss_lector_fathomless_flames",
+  "name": "深淵詠者·淵火",
+  "title": "深淵詠者·淵火",
+  "desc": "章典示現，勸聽箴言。",
+  "attributes": {
+    "hp": 6,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3856,
+      "id": "embers_rekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度深淵詠者·淵火中獲得勝利後獲得",
+    "character": {
+      "id": "abyss_lector_fathomless_flames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "flame_of_salvation",
+      "name": "拯救之焰",
+      "desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_precept",
+      "name": "熾烈箴言",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_star",
+      "name": "天隕預兆",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">黯火爐心</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fiery_rebirth",
+      "name": "火之新生",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">火之新生</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "shield_of_surging_flame",
+      "name": "湧火護罩",
+      "desc": "【被動】本角色觸發<span style=\"color:#FFFFFFFF\">火之新生</span>時：為其附屬<span style=\"color:#FFFFFFFF\">湧火護罩</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

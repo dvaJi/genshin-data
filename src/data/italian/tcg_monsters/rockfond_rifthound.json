@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Segugio della Faglia Spaccaroccia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Artigli corrosivi",
+      "desc": "Infligge 1 <span style=\"color:#FFE699FF\">DAN da Geo</span>, genera 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> nel campo avversario.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Sbriciolacristalli",
+      "desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo</span>, genera 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> nel campo avversario.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Segno dell'inseguitore",
+      "desc": "Infligge 6 <span style=\"color:#FFE699FF\">DAN da Geo</span>, genera 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> nel campo avversario.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Divoraelementi",
+      "desc": "(Passiva) Quando inizia la battaglia, ottiene <span style=\"color:#FFFFFFFF\">Divoraelementi</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3105,
+  "id": "winged_cryoshroom",
+  "name": "Cryohongo Alado",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Chorro rodante",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Bomba en picada",
+      "desc": "Inflige 5 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar el duelo, el personaje está en <span style=\"color:#FFFFFFFF\">superioridad aérea</span>.<br/>Tras recibir <span style=\"color:#FF9999FF\">Daño Pyro</span>, entra en el <span style=\"color:#FFFFFFFF\">estado quemado</span>.<br/>Tras recibir <span style=\"color:#FFACFFFF\">Daño Electro</span>, entra en el <span style=\"color:#FFFFFFFF\">estado revitalizado</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

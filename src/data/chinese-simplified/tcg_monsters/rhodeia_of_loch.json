@@ -1,0 +1,102 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "纯水精灵·洛蒂娅",
+  "title": "净水之主·洛蒂娅",
+  "desc": "「但，只要百川奔流，雨露不休，水就不会消失…」",
+  "attributes": {
+    "hp": 45,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度纯水精灵·洛蒂娅中获得胜利后获取",
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "翻涌",
+      "desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "纯水幻造",
+      "desc": "随机召唤1种<span style=\"color:#FFFFFFFF\">纯水幻形</span>。（优先生成不同的类型）",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "林野百态",
+      "desc": "随机召唤2种<span style=\"color:#FFFFFFFF\">纯水幻形</span>。（优先生成不同的类型）",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "潮涌与激流",
+      "desc": "造成2点<span style=\"color:#80C0FFFF\">水元素伤害</span>；我方每有1个召唤物，再使此伤害+2。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "元素沉积·水",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">元素生命·水</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

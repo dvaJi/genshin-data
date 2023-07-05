@@ -1,0 +1,79 @@
+{
+  "_id": 3306,
+  "id": "fatui_skirmisher_pyroslinger_bracer",
+  "name": "Fatui Skirmisher - Pyroslinger Bracer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "singleshot_bullet",
+      "name": "Single-Shot Bullet",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "burning_barrage",
+      "name": "Burning Barrage",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flaming_cannon",
+      "name": "Flaming Cannon",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/>Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Pyro Elemental Equipment</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Combat Resupply",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh 2 poin Energy.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

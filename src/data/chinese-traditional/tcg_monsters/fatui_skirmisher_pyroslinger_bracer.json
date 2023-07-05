@@ -1,0 +1,79 @@
+{
+  "_id": 3306,
+  "id": "fatui_skirmisher_pyroslinger_bracer",
+  "name": "愚人眾先遣隊·火銃游擊兵",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "singleshot_bullet",
+      "name": "輕彈直射",
+      "desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "burning_barrage",
+      "name": "燃燒連射",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flaming_cannon",
+      "name": "猛火鐵銃",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">元素武裝·火</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "戰備補給",
+      "desc": "【被動】戰鬥開始時，本角色獲得2點充能。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

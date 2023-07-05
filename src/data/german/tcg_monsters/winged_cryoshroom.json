@@ -1,0 +1,79 @@
+{
+  "_id": 3105,
+  "id": "winged_cryoshroom",
+  "name": "Geflügelter Kryo-Pilz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Sporengeschoss",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Wirbelschuss",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Sturzbombardement",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Modus-Umwandlung",
+      "desc": "Passiv – Zu Beginn des Kampfes: <span style=\"color:#FFFFFFFF\">Luftige Überlegenheit</span>.<br/>Nach Erleiden von <span style=\"color:#FF9999FF\">Pyro-SCH</span>: <span style=\"color:#FFFFFFFF\">Verdorrter Modus</span>.<br/>Nach Erleiden von <span style=\"color:#FFACFFFF\">Elektro-SCH</span>: <span style=\"color:#FFFFFFFF\">Aktivierter Modus</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

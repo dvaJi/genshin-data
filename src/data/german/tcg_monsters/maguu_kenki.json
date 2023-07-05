@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "Maguu Kenki",
+  "title": "Geniale Maschine – Maguu Kenki",
+  "desc": "Heute irrt er immer am Ort umher, an dem das Schicksal durchtrennt wurde.",
+  "attributes": {
+    "hp": 28,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Maguu Kenki in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "Ichimonji",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "Einsamer Sturm",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Schwertschatten – Einsamer Sturm</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "Frostiger Schatten",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Schwertschatten – Galoppierender Frost</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "Maschineller Tengu-Feger",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, löst den Effekt aller eigenen Beschwörungen von <span style=\"color:#FFFFFFFF\">Schwertschatten</span> aus (Kein Verbrauch ihrer Einsatzmöglichkeiten).",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

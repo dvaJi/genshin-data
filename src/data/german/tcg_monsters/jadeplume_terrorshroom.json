@@ -1,0 +1,88 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Gefiederte Pilzbestie",
+  "title": "Pilzkönig im tiefen Wald – Gefiederte Pilzbestie",
+  "desc": "Wenn du genau hinhörst, kannst du die Schritte des Pilzkönigs im tiefen Wald hören, der gerade sein Gebiet inspiziert ...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit der gefiederten Pilzbestie in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Pilzkönig-Tanz",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Instabile Sporenwolke",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Majestätische Schwanzfedern",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, verbraucht alle Stapelungen von <span style=\"color:#FFFFFFFF\">Aktivierungsstimulus</span>, jede Stapelung erhöht den diesmaligen Schaden um 1.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Aktivierungsstimulus",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Aktivierungsstimulus</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

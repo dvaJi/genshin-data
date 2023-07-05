@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Soldado dos Fatui - Guerrilheiro Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Projétil Rochoso",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Cristal Rochoso",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Cetro Geo",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Geo</span>, gera <span style=\"color:#FFFFFFFF\">Escudo de Cristal</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

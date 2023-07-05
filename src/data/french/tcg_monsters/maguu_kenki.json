@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "Lame oni",
+  "title": "Mécanisme ingénieux : Lame oni",
+  "desc": "Aujourd'hui encore, il patrouille toujours l'endroit où le destin a été rompu.",
+  "attributes": {
+    "hp": 28,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Anémo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Lame oni",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "Ichimonji",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "Lame fulgurante",
+      "desc": "Invoque une <span style=\"color:#FFFFFFFF\">Épée d'ombre : Brise</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "Assaut givré",
+      "desc": "Invoque une <span style=\"color:#FFFFFFFF\">Épée d'ombre : Givre</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "Balayage tengu falsifié",
+      "desc": "Inflige 4 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et déclenche les effets de toutes vos invocations de type <span style=\"color:#FFFFFFFF\">Épée d'ombre</span>. (Ne consomme pas d'utilisation)",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

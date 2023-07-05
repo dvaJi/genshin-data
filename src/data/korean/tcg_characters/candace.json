@@ -1,0 +1,72 @@
+{
+  "_id": 1207,
+  "id": "candace",
+  "name": "캔디스",
+  "title": "수면 위 금빛 결의·캔디스",
+  "desc": "적색 사막과 금빛 수면을 수호하기 위한 결의",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "장병기",
+    "faction": ["수메르"],
+    "source": "캣테일 술집에서 캔디스 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "gleaming_spear_guardian_stance",
+      "name": "섬광 창술·수호 태세",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_herons_sanctum",
+      "name": "성스러운 의식·푸른빛 새의 비호",
+      "desc": "본 캐릭터에게 <span style=\"color:#FFFFFFFF\">푸른빛 새의 보호막</span>을 부착하고 <span style=\"color:#FFFFFFFF\">푸른빛 새의 충격파</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wagtails_tide",
+      "name": "성스러운 의식·회색빛 새의 물결",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">적색 왕관의 축복</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

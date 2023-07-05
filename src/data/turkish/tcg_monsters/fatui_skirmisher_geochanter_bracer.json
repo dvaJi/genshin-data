@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Fatui Avcı Eri - Destek Toprak İlahicisi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Taş Mermi",
+      "desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Toprak Kristali Işını",
+      "desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Toprak Asası",
+      "desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Toprak Elementi Ekipmanı</span> kazanır, 1 <span style=\"color:#FFFFFFFF\">Kristal Kalkan</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Savaş Hazırlığı Tedariki",
+      "desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

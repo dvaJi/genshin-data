@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "Янь Фэй",
+  "title": "Непорочная мудрость: Янь Фэй",
+  "desc": "Закон порой слеп, а наставления старины могут нуждаться в пересмотре.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Катализатор",
+    "faction": ["Ли Юэ"],
+    "source": "Награда за приглашение Янь Фэй в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "Печать одобрения",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "Подписанный указ",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Багровая печать</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "По рукам",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. У персонажа возникают <span style=\"color:#FFFFFFFF\">Багровая печать</span> и <span style=\"color:#FFFFFFFF\">Блеск</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

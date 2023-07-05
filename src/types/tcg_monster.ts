@@ -20,6 +20,8 @@ export interface TCGMonsterCard {
   _id: number;
   id: string;
   name: string;
+  title?: string;
+  desc?: string;
   attributes: {
     hp: number;
     card_type: string;
@@ -27,6 +29,7 @@ export interface TCGMonsterCard {
     element: string;
     weapon: string;
     faction: string[];
+    source?: string;
     monster?: Entity;
   };
   skills: MonsterCardSkill[];

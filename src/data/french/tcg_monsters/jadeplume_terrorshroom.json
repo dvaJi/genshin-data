@@ -1,0 +1,88 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Champieffroi panaché",
+  "title": "Seigneur des Fongus : Champieffroi panaché",
+  "desc": "En gardant le silence pour écouter attentivement, on peut entendre le son du souverain des fongides inspectant son territoire...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Champieffroi panaché",
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Danse majestueuse",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Nuage de spores instables",
+      "desc": "Inflige 3 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Épandage de plumes",
+      "desc": "Inflige 4 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span> et consomme tous les cumuls de <span style=\"color:#FFFFFFFF\">vitalité radicale</span> pour augmenter ces DGT de 1 par cumul consommé.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Vitalité radicale",
+      "desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">vitalité radicale</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

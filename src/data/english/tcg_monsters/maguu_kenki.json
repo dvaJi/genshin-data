@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "Maguu Kenki",
+  "title": "\"Ingenious Machine\" Maguu Kenki",
+  "desc": "Even today, it still patrols the place where fate was severed.",
+  "attributes": {
+    "hp": 28,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Maguu Kenki",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "Ichimonji",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "Blustering Blade",
+      "desc": "Summons 1 <span style=\"color:#FFFFFFFF\">Shadowsword: Lone Gale</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "Frosty Assault",
+      "desc": "Summons 1 <span style=\"color:#FFFFFFFF\">Shadowsword: Galloping Frost</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "Pseudo Tengu Sweeper",
+      "desc": "Deals 4 <span style=\"color:#80FFD7FF\">Anemo DMG</span>, triggers the effect(s) of all your <span style=\"color:#FFFFFFFF\">Shadowsword</span> Summon(s). (Does not consume their Usages)",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

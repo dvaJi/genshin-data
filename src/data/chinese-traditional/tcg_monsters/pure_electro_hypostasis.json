@@ -1,0 +1,79 @@
+{
+  "_id": 4403,
+  "id": "pure_electro_hypostasis",
+  "name": "至純的無相之雷",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "雷晶投射",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "猜拳三連擊",
+      "desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">猜拳三連擊·剪刀</span>和<span style=\"color:#FFFFFFFF\">猜拳三連擊·布</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "靂霆鎮鎖",
+      "desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">雷鎖鎮域</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "元素沉積·雷",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·雷</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

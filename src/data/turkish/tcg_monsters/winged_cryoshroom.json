@@ -1,0 +1,79 @@
+{
+  "_id": 3105,
+  "id": "winged_cryoshroom",
+  "name": "Kanatlı Buz Mantarı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Spor Mermisi",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Döner Sprey",
+      "desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Dalış Bombardımanı",
+      "desc": "5 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Durum Değişikliği",
+      "desc": "(Pasif) Savaş başladığında, bu karakter <span style=\"color:#FFFFFFFF\">Hava Üstünlüğü</span> etkisinde olur.<br/>Karakter <span style=\"color:#FF9999FF\">Ateş Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Yanık</span> olur.<br/>Karakter <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Etkin</span> olur.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

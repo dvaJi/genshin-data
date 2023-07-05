@@ -1,0 +1,79 @@
+{
+  "_id": 3306,
+  "id": "fatui_skirmisher_pyroslinger_bracer",
+  "name": "Tirailleur Fatui - Mercenaire Pyro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "singleshot_bullet",
+      "name": "Tir unique",
+      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "burning_barrage",
+      "name": "Rafale brûlante",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flaming_cannon",
+      "name": "Canon ardent",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et accorde un <span style=\"color:#FFFFFFFF\">équipement Pyro</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Réapprovisionnement de combat",
+      "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

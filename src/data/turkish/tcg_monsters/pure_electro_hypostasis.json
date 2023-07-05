@@ -1,0 +1,79 @@
+{
+  "_id": 4403,
+  "id": "pure_electro_hypostasis",
+  "name": "Saf Elektrik Hipostazı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "Elektrik Kristali Yansıması",
+      "desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "Taş, Kağıt, Makas Üçlüsü",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir, ardından <span style=\"color:#FFFFFFFF\">Taş, Kağıt, Makas Üçlüsü: Makas</span> ve <span style=\"color:#FFFFFFFF\">Taş, Kağıt, Makas Üçlüsü: Kağıt</span> için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "Yıldırım Hapsi",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Koruyucu Yıldırım Zincirleri</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Element Tortulaşması: Elektrik",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Element Yaşam Formu: Elektrik</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

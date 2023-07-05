@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "번개의 심연 메이지",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "번개 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "번개탄",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "전광의 마법",
+      "desc": "<span style=\"color:#FFFFFFFF\">번개로 엮은 고리</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "군뢰 질주의 의식",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 4pt 주고 <span style=\"color:#FFFFFFFF\">번개로 엮은 고리</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "번개 원소 보호막",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">번개 원소 보호막</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

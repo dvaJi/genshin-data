@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "Maguu Kenki",
+  "title": "Maguu Kenki, Macchina ingegnosa",
+  "desc": "Perfino oggi, pattuglia ancora il luogo in cui il fato gli fu tranciato.",
+  "attributes": {
+    "hp": 28,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Maguu Kenki in un duello amichevole",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "Ichimonji",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "Lama del vento solitario",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Lamaombra: Burrasca solitaria</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "Ombra gelida",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Lamaombra: Gelo galoppante</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "Clone Tengu",
+      "desc": "Infligge 4 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, attiva l'effetto d'invocazione di tutte le tue <span style=\"color:#FFFFFFFF\">Spade d'Ombra</span> (non influisce sul numero di Utilizzi).",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

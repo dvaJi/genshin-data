@@ -1,0 +1,79 @@
+{
+  "_id": 3404,
+  "id": "electro_abyss_mage",
+  "name": "Feiticeiro do Abismo Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderbolt",
+      "name": "Tiro Electro",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_light",
+      "name": "Ritual dos Raios Iluminados",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Anel da Tempestade</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_rolling_thunder",
+      "name": "Rito do Trovão Retumbante",
+      "desc": "Causa 4 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Anel da Tempestade</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "electro_shield",
+      "name": "Revestimento Electro",
+      "desc": "(Passiva) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Revestimento Electro</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "Folhas Escarlates Procuram Ondas Selvagens - Kaedehara Kazuha",
+  "desc": "Flores e pássaros são um querido deleite para aqueles caminhando sob o luar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Espada",
+    "faction": ["Inazuma"],
+    "source": "Recompensa por desafiar Kaedehara Kazuha para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ele"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Técnica da Espada de Garyuu",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Chihayaburu",
+      "desc": "Causa 3 pontos de <span style=\"color:#80FFD7FF\">Dano Anemo</span>, aplica <span style=\"color:#FFFFFFFF\">Ranzan Aéreo</span> ao seu personagem. Se esta habilidade desencadear Redemoinho, <span style=\"color:#FFFFFFFF\">Ranzan Aéreo</span> é convertido ao elemento espalhado pelo Redemoinho.<br/><span style=\"color:#FFFFFFFF\">Após o Dano da Habilidade ser finalizado:</span> Sua equipe troca para o próximo personagem.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Lâmina de Kazuha",
+      "desc": "Causa 3 pontos de <span style=\"color:#80FFD7FF\">Dano Anemo</span>, invoca <span style=\"color:#FFFFFFFF\">Redemoinho do Outono</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

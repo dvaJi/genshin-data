@@ -1,11 +1,11 @@
 {
-  "_id": 4402,
+  "_id": 2401,
   "id": "electro_hypostasis",
   "name": "Hypostase Électro",
   "title": "Hypostase Électro",
   "desc": "Nom de code « Alep », une entité Électro de niveau supérieur.\\nMême lors d'une partie de pierre-feuille-ciseaux, celle-ci n'est pas du genre à admettre la défaite.",
   "attributes": {
-    "hp": 45,
+    "hp": 8,
     "card_type": "Carte de personnage",
     "energy": 2,
     "element": "Électro",
@@ -26,7 +26,7 @@
     {
       "id": "electro_crystal_projection",
       "name": "Projection de cristal Électro",
-      "desc": "Inflige 1 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
       "skillTag": ["Attaque normale"],
       "points": [
         {
@@ -46,7 +46,7 @@
     {
       "id": "rockpaperscissors_combo",
       "name": "Pierre-feuille-ciseaux",
-      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Pierre-feuille-ciseaux : Ciseaux</span> et <span style=\"color:#FFFFFFFF\">Pierre-feuille-ciseaux : Feuille</span>.",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Pierre-feuille-ciseaux : Ciseaux</span> et <span style=\"color:#FFFFFFFF\">Pierre-feuille-ciseaux : Feuille</span>.",
       "skillTag": ["Compétence élémentaire"],
       "points": [
         {
@@ -60,7 +60,7 @@
     {
       "id": "lightning_lockdown",
       "name": "Verrou de foudre",
-      "desc": "Inflige 2 {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">chaîne du tonnerre protecteur</span>.",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">chaîne du tonnerre protecteur</span>.",
       "skillTag": ["Déchaînement élémentaire"],
       "points": [
         {
@@ -80,14 +80,7 @@
     {
       "id": "electro_crystal_core",
       "name": "Noyau cristallin Électro",
-      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">noyau cristallin Électro</span> au début du combat.<br/><span style=\"color:#FFFFFFFF\">Au début de la phase d'action, </span>si le personnage n'est pas affecté par un noyau cristallin Électro, lui accorde un noyau cristallin Électro. (Déclenché 2 fois maximum par partie)",
-      "skillTag": ["Capacité passive"],
-      "points": []
-    },
-    {
-      "id": "elemental_sedimentation_electro",
-      "name": "Dépôt d'élément Électro",
-      "desc": "(Passif) Obtient une <span style=\"color:#FFFFFFFF\">Entité élémentaire Électro</span> au début du combat.",
+      "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">noyau cristallin Électro</span> au début du combat.",
       "skillTag": ["Capacité passive"],
       "points": []
     }

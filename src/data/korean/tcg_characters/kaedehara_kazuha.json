@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "카에데하라 카즈하",
+  "title": "파도를 쫓는 단풍·카에데하라 카즈하",
+  "desc": "꽃과 새들은 즐거움을 주고, 달빛은 바람이 가는 길을 비추네",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "한손검",
+    "faction": ["이나즈마"],
+    "source": "캣테일 술집에서 카에데하라 카즈하 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "아류 검술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "치하야부루",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">폭풍 베기</span>를 부착한다. <br/>해당 스킬이 확산 반응을 발동했을 경우, <span style=\"color:#FFFFFFFF\">폭풍 베기</span>가 확산된 원소로 전환된다.<br/><span style=\"color:#FFFFFFFF\">해당 스킬 결산 후:</span> 다음 아군 캐릭터로 교체한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "카즈하의 일도",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">바람 부는 가을 들판</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

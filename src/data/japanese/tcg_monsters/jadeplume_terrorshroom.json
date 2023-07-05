@@ -1,0 +1,88 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "マッシュラプトル",
+  "title": "幽蕈の王·マッシュラプトル",
+  "desc": "耳をすませば、幽林から、キノコンの王者が領土を視察する足音が聞こえる…",
+  "attributes": {
+    "hp": 30,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、マッシュラプトルに挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "キノコン王のステップ",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "不安定な胞子雲",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "奔放な尾羽",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を4与える。また、<span style=\"color:#FFFFFFFF\">活発激能</span>の層数を全て消費し、層ごとにダメージ+1。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "活発激能",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">活発激能</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

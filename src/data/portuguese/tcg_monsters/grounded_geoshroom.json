@@ -1,0 +1,79 @@
+{
+  "_id": 3605,
+  "id": "grounded_geoshroom",
+  "name": "Cogumelo Terrestre Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_breath",
+      "name": "Respiração Frenética",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_blast",
+      "name": "Explosão Carregada",
+      "desc": "Causa 5 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Transformação",
+      "desc": "(Passiva) No começo da batalha, o personagem está em <span style=\"color:#FFFFFFFF\">Vantagem de Terreno</span>.<br/>Após o personagem receber <span style=\"color:#FF9999FF\">Dano Pyro</span>: muda para <span style=\"color:#FFFFFFFF\">Estado Queimado</span>.<br/>Após receber <span style=\"color:#FFACFFFF\">Dano Electro</span>: muda para <span style=\"color:#FFFFFFFF\">Estado Ativo</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

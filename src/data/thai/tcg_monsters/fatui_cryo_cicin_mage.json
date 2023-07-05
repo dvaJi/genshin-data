@@ -1,0 +1,81 @@
+{
+  "_id": 4102,
+  "id": "fatui_cryo_cicin_mage",
+  "name": "Fatui - Cryo Cicin Mage",
+  "title": "ม่านหมอกจุติ - Cryo Cicin Mage",
+  "desc": "Cicin จะไม่มีวันทอดทิ้งเธอ อย่างน้อยก็ตลอดเวลาที่ Mist Grass ยังคงอยู่",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["Fatui"],
+    "talent_card": {
+      "_id": 3855,
+      "id": "cicins_cold_glare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Cryo Cicin Mage ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "fatui_cryo_cicin_mage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "cicin_icicle",
+      "name": "Cicin Icicle",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_summons",
+      "name": "Misty Summons",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Cryo Cicin</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blizzard_branch_blossom",
+      "name": "Blizzard, Branch, Blossom",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 5 หน่วย ทำให้ตัวละครนี้<span style=\"color:#99FFFFFF\">ติดสถานะธาตุน้ำแข็ง</span> และสร้าง <span style=\"color:#FFFFFFFF\">Flowing Cicin Shield</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

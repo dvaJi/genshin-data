@@ -1,0 +1,102 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Okeanide Rhodeia",
+  "title": "Herrscherin des reinen Wassers – Rhodeia",
+  "desc": "„Solange Regen fällt und Flüsse fließen ... wird das Wasser nie versiegen.“",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Okeanide Rhodeia in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Anstieg",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Wasserwandlung",
+      "desc": "Erschafft 1 zufälligen Typ von <span style=\"color:#FFFFFFFF\">Hydro-Phantom</span> (bevorzugt den Typ anders als die bereits existierenden).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "Myriaden der Wildnis",
+      "desc": "Erschafft 2 zufällige Typen von <span style=\"color:#FFFFFFFF\">Hydro-Phantom</span> (bevorzugt den Typ anders als die bereits existierenden).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Gezeiten und Sintflut",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>. Jede eigene Beschwörung erhöht den diesmaligen Schaden um 2 Pkt.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elementarablagerung – Hydro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Hydro</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

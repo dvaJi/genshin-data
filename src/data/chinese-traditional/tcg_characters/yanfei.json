@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "煙緋",
+  "title": "智明無邪·煙緋",
+  "desc": "不期修古，不法常可。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "source": "在貓尾酒館中邀請煙緋進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "火漆製印",
+      "desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "丹書立約",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">丹火印</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "憑此結契",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">丹火印</span>和<span style=\"color:#FFFFFFFF\">灼灼</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

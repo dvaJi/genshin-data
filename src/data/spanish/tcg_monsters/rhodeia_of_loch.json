@@ -1,0 +1,102 @@
+{
+  "_id": 4202,
+  "id": "rhodeia_of_loch",
+  "name": "Oceánida - Rhodeia",
+  "title": "Oceánida - Rhodeia",
+  "desc": "“Mientras la lluvia siga cayendo y los ríos sigan fluyendo... el agua existirá para siempre”.",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "talent_card": {
+      "_id": 3235,
+      "id": "streaming_surge",
+      "name": "Streaming Surge"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Oceánida - Rhodeia de los duelos tabernarios",
+    "character": {
+      "id": "oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "surge",
+      "name": "Marejada",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "oceanid_mimic_summoning",
+      "name": "Invocación hidromimética",
+      "desc": "Crea 1 <span style=\"color:#FFFFFFFF\">undefined</span> al azar. Priorizará la creación de un tipo diferente a los ya existentes.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_myriad_wilds",
+      "name": "Diversidad salvaje",
+      "desc": "Crea 2 <span style=\"color:#FFFFFFFF\">Animales Hidromiméticos</span> al azar. Priorizará la creación de tipos diferentes a los ya existentes.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "tide_and_torrent",
+      "name": "Marejada torrencial",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>. Por cada invocación que hayas creado, daño +2.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Sedimento elemental: Hydro",
+      "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de un <span style=\"color:#FFFFFFFF\">Ser elemental: Hydro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

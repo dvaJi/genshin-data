@@ -1,0 +1,72 @@
+{
+  "_id": 1207,
+  "id": "candace",
+  "name": "Кандакия",
+  "title": "Позолоченная клятва: Кандакия",
+  "desc": "Золотом алых песков клянусь нести караул.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Древковое",
+    "faction": ["Сумеру"],
+    "source": "Награда за приглашение Кандакии в «Кошкин хвост» и победу над ней в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "gleaming_spear_guardian_stance",
+      "name": "Сверкающее копьё: Оборона",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_herons_sanctum",
+      "name": "Священный обряд: Обитель цапли",
+      "desc": "У персонажа добавляются <span style=\"color:#FFFFFFFF\">Защита цапли</span> и <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Удар цапли</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wagtails_tide",
+      "name": "Священный обряд: Прилив трясогузки",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 2 ед., создаётся <span style=\"color:#FFFFFFFF\">Молитва алой короны</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

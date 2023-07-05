@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "枫原万叶",
+  "title": "红叶逐荒波·枫原万叶",
+  "desc": "拾花鸟之一趣，照月风之长路。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "单手剑",
+    "faction": ["稻妻"],
+    "source": "在猫尾酒馆中邀请枫原万叶进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "我流剑术",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "千早振",
+      "desc": "造成3点<span style=\"color:#80FFD7FF\">风元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">乱岚拨止</span>。<br/>如果此技能引发了扩散，则将<span style=\"color:#FFFFFFFF\">乱岚拨止</span>转换为被扩散的元素。<br/><span style=\"color:#FFFFFFFF\">此技能结算后：</span>我方切换到后一个角色。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "万叶之一刀",
+      "desc": "造成3点<span style=\"color:#80FFD7FF\">风元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">流风秋野</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

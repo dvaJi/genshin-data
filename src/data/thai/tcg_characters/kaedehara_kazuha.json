@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "ใบไม้แดงแห่งกระแสคลื่น - Kaedehara Kazuha",
+  "desc": "ชมสกุณาและบุปผาเพลิดเพลิน ยามเดินกลางสายลมและแสงศศิธรที่ทอดยาว",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "ดาบ",
+    "faction": ["Inazuma"],
+    "source": "ได้รับหลังจากเชิญ Kaedehara Kazuha ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Garyuu Bladework",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Chihayaburu",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Midare Ranzan</span><br/>หากสกิลนี้ ทำให้เกิดการกระจาย จะทำให้ <span style=\"color:#FFFFFFFF\">Midare Ranzan</span> เปลี่ยนเป็นธาตุที่ถูกกระจาย<br/><span style=\"color:#FFFFFFFF\">หลังจบสกิล:</span> ฝ่ายเราจะเปลี่ยนเป็นตัวละครถัดไป",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Kazuha Slash",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Autumn Whirlwind</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

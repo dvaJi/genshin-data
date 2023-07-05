@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "Tiefrote Blätter jagen wilde Wellen – Kaedehara Kazuha",
+  "desc": "Das Pflücken von Blumen und Betrachten der Vögel ist eine wundervolle Freude auf dem langen Weg beschienen vom Mond und berauscht von Wind.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Einhänder",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kaedehara Kazuha in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Garyuu-Schwertkunst",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Chihayaburu",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Midare Ranzan</span>.<br/>Wenn Verwirbelung ausgelöst wird, wird <span style=\"color:#FFFFFFFF\">Midare Ranzan</span> zum von der Verwirbelung betroffenen Element.<br/><span style=\"color:#FFFFFFFF\">Nach Auswertung der Fähigkeit:</span> Wechselt deine nächste Figur zur aktiven Figur.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Kazuha-Schlag",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Wirbelndes Herbstfeld</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

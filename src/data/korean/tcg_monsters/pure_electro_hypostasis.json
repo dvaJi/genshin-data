@@ -1,0 +1,79 @@
+{
+  "_id": 4403,
+  "id": "pure_electro_hypostasis",
+  "name": "순수한 무상의 뇌전",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "electro_crystal_projection",
+      "name": "번개수정 투사",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rockpaperscissors_combo",
+      "name": "가위바위보 콤보",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">가위바위보 콤보·가위</span>와 <span style=\"color:#FFFFFFFF\">가위바위보 콤보·보</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "lightning_lockdown",
+      "name": "벼락 진압",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">번개 사슬 봉인</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "원소 침적·번개",
+      "desc": "[패시브] 전투 시작 시, 처음부터 <span style=\"color:#FFFFFFFF\">원소 생명체·번개</span>가 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

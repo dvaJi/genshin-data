@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "魔偶剑鬼",
+  "title": "万般机巧·魔偶剑鬼",
+  "desc": "今日，其仍徘徊在因缘断绝之地。",
+  "attributes": {
+    "hp": 28,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "风元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度魔偶剑鬼中获得胜利后获取",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "一文字",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "孤风刀势",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">剑影·孤风</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "霜驰影突",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">剑影·霜驰</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "机巧伪天狗抄",
+      "desc": "造成4点<span style=\"color:#80FFD7FF\">风元素伤害</span>，触发所有我方<span style=\"color:#FFFFFFFF\">剑影</span>召唤物的效果。（不消耗其可用次数）",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

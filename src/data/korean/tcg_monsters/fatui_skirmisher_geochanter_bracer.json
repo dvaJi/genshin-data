@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "우인단 선발대·바위 유격대",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "바위 원소",
+    "weapon": "그 외 무기",
+    "faction": ["우인단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "바위 쐐기",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "바위 결정 집속탄",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "바위 지팡이",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">원소 무장·바위</span>를 부착하며 <span style=\"color:#FFFFFFFF\">바위 결정 보호막</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "장비 보급",
+      "desc": "[패시브] 전투 시작 시, 본 캐릭터가 원소 에너지를 2pt 획득한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

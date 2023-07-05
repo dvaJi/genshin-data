@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "愚人眾先遣隊·岩使游擊兵",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "岩簇飛刺",
+      "desc": "造成1點<span style=\"color:#FFE699FF\">岩元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "集束岩晶",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "塵岩長杖",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">元素武裝·岩</span>，生成<span style=\"color:#FFFFFFFF\">晶岩護罩</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "戰備補給",
+      "desc": "【被動】戰鬥開始時，本角色獲得2點充能。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

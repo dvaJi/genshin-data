@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Fatui Skirmisher - Geochanter Bracer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Other Weapons",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Rock Projectile",
+      "desc": "Deals 1 <span style=\"color:#FFE699FF\">Geo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Geocrystal Beam",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Staff of Geo",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Geo Elemental Equipment</span>, creating 1 <span style=\"color:#FFFFFFFF\">Crystal Shield</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Combat Resupply",
+      "desc": "(Passive) When the battle begins, this character gains 2 Energy.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

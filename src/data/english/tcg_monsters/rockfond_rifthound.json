@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Rockfond Rifthound",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Corrosive Claws",
+      "desc": "Deals 1 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Corrosion</span> at the opponent's play area.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Crystal Cracker",
+      "desc": "Deals 2 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Corrosion</span> at the opponent's play area.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Pursuer's Mark",
+      "desc": "Deals 6 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Corrosion</span> at the opponent's play area.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Elemental Devourer",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Elemental Devourer</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

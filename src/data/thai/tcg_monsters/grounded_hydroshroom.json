@@ -1,0 +1,79 @@
+{
+  "_id": 3205,
+  "id": "grounded_hydroshroom",
+  "name": "Grounded Hydroshroom",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Spore Bullet",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_breath",
+      "name": "Raging Breath",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_blast",
+      "name": "Charging Blast",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "State Change",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Terrain Advantage</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ไหม้เกรียม</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ตื่นตัว</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

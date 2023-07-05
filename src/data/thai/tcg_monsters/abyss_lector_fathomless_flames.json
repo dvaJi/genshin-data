@@ -1,0 +1,95 @@
+{
+  "_id": 4304,
+  "id": "abyss_lector_fathomless_flames",
+  "name": "Abyss Lector - Fathomless Flames",
+  "title": "Abyss Lector - Fathomless Flames",
+  "desc": "ประพฤติชอบตามพระคัมภีร์ สดับรับฟังเฉกคติพจน์",
+  "attributes": {
+    "hp": 6,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "talent_card": {
+      "_id": 3856,
+      "id": "embers_rekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Abyss Lector - Fathomless Flames ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "abyss_lector_fathomless_flames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "flame_of_salvation",
+      "name": "Flame of Salvation",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "searing_precept",
+      "name": "Searing Precept",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_star",
+      "name": "Ominous Star",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Darkfire Furnace</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fiery_rebirth",
+      "name": "Fiery Rebirth",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Fiery Rebirth</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    },
+    {
+      "id": "shield_of_surging_flame",
+      "name": "Shield of Surging Flame",
+      "desc": "[ติดตัว] เมื่อตัวละครนี้ทำให้เกิด <span style=\"color:#FFFFFFFF\">Fiery Rebirth</span>: จะได้รับ <span style=\"color:#FFFFFFFF\">Shield of Surging Flame</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_id": 3603,
+  "id": "geo_samachurl",
+  "name": "Geo Samachurl",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุหิน",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์", "Hilichurl"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "Staff Strike",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "summoning_of_stones",
+      "name": "Summoning of Stones",
+      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Rocky Pedestal</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shockwave_smash",
+      "name": "Shockwave Smash",
+      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

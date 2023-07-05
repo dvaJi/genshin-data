@@ -1,0 +1,66 @@
+{
+  "_id": 3603,
+  "id": "geo_samachurl",
+  "name": "ヒルチャールシャーマン·岩",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "他の武器",
+    "faction": ["魔物", "ヒルチャール"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "staff_strike",
+      "name": "ロッド叩き",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "summoning_of_stones",
+      "name": "石召喚の呪文",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">岩土の台座</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shockwave_smash",
+      "name": "砕岩の衝撃波",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を5与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

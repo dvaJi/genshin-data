@@ -1,0 +1,79 @@
+{
+  "_id": 3205,
+  "id": "grounded_hydroshroom",
+  "name": "Laufender Hydro-Pilz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Sporengeschoss",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raging_breath",
+      "name": "Zorniger Atem",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_blast",
+      "name": "Explosiver Vorstoß",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Modus-Umwandlung",
+      "desc": "Passiv – Zu Beginn des Kampfes: <span style=\"color:#FFFFFFFF\">Vorteil des Geländes</span>.<br/>Nach Erleiden von <span style=\"color:#FF9999FF\">Pyro-SCH</span>: <span style=\"color:#FFFFFFFF\">Verdorrter Modus</span>.<br/>Nach Erleiden von <span style=\"color:#FFACFFFF\">Elektro-SCH</span>: <span style=\"color:#FFFFFFFF\">Aktivierter Modus</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

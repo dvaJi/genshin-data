@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "연비",
+  "title": "순수한 지혜·연비",
+  "desc": "옛것을 익히려 하지 말고, 정해진 규칙을 본받지 말라",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "법구",
+    "faction": ["리월"],
+    "source": "캣테일 술집에서 연비 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "봉랍 인장",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "단홍의 계약",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">단화인</span>을 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "계약 성립",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">단화인</span>과 <span style=\"color:#FFFFFFFF\">이글이글</span>을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "Vortice delle foglie scarlatte: Kaedehara Kazuha",
+  "desc": "Fiori e uccelli sono un piacere di chi è avvolto dal chiaro di luna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Spada",
+    "faction": ["Inazuma"],
+    "source": "Ricompensa ottenuta sfidando Kaedehara Kazuha a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Tecnica di Garyuu",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Chihayaburu",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, associa <span style=\"color:#FFFFFFFF\">Midare Ranzan</span> a questo personaggio.<br/>Se questa abilità innesca Turbinio, <span style=\"color:#FFFFFFFF\">Midare Ranzan</span> si converte nell'elemento del Turbinio.<br/><span style=\"color:#FFFFFFFF\">Dopo la finalizzazione dei DAN abilità:</span> la tua squadra passa al personaggio successivo.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Fendente di Kazuha",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span> e invoca 1 <span style=\"color:#FFFFFFFF\">Turbine d'autunno</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

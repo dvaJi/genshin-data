@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Cão da Fenda - Geofito",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Garras da Corrosão",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo</span>, gera <span style=\"color:#FFFFFFFF\">Corrosão no campo do oponente</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Cristais da Corrosão",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, gera <span style=\"color:#FFFFFFFF\">Corrosão no campo do oponente</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Marca do Caçador",
+      "desc": "Causa 6 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, gera <span style=\"color:#FFFFFFFF\">Corrosão no campo do oponente</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Afinidade Mágica",
+      "desc": "(Passiva) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Afinidade Mágica</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

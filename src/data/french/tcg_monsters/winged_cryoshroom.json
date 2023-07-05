@@ -1,0 +1,79 @@
+{
+  "_id": 3105,
+  "id": "winged_cryoshroom",
+  "name": "Champicryo ailé",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "spore_bullet",
+      "name": "Balle de spores",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rolling_spray",
+      "name": "Pulvérisation roulante",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "divebomb",
+      "name": "Plongeon explosif",
+      "desc": "Inflige 5 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "state_change",
+      "name": "Changement d'état",
+      "desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">supériorité aérienne</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

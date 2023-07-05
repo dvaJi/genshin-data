@@ -2,21 +2,22 @@
   "_id": 3001,
   "id": "hilichurl_fighter",
   "name": "Hilichurl-Kämpfer",
-  "title": "Hilichurl-Kämpfer",
-  "desc": "",
+  "title": null,
+  "desc": null,
   "attributes": {
     "hp": 4,
     "card_type": "Figurenkarte",
     "energy": 2,
     "element": "Kein Elementartyp",
     "weapon": "Andere Waffen",
-    "faction": ["Monster", "Hilichurl"]
+    "faction": ["Monster", "Hilichurl"],
+    "source": null
   },
   "skills": [
     {
       "id": "hit",
       "name": "Schlagen",
-      "desc": "Verursacht 1 Pkt. $[D__KEY__ELEMENT|s1].",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
       "skillTag": ["Standardangriff"],
       "points": [
         {
@@ -30,7 +31,7 @@
     {
       "id": "jump_and_hit",
       "name": "Schlagsprung",
-      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
       "skillTag": ["Elementarfähigkeit"],
       "points": [
         {
@@ -44,7 +45,7 @@
     {
       "id": "swing_that_club",
       "name": "Schwenken",
-      "desc": "Verursacht 4 Pkt. $[D__KEY__ELEMENT|s1].",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
       "skillTag": ["Spezialfähigkeit"],
       "points": [
         {

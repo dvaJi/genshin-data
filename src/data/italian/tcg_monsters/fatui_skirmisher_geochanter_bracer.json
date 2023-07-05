@@ -1,0 +1,79 @@
+{
+  "_id": 3604,
+  "id": "fatui_skirmisher_geochanter_bracer",
+  "name": "Schermagliatore dei Fatui Fante Geoincantatore",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Altre armi",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rock_projectile",
+      "name": "Proiettile di roccia",
+      "desc": "Infligge 1 <span style=\"color:#FFE699FF\">DAN da Geo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "geocrystal_beam",
+      "name": "Raggio Geocristallino",
+      "desc": "Infligge 3 <span style=\"color:#FFE699FF\">DAN da Geo</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "staff_of_geo",
+      "name": "Asta di Geo",
+      "desc": "Infligge 3 <span style=\"color:#FFE699FF\">DAN da Geo</span>, questo personaggio ottiene l'effetto <span style=\"color:#FFFFFFFF\">Equipaggiamento elementale di Geo</span>. Genera 1 <span style=\"color:#FFFFFFFF\">Scudo cristallino</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combat_resupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio della battaglia, questo personaggio ottiene 2 punti Energia.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

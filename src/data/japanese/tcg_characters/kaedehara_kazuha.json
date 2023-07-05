@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "楓原万葉",
+  "title": "風波流浪の紅葉·楓原万葉",
+  "desc": "花鳥の一興を拾い、風月の道を照らさん。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "片手剣",
+    "faction": ["稲妻"],
+    "source": "キャッツテールで楓原万葉を招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "我流剣術",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "千早振る",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">乱れ嵐斬</span>を付与する。<br/>このスキルで拡散反応を起こした場合、<span style=\"color:#FFFFFFFF\">乱れ嵐斬</span>は拡散された元素に変わる。<br/><span style=\"color:#FFFFFFFF\">このスキル処理完了後：</span>味方の次のキャラへとチェンジする。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "万葉の一刀",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">流風秋野</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

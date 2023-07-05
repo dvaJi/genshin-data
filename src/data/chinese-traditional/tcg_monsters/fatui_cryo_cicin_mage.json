@@ -1,0 +1,81 @@
+{
+  "_id": 4102,
+  "id": "fatui_cryo_cicin_mage",
+  "name": "愚人眾·冰螢術士",
+  "title": "霧虛召螢·冰螢術士",
+  "desc": "至少在霧虛草耗盡之前，冰螢不會離她而去。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "talent_card": {
+      "_id": 3855,
+      "id": "cicins_cold_glare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度愚人眾·冰螢術士中獲得勝利後獲得",
+    "character": {
+      "id": "fatui_cryo_cicin_mage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "cicin_icicle",
+      "name": "冰螢稜錐",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_summons",
+      "name": "霧虛搖喚",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">冰螢</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "blizzard_branch_blossom",
+      "name": "冰枝白花",
+      "desc": "造成5點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，本角色<span style=\"color:#99FFFFFF\">附著冰元素</span>，生成<span style=\"color:#FFFFFFFF\">流螢護罩</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

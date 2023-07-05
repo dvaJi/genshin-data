@@ -1,0 +1,72 @@
+{
+  "_id": 1505,
+  "id": "kaedehara_kazuha",
+  "name": "Kaedehara Kazuha",
+  "title": "Hırçın Dalgaları Kovalayan Kızıl Yapraklar: Kaedehara Kazuha",
+  "desc": "Çiçekler ve kuşlar, ay ışığı altında dolanan biri için büyük bir zevktir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Kılıç",
+    "faction": ["Inazuma"],
+    "source": "Kaedehara Kazuha'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "garyuu_bladework",
+      "name": "Garyuu Kılıç Tekniği",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "chihayaburu",
+      "name": "Chihayaburu",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir, bu karakter <span style=\"color:#FFFFFFFF\">Midare Ranzan</span> kuşanır.<br/>Bu beceri Girdap tetiklerse <span style=\"color:#FFFFFFFF\">Midare Ranzan</span>, Girdaba alınan elemente dönüşür.<br/><span style=\"color:#FFFFFFFF\">Beceri Hasarı sona erdikten sonra</span> takımın sonraki karaktere geçer.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kazuha_slash",
+      "name": "Bin Yaprak Darbesi",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Güz Kasırgası</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

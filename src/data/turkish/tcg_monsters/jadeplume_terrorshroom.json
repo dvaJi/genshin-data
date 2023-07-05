@@ -1,0 +1,88 @@
+{
+  "_id": 4704,
+  "id": "jadeplume_terrorshroom",
+  "name": "Yeşimkuyruk Mantar Kuşu",
+  "title": "\"Mantarların Efendisi\" Yeşimkuyruk Mantar Kuşu",
+  "desc": "Sessizce ve yakından dinlersen Mantargillerin efendisinin bölgesini denetlemesini duyabilirsin...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "talent_card": {
+      "_id": 3240,
+      "id": "proliferating_spores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Yeşimkuyruk Mantar Kuşu ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "jadeplume_terrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "majestic_dance",
+      "name": "Görkemli Dans",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "volatile_spore_cloud",
+      "name": "Dengesiz Spor Bulutu",
+      "desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "feather_spreading",
+      "name": "Görkemli Tüyler",
+      "desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir, <span style=\"color:#FFFFFFFF\">Radikal Canlılık</span> kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radical_vitality",
+      "name": "Radikal Canlılık",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Radikal Canlılık</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1207,
+  "id": "candace",
+  "name": "Candace",
+  "title": "Candace · Serment doré",
+  "desc": "Dans les sables écarlates qui coulent, son serment de protection prévaut.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Arme d'hast",
+    "faction": ["Sumeru"],
+    "source": "Récompense pour avoir invité Candace à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "gleaming_spear_guardian_stance",
+      "name": "Lance étincelante (Posture protectrice)",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_herons_sanctum",
+      "name": "Liturgie : Sanctuaire de la héronne",
+      "desc": "Accorde un <span style=\"color:#FFFFFFFF\">bouclier de la héronne</span> au personnage et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Frappe de la héronne</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sacred_rite_wagtails_tide",
+      "name": "Liturgie : Marée de la bergeronnette",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une <span style=\"color:#FFFFFFFF\">prière de couronne cramoisie</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

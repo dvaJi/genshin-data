@@ -1,0 +1,79 @@
+{
+  "_id": 3602,
+  "id": "rockfond_rifthound",
+  "name": "Thể Nham - Chó Săn Ma Vật",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "corrosive_claws",
+      "name": "Móng Vuốt Ăn Mòn",
+      "desc": "Gây 1 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "crystal_cracker",
+      "name": "Phá Giải Tinh Thạch",
+      "desc": "Gây 2 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pursuers_mark",
+      "name": "Ký Hiệu Săn Bắt",
+      "desc": "Gây 6 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Thị Ma",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Thị Ma</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

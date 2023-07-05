@@ -1,0 +1,72 @@
+{
+  "_id": 1308,
+  "id": "yanfei",
+  "name": "Yanfei",
+  "title": "Saggia innocenza: Yanfei",
+  "desc": "Chi non riesamina i classici rischia di violare la legge.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Catalizzatore",
+    "faction": ["Liyue"],
+    "source": "Ricompensa ottenuta sfidando Yanfei a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "seal_of_approval",
+      "name": "Sigillo d'approvazione",
+      "desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "signed_edict",
+      "name": "Editto firmato",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span> e associa <span style=\"color:#FFFFFFFF\">Sigillo scarlatto</span> a questo personaggio.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "done_deal",
+      "name": "Affare fatto",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, associa <span style=\"color:#FFFFFFFF\">Sigillo scarlatto</span> e <span style=\"color:#FFFFFFFF\">Fulgore</span> a questo personaggio.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

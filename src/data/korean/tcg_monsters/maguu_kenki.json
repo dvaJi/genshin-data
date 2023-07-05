@@ -1,0 +1,95 @@
+{
+  "_id": 4502,
+  "id": "maguu_kenki",
+  "name": "꼭두각시 검귀",
+  "title": "기발한 기계·꼭두각시 검귀",
+  "desc": "오늘도 그것은 인연의 흐름이 단절된 땅에서 배회하고 있다",
+  "attributes": {
+    "hp": 28,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "바람 원소",
+    "weapon": "그 외 무기",
+    "faction": ["마물"],
+    "talent_card": {
+      "_id": 3238,
+      "id": "transcendent_automaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 꼭두각시 검귀에게 승리 후 획득",
+    "character": {
+      "id": "maguu_kenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "ichimonji",
+      "name": "이치몬지",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blustering_blade",
+      "name": "고독한 바람의 검세",
+      "desc": "<span style=\"color:#FFFFFFFF\">검의 그림자·고독한 바람</span>을 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "frosty_assault",
+      "name": "서리 낀 그림자의 돌진",
+      "desc": "<span style=\"color:#FFFFFFFF\">검의 그림자·흩날리는 서리</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "pseudo_tengu_sweeper",
+      "name": "기계 텐구쇼",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 4pt 주고 모든 아군의 <span style=\"color:#FFFFFFFF\">검의 그림자</span> 소환물 효과를 발동한다. (사용 가능 횟수를 소모하지 않음)",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
