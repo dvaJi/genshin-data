@@ -37,7 +37,7 @@ export interface AscensionMaterial {
 
 export type AscendStat = {
   label: string;
-  values: (string | number)[];
+  values: (string | number)[] | null;
 };
 export interface Ascension {
   level: [number, number];
@@ -66,7 +66,7 @@ export interface Character {
   _id: number;
   id: string;
   name: string;
-  title: string;
+  title?: string;
   description: string;
   weapon_type: string;
   element: string;
@@ -75,7 +75,7 @@ export interface Character {
   affiliation: string;
   region?: string;
   rarity: number;
-  birthday: [number, number];
+  birthday: [number | null, number | null];
   constellation: string;
   domain: string;
   cv: CharacterVoice;
