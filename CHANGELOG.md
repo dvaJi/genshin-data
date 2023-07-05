@@ -1,3 +1,13 @@
+## [0.32.0](https://github.com/dvaJi/genshin-data/compare/0.31.2...0.32.0) (2023-07-05)
+
+### Features
+
+- update data to GI v3.8 [8a63447](https://github.com/dvaJi/genshin-data/commit/8a63447e524b92c8a32d5ab0db9a2f75cddcf9c6) [@dvaJi](https://github.com/dvaJi)
+
+### Fixes
+
+- multiple typings fixes ([#17](https://github.com/dvaJi/genshin-data/pull/17)) ([c9cb07e](https://github.com/dvaJi/genshin-data/commit/c9cb07e8d658acbd31697883c90561ee8717a20b)) [@Victorsitou](https://github.com/Victorsitou) 
+
 ## [0.31.2](https://github.com/dvaJi/genshin-data/compare/0.31.1...0.31.2) (2023-05-24)
 
 ### Fixes
