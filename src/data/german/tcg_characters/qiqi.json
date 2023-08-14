@@ -1,0 +1,72 @@
+{
+  "_id": 1108,
+  "id": "qiqi",
+  "name": "Qiqi",
+  "title": "Eisige Nacht der Wiedergänger – Qiqi",
+  "desc": "Ein ewiger Fluss, unaufhörliche Wiedergeburt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Kryo",
+    "weapon": "Einhänder",
+    "faction": ["Liyue"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Qiqi in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "ancient_sword_art",
+      "name": "Alte Schwertkunst aus den Wolken",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_herald_of_frost",
+      "name": "Adeptenkunst – Frostbringer",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Frostbringer</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_preserver_of_fortune",
+      "name": "Adeptenkunst – Befreiung vom Leid",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Leidbefreiungs-Talisman</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

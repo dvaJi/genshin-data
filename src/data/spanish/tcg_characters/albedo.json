@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Albedo",
+  "title": "Albedo - El Príncipe de la Roca Caliza",
+  "desc": "La tierra negra y la roca caliza, la rubedo y el oro.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Espada ligera",
+    "faction": ["Mondstadt"],
+    "source": "Se obtiene tras retar y ganar a Albedo en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Técnica de espada Favonius: Albor",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Abiogénesis: Isotoma solar",
+      "desc": "Crea una <span style=\"color:#FFFFFFFF\">isotoma solar</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Creación: Marea tectónica",
+      "desc": "Inflige 4 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>. Si la <span style=\"color:#FFFFFFFF\">isotoma solar</span> está en juego, daño +2.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

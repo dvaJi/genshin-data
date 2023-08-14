@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Albedo",
+  "title": "\"Kreideprinz\" Albedo",
+  "desc": "Nigredo dan Calx, Rubedo dan Citrinitas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Sword",
+    "faction": ["Mondstadt"],
+    "source": "Didapatkan setelah mengundang Albedo ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Favonius Bladework - Weiss",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Abiogenesis: Solar Isotoma",
+      "desc": "Memanggil <span style=\"color:#FFFFFFFF\">Solar Isotoma</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Rite of Progeniture: Tectonic Tide",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#FFE699FF\">Geo DMG</span>. Jika <span style=\"color:#FFFFFFFF\">Solar Isotoma</span> berada di arena, mengakibatkan DMG +2.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

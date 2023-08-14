@@ -1,0 +1,72 @@
+{
+  "_id": 1108,
+  "id": "qiqi",
+  "name": "치치",
+  "title": "차가운 환혼의 밤·치치",
+  "desc": "끝없는 순환, 끝없는 번성",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": ["리월"],
+    "source": "캣테일 술집에서 치치 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "ancient_sword_art",
+      "name": "운래의 고대 검법",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_herald_of_frost",
+      "name": "선법·한병의 귀차",
+      "desc": "<span style=\"color:#FFFFFFFF\">한병의 귀차</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_preserver_of_fortune",
+      "name": "선법·구고도액",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">도액 부적</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

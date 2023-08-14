@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Lisa",
+  "title": "\"Mor Gül Cadısı\" Lisa",
+  "desc": "Sihrin sırlarının peşinden gidip sessizce gerçekle karşılaşmayı bekliyorum.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Katalizör",
+    "faction": ["Mondstadt"],
+    "source": "Lisa'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Yıldırım Dokunuşu",
+      "desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.<br/>Bu Beceri <span style=\"color:#FFFFFFFF\">Yüklü Saldırı</span> olarak kullanıldığında rakibin aktif karakterine <span style=\"color:#FFFFFFFF\">İletken</span> eklenir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Mor Akım",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir. Rakibin aktif karakterine <span style=\"color:#FFFFFFFF\">İletken</span> eklenmediyse eklenir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Şimşek Gülü",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Şimşek Gülü</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

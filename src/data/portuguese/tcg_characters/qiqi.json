@@ -1,0 +1,72 @@
+{
+  "_id": 1108,
+  "id": "qiqi",
+  "name": "Qiqi",
+  "title": "Qiqi - Ressurreição Gélida",
+  "desc": "O fluxo é eterno, a vida é eterna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Espada",
+    "faction": ["Liyue"],
+    "source": "Recompensa por desafiar Qiqi para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "ancient_sword_art",
+      "name": "Arte da Espada Antiga",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_herald_of_frost",
+      "name": "Arte do Adeptus: Arauto da Floresta",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Arauto da Floresta</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_preserver_of_fortune",
+      "name": "Arte do Adeptus: Preservador da Fortuna",
+      "desc": "Causa 2 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>, gera <span style=\"color:#FFFFFFFF\">Talismã da Preservação da Fortuna</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

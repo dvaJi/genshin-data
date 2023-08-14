@@ -1,0 +1,72 @@
+{
+  "_id": 1108,
+  "id": "qiqi",
+  "name": "七七",
+  "title": "凍凍回魂夜·七七",
+  "desc": "流轉不息，生生不絕。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "單手劍",
+    "faction": ["璃月"],
+    "source": "在貓尾酒館中邀請七七進行對局，在友好對局難度中取得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "ancient_sword_art",
+      "name": "雲來古劍法",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_herald_of_frost",
+      "name": "仙法·寒病鬼差",
+      "desc": "召喚<span style=\"color:#FFFFFFFF\">寒病鬼差</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "adeptus_art_preserver_of_fortune",
+      "name": "仙法·救苦度厄",
+      "desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">度厄真符</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

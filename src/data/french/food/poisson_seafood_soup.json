@@ -1,0 +1,65 @@
+{
+  "_id": 3407,
+  "id": "poisson_seafood_soup",
+  "name": "Soupe fraîche de Poisson",
+  "description": "Une soupe de produits de la mer. Originaire du Village de Poisson où les pêcheurs avaient l'habitude de préparer les restes de poisson en les faisant mijoter ensemble, cette soupe est ensuite devenue populaire dans tout Fontaine en raison de sa fraîcheur. De nos jours, presque tous les produits de la mer peuvent être inclus dans cette recette.",
+  "rarity": 3,
+  "ingredients": [
+    {
+      "_id": 100084,
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 4
+    },
+    {
+      "_id": 100079,
+      "id": "tomato",
+      "name": "Tomate",
+      "amount": 2
+    },
+    {
+      "_id": 100016,
+      "id": "mint",
+      "name": "Menthe",
+      "amount": 2
+    },
+    {
+      "_id": 101231,
+      "id": "marcotte",
+      "name": "Marcotte",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "_id": 108551,
+      "name": "Soupe fraîche de Poisson (suspecte)",
+      "description": "Une soupe de produits de la mer. La seule saveur qui s'en dégage est la puanteur des poissons. Si votre nez fonctionne toujours correctement, il doit y avoir un problème avec la soupe... Ah, est-ce que ce sont des écailles de poisson ou des graviers qui se sont coincés dans vos dents...",
+      "effect": "Restaure immédiatement 26 % des PV max, puis 450 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "normal": {
+      "_id": 108552,
+      "name": "Soupe fraîche de Poisson",
+      "description": "Une soupe de produits de la mer. Originaire du Village de Poisson où les pêcheurs avaient l'habitude de préparer les restes de poisson en les faisant mijoter ensemble, cette soupe est ensuite devenue populaire dans tout Fontaine en raison de sa fraîcheur. De nos jours, presque tous les produits de la mer peuvent être inclus dans cette recette.",
+      "effect": "Restaure immédiatement 28 % des PV max, puis 620 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "delicious": {
+      "_id": 108553,
+      "name": "Soupe fraîche de Poisson (délicieuse)",
+      "description": "Une soupe de produits de la mer. La soupe au beurre ressemble à des vagues dorées sous le soleil éclatant, les riches arômes de fruits de mer fondent dans la bouche, et les richesses de l'océan forment un chef-d'œuvre harmonieux. Après avoir rapidement vidé votre bol, vous ne pouvez pas vous empêcher de tremper le pain dans ce qui reste... Ce serait une grande perte d'en manquer ne serait-ce qu'une goutte !",
+      "effect": "Restaure immédiatement 30 % des PV max, puis 790 PV toutes les 5 s pendant 30 s au personnage sélectionné."
+    },
+    "special": {
+      "_id": 108563,
+      "id": "seabirds_sojourn",
+      "name": "Pause de l'oiseau de mer",
+      "description": "Spécialité culinaire de Fréminet. Il s'est enfui après avoir laissé la marmite. Les ingrédients ne semblent pas provenir de mers peu profondes, ce qui signifie qu'il a dû plonger longtemps pour les attraper. Vous voulez exprimer votre gratitude, mais... Où pourriez-vous bien le trouver ?",
+      "effect": "Restaure immédiatement 34 % des PV max, puis 980 PV toutes les 5 s pendant 30 s au personnage sélectionné.",
+      "character": {
+        "id": "freminet",
+        "name": "Fréminet"
+      }
+    }
+  }
+}

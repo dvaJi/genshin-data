@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "丽莎",
+  "title": "蔷薇魔女·丽莎",
+  "desc": "追寻魔导的奥秘，静待真相的机缘。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": ["蒙德"],
+    "source": "在猫尾酒馆中邀请丽莎进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "指尖雷暴",
+      "desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害</span>；<br/>如果此技能为<span style=\"color:#FFFFFFFF\">重击</span>，则使敌方出战角色附属<span style=\"color:#FFFFFFFF\">引雷</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "苍雷",
+      "desc": "造成2点<span style=\"color:#FFACFFFF\">雷元素伤害</span>；如果敌方出战角色未附属<span style=\"color:#FFFFFFFF\">引雷</span>，则使其附属<span style=\"color:#FFFFFFFF\">引雷</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "蔷薇的雷光",
+      "desc": "造成2点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">蔷薇雷光</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

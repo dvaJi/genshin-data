@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Альбедо",
+  "title": "Принц мела: Альбедо",
+  "desc": "Нигредо и Альбедо, Рубедо и Цитринитас.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Одноручное",
+    "faction": ["Мондштадт"],
+    "source": "Награда за приглашение Альбедо в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Фехтовальный стиль Фавония: Мел",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Абиогенез: Цветок солнца",
+      "desc": "Призывает помощника: <span style=\"color:#FFFFFFFF\">Цветок солнца</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Ритуал рождения: Тектоническая волна",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 4 ед. Если <span style=\"color:#FFFFFFFF\">Цветок солнца</span> на поле битвы, урон увеличивается на 2 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

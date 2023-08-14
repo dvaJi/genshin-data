@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Albedo",
+  "title": "Kreideprinz – Albedo",
+  "desc": "Nigredo und Albedo, Rubedo und Citrinitas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Einhänder",
+    "faction": ["Mondstadt"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Albedo in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Favonius-Schwertkunst – Weiß",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Chemische Evolution – Sonnennachbildung",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Sonnennachbildung</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Fortpflanzung – Tektonische Welle",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>; diesmaliger Schaden +2, wenn <span style=\"color:#FFFFFFFF\">Sonnennachbildung</span> auf dem Feld ist.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

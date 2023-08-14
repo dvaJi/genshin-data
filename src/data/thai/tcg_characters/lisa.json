@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Lisa",
+  "title": "แม่มดกุหลาบ - Lisa",
+  "desc": "แสวงหาความลึกลับแห่งเวทมนตร์ รอคอยโอกาสแห่งความจริง",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "สื่อเวท",
+    "faction": ["Mondstadt"],
+    "source": "ได้รับหลังจากเชิญ Lisa ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Lightning Touch",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย<br/>หากสกิลนี้เป็น<span style=\"color:#FFFFFFFF\">ชาร์จโจมตี</span> จะทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ <span style=\"color:#FFFFFFFF\">Conductive</span>",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Violet Arc",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย; หากตัวละครที่เข้าต่อสู้ยังไม่ได้รับ <span style=\"color:#FFFFFFFF\">Conductive</span> จะทำให้ได้รับ <span style=\"color:#FFFFFFFF\">Conductive</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Lightning Rose",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Lightning Rose</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

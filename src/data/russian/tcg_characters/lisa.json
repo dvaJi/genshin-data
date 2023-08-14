@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Лиза",
+  "title": "Пурпурная ведьма: Лиза",
+  "desc": "Познаёт глубокие тайны магии и спокойно ждёт встречи с истиной.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Катализатор",
+    "faction": ["Мондштадт"],
+    "source": "Награда за приглашение Лизы в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Касание молнии",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.<br/>Если навык - <span style=\"color:#FFFFFFFF\">Заряженная атака</span>, то персонаж противника получает состояние <span style=\"color:#FFFFFFFF\">Проводник</span>.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Пурпурная дуга",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. Если у активного персонажа противника отсутствует состояние <span style=\"color:#FFFFFFFF\">Проводник</span>, то он его получает.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Громовая роза",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Громовая роза</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

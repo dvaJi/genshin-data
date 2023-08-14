@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Albedo",
+  "title": "\"Kreideprinz\" Albedo",
+  "desc": "Siyahlık ve beyazlık, sarılık ve kızıllık.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Kılıç",
+    "faction": ["Mondstadt"],
+    "source": "Albedo'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Favonius Kılıç Tekniği - Weiss",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Yaratılış: Güneş Çiçeği",
+      "desc": "<span style=\"color:#FFFFFFFF\">Güneş Çiçeği</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Varoluş Ayini: Tektonik Dalga",
+      "desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Eğer <span style=\"color:#FFFFFFFF\">Güneş Çiçeği</span> alandaysa, bu Hasar 2 artar.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

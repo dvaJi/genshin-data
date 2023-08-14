@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Lisa",
+  "title": "Ma Nữ Tường Vi - Lisa",
+  "desc": "Theo đuổi huyền cơ của ma pháp, yên lặng chờ đợi cơ duyên của chân tướng.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Pháp Khí",
+    "faction": ["Mondstadt"],
+    "source": "Nhận được sau khi mời Lisa giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Sấm Sét Cảm Ứng",
+      "desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>;<br/>Nếu kỹ năng này là <span style=\"color:#FFFFFFFF\">Trọng Kích</span>, sẽ khiến nhân vật xuất chiến phe địch áp dụng <span style=\"color:#FFFFFFFF\">Dẫn Lôi</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Sấm Giội",
+      "desc": "Gây 2 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>; Nếu nhân vật xuất chiến phe địch chưa áp dụng <span style=\"color:#FFFFFFFF\">Dẫn Lôi</span>, sẽ khiến mục tiêu áp dụng <span style=\"color:#FFFFFFFF\">Dẫn Lôi</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Tường Vi Sấm Sét",
+      "desc": "Gây 2 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Tường Vi Sấm Sét</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

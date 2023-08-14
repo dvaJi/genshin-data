@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "Albedo",
+  "title": "Albedo, Kreideprinz",
+  "desc": "Nigredo e calx, rubedo e citrinitas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Spada",
+    "faction": ["Mondstadt"],
+    "source": "Ricompensa ottenuta sfidando Albedo a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "Tecnica di Favonius - Weiss",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "Abiogenesi: Isotoma solare",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Isotoma solare</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "Rito della discendenza: Ondata tettonica",
+      "desc": "Infligge 4 <span style=\"color:#FFE699FF\">DAN da Geo</span>, se <span style=\"color:#FFFFFFFF\">Isotoma solare</span> è sul campo, DAN inflitti da questo attacco +2.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "리사",
+  "title": "장미 마녀·리사",
+  "desc": "마도의 오의를 좇으며, 진실과 마주치는 순간을 조용히 기다린다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "법구",
+    "faction": ["몬드"],
+    "source": "캣테일 술집에서 리사 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "손끝의 뇌폭",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.<br/>해당 스킬이 <span style=\"color:#FFFFFFFF\">강공격</span>일 경우, 적 출전 캐릭터에게 <span style=\"color:#FFFFFFFF\">전기 전도</span>를 부착한다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "창뢰",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 2pt 준다. 적 출전 캐릭터에게 <span style=\"color:#FFFFFFFF\">전기 전도</span>가 부착되지 않았을 경우, 해당 캐릭터에게 <span style=\"color:#FFFFFFFF\">전기 전도</span>가 부착된다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "장미의 뇌광",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">장미 뇌광</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

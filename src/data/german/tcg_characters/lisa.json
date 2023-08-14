@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Lisa",
+  "title": "Rosenhexe – Lisa",
+  "desc": "Erforsche die Geheimnisse der Magie und warte darauf, dass die Wahrheit ans Licht kommt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Katalysator",
+    "faction": ["Mondstadt"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lisa in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Elektrisierende Berührung",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Wenn es sich gerade bei dieser Fähigkeit um <span style=\"color:#FFFFFFFF\">heftige Schläge</span> handelt, wird der aktiven Figur deines Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter</span> verliehen.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Lila Lichtbogen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>. Verleiht der aktiven Figur des Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter</span>, wenn sie nicht hiervon betroffen ist.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Rosenblitz",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Rosenblitz</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

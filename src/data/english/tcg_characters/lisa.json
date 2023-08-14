@@ -1,0 +1,72 @@
+{
+  "_id": 1409,
+  "id": "lisa",
+  "name": "Lisa",
+  "title": "\"Witch of Purple Rose\" Lisa",
+  "desc": "Pursuing the arcane mysteries of magic, and waiting quietly for an encounter with truth.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "faction": ["Mondstadt"],
+    "source": "Reward for inviting Lisa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "lightning_touch",
+      "name": "Lightning Touch",
+      "desc": "Deals 1 <span style=\"color:#FFACFFFF\">Electro DMG</span>:<br/>If this Skill is a <span style=\"color:#FFFFFFFF\">Charged Attack</span>: Attach <span style=\"color:#FFFFFFFF\">Conductive</span> to the opponent's active character.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "violet_arc",
+      "name": "Violet Arc",
+      "desc": "Deals 2 <span style=\"color:#FFACFFFF\">Electro DMG</span>. If <span style=\"color:#FFFFFFFF\">Conductive</span> is not attached to the opponent's active character, <span style=\"color:#FFFFFFFF\">Conductive</span> will be attached.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lightning_rose",
+      "name": "Lightning Rose",
+      "desc": "Deals 2 <span style=\"color:#FFACFFFF\">Electro DMG</span>, summons <span style=\"color:#FFFFFFFF\">Lightning Rose</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

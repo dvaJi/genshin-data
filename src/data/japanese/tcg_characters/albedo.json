@@ -1,0 +1,72 @@
+{
+  "_id": 1604,
+  "id": "albedo",
+  "name": "アルベド",
+  "title": "白亜の申し子·アルベド",
+  "desc": "黒土と白亜、赤化と黄金。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "片手剣",
+    "faction": ["モンド"],
+    "source": "キャッツテールでアルベドを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_weiss",
+      "name": "西風剣術·白",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "abiogenesis_solar_isotoma",
+      "name": "創生術·擬似陽華",
+      "desc": "<span style=\"color:#FFFFFFFF\">陽華</span>を召喚する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rite_of_progeniture_tectonic_tide",
+      "name": "誕生式·大地の潮",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を4与える。もし<span style=\"color:#FFFFFFFF\">陽華</span>がフィールドに存在する場合、このダメージ+2。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
