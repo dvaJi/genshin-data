@@ -1,3 +1,9 @@
+## [0.34.0](https://github.com/dvaJi/genshin-data/compare/0.33.0...0.34.0) (2023-09-14)
+
+### Features
+
+- improve character stats [450b28b](https://github.com/dvaJi/genshin-data/commit/450b28b7f00f98df055a19d07c328de7185c6825) [@dvaJi](https://github.com/dvaJi)
+
 ## [0.33.0](https://github.com/dvaJi/genshin-data/compare/0.32.0...0.33.0) (2023-08-14)
 
 ### Features
@@ -12,7 +18,7 @@
 
 ### Fixes
 
-- multiple typings fixes ([#17](https://github.com/dvaJi/genshin-data/pull/17)) ([c9cb07e](https://github.com/dvaJi/genshin-data/commit/c9cb07e8d658acbd31697883c90561ee8717a20b)) [@Victorsitou](https://github.com/Victorsitou) 
+- multiple typings fixes ([#17](https://github.com/dvaJi/genshin-data/pull/17)) ([c9cb07e](https://github.com/dvaJi/genshin-data/commit/c9cb07e8d658acbd31697883c90561ee8717a20b)) [@Victorsitou](https://github.com/Victorsitou)
 
 ## [0.31.2](https://github.com/dvaJi/genshin-data/compare/0.31.1...0.31.2) (2023-05-24)
 
