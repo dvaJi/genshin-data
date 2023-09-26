@@ -1,0 +1,72 @@
+{
+  "_id": 1309,
+  "id": "dehya",
+  "name": "Dehya",
+  "title": "Feuermähne – Dehya",
+  "desc": "Die Augen des Rotgeiers, die Seele des Löwen, die freie Tochter der Wüste.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Zweihänder",
+    "faction": ["Sumeru"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Dehya in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "sandstorm_assault",
+      "name": "Schwertkunst des Goldenen Sturms",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "molten_inferno",
+      "name": "Inferno geschmolzenen Eisens",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Feld des Unzähmbaren Schwertjochs</span>; verursacht, wenn das Feld des Unzähmbaren Schwertjochs bereits besteht, vorerst 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leonine_bite",
+      "name": "Flammender Löwenbiss",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeit vor</span>: <span style=\"color:#FFFFFFFF\">Versengender Tritt</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

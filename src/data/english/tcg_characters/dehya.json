@@ -1,0 +1,72 @@
+{
+  "_id": 1309,
+  "id": "dehya",
+  "name": "Dehya",
+  "title": "\"Flame-Mane\" Dehya",
+  "desc": "The eyes of a vulture, the spirit of a lion, an unbridled daughter of the desert.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "faction": ["Sumeru"],
+    "source": "Reward for inviting Dehya to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "sandstorm_assault",
+      "name": "Sandstorm Assault",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "molten_inferno",
+      "name": "Molten Inferno",
+      "desc": "Summon <span style=\"color:#FFFFFFFF\">Fiery Sanctum Field</span>. If Fiery Sanctum Field already exists, then first deal 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leonine_bite",
+      "name": "Leonine Bite",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>, then performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Incineration Drive</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

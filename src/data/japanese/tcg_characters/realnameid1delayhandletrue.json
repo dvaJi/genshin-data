@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "久世浮傾·放浪者",
+  "desc": "劫に渡る千苦、知る者はなし。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "風元素",
+    "weapon": "法器",
+    "faction": [],
+    "source": "キャッツテールで放浪者を招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "幡舞鳴弦",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "羽画·風姿華歌",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、本キャラに<span style=\"color:#FFFFFFFF\">児姿優風</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "狂言·式楽伍番",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を7与える。キャラに<span style=\"color:#FFFFFFFF\">児姿優風</span>が付与されている場合、それを取り除くと同時にダメージ+1。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

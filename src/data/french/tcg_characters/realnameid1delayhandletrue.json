@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "Nomade · L'éternellement égaré",
+  "desc": "Tribulations innombrables et épreuves inconnaissables.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": [],
+    "source": "Récompense pour avoir invité le Nomade à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "Battement flottant",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "Hanega : Lyrisme des vents",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et accorde un <span style=\"color:#FFFFFFFF\">bienfait venteux</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen : Gobandate en cinq actes",
+      "desc": "Inflige 7 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span>. Si le personnage est sous l'effet d'un <span style=\"color:#FFFFFFFF\">bienfait venteux</span>, annule l'effet et augmente les DGT de 1.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

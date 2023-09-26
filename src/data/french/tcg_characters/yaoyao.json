@@ -1,0 +1,72 @@
+{
+  "_id": 1704,
+  "id": "yaoyao",
+  "name": "Yaoyao",
+  "title": "Yaoyao · Grâce fleurissante",
+  "desc": "Une constitution de jade aux os adeptaux.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arme d'hast",
+    "faction": ["Liyue"],
+    "source": "Récompense pour avoir invité Yaoyao à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "toss_n_turn_spear",
+      "name": "Lance virevoltante",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "raphanus_sky_cluster",
+      "name": "Amas céleste de raphanus",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">Yuegui lanceur</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonjade_descent",
+      "name": "Coucher de lune de jade",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span> et crée une <span style=\"color:#FFFFFFFF\">héritage adeptal</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

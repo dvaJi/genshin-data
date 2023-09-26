@@ -1,0 +1,72 @@
+{
+  "_id": 1309,
+  "id": "dehya",
+  "name": "迪希雅",
+  "title": "炽鬃之狮·迪希雅",
+  "desc": "鹫鸟的眼睛，狮子的灵魂，沙漠自由的女儿。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "双手剑",
+    "faction": ["须弥"],
+    "source": "在猫尾酒馆中邀请迪希雅进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "sandstorm_assault",
+      "name": "拂金剑斗术",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "molten_inferno",
+      "name": "熔铁流狱",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">净焰剑狱领域</span>；如果已存在净焰剑狱领域，就先造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leonine_bite",
+      "name": "炎啸狮子咬",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>，然后<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">焚落踢</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

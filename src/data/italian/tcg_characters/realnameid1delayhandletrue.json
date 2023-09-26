@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "Vagabondo, \"Eternamente perduto\"",
+  "desc": "Patimenti incalcolabili, sfide imprevedibili",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Catalizzatore",
+    "faction": [],
+    "source": "Ricompensa ottenuta sfidando il Vagabondo a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "Yuuban Meigen",
+      "desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "Hanega: Canzone del vento",
+      "desc": "Infligge 2 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Vento prospero</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Goban Date cerimoniale",
+      "desc": "Infligge 7 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. Se il personaggio ha associato <span style=\"color:#FFFFFFFF\">Vento prospero</span>, rimuovilo per aumentare i DAN di 1.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1309,
+  "id": "dehya",
+  "name": "Dehya",
+  "title": "Dehya, \"Chiomardente\"",
+  "desc": "Occhi di avvoltoio con lo spirito di un leone. Una scatenata figlia del deserto",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "faction": ["Sumeru"],
+    "source": "Ricompensa ottenuta sfidando Dehya a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "sandstorm_assault",
+      "name": "Tempesta dorata",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "molten_inferno",
+      "name": "Inferno colante",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Santuario infuocato</span>. Se Santuario infuocato esiste già, infligge prima 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leonine_bite",
+      "name": "Morso leonino",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, poi <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Calcio inceneritore</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "Trotamundos - El Caminante Eterno",
+  "desc": "Nadie puede predecir su destino.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": [],
+    "source": "Se obtiene tras retar y ganar al Trotamundos en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "Ondeo de estandartes",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "Ilustración emplumada: Balada del viento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">gracia del viento</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Cinco actos",
+      "desc": "Inflige 7 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>. Si el personaje está bajo el efecto de <span style=\"color:#FFFFFFFF\">gracia del viento</span>, este se elimina e inflige daño +1.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

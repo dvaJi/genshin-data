@@ -1,0 +1,72 @@
+{
+  "_id": 1309,
+  "id": "dehya",
+  "name": "迪希雅",
+  "title": "熾鬃之獅·迪希雅",
+  "desc": "鷲鳥的眼睛，獅子的靈魂，沙漠自由的女兒。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "雙手劍",
+    "faction": ["須彌"],
+    "source": "在貓尾酒館中邀請迪希雅進行對局，在友好對局難度中取得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "sandstorm_assault",
+      "name": "拂金劍鬥術",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "molten_inferno",
+      "name": "熔鐵流獄",
+      "desc": "召喚<span style=\"color:#FFFFFFFF\">淨焰劍獄領域</span>；如果已存在淨焰劍獄領域，就先造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leonine_bite",
+      "name": "炎嘯獅子咬",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>，然後<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">焚落踢</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

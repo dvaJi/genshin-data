@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "Затерявшийся в вечности: Странник",
+  "desc": "Трудностей не счесть, испытаний не постичь.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Анемо",
+    "weapon": "Катализатор",
+    "faction": [],
+    "source": "Награда за приглашение Странника в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "Юбан мэйгэн",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "Ханэга: Песнь ветра",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 2 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Избранник ветра</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Кёгэн: Пять церемониальных актов",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 7 ед. Если у персонажа есть <span style=\"color:#FFFFFFFF\">Избранник ветра</span>, эта карта пропадает, а урон увеличивается на 1 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1506,
+  "id": "realnameid1delayhandletrue",
+  "name": "{REALNAME[ID(1)|DELAYHANDLE(true)]}",
+  "title": "\"Sonsuzluğa Sürüklenme\" Avare",
+  "desc": "Sayısız musibet, bilinmez imtihanlar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Rüzgar",
+    "weapon": "Katalizör",
+    "faction": [],
+    "source": "Avare'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "yuuban_meigen",
+      "name": "Yuuban Meigen",
+      "desc": "1 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hanega_song_of_the_wind",
+      "name": "Hanega: Rüzgar Şarkısı",
+      "desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Akım Harmonisi</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "kyougen_five_ceremonial_plays",
+      "name": "Kyougen: Beşli Merasim Oyunu",
+      "desc": "7 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir. Karaktere <span style=\"color:#FFFFFFFF\">Akım Harmonisi</span> eklenmişse çıkarılır ve Hasar 1 artar.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
