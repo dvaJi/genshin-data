@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "Baizhu, Mortalità trascesa",
+  "desc": "Se qualcuno ha molti malanni, troverà mai una cura?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalizzatore",
+    "faction": ["Liyue"],
+    "source": "Ricompensa ottenuta sfidando Baizhu a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Agopuntura classica",
+      "desc": "Infligge 1 <span style=\"color:#7EC236FF\">DAN da Dendro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Diagnosi universale",
+      "desc": "Infligge 1 <span style=\"color:#7EC236FF\">DAN da Dendro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Armonispirito</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Rinascita olistica",
+      "desc": "Crea 1 <span style=\"color:#FFFFFFFF\">Purezza pulsante</span> e <span style=\"color:#FFFFFFFF\">Scudo assoluto</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

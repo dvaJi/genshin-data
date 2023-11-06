@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Бай Чжу",
+  "title": "«Преодоление бренности» Бай Чжу",
+  "desc": "Живя со многими недугами, где найти исцеление?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Катализатор",
+    "faction": ["Ли Юэ"],
+    "source": "Награда за приглашение Бай Чжу в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Классика иглоукалывания",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Универсальная диагностика",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Летучий дух</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Целостное восстановление",
+      "desc": "Создаются <span style=\"color:#FFFFFFFF\">Пульсирующая ясность</span> и <span style=\"color:#FFFFFFFF\">Бесшовный щит</span> (по 1).",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "Jenseits der Sterblichkeit – Baizhu",
+  "desc": "Geboren mit tausend Beschwerden, doch wo ist die Heilung zu finden?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Katalysator",
+    "faction": ["Liyue"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Baizhu in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Klassische Akupunktur",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Universal-Diagnose",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Unruhspiral-Geist</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Ganzheitliche Heilung",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Pulsierende Klarheit</span> und 1 <span style=\"color:#FFFFFFFF\">Makelloser Schild</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

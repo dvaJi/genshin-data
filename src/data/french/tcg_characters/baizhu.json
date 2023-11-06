@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "Baizhu · Transcendant la mortalité",
+  "desc": "Tant de maladies, où trouver un remède ?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalyseur",
+    "faction": ["Liyue"],
+    "source": "Récompense pour avoir invité Baizhu à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Acupuncture dorée",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Diagnostic universel",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span> et invoque un <span style=\"color:#FFFFFFFF\">esprit de gaze</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Reviviscence holistique",
+      "desc": "Crée une <span style=\"color:#FFFFFFFF\">ordonnance impulsive</span> et un <span style=\"color:#FFFFFFFF\">bouclier aseptique</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

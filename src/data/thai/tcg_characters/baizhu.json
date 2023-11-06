@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "หลอมจิตรวมชีพ - Baizhu",
+  "desc": "สารพันโรครุมเร้า จะหาหมอที่ไหนดี",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไม้",
+    "weapon": "สื่อเวท",
+    "faction": ["Liyue"],
+    "source": "ได้รับหลังจากเชิญ Baizhu ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "The Classics of Acupuncture",
+      "desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Universal Diagnosis",
+      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Gossamer Sprite</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Holistic Revivification",
+      "desc": "สร้าง <span style=\"color:#FFFFFFFF\">Pulsing Clarity</span> และ <span style=\"color:#FFFFFFFF\">Seamless Shield</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "ธาตุไม้",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Lotoslicht auf der Tanzbühne – Nilou",
+  "desc": "Leicht sind die Tanzschritte des Lotos, das aus einem Traum des Rausches hervortritt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Einhänder",
+    "faction": ["Sumeru"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Nilou in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Samser-Tanz",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Haftkarsvar-Tanz",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Überfluss im goldenen Kelch</span>, wenn es in deiner Truppe <span style=\"color:#80C0FFFF\">Hydro-Figuren</span> und <span style=\"color:#7EC236FF\">Dendro-Figuren</span>, aber keine Figuren anderer Elemente gibt.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Abzendegi-Tanz – Ferner Traum am Bach",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Fließende Äonen</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

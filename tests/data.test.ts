@@ -27,27 +27,25 @@ test('All data folders are equal', async () => {
 test('All files are equal', async () => {
   const locales = await fs.readdir('src/data');
 
-  const count = {};
+  let allFiles = {};
   for await (const locale of locales) {
-    const files = await fs.readdir(`src/data/${locale}`);
-    for await (const file of files) {
-      if (file.endsWith('.json')) {
-        count[locale] = count[locale] ? count[locale] + 1 : 1;
-        continue;
+    const folders = await fs.readdir(`src/data/${locale}`);
+
+    for (const folder of folders) {
+      if (folder.endsWith('.json')) continue;
+      const files = await fs.readdir(`src/data/${locale}/${folder}`);
+      if (!allFiles[locale]) {
+        allFiles[locale] = [];
       }
 
-      const data = await fs.readdir(`src/data/${locale}/${file}`, 'utf-8');
-
-      data.forEach((d) => {
-        count[locale] = count[locale] ? count[locale] + 1 : 1;
-      });
+      allFiles[locale].push(...files);
     }
   }
 
   // Compare all files result recursively
-  console.log(count)
-  Object.values(count).forEach((file) => {
-    Object.values(count).forEach((file2) => {
+  console.log(allFiles);
+  Object.values(allFiles).forEach((file) => {
+    Object.values(allFiles).forEach((file2) => {
       expect(file).toEqual(file2);
     });
   });

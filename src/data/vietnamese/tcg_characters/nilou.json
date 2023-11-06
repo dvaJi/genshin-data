@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Vũ Điệu Ánh Sen - Nilou",
+  "desc": "Bước nhảy nhẹ nhàng, như giấc mộng say.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Kiếm Đơn",
+    "faction": ["Sumeru"],
+    "source": "Nhận được sau khi mời Nilou giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Vũ Điệu Samser",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Vũ Điệu Haftkarsvar",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, nếu trong đội có <span style=\"color:#80C0FFFF\">nhân vật Nguyên Tố Thủy</span> và nhân vật <span style=\"color:#7EC236FF\">Nguyên Tố Thảo</span>, đồng thời không bao gồm nhân vật nguyên tố khác, sẽ sinh ra <span style=\"color:#FFFFFFFF\">Phước Lành Ly Vàng</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Vũ Điệu Abzendegi - Viễn Mộng Linh Tuyền",
+      "desc": "Gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, nhân vật mục tiêu áp dụng <span style=\"color:#FFFFFFFF\">Dòng Nước Vĩnh Hằng</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

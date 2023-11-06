@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Nilou - La Bailarina de los Lotos",
+  "desc": "Una danza de lotos que emerge de un sueño embriagador.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Nilou en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Danza de la media luna",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Danza de los siete reinos",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>. Si en el equipo hay personajes <span style=\"color:#80C0FFFF\">Hydro</span> y <span style=\"color:#7EC236FF\">Dendro</span>, pero no de otros tipos elementales, se genera el efecto de <span style=\"color:#FFFFFFFF\">cáliz de la abundancia</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Danza del loto: Manantial onírico",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">eón perpetuo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

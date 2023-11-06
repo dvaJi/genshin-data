@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "Nilou, Danza della luce di loto",
+  "desc": "Passi fluttuanti come petali di loto, che emergono da un sogno inebriante.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Spada",
+    "faction": ["Sumeru"],
+    "source": "Ricompensa ottenuta sfidando Nilou a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Danza di Samser",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Danza di Haftkarsvar",
+      "desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>. Se il gruppo include esclusivamente <span style=\"color:#80C0FFFF\">personaggi di Hydro</span> e <span style=\"color:#7EC236FF\">Dendro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Dorato calice dell'abbondanza</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Danza di Abzendegi: Sogni distanti, sorgenti che ascoltano",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, il personaggio bersaglio subisce <span style=\"color:#FFFFFFFF\">Eone persistente</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

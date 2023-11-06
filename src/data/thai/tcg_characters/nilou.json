@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "ระบำนิโลตบลพรายแสง - Nilou",
+  "desc": "เริงระบำดังดอกบัว ทิ้งความฝันมัวชวนเมามาย",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "ดาบ",
+    "faction": ["Sumeru"],
+    "source": "ได้รับหลังจากเชิญ Nilou ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Dance of Samser",
+      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Dance of Haftkarsvar",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย หากในทีมมี<span style=\"color:#80C0FFFF\">ตัวละครธาตุน้ำ</span>กับ<span style=\"color:#7EC236FF\">ตัวละครธาตุไม้</span> และไม่มีตัวละครธาตุอื่น ๆ จะทำให้เกิด <span style=\"color:#FFFFFFFF\">Golden Chalice's Bounty</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Lingering Aeon</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

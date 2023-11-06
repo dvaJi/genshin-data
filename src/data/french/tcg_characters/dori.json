@@ -1,0 +1,72 @@
+{
+  "_id": 1410,
+  "id": "dori",
+  "name": "Dori",
+  "title": "Dori · Trésor du jardin onirique",
+  "desc": "Plus on a de moras, plus on rit !",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Épée à deux mains",
+    "faction": ["Sumeru"],
+    "source": "Récompense pour avoir invité Dori à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "marvelous_sworddance_modified",
+      "name": "Valse des lames (modifiée)",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiritwarding_lamp_troubleshooter_cannon",
+      "name": "Lampe de protection : Canon pacificateur",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque un <span style=\"color:#FFFFFFFF\">obus de S.A.V.</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "alcazarzarays_exactitude",
+      "name": "Méticulosité d'Alcazarzaray",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque un <span style=\"color:#FFFFFFFF\">djinn</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

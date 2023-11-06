@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Нилу",
+  "title": "«Танец лотоса» Нилу",
+  "desc": "Невесомые шаги, словно лотоса лепестки, являются из глубин сна.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Одноручное",
+    "faction": ["Сумеру"],
+    "source": "Награда за приглашение Нилу в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Танец шамшира",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Танец Хафткаршвар",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 3 ед. Даёт 1 <span style=\"color:#FFFFFFFF\">Изобилие золотого кубка</span>, если в отряде есть только <span style=\"color:#80C0FFFF\">персонажи Гидро</span> и <span style=\"color:#7EC236FF\">персонажи Дендро</span> (персонажей других элементов в отряде быть не должно).",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Танец Абзендеги: Далёкие мечты, внемлющий ручей",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 2 ед. Цель получает <span style=\"color:#FFFFFFFF\">Течение вечности</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

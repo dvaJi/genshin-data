@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "\"Ölümsüzlüğün Ötesi\" Baizhu",
+  "desc": "Birçok hastalık var ama devası nerede?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Katalizör",
+    "faction": ["Liyue"],
+    "source": "Baizhu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Altın Akupunktur İğneleri",
+      "desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Kapsamlı Teşhis",
+      "desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Yılan Ruhu</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Bütüncül İyileştirme",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Güçlü Nabız</span> ve <span style=\"color:#FFFFFFFF\">Kusursuz Kalkan</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

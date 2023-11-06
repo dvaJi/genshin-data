@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "Baizhu",
+  "title": "Baizhu - El Transgresor de lo Mortal",
+  "desc": "Cuando uno nace con muchas aflicciones, ¿dónde puede encontrar una cura?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "faction": ["Liyue"],
+    "source": "Se obtiene tras retar y ganar a Baizhu en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "Acupuntura clásica",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "Diagnóstico universal",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y crea un <span style=\"color:#FFFFFFFF\">espíritu sérico</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "Sanación holística",
+      "desc": "Genera el efecto <span style=\"color:#FFFFFFFF\">perspicuidad palpitante</span> y crea un <span style=\"color:#FFFFFFFF\">escudo incólume</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

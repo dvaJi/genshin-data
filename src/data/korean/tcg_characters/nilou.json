@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "닐루",
+  "title": "무대에 내려앉은 연꽃·닐루",
+  "desc": "몽롱한 꿈 위에서 피어나는 매혹적인 수련의 춤",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "한손검",
+    "faction": ["수메르"],
+    "source": "캣테일 술집에서 닐루 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "현월의 춤",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "칠역의 춤",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 준다. 만약 파티가 <span style=\"color:#80C0FFFF\">물 원소 캐릭터</span>와 <span style=\"color:#7EC236FF\">풀 원소 캐릭터</span>로만 구성되어 있을 경우 <span style=\"color:#FFFFFFFF\">황금잔의 선물</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "수련의 춤·먼 꿈속 샘물 소리",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 대상 캐릭터에게 <span style=\"color:#FFFFFFFF\">영원한 침식</span>이 부착된다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

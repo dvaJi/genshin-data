@@ -1,0 +1,72 @@
+{
+  "_id": 1208,
+  "id": "nilou",
+  "name": "Nilou",
+  "title": "\"Dança da Luz de Lótus\" Nilou",
+  "desc": "Passos flutuantes como pétalas de lótus, emergindo de um sonho intoxicante.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada",
+    "faction": ["Sumeru"],
+    "source": "Recompensa por desafiar Nilou para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "dance_of_samser",
+      "name": "Dança da Meia-Lua",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dance_of_haftkarsvar",
+      "name": "Dança dos Sete Reinos",
+      "desc": "Causa 3 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, se a equipe incluir <span style=\"color:#80C0FFFF\">Personagens Hydro</span> e <span style=\"color:#7EC236FF\">Personagens Dendro</span>, e personagens de nenhum outro elemento, cria 1 <span style=\"color:#FFFFFFFF\">Recompensa do Cálice Dourado</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dance_of_abzendegi_distant_dreams_listening_spring",
+      "name": "Dança da Lótus: Nascente Longínqua Onírica",
+      "desc": "Causa 2 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, o personagem alvo recebe <span style=\"color:#FFFFFFFF\">Inundação Eterna</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

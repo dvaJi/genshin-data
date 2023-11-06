@@ -1,0 +1,72 @@
+{
+  "_id": 1705,
+  "id": "baizhu",
+  "name": "白朮",
+  "title": "遵生合和·白朮",
+  "desc": "生老三千疾，何處可問醫。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "source": "在貓尾酒館中邀請白朮進行對局，在友好對局難度中取得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "the_classics_of_acupuncture",
+      "name": "金匱針解",
+      "desc": "造成1點<span style=\"color:#7EC236FF\">草元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universal_diagnosis",
+      "name": "太素診要",
+      "desc": "造成1點<span style=\"color:#7EC236FF\">草元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">遊絲徵靈</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "holistic_revivification",
+      "name": "癒氣全形論",
+      "desc": "生成<span style=\"color:#FFFFFFFF\">脈攝宣明</span>和<span style=\"color:#FFFFFFFF\">無郤氣護盾</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
