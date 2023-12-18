@@ -1,3 +1,9 @@
+## [0.37.1](https://github.com/dvaJi/genshin-data/compare/0.37.0...0.37.1) (2023-12-18)
+
+### Fixes
+
+- include domains in generate script [07fb24e](https://github.com/dvaJi/genshin-data/commit/07fb24ec504dca8d0e35b3cadf825e197e199826) [@dvaJi](https://github.com/dvaJi)
+
 ## [0.37.0](https://github.com/dvaJi/genshin-data/compare/0.36.0...0.37.0) (2023-12-18)
 
 ### Features
