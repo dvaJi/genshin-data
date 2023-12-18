@@ -76,7 +76,7 @@ export const languages = [
   'vietnamese',
 ] as const;
 
-export type Languages = typeof languages[number];
+export type Languages = (typeof languages)[number];
 
 type Folders =
   | 'achievements'
@@ -289,7 +289,9 @@ export default class GenshinData {
     return await this.findByFolder(lang, 'tcg_action', query);
   }
 
-  async tcgMonsters(query?: QueryOpts<TCGMonsterCard>): Promise<TCGMonsterCard[]> {
+  async tcgMonsters(
+    query?: QueryOpts<TCGMonsterCard>
+  ): Promise<TCGMonsterCard[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'tcg_monsters', query);
   }
@@ -310,7 +312,8 @@ export default class GenshinData {
     folder: Folders,
     query?: QueryOpts<T>
   ): Promise<T[]> {
-    let results = (await import(`./min/data_${lang}.min.json`)).default[folder];
+    let results = (await import(`./min/data_${lang}_${folder}.min.json`))
+      .default;
 
     if (query) {
       results = this.selectProps(results, query);
