@@ -1,3 +1,9 @@
+## [0.37.0](https://github.com/dvaJi/genshin-data/compare/0.36.0...0.37.0) (2023-12-18)
+
+### Features
+
+- generate file per language and resource [d8d8534](https://github.com/dvaJi/genshin-data/commit/d8d853461c19490eea6f99d94b689a6e9bd6c788) [@dvaJi](https://github.com/dvaJi)
+
 ## [0.36.0](https://github.com/dvaJi/genshin-data/compare/0.35.0...0.36.0) (2023-11-06)
 
 ### Features
