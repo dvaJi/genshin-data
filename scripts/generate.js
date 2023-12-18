@@ -21,18 +21,17 @@ function combineData() {
       if (folder.endsWith('.json')) {
         const file = fs.readFileSync(path.join(GENERATED_PATH, lang, folder));
         data.push(JSON.parse(file.toString()));
-        continue;
+      } else {
+        fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
+          (filename) => {
+            if (!filename.endsWith('.json')) return;
+            const file = fs.readFileSync(
+              path.join(GENERATED_PATH, lang, folder, filename)
+            );
+            data.push(JSON.parse(file.toString()));
+          }
+        );
       }
-
-      fs.readdirSync(`${GENERATED_PATH}/${lang}/${folder}`).forEach(
-        (filename) => {
-          if (!filename.endsWith('.json')) return;
-          const file = fs.readFileSync(
-            path.join(GENERATED_PATH, lang, folder, filename)
-          );
-          data.push(JSON.parse(file.toString()));
-        }
-      );
 
       const filename = `data_${lang}_${folder.replace('.json', '')}.min.json`;
       const newFilePath = path.join(MIN_PATH, filename);
