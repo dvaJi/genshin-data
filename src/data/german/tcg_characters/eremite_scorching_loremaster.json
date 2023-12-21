@@ -1,0 +1,79 @@
+{
+  "_id": 2303,
+  "id": "eremite_scorching_loremaster",
+  "name": "Goldbrigade – Erzählerin der Sengenden Sande",
+  "title": "Gedichte und Geheimgeschichten – Erzählerin der Sengenden Sande",
+  "desc": "In denjenigen, die sich noch an viele Geschichten erinnern können, fließt das Blut der Wüste, das sie nie verraten werden.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Goldbrigade"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit „Goldbrigade – Erzählerin der Sengenden Sande“ in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Sengender Glanz",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Ansturm der Flammenkristalle",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Erwachen des Geistes – Feuerskorpion",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Geist – Feuerskorpion</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch die Figur:</span> Erhält 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span>, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

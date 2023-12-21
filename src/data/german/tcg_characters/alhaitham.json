@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "Alhaitham",
+  "title": "Vertreter mahnender Worte – Alhaitham",
+  "desc": "Wissen, Denken und die Kunst des Arbeitens.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Einhänder",
+    "faction": ["Sumeru"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Alhaitham in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "Reverse Investigativmethode",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "Universalität – Elaboration der Form",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Lichtspiegel</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "Sonderfeld – Ketten der Erscheinung",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>. Verbraucht <span style=\"color:#FFFFFFFF\">Lichtspiegel</span> und erhöht diesen SCH um die <span style=\"color:#FFFFFFFF\">Dauer (Runden)</span> der verbrauchten <span style=\"color:#FFFFFFFF\">Lichtspiegel</span>.<br/>Beträgt die <span style=\"color:#FFFFFFFF\">Dauer (Runden)</span> der verbrauchten <span style=\"color:#FFFFFFFF\">Lichtspiegel</span> 0, 1 oder 2, wird der Figur jeweils <span style=\"color:#FFFFFFFF\">Lichtspiegel</span> mit <span style=\"color:#FFFFFFFF\">Dauer (Runden)</span> von 3, 2 oder 1 verliehen.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

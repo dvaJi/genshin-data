@@ -1,0 +1,79 @@
+{
+  "_id": 3408,
+  "id": "assault_specialist_mek_ousia",
+  "name": "Assault Specialist Mek - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_melee",
+      "name": "Rapid Melee",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shield_riposte",
+      "name": "Shield Riposte",
+      "desc": "Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Shield Block</span> dan <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Shield Slice</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shield_sweep",
+      "name": "Shield Sweep",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFACFFFF\">Electro DMG</span>, mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Piercing DMG</span></span> ke seluruh Karakter standby lawan.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Arkhe: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah menerima DMG dari Karakter yang memiliki \"Arkhe: Pneuma\": </span>Karakter ini berubah menjadi <span style=\"color:#FFFFFFFF\">nonaktif</span> dan <span style=\"color:#FFFFFFFF\">tidak dapat menggunakan skill</span> hingga Ronde berakhir.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

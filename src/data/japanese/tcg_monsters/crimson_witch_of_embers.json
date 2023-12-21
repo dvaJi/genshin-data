@@ -1,0 +1,72 @@
+{
+  "_id": 6304,
+  "id": "crimson_witch_of_embers",
+  "name": "焚尽の灼炎魔女",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "crimson_lotus_moth",
+      "name": "紅蓮の蛾",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "decimating_lash",
+      "name": "燼滅の鞭",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与え、目標キャラに<span style=\"color:#FFFFFFFF\">灼熱</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_blaze",
+      "name": "旋回烈焔",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を6与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

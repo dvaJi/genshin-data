@@ -1,0 +1,79 @@
+{
+  "_id": 2402,
+  "id": "thunder_manifestation",
+  "name": "Manifestação Trovejante",
+  "title": "Ódio Remanescente - Manifestação Trovejante",
+  "desc": "Desde que as rivalidades não desapareçam, o trovão persistirá.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com Manifestação Trovejante"
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Corte Trovejante das Asas",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Devastação do Trovão",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span> aos personagens oponentes afetados por <span style=\"color:#FFFFFFFF\">Conhecimento do Trovão</span>. (Caso não existam personagens oponentes elegíveis, causa Dano ao Personagem em Combate)",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Correntes do Trovão",
+      "desc": "Causa 2 <span style=\"color:#FFACFFFF\">Dano Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Correntes do Trovão</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Sonda Relâmpago",
+      "desc": "(Passivo) Quando a batalha começa, cria uma <span style=\"color:#FFFFFFFF\">Sonda do Golpe do Relâmpago</span> no campo do oponente.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

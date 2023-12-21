@@ -1,0 +1,86 @@
+{
+  "_id": 1310,
+  "id": "lyney",
+  "name": "リネ",
+  "title": "幻光で惑わすトリック·リネ",
+  "desc": "鏡中に咲くものを抱き、花捧ぐ人を求めゆく。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "弓",
+    "faction": ["フォンテーヌ", "ファデュイ"],
+    "source": "キャッツテールでリネを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "card_force_translocation",
+      "name": "フォース·カード",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prop_arrow",
+      "name": "プロップアロー",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与える。<span style=\"color:#FFFFFFFF\">ファニーキャット·ハット</span>を召喚し、<span style=\"color:#FFFFFFFF\">プロップ残数</span>を1層獲得する。<br/>このキャラのHPが6以上の場合、自身に<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bewildering_lights",
+      "name": "ビウィルダー·ライト",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wondrous_trick_miracle_parade",
+      "name": "大魔術·ミラクルパレード",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">ファニーキャット·ハット</span>を召喚し、<span style=\"color:#FFFFFFFF\">プロップ残数</span>を1層蓄積する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

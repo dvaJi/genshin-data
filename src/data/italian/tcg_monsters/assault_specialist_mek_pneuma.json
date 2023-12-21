@@ -1,0 +1,79 @@
+{
+  "_id": 3307,
+  "id": "assault_specialist_mek_pneuma",
+  "name": "Meka assaltatore specializzato - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "upclose_pummelling",
+      "name": "Pestaggio ravvicinato",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multismash",
+      "name": "Abbattimento multiplo",
+      "desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span> ed esegue <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Manganello a ricerca</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprinting_strike",
+      "name": "Assalto caricato",
+      "desc": "Infligge 5 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Archè: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo aver subito DAN da personaggi con Archè: Ousia</span>, questo personaggio va in stato di <span style=\"color:#FFFFFFFF\">Disattivazione</span> e <span style=\"color:#FFFFFFFF\">non potrà usare abilità</span> fino alla fine del turno.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

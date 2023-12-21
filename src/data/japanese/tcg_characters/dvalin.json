@@ -1,0 +1,86 @@
+{
+  "_id": 2502,
+  "id": "dvalin",
+  "name": "トワリン",
+  "title": "東風の龍·トワリン",
+  "desc": "「もし、君がボクのように、君の青い空を飛んでる孤独な、美しい姿を見ることがあれば…」\\n「君もきっと分かってくるだろう。このような大空と大地は、戦う価値があるということを。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、トワリンに挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "lacerating_slash",
+      "name": "裂爪の横撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tempestuous_barrage",
+      "name": "暴風の轟撃",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、目標キャラに<span style=\"color:#FFFFFFFF\">倒壊</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dvalins_cleansing",
+      "name": "風龍の浄流",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、その後<span style=\"color:#FFFFFFFF\">スキル準備</span>に入る：<span style=\"color:#FFFFFFFF\">綿々たる浄流</span>と<span style=\"color:#FFFFFFFF\">終幕の浄流</span>。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "caelestinum_finale_termini",
+      "name": "終焉のフィナーレ",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を5与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\">倒壊</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

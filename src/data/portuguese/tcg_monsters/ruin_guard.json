@@ -1,0 +1,73 @@
+{
+  "_id": 3004,
+  "id": "ruin_guard",
+  "name": "Guarda das Ruínas",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "stern_blow",
+      "name": "Golpe Firme",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spiral_closein",
+      "name": "Aproximação Espiral",
+      "desc": "Causa 1 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, então realiza separadamente <span style=\"color:#FFFFFFFF\">Preparar Habilidade</span>: <span style=\"color:#FFFFFFFF\">Giro Rápido</span> e <span style=\"color:#FFFFFFFF\">Giro Ultraveloz</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suppressive_volley",
+      "name": "Saraivada de Supressão",
+      "desc": "Causa 4 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, gera <span style=\"color:#FFFFFFFF\">Míssil Guiado</span> no campo do oponente.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "Armadura Padrão",
+      "desc": "(Passivo) O <span style=\"color:#FFFFFFFF\">Dano Físico</span> que esse personagem recebe é diminuído pela metade. (Para cima)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

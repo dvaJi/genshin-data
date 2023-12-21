@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "Laila",
+  "title": "Laila - La Estrella de la Noche",
+  "desc": "La noche cae, las estrellas centellean y la luna deambula en los sueños.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Laila en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "Senda radiante",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "Noche solemne",
+      "desc": "Crea un <span style=\"color:#FFFFFFFF\">escudo Cortina del Letargo</span> y otorga una <span style=\"color:#FFFFFFFF\">estrella fugaz</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Sueño acunaestrellas",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea una <span style=\"color:#FFFFFFFF\">celestesfera onírica</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

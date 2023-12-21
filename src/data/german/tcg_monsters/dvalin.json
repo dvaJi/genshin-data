@@ -1,0 +1,86 @@
+{
+  "_id": 4506,
+  "id": "dvalin",
+  "name": "Dvalin",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "lacerating_slash",
+      "name": "Querkratzer",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tempestuous_barrage",
+      "name": "Sturmbombardierung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dvalins_cleansing",
+      "name": "Dvalin-Sintflut",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Endlose Strömung</span> und <span style=\"color:#FFFFFFFF\">Allerletzte Strömung</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "caelestinum_finale_termini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_id": 4405,
+  "id": "thunder_manifestation",
+  "name": "雷音權現",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 45,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "轟霆翼斬",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "雷牆傾軋",
+      "desc": "對附屬有<span style=\"color:#FFFFFFFF\">雷鳴探知</span>的敵方角色造成3點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。（如果敵方不存在符合條件角色，則改為對出戰角色造成傷害）",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "轟雷禁錮",
+      "desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，召喚<span style=\"color:#FFFFFFFF\">轟雷禁錮</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "雷霆探知",
+      "desc": "【被動】戰鬥開始時，在敵方場上生成<span style=\"color:#FFFFFFFF\">雷霆探針</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "元素沉積·雷",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·雷</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

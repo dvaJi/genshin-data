@@ -1,0 +1,79 @@
+{
+  "_id": 4105,
+  "id": "la_signora",
+  "name": "La Signora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Other Weapons",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Frostblade Hailstorm",
+      "desc": "Deals 1 <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Biting Shards",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>. The target character receives <span style=\"color:#FFFFFFFF\">Sheer Cold</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Carmine Chrysalis",
+      "desc": "Deals 4 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, heals this character for 2 HP. Removes <span style=\"color:#FFFFFFFF\">Ice-Sealed Crimson Witch of Embers</span>. This character permanently switches to <span style=\"color:#FFFFFFFF\">Crimson Witch of Embers</span> state.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Might of Delusion",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Ice-Sealed Crimson Witch of Embers</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

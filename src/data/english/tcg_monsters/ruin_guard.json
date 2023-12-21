@@ -1,0 +1,73 @@
+{
+  "_id": 3004,
+  "id": "ruin_guard",
+  "name": "Ruin Guard",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "No Elemental Type",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "stern_blow",
+      "name": "Stern Blow",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spiral_closein",
+      "name": "Spiral Close-In",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span> and then separately performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">High-Frequency Whirling Assault</span> and <span style=\"color:#FFFFFFFF\">Hyperspeed Whirling Assault</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suppressive_volley",
+      "name": "Suppressive Volley",
+      "desc": "Deals 4 <span style=\"color:#FFFFFFFF\">Physical DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Seeking Missile</span> in the opponent's play area.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "Standard Armor",
+      "desc": "(Passive) The <span style=\"color:#FFFFFFFF\">Physical DMG</span> this character receives is halved (Rounded up)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_id": 1310,
+  "id": "lyney",
+  "name": "林尼",
+  "title": "惑光幻戏·林尼",
+  "desc": "镜中捧花，赠予何人。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "弓",
+    "faction": ["枫丹", "愚人众"],
+    "source": "在猫尾酒馆中邀请林尼进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "card_force_translocation",
+      "name": "迫牌易位式",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prop_arrow",
+      "name": "隐具魔术箭",
+      "desc": "造成2点<span style=\"color:#FF9999FF\">火元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">怪笑猫猫帽</span>，累积1层<span style=\"color:#FFFFFFFF\">隐具余数</span>。<br/>如果本角色生命值至少为6，则对自身造成1点<span style=\"color:#FFFFFFFF\">穿透伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bewildering_lights",
+      "name": "眩惑光戏法",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wondrous_trick_miracle_parade",
+      "name": "大魔术·灵迹巡游",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">怪笑猫猫帽</span>，累积1层<span style=\"color:#FFFFFFFF\">隐具余数</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

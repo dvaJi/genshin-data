@@ -1,0 +1,72 @@
+{
+  "_id": 6304,
+  "id": "crimson_witch_of_embers",
+  "name": "焚盡的熾炎魔女",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "crimson_lotus_moth",
+      "name": "紅蓮之蛾",
+      "desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "decimating_lash",
+      "name": "燼滅之鞭",
+      "desc": "造成2點<span style=\"color:#FF9999FF\">火元素傷害</span>，並使目標角色附屬<span style=\"color:#FFFFFFFF\">熾熱</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_blaze",
+      "name": "燃焰旋織",
+      "desc": "造成6點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

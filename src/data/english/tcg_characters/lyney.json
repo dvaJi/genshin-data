@@ -1,0 +1,86 @@
+{
+  "_id": 1310,
+  "id": "lyney",
+  "name": "Lyney",
+  "title": "\"Spectacle of Phantasmagoria\" Lyney",
+  "desc": "Those flowers in the mirror... who are they for?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Bow",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Reward for inviting Lyney to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+  },
+  "skills": [
+    {
+      "id": "card_force_translocation",
+      "name": "Card Force Translocation",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prop_arrow",
+      "name": "Prop Arrow",
+      "desc": "Deals 2 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons a <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.<br/>If this character has at least 6 HP, then they deal 1 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to themself.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bewildering_lights",
+      "name": "Bewildering Lights",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wondrous_trick_miracle_parade",
+      "name": "Wondrous Trick: Miracle Parade",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

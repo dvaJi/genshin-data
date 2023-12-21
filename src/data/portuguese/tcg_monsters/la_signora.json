@@ -1,0 +1,79 @@
+{
+  "_id": 4105,
+  "id": "la_signora",
+  "name": "Signora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Outras Armas",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Tempestade de Granizo da Lâmina Congelante",
+      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Fragmentos Congelantes",
+      "desc": "Causa 2 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>, o personagem alvo é afetado por <span style=\"color:#FFFFFFFF\">Frio Extremo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Carmine Chrysalis",
+      "desc": "Causa 4 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>, cura este personagem em 2 de Vida. Remove <span style=\"color:#FFFFFFFF\">Bruxa das Chamas Carmesins Selada no Gelo</span>. Este personagem muda permanentemente para o estado <span style=\"color:#FFFFFFFF\">Bruxa das Chamas Carmesim</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Poder da Ilusão",
+      "desc": "(Passiva) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Bruxa das Chamas Carmesins Selada no Gelo</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

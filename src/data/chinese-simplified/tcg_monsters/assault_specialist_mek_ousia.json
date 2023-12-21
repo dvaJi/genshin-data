@@ -1,0 +1,79 @@
+{
+  "_id": 3408,
+  "id": "assault_specialist_mek_ousia",
+  "name": "攻坚特化型机关·荒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_melee",
+      "name": "快速近战",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shield_riposte",
+      "name": "盾牌反击",
+      "desc": "本角色附属<span style=\"color:#FFFFFFFF\">盾牌格挡</span>并<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">盾刃切割</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shield_sweep",
+      "name": "盾弧横挥",
+      "desc": "造成2点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，对所有敌方后台角色造成2点<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">穿透伤害</span></span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "能源特征：荒性",
+      "desc": "<span style=\"color:#FFFFFFFF\">受到具有「始基力：芒性」的角色造成的伤害后：</span>此角色转换为<span style=\"color:#FFFFFFFF\">「失能形态」</span>，并且直到本回合结束前<span style=\"color:#FFFFFFFF\">无法使用技能</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 1209,
+  "id": "yelan",
+  "name": "Yelan",
+  "title": "\"Valley Orchid\" Yelan",
+  "desc": "The world is vast and infinite, the solitary one comes and goes as she pleases.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": ["Liyue"],
+    "source": "Reward for inviting Yelan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "stealthy_bowshot",
+      "name": "Stealthy Bowshot",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_lifeline",
+      "name": "Lingering Lifeline",
+      "desc": "Deals 3 <span style=\"color:#80C0FFFF\">Hydro DMG</span>. This character gains 2 <span style=\"color:#FFFFFFFF\">Breakthrough</span> stacks.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "depthclarion_dice",
+      "name": "Depth-Clarion Dice",
+      "desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Exquisite Throw</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "name": "Breakthrough",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Breakthrough</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

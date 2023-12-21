@@ -1,0 +1,79 @@
+{
+  "_id": 3704,
+  "id": "suppression_specialist_mek_pneuma",
+  "name": "Meka soppressore specializzato - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "precision_shot",
+      "name": "Colpo di precisione",
+      "desc": "Infligge 1 <span style=\"color:#7EC236FF\">DAN da Dendro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wildgrass_ball",
+      "name": "Proiettile silvestre",
+      "desc": "Infligge 3 <span style=\"color:#7EC236FF\">DAN da Dendro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "launch_grenade",
+      "name": "Granata da lancio",
+      "desc": "Infligge 2 <span style=\"color:#7EC236FF\">DAN da Dendro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Esplosivo a detonazione ritardata</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Archè: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo aver subito DAN da personaggi con Archè: Ousia</span>, questo personaggio va in stato di <span style=\"color:#FFFFFFFF\">Disattivazione</span> e <span style=\"color:#FFFFFFFF\">non potrà usare abilità</span> fino alla fine del turno.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

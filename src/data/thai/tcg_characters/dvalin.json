@@ -1,0 +1,86 @@
+{
+  "_id": 2502,
+  "id": "dvalin",
+  "name": "Dvalin",
+  "title": "มังกรแห่งตะวันออก - Dvalin",
+  "desc": "\"ถ้าเจ้าได้มาเป็นข้า และได้เห็นรูปร่างอันสง่างามของเจ้า ที่โผทะยานบนท้องฟ้าสีคราม\"\\n\"แล้วเจ้าจะเข้าใจว่าท้องฟ้าและโลกเช่นนี้ ควรค่าแก่การต่อสู้เพื่อให้มันได้มา\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": "ได้รับหลังจากเอาชนะ Dvalin ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "lacerating_slash",
+      "name": "Lacerating Slash",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tempestuous_barrage",
+      "name": "Tempestuous Barrage",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Total Collapse</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dvalins_cleansing",
+      "name": "Dvalin's Cleansing",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย จากนั้นจะดำเนินการ<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span> <span style=\"color:#FFFFFFFF\">Perpetual Cleansing</span> และ <span style=\"color:#FFFFFFFF\">Ultimate Cleansing</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "caelestinum_finale_termini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 5 หน่วย และตัวละครนอกสนามของฝ่ายศัตรูทั้งหมด จะได้รับ <span style=\"color:#FFFFFFFF\">Total Collapse</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

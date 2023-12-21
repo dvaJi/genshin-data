@@ -1,0 +1,86 @@
+{
+  "_id": 1310,
+  "id": "lyney",
+  "name": "리니",
+  "title": "현란한 빛의 마술쇼·리니",
+  "desc": "거울에 비친 누군가를 위한 꽃",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "활",
+    "faction": ["폰타인", "우인단"],
+    "source": "캣테일 술집에서 리니 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "card_force_translocation",
+      "name": "포스 트릭 샷",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "prop_arrow",
+      "name": "트릭 화살",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">웃는 고양이 모자</span>를 소환하며 <span style=\"color:#FFFFFFFF\">잔여 트릭</span>을 1스택 누적한다.<br/>만약 본 캐릭터의 HP가 6pt 이상일 경우 자신에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bewildering_lights",
+      "name": "눈부신 트릭",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wondrous_trick_miracle_parade",
+      "name": "대마술·기적의 행진",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">웃는 고양이 모자</span>를 소환하며 <span style=\"color:#FFFFFFFF\">잔여 트릭</span>을 1스택 누적한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

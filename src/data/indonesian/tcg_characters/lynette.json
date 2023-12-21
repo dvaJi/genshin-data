@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "Lynette",
+  "title": "\"Elegance in the Shadows\" Lynette",
+  "desc": "Sekilas pantulan rembulan di cakrawala.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Sword",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Hadiah yang didapatkan setelah mengundang Lynette ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "Rapid Ritesword",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "Enigmatic Feint",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span>. Penggunaan pertama kali pada setiap Ronde akan memulihkan 2 poin HP kepada diri sendiri jika Karakter memiliki 8 poin HP atau lebih sedikit, tetapi juga akan memberikan status <span style=\"color:#FFFFFFFF\">Overawing Assault</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "Magic Trick: Astonishing Shift",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

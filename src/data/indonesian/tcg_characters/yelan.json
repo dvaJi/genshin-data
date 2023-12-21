@@ -1,0 +1,79 @@
+{
+  "_id": 1209,
+  "id": "yelan",
+  "name": "Yelan",
+  "title": "\"Valley Orchid\" Yelan",
+  "desc": "Di dunia yang luas dan tak berujung ini, sang penyendiri datang dan pergi dengan sesuka hati.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": ["Liyue"],
+    "source": "Hadiah yang didapatkan setelah mengundang Yelan ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "stealthy_bowshot",
+      "name": "Stealthy Bowshot",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_lifeline",
+      "name": "Lingering Lifeline",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>. Karakter ini memperoleh 2 lapisan <span style=\"color:#FFFFFFFF\">Breakthrough</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "depthclarion_dice",
+      "name": "Depth-Clarion Dice",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span> dan menciptakan <span style=\"color:#FFFFFFFF\">Exquisite Throw</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "name": "Breakthrough",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Breakthrough</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

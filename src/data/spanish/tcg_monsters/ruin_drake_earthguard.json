@@ -1,0 +1,80 @@
+{
+  "_id": 3005,
+  "id": "ruin_drake_earthguard",
+  "name": "Dragón de las Ruinas - Vigía terrestre",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Sin tipo elemental",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "close_expulsion",
+      "name": "Expulsión de corto alcance",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sudden_charge",
+      "name": "Arremetida súbita",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_surge",
+      "name": "Flujo energético",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>. Si este personaje ya ha absorbido el poder de un elemento, lo libera e inflige daño +1 del elemento absorbido.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "Armadura estándar",
+      "desc": "Pasiva: el <span style=\"color:#FFFFFFFF\">Daño Físico</span> que recibe el personaje se reduce a la mitad (se redondea hacia arriba).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "elemental_absorption",
+      "name": "Absorción elemental",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">cuando el personaje aún no ha absorbido ningún elemento y recibe Daño Elemental</span>, absorbe la energía del elemento en cuestión.<br/>Cuando el personaje recibe daño de un elemento que ya ha absorbido, dicho daño se reduce a la mitad (se redondea hacia arriba).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

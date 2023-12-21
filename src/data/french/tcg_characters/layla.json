@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "Layla",
+  "title": "Layla · Merveilleuse étoile vespérale",
+  "desc": "À la tombée de la nuit, les étoiles tourbillonnent et la lune erre au milieu des rêves.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Épée à une main",
+    "faction": ["Sumeru"],
+    "source": "Récompense pour avoir invité Layla à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "Épée de radiance",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "Nuits de solennité",
+      "desc": "Crée un <span style=\"color:#FFFFFFFF\">rideau de sommeil</span> et une <span style=\"color:#FFFFFFFF\">étoile filante</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Rêve berçant les étoiles",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque une <span style=\"color:#FFFFFFFF\">sphère de rêve céleste</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

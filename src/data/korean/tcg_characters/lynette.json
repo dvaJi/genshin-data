@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "리넷",
+  "title": "그림자 속 우아한 걸음·리넷",
+  "desc": "물에 비친 달빛",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "한손검",
+    "faction": ["폰타인", "우인단"],
+    "source": "캣테일 술집에서 리넷 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "신속한 예식 검술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "그림자 은신술",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 3pt 준다. 이번 턴에 처음으로 이 스킬을 사용하고 자신의 HP가 8pt 이하이면 자신의 HP를 2pt 치유하고 <span style=\"color:#FFFFFFFF\">기습의 여파</span>를 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "마술·놀라운 변화",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">깜짝 고양이 모자</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

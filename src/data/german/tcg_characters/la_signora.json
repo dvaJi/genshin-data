@@ -1,0 +1,79 @@
+{
+  "_id": 2102,
+  "id": "la_signora",
+  "name": "„La Signora“",
+  "title": "Die Achte der Elf – „La Signora“",
+  "desc": "Die karmesinrote Morgendämmerung spiegelte sich in ihren Pupillen und schließlich entfaltete sie ihre flammenden Flügel und flog dem Licht entgegen.\\n„Aber dieses Licht ist nicht die Morgendämmerung, liebe Rosalyne. Das ist ein Flammenmeer, das alles verzehren wird.“\\nDoch das spielte keine Rolle, denn sie wusste in ihrem Herzen, dass die Flammen sie schon längst verschlungen hatten.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": ["Fatui"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit „La Signora“ in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Hagel der Frostklingen",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Beißende Eisstacheln",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Bittere Kälte</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Karminroter Eiskokon",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, stellt der Figur 2 LP wieder her. Ersetzt dabei den Modus <span style=\"color:#FFFFFFFF\">Hexe der gefrorenen Glut</span> dauerhaft durch <span style=\"color:#FFFFFFFF\">„Hexe der glimmenden Glut“</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Gewalt des Teuflischen Auges",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Hexe der gefrorenen Glut</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

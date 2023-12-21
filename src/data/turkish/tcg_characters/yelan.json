@@ -1,0 +1,79 @@
+{
+  "_id": 1209,
+  "id": "yelan",
+  "name": "Yelan",
+  "title": "\"Vadi Orkidesi\" Yelan",
+  "desc": "Dünya çok büyük ve sonsuzdur, yalnız olanlar istedikleri gibi gelip giderler.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Yay",
+    "faction": ["Liyue"],
+    "source": "Yelan'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "stealthy_bowshot",
+      "name": "Gizli Ok Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_lifeline",
+      "name": "Uzun Yaşam Hattı",
+      "desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karakter 2 <span style=\"color:#FFFFFFFF\">Del Geç</span> kademesi kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "depthclarion_dice",
+      "name": "Berrak Zar",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Seçkin Zar</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "name": "Del Geç",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Del Geç</span> kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

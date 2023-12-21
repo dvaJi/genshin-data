@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "艾尔海森",
+  "title": "诲韬诤言·艾尔海森",
+  "desc": "学识、思考及处事之道。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "单手剑",
+    "faction": ["须弥"],
+    "source": "在猫尾酒馆中邀请艾尔海森进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "溯因反绎法",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "共相·理式摹写",
+      "desc": "造成2点<span style=\"color:#7EC236FF\">草元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">琢光镜</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "殊境·显象缚结",
+      "desc": "造成4点<span style=\"color:#7EC236FF\">草元素伤害</span>；消耗<span style=\"color:#FFFFFFFF\">琢光镜</span>，此伤害提升所消耗<span style=\"color:#FFFFFFFF\">琢光镜</span>的<span style=\"color:#FFFFFFFF\">持续回合</span>值。<br/>如果消耗<span style=\"color:#FFFFFFFF\">琢光镜</span>的<span style=\"color:#FFFFFFFF\">持续回合</span>为0/1/2，则为角色附属<span style=\"color:#FFFFFFFF\">持续回合</span>为3/2/1的<span style=\"color:#FFFFFFFF\">琢光镜</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

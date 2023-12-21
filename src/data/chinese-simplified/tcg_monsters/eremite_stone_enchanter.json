@@ -1,0 +1,79 @@
+{
+  "_id": 3606,
+  "id": "eremite_stone_enchanter",
+  "name": "镀金旅团·魔岩役使",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["镀金旅团"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "triple_geosmash",
+      "name": "三重岩击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "splitrock_slam",
+      "name": "裂石轰顶",
+      "desc": "造成3点<span style=\"color:#FFE699FF\">岩元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_geo",
+      "name": "厄灵解放·岩",
+      "desc": "造成3点<span style=\"color:#FFE699FF\">岩元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">厄灵·岩之魔蜥</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "厄灵之能",
+      "desc": "【被动】角色受到伤害后如果生命值不多于7，就获得1充能。（整场牌局限制1次）",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

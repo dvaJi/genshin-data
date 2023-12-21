@@ -1,0 +1,73 @@
+{
+  "_id": 3004,
+  "id": "ruin_guard",
+  "name": "Gardien des ruines",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "stern_blow",
+      "name": "Coup dur",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spiral_closein",
+      "name": "Approche en spirale",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence</span> et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suppressive_volley",
+      "name": "Salve suppressive",
+      "desc": "Inflige 4 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et crée un <span style=\"color:#FFFFFFFF\">missile chercheur</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "Armure standard",
+      "desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques</span> subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

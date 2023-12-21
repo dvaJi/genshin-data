@@ -1,0 +1,79 @@
+{
+  "_id": 2102,
+  "id": "la_signora",
+  "name": "「女士」",
+  "title": "第八執行官·「女士」",
+  "desc": "瞳仁中倒映著破曉的赤紅，她最後展開烈焰之翼向黎明飛去。\\n「但那並不是曙光，親愛的羅莎琳。那是焚盡一切的火海。」\\n但這也沒什麼所謂。因為她心中明白，自己早已被烈火吞沒。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度「女士」中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "霜鋒霰舞",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "凜冽之刺",
+      "desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，目標角色附屬<span style=\"color:#FFFFFFFF\">嚴寒</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "紅蓮冰繭",
+      "desc": "造成4點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，治療本角色2點。移除<span style=\"color:#FFFFFFFF\">冰封的熾炎魔女</span>，本角色永久轉換為<span style=\"color:#FFFFFFFF\">「焚盡的熾炎魔女」</span>形態。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "邪眼之威",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">冰封的熾炎魔女</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

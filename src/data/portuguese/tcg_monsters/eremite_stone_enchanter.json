@@ -1,0 +1,79 @@
+{
+  "_id": 3606,
+  "id": "eremite_stone_enchanter",
+  "name": "Eremita Encantador de Pedras",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": ["Eremitas"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "triple_geosmash",
+      "name": "Golpe Sísmico Triplo",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "splitrock_slam",
+      "name": "Golpe Quebra-Rocha",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_geo",
+      "name": "Espírito Ominoso Lançado (Geo)",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, invoca <span style=\"color:#FFFFFFFF\">Espírito Ominoso: Dragão de Pedra</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) Se um personagem não tiver mais que 7 de Vida após sofrer Dano, ganha 1 de Carga. (Uso único em um duelo)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

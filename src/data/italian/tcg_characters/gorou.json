@@ -1,0 +1,72 @@
+{
+  "_id": 1606,
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "Gorou, Guerriero canino",
+  "desc": "Il capobranco che fa avanzare i soldati!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Arco",
+    "faction": ["Inazuma"],
+    "source": "Ricompensa ottenuta sfidando Gorou a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "ripping_fang_fletching",
+      "name": "Freccia lacerante",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "Difesa a tutto tondo Inuzaka",
+      "desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo</span>, crea 1 <span style=\"color:#FFFFFFFF\">Stendardo bellico del generale</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "Juuga: Avanti verso la vittoria",
+      "desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo</span>, crea <span style=\"color:#FFFFFFFF\">Stendardo bellico del generale</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Gloria del generale</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

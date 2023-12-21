@@ -1,0 +1,79 @@
+{
+  "_id": 2402,
+  "id": "thunder_manifestation",
+  "name": "Manifestation du tonnerre",
+  "title": "Haine persistante : Manifestation du tonnerre",
+  "desc": "Tant que les rancunes du pays ne s'estomperont pas, le tonnerre rugissant persistera.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Manifestation du tonnerre"
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Aile galvanique",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Foudre conflictuelle",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> aux personnages adverses affectés par un <span style=\"color:#FFFFFFFF\">paratonnerre</span>. (Si aucun personnage adverse n'est éligible, les DGT sont infligés au personnage actif à la place)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Prison tonitruante",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">prison tonitruante</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Détection de foudre",
+      "desc": "(Passif) Crée une <span style=\"color:#FFFFFFFF\">sonde de foudre</span> sur le terrain adverse au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

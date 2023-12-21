@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "Alhacén",
+  "title": "Alhacén - El Instructor Severo",
+  "desc": "Aprendiendo, pensando y encargándose de las labores necesarias.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Espada ligera",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Alhacén en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "Método abductivo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "Universalidad: Emulación teorética",
+      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y este personaje obtiene un <span style=\"color:#FFFFFFFF\">prisma rutilante</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "Enajenación: Constricción fenomenológica",
+      "desc": "Inflige 4 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y consume un <span style=\"color:#FFFFFFFF\">prisma rutilante</span>. El aumento de daño depende de la <span style=\"color:#FFFFFFFF\">duración de rondas</span> consumidas del <span style=\"color:#FFFFFFFF\">prisma rutilante</span>.<br/>Si la <span style=\"color:#FFFFFFFF\">duración de rondas</span> consumidas del <span style=\"color:#FFFFFFFF\">prisma rutilante</span> es de 0/1/2, el personaje obtiene un <span style=\"color:#FFFFFFFF\">prisma rutilante</span> con una <span style=\"color:#FFFFFFFF\">duración de rondas</span> de 3/2/1.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

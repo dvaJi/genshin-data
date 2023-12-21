@@ -1,0 +1,66 @@
+{
+  "_id": 3007,
+  "id": "suppression_specialist_mek",
+  "name": "Suppression Specialist Mek",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "longrange_fire",
+      "name": "Long-Range Fire",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "retreating_fire",
+      "name": "Retreating Fire",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span> dan bertukar Karakter ke Karakter-mu selanjutnya.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "burst_fire",
+      "name": "Burst Fire",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

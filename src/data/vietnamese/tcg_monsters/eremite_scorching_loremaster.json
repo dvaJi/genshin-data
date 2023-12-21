@@ -1,0 +1,79 @@
+{
+  "_id": 4305,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremite - Người Kể Chuyện Cát Nóng",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Eremite"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Ánh Sáng Thiêu Rụi",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Chớp Lửa Tấn Công",
+      "desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Ách Linh Thức Tỉnh - Bò Cạp Lửa",
+      "desc": "Gây 2 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Ách Linh - Bò Cạp Lửa</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Sức Mạnh Ách Linh",
+      "desc": "(Bị Động) <span style=\"color:#FFFFFFFF\">Sau khi nhân vật này chịu sát thương: </span>Nếu nhân vật này HP không hơn 7, sẽ nhận được 1 điểm <span style=\"color:#FFFFFFFF\">Năng Lượng</span>. (Cả ván đấu tối đa 1 lần)",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

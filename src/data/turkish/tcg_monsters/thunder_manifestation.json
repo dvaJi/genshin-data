@@ -1,0 +1,86 @@
+{
+  "_id": 4405,
+  "id": "thunder_manifestation",
+  "name": "Yıldırım Alameti",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 45,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Gürleyen Kanat Darbesi",
+      "desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Hiddetli Yıldırım",
+      "desc": "<span style=\"color:#FFFFFFFF\">Paratoner</span> etkisindeki rakip karaktere 3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir. (Uygun rakip karakter yoksa bunun yerine aktif karaktere Hasar verir)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Gürleyen Prangalar",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Gürleyen Prangalar</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Yıldırım Algılama",
+      "desc": "(Pasif) Savaş başladığında rakibin alanında bir <span style=\"color:#FFFFFFFF\">Yıldırım Pusulası</span> oluşur.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Element Tortulaşması: Elektrik",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Element Yaşam Formu: Elektrik</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

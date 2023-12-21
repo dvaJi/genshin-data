@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "Mecha – Typ: Unterdrückungsspezialist – Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Feuer auf kurze Distanz",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Gestreute Schüsse",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, fügt allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Kombo-Schüsse",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Kombo-Schüsse – Sperrfeuer</span> und <span style=\"color:#FFFFFFFF\">Kombo-Schüsse – Durchbohrung</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Energiesignatur – Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur:</span> Diese Figur wird in den <span style=\"color:#FFFFFFFF\">„Deaktiviert-Modus“</span> eintreten und bis Endphase dieser Runde <span style=\"color:#FFFFFFFF\">keine Fähigkeit anwenden können</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

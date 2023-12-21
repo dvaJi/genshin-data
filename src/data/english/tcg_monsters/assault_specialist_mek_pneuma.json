@@ -1,0 +1,79 @@
+{
+  "_id": 3307,
+  "id": "assault_specialist_mek_pneuma",
+  "name": "Assault Specialist Mek - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "upclose_pummelling",
+      "name": "Up-Close Pummelling",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multismash",
+      "name": "Multi-Smash",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span> and performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Tracking Truncheon</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprinting_strike",
+      "name": "Sprinting Strike",
+      "desc": "Deals 5 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">After being damaged by characters with \"Arkhe: Ousia,\"</span> this character will become <span style=\"color:#FFFFFFFF\">Deactivated</span>, and <span style=\"color:#FFFFFFFF\">cannot use skills</span> until this Round ends.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

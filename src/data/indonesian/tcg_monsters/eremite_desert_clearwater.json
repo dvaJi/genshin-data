@@ -1,0 +1,79 @@
+{
+  "_id": 3206,
+  "id": "eremite_desert_clearwater",
+  "name": "Eremite Desert Clearwater",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Eremite"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "agile_thrust",
+      "name": "Agile Thrust",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blitz_strike",
+      "name": "Blitz Strike",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_lashes",
+      "name": "Whirling Lashes",
+      "desc": "Karakter <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Whirling Lashes: First Strike</span> dan <span style=\"color:#FFFFFFFF\">Whirling Lashes: Fixed Pattern</span> secara terpisah.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_hydro",
+      "name": "Ominous Spirit Unleashed (Hydro)",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Setelah Karakter ini menerima DMG: </span>Jika Karakter memiliki 7 poin HP atau lebih sedikit, akan mendapatkan 1 poin <span style=\"color:#FFFFFFFF\">Energy</span> dan status <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Hydro</span>. (Sekali selama pertandingan)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

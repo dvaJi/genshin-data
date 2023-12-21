@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "Layla",
+  "title": "Layla, Stella fantastica della sera",
+  "desc": "Col calar della notte, le stelle girano vorticosamente e la luna vaga per i sogni.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Spada",
+    "faction": ["Sumeru"],
+    "source": "Ricompensa ottenuta sfidando Layla a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "Spada del Sentiero radioso",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "Concentrazione solenne",
+      "desc": "Crea 1 <span style=\"color:#FFFFFFFF\">Scudo della Cortina onirica</span> e 1 <span style=\"color:#FFFFFFFF\">Stella cadente</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Culla dei sogni stellati",
+      "desc": "Infligge 3 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Onirisfera celestiale</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

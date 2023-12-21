@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "จักรกลปราบปราม - สสาร",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Short-Range Snap Fire",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Spread Fire",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย และสร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย</span> ให้แก่ศัตรูที่อยู่นอกสนามทั้งหมด",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Combined Fire",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 2 หน่วย จากนั้นจะดำเนินการ<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span>: <span style=\"color:#FFFFFFFF\">Combined Fire: Light Barrage</span> และ <span style=\"color:#FFFFFFFF\">Combined Fire: Piercing Salvo</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "คุณสมบัติพลังงาน: พลังสสาร",
+      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครที่มี \"พลังปฐมภูมิ: วิญญาณ\" สร้างความเสียหาย: </span>ตัวละครนี้จะถูกเปลี่ยนเป็น<span style=\"color:#FFFFFFFF\">\"รูปแบบไร้พลังงาน\"</span> และจะ<span style=\"color:#FFFFFFFF\">ไม่สามารถใช้สกิล</span>ได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

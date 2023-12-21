@@ -1,0 +1,79 @@
+{
+  "_id": 3206,
+  "id": "eremite_desert_clearwater",
+  "name": "Goldbrigade – Wüstenwasser",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Goldbrigade"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "agile_thrust",
+      "name": "Gewandter Durchschlag",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blitz_strike",
+      "name": "Huschende Attacke",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_lashes",
+      "name": "Wirbeltanz-Hiebe",
+      "desc": "Diese Figur <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Wirbeltanz-Hiebe – Vorstoß</span> und <span style=\"color:#FFFFFFFF\">Wirbeltanz-Hiebe – Fixpunkt</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_hydro",
+      "name": "Freilassung des Geists – Hydro",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch die Figur:</span> Erhält 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span> und <span style=\"color:#FFFFFFFF\">Erwachen des Geistes – Hydro</span>, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

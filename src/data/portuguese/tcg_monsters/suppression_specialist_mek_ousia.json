@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "Mecassupressor - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Disparo Rápido",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Disparo de Emboscada",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>, causa <span style=\"color:#FFFFFFFF\">1 ponto de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span></span> a todos os inimigos fora de combate.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Disparo Combinado",
+      "desc": "Causa 2 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, então realiza separadamente <span style=\"color:#FFFFFFFF\">Preparar Habilidade</span>: <span style=\"color:#FFFFFFFF\">Disparo Combinado: Saraivada Leve</span> e <span style=\"color:#FFFFFFFF\">Disparo Combinado: Saraivada Perfuradora</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Característica da Energia: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Depois de ser danificado por personagem com \"Arkhe: Pneuma\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

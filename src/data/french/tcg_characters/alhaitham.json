@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "Alhaitham",
+  "title": "Alhaitham · Instruction d'admonestation",
+  "desc": "Apprenant, réfléchissant et s'occupant des choses...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Épée à une main",
+    "faction": ["Sumeru"],
+    "source": "Récompense pour avoir invité Alhaitham à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "Raisonnement abductif",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "Universalité : Élaboration de forme",
+      "desc": "Inflige 2 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span> et applique un <span style=\"color:#FFFFFFFF\">miroir de diffraction</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "Champ particulier : Liens de phénomène",
+      "desc": "Inflige 4 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>, consomme le <span style=\"color:#FFFFFFFF\">miroir de diffraction</span> et augmente les DGT selon la <span style=\"color:#FFFFFFFF\">durée en manches</span> du <span style=\"color:#FFFFFFFF\">miroir de diffraction</span> consommé.<br/>Si la <span style=\"color:#FFFFFFFF\">durée en manches</span> du <span style=\"color:#FFFFFFFF\">miroir de diffraction</span> consommé est de 0/1/2, le personnage obtient un <span style=\"color:#FFFFFFFF\">miroir de diffraction</span> avec une <span style=\"color:#FFFFFFFF\">durée en manches</span> respective de 3/2/1.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "Meka soppressore specializzato - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Fuoco a breve distanza",
+      "desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Fuoco allargato",
+      "desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, infligge <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span></span> a tutti i personaggi inattivi avversari.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Fuoco combinato",
+      "desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span> e poi, separatamente, esegue <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Fuoco combinato: Sbarramento leggero</span> e <span style=\"color:#FFFFFFFF\">Fuoco combinato: Artiglieria pesante</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Archè: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo aver subito DAN da personaggi con Archè: Pneuma</span>, questo personaggio entra in stato di <span style=\"color:#FFFFFFFF\">Disattivazione</span> e <span style=\"color:#FFFFFFFF\">non potrà usare abilità</span> fino alla fine del turno.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

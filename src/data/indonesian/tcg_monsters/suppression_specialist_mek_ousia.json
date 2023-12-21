@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "Suppression Specialist Mek - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Short-Range Snap Fire",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Spread Fire",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>, mengakibatkan <span style=\"color:#FFFFFFFF\">1 poin <span style=\"color:#FFFFFFFF\">Piercing DMG</span></span> terhadap seluruh Karakter standby lawan.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Combined Fire",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>, lalu <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Combined Fire: Light Barrage</span> dan <span style=\"color:#FFFFFFFF\">Combined Fire: Piercing Salvo</span> secara terpisah.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Arkhe: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah menerima DMG dari Karakter yang memiliki \"Arkhe: Pneuma\": </span>Karakter ini berubah menjadi <span style=\"color:#FFFFFFFF\">nonaktif</span> dan <span style=\"color:#FFFFFFFF\">tidak dapat menggunakan skill</span> hingga Ronde berakhir.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

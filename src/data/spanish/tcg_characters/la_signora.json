@@ -1,0 +1,79 @@
+{
+  "_id": 2102,
+  "id": "la_signora",
+  "name": "Signora",
+  "title": "Signora - La octava de Los Once",
+  "desc": "Cuando el rojo carmesí se reflejó en sus pupilas como un amanecer, desplegó sus ardientes alas para volar hacia el alba.\\n“Eso no es el amanecer, querida Rosalyne. Es el mar de llamas que lo incendia todo”, le dijo una voz que se escuchaba venir de un haz de luz.\\nPero nada de eso importaba, pues en su interior sabía que las llamas la habían consumido hace mucho tiempo.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": ["Fatui"],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra Signora de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Ventisca punzante",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Espina gélida",
+      "desc": "Inflige 2 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y el personaje objetivo es afectado por <span style=\"color:#FFFFFFFF\">frío extremo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Capullo gélido carmesí",
+      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y este personaje obtiene Vida +2. Además, anula la forma de <span style=\"color:#FFFFFFFF\">Bruja Carmesí de la Escarcha</span> para que este personaje se transforme de manera permanente en la <span style=\"color:#FFFFFFFF\">Bruja Carmesí de las Ascuas</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Poderío de Engaño",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">Bruja Carmesí de la Escarcha</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

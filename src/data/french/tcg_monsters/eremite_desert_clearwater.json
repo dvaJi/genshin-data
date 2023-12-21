@@ -1,0 +1,79 @@
+{
+  "_id": 3206,
+  "id": "eremite_desert_clearwater",
+  "name": "Ablutionneuse des Érémites",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Érémites"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "agile_thrust",
+      "name": "Pique agile",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blitz_strike",
+      "name": "Incision rapide",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_lashes",
+      "name": "Danse tranchante",
+      "desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Danse tranchante : Coup premier</span> et <span style=\"color:#FFFFFFFF\">Danse tranchante : Séquence fixe</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_hydro",
+      "name": "Délivrance d'esprit sinistre (Hydro)",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT</span> : Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> et un <span style=\"color:#FFFFFFFF\">éveil d'esprit sinistre (Hydro)</span> s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

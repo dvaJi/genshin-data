@@ -1,0 +1,79 @@
+{
+  "_id": 3704,
+  "id": "suppression_specialist_mek_pneuma",
+  "name": "Baskılama Uzmanı Meka - Ruh",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "precision_shot",
+      "name": "Keskin Atış",
+      "desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wildgrass_ball",
+      "name": "Yabani Ot Topu",
+      "desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "launch_grenade",
+      "name": "El Bombası Fırlat",
+      "desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Gecikmeli Fünye Mühimmatı</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Arkhe: Ruh",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "Layla",
+  "title": "\"Fantastical Evening Star\" Layla",
+  "desc": "As night falls, the stars swirl and the moon wanders amidst dreams.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Sword",
+    "faction": ["Sumeru"],
+    "source": "Reward for inviting Layla to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "Sword of the Radiant Path",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "Nights of Formal Focus",
+      "desc": "Creates 1 <span style=\"color:#FFFFFFFF\">Curtain of Slumber Shield</span> and <span style=\"color:#FFFFFFFF\">Shooting Star</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Dream of the Star-Stream Shaker",
+      "desc": "Deals 3 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Celestial Dreamsphere</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

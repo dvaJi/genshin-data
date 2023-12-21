@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "Аль-Хайтам",
+  "title": "«Голос разума» аль-Хайтам",
+  "desc": "Учись, размышляй, о работе не забывай.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Одноручное",
+    "faction": ["Сумеру"],
+    "source": "Награда за приглашение аль-Хайтама в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "Абдуктивная аргументация",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "Универсалия: Совершенствование формы",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 2 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Зеркало света</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "Особое поле: Взаимосвязь феноменов",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 4 ед., расходует <span style=\"color:#FFFFFFFF\">Зеркало света</span>. Урон эффекта <span style=\"color:#FFFFFFFF\">Зеркало света</span> повышается на истраченную <span style=\"color:#FFFFFFFF\">Продолжительность (в раундах)</span>.<br/>Когда израсходованная у эффекта <span style=\"color:#FFFFFFFF\">Зеркало света</span> <span style=\"color:#FFFFFFFF\">Продолжительность (в раундах)</span> равняется 0, 1 или 2, то этот персонаж получает 3, 2 или 1 <span style=\"color:#FFFFFFFF\">Зеркало света</span> соответственно.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

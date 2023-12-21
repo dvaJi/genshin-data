@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "Lynette",
+  "title": "Elegância nas Sombras - Lynette",
+  "desc": "A beleza do firmamento refletida numa lua noturna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Espada",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Recompensa por desafiar Lynette para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "Rapieira Veloz",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "Barreira das Sombras",
+      "desc": "Causa 3 pontos de <span style=\"color:#80FFD7FF\">Dano Anemo</span>. A primeira vez que esta Habilidade é usada neste Turno, e quando a Vida não é maior que 8, cura o usuário em 2 de Vida caso sua Vida não esteja cheia, mas aplica <span style=\"color:#FFFFFFFF\">Assalto Ameaçador</span> ao usuário.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "Magia: Transformação Surpreendente",
+      "desc": "Causa 2 pontos de <span style=\"color:#80FFD7FF\">Dano Anemo</span>, invoca <span style=\"color:#FFFFFFFF\">Caixa Surpresa Miau Miau</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "Layla",
+  "title": "\"Bir Akşam Yıldızı Rüyası\" Layla",
+  "desc": "Gece olduğunda yıldızlar dans eder ve ay rüyaların arasında dolaşır.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Kılıç",
+    "faction": ["Sumeru"],
+    "source": "Layla'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "Işıltılı Yolun Kılıcı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "Odaklanma Gecesi",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Uyku Perdesi Kalkanı</span> ve <span style=\"color:#FFFFFFFF\">Kayan Yıldız</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "Dağılan Yıldız Akışı Rüyası",
+      "desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Kutsal Diyar Rüya Küresi</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

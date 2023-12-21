@@ -1,0 +1,79 @@
+{
+  "_id": 3206,
+  "id": "eremite_desert_clearwater",
+  "name": "Eremite Desert Clearwater",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": ["The Eremites"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "agile_thrust",
+      "name": "Agile Thrust",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blitz_strike",
+      "name": "Blitz Strike",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_lashes",
+      "name": "Whirling Lashes",
+      "desc": "This character performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Whirling Lashes: First Strike</span> and <span style=\"color:#FFFFFFFF\">Whirling Lashes: Fixed Pattern</span> separately.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_hydro",
+      "name": "Ominous Spirit Unleashed (Hydro)",
+      "desc": "(Passive) <span style=\"color:#FFFFFFFF\">After this character takes DMG:</span> If this character has no more than 7 HP, they gain 1 <span style=\"color:#FFFFFFFF\">Energy</span> and <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Hydro</span> is attached. (Once per Match)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

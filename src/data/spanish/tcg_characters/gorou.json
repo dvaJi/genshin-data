@@ -1,0 +1,72 @@
+{
+  "_id": 1606,
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "Gorou - El General Canino",
+  "desc": "¡El líder que guía a sus soldados!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Arco",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Gorou en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "ripping_fang_fletching",
+      "name": "Flecha resquebrajadora",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "Defensa integral canina",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span> y crea un <span style=\"color:#FFFFFFFF\">estandarte del general</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "Colmillo de la victoria",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>, crea un <span style=\"color:#FFFFFFFF\">estandarte del general</span> y genera el efecto de <span style=\"color:#FFFFFFFF\">gloria del general</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

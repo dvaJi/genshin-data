@@ -1,0 +1,79 @@
+{
+  "_id": 3307,
+  "id": "assault_specialist_mek_pneuma",
+  "name": "Mecaespecialista Asaltador - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "upclose_pummelling",
+      "name": "Sacudida de corto alcance",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "multismash",
+      "name": "Multiabatimiento",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Porrazo aplastante</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprinting_strike",
+      "name": "Asalto arrollador",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Energía pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: ousía</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

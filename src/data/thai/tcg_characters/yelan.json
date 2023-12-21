@@ -1,0 +1,79 @@
+{
+  "_id": 1209,
+  "id": "yelan",
+  "name": "Yelan",
+  "title": "กล้วยไม้งามกลางหุบเขา - Yelan",
+  "desc": "สวรรค์และพิภพล้วนเลื่อนลอย ผู้คนต่างผ่านมาและผ่านไป",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำ",
+    "weapon": "ธนู",
+    "faction": ["Liyue"],
+    "source": "ได้รับหลังจากเชิญ Yelan ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "stealthy_bowshot",
+      "name": "Stealthy Bowshot",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_lifeline",
+      "name": "Lingering Lifeline",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย ตัวละครนี้มีจำนวนชั้น <span style=\"color:#FFFFFFFF\">Breakthrough</span> +2",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "depthclarion_dice",
+      "name": "Depth-Clarion Dice",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Exquisite Throw</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "name": "Breakthrough",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Breakthrough</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

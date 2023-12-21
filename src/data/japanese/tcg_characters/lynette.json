@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "リネット",
+  "title": "綺影で魅せるエレガンス·リネット",
+  "desc": "水中の輪郭を窺い、月影を見透かす。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "片手剣",
+    "faction": ["フォンテーヌ", "ファデュイ"],
+    "source": "キャッツテールでリネットを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "ラピッド·レイピア",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "エニグマティック·フェイント",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を3与える。本ラウンドでこのスキルを初めて発動する、かつ自身のHPが8以下の場合、自身のHPを2回復する。ただし、<span style=\"color:#FFFFFFFF\">襲撃の余威</span>が付与される。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "魔術·アストニシングシフト",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">ビックラキャット·ボックス</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

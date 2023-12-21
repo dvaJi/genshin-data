@@ -1,0 +1,72 @@
+{
+  "_id": 6304,
+  "id": "crimson_witch_of_embers",
+  "name": "Kızıl Alev Cadısı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "crimson_lotus_moth",
+      "name": "Kızıl Nilüfer Güvesi",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "decimating_lash",
+      "name": "Ölümcül Kırbaç",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Kavurucu Sıcak</span> eklenir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_blaze",
+      "name": "Girdap Alevi",
+      "desc": "6 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "Lynette",
+  "title": "Lynette, Eleganza nell'ombra",
+  "desc": "Il firmamento intravisto in un riflesso di luna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Spada",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Ricompensa ottenuta sfidando Lynette a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "Spada rituale",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "Simulazione enigmatica",
+      "desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. La prima volta che questa abilità viene usata in questo turno, se i PS del personaggio sono 8 o meno, ripristina 2 PS di questo personaggio e viene applicato <span style=\"color:#FFFFFFFF\">Assalto travolgente</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "Gioco di prestigio: Trasmutazione mirabolante",
+      "desc": "Infligge 2 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Scatola Stravagatto</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

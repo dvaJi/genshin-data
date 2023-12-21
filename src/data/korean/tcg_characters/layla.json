@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "레일라",
+  "title": "저녁별의 아름다운 사색·레일라",
+  "desc": "별 헤는 밤, 꿈속 달빛 산책",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": ["수메르"],
+    "source": "캣테일 술집에서 레일라 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "빛나는 궤도의 검",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "근심 없는 밤",
+      "desc": "<span style=\"color:#FFFFFFFF\">평안한 잠의 장막</span>과 <span style=\"color:#FFFFFFFF\">유성</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "별이 흐르는 요람의 꿈",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">꿈을 수놓는 천구</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

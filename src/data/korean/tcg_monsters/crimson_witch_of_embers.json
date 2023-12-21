@@ -1,0 +1,72 @@
+{
+  "_id": 6304,
+  "id": "crimson_witch_of_embers",
+  "name": "사그라든 화염의 마녀",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "기타 무기",
+    "faction": ["우인단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "crimson_lotus_moth",
+      "name": "홍련의 나방",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "decimating_lash",
+      "name": "소각의 채찍",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 대상 캐릭터에게 <span style=\"color:#FFFFFFFF\">작열</span>을 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_blaze",
+      "name": "화염의 소용돌이",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 6pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

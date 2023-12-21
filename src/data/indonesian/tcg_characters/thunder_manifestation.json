@@ -1,0 +1,79 @@
+{
+  "_id": 2402,
+  "id": "thunder_manifestation",
+  "name": "Thunder Manifestation",
+  "title": "\"Lingering Hatred\" Thunder Manifestation",
+  "desc": "Selama kebencian di dunia belum sirna, selama itulah dentuman petir berkumandang.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Thunder Manifestation"
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Thunderous Wingslash",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Strifeful Lightning",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFACFFFF\">Electro DMG</span> kepada Karakter lawan yang terpengaruh <span style=\"color:#FFFFFFFF\">Lightning Rod</span>. (Jika tidak ada Karakter yang memenuhi syarat, maka akan mengakibatkan DMG kepada Karakter aktif)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Thundering Shackles",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFACFFFF\">Electro DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Thundering Shackles</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Lightning Probe",
+      "desc": "[Pasif] Menciptakan <span style=\"color:#FFFFFFFF\">Lightning Strike Probe</span> di sisi lawan saat duel dimulai.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

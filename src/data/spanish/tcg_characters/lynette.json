@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "Lynette",
+  "title": "Lynette - La Elegancia de las Sombras",
+  "desc": "El firmamento de la noche se vislumbra en el reflejo de la luna.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Espada ligera",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Se obtiene tras retar y ganar a Lynette en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "Estocada veloz",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "Ahora me ves...",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>. Si usa esta habilidad por primera vez en la ronda actual y tiene 8 pts. de Vida o menos, obtiene Vida +2, pero también le aplica <span style=\"color:#FFFFFFFF\">asalto intimidante</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "Truco: Desvío de atención",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y crea una <span style=\"color:#FFFFFFFF\">michicaja sorpresa</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

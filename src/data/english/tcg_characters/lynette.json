@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "Lynette",
+  "title": "\"Elegance in the Shadows\" Lynette",
+  "desc": "The firmament glimpsed in a reflected moon.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Sword",
+    "faction": ["Fontaine", "Fatui"],
+    "source": "Reward for inviting Lynette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "Rapid Ritesword",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "Enigmatic Feint",
+      "desc": "Deals 3 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. The first time this Skill is used this Round, heal the character for 2 HP if they have no more than 8 HP, but apply <span style=\"color:#FFFFFFFF\">Overawing Assault</span> to said character.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "Magic Trick: Astonishing Shift",
+      "desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

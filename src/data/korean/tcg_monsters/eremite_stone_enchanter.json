@@ -1,0 +1,79 @@
+{
+  "_id": 3606,
+  "id": "eremite_stone_enchanter",
+  "name": "도금 여단·마암역사",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바위 원소",
+    "weapon": "기타 무기",
+    "faction": ["도금 여단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "triple_geosmash",
+      "name": "삼중암격",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "splitrock_slam",
+      "name": "낙석 공격",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_geo",
+      "name": "악령 해방·바위",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 주고 <span style=\"color:#FFFFFFFF\">악령·마의 바위 도마뱀</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "악령의 힘",
+      "desc": "[패시브] 캐릭터가 피해를 받은 후 만약 HP가 7pt 이하이면 원소 에너지를 1pt 획득한다. (대전당 1회 제한)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 3005,
+  "id": "ruin_drake_earthguard",
+  "name": "遗迹龙兽·地巡",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "close_expulsion",
+      "name": "近程驱逐",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sudden_charge",
+      "name": "突进冲击",
+      "desc": "造成3点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_surge",
+      "name": "能量洪流",
+      "desc": "造成5点<span style=\"color:#FFFFFFFF\">物理伤害</span>；如果此角色已吸收元素能量，则释放所吸收的元素，使此伤害+1，并改为造成所吸收元素的伤害。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "标准外甲",
+      "desc": "【被动】此角色受到的<span style=\"color:#FFFFFFFF\">物理伤害</span>减半。（向上取整）",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "elemental_absorption",
+      "name": "元素汲取",
+      "desc": "【被动】<span style=\"color:#FFFFFFFF\">未吸收元素的状态下，角色受到元素伤害时：</span>吸收此元素的能量。<br/>角色受到已吸收元素的伤害时，伤害值减半。（向上取整）",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

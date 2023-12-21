@@ -1,0 +1,79 @@
+{
+  "_id": 4305,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremita Narradora da Areia Ardente",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Outras Armas",
+    "faction": ["Eremitas"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Brilho Abrasador",
+      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Golpe Abrasador",
+      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "O Despertar do Espírito Ominoso: Escorpião de Fogo",
+      "desc": "Causa 2 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, invoca <span style=\"color:#FFFFFFFF\">Espírito Ominoso: Escorpião de Fogo</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Após o personagem receber Dano:</span> Caso este personagem tenha menos do que 7 de Vida, ganha 1 <span style=\"color:#FFFFFFFF\">Carga</span>. (Uma vez por partida)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3206,
+  "id": "eremite_desert_clearwater",
+  "name": "Eremita Ablucionadora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Eremita"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "agile_thrust",
+      "name": "Punzada veloz",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blitz_strike",
+      "name": "Incisión rauda",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_lashes",
+      "name": "Tajo danzarín",
+      "desc": "Este personaje <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> <span style=\"color:#FFFFFFFF\">Tajo danzarín: Arremetida</span> y <span style=\"color:#FFFFFFFF\">Tajo danzarín: Mentalización</span> respectivamente.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_hydro",
+      "name": "Liberación de Ominoespíritu: Hydro",
+      "desc": "Pasiva: si este personaje tiene 7 pts. de Vida o menos <span style=\"color:#FFFFFFFF\">después de recibir daño</span>, obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1 y el efecto de <span style=\"color:#FFFFFFFF\">despertar de Ominoespíritu: Hydro</span> (solo se puede usar 1 vez por partida).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

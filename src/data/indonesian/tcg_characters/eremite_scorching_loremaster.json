@@ -1,0 +1,79 @@
+{
+  "_id": 2303,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremite Scorching Loremaster",
+  "title": "\"Poetry and Secret Histories\" Eremite Scorching Loremaster",
+  "desc": "Mereka yang masih ingat, tidak akan mengkhianati darah padang pasir yang mengalir dalam tubuhnya.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": ["Eremite"],
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Eremite Scorching Loremaster"
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Searing Glare",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Blazing Strike",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Spirit of Omen's Awakening: Pyro Scorpion",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Spirit of Omen's Power",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Setelah Karakter ini menerima DMG: </span>Jika Karakter memiliki 7 poin HP atau lebih sedikit, akan mendapatkan 1 poin <span style=\"color:#FFFFFFFF\">Energy</span>. (Sekali selama pertandingan)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3606,
+  "id": "eremite_stone_enchanter",
+  "name": "エルマイト旅団·ストーンエンチャンター",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "他の武器",
+    "faction": ["エルマイト旅団"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "triple_geosmash",
+      "name": "トリプル岩撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "splitrock_slam",
+      "name": "砕石爆撃",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_geo",
+      "name": "悪霊解放·岩",
+      "desc": "<span style=\"color:#FFE699FF\">岩元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">悪霊·岩の魔蜥</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "悪霊の力",
+      "desc": "【固有】本キャラがダメージを受けた後、本キャラのHPが7以下の場合、チャージを1獲得する。（各対戦ごとに1回まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1109,
+  "id": "layla",
+  "name": "レイラ",
+  "title": "綺思と夜星·レイラ",
+  "desc": "更けゆく夜に星が遷り、月籠に照らされる夢の軌跡。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "片手剣",
+    "faction": ["スメール"],
+    "source": "キャッツテールでレイラを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "sword_of_the_radiant_path",
+      "name": "煌めく軌跡の剣",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_of_formal_focus",
+      "name": "垂裳凛然の夜",
+      "desc": "<span style=\"color:#FFFFFFFF\">安眠天幕シールド</span>と<span style=\"color:#FFFFFFFF\">飛星</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dream_of_the_starstream_shaker",
+      "name": "星流揺籠の夢",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">夢の天球</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 3408,
+  "id": "assault_specialist_mek_ousia",
+  "name": "จักรกลจู่โจม - สสาร",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_melee",
+      "name": "Rapid Melee",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shield_riposte",
+      "name": "Shield Riposte",
+      "desc": "ตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Shield Block</span> และ<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span>: <span style=\"color:#FFFFFFFF\">Shield Slice</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shield_sweep",
+      "name": "Shield Sweep",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย และจะสร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span></span> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายตรงข้าม",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "คุณสมบัติพลังงาน: พลังสสาร",
+      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครที่มี \"พลังปฐมภูมิ: วิญญาณ\" สร้างความเสียหาย: </span>ตัวละครนี้จะถูกเปลี่ยนเป็น<span style=\"color:#FFFFFFFF\">\"รูปแบบไร้พลังงาน\"</span> และจะ<span style=\"color:#FFFFFFFF\">ไม่สามารถใช้สกิล</span>ได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

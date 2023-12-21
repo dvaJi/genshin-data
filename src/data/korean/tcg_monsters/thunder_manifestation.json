@@ -1,0 +1,86 @@
+{
+  "_id": 4405,
+  "id": "thunder_manifestation",
+  "name": "뇌음의 권현",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 45,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "천둥 날개 베기",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "배척의 번개 벽",
+      "desc": "<span style=\"color:#FFFFFFFF\">뇌명 탐지</span>가 부착된 적 캐릭터에게 <span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다. (조건에 맞는 상대 캐릭터가 없을 시 출전 캐릭터에게 피해를 준다)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "속박의 천둥",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">속박의 천둥</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "뇌정 탐지",
+      "desc": "[패시브] 전투 시작 시, 적 필드에 <span style=\"color:#FFFFFFFF\">뇌정 탐침</span>을 생성한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "원소 침적·번개",
+      "desc": "[패시브] 전투 시작 시, 시작부터 <span style=\"color:#FFFFFFFF\">원소 생명체·번개</span>가 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_id": 4506,
+  "id": "dvalin",
+  "name": "Dvalin",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "lacerating_slash",
+      "name": "Lacération transversale",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "tempestuous_barrage",
+      "name": "Bombardement orageux",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et applique un <span style=\"color:#FFFFFFFF\">effondrement total</span> au personnage choisi.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dvalins_cleansing",
+      "name": "Ablution de Dvalin",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Ablution extensive</span> et <span style=\"color:#FFFFFFFF\">Ablution ultime</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "caelestinum_finale_termini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "Inflige 5 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et applique un <span style=\"color:#FFFFFFFF\">effondrement total</span> à tous les personnages adverses en attente.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

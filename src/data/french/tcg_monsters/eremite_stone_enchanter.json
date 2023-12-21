@@ -1,0 +1,79 @@
+{
+  "_id": 3606,
+  "id": "eremite_stone_enchanter",
+  "name": "Enchanteur graveleux des Érémites",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": ["Érémites"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "triple_geosmash",
+      "name": "Triple frappe sismique",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "splitrock_slam",
+      "name": "Fissuration de la roche",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_geo",
+      "name": "Délivrance d'esprit sinistre (Géo)",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et invoque l'<span style=\"color:#FFFFFFFF\">esprit sinistre du varan de pierre</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Puissance d'esprit sinistre",
+      "desc": "(Passif) Lorsque le personnage a subi des DGT : Il obtient 1 charge s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

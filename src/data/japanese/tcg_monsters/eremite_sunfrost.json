@@ -1,0 +1,79 @@
+{
+  "_id": 3106,
+  "id": "eremite_sunfrost",
+  "name": "エルマイト旅団·サンフロスト",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": ["エルマイト旅団"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "double_hack",
+      "name": "ダブル斬撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dualblade_chop",
+      "name": "双刃連斬",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stalwart_onslaught",
+      "name": "蓄勢猛撃",
+      "desc": "本キャラは<span style=\"color:#FFFFFFFF\">スキル準備</span>に入る：<span style=\"color:#FFFFFFFF\">蓄勢猛撃·渾身の一撃</span>。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_cryo",
+      "name": "悪霊解放·氷",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">本キャラがダメージを受けた後</span>、本キャラのHPが7以下の場合、<span style=\"color:#FFFFFFFF\">チャージ</span>を1獲得し、<span style=\"color:#FFFFFFFF\">悪霊蘇生·氷</span>を付与する。（各対戦ごとに1回まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

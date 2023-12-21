@@ -1,0 +1,79 @@
+{
+  "_id": 2402,
+  "id": "thunder_manifestation",
+  "name": "Manifestación del Trueno",
+  "title": "Manifestación del Trueno - Odio moribundo",
+  "desc": "Mientras el odio de esa tierra no desaparezca, los truenos no dejarán de caer.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Manifestación del Trueno de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Alazo galvánico",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Relámpago del conflicto",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> al personaje enemigo afectado por <span style=\"color:#FFFFFFFF\">detección atronadora</span>. Si ningún personaje enemigo cumple con este requisito, el daño se le infligirá al personaje en combate.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Prisión tronante",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y crea una <span style=\"color:#FFFFFFFF\">prisión tronante</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Percepción del relámpago",
+      "desc": "Pasiva: cuando comienza el duelo, crea una <span style=\"color:#FFFFFFFF\">sonda del relámpago</span> en el campo enemigo.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

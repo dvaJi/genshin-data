@@ -1,0 +1,79 @@
+{
+  "_id": 3408,
+  "id": "assault_specialist_mek_ousia",
+  "name": "Спецмек: Штурм (усия)",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_melee",
+      "name": "Схватка на ножах",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shield_riposte",
+      "name": "Ответ щитом",
+      "desc": "У персонажа добавляется <span style=\"color:#FFFFFFFF\">Блок щита</span>. Начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Разрез щитом</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shield_sweep",
+      "name": "Взмах щитом",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед., наносит <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 2 ед.</span>, всем неактивным персонажам противника.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Энергетическое свойство: усия",
+      "desc": "<span style=\"color:#FFFFFFFF\">Получив урон от персонажа с архэ: пневма,</span> этот персонаж получает состояние «<span style=\"color:#FFFFFFFF\">Деактивировано</span>» и <span style=\"color:#FFFFFFFF\">не может использовать навыки</span> до конца раунда.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

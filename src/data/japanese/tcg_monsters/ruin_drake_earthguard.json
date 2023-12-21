@@ -1,0 +1,80 @@
+{
+  "_id": 3005,
+  "id": "ruin_drake_earthguard",
+  "name": "遺跡ドレイク·陸行",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "元素タイプなし",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "close_expulsion",
+      "name": "近接駆逐",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sudden_charge",
+      "name": "突進衝撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_surge",
+      "name": "エネルギーの奔流",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を5与える。本キャラがすでに元素エネルギーを吸収している場合、吸収した元素を放ち、このダメージ+1。さらに、与えるダメージが吸収した元素のダメージへと変わる。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "スタンダード·アーマー",
+      "desc": "【固有】このキャラの受ける<span style=\"color:#FFFFFFFF\">物理ダメージ</span>が半減する。（切り上げ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "elemental_absorption",
+      "name": "元素吸収",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">元素を吸収していない場合、キャラが元素ダメージを受けた時</span>、該当元素のエネルギーを吸収する。<br/>キャラが吸収済みの元素のダメージを受けた時、ダメージが半減する。（切り上げ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

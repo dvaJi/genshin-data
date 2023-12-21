@@ -1,0 +1,79 @@
+{
+  "_id": 2102,
+  "id": "la_signora",
+  "name": "「淑女」",
+  "title": "ファトゥス第八位·「淑女」",
+  "desc": "瞳に夜明けの茜色が映り、彼女は最後、烈焔の翼を広げ、払暁へ飛んでいった。\\n「しかしあれは暁ではない、親愛なるロザリンよ。あれは、全てを燃やし尽くす火の海だ。」\\nだが、それでも構わない。彼女は分かっていた、自らがすでに烈火に呑まれていることを。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、「淑女」に挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "寒鋒霰舞",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "凛冽なる棘",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を2与え、目標キャラに<span style=\"color:#FFFFFFFF\">極寒</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "紅蓮の氷繭",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を4与え、本キャラのHPを2回復する。<span style=\"color:#FFFFFFFF\">氷封の灼炎魔女</span>を解除し、本キャラは<span style=\"color:#FFFFFFFF\">「焚尽の灼炎魔女」</span>状態に永久的に切り替わる。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "邪眼の威力",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">氷封の灼炎魔女</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 2303,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremite Scorching Loremaster",
+  "title": "\"Poetry and Secret Histories\" Eremite Scorching Loremaster",
+  "desc": "Those who still remember will never betray the spirit of the sands yet flowing through their veins.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["The Eremites"],
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Eremite Scorching Loremaster"
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Searing Glare",
+      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Blazing Strike",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Spirit of Omen's Awakening: Pyro Scorpion",
+      "desc": "Deals 2 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Spirit of Omen's Power",
+      "desc": "(Passive) <span style=\"color:#FFFFFFFF\">After this character takes DMG:</span> If this character has no greater than 7 HP, they gain 1 <span style=\"color:#FFFFFFFF\">Energy</span>. (Once per Match)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

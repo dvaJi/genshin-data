@@ -1,0 +1,73 @@
+{
+  "_id": 3004,
+  "id": "ruin_guard",
+  "name": "Ruinenwächter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kein Elementartyp",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "stern_blow",
+      "name": "Heftiger Anschlag",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spiral_closein",
+      "name": "Wirbelnde Annäherung",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Hochfrequenter Wirbelangriff</span> und <span style=\"color:#FFFFFFFF\">Ultraschneller Wirbelangriff</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suppressive_volley",
+      "name": "Unterdrückungsschüsse",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Verfolgungsgeschoss</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Würfel (gleich)",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "standard_armor",
+      "name": "Standard-Rüstung",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Phys. SCH</span> an dieser Figur wird halbiert (aufgerundet).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

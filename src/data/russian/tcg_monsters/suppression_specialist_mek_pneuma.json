@@ -1,0 +1,79 @@
+{
+  "_id": 3704,
+  "id": "suppression_specialist_mek_pneuma",
+  "name": "Спецмек: Подавление (пневма)",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "precision_shot",
+      "name": "Меткий выстрел",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wildgrass_ball",
+      "name": "Шар-бурьян",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "launch_grenade",
+      "name": "Гранатомёт",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Снаряды с таймером</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Энергетическое свойство: пневма",
+      "desc": "<span style=\"color:#FFFFFFFF\">Получив урон от персонажа с архэ: усия,</span> этот персонаж получает состояние «<span style=\"color:#FFFFFFFF\">Деактивировано</span>» и <span style=\"color:#FFFFFFFF\">не может использовать навыки</span> до конца раунда.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 2602,
+  "id": "azhdaha",
+  "name": "Azhdaha",
+  "title": "Rồng Tổ Cổ Nham - Azhdaha",
+  "desc": "Tiếng xiềng xích khe khẽ và tiếng gầm trầm đục của tổ tiên loài rồng, giống như những ký ức, vang vọng giữa núi rừng.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Azhdaha"
+  },
+  "skills": [
+    {
+      "id": "sundering_charge",
+      "name": "Đá Vỡ Dội Đến",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "aura_of_majesty",
+      "name": "Khí Thế Hào Hùng",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, nếu xảy ra phản ứng kết tinh, nhân vật sẽ <span style=\"color:#FFFFFFFF\">Hấp thụ sức mạnh nguyên tố tương ứng</span>.<br/>Nếu trong thời gian kỹ năng mà nhân vật chưa hấp thụ sức mạnh nguyên tố, sẽ áp dụng <span style=\"color:#FFFFFFFF\">Bàn Nham Bách Tướng - Kết Tinh Nguyên Tố</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "decimating_rockfall",
+      "name": "Núi Lở Diệt Vong",
+      "desc": "Gây 4 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, mỗi khi hấp thụ 1 loại nguyên tố sẽ +1 sát thương này.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stone_facets",
+      "name": "Hàng Trăm Phiến Đá",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Bàn Nham Bách Tướng - Hấp Thụ Nguyên Tố</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

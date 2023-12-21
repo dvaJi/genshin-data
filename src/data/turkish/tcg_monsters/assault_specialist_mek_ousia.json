@@ -1,0 +1,79 @@
+{
+  "_id": 3408,
+  "id": "assault_specialist_mek_ousia",
+  "name": "Hücum Uzmanı Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rapid_melee",
+      "name": "Hızlı Yakın Dövüş",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shield_riposte",
+      "name": "Kalkan Karşı Saldırısı",
+      "desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Kalkan Bloku</span> kazanır. <span style=\"color:#FFFFFFFF\">Kalkan Kesiği</span> için <span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span> kullanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shield_sweep",
+      "name": "Kalkan Savurma",
+      "desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve rakibin hazırdaki karakterlerine 2 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Delme Hasarı</span></span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Arkhe: Öz",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

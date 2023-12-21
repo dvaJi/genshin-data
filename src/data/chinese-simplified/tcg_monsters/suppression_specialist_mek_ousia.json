@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "压制特化型机关·荒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "短点射",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "面状射击",
+      "desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害</span>，对所有后台敌人造成<span style=\"color:#FFFFFFFF\">1点<span style=\"color:#FFFFFFFF\">穿透伤害</span></span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "组合射击",
+      "desc": "造成2点<span style=\"color:#FF9999FF\">火元素伤害</span>，然后分别<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">组合射击·轻弹连射</span>和<span style=\"color:#FFFFFFFF\">组合射击·重弹侵彻</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "能源特征：荒性",
+      "desc": "<span style=\"color:#FFFFFFFF\">受到具有「始基力：芒性」的角色造成的伤害后：</span>此角色转换为<span style=\"color:#FFFFFFFF\">「失能形态」</span>，并且直到本回合结束前<span style=\"color:#FFFFFFFF\">无法使用技能</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

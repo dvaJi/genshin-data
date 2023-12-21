@@ -1,0 +1,79 @@
+{
+  "_id": 3308,
+  "id": "suppression_specialist_mek_ousia",
+  "name": "Robot Áp Chế Chuyên Dụng - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shortrange_snap_fire",
+      "name": "Bắn Tỉa Đoạn Ngắn",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spread_fire",
+      "name": "Xạ Kích Ngắm Thẳng",
+      "desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, gây <span style=\"color:#FFFFFFFF\">1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span></span> cho tất cả nhân vật dự bị phe địch.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "combined_fire",
+      "name": "Tổ Hợp Xạ Kích",
+      "desc": "Gây 2 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa</span>, sau đó lần lượt <span style=\"color:#FFFFFFFF\">Chuẩn Bị Kỹ Năng</span>: <span style=\"color:#FFFFFFFF\">Tổ Hợp Xạ Kích - Xả Đạn Hạng Nhẹ</span> và <span style=\"color:#FFFFFFFF\">Tổ Hợp Xạ Kích - Xuyên Thủng Hạng Nặng</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Đặc Tính Năng Lượng: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Sau khi chịu sát thương có Sức Mạnh Nền Tảng: Pneuma do nhân vật gây ra:</span> Nhân vật này đổi sang <span style=\"color:#FFFFFFFF\">Trạng Thái Mất Năng Lượng</span>, và <span style=\"color:#FFFFFFFF\">không thể dùng kỹ năng</span> cho đến trước khi hiệp này kết thúc.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

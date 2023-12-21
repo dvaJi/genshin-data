@@ -1,0 +1,79 @@
+{
+  "_id": 2102,
+  "id": "la_signora",
+  "name": "La Signora",
+  "title": "ผู้บริหารอันดับที่แปด - \"La Signora\"",
+  "desc": "สีแดงเข้มราวกับแสงแห่งรุ่งอรุณสะท้อนอยู่ในนัยน์ตาของเธอ ในที่สุดเธอก็สยายปีกแห่งเปลวเพลิงและโบยบินสู่อรุณรุ่ง\\n\"แต่นั่นไม่ใช่แสงแรกแห่งรุ่งอรุณหรอกนะ Rosalyne ที่รัก มันคือทะเลเพลิงที่แผดเผาทุกสิ่งทุกอย่างต่างหากล่ะ\"\\nแต่สิ่งนี้ก็ไม่ได้สำคัญอะไร เพราะเธอรู้อยู่แก่ใจดี ว่าเธอได้ถูกเปลวไฟกลืนกินไปตั้งนานแล้ว",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["Fatui"],
+    "source": "ได้รับหลังจากเอาชนะ \"La Signora\" ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Frostblade Hailstorm",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Biting Shards",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Sheer Cold</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Carmine Chrysalis",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 4 หน่วย และรักษาตัวละครนี้ 2 หน่วย ลบล้าง <span style=\"color:#FFFFFFFF\">Ice-Sealed Crimson Witch of Embers</span> และตัวละครนี้จะเปลี่ยนเป็น <span style=\"color:#FFFFFFFF\">\"Crimson Witch of Embers\"</span> อย่างถาวร",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Might of Delusion",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Ice-Sealed Crimson Witch of Embers</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

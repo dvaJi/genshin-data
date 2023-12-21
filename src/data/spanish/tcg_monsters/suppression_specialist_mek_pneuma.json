@@ -1,0 +1,79 @@
+{
+  "_id": 3704,
+  "id": "suppression_specialist_mek_pneuma",
+  "name": "Mecaespecialista Inhibidor - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "precision_shot",
+      "name": "Disparo preciso",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wildgrass_ball",
+      "name": "Proyectil silvestre",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "launch_grenade",
+      "name": "Lanzamiento explosivo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e invoca una <span style=\"color:#FFFFFFFF\">munición de detonación retardada</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Energía pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: ousía</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

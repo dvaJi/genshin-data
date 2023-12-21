@@ -1,0 +1,72 @@
+{
+  "_id": 6304,
+  "id": "crimson_witch_of_embers",
+  "name": "Тлеющая алая ведьма",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Фатуи"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "crimson_lotus_moth",
+      "name": "Алый мотылёк",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "decimating_lash",
+      "name": "Хлыст опустошения",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 2 ед. Цель получает состояние <span style=\"color:#FFFFFFFF\">Пылающий жар</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "whirling_blaze",
+      "name": "Кружащийся блеск",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 6 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

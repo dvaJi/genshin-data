@@ -1,0 +1,72 @@
+{
+  "_id": 1606,
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "\"Canine Warrior\" Gorou",
+  "desc": "The leader of the pack, leading the soldiers onward!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Bow",
+    "faction": ["Inazuma"],
+    "source": "Reward for inviting Gorou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+  },
+  "skills": [
+    {
+      "id": "ripping_fang_fletching",
+      "name": "Ripping Fang Fletching",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "Inuzaka All-Round Defense",
+      "desc": "Deals 2 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">General's War Banner</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "Juuga: Forward Unto Victory",
+      "desc": "Deals 2 <span style=\"color:#FFE699FF\">Geo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">General's War Banner</span>, summons <span style=\"color:#FFFFFFFF\">General's Glory</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

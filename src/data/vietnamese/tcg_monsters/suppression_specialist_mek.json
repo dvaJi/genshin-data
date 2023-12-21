@@ -1,0 +1,66 @@
+{
+  "_id": 3007,
+  "id": "suppression_specialist_mek",
+  "name": "Robot Áp Chế Chuyên Dụng",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "longrange_fire",
+      "name": "Bắn Tỉa Từ Xa",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "retreating_fire",
+      "name": "Xạ Kích Rút Lui",
+      "desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>, phe ta đổi sang nhân vật kế tiếp.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "burst_fire",
+      "name": "Xạ Kích Bùng Nổ",
+      "desc": "Gây 4 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

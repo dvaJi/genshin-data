@@ -1,0 +1,79 @@
+{
+  "_id": 4105,
+  "id": "la_signora",
+  "name": "Signora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "frostblade_hailstorm",
+      "name": "Blizzard cinglant",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "biting_shards",
+      "name": "Épine mordante",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et applique le <span style=\"color:#FFFFFFFF\">Grand froid</span> au personnage choisi.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "carmine_chrysalis",
+      "name": "Chrysalide carmin",
+      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>, soigne le personnage pour 2 pts et annule la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace</span>, le personnage changeant de façon permanente en <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "might_of_delusion",
+      "name": "Pouvoir de tromperie",
+      "desc": "(Passif) Applique la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 4305,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremite Scorching Loremaster",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["กลุ่ม Eremite"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Searing Glare",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Blazing Strike",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Spirit of Omen's Awakening: Pyro Scorpion",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Spirit of Omen's Power",
+      "desc": "[ติดตัว] <span style=\"color:#FFFFFFFF\">หลังจากที่ตัวละครนี้ได้รับความเสียหาย:</span> หากค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 7 หน่วย จะได้รับ<span style=\"color:#FFFFFFFF\">พลังงาน</span> 1 หน่วย (จำกัดดูเอลละ 1 ครั้ง)",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 2303,
+  "id": "eremite_scorching_loremaster",
+  "name": "Eremita maestra del folklore infuocato",
+  "title": "Eremita maestra del folklore infuocato, Poesia e storie segrete",
+  "desc": "Coloro che ancora rammentano non tradiranno mai lo spirito delle sabbie che tutt'ora scorre nelle loro vene.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": ["Eremiti"],
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Eremita maestra del folklore infuocato in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "Bagliore ardente",
+      "desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "Assalto rovente",
+      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "Risveglio dello Spirito del presagio: Scorpione di Pyro",
+      "desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Spirito del presagio: Scorpione di Pyro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Potere dello spirito del presagio",
+      "desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Quando questo personaggio subisce DAN:</span> se i PS di questo personaggio sono 7 o meno, ottiene 1 punto <span style=\"color:#FFFFFFFF\">Energia</span> (una volta per partita).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

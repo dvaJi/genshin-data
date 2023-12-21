@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "Alhaitham",
+  "title": "\"Uyarı Talimatı\" Alhaitham",
+  "desc": "Öğrenmek, düşünmek ve işleri halletmek.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Kılıç",
+    "faction": ["Sumeru"],
+    "source": "Alhaitham'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "Sürükleyici Tartışma",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "Evrensellik: Ayna Teorisi",
+      "desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "Bağlam Alanı: Görüntü Zinciri",
+      "desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir, <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> harcayarak <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi</span> miktarına göre Hasar bonusu verir.<br/><span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi</span> 0/1/2 ise bu karaktere 3/2/1 <span style=\"color:#FFFFFFFF\">Tur Süresi</span> bulunan <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> uygulanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

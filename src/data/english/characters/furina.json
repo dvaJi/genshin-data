@@ -25,7 +25,7 @@
       "_id": 10891,
       "id": "normal_attack_soloists_solicitation",
       "name": "Normal Attack: Soloist's Solicitation",
-      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" are present, their lineup will switch in response.<br/><br/><span>Arkhe: Seats Sacred and Secular</span><br/>At intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current alignment, dealing <span>Hydro DMG</span> based on her current alignment.<br/>When Furina takes the field, her starting Arkhe will be Ousia.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash a solo dance, dealing Physical DMG to nearby opponents and changing her Arkhe alignment. If Salon Members or the Singer of Many Waters summoned by her Elemental Skill \"Salon Solitaire\" is present, their lineup will switch in response.<br/><br/><span>Arkhe: Seats Sacred and Secular</span><br/>At intervals, when Furina's Normal Attacks hit, a Spiritbreath Thorn or a Surging Blade will descend based on her current Arkhe alignment, dealing Pneuma- or Ousia-aligned <span>Hydro DMG</span>.<br/>When Furina takes the field, her starting Arkhe alignment will be Ousia.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -234,7 +234,7 @@
       "_id": 10892,
       "id": "salon_solitaire",
       "name": "Salon Solitaire",
-      "description": "Invites the guests of the Salon Solitaire to come forth and abet in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current <span>Arkhe alignment</span>.<br/><br/><span>Ousia</span><br/>Foaming bubbles like celebrants shall dance, dealing <span>AoE Hydro DMG</span> based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.<br/>They will attack nearby opponents at intervals, prioritizing the target of the active character, dealing <span>Hydro</span> DMG based on Max HP.<br/>When they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If the characters who meet these requirements are 1/2/3/4 (or more), the Members' attacks will deal 110%/120%/130%/140% of their original DMG.<br/><br/><span>Pneuma</span><br/>Summons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.<br/><br/>The Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the initial duration.<br/>While the Salon Members and the Singer of Many Waters are on the field, Furina can move on the water's surface.",
+      "description": "Invites the guests of the Salon Solitaire to come forth and aid in Furina's performance. Will summon either the Salon Members or the Singer of Many Waters based on Furina's current <span>Arkhe alignment</span>.<br/><br/><span>Ousia</span><br/>Foaming bubbles like celebrants shall dance, dealing <span>AoE Hydro DMG</span> based on Furina's Max HP and summoning 3 Salon Members: the Ball Octopus-shaped Gentilhomme Usher, the Bubbly Seahorse-shaped Surintendante Chevalmarin, and the Armored Crab-shaped Mademoiselle Crabaletta.<br/>They will attack nearby opponents at intervals, prioritizing the target of the active character, dealing <span>Hydro</span> DMG based on Max HP.<br/>When they attack, if character(s) with more than 50% HP are nearby, the Members will increase their current attack's power based on the number of such characters, and consume said characters' HP. If 1/2/3/4 (or more) characters meet these requirements, the Members' attacks will deal 110%/120%/130%/140% of their original DMG.<br/><br/><span>Pneuma</span><br/>Summons the Singer of Many Waters, who will heal nearby active character(s) based on Max HP at intervals.<br/><br/>The Salon Members and Singer of Many Waters share a duration, and when Furina uses her Charged Attack to change the guest type, the new guests will inherit the remaining duration.<br/>While the Salon Members or the Singer of Many Waters is on the field, Furina can move on the water's surface.",
       "info": "A fixed roster of regulars frequent Furina's Salon Solitaire. At other times, Mademoiselle Crabaletta, Surintendante Chevalmarin, and Gentilhomme Usher shall visit, and on gloomy Wednesdays, it is the singer who comes by.",
       "attributes": [
         {
@@ -593,13 +593,13 @@
     {
       "id": "endless_waltz",
       "name": "Endless Waltz",
-      "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal a nearby party member for 2% of their Max HP once every 2s within the next 4s.",
+      "description": "When the active character in your party receives healing, if the source of the healing is not Furina herself and the healing overflows, then Furina will heal nearby party members for 2% of their Max HP once every 2s for the next 4s.",
       "level": 1
     },
     {
       "id": "unheard_confession",
       "name": "Unheard Confession",
-      "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <span>Salon Solitaire</span> in the following ways:<br/>Will increase Salon Member DMG dealt by 0.7%, up to a maximum of 28%.<br/>Will decrease active character healing interval of the Singer of Many Waters by 0.4%, up to a maximum of 16%.",
+      "description": "Every 1,000 points of Furina's Max HP can buff the different Arkhe-aligned <span>Salon Solitaire</span> in the following ways:<br/>Will increase Salon Members' DMG dealt by 0.7%, up to a maximum of 28%.<br/>Will decrease the Singer of Many Waters' healing interval for nearby active characters by 0.4%, up to a maximum of 16%.",
       "level": 4
     },
     {
@@ -635,7 +635,7 @@
       "_id": 894,
       "id": "they_know_not_life_who_dwelt_in_the_netherworld_not",
       "name": "\"They Know Not Life, Who Dwelt in the Netherworld Not!\"",
-      "description": "When the Salon Members from <span>Salon Solitaire</span> hit an opponent, or the Singer of Many Waters restores HP to the active character, Furina will restore 4 Energy. This effect triggers once every 5s.",
+      "description": "When the Salon Members from <span>Salon Solitaire</span> hit an opponent, or the Singer of Many Waters restores HP to nearby active characters, Furina will restore 4 Energy. This effect can be triggered once every 5s.",
       "level": 4
     },
     {

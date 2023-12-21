@@ -1,0 +1,86 @@
+{
+  "_id": 4405,
+  "id": "thunder_manifestation",
+  "name": "Манифестация грома",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 45,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "thunderous_wingslash",
+      "name": "Грозовой ветровал",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "strifeful_lightning",
+      "name": "Сильная молния",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 3 ед. персонажам противника, на которых действует <span style=\"color:#FFFFFFFF\">Искатель молний</span>. Если у противника нет подходящих персонажей, урон наносится активному персонажу.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shackles",
+      "name": "Громовые оковы",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Громовые оковы</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_probe",
+      "name": "Молниеносный зонд",
+      "desc": "(Пассивный навык) В начале битвы на стороне противника появляется <span style=\"color:#FFFFFFFF\">Зонд для поиска молнии</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "elemental_sedimentation_electro",
+      "name": "Скопление элементов: Электро",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Элементальные существа: Электро</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

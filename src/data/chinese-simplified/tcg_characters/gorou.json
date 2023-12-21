@@ -1,0 +1,72 @@
+{
+  "_id": 1606,
+  "id": "gorou",
+  "name": "五郎",
+  "title": "戎犬锵锵·五郎",
+  "desc": "锵锵领兵行！",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "弓",
+    "faction": ["稻妻"],
+    "source": "在猫尾酒馆中邀请五郎进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "ripping_fang_fletching",
+      "name": "呲牙裂扇箭",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "犬坂吠吠方圆阵",
+      "desc": "造成2点<span style=\"color:#FFE699FF\">岩元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">大将旗指物</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "兽牙逐突形胜战法",
+      "desc": "造成2点<span style=\"color:#FFE699FF\">岩元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">大将旗指物</span>，召唤<span style=\"color:#FFFFFFFF\">大将威仪</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

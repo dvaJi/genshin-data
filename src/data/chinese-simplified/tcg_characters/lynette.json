@@ -1,0 +1,72 @@
+{
+  "_id": 1508,
+  "id": "lynette",
+  "name": "琳妮特",
+  "title": "丽影绮行·琳妮特",
+  "desc": "水中窥月，洞见夜明。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "单手剑",
+    "faction": ["枫丹", "愚人众"],
+    "source": "在猫尾酒馆中邀请琳妮特进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "rapid_ritesword",
+      "name": "迅捷礼刺剑",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "enigmatic_feint",
+      "name": "谜影障身法",
+      "desc": "造成3点<span style=\"color:#80FFD7FF\">风元素伤害</span>，本回合第一次使用此技能、且自身生命值不多于8时治疗自身2点，但是附属<span style=\"color:#FFFFFFFF\">攻袭余威</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "magic_trick_astonishing_shift",
+      "name": "魔术·运变惊奇",
+      "desc": "造成2点<span style=\"color:#80FFD7FF\">风元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">惊奇猫猫盒</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

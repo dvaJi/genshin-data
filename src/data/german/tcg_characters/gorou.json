@@ -1,0 +1,72 @@
+{
+  "_id": 1606,
+  "id": "gorou",
+  "name": "Gorou",
+  "title": "Hundekrieger – Gorou",
+  "desc": "Hier kommt der Hundekrieger, der seine Soldaten vorwärts führt!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Bogen",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Gorou in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "ripping_fang_fletching",
+      "name": "Gefletschte Zähne",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "inuzaka_allround_defense",
+      "name": "Inuzuka-Allzweckaufstellung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Generalbanner</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "juuga_forward_unto_victory",
+      "name": "Juuga – Vorwärts zum Sieg",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Generalbanner</span> und 1 <span style=\"color:#FFFFFFFF\">Würde des Generals</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_id": 2303,
+  "id": "eremite_scorching_loremaster",
+  "name": "도금 여단·모래의 이야기꾼",
+  "title": "시와 비사·모래의 이야기꾼",
+  "desc": "오늘날에도 여전히 이야기를 기억하는 자는 몸속에 흐르는 사막의 피를 배신하지 않을 것이다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "기타 무기",
+    "faction": ["도금 여단"],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 도금 여단·모래의 이야기꾼에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "searing_glare",
+      "name": "용해의 빛",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_strike",
+      "name": "화염 결정 쇄도",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_pyro_scorpion",
+      "name": "악령 소생·마의 화염 전갈",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">악령·마의 화염 전갈</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "악령의 힘",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">이 캐릭터가 피해를 받은 후: </span>이 캐릭터의 HP가 7pt 이하이면 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다. (대전당 1회 제한)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 1706,
+  "id": "alhaitham",
+  "name": "アルハイゼン",
+  "title": "権謀教戒·アルハイゼン",
+  "desc": "学識、思考及び処世術。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "片手剣",
+    "faction": ["スメール"],
+    "source": "キャッツテールでアルハイゼンを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "abductive_reasoning",
+      "name": "リトロダクション",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universality_an_elaboration_on_form",
+      "name": "共相·イデア模写",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を2与え、本キャラに<span style=\"color:#FFFFFFFF\">琢光鏡</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "particular_field_fetters_of_phenomena",
+      "name": "殊境·顕象結縛",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を4与える。<span style=\"color:#FFFFFFFF\">琢光鏡</span>を消費し、消費した<span style=\"color:#FFFFFFFF\">琢光鏡</span>の<span style=\"color:#FFFFFFFF\">継続ラウンド数</span>分だけダメージが増加する。<br/>消費した<span style=\"color:#FFFFFFFF\">琢光鏡</span>の<span style=\"color:#FFFFFFFF\">継続ラウンド数</span>が0/1/2の場合、キャラにそれぞれ<span style=\"color:#FFFFFFFF\">継続ラウンド数</span>が3/2/1の<span style=\"color:#FFFFFFFF\">琢光鏡</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

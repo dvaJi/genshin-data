@@ -1,0 +1,79 @@
+{
+  "_id": 2602,
+  "id": "azhdaha",
+  "name": "若陀龍王",
+  "title": "古岩龍祖·若陀龍王",
+  "desc": "枷鎖的隱隱震響與龍祖低沉的怒吼，同記憶一般在山巒間迴盪。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度若陀龍王中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "sundering_charge",
+      "name": "碎岩衝撞",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "aura_of_majesty",
+      "name": "磅礴之氣",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>，如果發生了結晶反應，則角色<span style=\"color:#FFFFFFFF\">汲取對應元素的力量</span>。<br/>如果本技能中角色未汲取元素的力量，則附屬<span style=\"color:#FFFFFFFF\">磐岩百相·元素凝晶</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "decimating_rockfall",
+      "name": "山崩毀陣",
+      "desc": "造成4點<span style=\"color:#FFE699FF\">岩元素傷害</span>，每汲取過一種元素此傷害+1。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stone_facets",
+      "name": "磐岩百相",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">磐岩百相·元素汲取</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}
