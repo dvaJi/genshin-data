@@ -2,8 +2,8 @@
   "_id": 4405,
   "id": "thunder_manifestation",
   "name": "Thunder Manifestation",
-  "title": null,
-  "desc": null,
+  "title": "\"Lingering Hatred\" Thunder Manifestation",
+  "desc": "As long as the grudges of the land do not fade, so will the roaring thunder persist.",
   "attributes": {
     "hp": 45,
     "card_type": "Character Card",
@@ -11,13 +11,22 @@
     "element": "Electro",
     "weapon": "Other Weapons",
     "faction": ["Monster"],
-    "source": null
+    "talent_card": {
+      "_id": 4770,
+      "id": "grieving_echo",
+      "name": "Grieving Echo"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Thunder Manifestation",
+    "character": {
+      "id": "thunder_manifestation",
+      "name": "Thunder Manifestation"
+    }
   },
   "skills": [
     {
       "id": "thunderous_wingslash",
       "name": "Thunderous Wingslash",
-      "desc": "Deals 1 <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
       "skillTag": ["Normal Attack"],
       "points": [
         {
@@ -37,7 +46,7 @@
     {
       "id": "strifeful_lightning",
       "name": "Strifeful Lightning",
-      "desc": "Deals 3 <span style=\"color:#FFACFFFF\">Electro DMG</span> to the opposing character affected by <span style=\"color:#FFFFFFFF\">Lightning Rod</span>. (If there are no eligible opposing characters, deals DMG to the active character instead)",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span> to the opposing character affected by <span style=\"color:#FFFFFFFF\">Lightning Rod</span>. (If there are no eligible opposing characters, deals DMG to the active character instead)",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -51,7 +60,7 @@
     {
       "id": "thundering_shackles",
       "name": "Thundering Shackles",
-      "desc": "Deals 2 <span style=\"color:#FFACFFFF\">Electro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Thundering Shackles</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Thundering Shackles</span>.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {

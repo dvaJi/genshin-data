@@ -1,0 +1,79 @@
+{
+  "_id": 3207,
+  "id": "large_hydro_slime",
+  "name": "Large Hydro Slime",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Ram",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubble_spray",
+      "name": "Bubble Spray",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. The target character receives <span style=\"color:#FFFFFFFF\">Gurgling Bubble</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Jumping Slam",
+      "desc": "Deals 5 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

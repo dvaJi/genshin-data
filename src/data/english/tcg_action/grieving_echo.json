@@ -6,16 +6,24 @@
   "desc": "That which drives the Thunder Manifestation is a much more primal fury...",
   "in_play_description": "When <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span>, with this card equipped, is in play, when opponents with <span style=\"color:#FFFFFFFF\">Lightning Rod</span> attached take DMG: You draw 1 card (Once per Round)",
   "attributes": {
-    "cost": 0,
+    "cost": 3,
+    "cost_type": "Electro",
     "card_type": "Equipment Card",
-    "energy": [],
+    "energy": [
+      {
+        "_id": 1104,
+        "id": "electro",
+        "type": "Electro",
+        "count": 3
+      }
+    ],
     "source": "Reward for accepting the Tavern Challenge against the Thunder Manifestation at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-    "tags": ["Talent"]
+    "tags": ["Talent", "Combat Action"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "When <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span>, with this card equipped, is in play, when opponents with <span style=\"color:#FFFFFFFF\">Lightning Rod</span> attached take DMG: You draw 1 card (Once per Round)<br/>(Your deck must contain Thunder Manifestation to add this card to your deck)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Combat Action</span>: When your active character is <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span>, equip this card.<br/>After Thunder Manifestation equips this card, immediately use <span style=\"color:#FFD780FF\">Strifeful Lightning</span> once.<br/>When your <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span> is on the field and has this card equipped, when an opponent with <span style=\"color:#FFFFFFFF\">Lightning Rod</span> attached takes DMG: You draw 1 card. (Once per Round)<br/>(You must have Thunder Manifestation in your deck to add this card to your deck.)"
     }
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "_id": 1311,
+  "id": "thoma",
+  "name": "Thoma",
+  "title": "\"Protector From Afar\" Thoma",
+  "desc": "A protector from abroad, loyal to the end.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "faction": ["Inazuma"],
+    "source": "Reward for inviting Thoma to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+  },
+  "skills": [
+    {
+      "id": "swiftshatter_spear",
+      "name": "Swiftshatter Spear",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "Blazing Blessing",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <span style=\"color:#FFFFFFFF\">Blazing Barrier</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "Crimson Ooyoroi",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <span style=\"color:#FFFFFFFF\">Blazing Barrier</span> and <span style=\"color:#FFFFFFFF\">Scorching Ooyoroi</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

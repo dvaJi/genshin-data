@@ -11,7 +11,18 @@
     "element": "Hydro",
     "weapon": "Bow",
     "faction": ["Liyue"],
-    "source": "Reward for inviting Yelan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+    "talent_card": {
+      "_id": 4761,
+      "id": "turn_control",
+      "name": "Turn Control"
+    },
+    "source": "Reward for inviting Yelan to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "character": {
+      "_id": 10000060,
+      "id": "yelan",
+      "name": "Yelan",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -37,7 +48,7 @@
     {
       "id": "lingering_lifeline",
       "name": "Lingering Lifeline",
-      "desc": "Deals 3 <span style=\"color:#80C0FFFF\">Hydro DMG</span>. This character gains 2 <span style=\"color:#FFFFFFFF\">Breakthrough</span> stacks.",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>. This character gains 2 <span style=\"color:#FFFFFFFF\">Breakthrough</span> stacks.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -51,7 +62,7 @@
     {
       "id": "depthclarion_dice",
       "name": "Depth-Clarion Dice",
-      "desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Exquisite Throw</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Exquisite Throw</span>.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {

@@ -11,13 +11,22 @@
     "element": "Pyro",
     "weapon": "Other Weapons",
     "faction": ["The Eremites"],
-    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Eremite Scorching Loremaster"
+    "talent_card": {
+      "_id": 4769,
+      "id": "scorpocalypse",
+      "name": "Scorpocalypse"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Eremite Scorching Loremaster",
+    "character": {
+      "id": "eremite_scorching_loremaster",
+      "name": "Eremite Scorching Loremaster"
+    }
   },
   "skills": [
     {
       "id": "searing_glare",
       "name": "Searing Glare",
-      "desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
       "skillTag": ["Normal Attack"],
       "points": [
         {
@@ -37,7 +46,7 @@
     {
       "id": "blazing_strike",
       "name": "Blazing Strike",
-      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -51,7 +60,7 @@
     {
       "id": "spirit_of_omens_awakening_pyro_scorpion",
       "name": "Spirit of Omen's Awakening: Pyro Scorpion",
-      "desc": "Deals 2 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {

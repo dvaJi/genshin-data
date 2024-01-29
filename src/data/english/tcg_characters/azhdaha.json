@@ -11,7 +11,16 @@
     "element": "Geo",
     "weapon": "Other Weapons",
     "faction": ["Monster"],
-    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Azhdaha"
+    "talent_card": {
+      "_id": 4772,
+      "id": "lunar_cycles_unending",
+      "name": "Lunar Cycles Unending"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Azhdaha",
+    "character": {
+      "id": "azhdaha",
+      "name": "Azhdaha"
+    }
   },
   "skills": [
     {
@@ -37,7 +46,7 @@
     {
       "id": "aura_of_majesty",
       "name": "Aura of Majesty",
-      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>. If a Crystallize reaction occurs, then this character will perform <span style=\"color:#FFFFFFFF\">Elemental Absorption</span>.<br/>If during the usage of this skill, the character hasn't absorbed an element's power yet, then <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Crystallization</span> will be attached.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>. If a Crystallize reaction occurs, then this character will perform <span style=\"color:#FFFFFFFF\">Elemental Absorption</span>.<br/>If during the usage of this skill, the character hasn't absorbed an element's power yet, then <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Crystallization</span> will be attached.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -51,7 +60,7 @@
     {
       "id": "decimating_rockfall",
       "name": "Decimating Rockfall",
-      "desc": "Deals 4 <span style=\"color:#FFE699FF\">Geo DMG</span>. DMG +1 for each element previously absorbed.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>. DMG +1 for each element previously absorbed.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {

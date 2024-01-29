@@ -11,13 +11,24 @@
     "element": "Pyro",
     "weapon": "Bow",
     "faction": ["Fontaine", "Fatui"],
-    "source": "Reward for inviting Lyney to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+    "talent_card": {
+      "_id": 4762,
+      "id": "conclusive_ovation",
+      "name": "Conclusive Ovation"
+    },
+    "source": "Reward for inviting Lyney to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "character": {
+      "_id": 10000084,
+      "id": "lyney",
+      "name": "Lyney",
+      "rarity": 5
+    }
   },
   "skills": [
     {
       "id": "card_force_translocation",
       "name": "Card Force Translocation",
-      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
       "skillTag": ["Normal Attack"],
       "points": [
         {
@@ -37,7 +48,7 @@
     {
       "id": "prop_arrow",
       "name": "Prop Arrow",
-      "desc": "Deals 2 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons a <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.<br/>If this character has at least 6 HP, then they deal 1 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to themself.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>, summons a <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.<br/>If this character has at least 6 HP, then they deal 1 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to themself.",
       "skillTag": ["Normal Attack"],
       "points": [
         {
@@ -51,7 +62,7 @@
     {
       "id": "bewildering_lights",
       "name": "Bewildering Lights",
-      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -65,7 +76,7 @@
     {
       "id": "wondrous_trick_miracle_parade",
       "name": "Wondrous Trick: Miracle Parade",
-      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span>, and gains 1 stack of <span style=\"color:#FFFFFFFF\">Prop Surplus</span>.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {

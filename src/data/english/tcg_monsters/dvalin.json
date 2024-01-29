@@ -2,8 +2,8 @@
   "_id": 4506,
   "id": "dvalin",
   "name": "Dvalin",
-  "title": null,
-  "desc": null,
+  "title": "\"Dragon of the East\" Dvalin",
+  "desc": "\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.\"\\n\"Then you would know that this sky and this earth are both things worth fighting for.\"",
   "attributes": {
     "hp": 10,
     "card_type": "Character Card",
@@ -11,7 +11,16 @@
     "element": "Anemo",
     "weapon": "Other Weapons",
     "faction": ["Monster"],
-    "source": null
+    "talent_card": {
+      "_id": 4771,
+      "id": "rending_vortex",
+      "name": "Rending Vortex"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Dvalin",
+    "character": {
+      "id": "stormterror",
+      "name": "Stormterror"
+    }
   },
   "skills": [
     {
@@ -37,7 +46,7 @@
     {
       "id": "tempestuous_barrage",
       "name": "Tempestuous Barrage",
-      "desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. The target character receives <span style=\"color:#FFFFFFFF\">Total Collapse</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>. The target character receives <span style=\"color:#FFFFFFFF\">Total Collapse</span>.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -51,7 +60,7 @@
     {
       "id": "dvalins_cleansing",
       "name": "Dvalin's Cleansing",
-      "desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span> and then separately performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Perpetual Cleansing</span> and <span style=\"color:#FFFFFFFF\">Ultimate Cleansing</span>.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span> and then separately performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Perpetual Cleansing</span> and <span style=\"color:#FFFFFFFF\">Ultimate Cleansing</span>.",
       "skillTag": ["Elemental Skill"],
       "points": [
         {
@@ -65,7 +74,7 @@
     {
       "id": "caelestinum_finale_termini",
       "name": "Caelestinum Finale Termini",
-      "desc": "Deals 5 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. Applies <span style=\"color:#FFFFFFFF\">Total Collapse</span> to all opposing standby characters.",
+      "desc": "Deals $[D__KEY__DAMAGE] <span style=\"color:#FFFFFFFF\">Physical DMG</span>. Applies <span style=\"color:#FFFFFFFF\">Total Collapse</span> to all opposing standby characters.",
       "skillTag": ["Elemental Burst"],
       "points": [
         {
