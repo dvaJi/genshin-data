@@ -1,8 +1,14 @@
+## [0.39.0](https://github.com/dvaJi/genshin-data/compare/0.38.0...0.39.0) (2024-01-29)
+
+### Features
+
+- update data to GI v4.4 [f449d13](https://github.com/dvaJi/genshin-data/commit/f449d133ad4d3bd3ab1f9e6b45cc658daa5ece07) [@dvaJi](https://github.com/dvaJi)
+
 ## [0.38.0](https://github.com/dvaJi/genshin-data/compare/0.37.1...0.38.0) (2023-12-20)
 
 ### Features
 
-- update data to GI v4.2 [1600eba](https://github.com/dvaJi/genshin-data/commit/1600ebaf89d135ba2428150adda428da81503740) [@dvaJi](https://github.com/dvaJi)
+- update data to GI v4.3 [1600eba](https://github.com/dvaJi/genshin-data/commit/1600ebaf89d135ba2428150adda428da81503740) [@dvaJi](https://github.com/dvaJi)
 
 ## [0.37.1](https://github.com/dvaJi/genshin-data/compare/0.37.0...0.37.1) (2023-12-18)
 
