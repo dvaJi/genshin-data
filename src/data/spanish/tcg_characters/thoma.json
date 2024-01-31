@@ -1,0 +1,73 @@
+{
+  "_id": 1311,
+  "id": "thoma",
+  "shareId": 319,
+  "name": "Thoma",
+  "title": "Thoma - El Protector de Tierras Lejanas",
+  "desc": "Un protector procedente de lejos, fiel hasta el final.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Thoma en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "swiftshatter_spear",
+      "name": "Lanza devastadora",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "Bendición incandescente",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">escudo llameante</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "Armadura calcinante",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">escudo llameante</span> y una <span style=\"color:#FFFFFFFF\">coraza abrasadora</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

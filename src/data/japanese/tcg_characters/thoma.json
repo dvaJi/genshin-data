@@ -1,0 +1,73 @@
+{
+  "_id": 1311,
+  "id": "thoma",
+  "shareId": 319,
+  "name": "トーマ",
+  "title": "渡来介者·トーマ",
+  "desc": "渡来介者、赤袖丹心。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "長柄武器",
+    "faction": ["稲妻"],
+    "source": "キャッツテールでトーマを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "swiftshatter_spear",
+      "name": "瞬破槍勢",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "烈炎侍立",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">烈炎侍立シールド</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "真紅熾炎の大鎧",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">烈炎侍立シールド</span>と<span style=\"color:#FFFFFFFF\">熾炎の大鎧</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -19,6 +19,7 @@ export interface CharacterCardSkill {
 export interface TCGCharacterCard {
   _id: number;
   id: string;
+  shareId: number;
   name: string;
   attributes: {
     hp: number;

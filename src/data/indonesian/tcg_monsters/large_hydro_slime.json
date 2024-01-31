@@ -1,0 +1,80 @@
+{
+  "_id": 3207,
+  "id": "large_hydro_slime",
+  "shareId": 3207,
+  "name": "Large Hydro Slime",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Ram",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubble_spray",
+      "name": "Bubble Spray",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/>Karakter target menerima <span style=\"color:#FFFFFFFF\">Gurgling Bubble</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Jumping Slam",
+      "desc": "Mengakibatkan 5 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

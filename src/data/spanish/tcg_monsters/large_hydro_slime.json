@@ -1,0 +1,80 @@
+{
+  "_id": 3207,
+  "id": "large_hydro_slime",
+  "shareId": 3207,
+  "name": "Slime Hydro Gigante",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Placaje",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubble_spray",
+      "name": "Lanzaburbujas",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">burbuja gorgoteante</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Salto aplastante",
+      "desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Sedimento elemental: Hydro",
+      "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de un <span style=\"color:#FFFFFFFF\">Ser elemental: Hydro</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

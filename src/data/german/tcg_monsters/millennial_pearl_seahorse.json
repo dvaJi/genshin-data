@@ -1,0 +1,80 @@
+{
+  "_id": 4407,
+  "id": "millennial_pearl_seahorse",
+  "shareId": 4407,
+  "name": "Millenniums-Perlenseepferd",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 27,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "tail_sweep",
+      "name": "Schwanzfeger",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_school_of_fish",
+      "name": "Wirbelnder Fischschwarm",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Wenn die aktuelle Figur bereits mit der <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span> ausgerüstet ist, deren <span style=\"color:#FFFFFFFF\">Einsatzmöglichkeit</span> +1 (1-mal pro Runde).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fontemer_hoarthunder",
+      "name": "Uralter Fontemer-Donner",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span> und erschafft 1 <span style=\"color:#FFFFFFFF\">Resonanz-Korallenperle</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pearl_armor",
+      "name": "Glänzende Perlenrüstung",
+      "desc": "Passiv – Erhält selbst zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

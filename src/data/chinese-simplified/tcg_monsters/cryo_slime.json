@@ -1,0 +1,66 @@
+{
+  "_id": 3107,
+  "id": "cryo_slime",
+  "shareId": 3107,
+  "name": "冰史莱姆",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "冲撞",
+      "desc": "造成1点<span style=\"color:#99FFFFFF\">冰元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "跳跃冲击",
+      "desc": "造成4点<span style=\"color:#99FFFFFF\">冰元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_cryo",
+      "name": "元素沉积·冰",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">元素生命·冰</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_id": 3107,
+  "id": "cryo_slime",
+  "shareId": 3107,
+  "name": "Cryoblob",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Heurt",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Saut écrasant",
+      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_cryo",
+      "name": "Dépôt d'élément Cryo",
+      "desc": "(Passif) Applique un <span style=\"color:#FFFFFFFF\">entité élémentaire Cryo</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

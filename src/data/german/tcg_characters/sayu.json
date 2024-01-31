@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "Sayu",
+  "title": "Mujina-Ninja – Sayu",
+  "desc": "Verträumt und an deiner Seite, wie eine Figur aus einem Traum.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Zweihänder",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Sayu in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "Ninja-Klinge des Shuumatsuban",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "Juhu-Stil – Fuuin-Stoß",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, diese Figur <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Fuufuu-Windradtritt</span>.<br/>Wenn die aktuelle Fähigkeit Verwirbelung auslöst, verursacht <span style=\"color:#FFFFFFFF\">Fuufuu-Windradtritt</span> nun einen Elementar-SCH des von der Verwirbelung betroffenen Elements.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "Juhu-Stil – Mujina-Wirrsal",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Mujimuji-Daruma</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

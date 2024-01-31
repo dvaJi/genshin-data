@@ -1,0 +1,80 @@
+{
+  "_id": 2103,
+  "id": "cryo_hypostasis",
+  "shareId": 321,
+  "name": "Kryo-Hypostase",
+  "title": "Kryo-Hypostase",
+  "desc": "Codename „Daleth“, ein hoch entwickeltes Kryo-Lebewesen.\\nScheint nicht gerade geschickt zu sein, wenn es um Ballsportarten geht ...",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kryo-Hypostase in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "icespike_shot",
+      "name": "Eiszapfen-Schuss",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ice_ring_waltz",
+      "name": "Eisring-Walzer",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Überwältigende Eiszapfen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "plunging_ice_shards",
+      "name": "Stürzende Eiszapfen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, fügt allen inaktiven Figuren deines Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu, erschafft 1 <span style=\"color:#FFFFFFFF\">Durchbohrende Eiszapfen</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "cryo_crystal_core",
+      "name": "Kryo-Kristallkern",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Kryo-Kristallkern</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

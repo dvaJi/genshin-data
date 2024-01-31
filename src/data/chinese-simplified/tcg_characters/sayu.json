@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "早柚",
+  "title": "忍里之貉·早柚",
+  "desc": "一梦作伴，万野无踪。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "双手剑",
+    "faction": ["稻妻"],
+    "source": "在猫尾酒馆中邀请早柚进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "忍刀·终末番",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "呜呼流·风隐急进",
+      "desc": "造成2点<span style=\"color:#80FFD7FF\">风元素伤害</span>，本角色<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">风风轮舞踢</span>。<br/>如果当前技能引发了扩散，则<span style=\"color:#FFFFFFFF\">风风轮舞踢</span>将改为造成被扩散元素的伤害。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "呜呼流·影貉缭乱",
+      "desc": "造成1点<span style=\"color:#80FFD7FF\">风元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">不倒貉貉</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

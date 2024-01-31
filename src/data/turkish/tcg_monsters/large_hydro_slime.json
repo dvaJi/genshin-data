@@ -1,0 +1,80 @@
+{
+  "_id": 3207,
+  "id": "large_hydro_slime",
+  "shareId": 3207,
+  "name": "Büyük Su Bodurlopu",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Koçbaşı",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubble_spray",
+      "name": "Balon Spreyi",
+      "desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Çağlayan Baloncuk</span> eklenir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Sıçrama Vuruşu",
+      "desc": "5 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Element Tortulaşması: Su",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Element Yaşam Formu: Su</span> etkisi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "Sayu",
+  "title": "\"Mujina Ninja\" Sayu",
+  "desc": "Di sisimu tanpa jejak bak seorang karakter dalam mimpi.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Claymore",
+    "faction": ["Inazuma"],
+    "source": "Didapatkan setelah mengundang Sayu ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "Shuumatsuban Ninja Blade",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "Yoohoo Art: Fuuin Dash",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span>, lalu Karakter ini <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span> <span style=\"color:#FFFFFFFF\">Fuufuu Whirlwind Kick</span>.<br/>Jika Skill ini memicu reaksi Swirl, maka <span style=\"color:#FFFFFFFF\">Fuufuu Whirlwind Kick</span> akan berubah dan mengakibatkan DMG sesuai dengan elemen yang terpicu pada reaksi Swirl.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "Yoohoo Art: Mujina Flurry",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Muji-Muji Daruma</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

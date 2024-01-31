@@ -1,0 +1,66 @@
+{
+  "_id": 3107,
+  "id": "cryo_slime",
+  "shareId": 3107,
+  "name": "Slime Cryo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Colidir",
+      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Salto Impactante",
+      "desc": "Causa 4 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_cryo",
+      "name": "Sedimento Elemental - Cryo",
+      "desc": "(Passivo) Quando a batalha começa, aplica <span style=\"color:#FFFFFFFF\">Forma de Vida Elemental - Cryo</span> a este personagem.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

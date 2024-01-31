@@ -1,21 +1,30 @@
 {
   "_id": 224021,
   "id": "grieving_echo",
+  "shareId": 296,
   "name": "Echo der Trauer",
   "title": "Verkörperung des Donners – Echo der Trauer",
   "desc": "Es ist ein sehr primitiver und reiner Groll, der die Verkörperung des Donners antreibt.",
   "in_play_description": "Wenn die mit dieser Karte ausgerüstete <span style=\"color:#FFFFFFFF\">Verkörperung des Donners</span> auf dem Feld ist und die von <span style=\"color:#FFFFFFFF\">Kenntnis des Blitzes</span> betroffenen Figuren des Gegners dabei SCH erlitten haben: Du ziehst 1 Karte (1-mal pro Runde).",
   "attributes": {
-    "cost": 0,
+    "cost": 3,
+    "cost_type": "Elektro",
     "card_type": "Ausrüstungskarte",
-    "energy": [],
+    "energy": [
+      {
+        "_id": 1104,
+        "id": "electro",
+        "type": "Elektro",
+        "count": 3
+      }
+    ],
     "source": "Nach Erreichen des entsprechenden Ziels in einem „Duell – Nett“ mit der Verkörperung des Donners in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
-    "tags": ["Talent"]
+    "tags": ["Talent", "Kampfaktion"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "Wenn die mit dieser Karte ausgerüstete <span style=\"color:#FFFFFFFF\">Verkörperung des Donners</span> auf dem Feld ist und die von <span style=\"color:#FFFFFFFF\">Kenntnis des Blitzes</span> betroffenen Figuren des Gegners dabei SCH erlitten haben: Du ziehst 1 Karte (1-mal pro Runde).<br/>(Diese Karte kann nur einem Deck hinzugefügt werden, das Verkörperung des Donners enthält.)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Kampfaktion</span>: Ist deine aktive Figur <span style=\"color:#FFFFFFFF\">Verkörperung des Donners</span>, ist diese Karte anzulegen.<br/>Legt Verkörperung des Donners sie an, wird sofort 1-mal <span style=\"color:#FFD780FF\">Überwältige Blitzwand</span> angewendet.<br/>Ist <span style=\"color:#FFFFFFFF\">Verkörperung des Donners</span> ausgerüstet mit dieser Karte auf dem Feld und erleidet eine von <span style=\"color:#FFFFFFFF\">Kenntnis des Blitzes</span> betroffene gegnerische Figur SCH: Zieht 1 Karte (1-mal pro Runde).<br/>(Diese Karte kann nur einem Deck hinzugefügt werden, das Verkörperung des Donners enthält.)"
     }
   ]
 }

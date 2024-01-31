@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "Саю",
+  "title": "«Мудзина-ниндзя» Саю",
+  "desc": "Она сопровождает вас незримо, словно спутница, явившаяся во сне.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Двуручное",
+    "faction": ["Инадзума"],
+    "source": "Награда за приглашение Саю в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "Ниндзюцу Сюмацубан",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "Искусство Юху: Рывок Фуин",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 2 ед., у персонажа начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Удар вихря Фуфу</span>.<br/>Если текущее использование навыка вызвало Рассеивание, то <span style=\"color:#FFFFFFFF\">Удар вихря Фуфу</span> наносит урон элемента Рассеивания.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "Искусство Юху: Сумасшествие Мудзина",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед. Призывает помощника <span style=\"color:#FFFFFFFF\">Мудзи-Мудзи Дарума</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

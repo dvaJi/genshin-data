@@ -1,0 +1,80 @@
+{
+  "_id": 2403,
+  "id": "millennial_pearl_seahorse",
+  "shareId": 322,
+  "name": "천년 묵은 진주 기린",
+  "title": "천년 묵은 진주 기린",
+  "desc": "원류바다 이종의 최정상에 있는 두 패자 중 하나. 자태가 아름다워서 시인과 작가들에게 고고하고 고결한 생명으로 여겨지며 「기린」이라고 불린다",
+  "attributes": {
+    "hp": 8,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 천년 묵은 진주 기린에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "tail_sweep",
+      "name": "꼬리 부채질",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_school_of_fish",
+      "name": "춤추는 물고기 떼",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다.<br/>본 캐릭터에게 이미 <span style=\"color:#FFFFFFFF\">원류바다 진주</span>가 부착되어 있다면 해당 효과의 <span style=\"color:#FFFFFFFF\">사용 가능 횟수</span>가 1회 증가한다. (턴당 1회)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fontemer_hoarthunder",
+      "name": "원류바다 고대 번개",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">원류바다 진주</span>를 부착한 뒤 <span style=\"color:#FFFFFFFF\">공명 진주</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pearl_armor",
+      "name": "진주 갑옷",
+      "desc": "[패시브] 전투 시작 시, 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">원류바다 진주</span>가 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

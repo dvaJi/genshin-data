@@ -1,0 +1,80 @@
+{
+  "_id": 3207,
+  "id": "large_hydro_slime",
+  "shareId": 3207,
+  "name": "Большой Гидро слайм",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Таран",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bubble_spray",
+      "name": "Пузыристый спрей",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 2 ед. Цель получает <span style=\"color:#FFFFFFFF\">Булькающий пузырь</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "jumping_slam",
+      "name": "Шлепок в прыжке",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Скопление элементов: Гидро",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Элементальные существа: Гидро</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

@@ -17,6 +17,7 @@ interface Energy {
 export interface TCGActionCard {
   _id: number;
   id: string;
+  shareId: number;
   name: string;
   title: string;
   desc: string;

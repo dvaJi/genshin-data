@@ -1,0 +1,80 @@
+{
+  "_id": 4407,
+  "id": "millennial_pearl_seahorse",
+  "shareId": 4407,
+  "name": "Cavalo-Marinho Perolado Milenar",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 27,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "tail_sweep",
+      "name": "Golpe de Cauda",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_school_of_fish",
+      "name": "Cardume Rodopiante",
+      "desc": "Causa 3 de <span style=\"color:#FFACFFFF\">Dano Electro</span>.<br/>Se o personagem já estiver afetado por <span style=\"color:#FFFFFFFF\">Pérola Primordial</span>, ganha +1 de <span style=\"color:#FFFFFFFF\">Usos</span>. (Uma vez por Turno)",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fontemer_hoarthunder",
+      "name": "Trovão do Mar Primordial",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFACFFFF\">Dano Electro</span>, aplica <span style=\"color:#FFFFFFFF\">Pérola Primordial</span> a este personagem e invoca <span style=\"color:#FFFFFFFF\">Orbe de Coral Ressonante</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pearl_armor",
+      "name": "Armadura de Pérola",
+      "desc": "(Passivo) Quando a batalha começa, aplica <span style=\"color:#FFFFFFFF\">Pérola Primordial</span> a este personagem.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

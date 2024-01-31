@@ -1,0 +1,73 @@
+{
+  "_id": 1311,
+  "id": "thoma",
+  "shareId": 319,
+  "name": "Thoma",
+  "title": "Beschützer aus der Ferne – Thoma",
+  "desc": "Beschützer aus der Ferne, treu ergeben bis zum bitteren Ende.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Thoma in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "swiftshatter_spear",
+      "name": "Schneller Schmetterspeer",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "Lodernder Segen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Schild des lodernden Segens</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "Rote Ooyoroi",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft <span style=\"color:#FFFFFFFF\">Schild des lodernden Segens</span> und <span style=\"color:#FFFFFFFF\">Brennende Ooyoroi</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

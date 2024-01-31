@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "Sayu",
+  "title": "Sayu - La Tejón Ninja",
+  "desc": "A tu lado sin dejar rastro, como el personaje de un sueño.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Mandoble",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Sayu en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "Sable ninja de Los Ocelos",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "Técnica “¡Yujuuu!”: Colisión de viento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y este personaje <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Tornadopatada</span>.<br/>Si dicha habilidad causa una reacción de Torbellino, <span style=\"color:#FFFFFFFF\">Tornadopatada</span> pasa a infligir daño del elemento con el que reaccionó Torbellino.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "Técnica “¡Yujuuu!”: Frenesí tejón",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> e invoca un <span style=\"color:#FFFFFFFF\">tejón daruma</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

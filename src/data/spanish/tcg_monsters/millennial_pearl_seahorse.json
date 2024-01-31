@@ -1,0 +1,80 @@
+{
+  "_id": 4407,
+  "id": "millennial_pearl_seahorse",
+  "shareId": 4407,
+  "name": "Corcel de Mar Perlamilenario",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 27,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "tail_sweep",
+      "name": "Coletazo impetuoso",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_school_of_fish",
+      "name": "Girobanco de peces",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.<br/>Si este personaje ya está afectado por la <span style=\"color:#FFFFFFFF\">perla fontamararina</span>, número de <span style=\"color:#FFFFFFFF\">usos</span> +1 (1 vez por ronda).",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fontemer_hoarthunder",
+      "name": "Truenos fontamarinos",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">perla fontamararina</span> e invoca un <span style=\"color:#FFFFFFFF\">perla de coral resonante</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pearl_armor",
+      "name": "Coraza perlada",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">perla fontamararina</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

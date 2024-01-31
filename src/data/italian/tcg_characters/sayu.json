@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "Sayu",
+  "title": "Sayu, Ninja mujina",
+  "desc": "Sempre al tuo fianco senza lasciare traccia, come il personaggio di un sogno.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Claymore",
+    "faction": ["Inazuma"],
+    "source": "Ricompensa ottenuta sfidando Sayu a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "Lama ninja della Shuumatsuban",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "Arte Yoohoo: Scatto Fuuin",
+      "desc": "Infligge 2 <span style=\"color:#80FFD7FF\">DAN da Anemo</span> e il personaggio esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità</span> per <span style=\"color:#FFFFFFFF\">Calcio turbine Fuufuu</span>.<br/>Se questo uso dell'abilità innesca Turbinio, <span style=\"color:#FFFFFFFF\">Calcio turbine Fuufuu</span> infligge DAN del tipo elementale del Turbinio.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "Arte Yoohoo: Frullio Mujina",
+      "desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Daruma Muji-Muji</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

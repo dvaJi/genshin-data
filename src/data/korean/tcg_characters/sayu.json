@@ -1,0 +1,73 @@
+{
+  "_id": 1507,
+  "id": "sayu",
+  "shareId": 320,
+  "name": "사유",
+  "title": "닌자 너구리·사유",
+  "desc": "종적을 감춘 꿈꾸는 동반자",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "양손검",
+    "faction": ["이나즈마"],
+    "source": "캣테일 술집에서 사유 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "shuumatsuban_ninja_blade",
+      "name": "인도(忍刀)·종말번대",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_fuuin_dash",
+      "name": "유후류·풍은 돌진",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 2pt 주고 본 캐릭터가 <span style=\"color:#FFFFFFFF\">풍풍륜 발차기</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.<br/>현재 스킬이 확산을 발동했을 경우, <span style=\"color:#FFFFFFFF\">풍풍륜 발차기</span>가 확산된 원소 피해로 전환된다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "yoohoo_art_mujina_flurry",
+      "name": "유후류·너구리 분신술",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 1pt 주고 <span style=\"color:#FFFFFFFF\">너구리 오뚝이</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

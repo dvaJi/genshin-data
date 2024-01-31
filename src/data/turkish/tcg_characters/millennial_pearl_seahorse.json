@@ -1,0 +1,80 @@
+{
+  "_id": 2403,
+  "id": "millennial_pearl_seahorse",
+  "shareId": 322,
+  "name": "Bin Yıllık İnci Denizatı",
+  "title": "Bin Yıllık İnci Denizatı",
+  "desc": "Fontemer Sapkınlarının zirvesinde yer alan iki hükümdardan biri. Şairlerle yazarlara göre gururlu ve asil bir yaratık olduğundan ona yüce bir unvan bahşedilmiştir.",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Bin Yıllık İnci Denizatı ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "tail_sweep",
+      "name": "Kuyruk Savurma",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_school_of_fish",
+      "name": "Balık Sürüsü Dansı",
+      "desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir. Bu karaktere <span style=\"color:#FFFFFFFF\">Fontemer İncisi</span> eklenmişse onun <span style=\"color:#FFFFFFFF\">Kullanım Hakkı</span> 1 artar. (Her Turda bir defa)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "fontemer_hoarthunder",
+      "name": "Fontemer Tufanı",
+      "desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir, bu karaktere <span style=\"color:#FFFFFFFF\">Fontemer İncisi</span> ekler ve 1 <span style=\"color:#FFFFFFFF\">Yankılanan Mercan Küre</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pearl_armor",
+      "name": "İnci Zırh",
+      "desc": "(Pasif) Savaş başladığında bu karaktere <span style=\"color:#FFFFFFFF\">Fontemer İncisi</span> ekler.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

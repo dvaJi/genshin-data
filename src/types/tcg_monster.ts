@@ -19,6 +19,7 @@ export interface MonsterCardSkill {
 export interface TCGMonsterCard {
   _id: number;
   id: string;
+  shareId: number;
   name: string;
   title?: string;
   desc?: string;

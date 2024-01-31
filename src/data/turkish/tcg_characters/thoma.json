@@ -1,0 +1,73 @@
+{
+  "_id": 1311,
+  "id": "thoma",
+  "shareId": 319,
+  "name": "Thoma",
+  "title": "\"Uzaktan Gelen Koruyucu\" Thoma",
+  "desc": "Uzaklardan gelen bir koruyucu, sonuna kadar sadık.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Mızrak",
+    "faction": ["Inazuma"],
+    "source": "Thoma'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "swiftshatter_spear",
+      "name": "Hızlı Mızrak Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "blazing_blessing",
+      "name": "Alevli Lütuf",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Alev Bariyeri</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "crimson_ooyoroi",
+      "name": "Kızıl Ooyoroi",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, 1 <span style=\"color:#FFFFFFFF\">Alev Bariyeri</span> ve <span style=\"color:#FFFFFFFF\">Kavurucu Ooyoroi</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
