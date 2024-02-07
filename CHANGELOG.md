@@ -1,8 +1,8 @@
-## [0.39.1](https://github.com/dvaJi/genshin-data/compare/0.39.0...0.39.1) (2024-01-31)
+## [0.39.2](https://github.com/dvaJi/genshin-data/compare/0.39.1...0.39.2) (2024-02-06)
 
 ### Fixes
 
-- add missing files [7b09ccb](https://github.com/dvaJi/genshin-data/commit/7b09ccb0372ae3af6811c9a9611560dfc3f5581b) [@dvaJi](https://github.com/dvaJi)
+- **tcg** fix wanderer name [f191f74](https://github.com/dvaJi/genshin-data/commit/f191f745019da3212900a28a28610150973456be) [@dvaJi](https://github.com/dvaJi)
 
 ## [0.39.0](https://github.com/dvaJi/genshin-data/compare/0.38.0...0.39.0) (2024-01-29)
 
