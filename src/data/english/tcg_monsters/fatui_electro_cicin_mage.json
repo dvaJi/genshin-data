@@ -1,0 +1,73 @@
+{
+  "_id": 4408,
+  "id": "fatui_electro_cicin_mage",
+  "shareId": 4408,
+  "name": "Fatui Electro Cicin Mage",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Other Weapons",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "hurtling_bolts",
+      "name": "Hurtling Bolts",
+      "desc": "Deals 1 <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_call",
+      "name": "Misty Call",
+      "desc": "Summons 1 <span style=\"color:#FFFFFFFF\">Electro Cicin</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shield",
+      "name": "Thundering Shield",
+      "desc": "Deals 1 <span style=\"color:#FFACFFFF\">Electro DMG</span>, applies <span style=\"color:#FFACFFFF\">Electro Application</span> to this character, creates 1 <span style=\"color:#FFFFFFFF\">Electro Cicin Shield</span> and prepares <span style=\"color:#FFFFFFFF\">Surging Thunder</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "Segugio della Faglia Viltuono",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "Artigli corrosivi",
+      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> sul lato dell'avversario.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "Cristallo di Electro corrosivo",
+      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> sul lato dell'avversario.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "Morso divoratore",
+      "desc": "Infligge 6 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Corrosione</span> sul lato dell'avversario.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Divoraelementi",
+      "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene lo stato <span style=\"color:#FFFFFFFF\">Divoraelementi</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

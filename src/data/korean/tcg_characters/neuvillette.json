@@ -1,0 +1,73 @@
+{
+  "_id": 1210,
+  "id": "neuvillette",
+  "shareId": 335,
+  "name": "느비예트",
+  "title": "훈시의 파도 소리·느비예트",
+  "desc": "모든 높은 자를 내려다보는 자",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "법구",
+    "faction": ["폰타인"],
+    "source": "캣테일 술집에서 느비예트 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "as_water_seeks_equilibrium",
+      "name": "공평한 물처럼",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "o_tears_i_shall_repay",
+      "name": "눈물이여, 반드시 갚으리라",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">원천의 방울</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "o_tides_i_have_returned",
+      "name": "밀물이여, 내가 돌아왔노라",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 모든 적 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">관통 피해</span></span>를 1pt 주며 사용 가능 횟수가 2인 <span style=\"color:#FFFFFFFF\">원천의 방울</span>을 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

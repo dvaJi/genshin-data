@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "獣域ハウンド·雷",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "侵蝕の爪",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与え、相手のフィールドに<span style=\"color:#FFFFFFFF\">侵蝕</span>を生成する。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "侵蝕の雷晶",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を2与え、相手のフィールドに<span style=\"color:#FFFFFFFF\">侵蝕</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "喰魔の噛みつき",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を6与え、相手のフィールドに<span style=\"color:#FFFFFFFF\">侵蝕</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "喰魔",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">喰魔</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

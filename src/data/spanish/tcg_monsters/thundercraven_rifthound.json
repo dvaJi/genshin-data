@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "Sabueso Acechador Eléctrico",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "Garras corrosivas",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "Cristal electrocorrosivo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "Mordisco devorador",
+      "desc": "Inflige 6 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y produce <span style=\"color:#FFFFFFFF\">corrosión</span> en el campo del rival.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Devoración elemental",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">devoración elemental</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

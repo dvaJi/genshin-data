@@ -1,0 +1,73 @@
+{
+  "_id": 1110,
+  "id": "charlotte",
+  "shareId": 334,
+  "name": "シャルロット",
+  "title": "真実を求める曇りなきモノクル·シャルロット",
+  "desc": "「真実至上主義、優れたストーリー性！」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "法器",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでシャルロットを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "coolcolor_capture",
+      "name": "寒色撮影技法",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "framing_freezing_point_composition",
+      "name": "フレーミング·氷点法",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与え、目標に<span style=\"color:#FFFFFFFF\">スナップシルエット</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "still_photo_comprehensive_confirmation",
+      "name": "スチルフォト·多角的立証",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与え、味方のチーム全員のHPを1回復し、<span style=\"color:#FFFFFFFF\">スクープフィールド</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

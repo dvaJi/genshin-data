@@ -1,0 +1,73 @@
+{
+  "_id": 1707,
+  "id": "kirara",
+  "shareId": 336,
+  "name": "Kirara",
+  "title": "Abenteuer über den Dächern – Kirara",
+  "desc": "Mit doppeltem Schwanz und auf samtenen Pfoten erreicht sie jedes Haus.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Einhänder",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kirara in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "boxcutter",
+      "name": "Kartonschnitt",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "meowteor_kick",
+      "name": "Miauteoritentritt",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Neko-Sonderzustellung</span> und 1 <span style=\"color:#FFFFFFFF\">Schild für sicheren Transport</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_surprise_dispatch",
+      "name": "Geheime Kunst – Besondere Überraschung",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Katzengras-Kardamom</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

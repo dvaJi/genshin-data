@@ -1,0 +1,73 @@
+{
+  "_id": 1110,
+  "id": "charlotte",
+  "shareId": 334,
+  "name": "샤를로트",
+  "title": "진실을 쫓는 렌즈·샤를로트",
+  "desc": "「진실과 놀라움을 이야기로 엮자!」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "법구",
+    "faction": ["폰타인"],
+    "source": "캣테일 술집에서 샤를로트 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "coolcolor_capture",
+      "name": "차가운 촬영법",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "framing_freezing_point_composition",
+      "name": "프레이밍·빙점 구도법",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 주고 대상에게 <span style=\"color:#FFFFFFFF\">순간 실루엣</span>을 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "still_photo_comprehensive_confirmation",
+      "name": "스틸사진·전방위 취재",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 주고 모든 아군 캐릭터의 HP를 1pt 치유하며 <span style=\"color:#FFFFFFFF\">취재 현장</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

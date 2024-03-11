@@ -1,0 +1,73 @@
+{
+  "_id": 1707,
+  "id": "kirara",
+  "shareId": 336,
+  "name": "Kirara",
+  "title": "\"Damdaki Kedi\" Kirara",
+  "desc": "İki kuyruğu ve patili ayaklarıyla yetiştirir bütün paketleri dört bir yana.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Kılıç",
+    "faction": ["Inazuma"],
+    "source": "Kirara'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "boxcutter",
+      "name": "Maket Bıçağı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "meowteor_kick",
+      "name": "Miyav Jitsu",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Acil Neko Kargo</span> ve <span style=\"color:#FFFFFFFF\">Güvenli Teslimat Kalkanı</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_surprise_dispatch",
+      "name": "Gizli Sanat: Sürpriz Dağıtım",
+      "desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve rakibinin tarafında 1 <span style=\"color:#FFFFFFFF\">Kedi Otu Kakulesi</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

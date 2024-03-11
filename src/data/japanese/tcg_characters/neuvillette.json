@@ -1,0 +1,73 @@
+{
+  "_id": 1210,
+  "id": "neuvillette",
+  "shareId": 335,
+  "name": "ヌヴィレット",
+  "title": "告諭の潮騒·ヌヴィレット",
+  "desc": "高き者を、私は蔑む。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでヌヴィレットを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "as_water_seeks_equilibrium",
+      "name": "清きこと水の如し",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "o_tears_i_shall_repay",
+      "name": "涙よ、私は必ずや償おう",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">源水の雫</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "o_tides_i_have_returned",
+      "name": "海よ、私は帰ってきた",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を2与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">貫通ダメージ</span></span>を1与える。さらに、使用可能回数が2の<span style=\"color:#FFFFFFFF\">源水の雫</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

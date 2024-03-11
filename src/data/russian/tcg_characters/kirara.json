@@ -1,0 +1,73 @@
+{
+  "_id": 1707,
+  "id": "kirara",
+  "shareId": 336,
+  "name": "Кирара",
+  "title": "«Кошка на гребне крыши» Кирара",
+  "desc": "Две пары лап и пушистый хвост доставят посылку точно в срок.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Одноручное",
+    "faction": ["Инадзума"],
+    "source": "Награда за приглашение Кирары в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "boxcutter",
+      "name": "Нарезка коробок",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "meowteor_kick",
+      "name": "Мяутеоритный удар",
+      "desc": "У вас появляется <span style=\"color:#FFFFFFFF\">Срочная посылка нэко</span> и <span style=\"color:#FFFFFFFF\">Щит безопасной перевозки</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_surprise_dispatch",
+      "name": "Неожиданное отправление",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 4 ед. Вызывает <span style=\"color:#FFFFFFFF\">Семена кошачьей мяты</span> в области противника.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

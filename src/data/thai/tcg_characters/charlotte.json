@@ -1,0 +1,73 @@
+{
+  "_id": 1110,
+  "id": "charlotte",
+  "shareId": 334,
+  "name": "Charlotte",
+  "title": "เลนส์สะท้อนความจริง - Charlotte",
+  "desc": "\"เนื้อหาโดดเด่น มุ่งนำเสนอความจริง!\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "สื่อเวท",
+    "faction": ["Fontaine"],
+    "source": "ได้รับหลังจากเชิญ Charlotte ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "coolcolor_capture",
+      "name": "Cool-Color Capture",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "framing_freezing_point_composition",
+      "name": "Framing: Freezing Point Composition",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย และทำให้เป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Snappy Silhouette</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "still_photo_comprehensive_confirmation",
+      "name": "Still Photo: Comprehensive Confirmation",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Newsflash Field</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

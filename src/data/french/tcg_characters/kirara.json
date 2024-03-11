@@ -1,0 +1,73 @@
+{
+  "_id": 1707,
+  "id": "kirara",
+  "shareId": 336,
+  "name": "Kirara",
+  "title": "Kirara · Mistigri sur les toits",
+  "desc": "Avec deux queues et des pieds à coussinets, elle livrera à toutes les portes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Épée à une main",
+    "faction": ["Inazuma"],
+    "source": "Récompense pour avoir invité Kirara à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "boxcutter",
+      "name": "Ouvre-colis",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "meowteor_kick",
+      "name": "Coup de patte miaou-téorite",
+      "desc": "Crée un <span style=\"color:#FFFFFFFF\">neko-colis urgent</span> et un <span style=\"color:#FFFFFFFF\">bouclier de transport sécurisé</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_surprise_dispatch",
+      "name": "Art secret : Livraison surprise",
+      "desc": "Inflige 4 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span> et crée une <span style=\"color:#FFFFFFFF\">noix de cataire</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

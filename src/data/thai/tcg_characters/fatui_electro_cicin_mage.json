@@ -1,0 +1,73 @@
+{
+  "_id": 2404,
+  "id": "fatui_electro_cicin_mage",
+  "shareId": 337,
+  "name": "Fatui - Electro Cicin Mage",
+  "title": "สายฟ้ากลางหมอก - Electro Cicin Mage",
+  "desc": "...เช่นเดียวกับกลิ่นของ Mist Grass ที่ทำให้ Electro Cicin หลงใหล นักเวทจอมซาดิสม์ก็กระหายที่จะหยอกล้อคู่ต่อสู้...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["Fatui"],
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Electro Cicin Mage ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "hurtling_bolts",
+      "name": "Hurtling Bolts",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_call",
+      "name": "Misty Call",
+      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Electro Cicin</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shield",
+      "name": "Thundering Shield",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย ทำให้ตัวละครนี้ติด<span style=\"color:#FFACFFFF\">ติดสถานะธาตุไฟฟ้า</span> สร้าง <span style=\"color:#FFFFFFFF\">Electro Cicin Shield</span> และเตรียมสกิล <span style=\"color:#FFFFFFFF\">Surging Thunder</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

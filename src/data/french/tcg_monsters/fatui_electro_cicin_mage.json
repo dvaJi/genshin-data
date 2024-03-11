@@ -1,0 +1,73 @@
+{
+  "_id": 4408,
+  "id": "fatui_electro_cicin_mage",
+  "shareId": 4408,
+  "name": "Mage électroluciole des Fatui",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "hurtling_bolts",
+      "name": "Décharge de foudre",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_call",
+      "name": "Appel de la brume",
+      "desc": "Invoque une <span style=\"color:#FFFFFFFF\">Électroluciole</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shield",
+      "name": "Bouclier tonitruant",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>, <span style=\"color:#FFACFFFF\">applique l'élément Électro</span> au personnage, crée un <span style=\"color:#FFFFFFFF\">bouclier d'Électroluciole</span> et prépare la capacité : <span style=\"color:#FFFFFFFF\">Expulsion électrique</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

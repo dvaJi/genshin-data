@@ -1,0 +1,73 @@
+{
+  "_id": 4408,
+  "id": "fatui_electro_cicin_mage",
+  "shareId": 4408,
+  "name": "Fatui - Feiticeira Cicin Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "hurtling_bolts",
+      "name": "Relâmpago Electro",
+      "desc": "Causa 1 <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_call",
+      "name": "Chamado Nevoento",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Cicin Electro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shield",
+      "name": "Escudo Trovejante",
+      "desc": "Causa 1 <span style=\"color:#FFACFFFF\">Dano Electro</span>, concede a este personagem <span style=\"color:#FFACFFFF\">Aplicação Electro</span>, cria 1 <span style=\"color:#FFFFFFFF\">Escudo Cicin Electro</span> e prepara <span style=\"color:#FFFFFFFF\">Trovão Furioso</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "嗜雷·兽境猎犬",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "侵蚀利爪",
+      "desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "侵蚀雷晶",
+      "desc": "造成2点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "嗜魔撕咬",
+      "desc": "造成6点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "嗜魔",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">嗜魔</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

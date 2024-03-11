@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "Thể Lôi - Chó Săn Ma Vật",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "Móng Vuốt Xói Mòn",
+      "desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "Lôi Tinh Xói Mòn",
+      "desc": "Gây 2 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "Thị Ma Cắn Xé",
+      "desc": "Gây 6 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, sinh ra <span style=\"color:#FFFFFFFF\">Ăn Mòn</span> trong khu vực phe địch.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Thị Ma",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, ban đầu áp dụng <span style=\"color:#FFFFFFFF\">Thị Ma</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

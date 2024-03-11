@@ -1,0 +1,73 @@
+{
+  "_id": 1110,
+  "id": "charlotte",
+  "shareId": 334,
+  "name": "Charlotte",
+  "title": "Charlotte, Occhio per la verità",
+  "desc": "La vostra fonte credibile di incredibili verità!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalizzatore",
+    "faction": ["Fontaine"],
+    "source": "Ricompensa ottenuta sfidando Charlotte a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "coolcolor_capture",
+      "name": "Fotografia a colori freddi",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "framing_freezing_point_composition",
+      "name": "Inquadratura: Composizione gelida",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, associa <span style=\"color:#FFFFFFFF\">Sagoma vivida</span> al bersaglio.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "still_photo_comprehensive_confirmation",
+      "name": "Fermo immagine: Conferma esaustiva",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, ripristina 1 PS di tutti i tuoi personaggi, invoca 1 <span style=\"color:#FFFFFFFF\">Campo Notizia flash</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

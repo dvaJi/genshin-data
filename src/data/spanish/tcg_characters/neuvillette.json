@@ -1,0 +1,73 @@
+{
+  "_id": 1210,
+  "id": "neuvillette",
+  "shareId": 335,
+  "name": "Neuvillette",
+  "title": "Neuvillette - El Sentenciador de lo Inexorable",
+  "desc": "Las personas más eminentes jamás pasan un detalle por alto.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": ["Fontaine"],
+    "source": "Se obtiene tras retar y ganar a Neuvillette en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "as_water_seeks_equilibrium",
+      "name": "Remanso acuático",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "o_tears_i_shall_repay",
+      "name": "Plañido del resarcimiento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">gota primigenia</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "o_tides_i_have_returned",
+      "name": "Retorno mareal",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>, inflige 1 pt. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> a todos los enemigos en reserva y crea una <span style=\"color:#FFFFFFFF\">gota primigenia</span> con 2 usos.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

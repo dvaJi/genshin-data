@@ -1,0 +1,73 @@
+{
+  "_id": 1110,
+  "id": "charlotte",
+  "shareId": 334,
+  "name": "Charlotte",
+  "title": "Charlotte - La Rastreadora de la Verdad",
+  "desc": "“¡La verdad por encima de todo e historias extraordinarias!”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "faction": ["Fontaine"],
+    "source": "Se obtiene tras retar y ganar a Charlotte en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "coolcolor_capture",
+      "name": "Criografía",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "framing_freezing_point_composition",
+      "name": "Enfoque: Composición gélida",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y el objetivo es afectado por <span style=\"color:#FFFFFFFF\">fotosilueta</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "still_photo_comprehensive_confirmation",
+      "name": "Encuadre: Corroboración integral",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>, todos tus personajes obtienen Vida +1 e invoca un <span style=\"color:#FFFFFFFF\">área de flashes</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

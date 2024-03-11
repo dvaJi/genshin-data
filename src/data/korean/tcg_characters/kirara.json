@@ -1,0 +1,73 @@
+{
+  "_id": 1707,
+  "id": "kirara",
+  "shareId": 336,
+  "name": "키라라",
+  "title": "지붕을 누비는 고양이·키라라",
+  "desc": "어디든 달려가는 갈래 꼬리 배달부",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "한손검",
+    "faction": ["이나즈마"],
+    "source": "캣테일 술집에서 키라라 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "boxcutter",
+      "name": "종이상자 절단술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "meowteor_kick",
+      "name": "냥냥 골목 누비기",
+      "desc": "<span style=\"color:#FFFFFFFF\">냥냥 특급 배송</span>과 <span style=\"color:#FFFFFFFF\">안전 배송 보호막</span>을 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "secret_art_surprise_dispatch",
+      "name": "비법·깜짝 배달",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 4pt 주고 적 필드에 <span style=\"color:#FFFFFFFF\">카다멈 열매</span>를 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 3409,
+  "id": "thundercraven_rifthound",
+  "shareId": 3409,
+  "name": "Cão da Fenda - Electrofito",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "cankering_claws",
+      "name": "Garras Corrosivas",
+      "desc": "Causa 1 <span style=\"color:#FFACFFFF\">Dano Electro</span>, cria <span style=\"color:#FFFFFFFF\">Corrosão</span> no campo do oponente.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "corrosive_electro_crystal",
+      "name": "Cristal Electro Corrosivo",
+      "desc": "Causa 2 <span style=\"color:#FFACFFFF\">Dano Electro</span>, cria <span style=\"color:#FFFFFFFF\">Corrosão</span> no campo do oponente.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "devouring_bite",
+      "name": "Mordida Devoradora",
+      "desc": "Causa 6 <span style=\"color:#FFACFFFF\">Dano Electro</span>, cria <span style=\"color:#FFFFFFFF\">Corrosão</span> no campo do oponente.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "elemental_devourer",
+      "name": "Afinidade Mágica",
+      "desc": "(Passivo) Quando a batalha começa, esse personagem ganha <span style=\"color:#FFFFFFFF\">Afinidade Mágica</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

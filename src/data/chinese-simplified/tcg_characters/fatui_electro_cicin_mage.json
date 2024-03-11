@@ -1,0 +1,73 @@
+{
+  "_id": 2404,
+  "id": "fatui_electro_cicin_mage",
+  "shareId": 337,
+  "name": "愚人众·雷萤术士",
+  "title": "雾虚霆闪·雷萤术士",
+  "desc": "…正如雾虚草的气味会令雷萤迷醉，嗜虐的术士也贪恋着戏弄对手的快感…",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["愚人众"],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·雷萤术士中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "hurtling_bolts",
+      "name": "轰闪落雷",
+      "desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "misty_call",
+      "name": "雾虚之召",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">雷萤</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_shield",
+      "name": "霆雷之护",
+      "desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，本角色<span style=\"color:#FFACFFFF\">附着雷元素</span>，生成<span style=\"color:#FFFFFFFF\">雷萤护罩</span>并准备技能<span style=\"color:#FFFFFFFF\">霆电迸发</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
