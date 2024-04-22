@@ -1,0 +1,80 @@
+{
+  "_id": 4307,
+  "id": "emperor_of_fire_and_iron",
+  "shareId": 4307,
+  "name": "Emperor of Fire and Iron",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 24,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shatterclamp_strike",
+      "name": "Shatterclamp Strike",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "buster_blaze",
+      "name": "Buster Blaze",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>. Jika Karakter ini memiliki minimal 7 lapis <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span>, maka akan mengakibatkan DMG +1.<br/>Kemudian, Karakter ini memperoleh 2 lapis <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "battleline_detonation",
+      "name": "Battle-Line Detonation",
+      "desc": "Karakter ini memperoleh 6 lapis <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> dan <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Searing Blast</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "imperial_panoply",
+      "name": "Imperial Panoply",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Saat pertempuran dimulai: </span>mendapat 5 lapis <span style=\"color:#FFFFFFFF\">Armored Crab Carapace di awal.</span><br/><span style=\"color:#FFFFFFFF\">Setelah kamu melakukan Aksi apa pun: </span>jika di sisimu terdapat status <span style=\"color:#FFFFFFFF\">Perisai</span> atau Status Pertempuran <span style=\"color:#FFFFFFFF\">Perisai</span> selain daripada Armored Crab Carapace, maka semua efek lainnya akan dihapus. Untuk setiap 1 efek yang dihapus, Karakter ini mendapatkan 2 lapis <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

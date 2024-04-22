@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "久岐忍",
+  "title": "煩悩刈除·久岐忍",
+  "desc": "百業の通才、鬼の副手。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "片手剣",
+    "faction": ["稲妻"],
+    "source": "キャッツテールで久岐忍を招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "忍流飛刃斬り",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "越祓雷草の輪",
+      "desc": "<span style=\"color:#FFFFFFFF\">越祓草輪</span>を生成する。本キャラのHPが6以上の場合、自身に<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を2与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "御詠鳴神刈山祭",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を4与え、本キャラのHPを2回復する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

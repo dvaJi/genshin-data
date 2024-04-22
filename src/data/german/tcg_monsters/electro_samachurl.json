@@ -1,0 +1,67 @@
+{
+  "_id": 3410,
+  "id": "electro_samachurl",
+  "shareId": 3410,
+  "name": "Elektro-Samachurl",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster", "Hilichurl"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "striking_staff",
+      "name": "Szepterschlag",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderclap_totem",
+      "name": "Donner-Totem",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Szepter zur Donnerbeschwörung</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderstrike_hex",
+      "name": "Donnerfluch",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

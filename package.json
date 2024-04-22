@@ -23,7 +23,7 @@
     "build": "pnpm clean:dist && pnpm build:lib && pnpm build:types",
     "generate": "node ./scripts/generate.js",
     "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
-    "format-data": "prettier --loglevel warn --write \"src/data/**/*.json\"",
+    "format-data": "prettier --log-level warn --write \"src/data/**/*.json\"",
     "prepublishOnly": "pnpm generate && pnpm build",
     "test": "vitest",
     "coverage": "vitest run --coverage"
@@ -34,8 +34,8 @@
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "tslib": "^2.6.2",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6",
-    "vitest": "^1.3.1"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vitest": "^1.5.0"
   }
 }

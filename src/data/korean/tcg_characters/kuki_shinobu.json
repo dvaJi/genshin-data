@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "쿠키 시노부",
+  "title": "번뇌의 제거자·쿠키 시노부",
+  "desc": "다재다능한 오니의 조력자",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "한손검",
+    "faction": ["이나즈마"],
+    "source": "캣테일 술집에서 쿠키 시노부 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "시노부류 비인참",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "제액의 뇌초지륜",
+      "desc": "<span style=\"color:#FFFFFFFF\">제액의 륜</span>을 생성한다. 본 캐릭터의 HP가 6pt 이상일 경우 자신에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 2pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "교에 나루카미 카리야마 의식",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 4pt 주고 본 캐릭터의 HP를 2pt 치유한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2304,
+  "id": "emperor_of_fire_and_iron",
+  "shareId": 351,
+  "name": "Emperador Piroacorazado",
+  "title": "Emperador Piroacorazado",
+  "desc": "Uno de los dos monarcas más evolucionados de los Engendros Fontamarinos. Había una vez un cangrejo que no conocía enemigo alguno. Cazaba sin cesar, sus pinzas no dejaban de crecer y medio en broma, medio con respeto, se le conocía como “emperador”.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Emperador Piroacorazado de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "shatterclamp_strike",
+      "name": "Golpe tenaza",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "buster_blaze",
+      "name": "Explosión flagrante",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span>. Si este personaje tiene un <span style=\"color:#FFFFFFFF\">caparazón de Cangrejo Acorazado</span> con al menos 7 cargas, infligirá daño +1.<br/>Después, este personaje obtiene un <span style=\"color:#FFFFFFFF\">caparazón de Cangrejo Acorazado</span> de 2 cargas.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "battleline_detonation",
+      "name": "Detonación bélica",
+      "desc": "Este personaje <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Explosión ardiente</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "imperial_panoply",
+      "name": "Armadura imperial",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">cuando comienza el duelo</span>, otorga una cantidad inicial de 5 cargas de <span style=\"color:#FFFFFFFF\">caparazón de Cangrejo Acorazado</span>.<br/><span style=\"color:#FFFFFFFF\">Cuando llevas a cabo cualquier acción</span>, si en tu campo hay un estado de <span style=\"color:#FFFFFFFF\">escudo</span> o un estado de combate de <span style=\"color:#FFFFFFFF\">escudo</span> que no sea el caparazón de Cangrejo Acorazado, los elimina todos y, por cada uno, el personaje obtiene un <span style=\"color:#FFFFFFFF\">caparazón de Cangrejo Acorazado</span> de 2 cargas.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

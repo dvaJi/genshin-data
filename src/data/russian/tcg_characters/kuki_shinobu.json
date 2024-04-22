@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "Куки Синобу",
+  "title": "Избавительница: Куки Синобу",
+  "desc": "Искусная мастерица, помощница óни",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Одноручное",
+    "faction": ["Инадзума"],
+    "source": "Награда за приглашение Куки Синобу в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "Теневой меч Синобу",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "Освящающее кольцо",
+      "desc": "Создаёт <span style=\"color:#FFFFFFFF\">Травяное кольцо освящения</span>. Если у этого персонажа не менее 6 HP, то он получает <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 2 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "Обряд Гёэй Наруками Карияма",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 4 ед., восстанавливает 2 HP этому персонажу.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

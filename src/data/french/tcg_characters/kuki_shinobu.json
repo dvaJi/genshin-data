@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "Kuki Shinobu",
+  "title": "Kuki Shinobu · Réparatrice d'afflictions",
+  "desc": "Virtuose pluridisciplinaire et adjointe de l'Oni.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Épée à une main",
+    "faction": ["Inazuma"],
+    "source": "Récompense pour avoir invité Kuki Shinobu à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "Lame volante",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "Anneau de consécration",
+      "desc": "Crée un <span style=\"color:#FFFFFFFF\">anneau d'herbes de consécration</span>. Si le personnage a 6 PV ou plus, il subit 2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "Rituel des semoirs de Narukami",
+      "desc": "Inflige 4 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et soigne le personnage pour 2 pts.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

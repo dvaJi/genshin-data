@@ -1,0 +1,87 @@
+{
+  "_id": 4206,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 4206,
+  "name": "심연 사도·격류",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "파도 칼날 베기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "소용돌이 칼날",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">회전 물결 칼날</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "진동하는 격류",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 3pt 주고 상대방 필드에 <span style=\"color:#FFFFFFFF\">암류의 저주</span>를 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "물의 신생",
+      "desc": "[패시브] 전투 시작 시, 시작부터 <span style=\"color:#FFFFFFFF\">물의 신생</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    },
+    {
+      "id": "torrential_barrier",
+      "name": "격류 보호막",
+      "desc": "[패시브] 본 캐릭터가 <span style=\"color:#FFFFFFFF\">물의 신생</span>을 발동할 때 해당 캐릭터에게 <span style=\"color:#FFFFFFFF\">솟구치는 보호막</span>이 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1509,
+  "id": "faruzan",
+  "shareId": 349,
+  "name": "Фарузан",
+  "title": "Загадочный механик: Фарузан",
+  "desc": "Простые механизмы, загадочный мир.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Стрелковое",
+    "faction": ["Сумеру"],
+    "source": "Награда за приглашение Фарузан в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "parthian_shot",
+      "name": "Парфянский выстрел",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wind_realm_of_nasamjnin",
+      "name": "Царство ветров насамджнин",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 3 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Проявление бури</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_winds_secret_ways",
+      "name": "Тайные тропы ветров",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Ослепительный многогранник</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

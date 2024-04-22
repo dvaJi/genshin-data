@@ -1,0 +1,80 @@
+{
+  "_id": 4307,
+  "id": "emperor_of_fire_and_iron",
+  "shareId": 4307,
+  "name": "Ateş ve Demir İmparatoru",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 24,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shatterclamp_strike",
+      "name": "Tuzla Buz Eden Saldırı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "buster_blaze",
+      "name": "Alev Kapanı",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir. Bu karakter en az 7 <span style=\"color:#FFFFFFFF\">Zırhlı Yengeç Kabuğu</span> kademesine sahipse bu Hasar 1 artar.<br/>Ardından bu karakter 2 <span style=\"color:#FFFFFFFF\">Zırhlı Yengeç Kabuğu</span> kademesi kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "battleline_detonation",
+      "name": "Savaş Hattı Patlaması",
+      "desc": "Bu karakter 6 kademe <span style=\"color:#FFFFFFFF\">Zırhlı Yengeç Kabuğu</span> kazanır ve <span style=\"color:#FFFFFFFF\">Haşlayıcı Patlama</span> için <span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span> kullanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "imperial_panoply",
+      "name": "İmparatorluk Zırhı",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Savaş başladığında</span> 5 <span style=\"color:#FFFFFFFF\">Zırhlı Yengeç Kabuğu</span> kademesi kazanır.<br/><span style=\"color:#FFFFFFFF\">Senin tarafından herhangi bir hamle yapıldığında</span> eğer tarafında Zırhlı Yengeç Kabuğu dışında <span style=\"color:#FFFFFFFF\">Kalkan</span> Durumu veya <span style=\"color:#FFFFFFFF\">Kalkan</span> Savaş Durumu varsa diğer etkiler iptal edilir. İptal edilen her etki için bu karakter 2 <span style=\"color:#FFFFFFFF\">Zırhlı Yengeç Kabuğu</span> kademesi kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

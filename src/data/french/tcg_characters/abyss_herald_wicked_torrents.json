@@ -1,0 +1,80 @@
+{
+  "_id": 2203,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 350,
+  "name": "Apôtre de l'Abîme - Torrent",
+  "title": "Apôtre de l'Abîme - Torrent",
+  "desc": "Le monde sera coupé, et tout sera anéanti.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Apôtre de l'Abîme - Torrent"
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Tranchant d'ondulation",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Tranchant de vortex",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Lame ondulante</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Secousse torrentielle",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une <span style=\"color:#FFFFFFFF\">undefined</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Renaissance aquatique",
+      "desc": "(Passif) Applique une <span style=\"color:#FFFFFFFF\">renaissance aquatique</span> au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

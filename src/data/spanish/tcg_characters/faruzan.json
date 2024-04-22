@@ -1,0 +1,73 @@
+{
+  "_id": 1509,
+  "id": "faruzan",
+  "shareId": 349,
+  "name": "Faruzán",
+  "title": "Faruzán - La Ingeniera Enigmática",
+  "desc": "La mecánica es fácil, lo difícil es entender el mundo.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Arco",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Faruzán en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "parthian_shot",
+      "name": "Disparo parto",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "wind_realm_of_nasamjnin",
+      "name": "Cielo ventoso del Nasamjñin",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">encarnación del vendaval</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_winds_secret_ways",
+      "name": "Camino del ascenso",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> e invoca un <span style=\"color:#FFFFFFFF\">poliedro fulgurante</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

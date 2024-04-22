@@ -1,0 +1,87 @@
+{
+  "_id": 4206,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 4206,
+  "name": "Emisario del Abismo - Rápidos malignos",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Ejecución filondulante",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Filo vortiginoso",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Filos ondulantes</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Torrente sísmico",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">maldición torrencial</span> en el campo del rival.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Hidrorresurrección",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">hidrorresurrección</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "torrential_barrier",
+      "name": "Escudo torrencial",
+      "desc": "Pasiva: cuando este personaje activa <span style=\"color:#FFFFFFFF\">hidrorresurrección</span>, obtiene un <span style=\"color:#FFFFFFFF\">escudo borboteante</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

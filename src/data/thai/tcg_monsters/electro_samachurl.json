@@ -1,0 +1,67 @@
+{
+  "_id": 3410,
+  "id": "electro_samachurl",
+  "shareId": 3410,
+  "name": "Electro Samachurl",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์", "Hilichurl"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "striking_staff",
+      "name": "Striking Staff",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderclap_totem",
+      "name": "Thunderclap Totem",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย และทำให้เกิด <span style=\"color:#FFFFFFFF\">Thundercall Staff</span> ในสนามของฝ่ายศัตรู",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderstrike_hex",
+      "name": "Thunderstrike Hex",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

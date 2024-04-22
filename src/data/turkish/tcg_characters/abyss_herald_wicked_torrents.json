@@ -1,0 +1,80 @@
+{
+  "_id": 2203,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 350,
+  "name": "Hiçliğin Habercisi: Habis Dalgalar",
+  "title": "Hiçliğin Habercisi: Habis Dalgalar",
+  "desc": "Dünya parçalanacak ve her şey yok olacak.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Hiçliğin Habercisi: Habis Dalgalar ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Dalgalı Darbe",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Girdabın Ucu",
+      "desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir. Ardından <span style=\"color:#FFFFFFFF\">Dalgalı Bıçaklar</span> için \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Şiddetli Şok Darbesi",
+      "desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir. Rakibinin tarafında 1 <span style=\"color:#FFFFFFFF\">Alt Akıntının Laneti</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Suda Yeniden Doğuş",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Suda Yeniden Doğuş</span> kazanır.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 4206,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 4206,
+  "name": "深淵使徒·激流",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "波刃鋒斬",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "洄渦鋒刃",
+      "desc": "造成2點<span style=\"color:#80C0FFFF\">水元素傷害</span>，然後<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">漣鋒旋刃</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "激流強震",
+      "desc": "造成3點<span style=\"color:#80C0FFFF\">水元素傷害</span>。在對方場上生成<span style=\"color:#FFFFFFFF\">暗流的詛咒</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "水之新生",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">水之新生</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "torrential_barrier",
+      "name": "激流護罩",
+      "desc": "【被動】本角色觸發<span style=\"color:#FFFFFFFF\">水之新生</span>時：為其附屬<span style=\"color:#FFFFFFFF\">湧流護罩</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

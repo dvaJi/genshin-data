@@ -1,0 +1,80 @@
+{
+  "_id": 2203,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 350,
+  "name": "Apostolo dell'Abisso: Torrenti maligni",
+  "title": "Apostolo dell'Abisso: Torrenti maligni",
+  "desc": "Il mondo sarà distrutto, e tutti periranno.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Apostolo dell'Abisso: Torrenti maligni in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Taglio ondulato",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Lama del vortice",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, poi esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità</span> per <span style=\"color:#FFFFFFFF\">Lame ondulate</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Scossa torrenziale",
+      "desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro</span> e crea 1 <span style=\"color:#FFFFFFFF\">Maledizione delle correnti profonde</span> sul lato dell'avversario.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Rinascita acquatica",
+      "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Rinascita acquatica</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

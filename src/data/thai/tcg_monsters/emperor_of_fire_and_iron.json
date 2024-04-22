@@ -1,0 +1,80 @@
+{
+  "_id": 4307,
+  "id": "emperor_of_fire_and_iron",
+  "shareId": 4307,
+  "name": "Emperor of Fire and Iron",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 24,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shatterclamp_strike",
+      "name": "Shatterclamp Strike",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "buster_blaze",
+      "name": "Buster Blaze",
+      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย; หากตัวละครนี้มี <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> อย่างน้อย 7 ชั้น ความเสียหายนี้จะ +1<br/>จากนั้น ตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> 2 ชั้น",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "battleline_detonation",
+      "name": "Battle-Line Detonation",
+      "desc": "ตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> 6 ชั้น และ<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span>: <span style=\"color:#FFFFFFFF\">Searing Blast</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "imperial_panoply",
+      "name": "Imperial Panoply",
+      "desc": "[ติดตัว]<span style=\"color:#FFFFFFFF\">เมื่อการต่อสู้เริ่มขึ้น:</span> ในตอนแรกจะได้รับ <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> 5 ชั้น<br/><span style=\"color:#FFFFFFFF\">หลังจากที่ฝ่ายเราดำเนินการใด ๆ:</span> หากในสนามของฝ่ายเรามีสถานะ<span style=\"color:#FFFFFFFF\">โล่ป้องกัน</span> หรือสถานะการต่อสู้<span style=\"color:#FFFFFFFF\">โล่ป้องกัน</span>อื่น นอกเหนือจาก Armored Crab Carapace จะถูกลบล้างทั้งหมด; ทุกการลบล้าง 1 สถานะ จะทำให้ตัวละครได้รับ <span style=\"color:#FFFFFFFF\">Armored Crab Carapace</span> 2 ชั้น",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "久岐忍",
+  "title": "煩惱刈除·久岐忍",
+  "desc": "百業通才，鬼之副手。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "單手劍",
+    "faction": ["稻妻"],
+    "source": "在貓尾酒館中邀請久岐忍進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "忍流飛刃斬",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "越祓雷草之輪",
+      "desc": "生成<span style=\"color:#FFFFFFFF\">越祓草輪</span>。如果本角色生命值至少為6，則對自身造成2點<span style=\"color:#FFFFFFFF\">穿透傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "御詠鳴神刈山祭",
+      "desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，治療本角色2點。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

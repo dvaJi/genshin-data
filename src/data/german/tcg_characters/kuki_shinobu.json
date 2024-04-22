@@ -1,0 +1,73 @@
+{
+  "_id": 1411,
+  "id": "kuki_shinobu",
+  "shareId": 348,
+  "name": "Kuki Shinobu",
+  "title": "Besänftigerin des Leids – Kuki Shinobu",
+  "desc": "Meisterin aller Berufe, Stellvertreterin des Oni.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kuki Shinobu in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "shinobus_shadowsword",
+      "name": "Shinobus fliegender Schwerthieb",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sanctifying_ring",
+      "name": "Grasring der Reinigung",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Grasring</span>. Hat die Figur mindestens 6 LP, erleidet sie selbst 2 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gyoei_narukami_kariyama_rite",
+      "name": "Gyoei-Narukami-Kariyama-Ritual",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, stellt dieser Figur 2 LP wieder her.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

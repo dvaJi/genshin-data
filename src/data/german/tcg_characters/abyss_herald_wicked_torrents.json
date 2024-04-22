@@ -1,0 +1,80 @@
+{
+  "_id": 2203,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 350,
+  "name": "Abgrundbote – Reißender Strom",
+  "title": "Abgrundbote – Reißender Strom",
+  "desc": "Die Welt wird zusammenbrechen und alles wird ausgelöscht.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit dem Abgrundboten – Reißender Strom in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Kräuselnde Klingen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Wirbelnde Schneide",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Wellen der Klingen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Bebende Sintflut",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft auf dem Feld deines Gegners <span style=\"color:#FFFFFFFF\">Fluch der Unterströmung</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Neugeburt des Wassers",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Neugeburt des Wassers</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

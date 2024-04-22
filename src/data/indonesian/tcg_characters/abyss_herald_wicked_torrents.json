@@ -1,0 +1,80 @@
+{
+  "_id": 2203,
+  "id": "abyss_herald_wicked_torrents",
+  "shareId": 350,
+  "name": "Abyss Herald - Wicked Torrents",
+  "title": "Abyss Herald - Wicked Torrents",
+  "desc": "Dunia akan hancur dan segalanya akan lenyap.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Abyss Herald - Wicked Torrents"
+  },
+  "skills": [
+    {
+      "id": "rippling_slash",
+      "name": "Rippling Slash",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vortex_edge",
+      "name": "Vortex Edge",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>, lalu <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Rippling Blades</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "torrential_shock",
+      "name": "Torrential Shock",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>. Menciptakan <span style=\"color:#FFFFFFFF\">Curse of the Undercurrent</span> di area bermain lawan.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "watery_rebirth",
+      "name": "Watery Rebirth",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Watery Rebirth</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}
