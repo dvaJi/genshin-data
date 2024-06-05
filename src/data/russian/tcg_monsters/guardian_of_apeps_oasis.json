@@ -1,0 +1,80 @@
+{
+  "_id": 4706,
+  "id": "guardian_of_apeps_oasis",
+  "shareId": 4706,
+  "name": "Страж оазиса Апеп",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 35,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "strike_of_the_dispossessed",
+      "name": "Клинок изгнанника",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "life_stream",
+      "name": "Поток жизни",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, $[D__KEY__DAMAGE_2] ед., вы берёте 1 карту <span style=\"color:#FFFFFFFF\">Пробуждение фамильяра</span>, вы получаете карту <span style=\"color:#FFFFFFFF\">Забота оазиса</span> (1 уровень).",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_end_falls",
+      "name": "Последнее падение",
+      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, $[D__KEY__DAMAGE_2] ед., вы берёте 1 карту <span style=\"color:#FFFFFFFF\">Пробуждение фамильяра</span>, вы получаете карту <span style=\"color:#FFFFFFFF\">Забота оазиса</span> (2 уровня).",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "invokation_of_propagation",
+      "name": "Призыв к разрастанию",
+      "desc": "(Пассивный навык) В начале сражения создаёт <span style=\"color:#FFFFFFFF\">Пробуждение фамильяра</span> ×6 и случайно кладёт их в колоду. Когда <span style=\"color:#FFFFFFFF\">Размножающийся организм</span> призван вами 4 раза, этот персонаж получает <span style=\"color:#FFFFFFFF\">Пробуждённое Сердце оазиса</span> и <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Щит</span></span>, 2 ед.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

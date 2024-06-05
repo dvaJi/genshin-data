@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "マシナリー·演算力増幅器·プネウマ",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "キャラカード",
+    "energy": 1,
+    "element": "元素タイプなし",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "タックル",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "エネルギー増幅·プネウマ",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与え、本キャラに<span style=\"color:#FFFFFFFF\">エネルギー強化·プネウマ</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "エネルギー爆発·プネウマ",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">エネルギー強化·プネウマ</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "機体修復·プネウマ",
+      "desc": "<span style=\"color:#FFFFFFFF\">味方のキャラがスキルを発動した後</span>、HPを最も失っている味方キャラのHPを1回復する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "エネルギー特徴：プネウマ",
+      "desc": "<span style=\"color:#FFFFFFFF\">「アルケー：ウーシア」を持つキャラからのダメージを受けた後</span>、本キャラは<span style=\"color:#FFFFFFFF\">「無力化状態」</span>にチェンジする。本ラウンド終了まで<span style=\"color:#FFFFFFFF\">スキルを発動できなくなる</span>。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

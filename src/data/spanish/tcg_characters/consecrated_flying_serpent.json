@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Aerofidio Sacróseo",
+  "title": "Aerofidio Sacróseo - Ráfaga remanente",
+  "desc": "Un aerofidio que ha mutado tras devorar los restos de poderosos seres y que es capaz de controlar temibles vientos.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo", "Bestia Sacrósea"],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Aerofidio Sacróseo de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Coletazo violento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Remolino correntío",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y tomas 1 carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span>. Por cada carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> que tengas en la mano, tomas 1 carta (hasta 2 cartas por ronda).",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Vórtice disperso",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y realizas un <span style=\"color:#FFFFFFFF\">descarte</span> de todas las cartas de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> de tu mano. Por cada 2 cartas para las que se haya realizado un <span style=\"color:#FFFFFFFF\">descarte</span>, el daño infligido se duplica.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Despojos inmortales: Anemo",
+      "desc": "Pasiva: al comenzar el duelo, crea 6 cartas de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> que se distribuyen equitativamente en tu pila.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

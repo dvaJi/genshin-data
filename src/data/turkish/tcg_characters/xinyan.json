@@ -1,0 +1,73 @@
+{
+  "_id": 1312,
+  "id": "xinyan",
+  "shareId": 365,
+  "name": "Xinyan",
+  "title": "\"Parlayan Melodi\" Xinyan",
+  "desc": "Şimdi rock zamanı!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Çift Elli Kılıç",
+    "faction": ["Liyue"],
+    "source": "Xinyan'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "dance_on_fire",
+      "name": "Ateşle Dans",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sweeping_fervor",
+      "name": "Ver Coşkuyu",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, elinde en yüksek orijinal Element Zarı maliyetine sahip rastgele 1 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygular ve 1 <span style=\"color:#FFFFFFFF\">Tutku Kalkanı</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "riff_revolution",
+      "name": "Melodi Devrimi",
+      "desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir, rakibin hazırdaki tüm karakterlerine 2 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Delme Hasarı</span></span> verir, elindeki tüm kartlara <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygular ve 1 <span style=\"color:#FFFFFFFF\">Şölen Ateşi</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2204,
+  "id": "alldevouring_narwhal",
+  "shareId": 368,
+  "name": "吞星之鲸",
+  "title": "深秘异兽·吞星之鲸",
+  "desc": "在最魔幻的故事里或是最疯癫的诳语中，宇宙深处真正的星辰或许也如提瓦特一般充满了生机，而宇宙本身就如同海洋。\\n或许宇宙渗入提瓦特的过程从未停止；也许更高的意志为它划定了边界是为了保护这个世界。",
+  "attributes": {
+    "hp": 5,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度吞星之鲸中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "碎涛旋跃",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "迸落星雨",
+      "desc": "造成$[D__KEY__DAMAGE_2]点<span style=\"color:#80C0FFFF\">水元素伤害</span>，此角色每有3点<span style=\"color:#FFFFFFFF\">无尽食欲</span>提供的额外最大生命，此伤害+1（最多+5）。然后<span style=\"color:#FFFFFFFF\">舍弃</span>1张原本元素骰费用最高的手牌。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "横噬鲸吞",
+      "desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害</span>，对敌方所有后台角色造成1点<span style=\"color:#FFFFFFFF\">穿透伤害</span>。召唤<span style=\"color:#FFFFFFFF\">黑色幻影</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "无尽食欲",
+      "desc": "【被动】战斗开始时，生成<span style=\"color:#FFFFFFFF\">深噬之域</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

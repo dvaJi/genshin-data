@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "Escorpião da Ossada Sagrada",
+  "title": "Veneno Remanescente: Escorpião da Ossada Sagrada",
+  "desc": "Um escorpião venenoso que foi deformando e distorcido ao comer um grande ser. Agora ele comanda raios perigosos.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro", "Besta da Ossada Sagrada"],
+    "source": "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com o Escorpião da Ossada Sagrada"
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "Ataque de Escorpião",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "Ferroada Dolorida",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>.<br/>Cria 1 carta <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> e aleatoriamente coloca ela nas 2 primeiras cartas do seu deck.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "Disparo Relampejante",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>, <span style=\"color:#FFFFFFFF\">Descarta</span> até 3 cartas de <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> de sua Mão e cria <span style=\"color:#FFFFFFFF\">Armadilha Eletrificante</span> no lado oposto do campo.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "Restos Imortais: Electro",
+      "desc": "(Passivo) Quando o Turno acabar, cria 2 cartas <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> e aleatoriamente coloca elas nas 10 primeiras cartas do seu deck.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

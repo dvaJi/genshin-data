@@ -1,0 +1,67 @@
+{
+  "_id": 3011,
+  "id": "annihilation_specialist_mek",
+  "shareId": 3011,
+  "name": "Meka sterminatore specializzato",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "light_strike",
+      "name": "Colpo leggero",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "piercing_blow",
+      "name": "Colpo perforante",
+      "desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "slash_kick",
+      "name": "Calcio laterale",
+      "desc": "Infligge 4 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

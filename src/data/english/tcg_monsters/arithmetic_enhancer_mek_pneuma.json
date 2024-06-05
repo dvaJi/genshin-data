@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "Arithmetic Enhancer Mek - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Character Card",
+    "energy": 1,
+    "element": "No Elemental Type",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Ram",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Energy Boost: Pneuma",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Energy Burst: Pneuma",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Frame Repair: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">After your character uses a Skill:</span> Heal your most injured character for 1 HP.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">After being damaged by characters with \"Arkhe: Ousia,\"</span> this character will become <span style=\"color:#FFFFFFFF\">Deactivated</span>, and <span style=\"color:#FFFFFFFF\">cannot use skills</span> until this Round ends.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "Scorpion sacralisé",
+  "title": "Poison de reste : Scorpion sacralisé",
+  "desc": "Un scorpion venimeux qui a été déformé et transformé après avoir consommé la chair d'une puissante forme de vie. Il commande désormais des éclairs périlleux.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre", "Bête sacralisée"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Scorpion sacralisé"
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "Pince de scorpion",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "Dard de scorpion",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Crée 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et la place aléatoirement parmi les 2 premières positions du dessus de votre deck.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "Dispersion tonitruante",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 3 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] depuis votre main et crée un <span style=\"color:#FFFFFFFF\">piège à tonnerre</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "Reste immortel Électro",
+      "desc": "(Passif) À la fin de la manche : Crée 2 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et les place aléatoirement parmi les 10 premières positions du dessus de votre deck.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

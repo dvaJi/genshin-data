@@ -1,0 +1,67 @@
+{
+  "_id": 3008,
+  "id": "arithmetic_enhancer_mek",
+  "shareId": 3008,
+  "name": "机关·算力增幅器",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 1,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "冲撞",
+      "desc": "造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "brutal_ram",
+      "name": "强劲冲撞",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_up",
+      "name": "积蓄能量",
+      "desc": "造成3点<span style=\"color:#FFFFFFFF\">物理伤害</span>，此角色恢复到原本的「荒」/「芒」形态。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

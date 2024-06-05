@@ -1,0 +1,73 @@
+{
+  "_id": 1312,
+  "id": "xinyan",
+  "shareId": 365,
+  "name": "Xinyan",
+  "title": "\"Melodia Incandescente\" Xinyan",
+  "desc": "É hora de arrebentar!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Espadão",
+    "faction": ["Liyue"],
+    "source": "Recompensa por desafiar Xinyan para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "dance_on_fire",
+      "name": "Baile nas Chamas",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sweeping_fervor",
+      "name": "Fervor Arrebatador",
+      "desc": "Causa 2 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>, aleatoriamente <span style=\"color:#FFFFFFFF\">Descarta</span> 1 carta com o maior Custo Original de Dados Elementais em sua Mão e cria <span style=\"color:#FFFFFFFF\">Escudo da Paixão</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "riff_revolution",
+      "name": "Melodia da Rebelião",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, causa 2 de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Dano Perfurante</span></span> a todos os personagens adversários fora de combate; <span style=\"color:#FFFFFFFF\">Descarta</span> todas as cartas em sua mão, gera 1 <span style=\"color:#FFFFFFFF\">Fogaréu Festivo</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

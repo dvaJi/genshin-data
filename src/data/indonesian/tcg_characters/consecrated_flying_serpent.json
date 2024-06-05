@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Consecrated Flying Serpent",
+  "title": "\"Remnant Squall\" Consecrated Flying Serpent",
+  "desc": "Ular terbang yang bertubuh melengkung dan sudah bermutasi karena telah melahap makhluk hidup yang besar. Sekarang ia dapat mengendalikan angin yang kencang.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster", "Consecrated Beast"],
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Consecrated Flying Serpent"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Whirling Tail",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Swirling Squall",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span> dan mengambil 1 <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span>; Lalu mengambil 1 kartu untuk setiap <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> yang ada di Tangan (Maksimum 2 kartu setiap Ronde).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Scattershot Vortex",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80FFD7FF\">Anemo DMG</span> dan mem<span style=\"color:#FFFFFFFF\">buang</span> semua <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> yang ada di Tangan. Setiap <span style=\"color:#FFFFFFFF\">Buang</span> 2 kartu, akan meningkatkan DMG ini sebanyak 1 kali lipat.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Immortal Remnants: Anemo",
+      "desc": "[Pasif] Menciptakan 6 <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> saat duel dimulai dan semuanya diletakkan ke dalam Dek-mu.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

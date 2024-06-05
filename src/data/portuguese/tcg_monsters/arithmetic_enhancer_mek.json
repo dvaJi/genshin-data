@@ -1,0 +1,67 @@
+{
+  "_id": 3008,
+  "id": "arithmetic_enhancer_mek",
+  "shareId": 3008,
+  "name": "Mecaritmético",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 1,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Colidir",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "brutal_ram",
+      "name": "Colisão Brutal",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_up",
+      "name": "Carregando",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span> e faz esse personagem a ser restaurado para sua forma Pneuma/Ousia original.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "Furina, Assolo solitario e sempiterno",
+  "desc": "Musa perpetua della musica e della danza.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Spada",
+    "faction": ["Fontaine"],
+    "source": "Ricompensa ottenuta sfidando Furina a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Solista sollecita",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.<br/><span style=\"color:#FFFFFFFF\">Una volta per turno:</span> se in mano non hai carte <span style=\"color:#FFFFFFFF\">Seggi sacri e secolari</span>, crea 1 carta <span style=\"color:#FFFFFFFF\">Seggi sacri e secolari</span> nella tua mano.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salon Solitaire",
+      "desc": "<span style=\"color:#FFFFFFFF\">Furina</span> è attualmente nello stato Archè: Ousia. Invoca i <span style=\"color:#FFFFFFFF\">Membri del Salon</span>.<br/>(Quando Furina si trova nello stato Archè: Pneuma, invece invoca il <span style=\"color:#FFFFFFFF\">Cantante delle Mille Acque</span>.)",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "Si rallegri il popolo",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Baldoria universale</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "Archè: Seggi sacri e secolari",
+      "desc": "(Passiva) All'inizio del duello, crea 1 carta <span style=\"color:#FFFFFFFF\">Seggi sacri e secolari</span> nella tua mano.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

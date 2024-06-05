@@ -1,0 +1,67 @@
+{
+  "_id": 3008,
+  "id": "arithmetic_enhancer_mek",
+  "shareId": 3008,
+  "name": "Мек: Улучшение вычислений",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Карты персонажей",
+    "energy": 1,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Таран",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "brutal_ram",
+      "name": "Тяжёлый таран",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_up",
+      "name": "Накачка",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед., персонаж возвращается в изначальное состояние архэ (пневма/усия).",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

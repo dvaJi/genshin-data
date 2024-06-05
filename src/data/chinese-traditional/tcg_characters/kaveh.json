@@ -1,0 +1,73 @@
+{
+  "_id": 1708,
+  "id": "kaveh",
+  "shareId": 367,
+  "name": "卡維",
+  "title": "天穹之鏡·卡維",
+  "desc": "體悟、仁愛與識美之知。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "雙手劍",
+    "faction": ["須彌"],
+    "source": "在貓尾酒館中邀請卡維進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "schematic_setup",
+      "name": "旋規設矩",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "artistic_ingenuity",
+      "name": "畫則巧施",
+      "desc": "造成2點<span style=\"color:#7EC236FF\">草元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">迸發掃描</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "painted_dome",
+      "name": "繁繪隅穹",
+      "desc": "造成3點<span style=\"color:#7EC236FF\">草元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">梅赫拉克的助力</span>，生成2層<span style=\"color:#FFFFFFFF\">迸發掃描</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

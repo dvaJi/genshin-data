@@ -1,0 +1,80 @@
+{
+  "_id": 4208,
+  "id": "alldevouring_narwhal",
+  "shareId": 4208,
+  "name": "Всепожирающий нарвал",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Рассекающие волны",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Метеоритный шторм",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, $[D__KEY__DAMAGE_2] ед. За каждые 3 ед. увеличения максимального HP, которое вызывает <span style=\"color:#FFFFFFFF\">Бесконечный аппетит</span>, этот урон персонажа увеличивается на 1 ед. (не более 5 ед.). После этого происходит <span style=\"color:#FFFFFFFF\">Отказ</span> от карты в руке с самой высокой изначальной стоимостью.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Разрушительный пожиратель",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 1 ед., наносит <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 1 ед. всем неактивным персонажам противника. Призывает помощника <span style=\"color:#FFFFFFFF\">Тёмная тень</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Бесконечный аппетит",
+      "desc": "(Пассивный навык) В начале битвы вы получаете карту <span style=\"color:#FFFFFFFF\">Подземелье поглощения</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "リオセスリ",
+  "title": "寂罪の密使·リオセスリ",
+  "desc": "罪はここに囚われ、深き海に波紋は生まれない。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "氷元素",
+    "weapon": "法器",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでリオセスリを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "フロストコンビネーション",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "アイスファング·ラッシュ",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を2与え、本キャラに<span style=\"color:#FFFFFFFF\">烈霜の懲戒</span>を付与する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "ガンメタル·ウルフバイト",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">余威の氷柱</span>を生成する。<br/><span style=\"color:#FFFFFFFF\">本ラウンドで、このキャラがダメージ、または治療効果を2回受けるたびに、</span>このスキルに必要な元素サイコロの数-1（最大-2まで）",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

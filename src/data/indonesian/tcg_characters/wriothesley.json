@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+  "desc": "Dosa yang berlarut-larut bagaikan air.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "faction": ["Fontaine"],
+    "source": "Didapatkan setelah mengundang Wriothesley ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Forceful Fists of Frost",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Icefang Rush",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>. Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Chilling Penalty</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Darkgold Wolfbite",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span> dan menciptakan <span style=\"color:#FFFFFFFF\">Lingering Icicles</span>.<br/><span style=\"color:#FFFFFFFF\">Selama Ronde ini, saat Karakter ini menerima DMG atau pemulihan setiap total mencapai 2 kali:</span> mengonsumsi 1 Dadu Elemental lebih sedikit untuk Skill ini (Maksimum 2 buah lebih sedikit).",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

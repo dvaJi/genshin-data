@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "Mek amplificateur - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 1,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Heurt",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Amplification énergétique pneuma",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et applique un <span style=\"color:#FFFFFFFF\">boost d'énergie pneuma</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Explosion énergétique pneuma",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et applique un <span style=\"color:#FFFFFFFF\">boost d'énergie pneuma</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Réparation structurelle pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Lorsque votre personnage a utilisé une capacité : </span>Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Signature énergétique : Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe ousia : </span>il change en <span style=\"color:#FFFFFFFF\">forme désactivée</span> et <span style=\"color:#FFFFFFFF\">ne peut pas utiliser de capacité</span> jusqu'à la fin de la manche.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

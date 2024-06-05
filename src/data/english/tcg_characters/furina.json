@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "\"Endless Solo of Solitude\" Furina",
+  "desc": "Perpetual muse of chansons and rondeaux.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Sword",
+    "faction": ["Fontaine"],
+    "source": "Reward for inviting Furina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Soloist's Solicitation",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.<br/><span style=\"color:#FFFFFFFF\">Once per Round:</span> If you do not have <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span> in your Hand, create 1 <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span> card in your Hand.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salon Solitaire",
+      "desc": "<span style=\"color:#FFFFFFFF\">Furina</span> is currently in the Arkhe: Ousia state. Summons <span style=\"color:#FFFFFFFF\">Salon Members</span>.<br/>(When Furina is in the Arkhe: Pneuma state, she will summon <span style=\"color:#FFFFFFFF\">Singer of Many Waters</span> instead)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "Let the People Rejoice",
+      "desc": "Deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Universal Revelry</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "Arkhe: Seats Sacred and Secular",
+      "desc": "(Passive) When battle begins, create 1 <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span> card in your Hand.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

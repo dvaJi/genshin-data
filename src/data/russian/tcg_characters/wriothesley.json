@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Ризли",
+  "title": "«Эмиссар заточённых злодеяний» Ризли",
+  "desc": "Воды вины глубоки.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Катализатор",
+    "faction": ["Фонтейн"],
+    "source": "Награда за приглашение Ризли в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Свирепые кулаки стужи",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Стремительный ледяной клык",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 2 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Леденящее наказание</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Укус чернозлатого волка",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 2 ед., вы получаете <span style=\"color:#FFFFFFFF\">Оставшиеся сосульки</span>.<br/><span style=\"color:#FFFFFFFF\">Каждый раз, когда персонаж получает по 2 ед. урона или лечения в течение этого раунда,</span> этот навык расходует на 1 дайс меньше (макс. 2).",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

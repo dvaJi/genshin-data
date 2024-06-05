@@ -1,0 +1,80 @@
+{
+  "_id": 2204,
+  "id": "alldevouring_narwhal",
+  "shareId": 368,
+  "name": "Narvalo Divoramondi",
+  "title": "Creatura misteriosa: Narvalo Divoramondi",
+  "desc": "Nelle favole più fantastiche, o forse nei vaneggiamenti più sfrenati, le vere stelle nelle profondità del cosmo sono piene di vita, proprio come a Teyvat, mentre l'universo stesso è come un oceano.\\nForse l'infiltrazione cosmica di Teyvat non si è mai arrestata, e forse la creazione di confini attorno a questo mondo è opera di una volontà superiore, al fine di proteggerlo.",
+  "attributes": {
+    "hp": 5,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Narvalo Divoramondi in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Onde frantumanti",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Pioggia di stelle",
+      "desc": "Infligge $[D__KEY__DAMAGE_2] <span style=\"color:#80C0FFFF\">DAN da Hydro</span>. Questo personaggio infligge DAN +1 per ogni 3 PS max aggiuntivi dati da <span style=\"color:#FFFFFFFF\">Appetito insaziabile</span> (massimo +5). Dopodiché, <span style=\"color:#FFFFFFFF\">rimuovi</span> la carta con il maggiore costo originale di dadi elementali nella tua mano.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Inghiottimento devastante",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, infligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti i personaggi avversari inattivi. Invoca 1 <span style=\"color:#FFFFFFFF\">Ombra oscura</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Appetito insaziabile",
+      "desc": "(Passiva) All'inizio del duello, crea 1 <span style=\"color:#FFFFFFFF\">Dominio del Divoratore degli Abissi</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1312,
+  "id": "xinyan",
+  "shareId": 365,
+  "name": "Xinyan",
+  "title": "Xinyan · Mélodie ardente",
+  "desc": "Rock 'n' roll !",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Épée à deux mains",
+    "faction": ["Liyue"],
+    "source": "Récompense pour avoir invité Xinyan à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "dance_on_fire",
+      "name": "Danse du feu",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sweeping_fervor",
+      "name": "Jeu fervent",
+      "desc": "Inflige 2 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>, <span style=\"color:#FFFFFFFF\">défausse</span> aléatoirement 1 carte dont le coût original de dés élémentaires est le plus élevé depuis votre main et crée <span style=\"color:#FFFFFFFF\">bouclier passionné</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "riff_revolution",
+      "name": "Riff rebelle",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>, inflige <span style=\"color:#FFFFFFFF\">2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> à tous les personnages adverses en attente, <span style=\"color:#FFFFFFFF\">défausse</span> toutes les cartes de votre main et crée un <span style=\"color:#FFFFFFFF\">feu festif</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

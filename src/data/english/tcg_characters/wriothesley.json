@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+  "desc": "Guilty waters run deep.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "faction": ["Fontaine"],
+    "source": "Reward for inviting Wriothesley to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Forceful Fists of Frost",
+      "desc": "Deals 1 <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Icefang Rush",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>. This character gains <span style=\"color:#FFFFFFFF\">Chilling Penalty</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Darkgold Wolfbite",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Lingering Icicles</span>.<br/><span style=\"color:#FFFFFFFF\">When this character takes DMG or is healed 2 times in total this Round:</span> This Skill costs 1 less Elemental Die (Cost can be reduced by up to 2).",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "圣骸毒蝎",
+  "title": "亡骸遗毒·圣骸毒蝎",
+  "desc": "因为啃噬伟大的生命体，而扭曲异变的毒蝎，操纵着险恶的轰雷。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "圣骸兽"],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度圣骸毒蝎中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "蝎爪钳击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "蝎尾锥刺",
+      "desc": "造成3点<span style=\"color:#FFACFFFF\">雷元素伤害</span>。<br/>生成1张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，随机置入我方牌库顶部2张牌之中。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "雷锥散射",
+      "desc": "造成3点<span style=\"color:#FFACFFFF\">雷元素伤害</span>，<span style=\"color:#FFFFFFFF\">舍弃</span>手牌中最多3张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，在对方场上生成<span style=\"color:#FFFFFFFF\">雷锥陷阱</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "不朽亡骸·雷",
+      "desc": "【被动】回合结束时，生成2张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，随机置入我方牌库顶部10张牌之中。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

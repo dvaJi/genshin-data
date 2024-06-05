@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Rắn Bay Thánh Hóa",
+  "title": "Gió Xấu Di Cốt - Rắn Bay Thánh Hóa",
+  "desc": "Rắn bay biến dị do nuốt chửng vật thể sống vĩ đại, điều khiển cuồng phong dữ dội.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Phong",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật", "Thánh Hóa Thú"],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Rắn Bay Thánh Hóa"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Quét Đuôi Tấn Công",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Dẫn Gió Vây Quanh",
+      "desc": "Gây 2 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong</span>, rút 1 thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span>; Sau đó, với mỗi thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span> trên tay sẽ rút 1 lá bài (Mỗi hiệp tối đa rút 2 lá).",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Xoáy Lốc Chằng Chịt",
+      "desc": "Gây 2 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong</span>, <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> toàn bộ thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span> trên tay, với mỗi 2 lá bị <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> sẽ nhân đôi sát thương này 1 lần.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Di Cốt Bất Diệt - Phong",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, sinh ra 6 thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span>, đưa đều vào kho bài.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

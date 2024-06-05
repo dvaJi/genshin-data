@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "\"Sessiz Günahların Temsilcisi\" Wriothesley",
+  "desc": "Suçlu sular derinden akar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Katalizör",
+    "faction": ["Fontaine"],
+    "source": "Wriothesley'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Güçlü Buz Yumrukları",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Buzdiş Saldırısı",
+      "desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ürperten Ceza</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Kara Altın Kurt Isırığı",
+      "desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Tükenmeyen Buz Sarkıtı</span> oluşturur.<br/><span style=\"color:#FFFFFFFF\">Bu karakter bu Turda Hasar alırsa veya toplamda 2 defa iyileştirilirse</span> bu Becerinin Element Zarı maliyeti 1 azalır. (Maliyet en fazla 2 azalabilir.)",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

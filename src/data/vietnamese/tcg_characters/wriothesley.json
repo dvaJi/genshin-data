@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "Sứ Giả Tội Danh Ẩn Mật - Wriothesley",
+  "desc": "Vùng nước sâu tội lỗi.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Băng",
+    "weapon": "Pháp Khí",
+    "faction": ["Fontaine"],
+    "source": "Nhận được sau khi mời Wriothesley giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Liệt Sương Quyền",
+      "desc": "Gây 1 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Nanh Băng Càn Quét",
+      "desc": "Gây 2 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Hàn Băng Phán Quyết</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Hắc Kim Lang Cắn Xé",
+      "desc": "Gây 2 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, sinh ra <span style=\"color:#FFFFFFFF\">Uy Thế Nhũ Băng</span>.<br/><span style=\"color:#FFFFFFFF\">Trong hiệp này, mỗi khi nhân vật này tích lũy nhận 2 lần sát thương hoặc chữa trị</span>: Kỹ năng này giảm tiêu hao 1 Xúc Xắc Nguyên Tố (Tối đa giảm 2).",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

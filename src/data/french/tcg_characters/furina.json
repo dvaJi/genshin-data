@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "Furina · Solo infini de solitude",
+  "desc": "Muse éternelle des chants et des rondeaux.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à une main",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Furina à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Sollicitation de la soliste",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.<br/><span style=\"color:#FFFFFFFF\">Une fois par manche : </span>Crée une carte [<span style=\"color:#FFFFFFFF\">Sacralité et sécularisation</span>] dans votre main si vous n'avez pas de carte [<span style=\"color:#FFFFFFFF\">Sacralité et sécularisation</span>] dans votre main.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salon solitaire",
+      "desc": "Si <span style=\"color:#FFFFFFFF\">Furina</span> est chargée d'énergie d'Arkhe ousia : Invoque un <span style=\"color:#FFFFFFFF\">membre du salon</span>.<br/>(Si Furina est chargée d'énergie d'Arkhe pneuma, elle invoque un <span style=\"color:#FFFFFFFF\">chanteur des eaux</span> à la place)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "Liesse populaire",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une <span style=\"color:#FFFFFFFF\">réjouissance universelle</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "Arkhe : Sacralité et sécularisation",
+      "desc": "(Passif) Crée une carte [<span style=\"color:#FFFFFFFF\">Sacralité et sécularisation</span>] dans votre main au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

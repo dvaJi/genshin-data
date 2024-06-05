@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "Furina - La Bailarina Incansable",
+  "desc": "Solista eterna, bailarina infinita.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": ["Fontaine"],
+    "source": "Se obtiene tras retar y ganar a Furina en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Convite de la solista",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> si no tienes la carta <span style=\"color:#FFFFFFFF\">Sacralidad y secularidad</span> en la mano, crea una.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salón Solitaire",
+      "desc": "El tipo de arjé actual de <span style=\"color:#FFFFFFFF\">Furina</span> es ousía: invoca a los <span style=\"color:#FFFFFFFF\">miembros del salón</span>.<br/>Cuando el tipo de arjé de Furina sea pneuma, invoca al <span style=\"color:#FFFFFFFF\">juglar de las aguas</span> en su lugar.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "¡Que el mundo entero festeje!",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea el estado de <span style=\"color:#FFFFFFFF\">jolgorio ecuménico</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "Arjé: sacralidad y secularidad",
+      "desc": "Pasiva: al comenzar el duelo, se crea 1 carta de “<span style=\"color:#FFFFFFFF\">Sacralidad y secularidad</span>”.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "聖骸トビヘビ",
+  "title": "亡骸の悪風·聖骸トビヘビ",
+  "desc": "偉大なる生命体を蝕むことで歪み、変異したトビヘビ。凄まじい狂風を操る。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "他の武器",
+    "faction": ["魔物", "聖骸獣"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、聖骸トビヘビに挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "尻尾回転アタック",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "旋風の吸引",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を1枚引く。さらに、手札にある<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>1枚につき、手札を1枚引く（各ラウンド最大2枚まで）。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "入り乱れる渦",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、手札にある<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を全て<span style=\"color:#FFFFFFFF\">破棄</span>する。2枚<span style=\"color:#FFFFFFFF\">破棄</span>するたび、ダメージが倍になる。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "朽ちぬ亡骸·風",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を6枚生成し、均等にデッキに配置する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 3411,
+  "id": "annihilation_specialist_mek_pneuma",
+  "shareId": 3411,
+  "name": "Mecaniquilador - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "piercing_blow",
+      "name": "Impacto Perfurante",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_raid",
+      "name": "Incursão Relâmpago",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leaping_thunder",
+      "name": "Salto Relâmpago",
+      "desc": "Causa 5 pontos de <span style=\"color:#FFACFFFF\">Dano Electro</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "support_unit_pneuma",
+      "name": "Unidade de Suporte: Pneuma",
+      "desc": "(Passivo) Quando a batalha começa, cria 1 <span style=\"color:#FFFFFFFF\">Mecalerta - Pneuma</span> inicial.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Após ser danificado por personagem com \"Arkhe: Ousia\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

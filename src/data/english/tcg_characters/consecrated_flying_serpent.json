@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Consecrated Flying Serpent",
+  "title": "Remnant Squall: Consecrated Flying Serpent",
+  "desc": "A flying serpent that became twisted and warped by eating some great being. Now, it commands the fearsome winds.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Other Weapons",
+    "faction": ["Monster", "Consecrated Beast"],
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Flying Serpent"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Whirling Tail",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Swirling Squall",
+      "desc": "Deal 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span> and draw 1 <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> card. Draw 1 card for each <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> card in your Hand (Up to 2 cards per Round).",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Scattershot Vortex",
+      "desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. <span style=\"color:#FFFFFFFF\">Discard</span> all <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> cards in your Hand. Double the DMG dealt once for every 2 cards you <span style=\"color:#FFFFFFFF\">Discard</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Immortal Remnants: Anemo",
+      "desc": "(Passive) When battle begins, create 6 <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> and place them evenly into your deck.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

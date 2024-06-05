@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "Bò Cạp Độc Thánh Hóa",
+  "title": "Nọc Độc Di Cốt - Bò Cạp Độc Thánh Hóa",
+  "desc": "Bọ cạp độc biến dị do nuốt chửng vật thể sống vĩ đại, điều khiển sấm sét hiểm ác.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật", "Thánh Hóa Thú"],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Bò Cạp Độc Thánh Hóa"
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "Móng Vuốt Kẹp Chặt",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "Gai Đuôi Đâm Chích",
+      "desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.<br/>Sinh ra 1 thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span>, ngẫu nhiên đưa vào trong số 2 thẻ bài trên cùng của kho bài phe ta.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "Gai Sét Tán Xạ",
+      "desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> tối đa 3 thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span> trên tay, sinh ra <span style=\"color:#FFFFFFFF\">Cạm Bẫy Gai Sét</span> trên sân đối phương.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "Di Cốt Bất Diệt - Lôi",
+      "desc": "(Bị động) Khi kết thúc hiệp, sinh ra 2 thẻ <span style=\"color:#FFFFFFFF\">Khối Năng Lượng Nhai Xương</span>, ngẫu nhiên đưa vào trong số 10 thẻ bài trên cùng của kho bài phe ta.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

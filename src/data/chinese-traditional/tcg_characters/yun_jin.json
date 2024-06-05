@@ -1,0 +1,73 @@
+{
+  "_id": 1607,
+  "id": "yun_jin",
+  "shareId": 366,
+  "name": "雲堇",
+  "title": "紅毹嬋娟·雲堇",
+  "desc": "紅毹嬋娟，莊諧並舉。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "長柄武器",
+    "faction": ["璃月"],
+    "source": "在貓尾酒館中邀請雲堇進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "cloudgrazing_strike",
+      "name": "拂雲出手",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "opening_flourish",
+      "name": "旋雲開相",
+      "desc": "生成<span style=\"color:#FFFFFFFF\">飛雲旗陣</span>，本角色附屬<span style=\"color:#FFFFFFFF\">旋雲護盾</span>並<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">長槍開相</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cliffbreakers_banner",
+      "name": "破嶂見旌儀",
+      "desc": "造成2點<span style=\"color:#FFE699FF\">岩元素傷害</span>，生成3層<span style=\"color:#FFFFFFFF\">飛雲旗陣</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

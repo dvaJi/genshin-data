@@ -1,0 +1,87 @@
+{
+  "_id": 3411,
+  "id": "annihilation_specialist_mek_pneuma",
+  "shareId": 3411,
+  "name": "殲滅特化型マシナリー·プネウマ",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "piercing_blow",
+      "name": "軍刺直撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lightning_raid",
+      "name": "雷霆の襲撃",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "leaping_thunder",
+      "name": "跳躍せし雷霆の襲撃",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を5与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "support_unit_pneuma",
+      "name": "支援ユニット·プネウマ",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">マシナリー·区域警戒型·プネウマ</span>を生成する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "エネルギー特徴·プネウマ",
+      "desc": "<span style=\"color:#FFFFFFFF\">「アルケー：ウーシア」を持つキャラからのダメージを受けた後</span>、本キャラは<span style=\"color:#FFFFFFFF\">「無力化状態」</span>にチェンジする。本ラウンド終了まで<span style=\"color:#FFFFFFFF\">スキルを発動できなくなる</span>。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

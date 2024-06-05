@@ -1,0 +1,81 @@
+{
+  "_id": 3009,
+  "id": "arithmetic_enhancer_mek_ousia",
+  "shareId": 3009,
+  "name": "Hesap Geliştirici Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Karakter Kartı",
+    "energy": 1,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Koçbaşı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_ousia",
+      "name": "Enerji Takviyesi: Öz",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Enerji Takviyesi: Öz</span> kazanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_ousia",
+      "name": "Enerji Patlaması: Öz",
+      "desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Enerji Takviyesi: Öz</span> kazanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_enhancement_ousia",
+      "name": "Gövde Geliştirme: Öz",
+      "desc": "Karakterlerin fazladan 1 Hasar verir.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Arkhe: Öz",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

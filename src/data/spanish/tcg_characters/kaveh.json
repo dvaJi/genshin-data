@@ -1,0 +1,73 @@
+{
+  "_id": 1708,
+  "id": "kaveh",
+  "shareId": 367,
+  "name": "Kaveh",
+  "title": "Kaveh - El Espejo del Empíreo",
+  "desc": "Arte de la comprensión, la benevolencia y la estética.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Mandoble",
+    "faction": ["Sumeru"],
+    "source": "Se obtiene tras retar y ganar a Kaveh en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "schematic_setup",
+      "name": "Boceto esquemático",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "artistic_ingenuity",
+      "name": "Genio de la arquitectura",
+      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y crea un <span style=\"color:#FFFFFFFF\">escáner explosivo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "painted_dome",
+      "name": "Bóveda policromada",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>. Este personaje obtiene la <span style=\"color:#FFFFFFFF\">ayuda de Mehrak</span> y acumula 2 usos de <span style=\"color:#FFFFFFFF\">escáner explosivo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

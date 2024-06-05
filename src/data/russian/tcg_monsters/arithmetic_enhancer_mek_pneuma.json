@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "Мек: Улучшение вычислений (пневма)",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Карты персонажей",
+    "energy": 1,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Таран",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Усиление энергии: пневма",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Усиление энергии: пневма</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Детонация: пневма",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Усиление энергии: пневма</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Ремонт каркаса: пневма",
+      "desc": "<span style=\"color:#FFFFFFFF\">Когда ваш персонаж использует навык:</span> ваш персонаж, получивший наибольший урон, восстанавливает 1 HP.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Энергетическое свойство: пневма",
+      "desc": "<span style=\"color:#FFFFFFFF\">Получив урон от персонажа с архэ: усия,</span> этот персонаж получает состояние «<span style=\"color:#FFFFFFFF\">Деактивировано</span>» и <span style=\"color:#FFFFFFFF\">не может использовать навыки</span> до конца раунда.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

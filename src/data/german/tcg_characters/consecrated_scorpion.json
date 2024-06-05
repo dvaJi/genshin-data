@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "Skorpion heiliger Knochen",
+  "title": "Gift der Überreste – Skorpion heiliger Knochen",
+  "desc": "Ein aufgrund des Zehrens an heiligen Körpern entstellter Skorpion, der den grollenden Donner befehligt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster", "Bestie heiliger Knochen"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit dem Skorpion heiliger Knochen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "Skorpionszangenschlag",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "Skorpionsschwanzsporn",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Erschafft 1 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> und legt sie zufällig unter die 2 obersten Karten deines Stapels.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "Donnerndes Grollen",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, dabei werden bis zu 3 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> aus deiner Hand <span style=\"color:#FFFFFFFF\">abgeworfen</span>. Erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Blitzkonus-Falle</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "Unsterbliche Überreste – Elektro",
+      "desc": "Passiv – Erschafft am Ende der Runde 2 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> und legt sie zufällig unter die 10 obersten Karten deines Stapels.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1708,
+  "id": "kaveh",
+  "shareId": 367,
+  "name": "Kaveh",
+  "title": "Kaveh, Riflesso empireo",
+  "desc": "Conoscenza, benevolenza ed estetica.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Claymore",
+    "faction": ["Sumeru"],
+    "source": "Ricompensa ottenuta sfidando Kaveh a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "schematic_setup",
+      "name": "Installazione schematica",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "artistic_ingenuity",
+      "name": "Ingegno artistico",
+      "desc": "Infligge 2 <span style=\"color:#7EC236FF\">DAN da Dendro</span>, genera 1 <span style=\"color:#FFFFFFFF\">Scansione a raffica</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "painted_dome",
+      "name": "Volta dipinta",
+      "desc": "Infligge 3 <span style=\"color:#7EC236FF\">DAN da Dendro</span>, questo personaggio ottiene l'effetto <span style=\"color:#FFFFFFFF\">Assistenza di Mehrak</span>, generando 2 accumuli di <span style=\"color:#FFFFFFFF\">Scansione a raffica</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

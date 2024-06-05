@@ -1,0 +1,53 @@
+{
+  "_id": 2409,
+  "id": "bulle_sauce_duck_breast",
+  "name": "Magret de canard en sauce bullée",
+  "description": "Un plat de viande aux arômes fruités. Après avoir fait cuire le magret de canard, vous devez le couper en tranches et arranger les morceaux dans une assiette avant de les arroser avec la sauce de fruit bullé. Une peau croustillante, une viande tendre et une sauce aigre-douce se réunissent dans un délice classique de Fontaine.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "_id": 101230,
+      "id": "bulle_fruit",
+      "name": "Fruit bullé",
+      "amount": 2
+    },
+    {
+      "_id": 100064,
+      "id": "fowl",
+      "name": "Volaille",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Exploration",
+  "results": {
+    "suspicious": {
+      "_id": 108675,
+      "name": "Magret de canard en sauce bullée (suspect)",
+      "description": "Un plat de viande aux arômes fruités. La sauce n'a absolument pas neutralisé le côté gras du canard. En fait, elle lui a plutôt donné un côté amer. L'appétit suscité en voyant un plat si joliment présenté semble disparaître tout aussi soudainement après la première bouchée...",
+      "effect": "Restaure 40 pts d'endurance."
+    },
+    "normal": {
+      "_id": 108676,
+      "name": "Magret de canard en sauce bullée",
+      "description": "Un plat de viande aux arômes fruités. Après avoir fait cuire le magret de canard, vous devez le couper en tranches et arranger les morceaux dans une assiette avant de les arroser avec la sauce de fruit bullé. Une peau croustillante, une viande tendre et une sauce aigre-douce se réunissent dans un délice classique de Fontaine.",
+      "effect": "Restaure 50 pts d'endurance."
+    },
+    "delicious": {
+      "_id": 108677,
+      "name": "Magret de canard en sauce bullée (délicieux)",
+      "description": "Un plat de viande aux arômes fruités. La saveur d'agrume confère au succulent canard une douceur fraîche et unique. C'est si irrésistiblement délicieux qu'on peut à peine s'empêcher de prendre le morceau suivant avant même d'avoir avalé le précédent. Même si la culture culinaire de Fontaine a évolué au fil des années, il n'est pas surprenant que ce plat ait toujours gardé sa place parmi les classiques.",
+      "effect": "Restaure 60 pts d'endurance."
+    },
+    "special": {
+      "_id": 108678,
+      "id": "tagged_and_bagged",
+      "name": "« Gibier en sac »",
+      "description": "Spécialité culinaire de Clorinde. Il s'agit de volaille fraîchement attrapée et légèrement rôtie. Votre appréhension initiale disparaît rapidement après avoir expérimenté par vous-même sa texture tendre et son arrière-goût rafraîchissant. Quoi qu'il en soit, Clorinde a déjà pris une bouchée. Votre système digestif est sûrement aussi robuste que celui d'une chasseuse chevronnée... Non ?",
+      "effect": "Restaure 80 pts d'endurance.",
+      "character": {
+        "id": "clorinde",
+        "name": "Clorinde"
+      }
+    }
+  }
+}

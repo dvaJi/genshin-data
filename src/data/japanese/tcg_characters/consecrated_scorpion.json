@@ -1,0 +1,80 @@
+{
+  "_id": 2405,
+  "id": "consecrated_scorpion",
+  "shareId": 369,
+  "name": "聖骸サソリ",
+  "title": "亡骸の残毒·聖骸サソリ",
+  "desc": "偉大なる生命体を蝕むことで歪み、変異したサソリ。恐ろしい迅雷を操る。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": ["魔物", "聖骸獣"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、聖骸サソリに挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "scorpion_strike",
+      "name": "サソリの挟み撃ち",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "stinging_spine",
+      "name": "サソリの尻尾刺し",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。<br/><span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を1枚生成し、ランダムで味方のデッキの一番上にある2枚のカードのうちに配置する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thunderbore_blast",
+      "name": "雷刺乱落",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与え、手札から<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を最大3枚まで<span style=\"color:#FFFFFFFF\">破棄</span>し、相手のフィールドに<span style=\"color:#FFFFFFFF\">雷棘トラップ</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_electro",
+      "name": "朽ちぬ亡骸·雷",
+      "desc": "【固有】ラウンド終了時、<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を2枚生成し、ランダムで味方のデッキの一番上にある10枚のカードのうちに配置する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

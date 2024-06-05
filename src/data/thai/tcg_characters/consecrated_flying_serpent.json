@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Consecrated Flying Serpent",
+  "title": "วาโยมรณะ - Consecrated Flying Serpent",
+  "desc": "สิ่งมีชีวิตที่กลายพันธุ์บิดเบี้ยว เพราะได้กัดกินอสรพิษบันเหินอันยิ่งใหญ่ไป มันสามารถขี่สายลมโหมกระหน่ำได้",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุลม",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์", "Consecrated Beast"],
+    "source": "ได้รับหลังจากเอาชนะ Consecrated Flying Serpent ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Whirling Tail",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Swirling Squall",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย จั่ว <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> 1 ใบ; จากนั้น ทุกครั้งที่ในมือมี <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> 1 ใบ จะจั่วการ์ด 1 ใบ (จั่วได้สูงสุด 2 ใบ ในแต่ละเทิร์น)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Scattershot Vortex",
+      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย <span style=\"color:#FFFFFFFF\">ทิ้ง</span>การ์ด <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> ทั้งหมดที่อยู่ในมือ ทุกการ<span style=\"color:#FFFFFFFF\">ทิ้ง</span>การ์ด 2 ใบ ความเสียหายนี้จะเพิ่มสองเท่า 1 ครั้ง",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Immortal Remnants: Anemo",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง <span style=\"color:#FFFFFFFF\">Bonecruncher's Energy Block</span> 6 ใบ และวางในเด็คเท่า ๆ กัน",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

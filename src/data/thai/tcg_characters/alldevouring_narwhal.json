@@ -1,0 +1,80 @@
+{
+  "_id": 2204,
+  "id": "alldevouring_narwhal",
+  "shareId": 368,
+  "name": "All-Devouring Narwhal",
+  "title": "สิ่งมีชีวิตลึกลับ - All-Devouring Narwhal",
+  "desc": "ในเรื่องราวที่มหัศจรรย์ที่สุดหรือเรื่องโกหกที่บ้าคลั่งที่สุด ดวงดาวที่แท้จริงในส่วนลึกของจักรวาล อาจเต็มไปด้วยชีวิตเหมือนกันกับ Teyvat และตัวจักรวาลเองก็เหมือนกับมหาสมุทร\\nบางทีกระบวนการที่จักรวาลแทรกซึมเข้าไปใน Teyvat อาจไม่เคยหยุดนิ่ง บางทีเจตจำนงที่สูงกว่าอาจกำหนดขอบเขตขึ้นมา เพื่อปกป้องโลกนี้เอาไว้",
+  "attributes": {
+    "hp": 5,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": "ได้รับหลังจากเอาชนะ All-Devouring Narwhal ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Shattering Waves",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Starfall Shower",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> $[D__KEY__DAMAGE_2] หน่วย ทุก 3 หน่วยของพลังชีวิตสูงสุดที่ตัวละครนี้ได้รับเพิ่มเติมจาก <span style=\"color:#FFFFFFFF\">Insatiable Appetite</span> ความเสียหายนี้จะ +1 (สูงสุด +5) จากนั้น<span style=\"color:#FFFFFFFF\">ทิ้ง</span>การ์ดที่มีค่าร่าย Elemental Dice เดิมสูงสุด 1 ใบ",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Ravaging Devourer",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <span style=\"color:#FFFFFFFF\">Dark Shadow</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Insatiable Appetite",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง <span style=\"color:#FFFFFFFF\">Deep Devourer's Domain</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

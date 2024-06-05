@@ -1,0 +1,73 @@
+{
+  "_id": 1708,
+  "id": "kaveh",
+  "shareId": 367,
+  "name": "カーヴェ",
+  "title": "天穹の鏡·カーヴェ",
+  "desc": "仁愛と体験と美の認識。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "両手剣",
+    "faction": ["スメール"],
+    "source": "キャッツテールでカーヴェを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "schematic_setup",
+      "name": "円規定則",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "artistic_ingenuity",
+      "name": "精緻なる絵図",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">炸裂スキャン</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "painted_dome",
+      "name": "ムカルナスの描像",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を3与え、このキャラに<span style=\"color:#FFFFFFFF\">メラックアシスト</span>を付与し、<span style=\"color:#FFFFFFFF\">炸裂スキャン</span>を2層生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

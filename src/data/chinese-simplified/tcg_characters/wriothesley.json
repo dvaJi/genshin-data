@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "莱欧斯利",
+  "title": "寂罪的密使·莱欧斯利",
+  "desc": "罪囚于斯，深水无漪。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "法器",
+    "faction": ["枫丹"],
+    "source": "在猫尾酒馆中邀请莱欧斯利进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "迅烈倾霜拳",
+      "desc": "造成1点<span style=\"color:#99FFFFFF\">冰元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "冰牙突驰",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">寒烈的惩裁</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "黑金狼噬",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">余威冰锥</span>。<br/><span style=\"color:#FFFFFFFF\">本角色在本回合中受到伤害或治疗每累计到2次时：</span>此技能少花费1个元素骰（最多少花费2个）。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

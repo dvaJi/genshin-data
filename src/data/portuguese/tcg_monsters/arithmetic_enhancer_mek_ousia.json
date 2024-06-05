@@ -1,0 +1,81 @@
+{
+  "_id": 3009,
+  "id": "arithmetic_enhancer_mek_ousia",
+  "shareId": 3009,
+  "name": "Mecaritmético - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de Personagem",
+    "energy": 1,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Colidir",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_ousia",
+      "name": "Aumento de Energia: Ousia",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, este personagem ganha <span style=\"color:#FFFFFFFF\">Aumento de Energia: Ousia</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_ousia",
+      "name": "Explosão de Energia: Ousia",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, este personagem ganha <span style=\"color:#FFFFFFFF\">Aumento de Energia: Ousia</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_enhancement_ousia",
+      "name": "Aprimoramento de Estrutura: Ousia",
+      "desc": "Seus personagens causam +1 de Dano.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Arkhe: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Após ser danificado por personagem com \"Arkhe: Pneuma\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 3208,
+  "id": "annihilation_specialist_mek_ousia",
+  "shareId": 3208,
+  "name": "Meka sterminatore specializzato (Ousia)",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "vicious_kicks",
+      "name": "Calci violenti",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_legblades",
+      "name": "Gambalama vorticosa",
+      "desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bladed_waltz",
+      "name": "Valzer di lame",
+      "desc": "Infligge 5 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "support_unit_ousia",
+      "name": "Unità di supporto (Ousia)",
+      "desc": "(Passiva) All'inizio del duello, crea 1 <span style=\"color:#FFFFFFFF\">Meka segnalatore (Ousia)</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Archè: Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo aver subito DAN da personaggi con Archè: Pneuma</span>, questo personaggio entra in stato di <span style=\"color:#FFFFFFFF\">Disattivazione</span> e <span style=\"color:#FFFFFFFF\">non potrà usare abilità</span> fino alla fine del turno.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

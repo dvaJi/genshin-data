@@ -1,0 +1,67 @@
+{
+  "_id": 3008,
+  "id": "arithmetic_enhancer_mek",
+  "shareId": 3008,
+  "name": "Hesap Geliştirici Meka",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Karakter Kartı",
+    "energy": 1,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Koçbaşı",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "brutal_ram",
+      "name": "Şiddetli Çarpışma",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "charging_up",
+      "name": "Enerjimi Topluyorum",
+      "desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir ve bu karakterin ilk Ruh/Öz formuna dönmesine neden olur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 2204,
+  "id": "alldevouring_narwhal",
+  "shareId": 368,
+  "name": "Yıldız Yutan Narval",
+  "title": "Gizemli Yaratık: Yıldız Yutan Narval",
+  "desc": "En fantastik masallarda veya belki de en çılgın safsatalarda bahsi geçen, evrenin derinliklerindeki gerçek yıldızlar tıpkı Teyvat'ta olduğu kadar hayat doludur. Evrenin kendisi ise bir okyanusa benzer.\\nEvrenin Teyvat'a sızması durmadı hiç, belki bu dünyanın etrafına çekilen sınırlar, burayı korumak isteyen daha üst bir iradenin işiydi.",
+  "attributes": {
+    "hp": 5,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Yıldız Yutan Narval ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Parçalayan Dalgalar",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Yıldız Akını",
+      "desc": "$[D__KEY__DAMAGE_2] <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir. Bu karakter, <span style=\"color:#FFFFFFFF\">Sonsuz İştah</span> ile kazandığı her 3 ek Maks. Can için fazladan 1 Hasar verir (En fazla 5 Hasar). Ardından elindeki en yüksek orijinal Element Zarı maliyetine sahip 1 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygular.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Yıkan ve Yutan",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve rakibin hazırdaki tüm karakterlerine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir. 1 <span style=\"color:#FFFFFFFF\">Karanlık Gölge</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Sonsuz İştah",
+      "desc": "(Pasif) Savaş başladığında 1 <span style=\"color:#FFFFFFFF\">Derindeki Yutanın Bölgesi</span> oluşur.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 3208,
+  "id": "annihilation_specialist_mek_ousia",
+  "shareId": 3208,
+  "name": "歼灭特化型机关·荒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "vicious_kicks",
+      "name": "迅猛踢击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_legblades",
+      "name": "蹈刃旋舞",
+      "desc": "造成3点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bladed_waltz",
+      "name": "舞刃霰旋",
+      "desc": "造成5点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "support_unit_ousia",
+      "name": "支援单位·荒",
+      "desc": "【被动】战斗开始时，初始生成<span style=\"color:#FFFFFFFF\">机关·区域警戒型·荒</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "能源特征·荒性",
+      "desc": "<span style=\"color:#FFFFFFFF\">受到具有「始基力：芒性」的角色造成的伤害后：</span>此角色转换为<span style=\"color:#FFFFFFFF\">「失能形态」</span>，并且直到本回合结束前<span style=\"color:#FFFFFFFF\">无法使用技能</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

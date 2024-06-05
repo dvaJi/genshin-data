@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "機關·計算增幅器·芒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 1,
+    "element": "無元素類型",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "衝撞",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "能量增幅·芒",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">能量強化·芒</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "能量爆轟·芒",
+      "desc": "造成3點<span style=\"color:#FFFFFFFF\">物理傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">能量強化·芒</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "機體修復·芒",
+      "desc": "<span style=\"color:#FFFFFFFF\">我方角色使用技能後：</span>治療我方受傷最多的角色1點。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "能源特徵：芒性",
+      "desc": "<span style=\"color:#FFFFFFFF\">受到具有「始基力：荒性」的角色造成的傷害後：</span>此角色轉換為<span style=\"color:#FFFFFFFF\">「失能形態」</span>，並且直到本回合結束前<span style=\"color:#FFFFFFFF\">無法使用技能</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1607,
+  "id": "yun_jin",
+  "shareId": 366,
+  "name": "Юнь Цзинь",
+  "title": "Изящество на сцене: Юнь Цзинь",
+  "desc": "Изящество на сцене и гармоничное развитие.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Древковое",
+    "faction": ["Ли Юэ"],
+    "source": "Награда за приглашение Юнь Цзинь в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "cloudgrazing_strike",
+      "name": "Облачный удар",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "opening_flourish",
+      "name": "Вихревое представление",
+      "desc": "Вы получаете <span style=\"color:#FFFFFFFF\">Строй облачных флагов</span>, персонаж получает <span style=\"color:#FFFFFFFF\">Щит кружащих облаков</span>, начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Взмах копьём</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "cliffbreakers_banner",
+      "name": "Стяг разрушителя скал",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 2 ед., вы получаете <span style=\"color:#FFFFFFFF\">Строй облачных флагов</span> (3 уровня).",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "芙寧娜",
+  "title": "不休獨舞·芙寧娜",
+  "desc": "永世領唱，無盡圓舞。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "單手劍",
+    "faction": ["楓丹"],
+    "source": "在貓尾酒館中邀請芙寧娜進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "獨舞之邀",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。<br/><span style=\"color:#FFFFFFFF\">每回合1次：</span>如果手牌中沒有<span style=\"color:#FFFFFFFF\">聖俗雜座</span>，則生成手牌<span style=\"color:#FFFFFFFF\">聖俗雜座</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "孤心沙龍",
+      "desc": "<span style=\"color:#FFFFFFFF\">芙寧娜</span>目前處於「始基力：荒性」形態：召喚<span style=\"color:#FFFFFFFF\">沙龍成員</span>。<br/>（芙寧娜處於「始基力：芒性」形態時，會改為召喚<span style=\"color:#FFFFFFFF\">眾水的歌者</span>）",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "萬眾狂歡",
+      "desc": "造成2點<span style=\"color:#80C0FFFF\">水元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">普世歡騰</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "始基力：聖俗雜座",
+      "desc": "【被動】戰鬥開始時，生成手牌<span style=\"color:#FFFFFFFF\">聖俗雜座</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

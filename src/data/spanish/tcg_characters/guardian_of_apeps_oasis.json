@@ -1,0 +1,80 @@
+{
+  "_id": 2702,
+  "id": "guardian_of_apeps_oasis",
+  "shareId": 371,
+  "name": "Guardián del Oasis de Apep",
+  "title": "Guardián del Oasis de Apep - Confín de la sabiduría",
+  "desc": "En el pasado, Apep se sumió en solitario en el paisaje del fin del mundo. En él, todas las personas, deidades, dragones, bestias andantes, aves y peces, todos los recuerdos, la sabiduría, las palabras y el odio se transformaban en polvo. Por su parte, el brillo de la última fase de la luna se convirtió en una lluvia de llamas blancas que descendía sobre la tierra asolada.\\n...\\nPara Apep, las profundidades del desierto eran su tumba, y no el palacio de un rey sin hogar. La ponzoña de la sabiduría pronto le liberaría del odio y de la ira acumulados durante un sinfín de lunas. Apep estaba cansado de ese apocalipsis descolorido... Sin embargo, la joven diosa y el viajero de cabellos dorados le hicieron recordar que, aunque la tierra esmeralda que antes gobernaba se había convertido en un páramo dorado, aunque tanto Apep como sus vástagos tuvieron que mutar y convertirse en seres horrendos, en su corazón siempre atesoró el paisaje de aquel oasis.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Guardián del Oasis de Apep de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "strike_of_the_dispossessed",
+      "name": "Ataque del desarraigo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "life_stream",
+      "name": "Flujo vital",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>. Tomas 1 carta de <span style=\"color:#FFFFFFFF\">Llamada a un familiar</span> y crea 1 carga de <span style=\"color:#FFFFFFFF\">nutrición del oasis</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_end_falls",
+      "name": "Final inminente",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>. Tomas 1 carta de <span style=\"color:#FFFFFFFF\">Llamada a un familiar</span> y crea 2 cargas de <span style=\"color:#FFFFFFFF\">nutrición del oasis</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "invokation_of_propagation",
+      "name": "Invocación proliferante",
+      "desc": "Pasiva: al comenzar el duelo, crea 6 cartas de <span style=\"color:#FFFFFFFF\">Llamada a un familiar</span> que se colocan aleatoriamente en tu pila. Cuando hayas invocado 4 <span style=\"color:#FFFFFFFF\">organismos proliferadores</span>, este personaje obtiene una carta de <span style=\"color:#FFFFFFFF\">Corazón del Oasis resurgido</span> y 2 pts. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">escudo</span></span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 3208,
+  "id": "annihilation_specialist_mek_ousia",
+  "shareId": 3208,
+  "name": "จักรกลทำลายล้าง - สสาร",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "vicious_kicks",
+      "name": "Vicious Kicks",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_legblades",
+      "name": "Whirling Legblades",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bladed_waltz",
+      "name": "Bladed Waltz",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 5 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "support_unit_ousia",
+      "name": "Support Unit: สสาร",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น แรกเริ่มจะสร้าง <span style=\"color:#FFFFFFFF\">จักรกลระวังภัยภาคพื้นที่ - สสาร</span>",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "คุณสมบัติพลังงาน: พลังสสาร",
+      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครที่มี \"พลังปฐมภูมิ: วิญญาณ\" สร้างความเสียหาย: </span>ตัวละครนี้จะถูกเปลี่ยนเป็น<span style=\"color:#FFFFFFFF\">\"รูปแบบไร้พลังงาน\"</span> และจะ<span style=\"color:#FFFFFFFF\">ไม่สามารถใช้สกิล</span>ได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

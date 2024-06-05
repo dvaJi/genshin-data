@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "フリーナ",
+  "title": "不休のソリスト·フリーナ",
+  "desc": "果てなき先唱、終わりなき円舞。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "片手剣",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでフリーナを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "ソリストの誘い",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。<br/><span style=\"color:#FFFFFFFF\">各ラウンドで1回のみ</span>：手札に<span style=\"color:#FFFFFFFF\">聖俗の座客</span>がない場合、手札<span style=\"color:#FFFFFFFF\">聖俗の座客</span>を生成する。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "サロン·ソリティア",
+      "desc": "<span style=\"color:#FFFFFFFF\">フリーナ</span>は現在「アルケー：ウーシア」状態で、<span style=\"color:#FFFFFFFF\">サロンメンバー</span>を召喚する。<br/>（「アルケー：プネウマ」状態の時は、<span style=\"color:#FFFFFFFF\">衆の水の歌い手</span>を召喚する）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "万民のカルナバル",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">もろびとこぞりて</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "アルケー：聖俗の座客",
+      "desc": "【固有】戦闘開始時、手札<span style=\"color:#FFFFFFFF\">聖俗の座客</span>を生成する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

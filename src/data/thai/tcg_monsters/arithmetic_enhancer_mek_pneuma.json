@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "จักรกลรุ่นเพิ่มประสิทธิภาพการคำนวณ - วิญญาณ",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 1,
+    "element": "ไม่มีธาตุ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Ram",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Energy Boost: วิญญาณ",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Energy Burst: วิญญาณ",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Frame Repair: วิญญาณ",
+      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครฝ่ายเราใช้สกิล:</span> รักษาตัวละครฝ่ายเรา ที่ได้รับความเสียหายมากสุด 1 หน่วย",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "คุณสมบัติพลังงาน: พลังวิญญาณ",
+      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครที่มี \"พลังปฐมภูมิ: สสาร\" สร้างความเสียหาย: </span>ตัวละครนี้จะถูกเปลี่ยนเป็น<span style=\"color:#FFFFFFFF\">\"รูปแบบไร้พลังงาน\"</span> และจะ<span style=\"color:#FFFFFFFF\">ไม่สามารถใช้สกิล</span>ได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

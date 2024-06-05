@@ -1,0 +1,73 @@
+{
+  "_id": 1312,
+  "id": "xinyan",
+  "shareId": 365,
+  "name": "辛炎",
+  "title": "爆熱リズム·辛炎",
+  "desc": "ロックの時間だぞ！",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "両手剣",
+    "faction": ["璃月"],
+    "source": "キャッツテールで辛炎を招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "dance_on_fire",
+      "name": "炎舞",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sweeping_fervor",
+      "name": "情熱の薙ぎ払い",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与え、ランダムで元素サイコロの初期コストが最も高い手札を1枚<span style=\"color:#FFFFFFFF\">破棄</span>し、<span style=\"color:#FFFFFFFF\">情熱シールド</span>を生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "riff_revolution",
+      "name": "反逆の弾き",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">貫通ダメージ</span></span>を2与える。味方のすべての手札を<span style=\"color:#FFFFFFFF\">破棄</span>し、<span style=\"color:#FFFFFFFF\">烈火のオーラ</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

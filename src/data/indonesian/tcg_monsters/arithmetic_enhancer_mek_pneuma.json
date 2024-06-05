@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "Arithmetic Enhancer Mek - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Kartu Karakter",
+    "energy": 1,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Ram",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Energy Boost: Pneuma",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>. Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Energy Burst: Pneuma",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>. Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Energy Boost: Pneuma</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Frame Repair: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah Karaktermu menggunakan Skill: </span>memulihkan 1 poin HP Karaktermu yang telah menerima DMG paling banyak.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah menerima DMG dari Karakter yang memiliki Arkhe: Ousia: </span>Karakter ini berubah menjadi <span style=\"color:#FFFFFFFF\">nonaktif</span> dan <span style=\"color:#FFFFFFFF\">tidak dapat menggunakan skill</span> hingga Ronde berakhir.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

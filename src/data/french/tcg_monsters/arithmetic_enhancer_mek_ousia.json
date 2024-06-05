@@ -1,0 +1,81 @@
+{
+  "_id": 3009,
+  "id": "arithmetic_enhancer_mek_ousia",
+  "shareId": 3009,
+  "name": "Mek amplificateur - Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 1,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Heurt",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_ousia",
+      "name": "Amplification énergétique ousia",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et applique un <span style=\"color:#FFFFFFFF\">boost d'énergie ousia</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_ousia",
+      "name": "Explosion énergétique ousia",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et applique un <span style=\"color:#FFFFFFFF\">boost d'énergie ousia</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_enhancement_ousia",
+      "name": "Renforcement structurel ousia",
+      "desc": "DGT infligés par vos personnages +1.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "Signature énergétique : Ousia",
+      "desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe pneuma : </span>il change en <span style=\"color:#FFFFFFFF\">forme désactivée</span> et <span style=\"color:#FFFFFFFF\">ne peut pas utiliser de capacité</span> jusqu'à la fin de la manche.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

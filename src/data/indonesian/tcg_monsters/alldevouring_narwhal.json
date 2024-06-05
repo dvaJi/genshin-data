@@ -1,0 +1,80 @@
+{
+  "_id": 4208,
+  "id": "alldevouring_narwhal",
+  "shareId": 4208,
+  "name": "All-Devouring Narwhal",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Shattering Waves",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Starfall Shower",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE_2] poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>. Untuk setiap 3 poin Max HP tambahan yang diberikan oleh <span style=\"color:#FFFFFFFF\">Insatiable Appetite</span> yang dimiliki Karakter ini, akan mengakibatkan DMG +1 (Maksimum +5 poin). Selanjutnya, akan mem<span style=\"color:#FFFFFFFF\">buang</span> 1 kartu berbiaya awal Dadu Elemental tertinggi di tanganmu.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Ravaging Devourer",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>, mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Piercing DMG</span> ke seluruh Karakter standby lawan, dan memanggil <span style=\"color:#FFFFFFFF\">Dark Shadow</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Insatiable Appetite",
+      "desc": "[Pasif] Menciptakan <span style=\"color:#FFFFFFFF\">Deep Devourer's Domain</span> saat duel dimulai.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

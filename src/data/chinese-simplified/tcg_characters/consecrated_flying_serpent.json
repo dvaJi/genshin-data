@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "圣骸飞蛇",
+  "title": "亡骸恶风·圣骸飞蛇",
+  "desc": "因为啃噬伟大的生命体，而扭曲异变的飞蛇，驾驭着凌厉的狂风。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "圣骸兽"],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度圣骸飞蛇中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "旋尾迅击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "盘绕风引",
+      "desc": "造成2点<span style=\"color:#80FFD7FF\">风元素伤害</span>，抓1张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>；然后，手牌中每有1张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，抓1张牌（每回合最多抓2张)。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "错落风涡",
+      "desc": "造成2点<span style=\"color:#80FFD7FF\">风元素伤害</span>，<span style=\"color:#FFFFFFFF\">舍弃</span>手牌中所有的<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，每<span style=\"color:#FFFFFFFF\">舍弃</span>2张，此次伤害翻倍1次。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "不朽亡骸·风",
+      "desc": "【被动】战斗开始时，生成6张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，均匀放入牌库。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

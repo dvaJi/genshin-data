@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Serpent volant sacralisé",
+  "title": "Rafale de reste : Serpent volant sacralisé",
+  "desc": "Un serpent volant qui a été déformé et transformé après avoir consommé la chair d'une puissante forme de vie. Il commande désormais des vents redoutables.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre", "Bête sacralisée"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Serpent volant sacralisé"
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Tournoiement de queue",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Bourrasque tourbillonnante",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et pioche 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>], puis pioche 1 carte pour chaque carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans votre main (limité à 2 cartes par manche).",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Vortex dispersé",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et <span style=\"color:#FFFFFFFF\">défausse</span> toutes les cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] de votre main. Ces DGT doublent une fois toutes les 2 cartes <span style=\"color:#FFFFFFFF\">défaussées</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Reste immortel Anémo",
+      "desc": "(Passif) Crée 6 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et les répartit uniformément dans votre deck au début du combat.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

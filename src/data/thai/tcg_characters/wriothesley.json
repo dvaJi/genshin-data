@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "ทูตแห่งบาปเร้นคณา - Wriothesley",
+  "desc": "นักโทษที่ถูกจองจำไว้ ณ ห้วงนทีไร้ระลอก",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "สื่อเวท",
+    "faction": ["Fontaine"],
+    "source": "ได้รับหลังจากเชิญ Wriothesley ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Forceful Fists of Frost",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Icefang Rush",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Chilling Penalty</span>",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Darkgold Wolfbite",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย ทำให้เกิด <span style=\"color:#FFFFFFFF\">Lingering Icicles</span><br/><span style=\"color:#FFFFFFFF\">เมื่อตัวละครนี้ได้รับความเสียหายหรือการรักษาในเทิร์นนี้ครบ 2 ครั้ง:</span> สกิลนี้จะใช้ Elemental Dice น้อยลง 1 ลูก (ใช้น้อยลงได้สูงสุด 2 ลูก)",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

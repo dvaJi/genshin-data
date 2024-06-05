@@ -1,0 +1,81 @@
+{
+  "_id": 3009,
+  "id": "arithmetic_enhancer_mek_ousia",
+  "shareId": 3009,
+  "name": "機關·計算增幅器·荒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 1,
+    "element": "無元素類型",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "衝撞",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_ousia",
+      "name": "能量增幅·荒",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">能量強化·荒</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_ousia",
+      "name": "能量爆轟·荒",
+      "desc": "造成3點<span style=\"color:#FFFFFFFF\">物理傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">能量強化·荒</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_enhancement_ousia",
+      "name": "機體強化·荒",
+      "desc": "我方角色造成的傷害+1。",
+      "skillTag": ["被動技能"],
+      "points": []
+    },
+    {
+      "id": "arkhe_ousia",
+      "name": "能源特徵：荒性",
+      "desc": "<span style=\"color:#FFFFFFFF\">受到具有「始基力：芒性」的角色造成的傷害後：</span>此角色轉換為<span style=\"color:#FFFFFFFF\">「失能形態」</span>，並且直到本回合結束前<span style=\"color:#FFFFFFFF\">無法使用技能</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

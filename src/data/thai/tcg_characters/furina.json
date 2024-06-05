@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "ระบำเดียวดายชั่วนิรันดร์ - Furina",
+  "desc": "ขับขานบทเพลงชั่วนิรันดร์ ร่ายระบำไร้สิ้นสุด",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "ดาบ",
+    "faction": ["Fontaine"],
+    "source": "ได้รับหลังจากเชิญ Furina ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Soloist's Solicitation",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย<br/><span style=\"color:#FFFFFFFF\">เทิร์นละ 1 ครั้ง:</span> หากในมือไม่มีการ์ด <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span> จะทำให้เกิดการ์ด <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span>",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salon Solitaire",
+      "desc": "ขณะที่ <span style=\"color:#FFFFFFFF\">Furina</span> อยู่ในสถานะ \"พลังปฐมภูมิ: สสาร\" เรียก <span style=\"color:#FFFFFFFF\">Salon Member</span><br/>(เมื่อ Furina อยู่ในสถานะ \"พลังปฐมภูมิ: วิญญาณ\" จะเรียก <span style=\"color:#FFFFFFFF\">Singer of Many Waters</span> แทน)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "Let the People Rejoice",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Universal Revelry</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "ธาตุน้ำ",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "พลังปฐมภูมิ: Seats Sacred and Secular",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้างการ์ด <span style=\"color:#FFFFFFFF\">Seats Sacred and Secular</span> ขึ้นในมือ",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

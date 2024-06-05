@@ -1,0 +1,80 @@
+{
+  "_id": 4208,
+  "id": "alldevouring_narwhal",
+  "shareId": 4208,
+  "name": "Baleia Devoradora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "shattering_waves",
+      "name": "Ondas Quebradiças",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfall_shower",
+      "name": "Chuva de Estrelas Cadentes",
+      "desc": "Causa $[D__KEY__DAMAGE_2] de <span style=\"color:#80C0FFFF\">Dano Hydro</span>. Esse personagem causa Dano +1 para cada 3 de Vida adicional fornecida por <span style=\"color:#FFFFFFFF\">Apetite Insaciável</span> (máximo de +5). Após isso, <span style=\"color:#FFFFFFFF\">Descarta</span> 1 carta com o maior custo original de Dados Elementais na sua Mão.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ravaging_devourer",
+      "name": "Devoradora Devastadora",
+      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, causa 1 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a todos os personagens adversários fora de combate. Invoca <span style=\"color:#FFFFFFFF\">Sombras Escuras</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "insatiable_appetite",
+      "name": "Apetite Insaciável",
+      "desc": "(Passivo) Quando a batalha começa, cria <span style=\"color:#FFFFFFFF\">Domínio da Devoradora Profunda</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

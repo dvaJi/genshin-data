@@ -1,0 +1,73 @@
+{
+  "_id": 1111,
+  "id": "wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "Wriothesley · Émissaire de l'iniquité solitaire",
+  "desc": "Profondes sont les eaux coupables.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalyseur",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Wriothesley à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "forceful_fists_of_frost",
+      "name": "Poing vigoureux du givre",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "icefang_rush",
+      "name": "Ruée glaciale du croc",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et applique un <span style=\"color:#FFFFFFFF\">châtiment algide</span> au personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "darkgold_wolfbite",
+      "name": "Morsure lupine de l'or",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et crée un <span style=\"color:#FFFFFFFF\">pic de glace persistant</span>.<br/><span style=\"color:#FFFFFFFF\">Chaque fois que le personnage subit des DGT ou reçoit des soins un total de 2 fois pendant la manche : </span>Cette capacité dépense 1 dé élémentaire en moins. (2 dés maximum peuvent être économisés)",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

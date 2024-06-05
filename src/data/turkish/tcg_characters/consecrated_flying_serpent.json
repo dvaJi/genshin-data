@@ -1,0 +1,80 @@
+{
+  "_id": 2503,
+  "id": "consecrated_flying_serpent",
+  "shareId": 370,
+  "name": "Kutsanmış Uçan Yılan",
+  "title": "Kasırganın İzi: Kutsanmış Uçan Yılan",
+  "desc": "Büyük bir canlıyı yiyerek mutasyona uğrayan ve çarpık hale gelen bir uçan yılan. Artık korkutucu rüzgarlara hükmeder.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar", "Kutsanmış Canavar"],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Kutsanmış Uçan Yılan ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "whirling_tail",
+      "name": "Dönen Kuyruk",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swirling_squall",
+      "name": "Girdaplı Kasırga",
+      "desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Kemik Kıranın Enerji Bloku</span> kartı çekersin. Elindeki her bir <span style=\"color:#FFFFFFFF\">Kemik Kıranın Enerji Bloku</span> için 1 kart çekersin. (Her Turda en fazla 2 kart)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scattershot_vortex",
+      "name": "Düzensiz Girdap",
+      "desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir. Elindeki tüm <span style=\"color:#FFFFFFFF\">Kemik Kıranın Enerji Bloku</span> kartlarına <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygular. <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanan her 2 kart başına bir defa iki kat Hasar verilir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immortal_remnants_anemo",
+      "name": "Ölümsüz Kalıntılar: Rüzgar",
+      "desc": "(Pasif) Savaş başladığında 6 <span style=\"color:#FFFFFFFF\">Kemik Kıranın Enerji Bloku</span> oluşur ve destene eşit biçimde eklenir.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

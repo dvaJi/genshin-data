@@ -1,0 +1,80 @@
+{
+  "_id": 1211,
+  "id": "furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "Endloser Solotanz – Furina",
+  "desc": "Immerwährender Gesang und endloser Tanz.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Einhänder",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Furina in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "soloists_solicitation",
+      "name": "Einladung der Solistin",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.<br/><span style=\"color:#FFFFFFFF\">1-mal pro Runde:</span> Erschafft, wenn du die Karte <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> nicht auf der Hand hast, 1 <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> auf deiner Hand.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "salon_solitaire",
+      "name": "Salon solitaire",
+      "desc": "<span style=\"color:#FFFFFFFF\">Furina</span> befindet sich derzeit im Modus „Arkhe – Ousia“: Erschafft <span style=\"color:#FFFFFFFF\">Salonmitglieder</span>.<br/>(Furina erschafft stattdessen 1 <span style=\"color:#FFFFFFFF\">Sängerin der Ströme</span>, wenn sie sich im Modus „Arkhe – Pneuma“ befindet.)",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "let_the_people_rejoice",
+      "name": "Möge das Volk frohlocken",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Universelle Schwelgerei</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "arkhe_seats_sacred_and_secular",
+      "name": "Arkhe: Thron der Geistlichkeit und Weltlichkeit",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> auf deiner Hand.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

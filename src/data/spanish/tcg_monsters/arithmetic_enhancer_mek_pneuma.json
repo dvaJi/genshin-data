@@ -1,0 +1,81 @@
+{
+  "_id": 3010,
+  "id": "arithmetic_enhancer_mek_pneuma",
+  "shareId": 3010,
+  "name": "Mecaoptimizador Aritmético - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta de personaje",
+    "energy": 1,
+    "element": "Sin tipo elemental",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ram",
+      "name": "Placaje",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_boost_pneuma",
+      "name": "Aumento de energía pneuma",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">potenciación de energía pneuma</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "energy_burst_pneuma",
+      "name": "Explosión de energía pneuma",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">potenciación de energía pneuma</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1108,
+          "id": "matching_element",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "frame_repair_pneuma",
+      "name": "Mecareparación: pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Cuando tu personaje usa una habilidad</span>, el personaje que haya recibido más daño obtiene Vida +1.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "arkhe_pneuma",
+      "name": "Energía pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: ousía</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}
