@@ -11,7 +11,7 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         with:
-          node-version: "18.x"
+          node-version: "20.x"
           registry-url: "https://registry.npmjs.org"
       - run: npm install
         env:
