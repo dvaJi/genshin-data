@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "夏沃蕾",
+  "title": "明律決罰·夏沃蕾",
+  "desc": "知刑執法，公義責罪。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "長柄武器",
+    "faction": ["楓丹"],
+    "source": "在貓尾酒館中邀請夏沃蕾進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "線列槍刺·改",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "近迫式急促攔射",
+      "desc": "造成2點<span style=\"color:#FF9999FF\">火元素傷害</span>。<br/><span style=\"color:#FFFFFFFF\">此技能結算後：</span>如果我方手牌中含有<span style=\"color:#FFFFFFFF\">超量裝藥彈頭</span>，則<span style=\"color:#FFFFFFFF\">捨棄</span>1張並治療我方受傷最多的角色1點。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "圓陣擲彈爆轟術",
+      "desc": "造成2點<span style=\"color:#FF9999FF\">火元素傷害</span>，在敵方場上生成<span style=\"color:#FFFFFFFF\">二重毀傷彈</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "縱陣武力統籌",
+      "desc": "【被動】<span style=\"color:#FFFFFFFF\">敵方角色受到超載反應傷害後：</span>生成手牌<span style=\"color:#FFFFFFFF\">超量裝藥彈頭</span>（每回合1次）",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

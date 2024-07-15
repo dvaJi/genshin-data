@@ -1,0 +1,80 @@
+{
+  "_id": 3412,
+  "id": "eremite_daythunder",
+  "shareId": 3412,
+  "name": "Пустынник: Полуденный гром",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Прочее",
+    "faction": ["Пустынники"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "axe_swipe",
+      "name": "Удар топором",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_cleave",
+      "name": "Вихревой удар",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "greataxe_smash",
+      "name": "Тяжёлый удар топором",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_electro",
+      "name": "Зловещий дух (Электро)",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон:</span> если у этого персонажа не более 7 HP, ему добавляется 1 <span style=\"color:#FFFFFFFF\">Энергия</span> и <span style=\"color:#FFFFFFFF\">Пробуждение духа предзнаменования: Электро</span>. Только 1 раз за игру.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

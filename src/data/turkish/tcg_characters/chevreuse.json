@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "Adaletin Tecellisi: Chevreuse",
+  "desc": "Kanunların Adil Uygulayıcısı.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Mızrak",
+    "faction": ["Fontaine"],
+    "source": "Chevreuse'ü Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "Süngü Hattı Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Kısa Menzilli Seri Tecrit Ateşi",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.<br/><span style=\"color:#FFFFFFFF\">Beceri sona erdikten sonra</span> elinde <span style=\"color:#FFFFFFFF\">Aşırı Yüklü Top</span> varsa 1 tanesine <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanır ve takımındaki en fazla hasar alan karakter için 1 Can yeniler.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "Patlayan Ateş Çemberi",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve rakibinin tarafında 1 <span style=\"color:#FFFFFFFF\">İkincil Patlayıcı Kovanlar</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Dikey Güç Koordinasyonu",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Rakip bir karakter Yüksek Voltaj tepkimesi Hasarı aldığında</span> elinde 1 <span style=\"color:#FFFFFFFF\">Aşırı Yüklü Top</span> kartı oluşur. (Her Turda bir defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

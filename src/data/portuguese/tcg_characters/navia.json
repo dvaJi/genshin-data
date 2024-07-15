@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Leme da Rosa Radiante - Navia",
+  "desc": "\"A Rosa Amarela Crescente\".",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Espadão",
+    "faction": ["Fontaine"],
+    "source": "Recompensa por desafiar Navia para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Desistência Franca",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Cerimônia Cristalina Flamejante",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, aplica <span style=\"color:#FFFFFFFF\">Encantamento Geo</span> a esse personagem. <span style=\"color:#FFFFFFFF\">Descarta</span> até 5 cartas <span style=\"color:#FFFFFFFF\">Fragmento da Rachadura</span> de sua Mão. Cada carta que você <span style=\"color:#FFFFFFFF\">Descarta</span> faz com que isso cause +1 de Dano e você saque 1 carta.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "Como um Presente do Céu Claro",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo</span>, causa 1 de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Dano Perfurante</span></span> a todos os personagens adversários fora de combate. Invoca 1 <span style=\"color:#FFFFFFFF\">Salva de Canhões Dourados</span> e cria 1 carta <span style=\"color:#FFFFFFFF\">Fragmento da Rachadura</span> antes de adicioná-la à sua Mão.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Rede de Ajuda Mútua",
+      "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Após um personagem sofrer Dano de Reação de Cristalização:</span> Cria 3 <span style=\"color:#FFFFFFFF\">Fragmento da Rachadura</span> e coloca aleatoriamente em seu deck.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

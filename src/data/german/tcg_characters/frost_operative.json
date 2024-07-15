@@ -1,0 +1,80 @@
+{
+  "_id": 2104,
+  "id": "frost_operative",
+  "shareId": 397,
+  "name": "Fatui – Frostdienerin",
+  "title": "Frucht der Ausscheidungen – Frostdienerin",
+  "desc": "Schon im Kindesalter ausgewählt, müssen sie sich einer langen Ausbildung und einem harten Training unterziehen und erst nach unzähligen Ausscheidungen werden die sogenannten „Dienerinnen“ ernannt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": ["Fatui"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fatui – Frostdienerin in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "Flinke Klinge",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "Wuchtiger Frosthieb",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "Stürzende Eiszapfen",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Plündernde Wut</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "Schatten des Bluteides",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nach Anwenden von Fähigkeiten dieser Figur</span>: Verleiht der aktiven Figur des Gegners <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> mit der <span style=\"color:#FFFFFFFF\">Einsatzmöglichkeit</span>, die 2 weniger als der SCH-Wert dieser Fähigkeit ist (5-fach stapelbar).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

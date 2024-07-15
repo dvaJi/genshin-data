@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "\"Executor of Justice\" Chevreuse",
+  "desc": "Pembela Kebenaran, Penegak Keadilan.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "faction": ["Fontaine"],
+    "source": "Didapatkan setelah mengundang Chevreuse ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "Line Bayonet Thrust EX",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Short-Range Rapid Interdiction Fire",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.<br/><span style=\"color:#FFFFFFFF\">Setelah penghitungan Skill ini selesai:</span> jika di Tanganmu terdapat <span style=\"color:#FFFFFFFF\">Overcharged Ball</span>: <span style=\"color:#FFFFFFFF\">Buang</span> 1 kartu dan memulihkan 1 poin HP Karaktermu yang menerima DMG terbesar.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "Ring of Bursting Grenades",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan menciptakan <span style=\"color:#FFFFFFFF\">Secondary Explosive Shells</span> di area lawan.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Vertical Force Coordination",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Setelah Karakter lawan menerima DMG dari Reaksi Overloaded: </span>menciptakan 1 <span style=\"color:#FFFFFFFF\">Overcharged Ball</span>. (Sekali setiap Ronde)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

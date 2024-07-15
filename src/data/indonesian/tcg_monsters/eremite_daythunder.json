@@ -1,0 +1,80 @@
+{
+  "_id": 3412,
+  "id": "eremite_daythunder",
+  "shareId": 3412,
+  "name": "Eremite Daythunder",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Senjata Lain",
+    "faction": ["Eremite"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "axe_swipe",
+      "name": "Axe Swipe",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_cleave",
+      "name": "Whirling Cleave",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "greataxe_smash",
+      "name": "Greataxe Smash",
+      "desc": "Mengakibatkan 5 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_electro",
+      "name": "Ominous Spirit Unleashed (Electro)",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Setelah Karakter ini menerima DMG: </span>jika HP Karakter ini tidak lebih dari 7, maka akan mendapatkan 1 poin <span style=\"color:#FFFFFFFF\">Energy</span> dan status <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Electro</span>. (Sekali selama pertandingan)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

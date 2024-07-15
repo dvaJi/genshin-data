@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "Chevreuse · Exécutrice de la justice",
+  "desc": "Vertueuse administratrice de l'imputabilité.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arme d'hast",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Chevreuse à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "Pique de baïonnette (modifiée)",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Tir de suppression rapide à courte portée",
+      "desc": "Inflige 2 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.<br/><span style=\"color:#FFFFFFFF\">Après le calcul de la capacité : </span>Si votre main contient une ou plusieurs cartes [<span style=\"color:#FFFFFFFF\">Cartouche surchargée</span>], <span style=\"color:#FFFFFFFF\">défausse</span> 1 carte et soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "Anneau de grenades éclatantes",
+      "desc": "Inflige 2 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et crée un <span style=\"color:#FFFFFFFF\">obus explosif secondaire</span> sur le terrain adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Agencement vertical",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsqu'un personnage adverse a subi des DGT d'une réaction de Surcharge : </span>Crée une carte [<span style=\"color:#FFFFFFFF\">Cartouche surchargée</span>] dans votre main. (1 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

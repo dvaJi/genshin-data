@@ -1,0 +1,80 @@
+{
+  "_id": 2104,
+  "id": "frost_operative",
+  "shareId": 397,
+  "name": "愚人眾·霜役人",
+  "title": "汰換之果·霜役人",
+  "desc": "自幼就被選中的人，經長久年月的教化與訓練，在無數次的汰換後才能成為所謂的「役人」。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": ["愚人眾"],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度愚人眾·霜役人中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "迅捷劍鋒",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "霜刃截擊",
+      "desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "掠襲之刺",
+      "desc": "造成4點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">掠襲銳勢</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "血契掠影",
+      "desc": "【被動】<span style=\"color:#FFFFFFFF\">本角色使用技能後：</span>對敵方出戰角色附屬<span style=\"color:#FFFFFFFF\">可用次數</span>為（本技能最終傷害值-2）的<span style=\"color:#FFFFFFFF\">生命之契</span>。（最多5層）",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

@@ -7,15 +7,23 @@
   "desc": "「쿠사바」, 「쿠사바」~♪\\n쿠사바는 기억과 꿈을 담는 그릇이야. 그 안에는 힘이 가득 담겨 있어.\\n꽃이 피는 식물에서 자라난 과실이자, 새로운 씨앗이기도, 새로운 생명이기도 해.\\n아란나라 기억의 임시 거처이자 아란나라의 힘을 잠시 보관해 두는 곳이지",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "동일한 원소",
     "card_type": "서포트 카드",
-    "energy": [],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "동일한 원소",
+        "count": 1
+      }
+    ],
     "tags": ["아이템"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">행동 단계 시작 시:</span> 원소 주사위 코스트가 가장 높은 카드를 최대 2장 <span style=\"color:#FFFFFFFF\">포기</span>하고, 카드를 1장 <span style=\"color:#FFFFFFFF\">포기</span>할 때마다 이 카드에 <span style=\"color:#FFFFFFFF\">「기억과 꿈」</span>을 1pt 누적한다. (최대 2pt)<br/><span style=\"color:#FFFFFFFF\">아군 캐릭터가 스킬 사용 시:</span> 아군이 이번 턴에 행동 카드를 사용하지 않았다면 <span style=\"color:#FFFFFFFF\">「기억과 꿈」</span>을 1pt 소모하여 해당 스킬의 원소 주사위 소모-1"
+      "desc": "<span style=\"color:#FFFFFFFF\">행동 단계 시작 시:</span> 기본 원소 주사위 코스트가 가장 높은 카드를 최대 2장 <span style=\"color:#FFFFFFFF\">포기</span>하고, 1장 <span style=\"color:#FFFFFFFF\">포기</span>할 때마다 해당 카드가 <span style=\"color:#FFFFFFFF\">「기억과 꿈」</span>을 1pt 누적한다. (최대 2pt)<br/><span style=\"color:#FFFFFFFF\">아군 캐릭터가 스킬 사용 시:</span> 만약 아군이 이번 턴에 행동 카드를 사용하지 않은 경우, <span style=\"color:#FFFFFFFF\">「기억과 꿈」</span>을 1pt 소모해 해당 스킬의 원소 주사위 소모 개수-1"
     }
   ]
 }

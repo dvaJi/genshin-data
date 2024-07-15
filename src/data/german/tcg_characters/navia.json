@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Leiterin der leuchtenden Rose – Navia",
+  "desc": "„Die fliegende gelbe Rose“.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Zweihänder",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Navia in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Freimütige Verweigerung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Zeremonieller Kristallschuss",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Geo-Kraft</span>. Max. 5 <span style=\"color:#FFFFFFFF\">Kristallscharfer Splitter</span> werden aus deiner Hand <span style=\"color:#FFFFFFFF\">abgeworfen</span>. Erhöht für jede <span style=\"color:#FFFFFFFF\">abgeworfen</span>e Karte den SCH um 1 Pkt. und zieht jeweils 1 Karte.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "Wie die sich über den klaren Himmel ausbreitende Ehrensalve",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, fügt allen inaktiven Figuren deines Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu. Beschwört <span style=\"color:#FFFFFFFF\">Prächtige goldene Ehrensalve</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Kristallscharfer Splitter</span> und fügt ihn deiner Hand hinzu.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Netzwerk der gegenseitigen Unterstützung",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nachdem eine Figur des Gegners SCH durch Kristallisation erlitten hat:</span> Erschafft 3 <span style=\"color:#FFFFFFFF\">Kristallscharfer Splitter</span> und legt sie zufällig unter die Karten deines Stapels.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

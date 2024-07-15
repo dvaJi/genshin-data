@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Navia · Nautonière de la rose radieuse",
+  "desc": "« Essor de la rose jaune. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Épée à deux mains",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Navia à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Refus direct",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Tir cristallin de cérémonie",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>, applique un <span style=\"color:#FFFFFFFF\">enchantement Géo</span> au personnage et <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 5 cartes [<span style=\"color:#FFFFFFFF\">Shrapnel cristallin</span>] depuis votre main, chaque carte <span style=\"color:#FFFFFFFF\">défaussée</span> augmentant les DGT de 1 et permettant de piocher 1 carte.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "Salut du ciel ensoleillé",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente, invoque <span style=\"color:#FFFFFFFF\">salut de rose d'or</span> et crée 1 carte [<span style=\"color:#FFFFFFFF\">Shrapnel cristallin</span>] dans votre main.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Réseau d'assistance mutuelle",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsqu'un personnage adverse a subi des DGT d'une réaction de Cristallisation : </span>Crée 3 cartes [<span style=\"color:#FFFFFFFF\">Shrapnel cristallin</span>] et les place aléatoirement dans votre deck.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

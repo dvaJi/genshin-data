@@ -1,0 +1,80 @@
+{
+  "_id": 2104,
+  "id": "frost_operative",
+  "shareId": 397,
+  "name": "ファデュイ·氷霜の従者",
+  "title": "淘汰の実·氷霜の従者",
+  "desc": "子供の頃に選ばれた者が、長年の教育と訓練でふるいにかけられ、残った者が「従者」となる。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": ["ファデュイ"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、ファデュイ·氷霜の従者に挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "高速剣撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "霜刃の迎撃",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "鋭気の刺撃",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を4与え、本キャラに<span style=\"color:#FFFFFFFF\">鋭気の強襲</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "血の盟約の影",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">本キャラがスキルを発動した後</span>、相手の出撃キャラに<span style=\"color:#FFFFFFFF\">使用可能回数</span>が（本スキルの最終ダメージ-2）の<span style=\"color:#FFFFFFFF\">命の契約</span>を付与する。（最大5層まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

@@ -7,15 +7,23 @@
   "desc": "♪ ¡Kusava, kusava! ♪\\nGuarda recuerdos y está lleno de poder.\\nEs fruto de plantas que dan flores y semilla que trae nueva vida.\\nEl kusava es el hogar temporal de los recuerdos de los aranara y, al mismo tiempo, lo que les da su poder.",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "Dados unielementales",
     "card_type": "Carta de apoyo",
-    "energy": [],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Dados unielementales",
+        "count": 1
+      }
+    ],
     "tags": ["Objeto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Al comienzo de la fase de acciones</span>, se realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de un máximo de 2 cartas con el mayor coste de dados elementales. Por cada carta para la que se haya realizado un <span style=\"color:#FFFFFFFF\">descarte</span>, esta carta acumula 1 pt. de <span style=\"color:#FFFFFFFF\">sueños y recuerdos</span> (acumulable hasta 2 pts.).<br/><span style=\"color:#FFFFFFFF\">Cuando tu personaje usa una habilidad</span>, si en la ronda actual aún no has jugado ninguna carta de acción, consume 1 pt. de <span style=\"color:#FFFFFFFF\">sueños y recuerdos</span> y gasta 1 dado elemental menos para ejecutar la habilidad."
+      "desc": "<span style=\"color:#FFFFFFFF\">Al comienzo de la fase de acciones</span>, se realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de un máximo de 2 cartas con el mayor coste original de dados elementales. Por cada carta para la que se haya realizado un <span style=\"color:#FFFFFFFF\">descarte</span>, esta carta acumula 1 pt. de <span style=\"color:#FFFFFFFF\">sueños y recuerdos</span> (acumulable hasta 2 pts.).<br/><span style=\"color:#FFFFFFFF\">Cuando tu personaje usa una habilidad</span>, si en la ronda actual aún no has jugado ninguna carta de acción, consume 1 pt. de <span style=\"color:#FFFFFFFF\">sueños y recuerdos</span> y gasta 1 dado elemental menos para ejecutar la habilidad."
     }
   ]
 }

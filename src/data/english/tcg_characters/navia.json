@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Helm of the Radiant Rose: Navia",
+  "desc": "\"The Soaring Yellow Rose.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Claymore",
+    "faction": ["Fontaine"],
+    "source": "Reward for inviting Navia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Blunt Refusal",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Ceremonial Crystalshot",
+      "desc": "Deals 3 <span style=\"color:#FFE699FF\">Geo DMG</span>, attaches <span style=\"color:#FFFFFFFF\">Geo Infusion</span> to this character. <span style=\"color:#FFFFFFFF\">Discard</span> up to 5 <span style=\"color:#FFFFFFFF\">Crystal Shrapnel</span> from your Hand. Each card you <span style=\"color:#FFFFFFFF\">Discard</span> causes this to deal +1 DMG, and you draw 1 card.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "As the Sunlit Sky's Singing Salute",
+      "desc": "Deals 1 <span style=\"color:#FFE699FF\">Geo DMG</span>, deals 1 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to all opposing characters on standby. Summons 1 <span style=\"color:#FFFFFFFF\">Rosula Dorata Salute</span> and creates 1 <span style=\"color:#FFFFFFFF\">Crystal Shrapnel</span> card before adding it to your Hand.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Mutual Assistance Network",
+      "desc": "(Passive) <span style=\"color:#FFFFFFFF\">After an opponent's character takes Crystallize reaction DMG:</span> Create 3 <span style=\"color:#FFFFFFFF\">Crystal Shrapnel</span> and randomly place them into your deck.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

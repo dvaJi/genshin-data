@@ -1,0 +1,80 @@
+{
+  "_id": 4109,
+  "id": "frost_operative",
+  "shareId": 4109,
+  "name": "우인단·서리 심부름꾼",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "기타 무기",
+    "faction": ["우인단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "빠른 칼끝",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "서늘한 요격",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "기습 찌르기",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 4pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">예리한 기습</span>을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "기습 핏빛 계약",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">본 캐릭터가 스킬 사용 후:</span> 상대 출전 캐릭터에게 <span style=\"color:#FFFFFFFF\">사용 가능 횟수</span>가 (해당 스킬 최종 피해량-2)인 <span style=\"color:#FFFFFFFF\">생명의 계약</span>을 부착한다. (최대 5스택)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

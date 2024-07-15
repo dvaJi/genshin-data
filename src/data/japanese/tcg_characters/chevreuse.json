@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "シュヴルーズ",
+  "title": "厳罰を与える法の通暁者·シュヴルーズ",
+  "desc": "刑を以て法を為し、義を以て罪を咎める",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "長柄武器",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでシュヴルーズを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "戦列槍術·改",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "近迫阻止射撃·速",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与える。<br/><span style=\"color:#FFFFFFFF\">このスキル処理完了後</span>、味方の手札に<span style=\"color:#FFFFFFFF\">マグナムブレット</span>が含まれていた場合、それを1枚<span style=\"color:#FFFFFFFF\">破棄</span>し、HPを最も失っている味方キャラのHPを1回復する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "円形爆撃戦術·轟",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を2与え、相手のフィールドに<span style=\"color:#FFFFFFFF\">二次榴弾</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "縦陣戦力統括",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">相手のキャラが過負荷反応によるダメージを受けた後</span>、手札<span style=\"color:#FFFFFFFF\">マグナムブレット</span>を生成する。（各ラウンドで1回のみ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

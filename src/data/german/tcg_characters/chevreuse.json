@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "Vollstreckerin des Gesetzes – Chevreuse",
+  "desc": "Gerechte Hüterin des Gesetzes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Chevreuse in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "Bajonettangriff der Lineartaktik – Modifiziert",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Schnelles Unterdrückungsfeuer auf kurze Distanz",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.<br/><span style=\"color:#FFFFFFFF\">Nach Auswertung dieser Fähigkeit:</span> Wenn du <span style=\"color:#FFFFFFFF\">Überladene Kugel</span> in der Hand hast, wird 1 davon <span style=\"color:#FFFFFFFF\">abgeworfen</span>; stellt dabei deiner Figur, die den meisten SCH erlitten hat, 1 LP wieder her.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "Kreisförmiger Kartätschenangriff",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Sekundäres Explosivgeschoss</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Vertikale Kraftkoordination",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nachdem eine Figur des Gegners SCH durch Überladen erlitten hat:</span> Erschafft 1 <span style=\"color:#FFFFFFFF\">Überladene Kugel</span> auf deiner Hand (1-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

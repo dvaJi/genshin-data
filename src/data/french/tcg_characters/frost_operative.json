@@ -1,0 +1,80 @@
+{
+  "_id": 2104,
+  "id": "frost_operative",
+  "shareId": 397,
+  "name": "Opérateur Fatui du givre",
+  "title": "Fruit d'obsolescence : Opérateur du givre",
+  "desc": "Sélectionnés dès l'enfance, ils ne peuvent devenir opérateurs qu'après de longues années d'entraînement et d'enseignement, et après avoir suffisamment « élagué les terrains ».",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": ["Fatui"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Opérateur Fatui du givre"
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "Pique rapide",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "Tranchant gelé",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "Épine prédatrice",
+      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et applique une <span style=\"color:#FFFFFFFF\">posture d'assaut</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "Ombre sanguinolente",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une capacité : </span>Applique un <span style=\"color:#FFFFFFFF\">engagement vital</span> dont le <span style=\"color:#FFFFFFFF\">nombre d'utilisations</span> est égal aux DGT finaux de cette capacité moins 2 au personnage actif adverse. (Peut être cumulé 5 fois maximum)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

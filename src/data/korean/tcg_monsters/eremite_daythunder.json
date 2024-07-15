@@ -1,0 +1,80 @@
+{
+  "_id": 3412,
+  "id": "eremite_daythunder",
+  "shareId": 3412,
+  "name": "도금 여단·낮을 밝히는 번개",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "기타 무기",
+    "faction": ["도금 여단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "axe_swipe",
+      "name": "전투 도끼 휘두르기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_cleave",
+      "name": "강력한 회전 베기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "greataxe_smash",
+      "name": "도끼 폭발",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 5pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_electro",
+      "name": "악령 해방·번개",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">이 캐릭터가 피해를 받은 후: </span>이 캐릭터의 HP가 7pt 이하이면 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득하고 <span style=\"color:#FFFFFFFF\">악령 소생·번개</span>를 부착한다. (대전당 1회 제한)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

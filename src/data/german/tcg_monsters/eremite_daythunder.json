@@ -1,0 +1,80 @@
+{
+  "_id": 3412,
+  "id": "eremite_daythunder",
+  "shareId": 3412,
+  "name": "Goldbrigade – Tagesdonner",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Goldbrigade"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "axe_swipe",
+      "name": "Axthiebe",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_cleave",
+      "name": "Wirbelhiebe",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "greataxe_smash",
+      "name": "Zerschmetternde Axtstürme",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_electro",
+      "name": "Freilassung des Geists – Elektro",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nachdem die Figur SCH erlitten hat:</span> Erhält 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span> und <span style=\"color:#FFFFFFFF\">Erwachen des Geistes – Elektro</span>, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

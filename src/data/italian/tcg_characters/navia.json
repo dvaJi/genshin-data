@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Navia, Timoniere della rosa splendente",
+  "desc": "\"La sublime rosa gialla.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Claymore",
+    "faction": ["Fontaine"],
+    "source": "Ricompensa ottenuta sfidando Navia a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Netto rifiuto",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Salva cristallina",
+      "desc": "Infligge 3 <span style=\"color:#FFE699FF\">DAN da Geo</span> e associa <span style=\"color:#FFFFFFFF\">Infusione di Geo</span> a questo personaggio. Poi, <span style=\"color:#FFFFFFFF\">rimuovi</span> fino a 5 carte <span style=\"color:#FFFFFFFF\">Bossolo di cristallo</span> dalla tua mano. Per ogni carta <span style=\"color:#FFFFFFFF\">rimossa</span>, questa abilità infligge DAN +1 e ti permette di pescare 1 carta.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "Tributo del sole luminoso",
+      "desc": "Infligge 1 <span style=\"color:#FFE699FF\">DAN da Geo</span>, infligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti i personaggi avversari inattivi. Invoca 1 <span style=\"color:#FFFFFFFF\">Saluto della Rosula dorata</span> e crea 1 carta <span style=\"color:#FFFFFFFF\">Bossolo di cristallo</span> che viene poi aggiunta alla tua mano.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Rete di assistenza reciproca",
+      "desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Dopo che un personaggio avversario subisce DAN da Cristallizzazione:</span> crea 3 carte <span style=\"color:#FFFFFFFF\">Bossolo di cristallo</span> e mettile nel tuo mazzo in ordine casuale.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

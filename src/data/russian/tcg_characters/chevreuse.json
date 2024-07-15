@@ -1,0 +1,80 @@
+{
+  "_id": 1313,
+  "id": "chevreuse",
+  "shareId": 395,
+  "name": "Шеврёз",
+  "title": "«Вершитель правосудия» Шеврёз",
+  "desc": "Праведный блюститель закона.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Древковое",
+    "faction": ["Фонтейн"],
+    "source": "Награда за приглашение Шеврёз в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "line_bayonet_thrust_ex",
+      "name": "Модифицированный ряд штыков",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shortrange_rapid_interdiction_fire",
+      "name": "Быстрый преграждающий выстрел вблизи",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 2 ед.<br/><span style=\"color:#FFFFFFFF\">После подсчёта навыка:</span> если у вас есть <span style=\"color:#FFFFFFFF\">Перегруженный заряд</span>: происходит <span style=\"color:#FFFFFFFF\">Отказ</span> от одного из них, и ваш персонаж, получивший наибольший урон, восстанавливает 1 HP.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ring_of_bursting_grenades",
+      "name": "Кольцо разрывных гранат",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 2 ед. Вызывает <span style=\"color:#FFFFFFFF\">Мелкий разрывной заряд</span> у противника.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "vertical_force_coordination",
+      "name": "Вертикальное координирование сил",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">После того как персонаж противника получит урон от реакции Перегрузка:</span> вы получите <span style=\"color:#FFFFFFFF\">Перегруженный заряд</span> (1 раз за раунд).",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

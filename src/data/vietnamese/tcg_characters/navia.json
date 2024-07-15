@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Bánh Lái Hoa Lệ - Navia",
+  "desc": "\"Hoa Hồng Vàng Tung Bay\".",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Trọng Kiếm",
+    "faction": ["Fontaine"],
+    "source": "Nhận được sau khi mời Navia giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "Từ Chối Thẳng Thừng",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "Đạn Pha Lê Thanh Lịch",
+      "desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Đính Kèm Nguyên Tố Nham</span>; <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> tối đa 5 lá <span style=\"color:#FFFFFFFF\">Mảnh Đạn Pha Lê</span> trên tay, với mỗi lá bị <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> sẽ +1 sát thương này và rút 1 lá bài.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "Pháo Mừng Vang Trời",
+      "desc": "Gây 1 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham</span>, gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span> cho tất cả nhân vật dự bị phe địch. Triệu hồi <span style=\"color:#FFFFFFFF\">Pháo Hoa Hồng Vàng</span>, sinh ra 1 lá <span style=\"color:#FFFFFFFF\">Mảnh Đạn Pha Lê</span> và thêm vào bộ bài trên tay.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "Mạng Lưới Hỗ Trợ",
+      "desc": "(Bị động) <span style=\"color:#FFFFFFFF\">Sau khi nhân vật phe địch nhận sát thương phản ứng Kết Tinh:</span> Sinh ra 3 lá <span style=\"color:#FFFFFFFF\">Mảnh Đạn Pha Lê</span>, đưa ngẫu nhiên vào kho bài phe ta.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

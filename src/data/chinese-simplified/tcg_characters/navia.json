@@ -1,0 +1,80 @@
+{
+  "_id": 1608,
+  "id": "navia",
+  "shareId": 396,
+  "name": "娜维娅",
+  "title": "明花蔓舵·娜维娅",
+  "desc": "《飞翔的黄玫瑰》。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "双手剑",
+    "faction": ["枫丹"],
+    "source": "在猫尾酒馆中邀请娜维娅进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "blunt_refusal",
+      "name": "直率的辞绝",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ceremonial_crystalshot",
+      "name": "典仪式晶火",
+      "desc": "造成3点<span style=\"color:#FFE699FF\">岩元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">岩元素附魔</span>；从手牌中<span style=\"color:#FFFFFFFF\">舍弃</span>至多5张<span style=\"color:#FFFFFFFF\">裂晶弹片</span>，每<span style=\"color:#FFFFFFFF\">舍弃</span>1张都使此伤害+1并抓1张牌。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "as_the_sunlit_skys_singing_salute",
+      "name": "如霰澄天的鸣礼",
+      "desc": "造成1点<span style=\"color:#FFE699FF\">岩元素伤害</span>，对所有敌方后台角色造成1点<span style=\"color:#FFFFFFFF\">穿透伤害</span>。召唤<span style=\"color:#FFFFFFFF\">金花礼炮</span>，生成1张<span style=\"color:#FFFFFFFF\">裂晶弹片</span>加入手牌。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "mutual_assistance_network",
+      "name": "互助关系网",
+      "desc": "【被动】<span style=\"color:#FFFFFFFF\">敌方角色受到结晶反应伤害后：</span>生成3张<span style=\"color:#FFFFFFFF\">裂晶弹片</span>，随机置入我方牌库中。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

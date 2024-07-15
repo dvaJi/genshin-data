@@ -1,0 +1,80 @@
+{
+  "_id": 3412,
+  "id": "eremite_daythunder",
+  "shareId": 3412,
+  "name": "Foudre diurne des Érémites",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Érémites"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "axe_swipe",
+      "name": "Frappe de hache",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "whirling_cleave",
+      "name": "Entaille tournoyante",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "greataxe_smash",
+      "name": "Pulvérisation de hache",
+      "desc": "Inflige 5 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ominous_spirit_unleashed_electro",
+      "name": "Délivrance d'esprit sinistre (Électro)",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT</span> : Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> et un <span style=\"color:#FFFFFFFF\">éveil d'esprit sinistre (Électro)</span> s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

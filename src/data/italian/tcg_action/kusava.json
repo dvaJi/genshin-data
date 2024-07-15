@@ -7,15 +7,23 @@
   "desc": "Kusava, Kusava~♪\\nI sogni e i ricordi sono molto potenti.\\nÈ il frutto delle piante fiorite e anche il seme di nuova vita.\\nSono la dimora temporanea dei ricordi degli Aranara, e danno loro forza.",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "Elementi corrispondenti",
     "card_type": "Carta di supporto",
-    "energy": [],
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Elementi corrispondenti",
+        "count": 1
+      }
+    ],
     "tags": ["Oggetto"]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">All'inizio della fase di azione:</span> <span style=\"color:#FFFFFFFF\">rimuovi</span> un massimo di 2 carte con il costo di dadi elementali più alto nella tua mano. Per ogni carta <span style=\"color:#FFFFFFFF\">rimossa</span>, questa carta accumula 1 punto <span style=\"color:#FFFFFFFF\">Sogni e ricordi</span> (massimo 2).<br/><span style=\"color:#FFFFFFFF\">Quando un tuo personaggio usa un'abilità:</span> se non hai giocato una carta azione in questo turno, consuma 1 punto <span style=\"color:#FFFFFFFF\">Sogni e ricordi</span>, questa abilità costa 1 dado elementale in meno."
+      "desc": "<span style=\"color:#FFFFFFFF\">All'inizio della fase di azione:</span> <span style=\"color:#FFFFFFFF\">rimuovi</span> un massimo di 2 carte con il più alto costo originale di dadi elementali nella tua mano. Per ogni carta <span style=\"color:#FFFFFFFF\">rimossa</span>, questa carta accumula 1 punto <span style=\"color:#FFFFFFFF\">Sogni e ricordi</span> (massimo 2).<br/><span style=\"color:#FFFFFFFF\">Quando il tuo personaggio usa un'abilità:</span> se non hai giocato una carta azione in questo turno, consuma 1 punto <span style=\"color:#FFFFFFFF\">Sogni e ricordi</span>, l'abilità costa 1 dado elementale in meno."
     }
   ]
 }

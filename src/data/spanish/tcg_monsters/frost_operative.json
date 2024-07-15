@@ -1,0 +1,80 @@
+{
+  "_id": 4109,
+  "id": "frost_operative",
+  "shareId": 4109,
+  "name": "Soldado Fatui - Senescal Cryo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": ["Fatui"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "swift_point",
+      "name": "Cuchilla rápida",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "frosty_interjection",
+      "name": "Interceptación hojaescarcha",
+      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thorny_onslaught",
+      "name": "Espina de asalto",
+      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">posición de asalto</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bloodbonded_shadow",
+      "name": "Sombra sanguínea",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">después de que este personaje use una habilidad</span>, el personaje en combate enemigo obtiene un <span style=\"color:#FFFFFFFF\">pacto vital</span> con un número de <span style=\"color:#FFFFFFFF\">usos</span> equivalente al daño final de esta habilidad -2 (acumulable hasta 5 veces).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}
