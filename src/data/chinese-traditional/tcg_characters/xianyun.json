@@ -1,0 +1,73 @@
+{
+  "_id": 1510,
+  "id": "xianyun",
+  "shareId": 408,
+  "name": "閒雲",
+  "title": "鸞音鶴信·閒雲",
+  "desc": "俠中影，雲裡客。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "source": "在貓尾酒館中邀請閒雲進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "word_of_wind_and_flower",
+      "name": "清風散花詞",
+      "desc": "造成1點<span style=\"color:#80FFD7FF\">風元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "white_clouds_at_dawn",
+      "name": "朝起鶴雲",
+      "desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，生成<span style=\"color:#FFFFFFFF\">步天梯</span>，本角色附屬<span style=\"color:#FFFFFFFF\">閒雲衝擊波</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stars_gather_at_dusk",
+      "name": "暮集竹星",
+      "desc": "造成1點<span style=\"color:#80FFD7FF\">風元素傷害</span>，治療所有我方角色1點，生成手牌<span style=\"color:#FFFFFFFF\">竹星</span>。<br/>（裝備有<span style=\"color:#FFFFFFFF\">竹星</span>的角色可以使用特技：<span style=\"color:#FFFFFFFF\">仙力助推</span>）",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

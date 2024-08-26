@@ -1,0 +1,73 @@
+{
+  "_id": 2205,
+  "id": "hydro_hilichurl_rogue",
+  "shareId": 409,
+  "name": "丘丘水行游侠",
+  "title": "锐波漫游·丘丘水行游侠",
+  "desc": "不属于任何部族的丘丘人流浪者，如同自我流放一般在荒野中四处漫游。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物", "丘丘人"],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度丘丘水行游侠中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "whirling_scythe",
+      "name": "镰刀旋斩",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "slash_of_surging_tides",
+      "name": "狂澜镰击",
+      "desc": "造成3点<span style=\"color:#80C0FFFF\">水元素伤害</span>。<br/>如果有敌方角色附属有<span style=\"color:#FFFFFFFF\">冻结</span>或<span style=\"color:#FFFFFFFF\">水泡围困</span>，则本角色获得1点<span style=\"color:#FFFFFFFF\">充能</span>。（每回合1次）",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bubblefloat_blitz",
+      "name": "浮泡攻势",
+      "desc": "造成3点<span style=\"color:#80C0FFFF\">水元素伤害</span>，生成手牌<span style=\"color:#FFFFFFFF\">水泡史莱姆</span>。<br/>（装备有<span style=\"color:#FFFFFFFF\">水泡史莱姆</span>的角色可以使用特技：<span style=\"color:#FFFFFFFF\">水泡战法</span>）",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

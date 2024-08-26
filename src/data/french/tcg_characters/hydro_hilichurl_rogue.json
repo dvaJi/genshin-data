@@ -1,0 +1,73 @@
+{
+  "_id": 2205,
+  "id": "hydro_hilichurl_rogue",
+  "shareId": 409,
+  "name": "Brutovéreux Hydro",
+  "title": "Vagabond des marées : Brutovéreux Hydro",
+  "desc": "Brutocollinus nomade qui n'est affilié à aucune tribu spécifique. On le trouve souvent errant dans la nature, comme s'il s'était imposé lui-même un exil.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre", "Brutocollinus"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Brutovéreux Hydro"
+  },
+  "skills": [
+    {
+      "id": "whirling_scythe",
+      "name": "Faux tourbillonnante",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "slash_of_surging_tides",
+      "name": "Coup de marée montante",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.<br/>Si un personnage adverse est affecté par un <span style=\"color:#FFFFFFFF\">Gel</span> ou une <span style=\"color:#FFFFFFFF\">prison d'écume</span> : Ce personnage obtient 1 <span style=\"color:#FFFFFFFF\">charge</span>. (1 fois par manche)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bubblefloat_blitz",
+      "name": "Offensive de bulles flottantes",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une carte [<span style=\"color:#FFFFFFFF\">Blob écumeux</span>] dans votre main.<br/>(Les personnages équipés avec [<span style=\"color:#FFFFFFFF\">Blob écumeux</span>] peuvent utiliser l'habilité : <span style=\"color:#FFFFFFFF\">Tactique écumeuse</span>)",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

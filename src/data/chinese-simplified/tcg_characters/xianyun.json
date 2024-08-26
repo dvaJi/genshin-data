@@ -1,0 +1,73 @@
+{
+  "_id": 1510,
+  "id": "xianyun",
+  "shareId": 408,
+  "name": "闲云",
+  "title": "鸾音鹤信·闲云",
+  "desc": "侠中影，云里客。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "法器",
+    "faction": ["璃月"],
+    "source": "在猫尾酒馆中邀请闲云进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "word_of_wind_and_flower",
+      "name": "清风散花词",
+      "desc": "造成1点<span style=\"color:#80FFD7FF\">风元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "white_clouds_at_dawn",
+      "name": "朝起鹤云",
+      "desc": "造成2点<span style=\"color:#80FFD7FF\">风元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">步天梯</span>，本角色附属<span style=\"color:#FFFFFFFF\">闲云冲击波</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stars_gather_at_dusk",
+      "name": "暮集竹星",
+      "desc": "造成1点<span style=\"color:#80FFD7FF\">风元素伤害</span>，治疗所有我方角色1点，生成手牌<span style=\"color:#FFFFFFFF\">竹星</span>。<br/>（装备有<span style=\"color:#FFFFFFFF\">竹星</span>的角色可以使用特技：<span style=\"color:#FFFFFFFF\">仙力助推</span>）",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_id": 3209,
+  "id": "tainted_hydro_phantasm",
+  "shareId": 3209,
+  "name": "Okeanospuk",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "tainted_water_strike",
+      "name": "Schlag des verdorbenen Wassers",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spouting_waves",
+      "name": "Sprudelnde Wellen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tainted_water_surge",
+      "name": "Überlauf des verdorbenen Wassers",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "Elementarablagerung – Hydro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Hydro</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "tainted_waters_change_their_shape",
+      "name": "Verdorbene Gewässer verändern ihre Form",
+      "desc": "(Passiv) Immun gegen <span style=\"color:#FFFFFFFF\">Gefroren</span>.<br/>Durch diese Figur verursachter SCH +2, wenn ihre LP bei 5 oder weniger liegen.<br/><span style=\"color:#FFFFFFFF\">Nach Anwenden von Fähigkeiten dieser Figur:</span> Hat die Figur mindestens 6 LP, fügt sie allen inaktiven Figuren des Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

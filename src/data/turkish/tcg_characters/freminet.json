@@ -1,0 +1,82 @@
+{
+  "_id": 1112,
+  "id": "freminet",
+  "shareId": 407,
+  "name": "Freminet",
+  "title": "\"Dipsiz Derinliklere Özlem\" Freminet",
+  "desc": "Soğuk yıldız ışıklarının altında tek başına.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Çift Elli Kılıç",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "Freminet'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "flowing_eddies",
+      "name": "Girdap Akıntısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pressurized_floe",
+      "name": "Tazyikli Buz",
+      "desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve bu karakter henüz <span style=\"color:#FFFFFFFF\">Pers Göstergesi</span> elde etmediyse <span style=\"color:#FFFFFFFF\">Pers Göstergesi</span> kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowhunters_ambush",
+      "name": "Gölge Avcısının Pususu",
+      "desc": "4 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir. Bu karaktere <span style=\"color:#FFFFFFFF\">Su Altı Avcısı Modu</span> ekler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

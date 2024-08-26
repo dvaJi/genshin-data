@@ -1,0 +1,82 @@
+{
+  "_id": 1112,
+  "id": "freminet",
+  "shareId": 407,
+  "name": "Фремине",
+  "title": "«Тоска по невиданным глубинам» Фремине",
+  "desc": "В одиночестве под холодным светом звёзд",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Двуручное",
+    "faction": [
+      "Фонтейн",
+      "Фатуи"
+    ],
+    "source": "Награда за приглашение Фремине в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "flowing_eddies",
+      "name": "Меч водоворотов",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pressurized_floe",
+      "name": "Давление дрейфующего льда",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 2 ед. Если у этого персонажа нет эффекта <span style=\"color:#FFFFFFFF\">Таймер Пера</span>, то даёт эффект <span style=\"color:#FFFFFFFF\">Таймер Пера</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowhunters_ambush",
+      "name": "Засада теневого охотника",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 4 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Режим Подводной охоты</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

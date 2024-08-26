@@ -1,0 +1,82 @@
+{
+  "_id": 1112,
+  "id": "freminet",
+  "shareId": 407,
+  "name": "フレミネ",
+  "title": "夢想の海を沈んで·フレミネ",
+  "desc": "星屑の散る夜空の下、冷たく輝く孤高の少年",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "両手剣",
+    "faction": [
+      "フォンテーヌ",
+      "ファデュイ"
+    ],
+    "source": "キャッツテールでフレミネを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "flowing_eddies",
+      "name": "潜流の剣",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pressurized_floe",
+      "name": "プレッシャー·フロウ",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を2与える。本キャラに<span style=\"color:#FFFFFFFF\">ペールスタイマー</span>が付与されていない場合、<span style=\"color:#FFFFFFFF\">ペールスタイマー</span>を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowhunters_ambush",
+      "name": "シャドウハンターの奇襲",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を4与え、本キャラに<span style=\"color:#FFFFFFFF\">潜猟モード</span>を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

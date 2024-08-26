@@ -1,0 +1,73 @@
+{
+  "_id": 1510,
+  "id": "xianyun",
+  "shareId": 408,
+  "name": "Xianyun",
+  "title": "Xianyun · Héraldesse passériforme",
+  "desc": "Ombre héroïque enveloppée de nuages.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": ["Liyue"],
+    "source": "Récompense pour avoir invité Xianyun à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "word_of_wind_and_flower",
+      "name": "Murmures floraux au vent",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "white_clouds_at_dawn",
+      "name": "Nuages blancs à l'aube",
+      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span>, crée une <span style=\"color:#FFFFFFFF\">échelle céleste</span> et applique une <span style=\"color:#FFFFFFFF\">vague de nuage flottant</span> à ce personnage.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stars_gather_at_dusk",
+      "name": "Étoiles réunies au crépuscule",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>, soigne tous vos personnages pour 1 pt et crée une carte [<span style=\"color:#FFFFFFFF\">Étoileur d'osier</span>] dans votre main.<br/>(Les personnages équipés avec [<span style=\"color:#FFFFFFFF\">Étoileur d'osier</span>] peuvent utiliser l'habilité : <span style=\"color:#FFFFFFFF\">Aide adeptale</span>)",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

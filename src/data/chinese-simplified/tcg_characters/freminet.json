@@ -1,0 +1,73 @@
+{
+  "_id": 1112,
+  "id": "freminet",
+  "shareId": 407,
+  "name": "菲米尼",
+  "title": "潜怀遐梦·菲米尼",
+  "desc": "繁星丽天，孤怀寒芒。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "双手剑",
+    "faction": ["枫丹", "愚人众"],
+    "source": "在猫尾酒馆中邀请菲米尼进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "flowing_eddies",
+      "name": "洑流剑",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pressurized_floe",
+      "name": "浮冰增压",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，若角色未附属<span style=\"color:#FFFFFFFF\">佩伊刻计</span>，则使其附属<span style=\"color:#FFFFFFFF\">佩伊刻计</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowhunters_ambush",
+      "name": "猎影潜袭",
+      "desc": "造成4点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，本角色附属<span style=\"color:#FFFFFFFF\">潜猎模式</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_id": 4209,
+  "id": "hydro_hilichurl_rogue",
+  "shareId": 4209,
+  "name": "Hilichurl reietto di Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "whirling_scythe",
+      "name": "Falce vorticante",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "slash_of_surging_tides",
+      "name": "Fendente delle maree impetuose",
+      "desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.<br/>Se il personaggio avversario è affetto da <span style=\"color:#FFFFFFFF\">Congelamento</span> o <span style=\"color:#FFFFFFFF\">Prigione di bolle di nebbia</span>, questo personaggio ottiene 1 punto <span style=\"color:#FFFFFFFF\">Energia</span> (una volta per turno).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bubblefloat_blitz",
+      "name": "Assalto delle bolle fluttuanti",
+      "desc": "Infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>. Associa <span style=\"color:#FFFFFFFF\">Melmoso bolla di nebbia</span> a questo personaggio.<br/>(I personaggi equipaggiati con <span style=\"color:#FFFFFFFF\">Melmoso bolla di nebbia</span> possono usare la tecnica: <span style=\"color:#FFFFFFFF\">Tattiche di battaglia di bolle</span>.)",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

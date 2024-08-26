@@ -1,0 +1,81 @@
+{
+  "_id": 1510,
+  "id": "xianyun",
+  "shareId": 408,
+  "name": "Xianyun",
+  "title": "Xianyun - La Grulla Emisaria",
+  "desc": "La heroína que resurgió de entre las nubes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": [
+      "Liyue"
+    ],
+    "source": "Se obtiene tras retar y ganar a Xianyun en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "word_of_wind_and_flower",
+      "name": "Palabra vientofloral",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "white_clouds_at_dawn",
+      "name": "Grulla del celaje",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>, obtiene el efecto de <span style=\"color:#FFFFFFFF\">impulso célico</span> y este personaje obtiene una carga de <span style=\"color:#FFFFFFFF\">onda nublosa</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stars_gather_at_dusk",
+      "name": "Estrellas del crepúsculo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>, todos tus personajes obtienen Vida +1 y crea una carta de <span style=\"color:#FFFFFFFF\">Lucero de bambú</span>.<br/>El personaje que tenga equipado el <span style=\"color:#FFFFFFFF\">lucero de bambú</span> puede usar la técnica especial <span style=\"color:#FFFFFFFF\">Potenciación adéptica</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_id": 4209,
+  "id": "hydro_hilichurl_rogue",
+  "shareId": 4209,
+  "name": "Hilichurl-Hydro-Läufer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "whirling_scythe",
+      "name": "Wirbelsense",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "slash_of_surging_tides",
+      "name": "Stürmischer Gezeitenschlag",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.<br/>Wenn die gegnerische Figur von <span style=\"color:#FFFFFFFF\">Gefroren</span> oder <span style=\"color:#FFFFFFFF\">Wasserblasengefängnis</span> betroffen ist, erhält diese 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span> (1-mal pro Runde).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "bubblefloat_blitz",
+      "name": "Blubberblasen-Offensive",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, verleiht dieser Figur <span style=\"color:#FFFFFFFF\">Wasserblasenschleim</span>.<br/>(Figuren, die mit <span style=\"color:#FFFFFFFF\">Wasserblasenschleim</span> ausgerüstet sind, können die Spezialtechnik anwenden: <span style=\"color:#FFFFFFFF\">Blubberblasentaktik</span>)",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "_id": 1112,
+  "id": "freminet",
+  "shareId": 407,
+  "name": "Fréminet",
+  "title": "Sehnsucht nach verborgenen Tiefen – Fréminet",
+  "desc": "Allein im kalten Licht der Sterne.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fréminet in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "flowing_eddies",
+      "name": "Strömungswirbel",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "pressurized_floe",
+      "name": "Treibeis-Druck",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>. Verleiht der Figur <span style=\"color:#FFFFFFFF\">Pers-Uhr</span>, wenn sie nicht damit ausgerüstet ist.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowhunters_ambush",
+      "name": "Des Schattenjägers Hinterhalt",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Tauchhelm-Modus</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

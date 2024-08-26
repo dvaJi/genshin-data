@@ -1,0 +1,87 @@
+{
+  "_id": 3209,
+  "id": "tainted_hydro_phantasm",
+  "shareId": 3209,
+  "name": "浊水幻灵",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "tainted_water_strike",
+      "name": "浊水轻击",
+      "desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spouting_waves",
+      "name": "连波喷吐",
+      "desc": "造成2点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tainted_water_surge",
+      "name": "浊水强迸",
+      "desc": "造成4点<span style=\"color:#80C0FFFF\">水元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "elemental_sedimentation_hydro",
+      "name": "元素沉积·水",
+      "desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">元素生命·水</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "tainted_waters_change_their_shape",
+      "name": "浊水变化",
+      "desc": "【被动】不会被<span style=\"color:#FFFFFFFF\">冻结</span>；<br/>本角色生命值不多于5时造成的伤害+2；<br/><span style=\"color:#FFFFFFFF\">本角色使用技能后：</span>如果本角色生命值至少为6，则对所有敌方后台角色造成1点<span style=\"color:#FFFFFFFF\">穿透伤害</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}
