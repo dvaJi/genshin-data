@@ -1,3 +1,9 @@
+## [0.44.1](https://github.com/dvaJi/genshin-data/compare/0.44.0...0.44.1) (2024-08-28)
+
+### Fixes
+
+- add missing properties, specifically domains related [9e0f24a](https://github.com/dvaJi/genshin-data/commit/9e0f24a8858916b5f47e6d9774d9a7c5d82ee9d8) [@dvaJi](https://github.com/dvaJi)
+
 ## [0.44.0](https://github.com/dvaJi/genshin-data/compare/0.43.0...0.44.0) (2024-08-26)
 
 ### Features
