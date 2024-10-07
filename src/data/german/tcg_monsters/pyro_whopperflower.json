@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "Pyro-Vaniloqua",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "Heftiger Kopfstoß",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "Versengende Blätter",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "Brennender Nektarausbruch",
+      "desc": "Verursacht 7 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "Meisterhafte Nachahmung",
+      "desc": "<span style=\"color:#FFFFFFFF\">Zu Beginn der Runde</span> wählt der Gegner eine von drei zufälligen Karten aus. Wenn die Tarnung der Vaniloqua gewählt wurde, erhält die Vaniloqua 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "トリックフラワー・炎",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "激しい頭突き",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "灼熱の葉っぱ",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "花蜜の爆発",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を7与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "巧妙な偽装",
+      "desc": "<span style=\"color:#FFFFFFFF\">ラウンド開始時：</span>相手は3枚のカードからランダムで1枚を選択しなければならない。トリックフラワーの偽装を選択した場合、トリックフラワーは<span style=\"color:#FFFFFFFF\">チャージ</span>を1獲得する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

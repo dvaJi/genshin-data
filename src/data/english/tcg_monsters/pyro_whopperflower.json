@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "Pyro Whopperflower",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "Fierce Headbutt",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "Scorching Leaves",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "Roasted Nectar Burst",
+      "desc": "Deals 7 <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "Masterful Mimicry",
+      "desc": "<span style=\"color:#FFFFFFFF\">At the start of the Round:</span> The opponent must pick 1 of 3 random cards. If they choose the Whopperflower's Disguise, the Whopperflower gains 1 <span style=\"color:#FFFFFFFF\">Energy</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

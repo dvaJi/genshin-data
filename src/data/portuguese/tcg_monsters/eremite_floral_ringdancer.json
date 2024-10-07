@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "Eremita Dançarina Floral",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": ["Eremitas"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Carícia do Anel Floral",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Valsa Rodopiante",
+      "desc": "Causa $[D__KEY__DAMAGE_3] de <span style=\"color:#7EC236FF\">Dano Dendro</span>, cria 3 acúmulos de <span style=\"color:#FFFFFFFF\">Bênção da Serpente Espiritual</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Despertar do Espírito Ominoso: Serpente Dendro",
+      "desc": "Causa 4 pontos de <span style=\"color:#7EC236FF\">Dano Dendro</span>. Uma vez a cada Partida, aplica <span style=\"color:#FFFFFFFF\">Espírito Ominoso: Serpente Dendro</span> a esse personagem.<br/>(Personagens com <span style=\"color:#FFFFFFFF\">Espírito Ominoso: Serpente Dendro</span> equipado podem usar a Técnica: <span style=\"color:#FFFFFFFF\">Escamas de Videiras Afiadas</span>)",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Após o personagem receber Dano:</span> Caso este personagem tenha menos do que 7 de Vida, ganha 1 <span style=\"color:#FFFFFFFF\">Carga</span>. (Uma vez por Turno)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

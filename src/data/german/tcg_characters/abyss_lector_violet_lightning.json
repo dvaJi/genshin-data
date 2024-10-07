@@ -1,0 +1,80 @@
+{
+  "_id": 2406,
+  "id": "abyss_lector_violet_lightning",
+  "shareId": 421,
+  "name": "Abgrundsänger – Lila Blitze",
+  "title": "Abgrundsänger – Lila Blitze",
+  "desc": "Gelobt sei der Abgrund, der Korrosion Weisheit.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Abgrundsänger – Lila Blitze in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "den_of_thunder",
+      "name": "Aggregation der Abgrundblitze",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shock_of_the_enigmatic_abyss",
+      "name": "Erschütterung des rätselhaften Abgrunds",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Wenn das Ziel bereits vom Elektro-Attribut betroffen ist, stiehlst du ihm 1 Pkt. Aufladung (Wenn die Aufladung der Figur bereits voll ist, wird diese der nächsten Figur gewährt, die keine volle Aufladung besitzt).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wild_thunderburst",
+      "name": "Wildes Donnergrollen",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Verursachter SCH +2, wenn die Aufladung des Ziels nicht mehr als 1 beträgt.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electric_rebirth",
+      "name": "Neugeburt des Donners",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Neugeburt des Donners</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

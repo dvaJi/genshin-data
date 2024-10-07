@@ -1,0 +1,80 @@
+{
+  "_id": 2406,
+  "id": "abyss_lector_violet_lightning",
+  "shareId": 421,
+  "name": "アビスの詠唱者・紫電",
+  "title": "アビスの詠唱者・紫電",
+  "desc": "讃えよ深淵、侵蝕の知恵。",
+  "attributes": {
+    "hp": 6,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、アビスの詠唱者・紫電に挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "den_of_thunder",
+      "name": "淵薮の落雷",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shock_of_the_enigmatic_abyss",
+      "name": "秘淵の衝撃",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。<br/>目標が雷元素付着状態の場合、そのチャージを1奪う。（奪う時、このキャラのチャージが満タンの場合、代わりにチャージが満タンでない次のキャラがチャージを獲得する）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wild_thunderburst",
+      "name": "狂う雷霆",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。<br/>目標のチャージが1以下の場合、与えるダメージ+2。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electric_rebirth",
+      "name": "雷の新生",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">雷の新生</span>が付与される。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

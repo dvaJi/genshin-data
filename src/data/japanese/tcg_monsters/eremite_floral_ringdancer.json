@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "エルマイト旅団・フローラルリングダンサー",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": ["エルマイト旅団"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "薙ぎ払うフローラルリング",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "螺旋の舞",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を$[D__KEY__DAMAGE_3]与え、<span style=\"color:#FFFFFFFF\">霊蛇の祝福</span>を1層生成する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "悪霊蘇生・草の霊蛇",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を4与える。各対戦ごとに1回のみ、自身に<span style=\"color:#FFFFFFFF\">悪霊・草の霊蛇</span>を付与する。<br/>（<span style=\"color:#FFFFFFFF\">悪霊・草の霊蛇</span>を装備したキャラは特技<span style=\"color:#FFFFFFFF\">ツル草の鋭鱗</span>を使用できる）",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "悪霊の力",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">本キャラがダメージを受けた後</span>、本キャラのHPが7以下の場合、<span style=\"color:#FFFFFFFF\">チャージ</span>を1獲得する。（各ラウンドで1回のみ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

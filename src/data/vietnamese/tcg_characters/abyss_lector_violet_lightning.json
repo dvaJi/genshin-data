@@ -1,0 +1,80 @@
+{
+  "_id": 2406,
+  "id": "abyss_lector_violet_lightning",
+  "shareId": 421,
+  "name": "Học Sĩ Vực Sâu - Tử Điện",
+  "title": "Học Sĩ Vực Sâu - Tử Điện",
+  "desc": "Ca tụng Vực Sâu, trí tuệ ăn mòn.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Học Sĩ Vực Sâu - Tử Điện"
+  },
+  "skills": [
+    {
+      "id": "den_of_thunder",
+      "name": "Vực Sâu Giáng Sét",
+      "desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shock_of_the_enigmatic_abyss",
+      "name": "Sấm Rền Vực Thẳm",
+      "desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.<br/>Nếu mục tiêu đã bị gán ấn Nguyên Tố Lôi, thì sẽ cướp 1 điểm Năng Lượng. (Nếu nhân vật này đã đầy Năng Lượng khi tiến hành cướp, thì số Năng Lượng này sẽ được chuyển sang cho nhân vật kế tiếp chưa đầy Năng Lượng)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wild_thunderburst",
+      "name": "Sấm Chớp Điên Cuồng",
+      "desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>.<br/>Nếu Năng Lượng của mục tiêu không nhiều hơn 1, sẽ +2 sát thương gây ra.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electric_rebirth",
+      "name": "Ánh Chớp Tái Sinh",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Ánh Chớp Tái Sinh</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

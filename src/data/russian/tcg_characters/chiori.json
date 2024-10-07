@@ -1,0 +1,73 @@
+{
+  "_id": 1609,
+  "id": "chiori",
+  "shareId": 420,
+  "name": "Тиори",
+  "title": "«Громоподобная закройщица» Тиори",
+  "desc": "Мастерица тысячи нитей",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Одноручное",
+    "faction": ["Инадзума"],
+    "source": "Награда за приглашение Тиори в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "weaving_blade",
+      "name": "Ткущий клинок",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fluttering_hasode",
+      "name": "Порхание хасодэ",
+      "desc": "Выберите 1 помощника, <span style=\"color:#FFFFFFFF\">Куклы-автоматоны Тиори</span>, из 3.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hiyoku_twin_blades",
+      "name": "Хиёку: Парные клинки",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 5 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

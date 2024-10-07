@@ -1,0 +1,80 @@
+{
+  "_id": 2703,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 422,
+  "name": "Münzevi Yaprak Tacı Dansçısı",
+  "title": "\"Dans Eden Hatıralar\" Münzevi Yaprak Tacı Dansçısı",
+  "desc": "\"Çölün çocukları zengin bir şarkı ve dans geleneğine sahiptir. Aslında tanrıları övmek ve onlara hizmet etmek için kullanılan eşyalar, daha sonra kralların baştan çıkarılması ve savaş için uyarlandı.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Münzeviler"],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Münzevi Yaprak Tacı Dansçısı ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Yaprak Tacı Dokunuşu",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Sarmal Dans",
+      "desc": "$[D__KEY__DAMAGE_3] <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 kademe <span style=\"color:#FFFFFFFF\">Ruh Yılanının Lütfu</span> oluşturur.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Alamet Ruhunun Uyanışı: Doğa Ruh Yılanı",
+      "desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir. Her düelloda bir defa eline 1 <span style=\"color:#FFFFFFFF\">Alamet Ruhu: Doğa Ruh Yılanı</span> kartı ekler.<br/>(<span style=\"color:#FFFFFFFF\">Alamet Ruhu: Doğa Ruh Yılanı</span> kuşanmış karakterler <span style=\"color:#FFFFFFFF\">Keskin Sarmaşık Pulu</span> Tekniğini kullanabilir.)",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Alamet Ruhunun Gücü",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır. (Her Turda bir defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

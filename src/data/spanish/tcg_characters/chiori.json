@@ -1,0 +1,73 @@
+{
+  "_id": 1609,
+  "id": "chiori",
+  "shareId": 420,
+  "name": "Chiori",
+  "title": "Chiori - La Costurera Tronadora",
+  "desc": "La costurera de incontables colores.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Espada ligera",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Chiori en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "weaving_blade",
+      "name": "Técnica tejecorazones",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fluttering_hasode",
+      "name": "Caricia de mangas",
+      "desc": "Selecciona 1 de las 3 <span style=\"color:#FFFFFFFF\">robomuñecas de Chiori</span> para invocarla.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hiyoku_twin_blades",
+      "name": "Filos gemelos: Desenvaine alígero",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

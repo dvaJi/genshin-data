@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "炽热骗骗花",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "头槌猛击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "灼热花叶",
+      "desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "炙蜜爆发",
+      "desc": "造成7点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "精妙伪装",
+      "desc": "<span style=\"color:#FFFFFFFF\">回合开始时：</span>对方需从3张随机牌中挑选1张牌，如果选到了骗骗花的伪装，则骗骗花获得1点<span style=\"color:#FFFFFFFF\">充能</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

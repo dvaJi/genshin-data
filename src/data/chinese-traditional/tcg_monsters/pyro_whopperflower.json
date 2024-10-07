@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "熾熱騙騙花",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "頭槌猛擊",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "灼熱花葉",
+      "desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "炙蜜爆發",
+      "desc": "造成7點<span style=\"color:#FF9999FF\">火元素傷害</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "精妙偽裝",
+      "desc": "<span style=\"color:#FFFFFFFF\">回合開始時：</span>對方須從3張隨機牌中挑選1張牌，如果選到了騙騙花的偽裝，則騙騙花獲得1點<span style=\"color:#FFFFFFFF\">充能</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

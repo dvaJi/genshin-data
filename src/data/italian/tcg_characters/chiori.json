@@ -1,0 +1,73 @@
+{
+  "_id": 1609,
+  "id": "chiori",
+  "shareId": 420,
+  "name": "Chiori",
+  "title": "Chiori, la Sarta tonante",
+  "desc": "Stilista dalle mille sfumature.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Spada",
+    "faction": ["Inazuma"],
+    "source": "Ricompensa ottenuta sfidando Chiori a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "weaving_blade",
+      "name": "Lama intrecciata",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fluttering_hasode",
+      "name": "Hasode svolazzante",
+      "desc": "Seleziona 1 invocazione tra 3 <span style=\"color:#FFFFFFFF\">Robobambole di Chiori</span>",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hiyoku_twin_blades",
+      "name": "Hiyoku: Lame gemelle",
+      "desc": "Infligge 5 <span style=\"color:#FFE699FF\">DAN da Geo</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

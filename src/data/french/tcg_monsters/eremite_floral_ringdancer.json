@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "Pirouettière florale des Érémites",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": ["Érémites"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Balayage floral",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Danse tourbillonnante",
+      "desc": "Inflige $[D__KEY__DAMAGE_3] pts de <span style=\"color:#7EC236FF\">DGT Dendro</span> et crée 1 cumul de <span style=\"color:#FFFFFFFF\">bénédiction du serpent spirituel</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Éveil d'esprit sinistre du serpent spiriflore",
+      "desc": "Inflige 4 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>, et applique un <span style=\"color:#FFFFFFFF\">esprit sinistre du serpent spiriflore</span> au personnage (Limité à 1 fois par partie).<br/>(Les personnages équipés avec [<span style=\"color:#FFFFFFFF\">Esprit sinistre du serpent spiriflore</span>] peuvent utiliser l'habilité : <span style=\"color:#FFFFFFFF\">Liane rasoir</span>)",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Puissance d'esprit sinistre",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT : </span>Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> s'il a 7 PV ou moins. (1 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

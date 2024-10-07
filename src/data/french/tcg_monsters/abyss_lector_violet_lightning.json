@@ -1,0 +1,80 @@
+{
+  "_id": 4409,
+  "id": "abyss_lector_violet_lightning",
+  "shareId": 4409,
+  "name": "Chantre de l'Abîme - Foudre pourpre",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "den_of_thunder",
+      "name": "Repaire du tonnerre",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shock_of_the_enigmatic_abyss",
+      "name": "Choc de l'abîme énigmatique",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Si l'élément Électro est déjà appliqué à la cible : Lui vole 1 charge. (Si les charges du personnage sont au maximum, la charge volée est donnée au prochain personnage à qui il manque des charges)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wild_thunderburst",
+      "name": "Tonnerre frénétique",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Si la cible n'a pas plus d'une charge : DGT infligés +2.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electric_rebirth",
+      "name": "Renaissance électrifiée",
+      "desc": "(Passif) Applique une <span style=\"color:#FFFFFFFF\">renaissance électrifiée</span> au début du combat.<br/>Lorsque le personnage déclenche une <span style=\"color:#FFFFFFFF\">renaissance électrifiée</span> : Lui applique une <span style=\"color:#FFFFFFFF\">égide fulminante</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

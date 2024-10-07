@@ -1,0 +1,80 @@
+{
+  "_id": 2406,
+  "id": "abyss_lector_violet_lightning",
+  "shareId": 421,
+  "name": "심연 봉독자·자색 뇌전",
+  "title": "심연 봉독자·자색 뇌전",
+  "desc": "심연을 찬양하고 지혜를 침식하라",
+  "attributes": {
+    "hp": 6,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 및 친선 대전 심연 봉독자·자색 뇌전에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "den_of_thunder",
+      "name": "심연 낙뢰",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shock_of_the_enigmatic_abyss",
+      "name": "허계 천둥",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다.<br/>대상에 이미 번개 원소가 부착되었을 경우, 상대의 원소 에너지를 1pt 빼앗는다. (빼앗을 때 이 캐릭터의 원소 에너지가 가득 찬 경우, 원소 에너지가 가득 차지 않은 다음 캐릭터가 원소 에너지를 획득하는 것으로 변경된다.)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "wild_thunderburst",
+      "name": "몰아치는 벼락",
+      "desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 3pt 준다.<br/>대상의 원소 에너지가 1pt 이하일 시, 주는 피해+2pt",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "electric_rebirth",
+      "name": "다시 태어난 번개",
+      "desc": "[패시브] 전투 시작 시, 시작부터 <span style=\"color:#FFFFFFFF\">다시 태어난 번개</span>가 부착된다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

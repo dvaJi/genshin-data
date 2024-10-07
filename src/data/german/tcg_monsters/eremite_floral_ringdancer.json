@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "Goldbrigade – Blumentänzerin",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Andere Waffen",
+    "faction": ["Goldbrigade"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Blütenschneider",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Ausbreitender Wirbeltanz",
+      "desc": "Verursacht $[D__KEY__DAMAGE_3] Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, erschafft 1 Stapelung <span style=\"color:#FFFFFFFF\">Segen der Geistschlange</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Erwachen des Geistes – Laubschlange",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>. Verleiht sich selbst <span style=\"color:#FFFFFFFF\">Geist – Laubschlange</span> (max. 1-mal pro Duell).<br/>(Figuren, die mit <span style=\"color:#FFFFFFFF\">Geist – Laubschlange</span> ausgerüstet sind, können die Spezialtechnik anwenden: <span style=\"color:#FFFFFFFF\">Rankende scharfe Schuppen</span>)",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nachdem die Figur SCH erlitten hat:</span> Erhält 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span>, wenn diese Figur nicht mehr als 7 LP hat (1-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

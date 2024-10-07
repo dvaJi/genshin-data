@@ -24,6 +24,7 @@
     "generate": "node ./scripts/generate.js",
     "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
     "format-data": "prettier --log-level warn --write \"src/data/**/*.json\"",
+    "format-data-en": "prettier --log-level warn --write \"src/data/english/**/*.json\"",
     "prepublishOnly": "pnpm generate && pnpm build",
     "test": "vitest",
     "coverage": "vitest run --coverage"

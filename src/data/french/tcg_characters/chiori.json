@@ -1,0 +1,73 @@
+{
+  "_id": 1609,
+  "id": "chiori",
+  "shareId": 420,
+  "name": "Chiori",
+  "title": "Chiori · Couturière tonitruante",
+  "desc": "La tisseuse d'une myriade de couleurs.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Épée à une main",
+    "faction": ["Inazuma"],
+    "source": "Récompense pour avoir invité Chiori à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "weaving_blade",
+      "name": "Lame de tissage",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fluttering_hasode",
+      "name": "Caresse de plume",
+      "desc": "Sélectionnez 1 des 3 <span style=\"color:#FFFFFFFF\">poupées automates de Chiori</span> pour l'invoquer.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hiyoku_twin_blades",
+      "name": "Hiyoku : Lames jumelles",
+      "desc": "Inflige 5 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

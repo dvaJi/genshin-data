@@ -1,0 +1,80 @@
+{
+  "_id": 2703,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 422,
+  "name": "Eremite - Diệp Luân Vũ Giả",
+  "title": "Hồi Ức Vũ Điệu - Diệp Luân Vũ Giả",
+  "desc": "\"Con dân của cát có truyền thống âm nhạc và vũ đạo, ban đầu là để tế thần, về sau là dùng vũ đạo và kỹ thuật chiến đấu để lấy lòng vua.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thảo",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Eremite"],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Eremite - Diệp Luân Vũ Giả"
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Diệp Luân Càn Quét",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Vũ Điệu Lan Tràn",
+      "desc": "Gây $[D__KEY__DAMAGE_3] điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo</span>, sinh ra 1 tầng <span style=\"color:#FFFFFFFF\">Chúc Phúc Linh Xà</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Ách Linh Thức Tỉnh - Thảo Linh Xà",
+      "desc": "Gây 4 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo</span>. Cả ván đấu giới hạn 1 lần, thêm 1 lá <span style=\"color:#FFFFFFFF\">Ách Linh - Thảo Linh Xà</span> vào bộ bài trên tay.<br/>(Nhân vật trang bị <span style=\"color:#FFFFFFFF\">Ách Linh - Thảo Linh Xà</span> có thể sử dụng Đặc Kỹ: <span style=\"color:#FFFFFFFF\">Dây Leo Sắc Bén</span>)",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Sức Mạnh Ách Linh",
+      "desc": "(Bị động) <span style=\"color:#FFFFFFFF\">Sau khi nhân vật này chịu sát thương:</span> Nếu nhân vật này HP không hơn 7, sẽ nhận được 1 điểm <span style=\"color:#FFFFFFFF\">Năng Lượng</span>. (Mỗi hiệp 1 lần)",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

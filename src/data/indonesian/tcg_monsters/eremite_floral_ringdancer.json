@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "Eremite Floral Ring-Dancer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Senjata Lain",
+    "faction": ["Eremite"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "Floral-Ring Caress",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "Spiraling Whirl",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE_3] poin <span style=\"color:#7EC236FF\">Dendro DMG</span> dan menciptakan 1 lapis <span style=\"color:#FFFFFFFF\">Spirit-Serpent's Blessing</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "Spirit of Omen's Awakening: Dendro Spirit-Serpent",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#7EC236FF\">Dendro DMG</span>. Sekali selama pertandingan, memberikan <span style=\"color:#FFFFFFFF\">Spirit of Omen: Dendro Spirit-Serpent</span> kepada diri sendiri.<br/>(Karakter yang mengenakan <span style=\"color:#FFFFFFFF\">Spirit of Omen: Dendro Spirit-Serpent</span> dapat menggunakan Teknik: <span style=\"color:#FFFFFFFF\">Viny Razorscale</span>)",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "Spirit of Omen's Power",
+      "desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Setelah Karakter ini menerima DMG: </span>Jika HP Karakter tidak lebih dari 7 poin, maka akan mendapatkan 1 poin <span style=\"color:#FFFFFFFF\">Energy</span>. (Sekali setiap Ronde)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

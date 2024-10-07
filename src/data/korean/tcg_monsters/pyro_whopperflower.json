@@ -1,0 +1,80 @@
+{
+  "_id": 3309,
+  "id": "pyro_whopperflower",
+  "shareId": 3309,
+  "name": "뜨거운 구라구라꽃",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "불 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "fierce_headbutt",
+      "name": "맹렬한 박치기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "scorching_leaves",
+      "name": "작열하는 꽃잎",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 3pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "roasted_nectar_burst",
+      "name": "화끈한 꿀 폭발",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 7pt 준다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "masterful_mimicry",
+      "name": "교묘한 위장",
+      "desc": "<span style=\"color:#FFFFFFFF\">턴 시작 시</span>: 상대는 3장의 랜덤 카드 중에서 한 장을 선정해야 한다. 만약 구라구라꽃의 위장을 선택했다면 구라구라꽃이 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

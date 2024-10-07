@@ -1,0 +1,73 @@
+{
+  "_id": 1609,
+  "id": "chiori",
+  "shareId": 420,
+  "name": "Chiori",
+  "title": "Donnernde Schneiderin – Chiori",
+  "desc": "Weberin unzähliger Farbtöne",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Einhänder",
+    "faction": ["Inazuma"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Chiori in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "weaving_blade",
+      "name": "Webende Klinge",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fluttering_hasode",
+      "name": "Streichelnde Hasode",
+      "desc": "Wählt und beschwört eine von 3 <span style=\"color:#FFFFFFFF\">Chioris Automaton-Puppen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hiyoku_twin_blades",
+      "name": "Doppelklinge – Hiyoku",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

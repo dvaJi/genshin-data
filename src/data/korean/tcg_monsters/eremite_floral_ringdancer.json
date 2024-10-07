@@ -1,0 +1,80 @@
+{
+  "_id": 4707,
+  "id": "eremite_floral_ringdancer",
+  "shareId": 4707,
+  "name": "도금 여단·풀고리 무용수",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "기타 무기",
+    "faction": ["도금 여단"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "floralring_caress",
+      "name": "풀고리 쓸기",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spiraling_whirl",
+      "name": "만연하는 원무",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 $[D__KEY__DAMAGE_3]pt 주고 <span style=\"color:#FFFFFFFF\">영혼의 뱀 축복</span>을 1스택 생성한다",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_awakening_dendro_spiritserpent",
+      "name": "악령 소생·영혼의 풀뱀",
+      "desc": "<span style=\"color:#7EC236FF\">풀 원소 피해</span>를 4pt 준다. 대전당 1회 제한. 자신에게 <span style=\"color:#FFFFFFFF\">악령·영혼의 풀뱀</span>을 부착한다.<br/>(<span style=\"color:#FFFFFFFF\">악령·영혼의 풀뱀</span>을 장착한 캐릭터는 특수 스킬 사용 가능: <span style=\"color:#FFFFFFFF\">날카로운 넝쿨 비늘</span>)",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_omens_power",
+      "name": "악령의 힘",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">이 캐릭터가 피해를 받은 후: </span>이 캐릭터의 HP가 7pt 이하이면 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다. (턴당 1회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}
