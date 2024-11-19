@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "Rey Acechador Dorado",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "Zarpazo del Rey Acechador",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "Aullido acechador",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo</span>. Al personaje objetivo se le aplican 2 cargas de <span style=\"color:#FFFFFFFF\">corrosión dorada</span> e invoca unas <span style=\"color:#FFFFFFFF\">calaveras de Acechador</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "Intrusión dorada",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>, así como 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> contra todos los personajes enemigos en reserva y les aplica el efecto de <span style=\"color:#FFFFFFFF\">corrosión dorada</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

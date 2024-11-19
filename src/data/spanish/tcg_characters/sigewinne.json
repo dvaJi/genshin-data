@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Sigewinne - La Heredera Dragontina",
+  "desc": "“Espíritu inmaculado, escucha mi deseo”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Arco",
+    "faction": ["Fontaine"],
+    "source": "Se obtiene tras retar y ganar a Sigewinne en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Terapia dirigida",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Hidroterapia de rebote",
+      "desc": "Crea 1 carta de <span style=\"color:#FFFFFFFF\">Acuaglóbulo revitalizante grande</span> y la coloca en la tercera posición de tu pila de cartas. Este personaje obtiene 3 cargas de <span style=\"color:#FFFFFFFF\">pacto vital</span>. Tras activar el efecto de <span style=\"color:#FFFFFFFF\">Acuaglóbulo revitalizante grande</span>, se crea un <span style=\"color:#FFFFFFFF\">Acuaglóbulo revitalizante mediano</span> y se coloca en la pila de cartas del rival. Tras activar el efecto de <span style=\"color:#FFFFFFFF\">Acuaglóbulo revitalizante mediano</span>, se crea un <span style=\"color:#FFFFFFFF\">Acuaglóbulo revitalizante pequeño</span> y se coloca en tu pila de cartas.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Inyección de bondad sobresaturada",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Inyección de amor</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Diagnóstico detallado, tratamiento meticuloso",
+      "desc": "Pasiva: cuando tu personaje recibe una curación y el efecto del <span style=\"color:#FFFFFFFF\">pacto vital</span> se consume por completo, dicho personaje obtiene 1 pt. de Vida Máx. adicional (hasta 3 veces por personaje).<br/><span style=\"color:#FFFFFFFF\">Al cambiar a este personaje</span>, si en tu campo hay alguna <span style=\"color:#FFFFFFFF\">gota primigenia</span>, su número de <span style=\"color:#FFFFFFFF\">usos</span> se reduce en 1 y este personaje obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

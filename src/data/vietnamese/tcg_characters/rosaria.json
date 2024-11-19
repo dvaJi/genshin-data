@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "Ân Điển Mũ Gai - Rosaria",
+  "desc": "\"Bóng tối đến từ ánh sáng, nhưng ánh sáng lại không kiểm soát nó.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Băng",
+    "weapon": "Vũ Khí Cán Dài",
+    "faction": ["Mondstadt"],
+    "source": "Nhận được sau khi mời Rosaria giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Thương Thuật Giáo Hội",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Lời Cáo Tội",
+      "desc": "Gây 1 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, sinh ra 2 tầng <span style=\"color:#FFFFFFFF\">Nhìn Thấu Sơ Hở</span>. (Khi kích hoạt hiệu quả của Nhìn Thấu Sơ Hở, sẽ sinh ra <span style=\"color:#FFFFFFFF\">Tấn Công Sơ Hở</span>.)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Thánh Lễ Cuối Cùng",
+      "desc": "Gây 1 điểm <span style=\"color:#99FFFFFF\">Sát Thương Nguyên Tố Băng</span>, sinh ra 2 tầng <span style=\"color:#FFFFFFFF\">Nhìn Thấu Sơ Hở</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Thương Băng Cực Hàn</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Nguyên Tố Băng",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Сиджвин",
+  "title": "«Преображённая дочь дракона» Сиджвин",
+  "desc": "«Святой дух, услышь мою молитву».",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Стрелковое",
+    "faction": ["Фонтейн"],
+    "source": "Награда за приглашение Сиджвин в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Прицельное лечение",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Прыгучая гидротерапия",
+      "desc": "Вы получаете 1 карту <span style=\"color:#FFFFFFFF\">Большой Бодрящий пузырёк</span>, которая становится третьей картой сверху в вашей колоде. Персонаж получает <span style=\"color:#FFFFFFFF\">Долг жизни</span>, 3 уровня. (Когда <span style=\"color:#FFFFFFFF\">Большой Бодрящий пузырёк</span> срабатывает, вы получаете карту <span style=\"color:#FFFFFFFF\">Средний Бодрящий пузырёк</span>, которая помещается в колоду вашего противника. Когда <span style=\"color:#FFFFFFFF\">Средний Бодрящий пузырёк</span> срабатывает, вы получаете карту <span style=\"color:#FFFFFFFF\">Маленький Бодрящий пузырёк</span>, которая помещается в вашу колоду.)",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Сверхнасыщенная инъекция",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, 2 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Медицинское вмешательство из благих намерений</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Скрупулёзная диагностика и лечение",
+      "desc": "(Пассивный навык) Когда ваш персонаж получает лечение и <span style=\"color:#FFFFFFFF\">Долг жизни</span> снимается, персонаж дополнительно получает 1 ед. макс. HP (до 3 раз для одного персонажа).<br/><span style=\"color:#FFFFFFFF\">Когда этот персонаж становится активным:</span> если у вас есть <span style=\"color:#FFFFFFFF\">Капля источника</span>, то <span style=\"color:#FFFFFFFF\">Кол-во применений</span> теряет 1 ед., персонажу добавляется <span style=\"color:#FFFFFFFF\">Энергия</span>, 1 ед.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

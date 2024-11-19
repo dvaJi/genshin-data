@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Розария",
+  "title": "«Венец милости» Розария",
+  "desc": "«Свет создаёт тень, но тень не подчиняется свету».",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Древковое",
+    "faction": ["Мондштадт"],
+    "source": "Награда за приглашение Розарии в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Копьё церкви",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Казнящая исповедь",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед., вы получаете <span style=\"color:#FFFFFFFF\">Поиск слабых мест</span>, 2 уровня. Когда Поиск слабых мест срабатывает, вы получаете <span style=\"color:#FFFFFFFF\">Удар по больному месту.</span>",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Обряд кончины",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед., вы получаете <span style=\"color:#FFFFFFFF\">Поиск слабых мест</span>, 2 уровня, призывается <span style=\"color:#FFFFFFFF\">Вечнохолодное ледяное копьё</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

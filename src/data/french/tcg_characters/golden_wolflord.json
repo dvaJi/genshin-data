@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "Loup alpha doré",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "Frappe d'alpha",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "Rameutage de faille",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>, applique 2 cumuls de <span style=\"color:#FFFFFFFF\">corrosion dorée</span> au personnage choisi et invoque un <span style=\"color:#FFFFFFFF\">Crâne de faille</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "Ingérence dorée",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et applique une <span style=\"color:#FFFFFFFF\">corrosion dorée</span> à tous les personnages adverses.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Wunderbare Drachenerbin – Sigewinne",
+  "desc": "„Reiner Geist, erhöre meinen Wunsch“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Bogen",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Sigewinne in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Gezielte Behandlung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Hüpfende Hydrotherapie",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Großer heilender Wasserballon</span>, fügt die Karte als dritte Karte von oben deinem Deck hinzu. Verleiht dieser Figur 3 Stapelungen <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> (Erschafft beim Auslösen des Effekts von <span style=\"color:#FFFFFFFF\">Großer heilender Wasserballon</span> 1 <span style=\"color:#FFFFFFFF\">Mittlerer heilender Wasserballon</span> und fügt ihn dem Deck des Gegners hinzu; erschafft beim Auslösen des Effekts von <span style=\"color:#FFFFFFFF\">Mittlerer heilender Wasserballon</span> 1 <span style=\"color:#FFFFFFFF\">Kleiner heilender Wasserballon</span> und fügt ihn deinem Deck hinzu).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Übereifrige Injektion",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Trankvorstoß mit besten Absichten</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Detaillierte Diagnose, sorgfältige Behandlung",
+      "desc": "Passiv – Wenn eine Figur von dir geheilt wird und der zu ihr gehörende <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> vollständig entfernt wird, max. LP dieser Figur +1 (max. 3-mal pro Figur).<br/><span style=\"color:#FFFFFFFF\">Beim Wechseln zu dieser Figur:</span> Wenn bei dir auf dem Feld <span style=\"color:#FFFFFFFF\">Quellwassertropfen</span> existiert, <span style=\"color:#FFFFFFFF\">Einsatzmöglichkeit</span> -1, verleiht dieser Figur 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

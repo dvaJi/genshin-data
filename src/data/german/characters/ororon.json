@@ -1,0 +1,997 @@
+{
+  "_id": 10000105,
+  "id": "ororon",
+  "name": "Ororon",
+  "title": "Schatten des Nachtwinds",
+  "description": "Ein junger Mann der Meister des Nachtwinds, der zusammen mit allem, was kreucht und fleucht, in der freien Natur lebt.",
+  "weapon_type": "Bogen",
+  "element": "Elektro",
+  "gender": "Männlich",
+  "release": 1731967200,
+  "substat": "ANG%",
+  "affiliation": "Mictlan",
+  "region": "Natlan",
+  "rarity": 4,
+  "birthday": [14, 10],
+  "constellation": "Vampyrum Spectrum",
+  "domain": "Ruinen in Flammen",
+  "cv": {
+    "english": "Nathan Nokes",
+    "chinese": "梁达伟",
+    "japanese": "近藤隆",
+    "korean": "Seo Joung-ik"
+  },
+  "skills": [
+    {
+      "_id": 30501,
+      "id": "normal_attack_spiritvessel_snapshot",
+      "name": "Standardangriff: Blitzender Pfeil der schlummernden Seelen",
+      "description": "<span>Standardangriff</span><br/>Führt bis zu 3 Pfeilschüsse hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die Elektro-Kraft während des Zielens an der Pfeilspitze, die voll aufgeladen hohen <span>Elektro-Schaden</span> verursacht.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht beim Aufkommen Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "50.64%",
+            "54.76%",
+            "58.89%",
+            "64.77%",
+            "68.9%",
+            "73.61%",
+            "80.08%",
+            "86.56%",
+            "93.04%",
+            "100.11%",
+            "107.17%",
+            "114.24%",
+            "121.31%",
+            "128.37%",
+            "135.44%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "44.37%",
+            "47.99%",
+            "51.6%",
+            "56.76%",
+            "60.37%",
+            "64.5%",
+            "70.17%",
+            "75.85%",
+            "81.52%",
+            "87.71%",
+            "93.91%",
+            "100.1%",
+            "106.29%",
+            "112.48%",
+            "118.67%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "69.82%",
+            "75.5%",
+            "81.19%",
+            "89.31%",
+            "94.99%",
+            "101.48%",
+            "110.41%",
+            "119.34%",
+            "128.28%",
+            "138.02%",
+            "147.76%",
+            "157.5%",
+            "167.25%",
+            "176.99%",
+            "186.73%"
+          ]
+        },
+        {
+          "label": "Gezielte Schüsse",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Voll aufgeladene gezielte Schüsse",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30502,
+      "id": "nights_sling",
+      "name": "Kette des Zwielichts",
+      "description": "Ororon lässt die aus der Ewigkeit ererbte geheime Kunst der Meister des Nachtwinds als eine nachtfarbene <span>Seelenkugel</span> erscheinen und wirft sie auf einen Gegner, wobei mit Nachtseelen versehener <span>Elektro-Schaden</span> verursacht wird.<br/>Wenn es andere Gegner in der Nähe gibt, hüpft die Seelenkugel zwischen Gegnern in der Nähe hin und her und verursacht dabei mit Nachtseelen versehenen <span>Elektro-Schaden</span>. Nach einem einzelnen Einsetzen der „Kette des Zwielichts“ kann jeder Gegner höchstens einmal als Ziel des Herumhüpfens ausgewählt werden.<br/>Wenn sie 3-mal herumgehüpft ist oder sich in der Nähe keine Gegner befinden, die als Ziel ausgewählt werden können, verschwindet die Seelenkugel.",
+      "info": "„Die Menschen wollen immer die Zukunft voraussagen, aber das liegt vielleicht daran, dass sie noch nicht entdeckt haben, was sie tun sollten ... Tut mir leid, ich rede wieder unverständliches Zeug.“",
+      "attributes": [
+        {
+          "label": "Seelenkugel-SCH",
+          "values": [
+            "197.6%",
+            "212.42%",
+            "227.24%",
+            "247%",
+            "261.82%",
+            "276.64%",
+            "296.4%",
+            "316.16%",
+            "335.92%",
+            "355.68%",
+            "375.44%",
+            "395.2%",
+            "419.9%",
+            "444.6%",
+            "469.3%"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30506,
+      "id": "special_jump",
+      "name": "Spezialsprung",
+      "description": "Halte, wenn sich diese Figur in Natlan befindet, gedrückt, um Phlogiston zu verbrauchen und einen Raketen-Doppelsprung zu vollführen. Sobald das Phlogiston verbraucht ist, wird für den Doppelsprung Ausdauer verbraucht.",
+      "info": "",
+      "attributes": []
+    },
+    {
+      "_id": 30505,
+      "id": "dark_voices_echo",
+      "name": "Gedämpftes Echo der Finsternis",
+      "description": "Ororon erweckt ein uraltes geheimes Ritual, verursacht mit Nachtseelen versehenen <span>Elektro-Flächenschaden</span> und beschwört ein „Ultraschall-Seelenauge“.<br/><br/><span>Ultraschall-Seelenauge</span><br/>· Verspottet fortlaufend Gegner in der Umgebung und zieht ihre Angriffe auf sich.<br/>· Dreht sich fortlaufend und sendet dabei Schallwellen aus, die Gegnern in der Umgebung mit Nachtseelen versehenen <span>Elektro-Schaden</span> zufügen.",
+      "info": "Wer genügend Wahrnehmung besitzt, kann die subtilen Klänge von allem hören. So verirrt man sich auch in einer langen, lichtlosen Nacht nicht.",
+      "attributes": [
+        {
+          "label": "SCH des geheimen Rituals",
+          "values": [
+            "174.38%",
+            "187.46%",
+            "200.54%",
+            "217.98%",
+            "231.06%",
+            "244.14%",
+            "261.58%",
+            "279.01%",
+            "296.45%",
+            "313.89%",
+            "331.33%",
+            "348.77%",
+            "370.57%",
+            "392.36%",
+            "414.16%"
+          ]
+        },
+        {
+          "label": "SCH Schallwellenkollision",
+          "values": [
+            "33.2%",
+            "35.69%",
+            "38.18%",
+            "41.5%",
+            "43.99%",
+            "46.48%",
+            "49.8%",
+            "53.12%",
+            "56.44%",
+            "59.76%",
+            "63.08%",
+            "66.4%",
+            "70.55%",
+            "74.7%",
+            "78.85%"
+          ]
+        },
+        {
+          "label": "Dauer",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "nightshade_synesthesia",
+      "name": "Nachtschatten-Synästhesie",
+      "description": "Verleiht Ororon, wenn ein Truppenmitglied in der Nähe „Nachtseelenaufbruch“ auslöst, 40 Nachtseelenpunkte. Verleiht Ororon 5 Nachtseelenpunkte, wenn sein Truppenmitglied innerhalb von 15 s, nachdem Ororon Elementarfähigkeit angewendet hat, Gegner mit Angriffen der Elemente <span>Hydro</span> oder <span>Elektro</span> getroffen hat; 0,3 s Abklingzeit, während der Wirkungsdauer bis zu 10-mal auszulösen.<br/>Max. Nachtseelenpunkte für Ororon liegen bei 80 Pkt.<br/><br/>Verbraucht außerdem, wenn Ororon mindestens 10 Nachtseelenpunkte hat und ein Gegner in der Nähe Schaden von der Reaktion <span>Unter Strom</span> oder mit Nachtseelen versehenen Schaden durch sein Truppenmitglied in der Nähe erleidet, 10 Nachtseelenpunkte und geht in den Zustand des Nachtseelensegens über. Löst dabei den Effekt „Feinfühligkeit“ aus: Fügt bis zu 4 Gegnern in der Umgebung mit Nachtseelen versehenen <span>Elektro-Schaden</span> in Höhe von 160 % von Ororons ANG zu, 1,8 s Abklingzeit.<br/><br/><span>Nachtseelensegen – Ororon</span><br/>Ororons Nachtseelensegen hält bis zu 6 s.",
+      "level": 1
+    },
+    {
+      "id": "aspect_catalyst",
+      "name": "Aspekt-Katalysator",
+      "description": "Verleiht Ororon, wenn die <span>Seelenkugel</span> der Elementarfähigkeit <span>Kette des Zwielichts</span> Gegner trifft, 15 s lang den Effekt „Aspektsiegel“.<br/><br/><span>Aspektsiegel</span><br/>Stellt aktuellen Figuren der Truppe in der Nähe, wenn diese mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall Gegner treffen, 3 Punkte Elementarenergie wieder her. Stellt, wenn Ororon inaktiv in der Truppe ist, ihm ebenfalls 3 Punkte Elementarenergie wieder her. 1 s Abklingzeit, während der Wirkungsdauer bis zu 3-mal auszulösen.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_flowing_fog_spritely_shadows",
+      "name": "Geschenk des Nachtreichs – Hüpfende Schatten im fließenden Nebel",
+      "description": "Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan kann die Nachtseelen-Übertragung – Ororon verwendet werden. Wenn die aktuelle Figur sich in der Luft befindet, wird beim Wechsel zu Ororon Folgendes ausgelöst: Ororon springt hoch hinauf. 10 s Abklingzeit für das Auslösen der Nachtseelen-Übertragung in der eigenen Truppe.<br/><br/>Beim Gedrückthalten zum Zielen wechselt Ororon in den „Seelensprecher“-Zustand, der es ihm ermöglicht, mit „Nachtgeist-Graffitis“ und „Nachtgeist-Mustern“ zu interagieren und ihre Informationen und Kräfte zu extrahieren. Die Regeln für die Interaktion mit diesen Objekten folgen den Regeln der Iktomisaurier.<br/><br/>Ororon verbraucht außerdem beim Gedrückthalten zum Springen 75 Punkte Ausdauer und springt dann hoch. Beim Aufenthalt in einem Gebiet mit Phlogiston-Mechanismus in Natlan verbraucht Ororon vorrangig 5 Punkte Phlogiston und springt damit noch höher.<br/>In der Luft kann der Standardangriff gedrückt gehalten werden, damit Ororon Phlogiston oder Ausdauer verbraucht, um zu zielen.",
+      "level": 0
+    },
+    {
+      "id": "the_art_of_skinchanging",
+      "name": "Raffinierte Alltagsfertigkeit",
+      "description": "Erhöht die Bewegungs-GSW aller eigenen Truppenmitglieder beim Gleiten um 15 %.<br/>Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1051,
+      "id": "trails_amidst_the_forest_fog",
+      "name": "Pfad im Waldnebel",
+      "description": "Lässt die <span>Seelenkugel</span> der Elementarfähigkeit <span>Kette des Zwielichts</span> 2-mal zusätzlich hüpfen.<br/>Verleiht außerdem den von der <span>Seelenkugel</span> getroffenen Gegnern den 12 s anhaltenden Effekt „Dunkelheit der Nacht“: Erhöht den den von diesem Effekt betroffenen Gegnern mit „Feinfühligkeit“ des passiven Talents „Nachtschatten-Synästhesie“ zugefügten Schaden um 50 %. Das passive Talent „Nachtschatten-Synästhesie“ muss für diesen Effekt zuerst freigeschaltet werden.",
+      "level": 1
+    },
+    {
+      "_id": 1052,
+      "id": "king_bee_of_the_hidden_honeyed_wine",
+      "name": "Bienenkönig des versteckten Honigweins",
+      "description": "Verleiht Ororon nach Anwenden der Spezialfähigkeit <span>Gedämpftes Echo der Finsternis</span> den Effekt „Spirituelle Empfindlichkeit“, hält 9 s.<br/><br/><span>Spirituelle Empfindlichkeit</span><br/>Erhöht den <span>Elektro-Schaden</span> um 8 %.<br/>Erhöht außerdem während der Wirkungsdauer beim Treffen jedes zusätzlichen Gegners mit der Spezialfähigkeit <span>Gedämpftes Echo der Finsternis</span> oder <span>Ultraschall-Seelenauge</span> Ororons <span>Elektro-Schaden</span> zusätzlich um 8 %. Sein <span>Elektro-Schaden</span> kann auf diese Weise max. um 32 % erhöht werden.",
+      "level": 2
+    },
+    {
+      "_id": 1053,
+      "id": "roosting_bats_spiritcage",
+      "name": "Geisterkäfig der Fledermaus im Nest",
+      "description": "Erhöht die Stufe der Spezialfähigkeit <span>Gedämpftes Echo der Finsternis</span> um 3.<br/>Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "_id": 1054,
+      "id": "as_the_mysteries_of_the_night_wind",
+      "name": "Geheimnisse wie nächtlicher Wind",
+      "description": "Erhöht die Drehgeschwindigkeit des mit der Spezialfähigkeit <span>Gedämpftes Echo der Finsternis</span> beschworenen <span>Ultraschall-Seelenauges</span> um 25 %.<br/>Stellt Ororon selbst außerdem nach dem Anwenden von <span>Gedämpftes Echo der Finsternis</span> 8 Punkte Elementarenergie wieder her.",
+      "level": 4
+    },
+    {
+      "_id": 1055,
+      "id": "a_gift_for_the_soul",
+      "name": "Geschenk für die Seele",
+      "description": "Erhöht die Stufe der Elementarfähigkeit <span>Kette des Zwielichts</span> um 3.<br/>Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "_id": 1056,
+      "id": "ode_to_deep_springs",
+      "name": "Ode an die Quellen der Tiefe",
+      "description": "Erhöht beim Auslösen von „Feinfühligkeit“ des passiven Talents „Nachtschatten-Synästhesie“ den ANG der eigenen aktuellen Figur in der Truppe 9 s lang um 10 %, 3-fach stapelbar, Wirkungsdauer jeder Stapelung wird unabhängig voneinander berechnet.<br/>Löst außerdem beim Anwenden der Spezialfähigkeit <span>Gedämpftes Echo der Finsternis</span> einen Effekt aus, der „Feinfühligkeit“ gleicht, und verursacht Schaden in Höhe von 200 % des ursprünglichen Schadens.<br/>Das passive Talent „Nachtschatten-Synästhesie“ muss für diesen Effekt zuerst freigeschaltet werden.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [1],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": ["-", 1]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["-", "775"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["-", "20"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["-", "49"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [20],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [0, 1]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["1991", "2570"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["53", "68"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["126", "163"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["0.0%", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [40],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [1, 2]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["3850", "4261"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["102", "113"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["244", "271"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Vajrada-Amethyst-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Unreifer spitzer Zahn",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [50],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [2, 3]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["4901", "5450"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["130", "144"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["311", "346"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada-Amethyst-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Siegel des gebundenen Segens",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Unreifer spitzer Zahn",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [60],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [3, 4]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["6090", "6501"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["161", "172"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["387", "413"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Vajrada-Amethyst-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Siegel des gebundenen Segens",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Ausgereifter kräftiger Zahn",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [70],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [4, 5]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["7141", "7552"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["189", "200"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["453", "480"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada-Amethyst-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Siegel des gebundenen Segens",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Ausgereifter kräftiger Zahn",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [80],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [5, 6]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["8192", "8604"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["216", "227"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["520", "546"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Vajrada-Amethyst-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Siegel des gebundenen Segens",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Schneidezahn des Eroberers",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [90],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [6, 7]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["9244", "9244"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["244", "244"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["587", "587"]
+        },
+        {
+          "label": "ANG%",
+          "values": ["24.0%", "24.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Vajrada-Amethyst",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Siegel des gebundenen Segens",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Leuchthornpilz",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Schneidezahn des Eroberers",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104350,
+          "id": "teachings_of_kindling",
+          "name": "Lehren der „Verbrennung“",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112101,
+          "id": "juvenile_fang",
+          "name": "Unreifer spitzer Zahn",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Anleitung zur „Verbrennung“",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Ausgereifter kräftiger Zahn",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Anleitung zur „Verbrennung“",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Ausgereifter kräftiger Zahn",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Anleitung zur „Verbrennung“",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Ausgereifter kräftiger Zahn",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Anleitung zur „Verbrennung“",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Ausgereifter kräftiger Zahn",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophie der „Verbrennung“",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Schneidezahn des Eroberers",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Aphotischer Seidenfaden",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophie der „Verbrennung“",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Schneidezahn des Eroberers",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Aphotischer Seidenfaden",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophie der „Verbrennung“",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Schneidezahn des Eroberers",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Aphotischer Seidenfaden",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Philosophie der „Verbrennung“",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Schneidezahn des Eroberers",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Aphotischer Seidenfaden",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Krone der Weisheit",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

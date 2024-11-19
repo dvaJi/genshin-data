@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "로자리아",
+  "title": "가시관의 은혜·로자리아",
+  "desc": "「검은 그림자는 빛으로부터 왔지만, 빛은 검은 그림자를 다스리지 않는다」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "장병기",
+    "faction": ["몬드"],
+    "source": "캣테일 술집에서 로자리아 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "성당 창술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "죄를 삼키는 고해",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 주고 <span style=\"color:#FFFFFFFF\">약점 간파</span>를 2스택 생성한다. (약점 간파의 효과 발동 시, <span style=\"color:#FFFFFFFF\">약점 강타</span>를 생성한다)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "죽음의 성례",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 주고 <span style=\"color:#FFFFFFFF\">약점 간파</span>를 2스택 생성한 후 <span style=\"color:#FFFFFFFF\">혹한의 얼음창</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

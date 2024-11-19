@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "\"Thorny Benevolence\" Rosaria",
+  "desc": "\"Cahaya menciptakan bayangan, namun bayangan tidak dapat dikendalikan oleh cahaya.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "faction": ["Mondstadt"],
+    "source": "Didapatkan setelah mengundang Rosaria ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Spear of the Church",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Ravaging Confession",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span> dan menciptakan 2 lapis <span style=\"color:#FFFFFFFF\">Scope Out Soft Spots</span>. (Saat efek dari Scope Out Soft Spots terpicu, akan menciptakan <span style=\"color:#FFFFFFFF\">Strike Where It Hurts</span>.)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Rites of Termination",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>, menciptakan 2 lapis <span style=\"color:#FFFFFFFF\">Scope Out Soft Spots</span>, dan memanggil <span style=\"color:#FFFFFFFF\">Evercold Frostlance</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

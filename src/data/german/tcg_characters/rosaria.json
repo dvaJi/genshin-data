@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "Dornige Gnade – Rosaria",
+  "desc": "„Schatten gibt es nur im Licht, doch das Licht gebietet nicht über die Schatten.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Stangenwaffe",
+    "faction": ["Mondstadt"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Rosaria in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Speer der Kathedrale",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Erschütterndes Geständnis",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erschafft 2 Stapelungen <span style=\"color:#FFFFFFFF\">Durchschauen von Schwachstellen</span> (Erschafft beim Auslösen des Effekts von Durchschauen von Schwachstellen 1 <span style=\"color:#FFFFFFFF\">Angriff von Schwachstellen</span>).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Letzte Salbung",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>, erschafft 2 Stapelungen <span style=\"color:#FFFFFFFF\">Durchschauen von Schwachstellen</span> und 1 <span style=\"color:#FFFFFFFF\">Permafrostlanze</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

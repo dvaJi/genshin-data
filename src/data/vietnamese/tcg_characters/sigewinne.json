@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Long Nữ Diệu Biến - Sigewinne",
+  "desc": "\"Linh hồn thánh thiện, hãy nghe lòng tôi.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Cung",
+    "faction": ["Fontaine"],
+    "source": "Nhận được sau khi mời Sigewinne giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Trị Liệu Theo Mục Tiêu",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Trị Liệu Nảy Nảy Nảy",
+      "desc": "Sinh ra 1 lá <span style=\"color:#FFFFFFFF\">Bong Bóng Chữa Trị Lớn</span>, đưa vào vị trí lá thứ 3 từ trên xuống trong kho bài phe ta, nhân vật này áp dụng 3 tầng <span style=\"color:#FFFFFFFF\">Khế Ước Sinh Mệnh</span>. (Sau khi kích hoạt hiệu quả của <span style=\"color:#FFFFFFFF\">Bong Bóng Chữa Trị Lớn</span>, sẽ sinh ra <span style=\"color:#FFFFFFFF\">Bong Bóng Chữa Trị Vừa</span> và đưa vào kho bài đối phương; Sau khi kích hoạt hiệu quả của <span style=\"color:#FFFFFFFF\">Bong Bóng Chữa Trị Vừa</span>, sẽ sinh ra <span style=\"color:#FFFFFFFF\">Bong Bóng Chữa Trị Nhỏ</span> và đưa vào kho bài phe ta)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Ống Tiêm Siêu Bão Hòa",
+      "desc": "Gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, sau đó <span style=\"color:#FFFFFFFF\">Chuẩn Bị Kỹ Năng</span>: <span style=\"color:#FFFFFFFF\">Xung Kích Của Tấm Lòng Và Dược Liệu</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Điều Trị Triệt Để",
+      "desc": "(Bị động) Khi nhân vật phe ta nhận chữa trị, sau khi <span style=\"color:#FFFFFFFF\">Khế Ước Sinh Mệnh</span> mà nhân vật này áp dụng được giải trừ hoàn toàn, nhân vật này sẽ nhận thêm 1 điểm HP Tối Đa. (Mỗi nhân vật tối đa hiệu quả 3 lần)<br/><span style=\"color:#FFFFFFFF\">Khi phe ta đổi sang nhân vật này:</span> Nếu trong trận phe ta tồn tại <span style=\"color:#FFFFFFFF\">Nguồn Nước Trong</span>, sẽ -1 <span style=\"color:#FFFFFFFF\">Số Lần Khả Dụng</span> của nó và nhân vật này nhận 1 điểm <span style=\"color:#FFFFFFFF\">Năng Lượng</span>.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

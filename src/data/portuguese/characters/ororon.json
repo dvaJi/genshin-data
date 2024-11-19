@@ -1,0 +1,997 @@
+{
+  "_id": 10000105,
+  "id": "ororon",
+  "name": "Ororon",
+  "title": "Sombra do Vento Noturno",
+  "description": "Um jovem vindo dos Mestres do Vento Noturno, mas que vive nos campos com milhares de criaturas vivas.",
+  "weapon_type": "Arco",
+  "element": "Electro",
+  "gender": "Masculino",
+  "release": 1731967200,
+  "substat": "ATQ%",
+  "affiliation": "Mictlan",
+  "region": "Natlan",
+  "rarity": 4,
+  "birthday": [14, 10],
+  "constellation": "Vampyrum Spectrum",
+  "domain": "Ruínas Flamejantes",
+  "cv": {
+    "english": "Nathan Nokes",
+    "chinese": "梁达伟",
+    "japanese": "近藤隆",
+    "korean": "Seo Joung-ik"
+  },
+  "skills": [
+    {
+      "_id": 30501,
+      "id": "normal_attack_spiritvessel_snapshot",
+      "name": "Ataque Normal: Flecha Veloz Espiritual",
+      "description": "<span>Ataque Normal</span><br/>Realiza até 3 disparos consecutivos com o arco.<br/><br/><span>Ataque Carregado</span><br/>Realiza um <span>Disparo com Mira</span> mais preciso e com mais dano.<br/>Enquanto mira, elemento Electro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar muito <span>Dano Electro</span>.<br/><br/><span>Ataque Imersivo</span><br/>Dispara uma chuva de flechas do ar antes de cair e impactar o chão, causando Dano em uma AdE no impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "50.64%",
+            "54.76%",
+            "58.89%",
+            "64.77%",
+            "68.9%",
+            "73.61%",
+            "80.08%",
+            "86.56%",
+            "93.04%",
+            "100.11%",
+            "107.17%",
+            "114.24%",
+            "121.31%",
+            "128.37%",
+            "135.44%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "44.37%",
+            "47.99%",
+            "51.6%",
+            "56.76%",
+            "60.37%",
+            "64.5%",
+            "70.17%",
+            "75.85%",
+            "81.52%",
+            "87.71%",
+            "93.91%",
+            "100.1%",
+            "106.29%",
+            "112.48%",
+            "118.67%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "69.82%",
+            "75.5%",
+            "81.19%",
+            "89.31%",
+            "94.99%",
+            "101.48%",
+            "110.41%",
+            "119.34%",
+            "128.28%",
+            "138.02%",
+            "147.76%",
+            "157.5%",
+            "167.25%",
+            "176.99%",
+            "186.73%"
+          ]
+        },
+        {
+          "label": "Disparo com Mira",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Disparo com Mira com Energização Completa",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30502,
+      "id": "nights_sling",
+      "name": "Rastreamento da Escuridão",
+      "description": "Ororon joga contra os inimigos o antigo item secreto dos Mestres do Vento Noturno, o escuro <span>Orbe Espiritual Noturno</span>, causando <span>Dano Electro</span> com alinhamento Espírito da Noite.<br/>Quando há outros inimigos por perto, o Orbe Espiritual Noturno ricocheteia entre os inimigos, causando <span>Dano Electro</span> com alinhamento Espírito da Noite. Cada inimigo só pode escolhido uma vez por lançamento de Rastreamento da Escuridão.<br/>Quando ricochetear 3 vezes ou não houver mais inimigos selecionáveis como alvo por perto, o Orbe Espiritual Noturno desaparecerá.",
+      "info": "\"As pessoas sempre querem prever o futuro, mas isso é porque ainda não encontraram o que devem fazer... Sinto muito, comecei a contar um conto de fadas novamente\".",
+      "attributes": [
+        {
+          "label": "Dano do Orbe Espiritual Noturno",
+          "values": [
+            "197.6%",
+            "212.42%",
+            "227.24%",
+            "247%",
+            "261.82%",
+            "276.64%",
+            "296.4%",
+            "316.16%",
+            "335.92%",
+            "355.68%",
+            "375.44%",
+            "395.2%",
+            "419.9%",
+            "444.6%",
+            "469.3%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 30506,
+      "id": "special_jump",
+      "name": "Salto Especial",
+      "description": "Se o personagem estiver em Natlan, depois de manter pressionado poderá consumir Flogisto para fazer um Salto Foguete Nível 2. Quando o Flogisto acabar, consumirá sua Stamina para fazer esse Salto Foguete Nível 2.",
+      "info": "",
+      "attributes": []
+    },
+    {
+      "_id": 30505,
+      "id": "dark_voices_echo",
+      "name": "Ecos Sombrios",
+      "description": "Ororon desperta um ritual secreto antigo e causa <span>Dano Electro em AdE</span> com alinhamento Espírito da Noite, e invoca o \"Super Olho Espiritual\".<br/><br/><span>Super Olho Espiritual</span>· Continuamente provoca os inimigos próximos, atraindo seus ataques.<br/>· Continuamente gira e dispara ondas sonoras, causando <span>Dano Electro</span> com alinhamento Espírito da Noite contra os inimigos próximos.",
+      "info": "As pessoas que possuem percepção o suficiente podem ouvir as vozes sussurrantes de tudo. Por isso, mesmo na longa noite sem luz, elas não perdem o seu caminho.",
+      "attributes": [
+        {
+          "label": "Dano do Ritual Secreto",
+          "values": [
+            "174.38%",
+            "187.46%",
+            "200.54%",
+            "217.98%",
+            "231.06%",
+            "244.14%",
+            "261.58%",
+            "279.01%",
+            "296.45%",
+            "313.89%",
+            "331.33%",
+            "348.77%",
+            "370.57%",
+            "392.36%",
+            "414.16%"
+          ]
+        },
+        {
+          "label": "Dano de Colisão da Onda de Som",
+          "values": [
+            "33.2%",
+            "35.69%",
+            "38.18%",
+            "41.5%",
+            "43.99%",
+            "46.48%",
+            "49.8%",
+            "53.12%",
+            "56.44%",
+            "59.76%",
+            "63.08%",
+            "66.4%",
+            "70.55%",
+            "74.7%",
+            "78.85%"
+          ]
+        },
+        {
+          "label": "Duração",
+          "values": [
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s",
+            "9s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "nightshade_synesthesia",
+      "name": "Sensações da Cortina Noturna",
+      "description": "Após um personagem próximo na equipe desencadear a \"Explosão do Espírito da Noite\", Ororon receberá 40 pontos de Espírito da Noite. Nos 15s após lançar sua Habilidade Elemental, quando o ataque de outro personagem da equipe de Tipo Elemental <span>Hydro</span> ou <span>Electro</span> atingir um inimigo, Ororon obtém 5 pontos de Espírito da Noite, esse efeito pode ser ativado no máximo 1 vez a cada 0.3s, com um limite de 10 ativações durante o período.<br/>O máximo de pontos de Espírito da Noite que Ororon pode ter é 80.<br/><br/>Além disso, quando inimigos próximos receberem dano da reação <span>Eletricamente Carregado</span> ou outros personagens próximos da equipe causarem dano com alinhamento Espírito da Noite, se Ororon possuir pelo menos 10 pontos de Espírito da Noite, ele consumirá 10 pontos e entrará no estado de Bênção do Espírito da Noite, ativando o efeito \"Super Exibição\": com base em 160% do ATQ de Ororon, causará <span>Dano Electro</span> com alinhamento Espírito da Noite a até 4 inimigos ao redor. Este efeito pode ser ativado no máximo uma vez a cada 1.8s.<br/><br/><span>Bênção do Espírito da Noite: Ororon</span><br/>O estado de Bênção do Espírito da Noite de Ororon dura até 6s.",
+      "level": 1
+    },
+    {
+      "id": "aspect_catalyst",
+      "name": "Condutor Espiritual",
+      "description": "Quando o <span>Orbe Espiritual Noturno</span> da Habilidade Elemental <span>Rastreamento da Escuridão</span> atinge um inimigo, Ororon obtém o efeito \"Marca do Olhar\" por 15s.<br/><br/><span>Marca do Olhar</span><br/>Quando o personagem ativo próximo da equipe causa atingir um inimigo com um Ataque Normal, Carregado ou Imersivo, regenerará 3 de Energia Elemental para esse personagem. Se Ororon não for o personagem ativo, regenerará 3 de Energia Elemental para ele. Esse efeito pode ser desencadeado uma vez por segundo, e pode ser desencadeado até 3 vezes por duração.",
+      "level": 4
+    },
+    {
+      "id": "night_realms_gift_flowing_fog_spritely_shadows",
+      "name": "Presente do Reino da Noite: Sombra da Neblina",
+      "description": "Enquanto numa área de Natlan com Dispositivos de Flogisto, pode usar Transmissão do Espírito da Noite: Ororon. Quando o personagem ativo estiver no ar, trocar para Ororon como personagem ativo desencadeará: Ororon poderá saltar alto. É possível entrar em Transmissão do Espírito da Noite: Ororon uma vez a cada 10s.<br/><br/>Além disso, ao manter pressionado para mirar, Ororon entrará no estado Proferespírito. Enquanto nesse estado, Ororon poderá interagir com o Grafite do Espírito Noturno e o Selo do Espírito Noturno, obtendo as informações e poder deles, as regras de interação com esses itens segue as mesmas regras de interação com os Iktomissauros.<br/><br/>Além disso, ao manter pressionado para saltar, Ororon consome 75 de Stamina para saltar alto, e quando está em uma área de Natlan com Dispositivos de Flogisto, Ororon priorizará consumir 5 de Flogisto para fazer esse salto mais alto.<br/>Quando estiver no ar, Ororon pode manter pressionado seu Ataque Normal para consumir Flogisto ou Stamina e entrar no Modo de Mira.",
+      "level": 0
+    },
+    {
+      "id": "the_art_of_skinchanging",
+      "name": "Talento Cotidiano",
+      "description": "Aumenta a velocidade de planar para os personagens da equipe em 15%.<br/>Não acumula com outros Talentos Passivos que fornecem o mesmo efeito.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "_id": 1051,
+      "id": "trails_amidst_the_forest_fog",
+      "name": "Rastros Entre a Floresta Enevoada",
+      "description": "O <span>Orbe Espiritual Noturno</span> da Habilidade Elemental <span>Rastreamento da Escuridão</span> pode ricochetear mais duas vezes.<br/>Além disso, quando o <span>Orbe Espiritual Noturno</span> atinge um inimigo, aplica o efeito \"Noite Escura\" nesse inimigo por 12s. Aumenta em 50% o Dano causado por Super Exibição do Talento Passivo \"Sensações da Cortina Noturna\" contra o inimigo que está afetado pelo efeito Noite Escura. Esse efeito requer que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado.",
+      "level": 1
+    },
+    {
+      "_id": 1052,
+      "id": "king_bee_of_the_hidden_honeyed_wine",
+      "name": "Rei das Abelhas de Mel",
+      "description": "Depois de lançar o Supremo <span>Ecos Sombrios</span>, Ororon obtém o efeito \"Super Percepção Espiritual\" por 9s.<br/><br/><span>Super Percepção Espiritual</span><br/>Obtém 8% de <span>Bônus de Dano Electro</span>.<br/>Na duração, cada inimigo adicional que o Supremo <span>Ecos Sombrios</span> ou <span>Super Olho Espiritual</span> atingirem aumentam o <span>Bônus de Dano Electro</span> de Ororon em mais 8%. É possível obter até 32% de <span>Bônus de Dano Electro</span> dessa forma.",
+      "level": 2
+    },
+    {
+      "_id": 1053,
+      "id": "roosting_bats_spiritcage",
+      "name": "Prisão Espiritual dos Morcegos",
+      "description": "Aumenta o nível de <span>Ecos Sombrios</span> em 3.<br/>O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "_id": 1054,
+      "id": "as_the_mysteries_of_the_night_wind",
+      "name": "Como uma Neblina Misteriosa da Noite",
+      "description": "Aumenta a velocidade de giro do <span>Super Olho Espiritual</span> invocado pelo Supremo <span>Ecos Sombrios</span> em 25%.<br/>Além disso, depois de lançar <span>Ecos Sombrios</span>, regenera 8 de Energia Elemental para Ororon.",
+      "level": 4
+    },
+    {
+      "_id": 1055,
+      "id": "a_gift_for_the_soul",
+      "name": "Tributo para o Coração Espiritual",
+      "description": "Aumenta o nível da Habilidade Elemental <span>Rastreamento da Escuridão</span> em 3 níveis. <br/>O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "_id": 1056,
+      "id": "ode_to_deep_springs",
+      "name": "Oferenda para a Nascente Profunda",
+      "description": "Depois de desencadear \"Super Exibição\" do Talento Passivo \"Sensações da Cortina Noturna\", aumenta o ATQ do personagem ativo da equipe em 10% por 9s. Esse efeito pode ser acumulado até 3 vezes e cada acúmulo possui sua duração contada de forma independente.<br/>Além disso, ao lançar o Supremo <span>Ecos Sombrios</span>, desencadeará um efeito igual a Super Exibição, causando 200% do Dano original.<br/>Esse efeito precisa que o Talento Passivo \"Sensações da Cortina Noturna\" seja desbloqueado.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [1],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": ["-", 1]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["-", "775"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "20"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["-", "49"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["1991", "2570"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["53", "68"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["126", "163"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["0.0%", "0.0%"]
+        }
+      ]
+    },
+    {
+      "level": [40],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["3850", "4261"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["102", "113"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["244", "271"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104141,
+        "id": "vajrada_amethyst_sliver",
+        "name": "Lasca de Ametista Vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Presa Juvenil",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [50],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["4901", "5450"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["130", "144"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["311", "346"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Marca da Bênção Vinculadora",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112101,
+        "id": "juvenile_fang",
+        "name": "Presa Juvenil",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [60],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["6090", "6501"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["161", "172"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["387", "413"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104142,
+        "id": "vajrada_amethyst_fragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Marca da Bênção Vinculadora",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Presa Veterana",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [70],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["7141", "7552"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["189", "200"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["453", "480"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Marca da Bênção Vinculadora",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112102,
+        "id": "seasoned_fang",
+        "name": "Presa Veterana",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [80],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["8192", "8604"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["216", "227"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["520", "546"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104143,
+        "id": "vajrada_amethyst_chunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Marca da Bênção Vinculadora",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Presa Tirana",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [90],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["9244", "9244"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["244", "244"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["587", "587"]
+        },
+        {
+          "label": "ATQ%",
+          "values": ["24.0%", "24.0%"]
+        }
+      ],
+      "mat1": {
+        "_id": 104144,
+        "id": "vajrada_amethyst_gemstone",
+        "name": "Gema de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "_id": 113064,
+        "id": "mark_of_the_binding_blessing",
+        "name": "Marca da Bênção Vinculadora",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "_id": 101252,
+        "id": "glowing_hornshroom",
+        "name": "Cogumelo Brilhante",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "_id": 112103,
+        "id": "tyrants_fang",
+        "name": "Presa Tirana",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talent_materials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "_id": 104350,
+          "id": "teachings_of_kindling",
+          "name": "Ensinamentos da Ignição",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "_id": 112101,
+          "id": "juvenile_fang",
+          "name": "Presa Juvenil",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guia da Ignição",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Presa Veterana",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guia da Ignição",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Presa Veterana",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guia da Ignição",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Presa Veterana",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "_id": 104351,
+          "id": "guide_to_kindling",
+          "name": "Guia da Ignição",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 112102,
+          "id": "seasoned_fang",
+          "name": "Presa Veterana",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Filosofia da Ignição",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Presa Tirana",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Fio de Seda Sem Luz",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Filosofia da Ignição",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Presa Tirana",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Fio de Seda Sem Luz",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Filosofia da Ignição",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Presa Tirana",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Fio de Seda Sem Luz",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "_id": 104352,
+          "id": "philosophies_of_kindling",
+          "name": "Filosofia da Ignição",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "_id": 112103,
+          "id": "tyrants_fang",
+          "name": "Presa Tirana",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "_id": 113054,
+          "id": "lightless_silk_string",
+          "name": "Fio de Seda Sem Luz",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "_id": 104319,
+          "id": "crown_of_insight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ]
+}

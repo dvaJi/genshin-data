@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "\"Benevolência Espinhosa\" Rosaria",
+  "desc": "\"Luz cria sombra, mas sombra não é controlada pela luz.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lança",
+    "faction": ["Mondstadt"],
+    "source": "Recompensa por desafiar Rosaria para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Lança Eclesiástica",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Confissão Desoladora",
+      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>, cria 2 acúmulos de <span style=\"color:#FFFFFFFF\">Reconhecimento de Fraquezas</span>. (Quando o efeito da Reconhecimento de Fraquezas é ativado, cria <span style=\"color:#FFFFFFFF\">Ataque Onde Machuca</span>.)",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Ritos de Terminação",
+      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>, cria 2 acúmulos de <span style=\"color:#FFFFFFFF\">Reconhecimento de Fraquezas</span> e invoca <span style=\"color:#FFFFFFFF\">Lança Glacial Perpétua</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

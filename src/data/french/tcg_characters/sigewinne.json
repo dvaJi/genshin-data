@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Sigewinne · Merveilleuse fille-dragonne",
+  "desc": "« Esprit sanctificateur, écoute mon souhait. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Arc",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Sigewinne à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Traitement ciblé",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Hydrothérapie rebondissante",
+      "desc": "Crée 1 carte [<span style=\"color:#FFFFFFFF\">Grande bulle d'eau curative</span>] en 3e position en haut de votre deck et applique 3 cumuls d'<span style=\"color:#FFFFFFFF\">engagement vital</span> au personnage. (Déclencher l'effet d'une <span style=\"color:#FFFFFFFF\">grande bulle d'eau curative</span> crée une carte [<span style=\"color:#FFFFFFFF\">Moyenne bulle d'eau curative</span>] dans le deck de l'adversaire, tandis que déclencher l'effet d'une <span style=\"color:#FFFFFFFF\">moyenne bulle d'eau curative</span> crée une carte [<span style=\"color:#FFFFFFFF\">Petite bulle d'eau curative</span>] dans votre deck.)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Injection sur-saturée",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Intervention médicale de pure intention</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Traitement minutieux prescrit",
+      "desc": "(Passif) Lorsque votre personnage reçoit des soins et que son <span style=\"color:#FFFFFFFF\">engagement vital</span> est complètement annulé : Les PV max du personnage augmentent de 1 en plus. (3 fois maximum par personnage)<br/><span style=\"color:#FFFFFFFF\">Lorsque vous basculez pour ce personnage : </span>Si une <span style=\"color:#FFFFFFFF\">goutte d'eau de source</span> est sur votre terrain, le <span style=\"color:#FFFFFFFF\">nombre d'utilisations</span> diminue de 1 et le personnage obtient 1 <span style=\"color:#FFFFFFFF\">charge</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

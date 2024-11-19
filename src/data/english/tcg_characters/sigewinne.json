@@ -1,0 +1,80 @@
+{
+  "_id": 1213,
+  "id": "sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "\"Wondrous Dragonheir\" Sigewinne",
+  "desc": "\"Pure spirit, heed my wish.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": ["Fontaine"],
+    "source": "Reward for inviting Sigewinne to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "targeted_treatment",
+      "name": "Targeted Treatment",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rebound_hydrotherapy",
+      "name": "Rebound Hydrotherapy",
+      "desc": "Create 1 <span style=\"color:#FFFFFFFF\">Large Bolstering Bubblebalm</span> and insert as the third card from the top of your deck. This character gains 3 stacks of <span style=\"color:#FFFFFFFF\">Bond of Life</span>. (After the <span style=\"color:#FFFFFFFF\">Large Bolstering Bubblebalm</span> effect is triggered, create a <span style=\"color:#FFFFFFFF\">Medium Bolstering Bubblebalm</span> and place in your opponent's deck. After the <span style=\"color:#FFFFFFFF\">Medium Bolstering Bubblebalm</span> effect is triggered, create a <span style=\"color:#FFFFFFFF\">Small Bolstering Bubblebalm</span> and place in your deck.)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "super_saturated_syringing",
+      "name": "Super Saturated Syringing",
+      "desc": "Deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG</span>, then performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">Medical Intervention of Pure Intention</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "detailed_diagnosis_thorough_treatment",
+      "name": "Detailed Diagnosis, Thorough Treatment",
+      "desc": "(Passive) When your character is healed, after causing the <span style=\"color:#FFFFFFFF\">Bond of Life</span> attached to them to be completely removed, this character gains 1 extra Max HP. (Up to 3 times per character)<br/><span style=\"color:#FFFFFFFF\">When you switch to this character: </span>If your side has <span style=\"color:#FFFFFFFF\">Sourcewater Droplet</span>, -1 to their <span style=\"color:#FFFFFFFF\">Usage(s)</span>, and this character gains 1 <span style=\"color:#FFFFFFFF\">Energy</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "黃金王獸",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "王狼直擊",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "獸境轟召",
+      "desc": "造成1點<span style=\"color:#FFE699FF\">岩元素傷害</span>，目標角色附屬2層<span style=\"color:#FFFFFFFF\">黃金侵蝕</span>，召喚<span style=\"color:#FFFFFFFF\">獸境犬首</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "黃金侵絞",
+      "desc": "造成3點<span style=\"color:#FFE699FF\">岩元素傷害</span>，對所有敵方後臺角色造成1點<span style=\"color:#FFFFFFFF\">穿透傷害</span>，並使所有敵方角色附屬<span style=\"color:#FFFFFFFF\">黃金侵蝕</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

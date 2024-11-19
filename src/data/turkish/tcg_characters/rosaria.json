@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "\"Dikenli Gül\" Rosaria",
+  "desc": "\"Gölgeyi ışık yaratır ama gölge ışıkla kontrol edilemez.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Mızrak",
+    "faction": ["Mondstadt"],
+    "source": "Rosaria'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "Kilisenin Mızrağı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "Hiddetli İtiraf",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir, 2 kademe <span style=\"color:#FFFFFFFF\">Zaafları Bul</span> oluşturur. (Zaafları Bul etkisi tetiklendikten sonra <span style=\"color:#FFFFFFFF\">Can Damarına Saldır</span> oluşturur.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "Son Ayin",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir, 2 kademe <span style=\"color:#FFFFFFFF\">Zaafları Bul</span> oluşturur ve <span style=\"color:#FFFFFFFF\">Dondurucu Buz Mızrağı</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

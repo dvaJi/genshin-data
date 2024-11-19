@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "황금 늑대왕",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바위 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "늑대왕 강타",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "수계의 부름",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 1pt 주고 대상 캐릭터에게 <span style=\"color:#FFFFFFFF\">황금 침식</span>을 2스택 부착하며 <span style=\"color:#FFFFFFFF\">수계 늑대 머리</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "옥죄는 황금",
+      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 3pt 주고 상대의 모든 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 1pt 주며 모든 상대 캐릭터에게 <span style=\"color:#FFFFFFFF\">황금 침식</span>을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

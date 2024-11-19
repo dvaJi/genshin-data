@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "Rei Canino Dourado",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "Golpe do Lorde Lupino",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "Chamado da Fenda Uivante",
+      "desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo</span>, aplica 2 acúmulos de <span style=\"color:#FFFFFFFF\">Corrosão Dourada</span> ao alvo e invoca <span style=\"color:#FFFFFFFF\">Cães da Fenda Alfa</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "Destruição Dourada",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo</span>, causa 1 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a todos os personagens fora de combate, então aplica <span style=\"color:#FFFFFFFF\">Corrosão Dourada</span> a todos os personagens adversários.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

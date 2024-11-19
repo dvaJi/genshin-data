@@ -1,0 +1,73 @@
+{
+  "_id": 4608,
+  "id": "golden_wolflord",
+  "shareId": 4608,
+  "name": "Kurtların Altın Efendisi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 40,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "wolflords_strike",
+      "name": "Kurtların Efendisi'nin Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "howling_riftcall",
+      "name": "Yarığın Uluyan Çağrısı",
+      "desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir, hedef karaktere 2 kademe <span style=\"color:#FFFFFFFF\">Altın Aşınma</span> ekler ve <span style=\"color:#FFFFFFFF\">Hiçlik Kurdu Kafatası</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "golden_cankerbind",
+      "name": "Altın Taarruz",
+      "desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir, hazırdaki tüm rakip karakterlere 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir ve tüm rakip karakterlere <span style=\"color:#FFFFFFFF\">Altın Aşınma</span> ekler.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

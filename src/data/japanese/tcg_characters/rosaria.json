@@ -1,0 +1,73 @@
+{
+  "_id": 1113,
+  "id": "rosaria",
+  "shareId": 432,
+  "name": "ロサリア",
+  "title": "荊冠の恩典・ロサリア",
+  "desc": "「影は光から生まれるが、光が影を御すことはできない。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "長柄武器",
+    "faction": ["モンド"],
+    "source": "キャッツテールでロサリアを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "spear_of_the_church",
+      "name": "教会槍術",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ravaging_confession",
+      "name": "罪喰いの懺悔",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与え、<span style=\"color:#FFFFFFFF\">弱点看破</span>を2層生成する。（弱点看破の効果発動時、<span style=\"color:#FFFFFFFF\">弱点突破</span>を生成する。）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "rites_of_termination",
+      "name": "臨終の聖礼",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与え、<span style=\"color:#FFFFFFFF\">弱点看破</span>を2層生成し、<span style=\"color:#FFFFFFFF\">極寒の氷槍</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
