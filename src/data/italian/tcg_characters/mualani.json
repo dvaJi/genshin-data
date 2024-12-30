@@ -1,0 +1,73 @@
+{
+  "_id": 1214,
+  "id": "mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Mualani, Cacciatrice di onde gorgoglianti",
+  "desc": "Cavalcamaree di sorgenti perenni.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizzatore",
+    "faction": ["Natlan"],
+    "source": "Ricompensa ottenuta sfidando Mualani a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "cooling_treatment",
+      "name": "Trattamento rinfrescante",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "surfshark_wavebreaker",
+      "name": "Squalo spaccaonde",
+      "desc": "Associa <span style=\"color:#FFFFFFFF\">Squalo mordicchione</span> a sé stessa, entra nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>, e ottiene 2 <span style=\"color:#FFFFFFFF\">punti Anima della Notte</span>. (Quest'abilità può essere usata dopo che il personaggio è entrato nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>).<br/>(I personaggi con <span style=\"color:#FFFFFFFF\">Squalo mordicchione</span> associato possono usare la tecnica: <span style=\"color:#FFFFFFFF\">Tavola Sharky</span>)",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "boomsharkalaka",
+      "name": "Squaloscoppio ondapazza",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, invoca <span style=\"color:#FFFFFFFF\">Missile squaloso</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

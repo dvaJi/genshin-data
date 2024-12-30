@@ -1,0 +1,73 @@
+{
+  "_id": 1214,
+  "id": "mualani",
+  "shareId": 444,
+  "name": "말라니",
+  "title": "첨벙첨벙 파도잡이·말라니",
+  "desc": "멈추지 않고 흐르는 샘물의 파도",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "법구",
+    "faction": ["나타"],
+    "source": "캣테일 술집에서 말라니 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "cooling_treatment",
+      "name": "열 식히기",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "surfshark_wavebreaker",
+      "name": "파도를 가르는 샤크",
+      "desc": "<span style=\"color:#FFFFFFFF\">물어뜯는 샤크</span>를 부착하고, <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입하며 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 2pt 획득한다. (캐릭터가 <span style=\"color:#FFFFFFFF\">밤혼 가호</span> 진입 후, 해당 스킬을 사용할 수 없다)<br/>(<span style=\"color:#FFFFFFFF\">물어뜯는 샤크</span>가 부착된 캐릭터가 사용 가능한 특수 스킬: <span style=\"color:#FFFFFFFF\">샤크 서핑보드</span>)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "boomsharkalaka",
+      "name": "보글보글탄",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">샤크 폭탄</span>을 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

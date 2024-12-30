@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Thắp Nến Diệt Bóng Tối - Clorinde",
+  "desc": "Tiêu diệt bóng ma, bảo vệ đêm dài.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Kiếm Đơn",
+    "faction": ["Fontaine"],
+    "source": "Nhận được sau khi mời Clorinde giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Lời Thề Marechaussee",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>. Nếu nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Gác Đêm</span>, sẽ khiến kỹ năng này giảm tiêu hao 1 <span style=\"color:#FFFFFFFF\">Nguyên Tố Không Màu</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Thanh Trừng Bóng Tối",
+      "desc": "Áp dụng <span style=\"color:#FFFFFFFF\">Gác Đêm</span> cho bản thân, xóa bỏ toàn bộ <span style=\"color:#FFFFFFFF\">Khế Ước Sinh Mệnh</span> của bản thân. Sau đó, gây <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span> và tự chữa trị dựa trên số tầng đã xóa bỏ. (Sát thương và chữa trị tối đa 4 điểm)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Tia Sáng Cuối Cùng",
+      "desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi</span>, áp dụng 4 tầng <span style=\"color:#FFFFFFFF\">Khế Ước Sinh Mệnh</span> cho bản thân.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

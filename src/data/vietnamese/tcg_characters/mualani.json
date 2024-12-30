@@ -1,0 +1,73 @@
+{
+  "_id": 1214,
+  "id": "mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Người Đuổi Theo Sóng - Mualani",
+  "desc": "Dòng chảy bất tận, đạp sóng tiến lên.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Pháp Khí",
+    "faction": ["Natlan"],
+    "source": "Nhận được sau khi mời Mualani giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "cooling_treatment",
+      "name": "Xử Lý Giảm Nhiệt",
+      "desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "surfshark_wavebreaker",
+      "name": "Cá Mập Xuyên Sóng",
+      "desc": "Áp dụng <span style=\"color:#FFFFFFFF\">Cá Mập Cắn Xé</span> cho bản thân, sau đó tiến vào <span style=\"color:#FFFFFFFF\">Dạ Hồn Chúc Phúc</span> và nhận 2 <span style=\"color:#FFFFFFFF\">điểm Dạ Hồn</span>. (Sau khi nhân vật tiến vào <span style=\"color:#FFFFFFFF\">Dạ Hồn Chúc Phúc</span> sẽ không thể dùng kỹ năng này)<br/>(Nhân vật áp dụng <span style=\"color:#FFFFFFFF\">Cá Mập Cắn Xé</span> có thể sử dụng Đặc Kỹ: <span style=\"color:#FFFFFFFF\">Ván Cá Mập</span>)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "boomsharkalaka",
+      "name": "Cá Mập Nổ Dồn Dập",
+      "desc": "Gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, triệu hồi <span style=\"color:#FFFFFFFF\">Tên Lửa Cá Mập</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

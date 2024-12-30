@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde - La Cazasombras Portavelas",
+  "desc": "Conquistadora de fantasmas, guardiana de la noche.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Espada ligera",
+    "faction": ["Fontaine"],
+    "source": "Se obtiene tras retar y ganar a Clorinde en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Credo fantasmal",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>. Si este personaje está en el estado de <span style=\"color:#FFFFFFFF\">patrulla nocturna</span>, gasta 1 <span style=\"color:#FFFFFFFF\">dado indefinido</span> menos en lanzar esta habilidad.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Caza noctámbula",
+      "desc": "Entra en el estado de <span style=\"color:#FFFFFFFF\">Patrulla nocturna</span> y elimina todas las acumulaciones de <span style=\"color:#FFFFFFFF\">pacto vital</span>. Después, inflige <span style=\"color:#FFACFFFF\">Daño Electro</span> y regenera Vida según la cantidad de cargas consumidas (máximo 4 pts. de daño y Vida).",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Destello final",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y obtiene 4 acumulaciones de <span style=\"color:#FFFFFFFF\">pacto vital</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

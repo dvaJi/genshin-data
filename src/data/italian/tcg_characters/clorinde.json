@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde, Cacciatrice d'ombre",
+  "desc": "Trionfatrice di spettri, Guardiana della lunga notte.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Spada",
+    "faction": ["Fontaine"],
+    "source": "Ricompensa ottenuta sfidando Clorinde a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Patto delle Ombre Cacciatrici",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>. Se questo personaggio ha associata <span style=\"color:#FFFFFFFF\">Vigilante della notte</span>, questa abilità costa 1 <span style=\"color:#FFFFFFFF\">elemento indefinito</span> in meno.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Veglia della cacciatrice",
+      "desc": "Associa <span style=\"color:#FFFFFFFF\">Vigilante della notte</span> a sé stessa, dopodiché rimuovi tutto il tuo <span style=\"color:#FFFFFFFF\">Legame vitale</span>. In base al numero di accumuli rimossi, infliggi <span style=\"color:#FFACFFFF\">DAN da Electro</span> e ripristina i PS (i DAN e la guarigione sono limitati a 4).",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Fulgore finale",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, e associa 4 accumuli di <span style=\"color:#FFFFFFFF\">Legame vitale</span> a sé stessa.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

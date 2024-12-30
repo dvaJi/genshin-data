@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "\"Candlebearer, Shadowhunter\" Clorinde",
+  "desc": "Vanquisher of Phantoms, Vigil of the Long Night",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Sword",
+    "faction": ["Fontaine"],
+    "source": "Reward for inviting Clorinde to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Oath of Hunting Shadows",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span>. If this character has <span style=\"color:#FFFFFFFF\">Night Vigil</span> attached, this Skill costs 1 less <span style=\"color:#FFFFFFFF\">Unaligned Element</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Hunter's Vigil",
+      "desc": "Attach <span style=\"color:#FFFFFFFF\">Night Vigil</span> to self, then remove all of your <span style=\"color:#FFFFFFFF\">Bond of Life</span>. Based on the number of stacks removed, deal <span style=\"color:#FFACFFFF\">Electro DMG</span> and heal yourself. (DMG and healing are capped at 4 points)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Last Lightfall",
+      "desc": "Deals 3 <span style=\"color:#FFACFFFF\">Electro DMG</span>, and attaches 4 stacks of <span style=\"color:#FFFFFFFF\">Bond of Life</span> to self.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

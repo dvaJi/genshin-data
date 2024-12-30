@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Клоринда",
+  "title": "«Хранительница света, теневая охотница» Клоринда",
+  "desc": "Истребительница теней, хранительница ночи",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Одноручное",
+    "faction": ["Фонтейн"],
+    "source": "Награда за приглашение Клоринды в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Клятва Сумеречного двора",
+      "desc": "Наносит 1 <span style=\"color:#FFFFFFFF\">Физический урон</span>. Если на этом персонаже есть эффект <span style=\"color:#FFFFFFFF\">Ночной дозор</span>, этот навык расходует <span style=\"color:#FFFFFFFF\">Неопределённый элемент</span> на 1 ед. меньше.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Охота на тьму",
+      "desc": "Персонаж получает эффект <span style=\"color:#FFFFFFFF\">Ночной дозор</span>. Весь ваш <span style=\"color:#FFFFFFFF\">Долг жизни</span> снимается. В зависимости от количества снятых уровней наносится <span style=\"color:#FFACFFFF\">Электро урон</span> урон и восстанавливается HP. (Урон и лечение ограничены 4 ед.)",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Последние лучи света",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 3 ед. Персонаж получает <span style=\"color:#FFFFFFFF\">Долг жизни</span>, 4 уровня.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

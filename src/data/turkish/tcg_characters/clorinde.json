@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "\"Mum Işığının Muhafızı, Gölge Avcısı\" Clorinde",
+  "desc": "Gölgelerin Yok Edicisi, Uzun Gece Nöbeti",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Kılıç",
+    "faction": ["Fontaine"],
+    "source": "Clorinde'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Gölge Avı Yemini",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir. Bu karaktere <span style=\"color:#FFFFFFFF\">Gece Nöbeti</span> ekliyse bu Beceri için 1 adet daha az <span style=\"color:#FFFFFFFF\">Nötr Element</span> harcanır.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Avcının Nöbeti",
+      "desc": "Kendine <span style=\"color:#FFFFFFFF\">Gece Nöbeti</span> ekler ve ardından sahip olduğu tüm <span style=\"color:#FFFFFFFF\">Hayat Bağı</span> kaldırılır. Kaldırılan kademe başına <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve kendini iyileştirir. (Hasar ve İyileştirme miktarı en fazla 4 puan olabilir.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Son Parıltı",
+      "desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve kendine 4 kademe <span style=\"color:#FFFFFFFF\">Hayat Bağı</span> ekler.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

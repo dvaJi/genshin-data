@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Kerzenträgerin, Häscherin der Schatten – Clorinde",
+  "desc": "Bezwingerin der Phantome, Wächterin der Nacht",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Clorinde in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Eid der Schattenjäger",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>. Wenn die Figur mit <span style=\"color:#FFFFFFFF\">Nachtpatrouille</span> ausgerüstet ist, wird für diese Fähigkeit 1 <span style=\"color:#FFFFFFFF\">Würfel (beliebig)</span> weniger verbraucht.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Nächtliche Jagd",
+      "desc": "Verleiht sich selbst <span style=\"color:#FFFFFFFF\">Nachtpatrouille</span> und entfernt sämtlichen eigenen <span style=\"color:#FFFFFFFF\">Eid des Lebens</span>. Verursacht anschließend basierend auf den entfernten Stapelungen <span style=\"color:#FFACFFFF\">Elektro-SCH</span> und heilt sich selbst (max. 4 Pkt. Schaden und Heilung).",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Sterbende Lichtstrahlen",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, verleiht sich selbst 4 Stapelungen <span style=\"color:#FFFFFFFF\">Eid des Lebens</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

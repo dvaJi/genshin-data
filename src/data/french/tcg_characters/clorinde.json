@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde · Porteuse de bougie et chasseuse d'ombres",
+  "desc": "Pourfendeuse de fantômes, protégeant la longue nuit...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Épée à une main",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Clorinde à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Crédo des ombres chasseuses",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>. Si le personnage est sous l'effet d'une <span style=\"color:#FFFFFFFF\">vigile nocturne</span>, cette capacité dépense 1 dé <span style=\"color:#FFFFFFFF\">élément neutre</span> en moins.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Ronde de la nuitée",
+      "desc": "Applique une <span style=\"color:#FFFFFFFF\">vigile nocturne</span> au personnage et annule tout son <span style=\"color:#FFFFFFFF\">engagement vital</span>, puis inflige des <span style=\"color:#FFACFFFF\">DGT Électro</span> et soigne le personnage selon la quantité de cumuls annulés. (Maximum 4 pts de DGT et de soins)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Fin de la clarté",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et applique 4 cumuls d'<span style=\"color:#FFFFFFFF\">engagement vital</span> au personnage.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1214,
+  "id": "mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Mualani · Chasseuse des vagues rugissantes",
+  "desc": "Surfant sur les eaux pérennes...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalyseur",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Mualani à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "cooling_treatment",
+      "name": "Réfrigération",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "surfshark_wavebreaker",
+      "name": "Squalisurf brise-vagues",
+      "desc": "Applique une <span style=\"color:#FFFFFFFF\">morsure squalidée</span> au personnage, puis le fait passer en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> et lui accorde 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span>. (Un personnage ne peut plus utiliser cette capacité après être passé en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>)<br/>(Les personnages équipés avec [<span style=\"color:#FFFFFFFF\">Morsure squalidée</span>] peuvent utiliser l'habilité : <span style=\"color:#FFFFFFFF\">Planche « Requinou »</span>)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "boomsharkalaka",
+      "name": "Requin-pact boum",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et invoque un <span style=\"color:#FFFFFFFF\">missile de Requinou</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

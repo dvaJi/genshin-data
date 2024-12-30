@@ -1,0 +1,73 @@
+{
+  "_id": 1412,
+  "id": "clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "ล่าเงาพิทักษ์ราตรี - Clorinde",
+  "desc": "ล่าเงาปีศาจ พิทักษ์รัตติกาล",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "ดาบ",
+    "faction": ["Fontaine"],
+    "source": "ได้รับหลังจากเชิญ Clorinde ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "oath_of_hunting_shadows",
+      "name": "Oath of Hunting Shadows",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย หากตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Night Vigil</span> สกิลนี้จะใช้<span style=\"color:#FFFFFFFF\">ธาตุไร้สี</span>น้อยลง 1 ลูก",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunters_vigil",
+      "name": "Hunter's Vigil",
+      "desc": "ตนเองได้รับ <span style=\"color:#FFFFFFFF\">Night Vigil</span> และลบล้าง <span style=\"color:#FFFFFFFF\">บ่วงพันธะชีวัน</span> ทั้งหมดของตัวเอง จากนั้นสร้าง <span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> ตามจำนวนชั้นที่ถูกลบล้าง และรักษาตัวเอง (ความเสียหายและการรักษาสูงสุด 4 หน่วย)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "last_lightfall",
+      "name": "Last Lightfall",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย และตัวเองได้รับ <span style=\"color:#FFFFFFFF\">บ่วงพันธะชีวัน</span> 4 ชั้น",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

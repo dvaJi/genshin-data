@@ -1,0 +1,73 @@
+{
+  "_id": 1214,
+  "id": "mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Mualani - La Cabalgadora de Olas Rugientes",
+  "desc": "Cabalgando sobre las olas de manantiales interminables.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": ["Natlan"],
+    "source": "Se obtiene tras retar y ganar a Mualani en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "cooling_treatment",
+      "name": "Refrescamiento",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "surfshark_wavebreaker",
+      "name": "Escualosurf rompeolas",
+      "desc": "Se equipa la carta de <span style=\"color:#FFFFFFFF\">Mordisco de tiburón</span> y entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>. Además, obtiene 2 pts. de <span style=\"color:#FFFFFFFF\">noctambulismo</span> (cuando el personaje entre en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>, no podrá volver a usar esta habilidad).<br/>Los personajes que estén en el estado de bendición noctámbula pueden usar la técnica especial: <span style=\"color:#FFFFFFFF\">Escualotabla de surf</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "boomsharkalaka",
+      "name": "Misil acuaexplosivo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> e invoca un <span style=\"color:#FFFFFFFF\">escualoproyectil</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
