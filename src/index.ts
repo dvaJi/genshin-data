@@ -4,21 +4,23 @@ import type { Food } from './types/food';
 import type { Weapon } from './types/weapon';
 import type { CommonMaterial } from './types/common_material';
 import type { ElementalStoneMaterial } from './types/elemental_stone_material';
-import type { Ingredients } from './types/ingredient';
+import type { Ingredient } from './types/ingredient';
 import type { JewelMaterial } from './types/jewel_material';
 import type { LocalMaterial } from './types/local_material';
 import type { Potion } from './types/potion';
+import type { CharacterExpMaterial } from './types/character_exp_material';
 import type { TalentLvlUpMaterial } from './types/talent_lvl_up_material';
 import type { WeaponPrimaryMaterial } from './types/weapon_primary_material';
 import type { WeaponSecondaryMaterial } from './types/weapon_secondary_material';
-import type { Bait, Fish, FishingRod } from './types/fishing';
-import type { ExpMaterial } from './types/exp';
-import type { AchievementCategory, Achievement } from './types/achievement';
+import type { AchievementElement, Achievement } from './types/achievement';
 import type { Furnishing } from './types/furnishing';
-import type { Domains } from './types/domain';
-import type { TCGCharacterCard } from './types/tcg_character';
-import type { TCGActionCard } from './types/tcg_action';
-import type { TCGMonsterCard } from './types/tcg_monster';
+import type { Fish, Bait } from './types/fish';
+import type { FishingRod } from './types/fishing_rod';
+import type { DomainsJSON } from './types/domains';
+import type { TcgCharacter } from './types/tcg_character';
+import type { TcgAction } from './types/tcg_action';
+import type { TcgMonster } from './types/tcg_monster';
+import { WeaponEnhancementMaterial } from './types/weapon_enhancement_material';
 
 export type Material =
   | CommonMaterial
@@ -30,20 +32,20 @@ export type Material =
   | WeaponPrimaryMaterial
   | WeaponSecondaryMaterial;
 
-export type TCGCard = TCGCharacterCard & TCGActionCard & TCGMonsterCard;
+export type TCGCard = TcgCharacter & TcgAction & TcgMonster;
 
 export type {
-  AchievementCategory,
+  AchievementElement,
   Achievement,
   Artifact,
   Character,
   Weapon,
   CommonMaterial,
-  Domains,
+  DomainsJSON as Domains,
   ElementalStoneMaterial,
-  ExpMaterial,
+  CharacterExpMaterial,
   Food,
-  Ingredients,
+  Ingredient,
   JewelMaterial,
   LocalMaterial,
   Potion,
@@ -54,8 +56,9 @@ export type {
   Fish,
   FishingRod,
   Furnishing,
-  TCGCharacterCard,
-  TCGActionCard,
+  TcgCharacter,
+  TcgAction,
+  TcgMonster,
 };
 
 export const languages = [
@@ -169,7 +172,7 @@ export default class GenshinData {
     return await this.findByFolder(lang, 'food', query);
   }
 
-  async ingredients(query?: QueryOpts<Ingredients>): Promise<Ingredients[]> {
+  async ingredients(query?: QueryOpts<Ingredient>): Promise<Ingredient[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'ingredients', query);
   }
@@ -230,15 +233,15 @@ export default class GenshinData {
   }
 
   async characterExpMaterials(
-    query?: QueryOpts<ExpMaterial>
-  ): Promise<ExpMaterial[]> {
+    query?: QueryOpts<CharacterExpMaterial>
+  ): Promise<CharacterExpMaterial[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'character_exp_material', query);
   }
 
   async weaponExpMaterials(
-    query?: QueryOpts<ExpMaterial>
-  ): Promise<ExpMaterial[]> {
+    query?: QueryOpts<WeaponEnhancementMaterial>
+  ): Promise<WeaponEnhancementMaterial[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'weapon_enhancement_material', query);
   }
@@ -261,8 +264,8 @@ export default class GenshinData {
   }
 
   async achievements(
-    query?: QueryOpts<AchievementCategory>
-  ): Promise<AchievementCategory[]> {
+    query?: QueryOpts<AchievementElement>
+  ): Promise<AchievementElement[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'achievements', query);
   }
@@ -272,26 +275,24 @@ export default class GenshinData {
     return await this.findByFolder(lang, 'furnishing', query);
   }
 
-  async domains(query?: QueryOpts<Domains>): Promise<Domains> {
+  async domains(query?: QueryOpts<DomainsJSON>): Promise<DomainsJSON> {
     const lang = this.getLang();
     return (await this.findByFolder(lang, 'domains', query))[0];
   }
 
   async tcgCharacters(
-    query?: QueryOpts<TCGCharacterCard>
-  ): Promise<TCGCharacterCard[]> {
+    query?: QueryOpts<TcgCharacter>
+  ): Promise<TcgCharacter[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'tcg_characters', query);
   }
 
-  async tcgActions(query?: QueryOpts<TCGActionCard>): Promise<TCGActionCard[]> {
+  async tcgActions(query?: QueryOpts<TcgAction>): Promise<TcgAction[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'tcg_action', query);
   }
 
-  async tcgMonsters(
-    query?: QueryOpts<TCGMonsterCard>
-  ): Promise<TCGMonsterCard[]> {
+  async tcgMonsters(query?: QueryOpts<TcgMonster>): Promise<TcgMonster[]> {
     const lang = this.getLang();
     return await this.findByFolder(lang, 'tcg_monsters', query);
   }

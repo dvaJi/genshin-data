@@ -3,13 +3,24 @@
   "id": "traveler_pyro",
   "name": "Reisender (Pyro)",
   "description": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
-  "weapon_type": "Einhänder",
-  "element": "Pyro",
-  "gender": "Männlich/Weiblich",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Einhänder"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "malefemale",
+    "name": "Männlich/Weiblich"
+  },
   "release": 1735758000,
   "substat": "ANG%",
   "affiliation": "——",
-  "region": "MAINACTOR",
+  "region": {
+    "id": ""
+  },
   "rarity": 5,
   "birthday": [null, null],
   "constellation": "Viator",
@@ -214,7 +225,7 @@
       "_id": 10097,
       "id": "flowfire_blade",
       "name": "Flussfeuer-Klinge",
-      "description": "Beschwört ein Feuer, das die Erde verschlingen kann. Je nachdem, ob gedrückt oder gedrückt gehalten wird, wird ein anderer Effekt erzeugt.<br/><br/><span>Drücken</span><br/>Kanalisiert die Pyro-Kraft auf eine brennende Weise. Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Flammende Schwelle“ hervor.<br/>Wenn sich die „Flammende Schwelle“ einem Gegner nähert, fügt sie in regelmäßigen Abständen Gegnern in der Nähe mit Nachtseelen versehenen <span>Pyro-Schaden</span> zu.<br/><br/><span>Gedrückt halten</span><br/>Kanalisiert die Pyro-Kraft auf eine stabile Weise und fügt Gegnern in der Nähe mit Nachtseelen versehenen <span>Pyro-Flächenschaden</span> zu. Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Versengende Schwelle“ hervor.<br/>Wenn die aktuelle Figur in der „Versengenden Schwelle“ Gegnern Schaden zufügt, führt die „Versengende Schwelle“ einen abgestimmten Angriff aus, der auf Basis des ANG des Reisenden Gegnern mit Nachtseelen versehenen <span>Pyro-Schaden</span> zufügt. 3 s Abklingzeit.<br/><br/><span>Nachtseelensegen – Reisender</span><br/>Verbraucht fortlaufend Nachtseelenpunkte. Der Nachtseelensegen-Zustand des Reisenden hält bis zu 12 s. Wenn seine Nachtseelenpunkte aufgebraucht sind, oder beim erneuten Auslösen endet der Nachtseelensegen-Zustand des Reisenden.<br/>Die „Flammende Schwelle“ und „Versengende Schwelle“ verschwinden, wenn der Nachtseelensegen-Zustand des Reisenden endet. Es kann gleichzeitig nur eine von dem Reisenden selbst erschaffene „Flammende Schwelle“ oder „Versengende Schwelle“ auf dem Feld existieren.",
+      "description": "Beschwört ein Feuer, das die Erde verschlingen kann. Je nachdem, ob gedrückt oder gedrückt gehalten wird, wird ein anderer Effekt erzeugt.<br/><br/><span>Drücken</span><br/>Kanalisiert die Pyro-Kraft auf eine brennende Weise. Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Flammende Schwelle“ hervor.<br/>Wenn sich die „Flammende Schwelle“ einem Gegner nähert, fügt sie in regelmäßigen Abständen Gegnern in der Nähe mit Nachtseelen versehenen <span>Pyro-Schaden</span> zu.<br/><br/><span>Gedrückt halten</span><br/>Kanalisiert die Pyro-Kraft auf eine stabile Weise und fügt Gegnern in der Nähe mit Nachtseelen versehenen <span>Pyro-Flächenschaden</span> zu. Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Versengende Schwelle“ hervor.<br/>Wenn die aktuelle Figur in der „Versengenden Schwelle“ Gegnern Schaden zufügt, führt die „Versengende Schwelle“ einen abgestimmten Angriff aus, der auf Basis des ANG des Reisenden Gegnern mit Nachtseelen versehenen <span>Pyro-Schaden</span> zufügt. 3 s Abklingzeit.<br/><br/><span>Nachtseelensegen – Reisender</span><br/>Verbraucht fortlaufend Nachtseelenpunkte. Der Nachtseelensegen-Zustand des Reisenden hält bis zu 12 s. Wenn seine Nachtseelenpunkte aufgebraucht sind, endet der Nachtseelensegen-Zustand des Reisenden. Aktualisiert die Nachtseelenpunkte beim erneuten Auslösen der Elementarfähigkeit während der Wirkungsdauer auf 42 Punkte.<br/>Die „Flammende Schwelle“ und „Versengende Schwelle“ verschwinden, wenn der Nachtseelensegen-Zustand des Reisenden endet. Es kann gleichzeitig nur eine von dem Reisenden selbst erschaffene „Flammende Schwelle“ oder „Versengende Schwelle“ auf dem Feld existieren.",
       "info": "Du hast mit Paimon gemeinsam die wechselnden Farben der fließenden Flammen beobachtet.",
       "attributes": [
         {
@@ -399,7 +410,7 @@
     {
       "id": "embers_unspent",
       "name": "Unverbrannte Glut",
-      "description": "Stellt dem Reisenden beim Auslösen der Reaktionen „In Flammen“, „Verdampfen“, „Schmelzen“, „Überladen“, „Flammenspross“, „Pyro-Verwirbelung“ und „Pyro-Kristallisation“ an Gegnern durch die aktuelle Figur im Zustand <span>„Flammende Schwelle“</span> oder <span>„Versengende Schwelle“</span> 5 Punkte Elementarenergie wieder her, 12 s Abklingzeit. Stellt dem Reisenden außerdem beim Auslösen des „Nachtseelenaufbruchs“ durch ein Truppenmitglied in der Nähe 4 Punkte Elementarenergie wieder her.",
+      "description": "Stellt dem Reisenden beim Auslösen von <span>Pyro-Reaktionen</span> an Gegnern durch die aktuelle Figur im Zustand <span>„Flammende Schwelle“</span> oder <span>„Versengende Schwelle“</span> 5 Punkte Elementarenergie wieder her, 12 s Abklingzeit. Stellt dem Reisenden außerdem beim Auslösen des „Nachtseelenaufbruchs“ durch ein Truppenmitglied in der Nähe 4 Punkte Elementarenergie wieder her.",
       "level": 4
     }
   ],
@@ -415,7 +426,7 @@
       "_id": 52,
       "id": "everlit_candle",
       "name": "Ewig leuchtender Kerzenschein",
-      "description": "Stellt dem Reisenden innerhalb von 12 s nach dem Einsetzen der Elementarfähigkeit <span>Flussfeuer-Klinge</span> beim Auslösen der Reaktionen „In Flammen“, „Verdampfen“, „Schmelzen“, „Überladen“, „Flammenspross“, „Pyro-Verwirbelung“ und „Pyro-Kristallisation“ an Gegnern durch in der Nähe befindliche Truppenmitglieder 14 Nachtseelenpunkte wieder her. Auf diese Weise können pro Einsetzen der Elementarfähigkeit <span>Flussfeuer-Klinge</span> max. 28 Nachtseelenpunkte wiederhergestellt werden.",
+      "description": "Stellt dem Reisenden innerhalb von 12 s nach dem Einsetzen der Elementarfähigkeit <span>Flussfeuer-Klinge</span> beim Auslösen von <span>Pyro-Reaktionen</span> an Gegnern durch in der Nähe befindliche Truppenmitglieder 14 Nachtseelenpunkte wieder her. Auf diese Weise können pro Einsetzen der Elementarfähigkeit <span>Flussfeuer-Klinge</span> max. 28 Nachtseelenpunkte wiederhergestellt werden.",
       "level": 2
     },
     {

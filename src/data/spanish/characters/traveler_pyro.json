@@ -3,13 +3,24 @@
   "id": "traveler_pyro",
   "name": "Viajero (Pyro)",
   "description": "Un viajero de otro mundo al que arrebataron su única familia, y que se vio obligado a embarcarse en un viaje en busca de Los Siete.",
-  "weapon_type": "Espada ligera",
-  "element": "Pyro",
-  "gender": "Masculino/Femenino",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Espada ligera"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "malefemale",
+    "name": "Masculino/Femenino"
+  },
   "release": 1735758000,
   "substat": "ATQ%",
   "affiliation": "—",
-  "region": "MAINACTOR",
+  "region": {
+    "id": ""
+  },
   "rarity": 5,
   "birthday": [null, null],
   "constellation": "Viator",
@@ -399,7 +410,7 @@
     {
       "id": "embers_unspent",
       "name": "Perduración de las ascuas",
-      "description": "Cuando el personaje en uso afectado por el <span>umbral flagrante</span> o el <span>umbral abrasador</span> causa una reacción de Quemadura, Vaporización, Derretido, Sobrecarga, Crepitar, Torbellino Pyro o Cristalización Pyro, el Viajero recupera 5 pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 12 s. Además, cuando un personaje cercano del equipo causa una explosión noctámbula, el Viajero recupera 4 pts. de Energía Elemental.",
+      "description": "Cuando el personaje en uso afectado por el <span>umbral flagrante</span> o el <span>umbral abrasador</span> causa una <span>Reacción Elemental Pyro</span>, el Viajero recupera 5 pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 12 s. Además, cuando un personaje cercano del equipo causa una explosión noctámbula, el Viajero recupera 4 pts. de Energía Elemental.",
       "level": 4
     }
   ],
@@ -415,7 +426,7 @@
       "_id": 52,
       "id": "everlit_candle",
       "name": "Vela perpetua",
-      "description": "Durante los 12 s posteriores a usar la Habilidad Elemental, <span>Espada ignífera</span>, cuando un personaje cercano del equipo causa una reacción de Quemadura, Vaporización, Derretido, Sobrecarga, Crepitar, Torbellino Pyro o Cristalización Pyro contra un enemigo, el Viajero recupera 14 pts. de noctambulismo. Solo se pueden recuperar un máximo de 28 pts. de noctambulismo de esta manera por cada vez que se use la Habilidad Elemental, <span>Espada ignífera</span>.",
+      "description": "Durante los 12 s posteriores a usar la Habilidad Elemental, <span>Espada ignífera</span>, cuando un personaje cercano del equipo causa una <span>Reacción Elemental Pyro</span> contra un enemigo, el Viajero recupera 14 pts. de noctambulismo. Solo se pueden recuperar un máximo de 28 pts. de noctambulismo de esta manera por cada vez que se use la Habilidad Elemental, <span>Espada ignífera</span>.",
       "level": 2
     },
     {
@@ -460,7 +471,7 @@
           "values": ["-", "912"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["-", "18"]
         },
         {
@@ -485,7 +496,7 @@
           "values": ["2342", "3024"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["46", "59"]
         },
         {
@@ -511,7 +522,7 @@
           "values": ["4529", "5013"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["88", "98"]
         },
         {
@@ -558,7 +569,7 @@
           "values": ["5766", "6411"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["113", "125"]
         },
         {
@@ -605,7 +616,7 @@
           "values": ["7164", "7648"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["140", "149"]
         },
         {
@@ -652,7 +663,7 @@
           "values": ["8401", "8885"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["164", "174"]
         },
         {
@@ -699,7 +710,7 @@
           "values": ["9638", "10122"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["188", "198"]
         },
         {
@@ -746,7 +757,7 @@
           "values": ["10875", "10875"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["212", "212"]
         },
         {

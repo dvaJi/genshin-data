@@ -21,7 +21,7 @@
     "build:types": "tsc src/index.ts --declarationDir dist/ --lib esnext --emitDeclarationOnly --declaration",
     "build:lib": "vite build",
     "build": "pnpm clean:dist && pnpm build:lib && pnpm build:types",
-    "generate": "node ./scripts/generate.js",
+    "generate": "node ./scripts/generate.js && node ./scripts/generate-typings.mjs",
     "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
     "format-data": "prettier --log-level warn --write \"src/data/**/*.json\"",
     "format-data-en": "prettier --log-level warn --write \"src/data/english/**/*.json\"",
@@ -32,11 +32,15 @@
   "name": "genshin-data",
   "author": "dvaJi",
   "devDependencies": {
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.0",
     "rimraf": "^6.0.1",
     "tslib": "^2.8.1",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.6",
-    "vitest": "^2.1.8"
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "quicktype": "^23.0.171",
+    "quicktype-core": "^23.0.171"
   }
 }

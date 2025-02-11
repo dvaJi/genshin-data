@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "阿蕾奇诺",
+  "title": "孤暝厄月·阿蕾奇诺",
+  "desc": "繁星晦暗，厄月孤存。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "长柄武器",
+    "faction": ["愚人众"],
+    "source": "在猫尾酒馆中邀请阿蕾奇诺进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "斩首之邀",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>，若可能，消耗目标至多3层<span style=\"color:#FFFFFFFF\">生命之契</span>，提高等量伤害。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "万相化灰",
+      "desc": "在对方场上生成5层<span style=\"color:#FFFFFFFF\">血偿勒令</span>，然后造成2点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "厄月将升",
+      "desc": "造成4点<span style=\"color:#FF9999FF\">火元素伤害</span>，移除自身所有<span style=\"color:#FFFFFFFF\">生命之契</span>，每移除1层，治疗自身1点。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "唯厄月可知晓",
+      "desc": "角色不会受到<span style=\"color:#FFFFFFFF\">厄月将升</span>以外的治疗。<br/><color=#FFFFFFFF>自身附属<span style=\"color:#FFFFFFFF\">生命之契</span>时：</color>角色造成的<span style=\"color:#FFFFFFFF\">物理伤害</span>变为<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

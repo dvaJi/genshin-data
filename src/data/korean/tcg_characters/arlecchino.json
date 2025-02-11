@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "아를레키노",
+  "title": "어둠 속 재액의 달·아를레키노",
+  "desc": "희미한 뭇별 사이 고고한 액월",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": ["우인단"],
+    "source": "캣테일 술집에서 아를레키노 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "사형장으로의 초대",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다. 가능할 경우, 대상의 <span style=\"color:#FFFFFFFF\">생명의 계약</span>을 최대 3스택 소모하고, 해당 수치만큼 피해를 증가시킨다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "재가 된 만상",
+      "desc": "상대 필드에 <span style=\"color:#FFFFFFFF\">핏값</span>을 5스택 생성하고 <span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 준다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "떠오르는 재액의 달",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 4pt 주고 자신의 모든 <span style=\"color:#FFFFFFFF\">생명의 계약</span>을 제거한다. 1스택을 제거할 때마다 자신을 1pt 치유한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "재액의 달만이 알 수 있다",
+      "desc": "캐릭터는 <span style=\"color:#FFFFFFFF\">떠오르는 재액의 달</span> 이외의 치유를 받지 않는다.<br/><span style=\"color:#FFFFFFFF\">자신이 생명의 계약을 부착 시:</span> 캐릭터가 주는 <span style=\"color:#FFFFFFFF\">물리 피해</span>가 <span style=\"color:#FF9999FF\">불 원소 피해</span>로 전환된다",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

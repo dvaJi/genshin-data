@@ -1,0 +1,73 @@
+{
+  "_id": 1709,
+  "id": "kinich",
+  "shareId": 455,
+  "name": "Kinich",
+  "title": "Kinich · Chasseur du mnémofeu",
+  "desc": "Exécuteur de missions, porteur de la flamme des canopées.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Épée à deux mains",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Kinich à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "nightsun_style",
+      "name": "Style du soleil nocturne",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "canopy_hunter_riding_high",
+      "name": "Chasse canopéenne : En altitude",
+      "desc": "Permet de choisir un de vos personnages, applique un <span style=\"color:#FFFFFFFF\">lien de grappin</span>, fait passer en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> et inflige 2 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>, puis change d'emplacement avec le personnage choisi.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hail_to_the_almighty_dragonlord",
+      "name": "Louée soit Sa Majesté saurienne suprême",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span> et crée un <span style=\"color:#FFFFFFFF\">Majesté saurienne suprême Ajaw</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

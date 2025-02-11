@@ -1,0 +1,73 @@
+{
+  "_id": 1709,
+  "id": "kinich",
+  "shareId": 455,
+  "name": "Kinich",
+  "title": "Kinich - El Cazador del Fuego Reminiscente",
+  "desc": "Cumplidor de encargos, portafuegos de los Retoños Arbóreos.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Mandoble",
+    "faction": ["Natlan"],
+    "source": "Se obtiene tras retar y ganar a Kinich en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "nightsun_style",
+      "name": "Técnica del sol nocturno",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "canopy_hunter_riding_high",
+      "name": "Caza en suspensión: Persecución aérea",
+      "desc": "Aplica el efecto de <span style=\"color:#FFFFFFFF\">gancho de agarre</span> al personaje que escojas de tu equipo y entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>. Después, inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e intercambia posiciones con dicho personaje.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "hail_to_the_almighty_dragonlord",
+      "name": "Alabado sea el todopoderoso Señor de los Dragones",
+      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e invoca a <span style=\"color:#FFFFFFFF\">Ahau, Señor de los Dragones</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

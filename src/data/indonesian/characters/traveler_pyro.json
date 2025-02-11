@@ -3,13 +3,24 @@
   "id": "traveler_pyro",
   "name": "Pengembara (Pyro)",
   "description": "Seorang pengembara yang berasal dari dunia lain, saudara satu-satunya yang ia miliki dirampas dari hadapannya oleh sesosok dewa, dan kini ia mengembara untuk mencari The Seven.",
-  "weapon_type": "Sword",
-  "element": "Pyro",
-  "gender": "Pria/Perempuan",
+  "weapon_type": {
+    "id": "sword",
+    "name": "Sword"
+  },
+  "element": {
+    "id": "pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "malefemale",
+    "name": "Pria/Perempuan"
+  },
   "release": 1735758000,
   "substat": "ATK%",
   "affiliation": "—",
-  "region": "MAINACTOR",
+  "region": {
+    "id": ""
+  },
   "rarity": 5,
   "birthday": [null, null],
   "constellation": "Viator",
@@ -214,7 +225,7 @@
       "_id": 10097,
       "id": "flowfire_blade",
       "name": "Flowfire Blade",
-      "description": "Mengayunkan bara api yang bisa membakar bumi, menghasilkan efek yang berbeda berdasarkan cara skill dilancarkan: Mode Tekan atau Mode Tahan.<br/><br/><span>Mode Tekan</span><br/>Menggunakan kekuatan api dengan cara membara. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Blazing Threshold yang mengikuti Karakter aktif.<br/>Saat Blazing Threshold mendekati musuh, akan melancarkan Nightsoul-aligned <span>Pyro DMG</span> terhadap musuh di sekitar secara berkala.<br/><br/><span>Mode Tahan</span><br/>Menggunakan kekuatan api dengan stabil dan mengakibatkan Nightsoul-aligned <span>Pyro DMG Area</span> terhadap musuh di sekitar. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Scorching Threshold yang bisa mengikuti Karakter aktif saat ini.<br/>Saat Karakter yang sedang diikuti oleh Scorching Threshold mengakibatkan DMG terhadap musuh, Scorching Threshold akan melancarkan serangan terkoordinasi, mengakibatkan Nightsoul-aligned <span>Pyro DMG</span> berdasarkan ATK Traveler terhadap musuh. Efek ini dapat terpicu sekali setiap 3 detik.<br/><br/><span>Nightsoul Blessing: Traveler</span><br/>Terus mengonsumsi poin Nightsoul. Nightsoul's Blessing Traveler. Kondisi Nightsoul's Blessing Traveler sendiri bertahan hingga 12 detik dan saat poin Nightsoul habis dikonsumsi atau saat dilancarkan sekali lagi, Nightsoul Blessing Traveler akan berakhir.<br/>Blazing Threshold dan Scorching Threshold akan hilang setelah Nightsoul's Blessing Traveler berakhir. Hanya ada satu Blazing Threshold atau Scorching Threshold yang dipanggil oleh Traveler sendiri yang bisa ada di medan pertempuran di saat yang sama.",
+      "description": "Mengayunkan bara api yang bisa membakar bumi, menghasilkan efek yang berbeda berdasarkan cara skill dilancarkan: Mode Tekan atau Mode Tahan.<br/><br/><span>Mode Tekan</span><br/>Menggunakan kekuatan api dengan cara membara. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Blazing Threshold yang mengikuti Karakter aktif.<br/>Saat Blazing Threshold mendekati musuh, akan melancarkan Nightsoul-aligned <span>Pyro DMG</span> terhadap musuh di sekitar secara berkala.<br/><br/><span>Mode Tahan</span><br/>Menggunakan kekuatan api dengan stabil dan mengakibatkan Nightsoul-aligned <span>Pyro DMG Area</span> terhadap musuh di sekitar. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Scorching Threshold yang bisa mengikuti Karakter aktif saat ini.<br/>Saat Karakter yang sedang diikuti oleh Scorching Threshold mengakibatkan DMG terhadap musuh, Scorching Threshold akan melancarkan serangan terkoordinasi, mengakibatkan Nightsoul-aligned <span>Pyro DMG</span> berdasarkan ATK Traveler terhadap musuh. Efek ini dapat terpicu sekali setiap 3 detik.<br/><br/><span>Nightsoul Blessing: Traveler</span><br/>Terus mengonsumsi poin Nightsoul. Kondisi Nightsoul's Blessing Traveler sendiri bertahan hingga 12 detik dan saat poin Nightsoul habis dikonsumsi, Nightsoul Blessing Traveler akan berakhir. Jika Elemental Skill ini digunakan lagi saat aktif, poin Nightsoul Traveler akan diperbarui menjadi 42 poin.<br/>Blazing Threshold dan Scorching Threshold akan hilang setelah Nightsoul's Blessing Traveler berakhir. Hanya ada satu Blazing Threshold atau Scorching Threshold yang dipanggil oleh Traveler sendiri yang bisa ada di medan pertempuran di saat yang sama.",
       "info": "Kamu dan Paimon bersama-sama menyaksikan perubahan warna bara api yang mengalir.",
       "attributes": [
         {
@@ -399,7 +410,7 @@
     {
       "id": "embers_unspent",
       "name": "Embers Unspent",
-      "description": "Setelah Karakter aktif berada dalam status <span>Blazing Threshold</span> atau <span>Scorching Threshold</span> memicu reaksi Burning, Vaporize, Melt, Overloaded, Burgeon, Pyro Swirl, atau Pyro Crystallize, Traveler akan memulihkan 5 Energy. Efek ini dapat terpicu sekali setiap 12 detik. Selain itu, saat anggota party di sekitar memicu Nightsoul Burst, akan memulihkan 4 Energy Traveler.",
+      "description": "Setelah Karakter aktif berada dalam status <span>Blazing Threshold</span> atau <span>Scorching Threshold</span> memicu <span>reaksi terkait Pyro</span>, Traveler akan memulihkan 5 Energy. Efek ini dapat terpicu sekali setiap 12 detik. Selain itu, saat anggota party di sekitar memicu Nightsoul Burst, akan memulihkan 4 Energy Traveler.",
       "level": 4
     }
   ],
@@ -415,7 +426,7 @@
       "_id": 52,
       "id": "everlit_candle",
       "name": "Ever-Lit Candle",
-      "description": "Dalam 12 detik setelah melancarkan Elemental Skill <span>Flowfire Blade</span>, setelah anggota party di sekitar memicu Burning, Vaporize, Melt, Overloaded, Burgeon, Pyro Swirl atau Pyro Crystallize terhadap musuh, akan memulihkan 14 poin Nightsoul Traveler. Setiap kali menggunakan Elemental Skill <span>Flowfire Blade</span>, poin Nightsoul yang bisa dipulihkan dengan cara ini adalah maksimum 28 poin Nightsoul.",
+      "description": "Dalam 12 detik setelah melancarkan Elemental Skill <span>Flowfire Blade</span>, setelah anggota party di sekitar memicu <span>reaksi terkait Pyro</span>, akan memulihkan 14 poin Nightsoul Traveler. Setiap kali menggunakan Elemental Skill <span>Flowfire Blade</span>, poin Nightsoul yang bisa dipulihkan dengan cara ini adalah maksimum 28 poin Nightsoul.",
       "level": 2
     },
     {

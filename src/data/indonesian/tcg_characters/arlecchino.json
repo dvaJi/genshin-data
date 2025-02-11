@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "\"Dire Balemoon\" Arlecchino",
+  "desc": "Kesendirian Rembulan di Langit Tak Berbintang.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "faction": ["Fatui"],
+    "source": "Didapatkan setelah mengundang Arlecchino ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "Invitation to a Beheading",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>. Jika memungkinkan, mengonsumsi maksimum 3 lapis <span style=\"color:#FFFFFFFF\">Bond of Life</span> dan meningkatkan DMG dengan jumlah yang sama.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "All is Ash",
+      "desc": "Menciptakan 5 lapis <span style=\"color:#FFFFFFFF\">Blood-Debt Directive</span> di arena lawan, lalu mengakibatkan 2 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "Balemoon Rising",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#FF9999FF\">Pyro DMG</span> dan menghapus semua lapisan <span style=\"color:#FFFFFFFF\">Bond of Life</span> diri sendiri, dan setiap 1 lapis yang dihapus memulihkan 1 poin HP diri sendiri.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "The Balemoon Alone May Know",
+      "desc": "Karakter tidak bisa menerima pemulihan selain daripada <span style=\"color:#FFFFFFFF\">Balemoon Rising</span>.<br/><color=#FFFFFFFF>Saat memberikan status <span style=\"color:#FFFFFFFF\">Bond of Life</span> untuk diri sendiri: </color><span style=\"color:#FFFFFFFF\">Physical DMG</span> yang diakibatkan oleh Karakter diubah menjadi <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

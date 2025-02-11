@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "\"Lua Solitária da Escuridão\" Arlecchino",
+  "desc": "Lua Solitária em um Céu de Estrelas Desvanecendo.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Lança",
+    "faction": ["Fatui"],
+    "source": "Recompensa por desafiar Arlecchino para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "Convite para Decapitação",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>. Se possível, consome até 3 acúmulos de <span style=\"color:#FFFFFFFF\">Contrato de Vida</span> e aumenta o Dano pelo mesmo valor.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "Tudo são Cinzas",
+      "desc": "Cria 5 acúmulos de <span style=\"color:#FFFFFFFF\">Comando da Dívida de Sangue</span> no campo adversário e causa 2 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "Ascensão da Lua Ominosa",
+      "desc": "Causa 4 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>. Remove todos os seus acúmulos de <span style=\"color:#FFFFFFFF\">Contrato de Vida</span> e se cura em 1 de Vida por acúmulo.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "Somente a Lua Ominosa Sabe",
+      "desc": "O personagem não receberá Cura além de <span style=\"color:#FFFFFFFF\">Ascensão da Lua Ominosa</span>.<br/><color=#FFFFFFFF>Quando <span style=\"color:#FFFFFFFF\">Contrato de Vida</span> está aplicado a si:</color> <span style=\"color:#FFFFFFFF\">Dano Físico</span> causado pelo personagem é alterado para <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

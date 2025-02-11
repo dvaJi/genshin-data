@@ -4,13 +4,25 @@
   "name": "Citlalí",
   "title": "La Estrella de Obsidiana",
   "description": "La gran chamana y la abu Itztli de los Augures Vientonocturno, respetada por toda la gente de su tribu.",
-  "weapon_type": "Catalizador",
-  "element": "Cryo",
-  "gender": "Femenino",
+  "weapon_type": {
+    "id": "catalyst",
+    "name": "Catalizador"
+  },
+  "element": {
+    "id": "cryo",
+    "name": "Cryo"
+  },
+  "gender": {
+    "id": "female",
+    "name": "Femenino"
+  },
   "release": 1735596000,
   "substat": "Maestría Elemental",
   "affiliation": "Mictlán",
-  "region": "Natlan",
+  "region": {
+    "id": "natlan",
+    "name": "Natlan"
+  },
   "rarity": 5,
   "birthday": [20, 1],
   "constellation": "Patina Anavatlaca",
@@ -175,7 +187,7 @@
       "_id": 11072,
       "id": "dawnfrost_darkstar",
       "name": "Estrella negra albaescarcha",
-      "description": "En virtud de los pactos secretos milenarios transmitidos en su tribu, Citlalí crea un escudo de obsidiana blanca e invoca a la (supuestamente) terrorífica tzitzímitl de obsidiana negra: Itzpapa, la cual inflige <span>Daño Cryo en el AdE</span> de naturaleza noctámbula.<br/>La absorción de daño del escudo de obsidiana blanca se basa en la Maestría Elemental de Citlalí, y tiene un 250% de efectividad de absorción de <span>Daño Cryo</span>. Al crear el escudo, <span>se aplicará el elemento </span>Cryo brevemente sobre Citlalí.<br/>Tras usar esta habilidad, Citlalí obtendrá 24 pts. de noctambulismo y entrará en el estado de bendición noctámbula.<br/><br/><span>Bendición noctámbula: Citlalí</span><br/>El estado de bendición noctámbula de Citlalí terminará cuando Itzpapa se retire del campo de batalla.<br/><br/><span>Itzpapa</span><br/>·Itzpapa se mueve junto al personaje.<br/>·Si Citlalí tiene al menos 50 pts. de noctambulismo, Itzpapa entrará en el estado de “fuego opalescente”, durante el cual consumirá pts. de noctambulismo de forma continua para desencadenar una tormenta de escarcha que se mueve junto al personaje y que golpea a los enemigos dentro de su AdE, infligiéndoles <span>Daño Cryo</span> de naturaleza noctámbula.<br/>·Cuando los pts. de noctambulismo de Citlalí se agoten, el estado de fuego opalescente de Itzpapa también terminará.",
+      "description": "En virtud de los pactos secretos milenarios transmitidos en su tribu, Citlalí crea un escudo de obsidiana blanca e invoca a la (supuestamente) terrorífica tzitzímitl de obsidiana negra: Itzpapa, la cual inflige <span>Daño Cryo en el AdE</span> de naturaleza noctámbula.<br/>La absorción de daño del escudo de obsidiana blanca se basa en la Maestría Elemental de Citlalí, y tiene un 250% de efectividad de absorción de <span>Daño Cryo</span>. Al crear el escudo, <span>se aplicará el elemento Cryo</span> brevemente sobre Citlalí.<br/>Tras usar esta habilidad, Citlalí obtendrá 24 pts. de noctambulismo y entrará en el estado de bendición noctámbula.<br/><br/><span>Bendición noctámbula: Citlalí</span><br/>El estado de bendición noctámbula de Citlalí terminará cuando Itzpapa se retire del campo de batalla.<br/><br/><span>Itzpapa</span><br/>·Itzpapa se mueve junto al personaje.<br/>·Si Citlalí tiene al menos 50 pts. de noctambulismo, Itzpapa entrará en el estado de “fuego opalescente”, durante el cual consumirá pts. de noctambulismo de forma continua para desencadenar una tormenta de escarcha que se mueve junto al personaje y que golpea a los enemigos dentro de su AdE, infligiéndoles <span>Daño Cryo</span> de naturaleza noctámbula.<br/>·Cuando los pts. de noctambulismo de Citlalí se agoten, el estado de fuego opalescente de Itzpapa también terminará.",
       "info": "Normalmente, las voluntades que representan astros diferentes no pueden coexistir, ya que ¿cómo puede el negro más oscuro reflejar el blanco más puro?<br/>Sin embargo, Citlalí nunca ha tenido ninguna preferencia particular por los colores en sí, así que ahí quedó la cosa.",
       "attributes": [
         {
@@ -339,13 +351,6 @@
           ]
         }
       ]
-    },
-    {
-      "_id": 11076,
-      "id": "",
-      "description": "",
-      "info": "",
-      "attributes": []
     },
     {
       "_id": 11075,
@@ -560,7 +565,7 @@
           "values": ["-", "906"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["-", "10"]
         },
         {
@@ -585,7 +590,7 @@
           "values": ["2349", "3126"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["26", "34"]
         },
         {
@@ -611,7 +616,7 @@
           "values": ["4677", "5229"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["51", "57"]
         },
         {
@@ -658,7 +663,7 @@
           "values": ["6016", "6752"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["66", "74"]
         },
         {
@@ -712,7 +717,7 @@
           "values": ["7547", "8098"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["82", "88"]
         },
         {
@@ -766,7 +771,7 @@
           "values": ["8901", "9453"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["97", "103"]
         },
         {
@@ -820,7 +825,7 @@
           "values": ["10264", "10816"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["112", "118"]
         },
         {
@@ -874,7 +879,7 @@
           "values": ["11634", "11634"]
         },
         {
-          "label": "ATQ Básico",
+          "label": "ATQ Base",
           "values": ["127", "127"]
         },
         {

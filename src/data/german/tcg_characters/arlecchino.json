@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "Unheil verkündender Mond – Arlecchino",
+  "desc": "Einsamer Mond in einer Nacht erlöschender Sterne.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Fatui"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Arlecchino in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "Einladung zur Enthauptung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>. Verbraucht, wenn möglich, bis zu 3 Stapelungen <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> und erhöht den Schaden um dieselbe Menge.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "Alles wird zu Staub",
+      "desc": "Erschafft auf dem Feld deines Gegners 5 Stapelungen <span style=\"color:#FFFFFFFF\">Blutige Vergeltung</span> und verursacht anschließend 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "Aufgehen des Mondes des Verderbens",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, entfernt sämtlichen eigenen <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> und stellt selbst für jede entfernte Stapelung 1 LP wieder her.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "Nur der Mond des Verderbens weiß",
+      "desc": "Figuren können keine Heilung außer von <span style=\"color:#FFFFFFFF\">Aufgehen des Mondes des Verderbens</span> erhalten.<br/><color=#FFFFFFFF>Wenn sich selbst <span style=\"color:#FFFFFFFF\">Eid des Lebens</span> verliehen wird:</color> <span style=\"color:#FFFFFFFF\">Phys. SCH</span> durch die Figur wird nun <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

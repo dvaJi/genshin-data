@@ -1,0 +1,80 @@
+{
+  "_id": 1314,
+  "id": "arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "Arlecchino · Lune sinistre",
+  "desc": "Lune solitaire parmi les étoiles déclinantes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Arme d'hast",
+    "faction": ["Fatui"],
+    "source": "Récompense pour avoir invité Arlecchino à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "invitation_to_a_beheading",
+      "name": "Invitation au supplice",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>. Si possible, consomme un maximum de 3 cumuls d'<span style=\"color:#FFFFFFFF\">engagement vital</span> de la cible pour augmenter les DGT d'une valeur équivalente.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "all_is_ash",
+      "name": "Pulvérisation totale",
+      "desc": "Crée 5 cumuls de <span style=\"color:#FFFFFFFF\">dette sanguinaire</span> sur le terrain adverse et inflige 2 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "balemoon_rising",
+      "name": "Ascension lunatique",
+      "desc": "Inflige 4 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et annule tous vos cumuls d'<span style=\"color:#FFFFFFFF\">engagement vital</span> pour vous soigner pour 1 pt par cumul annulé.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_balemoon_alone_may_know",
+      "name": "Seule la lune peut savoir",
+      "desc": "Les personnages ne recevront pas de soins ne provenant pas d'une <span style=\"color:#FFFFFFFF\">ascension lunatique</span>.<br/><color=#FFFFFFFF>Avec un <span style=\"color:#FFFFFFFF\">engagement vital</span> : </color>Les <span style=\"color:#FFFFFFFF\">DGT physiques</span> infligés par le personnage sont convertis en <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}
