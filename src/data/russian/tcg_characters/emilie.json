@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Эмилия",
+  "title": "«След тысячи ароматов» Эмилия",
+  "desc": "Эфемерное благоухание, зыбкий туман.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Древковое",
+    "faction": ["Фонтейн"],
+    "source": "Награда за приглашение Эмилии в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Копьё охоты на тени",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Извлечение ароматов",
+      "desc": "Призывает помощника: <span style=\"color:#FFFFFFFF\">Шкатулка Люмидус первого уровня</span>.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Толкование ароматов",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Шкатулка Люмидус третьего уровня</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Непреходящий аромат",
+      "desc": "<color=#FFFFFFFF>Когда вы разыгрываете <span style=\"color:#FFFFFFFF\">Яркое пламя</span>:</color> после того как обе стороны применят навык, сработает 1 эффект конца раунда <span style=\"color:#FFFFFFFF\">Яркое пламя</span> (до 2 раз за раунд).",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Непреходящий аромат",
+      "desc": "<color=#FFFFFFFF>Когда вы разыгрываете <span style=\"color:#FFFFFFFF\">Яркое пламя</span>:</color> после того как обе стороны применят навык, у вас сработает 1 эффект конца раунда <span style=\"color:#FFFFFFFF\">Яркое пламя</span> (до 2 раз за раунд).",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

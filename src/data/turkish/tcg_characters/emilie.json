@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Emilie",
+  "title": "\"Binlerce Kokunun Peşinde\" Emilie",
+  "desc": "Kokuların uçuşu, sisin dağılışı misali.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Mızrak",
+    "faction": ["Fontaine"],
+    "source": "Emilie'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Gölge Avı Mızrağı (Özel)",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Koku Damıtma",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Lumidouce Feneri: 1. Seviye</span> çağırır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Aroma Yorumlama",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve <span style=\"color:#FFFFFFFF\">Lumidouce Feneri: 3. Seviye</span> çağırır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Artakalan Koku",
+      "desc": "<color=#FFFFFFFF><span style=\"color:#FFFFFFFF\">Yakıcı Alev</span> oyuna girdiğinde</color> iki tarafın da bir Beceri kullandığı bir sonraki seferde <span style=\"color:#FFFFFFFF\">Yakıcı Alevin</span> Tur Sonu etkisi 1 defa tetiklenir. (Her Turda iki defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Artakalan Koku",
+      "desc": "<color=#FFFFFFFF><span style=\"color:#FFFFFFFF\">Yakıcı Alev</span> oyuna girdiğinde</color> iki tarafın da bir Beceri kullandığı bir sonraki seferde dost bir <span style=\"color:#FFFFFFFF\">Yakıcı Alev</span> için 1 Tur Sonu etkisi tetiklenir. (Her Turda iki defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Emilie",
+  "title": "\"Vislumbres de Mil Aromas\" Emilie",
+  "desc": "Como fragrância se desvanecendo e a névoa se dissipando.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Lança",
+    "faction": ["Fontaine"],
+    "source": "Recompensa por convidar Emilie para um duelo na Cauda do Gato e vencê-la numa Partida Amistosa"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Lança do Marechalato (Modificado)",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Extração de Fragrância",
+      "desc": "Invoca <span style=\"color:#FFFFFFFF\">Caixa Lumidouce Nível 1</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Apresentação Aromática",
+      "desc": "Causa $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de $[D__KEY__ELEMENT]. Invoca <span style=\"color:#FFFFFFFF\">Caixa Lumidouce Nível 3</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Fragrância Residual",
+      "desc": "<color=#FFFFFFFF>Quando suas <span style=\"color:#FFFFFFFF\">Chamas Ardentes</span> entram em campo:</color> Após a próxima vez que qualquer lado usar uma Habilidade, ativa 1 instância do efeito de Fim de Turno de <span style=\"color:#FFFFFFFF\">Chamas Ardentes</span>. (Duas vezes por Turno)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Fragrância Residual",
+      "desc": "<color=#FFFFFFFF>Quando suas <span style=\"color:#FFFFFFFF\">Chamas Ardentes</span> entram em campo:</color> Após a próxima vez que qualquer lado usar uma Habilidade, ativa 1 instância do efeito de Fim de Turno de uma <span style=\"color:#FFFFFFFF\">Chamas Ardentes</span> aliada. (Duas vezes por Turno)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

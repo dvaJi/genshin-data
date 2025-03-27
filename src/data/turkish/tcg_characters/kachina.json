@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "\"Ebruli Altın Cevheri\" Kachina",
+  "desc": "Gözyaşı ve cesaretle işlenmiş bir cevher.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Toprak",
+    "weapon": "Mızrak",
+    "faction": ["Natlan"],
+    "source": "Kachina'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Kayabiçen",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Atıl Turbo Topaç!",
+      "desc": "Kendine <span style=\"color:#FFFFFFFF\">Turbo Topaç</span> ekler, <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girer ve 2 <span style=\"color:#FFFFFFFF\">\"Gece Ruhu puanı\"</span> kazanır. (Bu beceri karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girdiğinde kullanılamaz.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Ciddileşme Zamanı!",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir ve 1 <span style=\"color:#FFFFFFFF\">Turbo Matkap Alanı</span> oluşturur.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

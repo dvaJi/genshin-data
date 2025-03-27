@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Качина",
+  "title": "«Крапчатое самородное золото» Качина",
+  "desc": "Самоцвет, выкованный из слёз и стойкости.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Древковое",
+    "faction": ["Натлан"],
+    "source": "Награда за приглашение Качины в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Скалогрыз",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Вперёд, Турбовихрь!",
+      "desc": "На персонажа накладывается <span style=\"color:#FFFFFFFF\">Турбовихрь</span>, активируется состояние <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span>, после чего персонаж получает 2 <span style=\"color:#FFFFFFFF\">очка Ночного духа</span>. (Этот навык нельзя использовать в состоянии <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span>.)",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Ну теперь всё!",
+      "desc": "Наносит $[D__KEY__ELEMENT], $[D__KEY__DAMAGE] ед., создаётся 1 <span style=\"color:#FFFFFFFF\">Область Турбобура</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

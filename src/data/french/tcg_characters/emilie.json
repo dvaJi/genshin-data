@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Émilie",
+  "title": "Émilie · Tracé de mille parfums",
+  "desc": "Comme le parfum qui s'estompe et la brume qui se dissipe...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arme d'hast",
+    "faction": ["Fontaine"],
+    "source": "Récompense pour avoir invité Émilie à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Lance d'éclombre (modifiée)",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Extraction de fragrance",
+      "desc": "Invoque un <span style=\"color:#FFFFFFFF\">flacon de Lumidouce de niveau 1</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Explication de parfum",
+      "desc": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de $[D__KEY__ELEMENT] et invoque un <span style=\"color:#FFFFFFFF\">flacon de Lumidouce de niveau 3</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Arôme persistant",
+      "desc": "<color=#FFFFFFFF>Lorsque votre <span style=\"color:#FFFFFFFF\">flamme brûlante</span> arrive sur le terrain : </color>Déclenche 1 fois l'effet de fin de manche de la <span style=\"color:#FFFFFFFF\">flamme brûlante</span> lorsqu'un des camps a utilisé une capacité. (2 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Arôme persistant",
+      "desc": "<color=#FFFFFFFF>Lorsque votre <span style=\"color:#FFFFFFFF\">flamme brûlante</span> arrive sur le terrain : </color>Déclenche 1 fois l'effet de fin de manche de votre <span style=\"color:#FFFFFFFF\">flamme brûlante</span> lorsqu'un des camps a utilisé une capacité. (2 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

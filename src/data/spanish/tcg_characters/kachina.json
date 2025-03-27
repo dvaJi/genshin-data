@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "Kachina - La Gema de Oro en Bruto",
+  "desc": "Una gema forjada con lágrimas y audacia.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Lanza",
+    "faction": ["Natlan"],
+    "source": "Se obtiene tras retar y ganar a Kachina en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Riscomordisco",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "¡Adelante, turbogirador!",
+      "desc": "Se equipa la carta de <span style=\"color:#FFFFFFFF\">Turbogirador</span> y entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>. Además, obtiene 2 pts. de <span style=\"color:#FFFFFFFF\">noctambulismo</span> (cuando el personaje entre en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>, no podrá volver a usar esta habilidad).",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "¡Ahora voy en serio!",
+      "desc": "Inflige $[D__KEY__DAMAGE] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de $[D__KEY__ELEMENT] y crea un <span style=\"color:#FFFFFFFF\">área supergiratoria</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "에밀리",
+  "title": "천 갈래 향기의 자취·에밀리",
+  "desc": "사라지는 향기처럼, 흩어지는 안개처럼",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "장병기",
+    "faction": ["폰타인"],
+    "source": "캣테일 술집에서 에밀리 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "그림자 사냥 창술·개량",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "조향",
+      "desc": "<span style=\"color:#FFFFFFFF\">등방울병·1단계</span>를 소환한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "향의 궤적",
+      "desc": "$[D__KEY__ELEMENT]를 $[D__KEY__DAMAGE]pt 주고 <span style=\"color:#FFFFFFFF\">등방울병·3단계</span>를 소환한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "잔향",
+      "desc": "<color=#FFFFFFFF>아군의 <span style=\"color:#FFFFFFFF\">불타는 화염</span>이 필드 입장 시: </color>양측 캐릭터가 다음번에 스킬 사용 후, <span style=\"color:#FFFFFFFF\">불타는 화염</span>의 턴 종료 효과가 1회 발동된다. (턴당 2회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "잔향",
+      "desc": "<color=#FFFFFFFF>아군의 <span style=\"color:#FFFFFFFF\">불타는 화염</span>이 필드 입장 시: </color>양측 캐릭터가 다음번에 스킬 사용 후, 아군 <span style=\"color:#FFFFFFFF\">불타는 화염</span>의 턴 종료 효과가 1회 발동된다. (턴당 2회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

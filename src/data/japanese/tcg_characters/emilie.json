@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "エミリエ",
+  "title": "千の跡を辿って・エミリエ",
+  "desc": "香り薄れ、霧が散るように",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "長柄武器",
+    "faction": ["フォンテーヌ"],
+    "source": "キャッツテールでエミリエを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "影追いの槍術・改",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "フレグランス・アコード",
+      "desc": "<span style=\"color:#FFFFFFFF\">ルミドゥースの瓶・ランク1</span>を召喚する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "アロマティック・アナライズ",
+      "desc": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。<span style=\"color:#FFFFFFFF\">ルミドゥースの瓶・ランク3</span>を召喚する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "余香",
+      "desc": "<color=#FFFFFFFF>味方の<span style=\"color:#FFFFFFFF\">燃焼烈焔</span>登場時、</color>双方のキャラが次にスキルを使用した後、<span style=\"color:#FFFFFFFF\">燃焼烈焔</span>のラウンド終了効果を1回発動する。（各ラウンド最大2回まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "余香",
+      "desc": "<color=#FFFFFFFF>味方の<span style=\"color:#FFFFFFFF\">燃焼烈焔</span>登場時、</color>双方のキャラが次にスキルを使用した後、味方<span style=\"color:#FFFFFFFF\">燃焼烈焔</span>のラウンド終了効果を1回発動する。（各ラウンド最大2回まで）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

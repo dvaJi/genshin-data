@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "Kachina, Oro screziato allo stato grezzo",
+  "desc": "Una gemma forgiata con lacrime e coraggio.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Lancia",
+    "faction": ["Natlan"],
+    "source": "Ricompensa ottenuta sfidando Kachina a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Mangiaroccia",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Vai, Trottolino, vai!",
+      "desc": "Associa <span style=\"color:#FFFFFFFF\">Trottolino</span> a sé stessa, entra nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>, e ottiene 2 <span style=\"color:#FFFFFFFF\">punti Anima della Notte</span> (quest'abilità non può essere usata dopo che il personaggio è entrato nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>).",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Ora si fa sul serio!",
+      "desc": "Infligge $[D__KEY__DAMAGE]$[D__KEY__ELEMENT] e crea 1 <span style=\"color:#FFFFFFFF\">Campo Turbotrivella</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

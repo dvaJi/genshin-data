@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "艾梅莉埃",
+  "title": "千缕之踪·艾梅莉埃",
+  "desc": "如香消，如雾散。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "长柄武器",
+    "faction": ["枫丹"],
+    "source": "在猫尾酒馆中邀请艾梅莉埃进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "逐影枪术·改",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "撷萃调香",
+      "desc": "召唤<span style=\"color:#FFFFFFFF\">柔灯之匣·一阶</span>。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "香氛演绎",
+      "desc": "造成$[D__KEY__DAMAGE]点$[D__KEY__ELEMENT]。召唤<span style=\"color:#FFFFFFFF\">柔灯之匣·三阶</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "余薰",
+      "desc": "<color=#FFFFFFFF>我方<span style=\"color:#FFFFFFFF\">燃烧烈焰</span>入场时：</color>下次双方角色使用技能后，触发一次<span style=\"color:#FFFFFFFF\">燃烧烈焰</span>的回合结束效果。（每回合2次）",
+      "skillTag": ["被动技能"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "余薰",
+      "desc": "<color=#FFFFFFFF>我方<span style=\"color:#FFFFFFFF\">燃烧烈焰</span>入场时：</color>下次双方角色使用技能后，触发1次我方<span style=\"color:#FFFFFFFF\">燃烧烈焰</span>的回合结束效果。（每回合2次）",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "Khoáng Thạch Ánh Vàng - Kachina",
+  "desc": "Đá quý rèn từ nước mắt và lòng dũng cảm.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Vũ Khí Cán Dài",
+    "faction": ["Natlan"],
+    "source": "Nhận được sau khi mời Kachina giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Vết Cắn Của Núi",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Mũi Khoan Quay Tròn, Xuất Kích!",
+      "desc": "Áp dụng <span style=\"color:#FFFFFFFF\">Mũi Khoan Quay Tròn</span> cho bản thân, sau đó tiến vào <span style=\"color:#FFFFFFFF\">Dạ Hồn Chúc Phúc</span> và nhận 2 <span style=\"color:#FFFFFFFF\">điểm Dạ Hồn</span>. (Sau khi nhân vật tiến vào <span style=\"color:#FFFFFFFF\">Dạ Hồn Chúc Phúc</span> sẽ không thể dùng kỹ năng này)",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Đến Lúc Nghiêm Túc Rồi!",
+      "desc": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], sinh ra <span style=\"color:#FFFFFFFF\">Khu Vực Khoan Đục</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

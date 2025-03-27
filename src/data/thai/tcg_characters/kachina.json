@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "ทองแท้รอหลอมประกาย - Kachina",
+  "desc": "อัญมณีที่หลอมขึ้นจากน้ำตา และความกล้าหาญ",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุหิน",
+    "weapon": "หอก",
+    "faction": ["Natlan"],
+    "source": "ได้รับหลังจากเชิญ Kachina ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Cragbiter",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Go, Go Turbo Twirly!",
+      "desc": "ตนเองได้รับ <span style=\"color:#FFFFFFFF\">ลูกข่างสะเทือนฟ้า</span> จากนั้นจะเข้าสู่ <span style=\"color:#FFFFFFFF\">พรวิญญาณราตรี</span> และได้รับ <span style=\"color:#FFFFFFFF\">\"ค่าวิญญาณราตรี\"</span> 2 หน่วย (หลังจากตัวละครเข้าสู่ <span style=\"color:#FFFFFFFF\">พรวิญญาณราตรี</span> จะไม่สามารถใช้สกิลนี้ได้)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Time to Get Serious!",
+      "desc": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Turbo Drill Field</span>",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "Kachina",
+  "title": "\"Mottled Gold Yet Unsmelted\" Kachina",
+  "desc": "Wrought of tears and mettle.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Polearm",
+    "faction": ["Natlan"],
+    "source": "Reward for inviting Kachina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "Cragbiter",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "Go, Go Turbo Twirly!",
+      "desc": "Attach <span style=\"color:#FFFFFFFF\">Turbo Twirly</span> to self, enter <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, and then gain 2 <span style=\"color:#FFFFFFFF\">\"Nightsoul points.\"</span> (This skill cannot be used after the character enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "Time to Get Serious!",
+      "desc": "Deal $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create 1 <span style=\"color:#FFFFFFFF\">Turbo Drill Field</span>.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

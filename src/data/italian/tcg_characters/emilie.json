@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Émilie",
+  "title": "Émilie, Scie di mille profumi",
+  "desc": "Nuvole di aromi evanescenti.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Lancia",
+    "faction": ["Fontaine"],
+    "source": "Ricompensa ottenuta sfidando Émilie a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Lancia scacciaombre (modificata)",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Estratto fragrante",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Teca di Lumidouce: Livello 1</span>.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Rappresentazione aromatica",
+      "desc": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], invoca <span style=\"color:#FFFFFFFF\">Teca di Lumidouce: Livello 3</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Profumo persistente",
+      "desc": "<color=#FFFFFFFF>Quando una tua <span style=\"color:#FFFFFFFF\">Fiammardente</span> entra in campo</color>, la volta successiva che uno dei due giocatori usa un'abilità, innesca 1 iterazione dell'effetto di fine turno della <span style=\"color:#FFFFFFFF\">Fiammardente</span> (due volte per turno).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Profumo persistente",
+      "desc": "<color=#FFFFFFFF>Quando una tua <span style=\"color:#FFFFFFFF\">Fiammardente</span> entra in campo</color>: la volta successiva che uno dei due giocatori usa un'abilità, innesca 1 effetto di fine turno di una <span style=\"color:#FFFFFFFF\">Fiammardente</span> alleata (due volte per turno).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

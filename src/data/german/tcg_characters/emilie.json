@@ -1,0 +1,87 @@
+{
+  "_id": 1710,
+  "id": "emilie",
+  "shareId": 462,
+  "name": "Émilie",
+  "title": "Spur der tausend Düfte – Émilie",
+  "desc": "Wie Duft, der vergeht, wie Nebel, der sich hebt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Fontaine"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Émilie in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "shadowhunting_spear_custom",
+      "name": "Schattenjagd-Speer – Modifiziert",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "fragrance_extraction",
+      "name": "Essenzsammlung und Duftmischung",
+      "desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Laterne des sanften Lichts – Phase 1</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "aromatic_explication",
+      "name": "Manifestation der driftenden Essenzen",
+      "desc": "Verursacht $[D__KEY__DAMAGE] Pkt. $[D__KEY__ELEMENT|s1]. Erschafft 1 <span style=\"color:#FFFFFFFF\">Laterne des sanften Lichts – Phase 3</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Nachklingender Wohlgeruch",
+      "desc": "<color=#FFFFFFFF>Beim Ausspielen von <span style=\"color:#FFFFFFFF\">Loderndes Feuer</span> deiner Seite:</color> Löst nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld 1-mal den Effekt des Rundenendes von <span style=\"color:#FFFFFFFF\">Loderndes Feuer</span> aus (2-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    },
+    {
+      "id": "lingering_fragrance",
+      "name": "Nachklingender Wohlgeruch",
+      "desc": "<color=#FFFFFFFF>Beim Ausspielen von <span style=\"color:#FFFFFFFF\">Loderndes Feuer</span> deiner Seite:</color> Löst nach Anwenden der Fähigkeiten einer Figur auf dem Spielfeld 1-mal den Effekt des Rundenendes von <span style=\"color:#FFFFFFFF\">Loderndes Feuer</span> von dir aus (2-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

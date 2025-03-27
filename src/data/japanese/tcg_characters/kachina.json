@@ -1,0 +1,73 @@
+{
+  "_id": 1610,
+  "id": "kachina",
+  "shareId": 461,
+  "name": "カチーナ",
+  "title": "金の混じる原鉱・カチーナ",
+  "desc": "涙と勇気で磨かれた宝石",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "岩元素",
+    "weapon": "長柄武器",
+    "faction": ["ナタ"],
+    "source": "キャッツテールでカチーナを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "cragbiter",
+      "name": "テペトルバイト",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "go_go_turbo_twirly",
+      "name": "いけ、ぐるぐるコマちゃん！",
+      "desc": "自身に<span style=\"color:#FFFFFFFF\">ぐるぐるコマちゃん</span>を付与して<span style=\"color:#FFFFFFFF\">夜魂の加護</span>に入り、<span style=\"color:#FFFFFFFF\">「夜魂値」</span>を2獲得する。（キャラが<span style=\"color:#FFFFFFFF\">夜魂の加護</span>に入った後、このスキルは使用できなくなる）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "time_to_get_serious",
+      "name": "さあ、本気出すよ！",
+      "desc": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、<span style=\"color:#FFFFFFFF\">スーパードリル領域</span>を生成する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
