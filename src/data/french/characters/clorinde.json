@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10981,
-      "id": "normal_attack_oath_of_hunting_shadows",
-      "name": "Attaque normale : Crédo des ombres chasseuses",
+      "id": "oath_of_hunting_shadows",
+      "name": "Crédo des ombres chasseuses",
       "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour tirer avec son mousquet des tirs de suppression en éventail.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
@@ -124,25 +124,65 @@
         {
           "label": "DGT 5e coup",
           "values": [
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%",
-            "2000%"
+            "90%",
+            "97.3%",
+            "104.7%",
+            "115.1%",
+            "122.5%",
+            "130.8%",
+            "142.3%",
+            "153.9%",
+            "165.4%",
+            "177.9%",
+            "190.5%",
+            "203%",
+            "215.6%",
+            "228.2%",
+            "240.7%"
           ]
         },
         {
           "label": "Attaque chargée",
+          "values": [
+            "128.1%",
+            "138.6%",
+            "149%",
+            "163.9%",
+            "174.3%",
+            "186.3%",
+            "202.6%",
+            "219%",
+            "235.4%",
+            "253.3%",
+            "271.2%",
+            "289.1%",
+            "306.9%",
+            "324.8%",
+            "342.7%"
+          ]
+        },
+        {
+          "label": "Coût d'endurance attaque chargée",
+          "values": [
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts",
+            "20 pts"
+          ]
+        },
+        {
+          "label": "DGT durant la chute",
           "values": [
             "63.9%",
             "69.1%",
@@ -162,63 +202,23 @@
           ]
         },
         {
-          "label": "Coût d'endurance attaque chargée",
-          "values": [
-            "1.3 pts",
-            "1.4 pts",
-            "1.5 pts",
-            "1.6 pts",
-            "1.7 pts",
-            "1.9 pts",
-            "2 pts",
-            "2.2 pts",
-            "2.3 pts",
-            "2.5 pts",
-            "2.7 pts",
-            "2.9 pts",
-            "3.1 pts",
-            "3.2 pts",
-            "3.4 pts"
-          ]
-        },
-        {
-          "label": "DGT durant la chute",
-          "values": [
-            "159.7%",
-            "172.7%",
-            "185.7%",
-            "204.2%",
-            "217.2%",
-            "232.1%",
-            "252.5%",
-            "272.9%",
-            "293.4%",
-            "315.6%",
-            "337.9%",
-            "360.2%",
-            "382.5%",
-            "404.8%",
-            "427%"
-          ]
-        },
-        {
           "label": "DGT Chute basse/élevée",
           "values": [
-            "128.1% / 128.1%",
-            "138.6% / 138.6%",
-            "149% / 149%",
-            "163.9% / 163.9%",
-            "174.3% / 174.3%",
-            "186.3% / 186.3%",
-            "202.6% / 202.6%",
-            "219% / 219%",
-            "235.4% / 235.4%",
-            "253.3% / 253.3%",
-            "271.2% / 271.2%",
-            "289.1% / 289.1%",
-            "306.9% / 306.9%",
-            "324.8% / 324.8%",
-            "342.7% / 342.7%"
+            "127.8% / 159.7%",
+            "138.2% / 172.7%",
+            "148.6% / 185.7%",
+            "163.5% / 204.2%",
+            "173.9% / 217.2%",
+            "185.8% / 232.1%",
+            "202.2% / 252.5%",
+            "218.5% / 272.9%",
+            "234.9% / 293.4%",
+            "252.7% / 315.6%",
+            "270.5% / 337.9%",
+            "288.4% / 360.2%",
+            "306.2% / 382.5%",
+            "324.1% / 404.8%",
+            "341.9% / 427%"
           ]
         }
       ]
@@ -594,6 +594,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Élever",

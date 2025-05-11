@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "シロネン",
+  "title": "魂を鋳る烈火・シロネン",
+  "desc": "響めくテペトル、金石を溶かす",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "片手剣",
+    "faction": ["ナタ"],
+    "source": "キャッツテールでシロネンを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "エエカトル・ロアー",
+      "desc": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与える。自身に<span style=\"color:#FFFFFFFF\">夜魂の加護</span>状態が付与されている場合、「夜魂値」を1回復する。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "ヨワル・スクラッチ",
+      "desc": "本キャラが<span style=\"color:#FFFFFFFF\">ローラーブレード装備</span>を装備して<span style=\"color:#FFFFFFFF\">夜魂の加護</span>状態に入り、<span style=\"color:#FFFFFFFF\">「夜魂値」</span>を1獲得する。（キャラが<span style=\"color:#FFFFFFFF\">夜魂の加護</span>に入った後、このスキルは使用できなくなる）<br/>（<span style=\"color:#FFFFFFFF\">ローラーブレード装備</span>を装備したキャラは特技<span style=\"color:#FFFFFFFF\">高速跳躍</span>を使用できる。）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "オセロット・キューポイント！",
+      "desc": "$[D__KEY__ELEMENT]を$[D__KEY__DAMAGE]与え、手札を1枚引く。さらに、HPを最も失っている味方キャラのHPを1回復する。<span style=\"color:#FFFFFFFF\">「サンプル音源」・岩</span>1層につき、追加で手札を1枚引く。異なる元素の<span style=\"color:#FFFFFFFF\">「サンプル音源」</span>1層につき、追加でHPを1回復する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "「サンプル音源」",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">「サンプル音源」・岩</span>を3つ生成する。味方に炎、水、氷、雷元素のキャラがいる場合、<span style=\"color:#FFFFFFFF\">「サンプル音源」・岩</span>のうちの1つを対応する元素の<span style=\"color:#FFFFFFFF\">「サンプル音源」</span>に変換する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

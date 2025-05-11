@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10391,
-      "id": "normal_attack_ktzlein_style",
-      "name": "Standardangriff: Schießkunst der Jäger",
+      "id": "ktzlein_style",
+      "name": "Schießkunst der Jäger",
       "description": "<span>Standardangriff</span><br/>Führt bis zu 5 Pfeilschüsse hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen <span>Kryo-Schaden</span> verursacht.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
       "info": "",
       "attributes": [
@@ -144,6 +144,26 @@
         {
           "label": "Gezielte Schüsse",
           "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "93.7%",
+            "102%",
+            "110.2%",
+            "118.5%",
+            "127.4%"
+          ]
+        },
+        {
+          "label": "Voll aufgeladene gezielte Schüsse",
+          "values": [
             "124%",
             "133.3%",
             "142.6%",
@@ -162,7 +182,7 @@
           ]
         },
         {
-          "label": "Voll aufgeladene gezielte Schüsse",
+          "label": "SCH beim Fallen",
           "values": [
             "56.8%",
             "61.5%",
@@ -182,43 +202,23 @@
           ]
         },
         {
-          "label": "SCH beim Fallen",
-          "values": [
-            "113.6%",
-            "122.9%",
-            "132.1%",
-            "145.3%",
-            "154.6%",
-            "165.2%",
-            "179.7%",
-            "194.2%",
-            "208.8%",
-            "224.6%",
-            "240.5%",
-            "256.3%",
-            "272.2%",
-            "288%",
-            "303.9%"
-          ]
-        },
-        {
           "label": "SCH beim Fallen aus niedriger/großer Höhe",
           "values": [
-            "141.9% / 113.6%",
-            "153.5% / 122.9%",
-            "165% / 132.1%",
-            "181.5% / 145.3%",
-            "193.1% / 154.6%",
-            "206.3% / 165.2%",
-            "224.5% / 179.7%",
-            "242.6% / 194.2%",
-            "260.8% / 208.8%",
-            "280.6% / 224.6%",
-            "300.4% / 240.5%",
-            "320.2% / 256.3%",
-            "340% / 272.2%",
-            "359.8% / 288%",
-            "379.6% / 303.9%"
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
           ]
         }
       ]
@@ -554,6 +554,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Aufstieg",

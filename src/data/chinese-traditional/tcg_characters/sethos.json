@@ -1,0 +1,80 @@
+{
+  "_id": 1413,
+  "id": "sethos",
+  "shareId": 469,
+  "name": "賽索斯",
+  "title": "衡明知度·賽索斯",
+  "desc": "沙海來客，慧心慧業。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 4,
+    "element": "雷元素",
+    "weapon": "弓",
+    "faction": ["須彌"],
+    "source": "在貓尾酒館中邀請賽索斯進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "royal_reed_archery",
+      "name": "王家葦箭術",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_rite_the_thundering_sands",
+      "name": "古儀·鳴砂掣雷",
+      "desc": "敵方出戰角色<span style=\"color:#FFACFFFF\">附著雷元素</span>，我方切換到下一個角色。自身附屬<span style=\"color:#FFFFFFFF\">轟雷凝集</span>。",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_twilight_shadowpiercer",
+      "name": "秘儀·瞑光貫影",
+      "desc": "造成$[D__KEY__DAMAGE]點$[D__KEY__ELEMENT]，自身附屬<span style=\"color:#FFFFFFFF\">寂想瞑影</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "black_kites_enigma",
+      "name": "黑鳶的密喻",
+      "desc": "自身「普通攻擊」不會獲得<span style=\"color:#FFFFFFFF\">充能</span>。<br/>自身「普通攻擊」後：如可能，消耗全部<span style=\"color:#FFFFFFFF\">充能</span>，對生命值最低的敵方造成等額+1的<span style=\"color:#FFFFFFFF\">穿透傷害</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

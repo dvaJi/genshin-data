@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Tấn Công Thường - Trị Liệu Theo Mục Tiêu",
+      "id": "targeted_treatment",
+      "name": "Trị Liệu Theo Mục Tiêu",
       "description": "<span>Tấn Công Thường</span><br/>Thực hiện tối đa 3 lần tấn công liên tiếp.<br/><br/><span>Trọng Kích</span><br/><span>Ngắm bắn</span> gây sát thương cao hơn và chính xác hơn.<br/>Khi ngắm bắn, mũi tên sẽ tích đầy sức mạnh nguyên tố Thủy. Sau khi hoàn thành tụ lực, mỗi cách một khoảng thời gian, Sigewinne sẽ bắn \"Bong Bóng Quan Tâm Nhỏ\" di chuyển chậm về phía mục tiêu, gây <span>Sát Thương Nguyên Tố Thủy</span>. Khi thi triển, mũi tên tích tụ sức mạnh của nước khi trúng kẻ địch sẽ gây <span>Sát Thương Nguyên Tố Thủy</span>.<br/><br/><span>Tấn Công Khi Đáp</span><br/>Bắn mưa tên liên tiếp xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "Sát Thương Lưỡi Dao Nổi Sóng",
           "values": [
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP",
-            "1000% Giới Hạn HP"
+            "0.68% Giới Hạn HP",
+            "0.74% Giới Hạn HP",
+            "0.79% Giới Hạn HP",
+            "0.85% Giới Hạn HP",
+            "0.91% Giới Hạn HP",
+            "0.96% Giới Hạn HP",
+            "1.03% Giới Hạn HP",
+            "1.09% Giới Hạn HP",
+            "1.16% Giới Hạn HP",
+            "1.23% Giới Hạn HP",
+            "1.3% Giới Hạn HP",
+            "1.37% Giới Hạn HP",
+            "1.45% Giới Hạn HP",
+            "1.54% Giới Hạn HP",
+            "1.62% Giới Hạn HP"
           ]
         },
         {
           "label": "Giãn Cách Lưỡi Dao Nổi Sóng",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "CD",
           "values": [
             "18s",
             "18s",
@@ -308,26 +328,6 @@
             "18s",
             "18s",
             "18s"
-          ]
-        },
-        {
-          "label": "CD",
-          "values": [
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Đột Phá",

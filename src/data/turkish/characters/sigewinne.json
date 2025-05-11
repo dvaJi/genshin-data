@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Normal Saldırı: Odaklı Tedavi",
+      "id": "targeted_treatment",
+      "name": "Odaklı Tedavi",
       "description": "<span>Normal Saldırı</span><br/>Arka arkaya en fazla 3 saldırı yapar.<br/><br/><span>Yüklü Saldırı</span><br/>Daha isabetli ve daha fazla Hasar veren bir <span>Hedefli Atış</span> yapar.<br/>Nişan alırken okta devamlı olarak Su gücü birikir. Tamamen yüklendikten sonra Sigewinne, belirli aralıklarla yavaşça hedefe doğru hareket eden ve <span>Su Hasarı</span> veren \"Hemşire Baloncuklar\" oluşturur. Ok bırakıldığında sağanak enerjisi kazanır ve isabet ettiği düşmana <span>Su Hasarı</span> verir.<br/><br/><span>Havadan Saldırı</span><br/>Havadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Yere vurduğunda Alan Hasarı verir.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "Çalkantılı Kılıç Hasarı",
           "values": [
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can",
-            "1000% Maks. Can"
+            "0.68% Maks. Can",
+            "0.74% Maks. Can",
+            "0.79% Maks. Can",
+            "0.85% Maks. Can",
+            "0.91% Maks. Can",
+            "0.96% Maks. Can",
+            "1.03% Maks. Can",
+            "1.09% Maks. Can",
+            "1.16% Maks. Can",
+            "1.23% Maks. Can",
+            "1.3% Maks. Can",
+            "1.37% Maks. Can",
+            "1.45% Maks. Can",
+            "1.54% Maks. Can",
+            "1.62% Maks. Can"
           ]
         },
         {
           "label": "Çalkantılı Kılıç Aralığı",
+          "values": [
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn",
+            "10sn"
+          ]
+        },
+        {
+          "label": "BS",
           "values": [
             "18sn",
             "18sn",
@@ -308,26 +328,6 @@
             "18sn",
             "18sn",
             "18sn"
-          ]
-        },
-        {
-          "label": "BS",
-          "values": [
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn",
-            "0sn"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Yükselt",

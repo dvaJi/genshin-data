@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10831,
-      "id": "normal_attack_rapid_ritesword",
-      "name": "Normal Attack: Rapid Ritesword",
+      "id": "rapid_ritesword",
+      "name": "Rapid Ritesword",
       "description": "<span>Normal Attack</span><br/>Performs up to 4 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
@@ -253,21 +253,21 @@
         {
           "label": "Surging Blade Interval",
           "values": [
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s",
-            "2.5s"
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
           ]
         },
         {
@@ -293,25 +293,45 @@
         {
           "label": "HP Cost",
           "values": [
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s",
-            "1200% Current HP/s"
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s",
+            "6% Current HP/s"
           ]
         },
         {
           "label": "Hold Max Duration",
+          "values": [
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s",
+            "2.5s"
+          ]
+        },
+        {
+          "label": "CD",
           "values": [
             "12s",
             "12s",
@@ -328,26 +348,6 @@
             "12s",
             "12s",
             "12s"
-          ]
-        },
-        {
-          "label": "CD",
-          "values": [
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s",
-            "10s"
           ]
         }
       ]
@@ -574,6 +574,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Ascend",

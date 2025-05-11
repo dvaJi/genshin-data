@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "Xilonen",
+  "title": "\"Ardent Flames Forge the Soul\" Xilonen",
+  "desc": "The peaks resound, their golden veins gleaming.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Sword",
+    "faction": ["Natlan"],
+    "source": "Reward for inviting Xilonen to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "Ehecatl's Roar",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. If <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span> is attached to self, then regain 1 Nightsoul point.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "Yohual's Scratch",
+      "desc": "Attach <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span> to this character, then enter <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span> and gain 1 <span style=\"color:#FFFFFFFF\">Nightsoul point.</span> (This skill cannot be used after the character enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>)<br/>(Characters with <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span> attached can use the Technique: <span style=\"color:#FFFFFFFF\">High-Speed Leap</span>)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "Ocelotlicue Point!",
+      "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Draw 1 card and heal the most damaged character on your side for 1 HP. Draw 1 additional card for each stack of <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span>, and heal 1 additional HP for each stack of <span style=\"color:#FFFFFFFF\">Source Sample</span> of another Element.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "Source Sample",
+      "desc": "(Passive) When the battle begins, create 3 stacks of <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span>. When you have Pyro, Hydro, Cryo, or Electro characters on your side, then convert 1 stack of <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span> to a <span style=\"color:#FFFFFFFF\">Source Sample</span> of the corresponding Element.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

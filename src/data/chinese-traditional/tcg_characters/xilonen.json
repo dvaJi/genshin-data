@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "希諾寧",
+  "title": "焮火鑄魂·希諾寧",
+  "desc": "嵴鋒蕩響，鑠石顯金",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "單手劍",
+    "faction": ["納塔"],
+    "source": "在貓尾酒館中邀請希諾寧對局，在友好對局難度中取得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "銳鋒攫獵",
+      "desc": "造成$[D__KEY__DAMAGE]點$[D__KEY__ELEMENT]。若自身附屬<span style=\"color:#FFFFFFFF\">夜魂加持</span>，則恢復1點「夜魂值」。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "音火鍛淬",
+      "desc": "本角色附屬<span style=\"color:#FFFFFFFF\">刃輪裝束</span>，進入<span style=\"color:#FFFFFFFF\">夜魂加持</span>並獲得1點<span style=\"color:#FFFFFFFF\">「夜魂值」</span>。（角色進入<span style=\"color:#FFFFFFFF\">夜魂加持</span>後不可使用此技能）<br/>（附屬<span style=\"color:#FFFFFFFF\">刃輪裝束</span>的角色可以使用特技：<span style=\"color:#FFFFFFFF\">高速騰躍</span>）",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "豹烈律動！",
+      "desc": "造成$[D__KEY__DAMAGE]點$[D__KEY__ELEMENT]，抓1張牌，並且治療我方受傷最多的角色1點。每層<span style=\"color:#FFFFFFFF\">「源音取樣」·岩</span>額外抓1張牌，每層其他屬性的<span style=\"color:#FFFFFFFF\">「源音取樣」</span>額外治療1點。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "「源音取樣」",
+      "desc": "【被動】戰鬥開始時，初始生成3層<span style=\"color:#FFFFFFFF\">「源音取樣」·岩</span>，若我方存在火、水、冰、雷的角色，則將1層<span style=\"color:#FFFFFFFF\">「源音取樣」·岩</span>轉化為對應元素的<span style=\"color:#FFFFFFFF\">「源音取樣」</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

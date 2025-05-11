@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "Xilonen",
+  "title": "Xilonen, Anima forgiata da fiamme ardenti",
+  "desc": "Tra gli echi delle sommità, le vene d'oro risplendono.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Spada",
+    "faction": ["Natlan"],
+    "source": "Ricompensa ottenuta sfidando Xilonen a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "Ruggito di Ehecatl",
+      "desc": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Se è nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>, recupera 1 punto Anima della Notte.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "Graffio di Yohual",
+      "desc": "Associa <span style=\"color:#FFFFFFFF\">Roller blade da combattimento</span> a questo personaggio, che poi entra in stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span> e ottiene 1 <span style=\"color:#FFFFFFFF\">punto Anima della Notte</span> (quest'abilità non può essere usata dopo che il personaggio è entrato nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>)<br/>(I personaggi associati a <span style=\"color:#FFFFFFFF\">Roller blade da combattimento</span> possono usare la tecnica <span style=\"color:#FFFFFFFF\">Salto a gran velocità</span>)",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "A ritmo dell'ozelot!",
+      "desc": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Pesca 1 carta e ripristina 1 PS del tuo personaggio che ha subito più DAN. Pesca un'altra carta per ogni accumulo di <span style=\"color:#FFFFFFFF\">Campione musicale: Geo</span> e ripristina 1 PS aggiuntivo per ogni accumulo di <span style=\"color:#FFFFFFFF\">Campione musicale</span> di un altro elemento.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "Campione musicale",
+      "desc": "(Passiva) All'inizio del duello, crea 3 accumuli di <span style=\"color:#FFFFFFFF\">Campione musicale: Geo</span>. Quando hai personaggi di Pyro, Hydro, Cryo o Electro dalla tua parte, converti 1 accumulo di <span style=\"color:#FFFFFFFF\">Campione musicale: Geo</span> in un <span style=\"color:#FFFFFFFF\">Campione musicale</span> dell'elemento corrispondente.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "Xilonen",
+  "title": "\"Ardent Flames Forge the Soul\" Xilonen",
+  "desc": "Puncak yang Menggema, Kilau Emas dalam Batu",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Sword",
+    "faction": ["Natlan"],
+    "source": "Didapatkan setelah mengundang Xilonen ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "Ehecatl's Roar",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT].<br/>Jika diri sendiri terpengaruh <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, maka akan memulihkan 1 poin Nightsoul.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "Yohual's Scratch",
+      "desc": "Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span>, memasuki <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, dan mendapatkan 1 <span style=\"color:#FFFFFFFF\">poin Nightsoul</span>. (Setelah Karakter memasuki <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, Skill ini tidak dapat digunakan)<br/>(Karakter yang memiliki <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span> dapat menggunakan Teknik: <span style=\"color:#FFFFFFFF\">High-Speed Leap</span>)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "Ocelotlicue Point!",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT], mengambil 1 kartu, dan memulihkan 1 poin HP Karaktermu yang menerima DMG terbanyak. Untuk setiap lapisan <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span>, mengambil 1 kartu tambahan dan memulihkan 1 poin HP tambahan dari <span style=\"color:#FFFFFFFF\">Source Sample</span> dengan atribut lain.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "Source Sample",
+      "desc": "(Pasif) Saat pertempuran dimulai, menciptakan 3 lapis <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span>. Saat kamu memiliki Karakter Pyro, Hydro, Cryo, atau Electro di arena, mengubah 1 lapis <span style=\"color:#FFFFFFFF\">Source Sample: Geo</span> menjadi <span style=\"color:#FFFFFFFF\">\"Source Sample\"</span> dari Elemen yang sesuai.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

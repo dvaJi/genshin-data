@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Ataque Normal: Terapia dirigida",
+      "id": "targeted_treatment",
+      "name": "Terapia dirigida",
       "description": "<span>Ataque Normal</span><br/>Realiza hasta 3 ataques consecutivos.<br/><br/><span>Ataque Cargado</span><br/>Realiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.<br/>Al apuntar, el elemento Hydro se acumulará en la punta de la flecha. Tras terminar de cargarse, Sigewinne disparará cada cierto tiempo unas miniburbujas protectoras que se dirigen lentamente hacia el objetivo para infligir <span>Daño Hydro</span>. Una flecha totalmente cargada con un torrente de agua infligirá <span>Daño Hydro</span> al golpear al enemigo.<br/><br/><span>Ataque Descendente</span><br/>Dispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "Daño de filo fluyente",
           "values": [
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx.",
-            "1000% de Vida Máx."
+            "0.68% de Vida Máx.",
+            "0.74% de Vida Máx.",
+            "0.79% de Vida Máx.",
+            "0.85% de Vida Máx.",
+            "0.91% de Vida Máx.",
+            "0.96% de Vida Máx.",
+            "1.03% de Vida Máx.",
+            "1.09% de Vida Máx.",
+            "1.16% de Vida Máx.",
+            "1.23% de Vida Máx.",
+            "1.3% de Vida Máx.",
+            "1.37% de Vida Máx.",
+            "1.45% de Vida Máx.",
+            "1.54% de Vida Máx.",
+            "1.62% de Vida Máx."
           ]
         },
         {
           "label": "Intervalo de filo fluyente",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "TdE",
           "values": [
             "18s",
             "18s",
@@ -308,26 +328,6 @@
             "18s",
             "18s",
             "18s"
-          ]
-        },
-        {
-          "label": "TdE",
-          "values": [
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Ascender",

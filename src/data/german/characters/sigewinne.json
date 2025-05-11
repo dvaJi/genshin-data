@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Standardangriff: Gezielte Behandlung",
+      "id": "targeted_treatment",
+      "name": "Gezielte Behandlung",
       "description": "<span>Standardangriff</span><br/>Führt bis zu 3 Angriffe hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die Hydro-Kraft während des Zielens an der Pfeilspitze. Nachdem der Pfeil vollständig aufgeladen ist, feuert Sigewinne in regelmäßigen Abständen sich langsam bewegende „kleine Kümmerblase“ auf die Richtung des Zielens, die <span>Hydro-Schaden</span> verursacht. Beim Loslassen fügt der mit Stromschnellen aufgeladene Pfeil, wenn er einen Gegner trifft, diesem <span>Hydro-Schaden</span> zu.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "Wogenklinge-SCH",
           "values": [
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP",
-            "1000% der max. LP"
+            "0.68% der max. LP",
+            "0.74% der max. LP",
+            "0.79% der max. LP",
+            "0.85% der max. LP",
+            "0.91% der max. LP",
+            "0.96% der max. LP",
+            "1.03% der max. LP",
+            "1.09% der max. LP",
+            "1.16% der max. LP",
+            "1.23% der max. LP",
+            "1.3% der max. LP",
+            "1.37% der max. LP",
+            "1.45% der max. LP",
+            "1.54% der max. LP",
+            "1.62% der max. LP"
           ]
         },
         {
           "label": "Wogenklinge-Intervall",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
           "values": [
             "18s",
             "18s",
@@ -308,26 +328,6 @@
             "18s",
             "18s",
             "18s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Aufstieg",

@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10391,
-      "id": "normal_attack_ktzlein_style",
-      "name": "Ataque Normal: Pontaria do Caçador",
+      "id": "ktzlein_style",
+      "name": "Pontaria do Caçador",
       "description": "<span>Ataque Normal</span><br/>Realiza até 5 disparos consecutivos com o arco.<br/><br/><span>Ataque Carregado</span><br/>Realiza um ataque <span>Disparo com Mira</span> mais preciso e com mais dano.<br/>Enquanto mira, gelo será acumulado na flecha. Uma flecha totalmente carregada causará <span>Dano Cryo</span>.<br/><br/><span>Ataque Imersivo</span> Dispara uma chuva de flechas no ar antes de cair e impactar o chão, causando Dano AdE no impacto.",
       "info": "",
       "attributes": [
@@ -144,6 +144,26 @@
         {
           "label": "Disparo com Mira",
           "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.7%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "93.7%",
+            "102%",
+            "110.2%",
+            "118.5%",
+            "127.4%"
+          ]
+        },
+        {
+          "label": "Disparo com Mira com Energização Completa",
+          "values": [
             "124%",
             "133.3%",
             "142.6%",
@@ -162,7 +182,7 @@
           ]
         },
         {
-          "label": "Disparo com Mira com Energização Completa",
+          "label": "Dano Durante a Queda",
           "values": [
             "56.8%",
             "61.5%",
@@ -182,43 +202,23 @@
           ]
         },
         {
-          "label": "Dano Durante a Queda",
-          "values": [
-            "113.6%",
-            "122.9%",
-            "132.1%",
-            "145.3%",
-            "154.6%",
-            "165.2%",
-            "179.7%",
-            "194.2%",
-            "208.8%",
-            "224.6%",
-            "240.5%",
-            "256.3%",
-            "272.2%",
-            "288%",
-            "303.9%"
-          ]
-        },
-        {
           "label": "Dano de Queda de Baixa/Alta Altitude",
           "values": [
-            "141.9% / 113.6%",
-            "153.5% / 122.9%",
-            "165% / 132.1%",
-            "181.5% / 145.3%",
-            "193.1% / 154.6%",
-            "206.3% / 165.2%",
-            "224.5% / 179.7%",
-            "242.6% / 194.2%",
-            "260.8% / 208.8%",
-            "280.6% / 224.6%",
-            "300.4% / 240.5%",
-            "320.2% / 256.3%",
-            "340% / 272.2%",
-            "359.8% / 288%",
-            "379.6% / 303.9%"
+            "113.6% / 141.9%",
+            "122.9% / 153.5%",
+            "132.1% / 165%",
+            "145.3% / 181.5%",
+            "154.6% / 193.1%",
+            "165.2% / 206.3%",
+            "179.7% / 224.5%",
+            "194.2% / 242.6%",
+            "208.8% / 260.8%",
+            "224.6% / 280.6%",
+            "240.5% / 300.4%",
+            "256.3% / 320.2%",
+            "272.2% / 340%",
+            "288% / 359.8%",
+            "303.9% / 379.6%"
           ]
         }
       ]
@@ -554,6 +554,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Ascender",

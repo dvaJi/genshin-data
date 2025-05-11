@@ -1,0 +1,80 @@
+{
+  "_id": 1413,
+  "id": "sethos",
+  "shareId": 469,
+  "name": "Sethos",
+  "title": "Thước Đo Trí Tuệ - Sethos",
+  "desc": "Khách từ biển cát, trí tuệ thần ban.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 4,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Cung",
+    "faction": ["Sumeru"],
+    "source": "Nhận được sau khi mời Sethos giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "royal_reed_archery",
+      "name": "Tiễn Thuật Lau Sậy Hoàng Gia",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_rite_the_thundering_sands",
+      "name": "Nghi Thức Cổ - Tiếng Sấm Của Cát",
+      "desc": "<span style=\"color:#FFACFFFF\">Gán ấn Nguyên Tố Lôi</span> cho nhân vật xuất chiến phe địch, phe ta đổi sang nhân vật kế tiếp. Bản thân áp dụng <span style=\"color:#FFFFFFFF\">Tích Tụ Sấm Sét</span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_twilight_shadowpiercer",
+      "name": "Nghi Thức Ẩn - Ánh Sáng Xuyên Bóng Tối",
+      "desc": "Gây $[D__KEY__DAMAGE] điểm $[D__KEY__ELEMENT], bản thân áp dụng <span style=\"color:#FFFFFFFF\">Thiền Định Hoàng Hôn</span>.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "black_kites_enigma",
+      "name": "Thì Thầm Của Diều Đen",
+      "desc": "Tấn Công Thường của bản thân sẽ không nhận được <span style=\"color:#FFFFFFFF\">Năng Lượng</span>.<br/>Sau khi bản thân Tấn Công Thường: Nếu có thể, tiêu hao toàn bộ <span style=\"color:#FFFFFFFF\">Năng Lượng</span>, gây <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span> tương đương +1 cho kẻ địch có HP thấp nhất.",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

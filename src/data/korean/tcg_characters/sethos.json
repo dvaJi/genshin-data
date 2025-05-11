@@ -1,0 +1,80 @@
+{
+  "_id": 1413,
+  "id": "sethos",
+  "shareId": 469,
+  "name": "세토스",
+  "title": "지혜의 척도·세토스",
+  "desc": "모래바다에서 온 지혜로운 손님",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 4,
+    "element": "번개 원소",
+    "weapon": "활",
+    "faction": ["수메르"],
+    "source": "캣테일 술집에서 세토스 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "royal_reed_archery",
+      "name": "왕가의 갈대 궁술",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_rite_the_thundering_sands",
+      "name": "고대 의식·울리는 천둥과 모래",
+      "desc": "상대 출전 캐릭터가 <span style=\"color:#FFACFFFF\">번개 원소 부착</span> 시, 아군이 다음 캐릭터로 교체한다. 자신에게 <span style=\"color:#FFFFFFFF\">우레 결속</span>을 부착한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_twilight_shadowpiercer",
+      "name": "비밀 의식·그림자를 꿰뚫는 황혼",
+      "desc": "$[D__KEY__ELEMENT]를 $[D__KEY__DAMAGE]pt 주고 자신에게 <span style=\"color:#FFFFFFFF\">황혼 명상</span>을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "black_kites_enigma",
+      "name": "솔개의 수수께끼",
+      "desc": "자신의 「일반 공격」은 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 획득할 수 없다.<br/>자신이 「일반 공격」 후: 가능할 경우 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 전부 소모하고, HP가 가장 낮은 상대에게 원소 에너지 소모량+1pt에 해당하는 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 준다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

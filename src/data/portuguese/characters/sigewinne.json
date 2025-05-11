@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Ataque Normal: Tratamento Direcionado",
+      "id": "targeted_treatment",
+      "name": "Tratamento Direcionado",
       "description": "<span>Ataque Normal</span><br/>Realiza até 3 ataques consecutivos com um arco.<br/><br/><span>Ataque Carregado</span><br/>Realiza um <span>Disparo com Mira </span> mais preciso com dano aumentado.<br/>Enquanto mira, o poder Hydro acumulará continuamente na flecha. Após carregamento completo, Sigewinne disparará periodicamente \"Pequenas Bolhas de Compaixão\" em direção ao alvo, causando <span>Dano Hydro</span>. Ao ser solta, uma flecha imbuída com energia torrencial causará <span>Dano Hydro</span> ao oponente atingido.<br/><br/><span>Ataque Imersivo</span><br/>Dispara uma chuva de flechas no ar antes de cair e atingir o chão, causando Dano em uma AdE.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "Dano da Lâmina da Fluidez",
           "values": [
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima",
-            "1000% da Vida Máxima"
+            "0.68% da Vida Máxima",
+            "0.74% da Vida Máxima",
+            "0.79% da Vida Máxima",
+            "0.85% da Vida Máxima",
+            "0.91% da Vida Máxima",
+            "0.96% da Vida Máxima",
+            "1.03% da Vida Máxima",
+            "1.09% da Vida Máxima",
+            "1.16% da Vida Máxima",
+            "1.23% da Vida Máxima",
+            "1.3% da Vida Máxima",
+            "1.37% da Vida Máxima",
+            "1.45% da Vida Máxima",
+            "1.54% da Vida Máxima",
+            "1.62% da Vida Máxima"
           ]
         },
         {
           "label": "Intervalo de Lâmina da Fluidez",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Recarga",
           "values": [
             "18s",
             "18s",
@@ -308,26 +328,6 @@
             "18s",
             "18s",
             "18s"
-          ]
-        },
-        {
-          "label": "Recarga",
-          "values": [
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Ascender",

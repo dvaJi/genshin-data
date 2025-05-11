@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "Xilonen",
+  "title": "\"Harlı Alevlerle Dövülmüş Ruh\" Xilonen",
+  "desc": "Tepeler yankılanır, altından damarları parıldar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Kılıç",
+    "faction": ["Natlan"],
+    "source": "Xilonen'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "Ehecatl Kükreyişi",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. Kendine <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> eklenmişse 1 Gece Ruhu puanı yeniler.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "Yohual Pençesi",
+      "desc": "Bu karaktere <span style=\"color:#FFFFFFFF\">Savaş Pateni</span> ekler, <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girer ve 1 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanır. (Bu beceri karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girdikten sonra kullanılamaz.)<br/>(<span style=\"color:#FFFFFFFF\">Savaş Pateni</span> ekli karakterler <span style=\"color:#FFFFFFFF\">Hızlı Atlama</span> Tekniğini kullanabilir.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "Oselo Ritmi!",
+      "desc": "$[D__KEY__DAMAGE] $[D__KEY__ELEMENT] verir. 1 kart çekersin ve senin tarafındaki en çok Hasar alan karakter için 1 Can yenilersin. Her <span style=\"color:#FFFFFFFF\">Örnek Kaydı: Toprak</span> kademesi başına 1 kart daha çekersin ve başka bir Elementten her 1 <span style=\"color:#FFFFFFFF\">Örnek Kaydı</span> kademesi başına 1 Can daha yenilersin.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "Örnek Kaydı",
+      "desc": "(Pasif) Savaş başladığında 3 kademe <span style=\"color:#FFFFFFFF\">Örnek Kaydı: Toprak</span> oluşturur. Senin tarafında Ateş, Su, Buz veya Elektrik karakterlerin varsa 1 <span style=\"color:#FFFFFFFF\">Örnek Kaydı: Toprak</span> kademesini ilgili Elementte bir <span style=\"color:#FFFFFFFF\">Örnek Kaydına</span> dönüştürürsün.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

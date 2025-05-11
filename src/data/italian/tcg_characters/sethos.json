@@ -1,0 +1,80 @@
+{
+  "_id": 1413,
+  "id": "sethos",
+  "shareId": 469,
+  "name": "Sethos",
+  "title": "Sethos, Misurazione del sapere",
+  "desc": "Un visitatore provvidenziale giunto dal mare di sabbia.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 4,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": ["Sumeru"],
+    "source": "Ricompensa ottenuta sfidando Sethos a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "royal_reed_archery",
+      "name": "Arco del giunco regale",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_rite_the_thundering_sands",
+      "name": "Rito antico: Sabbie del tuono",
+      "desc": "Il personaggio attivo avversario ottiene una <span style=\"color:#FFACFFFF\">Applicazione di Electro</span> e tu passi al tuo prossimo personaggio. Associa <span style=\"color:#FFFFFFFF\">Convergenza di fulmini</span> a sé stesso.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_twilight_shadowpiercer",
+      "name": "Rito arcano: Squarciaombre del tramonto",
+      "desc": "Infligge $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. Associa <span style=\"color:#FFFFFFFF\">Meditazione del tramonto</span> a sé stesso.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "black_kites_enigma",
+      "name": "Enigma del nibbio bruno",
+      "desc": "L'attacco normale del personaggio non genera <span style=\"color:#FFFFFFFF\">Energia</span>.<br/>Dopo aver sferrato un attacco normale: se possibile, consuma tutta l'<span style=\"color:#FFFFFFFF\">Energia</span> e infliggi <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> pari alla quantità consumata +1 all'avversario con i PS più bassi.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Attacco normale: Terapia mirata",
+      "id": "targeted_treatment",
+      "name": "Terapia mirata",
       "description": "<span>Attacco normale</span><br/>Esegue fino a 3 colpi consecutivi.<br/><br/><span>Attacco caricato</span><br/>Effettua un <span>attacco mirato</span> ancora più preciso con DAN aumentati.<br/>Mentre mira, il potere di Hydro si accumula sulla punta della freccia. Al termine della carica, Sigewinne rilascia periodicamente delle Bolle d'assistenza che avanzano lentamente verso il bersaglio, infliggendo <span>DAN da Hydro</span>. Una volta scagliata, la freccia infusa di energia infligge <span>DAN da Hydro</span> all'impatto.<br/><br/><span>Attacco in picchiata</span><br/>Scocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "DAN da Lama nascente",
           "values": [
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max",
-            "1000% PS max"
+            "0.68% PS max",
+            "0.74% PS max",
+            "0.79% PS max",
+            "0.85% PS max",
+            "0.91% PS max",
+            "0.96% PS max",
+            "1.03% PS max",
+            "1.09% PS max",
+            "1.16% PS max",
+            "1.23% PS max",
+            "1.3% PS max",
+            "1.37% PS max",
+            "1.45% PS max",
+            "1.54% PS max",
+            "1.62% PS max"
           ]
         },
         {
           "label": "Intervallo Lama nascente",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "TdR",
           "values": [
             "18s",
             "18s",
@@ -308,26 +328,6 @@
             "18s",
             "18s",
             "18s"
-          ]
-        },
-        {
-          "label": "TdR",
-          "values": [
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s",
-            "0s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Fai ascendere",

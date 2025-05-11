@@ -1,0 +1,80 @@
+{
+  "_id": 1611,
+  "id": "xilonen",
+  "shareId": 470,
+  "name": "Xilonen",
+  "title": "เปลวเพลิงหลอมวิญญาณ - Xilonen",
+  "desc": "เสียงยอดเขากึกก้อง ทองแท้ส่องประกาย",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุหิน",
+    "weapon": "ดาบ",
+    "faction": ["Natlan"],
+    "source": "ได้รับหลังจากเชิญ Xilonen ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "ehecatls_roar",
+      "name": "Ehecatl's Roar",
+      "desc": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย หากตัวเองได้รับ <span style=\"color:#FFFFFFFF\">พรวิญญาณราตรี</span> จะฟื้นฟู \"ค่าวิญญาณราตรี\" 1 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "yohuals_scratch",
+      "name": "Yohual's Scratch",
+      "desc": "ตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span> จากนั้นจะเข้าสู่ <span style=\"color:#FFFFFFFF\">พรวิญญาณราตรี</span> และได้รับ <span style=\"color:#FFFFFFFF\">\"ค่าวิญญาณราตรี\"</span> 1 หน่วย (หลังจากตัวละครเข้าสู่ <span style=\"color:#FFFFFFFF\">พรวิญญาณราตรี</span> จะไม่สามารถใช้สกิลนี้ได้)<br/>(ตัวละครที่ได้รับ <span style=\"color:#FFFFFFFF\">Combat Blading Gear</span> จะสามารถใช้เทคนิคได้: <span style=\"color:#FFFFFFFF\">High-Speed Leap</span>)",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ocelotlicue_point",
+      "name": "Ocelotlicue Point!",
+      "desc": "สร้าง$[D__KEY__ELEMENT] $[D__KEY__DAMAGE] หน่วย จั่วการ์ด 1 ใบ และรักษาตัวละครฝ่ายเรา ที่ได้รับความเสียหายมากสุด 1 หน่วย โดย <span style=\"color:#FFFFFFFF\">\"ตัวอย่างเสียงต้นฉบับ\" - หิน</span> แต่ละชั้น จะจั่วการ์ดเพิ่ม 1 ใบ และ <span style=\"color:#FFFFFFFF\">\"ตัวอย่างเสียงต้นฉบับ\"</span> ของธาตุอื่น ๆ แต่ละชั้น จะทำการรักษาเพิ่มเติม 1 หน่วย",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "source_sample",
+      "name": "\"ตัวอย่างเสียงต้นฉบับ\"",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะสร้าง <span style=\"color:#FFFFFFFF\">\"ตัวอย่างเสียงต้นฉบับ\" - หิน</span> 3 ชั้น หากฝ่ายเรามีตัวละครธาตุไฟ, น้ำ, น้ำแข็ง, ไฟฟ้า จะเปลี่ยน <span style=\"color:#FFFFFFFF\">\"ตัวอย่างเสียงต้นฉบับ\" - หิน</span> 1 ชั้น เป็น <span style=\"color:#FFFFFFFF\">\"ตัวอย่างเสียงต้นฉบับ\"</span> ของธาตุที่เกี่ยวข้อง",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

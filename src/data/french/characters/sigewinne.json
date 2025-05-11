@@ -36,8 +36,8 @@
   "skills": [
     {
       "_id": 10951,
-      "id": "normal_attack_targeted_treatment",
-      "name": "Attaque normale : Traitement ciblé",
+      "id": "targeted_treatment",
+      "name": "Traitement ciblé",
       "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 3 attaques consécutives.<br/><br/><span>Attaque chargée</span><br/>Effectue un <span>tir visé</span> plus précis infligeant davantage de DGT.<br/>Lors de la visée, la flèche se charge en élément Hydro. Une fois la charge terminée, Sigewinne tire à intervalles réguliers des mini-délicabulles qui se déplacent lentement vers la cible, infligeant des <span>DGT Hydro</span>. En relâchant, une flèche imprégnée de la puissance des torrents inflige des <span>DGT Hydro</span> à l'ennemi touché.<br/><br/><span>Attaque plongeante</span><br/>Tire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
@@ -273,25 +273,45 @@
         {
           "label": "DGT lame fluide",
           "values": [
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max",
-            "1000% PV max"
+            "0.68% PV max",
+            "0.74% PV max",
+            "0.79% PV max",
+            "0.85% PV max",
+            "0.91% PV max",
+            "0.96% PV max",
+            "1.03% PV max",
+            "1.09% PV max",
+            "1.16% PV max",
+            "1.23% PV max",
+            "1.3% PV max",
+            "1.37% PV max",
+            "1.45% PV max",
+            "1.54% PV max",
+            "1.62% PV max"
           ]
         },
         {
           "label": "Intervalle de lame fluide",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "Temps de recharge",
           "values": [
             "18 s",
             "18 s",
@@ -308,26 +328,6 @@
             "18 s",
             "18 s",
             "18 s"
-          ]
-        },
-        {
-          "label": "Temps de recharge",
-          "values": [
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s",
-            "0 s"
           ]
         }
       ]
@@ -514,6 +514,7 @@
     },
     {
       "level": [20],
+      "cost": 0,
       "stats": [
         {
           "label": "Élever",

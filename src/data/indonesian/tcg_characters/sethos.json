@@ -1,0 +1,80 @@
+{
+  "_id": 1413,
+  "id": "sethos",
+  "shareId": 469,
+  "name": "Sethos",
+  "title": "\"Wisdom's Measure\" Sethos",
+  "desc": "Pengunjung dari Lautan Pasir, Ia yang Maha Bijaksana.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 4,
+    "element": "Electro",
+    "weapon": "Bow",
+    "faction": ["Sumeru"],
+    "source": "Didapatkan setelah mengundang Sethos ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "royal_reed_archery",
+      "name": "Royal Reed Archery",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_rite_the_thundering_sands",
+      "name": "Ancient Rite: The Thundering Sands",
+      "desc": "Karakter aktif lawan <span style=\"color:#FFACFFFF\">Memberikan efek Electro</span>, kamu bertukar ke Karakter berikutnya. Memberikan status <span style=\"color:#FFFFFFFF\">Thunder Convergence</span> kepada diri sendiri.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "secret_rite_twilight_shadowpiercer",
+      "name": "Secret Rite: Twilight Shadowpiercer",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE] poin $[D__KEY__ELEMENT] dan memberikan <span style=\"color:#FFFFFFFF\">Twilight Meditation</span> kepada diri sendiri.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "black_kites_enigma",
+      "name": "Black Kite's Enigma",
+      "desc": "Normal Attack sendiri tidak akan memperoleh <span style=\"color:#FFFFFFFF\">Energy</span>.<br/>Setelah diri sendiri menggunakan \"Normal Attack\": jika memungkinkan, mengonsumsi semua <span style=\"color:#FFFFFFFF\">Energy</span> dan mengakibatkan <span style=\"color:#FFFFFFFF\">Piercing DMG</span> +1 ke musuh dengan HP terendah.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}
