@@ -1,3 +1,11 @@
+## [0.50.1](https://github.com/dvaJi/genshin-data/compare/0.50.0...0.50.1) (2025-06-06)
+
+### Fixes
+
+- fix ascension stats for CRIT Rate #21
+- remove non playable characters
+- add missing attributes to some tcg cards
+
 ## [0.48.0](https://github.com/dvaJi/genshin-data/compare/0.48.0...0.47.0) (2024-12-30)
 
 ### Features
