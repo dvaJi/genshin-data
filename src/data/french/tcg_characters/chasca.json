@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "Chasca",
+  "title": "Chasca · Arbitre du ciel",
+  "desc": "Grâce et puissance sous des ailes de plumes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Arc",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Chasca à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "Rafale de plumes fantômes",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "Chasse des rênes spirituelles",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et pioche 1 carte.<br/>Applique un <span style=\"color:#FFFFFFFF\">spiribâton rituel</span> à ce personnage, le fait passer en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> et accorde 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span>. (Un personnage ne peut plus utiliser cette capacité après être passé en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> ; les personnages équipés avec [<span style=\"color:#FFFFFFFF\">Spiribâton rituel</span>] peuvent utiliser l'habilité : <span style=\"color:#FFFFFFFF\">Visée multiple</span>)<br/><span style=\"color:#FFFFFFFF\">Les 2 prochaines fois que vous basculez de personnage : </span> Pioche 1 carte.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "Assaut de faucheur d'âmes",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et pioche 3 cartes.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "Cartouche de chassombre",
+      "desc": "Au début de la partie : Place aléatoirement 6 cartes [<span style=\"color:#FFFFFFFF\">Cartouche de chassombre</span>] dans votre deck.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

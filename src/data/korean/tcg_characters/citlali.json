@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "시틀라리",
+  "title": "흰별을 품은 흑요석·시틀라리",
+  "desc": "색이 흐르는 연기와 마음을 비추는 흑요석",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "법구",
+    "faction": ["나타"],
+    "source": "캣테일 술집에서 시틀라리 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "영혼 포착",
+      "desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "검은 서리별",
+      "desc": "?를 ?pt 준다.<br/>자신이 <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입하며 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득한다. 또한 <span style=\"color:#FFFFFFFF\">하얀빛 보호막</span> 1pt와 <span style=\"color:#FFFFFFFF\">이즈파파</span>를 생성한다. (캐릭터가 <span style=\"color:#FFFFFFFF\">밤혼 가호</span> 진입 후, 해당 스킬을 사용할 수 없다)",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "반짝이는 칙령",
+      "desc": "?를 ?pt 주고 상대의 모든 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 1pt 준다. 또한 가능할 경우 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 2pt 획득한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "신비를 전하는 노래",
+      "desc": "<span style=\"color:#FFFFFFFF\">아군이 <span style=\"color:#FFFFFFFF\">선정</span> 또는 원소 반응 피해를 준 후:</span> 가능할 경우 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득한다. (턴당 1회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "茜特菈莉",
+  "title": "白星黑曜·茜特菈莉",
+  "desc": "謎煙流彩，曜石映心。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "法器",
+    "faction": ["納塔"],
+    "source": "在貓尾酒館中邀請茜特菈莉對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "宿靈捕影",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "霜晝黑星",
+      "desc": "造成?點?。<br/>自身進入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，並獲得1點<span style=\"color:#FFFFFFFF\">「夜魂值」</span>；生成1點<span style=\"color:#FFFFFFFF\">白曜護盾</span>和<span style=\"color:#FFFFFFFF\">伊茲帕帕</span>。（角色進入<span style=\"color:#FFFFFFFF\">夜魂加持</span>後不可使用此技能）",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "諸曜飭令",
+      "desc": "造成?點?，對所有敵方後臺角色造成1點<span style=\"color:#FFFFFFFF\">穿透傷害</span>。如可能，獲得2點<span style=\"color:#FFFFFFFF\">「夜魂值」</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "奧秘傳唱",
+      "desc": "<span style=\"color:#FFFFFFFF\">我方進行<span style=\"color:#FFFFFFFF\">挑選</span>或造成元素反應傷害後：</span>如可能，獲得1點<span style=\"color:#FFFFFFFF\">「夜魂值」</span>。（每回合1次）",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

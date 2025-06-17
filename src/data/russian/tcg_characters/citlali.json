@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "Ситлали",
+  "title": "«Чёрный отблеск белой звезды» Ситлали",
+  "desc": "Ночной ветер струится яркими потоками, обсидиан отражает сердце.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Катализатор",
+    "faction": ["Натлан"],
+    "source": "Награда за приглашение Ситлали в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "Духовный сосуд поимки теней",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "Тёмная звезда утреннего инея",
+      "desc": "Наносит ?, ? ед. <br/>Переходит в состояние <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span>, получает 1 <span style=\"color:#FFFFFFFF\">очко Ночного духа</span>, затем создаёт <span style=\"color:#FFFFFFFF\">Опаловый щит</span> и <span style=\"color:#FFFFFFFF\">Ицпапа</span> по 1 ед. (Этот навык нельзя использовать в состоянии <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span>)",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "Указ светил",
+      "desc": "Наносит ?, ? ед., наносит <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 1 ед. всем неактивным персонажам противника. Если возможно, вы получаете <span style=\"color:#FFFFFFFF\">очки Ночного духа</span>, 2 ед.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "Песни сокровенной тайны",
+      "desc": "<span style=\"color:#FFFFFFFF\">Когда вы производите <span style=\"color:#FFFFFFFF\">Выбор</span> или наносите урон элементальной реакцией:</span> если это возможно, вы получаете <span style=\"color:#FFFFFFFF\">очки Ночного духа</span>, 1 ед. (1 раз за раунд).",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

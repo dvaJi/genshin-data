@@ -1,0 +1,75 @@
+{
+  "_id": 1315,
+  "id": "mavuika",
+  "shareId": 478,
+  "name": "Mavuika",
+  "title": "Flamme der Nachterhellung – Mavuika",
+  "desc": "Die hellste, die glühendste, die prachtvollste Flamme der Rückkehr.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 0,
+    "element": "Pyro",
+    "weapon": "Zweihänder",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Mavuika in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "flames_weave_life",
+      "name": "Flammengewebtes Leben",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "the_named_moment",
+      "name": "Moment des Benennens",
+      "desc": "Die Figur tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 2 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span>; <span style=\"color:#FFFFFFFF\">wählt</span> 1 aus den 3 <span style=\"color:#FFFFFFFF\">Flammenreiter</span>-Karten aus und fügt diese deiner Hand hinzu.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hour_of_burning_skies",
+      "name": "Stunde brennender Himmel",
+      "desc": "Die Figur tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein, erhält 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span> und verbraucht den gesamten Kampfgeist, um der aktiven Figur deines Gegners $[D__KEY__ELEMENT|s1] in Höhe des Werts des Kampfgeistes zuzufügen.<br/>Erhält selbst <span style=\"color:#FFFFFFFF\">Schmelztiegel von Tod und Leben</span>, wenn 6 Pkt. <span style=\"color:#FFFFFFFF\">Kampfgeist</span> verbraucht wurden.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        null
+      ]
+    },
+    {
+      "id": "fighting_spirit",
+      "name": "Kampfgeist",
+      "desc": "Diese Figur erhält keine <span style=\"color:#FFFFFFFF\">Aufladung</span>.<br/>Erhält selbst nach Verbrauchen von <span style=\"color:#FFFFFFFF\">Nachtseelenpunkten</span> oder Anwenden von Standardangriffen durch deine Figuren 1 Pkt. Kampfgeist.<br/>Erhält beim Anwenden ihrer eigenen <span style=\"color:#FFFFFFFF\">Elementarfähigkeit</span> oder <span style=\"color:#FFFFFFFF\">Spezialfähigkeit</span> <span style=\"color:#FFFFFFFF\">Allfeuerrüstung – Ring des Sengenden Glanzes</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

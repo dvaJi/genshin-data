@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "Citlali",
+  "title": "Citlali, Fulgistella d'ossidiana",
+  "desc": "Soffia il vento vivace nella notte, risplende il cuore nell'ossidiana.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalizzatore",
+    "faction": ["Natlan"],
+    "source": "Ricompensa ottenuta sfidando Citlali a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "Albergaspirito rubanime",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "Stella nera Albagelo",
+      "desc": "Infligge ? ?.<br/>Entra nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>, ottiene 1 <span style=\"color:#FFFFFFFF\">punto Anima della Notte</span>, 1 punto di <span style=\"color:#FFFFFFFF\">Scudo d'opale</span> e crea <span style=\"color:#FFFFFFFF\">Itzpapa</span> (quest'abilità non può essere usata dopo che il personaggio è entrato nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span>).",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "Editto dello splendore intrecciato",
+      "desc": "Infligge ? ?, infligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti i personaggi avversari inattivi e, se possibile, ottiene 2 <span style=\"color:#FFFFFFFF\">punti Anima della Notte</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "Canzoni di misteri profondi",
+      "desc": "<span style=\"color:#FFFFFFFF\">Dopo che hai <span style=\"color:#FFFFFFFF\">selezionato</span> una carta o inflitto DAN con una reazione elementale:</span> se possibile, ottieni 1 <span style=\"color:#FFFFFFFF\">punto Anima della Notte</span> (una volta per turno).",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "恰斯卡",
+  "title": "巡宇翦定·恰斯卡",
+  "desc": "风花铿锵，飞羽凌空。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "弓",
+    "faction": ["纳塔"],
+    "source": "在猫尾酒馆中邀请恰斯卡进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "迷羽流击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "灵缰追影",
+      "desc": "造成?点?，抓1张牌。<br/>本角色附属<span style=\"color:#FFFFFFFF\">灵枪·仪式杖</span>，进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，并获得2点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>。（角色进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>后不可使用此技能）（附属<span style=\"color:#FFFFFFFF\">灵枪·仪式杖</span>的角色可以使用特技：<span style=\"color:#FFFFFFFF\">多重瞄准</span>）<br/><span style=\"color:#FFFFFFFF\">我方接下来2次「切换角色」时：</span>抓1张牌。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "索魂命袭",
+      "desc": "造成?点?，对敌方所有后台角色造成1点穿透伤害，并抓3张牌。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "追影弹",
+      "desc": "对局开始时，将6枚<span style=\"color:#FFFFFFFF\">追影弹</span>随机放置进牌库。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

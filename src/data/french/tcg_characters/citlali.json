@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "Citlali",
+  "title": "Citlali · Étoile opaline d'obsidienne",
+  "desc": "Le vigoureux vent nocturne soufflant, l'obsidienne reflétant le cœur.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalyseur",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Citlali à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "Conduit de vol d'ombres",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "Étoile d'aurore givrée",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.<br/>Fait passer en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>, accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span> et crée 1 cumul de <span style=\"color:#FFFFFFFF\">bouclier d'opale</span> et 1 <span style=\"color:#FFFFFFFF\">Itzpapa</span>. (Un personnage ne peut plus utiliser cette capacité après être passé en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>)",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "Édit de splendeur liée",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et, si possible, accorde 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "Chants de profond mystère",
+      "desc": "<span style=\"color:#FFFFFFFF\">Après que vous <span style=\"color:#FFFFFFFF\">sélectionnez</span> ou infligez des DGT avec une réaction élémentaire : </span>Si possible, accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span>. (1 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

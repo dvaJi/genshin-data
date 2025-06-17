@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "Citlali",
+  "title": "Sternenobsidian – Citlali",
+  "desc": "Der Nachtwind weht, der Obsidian reflektiert das Herz.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Katalysator",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Citlali in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "Schattenfesseln der schlummernden Seelen",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "Schwarzer Stern am frostigen Tag",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].<br/>Tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span>; erschafft 1 Pkt. <span style=\"color:#FFFFFFFF\">Opal-Schild</span> und <span style=\"color:#FFFFFFFF\">Itzpapa</span>. (Diese Fähigkeit kann nicht verwendet werden, nachdem die Figur in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> eingetreten ist)",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "Edikt der verflochtenen Pracht",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu und erhält selbst, wenn möglich, 2 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "Mysteriöse Gesänge",
+      "desc": "<span style=\"color:#FFFFFFFF\">Nachdem du <span style=\"color:#FFFFFFFF\">Wählen</span> ausgeführt oder Elementarreaktions-SCH verursacht hast:</span> Erhält selbst, wenn möglich, 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span> (1-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "_id": 1315,
+  "id": "mavuika",
+  "shareId": 478,
+  "name": "Mavuika",
+  "title": "Mavuika · Flamme embrasant la nuit",
+  "desc": "La plus brillante, la plus grandiose et la plus resplendissante des flammes renaissantes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 0,
+    "element": "Pyro",
+    "weapon": "Épée à deux mains",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Mavuika à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "flames_weave_life",
+      "name": "Flammes tissant la vie",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "the_named_moment",
+      "name": "Moment nomenclateur",
+      "desc": "Fait passer le personnage en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>, accorde 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span> et permet de <span style=\"color:#FFFFFFFF\">sélectionner</span> 1 carte [<span style=\"color:#FFFFFFFF\">Flambécane</span>] parmi 3 cartes à placer dans votre main.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hour_of_burning_skies",
+      "name": "Heure des cieux brûlants",
+      "desc": "Fait passer le personnage en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>, accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span>, consomme toute la ferveur guerrière et inflige des ? d'une valeur équivalant à la ferveur guerrière consommée au personnage actif adverse.<br/>Si 6 pts de <span style=\"color:#FFFFFFFF\">ferveur guerrière</span> sont consommés : applique un <span style=\"color:#FFFFFFFF\">creuset mortel</span> au personnage concerné.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        null
+      ]
+    },
+    {
+      "id": "fighting_spirit",
+      "name": "Ferveur guerrière",
+      "desc": "Empêche le personnage d'obtenir des <span style=\"color:#FFFFFFFF\">charges</span>.<br/>Lorqu'un de vos personnages a consommé du <span style=\"color:#FFFFFFFF\">noctâme</span> ou utilisé une attaque normale : Accorde 1 pt de ferveur guerrière.<br/>Lorsque le personnage utilise une <span style=\"color:#FFFFFFFF\">compétence élémentaire</span> ou un <span style=\"color:#FFFFFFFF\">déchaînement élémentaire</span> : Applique l'<span style=\"color:#FFFFFFFF\">armement tout-feu « Anneau de rayonnement brûlant »</span>.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

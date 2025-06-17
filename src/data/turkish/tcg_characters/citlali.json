@@ -1,0 +1,80 @@
+{
+  "_id": 1114,
+  "id": "citlali",
+  "shareId": 477,
+  "name": "Citlali",
+  "title": "\"Obsidiyen Opal Yıldızı\" Citlali",
+  "desc": "Gecenin coşkun rüzgarı eserken kalbi yansıtır obsidiyen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Katalizör",
+    "faction": ["Natlan"],
+    "source": "Citlali'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "shadowstealing_spirit_vessel",
+      "name": "Gölge Çalan Ruh Meskeni",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnfrost_darkstar",
+      "name": "Şafak Ayazının Karanlık Yıldızı",
+      "desc": "? ? verir.<br/><span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girer, 1 <span style=\"color:#FFFFFFFF\">\"Gece Ruhu puanı\"</span> kazanır, ardından 1 <span style=\"color:#FFFFFFFF\">Opal Kalkan</span> ve <span style=\"color:#FFFFFFFF\">Itzpapa</span> puanı oluşturur. (Bu beceri, karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girdiğinde kullanılamaz.)",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "edict_of_entwined_splendor",
+      "name": "Sarmalayan İhtişamın Fermanı",
+      "desc": "? ? verir, rakibin beklemedeki tüm karakterlerine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir ve eğer mümkünse 2 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanır.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "songs_of_profound_mystery",
+      "name": "Derin Gizem Şarkıları",
+      "desc": "<span style=\"color:#FFFFFFFF\">Bir <span style=\"color:#FFFFFFFF\">Seç</span>im yaptığında veya bir Element Tepkimesiyle Hasar verdiğinde </span> eğer mümkünse 1 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanırsın. (Her Turda bir defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

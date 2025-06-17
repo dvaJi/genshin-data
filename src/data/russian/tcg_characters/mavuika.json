@@ -1,0 +1,75 @@
+{
+  "_id": 1315,
+  "id": "mavuika",
+  "shareId": 478,
+  "name": "Мавуика",
+  "title": "«Пылающая ночь» Мавуика",
+  "desc": "Возрождённое пламя",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 0,
+    "element": "Пиро",
+    "weapon": "Двуручное",
+    "faction": ["Натлан"],
+    "source": "Награда за приглашение Мавуики в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "flames_weave_life",
+      "name": "Огонь плетёт жизнь",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "the_named_moment",
+      "name": "Именованное мгновение",
+      "desc": "Этот персонаж входит в состояние <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span>, получает <span style=\"color:#FFFFFFFF\">очки Ночного духа</span>, 2 ед., затем происходит <span style=\"color:#FFFFFFFF\">Выбор</span> 1 из 3 карт <span style=\"color:#FFFFFFFF\">пламецикла</span> в вашу руку.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hour_of_burning_skies",
+      "name": "Час пылающих небес",
+      "desc": "Персонаж входит в состояние <span style=\"color:#FFFFFFFF\">Благословение Ночного духа</span> и получает <span style=\"color:#FFFFFFFF\">очки Ночного духа</span>, 1 ед., расходуя Боевой дух. Затем активному персонажу противника наносится ?, равный потраченному Боевому духу.<br/>Если расходуется 6 ед. <span style=\"color:#FFFFFFFF\">Боевого духа</span>, персонаж получает <span style=\"color:#FFFFFFFF\">Горнило смерти и жизни</span>.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        null
+      ]
+    },
+    {
+      "id": "fighting_spirit",
+      "name": "Боевой дух",
+      "desc": "Этот персонаж не может получить <span style=\"color:#FFFFFFFF\">энергию</span>.<br/>Когда вы расходуете <span style=\"color:#FFFFFFFF\">очки Ночного духа</span> или используете обычную атаку, вы получаете 1 ед. Боевого духа.<br/>Когда этот персонаж использует <span style=\"color:#FFFFFFFF\">элементальный навык</span> или <span style=\"color:#FFFFFFFF\">взрыв стихии</span>, накладывается <span style=\"color:#FFFFFFFF\">Всеогненное вооружение: Кольцо испепеляющего сияния</span>.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

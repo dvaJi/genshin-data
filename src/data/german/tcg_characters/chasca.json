@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "Chasca",
+  "title": "Himmelsvermittlerin – Chasca",
+  "desc": "Anmut und Kraft, die Schwingen des Himmels.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Bogen",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Chasca in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "Phantomfederschwarm",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "Auf der Jagd nach dem Schatten",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]; zieht 1 Karte.<br/>Verleiht dieser Figur <span style=\"color:#FFFFFFFF\">Seelenflinte – Zeremonienstab</span>. Die Figur tritt in <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 2 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span>. (Diese Fähigkeit kann nicht verwendet werden, nachdem die Figur in <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> eingetreten ist.) (Figuren, die mit <span style=\"color:#FFFFFFFF\">Seelenflinte – Zeremonienstab</span> ausgerüstet sind, können folgende Spezialtechnik anwenden: <span style=\"color:#FFFFFFFF\">Mehrfaches Zielen</span>.)<br/><span style=\"color:#FFFFFFFF\">Bei den nächsten 2 Figurenwechseln deiner Seite:</span> Zieht 1 Karte.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "Der letzte Tanz des Sensenmanns",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren deines Gegners 1 Pkt. durchdringenden SCH zu und zieht selbst 3 Karten.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "Schattenjagd-Projektil",
+      "desc": "Legt zu Beginn eines Duells <span style=\"color:#FFFFFFFF\">Schattenjagd-Projektil</span> ×6 zufällig unter die Karten in deinem Stapel.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

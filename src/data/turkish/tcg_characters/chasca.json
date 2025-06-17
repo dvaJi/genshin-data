@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "Chasca",
+  "title": "\"Göklerin Hakemi\" Chasca",
+  "desc": "Zarafet ve güç, tüylü kanatlarla süzülüyor.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Yay",
+    "faction": ["Natlan"],
+    "source": "Chasca'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "Hayalet Tüy Fırtınası",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "Ruh Dizginleri, Gölge Avı",
+      "desc": "? ? verir, ardından 1 kart çekersin.<br/>Bu karaktere <span style=\"color:#FFFFFFFF\">Ruh Nişancısı: Ayin Asası</span> eklenir, ardından karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girip 2 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanır. (Bu beceri, karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girdikten sonra kullanılamaz.) (<span style=\"color:#FFFFFFFF\">Ruh Nişancısı: Ayin Asası</span> ekli karakterler <span style=\"color:#FFFFFFFF\">Çoklu Hedefleme</span> Tekniğini kullanabilir.)<br/><span style=\"color:#FFFFFFFF\">Gerçekleştireceğin sonraki 2 Karakter değiştirmeden sonra</span> 1 kart çekersin.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "Ruh Biçenin Ölümcül Darbesi",
+      "desc": "? ? verir ve rakibin hazırdaki tüm karakterlerine 1 Delme Hasarı verir. Ardından 3 kart çekersin.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "Gölge Avı Mermisi",
+      "desc": "Düellonun başlangıcında destene rastgele 6 <span style=\"color:#FFFFFFFF\">Gölge Avı Mermisi</span> eklenir.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

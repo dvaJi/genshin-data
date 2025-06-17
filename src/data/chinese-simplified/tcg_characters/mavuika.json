@@ -1,0 +1,75 @@
+{
+  "_id": 1315,
+  "id": "mavuika",
+  "shareId": 478,
+  "name": "玛薇卡",
+  "title": "焚夜以炎·玛薇卡",
+  "desc": "至明、至炽、至烈的再临之火。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 0,
+    "element": "火元素",
+    "weapon": "双手剑",
+    "faction": ["纳塔"],
+    "source": "在猫尾酒馆中邀请玛薇卡进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "flames_weave_life",
+      "name": "以火织命",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "the_named_moment",
+      "name": "称名之刻",
+      "desc": "本角色进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，获得2点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>，并从3张<span style=\"color:#FFFFFFFF\">驰轮车</span>中<span style=\"color:#FFFFFFFF\">挑选</span>1张加入手牌。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hour_of_burning_skies",
+      "name": "燔天之时",
+      "desc": "本角色进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，获得1点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>，消耗自身全部战意，对敌方前台造成等同于消耗战意数量的?。<br/>若消耗了6点<span style=\"color:#FFFFFFFF\">战意</span>，则自身附属<span style=\"color:#FFFFFFFF\">死生之炉</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        null
+      ]
+    },
+    {
+      "id": "fighting_spirit",
+      "name": "战意",
+      "desc": "角色不会获得<span style=\"color:#FFFFFFFF\">充能</span>。<br/>在我方消耗<span style=\"color:#FFFFFFFF\">「夜魂值」</span>或使用「普通攻击」后，获得1点战意。<br/>本角色使用<span style=\"color:#FFFFFFFF\">元素战技</span>或<span style=\"color:#FFFFFFFF\">元素爆发</span>时，附属<span style=\"color:#FFFFFFFF\">诸火武装·焚曜之环</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

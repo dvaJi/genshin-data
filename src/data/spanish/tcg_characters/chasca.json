@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "Chasca",
+  "title": "Chasca - La Pacificadora del Firmamento",
+  "desc": "Alzando el vuelo entre plumas y flores.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Arco",
+    "faction": ["Natlan"],
+    "source": "Se obtiene tras retar y ganar a Chasca en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "Corriente plumífera",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "Riendas persiguesombras",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y tomas 1 carta.<br/>Este personaje se equipa la carta de <span style=\"color:#FFFFFFFF\">Riflespíritu ceremonial</span>, entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span> y obtiene 2 pts. de <span style=\"color:#FFFFFFFF\">noctambulismo</span>. (Esta habilidad no se puede usar una vez que el personaje esté en estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>).<br/>El personaje que tenga equipada la carta de <span style=\"color:#FFFFFFFF\">Riflespíritu ceremonial</span> puede usar la técnica especial: <span style=\"color:#FFFFFFFF\">Multiapuntamiento</span>.<br/>Además, <span style=\"color:#FFFFFFFF\">las 2 próximas veces que cambies de personaje</span>, tomas 1 carta.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "Asalto espectral",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, así como 1 pt. de Daño Penetrante a todos los personajes enemigos en reserva, y tomas 3 cartas.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "Bala persiguesombras",
+      "desc": "Cuando comienza el duelo, mete al azar en la pila 6 cartas de <span style=\"color:#FFFFFFFF\">Bala persiguesombras</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "_id": 1511,
+  "id": "chasca",
+  "shareId": 479,
+  "name": "차스카",
+  "title": "하늘을 누비는 중재자·차스카",
+  "desc": "꽃바람에 흩날리는 깃털",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "활",
+    "faction": ["나타"],
+    "source": "캣테일 술집에서 차스카 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "phantom_feather_flurry",
+      "name": "유령깃 연사",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "spirit_reins_shadow_hunt",
+      "name": "영혼 올가미",
+      "desc": "?를 ?pt 주고 카드를 1장 드로우한다.<br/>본 캐릭터에게 <span style=\"color:#FFFFFFFF\">영혼총·의식 지팡이</span>를 부착하고, <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입하는 동시에 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 2pt 획득한다. (캐릭터가 <span style=\"color:#FFFFFFFF\">밤혼 가호</span> 진입 후, 해당 스킬을 사용할 수 없다)<br/>(<span style=\"color:#FFFFFFFF\">영혼총·의식 지팡이</span>가 부착된 캐릭터가 사용 가능한 특수 스킬: <span style=\"color:#FFFFFFFF\">다중 조준</span>)<br/><span style=\"color:#FFFFFFFF\">다음에 아군이 2회 「캐릭터 교체」 시: </span>카드를 1장 드로우한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "soul_reapers_fatal_round",
+      "name": "영혼 수확",
+      "desc": "?를 ?pt 주고, 상대의 모든 대기 캐릭터에게 관통 피해를 1pt 주며 카드를 3장 드로우한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "shadowhunt_shell",
+      "name": "그림자 추적탄",
+      "desc": "대전 시작 시, 랜덤으로 <span style=\"color:#FFFFFFFF\">그림자 추적탄</span> 6개를 덱에 넣는다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}
