@@ -1,3 +1,9 @@
+## [0.52.0](https://github.com/dvaJi/genshin-data/compare/0.50.0...0.52.0) (2025-06-06)
+
+### Features
+
+- bump version to 0.52.0
+
 ## [0.50.1](https://github.com/dvaJi/genshin-data/compare/0.50.0...0.50.1) (2025-06-06)
 
 ### Fixes
