@@ -1,0 +1,84 @@
+{
+  "_id": 1512,
+  "id": "lan_yan",
+  "shareId": 492,
+  "name": "Lan Yan",
+  "title": "Lan Yan · Printemps tressé de jade",
+  "desc": "Douce hirondelle apportant la joie dans les foyers...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 8274,
+      "id": "dance_vestments_billow_like_rainbow_jade",
+      "name": "Dance Vestments Billow Like Rainbow Jade"
+    },
+    "source": "Récompense pour avoir invité Lan Yan à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000108,
+      "id": "lan_yan",
+      "name": "Lan Yan",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "black_pheasant_strides_on_water",
+      "name": "Faisan noir sur eau",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swallowwisp_pinion_dance",
+      "name": "Danse plumée d'hirondelle-follet",
+      "desc": "Crée 2 cumuls de <span style=\"color:#FFFFFFFF\">bouclier d'hirondelle-follet</span>, accorde 1 cumul de <span style=\"color:#FFFFFFFF\">changement efficient</span> et inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?. Si cette capacité déclenche une réaction de Dispersion, un cumul supplémentaire de <span style=\"color:#FFFFFFFF\">bouclier d'hirondelle-follet</span> est créé.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lustrous_moonrise",
+      "name": "Lever lustré de lune",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée 2 cumuls de <span style=\"color:#FFFFFFFF\">bouclier d'hirondelle-follet</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

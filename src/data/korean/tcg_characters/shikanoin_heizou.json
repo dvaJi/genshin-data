@@ -1,0 +1,91 @@
+{
+  "_id": 1513,
+  "id": "shikanoin_heizou",
+  "shareId": 493,
+  "name": "시카노인 헤이조",
+  "title": "태평을 향한 마음·시카노인 헤이조",
+  "desc": "완전무결한 자도 두려워하는 차가운 바람",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바람 원소",
+    "weapon": "법구",
+    "faction": ["이나즈마"],
+    "talent_card": {
+      "_id": 8275,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles"
+    },
+    "source": "캣테일 술집에서 시카노인 헤이조 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000059,
+      "id": "shikanoin_heizou",
+      "name": "Shikanoin Heizou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "fudou_style_martial_arts",
+      "name": "부동류 격투술",
+      "desc": "<span style=\"color:#80FFD7FF\">바람 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "heartstopper_strike",
+      "name": "쇄심권",
+      "desc": "<span style=\"color:#FFFFFFFF\">쇄심권·차지</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "windmuster_kick",
+      "name": "선풍각",
+      "desc": "?를 ?pt 준다. 해당 스킬이 <span style=\"color:#80FFD7FF\">바람 원소 관련 반응</span>을 발동했을 경우, 상대 출전 캐릭터에게 상응하는 원소의 <span style=\"color:#FFFFFFFF\">선풍진안</span>을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "paradoxical_practice",
+      "name": "반론의 고찰",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">아군이 <span style=\"color:#80FFD7FF\">바람 원소 관련 반응</span> 발동 후: </span>자신에게 <span style=\"color:#FFFFFFFF\">변격</span>을 1스택 부착한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

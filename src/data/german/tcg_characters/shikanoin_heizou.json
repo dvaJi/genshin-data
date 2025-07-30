@@ -1,0 +1,91 @@
+{
+  "_id": 1513,
+  "id": "shikanoin_heizou",
+  "shareId": 493,
+  "name": "Shikanoin Heizou",
+  "title": "Mitfühlender Analytiker – Shikanoin Heizou",
+  "desc": "Die himmlischen Roben, nahtlos genäht, fürchten dennoch die wehenden kalten Winde.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Katalysator",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 8275,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Shikanoin Heizou in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000059,
+      "id": "shikanoin_heizou",
+      "name": "Shikanoin Heizou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "fudou_style_martial_arts",
+      "name": "Kampf im Fudou-Stil",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "heartstopper_strike",
+      "name": "Faust der Brüderlichkeit",
+      "desc": "<span style=\"color:#FFFFFFFF\">Vorbereiten der Fähigkeiten</span>: <span style=\"color:#FFFFFFFF\">Faust der Brüderlichkeit – Aufgeladen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "windmuster_kick",
+      "name": "Tritt des konzentrierten Winds",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Wenn diese Fähigkeit <span style=\"color:#80FFD7FF\">Anemo-Reaktionen</span> auslöst, wird der aktiven Figur des Gegners ein <span style=\"color:#FFFFFFFF\">Auge des konzentrierten Winds</span> des entsprechenden Elements verliehen.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "paradoxical_practice",
+      "name": "Unterricht der Ablehnung",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nach Auslösen von <span style=\"color:#80FFD7FF\">Anemo-Reaktionen</span> durch dich: </span>Verleiht dieser Figur 1 Stapelung <span style=\"color:#FFFFFFFF\">Deklination</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

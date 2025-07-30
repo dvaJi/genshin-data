@@ -1,0 +1,89 @@
+{
+  "_id": 4709,
+  "id": "gluttonous_yumkasaur_mountain_king",
+  "shareId": 4709,
+  "name": "Gefräßiger Yumkasaurier-Bergkönig",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 35,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "talent_card": {
+      "_id": 8276,
+      "id": "the_alldevourer",
+      "name": "The All-Devourer"
+    },
+    "source": null,
+    "character": {
+      "id": "gluttonous_yumkasaur_mountain_king",
+      "name": "Gluttonous Yumkasaur Mountain King"
+    }
+  },
+  "skills": [
+    {
+      "id": "crushing_tail_attack",
+      "name": "Schwere Schwanzattacke",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flying_fruit",
+      "name": "Fliegende Frucht",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], zieht 1 Gericht-Karte.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flamegranate_conflagration",
+      "name": "Flammengranaten-Feuerwerk",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gluttonous_rex",
+      "name": "Gefräßiger König",
+      "desc": "Wird selbst nie den Zustand <span style=\"color:#FFFFFFFF\">Gesättigt</span> erreichen.<br/><span style=\"color:#FFFFFFFF\">Nach Ausspielen einer deiner Gericht-Karten:</span> Erhält selbst zufällig 1 Stapelung <span style=\"color:#FFFFFFFF\">Wohlgenährt und stark</span> oder <span style=\"color:#FFFFFFFF\">Wohlgenährt und gesund</span> oder 1 zusätzliche max. LP (2-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

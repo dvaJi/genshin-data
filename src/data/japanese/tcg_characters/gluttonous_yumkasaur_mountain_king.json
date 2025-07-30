@@ -1,0 +1,89 @@
+{
+  "_id": 2704,
+  "id": "gluttonous_yumkasaur_mountain_king",
+  "shareId": 494,
+  "name": "山の王・貪食のユムカ竜",
+  "title": "巨大な山の王・貪食のユムカ竜",
+  "desc": "太古から生き延び、無数の戦場を経験してきた強大なユムカ竜。",
+  "attributes": {
+    "hp": 7,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 8276,
+      "id": "the_alldevourer",
+      "name": "The All-Devourer"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、山の王・貪食のユムカ竜に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "gluttonous_yumkasaur_mountain_king",
+      "name": "Gluttonous Yumkasaur Mountain King"
+    }
+  },
+  "skills": [
+    {
+      "id": "crushing_tail_attack",
+      "name": "テールアタック",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flying_fruit",
+      "name": "フライング・フルーツ",
+      "desc": "?を?与え、「料理」カードを1枚引く。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flamegranate_conflagration",
+      "name": "爆発グレネード",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を5与える。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gluttonous_rex",
+      "name": "貪食の王",
+      "desc": "本キャラは<span style=\"color:#FFFFFFFF\">満腹</span>にならない。<br/><span style=\"color:#FFFFFFFF\">味方が「料理」を使用した後</span>、ランダムで<span style=\"color:#FFFFFFFF\">満腹のパワー</span>または<span style=\"color:#FFFFFFFF\">満腹のスタミナ</span>を1層付与するか、最大HP+1。（各ラウンドで2回のみ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

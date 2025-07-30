@@ -1,0 +1,89 @@
+{
+  "_id": 4709,
+  "id": "gluttonous_yumkasaur_mountain_king",
+  "shareId": 4709,
+  "name": "Roi yumkasaure glouton de la montagne",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 35,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "talent_card": {
+      "_id": 8276,
+      "id": "the_alldevourer",
+      "name": "The All-Devourer"
+    },
+    "source": null,
+    "character": {
+      "id": "gluttonous_yumkasaur_mountain_king",
+      "name": "Gluttonous Yumkasaur Mountain King"
+    }
+  },
+  "skills": [
+    {
+      "id": "crushing_tail_attack",
+      "name": "Queue écrasante",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flying_fruit",
+      "name": "Fruit crachant",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et pioche 1 carte de plat.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flamegranate_conflagration",
+      "name": "Détonation de flamboigrenade",
+      "desc": "Inflige 5 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gluttonous_rex",
+      "name": "Roi glouton",
+      "desc": "Le personnage affecté ne peut pas ressentir l'effet de la <span style=\"color:#FFFFFFFF\">satiété</span>.<br/><span style=\"color:#FFFFFFFF\">Lorsque vous avez joué une carte de plat : </span>Accorde aléatoirement 1 cumul de <span style=\"color:#FFFFFFFF\">puissance de replétion</span> ou de <span style=\"color:#FFFFFFFF\">robustesse de replétion</span> ou augmente les PV max de 1 supplémentaire. (2 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

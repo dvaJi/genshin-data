@@ -1,0 +1,89 @@
+{
+  "_id": 4709,
+  "id": "gluttonous_yumkasaur_mountain_king",
+  "shareId": 4709,
+  "name": "贪食匿叶龙山王",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 35,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "其他武器",
+    "faction": ["魔物"],
+    "talent_card": {
+      "_id": 8276,
+      "id": "the_alldevourer",
+      "name": "The All-Devourer"
+    },
+    "source": null,
+    "character": {
+      "id": "gluttonous_yumkasaur_mountain_king",
+      "name": "Gluttonous Yumkasaur Mountain King"
+    }
+  },
+  "skills": [
+    {
+      "id": "crushing_tail_attack",
+      "name": "沉重尾击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flying_fruit",
+      "name": "喷吐草实",
+      "desc": "造成?点?，抓1张「料理」牌。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flamegranate_conflagration",
+      "name": "榴果爆轰",
+      "desc": "造成5点<span style=\"color:#FF9999FF\">火元素伤害</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gluttonous_rex",
+      "name": "贪食之王",
+      "desc": "自身不会<span style=\"color:#FFFFFFFF\">饱腹</span>。<br/><span style=\"color:#FFFFFFFF\">我方打出「料理」牌后：</span>随机附属1层<span style=\"color:#FFFFFFFF\">食足力增</span>或<span style=\"color:#FFFFFFFF\">食足体健</span>，或获得1点额外最大生命值。（每回合2次）",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

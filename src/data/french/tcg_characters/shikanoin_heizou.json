@@ -1,0 +1,91 @@
+{
+  "_id": 1513,
+  "id": "shikanoin_heizou",
+  "shareId": 493,
+  "name": "Shikanoin Heizou",
+  "title": "Shikanoin Heizou · Harmonie analytique",
+  "desc": "Les robes célestes, bien que cousues sans couture, craignent toujours les vents qui soufflent avec le froid.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 8275,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles"
+    },
+    "source": "Récompense pour avoir invité Shikanoin Heizou à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000059,
+      "id": "shikanoin_heizou",
+      "name": "Shikanoin Heizou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "fudou_style_martial_arts",
+      "name": "Arts martiaux style Fudou",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "heartstopper_strike",
+      "name": "Poing d'arrêt cardiaque",
+      "desc": "<span style=\"color:#FFFFFFFF\">Préparation de capacité</span> : <span style=\"color:#FFFFFFFF\">Poing d'arrêt cardiaque chargé</span>",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "windmuster_kick",
+      "name": "Coup de pied ouragan",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?. Si cette capacité déclenche une <span style=\"color:#80FFD7FF\">réaction liée à l'élément Anémo</span>, un <span style=\"color:#FFFFFFFF\">Œil du cyclone</span> de l'élément correspondant est appliqué au personnage actif adverse.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "paradoxical_practice",
+      "name": "Pratique paradoxale",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque vous avez déclenché une <span style=\"color:#80FFD7FF\">réaction liée à l'élément Anémo</span> : </span>Applique 1 cumul de <span style=\"color:#FFFFFFFF\">détection</span> au personnage affecté.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

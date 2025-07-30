@@ -1,0 +1,91 @@
+{
+  "_id": 1513,
+  "id": "shikanoin_heizou",
+  "shareId": 493,
+  "name": "鹿野院平藏",
+  "title": "心朝乂安·鹿野院平藏",
+  "desc": "天衣但無縫，也懼涼風吹。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "法器",
+    "faction": ["稻妻"],
+    "talent_card": {
+      "_id": 8275,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles"
+    },
+    "source": "在貓尾酒館中邀請鹿野院平藏進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "_id": 10000059,
+      "id": "shikanoin_heizou",
+      "name": "Shikanoin Heizou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "fudou_style_martial_arts",
+      "name": "不動流格鬥術",
+      "desc": "造成1點<span style=\"color:#80FFD7FF\">風元素傷害</span>。",
+      "skillTag": ["普通攻擊"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "heartstopper_strike",
+      "name": "勠心拳",
+      "desc": "<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">勠心拳·蓄力</span>",
+      "skillTag": ["元素戰技"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "windmuster_kick",
+      "name": "聚風蹴",
+      "desc": "造成?點?，如果此技能引發了<span style=\"color:#80FFD7FF\">風元素相關反應</span>，則敵方出戰角色附屬對應元素的<span style=\"color:#FFFFFFFF\">聚風真眼</span>。",
+      "skillTag": ["元素爆發"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "paradoxical_practice",
+      "name": "反論稽古",
+      "desc": "【被動】<span style=\"color:#FFFFFFFF\">我方引發了<span style=\"color:#80FFD7FF\">風元素相關反應</span>後：</span>自身附屬1層<span style=\"color:#FFFFFFFF\">變格</span>。",
+      "skillTag": ["被動技能"],
+      "points": []
+    }
+  ]
+}

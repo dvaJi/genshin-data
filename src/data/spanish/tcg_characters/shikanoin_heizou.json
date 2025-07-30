@@ -1,0 +1,91 @@
+{
+  "_id": 1513,
+  "id": "shikanoin_heizou",
+  "shareId": 493,
+  "name": "Shikanoin Heizou",
+  "title": "Shikanoin Heizou - El Detective de la Armonía",
+  "desc": "Ni las túnicas celestiales, perfectas y sin costura, escapan al temor de los vientos helados.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": ["Inazuma"],
+    "talent_card": {
+      "_id": 8275,
+      "id": "curious_casefiles",
+      "name": "Curious Casefiles"
+    },
+    "source": "Se obtiene tras retar y ganar a Shikanoin Heizou en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000059,
+      "id": "shikanoin_heizou",
+      "name": "Shikanoin Heizou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "fudou_style_martial_arts",
+      "name": "Artes marciales Fudou",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "heartstopper_strike",
+      "name": "Puñetazo cardiaco",
+      "desc": "<span style=\"color:#FFFFFFFF\">Preparación de habilidad</span>: <span style=\"color:#FFFFFFFF\">Puñetazo cardiaco (carga)</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "windmuster_kick",
+      "name": "Patada huracanada",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?. Si esta habilidad causa una <span style=\"color:#80FFD7FF\">Reacción Elemental Anemo</span>, el personaje en combate enemigo obtendrá el efecto de <span style=\"color:#FFFFFFFF\">ojo del tifón</span> del elemento correspondiente.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "paradoxical_practice",
+      "name": "Práctica paradójica",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">cuando tus personajes provoquen una <span style=\"color:#80FFD7FF\">Reacción Elemental Anemo</span></span>, obtiene 1 carga de <span style=\"color:#FFFFFFFF\">decantación</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "_id": 1512,
+  "id": "lan_yan",
+  "shareId": 492,
+  "name": "Lan Yan",
+  "title": "Aus Jade geflochtener Frühling – Lan Yan",
+  "desc": "Die geschickte Schwalbe bringt Zweige der Freude ins Haus.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Katalysator",
+    "faction": ["Liyue"],
+    "talent_card": {
+      "_id": 8274,
+      "id": "dance_vestments_billow_like_rainbow_jade",
+      "name": "Dance Vestments Billow Like Rainbow Jade"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lan Yan in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "_id": 10000108,
+      "id": "lan_yan",
+      "name": "Lan Yan",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "black_pheasant_strides_on_water",
+      "name": "Schwarzer Fasan streicht übers Wasser",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "swallowwisp_pinion_dance",
+      "name": "Schwalbenschnitt-Tanz",
+      "desc": "Erschafft 2 Stapelungen <span style=\"color:#FFFFFFFF\">Schwalbenschnittschild</span>, verleiht 1 Stapelung <span style=\"color:#FFFFFFFF\">Effizienter Wechsel</span> und verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Wenn dabei Verwirbelung ausgelöst wird, wird zusätzlich 1 Stapelung <span style=\"color:#FFFFFFFF\">Schwalbenschnittschild</span> erschaffen.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "lustrous_moonrise",
+      "name": "Blendender Mondaufgang",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 2 Stapelungen <span style=\"color:#FFFFFFFF\">Schwalbenschnittschild</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_id": 2704,
+  "id": "gluttonous_yumkasaur_mountain_king",
+  "shareId": 494,
+  "name": "Rey Yumkasaurio Glotón",
+  "title": "Rey Yumkasaurio Glotón - El colosal Rey de la Montaña",
+  "desc": "Un poderoso Yumkasaurio que ha sobrevivido desde la antigüedad y ha presenciado innumerables batallas.",
+  "attributes": {
+    "hp": 7,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "talent_card": {
+      "_id": 8276,
+      "id": "the_alldevourer",
+      "name": "The All-Devourer"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Rey Yumkasaurio Glotón de los duelos tabernarios",
+    "character": {
+      "id": "gluttonous_yumkasaur_mountain_king",
+      "name": "Gluttonous Yumkasaur Mountain King"
+    }
+  },
+  "skills": [
+    {
+      "id": "crushing_tail_attack",
+      "name": "Coletazo contundente",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "flying_fruit",
+      "name": "Escupefrutos",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y tomas 1 carta de comida.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "flamegranate_conflagration",
+      "name": "Granada explosiva",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gluttonous_rex",
+      "name": "Rey de la glotonería",
+      "desc": "Nunca siente <span style=\"color:#FFFFFFFF\">saciedad</span>.<br/><span style=\"color:#FFFFFFFF\">Tras jugar una carta de comida</span>, obtiene aleatoriamente 1 carga del efecto de <span style=\"color:#FFFFFFFF\">Bien alimentado y fuerte</span> o <span style=\"color:#FFFFFFFF\">Bien alimentado y sano</span>, o Vida Máx. +1 (2 veces por ronda).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}
