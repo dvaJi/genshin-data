@@ -1,0 +1,80 @@
+{
+  "_id": 1414,
+  "id": "iansan",
+  "shareId": 506,
+  "name": "Iansan",
+  "title": "Iansan · Forgée dans la roche volcanique",
+  "desc": "Couche-tôt et lève-tôt, elle suit un régime sans sucre ni sel.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Arme d'hast",
+    "faction": ["Natlan"],
+    "source": "Récompense pour avoir invité Iansan à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "weighted_spike",
+      "name": "Pointe lestée",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderbolt_rush",
+      "name": "Ruée fulminante",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, fait passer le personnage affecté en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>, accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span> et crée 1 cumul de <span style=\"color:#FFFFFFFF\">changement rapide</span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_three_principles_of_power",
+      "name": "Triple principe de la force",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, fait passer le personnage affecté en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span>, accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span> et crée une <span style=\"color:#FFFFFFFF\">jauge d'énergie cinétique</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "caloric_balancing_plan",
+      "name": "Programme d'équilibrage calorique",
+      "desc": "(Passif) Lorsque le personnage affecté bénéficie d'une <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> et que vous avez <span style=\"color:#FFFFFFFF\">préparé une capacité</span> ou changé deux fois de personnage : Soigne votre personnage ayant subi le plus de DGT pour 1 pt si le personnage affecté a 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span> ; sinon, lui accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span>. (3 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

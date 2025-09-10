@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "Владыка истлевшего первобытного пламени",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": ["Монстр"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Удар когтем пустоты",
+      "desc": "Наносит ?, 2 ед.",
+      "skillTag": ["Обычная атака"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Обгоревшие огненные перья",
+      "desc": "Наносит ?, 3 ед. Происходит <span style=\"color:#FFFFFFFF\">Отказ</span> от верхней карты вашей колоды.",
+      "skillTag": ["Элементальный навык"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Разящее первобытное пламя",
+      "desc": "Наносит ?, 1 ед., а также <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 1 ед., всем неактивным персонажам противника. Обе стороны производят <span style=\"color:#FFFFFFFF\">Отказ</span> от 3 верхних карт и получают <span style=\"color:#FFFFFFFF\">Негодование</span>, 1 уровень.",
+      "skillTag": ["Взрыв стихии"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Негодование",
+      "desc": "(Пассивный навык) За каждые 6 карт, от которых вы произведёте <span style=\"color:#FFFFFFFF\">Отказ</span>, получаете <span style=\"color:#FFFFFFFF\">Негодование</span>, 1 уровень.",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "Рёв из тьмы",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон:</span> если его HP не больше 6, оба игрока производят <span style=\"color:#FFFFFFFF\">Отказ</span> от 9 верхних карт. (Один раз за раунд)",
+      "skillTag": ["Пассивный навык"],
+      "points": []
+    }
+  ]
+}

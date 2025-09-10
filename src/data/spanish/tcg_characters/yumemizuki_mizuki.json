@@ -1,0 +1,73 @@
+{
+  "_id": 1514,
+  "id": "yumemizuki_mizuki",
+  "shareId": 507,
+  "name": "Yumemizuki Mizuki",
+  "title": "Yumemizuki Mizuki - La Dulce Soñadora",
+  "desc": "Las preocupaciones se disipan bajo una luna de ensueño.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": ["Inazuma"],
+    "source": "Se obtiene tras retar y ganar a Yumemizuki Mizuki en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "pure_heart_pure_dreams",
+      "name": "Corazón puro, sueños puros",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80FFD7FF\">Daño Anemo</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "aisa_utamakura_pilgrimage",
+      "name": "Peregrinaje de Aisa Utamakura",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y obtiene el efecto de <span style=\"color:#FFFFFFFF\">navegasueños</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "anraku_secret_spring_therapy",
+      "name": "Terapia del manantial de Anraku",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, crea 1 carta de <span style=\"color:#FFFFFFFF\">Dulce especial de Yumemizuki</span>, la coloca en la parte superior de tu mazo e invoca una <span style=\"color:#FFFFFFFF\">minibaku</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

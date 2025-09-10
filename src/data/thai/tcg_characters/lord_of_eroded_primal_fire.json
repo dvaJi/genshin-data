@@ -1,0 +1,80 @@
+{
+  "_id": 2305,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 508,
+  "name": "Lord of Eroded Primal Fire",
+  "title": "มังกรมรณะที่ถูกหลอม - จ้าวแห่งเปลวเพลิง",
+  "desc": "มอนสเตอร์ของภพแห่งความว่างเปล่า ที่ถูกเรียกว่าจอมทำลายล้างแห่ง Abyss หรือถูกเรียกในชื่อว่า \"Gosoythoth\" มีพลังราวกับภัยพิบัติ ซึ่งสามารถดูดซับความทรงจำในกระแสพลัง และรวบรวมมันให้เป็นรูปเป็นร่างขึ้นมาได้",
+  "attributes": {
+    "hp": 12,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": ["มอนสเตอร์"],
+    "source": "ได้รับหลังจากเอาชนะ Lord of Eroded Primal Fire ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Void Claw Strike",
+      "desc": "สร้าง? 2 หน่วย",
+      "skillTag": ["โจมตีปกติ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Eroded Flaming Feathers",
+      "desc": "สร้าง? 3 หน่วย ทำให้การ์ด 1 ใบ ที่อยู่ด้านบนสุดของเด็ค <span style=\"color:#FFFFFFFF\">ทิ้ง</span> ของฝ่ายเรา",
+      "skillTag": ["สกิลธาตุ"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Severing Primal Fire",
+      "desc": "สร้าง? 1 หน่วย สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย ให้แก่ตัวละครนอกสนามของฝ่ายศัตรูทั้งหมด ทั้งสองฝ่ายจะ<span style=\"color:#FFFFFFFF\">ทิ้ง</span>การ์ด 3 ใบ ที่อยู่ด้านบนสุดของเด็ค และตัวเองจะได้รับ <span style=\"color:#FFFFFFFF\">Resentment</span> 1 ชั้น",
+      "skillTag": ["ท่าไม้ตาย"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Resentment",
+      "desc": "[ติดตัว] ทุกครั้งที่ฝ่ายเรา<span style=\"color:#FFFFFFFF\">ทิ้ง</span>การ์ด 6 ใบ ตนเองจะได้รับ <span style=\"color:#FFFFFFFF\">Resentment</span> 1 ชั้น",
+      "skillTag": ["สกิลติดตัว"],
+      "points": []
+    }
+  ]
+}

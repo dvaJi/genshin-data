@@ -5,19 +5,11 @@
   "name": "Amethyst Crown",
   "title": "A Pact Deeply Felt: Amethyst Crown",
   "desc": "\"Menghormati oasis abadi dan Padisarah, sang Ratu Bunga mengenakan mahkota ungu.\"",
-  "in_play_description": "<span style=\"color:#FFFFFFFF\">Setelah Karakter yang mengenakan digunakan sebagai Karakter Aktif dan lawan menerima <span style=\"color:#7EC236FF\">Dendro DMG</span>:</span> memperoleh 1 <span style=\"color:#FFFFFFFF\">Crowning Crystal</span>. Jika jumlah <span style=\"color:#FFFFFFFF\">Crowning Crystal</span> sama dengan atau lebih banyak dari jumlah kartu di tanganmu, maka akan menciptakan 1 Dadu Elemental dasar secara acak.<br/>(Maksimum menciptakan 2 buah setiap Ronde)",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Setelah Karakter lawan menerima DMG:</span> jika DMG ini adalah <span style=\"color:#7EC236FF\">Dendro DMG</span> atau memicu <span style=\"color:#7EC236FF\">Reaksi Terkait Dendro</span>, maka memperoleh 1 <span style=\"color:#FFFFFFFF\">Crowning Crystal</span>. (Dapat ditumpuk hingga 2 tumpuk)<br/><span style=\"color:#FFFFFFFF\">Saat Tahap Aksi dimulai:</span> jika jumlah <span style=\"color:#FFFFFFFF\">Crowning Crystal</span> milikmu adalah 2, maka Reaksi Elemental yang dipicu Karaktermu akan mengakibatkan DMG +2 pada Ronde ini.",
   "attributes": {
-    "cost": 1,
-    "cost_type": "Elemen Sama",
+    "cost": 0,
     "card_type": "Kartu Equipment",
-    "energy": [
-      {
-        "_id": 1108,
-        "id": "matching_element",
-        "type": "Elemen Sama",
-        "count": 1
-      }
-    ],
+    "energy": [],
     "artifact": {
       "_id": 215028,
       "id": "flower_of_paradise_lost",
@@ -29,7 +21,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Setelah Karakter yang mengenakan digunakan sebagai Karakter Aktif dan lawan menerima <span style=\"color:#7EC236FF\">Dendro DMG</span>:</span> memperoleh 1 <span style=\"color:#FFFFFFFF\">Crowning Crystal</span>. Jika jumlah <span style=\"color:#FFFFFFFF\">Crowning Crystal</span> sama dengan atau lebih banyak dari jumlah kartu di tanganmu, maka akan menciptakan 1 Dadu Elemental dasar secara acak.<br/>(Maksimum menciptakan 2 buah setiap Ronde)<br/>(Karakter dapat mengenakan maksimum 1 Artefak)"
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah Karakter lawan menerima DMG:</span> jika DMG ini adalah <span style=\"color:#7EC236FF\">Dendro DMG</span> atau memicu <span style=\"color:#7EC236FF\">Reaksi Terkait Dendro</span>, maka memperoleh 1 <span style=\"color:#FFFFFFFF\">Crowning Crystal</span>. (Dapat ditumpuk hingga 2 tumpuk)<br/><span style=\"color:#FFFFFFFF\">Saat Tahap Aksi dimulai:</span> jika jumlah <span style=\"color:#FFFFFFFF\">Crowning Crystal</span> milikmu adalah 2, maka Reaksi Elemental yang dipicu Karaktermu akan mengakibatkan DMG +2 pada Ronde ini.<br/>(Karakter dapat mengenakan maksimum 1 Artefak)"
     }
   ]
 }

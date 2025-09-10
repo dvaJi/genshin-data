@@ -1,0 +1,80 @@
+{
+  "_id": 1414,
+  "id": "iansan",
+  "shareId": 506,
+  "name": "Iansan",
+  "title": "\"Forjada na Pedra Ardente\", Iansan",
+  "desc": "Cedo para cama, cedo para levantar. Pouco açúcar, pouco sal.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Lança",
+    "faction": ["Natlan"],
+    "source": "Recompensa por desafiar Iansan para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela"
+  },
+  "skills": [
+    {
+      "id": "weighted_spike",
+      "name": "Espinho Pesado",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderbolt_rush",
+      "name": "Investida Trovejante",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, entra em <span style=\"color:#FFFFFFFF\">Bênção do Espírito da Noite</span>, dá 1 <span style=\"color:#FFFFFFFF\">ponto de Espírito da Noite</span> e cria 1 acúmulo de <span style=\"color:#FFFFFFFF\">Troca Ágil</span>.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_three_principles_of_power",
+      "name": "Os Três Princípios do Poder",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, entra em <span style=\"color:#FFFFFFFF\">Bênção do Espírito da Noite</span>, dá 1 <span style=\"color:#FFFFFFFF\">ponto de Espírito da Noite</span> e cria 1 <span style=\"color:#FFFFFFFF\">Escala Cinética</span>.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "caloric_balancing_plan",
+      "name": "Plano de Balanceamento Calórico",
+      "desc": "(Passivo) Enquanto você estiver em <span style=\"color:#FFFFFFFF\">Bênção do Espírito da Noite</span>, após seu personagem <span style=\"color:#FFFFFFFF\">Preparar Habilidade</span> ou ser trocado 2 vezes, se tiver 2 <span style=\"color:#FFFFFFFF\">pontos de Espírito da Noite</span>, cura seu personagem mais ferido em 1 ponto de Vida. Caso contrário, ganha 1 ponto de <span style=\"color:#FFFFFFFF\">Espírito da Noite</span>. (Três vezes por Turno)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

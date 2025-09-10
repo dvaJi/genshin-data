@@ -1,0 +1,73 @@
+{
+  "_id": 1514,
+  "id": "yumemizuki_mizuki",
+  "shareId": 507,
+  "name": "Yumemizuki Mizuki",
+  "title": "Yumemizuki Mizuki · Étreinte de rêves enchanteurs",
+  "desc": "Les sombres nuages se dissipent, la lune illumine les rêves.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Catalyseur",
+    "faction": ["Inazuma"],
+    "source": "Récompense pour avoir invité Yumemizuki Mizuki à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "pure_heart_pure_dreams",
+      "name": "Cœur pur, rêves purs",
+      "desc": "Inflige 1 pt de <span style=\"color:#80FFD7FF\">DGT Anémo</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "aisa_utamakura_pilgrimage",
+      "name": "Pèlerinage d'Aisa Utamakura",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et applique l'état <span style=\"color:#FFFFFFFF\">Flotte-rêves</span> au personnage affecté.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "anraku_secret_spring_therapy",
+      "name": "Thérapie sourcière secrète d'Anraku",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, crée et place une 1 carte [<span style=\"color:#FFFFFFFF\">Snack de style yumemi</span>] en haut de votre deck et invoque un <span style=\"color:#FFFFFFFF\">mini-Baku</span>.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

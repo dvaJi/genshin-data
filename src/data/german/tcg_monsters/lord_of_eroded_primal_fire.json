@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "Herr des erodierten Urfeuers",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Schattenklauenschlag",
+      "desc": "Verursacht 2 Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Erodierte flammende Federn",
+      "desc": "Verursacht 3 Pkt. $[D__KEY__ELEMENT|s1] und die oberste Karte deines Stapels wird <span style=\"color:#FFFFFFFF\">abgeworfen</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Teilendes Urfeuer",
+      "desc": "Verursacht 1 Pkt. ? und fügt allen inaktiven Figuren des Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu. Die oberen drei Karten von den Stapeln beider Seiten werden <span style=\"color:#FFFFFFFF\">abgeworfen</span>. Beide Seiten verleihen sich selbst <span style=\"color:#FFFFFFFF\">Missgunst</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Missgunst",
+      "desc": "Passiv – Verleiht sich selbst für alle 6 <span style=\"color:#FFFFFFFF\">abgeworfen</span>en Karten 1 Stapelung <span style=\"color:#FFFFFFFF\">Missgunst</span>.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "Gebrüll aus der Dunkelheit",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Erleidet diese Figur SCH:</span> Wenn ihre LP nicht höher als 6 ist, werden von beiden Seiten die oberen 9 Karten vom Stapel <span style=\"color:#FFFFFFFF\">abgeworfen</span> (1-mal pro Duell).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

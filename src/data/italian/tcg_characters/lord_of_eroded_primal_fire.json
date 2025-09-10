@@ -1,0 +1,80 @@
+{
+  "_id": 2305,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 508,
+  "name": "Signore della Fiamma primordiale erosa",
+  "title": "Signore della Fiamma primordiale erosa, il drago annientato plasmato",
+  "desc": "Un mostro del vuoto, conosciuto come \"Mietitore dell'Abisso\" e \"Gosoythoth\". È in grado di contaminare i ricordi che scorrono nelle linee geomantiche della terra, condensandoli in forze tangibili di un presagio catastrofico.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": ["Mostro"],
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Signore della Fiamma primordiale erosa in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Colpo d'artiglio del Vuoto",
+      "desc": "Infligge 2 ?.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Piume fiammeggianti corrotte",
+      "desc": "Infligge 3 ? e <span style=\"color:#FFFFFFFF\">rimuove</span> la prima carta in cima al tuo mazzo.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Fiamma primordiale tranciante",
+      "desc": "Infligge 1 ?, e infligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti gli avversari inattivi. Ogni giocatore <span style=\"color:#FFFFFFFF\">rimuove</span> le prime 3 carte del proprio mazzo e ottiene 1 accumulo di <span style=\"color:#FFFFFFFF\">Rancore</span>.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Rancore",
+      "desc": "(Passiva) Per ogni 6 carte <span style=\"color:#FFFFFFFF\">rimosse</span>, ottieni 1 accumulo di <span style=\"color:#FFFFFFFF\">Rancore</span>.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

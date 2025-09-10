@@ -1,0 +1,53 @@
+{
+  "_id": 1601,
+  "id": "smoked_fish_steak",
+  "name": "Smoked Fish Steak",
+  "description": "A large fish steak. The steak has been cured and placed on a wooden slat before smoking. Not only does the final product preserve the fish's physical integrity, but it also boasts a unique smoky flavor.",
+  "rarity": 1,
+  "ingredients": [
+    {
+      "_id": 100084,
+      "id": "fish",
+      "name": "Fish",
+      "amount": 1
+    },
+    {
+      "_id": 100075,
+      "id": "salt",
+      "name": "Salt",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Recovery Dish",
+  "results": {
+    "suspicious": {
+      "_id": 108861,
+      "name": "Suspicious Smoked Fish Steak",
+      "description": "A large fish steak. The acrid scent of smoke triggers an immediate aversion. After taking a reluctant bite, the overpowering saltiness makes it impossible to savor, leaving no choice but to swallow it quickly to avoid waste.",
+      "effect": "Restores 8% of Max HP and an additional 800 HP to the selected character."
+    },
+    "normal": {
+      "_id": 108862,
+      "name": "Smoked Fish Steak",
+      "description": "A large fish steak. The steak has been cured and placed on a wooden slat before smoking. Not only does the final product preserve the fish's physical integrity, but it also boasts a unique smoky flavor.",
+      "effect": "Restores 9% of Max HP and an additional 1,000 HP to the selected character."
+    },
+    "delicious": {
+      "_id": 108863,
+      "name": "Delicious Smoked Fish Steak",
+      "description": "A large fish steak. The tender fish dissolves effortlessly on the tongue, combining savory notes with a hint of sweetness, while the smoky fragrance lingers, delivering a perfect finale to this flavorful delight.",
+      "effect": "Restores 10% of Max HP and an additional 1,200 HP to the selected character."
+    },
+    "special": {
+      "_id": 108895,
+      "id": "long_night_alight",
+      "name": "Long Night Alight",
+      "description": "Flins's specialty. Delicate fish slices shimmer with a gemstonesque, translucent, orange-red glow. A woody, smoky aroma complements the freshness of the fish like the gentle strains of classical music. The precision in heat control reveals a mastery of the culinary arts — a true representation of Flins's abilities.",
+      "effect": "Restores 16% of Max HP and an additional 1,350 HP to the selected character.",
+      "character": {
+        "id": "flins",
+        "name": "Flins"
+      }
+    }
+  }
+}

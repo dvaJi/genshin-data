@@ -5,19 +5,11 @@
   "name": "紫晶の花冠",
   "title": "深き愛の誓約·紫晶の花冠",
   "desc": "「永遠のオアシスの楽園のため、咲き誇るパティサラのため、花の女主人はアメジストの王冠を戴いた。」",
-  "in_play_description": "<span style=\"color:#FFFFFFFF\">装備したキャラが出撃キャラで、相手が<span style=\"color:#7EC236FF\">草元素ダメージ</span>を受けた後</span>、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>を1枚蓄積する。<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>が味方の手札の数以上の場合、ランダムで基本元素サイコロを1個生成する。<br/>（各ラウンドで最大2個まで）",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">相手がダメージを受けた後</span>、受けたダメージが<span style=\"color:#7EC236FF\">草元素ダメージ</span>または<span style=\"color:#7EC236FF\">草元素関連反応</span>を引き起こした場合、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>を1枚蓄積する。（最大2まで重ねられる）<br/><span style=\"color:#FFFFFFFF\">アクションフェーズ開始時</span>、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>が2の場合、本ラウンドで味方が次に引き起こす元素反応によるダメージがさらに+2。",
   "attributes": {
-    "cost": 1,
-    "cost_type": "同一元素",
+    "cost": 0,
     "card_type": "装備カード",
-    "energy": [
-      {
-        "_id": 1108,
-        "id": "matching_element",
-        "type": "同一元素",
-        "count": 1
-      }
-    ],
+    "energy": [],
     "artifact": {
       "_id": 215028,
       "id": "flower_of_paradise_lost",
@@ -29,7 +21,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">装備したキャラが出撃キャラで、相手が<span style=\"color:#7EC236FF\">草元素ダメージ</span>を受けた後</span>、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>を1枚蓄積する。<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>が味方の手札の数以上の場合、ランダムで基本元素サイコロを1個生成する。<br/>（各ラウンドで最大2個まで）<br/>（キャラが装備できる「聖遺物」は1つのみ）"
+      "desc": "<span style=\"color:#FFFFFFFF\">相手がダメージを受けた後</span>、受けたダメージが<span style=\"color:#7EC236FF\">草元素ダメージ</span>または<span style=\"color:#7EC236FF\">草元素関連反応</span>を引き起こした場合、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>を1枚蓄積する。（最大2まで重ねられる）<br/><span style=\"color:#FFFFFFFF\">アクションフェーズ開始時</span>、<span style=\"color:#FFFFFFFF\">「花冠の水晶」</span>が2の場合、本ラウンドで味方が次に引き起こす元素反応によるダメージがさらに+2。<br/>（キャラが装備できる「聖遺物」は1つのみ）"
     }
   ]
 }

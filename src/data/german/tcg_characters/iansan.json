@@ -1,0 +1,80 @@
+{
+  "_id": 1414,
+  "id": "iansan",
+  "shareId": 506,
+  "name": "Iansan",
+  "title": "Von geschmolzenem Gestein gehärtet – Iansan",
+  "desc": "Früh schlafen, früh aufstehen, wenig Zucker, wenig Salz.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Stangenwaffe",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Iansan in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "weighted_spike",
+      "name": "Beschwerter Stab",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderbolt_rush",
+      "name": "Schnell wie der Blitz",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span>; erschafft 1 Stapelung <span style=\"color:#FFFFFFFF\">Gewandter Wechsel</span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_three_principles_of_power",
+      "name": "Drei Prinzipien der Stärke",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span>; erschafft 1 <span style=\"color:#FFFFFFFF\">Kinetische Markierung</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "caloric_balancing_plan",
+      "name": "Plan zum energetischen Gleichgewicht",
+      "desc": "Passiv – Stellt, wenn die Anzahl der <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span> 2 beträgt, nachdem deine Figur das <span style=\"color:#FFFFFFFF\">Vorbereiten der Fähigkeiten</span> abgeschlossen hat oder 2-mal die Figur gewechselt wurde, während sich die Figur im Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> befindet, der Figur, die den meisten SCH erlitten hat, 1 LP wieder her. Ansonsten erhält sie 1 <span style=\"color:#FFFFFFFF\">„Nachtseelenpunkt“</span> (3-mal pro Runde).",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

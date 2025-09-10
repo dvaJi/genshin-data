@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "Aşınmış Kadim Ateşin Efendisi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": ["Canavar"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Karanlık Pençe Saldırısı",
+      "desc": "2 ? verir.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Aşınmış Alevli Tüyler",
+      "desc": "3 ? verir ve destenin en üstündeki 1 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanır.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Kesici Kadim Ateş",
+      "desc": "1 ? verir ve rakibin tüm bekleyen karakterlerine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir. İki tarafın da destelerinin en üstündeki 3 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanır ve kendilerine 1 kademe <span style=\"color:#FFFFFFFF\">Hınç</span> eklenir.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Hınç",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uyguladığın her 6 kart için kendine 1 kademe <span style=\"color:#FFFFFFFF\">Hınç</span> eklenir.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "Karanlıktan Gelen Kükreme",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 6 veya daha az Cana sahipse iki oyuncunun da destelerinin en üstündeki 9 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanır. (Her Düelloda bir defa)",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_id": 1601,
+  "id": "smoked_fish_steak",
+  "name": "Filet de poisson fumé",
+  "description": "Un grand filet de poisson. Le poisson a été saumuré et placé sur une latte de bois avant d'être fumé. Le produit final préserve non seulement l'intégrité physique du poisson, mais possède également une saveur fumée unique.",
+  "rarity": 1,
+  "ingredients": [
+    {
+      "_id": 100084,
+      "id": "fish",
+      "name": "Poisson",
+      "amount": 1
+    },
+    {
+      "_id": 100075,
+      "id": "salt",
+      "name": "Sel",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "_id": 108861,
+      "name": "Filet de poisson fumé (suspect)",
+      "description": "Un grand filet de poisson. L'odeur âcre provoque une répulsion immédiate. Après une bouchée hésitante, l'abondance de sel rend la dégustation impossible, ne laissant d'autre choix que d'avaler rapidement pour éviter le gaspillage.",
+      "effect": "Restaure 8 % des PV max du personnage sélectionné et 800 PV supplémentaires."
+    },
+    "normal": {
+      "_id": 108862,
+      "name": "Filet de poisson fumé",
+      "description": "Un grand filet de poisson. Le poisson a été saumuré et placé sur une latte de bois avant d'être fumé. Le produit final préserve non seulement l'intégrité physique du poisson, mais possède également une saveur fumée unique.",
+      "effect": "Restaure 9 % des PV max du personnage sélectionné et 1 000 PV supplémentaires."
+    },
+    "delicious": {
+      "_id": 108863,
+      "name": "Filet de poisson fumé (délicieux)",
+      "description": "Un grand filet de poisson. Le poisson tendre se dissout sans effort sur la langue, combinant des notes savoureuses avec une pointe de douceur, tandis que le parfum fumé persiste, offrant un final parfait à ce délice savoureux.",
+      "effect": "Restaure 10 % des PV max du personnage sélectionné et 1 200 PV supplémentaires."
+    },
+    "special": {
+      "_id": 108895,
+      "id": "long_night_alight",
+      "name": "Brasier des longues nuits",
+      "description": "Spécialité culinaire de Flins. Les fines tranches de poisson scintillent d'une lueur rouge orangé translucide, digne d'une pierre précieuse. Un arôme boisé et fumé sublime la fraîcheur du poisson, tel un doux air de musique classique. La précision du contrôle de la chaleur révèle une maîtrise culinaire exemplaire, véritable reflet du talent de Flins.",
+      "effect": "Restaure 16 % des PV max du personnage sélectionné et 1 350 PV supplémentaires.",
+      "character": {
+        "id": "flins",
+        "name": "Flins"
+      }
+    }
+  }
+}

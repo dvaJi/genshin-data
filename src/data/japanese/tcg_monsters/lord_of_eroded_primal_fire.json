@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "蝕まれし源焔の主",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": ["魔物"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "虚界の黒爪",
+      "desc": "?を2与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "蝕まれし炎の翼",
+      "desc": "?を3与える。味方の山札の一番上にあるカードを1枚<span style=\"color:#FFFFFFFF\">破棄</span>する。",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "業を断ち切る源焔",
+      "desc": "?を1与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を1与える。双方の山札の一番上にあるカードを3枚<span style=\"color:#FFFFFFFF\">破棄</span>する。また、自身に<span style=\"color:#FFFFFFFF\">怨恨</span>を1層付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "怨恨",
+      "desc": "【固有】味方がカードを6枚<span style=\"color:#FFFFFFFF\">破棄</span>するたびに、自身に<span style=\"color:#FFFFFFFF\">怨恨</span>を1層付与する。",
+      "skillTag": ["固有スキル"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "漆黒の怒号",
+      "desc": "【固有】<span style=\"color:#FFFFFFFF\">自身がダメージを受けた時</span>、自身のHPが6以下の場合、双方の山札の一番上にあるカードを9枚<span style=\"color:#FFFFFFFF\">破棄</span>する。（各対戦で1回のみ）",
+      "skillTag": ["固有スキル"],
+      "points": []
+    }
+  ]
+}

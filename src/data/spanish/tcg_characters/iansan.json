@@ -1,0 +1,80 @@
+{
+  "_id": 1414,
+  "id": "iansan",
+  "shareId": 506,
+  "name": "Iansán",
+  "title": "Iansán - La Entrenadora Funderrocas",
+  "desc": "Acostarse temprano, levantarse temprano, comer poco azúcar y poca sal.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Lanza",
+    "faction": ["Natlan"],
+    "source": "Se obtiene tras retar y ganar a Iansán en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "weighted_spike",
+      "name": "Punzada pesada",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderbolt_rush",
+      "name": "Acelerón relámpago",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?. Entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>, obtiene 1 pt. de <span style=\"color:#FFFFFFFF\">noctambulismo</span> y crea 1 carga de <span style=\"color:#FFFFFFFF\">cambio rápido</span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_three_principles_of_power",
+      "name": "Los tres principios de la fuerza",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?. Entra en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span>, obtiene 1 pt. de <span style=\"color:#FFFFFFFF\">noctambulismo</span> y crea 1 carga de <span style=\"color:#FFFFFFFF\">indicador de energía cinética</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "caloric_balancing_plan",
+      "name": "Plan calórico equilibrado",
+      "desc": "Pasiva: cuando está en el estado de <span style=\"color:#FFFFFFFF\">bendición noctámbula</span> y después de que hayas realizado una <span style=\"color:#FFFFFFFF\">Preparación de habilidad</span> o cambiado de personaje 2 veces, si tiene 2 pts. de <span style=\"color:#FFFFFFFF\">noctambulismo</span>, el personaje que más daño haya recibido obtiene Vida +1. De lo contrario, obtiene 1 pt. de <span style=\"color:#FFFFFFFF\">noctambulismo</span> (3 veces por ronda).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

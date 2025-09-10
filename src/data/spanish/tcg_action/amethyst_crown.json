@@ -5,19 +5,11 @@
   "name": "Corona de Amatista",
   "title": "Alianza emocional: Corona de Amatista",
   "desc": "“En honor al Oasis Eterno y a las florecientes orquídeas padishá, la Maestra de las Flores se adornó con una corona de amatistas”.",
-  "in_play_description": "<span style=\"color:#FFFFFFFF\">Cuando el personaje que obtiene este efecto es el personaje en combate y el enemigo recibe <span style=\"color:#7EC236FF\">Daño Dendro</span></span>, otorga 1 <span style=\"color:#FFFFFFFF\">“corona vidriada”</span>. Si tienes la misma cantidad o más <span style=\"color:#FFFFFFFF\">coronas vidriadas</span> que cartas, se crea 1 dado elemental aleatorio.<br/>Se pueden crear hasta 2 dados elementales aleatorios por ronda.",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Cuando el enemigo recibe daño</span>, si dicho daño es <span style=\"color:#7EC236FF\">Daño Dendro</span> o causa una <span style=\"color:#7EC236FF\">Reacción Elemental Dendro</span>, acumula 1 <span style=\"color:#FFFFFFFF\">“corona vidriada”</span> (máx. 2). <span style=\"color:#FFFFFFFF\">Al comienzo de la fase de acciones</span>, si tienes 2 <span style=\"color:#FFFFFFFF\">coronas vidriadas</span>, tu personaje inflige daño adicional +2 la próxima vez que cause una Reacción Elemental durante esta ronda.",
   "attributes": {
-    "cost": 1,
-    "cost_type": "Dados unielementales",
+    "cost": 0,
     "card_type": "Carta de equipamiento",
-    "energy": [
-      {
-        "_id": 1108,
-        "id": "matching_element",
-        "type": "Dados unielementales",
-        "count": 1
-      }
-    ],
+    "energy": [],
     "artifact": {
       "_id": 215028,
       "id": "flower_of_paradise_lost",
@@ -29,7 +21,7 @@
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Cuando el personaje que obtiene este efecto es el personaje en combate y el enemigo recibe <span style=\"color:#7EC236FF\">Daño Dendro</span></span>, otorga 1 <span style=\"color:#FFFFFFFF\">“corona vidriada”</span>. Si tienes la misma cantidad o más <span style=\"color:#FFFFFFFF\">coronas vidriadas</span> que cartas, se crea 1 dado elemental aleatorio.<br/>Se pueden crear hasta 2 dados elementales aleatorios por ronda.<br/>Cada personaje solo puede llevar equipado 1 artefacto."
+      "desc": "<span style=\"color:#FFFFFFFF\">Cuando el enemigo recibe daño</span>, si dicho daño es <span style=\"color:#7EC236FF\">Daño Dendro</span> o causa una <span style=\"color:#7EC236FF\">Reacción Elemental Dendro</span>, acumula 1 <span style=\"color:#FFFFFFFF\">“corona vidriada”</span> (máx. 2). <span style=\"color:#FFFFFFFF\">Al comienzo de la fase de acciones</span>, si tienes 2 <span style=\"color:#FFFFFFFF\">coronas vidriadas</span>, tu personaje inflige daño adicional +2 la próxima vez que cause una Reacción Elemental durante esta ronda.<br/>Cada personaje solo puede llevar equipado 1 artefacto."
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "_id": 2305,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 508,
+  "name": "Lord of Eroded Primal Fire",
+  "title": "\"The Slain Dragon Molded\" Lord of Eroded Primal Fire",
+  "desc": "A monster of the void, known as both the Reaper of the Abyss and \"Gosoythoth.\" It is able to corrupt memories contained within the Ley Lines, congealing them into tangible forces of catastrophic portent.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": ["Monster"],
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Lord of Eroded Primal Fire"
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Void Claw Strike",
+      "desc": "Deals 2 ?.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Eroded Flaming Feathers",
+      "desc": "Deal 3 ? and <span style=\"color:#FFFFFFFF\">Discard</span> the top 1 card from your deck.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Severing Primal Fire",
+      "desc": "Deals 1 ?, and deals 1 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to all the opponent's off-field characters. Both sides <span style=\"color:#FFFFFFFF\">Discard</span> the top 3 cards from their decks and attach 1 stack of <span style=\"color:#FFFFFFFF\">Resentment</span> to themselves.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Resentment",
+      "desc": "(Passive) For every 6 cards you <span style=\"color:#FFFFFFFF\">Discard</span>, attach 1 stack of <span style=\"color:#FFFFFFFF\">Resentment</span> to self.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

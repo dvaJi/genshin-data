@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "Lorde do Fogo Original Erodido",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Outras Armas",
+    "faction": ["Monstro"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Garras do Vazio",
+      "desc": "Causa 2 pontos de ?.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Plumas Flamejantes Erodidas",
+      "desc": "Causa 3 de ?, <span style=\"color:#FFFFFFFF\">Descarta</span> a carta do topo do seu deck.",
+      "skillTag": ["Habilidade Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Fogo Primordial da Catástrofe",
+      "desc": "Causa 1 de ? e causa 1 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a todos os oponentes fora de combate. <span style=\"color:#FFFFFFFF\">Descarta</span> as três primeiras cartas do topo dos decks de ambos os lados e aplica 1 acúmulo de <span style=\"color:#FFFFFFFF\">Ressentimento</span> a si.",
+      "skillTag": ["Supremo"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Ressentimento",
+      "desc": "(Passivo) Para cada 6 cartas que você <span style=\"color:#FFFFFFFF\">Descarta</span>, aplica 1 acúmulo de <span style=\"color:#FFFFFFFF\">Ressentimento</span> a si.",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "Rugido da Escuridão",
+      "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Quando esse personagem sofre Dano:</span> Se a Vida deste personagem não for mais que 6, <span style=\"color:#FFFFFFFF\">Descarta</span> as 9 primeiras cartas do topo dos decks de ambos os jogadores. (Uma vez por partida)",
+      "skillTag": ["Habilidade Passiva"],
+      "points": []
+    }
+  ]
+}

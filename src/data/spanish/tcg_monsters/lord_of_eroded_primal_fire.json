@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "Señor del Fuego Primigenio Corroído",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Garras del Vacío",
+      "desc": "Inflige 2 pts. de ?.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Plumas del fuego corrosivo",
+      "desc": "Inflige 3 pts. de ? y realizas un <span style=\"color:#FFFFFFFF\">descarte</span> de 1 carta desde la parte superior de tu mazo.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Saqueo del Fuego Primigenio",
+      "desc": "Inflige 1 pt. de ?, y 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> contra todos los personajes enemigos en reserva. Ambos jugadores realizan un <span style=\"color:#FFFFFFFF\">descarte</span> de las 3 cartas de la parte superior de sus mazos. Después, obtiene 1 carga de <span style=\"color:#FFFFFFFF\">resentimiento</span>.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Resentimiento",
+      "desc": "Pasiva: por cada <span style=\"color:#FFFFFFFF\">descarte</span> de 6 cartas que realices, obtiene 1 carga de <span style=\"color:#FFFFFFFF\">resentimiento</span>.",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "Rugido de la oscuridad",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">cuando recibe daño</span>, si tiene menos de 6 pts. de Vida, se realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de 9 cartas desde la parte superior del mazo de cada jugador (1 vez por partida).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

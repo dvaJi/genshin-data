@@ -1,0 +1,80 @@
+{
+  "_id": 1414,
+  "id": "iansan",
+  "shareId": 506,
+  "name": "얀사",
+  "title": "불굴의 용암·얀사",
+  "desc": "규칙적인 수면과 저염저당 식단",
+  "attributes": {
+    "hp": 12,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "장병기",
+    "faction": ["나타"],
+    "source": "캣테일 술집에서 얀사 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "weighted_spike",
+      "name": "바벨 강타",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "thunderbolt_rush",
+      "name": "전광석화",
+      "desc": "?를 ?pt 주고 자신이 <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입해 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득하며 <span style=\"color:#FFFFFFFF\">민첩한 교체</span>를 1스택 생성한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "the_three_principles_of_power",
+      "name": "힘의 3요소",
+      "desc": "?를 ?pt 주고 자신이 <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입하며, <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득하고 <span style=\"color:#FFFFFFFF\">운동량 측정기</span>를 생성한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "caloric_balancing_plan",
+      "name": "열량의 균형",
+      "desc": "[패시브] 자신이 <span style=\"color:#FFFFFFFF\">밤혼 가호</span> 상태일 시, 아군 캐릭터가 <span style=\"color:#FFFFFFFF\">스킬 준비</span> 또는 「캐릭터 교체」 누적 2회 후, <span style=\"color:#FFFFFFFF\">「밤혼」</span>이 2pt일 경우 피해를 가장 많이 받은 아군 캐릭터의 HP를 1pt 치유한다. 그렇지 않을 경우 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득한다. (턴당 3회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

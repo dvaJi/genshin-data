@@ -1,0 +1,80 @@
+{
+  "_id": 2305,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 508,
+  "name": "Érodé seigneur du feu primordial",
+  "title": "Dragon mort modélisé : Érodé seigneur du feu primordial",
+  "desc": "Ce monstre du néant, connu sous les noms de faucheur de l'Abîme et de Gosoythoth, est capable de corrompre les souvenirs contenus dans les lignes énergétiques de la terre afin de les condenser en forces tangibles de présage catastrophique.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Érodé seigneur du feu primordial"
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "Griffe du néant",
+      "desc": "Inflige 2 pts de ?.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "Plume de feu érodée",
+      "desc": "Inflige 3 pts de ? et <span style=\"color:#FFFFFFFF\">défausse</span> 1 carte du haut de votre deck.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "Feu primordial tranchant",
+      "desc": "Inflige 1 pt de ?, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente, <span style=\"color:#FFFFFFFF\">défausse</span> les 3 cartes du haut du deck de chaque camp et applique 1 cumul de <span style=\"color:#FFFFFFFF\">ressentiment</span> au personnage affecté.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "Ressentiment",
+      "desc": "(Passif) Chaque fois que vous <span style=\"color:#FFFFFFFF\">défaussez</span> 6 cartes : Applique 1 cumul de <span style=\"color:#FFFFFFFF\">ressentiment</span> au personnage affecté.",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

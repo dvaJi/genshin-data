@@ -1,0 +1,87 @@
+{
+  "_id": 4309,
+  "id": "lord_of_eroded_primal_fire",
+  "shareId": 4309,
+  "name": "침식된 근원의 불꽃 주인",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 28,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "void_claw_strike",
+      "name": "허계의 검은 발톱",
+      "desc": "?를 2pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eroded_flaming_feathers",
+      "name": "침식된 화염깃",
+      "desc": "?를 3pt 주고, 아군 카드 덱 상단의 카드 1장을 <span style=\"color:#FFFFFFFF\">포기</span>한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "severing_primal_fire",
+      "name": "근원의 불꽃 가르기",
+      "desc": "?를 1pt 주고 상대의 모든 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 1pt 준다. 양측이 카드 덱 상단의 카드 3장을 <span style=\"color:#FFFFFFFF\">포기</span>하고, 자신에게 <span style=\"color:#FFFFFFFF\">격노</span> 1스택을 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "resentment",
+      "name": "격노",
+      "desc": "[패시브] 아군이 카드를 6장 <span style=\"color:#FFFFFFFF\">포기</span>할 때마다 자신에게 <span style=\"color:#FFFFFFFF\">격노</span>을 1스택 부착한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    },
+    {
+      "id": "roar_from_the_darkness",
+      "name": "칠흑의 포효",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">자신이 피해를 받을 시:</span> 자신의 HP가 6 이하일 경우, 양측 카드 덱 상단의 카드 9장을 <span style=\"color:#FFFFFFFF\">포기</span>한다. (대전당 1회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}
