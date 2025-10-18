@@ -11,8 +11,9 @@ export interface Potion {
 }
 
 export interface Craft {
-    cost:  number;
-    items: Item[];
+    cost:   number;
+    items:  Item[];
+    result: number;
 }
 
 export interface Item {
@@ -20,15 +21,4 @@ export interface Item {
     id:     string;
     name:   string;
     amount: number;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toPotion(json: string): Potion[] {
-        return JSON.parse(json);
-    }
-
-    public static potionToJson(value: Potion[]): string {
-        return JSON.stringify(value);
-    }
 }

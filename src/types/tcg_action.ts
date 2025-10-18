@@ -21,6 +21,7 @@ export interface Attributes {
     tags?:      string[];
     food?:      Artifact;
     artifact?:  Artifact;
+    faction?:   string[];
     character?: Character;
 }
 
@@ -46,15 +47,4 @@ export interface Energy {
 export interface Skill {
     name: string;
     desc: string;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toTcgAction(json: string): TcgAction[] {
-        return JSON.parse(json);
-    }
-
-    public static tcgActionToJson(value: TcgAction[]): string {
-        return JSON.stringify(value);
-    }
 }

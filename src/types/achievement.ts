@@ -17,14 +17,3 @@ export interface AchievementElement {
     order:     number;
     preStage?: number;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toAchievement(json: string): Achievement[] {
-        return JSON.parse(json);
-    }
-
-    public static achievementToJson(value: Achievement[]): string {
-        return JSON.stringify(value);
-    }
-}

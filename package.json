@@ -1,5 +1,5 @@
 {
-  "version": "0.53.0",
+  "version": "0.54.0",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -22,6 +22,7 @@
     "build:lib": "vite build",
     "build": "pnpm clean:dist && pnpm build:lib && pnpm build:types",
     "generate": "node ./scripts/generate.js && node ./scripts/generate-typings.mjs",
+    "generate-typings": "node ./scripts/generate-typings.mjs",
     "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
     "format-data": "prettier --log-level warn --write \"src/data/**/*.json\"",
     "format-data-en": "prettier --log-level warn --write \"src/data/english/**/*.json\"",
@@ -32,13 +33,14 @@
   "name": "genshin-data",
   "author": "dvaJi",
   "devDependencies": {
+    "@types/node": "^24.8.0",
     "prettier": "^3.6.2",
     "quicktype": "^23.2.6",
     "quicktype-core": "^23.2.6",
     "rimraf": "^6.0.1",
     "tslib": "^2.8.1",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.10",
     "vitest": "^3.2.4"
   }
 }

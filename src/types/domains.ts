@@ -14,14 +14,3 @@ export interface Rotation {
     day: string;
     ids: string[];
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toDomainsJSON(json: string): DomainsJSON[] {
-        return JSON.parse(json);
-    }
-
-    public static domainsJSONToJson(value: DomainsJSON[]): string {
-        return JSON.stringify(value);
-    }
-}

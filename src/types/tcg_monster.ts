@@ -5,8 +5,8 @@ export interface TcgMonster {
     id:         string;
     shareId:    number;
     name:       string;
-    title:      null | string;
-    desc:       null | string;
+    title?:     string;
+    desc:       string;
     attributes: Attributes;
     skills:     Skill[];
 }
@@ -19,7 +19,7 @@ export interface Attributes {
     weapon:       string;
     faction:      string[];
     talent_card?: TalentCard;
-    source:       null | string;
+    source?:      string;
     character?:   Character;
 }
 
@@ -47,15 +47,4 @@ export interface Point {
     id:    string;
     type:  string;
     count: number;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toTcgMonster(json: string): TcgMonster[] {
-        return JSON.parse(json);
-    }
-
-    public static tcgMonsterToJson(value: TcgMonster[]): string {
-        return JSON.stringify(value);
-    }
 }

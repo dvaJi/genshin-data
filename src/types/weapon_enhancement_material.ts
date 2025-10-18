@@ -8,14 +8,3 @@ export interface WeaponEnhancementMaterial {
     rarity:      number;
     exp:         number;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toWeaponEnhancementMaterial(json: string): WeaponEnhancementMaterial[] {
-        return JSON.parse(json);
-    }
-
-    public static weaponEnhancementMaterialToJson(value: WeaponEnhancementMaterial[]): string {
-        return JSON.stringify(value);
-    }
-}

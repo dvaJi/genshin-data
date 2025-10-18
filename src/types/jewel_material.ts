@@ -19,17 +19,7 @@ export interface Convert {
 }
 
 export interface Craft {
-    cost:  number;
-    items: Convert[];
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toJewelMaterial(json: string): JewelMaterial[] {
-        return JSON.parse(json);
-    }
-
-    public static jewelMaterialToJson(value: JewelMaterial[]): string {
-        return JSON.stringify(value);
-    }
+    cost:   number;
+    items:  Convert[];
+    result: number;
 }

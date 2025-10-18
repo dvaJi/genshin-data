@@ -1,0 +1,72 @@
+{
+  "_id": 20010101,
+  "id": "dendro_slime",
+  "monsterId": 20010101,
+  "name": "Slime Dendro",
+  "specialNames": ["Elemento rodante"],
+  "investigation": {
+    "investigationId": 20,
+    "name": "Slime",
+    "categoryType": "Common",
+    "categoryText": "Normal",
+    "description": "Una criatura elemental de forma redondeada.\\nSe dice que los dulces hechos con Slimes de distintos tipos elementales tienen un sabor delicioso."
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Slime_Water_03",
+  "rewardPreviewId": 16000,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "Mora"
+    },
+    {
+      "_id": 112004,
+      "id": "slime_concentrate",
+      "name": "Esencia de Slime",
+      "count": 0.0448
+    },
+    {
+      "_id": 112003,
+      "id": "slime_secretions",
+      "name": "Babas de Slime",
+      "count": 0.1792
+    },
+    {
+      "_id": 112002,
+      "id": "slime_condensate",
+      "name": "Condensado de Slime",
+      "count": 0.6723
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "Seres elementales",
+  "filename_icon": "UI_MonsterIcon_Slime_Grass_02",
+  "description": "Un Slime que ha experimentado un cambio fundamental en su naturaleza debido a la acumulación del elemento Dendro.\\nDesde un punto de vista biológico, también ha obtenido el punto débil del elemento Dendro: arde rápidamente al entrar en contacto con el fuego.",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 8,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 10.8672,
+      "attack": 7.536,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

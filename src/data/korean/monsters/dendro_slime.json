@@ -1,0 +1,72 @@
+{
+  "_id": 20010101,
+  "id": "dendro_slime",
+  "monsterId": 20010101,
+  "name": "풀 슬라임",
+  "specialNames": ["포동포동한 원소의 힘"],
+  "investigation": {
+    "investigationId": 20,
+    "name": "슬라임",
+    "categoryType": "Common",
+    "categoryText": "일반",
+    "description": "포동포동한 원소 생물.\\n다른 원소 속성의 슬라임으로 만든 디저트는 각자 다른 묘한 맛이 난다고 한다"
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Slime_Water_03",
+  "rewardPreviewId": 16000,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "모라"
+    },
+    {
+      "_id": 112004,
+      "id": "slime_concentrate",
+      "name": "슬라임 원액",
+      "count": 0.0448
+    },
+    {
+      "_id": 112003,
+      "id": "slime_secretions",
+      "name": "슬라임청",
+      "count": 0.1792
+    },
+    {
+      "_id": 112002,
+      "id": "slime_condensate",
+      "name": "슬라임 응축액",
+      "count": 0.6723
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "원소 생명체",
+  "filename_icon": "UI_MonsterIcon_Slime_Grass_02",
+  "description": "풍부한 풀 원소로 인해 생태적 변이가 일어난 슬라임.\\n생태적으로 보면 풀 원소의 약점을 물려받은 셈이다. 불이 붙으면 활활 타오른다",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 8,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 10.8672,
+      "attack": 7.536,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_id": 20060101,
+  "id": "hydro_specter",
+  "monsterId": 20060101,
+  "name": "Hydro Specter",
+  "specialNames": ["Wandering Elemental Spirit"],
+  "investigation": {
+    "investigationId": 34,
+    "name": "Specter",
+    "categoryType": "Common",
+    "categoryText": "Easy",
+    "description": "A monster born from highly-concentrated elements that can float in the air.\\nOn the whole, they are little sprites that have a gentle temperament, much like Slimes, but they can sometimes explode into a rage."
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Sylph_Wind_01",
+  "rewardPreviewId": 16011,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "Mora"
+    },
+    {
+      "_id": 112055,
+      "id": "spectral_nucleus",
+      "name": "Spectral Nucleus",
+      "count": 0.14
+    },
+    {
+      "_id": 112054,
+      "id": "spectral_heart",
+      "name": "Spectral Heart",
+      "count": 0.5602
+    },
+    {
+      "_id": 112053,
+      "id": "spectral_husk",
+      "name": "Spectral Husk",
+      "count": 2.101
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "Elemental Lifeforms",
+  "filename_icon": "UI_MonsterIcon_Sylph_Water_01",
+  "description": "A monster birthed from a high concentration of Hydro that can float in the air.\\nOn moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 4,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 21.7344,
+      "attack": 21.98,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP_2",
+      "attack": "GROW_CURVE_ATTACK_2",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

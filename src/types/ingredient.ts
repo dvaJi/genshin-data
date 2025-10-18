@@ -7,6 +7,7 @@ export interface Ingredient {
     description?: string;
     recipes:      Craft[];
     source:       string[];
+    rarity:       number;
     processing?:  Craft[];
     craft?:       Craft[];
 }
@@ -16,15 +17,4 @@ export interface Craft {
     name:    string;
     amount?: number;
     _id?:    number;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toIngredient(json: string): Ingredient[] {
-        return JSON.parse(json);
-    }
-
-    public static ingredientToJson(value: Ingredient[]): string {
-        return JSON.stringify(value);
-    }
 }

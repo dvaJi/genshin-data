@@ -1,0 +1,72 @@
+{
+  "_id": 20010101,
+  "id": "dendro_slime",
+  "monsterId": 20010101,
+  "name": "Melmoso di Dendro",
+  "specialNames": ["Elementale rotolante"],
+  "investigation": {
+    "investigationId": 20,
+    "name": "Melmoso",
+    "categoryType": "Common",
+    "categoryText": "Facile",
+    "description": "Una paffuta forma di vita elementale.\\nSi dice che i dolci fatti con Melmosi di vari elementi avranno un gusto incredibilmente tipico."
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Slime_Water_03",
+  "rewardPreviewId": 16000,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "Mora"
+    },
+    {
+      "_id": 112004,
+      "id": "slime_concentrate",
+      "name": "Concentrato di Melmoso",
+      "count": 0.0448
+    },
+    {
+      "_id": 112003,
+      "id": "slime_secretions",
+      "name": "Secrezioni di Melmoso",
+      "count": 0.1792
+    },
+    {
+      "_id": 112002,
+      "id": "slime_condensate",
+      "name": "Bava di Melmoso",
+      "count": 0.6723
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "Forme di vita elementali",
+  "filename_icon": "UI_MonsterIcon_Slime_Grass_02",
+  "description": "Un Melmoso che ha subito dei cambiamenti ecologici a causa dell'abbondante quantità di Dendro nel suo ambiente.\\nHa anche acquisito le debolezze dell'elemento Dendro, e brucerà intensamente nel momento in cui entrerà in contatto con una fiamma vivace.",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 8,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 10.8672,
+      "attack": 7.536,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

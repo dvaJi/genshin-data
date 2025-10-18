@@ -1,0 +1,72 @@
+{
+  "_id": 20010101,
+  "id": "dendro_slime",
+  "monsterId": 20010101,
+  "name": "草史萊姆",
+  "specialNames": ["圓滾滾的元素之力"],
+  "investigation": {
+    "investigationId": 20,
+    "name": "史萊姆",
+    "categoryType": "Common",
+    "categoryText": "普通",
+    "description": "圓滾滾的元素生物。\\n據說，不同元素屬性的史萊姆做成的甜點，會有各不相同的奇妙風味。"
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Slime_Water_03",
+  "rewardPreviewId": 16000,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "摩拉"
+    },
+    {
+      "_id": 112004,
+      "id": "slime_concentrate",
+      "name": "史萊姆原漿",
+      "count": 0.0448
+    },
+    {
+      "_id": 112003,
+      "id": "slime_secretions",
+      "name": "史萊姆清",
+      "count": 0.1792
+    },
+    {
+      "_id": 112002,
+      "id": "slime_condensate",
+      "name": "史萊姆凝液",
+      "count": 0.6723
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "元素生命",
+  "filename_icon": "UI_MonsterIcon_Slime_Grass_02",
+  "description": "因為充沛的草元素，而發生了生態上的質變的史萊姆。\\n從生態而言，也獲得了草元素的弱點。一旦遇上明火，就會劇烈地燃燒。",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 8,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 10.8672,
+      "attack": 7.536,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

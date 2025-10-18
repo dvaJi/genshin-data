@@ -20,8 +20,8 @@ export interface Weapon {
 export interface Ascension {
     ascension: number;
     level:     number;
+    cost:      number;
     materials: Material[];
-    cost?:     number;
 }
 
 export interface Material {
@@ -59,15 +59,4 @@ export interface Level {
 export interface Type {
     id:   string;
     name: string;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toWeapon(json: string): Weapon[] {
-        return JSON.parse(json);
-    }
-
-    public static weaponToJson(value: Weapon[]): string {
-        return JSON.stringify(value);
-    }
 }

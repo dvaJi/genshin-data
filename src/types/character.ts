@@ -9,12 +9,12 @@ export interface Character {
     weapon_type:      Element;
     element:          Element;
     gender:           Element;
-    release:          number;
+    release?:         number;
     substat:          string;
     affiliation:      string;
     region:           Element;
     rarity:           number;
-    birthday:         Array<number | null>;
+    birthday:         number[];
     constellation:    string;
     domain:           string;
     cv:               Cv;
@@ -23,6 +23,7 @@ export interface Character {
     constellations:   Constellation[];
     ascension:        Ascension[];
     talent_materials: TalentMaterial[];
+    outfits:          Outfit[];
 }
 
 export interface Ascension {
@@ -64,8 +65,23 @@ export interface Cv {
 }
 
 export interface Element {
-    id:    string;
-    name?: string;
+    id:   string;
+    name: string;
+}
+
+export interface Outfit {
+    id:                  number;
+    name:                string;
+    description:         string;
+    isDefault:           boolean;
+    characterName:       string;
+    characterId:         number;
+    filename_card:       string;
+    filename_iconCircle: string;
+    source?:             string[];
+    filename_icon?:      string;
+    filename_splash?:    string;
+    filename_sideIcon?:  string;
 }
 
 export interface Skill {
@@ -86,15 +102,4 @@ export interface TalentMaterial {
     level: number;
     cost:  number;
     items: Mat1[];
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toCharacter(json: string): Character[] {
-        return JSON.parse(json);
-    }
-
-    public static characterToJson(value: Character[]): string {
-        return JSON.stringify(value);
-    }
 }

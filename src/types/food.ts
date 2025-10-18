@@ -45,14 +45,3 @@ export interface Character {
     id:   string;
     name: string;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toFood(json: string): Food[] {
-        return JSON.parse(json);
-    }
-
-    public static foodToJson(value: Food[]): string {
-        return JSON.stringify(value);
-    }
-}

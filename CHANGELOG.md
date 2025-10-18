@@ -1,3 +1,16 @@
+## [0.54.0](https://github.com/dvaJi/genshin-data/compare/0.53.0...0.54.0) (2025-09-10)
+
+### Features
+
+- Added `monsters`, `geography`, and `domains` data [#22](https://github.com/dvaJi/genshin-data/issues/22)
+- Added `outfits` to `characters`
+- types are now automatically generated. [#16](https://github.com/dvaJi/genshin-data/issues/16), [#14](https://github.com/dvaJi/genshin-data/issues/14), [#15](https://github.com/dvaJi/genshin-data/issues/15)
+
+### Fixes
+
+- portable_bearing is missing [#23](https://github.com/dvaJi/genshin-data/issues/23)
+- Fontaine's talent book location description is wrong [#19](https://github.com/dvaJi/genshin-data/issues/19)
+
 ## [0.53.0](https://github.com/dvaJi/genshin-data/compare/0.52.0...0.53.0) (2025-09-10)
 
 ### Features

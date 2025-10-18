@@ -16,14 +16,3 @@ export interface Bait {
     name:   string;
     rarity: number;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toFish(json: string): Fish[] {
-        return JSON.parse(json);
-    }
-
-    public static fishToJson(value: Fish[]): string {
-        return JSON.stringify(value);
-    }
-}

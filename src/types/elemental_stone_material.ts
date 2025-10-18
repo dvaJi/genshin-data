@@ -8,14 +8,3 @@ export interface ElementalStoneMaterial {
     source:      string[];
     rarity:      number;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toElementalStoneMaterial(json: string): ElementalStoneMaterial[] {
-        return JSON.parse(json);
-    }
-
-    public static elementalStoneMaterialToJson(value: ElementalStoneMaterial[]): string {
-        return JSON.stringify(value);
-    }
-}

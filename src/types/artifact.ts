@@ -22,14 +22,3 @@ export interface Circlet {
     name:        string;
     description: string;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toArtifact(json: string): Artifact[] {
-        return JSON.parse(json);
-    }
-
-    public static artifactToJson(value: Artifact[]): string {
-        return JSON.stringify(value);
-    }
-}

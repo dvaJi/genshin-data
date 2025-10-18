@@ -1,0 +1,72 @@
+{
+  "_id": 20060101,
+  "id": "hydro_specter",
+  "monsterId": 20060101,
+  "name": "Гидро призрак",
+  "specialNames": ["Блуждающий дух стихии"],
+  "investigation": {
+    "investigationId": 34,
+    "name": "Призрак",
+    "categoryType": "Common",
+    "categoryText": "Обычные",
+    "description": "Монстры, рождённые из высокой концентрации элементов, которые могут парить в воздухе.\\nВ целом, это маленькие слаймы с мягким характером, но иногда они могут впадать в ярость."
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Sylph_Wind_01",
+  "rewardPreviewId": 16011,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "Мора"
+    },
+    {
+      "_id": 112055,
+      "id": "spectral_nucleus",
+      "name": "Призрачное ядро",
+      "count": 0.14
+    },
+    {
+      "_id": 112054,
+      "id": "spectral_heart",
+      "name": "Призрачное сердце",
+      "count": 0.5602
+    },
+    {
+      "_id": 112053,
+      "id": "spectral_husk",
+      "name": "Призрачная оболочка",
+      "count": 2.101
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "Элементальные существа",
+  "filename_icon": "UI_MonsterIcon_Sylph_Water_01",
+  "description": "Монстр, рожденный из высокой концентрации Гидро, который может парить в воздухе.\\nЛунными ночами Гидро призраки испускают призрачное сияние, паря у берегов рек. Прохожие принимают их за блуждающих духов, поэтому они часто встречаются во многих народных сказках.",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 4,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 21.7344,
+      "attack": 21.98,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP_2",
+      "attack": "GROW_CURVE_ATTACK_2",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

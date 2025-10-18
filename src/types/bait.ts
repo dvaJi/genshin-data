@@ -11,6 +11,7 @@ export interface Bait {
 }
 
 export interface Craft {
+    cost:   number;
     items:  Fish[];
     result: number;
 }
@@ -21,15 +22,4 @@ export interface Fish {
     name:    string;
     amount?: number;
     rarity?: number;
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toBait(json: string): Bait[] {
-        return JSON.parse(json);
-    }
-
-    public static baitToJson(value: Bait[]): string {
-        return JSON.stringify(value);
-    }
 }

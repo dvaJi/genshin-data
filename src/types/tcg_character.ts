@@ -44,14 +44,3 @@ export interface Point {
     type:  string;
     count: number;
 }
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toTcgCharacter(json: string): TcgCharacter[] {
-        return JSON.parse(json);
-    }
-
-    public static tcgCharacterToJson(value: TcgCharacter[]): string {
-        return JSON.stringify(value);
-    }
-}

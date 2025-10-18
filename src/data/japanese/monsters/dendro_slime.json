@@ -1,0 +1,72 @@
+{
+  "_id": 20010101,
+  "id": "dendro_slime",
+  "monsterId": 20010101,
+  "name": "草スライム",
+  "specialNames": ["真ん丸い元素の力"],
+  "investigation": {
+    "investigationId": 20,
+    "name": "スライム",
+    "categoryType": "Common",
+    "categoryText": "普通",
+    "description": "丸い元素生物。\\n異なる元素のスライムで作られたスイーツが異なる味わいがする。"
+  },
+  "filename_investigationIcon": "UI_MonsterIcon_Slime_Water_03",
+  "rewardPreviewId": 16000,
+  "rewardPreview": [
+    {
+      "_id": 202,
+      "id": "mora",
+      "name": "モラ"
+    },
+    {
+      "_id": 112004,
+      "id": "slime_concentrate",
+      "name": "スライムのピュレ",
+      "count": 0.0448
+    },
+    {
+      "_id": 112003,
+      "id": "slime_secretions",
+      "name": "スライムの分泌物",
+      "count": 0.1792
+    },
+    {
+      "_id": 112002,
+      "id": "slime_condensate",
+      "name": "スライムの液体",
+      "count": 0.6723
+    }
+  ],
+  "monsterType": "MONSTER_ORDINARY",
+  "enemyType": "NORMAL",
+  "categoryType": "CODEX_SUBTYPE_ELEMENTAL",
+  "categoryText": "元素生命",
+  "filename_icon": "UI_MonsterIcon_Slime_Grass_02",
+  "description": "豊富な草元素により、生態上の変化を遂げたスライム。\\n火と接触すると、激しく燃えてしまうと言う、草元素の弱点も受け継いだ。",
+  "aggroRange": "VISION_LEVEL_NORMAL",
+  "bgm": 1,
+  "budget": 8,
+  "stats": {
+    "resistance": {
+      "physical": 0.1,
+      "pyro": 0.1,
+      "dendro": 0.1,
+      "hydro": 0.1,
+      "geo": 0.1,
+      "anemo": 0.1,
+      "cryo": 0.1,
+      "electro": 0.1
+    },
+    "base": {
+      "hp": 10.8672,
+      "attack": 7.536,
+      "defense": 500
+    },
+    "curve": {
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
+    }
+  }
+}

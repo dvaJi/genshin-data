@@ -11,6 +11,7 @@ export interface TalentLvlUpMaterial {
     location?:   string;
     craft?:      Craft;
     domain?:     string;
+    domainId?:   string;
     days?:       string[];
 }
 
@@ -22,17 +23,7 @@ export interface Convert {
 }
 
 export interface Craft {
-    cost:  number;
-    items: Convert[];
-}
-
-// Converts JSON strings to/from your types
-export class Convert {
-    public static toTalentLvlUpMaterial(json: string): TalentLvlUpMaterial[] {
-        return JSON.parse(json);
-    }
-
-    public static talentLvlUpMaterialToJson(value: TalentLvlUpMaterial[]): string {
-        return JSON.stringify(value);
-    }
+    cost:   number;
+    items:  Convert[];
+    result: number;
 }
