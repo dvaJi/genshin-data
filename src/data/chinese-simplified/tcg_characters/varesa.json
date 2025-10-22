@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "瓦雷莎",
+  "title": "悠暇豪劲·瓦雷莎",
+  "desc": "谨守恬安，豪勇锐进。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": ["纳塔"],
+    "source": "在猫尾酒馆中邀请瓦雷莎进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "角力搏摔",
+      "desc": "造成?点?。<span style=\"color:#FFFFFFFF\">此次技能为<span style=\"color:#FFFFFFFF\">下落攻击</span>时：</span>造成的伤害+1，自身进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，并获得1点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>。",
+      "skillTag": ["普通攻击"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "夜虹逐跃",
+      "desc": "造成?点?，自身附属<span style=\"color:#FFFFFFFF\">突驰烈进</span>，进入<span style=\"color:#FFFFFFFF\">夜魂加持</span>，并获得1点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>，然后我方切换到下一个角色。",
+      "skillTag": ["元素战技"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "闪烈降临！",
+      "desc": "造成?点?，自身附属<span style=\"color:#FFFFFFFF\">极限驱动</span>。",
+      "skillTag": ["元素爆发"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "连势，三重腾跃！",
+      "desc": "【被动】<color=#FFFFFFFF><span style=\"color:#FFFFFFFF\">瓦雷莎</span>使用技能后：</color>如果自身<span style=\"color:#FFFFFFFF\">「夜魂值」</span>等于2，则消耗2点<span style=\"color:#FFFFFFFF\">「夜魂值」</span>，自身附属<span style=\"color:#FFFFFFFF\">极限驱动</span>。",
+      "skillTag": ["被动技能"],
+      "points": []
+    }
+  ]
+}

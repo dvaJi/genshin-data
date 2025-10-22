@@ -1,0 +1,78 @@
+{
+  "_id": 4210,
+  "id": "hydro_tulpa",
+  "shareId": 4210,
+  "name": "Hydro Tulpa",
+  "desc": "",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": ["Monster"]
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "Savage Swell",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "Storm Surge",
+      "desc": "Mengakibatkan ? poin ? dan memicu efek \"Tahap Selesai\" dari 1 Panggilan-mu secara acak. Jika HP diri sendiri tidak kurang dari 2, maka diri sendiri akan menerima 1 poin <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Piercing DMG</span></span>.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "Thundering Tide",
+      "desc": "Mengakibatkan ? poin ?, memicu efek \"Tahap Selesai\" dari semua Panggilan-mu.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "Branching Flow",
+      "desc": "<span style=\"color:#FFFFFFFF\">Saat HP diri sendiri tidak kurang dari 3 dan Panggilan selain Half-Tulpa milikmu meninggalkan arena: </span>Diri sendiri menerima 2 poin <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Piercing DMG</span></span> dan memanggil 1 <span style=\"color:#FFFFFFFF\">Half-Tulpa</span> terpisah. (Sekali setiap Ronde)",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

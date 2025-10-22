@@ -1,0 +1,73 @@
+{
+  "_id": 1515,
+  "id": "ifa",
+  "shareId": 522,
+  "name": "Ifa",
+  "title": "\"In the Wake of Wandering Winds\" Ifa",
+  "desc": "Rescue rapid as a raid.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalyst",
+    "faction": ["Natlan"],
+    "source": "Reward for inviting Ifa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
+  },
+  "skills": [
+    {
+      "id": "rite_of_dispelling_winds",
+      "name": "Rite of Dispelling Winds",
+      "desc": "Deals 1 <span style=\"color:#80FFD7FF\">Anemo DMG</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "airborne_disease_prevention",
+      "name": "Airborne Disease Prevention",
+      "desc": "Deals ? ?, enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, gains 2 <span style=\"color:#FFFFFFFF\">Nightsoul points</span>, and applies <span style=\"color:#FFFFFFFF\">Cacucu</span> to self. (This skill cannot be used after the character enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>.)<br/>(Characters with <span style=\"color:#FFFFFFFF\">Cacucu</span> attached can use the Technique: <span style=\"color:#FFFFFFFF\">Supporting Fire</span>)",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "compound_sedation_field",
+      "name": "Compound Sedation Field",
+      "desc": "Deals ? ?, heals the character on your team who has taken the most DMG for 2 HP. If this Skill triggers <span style=\"color:#80FFD7FF\">Anemo-Related Reactions</span>, attach a <span style=\"color:#FFFFFFFF\">Sedation Mark</span> of the corresponding element to the opponent's active character.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

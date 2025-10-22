@@ -1,7 +1,7 @@
 {
   "_id": 25010201,
   "id": "treasure_hoarders_scout",
-  "monsterId": 25010292,
+  "monsterId": 84501021,
   "name": "Cacciatore di tesori ricognitore",
   "specialNames": [
     "Dito d'oro",
@@ -41,12 +41,12 @@
   "categoryText": "Altre fazioni umane",
   "filename_icon": "UI_MonsterIcon_Thoarder_Male_Rogue_01",
   "description": "Uno dei membri di un'organizzazione criminale decentralizzata che si è estesa in ogni angolo del continente, e perfino nelle profondità di domini sconosciuti.\\nSvolgono il lavoro più duro, spesso inseguendo i bersagli. Di solito finiscono per unirsi a circoli criminali a causa della loro povertà o per mancanza d'istruzione, ma non sembrano essersi arricchiti dopo aver scelto una vita del genere...",
-  "aggroRange": "VISION_LEVEL_REMOTE",
+  "aggroRange": "VISION_LEVEL_NORMAL",
   "bgm": 1,
-  "budget": 8,
+  "budget": 16,
   "stats": {
     "resistance": {
-      "physical": 0.1,
+      "physical": -0.2,
       "pyro": 0.1,
       "dendro": 0.1,
       "hydro": 0.1,
@@ -56,14 +56,14 @@
       "electro": 0.1
     },
     "base": {
-      "hp": 36.742332,
-      "attack": 46.2,
-      "defense": 200
+      "hp": 16.3008,
+      "attack": 15.072,
+      "defense": 500
     },
     "curve": {
-      "hp": "GROW_CURVE_ACTIVITY_HP_2",
-      "attack": "GROW_CURVE_ACTIVITY_ATTACK_2",
-      "defense": "GROW_CURVE_ACTIVITY_DEFENSE_2"
+      "hp": "GROW_CURVE_HP",
+      "attack": "GROW_CURVE_ATTACK",
+      "defense": "GROW_CURVE_DEFENSE"
     }
   }
 }

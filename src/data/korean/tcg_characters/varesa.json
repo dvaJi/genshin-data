@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "바레사",
+  "title": "부드러운 괴력·바레사",
+  "desc": "평화로운 일상을 위한 돌진!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "번개 원소",
+    "weapon": "법구",
+    "faction": ["나타"],
+    "source": "캣테일 술집에서 바레사 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "레슬링 격투술",
+      "desc": "?를 ?pt 준다. <span style=\"color:#FFFFFFFF\">해당 스킬이 <span style=\"color:#FFFFFFFF\">낙하 공격</span>일 시:</span> 주는 피해+1pt, 자신은 <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입하고 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득한다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "밤무지개 도약",
+      "desc": "?를 ?pt 주고, 자신에게 <span style=\"color:#FFFFFFFF\">맹렬한 돌격</span>을 부착하며 <span style=\"color:#FFFFFFFF\">밤혼 가호</span>에 진입한다. 또한 <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 1pt 획득하고 다음 아군 캐릭터로 교체한다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "벼락불 강림!",
+      "desc": "?를 ?pt 주고 자신에게 <span style=\"color:#FFFFFFFF\">한계 돌파</span>를 부착한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "연속! 세 번의 도약",
+      "desc": "[패시브] <color=#FFFFFFFF><span style=\"color:#FFFFFFFF\">바레사</span>가 스킬 사용 후: </color>자신의 <span style=\"color:#FFFFFFFF\">「밤혼」</span>이 2pt일 경우, <span style=\"color:#FFFFFFFF\">「밤혼」</span>을 2pt 소모하고 <span style=\"color:#FFFFFFFF\">한계 돌파</span>를 부착한다.",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

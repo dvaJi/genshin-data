@@ -1,0 +1,78 @@
+{
+  "_id": 4210,
+  "id": "hydro_tulpa",
+  "shareId": 4210,
+  "name": "Tulpa Hydro",
+  "desc": "",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": ["Monstre"]
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "Houle sauvage",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": ["Attaque normale"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "Marée déchaînée",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et déclenche aléatoirement l'effet de phase finale d'une de vos invocations. Si les PV du personnage affecté ne sont pas inférieurs à 2, il subit 1 pt de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">DGT de perforation</span></span>.",
+      "skillTag": ["Compétence élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "Marée tonitruante",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et déclenche l'effet de phase finale de toutes vos invocations.",
+      "skillTag": ["Déchaînement élémentaire"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "Courant séparé",
+      "desc": "<span style=\"color:#FFFFFFFF\">Lorsque les PV du personnage affecté ne sont pas inférieurs à 3 et qu'une invocation autre qu'un Demi-tulpa quitte le terrain : </span>Inflige 2 pts de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> au personnage affecté et invoque 1 <span style=\"color:#FFFFFFFF\">Demi-tulpa</span> indépendant. (1 fois par manche)",
+      "skillTag": ["Capacité passive"],
+      "points": []
+    }
+  ]
+}

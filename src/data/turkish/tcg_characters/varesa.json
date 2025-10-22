@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "Varesa",
+  "title": "\"Dinginlikte Yatan Güç\" Varesa",
+  "desc": "Savunmada kararlı, saldırıda sarsılmaz.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Elektrik",
+    "weapon": "Katalizör",
+    "faction": ["Natlan"],
+    "source": "Varesa'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "Boynuz Darbesi",
+      "desc": "? ? verir. <span style=\"color:#FFFFFFFF\">Bu sefer kullanılan Beceri <span style=\"color:#FFFFFFFF\">Havadan Saldırı</span> olduğunda</span> fazladan 1 Hasar verir. Bu karakter <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girer ve 1 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanır.",
+      "skillTag": ["Normal Saldırı"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "Gece Gökkuşağının Üzerinde",
+      "desc": "? ? verir, kendine <span style=\"color:#FFFFFFFF\">Ani Taarruz</span> uygular, <span style=\"color:#FFFFFFFF\">Gece Ruhunun Lütfu</span> durumuna girer, 1 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> kazanır ve bir sonraki karaktere geçer.",
+      "skillTag": ["Element Becerisi"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "İhtişamlı İniş!",
+      "desc": "? ? verir, kendine <span style=\"color:#FFFFFFFF\">Gücün Zirvesi</span> uygular.",
+      "skillTag": ["Element Patlaması"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "Güreş Takımının Üçlü Sıçrayışı!",
+      "desc": "(Pasif) <color=#FFFFFFFF><span style=\"color:#FFFFFFFF\">Varesa</span> bir Beceri kullandıktan sonra</color> 2 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> varsa 2 <span style=\"color:#FFFFFFFF\">Gece Ruhu puanı</span> tüketir ve kendine <span style=\"color:#FFFFFFFF\">Gücün Zirvesi</span> uygular.",
+      "skillTag": ["Pasif Beceri"],
+      "points": []
+    }
+  ]
+}

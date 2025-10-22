@@ -1,0 +1,80 @@
+{
+  "_id": 2206,
+  "id": "hydro_tulpa",
+  "shareId": 523,
+  "name": "물의 환인간",
+  "title": "소생한 생명·물의 환인간",
+  "desc": "무수히 많은 물방울이 모여 만들어진 어느 정도 인간의 형태를 띤 마물",
+  "attributes": {
+    "hp": 12,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "기타 무기",
+    "faction": ["마물"],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 물의 환인간에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "너울",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": ["일반 공격"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "급류",
+      "desc": "?를 ?pt 주고 아군 「소환물」 1개의 「종료 단계」 효과를 랜덤으로 발동한다. 만약 자신의 HP가 2pt 이상일 경우 자신이 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">관통 피해</span></span>를 1pt 받는다.",
+      "skillTag": ["원소전투 스킬"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "홍수",
+      "desc": "?를 ?pt 주고 아군의 모든 「소환물」의 「종료 단계」 효과를 발동한다.",
+      "skillTag": ["원소폭발"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "분류",
+      "desc": "<span style=\"color:#FFFFFFFF\">자신의 HP가 3pt 이상이며 아군 불완전한 환인간 이외의 「소환물」이 필드를 떠날 시:</span> 자신이 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">관통 피해</span></span>를 2pt 받고 독립적인 <span style=\"color:#FFFFFFFF\">불완전한 환인간</span>을 1개 소환한다. (턴당 1회)",
+      "skillTag": ["패시브 스킬"],
+      "points": []
+    }
+  ]
+}

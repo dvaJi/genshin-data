@@ -1,0 +1,78 @@
+{
+  "_id": 4210,
+  "id": "hydro_tulpa",
+  "shareId": 4210,
+  "name": "Nhân Dạng Nước",
+  "desc": "",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Vũ Khí Khác",
+    "faction": ["Ma Vật"]
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "Sóng Dâng",
+      "desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.",
+      "skillTag": ["Tấn Công Thường"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "Sóng Lũ",
+      "desc": "Gây ? điểm ?, ngẫu nhiên kích hoạt hiệu quả Giai Đoạn Kết Thúc của 1 Vật Triệu Hồi phe ta. Nếu HP của bản thân không dưới 2, thì bản thân sẽ chịu 1 điểm <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span></span>.",
+      "skillTag": ["Kỹ Năng Nguyên Tố"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "Sóng Gào",
+      "desc": "Gây ? điểm ?, kích hoạt hiệu quả Giai Đoạn Kết Thúc của tất cả Vật Triệu Hồi phe ta.",
+      "skillTag": ["Kỹ Năng Nộ"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "Phân Lưu",
+      "desc": "<span style=\"color:#FFFFFFFF\">Nếu HP của bản thân không dưới 3, khi Vật Triệu Hồi phe ta ngoại trừ Nửa Nhân Dạng rời trận:</span> Bản thân chịu 2 điểm <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span></span>, triệu hồi 1 <span style=\"color:#FFFFFFFF\">Nửa Nhân Dạng</span> độc lập. (Mỗi hiệp 1 lần)",
+      "skillTag": ["Kỹ Năng Bị Động"],
+      "points": []
+    }
+  ]
+}

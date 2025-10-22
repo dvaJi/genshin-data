@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "Varesa",
+  "title": "\"Strength in Serenity\" Varesa",
+  "desc": "Steadfast in defense, unshakeable in offense.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Catalyst",
+    "faction": ["Natlan"],
+    "source": "Reward for inviting Varesa to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "By the Horns",
+      "desc": "Deals ? ?. <span style=\"color:#FFFFFFFF\">When the Skill used this time is <span style=\"color:#FFFFFFFF\">Plunging Attack</span>:</span> Deal +1 DMG. This character enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, and gains 1 <span style=\"color:#FFFFFFFF\">Nightsoul point</span>.",
+      "skillTag": ["Normal Attack"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "Riding the Night-Rainbow",
+      "desc": "Deals ? ?, applies <span style=\"color:#FFFFFFFF\">Sudden Onrush</span> to self, enters <span style=\"color:#FFFFFFFF\">Nightsoul's Blessing</span>, gains 1 <span style=\"color:#FFFFFFFF\">Nightsoul point</span>, then switches to the next character.",
+      "skillTag": ["Elemental Skill"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "Guardian Vent!",
+      "desc": "Deals ? ?, applies <span style=\"color:#FFFFFFFF\">Apex Drive</span> to self.",
+      "skillTag": ["Elemental Burst"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "Tag-Team Triple Jump!",
+      "desc": "(Passive) <color=#FFFFFFFF>After <span style=\"color:#FFFFFFFF\">Varesa</span> uses a Skill:</color> If she has 2 <span style=\"color:#FFFFFFFF\">Nightsoul points</span>, she consumes 2 <span style=\"color:#FFFFFFFF\">Nightsoul points</span> and applies <span style=\"color:#FFFFFFFF\">Apex Drive</span> to herself.",
+      "skillTag": ["Passive Skill"],
+      "points": []
+    }
+  ]
+}

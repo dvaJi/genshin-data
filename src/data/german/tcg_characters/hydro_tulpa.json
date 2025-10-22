@@ -1,0 +1,80 @@
+{
+  "_id": 2206,
+  "id": "hydro_tulpa",
+  "shareId": 523,
+  "name": "Hydro-Imitator",
+  "title": "Erwachtes Leben – Hydro-Imitator",
+  "desc": "Ein menschenähnliches Monster, das sich aus unzähligen Wassertropfen gebildet hat.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": ["Monster"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Hydro-Imitator in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "Wilde Wellen",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "Flutwelle",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Löst den Effekt der „Endphase“ einer zufälligen Beschwörung deiner Seite aus. Wenn die LP dieser Figur nicht weniger als 2 betragen, erleidet sie 1 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span>.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "Tosende Flut",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Löst den Effekt der „Endphase“ aller Beschwörungen deiner Seite aus.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "Verzweigter Fluss",
+      "desc": "<span style=\"color:#FFFFFFFF\">Wenn die LP dieser Figur mindestens 3 betragen und eine Beschwörung von dir (außer Unvollkommener Imitator) das Feld verlässt:</span> Diese Figur erleidet 2 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> und beschwört 1 unabhängigen <span style=\"color:#FFFFFFFF\">Unvollkommener Imitator</span>. (1-mal pro Runde)",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

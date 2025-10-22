@@ -1,0 +1,78 @@
+{
+  "_id": 4210,
+  "id": "hydro_tulpa",
+  "shareId": 4210,
+  "name": "Tulpa Hidromimético",
+  "desc": "",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": ["Monstruo"]
+  },
+  "skills": [
+    {
+      "id": "savage_swell",
+      "name": "Marejada",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": ["Ataque Normal"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "storm_surge",
+      "name": "Oleada rápida",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y activa el efecto de fase final de 1 de tus invocaciones al azar. Si tiene 2 o más pts. de Vida, recibe 1 pt. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span>.",
+      "skillTag": ["Habilidad Elemental"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "thundering_tide",
+      "name": "Tumbazón",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y activa el efecto de fase final de todas tus invocaciones.",
+      "skillTag": ["Habilidad Definitiva"],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "branching_flow",
+      "name": "División de corrientes",
+      "desc": "<span style=\"color:#FFFFFFFF\">Cuando tiene 3 o más pts. de Vida y una invocación (a excepción de tu Tulpa Semimimético) se retira del campo</span>, este personaje recibe 2 pts. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> e invoca un <span style=\"color:#FFFFFFFF\">Tulpa Semimimético</span> independiente (1 vez por ronda).",
+      "skillTag": ["Habilidad pasiva"],
+      "points": []
+    }
+  ]
+}

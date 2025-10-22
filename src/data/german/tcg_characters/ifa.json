@@ -1,0 +1,73 @@
+{
+  "_id": 1515,
+  "id": "ifa",
+  "shareId": 522,
+  "name": "Ifa",
+  "title": "In den Spuren schweifender Winde – Ifa",
+  "desc": "Rasche Rettung naht rasant.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Katalysator",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Ifa in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "rite_of_dispelling_winds",
+      "name": "Ritual des Windbanns",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "airborne_disease_prevention",
+      "name": "Prophylaxe aus der Luft",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein, erhält 2 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span> und <span style=\"color:#FFFFFFFF\">Cacucu</span>. (Diese Fähigkeit kann nicht verwendet werden, nachdem die Figur in <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> eingetreten ist.)<br/>(Figuren, die mit <span style=\"color:#FFFFFFFF\">Cacucu</span> ausgerüstet sind, können die Spezialtechnik anwenden: <span style=\"color:#FFFFFFFF\">Unterstützungsfeuer</span>)",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "compound_sedation_field",
+      "name": "Sammelsedierungsfeld",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Stellt deiner Figur, die den meisten Schaden erlitten hat, 2 LP wieder her. Wenn diese Fähigkeit <span style=\"color:#80FFD7FF\">Anemo-Reaktionen</span> auslöst, wird der aktiven Figur des Gegners ein <span style=\"color:#FFFFFFFF\">Sedierungsmarker</span> des entsprechenden Elements verliehen.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

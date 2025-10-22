@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "Varesa",
+  "title": "Gelassene Stärke – Varesa",
+  "desc": "Standhaft in der Verteidigung, unerschütterlich im Angriff.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Katalysator",
+    "faction": ["Natlan"],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Varesa in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "An den Hörnern gepackt",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. <span style=\"color:#FFFFFFFF\">Wenn diese Fähigkeit als <span style=\"color:#FFFFFFFF\">Angriff aus dem Fall</span> gewertet wird:</span> Verursachter SCH +1, tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">„Nachtseelenpunkt“</span>.",
+      "skillTag": ["Standardangriff"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "Sprung über den nächtlichen Regenbogen",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Verleiht sich selbst <span style=\"color:#FFFFFFFF\">Stürmischer Vorstoß</span>, tritt in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">„Nachtseelenpunkt“</span>. Wechselt dann deine aktive Figur zur nächsten.",
+      "skillTag": ["Elementarfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "Blitzartiger Auftritt!",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], verleiht sich selbst <span style=\"color:#FFFFFFFF\">Äußerster Antrieb</span>.",
+      "skillTag": ["Spezialfähigkeit"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "Siegesbewusster Dreifachsprung!",
+      "desc": "Passiv – <color=#FFFFFFFF>Nach Anwenden einer Fähigkeit von <span style=\"color:#FFFFFFFF\">Varesa</span>: </color>Wenn die Anzahl der <span style=\"color:#FFFFFFFF\">„Nachtseelenpunkte“</span> der Figur 2 beträgt, verbraucht sie 2 <span style=\"color:#FFFFFFFF\">„Nachtseelenpunkte“</span>, um sich selbst <span style=\"color:#FFFFFFFF\">Äußerster Antrieb</span> zu verleihen.",
+      "skillTag": ["Passive Fähigkeit"],
+      "points": []
+    }
+  ]
+}

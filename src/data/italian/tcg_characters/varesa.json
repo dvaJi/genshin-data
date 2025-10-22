@@ -1,0 +1,80 @@
+{
+  "_id": 1415,
+  "id": "varesa",
+  "shareId": 521,
+  "name": "Varesa",
+  "title": "Varesa, Forza nella serenità",
+  "desc": "Difesa inamovibile, forza irresistibile.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Catalizzatore",
+    "faction": ["Natlan"],
+    "source": "Ricompensa ottenuta sfidando Varesa a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "by_the_horns",
+      "name": "Teste e corna",
+      "desc": "Infligge ? ?. <span style=\"color:#FFFFFFFF\">Quando l'abilità usata questa volta è un undefined:</span> infliggi DAN +1, il personaggio entra in stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span> e ottiene 1 <span style=\"color:#FFFFFFFF\">punto Anima della Notte</span>.",
+      "skillTag": ["Attacco normale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "riding_the_nightrainbow",
+      "name": "Sull'arcobaleno della notte",
+      "desc": "Infligge ? ?. Associa <span style=\"color:#FFFFFFFF\">Assalto improvviso</span> a sé stessa, entra nello stato di <span style=\"color:#FFFFFFFF\">Grazia dell'Anima della Notte</span> e riceve 1 <span style=\"color:#FFFFFFFF\">punto Anima della Notte</span>, dopodiché passa al personaggio successivo.",
+      "skillTag": ["Abilità elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "guardian_vent",
+      "name": "Barranco glorioso!",
+      "desc": "Infligge ? ?. Associa <span style=\"color:#FFFFFFFF\">Spinta culminante</span> a sé stessa.",
+      "skillTag": ["Tripudio elementale"],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "tagteam_triple_jump",
+      "name": "Triplice salto di squadra!",
+      "desc": "(Passiva) <color=#FFFFFFFF>Dopo che <span style=\"color:#FFFFFFFF\">Varesa</span> ha usato un'abilità:</color> se il personaggio ha 2 <span style=\"color:#FFFFFFFF\">punti Anima della Notte</span>, li consuma per associare <span style=\"color:#FFFFFFFF\">Spinta culminante</span> a sé stessa.",
+      "skillTag": ["Abilità passiva"],
+      "points": []
+    }
+  ]
+}

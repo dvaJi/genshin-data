@@ -1,0 +1,73 @@
+{
+  "_id": 1515,
+  "id": "ifa",
+  "shareId": 522,
+  "name": "イファ",
+  "title": "魂を導く疾風・イファ",
+  "desc": "疾き救命の風",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "法器",
+    "faction": ["ナタ"],
+    "source": "キャッツテールでイファを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "rite_of_dispelling_winds",
+      "name": "風払いの儀式",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を1与える。",
+      "skillTag": ["通常攻撃"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "airborne_disease_prevention",
+      "name": "天翔ける守護",
+      "desc": "?を?与え、自身は<span style=\"color:#FFFFFFFF\">夜魂の加護</span>状態に入り、<span style=\"color:#FFFFFFFF\">「夜魂値」</span>を2獲得し、<span style=\"color:#FFFFFFFF\">カクーク</span>を装備する。（キャラが<span style=\"color:#FFFFFFFF\">夜魂の加護</span>状態に入った後、このスキルは使用できなくなる）<br/>（<span style=\"color:#FFFFFFFF\">カクーク</span>を装備したキャラは特技<span style=\"color:#FFFFFFFF\">援護射撃</span>を使用できる）",
+      "skillTag": ["元素スキル"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "compound_sedation_field",
+      "name": "複合鎮静フィールド",
+      "desc": "?を?与え、HPを最も失っている味方キャラのHPを2回復する。このスキルで<span style=\"color:#80FFD7FF\">風元素関連反応</span>を起こした場合、相手の出撃キャラに対応する元素の<span style=\"color:#FFFFFFFF\">鎮静マーク</span>を付与する。",
+      "skillTag": ["元素爆発"],
+      "points": [
+        {
+          "_id": 1105,
+          "id": "anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
