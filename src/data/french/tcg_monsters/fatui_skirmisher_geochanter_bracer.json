@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Géo",
     "weapon": "Autre arme",
-    "faction": ["Fatui"]
+    "faction": [
+      "Fatui"
+    ]
   },
   "skills": [
     {
       "id": "rock_projectile",
       "name": "Projectile de roche",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1106,
@@ -36,8 +40,10 @@
     {
       "id": "geocrystal_beam",
       "name": "Rayon calcaire",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1106,
@@ -50,8 +56,10 @@
     {
       "id": "staff_of_geo",
       "name": "Bâton de poussières",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>, accorde un <span style=\"color:#FFFFFFFF\">équipement Géo</span> au personnage et crée une <span style=\"color:#FFFFFFFF\">égide de cristal</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, accorde un <span style=\"color:#FFFFFFFF\">équipement Géo</span> au personnage et crée une <span style=\"color:#FFFFFFFF\">égide de cristal</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1106,
@@ -71,7 +79,9 @@
       "id": "combat_resupply",
       "name": "Réapprovisionnement de combat",
       "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Electro",
     "weapon": "Otras armas",
-    "faction": ["Fatui"]
+    "faction": [
+      "Fatui"
+    ]
   },
   "skills": [
     {
       "id": "rapid_hammer_strike",
       "name": "Martillazo raudo",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -36,8 +40,10 @@
     {
       "id": "raging_charge",
       "name": "Embestida feroz",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "thunderblast_hammer",
       "name": "Martillazo electrocargado",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">arsenal elemental: Electro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">arsenal elemental: Electro</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,7 +79,9 @@
       "id": "combat_resupply",
       "name": "Reabastecimiento de combate",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene Energía +2.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

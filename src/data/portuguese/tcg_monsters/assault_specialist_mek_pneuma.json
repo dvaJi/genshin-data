@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Pyro",
     "weapon": "Outras Armas",
-    "faction": ["Monstro"]
+    "faction": [
+      "Monstro"
+    ]
   },
   "skills": [
     {
       "id": "upclose_pummelling",
       "name": "Batalha Corpo-a-Corpo",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -36,8 +40,10 @@
     {
       "id": "multismash",
       "name": "Golpes Múltiplos",
-      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span> e realiza <span style=\"color:#FFFFFFFF\">Preparar Habilidade</span>: <span style=\"color:#FFFFFFFF\">Cassetete do Rastreio</span>.",
-      "skillTag": ["Habilidade Elemental"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ? e realiza <span style=\"color:#FFFFFFFF\">Preparar Habilidade</span>: <span style=\"color:#FFFFFFFF\">Cassetete do Rastreio</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -50,8 +56,10 @@
     {
       "id": "sprinting_strike",
       "name": "Ataque de Investida",
-      "desc": "Causa 5 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -71,7 +79,9 @@
       "id": "arkhe_pneuma",
       "name": "Característica da Energia: Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Após ser danificado por personagem com \"Arkhe: Ousia\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

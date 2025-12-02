@@ -10,14 +10,18 @@
     "energy": 1,
     "element": "Kein Elementartyp",
     "weapon": "Andere Waffen",
-    "faction": ["Monster"]
+    "faction": [
+      "Monster"
+    ]
   },
   "skills": [
     {
       "id": "ram",
       "name": "Rammen",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": ["Standardangriff"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "energy_boost_pneuma",
       "name": "Energieschwung – Pneuma",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Energieverstärkung – Pneuma</span>.",
-      "skillTag": ["Elementarfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Energieverstärkung – Pneuma</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "energy_burst_pneuma",
       "name": "Energieexplosion – Pneuma",
-      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Energieverstärkung – Pneuma</span>.",
-      "skillTag": ["Spezialfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erhält selbst <span style=\"color:#FFFFFFFF\">Energieverstärkung – Pneuma</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,14 +73,18 @@
       "id": "frame_repair_pneuma",
       "name": "Modulreparatur – Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Nach Anwenden einer Fähigkeit deiner Figuren:</span> Stellt deiner Figur, die den meisten Schaden erlitten hat, 1 LP wieder her.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     },
     {
       "id": "arkhe_pneuma",
       "name": "Energiesignatur – Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch eine mit „Arkhe – Ousia“ versehene Figur:</span> Diese Figur wird in den <span style=\"color:#FFFFFFFF\">„Deaktiviert-Modus“</span> eintreten und bis Endphase dieser Runde <span style=\"color:#FFFFFFFF\">keine Fähigkeit anwenden können</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     }
   ]

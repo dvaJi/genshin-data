@@ -10,14 +10,19 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Outras Armas",
-    "faction": ["Monstro", "Hilichurl"]
+    "faction": [
+      "Monstro",
+      "Hilichurl"
+    ]
   },
   "skills": [
     {
       "id": "ice_arrow",
       "name": "Flecha Cryo",
-      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +41,10 @@
     {
       "id": "multishot",
       "name": "Rajada de Flechas",
-      "desc": "Causa 4 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -57,7 +64,9 @@
       "id": "hide",
       "name": "Se Esconder",
       "desc": "(Passiva) Após executar uma ação, este personagem é automaticamente trocado pelo próximo personagem.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

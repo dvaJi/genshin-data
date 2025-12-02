@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Otras armas",
-    "faction": ["Eremita"]
+    "faction": [
+      "Eremita"
+    ]
   },
   "skills": [
     {
       "id": "double_hack",
       "name": "Tajo doble",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "dualblade_chop",
       "name": "Doble filo",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -51,7 +57,9 @@
       "id": "stalwart_onslaught",
       "name": "Contusión potenciada",
       "desc": "Este personaje <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Contusión potenciada: Golpe culminante</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -71,7 +79,9 @@
       "id": "ominous_spirit_unleashed_cryo",
       "name": "Liberación de Ominoespíritu: Cryo",
       "desc": "Pasiva: si este personaje tiene 7 pts. de Vida o menos <span style=\"color:#FFFFFFFF\">después de recibir daño</span>, obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1 y el efecto de <span style=\"color:#FFFFFFFF\">despertar de Ominoespíritu: Cryo</span> (1 vez por partida).",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

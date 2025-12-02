@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Sans élément",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "close_expulsion",
       "name": "Expulsion à courte portée",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "sudden_charge",
       "name": "Impact de ruée",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "energy_surge",
       "name": "Torrent d'énergie",
-      "desc": "Inflige 5 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>. Si le personnage a absorbé un élément, il le libère pour augmenter ces DGT de 1 et les DGT sont changés en l'élément correspondant.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?. Si le personnage a absorbé un élément, il le libère pour augmenter ces DGT de 1 et les DGT sont changés en l'élément correspondant.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,14 +73,18 @@
       "id": "standard_armor",
       "name": "Armure standard",
       "desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques</span> subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     },
     {
       "id": "elemental_absorption",
       "name": "Absorption élémentaire",
       "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage subit des DGT élémentaires alors qu'il n'a absorbé aucun élément, </span>il absorbe l'élément correspondant.<br/>Lorsque le personnage subit des DGT de l'élément qu'il a absorbé, les DGT diminuent de moitié. (Arrondi à l'entier supérieur)",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

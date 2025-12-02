@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Sans élément",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "stern_blow",
       "name": "Coup dur",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "spiral_closein",
       "name": "Approche en spirale",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence</span> et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence</span> et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "suppressive_volley",
       "name": "Salve suppressive",
-      "desc": "Inflige 4 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et crée un <span style=\"color:#FFFFFFFF\">missile chercheur</span> sur le terrain adverse.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée un <span style=\"color:#FFFFFFFF\">missile chercheur</span> sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,7 +73,9 @@
       "id": "standard_armor",
       "name": "Armure standard",
       "desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques</span> subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

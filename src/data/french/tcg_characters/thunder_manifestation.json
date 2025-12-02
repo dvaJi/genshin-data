@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Électro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"],
+    "faction": [
+      "Monstre"
+    ],
     "talent_card": {
       "_id": 4770,
       "id": "grieving_echo",
@@ -27,8 +29,10 @@
     {
       "id": "thunderous_wingslash",
       "name": "Aile galvanique",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -47,8 +51,10 @@
     {
       "id": "strifeful_lightning",
       "name": "Foudre conflictuelle",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> aux personnages adverses affectés par un <span style=\"color:#FFFFFFFF\">paratonnerre</span>. (Si aucun personnage adverse n'est éligible, les DGT sont infligés au personnage actif à la place)",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? aux personnages adverses affectés par un <span style=\"color:#FFFFFFFF\">paratonnerre</span>. (Si aucun personnage adverse n'est éligible, les DGT sont infligés au personnage actif à la place)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -61,8 +67,10 @@
     {
       "id": "thundering_shackles",
       "name": "Prison tonitruante",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">prison tonitruante</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et invoque une <span style=\"color:#FFFFFFFF\">prison tonitruante</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -82,7 +90,9 @@
       "id": "lightning_probe",
       "name": "Détection de foudre",
       "desc": "(Passif) Crée une <span style=\"color:#FFFFFFFF\">sonde de foudre</span> sur le terrain adverse au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

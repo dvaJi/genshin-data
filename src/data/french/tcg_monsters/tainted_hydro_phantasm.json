@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "tainted_water_strike",
       "name": "Frappe croupie",
-      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "spouting_waves",
       "name": "Vague jaillissante",
-      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "tainted_water_surge",
       "name": "Impulsion croupie",
-      "desc": "Inflige 4 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,14 +79,18 @@
       "id": "elemental_sedimentation_hydro",
       "name": "Dépôt d'élément Hydro",
       "desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">Entité élémentaire Hydro</span> au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     },
     {
       "id": "tainted_waters_change_their_shape",
       "name": "Changement croupi",
       "desc": "(Passif) Ne peut pas subir de <span style=\"color:#FFFFFFFF\">Gel</span>.<br/>Les DGT que le personnage inflige en ayant 5 PV ou moins augmentent de 2.<br/><span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une capacité : </span>S'il a 6 PV ou plus, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

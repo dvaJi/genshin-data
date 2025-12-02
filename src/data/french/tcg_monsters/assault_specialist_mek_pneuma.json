@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Pyro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "upclose_pummelling",
       "name": "Baroud rapproché",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -36,8 +40,10 @@
     {
       "id": "multismash",
       "name": "Matraquage multiple",
-      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Gourdin de poursuite</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Gourdin de poursuite</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -50,8 +56,10 @@
     {
       "id": "sprinting_strike",
       "name": "Frappe de sprint",
-      "desc": "Inflige 5 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -71,7 +79,9 @@
       "id": "arkhe_pneuma",
       "name": "Signature énergétique : Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe ousia : </span>il change en <span style=\"color:#FFFFFFFF\">forme désactivée</span> et <span style=\"color:#FFFFFFFF\">ne peut pas utiliser de capacité</span> jusqu'à la fin de la manche.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

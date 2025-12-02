@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Électro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "rapid_melee",
       "name": "Mêlée rapide",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -37,7 +41,9 @@
       "id": "shield_riposte",
       "name": "Rispote de bouclier",
       "desc": "Applique une <span style=\"color:#FFFFFFFF\">parade de bouclier</span> au personnage et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Coupure de bouclier</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "shield_sweep",
       "name": "Balayage de bouclier",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et inflige <span style=\"color:#FFFFFFFF\">2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> à tous les personnages adverses en attente.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et inflige <span style=\"color:#FFFFFFFF\">2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span></span> à tous les personnages adverses en attente.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,7 +79,9 @@
       "id": "arkhe_ousia",
       "name": "Signature énergétique : Ousia",
       "desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe pneuma : </span>il change en <span style=\"color:#FFFFFFFF\">forme désactivée</span> et <span style=\"color:#FFFFFFFF\">ne peut pas utiliser de capacité</span> jusqu'à la fin de la manche.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

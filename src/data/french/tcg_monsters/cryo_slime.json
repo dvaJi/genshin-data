@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "ram",
       "name": "Heurt",
-      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "jumping_slam",
       "name": "Saut écrasant",
-      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -57,7 +63,9 @@
       "id": "elemental_sedimentation_cryo",
       "name": "Dépôt d'élément Cryo",
       "desc": "(Passif) Applique un <span style=\"color:#FFFFFFFF\">entité élémentaire Cryo</span> au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

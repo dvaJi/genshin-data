@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Hydro",
     "weapon": "Outras Armas",
-    "faction": ["Fatui"]
+    "faction": [
+      "Fatui"
+    ]
   },
   "skills": [
     {
       "id": "skilled_charge",
       "name": "Ataque Frontal Habilidoso",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "curative_bullet",
       "name": "Disparo de Cura",
-      "desc": "Causa 2 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
-      "skillTag": ["Habilidade Elemental"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "elemental_buff_hydro",
       "name": "Aumento Elemental - Hydro",
-      "desc": "Causa 3 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Hydro</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Hydro</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,7 +79,9 @@
       "id": "combat_resupply",
       "name": "Reabastecimento de Combate",
       "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

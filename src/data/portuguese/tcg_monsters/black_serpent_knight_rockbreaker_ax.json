@@ -1,0 +1,88 @@
+{
+  "_id": 4610,
+  "id": "black_serpent_knight_rockbreaker_ax",
+  "shareId": 4610,
+  "name": "Cavaleiro da Serpente Negra - Machado Quebra-rocha",
+  "desc": "",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ]
+  },
+  "skills": [
+    {
+      "id": "supreme_strike",
+      "name": "Golpe Supremo",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "axe_and_aegis",
+      "name": "Machado e Égide",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stone_stance",
+      "name": "Postura da Pedra",
+      "desc": "<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFE699FF\">Aplicação Geo</span></span> a si e prepara <span style=\"color:#FFFFFFFF\">Impacto do Machadão</span>, então prepara <span style=\"color:#FFFFFFFF\">Golpe do Mestre</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "attacking_momentum",
+      "name": "Vigor de Ataque",
+      "desc": "(Passivo) Se houver <span style=\"color:#FFFFFFFF\">negação de Dano</span> e <span style=\"color:#FFFFFFFF\">Escudo</span> no lado inimigo, ou se houver <span style=\"color:#FFFFFFFF\">negação de Dano</span> e <span style=\"color:#FFFFFFFF\">Escudo</span> no Estado de Combate, depois que seu personagem usar a Habilidade, aplica 1 acúmulo de <span style=\"color:#FFFFFFFF\">Poderio da Pedra</span> a si mesmo.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ]
+}

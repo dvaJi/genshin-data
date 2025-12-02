@@ -11,7 +11,9 @@
     "energy": 3,
     "element": "Hydro",
     "weapon": "Arc",
-    "faction": ["Fatui"],
+    "faction": [
+      "Fatui"
+    ],
     "talent_card": {
       "_id": 3846,
       "id": "abyssal_mayhem_hydrospout",
@@ -29,8 +31,10 @@
     {
       "id": "cutting_torrent",
       "name": "Taille du torrent",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -49,8 +53,10 @@
     {
       "id": "foul_legacy_raging_tide",
       "name": "Posture du démon : Marée déchaînée",
-      "desc": "Fait passer en <span style=\"color:#FFFFFFFF\">état de mêlée</span>, inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et inflige l'effet <span style=\"color:#FFFFFFFF\">Contre-courant</span> au personnage choisi.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Fait passer en <span style=\"color:#FFFFFFFF\">état de mêlée</span>, inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et inflige l'effet <span style=\"color:#FFFFFFFF\">Contre-courant</span> au personnage choisi.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -63,8 +69,10 @@
     {
       "id": "havoc_obliteration",
       "name": "Ravage : Oblitération",
-      "desc": "Effectue différentes attaques selon l'état actuel de <span style=\"color:#FFFFFFFF\">Tartaglia</span> :<br/><span style=\"color:#FFFFFFFF\">En état à distance, déclenche Éclair de balle maléfique : </span>Inflige $[D__KEY__DAMAGE_5] pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>, restaure 2 $[K310 de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Effectue différentes attaques selon l'état actuel de <span style=\"color:#FFFFFFFF\">Tartaglia</span> :<br/><span style=\"color:#FFFFFFFF\">En état à distance, déclenche Éclair de balle maléfique : </span>Inflige $[D__KEY__DAMAGE_5] {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, restaure 2 <span style=\"color:#FFFFFFFF\">charges</span> et inflige l'effet <span style=\"color:#FFFFFFFF\">Contre-courant</span> au personnage choisi.<br/><span style=\"color:#FFFFFFFF\">En état de mêlée, déclenche Lumière d'élimination : </span>Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -84,7 +92,9 @@
       "id": "tide_withholder",
       "name": "Vague au calme",
       "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">état à distance</span> au début du combat.<br/>Lorsqu'un <span style=\"color:#FFFFFFFF\">état de mêlée</span> du personnage affecté prend fin, accorde à nouveau un <span style=\"color:#FFFFFFFF\">état à distance</span>.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

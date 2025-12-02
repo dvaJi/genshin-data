@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Elektro",
     "weapon": "Andere Waffen",
-    "faction": ["Monster"],
+    "faction": [
+      "Monster"
+    ],
     "talent_card": {
       "_id": 4770,
       "id": "grieving_echo",
@@ -27,8 +29,10 @@
     {
       "id": "thunderous_wingslash",
       "name": "Donnernder Flügelschlag",
-      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
-      "skillTag": ["Standardangriff"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -47,8 +51,10 @@
     {
       "id": "strifeful_lightning",
       "name": "Überwältige Blitzwand",
-      "desc": "Fügt der von <span style=\"color:#FFFFFFFF\">Kenntnis des Blitzes</span> betroffenen Figur des Gegners 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span> zu. (Erfüllt keine Figur des Gegners die Bedingung, wird seiner aktiven Figur dieser SCH zugefügt.)",
-      "skillTag": ["Elementarfähigkeit"],
+      "desc": "Fügt der von <span style=\"color:#FFFFFFFF\">Kenntnis des Blitzes</span> betroffenen Figur des Gegners ? Pkt. $[D__KEY__ELEMENT|s1] zu. (Erfüllt keine Figur des Gegners die Bedingung, wird seiner aktiven Figur dieser SCH zugefügt.)",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -61,8 +67,10 @@
     {
       "id": "thundering_shackles",
       "name": "Donnernde Fesseln",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Donnernde Fesseln</span>.",
-      "skillTag": ["Spezialfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Donnernde Fesseln</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -82,14 +90,18 @@
       "id": "lightning_probe",
       "name": "Kenntnis des Donners",
       "desc": "Passiv – Erschafft zu Beginn des Kampfes auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Blitzsonde</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     },
     {
       "id": "elemental_sedimentation_electro",
       "name": "Elementarablagerung – Elektro",
       "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Elektro</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     }
   ]

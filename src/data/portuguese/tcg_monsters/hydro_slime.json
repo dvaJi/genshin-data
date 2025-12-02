@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Outras Armas",
-    "faction": ["Monstro"]
+    "faction": [
+      "Monstro"
+    ]
   },
   "skills": [
     {
       "id": "bounce",
       "name": "Saltitar",
-      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "slam",
       "name": "Queda Pesada",
-      "desc": "Causa 4 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -57,7 +63,9 @@
       "id": "elemental_sedimentation_hydro",
       "name": "Sedimento Elemental - Hydro",
       "desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Forma de Vida Elemental - Hydro</span>.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

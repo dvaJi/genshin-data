@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"],
+    "faction": [
+      "Monstruo"
+    ],
     "talent_card": {
       "_id": 5695,
       "id": "lightless_feeding",
@@ -27,8 +29,10 @@
     {
       "id": "shattering_waves",
       "name": "Salto rompeolas",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -47,8 +51,10 @@
     {
       "id": "starfall_shower",
       "name": "Aguacero de meteoros",
-      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>. Por cada 3 pts. de Vida Máx. adicional que obtenga de <span style=\"color:#FFFFFFFF\">Insaciabilidad</span>, daño +1 (como máximo daño +3). Después, se realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de 1 carta con el mayor coste de dados elementales.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt.|pts.} de ?. Por cada 3 pts. de Vida Máx. adicional que obtenga de <span style=\"color:#FFFFFFFF\">Insaciabilidad</span>, daño +1 (como máximo daño +3). Después, se realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de 1 carta con el mayor coste de dados elementales.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -61,8 +67,10 @@
     {
       "id": "ravaging_devourer",
       "name": "Devoración arrasadora",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>, así como 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> contra todos los personajes enemigos en reserva. Crea la <span style=\"color:#FFFFFFFF\">ilusión oscura</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, así como 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> contra todos los personajes enemigos en reserva. Crea la <span style=\"color:#FFFFFFFF\">ilusión oscura</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -82,7 +90,9 @@
       "id": "insatiable_appetite",
       "name": "Insaciabilidad",
       "desc": "Pasiva: al comenzar el duelo, crea un <span style=\"color:#FFFFFFFF\">campo de devoración</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

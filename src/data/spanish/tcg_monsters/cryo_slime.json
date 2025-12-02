@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "ram",
       "name": "Placaje",
-      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "jumping_slam",
       "name": "Salto aplastante",
-      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -57,7 +63,9 @@
       "id": "elemental_sedimentation_cryo",
       "name": "Sedimento elemental: Cryo",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">ser elemental: Cryo</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

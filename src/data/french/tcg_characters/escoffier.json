@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "Escoffier",
+  "title": "Escoffier · Exquise excellence",
+  "desc": "Glaçage et cuisson à la perfection.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Arme d'hast",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Récompense pour avoir invité Escoffier à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "Aisance culinaire",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "Cuisson à basse température",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et invoque un <span style=\"color:#FFFFFFFF\">mek cuistot en mode « Stockage à froid »</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "Art de la découpe",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et soigne tous vos personnages pour 2 pts.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Cuisson impromptue constante",
+      "desc": "(Passif) Crée un <span style=\"color:#FFFFFFFF\">mek cuistot multi-usages à palette complète</span> au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

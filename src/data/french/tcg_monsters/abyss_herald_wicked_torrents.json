@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"],
+    "faction": [
+      "Monstre"
+    ],
     "talent_card": {
       "_id": 5588,
       "id": "surging_undercurrent",
@@ -27,8 +29,10 @@
     {
       "id": "rippling_slash",
       "name": "Tranchant d'ondulation",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -47,8 +51,10 @@
     {
       "id": "vortex_edge",
       "name": "Tranchant de vortex",
-      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Lame ondulante</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Lame ondulante</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -61,8 +67,10 @@
     {
       "id": "torrential_shock",
       "name": "Secousse torrentielle",
-      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et crée une <span style=\"color:#FFFFFFFF\">undefined</span> sur le terrain adverse.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée une <span style=\"color:#FFFFFFFF\">undefined</span> sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -82,14 +90,18 @@
       "id": "watery_rebirth",
       "name": "Renaissance aquatique",
       "desc": "(Passif) Applique une <span style=\"color:#FFFFFFFF\">renaissance aquatique</span> au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     },
     {
       "id": "torrential_ward",
       "name": "Égide torrentielle",
       "desc": "(Passif) Lorsque le personnage déclenche une <span style=\"color:#FFFFFFFF\">renaissance aquatique</span>, lui applique une <span style=\"color:#FFFFFFFF\">égide de surtension</span>.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

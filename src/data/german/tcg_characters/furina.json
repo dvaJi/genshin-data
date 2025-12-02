@@ -6,12 +6,14 @@
   "title": "Endloser Solotanz – Furina",
   "desc": "Immerwährender Gesang und endloser Tanz.",
   "attributes": {
-    "hp": 10,
+    "hp": 12,
     "card_type": "Figurenkarte",
     "energy": 2,
     "element": "Hydro",
     "weapon": "Einhänder",
-    "faction": ["Fontaine"],
+    "faction": [
+      "Fontaine"
+    ],
     "talent_card": {
       "_id": 5691,
       "id": "hear_me_let_us_raise_the_chalice_of_love",
@@ -29,8 +31,10 @@
     {
       "id": "soloists_solicitation",
       "name": "Einladung der Solistin",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.<br/><span style=\"color:#FFFFFFFF\">1-mal pro Runde:</span> Erschafft, wenn du die Karte <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> nicht auf der Hand hast, 1 <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> auf deiner Hand.",
-      "skillTag": ["Standardangriff"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].<br/><span style=\"color:#FFFFFFFF\">1-mal pro Runde:</span> Erschafft, wenn du die Karte <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> nicht auf der Hand hast, 1 <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> auf deiner Hand.",
+      "skillTag": [
+        "Standardangriff"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,7 +54,9 @@
       "id": "salon_solitaire",
       "name": "Salon solitaire",
       "desc": "<span style=\"color:#FFFFFFFF\">Furina</span> befindet sich derzeit im Modus „Arkhe – Ousia“: Erschafft <span style=\"color:#FFFFFFFF\">Salonmitglieder</span>.<br/>(Furina erschafft stattdessen 1 <span style=\"color:#FFFFFFFF\">Sängerin der Ströme</span>, wenn sie sich im Modus „Arkhe – Pneuma“ befindet.)",
-      "skillTag": ["Elementarfähigkeit"],
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -63,8 +69,10 @@
     {
       "id": "let_the_people_rejoice",
       "name": "Möge das Volk frohlocken",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Universelle Schwelgerei</span>.",
-      "skillTag": ["Spezialfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Universelle Schwelgerei</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -84,7 +92,9 @@
       "id": "arkhe_seats_sacred_and_secular",
       "name": "Arkhe: Thron der Geistlichkeit und Weltlichkeit",
       "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 <span style=\"color:#FFFFFFFF\">Thron der Geistlichkeit und Weltlichkeit</span> auf deiner Hand.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     }
   ]

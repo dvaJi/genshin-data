@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "Escoffier",
+  "title": "Escoffier, Eccellenza di sapori",
+  "desc": "Glassato e cotto a puntino, per un gusto pari al divino.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lancia",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Ricompensa ottenuta sfidando Escoffier a duello alla Coda di Gatto e battendola in un duello amichevole."
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "Abilità culinarie",
+      "desc": "Infligge ? ?.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "Cottura a bassa temperatura",
+      "desc": "Infligge ? ?, invoca <span style=\"color:#FFFFFFFF\">Meka da cucina: modalità Refrigerazione</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "Tecnica di taglio",
+      "desc": "Infligge ? ?, ripristina 2 PS di tutti i tuoi personaggi.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Cucina estemporanea costante",
+      "desc": "(Passiva) All'inizio del duello, crea 1 <span style=\"color:#FFFFFFFF\">Meka da cucina multiuso</span>.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ]
+}

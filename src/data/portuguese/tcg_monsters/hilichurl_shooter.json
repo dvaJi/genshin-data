@@ -10,14 +10,19 @@
     "energy": 2,
     "element": "Sem Tipo Elemental",
     "weapon": "Outras Armas",
-    "faction": ["Monstro", "Hilichurl"]
+    "faction": [
+      "Monstro",
+      "Hilichurl"
+    ]
   },
   "skills": [
     {
       "id": "shooting",
       "name": "Flechada",
-      "desc": "Causa 1 ponto de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +35,10 @@
     {
       "id": "multishot",
       "name": "Rajada de Flechas",
-      "desc": "Causa 5 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -51,7 +58,9 @@
       "id": "hide",
       "name": "Se Esconder",
       "desc": "(Passiva) Após usar sua habilidade, este personagem é automaticamente trocado pelo próximo personagem.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

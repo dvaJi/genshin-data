@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "에스코피에",
+  "title": "화려한 맛의 화음·에스코피에",
+  "desc": "화려한 기술과 최고의 맛",
+  "attributes": {
+    "hp": 11,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "장병기",
+    "faction": [
+      "폰타인"
+    ],
+    "source": "캣테일 술집에서 에스코피에 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "셰프의 비결",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "저온 조리법",
+      "desc": "?를 ?pt 주고 <span style=\"color:#FFFFFFFF\">요리 장치·냉장 모드</span>를 소환한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "현란한 칼솜씨",
+      "desc": "?를 ?pt 주고 아군 전체 캐릭터의 HP를 2pt 치유한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "시시각각 즉흥 요리",
+      "desc": "[패시브] 전투 시작 시, <span style=\"color:#FFFFFFFF\">전방위 다목적 요리 장치</span>를 생성한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

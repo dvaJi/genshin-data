@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Pyro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "upclose_pummelling",
       "name": "Sacudida de corto alcance",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -36,8 +40,10 @@
     {
       "id": "multismash",
       "name": "Multiabatimiento",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Porrazo aplastante</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Porrazo aplastante</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -50,8 +56,10 @@
     {
       "id": "sprinting_strike",
       "name": "Asalto arrollador",
-      "desc": "Inflige 5 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -71,7 +79,9 @@
       "id": "arkhe_pneuma",
       "name": "Energía pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: ousía</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

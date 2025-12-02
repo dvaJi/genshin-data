@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "Escoffier",
+  "title": "\"Lezzette Mükemmeliyet\" Escoffier",
+  "desc": "Pastanın kreması, hiç bitmez müptelası.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Mızrak",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Escoffier'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "Mutfak Hünerleri",
+      "desc": "? ? verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "Kısık Ateşte Pişirme",
+      "desc": "? ? verir ve <span style=\"color:#FFFFFFFF\">Yemek Mekası: Soğuk Muhafaza Modu</span> çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "Ahenkli Kesikler",
+      "desc": "? ? verir, tüm karakterlerin için 2 Can yeniler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Sürekli Doğaçlama Pişirme",
+      "desc": "(Pasif) Savaş başladığında 1 <span style=\"color:#FFFFFFFF\">Çok Amaçlı Yemek Mekası</span> oluşur.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ]
+}

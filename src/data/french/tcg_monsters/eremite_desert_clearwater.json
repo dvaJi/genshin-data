@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Autre arme",
-    "faction": ["Érémites"]
+    "faction": [
+      "Érémites"
+    ]
   },
   "skills": [
     {
       "id": "agile_thrust",
       "name": "Pique agile",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "blitz_strike",
       "name": "Incision rapide",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -51,7 +57,9 @@
       "id": "whirling_lashes",
       "name": "Danse tranchante",
       "desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Danse tranchante : Coup premier</span> et <span style=\"color:#FFFFFFFF\">Danse tranchante : Séquence fixe</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,7 +79,9 @@
       "id": "ominous_spirit_unleashed_hydro",
       "name": "Délivrance d'esprit sinistre (Hydro)",
       "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT</span> : Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> et un <span style=\"color:#FFFFFFFF\">éveil d'esprit sinistre (Hydro)</span> s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

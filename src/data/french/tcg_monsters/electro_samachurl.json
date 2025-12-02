@@ -10,14 +10,19 @@
     "energy": 2,
     "element": "Électro",
     "weapon": "Autre arme",
-    "faction": ["Monstre", "Brutocollinus"]
+    "faction": [
+      "Monstre",
+      "Brutocollinus"
+    ]
   },
   "skills": [
     {
       "id": "striking_staff",
       "name": "Frappe de sceptre",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +35,10 @@
     {
       "id": "thunderclap_totem",
       "name": "Totem tonitruant",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et crée un <span style=\"color:#FFFFFFFF\">sceptre pro-tonnerre</span> sur le terrain adverse.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée un <span style=\"color:#FFFFFFFF\">sceptre pro-tonnerre</span> sur le terrain adverse.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -44,8 +51,10 @@
     {
       "id": "thunderstrike_hex",
       "name": "Malédiction tonitruante",
-      "desc": "Inflige 5 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,

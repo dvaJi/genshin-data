@@ -9,7 +9,7 @@ export interface Character {
     weapon_type:      Element;
     element:          Element;
     gender:           Element;
-    release?:         number;
+    release:          number;
     substat:          string;
     affiliation:      string;
     region:           Element;
@@ -78,7 +78,7 @@ export interface Outfit {
     characterId:         number;
     filename_card:       string;
     filename_iconCircle: string;
-    source?:             string[];
+    source?:             any[];
     filename_icon?:      string;
     filename_splash?:    string;
     filename_sideIcon?:  string;

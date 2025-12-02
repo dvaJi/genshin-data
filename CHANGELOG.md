@@ -1,8 +1,14 @@
-## [0.55.0](https://github.com/dvaJi/genshin-data/compare/0.54.0...0.55.0) (2025-10-22)
+## [0.56.0](https://github.com/dvaJi/genshin-data/compare/0.55.0...0.56.0) (2025-12-01)
 
 ### Features
 
 - update genshin data v6.2
+
+## [0.55.0](https://github.com/dvaJi/genshin-data/compare/0.54.0...0.55.0) (2025-10-22)
+
+### Features
+
+- update genshin data v6.1
 
 ## [0.54.0](https://github.com/dvaJi/genshin-data/compare/0.53.0...0.54.0) (2025-09-10)
 

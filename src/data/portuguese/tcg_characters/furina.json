@@ -6,12 +6,14 @@
   "title": "\"Dançarina Solitária Eterna\" Furina",
   "desc": "Cantando eternamente, dançando infinitamente.",
   "attributes": {
-    "hp": 10,
+    "hp": 12,
     "card_type": "Carta de Personagem",
     "energy": 2,
     "element": "Hydro",
     "weapon": "Espada",
-    "faction": ["Fontaine"],
+    "faction": [
+      "Fontaine"
+    ],
     "talent_card": {
       "_id": 5691,
       "id": "hear_me_let_us_raise_the_chalice_of_love",
@@ -29,8 +31,10 @@
     {
       "id": "soloists_solicitation",
       "name": "Solicitação da Solista",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.<br/><span style=\"color:#FFFFFFFF\">Uma vez por Turno:</span> Se você não tiver <span style=\"color:#FFFFFFFF\">Trono Sagrado e Secular</span> em sua Mão, cria 1 carta <span style=\"color:#FFFFFFFF\">Trono Sagrado e Secular</span> em sua Mão.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.<br/><span style=\"color:#FFFFFFFF\">Uma vez por Turno:</span> Se você não tiver <span style=\"color:#FFFFFFFF\">Trono Sagrado e Secular</span> em sua Mão, cria 1 carta <span style=\"color:#FFFFFFFF\">Trono Sagrado e Secular</span> em sua Mão.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,7 +54,9 @@
       "id": "salon_solitaire",
       "name": "Salon Solitaire",
       "desc": "<span style=\"color:#FFFFFFFF\">Furina</span> está atualmente no estado Arkhe: Ousia. Invoca <span style=\"color:#FFFFFFFF\">Membros do Salon</span>.<br/>(Quando Furina está no estado Arkhe: Pneuma, ela invocará <span style=\"color:#FFFFFFFF\">Cantora das Correntes</span> ao invés disso)",
-      "skillTag": ["Habilidade Elemental"],
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -63,8 +69,10 @@
     {
       "id": "let_the_people_rejoice",
       "name": "E o Povo Vai à Loucura",
-      "desc": "Causa 2 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, gera <span style=\"color:#FFFFFFFF\">Euforia Universal</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, gera <span style=\"color:#FFFFFFFF\">Euforia Universal</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -84,7 +92,9 @@
       "id": "arkhe_seats_sacred_and_secular",
       "name": "Arkhe: Trono Sagrado e Secular",
       "desc": "(Passivo) Quando a batalha começa, gera 1 carta <span style=\"color:#FFFFFFFF\">Trono Sagrado e Secular</span> em sua Mão.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

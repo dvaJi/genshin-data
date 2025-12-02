@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Elektro",
     "weapon": "Andere Waffen",
-    "faction": ["Monster"]
+    "faction": [
+      "Monster"
+    ]
   },
   "skills": [
     {
       "id": "piercing_blow",
       "name": "Durchstich",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": ["Standardangriff"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -36,8 +40,10 @@
     {
       "id": "lightning_raid",
       "name": "Blitzüberfall",
-      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
-      "skillTag": ["Elementarfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "leaping_thunder",
       "name": "Springender Donner",
-      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
-      "skillTag": ["Spezialfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,14 +79,18 @@
       "id": "support_unit_pneuma",
       "name": "Unterstützungseinheit – Pneuma",
       "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 <span style=\"color:#FFFFFFFF\">Mecha – Typ: Gebietsalarm – Pneuma</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     },
     {
       "id": "arkhe_pneuma",
       "name": "Energiesignatur – Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch eine mit „Arkhe – Ousia“ versehene Figur:</span> Diese Figur wird in den <span style=\"color:#FFFFFFFF\">„Deaktiviert-Modus“</span> eintreten und bis Endphase dieser Runde <span style=\"color:#FFFFFFFF\">keine Fähigkeit anwenden können</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     }
   ]

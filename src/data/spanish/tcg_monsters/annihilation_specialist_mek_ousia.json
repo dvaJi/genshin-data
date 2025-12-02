@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "vicious_kicks",
       "name": "Patada rauda",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "whirling_legblades",
       "name": "Pasos amolantes",
-      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "bladed_waltz",
       "name": "Vals afilado",
-      "desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,14 +79,18 @@
       "id": "support_unit_ousia",
       "name": "Unidad de apoyo: ousía",
       "desc": "Pasiva: al comenzar el duelo, crea un <span style=\"color:#FFFFFFFF\">Mecacentinela Zonal - Ousía</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     },
     {
       "id": "arkhe_ousia",
       "name": "Energía ousía",
       "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: pneuma</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

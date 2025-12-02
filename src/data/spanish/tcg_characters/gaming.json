@@ -1,0 +1,81 @@
+{
+  "_id": 1316,
+  "id": "gaming",
+  "shareId": 534,
+  "name": "Gaming",
+  "title": "Gaming - El Vigía Leonino",
+  "desc": "Vanguardia de ferocidad inquebrantable.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "faction": [
+      "Liyue"
+    ],
+    "source": "Se obtiene tras retar y ganar a Gaming en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "stellar_rend",
+      "name": "Zarpazo estelar",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bestial_ascent",
+      "name": "Ascensión bestial",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, obtiene el efecto del <span style=\"color:#FFFFFFFF\">arte de la danza de bestias</span> y cambia al siguiente personaje.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suannis_gilded_dance",
+      "name": "Pirodanza del suanni",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y obtiene el efecto de <span style=\"color:#FFFFFFFF\">suanni Man Chai</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Dendro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "precision_shot",
       "name": "Disparo preciso",
-      "desc": "Inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1107,
@@ -36,8 +40,10 @@
     {
       "id": "wildgrass_ball",
       "name": "Proyectil silvestre",
-      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1107,
@@ -50,8 +56,10 @@
     {
       "id": "launch_grenade",
       "name": "Lanzamiento explosivo",
-      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e invoca una <span style=\"color:#FFFFFFFF\">munición de detonación retardada</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? e invoca una <span style=\"color:#FFFFFFFF\">munición de detonación retardada</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1107,
@@ -71,7 +79,9 @@
       "id": "arkhe_pneuma",
       "name": "Energía pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: ousía</span>, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado</span> y <span style=\"color:#FFFFFFFF\">no puede usar habilidades</span> hasta el fin de la ronda actual.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "Escoffier",
+  "title": "Escoffier - La Guinda del Pastel",
+  "desc": "Glaseado y horneado, el mejor sabor del mercado.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Se obtiene tras retar y ganar a Escoffier en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "Habilidades culinarias",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "Cocina a baja temperatura",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? e invoca el <span style=\"color:#FFFFFFFF\">mecachef: modo crioalmacenamiento</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "Técnica de corte",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y todos tus personajes obtienen Vida +2.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Siempre lista para improvisar",
+      "desc": "Pasiva: al comenzar el duelo, crea un <span style=\"color:#FFFFFFFF\">$[C111159|s1:]</span>.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

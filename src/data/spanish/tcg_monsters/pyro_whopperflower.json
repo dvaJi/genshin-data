@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Pyro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "fierce_headbutt",
       "name": "Golpe de cabeza",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -36,8 +40,10 @@
     {
       "id": "scorching_leaves",
       "name": "Hojas llameantes",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -50,8 +56,10 @@
     {
       "id": "roasted_nectar_burst",
       "name": "Explosión de néctar",
-      "desc": "Inflige 7 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -71,7 +79,9 @@
       "id": "masterful_mimicry",
       "name": "Camuflaje exquisito",
       "desc": "<span style=\"color:#FFFFFFFF\">Al comienzo de la ronda</span>, el rival <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">selecciona</span></span> 1 de entre 3 cartas aleatorias. Si la carta seleccionada resulta ser un engaño de la Megaflora, esta obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

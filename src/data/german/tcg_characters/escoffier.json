@@ -1,0 +1,90 @@
+{
+  "_id": 1115,
+  "id": "escoffier",
+  "shareId": 533,
+  "name": "Escoffier",
+  "title": "Kulinarischer Glanz – Escoffier",
+  "desc": "Gebackene Perfektion mit Frostglasur.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Stangenwaffe",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Escoffier in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "kitchen_skills",
+      "name": "Kochkünste",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "lowtemperature_cooking",
+      "name": "Niedrigtemperaturgaren",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Gastro-Mecha – Modus „Kaltlagerung“</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "scoring_cuts",
+      "name": "Schnitttechnik",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], stellt allen deinen Figuren 2 LP wieder her.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "constant_offthecuff_cookery",
+      "name": "Jederzeit improvisiertes Kochen",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 <span style=\"color:#FFFFFFFF\">Multifunktionaler Gastro-Mecha</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

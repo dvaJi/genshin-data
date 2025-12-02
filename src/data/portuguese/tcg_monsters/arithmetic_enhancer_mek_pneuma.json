@@ -10,14 +10,18 @@
     "energy": 1,
     "element": "Sem Tipo Elemental",
     "weapon": "Outras Armas",
-    "faction": ["Monstro"]
+    "faction": [
+      "Monstro"
+    ]
   },
   "skills": [
     {
       "id": "ram",
       "name": "Colidir",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "energy_boost_pneuma",
       "name": "Aumento de Energia: Pneuma",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Aumento de Energia: Pneuma</span>.",
-      "skillTag": ["Habilidade Elemental"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Aumento de Energia: Pneuma</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "energy_burst_pneuma",
       "name": "Explosão de Energia: Pneuma",
-      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Aumento de Energia: Pneuma</span>.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Aumento de Energia: Pneuma</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,14 +73,18 @@
       "id": "frame_repair_pneuma",
       "name": "Reparação de Quadro: Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Após seu personagem usar uma Habilidade:</span> Cura seu personagem que mais sofreu Dano em 1 de Vida.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     },
     {
       "id": "arkhe_pneuma",
       "name": "Arkhe: Pneuma",
       "desc": "<span style=\"color:#FFFFFFFF\">Após ser danificado por personagem com \"Arkhe: Ousia\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

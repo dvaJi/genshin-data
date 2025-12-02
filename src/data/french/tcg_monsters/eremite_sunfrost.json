@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Autre arme",
-    "faction": ["Érémites"]
+    "faction": [
+      "Érémites"
+    ]
   },
   "skills": [
     {
       "id": "double_hack",
       "name": "Entaille double",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "dualblade_chop",
       "name": "Tranchée double",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -51,7 +57,9 @@
       "id": "stalwart_onslaught",
       "name": "Contusion améliorée",
       "desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Contusion améliorée : Frappe totale</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -71,7 +79,9 @@
       "id": "ominous_spirit_unleashed_cryo",
       "name": "Délivrance d'esprit sinistre (Cryo)",
       "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT</span> : Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> et un <span style=\"color:#FFFFFFFF\">éveil d'esprit sinistre (Cryo)</span> s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

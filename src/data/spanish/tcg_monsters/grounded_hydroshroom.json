@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "spore_bullet",
       "name": "Lanzaesporas",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "raging_breath",
       "name": "Respiración vehemente",
-      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "charging_blast",
       "name": "Chorro cargado",
-      "desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,7 +79,9 @@
       "id": "state_change",
       "name": "Conversión de estado",
       "desc": "Pasiva: al comenzar la batalla, el personaje está en <span style=\"color:#FFFFFFFF\">ventaja sobre terreno</span>.<br/>Tras recibir <span style=\"color:#FF9999FF\">Daño Pyro</span>, pasa al <span style=\"color:#FFFFFFFF\">estado quemado</span>.<br/>Tras recibir <span style=\"color:#FFACFFFF\">Daño Electro</span>, pasa al <span style=\"color:#FFFFFFFF\">estado revitalizado</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

@@ -11,7 +11,10 @@
     "energy": 2,
     "element": "Électro",
     "weapon": "Autre arme",
-    "faction": ["Monstre", "Bête sacralisée"],
+    "faction": [
+      "Monstre",
+      "Bête sacralisée"
+    ],
     "talent_card": {
       "_id": 5696,
       "id": "fatal_fulmination",
@@ -27,8 +30,10 @@
     {
       "id": "scorpion_strike",
       "name": "Pince de scorpion",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -47,8 +52,10 @@
     {
       "id": "stinging_spine",
       "name": "Dard de scorpion",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Crée 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et la place aléatoirement parmi les 2 premières positions du dessus de votre deck.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.<br/>Crée 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et la place aléatoirement parmi les 2 premières positions du dessus de votre deck.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -61,8 +68,10 @@
     {
       "id": "thunderbore_blast",
       "name": "Dispersion tonitruante",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 3 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] depuis votre main et crée un <span style=\"color:#FFFFFFFF\">piège à tonnerre</span> sur le terrain adverse.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 3 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] depuis votre main et crée un <span style=\"color:#FFFFFFFF\">piège à tonnerre</span> sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -82,7 +91,9 @@
       "id": "immortal_remnants_electro",
       "name": "Reste immortel Électro",
       "desc": "(Passif) À la fin de la manche : Crée 2 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et les place aléatoirement parmi les 10 premières positions du dessus de votre deck.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

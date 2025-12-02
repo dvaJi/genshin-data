@@ -11,7 +11,9 @@
     "energy": 3,
     "element": "Hydro",
     "weapon": "Arco",
-    "faction": ["Fatui"],
+    "faction": [
+      "Fatui"
+    ],
     "talent_card": {
       "_id": 3846,
       "id": "abyssal_mayhem_hydrospout",
@@ -29,8 +31,10 @@
     {
       "id": "cutting_torrent",
       "name": "Torrente cortante",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -49,8 +53,10 @@
     {
       "id": "foul_legacy_raging_tide",
       "name": "Legado del mal: Olas furiosas",
-      "desc": "Cambia al estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo</span>, inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">obstrucción del flujo</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Cambia al estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo</span>, inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">obstrucción del flujo</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -63,8 +69,10 @@
     {
       "id": "havoc_obliteration",
       "name": "Caos: Obliteración",
-      "desc": "Realiza diferentes ataques dependiendo <span style=\"color:#FFFFFFFF\">de la posición de Tartaglia</span>:<br/><span style=\"color:#FFFFFFFF\">Combate a distancia - Flecha del caos:</span> inflige $[D__KEY__DAMAGE_5] pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>, restaura <span style=\"color:#FFFFFFFF\">Energía</span> +2 y aplica en el personaje objetivo el efecto de <span style=\"color:#FFFFFFFF\">$[C112043 de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Realiza diferentes ataques dependiendo <span style=\"color:#FFFFFFFF\">de la posición de Tartaglia</span>:<br/><span style=\"color:#FFFFFFFF\">Combate a distancia - Flecha del caos:</span> inflige $[D__KEY__DAMAGE_5] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, restaura <span style=\"color:#FFFFFFFF\">Energía</span> +2 y aplica en el personaje objetivo el efecto de <span style=\"color:#FFFFFFFF\">obstrucción del flujo</span>.<br/><span style=\"color:#FFFFFFFF\">Combate cuerpo a cuerpo - Luz de obliteración:</span> inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -84,7 +92,9 @@
       "id": "tide_withholder",
       "name": "Retención de la Marea",
       "desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia</span>.<br/>Cuando el personaje afectado salga del estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo</span>, vuelve a entrar en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

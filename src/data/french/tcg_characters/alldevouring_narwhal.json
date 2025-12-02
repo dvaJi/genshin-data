@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"],
+    "faction": [
+      "Monstre"
+    ],
     "talent_card": {
       "_id": 5695,
       "id": "lightless_feeding",
@@ -27,8 +29,10 @@
     {
       "id": "shattering_waves",
       "name": "Vague déchaînée",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -47,8 +51,10 @@
     {
       "id": "starfall_shower",
       "name": "Chute d'étoiles",
-      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de <span style=\"color:#80C0FFFF\">DGT Hydro</span>. Ces DGT augmentent de 1 tous les 3 PV max supplémentaires accordés par un <span style=\"color:#FFFFFFFF\">appétit insatiable</span> à ce personnage (Peut être cumulé 3 fois maximum). 1 carte dont le coût original de dés élémentaires est le plus élevé est ensuite <span style=\"color:#FFFFFFFF\">défaussée</span> depuis votre main.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de ?. Ces DGT augmentent de 1 tous les 3 PV max supplémentaires accordés par un <span style=\"color:#FFFFFFFF\">appétit insatiable</span> à ce personnage (Peut être cumulé 3 fois maximum). 1 carte dont le coût original de dés élémentaires est le plus élevé est ensuite <span style=\"color:#FFFFFFFF\">défaussée</span> depuis votre main.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -61,8 +67,10 @@
     {
       "id": "ravaging_devourer",
       "name": "Voracité ravageuse",
-      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et invoque une <span style=\"color:#FFFFFFFF\">ombre sombre</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et invoque une <span style=\"color:#FFFFFFFF\">ombre sombre</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -82,7 +90,9 @@
       "id": "insatiable_appetite",
       "name": "Appétit insatiable",
       "desc": "(Passif) Crée un <span style=\"color:#FFFFFFFF\">royaume dévorant</span> au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

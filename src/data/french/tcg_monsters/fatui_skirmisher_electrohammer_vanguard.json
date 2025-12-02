@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Électro",
     "weapon": "Autre arme",
-    "faction": ["Fatui"]
+    "faction": [
+      "Fatui"
+    ]
   },
   "skills": [
     {
       "id": "rapid_hammer_strike",
       "name": "Martèlement rapide",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -36,8 +40,10 @@
     {
       "id": "raging_charge",
       "name": "Charge furieuse",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "thunderblast_hammer",
       "name": "Marteau de tonnerre",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et accorde un <span style=\"color:#FFFFFFFF\">équipement Électro</span> au personnage.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et accorde un <span style=\"color:#FFFFFFFF\">équipement Électro</span> au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,7 +79,9 @@
       "id": "combat_resupply",
       "name": "Réapprovisionnement de combat",
       "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

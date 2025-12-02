@@ -6,12 +6,14 @@
   "title": "Furina - La Bailarina Incansable",
   "desc": "Solista eterna, bailarina infinita.",
   "attributes": {
-    "hp": 10,
+    "hp": 12,
     "card_type": "Carta de personaje",
     "energy": 2,
     "element": "Hydro",
     "weapon": "Espada ligera",
-    "faction": ["Fontaine"],
+    "faction": [
+      "Fontaine"
+    ],
     "talent_card": {
       "_id": 5691,
       "id": "hear_me_let_us_raise_the_chalice_of_love",
@@ -29,8 +31,10 @@
     {
       "id": "soloists_solicitation",
       "name": "Convite de la solista",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> si no tienes la carta <span style=\"color:#FFFFFFFF\">Sacralidad y secularidad</span> en la mano, crea una.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> si no tienes la carta <span style=\"color:#FFFFFFFF\">Sacralidad y secularidad</span> en la mano, crea una.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,7 +54,9 @@
       "id": "salon_solitaire",
       "name": "Salón Solitaire",
       "desc": "El tipo de arjé actual de <span style=\"color:#FFFFFFFF\">Furina</span> es ousía: invoca a los <span style=\"color:#FFFFFFFF\">miembros del salón</span>.<br/>Cuando el tipo de arjé de Furina sea pneuma, invoca al <span style=\"color:#FFFFFFFF\">juglar de las aguas</span> en su lugar.",
-      "skillTag": ["Habilidad Elemental"],
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -63,8 +69,10 @@
     {
       "id": "let_the_people_rejoice",
       "name": "¡Que el mundo entero festeje!",
-      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea el estado de <span style=\"color:#FFFFFFFF\">jolgorio ecuménico</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y crea el estado de <span style=\"color:#FFFFFFFF\">jolgorio ecuménico</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -84,7 +92,9 @@
       "id": "arkhe_seats_sacred_and_secular",
       "name": "Arjé: sacralidad y secularidad",
       "desc": "Pasiva: al comenzar el duelo, se crea 1 carta de “<span style=\"color:#FFFFFFFF\">Sacralidad y secularidad</span>”.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

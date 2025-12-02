@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "ram",
       "name": "Placaje",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "bubble_spray",
       "name": "Lanzaburbujas",
-      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">burbuja gorgoteante</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">burbuja gorgoteante</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "jumping_slam",
       "name": "Salto aplastante",
-      "desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,7 +79,9 @@
       "id": "elemental_sedimentation_hydro",
       "name": "Sedimento elemental: Hydro",
       "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de un <span style=\"color:#FFFFFFFF\">Ser elemental: Hydro</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

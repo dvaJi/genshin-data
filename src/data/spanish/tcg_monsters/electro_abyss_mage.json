@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Electro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "thunderbolt",
       "name": "Rayo",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -37,7 +41,9 @@
       "id": "lingering_light",
       "name": "Ofrenda lumínica",
       "desc": "Invoca un <span style=\"color:#FFFFFFFF\">electroanillo enredador</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "rite_of_rolling_thunder",
       "name": "Rito del relámpago",
-      "desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> e invoca un <span style=\"color:#FFFFFFFF\">electroanillo enredador</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? e invoca un <span style=\"color:#FFFFFFFF\">electroanillo enredador</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,7 +79,9 @@
       "id": "electro_ward",
       "name": "Protección Electro",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene una <span style=\"color:#FFFFFFFF\">protección Electro</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

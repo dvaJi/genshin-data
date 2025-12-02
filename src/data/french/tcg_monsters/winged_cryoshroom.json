@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "spore_bullet",
       "name": "Balle de spores",
-      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "rolling_spray",
       "name": "Pulvérisation roulante",
-      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -50,8 +56,10 @@
     {
       "id": "divebomb",
       "name": "Plongeon explosif",
-      "desc": "Inflige 5 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -71,7 +79,9 @@
       "id": "state_change",
       "name": "Changement d'état",
       "desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">supériorité aérienne</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

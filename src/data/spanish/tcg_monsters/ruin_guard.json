@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Sin tipo elemental",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "stern_blow",
       "name": "Asalto adusto",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "spiral_closein",
       "name": "Acercamiento espiral",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> <span style=\"color:#FFFFFFFF\">Girogolpe frecuente</span> y <span style=\"color:#FFFFFFFF\">Girogolpe veloz</span> respectivamente.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> <span style=\"color:#FFFFFFFF\">Girogolpe frecuente</span> y <span style=\"color:#FFFFFFFF\">Girogolpe veloz</span> respectivamente.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "suppressive_volley",
       "name": "Disparo supresor",
-      "desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y crea un <span style=\"color:#FFFFFFFF\">proyectil persecutor</span> en el campo del rival.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y crea un <span style=\"color:#FFFFFFFF\">proyectil persecutor</span> en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,7 +73,9 @@
       "id": "standard_armor",
       "name": "Armadura estándar",
       "desc": "Pasiva: el <span style=\"color:#FFFFFFFF\">Daño Físico</span> que recibe el personaje se reduce a la mitad (se redondea hacia arriba).",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

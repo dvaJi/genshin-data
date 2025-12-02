@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Otras armas",
-    "faction": ["Monstruo"]
+    "faction": [
+      "Monstruo"
+    ]
   },
   "skills": [
     {
       "id": "tainted_water_strike",
       "name": "Golpe legamoso",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "spouting_waves",
       "name": "Chorro ondulante",
-      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "tainted_water_surge",
       "name": "Aluvión legamoso",
-      "desc": "Inflige 4 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,14 +79,18 @@
       "id": "elemental_sedimentation_hydro",
       "name": "Sedimento elemental: Hydro",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">undefined</span>.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     },
     {
       "id": "tainted_waters_change_their_shape",
       "name": "Transformación legamosa",
       "desc": "Pasiva: la reacción de <span style=\"color:#FFFFFFFF\">Congelado</span> no surte efecto.<br/>Cuando este personaje tiene 5 pts. de Vida o menos, inflige daño +2.<br/><span style=\"color:#FFFFFFFF\">Cuando este personaje usa una habilidad</span>, si tiene al menos 6 pts. de Vida, inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> a todos los personajes enemigos en reserva.",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

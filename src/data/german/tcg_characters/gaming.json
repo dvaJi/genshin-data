@@ -1,0 +1,81 @@
+{
+  "_id": 1316,
+  "id": "gaming",
+  "shareId": 534,
+  "name": "Gaming",
+  "title": "Fabellöwe im Vormarsch – Gaming",
+  "desc": "Meisterhaft auf Schritt und Tritt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Liyue"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Gaming in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "stellar_rend",
+      "name": "Des Sternenzerreißenden Klauen",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "bestial_ascent",
+      "name": "Einer glückverheißenden Bestie versprochener Aufstieg",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], verleiht sich selbst <span style=\"color:#FFFFFFFF\">Wushou-Kunst</span>, wechselt deine aktive Figur zur nächsten.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "suannis_gilded_dance",
+      "name": "Der Suanni vergoldeter Tanz",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], verleiht sich selbst <span style=\"color:#FFFFFFFF\">Suanni – Man Chai</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}

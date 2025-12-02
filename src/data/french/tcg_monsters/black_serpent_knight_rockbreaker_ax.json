@@ -1,0 +1,88 @@
+{
+  "_id": 4610,
+  "id": "black_serpent_knight_rockbreaker_ax",
+  "shareId": 4610,
+  "name": "Chevalier des Serpents noirs - Casseur de pierre",
+  "desc": "",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ]
+  },
+  "skills": [
+    {
+      "id": "supreme_strike",
+      "name": "Taillade suprême",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "axe_and_aegis",
+      "name": "Choc de hache et de bouclier",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stone_stance",
+      "name": "Forme de roche",
+      "desc": "<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFE699FF\">Applique l'élément Géo</span></span> au personnage affecté, prépare la capacité : <span style=\"color:#FFFFFFFF\">Frappe de hache</span>. Puis, prépare la capacité : <span style=\"color:#FFFFFFFF\">Frappe d'expert</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "attacking_momentum",
+      "name": "Momentum offensif",
+      "desc": "(Passif) Si l'adversaire a un effet de <span style=\"color:#FFFFFFFF\">réduction des DGT</span> ou un <span style=\"color:#FFFFFFFF\">bouclier</span> dans son camp ou s'il existe un état de déploiement avec <span style=\"color:#FFFFFFFF\">réduction des DGT</span> ou <span style=\"color:#FFFFFFFF\">bouclier</span> : Le personnage affecté obtient 1 cumul de <span style=\"color:#FFFFFFFF\">puissance de pierre</span> lorsqu'un de vos personnages a utilisé une capacité.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

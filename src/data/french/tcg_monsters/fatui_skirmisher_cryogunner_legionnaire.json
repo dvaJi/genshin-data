@@ -10,14 +10,18 @@
     "energy": 3,
     "element": "Cryo",
     "weapon": "Autre arme",
-    "faction": ["Fatui"]
+    "faction": [
+      "Fatui"
+    ]
   },
   "skills": [
     {
       "id": "closerange_charge",
       "name": "Charge à courte portée",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -36,8 +40,10 @@
     {
       "id": "freezing_spray",
       "name": "Embrun verglaçant",
-      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -50,8 +56,10 @@
     {
       "id": "frost_cannon",
       "name": "Canon de givre",
-      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et accorde un <span style=\"color:#FFFFFFFF\">équipement Cryo</span> au personnage.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et accorde un <span style=\"color:#FFFFFFFF\">équipement Cryo</span> au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -71,7 +79,9 @@
       "id": "combat_resupply",
       "name": "Réapprovisionnement de combat",
       "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

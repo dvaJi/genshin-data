@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Pyro",
     "weapon": "Autre arme",
-    "faction": ["Oni des mers"]
+    "faction": [
+      "Oni des mers"
+    ]
   },
   "skills": [
     {
       "id": "three_point_slash",
       "name": "Coupe triple",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -36,8 +40,10 @@
     {
       "id": "leaping_strike",
       "name": "Frappe sautée",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -51,7 +57,9 @@
       "id": "iai_sheathed",
       "name": "Iai : Rengainé",
       "desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Iai : Vent ardent</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1103,
@@ -71,14 +79,18 @@
       "id": "kamuna_talisman_pyro",
       "name": "Talisman Kamuna : Feu",
       "desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">Talisman Kamuna : Feu</span> au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     },
     {
       "id": "final_frenzy",
       "name": "Frénésie finale",
       "desc": "Lorsqu'un autre de vos personnages de type Oni des mers est vaincu, accorde une <span style=\"color:#FFFFFFFF\">frénésie finale</span> à ce personnage.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

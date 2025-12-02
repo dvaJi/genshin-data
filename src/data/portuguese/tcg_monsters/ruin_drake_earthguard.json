@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Sem Tipo Elemental",
     "weapon": "Outras Armas",
-    "faction": ["Monstro"]
+    "faction": [
+      "Monstro"
+    ]
   },
   "skills": [
     {
       "id": "close_expulsion",
       "name": "Expulsão de Curta Distância",
-      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1109,
@@ -30,8 +34,10 @@
     {
       "id": "sudden_charge",
       "name": "Investida Repentina",
-      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
-      "skillTag": ["Habilidade Elemental"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -44,8 +50,10 @@
     {
       "id": "energy_surge",
       "name": "Onda de Energia",
-      "desc": "Causa 5 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>. Se esse personagem absorveu Energia Elemental, vai lançar esse elemento para +1 de Dano e mudará o tipo de Dano para o elemento absorvido.",
-      "skillTag": ["Supremo"],
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?. Se esse personagem absorveu Energia Elemental, vai lançar esse elemento para +1 de Dano e mudará o tipo de Dano para o elemento absorvido.",
+      "skillTag": [
+        "Supremo"
+      ],
       "points": [
         {
           "_id": 1108,
@@ -65,14 +73,18 @@
       "id": "standard_armor",
       "name": "Armadura Padrão",
       "desc": "(Passivo) O <span style=\"color:#FFFFFFFF\">Dano Físico</span> que esse personagem recebe é diminuído pela metade. (Para cima)",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     },
     {
       "id": "elemental_absorption",
       "name": "Absorção Elemental",
       "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Quando nenhum elemento tiver sido absorvido e esse personagem sofrer Dano Elemental</span>, absorve esse Elemento.<br/>Corta pela metade o Dano sofrido pelo personagem. (Para cima)",
-      "skillTag": ["Habilidade Passiva"],
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
       "points": []
     }
   ]

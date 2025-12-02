@@ -11,7 +11,10 @@
     "energy": 2,
     "element": "Anémo",
     "weapon": "Autre arme",
-    "faction": ["Monstre", "Bête sacralisée"],
+    "faction": [
+      "Monstre",
+      "Bête sacralisée"
+    ],
     "talent_card": {
       "_id": 5697,
       "id": "deathly_cyclone",
@@ -27,8 +30,10 @@
     {
       "id": "whirling_tail",
       "name": "Tournoiement de queue",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1105,
@@ -47,8 +52,10 @@
     {
       "id": "swirling_squall",
       "name": "Bourrasque tourbillonnante",
-      "desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et pioche 1 carte.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et pioche 1 carte.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1105,
@@ -61,8 +68,10 @@
     {
       "id": "scattershot_vortex",
       "name": "Vortex dispersé",
-      "desc": "Inflige 2 pts de <span style=\"color:#80FFD7FF\">DGT Anémo</span> et <span style=\"color:#FFFFFFFF\">défausse</span> toutes les cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] de votre main. Ces DGT doublent une fois toutes les 2 cartes <span style=\"color:#FFFFFFFF\">défaussées</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et <span style=\"color:#FFFFFFFF\">défausse</span> toutes les cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] de votre main. Ces DGT doublent une fois toutes les 2 cartes <span style=\"color:#FFFFFFFF\">défaussées</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1105,
@@ -82,7 +91,9 @@
       "id": "immortal_remnants_anemo",
       "name": "Reste immortel Anémo",
       "desc": "(Passif) Crée 6 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] et les répartit uniformément dans votre deck au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

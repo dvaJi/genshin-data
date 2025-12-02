@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Hydro",
     "weapon": "Autre arme",
-    "faction": ["Monstre"]
+    "faction": [
+      "Monstre"
+    ]
   },
   "skills": [
     {
       "id": "vicious_kicks",
       "name": "Pied vivace",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": ["Attaque normale"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -36,8 +40,10 @@
     {
       "id": "whirling_legblades",
       "name": "Lame de farandole",
-      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Compétence élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -50,8 +56,10 @@
     {
       "id": "bladed_waltz",
       "name": "Lame de valse",
-      "desc": "Inflige 5 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
-      "skillTag": ["Déchaînement élémentaire"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
       "points": [
         {
           "_id": 1102,
@@ -71,14 +79,18 @@
       "id": "support_unit_ousia",
       "name": "Unité ousia de soutien",
       "desc": "(Passif) Crée un <span style=\"color:#FFFFFFFF\">Mek détecteur « Ousia »</span> d'origine au début du combat.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     },
     {
       "id": "arkhe_ousia",
       "name": "Signature énergétique : Ousia",
       "desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe pneuma : </span>il change en <span style=\"color:#FFFFFFFF\">forme désactivée</span> et <span style=\"color:#FFFFFFFF\">ne peut pas utiliser de capacité</span> jusqu'à la fin de la manche.",
-      "skillTag": ["Capacité passive"],
+      "skillTag": [
+        "Capacité passive"
+      ],
       "points": []
     }
   ]

@@ -11,7 +11,9 @@
     "energy": 2,
     "element": "Cryo",
     "weapon": "Otras armas",
-    "faction": ["Fatui"],
+    "faction": [
+      "Fatui"
+    ],
     "talent_card": {
       "_id": 6325,
       "id": "rimeflow_rapier",
@@ -27,8 +29,10 @@
     {
       "id": "swift_point",
       "name": "Cuchilla rápida",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -47,8 +51,10 @@
     {
       "id": "frosty_interjection",
       "name": "Interceptación hojaescarcha",
-      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
-      "skillTag": ["Habilidad Elemental"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -61,8 +67,10 @@
     {
       "id": "thorny_onslaught",
       "name": "Espina de asalto",
-      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">posición de asalto</span>.",
-      "skillTag": ["Habilidad Definitiva"],
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">posición de asalto</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
       "points": [
         {
           "_id": 1101,
@@ -82,7 +90,9 @@
       "id": "bloodbonded_shadow",
       "name": "Sombra sanguínea",
       "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">después de que este personaje use una habilidad</span>, el personaje en combate enemigo obtiene un <span style=\"color:#FFFFFFFF\">pacto vital</span> con un número de <span style=\"color:#FFFFFFFF\">usos</span> equivalente al daño final de esta habilidad -2 (acumulable hasta 5 veces).",
-      "skillTag": ["Habilidad pasiva"],
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
       "points": []
     }
   ]

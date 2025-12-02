@@ -10,14 +10,18 @@
     "energy": 2,
     "element": "Elektro",
     "weapon": "Andere Waffen",
-    "faction": ["Monster"]
+    "faction": [
+      "Monster"
+    ]
   },
   "skills": [
     {
       "id": "rapid_melee",
       "name": "Flinke Nahkampfmanöver",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": ["Standardangriff"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -37,7 +41,9 @@
       "id": "shield_riposte",
       "name": "Schildkonter",
       "desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Schildblockade</span> und <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Schildklingenhiebe</span>.",
-      "skillTag": ["Elementarfähigkeit"],
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -50,8 +56,10 @@
     {
       "id": "shield_sweep",
       "name": "Schildkantenschläge",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, fügt allen inaktiven Figuren des Gegners 2 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu.",
-      "skillTag": ["Spezialfähigkeit"],
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren des Gegners 2 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH</span></span> zu.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
       "points": [
         {
           "_id": 1104,
@@ -71,7 +79,9 @@
       "id": "arkhe_ousia",
       "name": "Energiesignatur – Ousia",
       "desc": "<span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur:</span> Diese Figur wird in den <span style=\"color:#FFFFFFFF\">„Deaktiviert-Modus“</span> eintreten und bis Endphase dieser Runde <span style=\"color:#FFFFFFFF\">keine Fähigkeit anwenden können</span>.",
-      "skillTag": ["Passive Fähigkeit"],
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
       "points": []
     }
   ]

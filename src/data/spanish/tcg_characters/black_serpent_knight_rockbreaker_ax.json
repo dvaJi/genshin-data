@@ -1,0 +1,90 @@
+{
+  "_id": 2604,
+  "id": "black_serpent_knight_rockbreaker_ax",
+  "shareId": 535,
+  "name": "Caballero Serpiente Negra - Hachero demolerrocas",
+  "title": "Caballero Serpiente Negra - Hachero demolerrocas",
+  "desc": "“Un soldado con una importante posición en la corte real. Se dedica a eliminar a los enemigos de la realeza con la habilidad de combate a la que llama ‘Técnica de la verdad’”.",
+  "attributes": {
+    "hp": 12,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Caballero Serpiente Negra - Hachero demolerrocas de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "supreme_strike",
+      "name": "Tajo supremo",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "axe_and_aegis",
+      "name": "Hacha y escudo",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "stone_stance",
+      "name": "Postura pétrea",
+      "desc": "Obtiene una <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFE699FF\">aplicación Geo</span></span>, prepara la habilidad <span style=\"color:#FFFFFFFF\">Embestida con hacha gigante</span>, y luego prepara la habilidad <span style=\"color:#FFFFFFFF\">Golpetazo de maestro</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "attacking_momentum",
+      "name": "Vigor ofensivo",
+      "desc": "Pasiva: si en el campo del rival hay estados de <span style=\"color:#FFFFFFFF\">reducción de daño</span> o <span style=\"color:#FFFFFFFF\">escudos</span>, después de que tu personaje use una habilidad, obtendrá 1 carga de <span style=\"color:#FFFFFFFF\">poder demoledor</span>.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}
