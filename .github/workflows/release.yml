@@ -1,4 +1,5 @@
 name: Publish Package
+
 on:
   release:
     types: [created]
@@ -8,27 +9,27 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v5
 
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+          cache: true
+
       - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        id: pnpm-install
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
         with:
           version: 9
           run_install: false
-          cache: true
 
-      - name: Install Dependencies
-        run: pnpm install
+      - run: pnpm install
         env:
           NODE_OPTIONS: --max_old_space_size=8192
 
-      - name: Publish Package
-        run: pnpm publish --no-git-checks
+      - run: pnpm publish --no-git-checks
         env:
           NODE_OPTIONS: --max_old_space_size=8192
