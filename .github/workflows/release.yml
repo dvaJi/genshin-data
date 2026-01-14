@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - run: pnpm install
         env:
