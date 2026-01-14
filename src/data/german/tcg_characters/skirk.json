@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "Skirk",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 0,
+    "element": "Kryo",
+    "weapon": "Einhänder",
+    "faction": [
+      "Kosmischer Kataklysmus"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "Verdorbene Kunst – Zerteilung",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "Verdorbene Kunst – Verzerrung",
+      "desc": "Erhalte 2 Pkt. <span style=\"color:#FFFFFFFF\">List der Schlange</span> und erschafft 1 <span style=\"color:#FFFFFFFF\">Mentorin aller Waffenkampfkünste</span> auf deiner Hand (1-mal pro Runde).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "Verdorbene Kunst – Vernichtung",
+      "desc": "Wandelt 2 Würfel, die keine Omni-Würfel sind, in <span style=\"color:#99FFFFFF\">Kryo-Würfel</span> um und es werden bis zu 2 Karten mit den ursprünglichen Elementarwürfelkosten von 0 aus deiner Hand <span style=\"color:#FFFFFFFF\">abgeworfen</span>; <span style=\"color:#FFFFFFFF\">Skirk</span> erhält für jede Karte, die <span style=\"color:#FFFFFFFF\">abgeworfen</span> wird, 1 Pkt. <span style=\"color:#FFFFFFFF\">List der Schlange</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Kryo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "Vernunft jenseits der Vernunft",
+      "desc": "Passiv – Skirk kann keine Aufladung erhalten, sondern sammelt stattdessen bis zu 7 Pkt. <span style=\"color:#FFFFFFFF\">List der Schlange</span> an.<br/><span style=\"color:#FFFFFFFF\">Nachdem du die Reaktion Gefroren, Kryo-Verwirbelung, Supraleiter oder Kryo-Kristallisation ausgelöst hast:</span> Erschafft 1 <span style=\"color:#FFFFFFFF\">Leere-Riss</span> auf deiner Hand (3-mal pro Runde).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

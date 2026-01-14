@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "스커크",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 0,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": [
+      "우주적 재앙"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "극악기·단",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "극악기·섬",
+      "desc": "<span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 2pt 획득하고 <span style=\"color:#FFFFFFFF\">무예 전수</span>를 핸드 카드로 생성한다. (턴당 1회)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "극악기·진",
+      "desc": "만능 원소가 아닌 주사위 2개를 <span style=\"color:#99FFFFFF\">얼음 원소 주사위</span>로 전환하고, 기본 원소 주사위 소모 개수가 0인 카드를 최대 2장 <span style=\"color:#FFFFFFFF\">포기</span>한다. 1장 <span style=\"color:#FFFFFFFF\">포기</span>할 때마다 <span style=\"color:#FFFFFFFF\">스커크</span>가 추가로 <span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 1pt 획득한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "이치 너머의 이치",
+      "desc": "[패시브] 스커크는 원소 에너지를 획득할 수 없는 대신 <span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 최대 7pt 누적할 수 있다.<br/>아군이 <span style=\"color:#FFFFFFFF\">빙결/얼음 확산/초전도/얼음 결정 반응 발동 후</span>: <span style=\"color:#FFFFFFFF\">허계 균열</span>을 핸드 카드로 생성한다. (턴당 3회)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

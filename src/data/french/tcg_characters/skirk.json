@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "Skirk",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 0,
+    "element": "Cryo",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Calamité cosmique"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "Ravage : Scission",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "Ravage : Distorsion",
+      "desc": "Accorde 2 pts de <span style=\"color:#FFFFFFFF\">finesse serpentine</span> et crée une carte [<span style=\"color:#FFFFFFFF\">Mentorat mutuel d'armement</span>] dans votre main. (1 fois par manche)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "Ravage : Extinction",
+      "desc": "Convertit 2 dés élémentaires (dés Omni exclus) en <span style=\"color:#99FFFFFF\">dés Cryo</span>, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 2 cartes dont le coût d'origine en dés élémentaires est de 0 et accorde 1 pt de <span style=\"color:#FFFFFFFF\">finesse serpentine</span> à <span style=\"color:#FFFFFFFF\">Skirk</span> pour chaque carte <span style=\"color:#FFFFFFFF\">défaussée</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "Raisonnement outre-raison",
+      "desc": "(Passif) Skirk ne peut pas obtenir de charge, mais peut obtenir un maximum de 7 pts de <span style=\"color:#FFFFFFFF\">finesse serpentine</span>.<br/><span style=\"color:#FFFFFFFF\">Lorsque vous avez déclenché une réaction de Gel, de Dispersion Cryo, de Supraconduction ou de Cristallisation Cryo : </span>Crée une carte [<span style=\"color:#FFFFFFFF\">Faille du néant</span>]. (3 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_id": 1416,
+  "id": "ororon",
+  "shareId": 545,
+  "name": "Ororon",
+  "title": "Ororon · Ombre du vent nocturne",
+  "desc": "Le marcheur énigmatique des ombres.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Arc",
+    "faction": [
+      "Natlan"
+    ],
+    "source": "Récompense pour avoir invité Ororon à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "spiritvessel_snapshot",
+      "name": "Flèche spirituellement habitée",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_sling",
+      "name": "Cordon fermement crépusculaire",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée un <span style=\"color:#FFFFFFFF\">spiritorbe</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dark_voices_echo",
+      "name": "Écho opaquement étouffé",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et invoque un <span style=\"color:#FFFFFFFF\">spiroculus sonique</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightshade_synesthesia",
+      "name": "Synesthésie sombrement nocturne",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque vous avez déclenché une réaction d'Électrocution : </span>Si possible, consomme 2 pts de <span style=\"color:#FFFFFFFF\">noctâme</span> pour infliger 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Lorsque vous avez infligé des <span style=\"color:#80C0FFFF\">DGT Hydro</span> ou des <span style=\"color:#FFACFFFF\">DGT Électro</span> ne provenant pas de cette capacité : Fait passer le personnage affecté en <span style=\"color:#FFFFFFFF\">bénédiction noctâme</span> et lui accorde 1 pt de <span style=\"color:#FFFFFFFF\">noctâme</span>. (1 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

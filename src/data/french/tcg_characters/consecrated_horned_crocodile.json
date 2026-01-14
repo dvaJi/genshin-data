@@ -1,0 +1,91 @@
+{
+  "_id": 2207,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 546,
+  "name": "Crococornu sacralisé",
+  "title": "Marée résiduelle : Crococornu sacralisé",
+  "desc": "La créature, qui a été déformée et transformée après avoir consommé la chair d'une puissante forme de vie, contrôle le flux d'eau en constante évolution.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Bête sacralisée"
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Crococornu sacralisé"
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "Morsure de croc",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "Vague croquante",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, place un maximum de 1 carte dont le coût original de dés élémentaires est le plus élevé depuis votre main dans le bas de votre deck et crée une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans votre main.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "Rage reptilienne",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 3 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>], puis soigne votre personnage ayant subi le plus de DGT pour 1 pt et lui accorde 1 PV max pour chaque carte <span style=\"color:#FFFFFFFF\">défaussée</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "Sens sacralisés",
+      "desc": "(Passif) Lorsque vous avez joué ou défaussé une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] : Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

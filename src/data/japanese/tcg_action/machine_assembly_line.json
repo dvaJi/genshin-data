@@ -7,14 +7,22 @@
   "desc": "加熱され、鍛造された無数のパーツが、最終的にこれらの優れた性能を持つマシナリーになる。その過程は、メロピデ要塞の囚人たちに価値のある特別許可券をもたらした…",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "同一元素",
     "card_type": "イベントカード",
-    "energy": []
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "同一元素",
+        "count": 1
+      }
+    ]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">対象の味方キャラがダメージ、または治療効果を受けるたびに</span>、<span style=\"color:#FFFFFFFF\">「整備度」</span>を1蓄積する（最大2まで蓄積可能）。<br/><color=#FFFFFFFF>初期コストが<span style=\"color:#FFFFFFFF\">「整備度」</span>以下の「武器」、または「聖遺物」を味方が使用する時</color>、すべての<span style=\"color:#FFFFFFFF\">「整備度」</span>をクリアし、そのカードをコストなしで使用できるようになる。"
+      "desc": "味方の「出撃キャラ」に<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与える。山札からランダムで「聖遺物」カードを1枚引く。"
     }
   ]
 }

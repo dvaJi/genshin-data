@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "スカーク",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 0,
+    "element": "氷元素",
+    "weapon": "片手剣",
+    "faction": [
+      "宇宙の劫災"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "極悪技・断",
+      "desc": "?を?与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "極悪技・閃",
+      "desc": "<span style=\"color:#FFFFFFFF\">蛇の狡智</span>を2獲得し、手札に<span style=\"color:#FFFFFFFF\">武芸伝授</span>を生成する。（各ラウンドで1回のみ）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "極悪技・尽",
+      "desc": "万能元素以外の元素サイコロ2個を<span style=\"color:#99FFFFFF\">氷元素サイコロ</span>に変換する。元素サイコロの初期コストが0のカードを最大2枚まで<span style=\"color:#FFFFFFFF\">破棄</span>し、1枚<span style=\"color:#FFFFFFFF\">破棄</span>するごとに、<span style=\"color:#FFFFFFFF\">スカーク</span>は<span style=\"color:#FFFFFFFF\">蛇の狡智</span>を1獲得する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "氷元素",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "理の超越",
+      "desc": "【固有】スカークはチャージを獲得できず、代わりに<span style=\"color:#FFFFFFFF\">蛇の狡智</span>を最大7まで蓄積できる。<br/><span style=\"color:#FFFFFFFF\">味方が凍結/氷拡散/超電導/氷結晶反応を起こした時、</span>手札に<span style=\"color:#FFFFFFFF\">虚境の裂け目</span>を生成する。（1ラウンド3回まで）",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ]
+}

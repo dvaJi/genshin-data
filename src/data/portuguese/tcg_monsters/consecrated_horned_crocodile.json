@@ -1,0 +1,88 @@
+{
+  "_id": 4212,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 4212,
+  "name": "Crocodilo da Ossada Sagrada",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ]
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "Mordida de Presas",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "Onda Dentada",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, então coloca até 1 carta com o maior custo original de Dados Elementais de sua Mão no fundo do seu deck e gera <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> na sua Mão.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "Fúria Reptiliana",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, então <span style=\"color:#FFFFFFFF\">Descarta</span> até 3 <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span>. Para cada carta que você <span style=\"color:#FFFFFFFF\">Descarta</span>, cura seu personagem que mais sofreu dano em 1 de Vida e aumenta sua Vida Máxima em 1.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "Sentidos da Ossada Sagrada",
+      "desc": "(Passivo) Após você jogar ou descartar <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span>, cura seu personagem que mais sofreu Dano em 1 de Vida.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ]
+}

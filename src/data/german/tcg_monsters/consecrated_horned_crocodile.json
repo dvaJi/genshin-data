@@ -1,0 +1,88 @@
+{
+  "_id": 4212,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 4212,
+  "name": "Gehörntes Krokodil heiliger Knochen",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ]
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "Reißzahnbiss",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "Sägezahn-Sturm",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], legt dabei max. 1 deiner Karten mit den ursprünglich höchsten Elementarwürfelkosten ganz unten unter den Stapel und erschafft 1 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> auf deiner Hand.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "Reptilische Wut",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], und es werden bis zu 3 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> <span style=\"color:#FFFFFFFF\">abgeworfen</span>. Stellt dann für jede Karte, die <span style=\"color:#FFFFFFFF\">abgeworfen</span> wurde, der Figur von dir, die am meisten SCH erlitten hat, 1 LP wieder her und erhöht ihre max. LP um 1.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "Geweihte Sinne",
+      "desc": "Passiv – Stellt, nachdem du <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> ausgespielt oder abgeworfen hast, der Figur von dir, die den meisten SCH erlitten hat, 1 LP wieder her.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

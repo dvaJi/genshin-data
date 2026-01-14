@@ -1,0 +1,88 @@
+{
+  "_id": 4212,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 4212,
+  "name": "聖骸ツノワニ",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ]
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "鋭牙噛砕",
+      "desc": "?を?与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "鰐歯の如き刺波",
+      "desc": "?を?与え、元素サイコロの初期コストが最も高い手札を1枚山札の一番下に戻し、手札に<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "凶鰐の如き荒波",
+      "desc": "?を?与え、<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を最大3枚<span style=\"color:#FFFFFFFF\">破棄</span>する。1枚<span style=\"color:#FFFFFFFF\">破棄</span>するごとに、HPを最も失っている味方キャラのHPを1回復し、そのキャラのHP上限を1上昇させる。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "聖骸感応",
+      "desc": "【固有】味方が<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を使用または破棄した後、HPを最も失っている味方キャラのHPを1回復させる。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ]
+}

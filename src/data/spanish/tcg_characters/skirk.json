@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "Skirk",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 0,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Calamidad Cósmica"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "Caos: Escisión",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "Caos: Distorsión",
+      "desc": "Obtiene 2 pts. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span> y crea 1 carta de <span style=\"color:#FFFFFFFF\">Entrenamiento de armas recíproco</span> (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "Caos: Exterminio",
+      "desc": "Convierte 2 dados elementales (a excepción de los omnidados) en 2 <span style=\"color:#99FFFFFF\">dados Cryo</span> y realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de hasta 2 cartas cuyo coste original de dados elementales sea 0. Por cada <span style=\"color:#FFFFFFFF\">descarte</span> que realice, <span style=\"color:#FFFFFFFF\">Skirk</span> obtiene 1 pt. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "La razón más allá de la razón",
+      "desc": "Pasiva: Skirk no puede obtener Energía. En su lugar puede acumular hasta 7 pts. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span>.<br/><span style=\"color:#FFFFFFFF\">Después de que tus personajes causen una reacción de Congelado, Torbellino Cryo, Superconductor o Cristalización Cryo</span>, crea 1 carta de <span style=\"color:#FFFFFFFF\">Fisura del vacío</span> (3 veces por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

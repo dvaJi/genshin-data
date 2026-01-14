@@ -7,14 +7,22 @@
   "desc": "Sayısız parçalar ısıtılıp dövülüyor ve ardından bu olağanüstü makinaların yapımı için kullanılıyor. Meropide Kalesi'nin mahkumları için ise bu parçalar, değerli Kale Kuponları anlamına geliyor...",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "Aynı Element",
     "card_type": "Etki Kartı",
-    "energy": []
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">Karakterlerinin Hasar aldığı veya Can yenilediği her seferde</span> 1 puan <span style=\"color:#FFFFFFFF\">Savaş Hazırlığı</span> kazanırsın. (En fazla 2 puan)<br/><color=#FFFFFFFF>Sahip olduğun <span style=\"color:#FFFFFFFF\">Savaş Hazırlığı</span> puanından daha fazla olmayan gerçek maliyete sahip bir Silah ya da Yadigar oynadığında</color> bütün <span style=\"color:#FFFFFFFF\">Savaş Hazırlığı</span> puanları silinir ve o kartı bedelsiz oynarsın."
+      "desc": "Aktif karakterine 1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verirsin, ardından destenden rastgele 1 Yadigar kartı çekersin."
     }
   ]
 }

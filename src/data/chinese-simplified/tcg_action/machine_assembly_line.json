@@ -7,14 +7,22 @@
   "desc": "加热工件，锻打工件，万千工件最终铸成这些效能卓越的机关，为梅洛彼得堡的犯人们留下充满价值的特许券…",
   "in_play_description": "",
   "attributes": {
-    "cost": 0,
+    "cost": 1,
+    "cost_type": "相同元素",
     "card_type": "事件牌",
-    "energy": []
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "相同元素",
+        "count": 1
+      }
+    ]
   },
   "skills": [
     {
       "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">目标我方角色每次受到伤害或治疗后：</span>累积1点<span style=\"color:#FFFFFFFF\">「备战度」</span>（最多累积2点）。<br/><color=#FFFFFFFF>我方打出原本费用不多于<span style=\"color:#FFFFFFFF\">「备战度」</span>的「武器」或「圣遗物」时：</color>移除所有<span style=\"color:#FFFFFFFF\">「备战度」</span>，以免费打出该牌。"
+      "desc": "对我方「出战角色」造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>。从牌组中随机抽取1张「圣遗物」牌。"
     }
   ]
 }

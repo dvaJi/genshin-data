@@ -1,0 +1,82 @@
+{
+  "_id": 6605,
+  "id": "skirk",
+  "shareId": 6605,
+  "name": "Скирк",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 0,
+    "element": "Крио",
+    "weapon": "Одноручное",
+    "faction": [
+      "Космический катаклизм"
+    ]
+  },
+  "skills": [
+    {
+      "id": "havoc_sunder",
+      "name": "Хаос: Раскол",
+      "desc": "Наносит ?, ? ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_warp",
+      "name": "Хаос: Искажение",
+      "desc": "Получаете 2 ед. <span style=\"color:#FFFFFFFF\">Змеиного коварства</span>, вы получаете 1 карту <span style=\"color:#FFFFFFFF\">Взаимное наставничество по оружию</span> в руку. (1 раз за раунд)",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "havoc_extinction",
+      "name": "Хаос: Опустошение",
+      "desc": "Преобразует 2 дайса, отличных от Универсальных дайсов, в <span style=\"color:#99FFFFFF\">Крио дайсы</span>. Производит <span style=\"color:#FFFFFFFF\">Отказ</span> до 2 карт, чья изначальная стоимость Элементальных дайсов равна 0. За каждую карту, от которой произошёл <span style=\"color:#FFFFFFFF\">Отказ</span>, <span style=\"color:#FFFFFFFF\">Скирк</span> дополнительно получает 1 ед. <span style=\"color:#FFFFFFFF\">Змеиного коварства</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Крио",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "reason_beyond_reason",
+      "name": "Разум за гранью разума",
+      "desc": "(Пассивный навык) Скирк не может получать энергию, но накапливает <span style=\"color:#FFFFFFFF\">Змеиное коварство</span> (не более 7 ед.).<br/><span style=\"color:#FFFFFFFF\">Когда вы активируете реакции Заморозка/Крио Рассеивание/Сверхпроводник/Кристалл:</span> вы получаете <span style=\"color:#FFFFFFFF\">Разрыв пустоты</span> (до 3 раз за раунд).",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ]
+}

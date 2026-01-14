@@ -1,0 +1,91 @@
+{
+  "_id": 2207,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 546,
+  "name": "성해 뿔 악어",
+  "title": "유해의 급류·성해 뿔 악어",
+  "desc": "위대한 존재를 삼켜 기이하게 뒤틀린 파충류. 변화무쌍한 물살을 다룬다",
+  "attributes": {
+    "hp": 11,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물",
+      "성해 짐승"
+    ],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 성해 뿔 악어에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "송곳니 물어뜯기",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "악어 송곳니 물결",
+      "desc": "?를 ?pt 주며, 기본 원소 주사위 코스트가 가장 높은 핸드 카드를 최대 1장 카드 더미 맨 밑에 넣고, <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "성난 악어 파도",
+      "desc": "?를 ?pt 주고, <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 최대 3장 <span style=\"color:#FFFFFFFF\">포기</span>하며, <span style=\"color:#FFFFFFFF\">포기</span>한 카드 1장당 피해를 가장 많이 받은 아군 캐릭터의 HP를 1pt 치유 및 최대 HP+1pt",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "성해 감응",
+      "desc": "[패시브] 아군이 <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 사용하거나 버린 후, 가장 많이 부상당한 아군 캐릭터를 1pt 치유한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

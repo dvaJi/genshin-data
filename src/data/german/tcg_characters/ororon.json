@@ -1,0 +1,90 @@
+{
+  "_id": 1416,
+  "id": "ororon",
+  "shareId": 545,
+  "name": "Ororon",
+  "title": "„Schatten des Nachtwinds“ – Ororon",
+  "desc": "Rätselhafter Schattenläufer.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Bogen",
+    "faction": [
+      "Natlan"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Ororon in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "spiritvessel_snapshot",
+      "name": "Blitzender Pfeil der schlummernden Seelen",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nights_sling",
+      "name": "Kette des Zwielichts",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Seelenkugel</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "dark_voices_echo",
+      "name": "Gedämpftes Echo der Finsternis",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Ultraschall-Seelenauge</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "nightshade_synesthesia",
+      "name": "Nachtschatten-Synästhesie",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Nachdem du die Reaktion Unter Strom ausgelöst hast:</span> Verbraucht, wenn möglich, 2 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkte</span> und verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Tritt, wenn deine Seite <span style=\"color:#80C0FFFF\">Hydro-SCH</span> oder <span style=\"color:#FFACFFFF\">Elektro-SCH</span> verursacht, der nicht von dieser Fähigkeit stammt, in den Zustand <span style=\"color:#FFFFFFFF\">Nachtseelensegen</span> ein und erhält 1 <span style=\"color:#FFFFFFFF\">Nachtseelenpunkt</span>. (1-mal pro Runde)",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

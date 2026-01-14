@@ -1,0 +1,91 @@
+{
+  "_id": 2207,
+  "id": "consecrated_horned_crocodile",
+  "shareId": 546,
+  "name": "Corniodrilo Sacróseo",
+  "title": "Corniodrilo Sacróseo - Engullidor mortífero de las aguas",
+  "desc": "Un reptil que ha mutado tras devorar los restos de poderosos seres y que es capaz de controlar el flujo del agua.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Bestia Sacrósea"
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Corniodrilo Sacróseo de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "fang_bite",
+      "name": "Mordisco de colmillo",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "sawtoothed_surge",
+      "name": "Onda aserradora",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?. Coloca 1 carta de tu mano con el mayor coste original de dados elementales al final del mazo y crea 1 carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "reptilian_rage",
+      "name": "Ola reptiliana",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de hasta 3 cartas de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span>. Por cada carta descartada, tu personaje que más daño haya recibido obtiene Vida +1 y Vida Máx. +1.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "consecrated_senses",
+      "name": "Percepción sacrósea",
+      "desc": "Pasiva: cuando juegas o descartas una carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span>, el personaje que más daño haya recibido obtiene Vida +1.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}
