@@ -5,7 +5,7 @@ export interface TcgCharacter {
     id:         string;
     shareId:    number;
     name:       string;
-    title:      string;
+    title?:     string;
     desc:       string;
     attributes: Attributes;
     skills:     Skill[];
@@ -19,7 +19,7 @@ export interface Attributes {
     weapon:       string;
     faction:      string[];
     talent_card?: Character;
-    source:       string;
+    source?:      string;
     character?:   Character;
 }
 

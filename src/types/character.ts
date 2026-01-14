@@ -78,7 +78,7 @@ export interface Outfit {
     characterId:         number;
     filename_card:       string;
     filename_iconCircle: string;
-    source?:             any[];
+    source?:             string[];
     filename_icon?:      string;
     filename_splash?:    string;
     filename_sideIcon?:  string;
