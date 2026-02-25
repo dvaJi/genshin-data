@@ -1,0 +1,88 @@
+{
+  "_id": 4311,
+  "id": "goldflame_qucusaur_tyrant",
+  "shareId": 4311,
+  "name": "Goldflammen-Qucusauriertyrann",
+  "desc": "",
+  "attributes": {
+    "hp": 24,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ]
+  },
+  "skills": [
+    {
+      "id": "wingcleave",
+      "name": "Flügelschlag",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rising_scorchwind",
+      "name": "Aufsteigender Loderwind",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], verleiht sich selbst 2 Stapelungen <span style=\"color:#FFFFFFFF\">Fliegender Wirbel</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "goldflame_detonation",
+      "name": "Goldflammen-Sprengung",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], fügt allen inaktiven Figuren deines Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu und verleiht sich selbst 1 Stapelung <span style=\"color:#FFFFFFFF\">Goldflammen-Form</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_bloodline",
+      "name": "Blutlinie des Uralten",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Zu Beginn der Zugphase:</span> Verleiht sich selbst 1 Stapelung <span style=\"color:#FFFFFFFF\">Goldflammen-Form</span> und erschafft 1 zufällige Karte, die 2 Elementarwürfel kostet.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

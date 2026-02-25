@@ -1,0 +1,90 @@
+{
+  "_id": 1117,
+  "id": "mika",
+  "shareId": 555,
+  "name": "Mika",
+  "title": "Mika - El Agrimensor Nieveclara",
+  "desc": "Con una pluma dorada como el trigo, las fronteras inexploradas se dibujan con claridad meridiana.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Se obtiene tras retar y ganar a Mika en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "spear_of_favonius_arrows_passage",
+      "name": "Lanza de Favonius - Punta afilada",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfrost_swirl",
+      "name": "Vórtice hieloastral",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y crea el estado de <span style=\"color:#FFFFFFFF\">aeroánima</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "skyfeather_song",
+      "name": "Himno plumiceleste",
+      "desc": "Todos tus personajes obtienen Vida +1. Crea una <span style=\"color:#FFFFFFFF\">sabiduría de la pluma aquilae</span> y una <span style=\"color:#FFFFFFFF\">bendición de la pluma aquilae</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "suppressive_barrage",
+      "name": "Supresión fuegorrápido",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">cuando usa una habilidad,</span> tus personajes infligen <span style=\"color:#FFFFFFFF\">Daño Físico</span> +1 la próxima vez (2 veces por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

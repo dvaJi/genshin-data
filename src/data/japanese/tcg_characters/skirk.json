@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "スカーク",
-  "desc": "",
+  "title": "虚淵の暗星・スカーク",
+  "desc": "星海は黙し、破滅は静かに訪れる。",
   "attributes": {
     "hp": 10,
     "card_type": "キャラカード",
@@ -12,7 +13,19 @@
     "weapon": "片手剣",
     "faction": [
       "宇宙の劫災"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "キャッツテールでスカークを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "極悪技・尽",
-      "desc": "万能元素以外の元素サイコロ2個を<span style=\"color:#99FFFFFF\">氷元素サイコロ</span>に変換する。元素サイコロの初期コストが0のカードを最大2枚まで<span style=\"color:#FFFFFFFF\">破棄</span>し、1枚<span style=\"color:#FFFFFFFF\">破棄</span>するごとに、<span style=\"color:#FFFFFFFF\">スカーク</span>は<span style=\"color:#FFFFFFFF\">蛇の狡智</span>を1獲得する。",
+      "id": "havoc_ruin",
+      "name": "極悪技・滅",
+      "desc": "<span style=\"color:#FFFFFFFF\">蛇の狡智</span>をすべて消費し、消費した<span style=\"color:#FFFFFFFF\">蛇の狡智</span>の数に等しい?を与え、待機キャラに<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を2与える。<span style=\"color:#FFFFFFFF\">蛇の狡智</span>を7消費した場合、代わりに待機キャラに<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を3与える。",
       "skillTag": [
         "元素爆発"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "氷元素",
-          "count": 1
+          "count": 3
         }
       ]
     },

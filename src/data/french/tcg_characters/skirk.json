@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "Skirk · Étoile du néant",
+  "desc": "Les étoiles s'éteignent...",
   "attributes": {
     "hp": 10,
     "card_type": "Carte de personnage",
@@ -12,7 +13,19 @@
     "weapon": "Épée à une main",
     "faction": [
       "Calamité cosmique"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Récompense pour avoir invité Skirk à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Ravage : Extinction",
-      "desc": "Convertit 2 dés élémentaires (dés Omni exclus) en <span style=\"color:#99FFFFFF\">dés Cryo</span>, <span style=\"color:#FFFFFFFF\">défausse</span> un maximum de 2 cartes dont le coût d'origine en dés élémentaires est de 0 et accorde 1 pt de <span style=\"color:#FFFFFFFF\">finesse serpentine</span> à <span style=\"color:#FFFFFFFF\">Skirk</span> pour chaque carte <span style=\"color:#FFFFFFFF\">défaussée</span>.",
+      "id": "havoc_ruin",
+      "name": "Ravage : Ruine",
+      "desc": "Consomme toute la <span style=\"color:#FFFFFFFF\">finesse serpentine</span> pour infliger des ? d'une valeur équivalant à la quantité de <span style=\"color:#FFFFFFFF\">finesse serpentine</span> consommée, puis inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> aux personnages en attente ou, si 7 pts de <span style=\"color:#FFFFFFFF\">finesse serpentine</span> ont été consommés, inflige à la place 3 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> aux personnages en attente.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Cryo",
-          "count": 1
+          "count": 3
         }
       ]
     },

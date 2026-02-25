@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "Skirk - La Estrella del Vacío",
+  "desc": "El mar de estrellas se desvanece en la oscuridad.",
   "attributes": {
     "hp": 10,
     "card_type": "Carta de personaje",
@@ -12,7 +13,19 @@
     "weapon": "Espada ligera",
     "faction": [
       "Calamidad Cósmica"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Se obtiene tras retar y ganar a Skirk en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Caos: Exterminio",
-      "desc": "Convierte 2 dados elementales (a excepción de los omnidados) en 2 <span style=\"color:#99FFFFFF\">dados Cryo</span> y realiza un <span style=\"color:#FFFFFFFF\">descarte</span> de hasta 2 cartas cuyo coste original de dados elementales sea 0. Por cada <span style=\"color:#FFFFFFFF\">descarte</span> que realice, <span style=\"color:#FFFFFFFF\">Skirk</span> obtiene 1 pt. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span>.",
+      "id": "havoc_ruin",
+      "name": "Caos: Aniquilación",
+      "desc": "Consume todos los pts. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span> e inflige ? en una cantidad equivalente a los pts. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span> consumidos. Después, inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> a los enemigos en reserva. Si ha consumido 7 pts. de <span style=\"color:#FFFFFFFF\">astucia serpentina</span>, pasará a infligir 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> a los enemigos en reserva.",
       "skillTag": [
         "Habilidad Definitiva"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Cryo",
-          "count": 1
+          "count": 3
         }
       ]
     },

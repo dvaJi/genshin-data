@@ -1,9 +1,10 @@
 {
   "_id": 4212,
   "id": "consecrated_horned_crocodile",
-  "shareId": 4212,
+  "shareId": 546,
   "name": "Crococornu sacralisé",
-  "desc": "",
+  "title": "Marée résiduelle : Crococornu sacralisé",
+  "desc": "La créature, qui a été déformée et transformée après avoir consommé la chair d'une puissante forme de vie, contrôle le flux d'eau en constante évolution.",
   "attributes": {
     "hp": 10,
     "card_type": "Carte de personnage",
@@ -12,7 +13,17 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9242,
+      "id": "deathly_overflow",
+      "name": "Deathly Overflow"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Crococornu sacralisé",
+    "character": {
+      "id": "consecrated_horned_crocodile",
+      "name": "Consecrated Horned Crocodile"
+    }
   },
   "skills": [
     {
@@ -40,7 +51,7 @@
     {
       "id": "sawtoothed_surge",
       "name": "Vague croquante",
-      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, place un maximum de 1 carte dont le coût original de dés élémentaires est le plus élevé depuis votre main dans le bas de votre deck et crée une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans votre main.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?, place un maximum de 1 carte ayant le <span style=\"color:#FFFFFFFF\">coût actuel de dés élémentaires</span> le plus élevé depuis votre main dans le bas de votre deck et crée une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans votre main.",
       "skillTag": [
         "Compétence élémentaire"
       ],
@@ -78,7 +89,7 @@
     {
       "id": "consecrated_senses",
       "name": "Sens sacralisés",
-      "desc": "(Passif) Lorsque vous avez joué ou défaussé une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] : Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "desc": "(Passif) Lorsque vous avez joué ou <span style=\"color:#FFFFFFFF\">défaussé</span> une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] : Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
       "skillTag": [
         "Capacité passive"
       ],

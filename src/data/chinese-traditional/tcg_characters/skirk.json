@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "絲柯克",
-  "desc": "",
+  "title": "虛淵暗星·絲柯克",
+  "desc": "星海默然，覆滅無聲。",
   "attributes": {
     "hp": 10,
     "card_type": "角色牌",
@@ -12,7 +13,19 @@
     "weapon": "單手劍",
     "faction": [
       "寰宇劫滅"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "在貓尾酒館中邀請絲柯克進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "極惡技·盡",
-      "desc": "將2個非萬能元素骰轉化為<span style=\"color:#99FFFFFF\">冰元素骰</span>，<span style=\"color:#FFFFFFFF\">捨棄</span>至多2張原本元素骰花費為0骰的卡牌，每<span style=\"color:#FFFFFFFF\">捨棄</span>1張，<span style=\"color:#FFFFFFFF\">絲柯克</span>獲得1點<span style=\"color:#FFFFFFFF\">蛇之狡謀</span>。",
+      "id": "havoc_ruin",
+      "name": "極惡技·滅",
+      "desc": "消耗所有<span style=\"color:#FFFFFFFF\">蛇之狡謀</span>，造成等同於消耗<span style=\"color:#FFFFFFFF\">蛇之狡謀</span>數量的?，對未出戰角色造成2點<span style=\"color:#FFFFFFFF\">穿透傷害</span>，如果消耗了7點<span style=\"color:#FFFFFFFF\">蛇之狡謀</span>，則改為對未出戰角色造成3點<span style=\"color:#FFFFFFFF\">穿透傷害</span>。",
       "skillTag": [
         "元素爆發"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "冰元素",
-          "count": 1
+          "count": 3
         }
       ]
     },

@@ -1,9 +1,10 @@
 {
   "_id": 4212,
   "id": "consecrated_horned_crocodile",
-  "shareId": 4212,
+  "shareId": 546,
   "name": "Gehörntes Krokodil heiliger Knochen",
-  "desc": "",
+  "title": "Verbleibende Flut – Gehörntes Krokodil heiliger Knochen",
+  "desc": "Eine aufgrund des Zehrens an heiligen Körpern entstellte Bestie. Hat die Macht über den sich ständig wandelnden Fluss des Wassers.",
   "attributes": {
     "hp": 10,
     "card_type": "Figurenkarte",
@@ -12,7 +13,17 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Monster"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9242,
+      "id": "deathly_overflow",
+      "name": "Deathly Overflow"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit dem Gehörnten Krokodil heiliger Knochen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "consecrated_horned_crocodile",
+      "name": "Consecrated Horned Crocodile"
+    }
   },
   "skills": [
     {
@@ -40,7 +51,7 @@
     {
       "id": "sawtoothed_surge",
       "name": "Sägezahn-Sturm",
-      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], legt dabei max. 1 deiner Karten mit den ursprünglich höchsten Elementarwürfelkosten ganz unten unter den Stapel und erschafft 1 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> auf deiner Hand.",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], legt dabei max. 1 deiner Karten mit den höchsten <span style=\"color:#FFFFFFFF\">Elementarwürfel-Kosten (aktuell)</span> ganz unten unter den Stapel und erschafft 1 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> auf deiner Hand.",
       "skillTag": [
         "Elementarfähigkeit"
       ],
@@ -78,7 +89,7 @@
     {
       "id": "consecrated_senses",
       "name": "Geweihte Sinne",
-      "desc": "Passiv – Stellt, nachdem du <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> ausgespielt oder abgeworfen hast, der Figur von dir, die den meisten SCH erlitten hat, 1 LP wieder her.",
+      "desc": "Passiv – Stellt, nachdem du <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> ausgespielt oder <span style=\"color:#FFFFFFFF\">abgeworfen</span> hast, der Figur von dir, die den meisten SCH erlitten hat, 1 LP wieder her.",
       "skillTag": [
         "Passive Fähigkeit"
       ],

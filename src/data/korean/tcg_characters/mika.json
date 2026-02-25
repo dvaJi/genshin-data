@@ -1,0 +1,90 @@
+{
+  "_id": 1117,
+  "id": "mika",
+  "shareId": 555,
+  "name": "미카",
+  "title": "맑은 서리의 좌표·미카",
+  "desc": "황금빛 깃으로 그린 미지의 영역",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "장병기",
+    "faction": [
+      "몬드"
+    ],
+    "source": "캣테일 술집에서 미카 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "spear_of_favonius_arrows_passage",
+      "name": "페보니우스 창술·화살촉",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfrost_swirl",
+      "name": "별서리 소용돌이",
+      "desc": "?를 ?pt 주고 <span style=\"color:#FFFFFFFF\">영혼의 바람</span>을 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "skyfeather_song",
+      "name": "푸른 깃털의 기도",
+      "desc": "모든 아군 캐릭터를 1pt 치유하고, <span style=\"color:#FFFFFFFF\">매 깃털의 비결</span>과 <span style=\"color:#FFFFFFFF\">매 깃털의 축복</span>을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "suppressive_barrage",
+      "name": "견제 사격",
+      "desc": "[패시브] <span style=\"color:#FFFFFFFF\">자신이 스킬을 사용한 후:</span> 아군이 다음번에 주는 <span style=\"color:#FFFFFFFF\">물리 피해</span>+1pt (턴당 2회)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

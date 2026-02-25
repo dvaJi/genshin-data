@@ -1,0 +1,90 @@
+{
+  "_id": 1117,
+  "id": "mika",
+  "shareId": 555,
+  "name": "Mika",
+  "title": "Mika · Coordonnées du givre clair",
+  "desc": "Grâce à une plume de la couleur dorée des céréales, les frontières inconnues se font aussi claires que le jour.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Arme d'hast",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Récompense pour avoir invité Mika à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "spear_of_favonius_arrows_passage",
+      "name": "Lance de Favonius : Carreau filant",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "starfrost_swirl",
+      "name": "Tourbillon de givre étoilé",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée une <span style=\"color:#FFFFFFFF\">spirivent</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "skyfeather_song",
+      "name": "Chant de plume céleste",
+      "desc": "Soigne tous vos personnages pour 1 pt et crée une <span style=\"color:#FFFFFFFF\">expérience de plume d'alérion</span> et un <span style=\"color:#FFFFFFFF\">panégyrique de plume d'alérion</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "suppressive_barrage",
+      "name": "Épinglage rapide",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage affecté a utilisé une capacité : </span>Prochains <span style=\"color:#FFFFFFFF\">DGT physiques</span> que vous infligez +1. (2 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

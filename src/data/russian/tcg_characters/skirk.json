@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Скирк",
-  "desc": "",
+  "title": "«Звезда пустоты» Скирк",
+  "desc": "Безмолвно меркнущие звёзды...",
   "attributes": {
     "hp": 10,
     "card_type": "Карты персонажей",
@@ -12,7 +13,19 @@
     "weapon": "Одноручное",
     "faction": [
       "Космический катаклизм"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Награда за приглашение Скирк в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Хаос: Опустошение",
-      "desc": "Преобразует 2 дайса, отличных от Универсальных дайсов, в <span style=\"color:#99FFFFFF\">Крио дайсы</span>. Производит <span style=\"color:#FFFFFFFF\">Отказ</span> до 2 карт, чья изначальная стоимость Элементальных дайсов равна 0. За каждую карту, от которой произошёл <span style=\"color:#FFFFFFFF\">Отказ</span>, <span style=\"color:#FFFFFFFF\">Скирк</span> дополнительно получает 1 ед. <span style=\"color:#FFFFFFFF\">Змеиного коварства</span>.",
+      "id": "havoc_ruin",
+      "name": "Хаос: Разрушение",
+      "desc": "Тратит всё <span style=\"color:#FFFFFFFF\">Змеиное коварство</span>, наносит ? в количестве, равном потраченному <span style=\"color:#FFFFFFFF\">Змеиному коварству</span>, и наносит <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 2 ед., неактивным персонажам. Если потрачено 7 ед. <span style=\"color:#FFFFFFFF\">Змеиного коварства</span>, наносит <span style=\"color:#FFFFFFFF\">Проникающий урон</span>, 3 ед., неактивным персонажам.",
       "skillTag": [
         "Взрыв стихии"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Крио",
-          "count": 1
+          "count": 3
         }
       ]
     },

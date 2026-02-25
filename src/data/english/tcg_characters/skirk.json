@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "\"Void Star\" Skirk",
+  "desc": "The stars fade to black.",
   "attributes": {
     "hp": 10,
     "card_type": "Character Card",
@@ -12,7 +13,19 @@
     "weapon": "Sword",
     "faction": [
       "Cosmic Calamity"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Reward for inviting Skirk to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Havoc: Extinction",
-      "desc": "Convert 2 non-Omni Elemental Dice into <span style=\"color:#99FFFFFF\">Cryo Dice</span>. <span style=\"color:#FFFFFFFF\">Discard</span> up to 2 cards that originally cost 0 Elemental Dice. For each card <span style=\"color:#FFFFFFFF\">Discard</span>, <span style=\"color:#FFFFFFFF\">Skirk</span> gains 1 point of <span style=\"color:#FFFFFFFF\">Serpent's Subtlety</span>.",
+      "id": "havoc_ruin",
+      "name": "Havoc: Ruin",
+      "desc": "Consumes all <span style=\"color:#FFFFFFFF\">Serpent's Subtlety</span>, deals ? equal to the <span style=\"color:#FFFFFFFF\">Serpent's Subtlety</span> consumed, and deals 2 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to characters on standby. If 7 <span style=\"color:#FFFFFFFF\">Serpent's Subtlety</span> are consumed, deal 3 <span style=\"color:#FFFFFFFF\">Piercing DMG</span> to characters on standby instead.",
       "skillTag": [
         "Elemental Burst"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Cryo",
-          "count": 1
+          "count": 3
         }
       ]
     },

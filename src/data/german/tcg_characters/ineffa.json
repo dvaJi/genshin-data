@@ -1,0 +1,90 @@
+{
+  "_id": 1417,
+  "id": "ineffa",
+  "shareId": 556,
+  "name": "Ineffa",
+  "title": "Ineffa: Krachend donnernde Welle",
+  "desc": "Weißes Eisen schmiedete den Körper, purpurnes Herz goss sich zur Seele.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Stangenwaffe",
+    "faction": [
+      "Nod-Krai"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Ineffa in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "cyclonic_duster",
+      "name": "Staubentfernende Klinge",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "cleaning_mode_carrier_frequency",
+      "name": "Reinigungsmodus – Stabile Rate",
+      "desc": "Erschafft 2 Pkt. <span style=\"color:#FFFFFFFF\">Schild</span> und beschwört <span style=\"color:#FFFFFFFF\">Birgitta</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "supreme_instruction_cyclonic_exterminator",
+      "name": "Höchstes Gesetz – Vollständige Beseitigung",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Birgitta</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1104,
+          "id": "electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_assemblage_hub",
+      "name": "Mondomen-Segen – Bildähnliches Relais",
+      "desc": "Passiv – Wandelt, wenn eine gegnerische Figur die <span style=\"color:#FFFFFFFF\">Reaktion Unter Strom</span> erleidet, diese in <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mond unter Strom</span></span> um.<br/>Wenn einer gegnerischen Aktionskarte <span style=\"color:#FFFFFFFF\">Stromschlag</span> verliehen wird, während diese Figur auf dem Feld ist: Verleiht zusätzlich den Zustand <span style=\"color:#FFFFFFFF\">Keine Abstimmung möglich</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

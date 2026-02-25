@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "스커크",
-  "desc": "",
+  "title": "허계의 별·스커크",
+  "desc": "소리없이 멸망하는 별바다",
   "attributes": {
     "hp": 10,
     "card_type": "캐릭터 카드",
@@ -12,7 +13,19 @@
     "weapon": "한손검",
     "faction": [
       "우주적 재앙"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "캣테일 술집에서 스커크 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "극악기·진",
-      "desc": "만능 원소가 아닌 주사위 2개를 <span style=\"color:#99FFFFFF\">얼음 원소 주사위</span>로 전환하고, 기본 원소 주사위 소모 개수가 0인 카드를 최대 2장 <span style=\"color:#FFFFFFFF\">포기</span>한다. 1장 <span style=\"color:#FFFFFFFF\">포기</span>할 때마다 <span style=\"color:#FFFFFFFF\">스커크</span>가 추가로 <span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 1pt 획득한다.",
+      "id": "havoc_ruin",
+      "name": "극악기·멸",
+      "desc": "모든 <span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 소모해 소모한 <span style=\"color:#FFFFFFFF\">뱀의 계략</span> 수만큼의 ?를 주고 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 2pt 준다. 만약 <span style=\"color:#FFFFFFFF\">뱀의 계략</span>을 7pt 소모한 경우 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해</span>를 3pt 주는 것으로 변경된다.",
       "skillTag": [
         "원소폭발"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "얼음 원소",
-          "count": 1
+          "count": 3
         }
       ]
     },

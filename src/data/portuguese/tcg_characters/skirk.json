@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "\"Astro do Vazio\", Skirk",
+  "desc": "As estrelas se apagam.",
   "attributes": {
     "hp": 10,
     "card_type": "Carta de Personagem",
@@ -12,7 +13,19 @@
     "weapon": "Espada",
     "faction": [
       "Calamidade Cósmica"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Recompensa por desafiar Skirk para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -40,7 +53,7 @@
     {
       "id": "havoc_warp",
       "name": "Devastação: Lampejo",
-      "desc": "Ganhe 2 de <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span>，então cria 1 <span style=\"color:#FFFFFFFF\">Mentoria Mútua de Armamentos</span> e a adiciona à sua Mão. (Uma vez por Turno)",
+      "desc": "Ganhe 2 de <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span>, então cria 1 <span style=\"color:#FFFFFFFF\">Mentoria Mútua de Armamentos</span> e a adiciona à sua Mão. (Uma vez por Turno)",
       "skillTag": [
         "Habilidade Elemental"
       ],
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Devastação: Obliteração",
-      "desc": "Converte 2 Dados Elementais comuns em <span style=\"color:#99FFFFFF\">Dados Cryo</span>. <span style=\"color:#FFFFFFFF\">Descarta</span> até 2 cartas que custam originalmente 0 Dados Elementais, para cada descartada, <span style=\"color:#FFFFFFFF\">Skirk</span> ganha 1 ponto de <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span>.",
+      "id": "havoc_ruin",
+      "name": "Arte Apodrecida: Obliteração",
+      "desc": "Consome toda a <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span>, causa ? igual à quantidade de <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span> consumida e causa 2 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> aos personagens adversários fora de combate. Se 7 de <span style=\"color:#FFFFFFFF\">Sutileza da Serpente</span> for consumido, causa 3 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a personagens fora de combate ao invés disso.",
       "skillTag": [
         "Supremo"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Cryo",
-          "count": 1
+          "count": 3
         }
       ]
     },

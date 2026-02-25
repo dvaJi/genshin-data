@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "\"Boşluk Yıldızı\" Skirk",
+  "desc": "Yıldızlar bir bir sönüyor.",
   "attributes": {
     "hp": 10,
     "card_type": "Karakter Kartı",
@@ -12,7 +13,19 @@
     "weapon": "Kılıç",
     "faction": [
       "Kozmik Facia"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Skirk'ü Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Yıkım: Tükeniş",
-      "desc": "Kararsız Element Zarı olmayan 2 zar <span style=\"color:#99FFFFFF\">Buz Zarına</span> dönüşür. Orijinal Element Zarı maliyeti 0 olan en fazla 2 karta <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygularsın. <span style=\"color:#FFFFFFFF\">Dışarı Atma</span> uygulanan her kart için <span style=\"color:#FFFFFFFF\">Skirk</span> 1 puan <span style=\"color:#FFFFFFFF\">Yılan Kurnazlığı</span> kazanır.",
+      "id": "havoc_ruin",
+      "name": "Yıkım: Harap Etme",
+      "desc": "Tüm <span style=\"color:#FFFFFFFF\">Yılan Kurnazlığını</span> tüketir, tüketilen <span style=\"color:#FFFFFFFF\">Yılan Kurnazlığına</span> eşit miktarda ? verir ve hazırdaki karakterlere de 2 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir. Eğer 7 <span style=\"color:#FFFFFFFF\">Yılan Kurnazlığı</span> tüketilirse hazırdaki karakterlere 2 yerine 3 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir.",
       "skillTag": [
         "Element Patlaması"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Buz",
-          "count": 1
+          "count": 3
         }
       ]
     },

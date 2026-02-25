@@ -1,9 +1,10 @@
 {
   "_id": 4212,
   "id": "consecrated_horned_crocodile",
-  "shareId": 4212,
+  "shareId": 546,
   "name": "聖骸ツノワニ",
-  "desc": "",
+  "title": "亡骸患水・聖骸ツノワニ",
+  "desc": "偉大なる生命体を蝕むことで歪み、変異を起こした爬虫類。変幻自在な水流を操る。",
   "attributes": {
     "hp": 10,
     "card_type": "キャラカード",
@@ -12,7 +13,17 @@
     "weapon": "他の武器",
     "faction": [
       "魔物"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9242,
+      "id": "deathly_overflow",
+      "name": "Deathly Overflow"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、聖骸ツノワニに挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "consecrated_horned_crocodile",
+      "name": "Consecrated Horned Crocodile"
+    }
   },
   "skills": [
     {
@@ -40,7 +51,7 @@
     {
       "id": "sawtoothed_surge",
       "name": "鰐歯の如き刺波",
-      "desc": "?を?与え、元素サイコロの初期コストが最も高い手札を1枚山札の一番下に戻し、手札に<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を生成する。",
+      "desc": "?を?与え、<span style=\"color:#FFFFFFFF\">現在の元素サイコロのコスト</span>が最も高い手札を最大1枚山札の一番下に戻し、手札に<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を生成する。",
       "skillTag": [
         "元素スキル"
       ],
@@ -78,7 +89,7 @@
     {
       "id": "consecrated_senses",
       "name": "聖骸感応",
-      "desc": "【固有】味方が<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を使用または破棄した後、HPを最も失っている味方キャラのHPを1回復させる。",
+      "desc": "【固有】味方が<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を使用または<span style=\"color:#FFFFFFFF\">破棄</span>した後、HPを最も失っている味方キャラのHPを1回復させる。",
       "skillTag": [
         "固有スキル"
       ],

@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "Skirk, Astro del Vuoto",
+  "desc": "Le stelle si spengono.",
   "attributes": {
     "hp": 10,
     "card_type": "Carta personaggio",
@@ -12,7 +13,19 @@
     "weapon": "Spada",
     "faction": [
       "Calamità cosmica"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Ricompensa ottenuta sfidando Skirk a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Caos: Estinzione",
-      "desc": "Converte 2 dadi non Omnielemento in <span style=\"color:#99FFFFFF\">dadi di Cryo</span>. <span style=\"color:#FFFFFFFF\">Rimuovi</span> fino a 2 carte con un costo originale di dadi elementali pari a 0. Per ogni carta <span style=\"color:#FFFFFFFF\">rimossa</span>, <span style=\"color:#FFFFFFFF\">Skirk</span> ottiene 1 punto <span style=\"color:#FFFFFFFF\">Astuzia del serpente</span>.",
+      "id": "havoc_ruin",
+      "name": "Caos: Rovina",
+      "desc": "Consuma tutti i punti <span style=\"color:#FFFFFFFF\">Astuzia del serpente</span>, infligge ? uguali ai punti <span style=\"color:#FFFFFFFF\">Astuzia del serpente</span> consumati e 2 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> a tutti i personaggi avversari inattivi. Se vengono consumati 7 punti <span style=\"color:#FFFFFFFF\">Astuzia del serpente</span>, infligge invece 3 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span> ai personaggi inattivi.",
       "skillTag": [
         "Tripudio elementale"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Cryo",
-          "count": 1
+          "count": 3
         }
       ]
     },

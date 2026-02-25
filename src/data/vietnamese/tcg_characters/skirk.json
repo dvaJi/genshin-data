@@ -1,9 +1,10 @@
 {
-  "_id": 6605,
+  "_id": 1116,
   "id": "skirk",
-  "shareId": 6605,
+  "shareId": 544,
   "name": "Skirk",
-  "desc": "",
+  "title": "Ánh Sao Hư Không - Skirk",
+  "desc": "Biển sao luôn lặng lẽ, diệt vong trong âm thầm.",
   "attributes": {
     "hp": 10,
     "card_type": "Thẻ Nhân Vật",
@@ -12,7 +13,19 @@
     "weapon": "Kiếm Đơn",
     "faction": [
       "Kiếp Nạn Vũ Trụ"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9240,
+      "id": "far_to_fall",
+      "name": "Far to Fall"
+    },
+    "source": "Nhận được sau khi mời Skirk giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "_id": 10000114,
+      "id": "skirk",
+      "name": "Skirk",
+      "rarity": 5
+    }
   },
   "skills": [
     {
@@ -54,9 +67,9 @@
       ]
     },
     {
-      "id": "havoc_extinction",
-      "name": "Cực Ác Kỹ - Tận",
-      "desc": "Chuyển hóa 2 xúc xắc không phải Nguyên Tố Vạn Năng thành <span style=\"color:#99FFFFFF\">Xúc Xắc Nguyên Tố Băng</span>, <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span> tối đa 2 lá có chi phí Xúc Xắc Nguyên Tố vốn có là 0, với mỗi 1 lá bị <span style=\"color:#FFFFFFFF\">Vứt Bỏ</span>, <span style=\"color:#FFFFFFFF\">Skirk</span> sẽ nhận 1 điểm <span style=\"color:#FFFFFFFF\">Rắn Xảo Quyệt</span>.",
+      "id": "havoc_ruin",
+      "name": "Cực Ác Kỹ - Diệt",
+      "desc": "Tiêu hao toàn bộ <span style=\"color:#FFFFFFFF\">Rắn Xảo Quyệt</span>, gây ? bằng số <span style=\"color:#FFFFFFFF\">Rắn Xảo Quyệt</span> tiêu hao, và gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span> cho các nhân vật dự bị. Nếu tiêu hao 7 điểm <span style=\"color:#FFFFFFFF\">Rắn Xảo Quyệt</span>, sẽ chuyển sang gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Xuyên Thấu</span> cho các nhân vật dự bị.",
       "skillTag": [
         "Kỹ Năng Nộ"
       ],
@@ -65,7 +78,7 @@
           "_id": 1101,
           "id": "cryo",
           "type": "Nguyên Tố Băng",
-          "count": 1
+          "count": 3
         }
       ]
     },

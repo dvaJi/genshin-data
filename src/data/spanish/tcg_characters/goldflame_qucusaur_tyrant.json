@@ -1,0 +1,90 @@
+{
+  "_id": 2306,
+  "id": "goldflame_qucusaur_tyrant",
+  "shareId": 557,
+  "name": "Tirano Qucusaurio Aureoardiente",
+  "title": "Tirano Qucusaurio Aureoardiente: Proclamación plumífera",
+  "desc": "Un Qucusaurio cuyo cuerpo ha alcanzado una forma sobrenatural por soportar fuerzas que los cuerpos de los saurios modernos no pueden controlar.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Tirano Qucusaurio Aureoardiente de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "wingcleave",
+      "name": "Tajo alado",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "rising_scorchwind",
+      "name": "Viento abrasador ascendente",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y obtiene 2 cargas de <span style=\"color:#FFFFFFFF\">revoloteo</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "goldflame_detonation",
+      "name": "Explosión de llamas doradas",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, así como 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante</span> contra todos los personajes enemigos en reserva, y obtiene 1 carga del <span style=\"color:#FFFFFFFF\">estado aureoardiente</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1103,
+          "id": "pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ancient_bloodline",
+      "name": "Linaje ancestral",
+      "desc": "Pasiva: <span style=\"color:#FFFFFFFF\">al comienzo de una fase de acciones par:</span> obtiene 1 carga del <span style=\"color:#FFFFFFFF\">estado aureoardiente</span>.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}
