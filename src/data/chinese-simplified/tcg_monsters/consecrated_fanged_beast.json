@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "圣骸牙兽",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "圣骸兽"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "利爪猛击",
+      "desc": "造成?点?。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "掠能绿波",
+      "desc": "造成?点?，从牌组中抓1张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "横生厄蔓",
+      "desc": "造成?点?，如果手牌中存在<span style=\"color:#FFFFFFFF\">噬骸能量块</span>，则<span style=\"color:#FFFFFFFF\">舍弃</span>1张并准备技能<span style=\"color:#FFFFFFFF\">催萌腐草</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "亡骸饥渴",
+      "desc": "【被动】战斗开始时，生成2张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>放入牌组底。我方每回合可以额外打出1张<span style=\"color:#FFFFFFFF\">噬骸能量块</span>。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_id": 1215,
+  "id": "dahlia",
+  "shareId": 570,
+  "name": "Dahlia",
+  "title": "Dahlia · Ode et oblation",
+  "desc": "Que les hymnes légers traduisent le vent en poésie.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Récompense pour avoir invité Dahlia à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_ritual",
+      "name": "Escrime de Favonius - Rituel",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immersive_ordinance",
+      "name": "Ordonnance immersive",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée un <span style=\"color:#FFFFFFFF\">mystère bruineux</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "radiant_psalter",
+      "name": "Psautier radieux",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée 2 pts de <span style=\"color:#FFFFFFFF\">undefined</span> et 2 cumuls de <span style=\"color:#FFFFFFFF\">faveur favonienne</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

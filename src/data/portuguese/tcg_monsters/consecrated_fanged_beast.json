@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "Besta de Presas da Ossada Sagrada",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro",
+      "Besta da Ossada Sagrada"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "Corte de Garras",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "Onda de Sifão",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ? e saque 1 carta <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "Vinhas Arruinadas Espalhadas",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?, se <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> estiver em sua Mão, a <span style=\"color:#FFFFFFFF\">Descarta</span> e prepara essa habilidade: <span style=\"color:#FFFFFFFF\">Brotos do Apodrecimento Arruinado</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "Fome de Restos Mortais",
+      "desc": "(Passivo) Quando a batalha começa, cria 2 cartas <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> e as coloca no fundo do seu deck. Você pode jogar 1 carta <span style=\"color:#FFFFFFFF\">Blocos de Energia Vorazes</span> extra a cada Turno.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ]
+}

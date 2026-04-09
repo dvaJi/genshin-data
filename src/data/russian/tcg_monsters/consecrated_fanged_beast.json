@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "Священный клыкастый зверь",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Священный хищник"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "Удар когтями",
+      "desc": "Наносит ?, ? ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "Волна поглощения",
+      "desc": "Наносит ?, ? ед. Вы берёте 1 <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "Разросшиеся лозы скверны",
+      "desc": "Наносит ?, ? ед. Если в руке есть <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span>, производит <span style=\"color:#FFFFFFFF\">Отказ</span> от 1 карты и подготавливает навык <span style=\"color:#FFFFFFFF\">Побеги гнилой скверны</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "Голод мертвеца",
+      "desc": "(Пассивный навык) В начале битвы вы получаете 2 карты <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span>, которые помещаются в низ колоды. Каждый раунд вы можете дополнительно разыграть 1 карту <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span>.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ]
+}

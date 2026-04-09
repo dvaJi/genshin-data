@@ -1,0 +1,90 @@
+{
+  "_id": 1216,
+  "id": "aino",
+  "shareId": 571,
+  "name": "Aino",
+  "title": "Aino · Mécano aux gadgets à gogo",
+  "desc": "Les rêves deviennent réalité avec des clings et des clangs.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Nod-Krai"
+    ],
+    "source": "Récompense pour avoir invité Aino à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "bishbashbosh_repair",
+      "name": "Réparation toc-tac-toc",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "musecatcher",
+      "name": "Inspirateur",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée 1 cumul de <span style=\"color:#FFFFFFFF\">changement rapide</span>. Si vous avez une carte avec une <span style=\"color:#FFFFFFFF\">autonomisation</span> dans votre main : Inflige $[D__KEY__DAMAGE_1] {PLURAL#$[D__KEY__DAMAGE_1|nc]|pt|pts} de ? à la place.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "precision_hydronic_cooler",
+      "name": "Refroidisseur hydronique de précision",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et invoque un <span style=\"color:#FFFFFFFF\">canardeur tranquille</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "modular_efficiency_protocol",
+      "name": "Protocole d'efficience modulaire",
+      "desc": "<span style=\"color:#FFFFFFFF\">Lorsqu'une <span style=\"color:#FFFFFFFF\">autonomisation</span> est appliquée à une de vos cartes</span> : Si un <span style=\"color:#FFFFFFFF\">canardeur tranquille</span> est sur votre terrain, son nombre d'utilisations augmente de 1 ; Sinon, cette carte obtient 1 <span style=\"color:#FFFFFFFF\">charge</span>. (1 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_id": 1216,
+  "id": "aino",
+  "shareId": 571,
+  "name": "Aino",
+  "title": "Scheppernde Wundermaschinen – Aino",
+  "desc": "Mit einem Kling-Klang werden Träume wahr",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Nod-Krai"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Aino in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "bishbashbosh_repair",
+      "name": "Klopf-mal-drauf-Reparatur",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "musecatcher",
+      "name": "Ideenfänger",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1] und erschafft 1 Stapelung <span style=\"color:#FFFFFFFF\">Gewandter Wechsel</span>. Wenn sich auf deiner Hand eine Karte mit <span style=\"color:#FFFFFFFF\">Ermächtigung</span> befindet, werden stattdessen $[D__KEY__DAMAGE_1] Pkt. $[D__KEY__ELEMENT|s1] verursacht.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "precision_hydronic_cooler",
+      "name": "Präzises Wasserkühlgerät",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Sprudelente</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "modular_efficiency_protocol",
+      "name": "Modularer Hochleistungsbetrieb",
+      "desc": "<span style=\"color:#FFFFFFFF\">Beim Gewähren von <span style=\"color:#FFFFFFFF\">Ermächtigung</span> an deine Karten:</span> Wenn es auf deiner Seite bereits <span style=\"color:#FFFFFFFF\">Sprudelente</span> gibt, wird die Einsatzmöglichkeit um 1 erhöht. Erhält andernfalls 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung</span> (1-mal pro Runde).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

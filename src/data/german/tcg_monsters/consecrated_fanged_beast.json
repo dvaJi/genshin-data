@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "Reißzahnbestie heiliger Knochen",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Bestie heiliger Knochen"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "Klauenschlag",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "Siphon-Welle",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], zieht 1 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> aus dem Deck.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "Ausufernde verdorrte Reben",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], es wird 1 Karte <span style=\"color:#FFFFFFFF\">abgeworfen</span> und die Fähigkeit <span style=\"color:#FFFFFFFF\">Sprossen keimender Fäulnis</span> vorbereitet, wenn sich in der Hand <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> befindet.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "Hunger der Überreste",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 2 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> und legt sie ganz unten unter den Stapel. Du kannst jede Runde 1 zusätzliche <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> ausspielen.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

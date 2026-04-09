@@ -1,0 +1,81 @@
+{
+  "_id": 1215,
+  "id": "dahlia",
+  "shareId": 570,
+  "name": "Dahlia",
+  "title": "Dahlia - El Diácono de las Oblaciones",
+  "desc": "Que los himnos sagrados conviertan el viento en poesía.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Se obtiene tras retar y ganar a Dahlia en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "favonius_bladework_ritual",
+      "name": "Técnica de espada Favonius: Liturgia",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "immersive_ordinance",
+      "name": "Ordenanza de la inmersión",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y otorga el estado de <span style=\"color:#FFFFFFFF\">agua sacramental</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "radiant_psalter",
+      "name": "Salterio fulgurante",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, otorga 2 cargas de <span style=\"color:#FFFFFFFF\">escudo</span> y otras 2 de <span style=\"color:#FFFFFFFF\">gracia de Favonius</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

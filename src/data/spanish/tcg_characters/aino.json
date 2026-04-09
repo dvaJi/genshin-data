@@ -1,0 +1,90 @@
+{
+  "_id": 1216,
+  "id": "aino",
+  "shareId": 571,
+  "name": "Aino",
+  "title": "Aino - La Mecánica Cling-clang",
+  "desc": "Los sueños cobran vida con un “cling-clang”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Mandoble",
+    "faction": [
+      "Nod Krai"
+    ],
+    "source": "Se obtiene tras retar y ganar a Aino en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "bishbashbosh_repair",
+      "name": "Reparación “pum-pam-pam”",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "musecatcher",
+      "name": "Capturaideas",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y crea 1 carga de <span style=\"color:#FFFFFFFF\">cambio rápido</span>. Si en tu mano tienes alguna carta con <span style=\"color:#FFFFFFFF\">potenciación</span>, en su lugar inflige $[D__KEY__DAMAGE_1] {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "precision_hydronic_cooler",
+      "name": "Refrigerador hidrónico de precisión",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? e invoca un <span style=\"color:#FFFFFFFF\">patito bajahumos</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "modular_efficiency_protocol",
+      "name": "Protocolo de eficacia modular",
+      "desc": "<span style=\"color:#FFFFFFFF\">Cuando aplicas una <span style=\"color:#FFFFFFFF\">potenciación</span> a una de tus cartas</span>, si hay algún <span style=\"color:#FFFFFFFF\">patito bajahumos</span> en tu campo, este obtiene número de usos +1. Si no, obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1 (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

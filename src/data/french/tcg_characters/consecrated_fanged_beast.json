@@ -1,0 +1,91 @@
+{
+  "_id": 2705,
+  "id": "consecrated_fanged_beast",
+  "shareId": 572,
+  "name": "Caniné sacralisé",
+  "title": "Herbe résiduelle : Caniné sacralisé",
+  "desc": "Une créature qui a été déformée et transformée après avoir consommé la chair d'une puissante forme de vie. Elle manie désormais le pouvoir de lianes enragées.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Bête sacralisée"
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Caniné sacralisé"
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "Coup de griffes tranchantes",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "Onde de siphon",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et pioche 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans le deck.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "Lianes tentaculaires",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?. Si votre main contient une carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>], <span style=\"color:#FFFFFFFF\">défausse</span> 1 carte et prépare la capacité : <span style=\"color:#FFFFFFFF\">Germe de pourriture flétrie</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "La faim des restes",
+      "desc": "(Passif) Crée 2 cartes [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] dans le bas de votre deck au début du combat et vous permet de jouer 1 carte [<span style=\"color:#FFFFFFFF\">Bloc d'énergie phagocytaire</span>] supplémentaire à chaque manche.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

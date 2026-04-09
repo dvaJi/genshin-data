@@ -1,0 +1,91 @@
+{
+  "_id": 2705,
+  "id": "consecrated_fanged_beast",
+  "shareId": 572,
+  "name": "성해 검치호",
+  "title": "유해의 들풀·성해 검치호",
+  "desc": "위대한 존재를 삼켜 기이하게 뒤틀린 포식자. 광란의 덩굴풀의 힘을 사용한다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물",
+      "성해 짐승"
+    ],
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 성해 검치호에게 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "발톱 강타",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "녹빛 약탈",
+      "desc": "?를 ?pt 주고 카드 덱에서 <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 1장 드로우한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "재앙의 덩굴",
+      "desc": "?를 ?pt 준다. 핸드 카드에 <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>가 있으면 1장을 <span style=\"color:#FFFFFFFF\">포기</span>하고 <span style=\"color:#FFFFFFFF\">죽음의 새싹</span>의 스킬 준비를 한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "유해의 갈망",
+      "desc": "[패시브] 전투 시작 시, <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span> 2장을 생성해 카드 더미 맨 밑에 넣는다. 아군이 턴마다 추가로 <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span> 1장을 사용할 수 있다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

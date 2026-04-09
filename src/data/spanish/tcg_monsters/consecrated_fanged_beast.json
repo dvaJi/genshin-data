@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "Colmibestia Sacrósea",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Bestia Sacrósea"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "Zarpazo afilado",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "Ola saqueadora",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y toma 1 carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> del mazo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "Enredadera fatal",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?. Si hay alguna carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> en tu mano, realiza el <span style=\"color:#FFFFFFFF\">descarte</span> de 1 de ellas y prepara la habilidad <span style=\"color:#FFFFFFFF\">Brotes de hierba podrida</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "Hambre carroñera",
+      "desc": "Pasiva: al comenzar el duelo, crea 2 cartas de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> y las coloca en la parte inferior del mazo. Además, puedes jugar 1 carta adicional de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> en cada ronda.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

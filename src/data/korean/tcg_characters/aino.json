@@ -1,0 +1,90 @@
+{
+  "_id": 1216,
+  "id": "aino",
+  "shareId": 571,
+  "name": "아이노",
+  "title": "쾅쾅 발명가·아이노",
+  "desc": "뚝딱뚝딱, 상상을 현실로",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "양손검",
+    "faction": [
+      "노드크라이"
+    ],
+    "source": "캣테일 술집에서 아이노 초대 및 친선 대전 난이도 승리 후 획득"
+  },
+  "skills": [
+    {
+      "id": "bishbashbosh_repair",
+      "name": "뚝딱뚝딱 수리법",
+      "desc": "?를 ?pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "musecatcher",
+      "name": "아이디어 집게",
+      "desc": "?를 ?pt 주고 <span style=\"color:#FFFFFFFF\">민첩한 교체</span>를 1스택 생성한다. 만약 핸드 카드에 <span style=\"color:#FFFFFFFF\">힘 주입</span>이 있으면 ?를 $[D__KEY__DAMAGE_1]pt 주는 걸로 변경된다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "precision_hydronic_cooler",
+      "name": "정밀 냉수기",
+      "desc": "?를 ?pt 주고 <span style=\"color:#FFFFFFFF\">찬물 오리</span>를 소환한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "modular_efficiency_protocol",
+      "name": "모듈화 전략",
+      "desc": "<span style=\"color:#FFFFFFFF\">아군 카드에 <span style=\"color:#FFFFFFFF\">힘 주입</span> 부여 시</span>: 아군 필드 위에 <span style=\"color:#FFFFFFFF\">찬물 오리</span>가 존재하면, <span style=\"color:#FFFFFFFF\">찬물 오리</span>의 사용 가능 횟수+1, 없으면 자신이 <span style=\"color:#FFFFFFFF\">원소 에너지</span>를 1pt 획득한다. (턴당 1회)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ]
+}

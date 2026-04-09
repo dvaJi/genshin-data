@@ -1,0 +1,89 @@
+{
+  "_id": 4710,
+  "id": "consecrated_fanged_beast",
+  "shareId": 4710,
+  "name": "聖骸牙獣",
+  "desc": "",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物",
+      "聖骸獣"
+    ]
+  },
+  "skills": [
+    {
+      "id": "claw_slash",
+      "name": "鋭い爪の猛撃",
+      "desc": "?を?与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "siphon_wave",
+      "name": "略奪の波動",
+      "desc": "?を?与え、山札から<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を1枚引く。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "sprawling_blighted_vines",
+      "name": "災厄の蔓",
+      "desc": "?を?与え、手札に<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>がある場合、1枚<span style=\"color:#FFFFFFFF\">破棄</span>してスキル<span style=\"color:#FFFFFFFF\">腐草の萌芽</span>を準備する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hunger_from_the_remains",
+      "name": "亡骸の渇き",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を2枚生成して山札の一番下に置く。味方は各ラウンドで<span style=\"color:#FFFFFFFF\">喰骸エネルギークラスター</span>を追加で1枚使用できる。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ]
+}
