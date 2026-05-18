@@ -1,0 +1,81 @@
+{
+  "_id": 2605,
+  "id": "experimental_field_generator",
+  "shareId": 586,
+  "name": "Experimenteller Feldgenerator",
+  "title": "Unvollendetes Ideal – Experimenteller Feldgenerator",
+  "desc": "Ein Werk des Forschungsinstituts für kinetische Energie Fontaine, das durch einen Unfall außer Kontrolle geriet und der Schwerkraft „entgegenwirken“ kann.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit „Experimenteller Feldgenerator“ in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "gravity_application_crush",
+      "name": "Schwerkraft-Anwendungsprogramm – Schmetterschlag",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_point_null",
+      "name": "Schwerkraft-Anwendungsprogramm – Punktartige Neutralisierung",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 2 Stapelungen <span style=\"color:#FFFFFFFF\">Effizienter Wechsel</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_field_reduction",
+      "name": "Schwerkraft-Anwendungsprogramm – Schwächungsfeld",
+      "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1], erschafft 1 <span style=\"color:#FFFFFFFF\">Hintergrund geringer Schwerkraft</span> und 1 <span style=\"color:#FFFFFFFF\">Schwingungsstoß</span>. Für den nächsten <span style=\"color:#FFFFFFFF\">Standardangriff</span> durch jede inaktive Figur deiner Seite in dieser Runde wird 1 <span style=\"color:#FFFFFFFF\">Würfel (beliebig)</span> weniger verbraucht.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

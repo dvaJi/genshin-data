@@ -1,0 +1,90 @@
+{
+  "_id": 1711,
+  "id": "lauma",
+  "shareId": 585,
+  "name": "Lauma",
+  "title": "Lauma - La Cantora Lunaperpetua",
+  "desc": "La luna reflejada en el agua se fragmenta entre las ondulaciones.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Nod Krai"
+    ],
+    "source": "Se obtiene tras retar y ganar a Lauma en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "peregrination_of_linnunrata",
+      "name": "Peregrinaje de la Linnunrata",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "runo_dawnless_rest_of_karsikko",
+      "name": "Runo: Reposo sin alba del Karsikko",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y crea un <span style=\"color:#FFFFFFFF\">santuario bosquescarcha</span>. Si en tu mano tienes alguna carta con <span style=\"color:#FFFFFFFF\">reducción de coste</span>, se elimina 1 carga de <span style=\"color:#FFFFFFFF\">reducción de coste</span> de 1 carta aleatoria y, en su lugar, crea un <span style=\"color:#FFFFFFFF\">santuario bosquescarcha</span> que inflige 2 pts. de daño.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "runo_all_hearts_become_the_beating_moon",
+      "name": "Runo: Luna de mil corazones",
+      "desc": "Aplica una <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">reducción de coste</span></span> a 3 cartas aleatorias de tu mano cuyo <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">coste actual de dados elementales</span></span> no sea 0, y otorga 3 cargas de <span style=\"color:#FFFFFFFF\">letanía albar</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1107,
+          "id": "dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_natures_chorus",
+      "name": "Bendición presagiolunar: Coro de la naturaleza",
+      "desc": "Pasiva: cuando los personajes enemigos se vean afectados por una reacción de <span style=\"color:#FFFFFFFF\">Florecimiento</span> en esta partida, esta se convertirá en la reacción de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Florecimiento Lunar</span></span>.<br/><span style=\"color:#FFFFFFFF\">Cuando el enemigo es afectado por una reacción de <span style=\"color:#FFFFFFFF\">Florecimiento Lunar</span></span>, aplica una <span style=\"color:#FFFFFFFF\">reducción de coste</span> a 1 carta aleatoria de tu mazo.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

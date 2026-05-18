@@ -1,0 +1,81 @@
+{
+  "_id": 2605,
+  "id": "experimental_field_generator",
+  "shareId": 586,
+  "name": "Generador de Campo Experimental",
+  "title": "Generador de Campo Experimental - Ideal inconcluso",
+  "desc": "Una creación del Instituto de Investigación Científica e Ingeniería de Energía Cinética de Fontaine. Cierto accidente ha hecho que pierda por completo el control. Posee unos efectos capaces de contrarrestar la fuerza de la gravedad.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Generador de Campo Experimental de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "gravity_application_crush",
+      "name": "Aplicación gravitacional: Aplastamiento",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_point_null",
+      "name": "Aplicación gravitacional: Contrarresto puntual",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y otorga 2 cargas de <span style=\"color:#FFFFFFFF\">cambio eficiente</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_field_reduction",
+      "name": "Aplicación gravitacional: Campo de reducción",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?, y crea un <span style=\"color:#FFFFFFFF\">entorno de baja gravedad</span> y el efecto de <span style=\"color:#FFFFFFFF\">impacto explosivo</span>. En esta ronda, el próximo <span style=\"color:#FFFFFFFF\">Ataque Normal</span> de todos tus personajes en reserva consume 1 <span style=\"color:#FFFFFFFF\">dado indefinido</span> menos.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

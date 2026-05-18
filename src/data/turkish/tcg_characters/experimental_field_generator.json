@@ -1,0 +1,81 @@
+{
+  "_id": 2605,
+  "id": "experimental_field_generator",
+  "shareId": 586,
+  "name": "Deneysel Alan Oluşturucu",
+  "title": "Tamamlanmamış İdeal: Deneysel Alan Oluşturucu",
+  "desc": "Bir kazadan ötürü kontrolden çıkmış bir Fontaine Kinetik Enerji Mühendisliği Araştırma Enstitüsü ürünü. Yer çekimi etkilerine \"karşı koyma\" kabiliyetine sahiptir.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Deneysel Alan Oluşturucu ile olan Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "gravity_application_crush",
+      "name": "Yer Çekimi Uygulaması: Parçalama",
+      "desc": "? ? verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_point_null",
+      "name": "Yer Çekimi Uygulaması: Sıfır Noktası",
+      "desc": "? ? verir ve 2 kademe <span style=\"color:#FFFFFFFF\">Verimli Değişim</span> oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_field_reduction",
+      "name": "Yer Çekimi Uygulaması: Alan Azaltma",
+      "desc": "? ? verir, ayrıca <span style=\"color:#FFFFFFFF\">Düşük Yer Çekimi Arka Planı</span> ve <span style=\"color:#FFFFFFFF\">Şok Patlaması</span> oluşturur. Bu Turda hazırdaki tüm karakterlerinin bir sonraki <span style=\"color:#FFFFFFFF\">Normal Saldırı</span> kullanımında 1 <span style=\"color:#FFFFFFFF\">Nötr Element</span> daha az harcanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

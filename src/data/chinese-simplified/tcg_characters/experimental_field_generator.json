@@ -1,0 +1,81 @@
+{
+  "_id": 2605,
+  "id": "experimental_field_generator",
+  "shareId": 586,
+  "name": "实验性场力发生装置",
+  "title": "未竟理想·实验性场力发生装置",
+  "desc": "枫丹动能工程科学研究院的作品，因为事故而失控，拥有「抵消」重力的效果。",
+  "attributes": {
+    "hp": 11,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度实验性场力发生装置中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "gravity_application_crush",
+      "name": "重力应用程式·砸击",
+      "desc": "造成?点?。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_point_null",
+      "name": "重力应用程式·点状抵消",
+      "desc": "造成?点?，生成2层<span style=\"color:#FFFFFFFF\">高效切换</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_field_reduction",
+      "name": "重力应用程式·削减场域",
+      "desc": "造成?点?，生成<span style=\"color:#FFFFFFFF\">低重力背景</span>和<span style=\"color:#FFFFFFFF\">振荡冲击</span>，本回合中我方所有后台角色下次<span style=\"color:#FFFFFFFF\">「普通攻击」</span>少花费1个<span style=\"color:#FFFFFFFF\">无色元素</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

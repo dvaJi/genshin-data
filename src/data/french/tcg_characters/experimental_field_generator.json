@@ -1,0 +1,81 @@
+{
+  "_id": 2605,
+  "id": "experimental_field_generator",
+  "shareId": 586,
+  "name": "Générateur de champ expérimental",
+  "title": "Idéal non terminé : Générateur de champ expérimental",
+  "desc": "Un produit de l'Institut de recherche d'ingénierie cinétique de Fontaine qui est devenu incontrôlable en raison d'un accident, ayant la capacité de « contrecarrer » les effets de la gravité.",
+  "attributes": {
+    "hp": 11,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Générateur de champ expérimental"
+  },
+  "skills": [
+    {
+      "id": "gravity_application_crush",
+      "name": "Application de gravité : Écrasement",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_point_null",
+      "name": "Application de gravité : Annihilation de point",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée 2 cumuls de <span style=\"color:#FFFFFFFF\">changement efficient</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "gravity_application_field_reduction",
+      "name": "Application de gravité : Réduction de champ",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ? et crée un <span style=\"color:#FFFFFFFF\">fond à faible gravité</span> et une <span style=\"color:#FFFFFFFF\">explosion de choc</span>. De plus, la prochaine <span style=\"color:#FFFFFFFF\">attaque normale</span> de tous vos personnages en attente pendant la manche dépense 1 dé d'<span style=\"color:#FFFFFFFF\">élément neutre</span> en moins.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
