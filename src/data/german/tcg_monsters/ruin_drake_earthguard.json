@@ -8,10 +8,8 @@
     "hp": 10,
     "card_type": "Figurenkarte",
     "energy": 2,
-    "element": "Kein Elementartyp",
-    "weapon": "Andere Waffen",
     "faction": [
-      "Monster"
+      null
     ]
   },
   "skills": [
@@ -19,9 +17,7 @@
       "id": "close_expulsion",
       "name": "Stoßende Vertreibung",
       "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
-      "skillTag": [
-        "Standardangriff"
-      ],
+      "skillTag": [],
       "points": [
         {
           "_id": 1109,
@@ -35,9 +31,7 @@
       "id": "sudden_charge",
       "name": "Überraschender Ansturm",
       "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1].",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
+      "skillTag": [],
       "points": [
         {
           "_id": 1108,
@@ -51,9 +45,7 @@
       "id": "energy_surge",
       "name": "Strömung der Energie",
       "desc": "Verursacht ? Pkt. $[D__KEY__ELEMENT|s1]. Wenn diese Figur ein Element absorbiert hat, setzt sie dieses Element frei, erhöht den SCH um 1 Pkt. und wandelt den SCH in das absorbierte Element um.",
-      "skillTag": [
-        "Spezialfähigkeit"
-      ],
+      "skillTag": [],
       "points": [
         {
           "_id": 1108,
@@ -73,18 +65,14 @@
       "id": "standard_armor",
       "name": "Standard-Rüstung",
       "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Phys. SCH</span> an dieser Figur wird halbiert (aufgerundet).",
-      "skillTag": [
-        "Passive Fähigkeit"
-      ],
+      "skillTag": [],
       "points": []
     },
     {
       "id": "elemental_absorption",
       "name": "Elementarabsorption",
       "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Wenn die Figur noch kein Element absorbiert hat und Elementar-SCH erleidet,</span> absorbiert sie dieses Element.<br/>Wenn die Figur SCH vom Element erleidet, das sie bereits absorbiert hat, wird dieser SCH an ihr halbiert (aufgerundet).",
-      "skillTag": [
-        "Passive Fähigkeit"
-      ],
+      "skillTag": [],
       "points": []
     }
   ]

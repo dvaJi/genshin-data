@@ -15,9 +15,7 @@ export interface Attributes {
     hp:           number;
     card_type:    string;
     energy:       number;
-    element:      string;
-    weapon:       string;
-    faction:      string[];
+    faction:      null[];
     talent_card?: TalentCard;
     source?:      string;
     character?:   Character;
@@ -38,7 +36,7 @@ export interface Skill {
     id:       string;
     name:     string;
     desc:     string;
-    skillTag: string[];
+    skillTag: any[];
     points:   Point[];
 }
 

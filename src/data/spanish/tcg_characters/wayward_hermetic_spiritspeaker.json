@@ -1,0 +1,80 @@
+{
+  "_id": 2105,
+  "id": "wayward_hermetic_spiritspeaker",
+  "shareId": 597,
+  "name": "Asceta Espiritista",
+  "title": "Asceta Espiritista - Reclusión solitaria",
+  "desc": "Una sacerdotisa de los Augures Vientonocturno que vive recluida lejos de la tribu. Se dice que, como recibió la protección de la Wayob de los Augures Vientonocturno, posee un poder de espiritismo superior al de la mayoría de sacerdotes y chamanes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "faction": [
+      null
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Asceta Espiritista de los duelos tabernarios"
+  },
+  "skills": [
+    {
+      "id": "spiritspeaking_frost_star",
+      "name": "Espiritismo: Estrella glacial",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "radiance_in_flux",
+      "name": "Tonalidades en movimiento",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y añade 1 carta de <span style=\"color:#FFFFFFFF\">Tonalidad radiante</span> a la tercera posición de tu pila. <span style=\"color:#FFFFFFFF\">Selecciona</span> 1 de 3 fortalecimientos aleatorios de la carta <span style=\"color:#FFFFFFFF\">Tonalidad radiante</span>.",
+      "skillTag": [],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "chilling_illustration",
+      "name": "Ilustración gélida",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ? y añade 1 carta de <span style=\"color:#FFFFFFFF\">Tonalidad radiante</span> a tu mano.",
+      "skillTag": [],
+      "points": [
+        {
+          "_id": 1101,
+          "id": "cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "iridescent_silhouette",
+      "name": "Silueta iridiscente",
+      "desc": "Pasiva: al comenzar el duelo, crea 3 cartas de <span style=\"color:#FFFFFFFF\">Tonalidad radiante</span> que se distribuyen equitativamente en tu pila.",
+      "skillTag": [],
+      "points": []
+    }
+  ]
+}

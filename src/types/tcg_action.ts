@@ -18,10 +18,9 @@ export interface Attributes {
     card_type:  string;
     energy:     Energy[];
     source?:    string;
-    tags?:      string[];
     food?:      Artifact;
     artifact?:  Artifact;
-    faction?:   string[];
+    faction?:   null[];
     character?: Character;
 }
 

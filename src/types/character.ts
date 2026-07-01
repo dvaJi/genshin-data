@@ -65,8 +65,8 @@ export interface Cv {
 }
 
 export interface Element {
-    id:   string;
-    name: string;
+    id:    string;
+    name?: string;
 }
 
 export interface Outfit {

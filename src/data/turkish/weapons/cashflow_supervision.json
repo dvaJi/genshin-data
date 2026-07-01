@@ -10,7 +10,7 @@
   },
   "domain": "Derin Dalgaların Yankıları",
   "passive": "Altın Kan Dalgası",
-  "bonus": "Saldırı <span>%16/%20/%24/%28/%32</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%16/%20/%24/%28/%32</span>, Yüklü Saldırı Hasarı <span>%14/%17,5/%21/%24,5/%28</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%8/%10/%12/%14/%16</span> artar.",
+  "bonus": "Saldırı <span>%16/%20/%24/%28/%32</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%16/%20/%24/%28/%32</span>, Yüklü Saldırı Hasarı <span>%14/%17,5/%21/%24,5/%28</span> ve Yıldız İletimi Hasarı <span>%14/%17,5/%21/%24,5/%28</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%8/%10/%12/%14/%16</span> artar.",
   "specialProp": "Kritik Oranı",
   "stats": {
     "primary": "Temel Saldırı",
@@ -280,11 +280,12 @@
   ],
   "refinement_raw": {
     "name": "Altın Kan Dalgası",
-    "template": "Saldırı <span style=\"color:#99FFFFFF\">{0}</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span style=\"color:#99FFFFFF\">{1}</span>, Yüklü Saldırı Hasarı <span style=\"color:#99FFFFFF\">{2}</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span style=\"color:#99FFFFFF\">{3}</span> artar.",
+    "template": "Saldırı <span style=\"color:#99FFFFFF\">{0}</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span style=\"color:#99FFFFFF\">{1}</span>, Yüklü Saldırı Hasarı <span style=\"color:#99FFFFFF\">{2}</span> ve Yıldız İletimi Hasarı <span style=\"color:#99FFFFFF\">{3}</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span style=\"color:#99FFFFFF\">{4}</span> artar.",
     "params": [
       [
         "%16",
         "%16",
+        "%14",
         "%14",
         "%8"
       ],
@@ -292,11 +293,13 @@
         "%20",
         "%20",
         "%17,5",
+        "%17,5",
         "%10"
       ],
       [
         "%24",
         "%24",
+        "%21",
         "%21",
         "%12"
       ],
@@ -304,11 +307,13 @@
         "%28",
         "%28",
         "%24,5",
+        "%24,5",
         "%14"
       ],
       [
         "%32",
         "%32",
+        "%28",
         "%28",
         "%16"
       ]
@@ -317,23 +322,23 @@
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Saldırı <span>%16</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%16</span>, Yüklü Saldırı Hasarı <span>%14</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%8</span> artar."
+      "desc": "Saldırı <span>%16</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%16</span>, Yüklü Saldırı Hasarı <span>%14</span> ve Yıldız İletimi Hasarı <span>%14</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%8</span> artar."
     },
     {
       "refinement": 2,
-      "desc": "Saldırı <span>%20</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%20</span>, Yüklü Saldırı Hasarı <span>%17,5</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%10</span> artar."
+      "desc": "Saldırı <span>%20</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%20</span>, Yüklü Saldırı Hasarı <span>%17,5</span> ve Yıldız İletimi Hasarı <span>%17,5</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%10</span> artar."
     },
     {
       "refinement": 3,
-      "desc": "Saldırı <span>%24</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%24</span>, Yüklü Saldırı Hasarı <span>%21</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%12</span> artar."
+      "desc": "Saldırı <span>%24</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%24</span>, Yüklü Saldırı Hasarı <span>%21</span> ve Yıldız İletimi Hasarı <span>%21</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%12</span> artar."
     },
     {
       "refinement": 4,
-      "desc": "Saldırı <span>%28</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%28</span>, Yüklü Saldırı Hasarı <span>%24,5</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%14</span> artar."
+      "desc": "Saldırı <span>%28</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%28</span>, Yüklü Saldırı Hasarı <span>%24,5</span> ve Yıldız İletimi Hasarı <span>%24,5</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%14</span> artar."
     },
     {
       "refinement": 5,
-      "desc": "Saldırı <span>%32</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%32</span>, Yüklü Saldırı Hasarı <span>%28</span> artar. En fazla 3 kademeye kadar birikir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%16</span> artar."
+      "desc": "Saldırı <span>%32</span> artar. Mevcut Can arttığında veya azaldığında 4 saniyeliğine Normal Saldırı Hasarı <span>%32</span>, Yüklü Saldırı Hasarı <span>%28</span> ve Yıldız İletimi Hasarı <span>%28</span> artar. 3 kademeye kadar birikebilir. Bu etki her 0,3 saniyede bir tetiklenebilir. Kuşanan karakter 3 kademeye sahip olduğunda Saldırı Hızı <span>%16</span> artar."
     }
   ]
 }

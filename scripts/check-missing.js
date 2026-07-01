@@ -20,7 +20,7 @@ const METHODS = [
   'tcgCards',
   'weaponPrimaryMaterials',
   'weaponSecondaryMaterials',
-  'domains',
+  'domainsList',
 ];
 
 const data = languages.reduce((obj, key) => {
