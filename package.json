@@ -26,7 +26,6 @@
     "generate-typings": "node ./scripts/generate-typings.mjs",
     "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
     "validate-data": "node ./scripts/validate-data.mjs",
-    "check-changelog": "node ./scripts/check-changelog.mjs",
     "format-data": "prettier --log-level warn --write \"src/data/**/*.json\"",
     "format-data-en": "prettier --log-level warn --write \"src/data/english/**/*.json\"",
     "prepublishOnly": "pnpm generate && pnpm build",

@@ -58,6 +58,8 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
 
+      # Guards the committed src/data against the class of bug where a generator regression
+      # silently emits fewer files (empty names, slug collisions) instead of failing.
       - name: Validate data
         run: pnpm validate-data
         env:
