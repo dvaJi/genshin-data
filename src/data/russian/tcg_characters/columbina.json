@@ -1,0 +1,90 @@
+{
+  "_id": 1217,
+  "id": "columbina",
+  "shareId": 620,
+  "name": "Коломбина",
+  "title": "«Возвращение полой луны» Коломбина",
+  "desc": "Белый голубь под луной, где дом твой?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Катализатор",
+    "faction": [
+      "Нод-Край"
+    ],
+    "source": "Награда за приглашение Коломбины в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "moondew_cascade",
+      "name": "Ливень лунных рос",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, ? ед.<br/>Когда в этой игре противник суммарно получит урон от Лунных реакций 3 раза, если среди карт в вашей руке есть карты с эффектом <span style=\"color:#FFFFFFFF\">Снижение стоимости</span>, помещает 1 случайную карту с эффектом <span style=\"color:#FFFFFFFF\">Снижение стоимости</span> наверх колоды, а затем дополнительно наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед. (1 раз за раунд)",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eternal_tides",
+      "name": "Вечные приливы",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, ? ед., вы получаете <span style=\"color:#FFFFFFFF\">Зыбь тяготения</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonlit_melancholy",
+      "name": "Тоска во свете луны",
+      "desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон</span>, ? ед., вы получаете <span style=\"color:#FFFFFFFF\">Владения луны</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_moonlight_lent_unto_you",
+      "name": "Дар лунного знамения: Одолженный тебе лунный свет",
+      "desc": "(Пассивный навык) В текущей игре, когда враг получает реакцию <span style=\"color:#FFFFFFFF\">Заряжен</span>/<span style=\"color:#FFFFFFFF\">Бутонизация</span>/<span style=\"color:#FFFFFFFF\">Кристалл (Гидро)</span>, она заменяется на реакцию <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунный заряд</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунная бутонизация</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунный кристалл</span></span>.<br/>Когда противник получает реакцию <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунный заряд</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунная бутонизация</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Лунный кристалл</span></span>: наносит <span style=\"color:#FFACFFFF\">Электро урон</span>/<span style=\"color:#7EC236FF\">Дендро урон</span>/<span style=\"color:#FFE699FF\">Гео урон</span>, 1 ед. (1 раз за раунд)",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 {
   "_id": 4214,
   "id": "hydro_hypostasis",
-  "shareId": 4214,
+  "shareId": 610,
   "name": "Hypostase Hydro",
-  "desc": "",
+  "title": "Hypostase Hydro",
+  "desc": "Nom de code « He », une entité Hydro de niveau supérieur. Les Hypostases ont de grandes capacités de rejet et expulseront sans pitié tous ceux qui les testent.",
   "attributes": {
     "hp": 40,
     "card_type": "Carte de personnage",
@@ -12,13 +13,23 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre"
-    ]
+    ],
+    "talent_card": {
+      "_id": 11229,
+      "id": "treacherous_torrent",
+      "name": "Treacherous Torrent"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Hypostase Hydro",
+    "character": {
+      "id": "hydro_hypostasis",
+      "name": "Hydro Hypostasis"
+    }
   },
   "skills": [
     {
       "id": "droplet_diffusion",
       "name": "Éclaboussure d'eau",
-      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
       "skillTag": [
         "Attaque normale"
       ],
@@ -40,7 +51,7 @@
     {
       "id": "surging_tides",
       "name": "Marée montante",
-      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Déferlement</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Déferlement</span>.",
       "skillTag": [
         "Compétence élémentaire"
       ],
@@ -56,7 +67,7 @@
     {
       "id": "calamitous_tides",
       "name": "Marée calamiteuse",
-      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et invoque une <span style=\"color:#FFFFFFFF\">gouttelette</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et invoque une <span style=\"color:#FFFFFFFF\">gouttelette</span>.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],

@@ -1,9 +1,10 @@
 {
   "_id": 4214,
   "id": "hydro_hypostasis",
-  "shareId": 4214,
+  "shareId": 610,
   "name": "Hipóstasis Hydro",
-  "desc": "",
+  "title": "Hipóstasis Hydro",
+  "desc": "Nombre en clave: He. Un ser Hydro de alta pureza. Tiene una fuerte capacidad de rechazo, pues ahuyenta despiadadamente a toda persona que se le acerca.",
   "attributes": {
     "hp": 40,
     "card_type": "Carta de personaje",
@@ -12,13 +13,23 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo"
-    ]
+    ],
+    "talent_card": {
+      "_id": 11229,
+      "id": "treacherous_torrent",
+      "name": "Treacherous Torrent"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Hipóstasis Hydro de los duelos tabernarios",
+    "character": {
+      "id": "hydro_hypostasis",
+      "name": "Hydro Hypostasis"
+    }
   },
   "skills": [
     {
       "id": "droplet_diffusion",
       "name": "Difusión de gotas",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
       "skillTag": [
         "Ataque Normal"
       ],
@@ -40,7 +51,7 @@
     {
       "id": "surging_tides",
       "name": "Mareas crecientes",
-      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Desbordamiento</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Desbordamiento</span>.",
       "skillTag": [
         "Habilidad Elemental"
       ],
@@ -56,7 +67,7 @@
     {
       "id": "calamitous_tides",
       "name": "Mareas calamitosas",
-      "desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> e invoca una <span style=\"color:#FFFFFFFF\">masa de agua</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span> e invoca una <span style=\"color:#FFFFFFFF\">masa de agua</span>.",
       "skillTag": [
         "Habilidad Definitiva"
       ],

@@ -7,7 +7,6 @@ export interface Ingredient {
     description?: string;
     recipes:      Craft[];
     source:       string[];
-    rarity:       number;
     processing?:  Craft[];
     craft?:       Craft[];
 }

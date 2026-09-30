@@ -1,0 +1,90 @@
+{
+  "_id": 1612,
+  "id": "illuga",
+  "shareId": 621,
+  "name": "Illuga",
+  "title": "Illuga · Cœur ardent des nuits terrifiantes",
+  "desc": "La lumière à travers les cauchemars qui ouvre la voie à l'aube.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Arme d'hast",
+    "faction": [
+      "Nod-Krai"
+    ],
+    "source": "Récompense pour avoir invité Illuga à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "oathkeepers_spear",
+      "name": "Lance du prosélyte",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnbearing_songbird",
+      "name": "Alouette de l'aube naissante",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une carte [<span style=\"color:#FFFFFFFF\">Aédon</span>]. dans votre main.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowless_reflection",
+      "name": "Reflet sans ombre",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée un <span style=\"color:#FFFFFFFF\">chant de rossignol</span> avec un nombre d'utilisations de 3.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_unwithering_in_winter",
+      "name": "Bénédiction de signelune : Inébranlable en hiver",
+      "desc": "(Passif) Lorsqu'une carte dont le nom ne figure pas dans le deck de départ de la partie est ajoutée dans votre main : Lui applique une <span style=\"color:#FFFFFFFF\">réduction de coût</span>. (1 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
+}

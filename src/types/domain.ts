@@ -18,6 +18,7 @@ export interface Domain {
     domainText:          string;
     rewardPreview:       RewardPreview[];
     monsterList:         MonsterList[];
+    daysOfWeek?:         string[];
 }
 
 export interface MonsterList {

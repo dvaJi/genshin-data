@@ -3,7 +3,7 @@
 export interface TcgAction {
     _id:                 number;
     id:                  string;
-    shareId?:            number;
+    shareId:             number;
     name:                string;
     title:               string;
     desc:                string;
@@ -18,9 +18,10 @@ export interface Attributes {
     card_type:  string;
     energy:     Energy[];
     source?:    string;
+    tags?:      string[];
     food?:      Artifact;
     artifact?:  Artifact;
-    faction?:   null[];
+    faction?:   string[];
     character?: Character;
 }
 

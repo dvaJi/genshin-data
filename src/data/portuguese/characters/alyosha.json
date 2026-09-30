@@ -339,7 +339,7 @@
       "_id": 11485,
       "id": "hunters_advance",
       "name": "Perseguição Caçadora",
-      "description": "Invoca seu confiável companheiro <span style=\"color:#FFD780FF\">Tugarin</span> e transforma a área em frente em <span style=\"color:#FFD780FF\">Campo de Caça Eletrizante</span>.<br/><br/><span style=\"color:#FFD780FF\">Campo de Caça Eletrizante</span><br/>· Provoca os inimigos constantemente, atraindo seus ataques.<br/>· A cada 2s, causa uma instância de <span style=\"color:#FFACFFFF\">Dano Electro em AdE</span> contra o inimigo que entrar no campo.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span>.<br/>· Se houver inimigos por perto, Tugarin se moverá rapidamente para perto de um inimigo a cada 2s, mordendo-o e causando <span style=\"color:#FFD780FF\">Dano Electro</span>.<br/>· Se atingir um inimigo que está afetado por <span style=\"color:#FFD780FF\">Selo da Caçada</span>, ativará <span style=\"color:#FFD780FF\">Selo da Caçada</span>.<br/>· Tugarin priorizará atacar inimigos afetados por <span style=\"color:#FFD780FF\">Selo da Caçada</span>.",
+      "description": "Invoca seu confiável companheiro <span style=\"color:#FFD780FF\">Tugarin</span> e transforma a área em frente em <span style=\"color:#FFD780FF\">Campo de Caça Eletrizante</span>.<br/><br/><span style=\"color:#FFD780FF\">Campo de Caça Eletrizante</span><br/>· Provoca os inimigos constantemente, atraindo seus ataques.<br/>· A cada 2s, causa uma instância de <span style=\"color:#FFACFFFF\">Dano Electro em AdE</span> contra o inimigo que entrar no campo.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span>.<br/>· Se houver inimigos por perto, Tugarin se moverá rapidamente para perto de um inimigo a cada 2s, mordendo-o e causando <span style=\"color:#FFACFFFF\">Dano Electro</span>.<br/>· Se atingir um inimigo que está afetado por <span style=\"color:#FFD780FF\">Selo da Caçada</span>, ativará <span style=\"color:#FFD780FF\">Selo da Caçada</span>.<br/>· Tugarin priorizará atacar inimigos afetados por <span style=\"color:#FFD780FF\">Selo da Caçada</span>.",
       "info": "Espere. Espere até a impaciência passar. É nesse momento que a Tarambola de Barriga Vermelha mergulhará entre as árvores e passará na frente da flecha.",
       "attributes": [
         {
@@ -467,7 +467,7 @@
     {
       "id": "treetop_watch",
       "name": "Vigia Arbórea",
-      "description": "Mostra a localização de <span style=\"color:#FFD780FF\">Especialidades de Snezhnaya</span> próximas no mapa.",
+      "description": "Exibe a localização de <span style=\"color:#FFD780FF\">recursos exclusivos de Snezhnaya</span> próximos no minimapa. Esse efeito também se aplica ao Reino das Sombras.",
       "level": 0
     }
   ],
@@ -1248,6 +1248,428 @@
       "characterId": 10000148,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Alyosha_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Olá...",
+      "text": "Olá, sou Alyosha. Sou um caçador — mas, se você andou falando com algum salteador por aí, deve ter escutado uma versão bem diferente sobre mim. Mas enfim, vamos manter isso só entre nós por enquanto."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Bate-papo - Pontaria",
+      "text": "Quando se trata de aprimorar a pontaria, treinar com alvos e caçar de verdade são coisas completamente diferentes. E, claro, ainda há as habilidades que se adquirem em batalha... Isso já é outra história."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Bate-papo - Adoção",
+      "text": "Se um dia você quiser adotar um cachorrinho, é só falar comigo. Tenho de todas as raças, e sei que qualquer um deles estaria em boas mãos com você."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Bate-papo - Contabilidade",
+      "text": "Esse tanto aqui eu mando para casa, e este é para o pessoal do Rokot comprar remédios. Agora só preciso juntar o suficiente para a manutenção da arma... Heh, vamos ver qual bando de salteadores vai dar azar dessa vez..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Quando Está Chovendo...",
+      "text": "Meu capuz tá ficando ensopado... Ah, não, Tugarin! Não se sacuda!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Depois da Chuva...",
+      "text": "Agora é hora da presa sair da toca..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "Quando Está Trovejando...",
+      "text": "Clima perfeito para uma emboscada, se você tiver alguém em mente... Posso usar os trovões para abafar o som dos meus disparos."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Quando Está Nevando...",
+      "text": "Tsc, vai ser impossível rastrear qualquer coisa no meio disso tudo."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "A Ventania Está Chegando...",
+      "text": "Não dá pra usar capuz com um tempo desses..."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "No Deserto...",
+      "text": "Quem me dera poder soltar um pouco de pelo também..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Bom dia...",
+      "text": "Tá ouvindo? São os pássaros cantando na floresta, como fazem toda manhã... Bora lá atirar em alguns?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Boa Tarde...",
+      "text": "Eu costumo almoçar no meio do mato, mas não é bem algo que eu recomendaria."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Boa noite...",
+      "text": "Algumas das presas mais raras só saem da toca à noite."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Boa noite...",
+      "text": "Vá em frente e descanse. Ainda tenho coisas a fazer e preciso que sejam feitas sob a escuridão."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "Sobre Alyosha - Tugarin",
+      "text": "Quando encontrei o Tugarin pela primeira vez, o bichinho tinha sido abandonado na neve. Estava todo encolhido, sem conseguir nem se mexer. Mas ele é casca grossa. Dei umas salsichas para ele e, num piscar de olhos, já estava de pé, correndo em volta de mim. Não que eu tenha mantimentos de sobra para um animal de estimação, mas... o que é um caçador sem seu cão de caça?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "Sobre Alyosha - Rifle de Caça",
+      "text": "Meu pai me deu esse rifle de caça um tempo atrás, mas eu o modifiquei todinho desde então. Não importa se você achou, roubou ou comprou uma arma; ela pode ser a única coisa te separando da morte certa, e esse risco é constante. Eu arrisco a minha pele com ela, então preciso conhecê-la como a palma da minha mão, até a menor das peças. Claro que a manutenção e as modificações não saem barato. Se eu precisar pular umas refeições pra cobrir o custo, que seja..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "Sobre Nós - Caçadores e Aventureiros",
+      "text": "Diante de toda essa imensidão selvagem, um caçador dá meia-volta assim que abate sua presa, mas um aventureiro sempre quer dar um passo além. É por isso que é você quem tem uma lista quilométrica de feitos épicos, e não eu. Mas quer saber? Ouvir você contar todas essas suas aventuras de tirar o fôlego com certeza não é um jeito ruim de passar o tempo."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "Sobre Nós - Ideais",
+      "text": "Que tipo de nação você acha que Snezhnaya se tornará? Heh... Sabe, eu nunca perguntei isso para ninguém. Os aldeões estão muito ocupados se preocupando com a próxima refeição, e os salteadores só pensam no próximo golpe. Ninguém tem tempo para esse tipo de conversa. Mas você é a pessoa perfeita para isso. De qualquer forma, não precisamos trocar respostas agora. Ainda quero pensar mais um pouco no assunto. Afinal, acho que essa é só uma maneira diferente de perguntar qual \"ideal\" nós almejamos."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "Sobre a Visão...",
+      "text": "O pessoal vive dizendo que uma Visão representa os nossos desejos mais profundos. Mas esse sentimentalismo besta não significa absolutamente nada para mim. Só me importo com o que essa bugiganga pode fazer por mim. Se eu não tivesse descoberto que ela me deixa mais forte, já a teria trocado por Mora faz tempo."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Algo para Compartilhar...",
+      "text": "Quando você sai das rotas principais em Snezhnaya, manjar dos códigos locais é uma habilidade importante. Se trombar com certas criaturas feéricas ou salteadores, ter a lábia certa pode te poupar muita dor de cabeça. Ah, e se por acaso der de cara com um bando de gente resmungando sobre uma \"galinha\", pode \"depená-los\" sem dó. \"Galinha\" é o código para um civil inofensivo carregando poucos objetos de valor. Basicamente, um alvo fácil. O pessoal que vai atrás dessa gente é a escória da escória, mas eles não são páreo pra nós. Além do mais, considerando a ficha criminal deles, nem sonhariam em nos denunciar para o Druzhna, então vão ter que simplesmente engolir o choro."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Coisas Interessantes...",
+      "text": "Ouvi dizer que tem uma taverna em Mondstadt chamada Cauda do Gato, onde os maiores mestres do Chamado Sagrado dos Sete de todo Teyvat se reúnem pra duelar. Se um dia eu tiver a chance de viajar pra fora, lá vai ser minha primeira parada. Pena que Mondstadt fica tão longe daqui... *Suspiro* Por que Snezhnaya não tem um lugar assim?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "Sobre a Tsaritsa...",
+      "text": "Para mim, Vossa Majestade, a Tsaritsa, é como a neve que cobre esta terra. Ela traz um frio implacável que somos obrigados a suportar, mas também serve de escudo contra as ameaças mais sombrias deste mundo. Será que algum filho desta terra gélida viverá para ver o gelo derreter...? Eu me pergunto se a Tsaritsa algum dia nos concederá essa misericórdia..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "Sobre Odette",
+      "text": "Descobrir que a Odette faz parte dos Rokot me pegou totalmente de surpresa. Nunca imaginei que um membro dos Fatui fosse compartilhar dos nossos ideais... Mas, agora que vi que estava totalmente errado, começo a pensar que trazer as mudanças que queremos talvez não seja tão difícil quanto eu imaginava. Um futuro mais brilhante para esta nação ainda está ao nosso alcance."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "Sobre Vodyanitsa...",
+      "text": "A Vodyanitsa é uma fonte vital de inteligência para os Rokot. Sempre que vou até ela atrás de informações, ela quebra um galho enorme. Mas, quando o assunto não é trabalho, eu não entendo absolutamente nada do que ela tenta dizer. Já a Odette parece não ter esse problema. As duas se entendem como se fosse a coisa mais natural do mundo... Chego até a me perguntar se as garotas não têm algum tipo de código secreto..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "Sobre Valeriy...",
+      "text": "Na primeira vez que topei com o Valeriy, ele me barrou e me botou para correr do Arsenal do Palácio. Ficou recitando um artigo de um regulamento qualquer, dizendo que eu não podia me aproximar... Quer dizer, eu realmente estava andando de fininho, segurando um rifle de caça, então fiquei surpreso por ele não ter me prendido na mesma hora. Na real, eu já estava esperando ter que sair na mão com ele, mas, no fim das contas, consegui um contato novo no Arsenal. Nada mau, né? Sinceramente, a gente pensa de um jeito parecido em vários aspectos. Então, agora que deixamos nossos limites bem claros, é só ninguém passar da linha que a gente se dá superbem."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "Sobre Mitya...",
+      "text": "Eu nunca tive muito estudo formal, então achei que seria difícil me dar bem com alguém como o Mitya. Mas ele já modificou meu rifle mais de uma vez sem eu nem precisar pedir, então vi que estava esquentando a cabeça à toa. O Mitya é super de boa para conversar. Trato ele como qualquer outro vizinho e a gente se dá muito bem. Mas fica a dica... se ele começar a viajar naqueles papos de ciência, cai fora."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Mais sobre Alyosha - I",
+      "text": "Tentando arrancar meus segredos, hein? Beleza. Vou te contar um, mas vê se deixa baixo: ser um \"caçador\" é um disfarce muito útil."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Mais sobre Alyosha - II",
+      "text": "Uma vez me perguntaram se existe diferença entre apontar uma arma para um animal e para uma pessoa. Eu não respondi na hora, mas acredito piamente que sim. A questão é que, quanto mais tiros eu dou, mais tênue essa linha fica, e o ato de puxar o gatilho começa a parecer o mesmo, não importa quem esteja na minha mira... Por isso, não sinto o menor prazer em apontar minha arma para pessoas. Às vezes, me pergunto o que vai acontecer se um dia essa linha sumir de vez, e isso me apavora."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Mais sobre Alyosha - III",
+      "text": "Quando eu era criança, uma gangue de bandidos saqueou minha casa e roubou todos os meus pertences. Meus pais tentaram desconsiderar e dizer que estava tudo bem, mas eu sabia o que perder tudo significava para nossa família. Então, decidi fazer um bom uso de minhas habilidades como caçador e, pela primeira vez, meu alvo não foi um animal. Agora, o sangue deles está em minhas mãos e eu não me arrependo. Eles mereciam pagar pelo que fizeram. Mas, na verdade, eles eram tão pobres e desprovidos quanto nós, impulsionados ao desespero por circunstâncias que vão além do controle deles. Foi aí que percebi: bandidos e assaltantes não são o verdadeiro problema deste país e, se não conseguirmos descobrir qual é, o sangue nas minhas mãos estará lá por nada."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Mais sobre Alyosha - IV",
+      "text": "Decidi me juntar ao Rokot porque sinto que os princípios pelos quais lutamos são exatamente o que Snezhnaya precisa agora. Mas sei que, um dia, as coisas serão diferentes. Assim que alcançarmos o que tanto buscamos, muita coisa vai mudar, e é aí que o verdadeiro teste começa."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Mais sobre Alyosha - V",
+      "text": "Para mim, os realistas são as pessoas mais egocêntricas e oportunistas do mundo, sempre obcecadas por lucro, poder ou pelo que os outros possam estar escondendo. Os idealistas, por outro lado, talvez sejam os mais nobres entre nós. Não toleram mentiras, roubos ou a menor das injustiças. Mas, na verdade, existe um terceiro tipo de pessoa: o \"idealista realista\". Presos bem no meio disso tudo, eles vivem todos os dias em um eterno cabo de guerra, puxados em direções opostas."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Passatempos de Alyosha",
+      "text": "Modificar, fazer a manutenção e testar o meu rifle... Eu sempre achei que cuidar de armas de fogo fosse pura necessidade. Mas, pensando no tanto de tempo e Mora que eu invisto nisso, acho que é hora de admitir que acabou virando uma paixão."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Preocupações de Alyosha...",
+      "text": "Com certeza seria toda a Mora que eu gasto para modificar, fazer a manutenção e testar o meu rifle... Faça as contas e você logo vai perceber que as coisas que a gente mais ama na vida também são a fonte de todos os nossos problemas."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Comida Favorita...",
+      "text": "Carne curada, pão que dura bastante, queijo que derrete ao ser tostado... Com isso, só preciso de uma fogueira para ter sempre um banquete nas mãos, mesmo no meio do gelo e da neve."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Comida que Odeia...",
+      "text": "Qualquer coisa com casca. Caranguejos, lagostas... esse tipo de coisa. Custam os olhos da cara; você praticamente tem que brigar com as garras e espinhos só pra abrir e, depois de tudo isso, quase não tem carne lá dentro. Não vale nem o custo nem o esforço."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Recebendo Presentes — I",
+      "text": "Valeu, está delicioso... Isso dá pra ser guardado? Acho que vou terminar mais tarde."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Recebendo Presentes — II",
+      "text": "Hmm... Que tal eu te ajudar a conseguir uma carne de caça rara? Com ingredientes de primeira, isso aqui ficaria ainda melhor."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Recebendo Presentes — III",
+      "text": "...Bom, não dá pra desperdiçar comida. Tenho certeza de que algum morador da vila precisa mais disso do que eu."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Aniversário...",
+      "text": "Feliz aniversário. É hoje mesmo, né? Sabe, lá de onde eu venho, comemorar aniversários costuma ser um luxo que a gente não pode bancar. Boa sorte tentando arranjar farinha e creme suficientes para fazer um bolo, ou encontrar alguém vendendo algo além do básico para sobrevivência para dar de presente. Mas eu jamais julgaria uma criança por querer celebrar o próprio aniversário. É assim que deve ser, e espero que um dia nenhuma criança em Snezhnaya tenha que passar vontade. Por isso, decidi levar o seu aniversário muito a sério, e escolhi o seu presente e cartão com o maior carinho do mundo. Às vezes, a gente tem que ser a mudança que quer ver no mundo, né?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Introdução",
+      "text": "Aí sim. Sinto que a minha mira está mais precisa."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+      "text": "Tugarin também está cada vez melhor. Parece que estamos mais em sintonia."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Auge",
+      "text": "Para o bem ou para o mal, agora eu não erro mais nenhum tiro."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Conclusão",
+      "text": "Até onde mais precisamos ir para que o mundo pelo qual lutamos se torne realidade?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Habilidade Elemental - I",
+      "text": "Corre!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Habilidade Elemental - II",
+      "text": "Na mosca!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Habilidade Elemental - III",
+      "text": "Um já foi!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Habilidade Elemental - IV",
+      "text": "Pronto ou não..."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Habilidade Elemental - V",
+      "text": "Presa avistada."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Habilidade Elemental - VI",
+      "text": "Te peguei."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Supremo - I",
+      "text": "Aqui, garoto!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Supremo - II",
+      "text": "Pega, Tugarin!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Supremo - III",
+      "text": "É um mundo de cão!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - I",
+      "text": "Dê uma boa olhada. Não vai querer perder nadinha."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - II",
+      "text": "Algo que eu possa trocar por Mora?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - III",
+      "text": "Pega e corre. Antes que a gente seja seguido."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Vida Baixa - I",
+      "text": "O frio está me afetando..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Vida Baixa - II",
+      "text": "Eu deveria procurar abrigo..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Vida Baixa - III",
+      "text": "Pense só na conta do hospital..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Aliado com Vida Baixa - I",
+      "text": "Recuar! Eu te cubro!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Aliado com Vida Baixa - II",
+      "text": "Vai com calma. Eu acabo com eles."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Derrotado - I",
+      "text": "Meus dias de caça... chegaram ao fim..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Derrotado - II",
+      "text": "Tugarin, corra..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Derrotado - III",
+      "text": "Deveria ter sacado... mais rápido..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Ataque Leve Sofrido - I",
+      "text": "Espero que tenha valido a pena..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Ataque Leve Sofrido - II",
+      "text": "Só um arranhãozinho."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Ataque Pesado Sofrido - I",
+      "text": "Essa doeu..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Ataque Pesado Sofrido - II",
+      "text": "Essa foi roubada..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Entrando na Equipe - I",
+      "text": "Que a caçada comece."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Entrando na Equipe - II",
+      "text": "Tudo pronto por aqui."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Entrando na Equipe - III",
+      "text": "De olho na presa."
     }
   ]
 }

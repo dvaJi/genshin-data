@@ -7,7 +7,7 @@ export interface Weapon {
     description:    string;
     rarity:         number;
     type:           Type;
-    domain:         string;
+    domain?:        string;
     passive:        string;
     bonus:          string;
     specialProp?:   string;
@@ -20,8 +20,8 @@ export interface Weapon {
 export interface Ascension {
     ascension: number;
     level:     number;
-    cost:      number;
     materials: Material[];
+    cost?:     number;
 }
 
 export interface Material {

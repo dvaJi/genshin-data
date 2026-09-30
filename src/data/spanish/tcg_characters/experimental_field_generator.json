@@ -14,13 +14,22 @@
     "faction": [
       "Monstruo"
     ],
-    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Generador de Campo Experimental de los duelos tabernarios"
+    "talent_card": {
+      "_id": 10774,
+      "id": "gravity_field",
+      "name": "Gravity Field"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Generador de Campo Experimental de los duelos tabernarios",
+    "character": {
+      "id": "experimental_field_generator",
+      "name": "Experimental Field Generator"
+    }
   },
   "skills": [
     {
       "id": "gravity_application_crush",
       "name": "Aplicación gravitacional: Aplastamiento",
-      "desc": "Inflige 2 pts. de ?.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
       "skillTag": [
         "Ataque Normal"
       ],
@@ -42,7 +51,7 @@
     {
       "id": "gravity_application_point_null",
       "name": "Aplicación gravitacional: Contrarresto puntual",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span> y otorga 2 cargas de <span style=\"color:#FFFFFFFF\">cambio eficiente</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFE699FF\">Daño Geo</span> y otorga 2 cargas de <span style=\"color:#FFFFFFFF\">cambio eficiente</span>.",
       "skillTag": [
         "Habilidad Elemental"
       ],
@@ -58,7 +67,7 @@
     {
       "id": "gravity_application_field_reduction",
       "name": "Aplicación gravitacional: Campo de reducción",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>, y crea un <span style=\"color:#FFFFFFFF\">entorno de baja gravedad</span> y el efecto de <span style=\"color:#FFFFFFFF\">impacto explosivo</span>. En esta ronda, el próximo <span style=\"color:#FFFFFFFF\">Ataque Normal</span> de todos tus personajes en reserva consume 1 <span style=\"color:#FFFFFFFF\">dado indefinido</span> menos.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFE699FF\">Daño Geo</span>, y crea un <span style=\"color:#FFFFFFFF\">entorno de baja gravedad</span> y el efecto de <span style=\"color:#FFFFFFFF\">impacto explosivo</span>. En esta ronda, el próximo <span style=\"color:#FFFFFFFF\">Ataque Normal</span> de todos tus personajes en reserva consume 1 <span style=\"color:#FFFFFFFF\">dado indefinido</span> menos.",
       "skillTag": [
         "Habilidad Definitiva"
       ],

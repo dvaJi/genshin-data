@@ -1,0 +1,90 @@
+{
+  "_id": 1217,
+  "id": "columbina",
+  "shareId": 620,
+  "name": "Colombina",
+  "title": "Colombina - La Luna Celestial Retornante",
+  "desc": "Paloma blanca por la luna iluminada, ¿dónde está aquello que llamas “casa”?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Nod Krai"
+    ],
+    "source": "Se obtiene tras retar y ganar a Colombina en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "moondew_cascade",
+      "name": "Cascada rociolunar",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.<br/>Durante esta partida, cuando el enemigo haya recibido un total de 3 Reacciones Lunares, si en tu mano tienes alguna carta con <span style=\"color:#FFFFFFFF\">reducción de coste</span>, coloca 1 carta con <span style=\"color:#FFFFFFFF\">reducción de coste</span> aleatoria en la parte superior de tu mazo e inflige 1 pt. de <span style=\"color:#7EC236FF\">Daño Dendro</span> (1 vez por ronda).",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eternal_tides",
+      "name": "Mareas inmemoriales",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea un <span style=\"color:#FFFFFFFF\">oleaje gravitacional</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonlit_melancholy",
+      "name": "Nostalgia de la luz lunar",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea un <span style=\"color:#FFFFFFFF\">dominio lunar</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_moonlight_lent_unto_you",
+      "name": "Bendición presagiolunar: Yo te brindo mi luz",
+      "desc": "Pasiva: cuando los personajes enemigos se vean afectados por una reacción de <span style=\"color:#FFFFFFFF\">Electrocargado</span>/<span style=\"color:#FFFFFFFF\">Florecimiento</span>/<span style=\"color:#FFFFFFFF\">Cristalización Hydro</span> en esta partida, dicha reacción se convertirá en la reacción de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Electrocargado Lunar</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Florecimiento Lunar</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Cristalización Lunar</span></span>, respectivamente.<br/>Después de que los personajes enemigos se vean afectados por una reacción de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Electrocargado Lunar</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Florecimiento Lunar</span></span>/<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Cristalización Lunar</span></span>, inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>/<span style=\"color:#7EC236FF\">Daño Dendro</span>/<span style=\"color:#FFE699FF\">Daño Geo</span>, respectivamente (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

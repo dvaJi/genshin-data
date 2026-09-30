@@ -1,3 +1,31 @@
+## [0.63.0](https://github.com/dvaJi/genshin-data/compare/0.62.0...0.63.0) (2026-09-30)
+
+### Features
+
+- update genshin data v7.1
+- add `voices` (character voice lines) to every character
+
+### Fixes
+
+- restore the entire `furnishing` collection: a stale `nameTextMapHash` anchor on the
+  non-obfuscated `HomeWorldFurnitureExcelConfigData` made every name resolve to `undefined`,
+  so 0 of 2501 furnishings were emitted. Includes all 30 furnishings added in 7.1.
+- restore `dull_blade`: 28 dump rows share weapon `id` 11101, so the `id -> slug` lookup
+  resolved to a row with an unresolved EN textmap hash and the weapon was silently dropped.
+- reclassify 15 materials from `local_materials` to `common_materials`, matching the 7.x dump.
+- remove 3 stale duplicate-`_id` pairs left over from older generations (`food/consomme`,
+  `food/sour_sauce_kipper`, `geography/tower_piercing_at_the_sky`).
+
+### Features (tooling)
+
+- add `pnpm validate-data`: zod schema validation of `src/data/**` covering structure,
+  filename/id agreement, cross-language parity and `domains.json` referential integrity
+- add `pnpm check-changelog`: cross-checks the dataset against the yatta.moe changelog for a
+  given game version
+- add `pnpm sync-data`: safe import from format-genshindata's `readable/` (never deletes on
+  absence; `--prune` required to remove slugs)
+- run data validation in CI
+
 ## [0.56.0](https://github.com/dvaJi/genshin-data/compare/0.55.0...0.56.0) (2025-12-01)
 
 ### Features

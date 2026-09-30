@@ -11,7 +11,6 @@ export interface Bait {
 }
 
 export interface Craft {
-    cost:   number;
     items:  Fish[];
     result: number;
 }

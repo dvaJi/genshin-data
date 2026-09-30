@@ -6,9 +6,9 @@ export interface Furnishing {
     rarity:      number;
     name:        string;
     description: string;
-    load:        number;
-    energy:      number;
     category:    Category[];
+    load?:       number;
+    energy?:     number;
     exp?:        number;
     recipe?:     Recipe[];
 }
@@ -16,7 +16,7 @@ export interface Furnishing {
 export interface Category {
     id:       number;
     category: string;
-    type:     string;
+    type?:    string;
 }
 
 export interface Recipe {

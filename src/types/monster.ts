@@ -13,13 +13,13 @@ export interface Monster {
     categoryText:                string;
     filename_icon:               string;
     description:                 string;
-    aggroRange:                  string;
-    bgm:                         number;
-    budget:                      number;
+    bgm?:                        number;
+    budget?:                     number;
     stats:                       Stats;
     investigation?:              Investigation;
     filename_investigationIcon?: string;
     rewardPreviewId?:            number;
+    aggroRange?:                 string;
 }
 
 export interface Investigation {
@@ -46,9 +46,9 @@ export interface Stats {
 }
 
 export interface Base {
-    hp:      number;
-    attack:  number;
-    defense: number;
+    hp:       number;
+    attack:   number;
+    defense?: number;
 }
 
 export interface Curve {

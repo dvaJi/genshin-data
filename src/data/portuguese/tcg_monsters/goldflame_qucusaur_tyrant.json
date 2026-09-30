@@ -1,9 +1,10 @@
 {
   "_id": 4311,
   "id": "goldflame_qucusaur_tyrant",
-  "shareId": 4311,
+  "shareId": 557,
   "name": "Tirano Qucussauro da Chama Dourada",
-  "desc": "",
+  "title": "\"Pluma da Proclamação\", Tirano Qucussauro da Chama Dourada",
+  "desc": "Um Qucussauro cujo corpo atingiu uma forma sobrenatural por aguentar forças que os corpos dos Saurianos modernos não podem controlar.",
   "attributes": {
     "hp": 24,
     "card_type": "Carta de Personagem",
@@ -12,13 +13,23 @@
     "weapon": "Outras Armas",
     "faction": [
       "Monstro"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9462,
+      "id": "flamelords_blessing",
+      "name": "Flamelord's Blessing"
+    },
+    "source": "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com Tirano Qucussauro da Chama Dourada",
+    "character": {
+      "id": "goldflame_qucusaur_tyrant",
+      "name": "Goldflame Qucusaur Tyrant"
+    }
   },
   "skills": [
     {
       "id": "wingcleave",
       "name": "Corte de Asa",
-      "desc": "Causa 2 pontos de ?.",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de ?.",
       "skillTag": [
         "Ataque Normal"
       ],
@@ -40,7 +51,7 @@
     {
       "id": "rising_scorchwind",
       "name": "Vapor Ascendente",
-      "desc": "Causa 1 ponto de <span style=\"color:#FF9999FF\">Dano Pyro</span> e aplica 2 acúmulos de <span style=\"color:#FFFFFFFF\">Redemoinho Voador</span> a si.",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FF9999FF\">Dano Pyro</span> e aplica 2 acúmulos de <span style=\"color:#FFFFFFFF\">Redemoinho Voador</span> a si.",
       "skillTag": [
         "Habilidade Elemental"
       ],
@@ -56,7 +67,7 @@
     {
       "id": "goldflame_detonation",
       "name": "Explosão da Chama Dourada",
-      "desc": "Causa 3 pontos de <span style=\"color:#FF9999FF\">Dano Pyro</span> e causa 1 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a todos os personagens adversários fora de combate. Aplica 1 acúmulo de <span style=\"color:#FFFFFFFF\">Estado da Chama Dourada</span> a si.",
+      "desc": "Causa ? {PLURAL#$[D__KEY__DAMAGE|nc]|ponto|pontos} de <span style=\"color:#FF9999FF\">Dano Pyro</span> e causa 1 de <span style=\"color:#FFFFFFFF\">Dano Perfurante</span> a todos os personagens adversários fora de combate. Aplica 1 acúmulo de <span style=\"color:#FFFFFFFF\">Estado da Chama Dourada</span> a si.",
       "skillTag": [
         "Supremo"
       ],

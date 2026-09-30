@@ -57,3 +57,13 @@ jobs:
         run: pnpm build
         env:
           NODE_OPTIONS: --max_old_space_size=8192
+
+      - name: Validate data
+        run: pnpm validate-data
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+
+      - name: Test
+        run: pnpm vitest run
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192

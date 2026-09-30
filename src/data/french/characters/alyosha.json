@@ -339,7 +339,7 @@
       "_id": 11485,
       "id": "hunters_advance",
       "name": "Avancée du broussailleur",
-      "description": "Alyosha invoque <span style=\"color:#FFD780FF\">Tugarin</span>, son partenaire de confiance, pour combattre à ses côtés et transforme temporairement la zone en avant en <span style=\"color:#FFD780FF\">terrain de chasse de fulgurite</span>.<br/><br/><span style=\"color:#FFD780FF\">Terrain de chasse de fulgurite</span><br/>· Nargue de façon continue les ennemis proches, attirant leurs attaques.<br/>· Toutes les 2 s, inflige une instance de <span style=\"color:#FFACFFFF\">DGT Électro de zone</span> aux ennemis à l'intérieur.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>· Si des ennemis sont à proximité, Tugarin se rapproche rapidement de l'un d'eux toutes les 2 s afin de le mordre et d'infliger des <span style=\"color:#FFD780FF\">DGT Électro</span>.<br/>· Toucher un ennemi affecté par une <span style=\"color:#FFD780FF\">marque de broussailleur</span> active la <span style=\"color:#FFD780FF\">marque de broussailleur</span>.<br/>· Tugari attaque en priorité les ennemis affectés par une <span style=\"color:#FFD780FF\">marque de broussailleur</span>.",
+      "description": "Alyosha invoque <span style=\"color:#FFD780FF\">Tugarin</span>, son partenaire de confiance, pour combattre à ses côtés et transforme temporairement la zone en avant en <span style=\"color:#FFD780FF\">terrain de chasse de fulgurite</span>.<br/><br/><span style=\"color:#FFD780FF\">Terrain de chasse de fulgurite</span><br/>· Nargue de façon continue les ennemis proches, attirant leurs attaques.<br/>· Toutes les 2 s, inflige une instance de <span style=\"color:#FFACFFFF\">DGT Électro de zone</span> aux ennemis à l'intérieur.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>· Si des ennemis sont à proximité, Tugarin se rapproche rapidement de l'un d'eux toutes les 2 s afin de le mordre et d'infliger des <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>· Toucher un ennemi affecté par une <span style=\"color:#FFD780FF\">marque de broussailleur</span> active la <span style=\"color:#FFD780FF\">marque de broussailleur</span>.<br/>· Tugarin attaque en priorité les ennemis affectés par une <span style=\"color:#FFD780FF\">marque de broussailleur</span>.",
       "info": "Patientez. Continuez de patienter jusqu'à ce que l'impatience s'estompe. C'est alors que le pluvier à ventre roux traversera le bosquet de bouleaux et se présentera devant votre flèche.",
       "attributes": [
         {
@@ -467,7 +467,7 @@
     {
       "id": "treetop_watch",
       "name": "Observation des cimes",
-      "description": "Affiche l'emplacement des <span style=\"color:#FFD780FF\">produits de Snezhnaya</span> sur la mini-carte.",
+      "description": "Affiche l'emplacement des <span style=\"color:#FFD780FF\">produits de Snezhnaya</span> sur la mini-carte, cet effet s'appliquant également dans les royaumes de pénombre.",
       "level": 0
     }
   ],
@@ -1242,12 +1242,434 @@
     {
       "id": 214800,
       "name": "Embusqueur sous le givre",
-      "description": "Tenue d'Alyosha. Tenue de chasse robuste avec une épaisse sous-couche et un chapeau à bordure en peluche, elle permet à Alyosha de rester longtemps dissimulé dans la neige jusqu'à ce qu'il attrape sa proie. Quant à la forme du chapeau, qui rappelle celle d'une tête de chiot, c'est tout simplement parce qu'il est mignon. Et Tugarin l'adore, en plus !",
+      "description": "Tenue d'Alyosha. Tenue de chasse robuste avec une épaisse sous-couche et une capuche à bordure en peluche, elle permet à Alyosha de rester longtemps dissimulé dans la neige jusqu'à ce qu'il attrape sa proie. Quant à la forme de la capuche, qui rappelle celle d'une tête de chiot, c'est tout simplement parce que c'est mignon. Et Tugarin l'adore, en plus !",
       "isDefault": true,
       "characterName": "Alyosha",
       "characterId": 10000148,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Alyosha_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Première rencontre...",
+      "text": "Bonjour, je m'appelle Alyosha. Je suis chasseur, mais si tu as discuté avec des brigands, tu as peut-être entendu une autre version de mon histoire. Quoi qu'il en soit, gardons ça entre nous pour l'instant."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Bavardage - Art de la lance",
+      "text": "Quand il s'agit d'affiner sa précision au tir, viser des cibles d'entraînement et chasser en situation réelle sont deux exercices complètement différents. À cela s'ajoutent bien sûr les compétences acquises au combat... mais c'est une tout autre histoire."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Bavardage - Adoption",
+      "text": "Si jamais tu veux adopter un chien, viens me voir. J'ai toutes sortes de races, et je sais qu'avec toi, ils seraient entre de bonnes mains."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Bavardage - Faire les comptes",
+      "text": "Cette somme repart à la maison, et ça, c'est pour que la Rokot achète des médicaments. Il me reste juste à trouver de quoi entretenir mon arme... Héhé, voyons voir quelle bande de brigands va avoir la poisse cette fois..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Quand il pleut...",
+      "text": "#Ma capuche est trempée... Oh non, Tugarin{NON_BREAK_SPACE}! Ne t'ébroue pas !"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Après la pluie...",
+      "text": "Il est temps pour la proie de sortir de sa cachette..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "Quand le tonnerre gronde...",
+      "text": "Un temps parfait pour une embuscade, si tu as quelqu'un en tête... Je peux utiliser le bruit du tonnerre pour couvrir mes coups de feu."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Quand il neige...",
+      "text": "Tss, impossible de traquer quoi que ce soit dans ces conditions."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "Le vent souffle fort...",
+      "text": "Pas de capuche par ce temps..."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "Dans le désert...",
+      "text": "J'aimerais bien perdre un peu de fourrure moi aussi..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Au réveil...",
+      "text": "Tu entends ça ? Ce sont les oiseaux qui pépient dans les bois, comme chaque matin... Et si on en abattait quelques-uns ?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "À l'heure du déjeuner...",
+      "text": "En général, je mange dehors en pleine nature, mais je ne te le conseillerais pas vraiment."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Le soir...",
+      "text": "Certaines des proies les plus rares ne sortent que la nuit."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "La nuit...",
+      "text": "Va te reposer. J'ai encore des choses à faire, et j'ai besoin de la nuit pour me couvrir."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "À propos d'Alyosha - Tugarin",
+      "text": "Quand je l'ai trouvé par hasard, le petit Tugarin avait été abandonné dans la neige. Il était recroquevillé en boule et ne pouvait même plus bouger. Mais c'est un sacré costaud. Je lui ai donné quelques saucisses, et en un rien de temps il était debout, à tourner en rond autour de moi. Ce n'est pas comme si j'avais des provisions à partager avec un animal de compagnie, mais... Qu'est-ce qu'un chasseur sans son chien ?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "À propos d'Alyosha - Fusil de chasse",
+      "text": "Mon père m'a donné ce fusil de chasse il y a bien longtemps, mais je l'ai entièrement transformé depuis. Qu'une arme soit récupérée, volée ou achetée, elle peut être la seule chose qui vous sépare d'une mort certaine, et c'est toujours un risque. Je mets ma vie en jeu avec ce fusil, je dois donc le connaître sur le bout des doigts, jusque dans ses moindres détails. Bien sûr, l'entretien et les modifications ont un coût. S'il faut sauter quelques repas pour payer la facture, tant pis..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "À propos de nous - Chasseurs et aventuriers",
+      "text": "Face à l'immensité sauvage qui s'étend devant lui, un chasseur rentre chez lui dès qu'il a attrapé sa proie. Mais un aventurier, lui, va toujours un peu plus loin. C'est pour ça que c'est toi qui as une liste d'exploits épiques longue comme le bras, et pas moi. Cela dit, t'écouter raconter toutes tes aventures palpitantes, ce n'est vraiment pas une mauvaise façon de passer le temps."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "À propos de nous - Idéaux",
+      "text": "À ton avis, quel genre de nation deviendra Snezhnaya ? Héhé... Tu sais, je n'ai jamais posé cette question à personne. Les villageois sont trop occupés à se demander d'où viendra leur prochain repas, et les brigands sont trop absorbés par leur prochaine arnaque. Personne n'a le temps de s'attarder sur ce genre de discussion. Mais toi, tu es la personne idéale à qui la poser. On n'est pas obligés d'échanger nos réponses maintenant, cela dit. Je veux encore y réfléchir. Après tout, c'est juste une autre façon de se demander quel « idéal » on cherche à atteindre."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "À propos de l'œil divin...",
+      "text": "On dit souvent qu'un œil divin est censé représenter ses désirs les plus profonds. Mais ce genre de pensée creuse et sans intérêt n'a absolument aucun sens pour moi. Tout ce qui m'importe, c'est ce que ce bibelot peut faire pour moi. Si je n'avais jamais découvert qu'il me rendait plus puissant, je l'aurais probablement déjà échangé contre des moras."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "#Quelque chose à partager{NON_BREAK_SPACE}?",
+      "text": "Quand on s'aventure hors des sentiers battus à Snezhnaya, connaître le langage local est une compétence précieuse. Si tu tombes sur certains nivéoles ou des brigands, savoir parler leur langue peut t'éviter bien des ennuis. Oh, et si jamais tu croises un groupe de gens qui ne cessent de marmonner « volaille », vas-y et détrousse-les sans vergogne. « Volaille » est le mot de code pour désigner un civil sans histoire qui transporte un peu d'objets de valeur. En gros, une cible facile. Ceux qui s'en prennent à eux sont les pires des pires, mais ils ne font pas le poids face à nous. Et puis, vu leur propre casier judiciaire, ils n'oseraient même pas nous dénoncer à la Druzhna, ils n'ont donc d'autre choix que de se résigner."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Détails intéressants...",
+      "text": "J'ai entendu dire qu'il y a une taverne à Mondstadt qui s'appelle La Queue du Chat, où des maîtres de l'Invocation des Sept de tout Teyvat se retrouvent pour s'affronter. Si jamais j'ai l'occasion de voyager à l'étranger, c'est le premier endroit où je veux aller. Dommage que Mondstadt soit si loin d'ici... *soupir* Pourquoi n'y a-t-il pas un endroit comme ça à Snezhnaya ?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "À propos de la Tsarine...",
+      "text": "Pour moi, Sa Majesté la Tsarine est comme la neige qui recouvre ces terres. Elle apporte un froid mordant que nous n'avons d'autre choix que d'endurer, mais elle nous protège aussi des choses bien plus sombres en ce monde. Les enfants de cette contrée gelée pourront-ils jamais la voir se réchauffer...? Je me demande vraiment si la Tsarine accordera un jour cette grâce..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "À propos d'Odette...",
+      "text": "Apprendre qu'Odette faisait partie de la Rokot m'a vraiment surpris. Je n'aurais jamais imaginé qu'une membre des Fatui puisse partager nos principes... Mais maintenant que j'ai eu tort, je commence à penser que les changements que nous voulons voir ne seront peut-être pas aussi difficiles à accomplir que je le croyais. Un avenir meilleur pour cette nation est encore à notre portée."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "À propos de Vodyanitsa...",
+      "text": "Vodyanitsa est une source de renseignements indispensable pour la Rokot. Chaque fois que je la consulte pour obtenir des informations, elle m'aide énormément. Mais quand on ne parle pas boulot, j'ai du mal à saisir la moitié de ce qu'elle veut dire. Odette, elle, n'a pas l'air d'avoir ce problème. Ces deux-là s'entendent à merveille, comme si leur complicité était une évidence... Ça me fait me demander si les filles ont un genre de code secret entre elles..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "À propos de Valeriy...",
+      "text": "La première fois que j'ai rencontré Valeriy, il m'a barré la route et m'a empêché d'entrer au Palais de l'armurerie, en me citant je ne sais quel article d'un règlement quelconque qui m'interdisait d'approcher... Enfin, j'étais en train de rôder avec un fusil de chasse quand même, alors j'étais surpris qu'il ne m'ait pas arrêté sur-le-champ. En fait, je m'attendais à devoir me battre contre lui, mais au lieu de ça, j'ai gagné un nouveau contact au Palais de l'armurerie. Pas mal comme rebondissement. Honnêtement, on se ressemble beaucoup dans notre façon de penser. Alors maintenant qu'on a établi une limite claire, tant qu'elle n'est pas franchie, on s'entend très bien."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "À propos de Mitya...",
+      "text": "Je n'ai jamais vraiment suivi de scolarité officielle, alors je pensais que j'aurais du mal à m'entendre avec quelqu'un comme Mitya. Mais il m'a aidé à modifier mon fusil plus d'une fois, sans même que j'aie à le lui demander, donc visiblement, je m'inquiétais pour rien. On peut facilement discuter avec Mitya. Je le traite simplement comme n'importe quel autre voisin, et tout se passe bien. Un petit conseil quand même... S'il se lance dans l'une de ses tirades scientifiques, mieux vaut rester à l'écart."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Connaître Alyosha (1)",
+      "text": "Tu veux que je te dévoile mes secrets, hein ? Très bien. Tu en auras un, mais un seul : être un « chasseur », c'est un déguisement très pratique."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Connaître Alyosha (2)",
+      "text": "Quelqu'un m'a demandé un jour s'il y avait une différence entre braquer une arme sur un animal ou sur une personne. Je n'ai pas répondu à l'époque, mais je suis convaincu qu'il y en a une. Seulement, plus je tire, plus cette frontière s'efface, et plus le geste d'appuyer sur la gâchette commence à me sembler identique, peu importe ma cible... Alors non, je ne prends aucun plaisir à pointer mon arme sur des gens. Parfois, je me demande ce qui arrivera si cette frontière disparaît un jour... et ça me fait peur."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Connaître Alyosha (3)",
+      "text": "Quand j'étais petit, une bande de voyous a saccagé notre maison et volé tout ce qu'on avait. Mes parents ont essayé de minimiser les choses, de me dire qu'on s'en sortirait, mais je savais ce que ça voulait dire pour notre famille de tout perdre. Alors j'ai décidé de mettre mes talents de chasseur à profit, et pour la première fois, ma cible n'était pas un animal. Aujourd'hui, j'ai leur sang sur mes mains, et je n'ai aucun regret. Ils ont eu ce qu'ils méritaient. Sauf qu'en fin de compte, ils étaient aussi pauvres et démunis que nous, poussés à bout par des circonstances qui les dépassaient. C'est là que j'ai compris : les voyous et les voleurs ne sont pas le vrai problème de cette nation. Et si on n'arrive pas à mettre le doigt dessus, ce sang qui tache mes mains n'aura servi à rien."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Connaître Alyosha (4)",
+      "text": "J'ai décidé de rejoindre la Rokot parce que je pense que les principes pour lesquels nous nous battons sont exactement ce dont Snezhnaya a besoin en ce moment. Mais je sais qu'un jour, ce ne sera plus le cas. Une fois qu'on aura obtenu ce pour quoi on s'est battus, beaucoup de choses changeront, et c'est là que le vrai défi commencera."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Connaître Alyosha (5)",
+      "text": "À mes yeux, les réalistes sont parmi les personnes les plus égoïstes et opportunistes qui soient, toujours obsédées par le profit, le pouvoir, ou ce que les gens autour d'eux pourraient bien cacher. Les idéalistes, en revanche, comptent peut-être parmi les plus nobles d'entre nous. Aucune tolérance pour le mensonge, le vol ou la moindre injustice. Il existe en réalité un troisième type de personne : « l'idéaliste réaliste ». Pris entre deux feux, ces gens vivent chaque jour tiraillés dans des directions opposées."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Les loisirs d'Alyosha...",
+      "text": "Modifier, entretenir et tester mon fusil... J'avais l'habitude de penser que l'entretien des armes à feu était juste une nécessité. Mais vu le temps et les moras que j'y consacre, je suppose qu'il est temps d'admettre que c'est devenu une vraie passion, aussi."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Les problèmes d'Alyosha...",
+      "text": "Je dirais qu'il s'agit de tous les moras que je dépense pour modifier, entretenir et tester mon fusil... Si on fait le calcul, on se rend compte que les choses qu'on aime le plus dans la vie sont aussi la source de tous nos problèmes."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Plats préférés...",
+      "text": "Viande séchée, pain de longue conservation, fromage fondant... Avec ces ingrédients-là, il me suffit d'un feu, et j'ai toujours un festin à portée de main, même entouré de glace et de neige."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Plats détestés..",
+      "text": "Tout ce qui a une carapace. Les crabes, les homards... ce genre de trucs. Ça coûte les yeux de la tête, il faut presque se bagarrer avec leurs pinces et leurs piquants juste pour les ouvrir, et après tout ça, il y a à peine un peu de chair à l'intérieur. Ça ne vaut ni le coût ni l'effort."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Cadeau reçu (1)",
+      "text": "#Merci, c'est délicieux... Ça se conserve bien{NON_BREAK_SPACE}? Je crois que je finirai ça plus tard."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Cadeau reçu (2)",
+      "text": "Hmm... Et si je t'aidais à mettre la main sur du gibier rare ? Avec des ingrédients de meilleure qualité, ce serait encore mieux."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Cadeau reçu (3)",
+      "text": "... Bon, il ne faut pas gaspiller la nourriture. Je suis sûr qu'il y a un villageois qui en a plus besoin que moi."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Anniversaire...",
+      "text": "Joyeux anniversaire. C'est bien aujourd'hui, non ? Tu sais, là d'où je viens, fêter son anniversaire est souvent un luxe qu'on ne peut pas se permettre. Bonne chance pour dénicher assez de farine et de crème pour un gâteau, ou pour trouver quelqu'un qui vende autre chose que le strict nécessaire à offrir en cadeau. Mais je ne reprocherai jamais à un enfant de vouloir fêter son anniversaire. C'est comme ça que ça devrait être, et j'espère qu'un jour, aucun enfant à Snezhnaya n'aura à y renoncer. Alors, j'ai décidé de prendre ton anniversaire très au sérieux, et j'ai longuement réfléchi au cadeau et à la carte que je t'ai préparés. Parfois, il faut incarner le changement qu'on veut voir dans le monde, tu ne penses pas ?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Affinité faible",
+      "text": "Génial. J'ai l'impression que ma précision s'est améliorée."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Affinité moyenne",
+      "text": "Tugarin s'améliore aussi. On dirait qu'on est plus sur la même longueur d'onde."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Affinité élevée",
+      "text": "Que ce soit pour le meilleur ou pour le pire, mes tirs ne rateront plus leur cible maintenant."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Affinité max",
+      "text": "Jusqu'où devrons-nous aller encore avant que le monde pour lequel nous nous battons devienne réalité ?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Compétence élémentaire (1)",
+      "text": "Feu !"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Compétence élémentaire (2)",
+      "text": "Dans le mille !"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Compétence élémentaire (3)",
+      "text": "Un de moins !"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Compétence élémentaire (4)",
+      "text": "Prêt ou pas..."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Compétence élémentaire (5)",
+      "text": "Proie repérée."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Compétence élémentaire (6)",
+      "text": "Je te tiens."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Déchaînement élémentaire (1)",
+      "text": "Tiens, mon toutou !"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Déchaînement élémentaire (2)",
+      "text": "Tugarin, va chercher !"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Déchaînement élémentaire (3)",
+      "text": "C'est à qui aura le plus de flair !"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Ouverture de coffre (1)",
+      "text": "Regarde bien. Tu ne veux pas rater ça."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Ouverture de coffre (2)",
+      "text": "Des choses à troquer contre des moras ?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Ouverture de coffre (3)",
+      "text": "Prends ça et filons. Avant qu'on nous suive."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "PV faibles (1)",
+      "text": "Le froid commence à me peser..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "PV faibles (2)",
+      "text": "Je devrais trouver un abri..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "PV faibles (3)",
+      "text": "Il faut penser aux frais médicaux..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Compagnon avec PV faibles (1)",
+      "text": "On se replie ! Je te couvre !"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Compagnon avec PV faibles (2)",
+      "text": "Tranquille. Je vais les finir."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "K.O. (1)",
+      "text": "Ma carrière de chasseur... est terminée..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "K.O. (2)",
+      "text": "Tugarin, cours..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "K.O. (3)",
+      "text": "J'aurais dû dégainer... plus vite..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Attaque légère subie (1)",
+      "text": "J'espère que ça en valait la peine..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Attaque légère subie (2)",
+      "text": "Ça m'a à peine effleuré."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Attaque puissante subie (1)",
+      "text": "Ça fait mal..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Attaque puissante subie (2)",
+      "text": "Quel coup bas..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Ajout dans l'équipe (1)",
+      "text": "Que la chasse commence."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Ajout dans l'équipe (2)",
+      "text": "Tout est prêt."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Ajout dans l'équipe (3)",
+      "text": "Les yeux rivés sur l'objectif."
     }
   ]
 }

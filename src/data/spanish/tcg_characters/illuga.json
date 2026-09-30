@@ -1,0 +1,90 @@
+{
+  "_id": 1612,
+  "id": "illuga",
+  "shareId": 621,
+  "name": "Illuga",
+  "title": "Illuga - El Corazón Ardiente de la Pesadilla",
+  "desc": "La luz que ilumina la oscuridad de la noche da paso al amanecer.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Lanza",
+    "faction": [
+      "Nod Krai"
+    ],
+    "source": "Se obtiene tras retar y ganar a Illuga en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "oathkeepers_spear",
+      "name": "Lanza del juramento",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "dawnbearing_songbird",
+      "name": "Ruiseñor del amanecer",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFE699FF\">Daño Geo</span> y crea una carta de <span style=\"color:#FFFFFFFF\">Aedón</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "shadowless_reflection",
+      "name": "Reflejo sin sombra",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#FFE699FF\">Daño Geo</span> y crea un <span style=\"color:#FFFFFFFF\">canto del ruiseñor</span> con 3 usos.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "_id": 1106,
+          "id": "geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_unwithering_in_winter",
+      "name": "Bendición presagiolunar: Invierno perenne",
+      "desc": "Pasiva: cuando se añade una carta cuyo nombre no estaba en el mazo inicial a tu mano, le aplica una <span style=\"color:#FFFFFFFF\">reducción de coste</span> (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "_id": 1217,
+  "id": "columbina",
+  "shareId": 620,
+  "name": "Columbina",
+  "title": "Heimkehr des leeren Mondes – Columbina",
+  "desc": "Wo findet die weiße Taube unter dem Mond ihr Zuhause?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": [
+      "Nod-Krai"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Columbina in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "moondew_cascade",
+      "name": "Mondtau-Kaskade",
+      "desc": "Verursacht ? Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.<br/>Wählt, nachdem der Gegner insgesamt 3-mal Mondleuchten-Reaktionen erlitten hat und sich mind. 1 von <span style=\"color:#FFFFFFFF\">Kostenverringerung</span> betroffene Karte auf deiner Hand befindet, eine zufällige von <span style=\"color:#FFFFFFFF\">Kostenverringerung</span> betroffene Karte aus, legt sie oben auf deinen Stapel und verursacht danach nochmal 1 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "_id": 1109,
+          "id": "unaligned_element",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "eternal_tides",
+      "name": "Ewige Gezeiten",
+      "desc": "Verursacht ? Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Gravitationswelle</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonlit_melancholy",
+      "name": "Melancholie unterm Mond",
+      "desc": "Verursacht ? Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Mondgebiet</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "_id": 1102,
+          "id": "hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "_id": 1110,
+          "id": "energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "moonsign_benediction_moonlight_lent_unto_you",
+      "name": "Mondomen-Segen – Geliehenes Mondlicht",
+      "desc": "Passiv – Wandelt, wenn in dieser Partie die gegnerische Seite die <span style=\"color:#FFFFFFFF\">Reaktion Unter Strom</span> / <span style=\"color:#FFFFFFFF\">Sprießen</span> oder <span style=\"color:#FFFFFFFF\">Kristallisation (Hydro)</span> erleidet, diese in <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mond unter Strom</span></span> / <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mondspross</span></span> oder <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mond-Kristallisation</span></span> um.<br/>Verursacht, nachdem die gegnerische Seite die Reaktion <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mond unter Strom</span></span> / <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mondspross</span></span> oder <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Mond-Kristallisation</span></span> erlitten hat, 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-Schaden</span> / <span style=\"color:#7EC236FF\">Dendro-Schaden</span> oder <span style=\"color:#FFE699FF\">Geo-Schaden</span> (1-mal pro Runde).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ]
+}

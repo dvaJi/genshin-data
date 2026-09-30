@@ -124,7 +124,7 @@ export default class GenshinData {
    * @returns The current game version. 
    */
   getGameVersion(): string {
-    return '7.0';
+    return '7.1';
   }
 
   private async findByFolder<T>(

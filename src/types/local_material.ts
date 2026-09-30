@@ -6,6 +6,5 @@ export interface LocalMaterial {
     name:        string;
     description: string;
     source:      string[];
-    location?:   string;
-    rarity?:     number;
+    location:    string;
 }

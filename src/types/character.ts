@@ -14,7 +14,7 @@ export interface Character {
     affiliation:      string;
     region:           Element;
     rarity:           number;
-    birthday:         number[];
+    birthday:         Array<number | null>;
     constellation:    string;
     domain:           string;
     cv:               Cv;
@@ -24,6 +24,7 @@ export interface Character {
     ascension:        Ascension[];
     talent_materials: TalentMaterial[];
     outfits:          Outfit[];
+    voices:           Voice[];
 }
 
 export interface Ascension {
@@ -65,8 +66,8 @@ export interface Cv {
 }
 
 export interface Element {
-    id:    string;
-    name?: string;
+    id:   string;
+    name: string;
 }
 
 export interface Outfit {
@@ -102,4 +103,11 @@ export interface TalentMaterial {
     level: number;
     cost:  number;
     items: Mat1[];
+}
+
+export interface Voice {
+    id:    string;
+    type:  number;
+    title: string;
+    text:  string;
 }

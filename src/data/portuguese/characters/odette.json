@@ -230,7 +230,7 @@
       "_id": 11502,
       "id": "adagio_phantom_night_dancers",
       "name": "Dança Lenta: Transe da Noite Fantasma",
-      "description": "Com passos de dança lentos e graciosos, causa <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span> e invoca <b><span style=\"color:#FFD780FF\">Sombra Dançarina</span></b> ao seu lado.<br/>Se já houver uma <span style=\"color:#FFD780FF\">Sombra Dançarina</span> invocada por Odette em campo, invoca novamente e redefine sua duração.<br/><br/><span style=\"color:#FFD780FF\">Sombra Dançarina</span><br/>Alterna entre os passos de dança <span style=\"color:#FFD780FF\">Pluma</span> e <span style=\"color:#FFD780FF\">Asa</span>, atacando os inimigos próximos periodicamente com passos de dança graciosos, causando <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span>.<br/>Além disso, nos 6s após lançar a Habilidade Elemental <span style=\"color:#FFD780FF\">Dança Lenta: Transe da Noite Fantasma</span>, a Habilidade Elemental <span style=\"color:#FFD780FF\">Dança Lenta: Transe da Noite Fantasma</span> de Odette será substituída pela Habilidade Elemental especial <b><color=#FFD780FF>Dança Lenta: Final da Alvorada</b></color><b></b>, fazendo uma valsa contra os inimigos próximos, causando continuamente <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span>, e quando a valsa acabar, causa uma instância de <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span> que é considerado Dano de Supercondutor Estelar ou Redemoinho Estelar.",
+      "description": "Com passos de dança lentos e graciosos, causa <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span> e invoca <b><span style=\"color:#FFD780FF\">Sombra Dançarina</span></b> ao seu lado.<br/>Se já houver uma <span style=\"color:#FFD780FF\">Sombra Dançarina</span> invocada por Odette em campo, invoca novamente e redefine sua duração.<br/><br/><span style=\"color:#FFD780FF\">Sombra Dançarina</span><br/>Alterna entre os passos de dança <span style=\"color:#FFD780FF\">Pluma</span> e <span style=\"color:#FFD780FF\">Asa</span>, atacando os inimigos próximos periodicamente com passos de dança graciosos, causando <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span>.<br/>Além disso, nos 6s após lançar a Habilidade Elemental <span style=\"color:#FFD780FF\">Dança Lenta: Transe da Noite Fantasma</span>, a Habilidade Elemental <span style=\"color:#FFD780FF\">Dança Lenta: Transe da Noite Fantasma</span> de Odette será substituída pela Habilidade Elemental especial <b><span style=\"color:#FFD780FF\">Dança Lenta: Final da Alvorada</span></b><b></b>, fazendo uma valsa contra os inimigos próximos, causando continuamente <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span>, e quando a valsa acabar, causa uma instância de <span style=\"color:#99FFFFFF\">Dano Cryo em AdE</span> que é considerado Dano de Supercondutor Estelar ou Redemoinho Estelar.",
       "info": "",
       "attributes": [
         {
@@ -607,7 +607,7 @@
     {
       "id": "echo_of_winter_daydreams",
       "name": "Eco de um Sonho de Inverno",
-      "description": "Mostra a localização de <span style=\"color:#FFD780FF\">Especialidades de Snezhnaya</span> próximas no mapa.<br/>Ao praticar sua dança no tempo livre, talvez possa ter algum outro efeito...",
+      "description": "Exibe a localização das <span style=\"color:#FFD780FF\">Especialidades Locais de Snezhnaya</span> no minimapa. Esse efeito também se aplica ao Reino das Sombras.<br/>Praticar dança nas horas vagas pode até ativar outros efeitos...",
       "level": 0
     }
   ],
@@ -1388,6 +1388,464 @@
       "characterId": 10000150,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Odette_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Olá...",
+      "text": "...Agradeço por todo o apoio. Você quer um autógrafo, né? O que quer que eu desenhe em seguida? Que tal uma pena? Oh, espera, você não é um de meus fãs? Acho que entendi mal. Deixe-me começar do começo. Sou Odette, uma bailarina da Companhia Korolevskiy... Bem, obrigada pelo apoio mesmo assim."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Bate-papo - Ocupada",
+      "text": "Bem, se isso é tudo, irei ensaiar."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Bate-papo - Manter a Simplicidade",
+      "text": "Se uma simples resposta basta, por que gastar fôlego com algo mais longo?"
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Bate-papo - Hora",
+      "text": "Se pelo menos tivesse o dobro de horas em um dia... Na verdade, o triplo."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Quando Está Chovendo...",
+      "text": "O barulhinho das gotas de chuva sempre me faz sentir tão em paz. Esse tipo de clima é perfeito para dançar sozinha."
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Depois da Chuva...",
+      "text": "Os momentos mais bonitos e serenos são sempre os mais passageiros."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Quando Está Nevando...",
+      "text": "A neve em Snezhnaya sempre é absurdamente fria, e parece nunca terminar."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "A Ventania Está Chegando...",
+      "text": "Meu cabelo... consertarei depois."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "No Deserto...",
+      "text": "...Pelo menos não haveria um encontro com os fãs em um lugar como esse."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Bom dia...",
+      "text": "Estou aquecida e pronta para ir."
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Boa Tarde...",
+      "text": "Não sou de tirar cochilos. O entardecer também não é um momento adequado para treinar, então eu normalmente passo esse tempo lendo os roteiros para nossas danças. Hm? E quanto a essas cartas? Elas são de meus fãs. Vodyanitsa praticamente forçou-as em minhas mãos. Ela quer que eu finalmente as leia."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Boa noite...",
+      "text": "Oh, está na hora do jantar? Terei que subir ao palco em breve, então vou comer apenas um ovo cozido. Pegarei algo quando o show tiver terminado."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Boa noite...",
+      "text": "...Missões concluídas, cota de treinamento atingida, rotina nova totalmente ensaiada. Mas não estou satisfeita com minhas expressões faciais. Preciso praticar mais em frente ao espelho... Oh, já é tão tarde? Pode ir descansar. Ainda tenho coisas para fazer."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "Sobre Odette - O Rokot",
+      "text": "Desde a implementação do Projeto Inverno, o tamanho de minha audiência tem caído. Enquanto a maioria das pessoas está sofrendo para se virar, sanguessugas corruptos continuam a explorar o público. Recuso-me a ignorar isso. Sei que não posso virar as coisas por conta própria, mas eu ainda quero fazer o que puder."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "Sobre Odette - Memória",
+      "text": "As memórias do meu passado estão para sempre marcadas em minha mente. Como um filme, elas passam repetidamente no silêncio da noite... Por isso, ter uma memória perfeita não é sempre algo bom."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "Sobre Nós - Confiança",
+      "text": "Depender dos outros por proteção é como se encostar em uma camada fina de gelo. Não coloco minhas esperanças em ninguém além de mim mesma."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "Sobre Nós - Feridas",
+      "text": "Minha percepção para dor é bem baixa. Normalmente, quase nem percebo que me machuquei até que o ferimento comece a cicatrizar. Mas prefiro que seja assim. Seja durante um ensaio de dança ou treinamento especial dos Fatui, é melhor que algo tão trivial como minha condição física não fique no caminho."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "Sobre o Eixo Estelar...",
+      "text": "Uma vez, durante uma sessão de treinamento intensa, desenvolvi queimaduras de frio em meus pés e pernas devido ao frio extremo, e quase perdi totalmente a consciência. Quando acordei, a primeira coisa que notei foi uma luz intensa emanando do Eixo Estelar bem na minha frente. Mas, eu nunca tinha ouvido falar de um Eixo Estelar ser capaz de acordar as pessoas assim. Então, se isso não me acordou... então, talvez, tenha sido algum desejo instintivo de sobreviver...?"
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Algo para Compartilhar...",
+      "text": "Sempre trato todo ensaio com a mesma seriedade de uma apresentação real."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Coisas Interessantes...",
+      "text": "Você consegue aflorar a doçura das Groselhas de Gelo colocando uma pitadinha de sal nelas. Supostamente, o contraste ajuda a amplificar sua doçura interior. Ouvi isso de um fã."
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "Sobre Rosalyne - Passado",
+      "text": "Devo muito à Rosalyne, mas também já houve uma época em que eu realmente a odiava. Ela era implacável no que exigia e incrivelmente severa. Congelar de frio, desmaiar de exaustão, me machucar, adoecer... Tudo isso era rotina nos meus treinos sob a tutela dela. Eu nutria aquele sonho ingênuo de que só precisava vencer como bailarina, ganhar o suficiente para sustentar a minha mãe e, então, um dia, eu deixaria ela e os Fatui para trás..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "Sobre Rosalyne - Cor Ignis",
+      "text": "Depois que alguém parte, muitas palavras de repente perdem o sentido. Eu poderia despedaçar este Cor Ignis num segundo, mas isso só faria com que toda a dor e os mal-entendidos que ele causou parecessem ainda mais absurdos... Por que só agora, depois de tanto tempo, a gente finalmente conseguiu se entender?"
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "Sobre a Tsaritsa...",
+      "text": "Vossa Majestade, a Tsaritsa, é o pilar da fé de Snezhnaya. Como seus deveres a mantêm bastante ocupada, ela raramente aparece em público. Para falar a verdade, só a vi em raras ocasiões, mas ela sempre me pareceu uma figura incrivelmente majestosa e solene. Não importa para onde ela olhe, o seu olhar é sempre tão frio e inabalável quanto uma densa camada de gelo, daquelas que tempo nenhum seria capaz de derreter."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "Sobre Damselette...",
+      "text": "Ela caminha com a leveza quase como a de uma pluma, com uma graciosidade que daria inveja a qualquer dançarina. Segundo Vodyanitsa, ela também tem uma voz incrivelmente bela e melancólica ao cantar. Mas acho que o que vemos e invejamos não passa de uma fachada, a imagem que ela projeta por fora. Quem sabe que dores indescritíveis se escondem lá no fundo..."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "Sobre a Serva...",
+      "text": "As crianças da Casa da Lareira a veem como seu \"Pai\". Tomara que isso as poupe um pouco do frio rigoroso e das tempestades impiedosas que a vida traz. Afinal, o papel de um pai é proteger."
+    },
+    {
+      "id": "4006",
+      "type": 1,
+      "title": "Sobre Marionette...",
+      "text": "As festas do chá da Srta. Marionette sempre fazia maravilhas ao humor da Rosalyne. Ela continuava sendo super rigorosa, mas falava com um tom bem mais suave. Dava para notar a diferença de longe."
+    },
+    {
+      "id": "4007",
+      "type": 1,
+      "title": "Sobre Vodyanitsa - Sorriso",
+      "text": "A primeira vez que a Tsaritsa veio assistir a uma das apresentações da Companhia Korolevskiy, foi Vodyanitsa quem me contou. Eu respondi com um simples aceno de cabeça. Então, ela empurrou os cantos da minha boca para cima, forçando um sorriso no meu rosto, e me fez repetir: \"Que. Ótima. Notícia.\"\\nTalvez fosse um ensaio para nos apresentarmos diante da Tsaritsa, mas continuo achando que Vossa Majestade não aprecia esse tipo de sorriso."
+    },
+    {
+      "id": "4008",
+      "type": 1,
+      "title": "Sobre Vodyanitsa - Adoecendo",
+      "text": "Toda vez que Vodyanitsa fica doente, ela vira um grude e não sai do meu lado por nada... Ela diz que morre de medo de tomar injeção ou de ter que tomar remédio amargo, então precisa apertar alguma coisa, e, pelo visto, o meu braço é o escolhido. Mas, como a minha tolerância à dor é alta, não tem motivo para eu me soltar dela."
+    },
+    {
+      "id": "4009",
+      "type": 1,
+      "title": "Sobre Alyosha...",
+      "text": "Ele poderia facilmente ganhar a vida somente caçando se só importasse com ele próprio, mas ele ainda aceita bicos no teatro para poder ajudar outros que estão sofrendo... Não estou surpresa por ele ter se unido ao Rokot."
+    },
+    {
+      "id": "4010",
+      "type": 1,
+      "title": "Sobre Mitya...",
+      "text": "Hm... Acho que dá pra chamá-lo de \"fã\" de teatro. Ele vive vindo assistir às minhas apresentações com Vodyanitsa. Mas é só o espetáculo começar que ele enfia a cara em suas anotações, escrevendo sem parar sobre sabe-se lá o quê. É difícil não reparar, ainda mais quando o resto da plateia está com os olhos vidrados no palco. Sinceramente, eu não me surpreenderia se tivesse mais apreço verdadeiro pelas artes no cachecol dele do que no seu corpo inteiro."
+    },
+    {
+      "id": "4011",
+      "type": 1,
+      "title": "Sobre Valeriy...",
+      "text": "O Major Valeriy é um oficial dos Fatui muito rígido com cronogramas. Ouvi dizer que ele comanda com uma calma que chega a dar medo... Mas nós somos de divisões diferentes, então quase não temos a oportunidade de interagir. Além do mais... não preciso de ninguém me lembrando do que eu tenho que fazer."
+    },
+    {
+      "id": "4012",
+      "type": 1,
+      "title": "Sobre Vesna...",
+      "text": "Não vá achando que ela é uma borboletinha frágil e inofensiva só por causa daquelas asas. As pessoas podem até segui-la feito ovelhas, mas ela é a comandante-chefe dos Druzhna — uma das predadoras mais implacáveis da tundra. Fique de olhos bem abertos e não se deixe enganar pelo sorriso dela."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Mais sobre Odette - I",
+      "text": "Você vai ter que me desculpar. Minha agenda de hoje está lotada e tenho ensaios mais tarde, então, se quiser conversar, seja breve."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Mais sobre Odette - II",
+      "text": "Minha mãe veio de uma família de bailarinos, e meu pai servia aos Fatui. Eles se conheceram depois de uma apresentação dela e logo se apaixonaram. É uma história tão adorável que faria qualquer um sorrir, com certeza. Quando eu era pequena, passava os dias dançando ao lado da minha mãe, usando um dos vários tutus maravilhosos que meu pai me comprava. Eu não tinha nenhuma preocupação... a não ser, talvez, escolher qual doce eu ia pegar do pote todos os dias."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Mais sobre Odette - III",
+      "text": "Claro que, pouco tempo depois, recebemos a trágica notícia de que meu pai perdeu a vida no cumprimento do dever. Minha mãe ficou arrasada e acabou quebrando a perna durante uma apresentação. Antes disso tudo, a vida era um verdadeiro doce. Mas, de repente, foi como se o pote de doces esvaziasse, me deixando presa lá dentro."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Mais sobre Odette - IV",
+      "text": "Depois disso, bem... você sabe o que aconteceu. Eu já revirei essas lembranças tantas vezes que elas não conseguem mais me machucar. Lutar contra as cartas que o destino me deu... isso me fortaleceu, e essa força é só minha. Eu jamais vou me esquecer disso."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Mais sobre Odette - V",
+      "text": "#Eu jamais diria isso para os meus fãs, então ainda bem que você não é {M#um}{F#uma} deles. Já tenho que sustentar tantas versões de mim mesma por aí, e prefiro não deixar que elas se misturem... Mas é claro que, no fundo do meu coração, eu sempre continuarei dançando rumo à perfeição."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Passatempos de Odette",
+      "text": "Sempre fui apaixonada por balé e dou tudo de mim para entregar a melhor apresentação possível sempre que subo no palco."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Preocupações de Odette...",
+      "text": "Sendo bem sincera, acho que os bichinhos me odeiam. Vodyanitsa vive me arrastando pra dar comida aos gatos de rua lá perto do teatro, mas é só eu chegar perto que eles já começam a afiar suas garras... Hã? Quer dizer que eles ficam animados em me ver? Oh..."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Comida Favorita...",
+      "text": "Bem na hora de fechar, as saladas do refeitório saem pela metade do preço, então eu vivia comendo isso. É claro que saladas que ficam expostas o dia todo não são tão gostosas quanto as fresquinhas. Mas tem algo nessa familiaridade que me traz bastante conforto."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Comida que Odeia...",
+      "text": "Pra ser bem sincera, não acho que tenha nenhuma comida que eu realmente não goste. Mas, como sou uma bailarina, preciso seguir uma dieta bem rigorosa, então todas as minhas refeições são planejadas nos mínimos detalhes. Acabo evitando qualquer coisa que saia desse cardápio."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Recebendo Presentes — I",
+      "text": "Tenho me apresentado bastante nos últimos dias. Acho que só mais um pedacinho não faz... Ahem, deixa pra lá. Está uma delícia. Obrigada."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Recebendo Presentes — II",
+      "text": "Isso tudo é um prato só? Parece mais... comida para um dia inteiro."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Recebendo Presentes — III",
+      "text": "Ah, não, obrigada. Tô controlando o que eu como."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Aniversário...",
+      "text": "Feliz aniversário! Fiquei pensando no que te dar de presente... Geralmente, eu ganho flores, sapatilhas de balé e caixinhas de música, mas duvido que seja isso que você tenha em mente. Que tal você só... fazer um pedido, aqui e agora? De preferência, algo que eu possa realizar, é claro..."
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Introdução",
+      "text": "Hm, ainda falta um pouco... Preciso pegar mais pesado nos treinos."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Desenvolvimento",
+      "text": "Hm, sinto que meus movimentos estão bem mais precisos. Tenho que manter o ritmo."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Auge",
+      "text": "Meus fouettés finalmente estão impecáveis. Mas agora não é hora de pegar leve."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Sentimentos sobre a Ascensão - Conclusão",
+      "text": "\"A emoção é uma parte essencial do balé.\" Agora eu finalmente entendo o que isso significa. Obrigada de coração por estar sempre ao meu lado e me apoiar. Se quiser assistir à minha apresentação hoje mais tarde, aqui está um ingresso."
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Habilidade Elemental - I",
+      "text": "Vamos começar."
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Habilidade Elemental - II",
+      "text": "Seja minha sombra."
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Habilidade Elemental - III",
+      "text": "Junto."
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Habilidade Elemental - IV",
+      "text": "Pas de deux."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Habilidade Elemental - V",
+      "text": "Pirouette."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Habilidade Elemental - VI",
+      "text": "Heh."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Supremo - I",
+      "text": "Valsa dos flocos de neve."
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Supremo - II",
+      "text": "Adágio Cristalino."
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Supremo - III",
+      "text": "Testemunhe a graça do Cisne da Neve."
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - I",
+      "text": "Não preciso de nada disso. Pode ficar."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - II",
+      "text": "Uma jornada é bem parecida com praticar dança; cada passo conta."
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Abrir Baú do Tesouro - III",
+      "text": "Trabalhar duro vale a pena."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Vida Baixa - I",
+      "text": "Despreocupada."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Vida Baixa - II",
+      "text": "Foi só um arranhãozinho."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Vida Baixa - III",
+      "text": "Bem tranquila."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Aliado com Vida Baixa - I",
+      "text": "Você está bem?"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Aliado com Vida Baixa - II",
+      "text": "Vamos trocar."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Derrotado - I",
+      "text": "Deveria ter... trabalhado... melhor..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Derrotado - II",
+      "text": "Não. Preciso... me... levantar..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Derrotado - III",
+      "text": "Então... é assim que é a dor..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Ataque Leve Sofrido - I",
+      "text": "...Hã?"
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Ataque Leve Sofrido - II",
+      "text": "Tente bater mais forte."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Ataque Pesado Sofrido - I",
+      "text": "Só isso?"
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Ataque Pesado Sofrido - II",
+      "text": "Isso deveria ter doído?"
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Entrando na Equipe - I",
+      "text": "Estou pronta."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Entrando na Equipe - II",
+      "text": "Precisa que eu fique no centro do palco?"
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Entrando na Equipe - III",
+      "text": "Para onde vamos dessa vez?"
     }
   ]
 }

@@ -1,9 +1,10 @@
 {
   "_id": 4311,
   "id": "goldflame_qucusaur_tyrant",
-  "shareId": 4311,
+  "shareId": 557,
   "name": "Tyran qucusaure de flamme dorée",
-  "desc": "",
+  "title": "Plume de proclamation : Tyran qucusaure de flamme dorée",
+  "desc": "Un qucusaure dont le corps a atteint une forme surnaturelle en raison de forces persistantes que les corps des sauriens modernes ne peuvent contrôler.",
   "attributes": {
     "hp": 24,
     "card_type": "Carte de personnage",
@@ -12,13 +13,23 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre"
-    ]
+    ],
+    "talent_card": {
+      "_id": 9462,
+      "id": "flamelords_blessing",
+      "name": "Flamelord's Blessing"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Tyran qucusaure de flamme dorée",
+    "character": {
+      "id": "goldflame_qucusaur_tyrant",
+      "name": "Goldflame Qucusaur Tyrant"
+    }
   },
   "skills": [
     {
       "id": "wingcleave",
       "name": "Coupe d'aile",
-      "desc": "Inflige 2 pts de ?.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de ?.",
       "skillTag": [
         "Attaque normale"
       ],
@@ -40,7 +51,7 @@
     {
       "id": "rising_scorchwind",
       "name": "Vent chaud ascendant",
-      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span> et accorde 2 cumuls de <span style=\"color:#FFFFFFFF\">tourbillon volant</span> au personnage affecté.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FF9999FF\">DGT Pyro</span> et accorde 2 cumuls de <span style=\"color:#FFFFFFFF\">tourbillon volant</span> au personnage affecté.",
       "skillTag": [
         "Compétence élémentaire"
       ],
@@ -56,7 +67,7 @@
     {
       "id": "goldflame_detonation",
       "name": "Explosion de flamme dorée",
-      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et accorde 1 cumul de <span style=\"color:#FFFFFFFF\">flamme dorée</span> au personnage affecté.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt|pts} de <span style=\"color:#FF9999FF\">DGT Pyro</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et accorde 1 cumul de <span style=\"color:#FFFFFFFF\">flamme dorée</span> au personnage affecté.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],

@@ -6,5 +6,13 @@ export interface FishingRod {
     name:        string;
     description: string;
     rarity:      number;
+    processing:  Processing[];
     source:      string[];
+}
+
+export interface Processing {
+    _id:    number;
+    id:     string;
+    name:   string;
+    amount: number;
 }

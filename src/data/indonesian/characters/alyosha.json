@@ -339,7 +339,7 @@
       "_id": 11485,
       "id": "hunters_advance",
       "name": "Hunter's Advance",
-      "description": "Memanggil sahabat setianya <span style=\"color:#FFD780FF\">Tugarin</span> untuk bertarung bersama dan mengubah area di depan menjadi <span style=\"color:#FFD780FF\">Fulgurite Hunting Field</span> untuk sementara.<br/><br/><span style=\"color:#FFD780FF\">Fulgurite Hunting Field</span><br/>·Terus-menerus memprovokasi musuh di sekitarnya untuk menarik serangan musuh.<br/>·Setiap 2 detik, mengakibatkan <span style=\"color:#FFACFFFF\">Electro DMG Area</span> terhadap musuh yang memasuki area tersebut.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>·Jika ada musuh di sekitar, Tugarin akan bergerak cepat untuk mendekati salah satu musuh dan menggigitnya setiap 2 detik, mengakibatkan <span style=\"color:#FFD780FF\">Electro DMG</span>.<br/>·Jika musuh yang diserang sedang berada dalam efek <span style=\"color:#FFD780FF\">Hunter's Mark</span>, maka efek <span style=\"color:#FFD780FF\">Hunter's Mark</span> ini juga akan diaktifkan.<br/>·Tugarin akan memprioritaskan serangan pada musuh yang sedang dalam efek <span style=\"color:#FFD780FF\">Hunter's Mark</span>.",
+      "description": "Memanggil sahabat setianya <span style=\"color:#FFD780FF\">Tugarin</span> untuk bertarung bersama dan mengubah area di depan menjadi <span style=\"color:#FFD780FF\">Fulgurite Hunting Field</span> untuk sementara.<br/><br/><span style=\"color:#FFD780FF\">Fulgurite Hunting Field</span><br/>·Terus-menerus memprovokasi musuh di sekitarnya untuk menarik serangan musuh.<br/>·Setiap 2 detik, mengakibatkan <span style=\"color:#FFACFFFF\">Electro DMG Area</span> terhadap musuh yang memasuki area tersebut.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>·Jika ada musuh di sekitar, Tugarin akan bergerak cepat untuk mendekati salah satu musuh dan menggigitnya setiap 2 detik, mengakibatkan <span style=\"color:#FFACFFFF\">Electro DMG</span>.<br/>·Jika musuh yang diserang sedang berada dalam efek <span style=\"color:#FFD780FF\">Hunter's Mark</span>, maka efek <span style=\"color:#FFD780FF\">Hunter's Mark</span> ini juga akan diaktifkan.<br/>·Tugarin akan memprioritaskan serangan pada musuh yang sedang dalam efek <span style=\"color:#FFD780FF\">Hunter's Mark</span>.",
       "info": "Tunggu, tunggu sampai ketidaksabarannya hilang. Maka pada saat itu, burung cerek perut merah itu pun akan terbang melintasi hutan birch putih dan menyambut anak panahnya.",
       "attributes": [
         {
@@ -467,7 +467,7 @@
     {
       "id": "treetop_watch",
       "name": "Treetop Watch",
-      "description": "Memperlihatkan lokasi <span style=\"color:#FFD780FF\">produk khas Snezhnaya</span> di sekitar pada peta kecil.",
+      "description": "Memperlihatkan lokasi <span style=\"color:#FFD780FF\">produk khas Snezhnaya</span> di sekitar pada peta kecil, juga bisa memberikan efek bantuan yang sama di Alam Bayangan.",
       "level": 0
     }
   ],
@@ -1248,6 +1248,428 @@
       "characterId": 10000148,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Alyosha_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Halo",
+      "text": "Halo, aku Alyosha, seorang pemburu. Meski kalau kamu sudah bicara dengan para perampok jalanan, mungkin kamu pernah dengar versi lain tentang ceritaku. Tapi bagaimanapun juga, cukup kita saja yang tahu soal ini untuk sekarang."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Berbincang: Keahlian Menembak",
+      "text": "Kalau soal mengasah kemampuan menembak, latihan dengan target dan berburu sungguhan itu berbeda sekali. Lalu, ada juga kemampuan yang kamu pelajari langsung di medan pertempuran ... itu lain cerita lagi."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Berbincang: Adopsi",
+      "text": "Kalau kamu mau adopsi anjing, cari aku saja. Aku punya berbagai ras anjing, dan aku tahu anjing mana pun pasti aman kalau sama kamu."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Berbincang: Menghitung Pengeluaran",
+      "text": "Uang ini untuk dibawa pulang, dan yang ini uang obat-obatan untuk Rokot. Sekarang aku tinggal cari lagi untuk perawatan senjata ... Heh, kita lihat gerombolan perampok mana yang apes kali ini ...."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Ketika Turun Hujan",
+      "text": "Tudungku basah kuyup ... Aduh, Tugarin! Jangan kibas-kibas badan!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Setelah Hujan",
+      "text": "Saatnya si mangsa keluar dari persembunyiannya ...."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "Ketika Petir Menyambar",
+      "text": "Cuaca sempurna untuk penyergapan. Kalau ada yang ingin kamu incar ... aku bisa manfaatkan suara petir untuk menutupi suara tembakanku."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Ketika Turun Salju",
+      "text": "Ck, melacak jejak bakal mustahil dalam cuaca seperti ini."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "Ketika Angin Berembus",
+      "text": "Tidak bisa pakai tudung kepala dalam cuaca seperti ini ...."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "Di Padang Pasir",
+      "text": "Andai aku juga bisa merontokkan bulu-bulu juga ...."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Selamat Pagi",
+      "text": "Dengar itu? Itu suara burung-burung berkicau di hutan, seperti yang biasa mereka lakukan setiap pagi ... Bagaimana kalau kita buru beberapa?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Selamat Siang",
+      "text": "Aku biasanya makan siang di alam terbuka, tapi aku tidak begitu merekomendasikannya."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Selamat Malam",
+      "text": "Beberapa mangsa paling langka hanya keluar di malam hari."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Selamat Tidur",
+      "text": "Istirahatlah. Aku masih ada urusan, dan aku butuh kegelapan malam."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "Tentang Alyosha: Tugarin",
+      "text": "Pertama kali aku menemukan Tugarin, si kecil itu terlantar di tengah salju. Dia meringkuk menjadi bola dan bahkan tidak bisa bergerak. Tapi dia tangguh sekali. Aku kasih beberapa sosis, dan dia langsung berdiri, berlari berputar-putar di sekelilingku dalam sekejap. Aku memang tidak punya jatah lebih untuk peliharaan sih, tapi ... namanya seorang pemburu harus punya anjing pemburu, kan?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "Tentang Alyosha: Senapan Berburu",
+      "text": "Ayahku memberi senapan berburu ini dulu, tapi aku sudah merombaknya total sejak saat itu. Entah sebuah senjata itu didapat dari memungut, mencuri, atau dibeli, semuanya berisiko dan tidak bisa diandalkan. Sedangkan aku mempertaruhkan nyawaku dengan benda ini, jadi aku harus mengenalnya seperti telapak tanganku sendiri, sampai ke komponen terkecilnya. Tentu saja, perawatan dan modifikasi senjata tidak murah. Kadang aku harus puasa makan beberapa kali untuk menutup biayanya, apa boleh buat ...."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "Tentang Kita: Pemburu dan Petualang",
+      "text": "Di depan hamparan alam liar yang luas, seorang pemburu akan pulang setelah berhasil menangkap mangsanya, tapi seorang petualang akan selalu melangkah lebih jauh. Makanya kamu yang punya daftar panjang kisah-kisah epik, bukan aku. Tapi, mendengarkan kamu bercerita tentang semua petualangan serumu jelas bukan cara yang buruk untuk menghabiskan waktu."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "Tentang Kita: Idealisme",
+      "text": "Menurutmu, Snezhnaya akan menjadi bangsa yang seperti apa? Heh ... sebenarnya, aku tidak pernah menanyakan hal itu kepada siapa pun sebelumnya. Para warga desa terlalu sibuk memikirkan cara dapat makanan mereka berikutnya, dan para perampok terlalu sibuk memikirkan metode penipuan berikutnya. Tidak ada yang punya waktu untuk membahas hal semacam itu. Tapi, kamu adalah orang yang tepat untuk ditanya. Kita tidak perlu saling berbagi jawaban sekarang. Aku masih ingin memikirkannya lebih dalam. Bagaimanapun juga, kurasa itu hanya cara lain untuk menanyakan \"nilai\" apa yang kita perjuangkan."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "Tentang Vision",
+      "text": "Orang-orang sering bilang bahwa sebuah Vision seharusnya mewakili keinginan terdalammu. Tapi cara berpikir yang konyol dan mengawang-awang seperti itu sama sekali tidak ada artinya bagiku. Yang aku pedulikan hanyalah apa yang bisa dilakukan benda kecil ini untukku. Kalau aku sadar kalau benda ini membuatku lebih kuat, mungkin sudah kujual demi Mora dari dulu."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Berbagi Cerita",
+      "text": "Kalau kamu sering berjalan di padang salju Snezhnaya, menguasai kode lokal itu keterampilan yang penting. Kalau bertemu peri tertentu atau perampok jalanan, bisa \"bicara bahasa mereka\" akan menyelamatkanmu dari banyak masalah. Oh, dan kalau kamu pernah ketemu sekelompok orang yang terus bergumam soal \"ayam,\" langsung saja rampok mereka. \"Ayam\" adalah kata kode yang artinya warga sipil yang tidak berbahaya dan membawa sedikit barang berharga. Pokoknya, target yang mudah. Orang-orang yang mengincar mereka itu yang paling bejat, tapi mereka bukan tandingan kita. Lagi pula, mengingat catatan kriminal mereka sendiri, mereka juga tidak akan berani melapor ke Druzhna, jadi mereka hanya bisa terima nasib saja."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Kisah Menarik",
+      "text": "Aku pernah dengar ada sebuah kedai di Mondstadt bernama The Cat's Tail, tempat para master Genius Invokation TCG dari seluruh Teyvat datang untuk bertanding. Kalau aku punya kesempatan bepergian ke luar sana, itu adalah tempat pertama yang ingin aku kunjungi. Tapi sayangnya, Mondstadt jauh sekali dari sini ... *huff* Kenapa ya Snezhnaya tidak punya tempat seperti itu?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "Tentang Tsaritsa",
+      "text": "Bagiku, Yang Mulia Tsaritsa itu seperti salju yang menyelimuti tanah ini. Ia membawa dingin yang menusuk dan kita tidak punya pilihan selain menerimanya, tapi ia juga melindungi kita dari hal-hal yang lebih gelap di dunia ini. Akankah ada anak dari tanah beku ini yang bisa melihat semua ini mencair ...? Aku sungguh penasaran apakah Tsaritsa akan pernah menganugerahkan belas kasih itu ...."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "Tentang Odette",
+      "text": "Aku terkejut sekali waktu tahu kalau Odette adalah bagian dari Rokot. Aku tidak pernah menyangka d anggota Fatui yang berprinsip sama dengan kami ... Tapi, setelah terbukti kalau pikiranku salah, aku jadi berpikir kalau mewujudkan perubahan yang kita inginkan mungkin tidak sesulit bayanganku. Masa depan yang lebih cerah untuk bangsa ini masih bisa kita raih."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "Tentang Vodyanitsa",
+      "text": "Vodyanitsa adalah sumber informasi yang sangat penting bagi Rokot. Setiap kali aku mendatanginya untuk mendapat informasi, dia selalu sangat membantu. Tapi kalau sudah di luar urusan pekerjaan, aku hampir tidak bisa mengerti apa yang ingin dia sampaikan. Anehnya, Odette tidak punya masalah itu. Mereka berdua bisa bergaul seolah itu hal yang paling wajar di dunia ... Aku jadi bertanya-tanya, jangan-jangan perempuan punya semacam kode rahasia tersendiri ...."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "Tentang Valeriy",
+      "text": "Pertama kali aku bertemu Valeriy, dia menghadangku dan mengusirku dari Armory Palace, sambil menyebutkan pasal-pasal peraturan yang melarangku mendekati tempat itu ... Sebenarnya sih, aku sedang mengendap-endap sambil membawa senapan berburu, jadi jujur saja aku kaget dia tidak langsung menangkapku di sana. Sebetulnya aku sudah siap kalau harus melawannya, tapi ternyata aku justru dapat kenalan baru di Armory Palace. Lumayan juga. Jujur saja, cara berpikir kami cukup mirip. Jadi sekarang setelah batasan sosial kami sudah jelas, selama tidak dilanggar, kami bisa rukun-rukun saja."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "Tentang Mitya",
+      "text": "Aku memang tidak pernah benar-benar punya pendidikan formal, jadi aku pikir akan sulit untuk akrab dengan seseorang seperti Mitya. Tapi dia sudah membantu memodifikasi senapanku lebih dari sekali, tanpa aku perlu meminta, jadi jelas saja kekhawatiranku ini tidak beralasan. Mitya mudah diajak bicara. Aku hanya memperlakukannya seperti tetangga biasa, dan semuanya berjalan baik-baik saja. Tapi ada satu hal yang perlu kamu tahu ... kalau dia sedang asyik membahas sains, jangan ganggu dia."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Mengenal Alyosha: I",
+      "text": "Mau memaksaku buka rahasia, ya? Oke. Kamu boleh tahu satu saja, tapi cuma satu: Menjadi seorang \"pemburu\" adalah penyamaran yang sangat berguna."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Mengenal Alyosha: II",
+      "text": "Seseorang pernah bertanya padaku apakah ada perbedaan antara mengarahkan senjata ke hewan dan ke manusia. Aku tidak menjawab saat itu, tapi aku sangat yakin ada perbedaannya. Hanya saja, semakin banyak tembakan yang pernah kulakukan, perbedaannya jadi semakin kabur. Gerakan menarik pelatuknya terasa semakin sama, tidak peduli siapa yang aku bidik ... Jadi, aku tidak suka mengarahkan senjataku ke orang. Terkadang aku bertanya-tanya apa yang akan terjadi jika suatu hari nanti perbedaannya benar-benar menghilang, dan itu membuatku takut."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Mengenal Alyosha: III",
+      "text": "Waktu aku masih kecil, sekawanan preman menyerbu rumahku dan mencuri semua harta kami. Orang tuaku berusaha menenangkan diri dan bilang kalau semuanya akan baik-baik saja, tapi aku tahu apa artinya kehilangan semuanya bagi keluarga kami. Jadi, aku memutuskan untuk memanfaatkan keahlianku sebagai pemburu, dan menargetkan sesuatu yang bukan hewan untuk pertama kalinya. Kini, darah mereka ada di tanganku, dan aku tidak menyesal. Mereka layak membayar atas apa yang mereka lakukan. Ternyata, mereka sama miskin dan melaratnya seperti kami, terdorong hingga titik putus asa oleh keadaan yang tidak bisa mereka kendalikan. Di situlah aku menyadari kalau preman dan perampok bukan masalah sesungguhnya di bangsa ini. Kalau kita tidak bisa menemukan apa masalah sebenarnya, maka darah di tanganku tidak ada artinya."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Mengenal Alyosha: IV",
+      "text": "Aku memutuskan untuk bergabung dengan Rokot karena aku merasa prinsip-prinsip yang kami perjuangkan adalah apa yang dibutuhkan Snezhnaya saat ini. Tapi aku tahu kalau suatu hari nanti, hal itu tidak lagi berlaku. Begitu kami mendapatkan apa yang telah kami perjuangkan, banyak hal yang akan berubah dan di situlah ujian yang sesungguhnya dimulai."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Mengenal Alyosha: V",
+      "text": "Menurutku, para realis adalah orang-orang yang paling egois dan oportunis di dunia, mereka selalu terobsesi dengan keuntungan, kekuasaan, atau apa yang disembunyikan orang-orang di sekitar mereka. Sebaliknya, para idealis mungkin adalah yang paling mulia di antara kita. Tidak ada toleransi untuk kebohongan, pencurian, atau ketidakadilan sekecil apa pun. Tapi sebenarnya ada tipe ketiga, yaitu \"idealis realistis\". Mereka terjebak di tengah-tengah, hidup setiap hari dalam tarikan yang terus-menerus dari dua arah yang berlawanan."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Hobi Alyosha",
+      "text": "Memodifikasi, merawat, dan menguji senapanku ... Dulu kupikir perawatan senjata api itu hanya kebutuhan saja. Tapi kalau dipikir lagi sudah berapa banyak waktu dan Mora yang kucurahkan untuk semua hal ini, sepertinya sudah waktunya aku mengakui bahwa ini pun jadi semacam hobi bagiku."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Kekhawatiran Alyosha",
+      "text": "Semua Mora yang sudah kuhabiskan untuk memodifikasi, merawat, dan menguji senapanku ... Kalau dipikir-pikir, bisa jadi hal yang paling kamu cintai dalam hidup justru adalah sumber semua masalahmu."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Makanan Favorit",
+      "text": "Daging asap, roti tahan lama, keju yang meleleh saat dipanggang ... Dengan bahan-bahan itu, aku hanya perlu api dan aku akan selalu punya hidangan lezat di depanku, bahkan di tengah es dan salju sekalipun."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Makanan yang Tidak Disukai",
+      "text": "Semua yang punya cangkang. Kepiting, lobster ... hewan-hewan seperti itu. Harganya selangit, lalu kamu harus berjuang keras melawan capitnya dan menghindari durinya hanya untuk membuka cangkangnya. Dan setelah semua itu, dagingnya pun hanya sedikit. Tidak sebanding dengan harga maupun usahanya."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Menerima Hadiah: I",
+      "text": "Terima kasih, ini enak ... Apa ini tahan lama? Sepertinya aku mau habiskan nanti saja."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Menerima Hadiah: II",
+      "text": "Hmmm ... Bagaimana kalau aku bantu carikan buruan liar yang langka? Bahan-bahan berkualitas lebih tinggi akan membuatnya lebih enak lagi."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Menerima Hadiah: III",
+      "text": "... Baiklah, sayang kalau makanannya terbuang. Pasti ada warga desa yang lebih membutuhkan ini daripada aku."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Ulang Tahun",
+      "text": "Selamat ulang tahun. Hari ini, kan? Kamu tahu tidak? Di tempat asalku, perayaan ulang tahun biasanya adalah kemewahan yang tidak bisa kami miliki. Susah sekali mengumpulkan tepung dan krim yang cukup untuk membuat kue, atau menemukan seseorang yang menjual sesuatu selain kebutuhan pokok untuk dijadikan hadiah. Tapi, aku tidak akan pernah menyalahkan seorang anak karena ingin merayakan ulang tahunnya karena memang begitulah seharusnya. Dan suatu hari nanti, aku berharap tidak ada anak di Snezhnaya yang harus hidup tanpa pesta ulang tahun. Jadi, aku memutuskan untuk menganggap hari ulang tahunmu dengan sangat serius, dan aku sudah banyak berpikir soal hadiah dan kartu yang aku berikan untukmu. Terkadang, kamu harus menjadi perubahan yang ingin kamu lihat di dunia, kan?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Perasaan Tentang Ascension: Permulaan",
+      "text": "Oke. Rasanya bidikanku lebih akurat sekarang."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Perasaan Tentang Ascension: Persiapan",
+      "text": "Tugarin juga sudah makin membaik. Sepertinya kita semakin sinkron."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Perasaan Tentang Ascension: Klimaks",
+      "text": "Tembakanku jadi lebih akurat sekarang ... ini hal baik atau buruk ya?"
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Perasaan Tentang Ascension: Konklusi",
+      "text": "Seberapa jauh lagi kita harus melangkah sampai dunia yang kita perjuangkan menjadi kenyataan?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Elemental Skill: I",
+      "text": "Tembak!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Elemental Skill: II",
+      "text": "Tepat sasaran!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Elemental Skill: III",
+      "text": "Gugur satu!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Elemental Skill: IV",
+      "text": "Sudah siap ...?"
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Elemental Skill: V",
+      "text": "Mangsa terlihat."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Elemental Skill: VI",
+      "text": "Dapat."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Elemental Burst: I",
+      "text": "Sini, Tugarin!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Elemental Burst: II",
+      "text": "Tugarin, ambil!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Elemental Burst: III",
+      "text": "Kamu kira bisa kabur dari anjingku?!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Membuka Peti Harta: I",
+      "text": "Lihat baik-baik. Jangan sampai ada yang terlewat."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Membuka Peti Harta: II",
+      "text": "Ada yang bisa kutukar dengan Mora?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Membuka Peti Harta: III",
+      "text": "Cepat ambil dan pergi. Sebelum kita diikuti."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "HP Rendah: I",
+      "text": "Rasa dinginnya mulai terasa ...."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "HP Rendah: II",
+      "text": "Harus cari perlindungan ...."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "HP Rendah: III",
+      "text": "Harus memikirkan biaya pengobatannya ...."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "HP Rekan Rendah: I",
+      "text": "Mundur! Aku akan melindungimu!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "HP Rekan Rendah: II",
+      "text": "Tenang saja. Biar aku yang bereskan mereka."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Gugur: I",
+      "text": "Hari-hari berburuku ... sudah berakhir ...."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Gugur: II",
+      "text": "Tugarin, lari ...."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Gugur: III",
+      "text": "Harusnya ... kutembak lebih cepat ...."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Menerima Serangan Ringan: I",
+      "text": "Semoga sepadan ...."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Menerima Serangan Ringan: II",
+      "text": "Hanya lecet kecil."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Menerima Serangan Hebat: I",
+      "text": "Lumayan sakit juga ...."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Menerima Serangan Hebat: II",
+      "text": "Serangan licik ...."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Bergabung ke Party: I",
+      "text": "Perburuan, dimulai."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Bergabung ke Party: II",
+      "text": "Semua sudah siap."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Bergabung ke Party: III",
+      "text": "Fokus pada target."
     }
   ]
 }

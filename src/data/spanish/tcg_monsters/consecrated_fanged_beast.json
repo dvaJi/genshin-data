@@ -1,9 +1,10 @@
 {
   "_id": 4710,
   "id": "consecrated_fanged_beast",
-  "shareId": 4710,
+  "shareId": 572,
   "name": "Colmibestia Sacrósea",
-  "desc": "",
+  "title": "Colmibestia Sacrósea: Hierba carroñera",
+  "desc": "Un depredador que ha mutado tras devorar los restos de poderosos seres y que es capaz de controlar enredaderas frenéticas.",
   "attributes": {
     "hp": 10,
     "card_type": "Carta de personaje",
@@ -13,13 +14,23 @@
     "faction": [
       "Monstruo",
       "Bestia Sacrósea"
-    ]
+    ],
+    "talent_card": {
+      "_id": 10506,
+      "id": "withered_reeds_eclipse_the_sun",
+      "name": "Withered Reeds Eclipse the Sun"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Colmibestia Sacrósea de los duelos tabernarios",
+    "character": {
+      "id": "consecrated_fanged_beast",
+      "name": "Consecrated Fanged Beast"
+    }
   },
   "skills": [
     {
       "id": "claw_slash",
       "name": "Zarpazo afilado",
-      "desc": "Inflige 2 pts. de ?.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de ?.",
       "skillTag": [
         "Ataque Normal"
       ],
@@ -41,7 +52,7 @@
     {
       "id": "siphon_wave",
       "name": "Ola saqueadora",
-      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> y toma 1 carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> del mazo.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span> y toma 1 carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> del mazo.",
       "skillTag": [
         "Habilidad Elemental"
       ],
@@ -57,7 +68,7 @@
     {
       "id": "sprawling_blighted_vines",
       "name": "Enredadera fatal",
-      "desc": "Inflige 4 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>. Si hay alguna carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> en tu mano, realiza el <span style=\"color:#FFFFFFFF\">descarte</span> de 1 de ellas y prepara la habilidad <span style=\"color:#FFFFFFFF\">Brotes de hierba podrida</span>.",
+      "desc": "Inflige ? {PLURAL#$[D__KEY__DAMAGE|nc]|pt.|pts.} de <span style=\"color:#7EC236FF\">Daño Dendro</span>. Si hay alguna carta de <span style=\"color:#FFFFFFFF\">Bloques de energía voraces</span> en tu mano, realiza el <span style=\"color:#FFFFFFFF\">descarte</span> de 1 de ellas y prepara la habilidad <span style=\"color:#FFFFFFFF\">Brotes de hierba podrida</span>.",
       "skillTag": [
         "Habilidad Definitiva"
       ],

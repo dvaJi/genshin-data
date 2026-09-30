@@ -339,7 +339,7 @@
       "_id": 11485,
       "id": "hunters_advance",
       "name": "Avcının İlerleyişi",
-      "description": "Alanda onunla birlikte savaşması için güvenilir yoldaşı <span style=\"color:#FFD780FF\">Tugarin</span>'i çağırır. Bu aynı zamanda önündeki bir alanı kısa bir süreliğine <span style=\"color:#FFD780FF\">Fulgurit Av Sahasına</span> dönüştürür.<br/><br/><span style=\"color:#FFD780FF\">Fulgurit Av Sahası</span><br/>·Yakındaki düşmanları saldırmaları için sürekli kışkırtır.<br/>·Her 2 saniyede bir, alana giren herhangi bir düşmana bir defa <span style=\"color:#FFACFFFF\">Elektrik Alan Hasarı</span> verir.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>·Yakında herhangi bir düşman varsa Tugarin, her 2 saniyede bir hızlıca bir düşmana yaklaşıp saldırarak <span style=\"color:#FFD780FF\">Elektrik Hasarı</span> verir.<br/>·<span style=\"color:#FFD780FF\">Avcının İşareti</span> etkisine sahip bir düşman isabet alırsa <span style=\"color:#FFD780FF\">Avcının İşareti</span> de etkinleşir.<br/>·Birden fazla düşmanın olduğu durumlarda Tugarin ilk olarak <span style=\"color:#FFD780FF\">Avcının İşareti</span> etkisine sahip olanlara saldırır.",
+      "description": "Alanda onunla birlikte savaşması için güvenilir yoldaşı <span style=\"color:#FFD780FF\">Tugarin</span>'i çağırır. Bu aynı zamanda önündeki bir alanı kısa bir süreliğine <span style=\"color:#FFD780FF\">Fulgurit Av Sahasına</span> dönüştürür.<br/><br/><span style=\"color:#FFD780FF\">Fulgurit Av Sahası</span><br/>·Yakındaki düşmanları saldırmaları için sürekli kışkırtır.<br/>·Her 2 saniyede bir, alana giren herhangi bir düşmana bir defa <span style=\"color:#FFACFFFF\">Elektrik Alan Hasarı</span> verir.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>·Yakında herhangi bir düşman varsa Tugarin, her 2 saniyede bir hızlıca bir düşmana yaklaşıp saldırarak <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.<br/>·<span style=\"color:#FFD780FF\">Avcının İşareti</span> etkisine sahip bir düşman isabet alırsa <span style=\"color:#FFD780FF\">Avcının İşareti</span> de etkinleşir.<br/>·Birden fazla düşmanın olduğu durumlarda Tugarin ilk olarak <span style=\"color:#FFD780FF\">Avcının İşareti</span> etkisine sahip olanlara saldırır.",
       "info": "Bekle. Sabırsızlık dinene kadar beklemeye devam et. İşte o zaman kızıl karınlı yağmur kuşu, kayın korusunu aşıp kendini okunun önüne sunacaktır.",
       "attributes": [
         {
@@ -467,7 +467,7 @@
     {
       "id": "treetop_watch",
       "name": "Ağaç Tepesi Nöbeti",
-      "description": "Yakınlardaki <span style=\"color:#FFD780FF\">Snezhnaya'ya özgü kaynakların</span> yerini mini haritada gösterir.",
+      "description": "Yakınlardaki <span style=\"color:#FFD780FF\">Snezhnaya'ya özgü kaynakların</span> yerini mini haritada gösterir ve bu etki Gölge Diyarında da geçerlidir.",
       "level": 0
     }
   ],
@@ -1248,6 +1248,428 @@
       "characterId": 10000148,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Alyosha_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Merhaba",
+      "text": "Merhaba, ben Alyosha. Ben bir avcıyım. Gerçi haydutlara sorduysan farklı bir hikaye duymuş olabilirsin. Ama neyse, şimdilik bu aramızda kalsın."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Sohbet: Nişancılık",
+      "text": "İş nişancılığını geliştirmeye gelince, hedef talimi yapma ve gerçekten avlanma birbirinden tamamen farklı iki şeydir. Bir de savaşta edindiğin beceriler var tabii... O da bambaşka bir hikaye."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Sohbet: Sahiplenme",
+      "text": "Eğer bir köpek sahiplenmek istersen gel beni bul. Bende her cins var, hangisi olursa olsun senin yanında güvende olacağından eminim."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Sohbet: Hesapları Denkleştirme",
+      "text": "Bunlar eve gidiyor, bu da Rokot'a ilaç almak için. Şimdi sadece silah bakımına yetecek kadar bulmam lazım... Heh, bakalım bu seferki şanslı haydut çetesi hangisi..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Yağmur Yağdığında",
+      "text": "Kapüşonum sırılsıklam olacak... Olamaz, Tugarin! Sakın silkelenme!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Yağmurdan Sonra",
+      "text": "Avın saklandığı delikten çıkma vakti..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "Yıldırım Düştüğünde",
+      "text": "Pusu kurmak için mükemmel bir hava, eğer aklında biri varsa... Gök gürültüsünü kullanarak silah sesini gizleyebilirim."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Kar Yağdığında",
+      "text": "Cık, karda iz sürmek imkansız."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "Rüzgar Şiddetlendiğinde",
+      "text": "Bu havada kapüşon takılmaz..."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "Çölde",
+      "text": "Keşke ben de biraz tüy dökebilsem..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Günaydın",
+      "text": "Duyuyor musun? Her sabah ormanda cıvıldayan kuşların sesi bu... Gidip birkaçını indirelim mi?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "İyi Günler",
+      "text": "Genelde öğle yemeğimi yabanda yerim ama bunu pek de tavsiye etmem."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "İyi Akşamlar",
+      "text": "En nadir avlardan bazıları sadece geceleri ortaya çıkar."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "İyi Geceler",
+      "text": "Sen git dinlen. Benim yapacaklarım var ve bunun için gece karanlığı gerekli."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "Alyosha Hakkında: Tugarin",
+      "text": "Tugarin'e ilk rastladığımda karda terk edilmişti. Ufaklık bir top gibi kıvrılmıştı ve hareket bile edemiyordu. Yine de sağlam çıktı. Ona birkaç sosis verdim ve çok geçmeden ayağa kalkıp etrafımda dört dönmeye başladı. Bir evcil hayvana ayıracak fazladan yiyeceğim yok ama... Köpeksiz ava çıkanın avı da yalan olur, canı da."
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "Alyosha Hakkında: Av Tüfeği",
+      "text": "Babam bu av tüfeğini bana eskiden vermişti ama o zamandan beri onu tamamen yeniledim. Bir silah ister sağdan soldan toplanmış ister çalınmış isterse de satın alınmış olsun, ölümünle aranda duran tek şey olabilir ve bu risk her zaman vardır. Hayatım ona emanet, bu yüzden onu en küçük parçasına kadar, avucumun içi gibi bilmek zorundayım. Tabii ki bakım ve modifikasyon ucuza gelmiyor. Maliyeti karşılamak için birkaç öğün atlamam gerekse de buna değer..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "Hakkımızda: Avcılar ve Maceracılar",
+      "text": "Bir avcı, göz alabildiğince uzanan vahşi doğadayken avını yakaladığında geri döner. Ancak bir maceracı, her zaman bir adım daha ileriye gider. İşte bu yüzden dillere destan başarılara imza atan kişi ben değilim, sensin. Yine de tüm o heyecanlı maceralarını senden dinlemek, güzel vakit geçirmek için hiç de fena değil."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "Hakkımızda: İdealler",
+      "text": "Sence Snezhnaya nasıl bir ulus haline gelecek? Hehe... Biliyor musun, bunu daha önce hiç kimseye sormamıştım. Köylüler karınlarını nasıl doyuracaklarının derdinde, haydutlar ise bir sonraki vurgunlarıyla meşgul. Kimsenin bu tarz konuları konuşacak vakti yok. Ama sen bunu sormak için ideal kişisin. Yine de şu an cevaplamamıza gerek yok. Üzerine biraz daha düşünmek istiyorum. Sonuçta sanırım bu, hangi \"ideal\"in peşinde olduğumuzu sormanın farklı bir yolu."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "Önsezi Hakkında",
+      "text": "İnsanlar, genellikle bir Önsezinin en derin arzularımızı temsil ettiğini söyler. Ama bu tür manasız düşünceler benim için bir şey ifade etmiyor. Ben sadece bu zımbırtının ne işime yarayacağını önemsiyorum. Eğer beni daha güçlü yaptığını fark etmemiş olsaydım, muhtemelen onu çoktan Mora ile takas ederdim."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Paylaşılacak Bir Bilgi",
+      "text": "Snezhnaya'da bilindik yolların dışına çıktığında, yerel jargonu bilmek önemli bir beceri haline gelir. Bazı Feylere veya haydutlara denk geldiğinde onların dilinden konuşabilmek seni büyük bir dertten kurtarabilir. Ha, olur da \"tavuk\"tan bahsedip duran bir grupla karşılaşırsan, hiç bekleme ve onları soyup soğana çevir. \"Tavuk\", yanında az miktarda değerli eşya taşıyan, zararsız bir sivil anlamına gelen bir şifredir. Kolay hedef demek yani. Onların peşine en aşağılık tipler düşer ama bize rakip olamazlar. Üstelik sabıka kayıtları göz önüne alındığında, bizi Druzhna'ya şikayet etmeyi akıllarından bile geçirmezler. Bu yüzden bunu sineye çekmek zorundalar."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "İlginç Şeyler",
+      "text": "Duyduğuma göre Mondstadt'ta Kedi Kuyruğu adında bir han varmış, Teyvat'ın dört bir yanından gelen Dehanın Yakarışı ustaları kozlarını paylaşmak için oraya gidiyormuş. Bir gün yurt dışına çıkma fırsatım olursa ilk gitmek istediğim yer orası. Keşke Mondstadt bu kadar uzak olmasaydı... *iç çeker* Snezhnaya'da neden öyle bir yer yok ki?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "Çariçe Hakkında",
+      "text": "Bana göre Majesteleri Çariçe, tıpkı bu toprakları kaplayan kar gibidir. Katlanmaktan başka çaremiz olmayan dondurucu bir soğuk getirir ama aynı zamanda bu dünyadaki daha karanlık şeylere karşı bir siper olur. Bu donmuş diyarın çocukları bir gün buzların çözüldüğünü görebilecek mi? Çariçe'nin bu merhameti bahşedip bahşetmeyeceğini gerçekten merak ediyorum..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "Odette Hakkında",
+      "text": "Odette'in Rokot'un bir üyesi olduğunu öğrendiğimde çok şaşırdım. Bir Fatui üyesinin ilkelerimizi paylaşacağını hiç düşünmezdim... Ancak artık yanıldığım kanıtlandığına göre, arzuladığımız değişiklikleri gerçekleştirmenin tahmin ettiğim kadar zor olmayabileceğini düşünmeye başladım. Bu ulus için daha parlak bir gelecek hâlâ ellerimizde."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "Vodyanitsa Hakkında",
+      "text": "Vodyanitsa, Rokot için hayati bir istihbarat kaynağıdır. Ondan ne zaman bilgi istesem bana çok yardımcı oluyor. Ancak iş dışında konuştuğumuzda ne söylemeye çalıştığını zar zor anlayabiliyorum. Odette'in böyle bir sorunu yok gibi. İkisi sanki gayet doğal bir şekilde anlaşabiliyor... Kızların kendilerine ait gizli bir şifresi mi var diye meraklanmadan edemiyorum..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "Valeriy Hakkında",
+      "text": "Valeriy ile ilk karşılaştığımda yolumu kesti ve yaklaşmamın yasak olduğunu söyleyen bilmem ne yönetmeliğinin bilmem ne maddesini sayıp dökerek beni Cephanelik Sarayı'ndan uzaklaştırdı... Yani, elimde bir av tüfeğiyle gizlice dolaşıyordum, bu yüzden beni oracıkta tutuklamamasına şaşırdım. Aslında onunla dövüşmek zorunda kalacağımı sanıyordum ama tam aksine Cephanelikte yeni bir bağlantı edinmiş oldum. Olayların böyle gelişmesi hiç fena olmadı. Aslına bakarsan birçok açıdan aynı kafadayız. Artık net bir sınır çizdiğimize göre, onu aşmadığımız sürece gayet iyi anlaşabiliriz."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "Mitya Hakkında",
+      "text": "Hiç doğru düzgün temel eğitim almadım, bu yüzden Mitya gibi biriyle anlaşmanın zor olacağını düşünmüştüm. Ama ben daha sormadan defalarca kez tüfeğimi modifiye etmeme yardım etti, yani boşuna endişelenmişim. Mitya ile anlaşmak çok kolay. Ona komşum gibi davranıyorum ve bu gayet iyi işliyor. Yine de benden tavsiye... Bilimsel muhabbetlere girerse usulca uzaklaş."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Alyosha Hakkında Daha Fazlası: I",
+      "text": "Beni konuşturup sırlarımı öğrenmeye çalışıyorsun demek, ha? Pekala, birini söylerim ama o kadar: \"Avcı\" olmak çok kullanışlı bir gizlenme yöntemidir."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Alyosha Hakkında Daha Fazlası: II",
+      "text": "Bir keresinde birisi bana bir hayvana silah doğrultmakla bir insana doğrultmak arasında bir fark olup olmadığını sormuştu. O zaman cevap vermemiştim ama kesinlikle bir fark olduğuna inanıyorum. Neye nişan alırsam alayım silahımı ateşledikçe ikisini ayıran çizgi gittikçe siliniyor ve tetiği çekmek farksız gelmeye başlıyor... Bu yüzden silahımı insanlara doğrultmaktan hiç zevk almıyorum. Bazen, bir gün o çizgi tamamen kaybolursa ne olacağını merak ediyorum ve bu beni korkutuyor."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Alyosha Hakkında Daha Fazlası: III",
+      "text": "Ben çocukken bir grup haydut evimizi yağmaladı ve tüm eşyalarımızı çaldı. Annemle babam olayı geçiştirmeye çalışıp bir şey olmayacağını söylediler ama sahip olduğumuz her şeyi kaybetmenin ailemiz için ne anlama geldiğini biliyordum. Bu yüzden bir avcı olarak becerilerimi değerlendirmeye karar verdim ve ilk defa bir hayvan dışında bir hedefim oldu. Onların kanı artık ellerimde ama bundan pişman değilim. Yaptıklarının bedelini ödemeyi hak ettiler. Fakat onlar da bizim kadar fakir ve muhtaçmış meğer, çaresizlikten bu yola sürüklenmişler. İşte o zaman anladım: Bu ulusun asıl sorunu haydutlar ve soyguncular değil. Eğer sorunun ne olduğunu bulamazsak da elimi boşa kana bulamış olacağım."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Alyosha Hakkında Daha Fazlası: IV",
+      "text": "Rokot'a katılmaya karar verdim çünkü Snezhnaya'nın tam şu anda uğrunda savaştığımız ilkelere ihtiyacı olduğunu hissediyorum. Ama biliyorum, bir gün durum artık böyle olmayacak. Savaşarak istediklerimize ulaştığımızda birçok şey değişecek ve asıl sınav işte o zaman başlayacak."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Alyosha Hakkında Daha Fazlası: V",
+      "text": "Benim gözümde realistler devamlı güce, kazanç elde etmeye ya da etraflarındakilerin ondan neler sakladığına kafayı takmış, dünyadaki en bencil ve fırsatçı insanlardır. Öte yandan idealistler en asillerimiz olabilir. Yalana, hırsızlığa veya en ufak bir adaletsizliğe tahammülleri yoktur. Fakat üçüncü bir insan türü daha vardır aslında: \"realist idealistler\". Ortada sıkışıp kalmış, her gün sürekli farklı bir yöne çekilerek yaşarlar hayatlarını."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Alyosha'nın Hobileri",
+      "text": "Tüfeğimi modifiye eder, bakımını yapar ve test ederim... Eskiden silah bakımının tamamen bir zorunluluktan ibaret olduğunu düşünürdüm. Ancak buna ne kadar zaman ve Mora harcadığımı düşününce, sanırım artık bir tutkuya dönüştüğünü itiraf etmenin zamanı geldi."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "Alyosha'nın Sorunları",
+      "text": "Tüfeğimi modifiye etmeye, bakımına ve testine harcadığım tüm Mora işte bu kadar... Hesapladığın zaman, hayatta en sevdiğin şeylerin aynı zamanda tüm sorunlarının kaynağı olduğunu fark edebilirsin."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "En Sevdiği Yemek",
+      "text": "Kurutulmuş et, uzun süre dayanan ekmek, kızarınca eriyen peynir... Bu malzemeler varsa ihtiyacım olan tek şey ateş. Böylece etrafım kar ve buzla çevrili olsa bile elimin altında her zaman bir ziyafet olur."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "En Sevmediği Yemek",
+      "text": "Kabuklu olan her şey. Yengeç, ıstakoz... O tarz şeyler. Böbreğini satıp ancak alabiliyorsun, sonra açabilmek için kıskaçları ve dikenleriyle resmen güreşiyorsun, sonunda da içinde neredeyse hiç et olmuyor. Ne parasına ne de harcadığın emeğe değer."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Hediye Alma: I",
+      "text": "Teşekkürler, çok lezzetli... Bu uzun süre dayanır mı? Sanırım daha sonra bitireceğim."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Hediye Alma: II",
+      "text": "Hımm... Birkaç nadir yabani av bulmana yardım etsem nasıl olur? Daha kaliteli malzemelerle daha da lezzetli olur."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Hediye Alma: III",
+      "text": "... Neyse, yemeği ziyan etmek olmaz. Eminim buna benden daha çok ihtiyacı olan bir köylü vardır."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Doğum Günü",
+      "text": "Nice senelere. Bugündü, değil mi? Benim geldiğim yerde doğum günü kutlamaları biraz lüks sayılır. Bir pasta için yeterince un ve krema denkleştirmek ya da hediye almak için temel ihtiyaçlar dışında bir şeyler satan birilerini bulmak zordur. Ama doğum gününü kutlamak isteyen bir çocuğu asla hor görmem. Aslında böyle olması gerek, umarım Snezhnaya'daki hiçbir çocuğun bundan mahrum kalmadığı günler gelir. Bu yüzden senin doğum gününü ciddiye almaya karar verdim; sana aldığım hediye ve kartın üzerine çok kafa yordum. Bazen dünyada görmek istediğin değişimi kendin başlatmalısın, öyle değil mi?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Yükseltme Hakkında: Giriş",
+      "text": "Güzel. Sanki daha isabetli nişan alıyorum."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Yükseltme Hakkında: Gelişme",
+      "text": "Tugarin de daha iyiye gidiyor. Görünüşe göre daha uyumluyuz."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Yükseltme Hakkında: Zirve",
+      "text": "Sonu ister iyi ister kötü olsun, atışlarım artık ıskalamayacak."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Yükseltme Hakkında: Sonuç",
+      "text": "Uğruna savaştığımız dünya gerçeğe dönüşene kadar daha ne kadar ileri gitmeliyiz?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Element Becerisi: I",
+      "text": "Bas gaza!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Element Becerisi: II",
+      "text": "Tam isabet!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Element Becerisi: III",
+      "text": "Biri gitti!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Element Becerisi: IV",
+      "text": "Hazır olsan da olmasan da..."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Element Becerisi: V",
+      "text": "Av görüldü."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Element Becerisi: VI",
+      "text": "Benimsin."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Element Patlaması: I",
+      "text": "Gel oğlum!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Element Patlaması: II",
+      "text": "Tugarin, getir!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Element Patlaması: III",
+      "text": "Kurtlar sofrasına hoş geldin!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Hazine Sandığı Açma: I",
+      "text": "İyice bak. Hiçbir şeyi kaçırmak istemezsin."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Hazine Sandığı Açma: II",
+      "text": "Mora karşılığında takas edebileceğim bir şeyler var mı?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Hazine Sandığı Açma: III",
+      "text": "Al şunu da peşimize biri takılmadan önce tüyelim."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "Düşük Can: I",
+      "text": "Soğuk içime işlemeye başladı..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "Düşük Can: II",
+      "text": "Siper bulmalıyım..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "Düşük Can: III",
+      "text": "Tedavi masraflarını düşün..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "Düşük Canlı Takım Arkadaşı: I",
+      "text": "Geri çekil! Seni koruyacağım!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "Düşük Canlı Takım Arkadaşı: II",
+      "text": "Sakin ol. Onların işini bitireceğim."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Yere Serilme: I",
+      "text": "Avcılık günlerim... Sona erdi..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Yere Serilme: II",
+      "text": "Tugarin, kaç..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Yere Serilme: III",
+      "text": "Daha hızlı... Silah çekmeliydim..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Hafif Darbe Alma: I",
+      "text": "Umarım buna değmiştir..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Hafif Darbe Alma: II",
+      "text": "Sadece sıyırdı."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Ağır Darbe Alma: I",
+      "text": "Bak bu acıttı..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Ağır Darbe Alma: II",
+      "text": "Ucuz numaralar..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Gruba Katılma: I",
+      "text": "Av başlasın."
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Gruba Katılma: II",
+      "text": "Teçhizat tamam."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Gruba Katılma: III",
+      "text": "Gözlerini avdan ayırma."
     }
   ]
 }

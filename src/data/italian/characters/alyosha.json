@@ -339,7 +339,7 @@
       "_id": 11485,
       "id": "hunters_advance",
       "name": "Avanzata del cacciatore",
-      "description": "Evoca il suo fidato compagno <span style=\"color:#FFD780FF\">Tugarin</span> per combattere al suo fianco sul campo, trasformando per un breve periodo di tempo un'area davanti a sé in un <span style=\"color:#FFD780FF\">Campo di caccia di Folgorite</span>.<br/><br/><span style=\"color:#FFD780FF\">Campo di caccia di Folgorite</span><br/>· Provoca continuamente gli avversari vicini per incitarli ad attaccare.<br/>· Ogni 2 s, infligge un'iterazione di <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span> a qualsiasi avversario presente nel campo.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>· Se nelle vicinanze ci sono avversari, Tugarin si avvicina velocemente a uno di loro ogni 2 s per azzannarlo, infliggendo <span style=\"color:#FFD780FF\">DAN da Electro</span>.<br/>· Se viene colpito un avversario affetto dal <span style=\"color:#FFD780FF\">Marchio del cacciatore</span>, quest'ultimo viene attivato.<br/>· Quando ci sono più avversari, Tugarin attacca prima quelli affetti dal <span style=\"color:#FFD780FF\">Marchio del cacciatore</span>.",
+      "description": "Evoca il suo fidato compagno <span style=\"color:#FFD780FF\">Tugarin</span> per combattere al suo fianco sul campo, trasformando per un breve periodo di tempo un'area davanti a sé in un <span style=\"color:#FFD780FF\">Campo di caccia di Folgorite</span>.<br/><br/><span style=\"color:#FFD780FF\">Campo di caccia di Folgorite</span><br/>· Provoca continuamente gli avversari vicini per incitarli ad attaccare.<br/>· Ogni 2 s, infligge un'iterazione di <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span> a qualsiasi avversario presente nel campo.<br/><br/><span style=\"color:#FFD780FF\">Tugarin</span><br/>· Se nelle vicinanze ci sono avversari, Tugarin si avvicina velocemente a uno di loro ogni 2 s per azzannarlo, infliggendo <span style=\"color:#FFACFFFF\">DAN da Electro</span>.<br/>· Se viene colpito un avversario affetto dal <span style=\"color:#FFD780FF\">Marchio del cacciatore</span>, quest'ultimo viene attivato.<br/>· Quando ci sono più avversari, Tugarin attacca prima quelli affetti dal <span style=\"color:#FFD780FF\">Marchio del cacciatore</span>.",
       "info": "Attendi. Continua ad attendere finché l'impazienza non svanisce. È allora che il piviere dal ventre rosso attraverserà il bosco di betulle per presentarsi davanti alla freccia.",
       "attributes": [
         {
@@ -467,7 +467,7 @@
     {
       "id": "treetop_watch",
       "name": "Vedetta arborea",
-      "description": "Mostra sulla minimappa la posizione delle <span style=\"color:#FFD780FF\">risorse uniche di Snezhnaya</span> vicine.",
+      "description": "Mostra sulla minimappa la posizione delle <span style=\"color:#FFD780FF\">risorse uniche di Snezhnaya</span> vicine. L'effetto si applica anche nel Regno delle Ombre.",
       "level": 0
     }
   ],
@@ -1248,6 +1248,428 @@
       "characterId": 10000148,
       "filename_card": "UI_AvatarIcon_Costume_Card",
       "filename_iconCircle": "UI_AvatarIcon_Alyosha_Circle"
+    }
+  ],
+  "voices": [
+    {
+      "id": "1006",
+      "type": 1,
+      "title": "Presentazione",
+      "text": "Salve, sono Alyosha. Sono un cacciatore... Però, se hai parlato con qualche brigante, potresti aver sentito una versione diversa della mia storia. Ma vabbè, per ora teniamolo tra noi."
+    },
+    {
+      "id": "1101",
+      "type": 1,
+      "title": "Dialogo: Abilità di tiro",
+      "text": "Quando si tratta di affinare la mira, esercitarsi al bersaglio e andare seriamente a caccia sono due cose completamente diverse. E poi, ovviamente, ci sono le abilità che acquisisci in battaglia... Quello è tutto un altro discorso."
+    },
+    {
+      "id": "1102",
+      "type": 1,
+      "title": "Dialogo: Adozione",
+      "text": "Se mai volessi adottare un cane, vieni a cercarmi. Ho tutte le razze che vuoi, e so che con te ognuno di loro sarebbe in ottime mani."
+    },
+    {
+      "id": "1103",
+      "type": 1,
+      "title": "Dialogo: Far quadrare i conti",
+      "text": "Questa parte va a casa, e questa è per le medicine dei Rokot. Ora devo solo trovare abbastanza Mora per la manutenzione delle armi... Eh, vediamo quale banda di briganti sarà sfortunata, stavolta..."
+    },
+    {
+      "id": "1201",
+      "type": 1,
+      "title": "Quando piove",
+      "text": "Il mio cappuccio si sta inzuppando... Oh, no! Tugarin! Non scrollarti!"
+    },
+    {
+      "id": "1202",
+      "type": 1,
+      "title": "Dopo la pioggia",
+      "text": "È ora che la preda strisci fuori dal suo nascondiglio..."
+    },
+    {
+      "id": "1203",
+      "type": 1,
+      "title": "Quando tuona",
+      "text": "Tempo perfetto per un'imboscata. Se hai qualcuno in mente... posso usare il rumore del tuono per coprire i miei spari."
+    },
+    {
+      "id": "1204",
+      "type": 1,
+      "title": "Quando nevica",
+      "text": "Tsk, sarà impossibile seguire le tracce con questo tempo."
+    },
+    {
+      "id": "1205",
+      "type": 1,
+      "title": "Quando soffia il vento",
+      "text": "Non si può mica andare in giro col cappuccio con questo tempo..."
+    },
+    {
+      "id": "1206",
+      "type": 1,
+      "title": "Nel deserto",
+      "text": "Vorrei poter perdere un po' di pelo anch'io..."
+    },
+    {
+      "id": "1001",
+      "type": 1,
+      "title": "Buongiorno",
+      "text": "Senti? Sono gli uccelli che cinguettano nel bosco, come ogni mattina... Che ne dici di andare ad abbatterne un paio?"
+    },
+    {
+      "id": "1002",
+      "type": 1,
+      "title": "Buon pomeriggio",
+      "text": "Di solito pranzo all'aperto in mezzo alla natura, ma non lo consiglierei."
+    },
+    {
+      "id": "1003",
+      "type": 1,
+      "title": "Buonasera",
+      "text": "Alcune delle prede più rare escono solo di notte."
+    },
+    {
+      "id": "1004",
+      "type": 1,
+      "title": "Buonanotte",
+      "text": "Vai pure a riposare. Io ho ancora delle cose da fare, e ho bisogno del favore della notte."
+    },
+    {
+      "id": "2001",
+      "type": 1,
+      "title": "A proposito di Alyosha: Tugarin",
+      "text": "Quando ho trovato Tugarin per la prima volta, il piccolo era stato abbandonato nella neve; era raggomitolato su sé stesso e non riusciva nemmeno a muoversi. È un tipo tosto, però: gli ho dato un paio di salsicce ed è schizzato in piedi, a corrermi intorno come un matto. Non è che abbia razioni da offrire a un animale domestico, ma... cos'è un cacciatore senza il suo cane da caccia?"
+    },
+    {
+      "id": "2005",
+      "type": 1,
+      "title": "A proposito di Alyosha: Fucile da caccia",
+      "text": "Mio padre mi regalò questo fucile da caccia tempo fa, ma da allora l'ho completamente modificato. Che un'arma sia recuperata, rubata o comprata, può essere l'unica cosa che ti separa da morte certa, e questo è sempre un rischio. Ci metto in gioco la vita con questo aggeggio, quindi devo conoscerlo come le mie tasche, fino al più piccolo componente. Certo, manutenzione e modifiche non costano poco; ma, se per coprire il costo devo saltare qualche pasto, pazienza..."
+    },
+    {
+      "id": "2003",
+      "type": 1,
+      "title": "A proposito di noi: Cacciatori e avventurieri",
+      "text": "Con la natura selvaggia di fronte, un cacciatore torna indietro dopo aver catturato la preda, ma un avventuriere fa sempre un passo in più. Ecco perché sei tu che hai una lista infinita di imprese epiche, e non io. Detto questo, ascoltarti raccontare tutte le tue avventure emozionanti non è certo un brutto modo per passare il tempo."
+    },
+    {
+      "id": "2002",
+      "type": 1,
+      "title": "A proposito di noi: Ideali",
+      "text": "Che tipo di nazione pensi che diventerà Snezhnaya? Eh... Sai, non l'ho mai chiesto a nessuno prima d'ora: gli abitanti sono troppo impegnati a preoccuparsi di trovare di che mangiare, e i briganti sono troppo occupati a truffare il prossimo; nessuno ha il tempo per quel tipo di discorsi. Tu invece sei la persona perfetta a cui chiederlo. Non c'è bisogno di scambiarci le risposte adesso, voglio rifletterci ancora un po'. Dopotutto, credo sia solo un modo diverso di chiedersi a quale \"ideale\" aspiriamo."
+    },
+    {
+      "id": "3006",
+      "type": 1,
+      "title": "A proposito della Visione",
+      "text": "Spesso la gente dice che una Visione dovrebbe rappresentare i tuoi desideri più profondi, ma è un pensiero inutile e sdolcinato che per me non ha alcun senso. Tutto quello che m'interessa è cosa può fare di utile per me questo gingillo. Se non avessi scoperto che mi rende più potente, probabilmente l'avrei già scambiato per qualche Mora."
+    },
+    {
+      "id": "3002",
+      "type": 1,
+      "title": "Qualcosa da condividere",
+      "text": "Quando ti allontani dai sentieri battuti a Snezhnaya, conoscere il gergo locale è un'abilità importante. Se ti imbatti in certe Fate o nei briganti, saper parlare la loro lingua può risparmiarti un sacco di guai. Ah, e se mai dovessi incontrare un gruppo di persone che continuano a borbottare qualcosa su un \"pollo\", ripuliscili per bene. \"Pollo\" è il termine in codice per un civile indifeso che porta con sé una piccola quantità di oggetti di valore; in pratica, un bersaglio facile. Quelli che gli danno la caccia sono la feccia della feccia, ma non sono alla nostra altezza. In più, considerando la loro fedina penale, non si sognerebbero mai di denunciarci alla Druzhna, quindi devono solo incassare il colpo."
+    },
+    {
+      "id": "3003",
+      "type": 1,
+      "title": "Curiosità",
+      "text": "Ho sentito che a Mondstadt c'è una taverna chiamata Coda di Gatto, dove si sfidano esperti di Invokazione del genio di tutta Teyvat. Se mai avrò la possibilità di viaggiare all'estero, è il primo posto dove voglio andare. Solo che Mondstadt è così lontana da qui... *sospira* Perché a Snezhnaya non esistono posti del genere?"
+    },
+    {
+      "id": "4001",
+      "type": 1,
+      "title": "A proposito della Tsaritsa",
+      "text": "Per me, Sua Maestà la Tsaritsa è come la neve che ricopre questa terra: porta con sé un freddo pungente che non possiamo fare altro che sopportare, ma al contempo ci protegge dalle cose più oscure di questo mondo. I figli di questa terra ghiacciata vedranno mai il disgelo...? Mi chiedo se la Tsaritsa concederà mai una simile grazia..."
+    },
+    {
+      "id": "4002",
+      "type": 1,
+      "title": "A proposito di Odette",
+      "text": "Sono rimasto molto sorpreso nello scoprire che Odette fa parte dei Rokot. Non avrei mai pensato che un membro dei Fatui potesse condividere i nostri principi... Ma ora che mi sono dovuto ricredere, comincio a pensare che realizzare i cambiamenti che desideriamo potrebbe non essere così difficile come immaginavo. Un futuro più luminoso per questa nazione è ancora alla nostra portata."
+    },
+    {
+      "id": "4003",
+      "type": 1,
+      "title": "A proposito di Vodyanitsa",
+      "text": "Vodyanitsa è una fonte di informazioni vitale per i Rokot: ogni volta che vado da lei per sapere qualcosa, è sempre di grande aiuto; quando non parliamo di lavoro, però, faccio fatica a capire cosa stia cercando di dire. Odette invece non sembra avere questo problema, quelle due vanno d'accordo come se fosse la cosa più naturale del mondo... Mi chiedo se le ragazze condividano una specie di codice segreto..."
+    },
+    {
+      "id": "4004",
+      "type": 1,
+      "title": "A proposito di Valeriy",
+      "text": "La prima volta che ho incontrato Valeriy, mi ha sbarrato la strada e mi ha cacciato dal Palazzo dell'Armeria, citando non so quale articolo di non so quale regolamento che diceva che non potevo avvicinarmi... Cioè, mi stavo aggirando con un fucile da caccia, nientemeno, quindi mi ha stupito che non mi abbia arrestato sul posto. Anzi, mi aspettavo di dover combattere per scappare, e invece mi sono ritrovato un nuovo contatto all'Armeria. Non male come svolta! Onestamente, la pensiamo allo stesso modo su molte cose; quindi, ora che abbiamo stabilito un confine definito, finché non verrà superato andremo d'accordo alla grande."
+    },
+    {
+      "id": "4005",
+      "type": 1,
+      "title": "A proposito di Mitya",
+      "text": "Non ho mai avuto una vera istruzione formale, quindi pensavo che sarebbe stato difficile andare d'accordo con uno come Mitya; e invece, mi ha aiutato a modificare il fucile più di una volta, senza che dovessi nemmeno chiederglielo, perciò è chiaro che mi preoccupavo per niente. Con Mitya è facile parlare, lo tratto come qualsiasi altro vicino e funziona alla grande. Un consiglio, però: se parte per la tangente con le sue robe scientifiche, meglio stargli alla larga."
+    },
+    {
+      "id": "5001",
+      "type": 1,
+      "title": "Altro su Alyosha (1)",
+      "text": "Stai cercando di farmi rivelare i miei segreti, eh? Va bene. Te ne concedo uno, ma solo questo: essere un \"cacciatore\" è un travestimento molto utile."
+    },
+    {
+      "id": "5002",
+      "type": 1,
+      "title": "Altro su Alyosha (2)",
+      "text": "Una volta qualcuno mi ha chiesto se ci sia differenza tra puntare un fucile contro un animale e contro una persona. Lì per lì non ho risposto, ma sono convinto che una differenza ci sia. È solo che... più sparo, più quel confine si sfuma e più il gesto di premere il grilletto inizia a sembrare uguale, indipendentemente dal bersaglio... Quindi no, non provo alcun piacere nel puntare il fucile contro le persone. A volte mi chiedo cosa succederebbe se quel confine un giorno scomparisse del tutto, e questo mi spaventa."
+    },
+    {
+      "id": "5003",
+      "type": 1,
+      "title": "Altro su Alyosha (3)",
+      "text": "Quand'ero bambino, una banda di delinquenti saccheggiò la mia casa e rubò tutto ciò che avevamo. I miei genitori cercarono di minimizzare, dicendo che ce la saremmo cavata, ma io sapevo cosa significava perdere tutto per la nostra famiglia. Così decisi di mettere a frutto le mie abilità di cacciatore, e per la prima volta il mio bersaglio non fu un animale. Ora ho le mani sporche di sangue, e non me ne pento: meritavano di pagare per quello che avevano fatto. Si scoprì, però, che erano poveri e miserabili quanto noi, spinti alla disperazione da circostanze al di fuori del loro controllo. Fu allora che capii: i balordi e i ladri non sono il vero problema di questa nazione, e se non riusciamo a capire quale sia veramente, il sangue sulle mie mani non sarà servito a nulla."
+    },
+    {
+      "id": "5004",
+      "type": 1,
+      "title": "Altro su Alyosha (4)",
+      "text": "Ho deciso di unirmi ai Rokot perché sento che i principi per cui combattiamo sono esattamente ciò di cui Snezhnaya ha bisogno in questo momento; ma so che un giorno non sarà più così. Una volta ottenuto ciò per cui abbiamo combattuto, molte cose cambieranno, e sarà allora che inizierà la vera prova."
+    },
+    {
+      "id": "5005",
+      "type": 1,
+      "title": "Altro su Alyosha (5)",
+      "text": "Ai miei occhi, i realisti sono tra gli individui più egocentrici e opportunisti al mondo, sempre ossessionati dal profitto, dal potere o da ciò che chi li circonda potrebbe nascondere. Gli idealisti, al contrario, sono forse i più nobili tra noi. Nessuna tolleranza per le menzogne, i furti o la minima ingiustizia. In realtà, però, esiste un terzo tipo di individuo: l'\"idealista realista\", che vive intrappolato nel mezzo, costantemente spinto in direzioni opposte."
+    },
+    {
+      "id": "6001",
+      "type": 1,
+      "title": "Gli hobby di Alyosha",
+      "text": "Modificare, fare manutenzione e testare il mio fucile... Pensavo che prendersi cura delle armi fosse una pura necessità; ma, considerando quanto tempo e quanti Mora ci investo, credo sia ora di ammettere che è diventata anche una passione."
+    },
+    {
+      "id": "6012",
+      "type": 1,
+      "title": "I guai di Alyosha",
+      "text": "Ecco, quelli sarebbero tutti i Mora che spendo per modificare, mantenere e testare il mio fucile... Fai due conti, e potresti renderti conto che le cose che ami di più nella vita sono anche la fonte di tutti i tuoi problemi."
+    },
+    {
+      "id": "6003",
+      "type": 1,
+      "title": "Cibo preferito",
+      "text": "Carne essiccata, pane a lunga conservazione, formaggio che si scioglie quando lo abbrustolisci... Con questi ingredienti, mi basta un fuoco e ho sempre un banchetto a portata di mano, anche quando sono circondato da ghiaccio e neve."
+    },
+    {
+      "id": "6004",
+      "type": 1,
+      "title": "Cibo meno amato",
+      "text": "Tutto quello che ha un guscio. Granchi, aragoste... cose del genere. Costano un occhio della testa, praticamente devi lottare contro le loro chele e le spine solo per riuscire ad aprirli, e dopo tutta quella fatica, dentro c'è a malapena un po' di carne. Non vale il costo né lo sforzo."
+    },
+    {
+      "id": "6007",
+      "type": 1,
+      "title": "Ricevere un regalo (1)",
+      "text": "Grazie, è delizioso... Si conserva bene? Credo che lo finirò dopo."
+    },
+    {
+      "id": "6008",
+      "type": 1,
+      "title": "Ricevere un regalo (2)",
+      "text": "Uhm... Posso aiutarti a procurarti della selvaggina rara? Con ingredienti di qualità superiore, verrebbe ancora più buono."
+    },
+    {
+      "id": "6009",
+      "type": 1,
+      "title": "Ricevere un regalo (3)",
+      "text": "...Beh, non si può sprecare il cibo. Sono sicuro che c'è qualche residente che ne ha più bisogno di me."
+    },
+    {
+      "id": "7001",
+      "type": 1,
+      "title": "Compleanno",
+      "text": "Buon compleanno! È oggi, vero? Sai, da dove vengo io, festeggiare il compleanno è di solito un lusso che non possiamo permetterci. Buona fortuna a racimolare abbastanza farina e panna per una torta, o a trovare qualcuno che venda qualcosa oltre allo stretto necessario da usare come regalo. Ma non ce l'avrò mai con un ragazzino che vuole festeggiare il suo compleanno. È così che dovrebbe essere, e un giorno spero che nessun bambino a Snezhnaya debba farne a meno. Perciò ho deciso di prendere molto sul serio il tuo compleanno, e ho riflettuto a lungo sul regalo e il biglietto che ti ho preso. A volte devi essere tu il cambiamento che vuoi vedere nel mondo, no?"
+    },
+    {
+      "id": "8001",
+      "type": 1,
+      "title": "Pensieri sull'ascensione: Introduzione",
+      "text": "Bene. La mia mira sembra sia migliorata."
+    },
+    {
+      "id": "8002",
+      "type": 1,
+      "title": "Pensieri sull'ascensione: Crescendo",
+      "text": "Anche Tugarin sta migliorando, sembra che siamo più in sintonia."
+    },
+    {
+      "id": "8003",
+      "type": 1,
+      "title": "Pensieri sull'ascensione: Culmine",
+      "text": "Nel bene o nel male, ora i miei colpi non mancheranno il bersaglio."
+    },
+    {
+      "id": "8004",
+      "type": 1,
+      "title": "Pensieri sull'ascensione: Conclusione",
+      "text": "Quanta altra strada dovremo fare prima che il mondo per cui lottiamo diventi realtà?"
+    },
+    {
+      "id": "100001",
+      "type": 2,
+      "title": "Abilità elementale (1)",
+      "text": "Fuoco!"
+    },
+    {
+      "id": "100002",
+      "type": 2,
+      "title": "Abilità elementale (2)",
+      "text": "Centro!"
+    },
+    {
+      "id": "100003",
+      "type": 2,
+      "title": "Abilità elementale (3)",
+      "text": "Meno uno!"
+    },
+    {
+      "id": "100004",
+      "type": 2,
+      "title": "Abilità elementale (4)",
+      "text": "Pronto o no..."
+    },
+    {
+      "id": "100005",
+      "type": 2,
+      "title": "Abilità elementale (5)",
+      "text": "Preda avvistata."
+    },
+    {
+      "id": "100006",
+      "type": 2,
+      "title": "Abilità elementale (6)",
+      "text": "Ti ho beccato."
+    },
+    {
+      "id": "200001",
+      "type": 2,
+      "title": "Tripudio elementale (1)",
+      "text": "Qui, Tugarin!"
+    },
+    {
+      "id": "200002",
+      "type": 2,
+      "title": "Tripudio elementale (2)",
+      "text": "Tugarin, riporta qui!"
+    },
+    {
+      "id": "200003",
+      "type": 2,
+      "title": "Tripudio elementale (3)",
+      "text": "Cane mangia cane!"
+    },
+    {
+      "id": "300001",
+      "type": 2,
+      "title": "Apertura baule (1)",
+      "text": "Guarda bene, o rischi di perderti qualcosa."
+    },
+    {
+      "id": "300002",
+      "type": 2,
+      "title": "Apertura baule (2)",
+      "text": "C'è qualcosa che posso scambiare per un po' di Mora?"
+    },
+    {
+      "id": "300003",
+      "type": 2,
+      "title": "Apertura baule (3)",
+      "text": "Prendilo e andiamocene, prima che qualcuno inizi a seguirci."
+    },
+    {
+      "id": "410001",
+      "type": 2,
+      "title": "PS bassi (1)",
+      "text": "Il freddo mi sta consumando..."
+    },
+    {
+      "id": "410002",
+      "type": 2,
+      "title": "PS bassi (2)",
+      "text": "Devo trovare un riparo..."
+    },
+    {
+      "id": "410003",
+      "type": 2,
+      "title": "PS bassi (3)",
+      "text": "Pensa alle spese mediche..."
+    },
+    {
+      "id": "400001",
+      "type": 2,
+      "title": "PS bassi alleato (1)",
+      "text": "Ritirata! Ti copro io!"
+    },
+    {
+      "id": "400002",
+      "type": 2,
+      "title": "PS bassi alleato (2)",
+      "text": "Non temere, li finisco io."
+    },
+    {
+      "id": "500001",
+      "type": 2,
+      "title": "Fuori combattimento (1)",
+      "text": "I miei giorni di caccia... sono finiti..."
+    },
+    {
+      "id": "500002",
+      "type": 2,
+      "title": "Fuori combattimento (2)",
+      "text": "Tugarin, corri..."
+    },
+    {
+      "id": "500003",
+      "type": 2,
+      "title": "Fuori combattimento (3)",
+      "text": "Avrei dovuto... estrarre... più in fretta..."
+    },
+    {
+      "id": "900001",
+      "type": 2,
+      "title": "Danni da colpo leggero (1)",
+      "text": "Spero ne sia valsa la pena..."
+    },
+    {
+      "id": "900002",
+      "type": 2,
+      "title": "Danni da colpo leggero (2)",
+      "text": "Mi ha solo sfiorato."
+    },
+    {
+      "id": "910001",
+      "type": 2,
+      "title": "Danni da colpo pesante (1)",
+      "text": "Che male..."
+    },
+    {
+      "id": "910002",
+      "type": 2,
+      "title": "Danni da colpo pesante (2)",
+      "text": "Un colpo basso..."
+    },
+    {
+      "id": "600001",
+      "type": 2,
+      "title": "Unione al gruppo (1)",
+      "text": "Che la caccia abbia inizio!"
+    },
+    {
+      "id": "600002",
+      "type": 2,
+      "title": "Unione al gruppo (2)",
+      "text": "Tutto pronto."
+    },
+    {
+      "id": "600003",
+      "type": 2,
+      "title": "Unione al gruppo (3)",
+      "text": "Occhi fissi sul bersaglio."
     }
   ]
 }
