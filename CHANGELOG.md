@@ -1,3 +1,16 @@
+## [0.63.1](https://github.com/dvaJi/genshin-data/compare/0.63.0...0.63.1) (2026-10-28)
+
+### Features
+
+- rich interactive character kit descriptions: skill/passive/constellation strings now carry
+  `<link kind="...">` tags compiled from the dump's `{LINK#...}` markup (named effects,
+  in-kit skill/passive/constellation cross-references), and `{PARAM#...}` dynamic numbers
+  are resolved inline at build time
+- new optional `Character.effects` map on kits that reference named effects: full tooltip
+  content per effect id (`{ name, description, color }`), localized with EN fallback
+  (e.g. "Lead Vocal"/"Chorus" in Vodyanitsa's kit)
+- schemas + typings updated for the new optional field (additive, no breaking changes)
+
 ## [0.63.0](https://github.com/dvaJi/genshin-data/compare/0.62.0...0.63.0) (2026-09-30)
 
 ### Features
