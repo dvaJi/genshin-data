@@ -1,3 +1,16 @@
+## [0.63.2](https://github.com/dvaJi/genshin-data/compare/0.63.1...0.63.2) (2026-10-29)
+
+### Fixes
+
+- strip every remaining inline game markup from emitted strings: `{M#…}/{F#…}` gender
+  variants (~22k occurrences across voices, geography, domains, weapon passives, outfits,
+  material sources, achievements), `{NON_BREAK_SPACE}` (523), generic
+  `{MATEAVATAR#SEXPRO[a|b]}` pronouns and orphan `{LINK#…}` tokens. Convention: the male
+  variant wins, and lone/unterminated variant tokens keep their content instead of being
+  silently dropped
+- malformed upstream markers are tolerated: `{/LINK` without a closing brace and
+  `{LAYOUT_…}` triples in any language order no longer leak raw syntax
+
 ## [0.63.1](https://github.com/dvaJi/genshin-data/compare/0.63.0...0.63.1) (2026-10-28)
 
 ### Features
