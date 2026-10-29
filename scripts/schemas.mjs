@@ -135,6 +135,8 @@ const character = z.object({
   outfits: z.array(z.object({ id: z.number(), name: optStr, description: optStr, isDefault: z.boolean(), characterName: optStr, characterId: numId })),
   // Added by format-genshindata 7.x; absent on older dumps.
   voices: z.array(z.object({ id: z.string(), type: z.number(), title: optStr, text: optStr })).optional(),
+  // Named-effect tooltips ({LINK#N<id>} targets); absent on kits without effect links.
+  effects: z.record(z.string(), z.object({ name: optStr, description: optStr, color: optStr })).optional(),
 });
 
 // --- weapons ----------------------------------------------------------------

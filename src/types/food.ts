@@ -7,7 +7,7 @@ export interface Food {
     description: string;
     rarity:      number;
     ingredients: Ingredient[];
-    dish_type:   string;
+    dish_type:   null | string;
     results:     Results;
 }
 
@@ -19,10 +19,10 @@ export interface Ingredient {
 }
 
 export interface Results {
-    suspicious: Delicious;
-    normal:     Delicious;
-    delicious:  Delicious;
-    special?:   Special;
+    suspicious?: Delicious;
+    normal?:     Delicious;
+    delicious?:  Delicious;
+    special?:    Special;
 }
 
 export interface Delicious {
@@ -34,11 +34,11 @@ export interface Delicious {
 
 export interface Special {
     _id:         number;
-    id:          string;
+    id?:         string;
     name:        string;
     description: string;
     effect:      string;
-    character:   Character;
+    character?:  Character;
 }
 
 export interface Character {

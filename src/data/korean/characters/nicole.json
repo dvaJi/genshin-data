@@ -190,7 +190,7 @@
       "_id": 11312,
       "id": "revelation_uncreated_light",
       "name": "성언 묵시·미현의 빛",
-      "description": "과거 하늘의 신권을 대행하던 장면을 재현한다. 주변에 있는 파티 내 모든 캐릭터에게 <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b><b></b> 효과를 부여해 해당 캐릭터들의 공격력을 증가시키며, <span style=\"color:#FF9999FF\">불 원소 범위 피해</span>를 주고, 광휘 보호막을 펼친다.<br/>광휘 보호막의 피해 흡수량은 니콜 공격력의 영향을 받으며, <span style=\"color:#FF9999FF\">불 원소 피해</span>에 대해 250%의 흡수 효과가 있다",
+      "description": "과거 하늘의 신권을 대행하던 장면을 재현한다. 주변에 있는 파티 내 모든 캐릭터에게 <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link><link kind=\"effect\" id=\"11310002\"></link> 효과를 부여해 해당 캐릭터들의 공격력을 증가시키며, <span style=\"color:#FF9999FF\">불 원소 범위 피해</span>를 주고, 광휘 보호막을 펼친다.<br/>광휘 보호막의 피해 흡수량은 니콜 공격력의 영향을 받으며, <span style=\"color:#FF9999FF\">불 원소 피해</span>에 대해 250%의 흡수 효과가 있다",
       "info": "",
       "attributes": [
         {
@@ -469,13 +469,13 @@
     {
       "id": "methexis",
       "name": "나눔",
-      "description": "원소전투 스킬 <color=#FFD780FF><b>성언 묵시·미현의 빛</b></color> 발동 후 20초 동안, 니콜은 현재 필드에 있는 파티 내 자신의 다른 캐릭터를 지속적으로 「관측」한다. 관측 대상이 된 다른 캐릭터가 3초 동안 필드에 머물면, 해당 캐릭터가 보유한 <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b> 효과가 <b><span style=\"color:#FFD780FF\">축성의 인도</span></b>로 승급되어 추가로 공격력이 300pt 증가한다. 만약 관측 대상이 된 캐릭터가 마도 캐릭터인 경우, <span style=\"color:#FFD780FF\">자기 비움의 축복</span> 효과가 즉시 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다.<br/>니콜을 제외한 다른 캐릭터가 보유한 <span style=\"color:#FFD780FF\">축성의 인도</span>는 퇴장 시 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>으로 다시 전환된다",
+      "description": "원소전투 스킬 <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">성언 묵시·미현의 빛</link></span> 발동 후 20초 동안, 니콜은 현재 필드에 있는 파티 내 자신의 다른 캐릭터를 지속적으로 「관측」한다. 관측 대상이 된 다른 캐릭터가 3초 동안 필드에 머물면, 해당 캐릭터가 보유한 <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link> 효과가 <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">축성의 인도</span></link>로 승급되어 추가로 공격력이 300pt 증가한다. 만약 관측 대상이 된 캐릭터가 마도 캐릭터인 경우, <span style=\"color:#FFD780FF\">자기 비움의 축복</span> 효과가 즉시 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다.<br/>니콜을 제외한 다른 캐릭터가 보유한 <span style=\"color:#FFD780FF\">축성의 인도</span>는 퇴장 시 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>으로 다시 전환된다",
       "level": 1
     },
     {
       "id": "philokalia",
       "name": "선행",
-      "description": "주변에 있는 파티 내 현재 필드 위 캐릭터의 원소 피해가 적 명중 후, 니콜 자신이 보유한 <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b>이 <b><span style=\"color:#FFD780FF\">축성의 인도</span></b>로 승급된다. 지속 시간: 8초",
+      "description": "주변에 있는 파티 내 현재 필드 위 캐릭터의 원소 피해가 적 명중 후, 니콜 자신이 보유한 <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link>이 <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">축성의 인도</span></link>로 승급된다. 지속 시간: 8초",
       "level": 4
     },
     {
@@ -497,35 +497,35 @@
       "_id": 1312,
       "id": "i_will_guide_you_and_show_you_the_path_you_should_tread",
       "name": "「내가 너를 인도하고 훈계하리로다」",
-      "description": "원소전투 스킬 <color=#FFD780FF><b>성언 묵시·미현의 빛</b></color>의 효과가 강화된다: <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b>이 공격력을 추가로 300pt 증가시킨다(해당 효과의 공격력 보너스 최대치에는 포함되지 않는다). <b><span style=\"color:#FFD780FF\">축성의 인도</span></b>는 캐릭터의 원소 타입에 따라 주변 적의 상응하는 원소 내성을 25% 감소시킨다. 동일한 원소 타입의 원소 내성 감소 효과는 중첩되지 않는다.<br/>또한, 니콜이 원소전투 스킬 <span style=\"color:#FFD780FF\">성언 묵시·미현의 빛</span> 발동 시, 주변에 있는 현재 필드 위 캐릭터에게 광휘 보호막을 부여한다",
+      "description": "원소전투 스킬 <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">성언 묵시·미현의 빛</link></span>의 효과가 강화된다: <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link>이 공격력을 추가로 300pt 증가시킨다(해당 효과의 공격력 보너스 최대치에는 포함되지 않는다). <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">축성의 인도</span></link>는 캐릭터의 원소 타입에 따라 주변 적의 상응하는 원소 내성을 25% 감소시킨다. 동일한 원소 타입의 원소 내성 감소 효과는 중첩되지 않는다.<br/>또한, 니콜이 원소전투 스킬 <span style=\"color:#FFD780FF\">성언 묵시·미현의 빛</span> 발동 시, 주변에 있는 현재 필드 위 캐릭터에게 광휘 보호막을 부여한다",
       "level": 2
     },
     {
       "_id": 1313,
       "id": "a_lamp_by_your_side_a_light_to_shine_the_way",
       "name": "「나는 네 등불이요 네 곁의 빛이니라」",
-      "description": "원소전투 스킬 <color=#FFD780FF><b>성언 묵시·미현의 빛</b></color>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
+      "description": "원소전투 스킬 <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_uncreated_light\">성언 묵시·미현의 빛</link></span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 3
     },
     {
       "_id": 1314,
       "id": "whether_left_or_right_no_matter_which_way_you_turn",
       "name": "「네가 바른길에서 벗어나 방황할 때」",
-      "description": "주변에 있는 파티 내 캐릭터가 보유한 <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b>이 <b><span style=\"color:#FFD780FF\">축성의 인도</span></b>로 승급될 시, 니콜이 해당 캐릭터에게 추가로 「인도자의 가호」 효과를 부여한다. 지속 시간:20초. 각 캐릭터는 16초마다 해당 효과를 최대 1회 획득할 수 있다.<br/>「인도자의 가호」를 보유한 캐릭터의 일반 공격, 강공격, 낙하 공격, 원소전투 스킬과 원소폭발로 주는 피해가 증가한다. 증가량은 니콜 공격력의 70%에 해당한다. 해당 효과는 8회 발동되거나 지속 시간이 종료되면 사라진다.<br/>동시에 여러 명의 적 명중 시, 명중한 적의 수에 따라 효과 발동 횟수가 소모된다. 파티 내 「인도자의 가호」를 보유한 캐릭터의 효과 발동 횟수는 독립적으로 계산된다",
+      "description": "주변에 있는 파티 내 캐릭터가 보유한 <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link>이 <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">축성의 인도</span></link>로 승급될 시, 니콜이 해당 캐릭터에게 추가로 「인도자의 가호」 효과를 부여한다. 지속 시간:20초. 각 캐릭터는 16초마다 해당 효과를 최대 1회 획득할 수 있다.<br/>「인도자의 가호」를 보유한 캐릭터의 일반 공격, 강공격, 낙하 공격, 원소전투 스킬과 원소폭발로 주는 피해가 증가한다. 증가량은 니콜 공격력의 70%에 해당한다. 해당 효과는 8회 발동되거나 지속 시간이 종료되면 사라진다.<br/>동시에 여러 명의 적 명중 시, 명중한 적의 수에 따라 효과 발동 횟수가 소모된다. 파티 내 「인도자의 가호」를 보유한 캐릭터의 효과 발동 횟수는 독립적으로 계산된다",
       "level": 4
     },
     {
       "_id": 1315,
       "id": "you_will_hear_my_voice_beside_you",
       "name": "「나는 네 귀에 들러 이르기를」",
-      "description": "원소폭발 <color=#FFD780FF><b>성언 묵시·하늘 계단</b></color>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
+      "description": "원소폭발 <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"revelation_ladder_of_divine_ascent\">성언 묵시·하늘 계단</link></span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 5
     },
     {
       "_id": 1316,
       "id": "this_is_the_path_walk_it_without_delay",
       "name": "「이것이 바른길이니 행할지어다」",
-      "description": "니콜이 보유한 <b><span style=\"color:#FFD780FF\">자기 비움의 축복</span></b>이 <b><span style=\"color:#FFD780FF\">축성의 인도</span></b>로 승급될 시, 주변에 있는 파티 내 모든 캐릭터가 보유한 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>도 함께 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다. 승급된 모든 <span style=\"color:#FFD780FF\">축성의 인도</span>는 더 이상 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>으로 다시 전환되지 않는다.<br/>또한, <span style=\"color:#FFD780FF\">축성의 인도</span>를 보유한 캐릭터가 주는 피해는 적의 방어력 40%를 무시한다",
+      "description": "니콜이 보유한 <link kind=\"effect\" id=\"11310001\"><span style=\"color:#FFD780FF\">자기 비움의 축복</span></link>이 <link kind=\"effect\" id=\"11310002\"><span style=\"color:#FFD780FF\">축성의 인도</span></link>로 승급될 시, 주변에 있는 파티 내 모든 캐릭터가 보유한 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>도 함께 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다. 승급된 모든 <span style=\"color:#FFD780FF\">축성의 인도</span>는 더 이상 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>으로 다시 전환되지 않는다.<br/>또한, <span style=\"color:#FFD780FF\">축성의 인도</span>를 보유한 캐릭터가 주는 피해는 적의 방어력 40%를 무시한다",
       "level": 6
     }
   ],
@@ -1667,5 +1667,17 @@
       "title": "파티 가입·세 번째",
       "text": "……"
     }
-  ]
+  ],
+  "effects": {
+    "11310001": {
+      "name": "자기 비움의 축복",
+      "description": "원소전투 스킬 <span style=\"color:#FFD780FF\">성언 묵시·미현의 빛</span> 발동 후, 니콜은 주변에 있는 파티 내 모든 캐릭터에게 해당 효과를 부여한다: 니콜의 공격력에 기반해 공격력이 증가한다.<br/>특정 조건을 충족하면 <span style=\"color:#FFD780FF\">자기 비움의 축복</span> 효과가 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급되고, 공격력이 추가로 증가한다",
+      "color": ""
+    },
+    "11310002": {
+      "name": "축성의 인도",
+      "description": "<span style=\"color:#FFD780FF\">자기 비움의 축복</span> 승급 후의 효과로, 추가로 공격력이 300pt 증가한다.<br/>돌파 특성 「나눔」을 해금하고 다음 중 하나의 「관측」 조건을 만족하면, <span style=\"color:#FFD780FF\">자기 비움의 축복</span>이 남은 지속 시간 동안 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다:<br/>·관측 대상이 된 다른 캐릭터가 필드에서 3초 넘게 존재할 경우.<br/>·관측 대상이 된 다른 캐릭터가 마도 캐릭터인 경우.<br/><br/>또한, 돌파 특성 「선행」을 해금하면, 주변에 있는 파티 내 현재 필드 위 캐릭터가 원소 피해로 적 명중 후, 니콜 자신이 보유한 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>도 <span style=\"color:#FFD780FF\">축성의 인도</span>로 승급된다, 지속 시간: 8초.<br/><br/>니콜을 제외한 다른 캐릭터가 보유한 <span style=\"color:#FFD780FF\">축성의 인도</span>는 퇴장 시 <span style=\"color:#FFD780FF\">자기 비움의 축복</span>으로 다시 전환된다",
+      "color": ""
+    }
+  }
 }

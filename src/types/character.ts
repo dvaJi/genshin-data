@@ -25,6 +25,7 @@ export interface Character {
     talent_materials: TalentMaterial[];
     outfits:          Outfit[];
     voices:           Voice[];
+    effects?:         { [key: string]: Effect };
 }
 
 export interface Ascension {
@@ -63,6 +64,12 @@ export interface Cv {
     chinese:  string;
     japanese: string;
     korean:   string;
+}
+
+export interface Effect {
+    name:        string;
+    description: string;
+    color:       string;
 }
 
 export interface Element {

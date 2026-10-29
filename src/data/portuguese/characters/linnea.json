@@ -190,7 +190,7 @@
       "_id": 11302,
       "id": "countermeasure_lumis_battle_cry",
       "name": "Contramedida: Grito de Guerra de Lumi!",
-      "description": "Se aventure com Lumi! Dependendo de como pressionar, Lumi ataca de formas diferentes.<br/><br/><span style=\"color:#FFD780FF\">Pressionar</span><br/>Lumi golpeia na <color=#FFD780FF><b>Forma Superpoderosa</b></color>, atacando inimigos próximos continuamente, causando <span style=\"color:#FFE699FF\">Dano Geo em AdE</span>. Se houver Jaulas Lunares por perto, Lumi também causará <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> contra inimigos próximos, que será considerado Dano de Cristalização Lunar.<br/><br/><span style=\"color:#FFD780FF\">Pressionar Repetidamente</span><br/>Hora de mostrar do que somos capazes! Depois de usar a Habilidade Elemental, ao pressionar a Habilidade Elemental ou o Ataque Normal repetidamente, Linnea alimenta Lumi com gemas brilhantes. Uma Lumi de barriga cheia ataca na sua <color=#FFD780FF><b>Forma de Poder Supremo</b></color>, causando um golpe especialmente poderoso de <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> que é considerado Dano de Cristalização Lunar, trocando para a <color=#FFD780FF><b>Forma de Poder Normal</b></color>.<br/>Além disso, pressionar a Habilidade Elemental aumenta a RES contra Interrupção de Linnea.",
+      "description": "Se aventure com Lumi! Dependendo de como pressionar, Lumi ataca de formas diferentes.<br/><br/><span style=\"color:#FFD780FF\">Pressionar</span><br/>Lumi golpeia na <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma Superpoderosa</link></span>, atacando inimigos próximos continuamente, causando <span style=\"color:#FFE699FF\">Dano Geo em AdE</span>. Se houver Jaulas Lunares por perto, Lumi também causará <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> contra inimigos próximos, que será considerado Dano de Cristalização Lunar.<br/><br/><span style=\"color:#FFD780FF\">Pressionar Repetidamente</span><br/>Hora de mostrar do que somos capazes! Depois de usar a Habilidade Elemental, ao pressionar a Habilidade Elemental ou o Ataque Normal repetidamente, Linnea alimenta Lumi com gemas brilhantes. Uma Lumi de barriga cheia ataca na sua <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma de Poder Supremo</link></span>, causando um golpe especialmente poderoso de <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> que é considerado Dano de Cristalização Lunar, trocando para a <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma de Poder Normal</link></span>.<br/>Além disso, pressionar a Habilidade Elemental aumenta a RES contra Interrupção de Linnea.",
       "info": "\"Sua vez, Lumi!\"",
       "attributes": [
         {
@@ -299,7 +299,7 @@
       "_id": 11305,
       "id": "memo_survival_guide_in_extreme_conditions",
       "name": "Lembrança: Guia de Sobrevivência Extremo",
-      "description": "Até mestres aventureiros precisam de descanso! Linnea invoca Lumi para atacar na <color=#FFD780FF><b>Forma Superpoderosa</b></color>, curando membros próximos. Ela curará continuamente personagens ativos próximos baseado na DEF de Linnea por um curto tempo.<br/>Se Lumi já atacou ao lançar o Supremo, a duração ativa de Lumi será redefinida. A Forma de Ataque de Lumi não mudará.",
+      "description": "Até mestres aventureiros precisam de descanso! Linnea invoca Lumi para atacar na <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma Superpoderosa</link></span>, curando membros próximos. Ela curará continuamente personagens ativos próximos baseado na DEF de Linnea por um curto tempo.<br/>Se Lumi já atacou ao lançar o Supremo, a duração ativa de Lumi será redefinida. A Forma de Ataque de Lumi não mudará.",
       "info": "\"Qualquer aventureiro profissional que se valorize sabe apreciar sair de uma enrascada com uma descoberta, não importa quão grande ela seja!\"",
       "attributes": [
         {
@@ -409,7 +409,7 @@
     {
       "id": "field_observation_notes",
       "name": "Anotações de Observação de Campo",
-      "description": "Quando Lumi está em campo, ela reduz a <span style=\"color:#FFE699FF\">RES Geo</span> dos inimigos próximos em 15%.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: fortalece a Habilidade Elemental <color=#FFD780FF><b>Contramedida: Grito de Guerra de Lumi!</b></color> e o Supremo <color=#FFD780FF><b>Lembrança: Guia de Sobrevivência Extremo</b></color> de Linnea. Depois de invocar Lumi, ela reduz a <span style=\"color:#FFE699FF\">RES Geo</span> dos inimigos próximos em mais 15%.",
+      "description": "Quando Lumi está em campo, ela reduz a <span style=\"color:#FFE699FF\">RES Geo</span> dos inimigos próximos em 15%.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: fortalece a Habilidade Elemental <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Contramedida: Grito de Guerra de Lumi!</link></span> e o Supremo <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"memo_survival_guide_in_extreme_conditions\">Lembrança: Guia de Sobrevivência Extremo</link></span> de Linnea. Depois de invocar Lumi, ela reduz a <span style=\"color:#FFE699FF\">RES Geo</span> dos inimigos próximos em mais 15%.",
       "level": 1
     },
     {
@@ -436,21 +436,21 @@
       "_id": 1301,
       "id": "provisional_classification",
       "name": "Catálogo Incompleto",
-      "description": "Ao lançar a Habilidade Elemental <color=#FFD780FF><b>Contramedida: Grito de Guerra de Lumi!</b></color>, ou ao desencadear Sonata da Jaula Lunar, Linnea ganha 6 acúmulos de <span style=\"color:#FFD780FF\">Registro de Campo</span> por 10s. Máximo de 18 acúmulos. Quando um membro próximo da equipe causa Dano de Cristalização Lunar, consome 1 acúmulo de Registro de Campo para aumentar o Dano causado. O aumento de Dano é equivalente a 75% da DEF de Linnea.<br/>Além disso, quando Lumi usa <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na sua <color=#FFD780FF><b>Forma de Poder Supremo</b></color>, Linnea pode consumir até 5 acúmulos de Registro de Campo. Cada acúmulo aumenta o Dano causado em 150% da DEF de Linnea.",
+      "description": "Ao lançar a Habilidade Elemental <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Contramedida: Grito de Guerra de Lumi!</link></span>, ou ao desencadear Sonata da Jaula Lunar, Linnea ganha 6 acúmulos de <span style=\"color:#FFD780FF\">Registro de Campo</span> por 10s. Máximo de 18 acúmulos. Quando um membro próximo da equipe causa Dano de Cristalização Lunar, consome 1 acúmulo de Registro de Campo para aumentar o Dano causado. O aumento de Dano é equivalente a 75% da DEF de Linnea.<br/>Além disso, quando Lumi usa <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na sua <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma de Poder Supremo</link></span>, Linnea pode consumir até 5 acúmulos de Registro de Campo. Cada acúmulo aumenta o Dano causado em 150% da DEF de Linnea.",
       "level": 1
     },
     {
       "_id": 1302,
       "id": "tidings_of_joy_and_sorrow",
       "name": "Presságios de Alegria e Sofrimento",
-      "description": "Nos 8s após desencadear uma Sonata da Jaula Lunar, todos os membros <span style=\"color:#80C0FFFF\">Hydro</span> e <span style=\"color:#FFE699FF\">Geo</span> da equipe têm um aumento de 40% do Dano CRIT. Além disso, quando Lumi usa o <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na sua <color=#FFD780FF><b>Forma de Poder Supremo</b></color>, o Dano CRIT desse ataque aumenta em mais 150%.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: quando Lumi usa <span style=\"color:#FFD780FF\">Martelo Pesado da Sobrecarga</span> na sua <color=#FFD780FF><b>Forma Superpoderosa</b></color>, ou quando usa o <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na Forma de Poder Supremo, uma instância de Sonata da Jaula Lunar será ativada. Nessa instância de Sonata da Jaula Lunar, todos os personagens <span style=\"color:#80C0FFFF\">Hydro</span> e <span style=\"color:#FFE699FF\">Geo</span> na equipe serão considerados como se tivessem aplicado seus Elementos na reação.",
+      "description": "Nos 8s após desencadear uma Sonata da Jaula Lunar, todos os membros <span style=\"color:#80C0FFFF\">Hydro</span> e <span style=\"color:#FFE699FF\">Geo</span> da equipe têm um aumento de 40% do Dano CRIT. Além disso, quando Lumi usa o <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na sua <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma de Poder Supremo</link></span>, o Dano CRIT desse ataque aumenta em mais 150%.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: quando Lumi usa <span style=\"color:#FFD780FF\">Martelo Pesado da Sobrecarga</span> na sua <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11300001\">Forma Superpoderosa</link></span>, ou quando usa o <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> na Forma de Poder Supremo, uma instância de Sonata da Jaula Lunar será ativada. Nessa instância de Sonata da Jaula Lunar, todos os personagens <span style=\"color:#80C0FFFF\">Hydro</span> e <span style=\"color:#FFE699FF\">Geo</span> na equipe serão considerados como se tivessem aplicado seus Elementos na reação.",
       "level": 2
     },
     {
       "_id": 1303,
       "id": "eventful_log_page",
       "name": "Página do Diário Marcante",
-      "description": "Aumenta o nível da <color=#FFD780FF><b>Contramedida: Grito de Guerra de Lumi!</b></color> em 3.<br/>O nível máximo de elevação é 15.",
+      "description": "Aumenta o nível da <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Contramedida: Grito de Guerra de Lumi!</link></span> em 3.<br/>O nível máximo de elevação é 15.",
       "level": 3
     },
     {
@@ -464,14 +464,14 @@
       "_id": 1305,
       "id": "fairylands_farewell_gift",
       "name": "Presente de Despedida da Terra Natal",
-      "description": "Aumenta o nível do Supremo <color=#FFD780FF><b>Lembrança: Guia de Sobrevivência Extremo</b></color> em 3.<br/>O nível máximo de elevação é 15.",
+      "description": "Aumenta o nível do Supremo <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"memo_survival_guide_in_extreme_conditions\">Lembrança: Guia de Sobrevivência Extremo</link></span> em 3.<br/>O nível máximo de elevação é 15.",
       "level": 5
     },
     {
       "_id": 1306,
       "id": "golden_beagles_dream",
       "name": "Sonho do Cão Dourado",
-      "description": "Os efeitos da Constelação <span style=\"color:#FFD780FF\">Catálogo Incompleto</span> são fortalecidos: ao lançar a Habilidade Elemental <color=#FFD780FF><b>Contramedida: Grito de Guerra de Lumi!</b></color>, ou ao desencadear uma Sonata da Jaula Lunar, Linnea ganhará diretamente o número máximo de acúmulos de <span style=\"color:#FFD780FF\">Registro de Campo</span>. Ao consumir <span style=\"color:#FFD780FF\">Registro de Campo</span>, consome um número de acúmulos igual ao dobro do número original, de forma que o aumento de Dano será aumentado em 150% do valor original.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: o Dano de Cristalização Lunar causado por membros próximos da equipe será <b><span style=\"color:#FFD780FF\">elevado</span></b> em 25%.",
+      "description": "Os efeitos da Constelação <span style=\"color:#FFD780FF\">Catálogo Incompleto</span> são fortalecidos: ao lançar a Habilidade Elemental <span style=\"color:#FFD780FF\"><link kind=\"skill\" to=\"countermeasure_lumis_battle_cry\">Contramedida: Grito de Guerra de Lumi!</link></span>, ou ao desencadear uma Sonata da Jaula Lunar, Linnea ganhará diretamente o número máximo de acúmulos de <span style=\"color:#FFD780FF\">Registro de Campo</span>. Ao consumir <span style=\"color:#FFD780FF\">Registro de Campo</span>, consome um número de acúmulos igual ao dobro do número original, de forma que o aumento de Dano será aumentado em 150% do valor original.<br/><br/><span style=\"color:#FFD780FF\">Presságio Lunar: Reluzir Cheio</span>: o Dano de Cristalização Lunar causado por membros próximos da equipe será <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">elevado</span></link> em 25%.",
       "level": 6
     }
   ],
@@ -1637,5 +1637,17 @@
       "title": "Entrando na Equipe - III",
       "text": "Me procurando? Estou pronta a qualquer hora!"
     }
-  ]
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Elevação",
+      "description": "O efeito de aumento de Dano especial e os outros efeitos de aumento de Dano têm suas durações contadas separadamente.",
+      "color": ""
+    },
+    "11300001": {
+      "name": "Lumi: Forma de Ataque",
+      "description": "Lumi possui três Formas de Ataque diferentes.<br/><br/><span style=\"color:#FFD780FF\">Forma Superpoderosa</span><br/>Lumi usará <span style=\"color:#FFD780FF\">Golpeador Arrematador</span> para atacar inimigos próximos continuamente. Cada ataque causará 2 instâncias de <span style=\"color:#FFE699FF\">Dano Geo em AdE</span>.<br/>Se houver uma Jaula Lunar por perto, Lumi alternará entre <span style=\"color:#FFD780FF\">Golpeador Arrematador</span> e <span style=\"color:#FFD780FF\">Martelo Pesado da Sobrecarga</span> para atacar inimigos próximos continuamente. <span style=\"color:#FFD780FF\">Martelo Pesado da Sobrecarga</span> causará <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> que será considerado Dano de Cristalização Lunar.<br/><br/><span style=\"color:#FFD780FF\">Forma de Poder Supremo</span><br/>Lumi usa o poderoso <span style=\"color:#FFD780FF\">Esmagador de Milionárias Toneladas</span> para causar muito <span style=\"color:#FFE699FF\">Dano Geo em AdE</span> que é considerado Dano de Cristalização Lunar uma vez, trocando para a <span style=\"color:#FFD780FF\">Forma de Poder Normal</span>.<br/><br/><span style=\"color:#FFD780FF\">Forma de Poder Normal</span><br/>Não é tão chamativa quanto as outras formas, mas ainda é forte.<br/> Lumi usa o <span style=\"color:#FFD780FF\">Golpeador Arrematador</span> em intervalos maiores para atacar inimigos continuamente. Cada ataque causa 2 instâncias de <span style=\"color:#FFE699FF\">Dano Geo em AdE</span>.",
+      "color": ""
+    }
+  }
 }

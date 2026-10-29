@@ -230,7 +230,7 @@
       "_id": 11202,
       "id": "ancient_rite_arcane_light",
       "name": "Rito ancestrale: Luce arcana",
-      "description": "Flins evoca l'antico potere nascosto nella sua lanterna ed entra nella sua forma di <span style=\"color:#FFD780FF\">Fiamma manifesta</span>. La forma ha le seguenti caratteristiche:<br/>· gli attacchi normali e caricati di Flins infliggono <span style=\"color:#FFACFFFF\">DAN da Electro</span> non influenzabili da altre infusioni elementali, e Flins non può più eseguire attacchi in picchiata;<br/>· la resistenza alle interruzioni aumenta;<br/>· l'abilità elementale <span style=\"color:#FFD780FF\">Rito ancestrale: Luce arcana</span> viene sostituita con l'abilità elementale speciale <span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span>.<br/><br/><span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span><br/>Flins evoca una tempesta di lance dinanzi a sé, infliggendo <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span> e trasformando il suo Tripudio elementale <span style=\"color:#FFD780FF\">Rito ancestrale: Venuta della Notte</span> nel Tripudio elementale speciale <b><span style=\"color:#FFD780FF\">Sinfonia tonante</span></b> per i successivi 6 s.<br/>Il TdR di base di <span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span> è di 6 s e non viene influenzato da altri effetti.",
+      "description": "Flins evoca l'antico potere nascosto nella sua lanterna ed entra nella sua forma di <span style=\"color:#FFD780FF\">Fiamma manifesta</span>. La forma ha le seguenti caratteristiche:<br/>· gli attacchi normali e caricati di Flins infliggono <span style=\"color:#FFACFFFF\">DAN da Electro</span> non influenzabili da altre infusioni elementali, e Flins non può più eseguire attacchi in picchiata;<br/>· la resistenza alle interruzioni aumenta;<br/>· l'abilità elementale <span style=\"color:#FFD780FF\">Rito ancestrale: Luce arcana</span> viene sostituita con l'abilità elementale speciale <span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span>.<br/><br/><span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span><br/>Flins evoca una tempesta di lance dinanzi a sé, infliggendo <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span> e trasformando il suo Tripudio elementale <span style=\"color:#FFD780FF\">Rito ancestrale: Venuta della Notte</span> nel Tripudio elementale speciale <link kind=\"effect\" id=\"11200001\"><span style=\"color:#FFD780FF\">Sinfonia tonante</span></link> per i successivi 6 s.<br/>Il TdR di base di <span style=\"color:#FFD780FF\">Lancia burrascosa del Nord</span> è di 6 s e non viene influenzato da altri effetti.",
       "info": "",
       "attributes": [
         {
@@ -650,28 +650,28 @@
       "_id": 1203,
       "id": "stranger_in_the_night",
       "name": "Straniero nella notte",
-      "description": "Aumenta di 3 il livello di <b><span style=\"color:#FFD780FF\">Rito ancestrale: Venuta della Notte</span></b>.<br/>Il livello di potenziamento massimo è 15.",
+      "description": "Aumenta di 3 il livello di <link kind=\"skill\" to=\"ancient_ritual_cometh_the_night\"><span style=\"color:#FFD780FF\">Rito ancestrale: Venuta della Notte</span></link>.<br/>Il livello di potenziamento massimo è 15.",
       "level": 3
     },
     {
       "_id": 1204,
       "id": "night_on_bald_mountain",
       "name": "Notte sulla montagna desolata",
-      "description": "L'ATT di Flins aumenta di un 20%.<br/>Inoltre, il suo talento d'ascensione <b><span style=\"color:#FFD780FF\">Fiamma sussurrante</span></b> viene potenziato: la maestria elementale di Flins aumenta di un 10% del suo ATT. L'incremento massimo ottenibile in questo modo è di 220.",
+      "description": "L'ATT di Flins aumenta di un 20%.<br/>Inoltre, il suo talento d'ascensione <link kind=\"passive\" to=\"whispering_flame\"><span style=\"color:#FFD780FF\">Fiamma sussurrante</span></link> viene potenziato: la maestria elementale di Flins aumenta di un 10% del suo ATT. L'incremento massimo ottenibile in questo modo è di 220.",
       "level": 4
     },
     {
       "_id": 1205,
       "id": "exiles_shadow",
       "name": "Ombra dell'esule",
-      "description": "Aumenta di 3 il livello di <b><span style=\"color:#FFD780FF\">Rito ancestrale: Luce arcana</span></b>.<br/>Il livello di potenziamento massimo è 15.",
+      "description": "Aumenta di 3 il livello di <link kind=\"skill\" to=\"ancient_rite_arcane_light\"><span style=\"color:#FFD780FF\">Rito ancestrale: Luce arcana</span></link>.<br/>Il livello di potenziamento massimo è 15.",
       "level": 5
     },
     {
       "_id": 1206,
       "id": "songs_and_dances_of_death",
       "name": "Canti e danze della morte",
-      "description": "I DAN inflitti agli avversari dalle reazioni di Carica lunare di Flins vengono <b><span style=\"color:#FFD780FF\">innalzati</span></b> di un 35%.<br/>Quando <span style=\"color:#FFD780FF\">Presagio lunare: Barlume ascendente</span> è attivo, i DAN da Carica lunare di tutti i membri vicini del gruppo vengono <span style=\"color:#FFD780FF\">innalzati</span> di un 10%.",
+      "description": "I DAN inflitti agli avversari dalle reazioni di Carica lunare di Flins vengono <link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">innalzati</span></link> di un 35%.<br/>Quando <span style=\"color:#FFD780FF\">Presagio lunare: Barlume ascendente</span> è attivo, i DAN da Carica lunare di tutti i membri vicini del gruppo vengono <span style=\"color:#FFD780FF\">innalzati</span> di un 10%.",
       "level": 6
     }
   ],
@@ -1831,5 +1831,17 @@
       "title": "Unione al gruppo (3)",
       "text": "Lascia che ti faccia strada."
     }
-  ]
+  ],
+  "effects": {
+    "11190007": {
+      "name": "Innalzamento",
+      "description": "Effetto di aumento DAN speciale. Viene calcolato in modo indipendente rispetto ad altri effetti di aumento DAN.",
+      "color": ""
+    },
+    "11200001": {
+      "name": "Sinfonia tonante",
+      "description": "Consuma meno energia elementale per usare un Tripudio elementale speciale. Flins infligge un'iterazione di <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span>. Tali DAN sono considerati DAN da Carica lunare.<br/>Quando <span style=\"color:#FFD780FF\">Presagio lunare: Barlume ascendente</span> è attivo, se sono presenti delle nubi temporalesche nelle vicinanze, Flins infligge un'iterazione aggiuntiva di <span style=\"color:#FFACFFFF\">DAN da Electro ad area</span>. Tali DAN sono considerati DAN da Carica lunare.",
+      "color": ""
+    }
+  }
 }

@@ -230,7 +230,7 @@
       "_id": 11202,
       "id": "ancient_rite_arcane_light",
       "name": "古律·孤灯遗秘",
-      "description": "菲林斯唤出提灯中古老的力量，切换至<span style=\"color:#FFD780FF\">幽焰显迹</span>模式。该模式具有以下特性：<br/>·菲林斯的普通攻击与重击将转为造成无法被附魔覆盖的<span style=\"color:#FFACFFFF\">雷元素伤害</span>，无法进行下落攻击；<br/>·提升菲林斯的抗打断能力；<br/>·元素战技<span style=\"color:#FFD780FF\">古律·孤灯遗秘</span>将会被替换为特殊的元素战技<span style=\"color:#FFD780FF\">北国枪阵</span>。<br/><br/><span style=\"color:#FFD780FF\">北国枪阵</span><br/>菲林斯在前方唤出枪阵，造成<span style=\"color:#FFACFFFF\">雷元素范围伤害</span>，并在接下来6秒内，使菲林斯的元素爆发<span style=\"color:#FFD780FF\">旧仪·夜客致访</span>替换为特殊的元素爆发<b><span style=\"color:#FFD780FF\">雷霆交响</span></b>。<br/><span style=\"color:#FFD780FF\">北国枪阵</span>的基础冷却时间为6秒，该冷却时间不会受到其他效果影响。",
+      "description": "菲林斯唤出提灯中古老的力量，切换至<span style=\"color:#FFD780FF\">幽焰显迹</span>模式。该模式具有以下特性：<br/>·菲林斯的普通攻击与重击将转为造成无法被附魔覆盖的<span style=\"color:#FFACFFFF\">雷元素伤害</span>，无法进行下落攻击；<br/>·提升菲林斯的抗打断能力；<br/>·元素战技<span style=\"color:#FFD780FF\">古律·孤灯遗秘</span>将会被替换为特殊的元素战技<span style=\"color:#FFD780FF\">北国枪阵</span>。<br/><br/><span style=\"color:#FFD780FF\">北国枪阵</span><br/>菲林斯在前方唤出枪阵，造成<span style=\"color:#FFACFFFF\">雷元素范围伤害</span>，并在接下来6秒内，使菲林斯的元素爆发<span style=\"color:#FFD780FF\">旧仪·夜客致访</span>替换为特殊的元素爆发<link kind=\"effect\" id=\"11200001\"><span style=\"color:#FFD780FF\">雷霆交响</span></link>。<br/><span style=\"color:#FFD780FF\">北国枪阵</span>的基础冷却时间为6秒，该冷却时间不会受到其他效果影响。",
       "info": "",
       "attributes": [
         {
@@ -650,28 +650,28 @@
       "_id": 1203,
       "id": "stranger_in_the_night",
       "name": "夜访陌客之沼",
-      "description": "元素爆发<b><span style=\"color:#FFD780FF\">旧仪·夜客致访</span></b>的技能等级提高3级。<br/>至多提升至15级。",
+      "description": "元素爆发<link kind=\"skill\" to=\"ancient_ritual_cometh_the_night\"><span style=\"color:#FFD780FF\">旧仪·夜客致访</span></link>的技能等级提高3级。<br/>至多提升至15级。",
       "level": 3
     },
     {
       "_id": 1204,
       "id": "night_on_bald_mountain",
       "name": "荒山嘶啭之夜",
-      "description": "菲林斯的攻击力提升20%。<br/>此外，突破天赋<b><span style=\"color:#FFD780FF\">「幽焰的呢喃」</span></b>获得强化：菲林斯的元素精通提升，提升值相当于菲林斯的攻击力的10%。通过这种方式，至多使菲林斯的元素精通提升220点。",
+      "description": "菲林斯的攻击力提升20%。<br/>此外，突破天赋<link kind=\"passive\" to=\"whispering_flame\"><span style=\"color:#FFD780FF\">「幽焰的呢喃」</span></link>获得强化：菲林斯的元素精通提升，提升值相当于菲林斯的攻击力的10%。通过这种方式，至多使菲林斯的元素精通提升220点。",
       "level": 4
     },
     {
       "_id": 1205,
       "id": "exiles_shadow",
       "name": "逐远避世之影",
-      "description": "元素战技<b><span style=\"color:#FFD780FF\">古律·孤灯遗秘</span></b>的技能等级提高3级。<br/>至多提升至15级。",
+      "description": "元素战技<link kind=\"skill\" to=\"ancient_rite_arcane_light\"><span style=\"color:#FFD780FF\">古律·孤灯遗秘</span></link>的技能等级提高3级。<br/>至多提升至15级。",
       "level": 5
     },
     {
       "_id": 1206,
       "id": "songs_and_dances_of_death",
       "name": "歌与亡者之舞",
-      "description": "菲林斯对敌人造成的月感电反应伤害<b><span style=\"color:#FFD780FF\">擢升</span></b>35%。<br/><span style=\"color:#FFD780FF\">月兆·满辉</span>：队伍中附近的所有角色造成的月感电反应伤害<span style=\"color:#FFD780FF\">擢升</span>10%。",
+      "description": "菲林斯对敌人造成的月感电反应伤害<link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">擢升</span></link>35%。<br/><span style=\"color:#FFD780FF\">月兆·满辉</span>：队伍中附近的所有角色造成的月感电反应伤害<span style=\"color:#FFD780FF\">擢升</span>10%。",
       "level": 6
     }
   ],
@@ -1831,5 +1831,17 @@
       "title": "加入队伍·其三",
       "text": "需要我来引路吗？"
     }
-  ]
+  ],
+  "effects": {
+    "11190007": {
+      "name": "擢升",
+      "description": "特殊的伤害提升效果，与其他的伤害提升效果分别独立计算。",
+      "color": ""
+    },
+    "11200001": {
+      "name": "雷霆交响",
+      "description": "消耗更少的元素能量便可以施放的特殊元素爆发。菲林斯造成一次视为月感电反应伤害的<span style=\"color:#FFACFFFF\">雷元素范围伤害</span>。<br/><span style=\"color:#FFD780FF\">月兆·满辉</span>：若附近存在雷暴云，还会额外造成一次视为月感电反应伤害的<span style=\"color:#FFACFFFF\">雷元素范围伤害</span>。",
+      "color": ""
+    }
+  }
 }
