@@ -607,7 +607,7 @@
     {
       "id": "the_grand_circuit",
       "name": "The Grand Circuit",
-      "description": "เมื่อไม่ได้อยู่ในสถานะต่อสู้ Vesna สามารถกดกระโดดค้างไว้เพื่อเข้าสู่สถานะ <span style=\"color:#FFD780FF\">Coursing</span> ด้วย ในสถานะ <span style=\"color:#FFD780FF\">Coursing</span> แต่ละครั้ง จะสามารถเพิ่มระดับความสูงได้มากสุด 3 ครั้ง<br/><br/>นอกจากนี้ เมื่ออยู่ในพื้นที่ Snezhnaya (ยกเว้น Nod-Krai) หากไม่ได้อยู่ในสถานะต่อสู้ เมื่อตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นของทีมอยู่กลางอากาศ หากสลับตัว Vesna ออกมา Vesna จะเข้าสู่สถานะ <span style=\"color:#FFD780FF\">Coursing</span> ทันที และฟื้นฟูพลังกาย 50 หน่วย; เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที และจะไร้ผลเมื่ออยู่ในดันเจี้ยน, Trounce Domain และ Spiral Abyss",
+      "description": "เมื่อไม่ได้อยู่ในสถานะต่อสู้ Vesna สามารถกดวิ่งหรือกระโดดค้างไว้ เพื่อเข้าสู่สถานะ <span style=\"color:#FFD780FF\">\"Coursing\"</span><br/><br/><span style=\"color:#FFD780FF\">Coursing</span><br/>ใช้พลังกายอย่างต่อเนื่อง เพื่อรักษาสถานะลอยตัว; เมื่อวิ่ง หรือกดกระโดดเพื่อเพิ่มระดับความสูง จะใช้พลังกายเพิ่มเติม ซึ่งรวมถึงการกดกระโดดค้างไว้เพื่อเข้าสู่สถานะ <span style=\"color:#FFD780FF\">Coursing</span> ด้วย ในสถานะ <span style=\"color:#FFD780FF\">Coursing</span> แต่ละครั้ง จะสามารถเพิ่มระดับความสูงได้มากสุด 3 ครั้ง<br/><br/>นอกจากนี้ เมื่ออยู่ในพื้นที่ Snezhnaya (ยกเว้น Nod-Krai) หากไม่ได้อยู่ในสถานะต่อสู้ เมื่อตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นของทีมอยู่กลางอากาศ หากสลับตัว Vesna ออกมา Vesna จะเข้าสู่สถานะ <span style=\"color:#FFD780FF\">Coursing</span> ทันที และฟื้นฟูพลังกาย 50 หน่วย; เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 10 วินาที และจะไร้ผลเมื่ออยู่ในดันเจี้ยน, Trounce Domain และ Spiral Abyss",
       "level": 0
     }
   ],
@@ -651,7 +651,7 @@
       "_id": 1436,
       "id": "unwavering_ardor",
       "name": "Unwavering Ardor",
-      "description": "ภายใน 5 วินาที หลังจากปล่อย <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11430003\">Windborne Sword</link></span> ขั้นสูงสุด Vesna จะสามารถกดขึ้น 20%",
+      "description": "ภายใน 5 วินาที หลังจากปล่อย <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11430003\">Windborne Sword</link></span> ขั้นสูงสุด Vesna จะสามารถกดโจมตีปกติหรือสกิลธาตุ เพื่อปล่อย <span style=\"color:#FFD780FF\">Windborne Sword: Transpose</span> ซึ่งเป็นวิชาลับของเผ่าวีลา: สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 150% ของพลังโจมตีของ Vesna และอัญเชิญ <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11430004\">ดาบวิญญาณ</link></span> ออกมา ซึ่งจะสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span>เพิ่มเติม 200% ของพลังโจมตีของ Vesna หาก Vesna อยู่ในโหมด <span style=\"color:#FFD780FF\"><link kind=\"effect\" id=\"11430001\">Armed for Action</link></span> จะเรียกขนนกวาโยออกมาเพิ่มเติมเพื่อร่วมโจมตีศัตรู<br/>นอกจากนี้ ความเสียหายปฏิกิริยากระจายดาราที่ Vesna สร้างจะได้รับการ<link kind=\"effect\" id=\"11190007\"><span style=\"color:#FFD780FF\">ยกระดับ</span></link>ขึ้น 20%",
       "level": 6
     }
   ],
@@ -1855,6 +1855,11 @@
     }
   ],
   "effects": {
+    "11190007": {
+      "name": "ยกระดับ",
+      "description": "เอฟเฟกต์เพิ่มความเสียหายพิเศษ จะคำนวณแยกจากเอฟเฟกต์เพิ่มความเสียหายอื่น ๆ",
+      "color": ""
+    },
     "11430001": {
       "name": "Armed for Action",
       "description": "หลังจากปล่อยสกิลธาตุ <span style=\"color:#FFD780FF\">The Art of Victory</span> แล้ว Vesna จะสลับเข้าสู่โหมดนี้ โดยโหมดนี้จะคงอยู่ต่อเนื่องมากสุด 15 วินาที และมีคุณสมบัติดังนี้:<br/>·เพิ่มความสามารถในการต้านทานการหยุดชะงักของ Vesna<br/>·เมื่อ Vesna ทำการโจมตีปกติ ชาร์จโจมตี และโจมตีพุ่งลงจากอากาศ จะเปลี่ยนเป็นการสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span>ที่ไม่สามารถซ้อนทับด้วยธาตุอื่นได้ และอัญเชิญขนนกวาโยออกมาช่วยโจมตีศัตรู เพื่อสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span>เพิ่มเติม; ทุกครั้งที่อัญเชิญขนนกวาโย จะฟื้นฟู <span style=\"color:#FFD780FF\">Sword Essence</span> จำนวนหนึ่งให้แก่ Vesna<br/>·Vesna สามารถใช้ <span style=\"color:#FFD780FF\">Sword Essence</span> เพื่อปล่อยสกิลธาตุพิเศษ <span style=\"color:#FFD780FF\">Windborne Sword</span> ซึ่งจะสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span>แก่ศัตรู<br/>·เมื่อระยะเวลาต่อเนื่องสิ้นสุดลง หรือหลังจากปล่อย <span style=\"color:#FFD780FF\">Windborne Sword</span> ขั้นสูงสุดครบ 3 ครั้ง Vesna จะออกจากโหมดดังกล่าว และลบล้าง <span style=\"color:#FFD780FF\">Sword Essence</span> ทั้งหมด",

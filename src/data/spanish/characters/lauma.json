@@ -270,7 +270,7 @@
       "_id": 11192,
       "id": "runo_dawnless_rest_of_karsikko",
       "name": "Runo: Reposo sin alba del Karsikko",
-      "description": "Entona una silenciosa y antigua letanía para invocar un <link kind=\"effect\" id=\"11190001\"><span style=\"color:#FFD780FF\">santuario bosquescarcha</span></link>, el cual producirá diferentes efectos dependiendo de si se Pulsar una vez. Lauma puede consumir un máximo de 3 gotas de rocío de la espesura de esta manera cada vez que use su Habilidad Elemental manteniéndola pulsada.<br/><br/>Además, cuando Lauma golpea a un enemigo con su Habilidad Elemental o con santuario bosquescarcha, la <span style=\"color:#99FF88FF\">RES Dendro</span> y la <span style=\"color:#80C0FFFF\">RES Hydro</span> de dicho enemigo se reducen durante 10 s.",
+      "description": "Entona una silenciosa y antigua letanía para invocar un <link kind=\"effect\" id=\"11190001\"><span style=\"color:#FFD780FF\">santuario bosquescarcha</span></link>, el cual producirá diferentes efectos dependiendo de si se pulsa una vez o se mantiene pulsado.<br/><br/><span style=\"color:#FFD780FF\">Pulsar una vez</span><br/>Recita la letanía de la caza, lo que inflige <span style=\"color:#99FF88FF\">Daño Dendro en el AdE</span>.<br/><br/><span style=\"color:#FFD780FF\">Mantener pulsado</span><br/>Puede usarse cuando se tenga al menos 1 gota de <link kind=\"effect\" id=\"11190008\"><span style=\"color:#FFD780FF\">rocío de la espesura</span></link>. Lauma consume todo el rocío de la espesura para entonar la letanía del sueño eterno, lo que inflige un golpe de <span style=\"color:#99FF88FF\">Daño Dendro en el AdE</span> y otro de <span style=\"color:#99FF88FF\">Daño Dendro en el AdE</span> considerado como daño de Florecimiento Lunar. Por cada gota de rocío de la espesura consumida, Lauma obtiene 1 <link kind=\"effect\" id=\"11190002\"><span style=\"color:#FFD780FF\">cántico lunar</span></link>. Lauma puede consumir un máximo de 3 gotas de rocío de la espesura de esta manera cada vez que use su Habilidad Elemental manteniéndola pulsada.<br/><br/>Además, cuando Lauma golpea a un enemigo con su Habilidad Elemental o con santuario bosquescarcha, la <span style=\"color:#99FF88FF\">RES Dendro</span> y la <span style=\"color:#80C0FFFF\">RES Hydro</span> de dicho enemigo se reducen durante 10 s.",
       "info": "",
       "attributes": [
         {
@@ -1415,7 +1415,7 @@
       "id": "1006",
       "type": 1,
       "title": "Hola...",
-      "text": "#Abre los ojos. Me llamo Lauma, y este lugar es el tranquilo bosque donde la luz de la Luna Escarchada aún se extiende en toda su gloria. Vayas a donde vayas, la mirada de los cielos te seguirá. Ahora, cierra los ojos. Ya no volverás a estar perdid{F#a}{M#o}."
+      "text": "Abre los ojos. Me llamo Lauma, y este lugar es el tranquilo bosque donde la luz de la Luna Escarchada aún se extiende en toda su gloria. Vayas a donde vayas, la mirada de los cielos te seguirá. Ahora, cierra los ojos. Ya no volverás a estar perdido."
     },
     {
       "id": "1101",
@@ -1487,7 +1487,7 @@
       "id": "1004",
       "type": 1,
       "title": "Buenas noches... (II)",
-      "text": "#Las estrellas ya se han dado las buenas noches. Ahora nos toca a nosotr{F#a}{M#o}s."
+      "text": "Las estrellas ya se han dado las buenas noches. Ahora nos toca a nosotros."
     },
     {
       "id": "2001",
@@ -1504,13 +1504,13 @@
     {
       "id": "2003",
       "type": 1,
-      "title": "#Sobre nosotr{F#a}{M#o}s - Arroyos",
+      "title": "Sobre nosotros - Arroyos",
       "text": "Los arroyos de los bosques siempre desembocan en el mar. Quizás nuestro encuentro también fue cosa del destino."
     },
     {
       "id": "2002",
       "type": 1,
-      "title": "#Sobre nosotr{F#a}{M#o}s - Plantas",
+      "title": "Sobre nosotros - Plantas",
       "text": "Las plantas clavan sus raíces en la tierra, y crecen hacia arriba y hacia abajo a la vez. Al igual que las estrellas y el abismo no tienen fin, espero que nuestro futuro también sea así."
     },
     {
@@ -1649,7 +1649,7 @@
       "id": "7001",
       "type": 1,
       "title": "Cumpleaños...",
-      "text": "#Te entrego esta daga bendita a ti, que eres {F#la predilecta}{M#el predilecto} del fulgor de la luna y los bosques en calma. Una daga no tiene por qué ser un objeto de crueldad, pues también se usan como elementos simbólicos en las ceremonias de rezo.\\nPor supuesto, tú eres libre de usarla como prefieras."
+      "text": "Te entrego esta daga bendita a ti, que eres el predilecto del fulgor de la luna y los bosques en calma. Una daga no tiene por qué ser un objeto de crueldad, pues también se usan como elementos simbólicos en las ceremonias de rezo.\\nPor supuesto, tú eres libre de usarla como prefieras."
     },
     {
       "id": "8001",
@@ -1845,6 +1845,11 @@
     "11190007": {
       "name": "Ascenso",
       "description": "Efecto especial de aumento de daño que se calcula de forma independiente con respecto a otros efectos de aumento de daño.",
+      "color": ""
+    },
+    "11190008": {
+      "name": "Rocío de la espesura",
+      "description": "El equipo obtendrá este recurso cuando un personaje del mismo cause una reacción de Florecimiento Lunar.<br/>Tras causar una reacción de Florecimiento Lunar, el equipo recibirá una gota de rocío de la espesura cada 2.5 s durante 2.5 s. Se podrá acumular un máximo de 3 gotas de rocío de la espesura a la vez. Si se causa otra reacción de Florecimiento Lunar durante este tiempo, la duración del efecto se reiniciará.",
       "color": ""
     }
   }

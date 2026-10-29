@@ -17,7 +17,7 @@ export interface Attributes {
     cost_type?: string;
     card_type:  string;
     energy:     Energy[];
-    source?:    string;
+    source:     string;
     tags?:      string[];
     food?:      Artifact;
     artifact?:  Artifact;
